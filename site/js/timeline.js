@@ -13,7 +13,7 @@ function renderTime(){
   const up=sc.parent&&byId[sc.parent]?`<button class="ixbtn" onclick="cur='${sc.parent}';renderTime()" title="Show the group that contains ${esc(sc.name)}">↑ Parent group: ${esc(byId[sc.parent].name)}</button>`:"";
   const MODES=[["sub","Subdivisions"],["genera","All genera"],["div","Diversity"]];
   const what={sub:`the stratigraphic ranges (PBDB) of the direct subdivisions of <b>${esc(sc.name)}</b>`,genera:`the range of every genus in <b>${esc(sc.name)}</b>, oldest first`,
-    div:`how many genera of <b>${esc(sc.name)}</b> are known at each moment (thickness), with its <b>ghost lineage</b> (dashed) — the time it must already have existed because the group it belongs to is older than its own first fossil`}[TLV];
+    div:`how many genera of <b>${esc(sc.name)}</b> are known at each moment (thickness), with its <b>ghost lineage</b> (dashed) — the time it must already have existed because a sister group is securely recorded before its own first fossil`}[TLV];
   const head=`<h2>${esc(sc.name)} through time</h2><div class="tlbar"><span class="seg tlseg">${MODES.map(([k,l])=>`<button class="${TLV===k?"on":""}" onclick="TLV='${k}';renderTime()">${l}</button>`).join("")}</span>${up}</div>
     <p class="note">Shows ${what}${byId[c0].type!=="clade"?`, with <i>${esc(byId[c0].name)}</i> highlighted`:""}. Follows the entry selected in the encyclopedia; click a group to go down into it.</p>`;
   if(!R[scope]){$("#view").innerHTML=`<div class="tlv">${head}<div class="card" style="margin-top:12px"><p style="margin:0">No genus of ${esc(sc.name)} has stratigraphic ranges in the atlas yet — so far only the Pterosauria entries carry ages.</p></div></div>`;return}
@@ -23,8 +23,10 @@ function renderTime(){
   // diversity: genera alive at each moment (range-through), per row
   const alive=(id,t)=>{const gs=byId[id].type==="genus"?[GN[id]]:allGenera(id).map(g=>GN[g.name]).filter(Boolean);let n=0;for(const g of gs)if(g.fad>=t&&g.lad<=t)n++;return n};
   const hlPath=new Set(path(c0).map(n=>n.id));
-  // in Diversity the window also covers the parent group's oldest record, where the ghost lineage starts
-  const PG=TLV==="div"&&sc.parent&&byId[sc.parent]?allGenera(sc.parent).map(g=>GN[g.name]).filter(Boolean):[],PF=PG.length?Math.max(...PG.map(g=>g.fad)):null;
+  // ghost lineage reference: the SISTER groups (the other subdivisions of the parent), each counted from the
+  // youngest possible age of its oldest record (fad_firm), so imprecisely dated occurrences cannot stretch it
+  const SIB=TLV==="div"&&sc.parent&&byId[sc.parent]?children[sc.parent].filter(k=>k!==scope).flatMap(k=>byId[k].type==="genus"?[GN[k]]:allGenera(k).map(g=>GN[g.name])).filter(Boolean):[];
+  const REF=SIB.length?SIB.reduce((a,g)=>(g.fad_firm??g.fad)>(a.fad_firm??a.fad)?g:a):null,PF=REF?(REF.fad_firm??REF.fad):null;
   const A0=Math.max(R[scope].fad,PF||0),B0=R[scope].lad,pad=(A0-B0)*0.04+1,A=A0+pad,B=Math.max(B0-pad,0);
   const W=1000,L=230,rowH=TLV==="div"?190:15,x=v=>L+(A-v)/(A-B)*(W-L-10),Hh=rows.length*rowH,HD=40;
   // overview: the whole history of the Earth (Hadean to today) with this window marked
@@ -55,7 +57,7 @@ function renderTime(){
       for(let v=st;v<=mx;v+=st){const d=hh*v/mx;guides+=`<line x1="${L}" x2="${W-10}" y1="${cy-d}" y2="${cy-d}" stroke="#000" opacity=".08"/><line x1="${L}" x2="${W-10}" y1="${cy+d}" y2="${cy+d}" stroke="#000" opacity=".08"/><text x="${L-6}" y="${cy-d+3}" font-size="9.5" text-anchor="end" fill="#7a7266">${v}</text>`}
       // ghost lineage: from the oldest record of the parent group (the split from its sister groups happened by then) to this group's first record
       const pf=PF;
-      const ghost=pf&&pf>rg.fad+0.01?`<line x1="${x(pf)}" x2="${a}" y1="${cy}" y2="${cy}" stroke="${col}" stroke-width="2" stroke-dasharray="5 4"/><text x="${x(pf)+3}" y="${cy-6}" font-size="9.5" fill="#7a7266">ghost lineage (oldest ${esc(byId[sc.parent].name)}: ${fmtMa(pf)})</text>`:"";
+      const ghost=pf&&pf>rg.fad+0.01?`<line x1="${x(pf)}" x2="${a}" y1="${cy}" y2="${cy}" stroke="${col}" stroke-width="2" stroke-dasharray="5 4"/><text x="${x(pf)+3}" y="${cy-6}" font-size="9.5" fill="#7a7266">ghost lineage: sister group already present by ${fmtMa(pf)} (${esc(REF.name)})</text>`:"";
       const ki=r.c.indexOf(mx);
       bar=`${guides}${ghost}<polygon points="${top.join(" ")} ${bot.join(" ")}" fill="${col}" opacity=".8"/><text x="10" y="${cy+18}" font-size="10.5" fill="#7a7266">peak ${mx} genera</text><text x="10" y="${cy+32}" font-size="10.5" fill="#7a7266">around ${fmtMa(ts_[ki])}</text><text x="${L-6}" y="${cy+3}" font-size="9.5" text-anchor="end" fill="#7a7266">0</text>`}
     else bar=`<rect x="${a}" y="${y+(isC?0:1)}" width="${b-a}" height="${isC?11:9}" rx="2" fill="${col}" opacity="${isC&&!on?.7:1}"/>`;

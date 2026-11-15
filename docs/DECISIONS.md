@@ -82,3 +82,10 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Diversity mode shows the selected group as a whole (not one spindle per subdivision), with
   its own ghost lineage back to the oldest record of its parent group. All-genera bars are
   coloured by subdivision.
+- Ghost lineages are measured against the sister groups (other subdivisions of the parent),
+  each dated by its firm first appearance (`fad_firm`: youngest possible age of the oldest
+  occurrence, or the end of the first stage named when there are no dated occurrences). The
+  earlier rule used the maximum possible age of the parent's oldest record, so broadly dated
+  occurrences (Caelestiventus "Late Triassic–Early Jurassic", Pterodactylus "Angulata /
+  Kimmeridgian") gave almost every group a long ghost lineage. Groups in polytomies still get
+  one when a sister is securely older, as they should.
