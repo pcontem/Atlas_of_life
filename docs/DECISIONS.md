@@ -53,3 +53,5 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Radial view restyled after an example from the owner (circular phylogeny): tips aligned on the
   outer circle, internal groups on equally spaced level rings, elbow branches, coloured sectors
   for the main groups (the largest group is split into its sub-clades, max 12 colours).
+- Radial sectors: each tip is coloured by the least inclusive open group that contains it (not
+  by the top-level group), so colours follow the part of the tree being explored.

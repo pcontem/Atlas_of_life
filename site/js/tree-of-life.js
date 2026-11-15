@@ -1,7 +1,10 @@
 /* Atlas of Life — Tree of life view (D3). Not a cladogram: an outline of the classification. */
 const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",rroot="vida";
   const DX=22,DY=270,RING=150;
-  function visTree(id){const n=byId[id];return{id,children:n.type==="clade"&&open.has(id)?children[id].map(visTree):null}}
+  // radial order puts open sub-groups first, so the tips that sit directly in each group are contiguous on the circle
+  function visTree(id){const n=byId[id];if(!(n.type==="clade"&&open.has(id)))return{id,children:null};
+    let ks=children[id];if(layout==="radial"){const o=k=>byId[k].type==="clade"&&open.has(k)&&children[k].length;ks=[...ks.filter(o),...ks.filter(k=>!o(k))]}
+    return{id,children:ks.map(visTree)}}
   function render(focusId){
     $("#view").innerHTML=`<div id="cwrap"><svg id="csvg"><defs><clipPath id="cc"><circle r="10"/></clipPath></defs><g id="cg"></g></svg>
       <div class="ctools"><span class="cbox"><input id="csearch" type="search" placeholder="Search a clade or genus…" autocomplete="off"><div id="cres"></div></span><button data-a="go">Search</button><button data-a="prune" title="Close every node except the path to the highlighted one">Prune</button><button data-a="root">Root</button><button data-a="collapse">Collapse all</button><button data-a="up" class="ronly" title="Centre the radial view on the parent group">↑ Parent group</button><span class="lay"><button data-l="linear">Linear</button><button data-l="radial">Radial</button></span></div>
@@ -54,20 +57,18 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
     // SVG arcs need the large-arc flag when parent and child are more than half a turn apart, otherwise the arc goes the short way round
     const elbow=l=>{const s=l.source,c=l.target,da=c.x-s.x;return `M${P(s.x,s.y)}A${s.y},${s.y} 0 ${Math.abs(da)>Math.PI?1:0} ${da>0?1:0} ${P(c.x,s.y)}L${P(c.x,c.y)}`};
     g.selectAll("circle.ring").data(rad?d3.range(1,root.height+1).map(i=>i*root.y_step):[]).join("circle").attr("class","ring").attr("r",d=>d).lower();
-    // coloured sectors behind the tip labels, one per group directly under the centre, named on the outside
+    // coloured sectors behind the tip labels: every tip takes the colour of the LEAST inclusive open group that holds it,
+    // i.e. one sector per open group over the tips sitting directly in it (sub-groups get their own sectors)
     const SEC=["#f3e36b","#f2a7c8","#9fd8ef","#c9b8f2","#f7c9a3","#a9c5a0","#9ee6d3","#f19be8","#f5b071","#b7e08f","#ef8fb0","#a8c3f0"];
-    // groups: start with the clades under the centre, then keep splitting the biggest open one into its sub-clades
-    // (up to 12 colours) so no single colour covers most of the circle
-    const isG=c=>!!c.children;/* only open groups get a colour; closed groups are single tips */let groups=rad?(root.children||[]).filter(isG):[];
-    for(let guard=0;rad&&guard<40;guard++){const tot=root.leaves().length;const big=groups.filter(c=>c.children&&c.leaves().length>tot*0.3).sort((a,b)=>b.leaves().length-a.leaves().length)[0];
-      if(!big)break;const sub=big.children.filter(isG);if(!sub.length||groups.length-1+sub.length>12)break;groups=groups.flatMap(c=>c===big?sub:[c])}
-    groups.sort((a,b)=>a.leaves()[0].x-b.leaves()[0].x);
-    const half=Math.PI/Math.max(1,root.leaves().length),secs=groups.length>1?groups.map((c,i)=>{const ls=c.leaves();return{id:c.data.id,i,a0:ls[0].x-half,a1:ls[ls.length-1].x+half}}):[];
+    const half=Math.PI/Math.max(1,root.leaves().length);
+    let secs=rad?root.descendants().filter(d=>d.children).map(d=>{const t=d.children.filter(c=>!c.children);if(!t.length)return null;
+      return{id:d.data.id,a0:Math.min(...t.map(c=>c.x))-half,a1:Math.max(...t.map(c=>c.x))+half}}).filter(Boolean).sort((a,b)=>a.a0-b.a0):[];
+    if(secs.length<2)secs=[];secs.forEach((s,i)=>s.i=i);
     const arc=d3.arc().innerRadius(rad?root.R-8:0).outerRadius(rad?root.R+215:0).startAngle(s=>s.a0).endAngle(s=>s.a1);
     g.selectAll("path.sec").data(secs,s=>s.id).join("path").attr("class","sec").attr("d",arc).attr("fill",s=>SEC[s.i%SEC.length]).lower();
     g.selectAll("text.secl").data(secs,s=>s.id).join("text").attr("class","secl").each(function(s){const a=(s.a0+s.a1)/2,deg=a*180/Math.PI-90,flip=a>Math.PI,r=root.R+228;
       d3.select(this).attr("transform",`rotate(${deg}) translate(${r},0)${flip?" rotate(180)":""}`).attr("text-anchor",flip?"end":"start").attr("dy","0.35em")
-        .text(byId[s.id].name+" ("+byId[s.id].stat.g+")")});
+        .text((s.a1-s.a0)*(root.R+228)<11?"":byId[s.id].name+" ("+byId[s.id].stat.g+")")});
     L.join("path").attr("class","lk").attr("d",rad?elbow:d3.linkHorizontal().x(d=>d.y).y(d=>d.x));
     const N=g.selectAll("g.nd").data(root.descendants(),d=>d.data.id).join(enter=>{const e=enter.append("g").attr("class","nd");
         e.append("circle").attr("class","c");e.append("image").attr("class","im");e.append("text").attr("class","tx");e.append("title");return e});
