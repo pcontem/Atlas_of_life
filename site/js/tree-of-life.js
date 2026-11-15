@@ -51,13 +51,14 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
     const L=g.selectAll("path.lk").data(root.links(),d=>d.target.data.id);
     // radial: one ring per level; each child's branch leaves its parent's ring along an arc, then runs straight out to its own ring
     const P=(a,r)=>`${(r*Math.sin(a)).toFixed(1)},${(-r*Math.cos(a)).toFixed(1)}`;
-    const elbow=l=>{const s=l.source,c=l.target;return `M${P(s.x,s.y)}A${s.y},${s.y} 0 0 ${c.x>s.x?1:0} ${P(c.x,s.y)}L${P(c.x,c.y)}`};
+    // SVG arcs need the large-arc flag when parent and child are more than half a turn apart, otherwise the arc goes the short way round
+    const elbow=l=>{const s=l.source,c=l.target,da=c.x-s.x;return `M${P(s.x,s.y)}A${s.y},${s.y} 0 ${Math.abs(da)>Math.PI?1:0} ${da>0?1:0} ${P(c.x,s.y)}L${P(c.x,c.y)}`};
     g.selectAll("circle.ring").data(rad?d3.range(1,root.height+1).map(i=>i*root.y_step):[]).join("circle").attr("class","ring").attr("r",d=>d).lower();
     // coloured sectors behind the tip labels, one per group directly under the centre, named on the outside
     const SEC=["#f3e36b","#f2a7c8","#9fd8ef","#c9b8f2","#f7c9a3","#a9c5a0","#9ee6d3","#f19be8","#f5b071","#b7e08f","#ef8fb0","#a8c3f0"];
     // groups: start with the clades under the centre, then keep splitting the biggest open one into its sub-clades
     // (up to 12 colours) so no single colour covers most of the circle
-    const isG=c=>c.children||byId[c.data.id].type==="clade";let groups=rad?(root.children||[]).filter(isG):[];
+    const isG=c=>!!c.children;/* only open groups get a colour; closed groups are single tips */let groups=rad?(root.children||[]).filter(isG):[];
     for(let guard=0;rad&&guard<40;guard++){const tot=root.leaves().length;const big=groups.filter(c=>c.children&&c.leaves().length>tot*0.3).sort((a,b)=>b.leaves().length-a.leaves().length)[0];
       if(!big)break;const sub=big.children.filter(isG);if(!sub.length||groups.length-1+sub.length>12)break;groups=groups.flatMap(c=>c===big?sub:[c])}
     groups.sort((a,b)=>a.leaves()[0].x-b.leaves()[0].x);
