@@ -212,6 +212,8 @@ def check_volume(vdir, backbone, all_names):
             err("X1", f"excluded {x.get('name')}", f"status must be one of {sorted(EXCLUDED_STATUS)}")
         if not (x.get("ref") or x.get("source")):
             err("X1", f"excluded {x.get('name')}", "needs ref or source")
+        if x.get("parent") not in clade_ids and x.get("parent") not in {g["name"] for g in genera.values()}:
+            err("X2", f"excluded {x.get('name')}", f"parent '{x.get('parent')}' must be a clade or genus of this volume")
         ex_names.add(x.get("name"))
     for p, c in clades.items():
         check_clade(c, p, clade_ids, v["root"])

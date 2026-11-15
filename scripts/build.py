@@ -4,6 +4,7 @@
 
 Reads   entries/<volume>/_volume.yaml, clades/*.yaml, genera/*.yaml, excluded.yaml
         data/tree/backbone.json  (tree-of-life nodes that are not entries)
+        data/raw/timescale/pbdb_ics_2024.json  (ICS chart intervals, for search by time)
 Writes  site/data.json  (everything the encyclopedia shows)
         site/life.json  (the whole tree: backbone + every entry)
 
@@ -71,10 +72,13 @@ def main():
             tree.append([g["name"], g["name"], g["parent"], "e", "", "g", 1])
         excluded += load(d / "excluded.yaml") or []
         metas.append(v)
+    ts = json.loads((ROOT / "data/raw/timescale/pbdb_ics_2024.json").read_text())
+    timescale = [dict(name=r[0], type=r[1], base=r[2], top=r[3], parent=r[4], no=r[5], color=r[6]) for r in ts["records"]]
     m = metas[0]
     data = dict(meta=dict(title="Atlas of Life", group=", ".join(x["title"] for x in metas), built=m["built"],
                           method=m["method"]),
-                clades=clades, genera=genera, excluded=excluded)
+                clades=clades, genera=genera, excluded=excluded,
+                timescale=timescale, timescale_source=ts["reference"] + " Via " + ts["source"] + ".")
     (ROOT / "site/data.json").write_text(json.dumps(data, ensure_ascii=False))
     (ROOT / "site/life.json").write_text(json.dumps(tree, ensure_ascii=False))
     print(f"built: {len(genera)} genera, {len(clades)} clades, {len(excluded)} excluded names, {len(tree)} tree nodes")

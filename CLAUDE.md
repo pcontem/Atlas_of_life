@@ -24,7 +24,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `entries/<volume>/excluded.yaml` | names left out (nomina dubia etc.) and why | yes |
 | `entries/<volume>/_volume.yaml` | volume root clade and where it attaches to the tree | rarely |
 | `data/tree/backbone.json` | tree-of-life nodes that are not entries yet | rarely |
-| `data/raw/` | downloads from PBDB, Wikipedia, Commons, PhyloPic (provenance) | **never** |
+| `data/raw/` | downloads from PBDB, Wikipedia, Commons, PhyloPic (provenance); `timescale/` = ICS chart v2024/12 via PBDB | **never** |
 | `scripts/build.py` | entries → `site/data.json` + `site/life.json` | code |
 | `scripts/validate.py` | checks the rules in §4 | code |
 | `scripts/fmt.py` | canonical YAML layout | code |
@@ -153,7 +153,10 @@ curation: {...}          # Q1
 ### 4.3 Excluded names (`excluded.yaml`)
 
 `name`, `author`, `status` (X1 E: `nomen dubium | nomen nudum | nomen inquirendum |
-junior synonym`), `ref` (the publication that established the status) and/or `source`.
+junior synonym`), `ref` (the publication that established the status) and/or `source`,
+`parent` (X2 E: the clade id or genus of the volume where the name belongs — the genus for a
+species of a valid genus, otherwise the deepest atlas group among its PBDB parent taxa) and
+`placement` (how the parent was chosen).
 Only real, published names whose validity is rejected go here. Misspellings, duplicates and
 vernacular forms are simply corrected in the entries and **not** listed.
 
@@ -259,9 +262,29 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
   except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
   double-clicking the info card of the selected node; double-clicking a tree node never opens it.
-- Timeline: follows the selected entry; condensed by default (3 levels of sub-clades, loose
-  genera grouped), with an "All genera" toggle.
-- Index: A–Z with filters (name, type, clade). Sidebar search with keyboard support.
+- Timeline: follows the selected entry. Three modes: **Subdivisions** (default: only the direct
+  subdivisions — sub-groups as their total range, genera individually; for a genus, its parent
+  group's subdivisions with the genus highlighted), **All genera** (every genus in the group,
+  oldest first, coloured by the subdivision it belongs to, with a legend — this replaces the old
+  "Genera through time" card on clade pages) and **Diversity** (one spindle for the selected
+  group itself: thickness = its genera known at each moment, range-through, scale on the left;
+  dashed **ghost lineages** only inside the group's own range — stretches between its first and
+  last record with no genus on record. No comparison with sister groups: the atlas classification
+  is not resolved into binary splits, so sister comparisons would invent ghost lineages). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
+  come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
+  two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
+  "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the Cenozoic stays
+  smaller than the Mesozoic) with eon/era/period rows and marks where the window lies. Click a
+  row = select; double-click a genus = open its entry.
+  Entry pages use the same units for their small time bar. Never hard-code period boundaries.
+- Clade pages: genera sitting directly in the clade are split into "Genera placed directly here"
+  and **"Incertae sedis"** (those with `incertae_sedis: true`).
+- Excluded names: follows the selected entry and lists only the names placed **directly** in it,
+  plus the sub-groups that hold more (with counts) and a "↑ Parent group" button.
+- Index: A–Z with **stackable filters**: pick **Search by** (Name / Clade / Time), type, press
+  Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
+  (and the text being typed). Time = an ICS interval name or an age/range in Ma, matched when the
+  stratigraphic range overlaps it. A type filter (Full entries / Clades / Genera / All) applies on top. Sidebar search with keyboard support.
 - No group gets special treatment in code because it is the pilot (no hard-coded "pterosauria"
   defaults); the start page is the root of the tree.
 - Images and libraries are served locally (no remote requests at runtime).

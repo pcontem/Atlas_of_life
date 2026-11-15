@@ -1,7 +1,16 @@
 /* Atlas of Life — Excluded names and About & sources pages. */
 /* ---------- excluded ---------- */
-function renderExcluded(){const x=D.excluded.slice().sort((a,b)=>a.name.localeCompare(b.name));
-  $("#view").innerHTML=`<div class="xl"><h2>Excluded names</h2><p class="note">Names not accepted as valid taxa and therefore left out of the tree: <i>nomina dubia</i> (not diagnosable) and <i>nomina nuda</i> (published without a valid description), as recorded by the Paleobiology Database.</p><table><tr><th>Name</th><th>Author</th><th>Status</th><th>Source</th></tr>${x.map(e=>`<tr><td><i>${esc(e.name)}</i></td><td>${esc(e.author)}</td><td>${esc(e.status)}</td><td class="note">${esc(e.ref||e.source)}</td></tr>`).join("")}</table></div>`}
+// only the names placed DIRECTLY in the selected node; sub-groups that hold more are listed to go down into
+function renderExcluded(){const node=byId[cur]?cur:"vida",n=byId[node];
+  const here=D.excluded.filter(e=>e.parent===node).sort((a,b)=>a.name.localeCompare(b.name));
+  const cnt={};for(const e of D.excluded){let k=e.parent;while(k&&byId[k]){cnt[k]=(cnt[k]||0)+1;k=byId[k].parent}}
+  const subs=(children[node]||[]).filter(k=>cnt[k]).sort((a,b)=>byId[a].name.localeCompare(byId[b].name));
+  const up=n.parent&&byId[n.parent]?`<button class="ixbtn" onclick="cur='${n.parent}';renderExcluded();renderSide()">↑ Parent group: ${esc(byId[n.parent].name)}</button>`:"";
+  const nm=x=>byId[x].type==="genus"?`<i>${esc(byId[x].name)}</i>`:esc(byId[x].name);
+  $("#view").innerHTML=`<div class="xl"><h2>Excluded names in ${nm(node)}</h2><p class="note">Names not accepted as valid taxa and therefore left out of the tree: <i>nomina dubia</i> (not diagnosable) and <i>nomina nuda</i> (published without a valid description), as recorded by the Paleobiology Database. Only names placed <b>directly</b> in ${nm(node)} are listed; each is placed in the deepest group of the atlas that PBDB assigns it to. This page follows the entry selected in the encyclopedia.</p>${up}
+    ${subs.length?`<h3 style="margin-top:14px">Sub-groups with excluded names</h3><div>${subs.map(k=>`<a class="pill" onclick="cur='${k}';renderExcluded();renderSide()">${nm(k)} <span class="note">${cnt[k]}</span></a>`).join("")}</div>`:""}
+    ${here.length?`<table style="margin-top:14px"><tr><th>Name</th><th>Author</th><th>Status</th><th>Source</th></tr>${here.map(e=>`<tr><td><i>${esc(e.name)}</i></td><td>${esc(e.author)}</td><td>${esc(e.status)}</td><td class="note">${esc(e.ref||e.source)}</td></tr>`).join("")}</table>`
+      :`<p class="note" style="margin-top:14px">No excluded names are placed directly in ${nm(node)}.${subs.length?" See the sub-groups above.":""}</p>`}</div>`}
 
 /* ---------- about ---------- */
 function renderAbout(){const n=D.genera.length,li=D.genera.filter(g=>(g.images||[]).some(i=>i.kind==="life")).length,fo=D.genera.filter(g=>(g.images||[]).length&&!(g.images||[]).some(i=>i.kind==="life")).length,gl=D.genera.filter(g=>g.silhouette&&g.silhouette.genus_level).length;

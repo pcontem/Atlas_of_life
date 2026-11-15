@@ -55,3 +55,41 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   for the main groups (the largest group is split into its sub-clades, max 12 colours).
 - Radial sectors: each tip is coloured by the least inclusive open group that contains it (not
   by the top-level group), so colours follow the part of the tree being explored.
+- Index search has a "Search by" selector: Name, Clade or Time. Time search uses the ICS
+  International Chronostratigraphic Chart v2024/12 as served by PBDB (`data/raw/timescale/`),
+  the same timescale PBDB uses for the genus ages; an entry matches when its range overlaps the
+  interval. Note: the Timeline and the genus time bar still draw the Jurassic/Cretaceous boundary
+  at 145 Ma (older chart); to align with 143.1 Ma in a later change.
+- Timeline and entry time bars cover the whole of Earth history (Hadean to Holocene) using the
+  ICS chart from PBDB, including the Precambrian eons, eras and periods; the hard-coded
+  Triassic–Cretaceous bands (with the old 145 Ma boundary) are gone.
+- Index filters stack (AND): each Name / Clade / Time filter becomes a removable chip, so e.g.
+  "inside Pterodactyloidea" + "lived in the Aptian" can be combined.
+- Timeline simplified: only the direct subdivisions of the selected group (no condensed / all
+  genera toggle), with a "↑ Parent group" button. The Earth-history strip uses a logarithmic
+  age scale, because recent time is divided much more finely in the ICS chart.
+- Earth-history strip: log offset raised from 1 to 50 Myr (owner: Cenozoic was too wide);
+  now Cenozoic ≈ 19 %, Mesozoic ≈ 21 %, Paleozoic ≈ 15 %, Precambrian ≈ 45 % of the strip.
+  In the Timeline a double-click on a genus opens its entry.
+- Excluded names are placed in the tree (`parent` in excluded.yaml, from PBDB taxonomy) and the
+  Excluded names page shows only those placed directly in the selected node, with sub-groups to
+  go down into and a parent button, so every level stays navigable.
+- "Genera through time" moved from clade pages to the Timeline (mode "All genera"). New Timeline
+  mode "Diversity": genera known at each moment per subdivision (range-through counting from the
+  PBDB first/last appearances) and ghost lineages back to the oldest record of the parent group
+  (minimum divergence implied by the record; no phylogenetic dating is attempted).
+- Clade pages list incertae sedis genera under their own heading "Incertae sedis".
+- Diversity mode shows the selected group as a whole (not one spindle per subdivision), with
+  its own ghost lineage back to the oldest record of its parent group. All-genera bars are
+  coloured by subdivision.
+- Ghost lineages are measured against the sister groups (other subdivisions of the parent),
+  each dated by its firm first appearance (`fad_firm`: youngest possible age of the oldest
+  occurrence, or the end of the first stage named when there are no dated occurrences). The
+  earlier rule used the maximum possible age of the parent's oldest record, so broadly dated
+  occurrences (Caelestiventus "Late Triassic–Early Jurassic", Pterodactylus "Angulata /
+  Kimmeridgian") gave almost every group a long ghost lineage. Groups in polytomies still get
+  one when a sister is securely older, as they should.
+- Ghost lineages revised again (owner): drawn only within the group's own range, as gaps in its
+  record between first and last appearance. Comparisons with sister groups were dropped — the
+  classification is full of polytomies, not binary splits, so they produced more ghost lineages
+  than a resolved phylogeny would. (`fad_firm` removed from the build; no longer needed.)
