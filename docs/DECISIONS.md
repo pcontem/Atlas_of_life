@@ -79,3 +79,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   PBDB first/last appearances) and ghost lineages back to the oldest record of the parent group
   (minimum divergence implied by the record; no phylogenetic dating is attempted).
 - Clade pages list incertae sedis genera under their own heading "Incertae sedis".
+- Diversity mode shows the selected group as a whole (not one spindle per subdivision), with
+  its own ghost lineage back to the oldest record of its parent group. All-genera bars are
+  coloured by subdivision.

@@ -265,9 +265,10 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 - Timeline: follows the selected entry. Three modes: **Subdivisions** (default: only the direct
   subdivisions — sub-groups as their total range, genera individually; for a genus, its parent
   group's subdivisions with the genus highlighted), **All genera** (every genus in the group,
-  oldest first — this replaces the old "Genera through time" card on clade pages) and
-  **Diversity** (bar thickness = genera known at each moment, range-through; dashed **ghost
-  lineage** from the oldest record of the group shown to each subdivision's first record). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
+  oldest first, coloured by the subdivision it belongs to, with a legend — this replaces the old
+  "Genera through time" card on clade pages) and **Diversity** (one spindle for the selected
+  group itself: thickness = its genera known at each moment, range-through, scale on the left;
+  dashed **ghost lineage** from the oldest record of its parent group to its own first record). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
   come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
   two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
   "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the Cenozoic stays
