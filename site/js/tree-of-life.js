@@ -44,12 +44,16 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
     if(rad){// radial: angle from the leaves, one ring per level; big enough that leaves keep ~DX px apart
       const R=Math.max(root.height*RING,root.leaves().length*DX*1.15/(2*Math.PI));
       d3.tree().size([2*Math.PI,R]).separation((a,b)=>(a.parent===b.parent?1:2)/Math.max(1,a.depth))(root);
-      root.each(d=>{d.px=d.y*Math.sin(d.x);d.py=-d.y*Math.cos(d.x)})}
+      root.y_step=root.height?R/root.height:R;root.each(d=>{d.px=d.y*Math.sin(d.x);d.py=-d.y*Math.cos(d.x)})}
     else{d3.tree().nodeSize([DX,DY]).separation((a,b)=>{const o=x=>x.children?1.6:1;return Math.max(o(a),o(b))*(a.parent===b.parent?1:1.25)})(root);
       root.each(d=>{d.px=d.y;d.py=d.x})}
     const old=anchor&&pos[anchor];pos={};root.each(d=>pos[d.data.id]=[d.px,d.py]);
     const L=g.selectAll("path.lk").data(root.links(),d=>d.target.data.id);
-    L.join("path").attr("class","lk").attr("d",rad?d3.linkRadial().angle(d=>d.x).radius(d=>d.y):d3.linkHorizontal().x(d=>d.y).y(d=>d.x));
+    // radial: one ring per level; each child's branch leaves its parent's ring along an arc, then runs straight out to its own ring
+    const P=(a,r)=>`${(r*Math.sin(a)).toFixed(1)},${(-r*Math.cos(a)).toFixed(1)}`;
+    const elbow=l=>{const s=l.source,c=l.target;return `M${P(s.x,s.y)}A${s.y},${s.y} 0 0 ${c.x>s.x?1:0} ${P(c.x,s.y)}L${P(c.x,c.y)}`};
+    g.selectAll("circle.ring").data(rad?d3.range(1,root.height+1).map(i=>i*root.y_step):[]).join("circle").attr("class","ring").attr("r",d=>d).lower();
+    L.join("path").attr("class","lk").attr("d",rad?elbow:d3.linkHorizontal().x(d=>d.y).y(d=>d.x));
     const N=g.selectAll("g.nd").data(root.descendants(),d=>d.data.id).join(enter=>{const e=enter.append("g").attr("class","nd");
         e.append("circle").attr("class","c");e.append("image").attr("class","im");e.append("text").attr("class","tx");e.append("title");return e});
     N.attr("transform",d=>`translate(${d.px},${d.py})`).each(function(d){const n=byId[d.data.id],el=d3.select(this),isC=n.type==="clade",closed=isC&&!open.has(n.id)&&children[n.id].length;
@@ -61,7 +65,7 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
       const inner=isC&&open.has(n.id)&&children[n.id].length;
       const tx=el.select("text.tx").attr("class","tx"+(isC?" cl":" gn")+(n.ficha?" fi":""));
       if(rad){const deg=d.x*180/Math.PI-90,flip=d.x>Math.PI,off=img?15:9;// labels point outwards, never upside down
-        tx.attr("transform",d.depth?`rotate(${flip?deg+180:deg})`:null).attr("x",d.depth?(flip?-off:off):-4).attr("dy",d.depth?"0.32em":"-0.9em").attr("text-anchor",d.depth&&flip?"end":"start")}
+        tx.attr("transform",d.depth?`rotate(${flip?deg+180:deg})`:null).attr("x",d.depth?(flip?-off:off):-4).attr("dy",!d.depth?"-0.9em":inner?"-0.45em":"0.32em").attr("text-anchor",d.depth&&flip?"end":"start")}
       else tx.attr("transform",null).attr("x",inner?-4:img?15:9).attr("dy",inner?"-0.75em":"0.32em").attr("text-anchor","start");
       tx
         .text((n.status==="e"&&!isC&&!n.ficha?"† ":"")+(n.name.length>32?n.name.slice(0,30)+"…":n.name)+(closed?`  (${n.stat.g})`:""));

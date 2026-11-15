@@ -48,3 +48,5 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - The Tree of life has a **Radial** layout besides the Linear one, drawn around the selected group
   (the whole tree in radial form is unreadable: ~30 rings of ancestors); both share selection, open
   groups, search, prune and the info card.
+- Radial branches are drawn as elbows (arc along the parent's ring, then a straight spoke) and
+  each classification level is one equally spaced ring, so divergence points are readable.

@@ -248,7 +248,10 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   highlighted in the Tree of life and the focus of the Timeline, and vice versa. Switching mode keeps it.
 - Tree of life: **Linear / Radial** layout switch (same selection and open groups). The radial
   view is drawn around one group (the selected clade, or the group of a selected genus; Search
-  re-centres it; "↑ Parent group" widens it; Root shows the whole tree);
+  re-centres it; "↑ Parent group" widens it; Root shows the whole tree). Radial drawing rules:
+  every level of the classification is one ring at the same distance (dashed guide rings), and
+  each branch leaves its parent along the parent's ring and then runs straight out, so you can see
+  which groups split from which;
   single click = select; double click = open/close a clade; **Search** (ranked
   suggestions, clades first, arrows + Enter) opens all sub-clades of the found clade, collapses the
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
