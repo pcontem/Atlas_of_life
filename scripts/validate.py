@@ -21,7 +21,7 @@ SOURCE_KINDS = {"original", "literature", "database", "encyclopedia"}
 LICENSE_OK = re.compile(r"^(CC0|Public domain|CC BY(-SA)? \d\.\d)$")
 SIL_LICENSE_OK = re.compile(r"creativecommons\.org/(publicdomain|licenses/by(-sa)?/)")
 CURATION = {"draft", "checked"}
-EXCLUDED_STATUS = {"nomen dubium", "nomen nudum", "nomen inquirendum", "duplicate", "misspelling", "junior synonym"}
+EXCLUDED_STATUS = {"nomen dubium", "nomen nudum", "nomen inquirendum", "junior synonym"}
 YEAR = re.compile(r"\b(1[7-9]\d\d|20\d\d)\b")
 
 problems = []  # (level, rule, where, message)
