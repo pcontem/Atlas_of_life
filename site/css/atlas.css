@@ -125,8 +125,8 @@ main.full #side{display:none}
 #stree{overflow:auto;flex:1;padding:8px 0 40px}
 .sup{font-size:11.5px;color:var(--muted);padding:2px 12px 8px;line-height:1.6}.sup a{cursor:pointer;color:var(--muted);border-bottom:1px dotted var(--muted)}
 .ixbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:14px 0 8px}
-#ixc{font:inherit;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:7px 10px;width:260px}
-#ixq{font:inherit;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:7px 10px;width:260px}
+#ixmode{font:inherit;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:6px 8px}
+#ixq{font:inherit;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:7px 10px;width:420px}
 .ixbar .seg button{font:inherit;font-size:13px;background:none;border:none;border-radius:5px;padding:5px 10px;cursor:pointer}
 .ixbar .seg button.on{background:var(--ink);color:var(--paper)}
 .ixletters{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px;position:sticky;top:0;background:var(--paper);padding:6px 0;z-index:1}

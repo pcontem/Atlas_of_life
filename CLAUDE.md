@@ -24,7 +24,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `entries/<volume>/excluded.yaml` | names left out (nomina dubia etc.) and why | yes |
 | `entries/<volume>/_volume.yaml` | volume root clade and where it attaches to the tree | rarely |
 | `data/tree/backbone.json` | tree-of-life nodes that are not entries yet | rarely |
-| `data/raw/` | downloads from PBDB, Wikipedia, Commons, PhyloPic (provenance) | **never** |
+| `data/raw/` | downloads from PBDB, Wikipedia, Commons, PhyloPic (provenance); `timescale/` = ICS chart v2024/12 via PBDB | **never** |
 | `scripts/build.py` | entries → `site/data.json` + `site/life.json` | code |
 | `scripts/validate.py` | checks the rules in §4 | code |
 | `scripts/fmt.py` | canonical YAML layout | code |
@@ -261,7 +261,9 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   double-clicking the info card of the selected node; double-clicking a tree node never opens it.
 - Timeline: follows the selected entry; condensed by default (3 levels of sub-clades, loose
   genera grouped), with an "All genera" toggle.
-- Index: A–Z with filters (name, type, clade). Sidebar search with keyboard support.
+- Index: A–Z, one search box with a **Search by** selector — **Name** (substring), **Clade**
+  (everything inside it), **Time** (an ICS interval name or an age/range in Ma; lists entries whose
+  stratigraphic range overlaps it) — plus the type filter. Sidebar search with keyboard support.
 - No group gets special treatment in code because it is the pilot (no hard-coded "pterosauria"
   defaults); the start page is the root of the tree.
 - Images and libraries are served locally (no remote requests at runtime).
