@@ -6,7 +6,7 @@ Pilot volume: **Pterosauria** — 126 genera, 21 clades, 72 excluded names.
 Every genus entry lists its species, age range, geological formations, known fossil material,
 biology, credited images (Wikimedia Commons, PhyloPic; no AI images), a size comparison with a
 1.8 m human, and its sources. The site has two linked modes: an **Encyclopedia** (entries, index,
-timeline) and a **Cladogram** of the whole tree.
+timeline) and a **Tree of life** outline of the whole classification.
 
 ## Quick start
 

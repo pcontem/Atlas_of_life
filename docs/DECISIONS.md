@@ -38,3 +38,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - The excluded-names list holds only real published names rejected as invalid (nomina dubia,
   nuda, inquirenda, junior synonyms). Misspellings and duplicates of the prototype's list
   (Linglongopterus, Diocephalus, Pterodactyle) are removed; they were never real names.
+- The "Cladogram" mode is renamed **Tree of life**: the view is an outline of the classification
+  (ranks and groups), not a cladogram built from a phylogenetic analysis. URL `#tree-of-life`
+  (the old `#cladogram` still works).
+- Tree-of-life search shows ranked suggestions and centres the found sub-tree on screen.
