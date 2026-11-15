@@ -8,6 +8,7 @@ Open them and look: this is how a change is checked before committing.
 Also fails if the page shows its "Could not load the data file" message.
 """
 import http.server, pathlib, shutil, socketserver, subprocess, sys, threading, functools
+socketserver.ThreadingTCPServer.daemon_threads = True
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "tests/out"
@@ -38,7 +39,7 @@ def main():
         def log_message(self, *a):
             pass
     handler = functools.partial(Quiet, directory=str(ROOT / "site"))
-    with socketserver.TCPServer(("127.0.0.1", 0), handler) as srv:
+    with socketserver.ThreadingTCPServer(("127.0.0.1", 0), handler) as srv:
         port = srv.server_address[1]
         threading.Thread(target=srv.serve_forever, daemon=True).start()
         bad = []
