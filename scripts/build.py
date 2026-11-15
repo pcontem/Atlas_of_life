@@ -38,7 +38,7 @@ def genus_to_site(e):
                     for f in e["formations"]],
         images=[dict(kind=i["kind"], file=i["file"], src=i["url"], page=i["page"], artist=i["artist"],
                      license=i["license"], licurl=i["license_url"], date=i["date"], caption=i["caption"],
-                     w=i["width"], h=i["height"]) for i in e["images"]],
+                     w=i["width"], h=i["height"], local=i.get("local"), review=i.get("review")) for i in e["images"]],
         sources=e["sources"],
     )
     if e["age"].get("note"):

@@ -22,6 +22,7 @@ const fmtMa=v=>v==null?"?":(v>=10?v.toFixed(1).replace(/\.0$/,""):v.toFixed(2))+
 // [name, base, top, colour] of the period containing `ma` (colour used for genus bars)
 const era=ma=>{const p=ivAt(ma,"period")||ivAt(ma,"era")||ivAt(ma,"eon");return p?[p.name,p.base,p.top,p.color]:["",0,0,"#9a9184"]};
 const imgKey=(g,k)=>"img/"+g.replace(/[^A-Za-z]/g,"")+"_"+k+".webp";
+const imgSrc=(g,im)=>im.local||imgKey(g,im.kind);/* gallery images carry their own local path */
 const silSrc=s=>s?"sil/"+s.page.split("/images/")[1]+".webp":null;
 
 

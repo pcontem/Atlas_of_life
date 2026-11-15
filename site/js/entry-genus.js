@@ -30,9 +30,11 @@ function renderFicha(id){const n=byId[id];if(!n.ficha)return renderBasic(id);if(
   if(g.isd)h+=`<span class="badge warn">incertae sedis in ${esc(byId[g.clade].name)}</span>`;
   h+=`<p class="lead">${esc(g.sum)}</p><div class="grid"><div>`;
   // images
-  h+=`<div class="card"><h3>Image</h3>`;
-  if(imgs.length){if(imgs.length>1)h+=`<div class="imgtabs">${imgs.map((im,i)=>`<button data-i="${i}" class="${i?"":"on"}">${im.kind==="life"?"Life restoration":"Fossil"}</button>`).join("")}</div>`;
-    h+=`<figure id="fig"></figure>`}else h+=`<p class="note">No openly licensed restoration or fossil photograph was found for this genus. The silhouette below is the only image.</p>`;
+  // gallery: one tab per kind (life restorations, fossils, skeletal reconstructions), thumbnails below the main image
+  const KINDS=[["life","Life restorations"],["fossil","Fossils"],["skeletal","Skeletal reconstructions"]].filter(([k])=>imgs.some(im=>im.kind===k));
+  h+=`<div class="card"><h3>Images${imgs.length>1?` <span class="note">(${imgs.length})</span>`:""}</h3>`;
+  if(imgs.length){h+=`<div class="imgtabs">${KINDS.map(([k,l],i)=>`<button data-k="${k}" class="${i?"":"on"}">${l} (${imgs.filter(im=>im.kind===k).length})</button>`).join("")}</div>`;
+    h+=`<figure id="fig"></figure><div id="thumbs" class="thumbs"></div>`}else h+=`<p class="note">No openly licensed restoration or fossil photograph was found for this genus. The silhouette below is the only image.</p>`;
   h+=`</div>`;
   h+=`<div class="card"><h3>Size</h3>${sizeDiagram(g)}</div>`;
   h+=`<div class="card"><h3>Biology</h3><p style="margin:0">${esc(g.biology)}</p></div>`;
@@ -47,7 +49,12 @@ function renderFicha(id){const n=byId[id];if(!n.ficha)return renderBasic(id);if(
   h+=`<div class="card"><h3>Species (${g.species.length})</h3><table><tr><th>Species</th><th>Authority</th><th>Interval</th></tr>${g.species.map(s=>`<tr><td><i>${esc(s.name)}</i></td><td>${esc(s.author)}</td><td>${esc(s.interval)}${s.fad?` <span class="note">${fmtMa(s.fad)}–${fmtMa(s.lad)}</span>`:""}</td></tr>`).join("")}</table><p class="note">Valid species only; nomina dubia are listed under “Excluded names”.</p></div>`;
   h+=`<div class="card"><h3>Sources</h3>${sources(g.sources)}</div></div>`;
   $("#view").innerHTML=h;
-  const show=i=>{const im=imgs[i];if(!im)return;$("#fig").innerHTML=`<div class="hero"><img src="${imgKey(g.name,im.kind)}" alt="${esc(im.caption)}" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'note',textContent:'Image unavailable offline — see the source link.'}))"></div><figcaption>${esc(im.caption)}. ${im.artist?"By "+esc(im.artist)+", ":""}${lic(im.license,im.licurl)}${im.date?", "+esc(String(im.date).slice(0,10)):""} — <a href="${esc(im.page)}" target="_blank" rel="noopener">Wikimedia Commons</a>.${im.kind==="life"?" <br>Paleoart as used on English Wikipedia; reconstruction is interpretive and has not been independently reviewed for this atlas.":""}</figcaption>`;
-    document.querySelectorAll(".imgtabs button").forEach(b=>b.classList.toggle("on",+b.dataset.i===i))};
-  document.querySelectorAll(".imgtabs button").forEach(b=>b.onclick=()=>show(+b.dataset.i));show(0);
+  const srcOf=im=>im.local||imgKey(g.name,im.kind);
+  const show=i=>{const im=imgs[i];if(!im)return;$("#fig").innerHTML=`<div class="hero"><img src="${srcOf(im)}" alt="${esc(im.caption)}" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'note',textContent:'Image unavailable offline — see the source link.'}))"></div><figcaption>${esc(im.caption)}. ${im.artist?"By "+esc(im.artist)+", ":""}${lic(im.license,im.licurl)}${im.date?", "+esc(String(im.date).slice(0,10)):""} — <a href="${esc(im.page)}" target="_blank" rel="noopener">Wikimedia Commons</a>.${im.kind!=="fossil"?` <br>Reconstruction: interpretive${im.review==="accepted"?", reviewed for this atlas":", not yet reviewed for this atlas"}.`:""}</figcaption>`;
+    document.querySelectorAll("#thumbs img").forEach(t=>t.classList.toggle("on",+t.dataset.i===i))};
+  const tab=k=>{const ix=imgs.map((im,i)=>[im,i]).filter(([im])=>im.kind===k).map(([,i])=>i);
+    $("#thumbs").innerHTML=ix.length>1?ix.map(i=>`<img data-i="${i}" src="${srcOf(imgs[i])}" alt="" loading="lazy">`).join(""):"";
+    document.querySelectorAll("#thumbs img").forEach(t=>t.onclick=()=>show(+t.dataset.i));
+    document.querySelectorAll(".imgtabs button").forEach(b=>b.classList.toggle("on",b.dataset.k===k));show(ix[0])};
+  document.querySelectorAll(".imgtabs button").forEach(b=>b.onclick=()=>tab(b.dataset.k));if(KINDS.length)tab(KINDS[0][0]);
 }
