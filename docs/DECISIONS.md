@@ -68,3 +68,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Timeline simplified: only the direct subdivisions of the selected group (no condensed / all
   genera toggle), with a "↑ Parent group" button. The Earth-history strip uses a logarithmic
   age scale, because recent time is divided much more finely in the ICS chart.
+- Earth-history strip: log offset raised from 1 to 50 Myr (owner: Cenozoic was too wide);
+  now Cenozoic ≈ 19 %, Mesozoic ≈ 21 %, Paleozoic ≈ 15 %, Precambrian ≈ 45 % of the strip.
+  In the Timeline a double-click on a genus opens its entry.

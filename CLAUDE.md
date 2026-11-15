@@ -264,8 +264,9 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   genus highlighted). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
   come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
   two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
-  "Earth history" strip above is **logarithmic** (log of age + 1 Myr) with eon/era/period rows
-  and marks where the window lies.
+  "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the Cenozoic stays
+  smaller than the Mesozoic) with eon/era/period rows and marks where the window lies. Click a
+  row = select; double-click a genus = open its entry.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
 - Index: A–Z with **stackable filters**: pick **Search by** (Name / Clade / Time), type, press
   Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
