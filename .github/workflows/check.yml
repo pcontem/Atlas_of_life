@@ -1,0 +1,16 @@
+name: check
+# Runs on every push and pull request: entries must be formatted, valid,
+# and site/data.json must match what build.py produces from them.
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - run: python3 scripts/fmt.py --check
+      - run: python3 scripts/validate.py
+      - run: python3 scripts/build.py && git diff --exit-code site/data.json site/life.json
+      - run: python3 scripts/validate.py --strict || echo "::notice::consolidation not finished (see docs/CONSOLIDATION.md)"
