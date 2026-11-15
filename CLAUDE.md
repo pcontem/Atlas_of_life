@@ -262,19 +262,19 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
   except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
   double-clicking the info card of the selected node; double-clicking a tree node never opens it.
-- Timeline: follows the selected entry. Three modes: **Subdivisions** (default: only the direct
-  subdivisions — sub-groups as their total range, genera individually; for a genus, its parent
-  group's subdivisions with the genus highlighted), **All genera** (every genus in the group,
-  oldest first, coloured by the subdivision it belongs to, with a legend — this replaces the old
-  "Genera through time" card on clade pages) and **Diversity** (one spindle for the selected
-  group itself: thickness = its genera known at each moment, range-through, scale on the left;
-  dashed **ghost lineages** only inside the group's own range — stretches between its first and
-  last record with no genus on record. No comparison with sister groups: the atlas classification
-  is not resolved into binary splits, so sister comparisons would invent ghost lineages). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
-  come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
-  two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
-  "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the Cenozoic stays
-  smaller than the Mesozoic) with eon/era/period rows and marks where the window lies. Click a
+- Timeline: follows the selected entry. Two modes, **Ranges** and **Diversity**, plus a
+  **Resolution** menu (default **Genus**; then Level 1 = direct subdivisions, Level 2, … down to
+  the deepest sub-group). Ranges draws one bar per unit at that resolution (genera that sit higher
+  than the chosen level are kept), coloured by the direct subdivision it belongs to, with a legend.
+  Diversity draws one spindle for the selected group: thickness = number of units of that
+  resolution known at each moment (range-through), scale on the left; dashed **ghost lineages**
+  only inside the group's own range — stretches between its first and last record with no genus
+  on record (no comparison with sister groups: the classification is not resolved into binary
+  splits). Time units come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main
+  axis is linear with two rows chosen by window length (eon/era, era/period, period/epoch or
+  epoch/age); the "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the
+  Cenozoic stays smaller than the Mesozoic) with eon/era/period rows and marks where the window
+  lies. "↑ Parent group" goes up; clicking a group row goes down into it. Click a
   row = select; double-click a genus = open its entry.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
 - Clade pages: genera sitting directly in the clade are split into "Genera placed directly here"

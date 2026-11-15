@@ -93,3 +93,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   record between first and last appearance. Comparisons with sister groups were dropped — the
   classification is full of polytomies, not binary splits, so they produced more ghost lineages
   than a resolved phylogeny would. (`fad_firm` removed from the build; no longer needed.)
+- Timeline: "Subdivisions / All genera" replaced by a Resolution menu (Genus by default, then
+  sub-group levels); bars always coloured by direct subdivision. The same menu sets what the
+  Diversity mode counts (genera, or sub-groups of a given level).
