@@ -5,7 +5,7 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={};
   function render(focusId){
     $("#view").innerHTML=`<div id="cwrap"><svg id="csvg"><defs><clipPath id="cc"><circle r="10"/></clipPath></defs><g id="cg"></g></svg>
       <div class="ctools"><span class="cbox"><input id="csearch" type="search" placeholder="Search a clade or genus…" autocomplete="off"><div id="cres"></div></span><button data-a="go">Search</button><button data-a="prune" title="Close every node except the path to the highlighted one">Prune</button><button data-a="root">Root</button><button data-a="collapse">Collapse all</button></div>
-      <div class="chint">Search: opens all subgroups of a clade and collapses the rest · Prune: closes everything except the path to the highlighted node · Click: select · Double-click: open / close a group · Switch to Encyclopedia (top menu) to read the selected node · Drag and scroll to move and zoom</div><div id="cinfo"></div></div>`;
+      <div class="chint">Search: opens all subgroups of a clade and collapses the rest · Prune: closes everything except the path to the highlighted node · Click: select · Double-click: open / close a group · Double-click the info card or switch to Encyclopedia (top menu) to read the selected node · Drag and scroll to move and zoom</div><div id="cinfo"></div></div>`;
     svg=d3.select("#csvg");g=d3.select("#cg");
     zoom=d3.zoom().scaleExtent([0.08,3]).on("zoom",e=>{t=e.transform;g.attr("transform",t)});
     svg.call(zoom).on("dblclick.zoom",null);
@@ -73,7 +73,8 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={};
     $("#cinfo").innerHTML=`<div class="ci">${im?`<img src="${imgKey(n.name,im.kind)}" alt="">`:""}<div><div class="cpath">${esc(path)}</div><div class="cname">${n.type==="genus"?"<i>":""}${esc(n.name)}${n.type==="genus"?"</i>":""}</div>
       <div class="note">${n.type==="clade"?n.stat.g+" genera":""}${n.ficha&&n.type==="genus"?esc(n.early||"")+" · "+(n.ws?"wingspan "+n.ws[1]+" m":""):""}${!n.ficha&&n.status?(n.status==="e"?" · extinct":" · living"):""}</div>
       ${n.ficha?`<p style="margin:6px 0 0;font-size:13px">${esc(n.sum)}</p>`:n.note?`<p style="margin:6px 0 0;font-size:13px">${esc(n.note)}</p>`:""}
-      <div class="note" style="margin-top:6px">Switch to <b>Encyclopedia</b> above to read ${n.ficha?"its entry":"its basic page"}.</div></div></div>`}
+      <div class="note" style="margin-top:6px">Double-click this card (or switch to <b>Encyclopedia</b> above) to read ${n.ficha?"its entry":"its basic page"}.</div></div></div>`;
+    const card=$("#cinfo .ci");card.title="Double-click to open in the encyclopedia";card.ondblclick=()=>{location.hash=id}}
   function show(id){location.hash="tree-of-life";setTimeout(()=>isolate(id),30)}
   return{render,focus,show,isolate};
 })();

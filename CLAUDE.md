@@ -249,7 +249,8 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 - Tree of life: single click = select; double click = open/close a clade; **Search** (ranked
   suggestions, clades first, arrows + Enter) opens all sub-clades of the found clade, collapses the
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
-  except the path to the selected node. Opening an entry is done only from the top bar.
+  except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
+  double-clicking the info card of the selected node; double-clicking a tree node never opens it.
 - Timeline: follows the selected entry; condensed by default (3 levels of sub-clades, loose
   genera grouped), with an "All genera" toggle.
 - Index: A–Z with filters (name, type, clade). Sidebar search with keyboard support.

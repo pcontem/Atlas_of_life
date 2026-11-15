@@ -42,3 +42,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   (ranks and groups), not a cladogram built from a phylogenetic analysis. URL `#tree-of-life`
   (the old `#cladogram` still works).
 - Tree-of-life search shows ranked suggestions and centres the found sub-tree on screen.
+- In the Tree of life, double-clicking the info card of the selected node opens its entry in the
+  encyclopedia (in addition to the Encyclopedia button). Double-clicking a node still only
+  opens/closes it.
