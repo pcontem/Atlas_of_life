@@ -96,3 +96,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Timeline: "Subdivisions / All genera" replaced by a Resolution menu (Genus by default, then
   sub-group levels); bars always coloured by direct subdivision. The same menu sets what the
   Diversity mode counts (genera, or sub-groups of a given level).
+- Timeline resolution is chosen by taxonomic rank (Genus, Family, Superfamily, Suborder…), not by
+  depth. Clade entries gain `taxon_rank` from PBDB taxonomy (several pterosaur clades are unranked
+  there and are never offered as a resolution). Bars use a more vivid palette.

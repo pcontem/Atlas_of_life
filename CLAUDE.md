@@ -138,6 +138,8 @@ Manual rules for genera:
 id: tapejaridae          # C1 E  lowercase = file name
 name: Tapejaridae
 rank: clade              # C1 E
+taxon_rank: family       # C4 E  Linnaean rank from PBDB/literature, or "unranked clade"
+taxon_rank_source: ...   # C4 E
 parent: azhdarchoidea    # C1 E  clade of the same volume; null only for the volume root
 wikipedia: Tapejaridae   # article title used as a source (may differ from the clade name)
 summary: One sentence.   # C2 E
@@ -148,6 +150,8 @@ sources: [...]           # S1 E, S2 S (needs primary literature)
 curation: {...}          # Q1
 ```
 - **C3 E** Parent chains reach the root without loops; every clade contains at least one genus.
+- **C4 E** `taxon_rank` (family, superfamily, suborder, order… or `unranked clade`) with
+  `taxon_rank_source` (PBDB taxonomy or a publication). Used by the Timeline resolution menu.
 - **M6** Clades are only created when needed to place genera with consensus; no empty ranks.
 
 ### 4.3 Excluded names (`excluded.yaml`)
@@ -263,9 +267,10 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
   double-clicking the info card of the selected node; double-clicking a tree node never opens it.
 - Timeline: follows the selected entry. Two modes, **Ranges** and **Diversity**, plus a
-  **Resolution** menu (default **Genus**; then Level 1 = direct subdivisions, Level 2, … down to
-  the deepest sub-group). Ranges draws one bar per unit at that resolution (genera that sit higher
-  than the chosen level are kept), coloured by the direct subdivision it belongs to, with a legend.
+  **Resolution** menu by taxonomic rank (Genus by default, then Family, Superfamily, Suborder…,
+  only the ranks present below the selected group; ranks come from `taxon_rank` in the clade
+  entries). Ranges draws one bar per unit of that rank (genera outside any unit of that rank are
+  kept), in a vivid palette, coloured by the direct subdivision it belongs to, with a legend.
   Diversity draws one spindle for the selected group: thickness = number of units of that
   resolution known at each moment (range-through), scale on the left; dashed **ghost lineages**
   only inside the group's own range — stretches between its first and last record with no genus
