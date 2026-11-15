@@ -21,6 +21,8 @@ SOURCE_KINDS = {"original", "literature", "database", "encyclopedia"}
 LICENSE_OK = re.compile(r"^(CC0|Public domain|CC BY(-SA)? \d\.\d)$")
 SIL_LICENSE_OK = re.compile(r"creativecommons\.org/(publicdomain|licenses/by(-sa)?/)")
 CURATION = {"draft", "checked"}
+TAXON_RANKS = {"kingdom", "phylum", "class", "subclass", "order", "suborder", "infraorder", "superfamily",
+               "family", "subfamily", "tribe", "unranked clade"}
 EXCLUDED_STATUS = {"nomen dubium", "nomen nudum", "nomen inquirendum", "junior synonym"}
 YEAR = re.compile(r"\b(1[7-9]\d\d|20\d\d)\b")
 
@@ -188,6 +190,10 @@ def check_clade(e, path, clade_ids, root):
             err("C1", w, "the volume root has parent: null (attach_to in _volume.yaml places it)")
     elif e.get("parent") not in clade_ids:
         err("C1", w, f"parent '{e.get('parent')}' is not a clade of this volume")
+    if e.get("taxon_rank") not in TAXON_RANKS:
+        err("C4", w, f"taxon_rank must be one of {sorted(TAXON_RANKS)} (from PBDB or the literature, with taxon_rank_source)")
+    elif not e.get("taxon_rank_source"):
+        err("C4", w, "taxon_rank_source is empty")
     if not (e.get("summary") or "").strip():
         err("C2", w, "summary is empty")
     if len(e.get("diagnosis") or []) < 2:

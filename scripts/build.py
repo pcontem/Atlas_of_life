@@ -49,7 +49,7 @@ def genus_to_site(e):
 
 
 def clade_to_site(e):
-    return dict(id=e["id"], name=e["name"], parent=e["parent"], wiki=e["wikipedia"], sum=e["summary"],
+    return dict(id=e["id"], name=e["name"], parent=e["parent"], wiki=e["wikipedia"], sum=e["summary"], trank=e.get("taxon_rank"),
                 diag=e["diagnosis"], notes=e["notes"], sources=e["sources"])
 
 

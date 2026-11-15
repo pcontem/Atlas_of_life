@@ -138,6 +138,8 @@ Manual rules for genera:
 id: tapejaridae          # C1 E  lowercase = file name
 name: Tapejaridae
 rank: clade              # C1 E
+taxon_rank: family       # C4 E  Linnaean rank from PBDB/literature, or "unranked clade"
+taxon_rank_source: ...   # C4 E
 parent: azhdarchoidea    # C1 E  clade of the same volume; null only for the volume root
 wikipedia: Tapejaridae   # article title used as a source (may differ from the clade name)
 summary: One sentence.   # C2 E
@@ -148,6 +150,8 @@ sources: [...]           # S1 E, S2 S (needs primary literature)
 curation: {...}          # Q1
 ```
 - **C3 E** Parent chains reach the root without loops; every clade contains at least one genus.
+- **C4 E** `taxon_rank` (family, superfamily, suborder, order… or `unranked clade`) with
+  `taxon_rank_source` (PBDB taxonomy or a publication). Used by the Timeline resolution menu.
 - **M6** Clades are only created when needed to place genera with consensus; no empty ranks.
 
 ### 4.3 Excluded names (`excluded.yaml`)
@@ -245,7 +249,7 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 
 - Two modes in the top bar: **Encyclopedia** and **Tree of life** (it is an outline of the
   classification, not a true cladogram, so never call it "cladogram" in the interface).
-  Encyclopedia sub-tabs: **Entry, Index, Timeline, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
+  Encyclopedia sub-tabs: **Index, Entry, Timeline, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
   stays highlighted on its sub-tabs).
 - **One selection shared by all views** (`cur` in `core.js`): the entry being read is the node
   highlighted in the Tree of life and the focus of the Timeline, and vice versa. Switching mode keeps it.
@@ -262,19 +266,20 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
   except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
   double-clicking the info card of the selected node; double-clicking a tree node never opens it.
-- Timeline: follows the selected entry. Three modes: **Subdivisions** (default: only the direct
-  subdivisions — sub-groups as their total range, genera individually; for a genus, its parent
-  group's subdivisions with the genus highlighted), **All genera** (every genus in the group,
-  oldest first, coloured by the subdivision it belongs to, with a legend — this replaces the old
-  "Genera through time" card on clade pages) and **Diversity** (one spindle for the selected
-  group itself: thickness = its genera known at each moment, range-through, scale on the left;
-  dashed **ghost lineages** only inside the group's own range — stretches between its first and
-  last record with no genus on record. No comparison with sister groups: the atlas classification
-  is not resolved into binary splits, so sister comparisons would invent ghost lineages). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
-  come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
-  two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
-  "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the Cenozoic stays
-  smaller than the Mesozoic) with eon/era/period rows and marks where the window lies. Click a
+- Timeline: follows the selected entry. Two modes, **Ranges** and **Diversity**, plus a
+  **Resolution** menu by taxonomic rank (Genus by default, then Family, Superfamily, Suborder…,
+  only the ranks present below the selected group; ranks come from `taxon_rank` in the clade
+  entries). Ranges draws one bar per unit of that rank (genera outside any unit of that rank are
+  kept), in a vivid palette, coloured by the direct subdivision it belongs to, with a legend.
+  Diversity draws one spindle for the selected group: thickness = number of units of that
+  resolution known at each moment (range-through), scale on the left; dashed **ghost lineages**
+  only inside the group's own range — stretches between its first and last record with no genus
+  on record (no comparison with sister groups: the classification is not resolved into binary
+  splits). Time units come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main
+  axis is linear with two rows chosen by window length (eon/era, era/period, period/epoch or
+  epoch/age); the "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the
+  Cenozoic stays smaller than the Mesozoic) with eon/era/period rows and marks where the window
+  lies. "↑ Parent group" goes up; clicking a group row goes down into it. Click a
   row = select; double-click a genus = open its entry.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
 - Clade pages: genera sitting directly in the clade are split into "Genera placed directly here"
