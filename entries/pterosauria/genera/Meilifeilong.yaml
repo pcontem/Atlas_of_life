@@ -1,0 +1,97 @@
+name: Meilifeilong
+rank: genus
+parent: chaoyangopteridae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2023
+type_species: Meilifeilong youhao
+type_species_note: ''
+summary: The best-preserved chaoyangopterid, from the Early Cretaceous Jiufotang Formation of Liaoning, China.
+size:
+  wingspan_m: [2.05, 2.18]
+  note: M. youhao about 2.16 m; M. sanyainus 2.05–2.18 m.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Meilifeilong youhao
+  authority: Wang et al. 2023
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Meilifeilong sanyainus
+  authority: (Ji et al. 2023)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Jiufotang
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: IVPP V 16059 (M. youhao) — Xiaotaizi layer, Jiufotang Formation, Jianchang, Liaoning.
+  material: Nearly complete skeleton and skull missing the tail; second species M. sanyainus from a complete skull
+    and skeleton.
+  completeness: complete
+  exceptional: ''
+biology: Low backward-extending crest; a toothless ground-foraging azhdarchoid.
+images:
+- kind: life
+  file: Meilifeilong.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Meilifeilong.png/960px-Meilifeilong.png
+  page: https://commons.wikimedia.org/wiki/File:Meilifeilong.png
+  artist: Lucas Paleoarts
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 25/08/2025
+  caption: Life restoration of M. youhao
+  width: 1214
+  height: 1459
+  review: unreviewed
+- kind: fossil
+  file: Meilifeilong_referred_specimen_(IVPP_V_17955).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Meilifeilong_referred_specimen_%28IVPP_V_17955%29.jpg/960px-Meilifeilong_referred_specimen_%28IVPP_V_17955%29.jpg
+  page: https://commons.wikimedia.org/wiki/File:Meilifeilong_referred_specimen_(IVPP_V_17955).jpg
+  artist: X. Wang, W. W. A. Kellner, S. Jiang, H. Chen, F. R. Costa, X. Cheng, X. Zhang, B. C. Vila Nova, D. de
+    Almeida Campos, J. M. Sayão, T. Rodrigues, R. A. M. Bantim, A. A. F. Saraiva &amp; Z. Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-12-21'
+  caption: IVPP V 17955, a partial skull referred to M. youhao
+  width: 1772
+  height: 1183
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f/vector.svg
+  page: https://www.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Chaoyangopteridae
+  matched: Chaoyangopteridae
+  genus_level: false
+  w: 3677
+  h: 2096
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Meilifeilong”. English Wikipedia, revision 1353886163.
+  url: https://en.wikipedia.org/w/index.php?title=Meilifeilong&oldid=1353886163
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

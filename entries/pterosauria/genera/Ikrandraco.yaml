@@ -1,0 +1,83 @@
+name: Ikrandraco
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: Recovered in Lonchodraconidae (sister to Lonchodraco).
+authority: Wang et al. 2014
+type_species: Ikrandraco avatar
+type_species_note: ''
+summary: Pterosaur with a blade-like keel under its lower jaw and none on the upper jaw, from the Jiufotang Formation
+  of Liaoning, China.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Ikrandraco avatar
+  authority: Wang et al. 2014
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: X. Wang, T. Rodrigues, and S. Jiang, X. Cheng, A. W. A. Kellner. 2014. An Early Cretaceous pterosaur
+    with an unusual mandibular crest from China and a potential novel feeding strategy. Scientific Reports 4(6329)
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: IVPP V18199 — Jiufotang Formation, Liaoning.
+  material: Partial skeleton with skull (28.7 cm), neck vertebrae, sternum, wings and foot; second skull IVPP 18406.
+  completeness: partial
+  exceptional: Unique crest combination with a hook-like rear process.
+biology: Small cylindrical teeth; the describers suggested the crest might be an adaptation for skim-feeding, though
+  they did not regard skimming as likely.
+images:
+- kind: fossil
+  file: Ikrandraco-Paleozoological_Museum_of_China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ikrandraco-Paleozoological_Museum_of_China.jpg/960px-Ikrandraco-Paleozoological_Museum_of_China.jpg
+  page: https://commons.wikimedia.org/wiki/File:Ikrandraco-Paleozoological_Museum_of_China.jpg
+  artist: Morosaurus millenii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04 00:00:19'
+  caption: I. avatar holotype, Paleozoological Museum of China
+  width: 2592
+  height: 1728
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b/vector.svg
+  page: https://www.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alcione elainus
+  matched: Pteranodontoidea
+  genus_level: false
+  w: 1912
+  h: 1056
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang, T. Rodrigues, and S. Jiang, X. Cheng, A. W. A. Kellner. 2014. An Early Cretaceous pterosaur with
+    an unusual mandibular crest from China and a potential novel feeding strategy. Scientific Reports 4(6329)
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ikrandraco (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ikrandraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ikrandraco”. English Wikipedia, revision 1369640079.
+  url: https://en.wikipedia.org/w/index.php?title=Ikrandraco&oldid=1369640079
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

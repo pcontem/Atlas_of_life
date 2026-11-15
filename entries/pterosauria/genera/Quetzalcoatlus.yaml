@@ -1,0 +1,129 @@
+name: Quetzalcoatlus
+rank: genus
+parent: azhdarchidae
+incertae_sedis: false
+placement_note: A 2025 analysis suggested Q. lawsoni may not be closely related to Q. northropi.
+authority: Lawson 1975
+type_species: Quetzalcoatlus northropi
+type_species_note: ''
+summary: 'One of the largest flying animals ever: a giant azhdarchid from the latest Cretaceous of Texas.'
+size:
+  wingspan_m: [4.5, 11]
+  note: Q. northropi about 10–11 m; Q. lawsoni about 4.5–5 m.
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Quetzalcoatlus lawsoni
+  authority: Andres and Langston 2021
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: 'B. Andres and W. Langston Jr. 2021. Morphology and taxonomy of Quetzalcoatlus Lawson 1975 (Pterodactyloidea:
+    Azhdarchoidea). Journal of Vertebrate Paleontology 41(2):46-202'
+- name: Quetzalcoatlus northropi
+  authority: Lawson 1975
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: D. A. Lawson. 1975. Could pterosaurs fly?. Science 188:676-677
+formations:
+- formation: Javelina
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Maastrichtian
+  occurrences: 7
+  ma: [66.0, 72.2]
+- formation: Black Peaks
+  group: Tornillo
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+fossil_material:
+  holotype: TxVP 41450-3 (Q. northropi) — Javelina Formation, Big Bend, Texas (found 1971).
+  material: Holotype a partial left wing; Q. lawsoni known from many individuals with skull material.
+  completeness: multiple
+  exceptional: ''
+biology: Usually reconstructed as a terrestrial stalker hunting small animals on foot, like storks or ground hornbills;
+  Q. lawsoni lived around alkaline lakes and may have eaten aquatic invertebrates.
+images:
+- kind: life
+  file: Quetzalcoatlus_northropi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Quetzalcoatlus_northropi.png/960px-Quetzalcoatlus_northropi.png
+  page: https://commons.wikimedia.org/wiki/File:Quetzalcoatlus_northropi.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-18'
+  caption: Speculative life reconstruction of Q. northropi
+  width: 4000
+  height: 3746
+  review: unreviewed
+- kind: fossil
+  file: Quetzalcoatlus_northropi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Quetzalcoatlus_northropi.jpg/960px-Quetzalcoatlus_northropi.jpg
+  page: https://commons.wikimedia.org/wiki/File:Quetzalcoatlus_northropi.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-19'
+  caption: Skeletal mount of Q. northropi at Senckenberg Museum
+  width: 2034
+  height: 1280
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/25b01b89-c1f6-4146-92f4-ea44d6a779f7/vector.svg
+  page: https://www.phylopic.org/images/25b01b89-c1f6-4146-92f4-ea44d6a779f7
+  attribution: Marie Aimée ALLARD
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Serpennata lawsoni
+  matched: Quetzalcoatlinae
+  genus_level: false
+  w: 1536
+  h: 715
+  flight_pose: true
+sources:
+- kind: original
+  text: D. A. Lawson. 1975. Could pterosaurs fly?. Science 188:676-677
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Quetzalcoatlus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Quetzalcoatlus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Quetzalcoatlus”. English Wikipedia, revision 1382251519.
+  url: https://en.wikipedia.org/w/index.php?title=Quetzalcoatlus&oldid=1382251519
+- kind: literature
+  text: 'Andres, B.; Langston, W. Jr. (2021). "Morphology and taxonomy of Quetzalcoatlus Lawson 1975 (Pterodactyloidea:
+    Azhdarchoidea)". Journal of Vertebrate Paleontology. 41 (sup1): 46–202..41S..46A. doi:10.1080/02724634.2021.1907587.'
+- kind: literature
+  text: 'Langston, W., Pausé, P. H., & Spears, R. G. (1986). Rebuilding the world''s biggest flying creature: the
+    second coming of Quetzalcoatlus northropi. Geology of the Big Bend Area and Solitario Dome, 125-28.'
+- kind: literature
+  text: 'Kellner, Alexander W. A.; Langston, Wann Jr. (1996). "Cranial remains of Quetzalcoatlus (Pterosauria, Azhdarchidae)
+    from Late Cretaceous sediments of Big Bend National Park, Texas". Journal of Vertebrate Paleontology. 16 (2):
+    222–231..16..222K. doi:10.1080/02724634.1996.10011310.'
+- kind: literature
+  text: 'Padian, K.; Cunningham, J.R.; Langston, W. Jr.; Conway, J. (2021). "Functional morphology of Quetzalcoatlus
+    Lawson 1975 (Pterodactyloidea: Azhdarchoidea)". Journal of Vertebrate Paleontology. 41 (sup1): 218–251..41S.218P.
+    doi:10.1080/02724634.2020.1780247.'
+- kind: literature
+  text: 'Lehman, Thomas M. (2021). "Habitat of the giant pterosaur Quetzalcoatlus Lawson 1975 (Pterodactyloidea:
+    Azhdarchoidea): A paleoenvironmental reconstruction of the Javelina Formation (Upper Cretaceous), Big Bend National
+    Park, Texas". Journal of Vertebrate Paleontology. 41 (sup1): 21–45..41S..21L. doi:10.1080/02724634.2019.1593184.'
+- kind: literature
+  text: 'Andres, Brian (December 14, 2021). "Phylogenetic systematics of Quetzalcoatlus Lawson 1975 (Pterodactyloidea:Azhdarchoidea)".
+    Journal of Vertebrate Paleontology. 41 (sup1): 203–217..41S.203A. doi:10.1080/02724634.2020.1801703.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

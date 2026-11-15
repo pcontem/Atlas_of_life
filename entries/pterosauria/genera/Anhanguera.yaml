@@ -1,0 +1,198 @@
+name: Anhanguera
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: ''
+authority: Campos and Kellner 1985
+type_species: Anhanguera blittersdorffi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Iconic crested ornithocheiriform from the Early Cretaceous of Brazil (Romualdo Formation), with rounded
+  crests on the jaws and a spoon-shaped tooth rosette.
+size:
+  wingspan_m: [4.6, 4.6]
+  note: Wingspan of about 4.6 m for the largest specimens.
+age:
+  first_ma: 137.05
+  last_ma: 93.9
+  early_interval: Valanginian
+  late_interval: Cenomanian
+  pbdb_occurrences: 18
+  note: ''
+species:
+- name: Anhanguera araripensis
+  authority: (Wellnhofer 1985)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: P. Wellnhofer. 1985. Neue Pterosaurier aus der Santana-Formation (Apt) der Chapada do Araripe, Brasilien.
+    Palaeontographica Abteilung A 187:105-182
+- name: Anhanguera blittersdorffi
+  authority: Campos and Kellner 1985
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: D. d. A. Campos and A. W. A. Kellner. 1985. Panorama of the flying reptiles study in Brazil and South
+    America. Anais da Academia Brasileira de Ciências 57(4):453-466
+- name: Anhanguera cuvieri
+  authority: (Bowerbank 1851)
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: R. Owen. 1861. Palaeontology, or a Systematic Summary of Extinct Animals and their Geological Relations.
+    Second Edition. Adam and Charles Black, Edinburgh
+- name: Anhanguera ligabuei
+  authority: (Dalla Vecchia 1993)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: F. M. Dalla Vecchia. 1993. Cearadactylus? ligabuei nov. sp., a new early Cretaceous (Aptian) pterosaur
+    from Chapada do Araripe (Northeastern Brazil). Bollettino della Società Paleontologica Italiana 32(3):401-409
+- name: Anhanguera piscator
+  authority: (Kellner and Tomida 2000)
+  first_ma: 119.57
+  last_ma: 93.9
+  interval: Aptian–Cenomanian
+  reference: A. W. A. Kellner and Y. Tomida. 2000. Description of a new species of Anhangueridae (Pterodactyloidea)
+    with comments on the pterosaur fauna from the Santana Formation (Aptian-Albian), northeastern Brazil. National
+    Science Museum Monograph 17:1-135
+- name: Anhanguera robustus
+  authority: (Wellnhofer 1987)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: P. Wellnhofer. 1987. New crested pterosaurs from the Lower Cretaceous of Brazil. Mitteilungen der Bayerischen
+    Staatssammlung für Paläontologie und historische Geologie 27:175-186
+- name: Anhanguera santanae
+  authority: (Wellnhofer 1985)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: P. Wellnhofer. 1985. Neue Pterosaurier aus der Santana-Formation (Apt) der Chapada do Araripe, Brasilien.
+    Palaeontographica Abteilung A 187:105-182
+formations:
+- formation: Romualdo
+  group: Santana
+  members: []
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 10
+  ma: [113.2, 119.57]
+- formation: West Melbury Marly Chalk
+  group: Chalk
+  members: [Cambridge Greensand]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Albian
+  occurrences: 3
+  ma: [100.5, 106.3]
+- formation: Toolebuc
+  group: Rolling Downs
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Late Albian
+  occurrences: 2
+  ma: [100.5, 106.3]
+- formation: Ifezouane
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+- formation: Bahariya
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Giza]
+  interval: Late Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+- formation: Rosa Blanca
+  group: ''
+  members: [Carrizal]
+  country: Colombia
+  regions: []
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+fossil_material:
+  holotype: Type species A. blittersdorffi, based on a complete skull from Romualdo Formation concretions, Ceará–Pernambuco,
+    Brazil.
+  material: Complete skulls; A. piscator is known from a nearly complete three-dimensional skeleton.
+  completeness: multiple
+  exceptional: Uncrushed 3D preservation in carbonate concretions.
+biology: 'Fish-eater: long, angled conical teeth in a rosette for seizing slippery prey near the water surface.
+  Jaw crests varied between individuals and may relate to age or sex.'
+images:
+- kind: life
+  file: Anhanguera_piscator_jconway.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/10/Anhanguera_piscator_jconway.jpg
+  page: https://commons.wikimedia.org/wiki/File:Anhanguera_piscator_jconway.jpg
+  artist: John Conway
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  date: ''
+  caption: Restoration of A. piscator
+  width: 500
+  height: 367
+  review: unreviewed
+- kind: fossil
+  file: Anhanguera_blittersdorffi_holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Anhanguera_blittersdorffi_holotype.jpg/960px-Anhanguera_blittersdorffi_holotype.jpg
+  page: https://commons.wikimedia.org/wiki/File:Anhanguera_blittersdorffi_holotype.jpg
+  artist: FELIPE L. PINHEIRO, ALEXANDER W.A. KELLNER, JOÃO L. DA SILVA, RUDAH R.C. DUQUE, JULIANA M. SAYÃO, ESAÚ
+    V. DE ARAÚJO, FABIANA R. COSTA, RICHARD BUCHMANN, GABRIELA M. CERQUEIRA, LUCAS CANEJO, VICTOR BECCARI, RENAN
+    A.M. BANTIM, BORJA HOLGADO &amp; RUBI V. PÊGAS
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025'
+  caption: A. blittersdorffi holotype skull (MN 4805-V)
+  width: 1444
+  height: 982
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69/vector.svg
+  page: https://www.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69
+  attribution: Leon P. A. M. Claessens, Patrick M. O'Connor, David M. Unwin
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Anhanguera santanae
+  matched: Anhanguera
+  genus_level: true
+  w: 2993
+  h: 985
+  flight_pose: true
+sources:
+- kind: original
+  text: D. d. A. Campos and A. W. A. Kellner. 1985. Panorama of the flying reptiles study in Brazil and South America.
+    Anais da Academia Brasileira de Ciências 57(4):453-466
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anhanguera (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anhanguera
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anhanguera”. English Wikipedia, revision 1372151762.
+  url: https://en.wikipedia.org/w/index.php?title=Anhanguera&oldid=1372151762
+- kind: literature
+  text: Campos, D. de A., and Kellner, A. W. (1985). "Um novo exemplar de Anhanguera blittersdorffi (Reptilia, Pterosauria)
+    da formação Santana, Cretaceo Inferior do Nordeste do Brasil." In Congresso Brasileiro de Paleontologia, Rio
+    de Janeiro, Resumos, p. 13.
+- kind: literature
+  text: Duque, Rudah Ruano C.; Pinheiro, Felipe L.; Barreto, Alcina Magnólia Franca (October 11, 2022). "The ontogenetic
+    growth of Anhangueridae (Pterosauria, Pterodactyloidea) premaxillary crests as revealed by a crestless Anhanguera
+    specimen". Journal of Vertebrate Paleontology. 42 (1) e2116984..42E6984D. doi:10.1080/02724634.2022.2116984.
+- kind: literature
+  text: 'Pinheiro, F.L.; Rodrigues, Taissa (2017). "Anhanguera taxonomy revisited: is our understanding of Santana
+    Group pterosaur diversity biased by poor biological and stratigraphic control?". PeerJ. 5 e3285. doi:10.7717/peerj.3285.'
+- kind: literature
+  text: Piazentin, Lucas C.; Navarro, Bruno A.; Pêgas, R.V.; Carvalho, Alberto B.; Zaher, Hussam (October 2025).
+    "A new pterosaur mandible from the Lower Cretaceous of Brazil, and its implications on the taxonomy of the genus
+    Anhanguera (Pterosauria, Anhangueridae)". Journal of South American Earth Sciences. 165 105684. doi:10.1016/j.jsames.2025.105684.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

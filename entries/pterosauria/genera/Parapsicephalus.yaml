@@ -1,0 +1,92 @@
+name: Parapsicephalus
+rank: genus
+parent: rhamphorhynchidae
+incertae_sedis: false
+placement_note: Sometimes referred to Dimorphodontia because of its convex skull roof, but generally considered
+  a rhamphorhynchid.
+authority: Arthaber 1919
+type_species: Parapsicephalus purdoni
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Long-tailed rhamphorhynchid from the Early Jurassic (Toarcian) of Whitby, Yorkshire.
+size:
+  wingspan_m: [1, 3.26]
+  note: 'Wellnhofer: 1 m; a referred humerus gives 1.68–3.26 m.'
+age:
+  first_ma: 184.2
+  last_ma: 182.9
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Parapsicephalus purdoni
+  authority: (Newton 1888)
+  first_ma: 184.2
+  last_ma: 182.9
+  interval: Toarcian
+  reference: E. T. Newton. 1888. On the skull, brain and auditory organ of a new species of pterosaurian (Scaphognathus
+    purdoni) from the Upper Lias near Whitby, Yorkshire. Philosophical Transactions of the Royal Society of London,
+    Series B 179:503-537
+formations:
+- formation: Alum Shale
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Toarcian
+  occurrences: 1
+  ma: [182.9, 184.2]
+- formation: Whitby Mudstone
+  group: ''
+  members: [Alum Shale]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Toarcian
+  occurrences: 1
+  ma: [182.9, 184.2]
+fossil_material:
+  holotype: Type skull (14 cm preserved) — Whitby Mudstone (Alum Shale), Yorkshire, England.
+  material: Skull; a referred humerus.
+  completeness: fragmentary
+  exceptional: ''
+biology: Medium-sized; possibly a low crest along the snout.
+images:
+- kind: fossil
+  file: Parapsicephalus_purdoni_AMNH_1694_cast.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Parapsicephalus_purdoni_AMNH_1694_cast.jpg/960px-Parapsicephalus_purdoni_AMNH_1694_cast.jpg
+  page: https://commons.wikimedia.org/wiki/File:Parapsicephalus_purdoni_AMNH_1694_cast.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-08-13'
+  caption: Fossil skull showing brain endocast (AMNH 1694)
+  width: 2206
+  height: 2800
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a4c37c72-e235-40c0-8ecb-6e567b3d2e1f/vector.svg
+  page: https://www.phylopic.org/images/a4c37c72-e235-40c0-8ecb-6e567b3d2e1f
+  attribution: John Conway
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Dimorphodon macronyx
+  matched: Macronychoptera
+  genus_level: false
+  w: 1536
+  h: 568
+  flight_pose: true
+sources:
+- kind: original
+  text: G. V. Arthaber. 1919. Studien über Flugsaurier auf Grund der Bearbeitung des Wiener exemplars von Dorygnathus
+    banthensis Theod Sp. Denkschriften der königlichen Akademie der Wissenschaften. Mathematisch-Naturwissenschaftlichen
+    Klasse 97:391-464
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Parapsicephalus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Parapsicephalus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Parapsicephalus”. English Wikipedia, revision 1314542430.
+  url: https://en.wikipedia.org/w/index.php?title=Parapsicephalus&oldid=1314542430
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

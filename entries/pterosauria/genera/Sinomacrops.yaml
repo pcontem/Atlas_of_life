@@ -1,0 +1,81 @@
+name: Sinomacrops
+rank: genus
+parent: anurognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Wei et al. 2021
+type_species: Sinomacrops bondei
+type_species_note: ''
+summary: Anurognathid from the Daohugou beds of Hebei, China — one of the best-known members of its family.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 154.8
+  early_interval: Callovian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sinomacrops bondei
+  authority: Wei et al. 2021
+  first_ma: 165.3
+  last_ma: 154.8
+  interval: Callovian–Oxfordian
+  reference: X.-F. Wei, R. V. Pegas, and C.-Z. Shen, Y.-F. Guo, W.-S. Ma, D.-Y. Sun, X.-Y. Zhou. 2021. Sinomacrops
+    bondei, a new anurognathid pterosaur from the Jurassic of China and comments on the group. PeerJ 9:e11161
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Hebei]
+  interval: Callovian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 165.3]
+fossil_material:
+  holotype: JPM-2012-001 — Daohugou beds (Tiaojishan Formation), Mutoudeng, Qinglong, Hebei.
+  material: Crushed, almost complete skeleton (many bones as impressions).
+  completeness: near-complete
+  exceptional: Soft tissue suggests the arm membrane extended to the lower leg.
+biology: Very long lower legs (twice the femur); an insect-catching anurognathid.
+images:
+- kind: fossil
+  file: Sinomacrops.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Sinomacrops.jpg
+  page: https://commons.wikimedia.org/wiki/File:Sinomacrops.jpg
+  artist: Xuefang Wei, Rodrigo Vargas Pêgas, Caizhi Shen, Yanfang Guo, Waisum Ma, Deyu Sun, and Xuanyu Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-03-31'
+  caption: Holotype specimen of Sinomacrops (JPM-2012-001)
+  width: 600
+  height: 500
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ae215480-9b55-45c0-b99e-2d72f3a8650b/vector.svg
+  page: https://www.phylopic.org/images/ae215480-9b55-45c0-b99e-2d72f3a8650b
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Batrachognathus volans
+  matched: Batrachognathinae
+  genus_level: false
+  w: 1536
+  h: 1264
+  flight_pose: false
+sources:
+- kind: original
+  text: X.-F. Wei, R. V. Pegas, and C.-Z. Shen, Y.-F. Guo, W.-S. Ma, D.-Y. Sun, X.-Y. Zhou. 2021. Sinomacrops bondei,
+    a new anurognathid pterosaur from the Jurassic of China and comments on the group. PeerJ 9:e11161
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinomacrops (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinomacrops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinomacrops”. English Wikipedia, revision 1314787449.
+  url: https://en.wikipedia.org/w/index.php?title=Sinomacrops&oldid=1314787449
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

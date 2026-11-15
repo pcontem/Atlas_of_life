@@ -1,0 +1,102 @@
+name: Dearc
+rank: genus
+parent: rhamphorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Jagielska et al. 2022
+type_species: Dearc sgiathanach
+type_species_note: ''
+summary: 'Largest flying animal of its time: a big rhamphorhynchine from the Middle Jurassic of the Isle of Skye,
+  Scotland.'
+size:
+  wingspan_m: [2.5, 3]
+  note: Estimated 2.5–3 m; the holotype was still growing (proportional estimates range 1.9–3.8 m).
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dearc sgiathanach
+  authority: Jagielska et al. 2022
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: N. Jagielska, M. O’Sullivan, and G. F. Funston, I. B. Butler, T. J. Challands, N. DL Clark, N. C. Fraser,
+    A. Penny, D. A. Ross, M. Wilkinson, S. L. Brusatte. 2022. A skeleton from the Middle Jurassic of Scotland illuminates
+    an earlier origin of large pterosaurs. Current Biology 32:1446-1453
+formations:
+- formation: Lealt Shale
+  group: Great Estuarine
+  members: [Lonfearn]
+  country: United Kingdom
+  regions: [Scotland]
+  interval: Middle Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+fossil_material:
+  holotype: NMS G.2021.6.1-4 — Lealt Shale Formation, Trotternish, Isle of Skye.
+  material: Three-dimensional articulated skeleton missing the tail tip, most hindlimbs, parts of wings and beak
+    tip.
+  completeness: near-complete
+  exceptional: Uncrushed 3D preservation including the braincase.
+biology: Long fangs at the snout tip and peg-like rear teeth suggest a fish-eater living around Jurassic lagoons.
+images:
+- kind: life
+  file: Dearc_restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Dearc_restoration.jpg/960px-Dearc_restoration.jpg
+  page: https://commons.wikimedia.org/wiki/File:Dearc_restoration.jpg
+  artist: El fosilmaníaco
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-26'
+  caption: Speculative life restoration
+  width: 2500
+  height: 1790
+  review: unreviewed
+- kind: fossil
+  file: Dearc.webp
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Dearc.webp/960px-Dearc.webp
+  page: https://commons.wikimedia.org/wiki/File:Dearc.webp
+  artist: Jagielska et al. (2025)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-24'
+  caption: Holotype of Dearc
+  width: 1944
+  height: 1522
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/df4e72d2-be70-4105-a507-75b8fb75e21b/vector.svg
+  page: https://www.phylopic.org/images/df4e72d2-be70-4105-a507-75b8fb75e21b
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dearc sgiathanach
+  matched: Angustinaripterini
+  genus_level: true
+  w: 1536
+  h: 724
+  flight_pose: true
+sources:
+- kind: original
+  text: N. Jagielska, M. O’Sullivan, and G. F. Funston, I. B. Butler, T. J. Challands, N. DL Clark, N. C. Fraser,
+    A. Penny, D. A. Ross, M. Wilkinson, S. L. Brusatte. 2022. A skeleton from the Middle Jurassic of Scotland illuminates
+    an earlier origin of large pterosaurs. Current Biology 32:1446-1453
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dearc (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dearc
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dearc”. English Wikipedia, revision 1332767334.
+  url: https://en.wikipedia.org/w/index.php?title=Dearc&oldid=1332767334
+- kind: literature
+  text: Jagielska, N.; O'Sullivan, M.; Butler, I. B.; Challands, T. J.; Funston, G. F.; Ross, D.; Penny, A.; Brusatte,
+    S. L. (2025). "Osteology and functional morphology of a transitional pterosaur Dearc sgiathanach from the Middle
+    Jurassic (Bathonian) of Scotland". BMC Ecology and Evolution. 25 (1). 9..25....9J. doi:10.1186/s12862-024-02337-9.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

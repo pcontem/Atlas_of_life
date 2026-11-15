@@ -1,0 +1,133 @@
+name: Ctenochasma
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: ''
+authority: Meyer 1851
+type_species: Ctenochasma roemeri
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: ‘Comb-jaw’ ctenochasmatid from the Late Jurassic of Germany and France, with hundreds of long, thin teeth
+  forming a basket.
+size:
+  wingspan_m: [1.2, 1.9]
+  note: Adult C. elegans reached a maximum of about 1.9 m.
+age:
+  first_ma: 149.2
+  last_ma: 137.05
+  early_interval: Tithonian
+  late_interval: Berriasian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Ctenochasma elegans
+  authority: (Wagner 1861)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: S. Jouve. 2004. Description of the skull of Ctenochasma (Pterosauria) from the latest Jurassic of eastern
+    France, with a taxonomic revision of European Tithonian Pterodactyloidea. Journal of Vertebrate Paleontology
+    24:542-554
+- name: Ctenochasma porocristata
+  authority: de Buisonje 1981
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: P. H. de Buisonje. 1981. Ctenochasma porocristata nov. sp. from the Solnhofen Limestone, with some
+    remarks on other Ctenochasmatidae. Proceedings of the Koninklijke Nederlandse Akademie van Wetenchappen, B 84(4):411-436
+- name: Ctenochasma roemeri
+  authority: Meyer 1851
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: H. v. Meyer. 1851. Ctenochasma Roemeri. Palaeontographica 2:82-84
+- name: Ctenochasma taqueti
+  authority: Bennett 2007
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: 'S. C. Bennett. 2007. A review of the pterosaur Ctenochasma: taxonomy and ontogeny. Neues Jahrbuch
+    für Geologie und Paläontologie, Abhandlungen 245:23-31'
+formations:
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 5
+  ma: [145.06, 149.2]
+- formation: Calcaires tâchetés
+  group: ''
+  members: []
+  country: France
+  regions: [Haute-Marne]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+- formation: Purbek Kalk
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+fossil_material:
+  holotype: C. roemeri described from a single lower jaw (von Meyer 1851); three species recognised (C. roemeri,
+    C. taqueti, C. elegans).
+  material: Many specimens, mostly juveniles, from Solnhofen, the ‘Purbeck’ of NW Germany and eastern France.
+  completeness: multiple
+  exceptional: The three species form a chronological series in which the filter apparatus became progressively
+    refined (Bennett 2007).
+biology: Over 400 needle-like teeth in adults. Long seen as a filter feeder; the spoon-shaped tooth array may instead
+  indicate spoonbill-like sweeping for small prey.
+images:
+- kind: fossil
+  file: Ctenochasma_elegans.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ctenochasma_elegans.jpg/960px-Ctenochasma_elegans.jpg
+  page: https://commons.wikimedia.org/wiki/File:Ctenochasma_elegans.jpg
+  artist: 'Pterodactylus_kochi_(top)_and_pterodactylus_elegans.JPG: Ghedoghedo derivative work: Haplochromis (talk)'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2009-12-03 07:40
+  caption: Fossil specimen of a juvenile C. elegans
+  width: 1596
+  height: 1164
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b/vector.svg
+  page: https://www.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Ctenochasma roemeri
+  matched: Ctenochasma
+  genus_level: true
+  w: 2967
+  h: 2054
+  flight_pose: false
+sources:
+- kind: original
+  text: H. v. Meyer. 1851. Ctenochasma Roemeri. Palaeontographica 2:82-84
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ctenochasma (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ctenochasma
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ctenochasma”. English Wikipedia, revision 1347853659.
+  url: https://en.wikipedia.org/w/index.php?title=Ctenochasma&oldid=1347853659
+- kind: literature
+  text: 'von Meyer, C.E.H. (1851). "Ctenochasma Roemeri." Paläontographica, 2: 82–84 & pl. 13.'
+- kind: literature
+  text: 'Taquet, P. (1972). "Un crane de Ctenochasma (Pterodactyloidea) du Portlandien infe rieur de la Haute-Marne,
+    dans les collections du Musee de St-Dizier". Comptes Rendus de l''Académie des Sciences. 174: 362–364.'
+- kind: literature
+  text: 'Jouve, S. (2004). "Description of the skull of a Ctenochasma (Pterosauria) from the latest Jurassic of
+    eastern France, with a taxonomic revision of European Tithonian Pterodactyloidea". Journal of Vertebrate Paleontology.
+    24 (3): 542–554. doi:10.1671/0272-4634(2004)024[0542:dotsoa]2.0.co;2.'
+- kind: literature
+  text: 'Bennett, S.C. (2007). "A review of the pterosaur Ctenochasma: taxonomy and ontogeny". Neues Jahrbuch für
+    Geologie und Paläontologie - Abhandlungen. 245 (1): 23–31. doi:10.1127/0077-7749/2007/0245-0023.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Verify type species against the original description.]

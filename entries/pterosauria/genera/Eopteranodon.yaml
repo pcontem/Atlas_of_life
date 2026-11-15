@@ -1,0 +1,82 @@
+name: Eopteranodon
+rank: genus
+parent: tapejaridae
+incertae_sedis: false
+placement_note: Has been placed in Chaoyangopteridae and as a basal tapejaromorph; most recent analyses place it
+  in Tapejaridae.
+authority: Lü and Zhang 2005
+type_species: Eopteranodon lii
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Small crested, toothless tapejarid from the Early Cretaceous Yixian Formation of Liaoning, China.
+size:
+  wingspan_m: [1.1, 1.1]
+  note: About 1.1 m; a second specimen was larger.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Eopteranodon lii
+  authority: Lü and Zhang 2005
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: J. Lü and B. Zhang. 2005. New pterodactyloid pterosaur from the Yixian Formation of Western Liaoning.
+    Geological Review 51(4):458-462
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+fossil_material:
+  holotype: BPV-078 — Yixian Formation, Beipiao, Liaoning.
+  material: Incomplete skeleton and skull (skull under 20 cm).
+  completeness: partial
+  exceptional: ''
+biology: Toothless beak and large crest; tapejarids are thought to have included fruit and seeds in their diet.
+images:
+- kind: fossil
+  file: Eopteranodon_lii_holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Eopteranodon_lii_holotype.png/960px-Eopteranodon_lii_holotype.png
+  page: https://commons.wikimedia.org/wiki/File:Eopteranodon_lii_holotype.png
+  artist: Rodrigo V. Pêgas1, Xuanyu Zhou, Xingsheng Jin, Kai Wang, Waisum Ma
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023'
+  caption: Holotype of Eopteranodon lii
+  width: 2415
+  height: 3146
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f/vector.svg
+  page: https://www.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Chaoyangopteridae
+  matched: Azhdarchoidea
+  genus_level: false
+  w: 3677
+  h: 2096
+  flight_pose: true
+sources:
+- kind: original
+  text: J. Lü and B. Zhang. 2005. New pterodactyloid pterosaur from the Yixian Formation of Western Liaoning. Geological
+    Review 51(4):458-462
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eopteranodon (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eopteranodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eopteranodon”. English Wikipedia, revision 1369336540.
+  url: https://en.wikipedia.org/w/index.php?title=Eopteranodon&oldid=1369336540
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

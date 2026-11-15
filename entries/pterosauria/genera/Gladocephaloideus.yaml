@@ -1,0 +1,100 @@
+name: Gladocephaloideus
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: Placed in Gallodactylidae in 2012; a second skeleton (2016) shows it is a ctenochasmatid close to
+  Pterofiltrus.
+authority: Lü et al. 2012
+type_species: Gladocephaloideus jingangshanensis
+type_species_note: ''
+summary: Sword-headed ctenochasmatid from the Early Cretaceous (Aptian) of western Liaoning, China.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gladocephaloideus jingangshanensis
+  authority: Lü et al. 2012
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: J. Lü, Q. Ji, and X. Wei, Y. Liu. 2012. A new ctenochasmatoid pterosaur from the Early Cretaceous Yixian
+    Formation of western Liaoning, China. Cretaceous Research 34(1):26-30
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jingangshan]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+fossil_material:
+  holotype: IG-CAGS-08-07 — Jingangshan Bed, Yixian Formation (early Aptian), western Liaoning.
+  material: Almost complete skull (18 cm), lower jaws, front neck vertebrae and part of a hindlimb; juvenile skeleton
+    JPM 2014–004 almost complete.
+  completeness: partial
+  exceptional: Short pycnofibres preserved at the back of the skull and neck.
+biology: About fifty sharp teeth restricted to the front quarter of the jaws; both known individuals are juveniles.
+images:
+- kind: life
+  file: Gladocephaloideus_jingangshanensis.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Gladocephaloideus_jingangshanensis.PNG/960px-Gladocephaloideus_jingangshanensis.PNG
+  page: https://commons.wikimedia.org/wiki/File:Gladocephaloideus_jingangshanensis.PNG
+  artist: Drawn by Zhao Chuang, published by Junchang Lü, Martin Kundrát, and Caizhi Shen
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2016'
+  caption: 2016 life restoration by Zhao Chuang.
+  width: 3000
+  height: 2676
+  review: unreviewed
+- kind: fossil
+  file: Gladocephaloideus_anatomy.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Gladocephaloideus_anatomy.png/960px-Gladocephaloideus_anatomy.png
+  page: https://commons.wikimedia.org/wiki/File:Gladocephaloideus_anatomy.png
+  artist: Junchang Lü, Martin Kundrát, Caizhi Shen
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2016'
+  caption: Overview of the skeleton
+  width: 2008
+  height: 3027
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bb60fabe-2acd-48db-acc9-e45aa9f406bf/vector.svg
+  page: https://www.phylopic.org/images/bb60fabe-2acd-48db-acc9-e45aa9f406bf
+  attribution: C. Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Petrodactyle wellnhoferi
+  matched: Gallodactylidae
+  genus_level: false
+  w: 1536
+  h: 1317
+  flight_pose: false
+sources:
+- kind: original
+  text: J. Lü, Q. Ji, and X. Wei, Y. Liu. 2012. A new ctenochasmatoid pterosaur from the Early Cretaceous Yixian
+    Formation of western Liaoning, China. Cretaceous Research 34(1):26-30
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gladocephaloideus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gladocephaloideus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gladocephaloideus”. English Wikipedia, revision 1347853682.
+  url: https://en.wikipedia.org/w/index.php?title=Gladocephaloideus&oldid=1347853682
+- kind: literature
+  text: 'Lü J., Kundrát M., Shen C., 2016, "New Material of the Pterosaur Gladocephaloideus Lü et al., 2012 from
+    the Early Cretaceous of Liaoning Province, China, with Comments on Its Systematic Position", PLoS ONE 11(6):
+    e0154888. doi:10.1371/journal.pone.0154888'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

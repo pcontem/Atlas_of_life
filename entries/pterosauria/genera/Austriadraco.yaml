@@ -1,0 +1,71 @@
+name: Austriadraco
+rank: genus
+parent: pterosauria
+incertae_sedis: true
+placement_note: Recovered as a very basal pterosaur by Dalla Vecchia; Kellner placed it in its own family (Austriadraconidae).
+  Relationships uncertain.
+authority: Kellner 2015
+type_species: Austriadraco dallavecchiai
+type_species_note: ''
+summary: Late Triassic (Norian) pterosaur from Tyrol, Austria, previously identified as Eudimorphodon.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 211.18
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Austriadraco dallavecchiai
+  authority: Kellner 2015
+  first_ma: 211.18
+  last_ma: 205.7
+  interval: Norian
+  reference: A. W. A. Kellner. 2015. Comments on Triassic pterosaurs with discussion about ontogeny and description
+    of new taxa. Anais da Academia Brasileira de Ciências 87(2):669-689
+formations:
+- formation: Seefelder Schichten
+  group: ''
+  members: []
+  country: Austria
+  regions: [Tirol]
+  interval: Sevatian
+  occurrences: 1
+  ma: [205.7, 211.18]
+fossil_material:
+  holotype: BSP 1994 I 51 — Seefeld Formation (late Norian), Reither Spitze, Tyrol.
+  material: Partial, disarticulated skeleton with skull bones (frontals, jugal, lower jaws), vertebrae, shoulder
+    girdle, humeri, pelvis and leg bones; partly impressions only.
+  completeness: partial
+  exceptional: ''
+biology: Small basal pterosaur; ecology not specifically studied.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: original
+  text: A. W. A. Kellner. 2015. Comments on Triassic pterosaurs with discussion about ontogeny and description of
+    new taxa. Anais da Academia Brasileira de Ciências 87(2):669-689
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Austriadraco (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Austriadraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Austriadraco”. English Wikipedia, revision 1322578400.
+  url: https://en.wikipedia.org/w/index.php?title=Austriadraco&oldid=1322578400
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

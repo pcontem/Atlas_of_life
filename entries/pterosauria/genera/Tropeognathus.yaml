@@ -1,0 +1,100 @@
+name: Tropeognathus
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: Recovered in Anhangueridae or Ornithocheiridae depending on the analysis.
+authority: Wellnhofer 1987
+type_species: Tropeognathus mesembrinus
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: 'Largest pterosaur of the Southern Hemisphere apart from azhdarchids: a keel-jawed giant from the Romualdo
+  Formation of Brazil.'
+size:
+  wingspan_m: [8.26, 8.7]
+  note: About 8.26 m for specimen MN 6594-V; maximum estimate 8.7 m.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Tropeognathus mesembrinus
+  authority: (Wellnhofer 1987)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: P. Wellnhofer. 1987. New crested pterosaurs from the Lower Cretaceous of Brazil. Mitteilungen der Bayerischen
+    Staatssammlung für Paläontologie und historische Geologie 27:175-186
+formations:
+- formation: Romualdo
+  group: Santana
+  members: []
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 2
+  ma: [113.2, 119.57]
+fossil_material:
+  holotype: BSP 1987 I 46 — Romualdo Formation, Santana Group, Ceará.
+  material: Skull with lower jaws; large skeleton MN 6594-V (Tropeognathus cf. mesembrinus) with most of the body.
+  completeness: partial
+  exceptional: ''
+biology: Rounded keels on both jaw tips; like other anhanguerians, probably a fish-eater.
+images:
+- kind: life
+  file: TropeognathusDB22.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/TropeognathusDB22.jpg/960px-TropeognathusDB22.jpg
+  page: https://commons.wikimedia.org/wiki/File:TropeognathusDB22.jpg
+  artist: Dmitry Bogdanov
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: between 2001 and 2008date QS:P,+2001-00-
+  caption: Restoration of three flying individuals
+  width: 1280
+  height: 980
+  review: unreviewed
+- kind: fossil
+  file: Tropeognathus_mesembrinus_holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tropeognathus_mesembrinus_holotype.jpg/960px-Tropeognathus_mesembrinus_holotype.jpg
+  page: https://commons.wikimedia.org/wiki/File:Tropeognathus_mesembrinus_holotype.jpg
+  artist: FELIPE L. PINHEIRO, ALEXANDER W.A. KELLNER, JOÃO L. DA SILVA, RUDAH R.C. DUQUE, JULIANA M. SAYÃO, ESAÚ
+    V. DE ARAÚJO, FABIANA R. COSTA, RICHARD BUCHMANN, GABRIELA M. CERQUEIRA, LUCAS CANEJO, VICTOR BECCARI, RENAN
+    A.M. BANTIM, BORJA HOLGADO &amp; RUBI V. PÊGAS
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025'
+  caption: Holotype specimen of T. mesembrinus (BSP 1987 I 46) in multiple views
+  width: 1443
+  height: 1726
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d4b26253-4424-4520-92f1-5b0dad1763c6/vector.svg
+  page: https://www.phylopic.org/images/d4b26253-4424-4520-92f1-5b0dad1763c6
+  attribution: Alessio Ciaffi
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Tropeognathus mesembrinus
+  matched: Tropeognathinae
+  genus_level: true
+  w: 1461
+  h: 1536
+  flight_pose: false
+sources:
+- kind: original
+  text: P. Wellnhofer. 1987. New crested pterosaurs from the Lower Cretaceous of Brazil. Mitteilungen der Bayerischen
+    Staatssammlung für Paläontologie und historische Geologie 27:175-186
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tropeognathus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tropeognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tropeognathus”. English Wikipedia, revision 1375059442.
+  url: https://en.wikipedia.org/w/index.php?title=Tropeognathus&oldid=1375059442
+- kind: literature
+  text: Jurassic World Evolution 3 - Official Tropeognathus Dinosaur Showcase Trailer - IGN. September 2, 2025.
+    Retrieved July 12, 2026 – via www.ign.com.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

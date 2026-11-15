@@ -1,0 +1,86 @@
+name: Aurorazhdarcho
+rank: genus
+parent: ctenochasmatoidea
+incertae_sedis: false
+placement_note: Bennett (2013) synonymised its type species A. primordius with “Pterodactylus” micronyx, and in
+  2025 argued that both are juveniles of Gnathosaurus subulatus. If accepted, Aurorazhdarcho would become a junior
+  synonym of Gnathosaurus; kept separate here pending further study.
+authority: Frey et al. 2011
+type_species: Aurorazhdarcho primordius
+type_species_note: ''
+summary: Small ctenochasmatoid from the early Tithonian of Bavaria; one specimen, the ‘Pester Exemplar’, may be
+  the first pterosaur fossil ever documented.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 149.2
+  last_ma: 145.06
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aurorazhdarcho primordius
+  authority: Frey et al. 2011
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: E. Frey, C. A. Meyer, and H. Tischlinger. 2011. The oldest azhdarchoid pterosaur from the Late Jurassic
+    Solnhofen Limestone (Early Tithonian) of Southern Germany. Swiss Journal of Geosciences 104(supp. 1):S35-S55
+formations:
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+fossil_material:
+  holotype: Type species A. primordius; the Pester Exemplar (holotype of A. micronyx) is a juvenile skeleton without
+    skull, Solnhofen region.
+  material: Several skeletons, mostly of juveniles.
+  completeness: multiple
+  exceptional: The Pester Exemplar was first misidentified as a crustacean in the 18th century.
+biology: A small lagoon-dwelling pterodactyloid; ctenochasmatoids are generally associated with shorelines and small
+  aquatic prey.
+images:
+- kind: fossil
+  file: Pterodactylus_antiquus_01_by_Line1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Pterodactylus_antiquus_01_by_Line1.jpg/960px-Pterodactylus_antiquus_01_by_Line1.jpg
+  page: https://commons.wikimedia.org/wiki/File:Pterodactylus_antiquus_01_by_Line1.jpg
+  artist: Liné1
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 01/01/2009
+  caption: Specimen formerly referred to Pterodactylus longirostris, Muséum national d'histoire naturelle in Paris
+  width: 2001
+  height: 1575
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: original
+  text: E. Frey, C. A. Meyer, and H. Tischlinger. 2011. The oldest azhdarchoid pterosaur from the Late Jurassic
+    Solnhofen Limestone (Early Tithonian) of Southern Germany. Swiss Journal of Geosciences 104(supp. 1):S35-S55
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aurorazhdarcho (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aurorazhdarcho
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aurorazhdarcho”. English Wikipedia, revision 1352609007.
+  url: https://en.wikipedia.org/w/index.php?title=Aurorazhdarcho&oldid=1352609007
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

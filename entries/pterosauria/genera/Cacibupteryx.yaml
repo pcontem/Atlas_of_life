@@ -1,0 +1,77 @@
+name: Cacibupteryx
+rank: genus
+parent: rhamphorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Gasparini et al. 2004
+type_species: Cacibupteryx caribensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Rhamphorhynchine from the Late Jurassic (Oxfordian) Jagua Formation of western Cuba.
+size:
+  wingspan_m: null
+  note: Not estimated by the describers; said to be relatively large.
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Cacibupteryx caribensis
+  authority: Gasparini et al. 2004
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: Z. Gasparini, M. Fernandez, and M. de la Fuente. 2004. A new pterosaur from the Jurassic of Cuba. Palaeontology
+    47:919-927
+formations:
+- formation: Jagua
+  group: ''
+  members: [Jagua Vieja]
+  country: Cuba
+  regions: [Pinar del Rio]
+  interval: Middle Oxfordian–Late Oxfordian
+  occurrences: 1
+  ma: [154.8, 159.0]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Cuba
+  regions: [Pinar del Río]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+fossil_material:
+  holotype: IGO-V 208 — Jagua Formation, Pinar del Río, Cuba.
+  material: Partial, uncrushed 3D skull (17 cm) and fragmentary left wing.
+  completeness: fragmentary
+  exceptional: Three-dimensional skull.
+biology: Lived along the margins of the young Caribbean seaway; rhamphorhynchines were mainly fish-eaters.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292/vector.svg
+  page: https://www.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Rhamphorhynchus muensteri
+  matched: Rhamphorhynchinae
+  genus_level: false
+  w: 3702
+  h: 1744
+  flight_pose: true
+sources:
+- kind: original
+  text: Z. Gasparini, M. Fernandez, and M. de la Fuente. 2004. A new pterosaur from the Jurassic of Cuba. Palaeontology
+    47:919-927
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cacibupteryx (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cacibupteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cacibupteryx”. English Wikipedia, revision 1299876984.
+  url: https://en.wikipedia.org/w/index.php?title=Cacibupteryx&oldid=1299876984
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

@@ -1,0 +1,122 @@
+name: Gnathosaurus
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: ''
+authority: Meyer 1833
+type_species: Gnathosaurus subulatus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Spoonbill-like ctenochasmatid from the Late Jurassic of Bavaria (and possibly the Purbeck of England);
+  first mistaken for a crocodile.
+size:
+  wingspan_m: [1.7, 1.7]
+  note: About 1.7 m for the 1951 adult skull.
+age:
+  first_ma: 168.2
+  last_ma: 137.05
+  early_interval: Bathonian
+  late_interval: Berriasian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Gnathosaurus macrurus
+  authority: (Seeley 1869)
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: H. G. Seeley. 1869. Index to the Fossil Remains of Aves, Ornithosauria, and Reptilia, from the Secondary
+    System of Strata, Arranged in the Woodwardian Museum of the University of Cambridge. Deighton, Bell, and Co,
+    Cambridge
+- name: Gnathosaurus subulatus
+  authority: Meyer 1833
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: D. M. Unwin. 2003. On the phylogeny and evolutionary history of pterosaurs. Evolution and Palaeobiology
+    of Pterosaurs, Geological Society of London, Special Publications 217:139-190
+formations:
+- formation: Unnamed unit
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+- formation: Taynton Limestone
+  group: Great Oolite
+  members: [Stonesfield Slates]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+fossil_material:
+  holotype: Jaw fragment named Crocodilus multidens (1832), Solnhofen limestone; later G. subulatus.
+  material: Skulls and jaws only (28 cm adult skull with up to 130 teeth); G. macrurus from a partial lower jaw
+    and neck vertebrae.
+  completeness: fragmentary
+  exceptional: Bennett (2025) argued that juvenile skeletons named Aurorazhdarcho micronyx belong to this species.
+biology: 'Needle-like teeth around a spoon-shaped tip: probably waded with open jaws and snapped them shut on small
+  prey, like modern spoonbills.'
+images:
+- kind: life
+  file: Dakosaurus2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dakosaurus2.jpg/960px-Dakosaurus2.jpg
+  page: https://commons.wikimedia.org/wiki/File:Dakosaurus2.jpg
+  artist: 'Creator: Dmitry Bogdanov'
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008'
+  caption: Reconstruction of two G. subulatus avoiding a Dakosaurus maximus
+  width: 2100
+  height: 1500
+  review: unreviewed
+- kind: fossil
+  file: Gnathosaurus_skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Gnathosaurus_skull.jpg/960px-Gnathosaurus_skull.jpg
+  page: https://commons.wikimedia.org/wiki/File:Gnathosaurus_skull.jpg
+  artist: Dean Falk Schnabel
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: 20 August 2020 (according to Exif data)
+  caption: Fossil skull referred to G. subulatus
+  width: 2322
+  height: 4128
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cd8c9d85-bbd9-4200-a144-f9ee5db1f3a1/vector.svg
+  page: https://www.phylopic.org/images/cd8c9d85-bbd9-4200-a144-f9ee5db1f3a1
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Gnathosaurus subulatus
+  matched: Gnathosaurus
+  genus_level: true
+  w: 1536
+  h: 1080
+  flight_pose: false
+sources:
+- kind: original
+  text: J. J., Jr. Sepkoski. 2002. A compendium of fossil marine animal genera. Bulletins of American Paleontology
+    363:1-560
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gnathosaurus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gnathosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gnathosaurus”. English Wikipedia, revision 1347853687.
+  url: https://en.wikipedia.org/w/index.php?title=Gnathosaurus&oldid=1347853687
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

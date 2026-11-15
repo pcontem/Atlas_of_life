@@ -1,0 +1,118 @@
+name: Darwinopterus
+rank: genus
+parent: darwinoptera
+incertae_sedis: false
+placement_note: ''
+authority: Lü et al. 2010
+type_species: Darwinopterus modularis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Classic transitional pterosaur from the Jurassic Tiaojishan Formation of Liaoning, China, combining a pterodactyloid-like
+  head and neck with a long ‘rhamphorhynchoid’ tail.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 152.21
+  early_interval: Bathonian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Darwinopterus linglongtaensis
+  authority: Wang et al. 2010
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: X. Wang, A. W. A. Kellner, and S. Jiang, X. Cheng, X. Meng, T. Rodrigues. 2010. New long-tailed pterosaurs
+    (Wukongopteridae) from western Liaoning, China. Anais da Academia Brasileira de Ciências 82(4):1045-1062
+- name: Darwinopterus modularis
+  authority: Lü et al. 2010
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: J. Lü, D. M. Unwin, and X. Jin, Y. Liu, Q. Ji. 2010. Evidence for modular evolution in a long-tailed
+    pterosaur with a pterodactyloid skull. Proceedings of the Royal Society B 277:383-389
+- name: Darwinopterus robustodens
+  authority: Lü et al. 2011
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: J. Lü, L. Xu, and H. Chang, X. Zhang. 2011. A new darwinopterid pterosaur from the Middle Jurassic
+    of western Liaoning, northeastern China and its ecological implications. Acta Geologica Sinica 85(3):507-514
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 4
+  ma: [152.21, 168.2]
+fossil_material:
+  holotype: Type species D. modularis (Lü et al. 2010) — Tiaojishan Formation, Linglongta, Jianchang, Liaoning.
+  material: 30–40 specimens, many complete skeletons; four species described, two of which have been argued to be
+    junior synonyms of D. modularis (Zhou et al. 2021).
+  completeness: multiple
+  exceptional: The egg-bearing specimen ‘Mrs T’ (ZMNH M8802), first described as Darwinopterus, was reassigned to
+    Kunpengopterus antipollicatus in 2021.
+biology: Spike-like, widely spaced teeth; probably took small vertebrates and insects. Crests may relate to sex,
+  though this is debated.
+images:
+- kind: life
+  file: Darwinopterus_NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/93/Darwinopterus_NT.jpg
+  page: https://commons.wikimedia.org/wiki/File:Darwinopterus_NT.jpg
+  artist: Nobu Tamura (http://spinops.blogspot.com)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-11-09'
+  caption: Restoration of a crested D. modularis
+  width: 600
+  height: 450
+  review: unreviewed
+- kind: fossil
+  file: Darwinopterus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Darwinopterus.jpg/960px-Darwinopterus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Darwinopterus.jpg
+  artist: Didier Descouens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: Taken on 10 September 2010
+  caption: D. modularis fossil
+  width: 6048
+  height: 4032
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c/vector.svg
+  page: https://www.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ceoptera evansae
+  matched: Monofenestrata
+  genus_level: false
+  w: 1536
+  h: 638
+  flight_pose: true
+sources:
+- kind: original
+  text: J. Lü, D. M. Unwin, and X. Jin, Y. Liu, Q. Ji. 2010. Evidence for modular evolution in a long-tailed pterosaur
+    with a pterodactyloid skull. Proceedings of the Royal Society B 277:383-389
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Darwinopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Darwinopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Darwinopterus”. English Wikipedia, revision 1378503540.
+  url: https://en.wikipedia.org/w/index.php?title=Darwinopterus&oldid=1378503540
+- kind: literature
+  text: Cheng, X.; Jiang, S.; Bantim, R. A. M.; Sayão, J. M.; Saraiva, A. Á. F.; Meng, X.; Kellner, A. W. A.; Wang,
+    X. (2025). "A new species of Darwinopterus (Wukongopteridae, Pterosauria) from western Liaoning provides some
+    new information on the ontogeny of this clade". Anais da Academia Brasileira de Ciências. 97 (Suppl. 1). e20240707.
+    doi:10.1590/0001-3765202520240707.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

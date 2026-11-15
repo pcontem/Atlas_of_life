@@ -1,0 +1,91 @@
+name: Caiuajara
+rank: genus
+parent: tapejaridae
+incertae_sedis: false
+placement_note: ''
+authority: Manzig et al. 2014
+type_species: Caiuajara dobruskii
+type_species_note: ''
+summary: Crested tapejarid from the Early Cretaceous ‘Pterosaur Graveyard’ of Paraná, Brazil, known from hundreds
+  of bones of individuals of all ages.
+size:
+  wingspan_m: [0.65, 2.35]
+  note: Juveniles from 0.65 m; largest individuals about 2.35 m.
+age:
+  first_ma: 121.4
+  last_ma: 72.2
+  early_interval: Aptian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Caiuajara dobruskii
+  authority: Manzig et al. 2014
+  first_ma: 121.4
+  last_ma: 72.2
+  interval: Aptian–Campanian
+  reference: P. C. Manzig, A. W. A. Kellner, and L. C. Weinschütz, C. E. Fragoso, C. S. Vega, G. B. Guimarães, L.
+    C. Godoy, A. Liccardo, J. H. Z. Ricetti, C. M. de Moura. 2014. Discovery of a rare pterosaur bone bed in a Cretaceous
+    desert with Insights on ontogeny and behavior of flying reptiles. PLoS ONE 9(8):e100005
+formations:
+- formation: Goio-Erê
+  group: Caiuá
+  members: []
+  country: Brazil
+  regions: [Paraná]
+  interval: Aptian–Campanian
+  occurrences: 1
+  ma: [72.2, 121.4]
+fossil_material:
+  holotype: CP.V 1449 — Goio-Erê Formation (Caiuá Group), Cruzeiro do Oeste, Paraná.
+  material: 'Bonebed with hundreds of 3D bones: at least 47 individuals, including 14 partial skulls; holotype is
+    a partial skeleton with skull.'
+  completeness: multiple
+  exceptional: 'Mass-death assemblage documenting growth: the crest grew larger and steeper with age.'
+biology: The bonebed formed in a lake within a desert; mostly juveniles, possibly a nursery or crèche. Suggests
+  gregarious behaviour. Toothless beak, like other tapejarines.
+images:
+- kind: fossil
+  file: Caiuajara_dobruskii.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Caiuajara_dobruskii.png/960px-Caiuajara_dobruskii.png
+  page: https://commons.wikimedia.org/wiki/File:Caiuajara_dobruskii.png
+  artist: Paulo C. Manzig, Alexander W. A. Kellner, Luiz C. Weinschütz, Carlos E. Fragoso, Cristina S. Vega, Gilson
+    B. Guimarães, Luiz C. Godoy, Antonio Liccardo, João H. Z. Ricetti, Camila C. de Moura
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Holotype skull
+  width: 1772
+  height: 2380
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f075aa92-c901-400d-89c2-c2a9087c51da/vector.svg
+  page: https://www.phylopic.org/images/f075aa92-c901-400d-89c2-c2a9087c51da
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Europejara olcadesorum
+  matched: Tapejarinae
+  genus_level: false
+  w: 783
+  h: 1536
+  flight_pose: false
+sources:
+- kind: original
+  text: P. C. Manzig, A. W. A. Kellner, and L. C. Weinschütz, C. E. Fragoso, C. S. Vega, G. B. Guimarães, L. C.
+    Godoy, A. Liccardo, J. H. Z. Ricetti, C. M. de Moura. 2014. Discovery of a rare pterosaur bone bed in a Cretaceous
+    desert with Insights on ontogeny and behavior of flying reptiles. PLoS ONE 9(8):e100005
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Caiuajara (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Caiuajara
+- kind: encyclopedia
+  text: Wikipedia contributors. “Caiuajara”. English Wikipedia, revision 1349561878.
+  url: https://en.wikipedia.org/w/index.php?title=Caiuajara&oldid=1349561878
+- kind: literature
+  text: 'Victor De Araújo, Esaú; Bantim, Renan Alfredo Machado; Holgado, Borja; Sayão, Juliana Manso; Weinschütz,
+    Luiz Carlos; Kellner, Alexander (2024). "Osteohistological characterization and ontogeny of Caiuajara dobruskii
+    (Pterosauria, Pterodactyloidea, Tapejaridae)". Historical Biology. 36 (7): 1204–1219...36.1204V. doi:10.1080/08912963.2023.2207193.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

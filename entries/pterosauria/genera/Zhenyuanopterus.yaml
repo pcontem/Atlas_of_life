@@ -1,0 +1,78 @@
+name: Zhenyuanopterus
+rank: genus
+parent: boreopteridae
+incertae_sedis: false
+placement_note: It has been suggested that it is the adult of Boreopterus.
+authority: Lü 2010
+type_species: Zhenyuanopterus longirostris
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Long-snouted, crested boreopterid from the Yixian Formation of Liaoning, China, with 172 needle-like teeth.
+size:
+  wingspan_m: [3.5, 4]
+  note: 3.5–4 m.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhenyuanopterus longirostris
+  authority: Lü 2010
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: J. Lü. 2010. A boreopterid pterodactyloid pterosaur from the Early Cretaceous Yixian Formation of Liaoning
+    Province, northeastern China. Acta Geologica Sinica (English Edition) 84(2):241-246
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+fossil_material:
+  holotype: GLGMV 0001 — Yixian Formation, Huangbanjigou, Liaoning.
+  material: Complete skeleton (skull 54.5 cm); a second partial specimen.
+  completeness: complete
+  exceptional: ''
+biology: Very long needle-like front teeth; perhaps caught small fish while swimming.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/25b54567-c6f9-43ab-b53b-cc5ccd3fb9cb/vector.svg
+  page: https://www.phylopic.org/images/25b54567-c6f9-43ab-b53b-cc5ccd3fb9cb
+  attribution: Ville-Veikko Sinkkonen
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Zhenyuanopterus longirostris
+  matched: Boreopteridae
+  genus_level: true
+  w: 1003
+  h: 1625
+  flight_pose: false
+sources:
+- kind: original
+  text: J. Lü. 2010. A boreopterid pterodactyloid pterosaur from the Early Cretaceous Yixian Formation of Liaoning
+    Province, northeastern China. Acta Geologica Sinica (English Edition) 84(2):241-246
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhenyuanopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhenyuanopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhenyuanopterus”. English Wikipedia, revision 1368934478.
+  url: https://en.wikipedia.org/w/index.php?title=Zhenyuanopterus&oldid=1368934478
+- kind: literature
+  text: 'Teng, F.; Lü, J.; Wei, X.; Hsiao, Y.; Pittman, M. (2014). "New Material of Zhenyuanopterus (Pterosauria)
+    from the Early Cretaceous Yixian Formation of Western Liaoning". Acta Geologica Sinica. 88 (1): 1–5..88....1T.
+    doi:10.1111/1755-6724.12176.'
+- kind: literature
+  text: Naish, Darren (April 19, 2010). "Zhenyuanopterus, Boreopterus and the Ask A Biologist relaunch". ScienceBlogs.
+    Retrieved May 7, 2019.
+- kind: literature
+  text: Lacerda, Julio. "Zhenyuanopterus". Pteros. Retrieved May 6, 2019.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

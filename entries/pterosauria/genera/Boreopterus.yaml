@@ -1,0 +1,91 @@
+name: Boreopterus
+rank: genus
+parent: boreopteridae
+incertae_sedis: false
+placement_note: ''
+authority: Lü and Ji 2005
+type_species: Boreopterus cuiae
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Long-snouted pterodactyloid from the Early Cretaceous Yixian Formation of Liaoning, China, with a mesh
+  of large front teeth.
+size:
+  wingspan_m: [1.45, 1.45]
+  note: Estimated about 1.45 m.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Boreopterus cuiae
+  authority: Lü and Ji 2005
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: J. Lü and Q. Ji. 2005. A new ornithocheirid from the Early Cretaceous of Liaoning Province, China.
+    Acta Geologica Sinica 79(2):157-163
+- name: Boreopterus giganticus
+  authority: Jiang et al. 2014
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: S.-X. Jiang, X.-L. Wang, and X. Meng, X. Cheng. 2014. A new boreopterid pterosaur from the Lower Cretaceous
+    of western Liaoning, China, with a reassessment of the phylogenetic relationships of the Boreopteridae. Journal
+    of Paleontology 88(4):823-828
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+fossil_material:
+  holotype: JZMP-04-07-3 — Yixian Formation, Dalian, Liaoning.
+  material: Nearly complete but crushed skeleton with skull (235 mm).
+  completeness: near-complete
+  exceptional: ''
+biology: Needle-like interlocking teeth may have trapped small prey; it has been suggested that boreopterids foraged
+  while swimming.
+images:
+- kind: fossil
+  file: Liaoning_Palaeontological_Museum_20250103_100505.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Liaoning_Palaeontological_Museum_20250103_100505.jpg/960px-Liaoning_Palaeontological_Museum_20250103_100505.jpg
+  page: https://commons.wikimedia.org/wiki/File:Liaoning_Palaeontological_Museum_20250103_100505.jpg
+  artist: Dlyj0604
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-01-03 10:05:05'
+  caption: Fossil, Liaoning Palaeontological Museum
+  width: 3596
+  height: 2683
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/25b54567-c6f9-43ab-b53b-cc5ccd3fb9cb/vector.svg
+  page: https://www.phylopic.org/images/25b54567-c6f9-43ab-b53b-cc5ccd3fb9cb
+  attribution: Ville-Veikko Sinkkonen
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Zhenyuanopterus longirostris
+  matched: Boreopteridae
+  genus_level: false
+  w: 1003
+  h: 1625
+  flight_pose: false
+sources:
+- kind: original
+  text: J. Lü and Q. Ji. 2005. A new ornithocheirid from the Early Cretaceous of Liaoning Province, China. Acta
+    Geologica Sinica 79(2):157-163
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Boreopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Boreopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Boreopterus”. English Wikipedia, revision 1368792050.
+  url: https://en.wikipedia.org/w/index.php?title=Boreopterus&oldid=1368792050
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Verify type species against the original description.]

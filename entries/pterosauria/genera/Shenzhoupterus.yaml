@@ -1,0 +1,82 @@
+name: Shenzhoupterus
+rank: genus
+parent: chaoyangopteridae
+incertae_sedis: false
+placement_note: Also recovered within Tapejaridae (Chaoyangopterinae) by Pinheiro et al. (2011).
+authority: Lü et al. 2008
+type_species: Shenzhoupterus chaoyangensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Toothless chaoyangopterid with a crest arching over the eyes, from the Jiufotang Formation of Liaoning,
+  China.
+size:
+  wingspan_m: [1.4, 1.4]
+  note: About 1.4 m.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Shenzhoupterus chaoyangensis
+  authority: Lü et al. 2008
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: J. Lü, D. M. Unwin, and L. Xu, X. Zhang. 2008. A new azhdarchoid pterosaur from the Lower Cretaceous
+    of China and its implications for pterosaur phylogeny and evolution. Naturwissenschften 95:891-897
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: HGM 41HIII-305A (Henan Geological Museum) — Jiufotang Formation, Liaoning.
+  material: Articulated skull and skeleton of one individual.
+  completeness: complete
+  exceptional: ''
+biology: A small toothless azhdarchoid, probably a ground forager.
+images:
+- kind: fossil
+  file: Shenzhoupterus_chaoyangensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Shenzhoupterus_chaoyangensis.jpg/960px-Shenzhoupterus_chaoyangensis.jpg
+  page: https://commons.wikimedia.org/wiki/File:Shenzhoupterus_chaoyangensis.jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2015-07-10 12:48:18'
+  caption: Fossil in Henan Geological Museum
+  width: 5184
+  height: 3456
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f/vector.svg
+  page: https://www.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Chaoyangopteridae
+  matched: Chaoyangopteridae
+  genus_level: false
+  w: 3677
+  h: 2096
+  flight_pose: true
+sources:
+- kind: original
+  text: J. Lü, D. M. Unwin, and L. Xu, X. Zhang. 2008. A new azhdarchoid pterosaur from the Lower Cretaceous of
+    China and its implications for pterosaur phylogeny and evolution. Naturwissenschften 95:891-897
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shenzhoupterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shenzhoupterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shenzhoupterus”. English Wikipedia, revision 1368838676.
+  url: https://en.wikipedia.org/w/index.php?title=Shenzhoupterus&oldid=1368838676
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

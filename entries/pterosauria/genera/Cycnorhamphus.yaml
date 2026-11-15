@@ -1,0 +1,107 @@
+name: Cycnorhamphus
+rank: genus
+parent: ctenochasmatoidea
+incertae_sedis: false
+placement_note: Placed in Gallodactylidae, within Euctenochasmatia (Longrich et al. 2018).
+authority: Seeley 1870
+type_species: Cycnorhamphus suevicus
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: ‘Swan-beaked’ gallodactylid from the Late Jurassic of Germany and France (= Gallodactylus) with bizarre,
+  gaping jaws.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Cycnorhamphus suevicus
+  authority: (Quenstadt 1855)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: 'H. G. Seeley. 1870. The Ornithosauria: an elementary study of the bones of pterodactyles, made from
+    fossil remains found in the Cambridge Upper Greensand, and arranged in the Woodwardian Museum of the University
+    of Cambridge.'
+formations:
+- formation: Nusplingen Limestone
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+- formation: Liegende Bankkalk
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+fossil_material:
+  holotype: GPIT specimen from Nusplingen, Württemberg (Kimmeridgian), described 1855.
+  material: Several skeletons including the ‘Painten Pelican’ skull; one specimen destroyed in 1944.
+  completeness: multiple
+  exceptional: Mineralised soft-tissue structures inside the jaw gap.
+biology: Peg-like teeth at the jaw tips and a gap behind them, possibly working like an openbill stork's to hold
+  and crush molluscs and other hard invertebrates.
+images:
+- kind: fossil
+  file: Cycnorhamphus_suevicus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cycnorhamphus_suevicus.jpg/960px-Cycnorhamphus_suevicus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Cycnorhamphus_suevicus.jpg
+  artist: Haplochromis
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: ''
+  caption: Juvenile specimen
+  width: 1996
+  height: 1760
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6cbd2669-c062-4fe6-8e27-777fc6a7e69c/vector.svg
+  page: https://www.phylopic.org/images/6cbd2669-c062-4fe6-8e27-777fc6a7e69c
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Cycnorhamphus suevicus
+  matched: Cycnorhamphus
+  genus_level: true
+  w: 1832
+  h: 2087
+  flight_pose: false
+sources:
+- kind: original
+  text: D. M. Unwin. 2002. On the systematic relationships of Cearadactylus atrox, an enigmatic Early Cretaceous
+    pterosaur from the Santana Formation of Brazil. Mitteilungen Museum für Naturkunde Berlin, Geowissenschaftlichen
+    Reihe 5:239-263
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cycnorhamphus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cycnorhamphus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cycnorhamphus”. English Wikipedia, revision 1364647192.
+  url: https://en.wikipedia.org/w/index.php?title=Cycnorhamphus&oldid=1364647192
+- kind: literature
+  text: 'Bennett, S. Christopher (1996). "On the taxonomic status of Cycnorhamphus and Gallodactylus (Pterosauria:
+    Pterodactyloidea)" (PDF). Journal of Paleontology. 70 (2): 335–338. doi:10.1017/S0022336000023441.'
+- kind: literature
+  text: 'Bennett, S. C. (2013). "The morphology and taxonomy of the pterosaur Cycnorhamphus". Neues Jahrbuch für
+    Geologie und Paläontologie - Abhandlungen. 267: 23–41. doi:10.1127/0077-7749/2012/0295.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

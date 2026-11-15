@@ -1,0 +1,107 @@
+name: Kunpengopterus
+rank: genus
+parent: darwinoptera
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2010
+type_species: Kunpengopterus sinensis
+type_species_note: ''
+summary: Wukongopterid from the Jurassic Tiaojishan Formation of Liaoning, China; K. antipollicatus (‘monkeydactyl’)
+  had an opposable thumb.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 152.21
+  early_interval: Bathonian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Kunpengopterus antipollicatus
+  authority: Zhou et al. 2021
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: X. Zhou, R. V. Pegas, and W. Ma, G. Han, X. Jin, M. EC Leal, N. Bonde, Y. Kobayashi, S. Lautenschlager,
+    X. Wei, C. Shen, S. Ji. 2021. Current Biology. 31:1-8
+- name: Kunpengopterus sinensis
+  authority: Wang et al. 2010
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: X. Wang, A. W. A. Kellner, and S. Jiang, X. Cheng, X. Meng, T. Rodrigues. 2010. New long-tailed pterosaurs
+    (Wukongopteridae) from western Liaoning, China. Anais da Academia Brasileira de Ciências 82(4):1045-1062
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 2
+  ma: [152.21, 168.2]
+fossil_material:
+  holotype: IVPP V16047 (K. sinensis) — Tiaojishan Formation, Linglongta, Jianchang, Liaoning.
+  material: Almost complete skeletons with skulls; several specimens.
+  completeness: multiple
+  exceptional: Possibly regurgitated fish with the holotype; ‘Mrs T’ (ZMNH M8802), now K. antipollicatus, preserves
+    an egg; the first known opposed thumb in a pterosaur.
+biology: The opposable thumb, rare in non-mammals, suggests a grasping ability. Low bony crest behind the eyes,
+  extended by cartilage and perhaps a skin flap.
+images:
+- kind: life
+  file: Kunpengopterus_antipollicatus_and_Allaboilus_gigantus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kunpengopterus_antipollicatus_and_Allaboilus_gigantus.jpg/960px-Kunpengopterus_antipollicatus_and_Allaboilus_gigantus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Kunpengopterus_antipollicatus_and_Allaboilus_gigantus.jpg
+  artist: Luxquine
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-04-16'
+  caption: Speculative life restoration of K. antipollicatus
+  width: 1668
+  height: 1668
+  review: unreviewed
+- kind: fossil
+  file: Kunpengopterus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Kunpengopterus.png/960px-Kunpengopterus.png
+  page: https://commons.wikimedia.org/wiki/File:Kunpengopterus.png
+  artist: Xin Cheng, Shunxing Jiang, Xiaolin Wang​, Alexander W. A. Kellner
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017'
+  caption: Referred specimen of K. sinensis
+  width: 4134
+  height: 3033
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c/vector.svg
+  page: https://www.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ceoptera evansae
+  matched: Wukongopteridae
+  genus_level: false
+  w: 1536
+  h: 638
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang, A. W. A. Kellner, and S. Jiang, X. Cheng, X. Meng, T. Rodrigues. 2010. New long-tailed pterosaurs
+    (Wukongopteridae) from western Liaoning, China. Anais da Academia Brasileira de Ciências 82(4):1045-1062
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kunpengopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kunpengopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kunpengopterus”. English Wikipedia, revision 1363668681.
+  url: https://en.wikipedia.org/w/index.php?title=Kunpengopterus&oldid=1363668681
+- kind: literature
+  text: 'Xin Cheng, Shunxing Jiang, Xiaolin Wangâ & Alexander W.A. Kellner, 2017, "New anatomical information of
+    the wukongopterid Kunpengopterus sinensis Wang et al., 2010 based on a new specimen", PeerJ 5:e4102 DOI: https://doi.org/10.7717/peerj.4102'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

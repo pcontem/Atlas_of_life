@@ -1,0 +1,100 @@
+name: Zhejiangopterus
+rank: genus
+parent: azhdarchidae
+incertae_sedis: false
+placement_note: ''
+authority: Cai and Wei 1994
+type_species: Zhejiangopterus linhaiensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: The most completely known azhdarchid, from the Campanian Tangshang Formation of Zhejiang, China.
+size:
+  wingspan_m: [3.5, 3.5]
+  note: About 3.5 m (first estimated 5 m); about 7.9 kg (Witton).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhejiangopterus linhaiensis
+  authority: Cai and Wei 1994
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: Z. Cai and F. Wei. 1994. Zhejiangopterus linhaiensis (Pterosauria) from the Upper Cretaceous of Linhai,
+    Zhejiang, China. Vertebrata PalAsiatica 32(3):181-194
+formations:
+- formation: Tangshang
+  group: ''
+  members: []
+  country: China
+  regions: [Zhejiang]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+fossil_material:
+  holotype: ZMNH M1330 — Tangshang Formation, Linhai, Zhejiang.
+  material: Several skeletons, including an almost complete one, and a complete skull.
+  completeness: multiple
+  exceptional: ''
+biology: Long, sharply pointed toothless beak; a ground-foraging azhdarchid.
+images:
+- kind: life
+  file: Zhejiangopterus_linhaiensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Zhejiangopterus_linhaiensis.png/960px-Zhejiangopterus_linhaiensis.png
+  page: https://commons.wikimedia.org/wiki/File:Zhejiangopterus_linhaiensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-16'
+  caption: Life restoration
+  width: 4000
+  height: 4184
+  review: unreviewed
+- kind: fossil
+  file: Zhejiang_Geological_Museum_20240804_132220.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Zhejiang_Geological_Museum_20240804_132220.jpg/960px-Zhejiang_Geological_Museum_20240804_132220.jpg
+  page: https://commons.wikimedia.org/wiki/File:Zhejiang_Geological_Museum_20240804_132220.jpg
+  artist: Dlyj0604
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-08-04 13:22:21'
+  caption: Skull cast, Zhejiang Geological Museum
+  width: 3821
+  height: 2857
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
+  page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Mistralazhdarcho maggii
+  matched: Azhdarchidae
+  genus_level: false
+  w: 1536
+  h: 722
+  flight_pose: true
+sources:
+- kind: original
+  text: Z. Cai and F. Wei. 1994. Zhejiangopterus linhaiensis (Pterosauria) from the Upper Cretaceous of Linhai,
+    Zhejiang, China. Vertebrata PalAsiatica 32(3):181-194
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhejiangopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhejiangopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhejiangopterus”. English Wikipedia, revision 1371174385.
+  url: https://en.wikipedia.org/w/index.php?title=Zhejiangopterus&oldid=1371174385
+- kind: literature
+  text: 'Unwin, David M. & Lü, Junchang (1997). "On Zhejiangopterus and the relationships of pterodactyloid pterosaurs".
+    Historical Biology. 12 (3–4): 199–210. doi:10.1080/08912969709386563.'
+- kind: literature
+  text: 'Cai, Z. & Wei, F. (1994). "On a new pterosaur (Zhejiangopterus linhaiensis gen. et sp. nov.) from Upper
+    Cretaceous in Linhai, Zhejiang, China" (PDF). Vertebrata PalAsiatica. 32: 181–194.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

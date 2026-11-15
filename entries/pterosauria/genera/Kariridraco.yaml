@@ -1,0 +1,96 @@
+name: Kariridraco
+rank: genus
+parent: thalassodromidae
+incertae_sedis: false
+placement_note: ''
+authority: Cerqueira et al. 2021
+type_species: Kariridraco dianae
+type_species_note: ''
+summary: Thalassodromid from the Romualdo Formation of Ceará, Brazil, with a tall snout crest.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kariridraco dianae
+  authority: Cerqueira et al. 2021
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: G. M. Cerqueira, M. A. C. Santos, and M. F. Marks, J. M. Sayão, F. L. Pinheiro. 2021. A new azhdarchoid
+    pterosaur from the Lower Cretaceous of Brazil and the paleobiogeography of the Tapejaridae. Acta Palaeontologica
+    Polonica 66(3):555-570
+formations:
+- formation: Romualdo
+  group: Santana
+  members: []
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+fossil_material:
+  holotype: MPSC R 1056 — Romualdo Formation, Ceará (snout of another individual had been glued on by collectors).
+  material: Fairly complete skull with lower jaws and first four neck vertebrae.
+  completeness: partial
+  exceptional: ''
+biology: Toothless thalassodromid; the snout crest rises at about 45°.
+images:
+- kind: life
+  file: Kariridraco_by_Júlia_d’Oliveira.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Kariridraco_by_J%C3%BAlia_d%E2%80%99Oliveira.jpg/960px-Kariridraco_by_J%C3%BAlia_d%E2%80%99Oliveira.jpg
+  page: https://commons.wikimedia.org/wiki/File:Kariridraco_by_J%C3%BAlia_d%E2%80%99Oliveira.jpg
+  artist: Júlia d’Oliveira
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-09-14'
+  caption: Life reconstruction by Júlia d’Oliveira
+  width: 4096
+  height: 2869
+  review: unreviewed
+- kind: fossil
+  file: Kariridraco_dianae_holotype_specimen.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Kariridraco_dianae_holotype_specimen.png/960px-Kariridraco_dianae_holotype_specimen.png
+  page: https://commons.wikimedia.org/wiki/File:Kariridraco_dianae_holotype_specimen.png
+  artist: Gabriela M. Cerqueira, Mateus A.C. Santos, Maikon F. Marks, Juliana M. Sayão, and Felipe L. Pinheiro
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-09-14'
+  caption: Holotype specimen of Kariridraco
+  width: 1160
+  height: 978
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3393418a-9ae3-4c01-a4c5-53adddc8c860/vector.svg
+  page: https://www.phylopic.org/images/3393418a-9ae3-4c01-a4c5-53adddc8c860
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vectidraco daisymorrisae
+  matched: Tapejaridae
+  genus_level: false
+  w: 1536
+  h: 554
+  flight_pose: true
+sources:
+- kind: original
+  text: G. M. Cerqueira, M. A. C. Santos, and M. F. Marks, J. M. Sayão, F. L. Pinheiro. 2021. A new azhdarchoid
+    pterosaur from the Lower Cretaceous of Brazil and the paleobiogeography of the Tapejaridae. Acta Palaeontologica
+    Polonica 66(3):555-570
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kariridraco (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kariridraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kariridraco”. English Wikipedia, revision 1349534749.
+  url: https://en.wikipedia.org/w/index.php?title=Kariridraco&oldid=1349534749
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

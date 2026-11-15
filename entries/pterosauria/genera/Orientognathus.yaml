@@ -1,0 +1,69 @@
+name: Orientognathus
+rank: genus
+parent: rhamphorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Lu et al. 2015
+type_species: Orientognathus chaoyangensis
+type_species_note: ''
+summary: Rhamphorhynchid from the Late Jurassic Tuchengzi Formation of Liaoning, China.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 143.1
+  last_ma: 137.05
+  early_interval: Berriasian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Orientognathus chaoyangensis
+  authority: Lu et al. 2015
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: J. Lu, H. Pu, and X. Wei, H. Chang, M. Kundrat. 2015. A new rhamphorhynchid pterosaur (Pterosauria)
+    from Jurassic deposits of Liaoning Province, China. Zootaxa 3911(1):119-129
+formations:
+- formation: Tuchengzi
+  group: ''
+  members: [Second]
+  country: China
+  regions: [Liaoning]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+fossil_material:
+  holotype: Single specimen — Tuchengzi Formation, Liaoning (Lü et al. 2015).
+  material: Most of the skeleton and skull.
+  completeness: near-complete
+  exceptional: ''
+biology: A basal rhamphorhynchid, slightly younger than the Tiaojishan fauna.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292/vector.svg
+  page: https://www.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Rhamphorhynchus muensteri
+  matched: Rhamphorhynchinae
+  genus_level: false
+  w: 3702
+  h: 1744
+  flight_pose: true
+sources:
+- kind: original
+  text: J. Lu, H. Pu, and X. Wei, H. Chang, M. Kundrat. 2015. A new rhamphorhynchid pterosaur (Pterosauria) from
+    Jurassic deposits of Liaoning Province, China. Zootaxa 3911(1):119-129
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Orientognathus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Orientognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Orientognathus”. English Wikipedia, revision 1375836925.
+  url: https://en.wikipedia.org/w/index.php?title=Orientognathus&oldid=1375836925
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

@@ -1,0 +1,82 @@
+name: Douzhanopterus
+rank: genus
+parent: monofenestrata
+incertae_sedis: true
+placement_note: Recovered between wukongopterids and Pterodactyloidea (Wang et al. 2017); not assigned to any family.
+authority: Wang et al. 2017
+type_species: Douzhanopterus zhengi
+type_species_note: ''
+summary: Transitional monofenestratan from the Late Jurassic of Liaoning, China, with a tail of intermediate length.
+size:
+  wingspan_m: [0.74, 0.74]
+  note: 74 cm (adult).
+age:
+  first_ma: 168.2
+  last_ma: 152.21
+  early_interval: Bathonian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Douzhanopterus zhengi
+  authority: Wang et al. 2017
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: X.-L. Wang, S.-X. Jiang, and J.-Q. Zhang, X. Cheng, X.-F. Yu, Y.-M. Li, G.-J. Wei, X.-L. Wang. 2017.
+    New evidence from China for the nature of the pterosaur evolutionary transition. Scientific Reports 7(42763)
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 168.2]
+fossil_material:
+  holotype: STM 19-35 — Tiaojishan Formation, Linglongta, Liaoning (Shandong Tianyu Museum).
+  material: Skeleton lacking the skull, on plate and counterplate.
+  completeness: partial
+  exceptional: ''
+biology: Small, adult individual; ecology not specifically studied.
+images:
+- kind: fossil
+  file: Douzhanopterus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Douzhanopterus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Douzhanopterus.jpg
+  artist: Xiaoli Wang, Shunxing Jiang, Junqiang Zhang, Xin Cheng, Xuefeng Yu, Yameng Li, Guangjin Wei &amp; Xiaolin
+    Wang
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017'
+  caption: Photograph of the type specimen of Douzhanopterus (a) with closeups of the tail (b) and foot (c)
+  width: 926
+  height: 834
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c/vector.svg
+  page: https://www.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ceoptera evansae
+  matched: Monofenestrata
+  genus_level: false
+  w: 1536
+  h: 638
+  flight_pose: true
+sources:
+- kind: original
+  text: X.-L. Wang, S.-X. Jiang, and J.-Q. Zhang, X. Cheng, X.-F. Yu, Y.-M. Li, G.-J. Wei, X.-L. Wang. 2017. New
+    evidence from China for the nature of the pterosaur evolutionary transition. Scientific Reports 7(42763)
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Douzhanopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Douzhanopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Douzhanopterus”. English Wikipedia, revision 1369638119.
+  url: https://en.wikipedia.org/w/index.php?title=Douzhanopterus&oldid=1369638119
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

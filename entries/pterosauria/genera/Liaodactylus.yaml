@@ -1,0 +1,83 @@
+name: Liaodactylus
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhou et al. 2017
+type_species: Liaodactylus primus
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Earliest known ctenochasmatid and first filter-feeding pterosaur from the Jurassic Yanliao Biota of Liaoning,
+  China.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Liaodactylus primus
+  authority: Zhou et al. 2017
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: C.-F. Zhou, K.-Q. Gao, and H.-Y. Yi, J.-Z. Xue, Q.-G. Li, R. C. Fox. 2017. Earliest filter-feeding
+    pterosaur from the Jurassic of China and ecological evolution of Pterodactyloidea. Royal Society Open Science
+    4(160672)
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+fossil_material:
+  holotype: PMOL-AP00031 — Tiaojishan Formation, Daxishan, Jianchang County, Liaoning.
+  material: Complete skull (13.3 cm), lower jaws and first two neck vertebrae.
+  completeness: fragmentary
+  exceptional: ''
+biology: About 150 long, comb-like interlocking teeth used to filter food; closely related to Ctenochasma.
+images:
+- kind: fossil
+  file: Liaodactylus-2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Liaodactylus-2.jpg/960px-Liaodactylus-2.jpg
+  page: https://commons.wikimedia.org/wiki/File:Liaodactylus-2.jpg
+  artist: Chang-Fu Zhou, Ke-Qin Gao, Hongyu Yi, Jinzhuang Xue, Quanguo Li, Richard C. Fox
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-02-01'
+  caption: Holotype skull of Liaodactylus
+  width: 1244
+  height: 1280
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b/vector.svg
+  page: https://www.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Ctenochasma roemeri
+  matched: Ctenochasmatidae
+  genus_level: false
+  w: 2967
+  h: 2054
+  flight_pose: false
+sources:
+- kind: original
+  text: C.-F. Zhou, K.-Q. Gao, and H.-Y. Yi, J.-Z. Xue, Q.-G. Li, R. C. Fox. 2017. Earliest filter-feeding pterosaur
+    from the Jurassic of China and ecological evolution of Pterodactyloidea. Royal Society Open Science 4(160672)
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Liaodactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Liaodactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Liaodactylus”. English Wikipedia, revision 1347853703.
+  url: https://en.wikipedia.org/w/index.php?title=Liaodactylus&oldid=1347853703
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

@@ -1,0 +1,76 @@
+name: Laueropterus
+rank: genus
+parent: monofenestrata
+incertae_sedis: true
+placement_note: Assigned only to Monofenestrata (Hone 2026), without phylogenetic analysis.
+authority: Hone 2026
+type_species: Laueropterus vitriolus
+type_species_note: ''
+summary: Early monofenestratan from the Tithonian Mörnsheim Formation of Bavaria, named in 2026.
+size:
+  wingspan_m: [1, 1]
+  note: About 1 m (near-mature individual).
+age:
+  first_ma: 152.1
+  last_ma: 145.0
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Laueropterus vitriolus
+  authority: Hone 2026
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Mörnsheim
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bavaria]
+  interval: Tithonian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: LF 6268 (Lauer Foundation) — Mörnsheim Formation, Schaudiberg Quarry, Mühlheim, Bavaria.
+  material: Much of the skeleton including skull (20.5 cm) and mandible.
+  completeness: near-complete
+  exceptional: ''
+biology: Similar to Skiphosoura in its teeth and robust jaw; lived alongside Makrodactylus and Skiphosoura.
+images:
+- kind: fossil
+  file: Laueropterus_vitriolus_(holotype,_LF_6268).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Laueropterus_vitriolus_%28holotype%2C_LF_6268%29.png/960px-Laueropterus_vitriolus_%28holotype%2C_LF_6268%29.png
+  page: https://commons.wikimedia.org/wiki/File:Laueropterus_vitriolus_(holotype,_LF_6268).png
+  artist: D. W. E. Hone
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-11'
+  caption: Holotype specimen
+  width: 2928
+  height: 2228
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c/vector.svg
+  page: https://www.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ceoptera evansae
+  matched: Monofenestrata
+  genus_level: false
+  w: 1536
+  h: 638
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Laueropterus”. English Wikipedia, revision 1377649614.
+  url: https://en.wikipedia.org/w/index.php?title=Laueropterus&oldid=1377649614
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'

@@ -1,0 +1,85 @@
+name: Jidapterus
+rank: genus
+parent: chaoyangopteridae
+incertae_sedis: false
+placement_note: Also recovered in Tapejaridae (Chaoyangopterinae) by Pinheiro et al. (2011).
+authority: Dong et al. 2003
+type_species: Jidapterus edentus
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Toothless chaoyangopterid with a straight, pointed beak, from the Jiufotang Formation of Chaoyang, Liaoning.
+size:
+  wingspan_m: [1.7, 1.7]
+  note: Estimated 1.7 m.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jidapterus edentus
+  authority: Dong et al. 2003
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: Z.-M. Dong, Y.-W. Sun, and S.-Y. Wu. 2003. On a new pterosaur from the Lower Cretaceous of Chaoyang
+    Basin, Western Liaoning, China. Global Geology 22:1-7
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: CAD-01 — Jiufotang Formation, Chaoyang, Liaoning.
+  material: Nearly complete skeleton with partial skull.
+  completeness: near-complete
+  exceptional: ''
+biology: Chaoyangopterids are thought to have been crane-like terrestrial foragers.
+images:
+- kind: fossil
+  file: Jidapterus.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Jidapterus.PNG/960px-Jidapterus.PNG
+  page: https://commons.wikimedia.org/wiki/File:Jidapterus.PNG
+  artist: Wen-Hao Wu, Chang-Fu Zhou, Brian Andres
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2017'
+  caption: Holotype specimen RCPS-030366CY
+  width: 2218
+  height: 2400
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f682dfb1-51d5-462d-b0f2-797840d95d13/vector.svg
+  page: https://www.phylopic.org/images/f682dfb1-51d5-462d-b0f2-797840d95d13
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Jidapterus edentus
+  matched: Chaoyangopterinae
+  genus_level: true
+  w: 1536
+  h: 1495
+  flight_pose: false
+sources:
+- kind: original
+  text: Z.-M. Dong, Y.-W. Sun, and S.-Y. Wu. 2003. On a new pterosaur from the Lower Cretaceous of Chaoyang Basin,
+    Western Liaoning, China. Global Geology 22:1-7
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jidapterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jidapterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jidapterus”. English Wikipedia, revision 1320098498.
+  url: https://en.wikipedia.org/w/index.php?title=Jidapterus&oldid=1320098498
+- kind: literature
+  text: 'Wu, W.-H.; Zhou, C.-F.; Andres, B. (2017). "The toothless pterosaur Jidapterus edentus (Pterodactyloidea:
+    Azhdarchoidea) from the Early Cretaceous Jehol Biota and its paleoecological implications". PLOS ONE. 12 (9)
+    e0185486..1285486W. doi:10.1371/journal.pone.0185486.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

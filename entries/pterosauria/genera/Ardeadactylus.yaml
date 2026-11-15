@@ -1,0 +1,99 @@
+name: Ardeadactylus
+rank: genus
+parent: ctenochasmatoidea
+incertae_sedis: false
+placement_note: Recovered in Ctenochasmatidae (Longrich et al. 2018) or Aurorazhdarchidae (Vidovic & Martill 2017);
+  both fall within Ctenochasmatoidea.
+authority: Bennett 2013
+type_species: Ardeadactylus longicollum
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Heron-like, long-necked pterodactyloid from the Late Jurassic of Bavaria, once a species of Pterodactylus.
+size:
+  wingspan_m: [1.45, 1.6]
+  note: Bennett (2013) estimated 1.45 m for the neotype; a referred specimen is about 10% larger.
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Ardeadactylus longicollum
+  authority: (Meyer 1854)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: S. C. Bennett. 2013. New information on body size and cranial display structures of Pterodactylus antiquus,
+    with a revision of the genus. Palaeontologische Zeitschrift
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg, Eastern Bavaria]
+  interval: Late Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 152.21]
+- formation: Liegende Bankkalk
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+fossil_material:
+  holotype: Original holotype lost in WWII; neotype JME-SOS 2428 (Jura Museum, Eichstätt), Solnhofen limestone.
+  material: Two surviving specimens, including skull, neck and anterior body.
+  completeness: partial
+  exceptional: ''
+biology: Interpreted as a long-legged wading piscivore; fewer and relatively larger teeth than Pterodactylus suggest
+  larger fish prey.
+images:
+- kind: fossil
+  file: Ardeadactylus_longicollum_holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Ardeadactylus_longicollum_holotype.jpg
+  page: https://commons.wikimedia.org/wiki/File:Ardeadactylus_longicollum_holotype.jpg
+  artist: von Meyer
+  license: Public domain
+  license_url: ''
+  date: '1860'
+  caption: Illustration of the lost holotype from 1860
+  width: 842
+  height: 1098
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/02651c35-768e-4570-9bad-90cac6911b52/vector.svg
+  page: https://www.phylopic.org/images/02651c35-768e-4570-9bad-90cac6911b52
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Pterodactylus antiquus
+  matched: Pterodactyloidea
+  genus_level: false
+  w: 1536
+  h: 679
+  flight_pose: true
+sources:
+- kind: original
+  text: S. C. Bennett. 2013. New information on body size and cranial display structures of Pterodactylus antiquus,
+    with a revision of the genus. Palaeontologische Zeitschrift
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ardeadactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ardeadactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ardeadactylus”. English Wikipedia, revision 1367935447.
+  url: https://en.wikipedia.org/w/index.php?title=Ardeadactylus&oldid=1367935447
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

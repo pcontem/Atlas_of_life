@@ -1,0 +1,88 @@
+name: Moganopterus
+rank: genus
+parent: ctenochasmatoidea
+incertae_sedis: false
+placement_note: Described as a boreopterid (Moganopterinae); later work recovers it as a ctenochasmatid.
+authority: Lü et al. 2012
+type_species: Moganopterus zhuiana
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Extremely long-skulled toothed pterosaur from the Yixian Formation of Liaoning, China — the largest skull
+  of any toothed pterosaur.
+size:
+  wingspan_m: [3.5, 7]
+  note: Originally ~7 m; reduced to a maximum of 3.5 m in the 2022 redescription (Gao et al.).
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Moganopterus zhuiana
+  authority: Lü et al. 2012
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: J. -C. Lü, H. -Y. Pu, and L. Xu, Y. -H. Wu, X. -F. Wei. 2012. Largest toothed pterosaur skull from
+    the Early Cretaceous Yixian Formation of western Liaoning, China, with comments on the family Boreopteridae.
+    Acta Geological Sinica 86(2):287-293
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+fossil_material:
+  holotype: 41HIII0419 (Henan Geological Museum) — Yixian Formation, Liaoning.
+  material: Almost complete skull (~95 cm) with lower jaws and cervicals 2–4.
+  completeness: fragmentary
+  exceptional: ''
+biology: Long, slightly recurved conical teeth along straight jaws; probably a fish-catcher.
+images:
+- kind: life
+  file: Moganopterus_reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Moganopterus_reconstruction.png/960px-Moganopterus_reconstruction.png
+  page: https://commons.wikimedia.org/wiki/File:Moganopterus_reconstruction.png
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-11-12'
+  caption: Speculative life restoration
+  width: 2048
+  height: 1151
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9bb1bf03-4987-45b1-a268-4d17758c7d26/vector.svg
+  page: https://www.phylopic.org/images/9bb1bf03-4987-45b1-a268-4d17758c7d26
+  attribution: Nix Illustration
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Feilongus youngi
+  matched: Moganopterinae
+  genus_level: false
+  w: 1536
+  h: 850
+  flight_pose: true
+sources:
+- kind: original
+  text: J. -C. Lü, H. -Y. Pu, and L. Xu, Y. -H. Wu, X. -F. Wei. 2012. Largest toothed pterosaur skull from the Early
+    Cretaceous Yixian Formation of western Liaoning, China, with comments on the family Boreopteridae. Acta Geological
+    Sinica 86(2):287-293
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Moganopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Moganopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Moganopterus”. English Wikipedia, revision 1380958529.
+  url: https://en.wikipedia.org/w/index.php?title=Moganopterus&oldid=1380958529
+- kind: literature
+  text: Gao DS, Jiang SX, Xu L, Cheng X, Yang LL, Jia SH, Wang XL (2022). "Reappraisal of the largest ctenochasmatid
+    Moganopterus zhuiana Lü et al., 2012". Vertebrata PalAsiatica. in press. doi:10.19615/j.cnki.2096-9899.220111.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

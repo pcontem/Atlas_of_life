@@ -1,0 +1,70 @@
+name: Hongshanopterus
+rank: genus
+parent: istiodactyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2008
+type_species: Hongshanopterus lacustris
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Early istiodactyliform from the Aptian Jiufotang Formation of Liaoning, China.
+size:
+  wingspan_m: [1.8, 1.9]
+  note: Estimated 1.8–1.9 m.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hongshanopterus lacustris
+  authority: Wang et al. 2008
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: X. Wang, D. A. Campos, and Z. Zhou, A. W. A. Kellner. 2008. A primitive istiodactylid pterosaur (Pterodactyloidea)
+    from the Jiufotang Formation (Early Cretaceous), northeast China. Zootaxa 1813:1-18
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: IVPP V14582 — Jiufotang Formation, Dapingfang, Liaoning.
+  material: Skull and five neck vertebrae of a single individual.
+  completeness: fragmentary
+  exceptional: ''
+biology: About 36 robust, triangular upper teeth; less specialised than later istiodactylids, which are thought
+  to have been scavengers.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang, D. A. Campos, and Z. Zhou, A. W. A. Kellner. 2008. A primitive istiodactylid pterosaur (Pterodactyloidea)
+    from the Jiufotang Formation (Early Cretaceous), northeast China. Zootaxa 1813:1-18
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hongshanopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hongshanopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hongshanopterus”. English Wikipedia, revision 1366558223.
+  url: https://en.wikipedia.org/w/index.php?title=Hongshanopterus&oldid=1366558223
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

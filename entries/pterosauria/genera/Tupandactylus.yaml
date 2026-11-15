@@ -1,0 +1,118 @@
+name: Tupandactylus
+rank: genus
+parent: tapejaridae
+incertae_sedis: false
+placement_note: ''
+authority: Kellner and Campos 2007
+type_species: Tupandactylus imperator
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Tapejarid with an enormous sail-like head crest of bone and keratin, from the Crato Formation of Brazil.
+size:
+  wingspan_m: [2.7, 4]
+  note: T. imperator 3–4 m; T. navigans about 2.7 m.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Tupandactylus imperator
+  authority: (Campos and Kellner 1997)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: D. A. Campos and A. W. A. Kellner. 1997. Short note on the first occurrence of Tapejaridae in the Crato
+    Member (Aptian), Santana Formation, Araripe Basin, northeast Brazil. Anais da Academia Brasileira de Ciências
+    69:83-87
+- name: Tupandactylus navigans
+  authority: (Frey et al. 2003)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: E. Frey, D. M. Martill, and M.-C. Buchy. 2003. A new species of tapejarid pterosaur with soft-tissue
+    head crest. Evolution and Palaeobiology of Pterosaurs, Geological Society of London, Special Publications 217:65-72
+formations:
+- formation: Crato
+  group: Santana
+  members: [Nova Olinda]
+  country: Brazil
+  regions: [Ceara, Ceará]
+  interval: Late Aptian
+  occurrences: 3
+  ma: [113.2, 119.57]
+fossil_material:
+  holotype: MCT 1622-R — Crato Formation, Ceará.
+  material: Skulls and a very complete T. navigans skeleton (2021).
+  completeness: multiple
+  exceptional: Soft-tissue crest and keratin beak preserved; filament-like integument.
+biology: Crest about one third of the wingspan in length; the two species may be sexes of one dimorphic species.
+  Toothless beak.
+images:
+- kind: life
+  file: Tapejara_weln_DB2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Tapejara_weln_DB2.jpg/960px-Tapejara_weln_DB2.jpg
+  page: https://commons.wikimedia.org/wiki/File:Tapejara_weln_DB2.jpg
+  artist: Dmitry Bogdanov
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2006'
+  caption: Life restoration of T. navigans in terrestrial pose
+  width: 1000
+  height: 780
+  review: unreviewed
+- kind: fossil
+  file: Tupandactylus_specimens.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Tupandactylus_specimens.jpg/960px-Tupandactylus_specimens.jpg
+  page: https://commons.wikimedia.org/wiki/File:Tupandactylus_specimens.jpg
+  artist: FELIPE L. PINHEIRO, ALEXANDER W.A. KELLNER, JOÃO L. DA SILVA, RUDAH R.C. DUQUE, JULIANA M. SAYÃO, ESAÚ
+    V. DE ARAÚJO, FABIANA R. COSTA, RICHARD BUCHMANN, GABRIELA M. CERQUEIRA, LUCAS CANEJO, VICTOR BECCARI, RENAN
+    A.M. BANTIM, BORJA HOLGADO &amp; RUBI V. PÊGAS
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025'
+  caption: Holotypes and assigned specimens
+  width: 1375
+  height: 1881
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2fc8bbbe-336a-4b00-96a6-06e1cfb9985b/vector.svg
+  page: https://www.phylopic.org/images/2fc8bbbe-336a-4b00-96a6-06e1cfb9985b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Tupandactylus navigans
+  matched: Tupandactylus
+  genus_level: true
+  w: 1080
+  h: 1563
+  flight_pose: false
+sources:
+- kind: original
+  text: 'A. W. A. Kellner and D. A. Campos. 2007. Short note on the ingroup relationships of the Tapejaridae (Pterosauria:
+    Pterodactyloidea). Boletim do Museu Nacional, Nova Sérue. Geologia 75:1-14'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tupandactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tupandactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tupandactylus”. English Wikipedia, revision 1383195713.
+  url: https://en.wikipedia.org/w/index.php?title=Tupandactylus&oldid=1383195713
+- kind: literature
+  text: Costa, Lucas Piazentin (May 25, 2021). Redescription of Tupandactylus imperator Campos & Keller, 1997 (Pterosauria,
+    Tapejaridae) based on a new complete specimen from the Crato Formation (Aptian-Albian) of the Araripe Basin,
+    Ceará, Brazil (dissertation thesis). Universidade de São Paulo.
+- kind: literature
+  text: 'Pinheiro, Felipe L.; Fortier, Daniel C.; Schultz, Cesar L.; De Andrade, José Artur F.G.; Bantim, Renan
+    A.M. (2011). "New information on Tupandactylus imperator, with comments on the relationships of Tapejaridae
+    (Pterosauria)". Acta Palaeontologica Polonica. 56 (3): 567–580. doi:10.4202/app.2010.0057.'
+- kind: literature
+  text: Canejo, Lucas; Sayão, Juliana M.; Kellner, Alexander W. A. (2025). "Exploring the complex cranial morphology
+    of Tupandactylus imperator (Pterodactyloidea, Tapejaridae) based on a new specimen". Anais da Academia Brasileira
+    de Ciências. 97 e20250756. doi:10.1590/0001-3765202520250756.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

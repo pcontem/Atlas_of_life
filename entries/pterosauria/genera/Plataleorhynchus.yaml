@@ -1,0 +1,95 @@
+name: Plataleorhynchus
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: ''
+authority: Howse and Milner 1995
+type_species: Plataleorhynchus streptophorodon
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Spoonbill-snouted ctenochasmatid from the Purbeck Group (Tithonian–Berriasian) of Dorset, England.
+size:
+  wingspan_m: null
+  note: Skull at least 40 cm.
+age:
+  first_ma: 143.1
+  last_ma: 137.05
+  early_interval: Berriasian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Plataleorhynchus streptophorodon
+  authority: Howse and Milner 1995
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: S. C. B. Howse and A. R. Milner. 1995. The pterodactyloids from the Purbeck Limestone Formation of
+    Dorset. Bulletin of the Natural History Musuem, London (Geology) 51(1):73-88
+formations:
+- formation: Unnamed unit
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+fossil_material:
+  holotype: NHMUK PV R 11957 — Purbeck Group, Langton Matravers, Dorset.
+  material: Incomplete front of the upper jaw with teeth.
+  completeness: fragmentary
+  exceptional: ''
+biology: Circular, spatula-shaped snout with sideways-pointing teeth and a horn-covered palate pad; perhaps stirred
+  up animals from muddy or weedy bottoms.
+images:
+- kind: life
+  file: Plataleorhynchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Plataleorhynchus.jpg/960px-Plataleorhynchus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Plataleorhynchus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014'
+  caption: Life restoration
+  width: 1500
+  height: 831
+  review: unreviewed
+- kind: fossil
+  file: Plataleorhynchus_jaw.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Plataleorhynchus_jaw.png/960px-Plataleorhynchus_jaw.png
+  page: https://commons.wikimedia.org/wiki/File:Plataleorhynchus_jaw.png
+  artist: Alexandra E. Fernandes, Victor Beccari, Alexander W. A. Kellner, Octávio Mateus​
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023'
+  caption: Holotype jaw of Plataleorhynchus streptophorodon
+  width: 1065
+  height: 267
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/02651c35-768e-4570-9bad-90cac6911b52/vector.svg
+  page: https://www.phylopic.org/images/02651c35-768e-4570-9bad-90cac6911b52
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Pterodactylus antiquus
+  matched: Lophocratia
+  genus_level: false
+  w: 1536
+  h: 679
+  flight_pose: true
+sources:
+- kind: original
+  text: S. C. B. Howse and A. R. Milner. 1995. The pterodactyloids from the Purbeck Limestone Formation of Dorset.
+    Bulletin of the Natural History Musuem, London (Geology) 51(1):73-88
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plataleorhynchus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plataleorhynchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plataleorhynchus”. English Wikipedia, revision 1378054497.
+  url: https://en.wikipedia.org/w/index.php?title=Plataleorhynchus&oldid=1378054497
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

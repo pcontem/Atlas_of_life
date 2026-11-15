@@ -1,0 +1,82 @@
+name: Guidraco
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2012
+type_species: Guidraco venator
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: '‘Ghost dragon’: an anhanguerine with a tall forehead crest and enormous fangs, from the Jiufotang Formation
+  of Liaoning, China.'
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Guidraco venator
+  authority: Wang et al. 2012
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: 'X. Wang, A. W. A. Kellner, and S. Jiang, X. Cheng. 2012. New toothed reptile from Asia: close similarities
+    between early Cretaceous pterosaur faunas from China and Brazil. Naturwissenschaften 99:249-257'
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: IVPP V17083 — Jiufotang Formation, Liaoning.
+  material: 'Articulated partial skeleton: nearly complete skull (38 cm), lower jaws and cervicals 2–5.'
+  completeness: partial
+  exceptional: ''
+biology: Very long intermeshing front teeth formed a ‘prey grab’ for slippery animals — considered a fish-eater.
+images:
+- kind: fossil
+  file: Guidraco_venator_Holotype_IVPP.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Guidraco_venator_Holotype_IVPP.jpg/960px-Guidraco_venator_Holotype_IVPP.jpg
+  page: https://commons.wikimedia.org/wiki/File:Guidraco_venator_Holotype_IVPP.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-31 03:36:36'
+  caption: Holotype skull (IVPP V17083), Paleozoological Museum of China
+  width: 2592
+  height: 1338
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b/vector.svg
+  page: https://www.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alcione elainus
+  matched: Ornithocheiroidea
+  genus_level: false
+  w: 1912
+  h: 1056
+  flight_pose: true
+sources:
+- kind: original
+  text: 'X. Wang, A. W. A. Kellner, and S. Jiang, X. Cheng. 2012. New toothed reptile from Asia: close similarities
+    between early Cretaceous pterosaur faunas from China and Brazil. Naturwissenschaften 99:249-257'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Guidraco (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Guidraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Guidraco”. English Wikipedia, revision 1384637520.
+  url: https://en.wikipedia.org/w/index.php?title=Guidraco&oldid=1384637520
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

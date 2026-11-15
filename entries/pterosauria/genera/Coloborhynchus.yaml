@@ -1,0 +1,146 @@
+name: Coloborhynchus
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: Recovered in Anhangueridae or Ornithocheiridae depending on the analysis.
+authority: Owen 1874
+type_species: Coloborhynchus clavirostris
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Large-crested anhanguerian from the Early Cretaceous of England, with front teeth set high on the blunt
+  snout tip.
+size:
+  wingspan_m: [7, 7]
+  note: Based on the largest referred material, total skull length could reach 75 cm and wingspan about 7 m; species
+    content varies between authors.
+age:
+  first_ma: 139.1
+  last_ma: 93.9
+  early_interval: Berriasian
+  late_interval: Cenomanian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Coloborhynchus clavirostris
+  authority: (Owen 1874)
+  first_ma: 139.1
+  last_ma: 132.6
+  interval: Berriasian–Valanginian
+  reference: R. Owen. 1874. The fossil Reptilia of the Mesozoic formations. Part 1. Pterosauria. Palaeontographical
+    Society Monographs 27(126):1-14
+- name: Coloborhynchus moroccensis
+  authority: (Mader and Kellner 1999)
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: B. J. Mader and A. W. A. Kellner. 1999. A new anhanguerid pterosaur from the Cretaceous of Morocco.
+    Boletim do Museu Nacional - Geologia 45:1-11
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian–Valanginian
+  occurrences: 1
+  ma: [132.6, 139.1]
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+- formation: Ifezouane
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+fossil_material:
+  holotype: BMNH 1822 — partial snout, Hastings Beds (Wealden Group), East Sussex, England.
+  material: Partial snouts and jaw fragments; species assigned to the genus differ among authors.
+  completeness: fragmentary
+  exceptional: ''
+biology: Fish-eater with a crested, blunt snout and widely spaced fangs suited to seizing prey near the water surface.
+images:
+- kind: life
+  file: Coloborhynchus_fluviferox_by_Nick_Longrich.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/97/Coloborhynchus_fluviferox_by_Nick_Longrich.jpg
+  page: https://commons.wikimedia.org/wiki/File:Coloborhynchus_fluviferox_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-07-03'
+  caption: Life restoration of the possible species C. fluviferox
+  width: 663
+  height: 726
+  review: unreviewed
+- kind: fossil
+  file: Coloborhynchus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Coloborhynchus.png
+  page: https://commons.wikimedia.org/wiki/File:Coloborhynchus.png
+  artist: Borja Holgado and Rodrigo V. Pêgas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020'
+  caption: Holotype jaw fragment of C. clavirostris in multiple views
+  width: 526
+  height: 503
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69/vector.svg
+  page: https://www.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69
+  attribution: Leon P. A. M. Claessens, Patrick M. O'Connor, David M. Unwin
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Anhanguera santanae
+  matched: Anhangueridae
+  genus_level: false
+  w: 2993
+  h: 985
+  flight_pose: true
+sources:
+- kind: original
+  text: R. Owen. 1874. The fossil Reptilia of the Mesozoic formations. Part 1. Pterosauria. Palaeontographical Society
+    Monographs 27(126):1-14
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coloborhynchus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coloborhynchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coloborhynchus”. English Wikipedia, revision 1369791974.
+  url: https://en.wikipedia.org/w/index.php?title=Coloborhynchus&oldid=1369791974
+- kind: literature
+  text: 'Rodrigues, Taiss; Kellner, Alexander W. A. (2008). "Review of the pterodactyloid pterosaur Coloborhynchus"
+    (PDF). Zitteliana. 28: 219–228.'
+- kind: literature
+  text: 'Jacobs, M.L.; Martill, D.M.; Ibrahim, N.; Longrich, N. (2019). "A new species of Coloborhynchus (Pterosauria,
+    Ornithocheiridae) from the mid-Cretaceous of North Africa" (PDF). Cretaceous Research. 95: 77–88..95...77J.
+    doi:10.1016/j.cretres.2018.10.018.'
+- kind: literature
+  text: 'Veldmeijer, A. J. (2002). "Description of Coloborhynchus spielbergi sp. nov. (Pterodactyloidea) from the
+    Albian (Lower Cretaceous) of Brazil". Scripta Geology. 125 (3003): 35–139.'
+- kind: literature
+  text: 'Martill, David M.; Unwin, David M. (April 2012). "The world''s largest toothed pterosaur, NHMUK R481, an
+    incomplete rostrum of Coloborhynchus capito (Seeley, 1870) from the Cambridge Greensand of England". Cretaceous
+    Research. 34: 1–9..34....1M. doi:10.1016/j.cretres.2011.09.003. hdl:2381/12093.'
+- kind: literature
+  text: 'Martill, David M. (June 2015). "First occurrence of the pterosaur Coloborhynchus (Pterosauria, Ornithocheiridae)
+    from the Wessex Formation (Lower Cretaceous) of the Isle of Wight, England" (PDF). Proceedings of the Geologists''
+    Association. 126 (3): 377–380..126..377M. doi:10.1016/j.pgeola.2015.03.004.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

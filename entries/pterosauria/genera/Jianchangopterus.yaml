@@ -1,0 +1,70 @@
+name: Jianchangopterus
+rank: genus
+parent: scaphognathidae
+incertae_sedis: false
+placement_note: Assigned by its describers to Scaphognathinae within Rhamphorhynchidae.
+authority: Lü and Bo 2011
+type_species: Jianchangopterus zhaoianus
+type_species_note: ''
+summary: Tiny scaphognathine from the Tiaojishan Formation of western Liaoning, China.
+size:
+  wingspan_m: [0.32, 0.32]
+  note: At least 32 cm (measurements uncertain due to damage).
+age:
+  first_ma: 168.2
+  last_ma: 152.21
+  early_interval: Bathonian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jianchangopterus zhaoianus
+  authority: Lü and Bo 2011
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: J. Lü and X. Bo. 2011. A new rhamphorhynchid pterosaur (Pterosauria) from the Middle Jurassic Tiaojishan
+    Formation of western Liaoning, China. Acta Geologica Sinica 86(5):977-983
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 168.2]
+fossil_material:
+  holotype: YHK-0931 (Yizhou Museum) — Tiaojishan Formation, Liaoning.
+  material: Complete articulated skeleton on slab and counterslab.
+  completeness: complete
+  exceptional: ''
+biology: Only seven upper and six lower teeth per side; its describers considered it most likely an insect-eater,
+  unlike the fish-eating pterosaurs it lived with in lakeside forests below active volcanoes.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b20f93be-e13e-4d49-b9ab-2accf45caa6b/vector.svg
+  page: https://www.phylopic.org/images/b20f93be-e13e-4d49-b9ab-2accf45caa6b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Scaphognathus crassirostris
+  matched: Scaphognathinae
+  genus_level: false
+  w: 1844
+  h: 931
+  flight_pose: true
+sources:
+- kind: original
+  text: J. Lü and X. Bo. 2011. A new rhamphorhynchid pterosaur (Pterosauria) from the Middle Jurassic Tiaojishan
+    Formation of western Liaoning, China. Acta Geologica Sinica 86(5):977-983
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jianchangopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jianchangopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jianchangopterus”. English Wikipedia, revision 1300081078.
+  url: https://en.wikipedia.org/w/index.php?title=Jianchangopterus&oldid=1300081078
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

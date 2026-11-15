@@ -1,0 +1,70 @@
+name: Chaoyangopterus
+rank: genus
+parent: chaoyangopteridae
+incertae_sedis: false
+placement_note: Has also been placed in Tapejaridae (subfamily Chaoyangopterinae) by Pinheiro et al. (2011).
+authority: Wang and Zhou 2003
+type_species: Chaoyangopterus zhangi
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Toothless chaoyangopterid azhdarchoid from the Aptian Jiufotang Formation of Liaoning, China.
+size:
+  wingspan_m: [1.85, 1.85]
+  note: Estimated about 1.85 m.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Chaoyangopterus zhangi
+  authority: Wang and Zhou 2003
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: X.-L. Wang and Z.-H. Zhou. 2003. Two new pterodactyloid pterosaurs from the Early Cretaceous Jiufotang
+    Formation of western Liaoning, China. Vertebrata PalAsiatica 41(1):34-41
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: IVPP V13397 — Jiufotang Formation, Dapingfang, Chaoyang, Liaoning.
+  material: Front of skull (~27 cm), lower jaws, neck vertebrae, shoulder and pelvic girdles, limbs.
+  completeness: partial
+  exceptional: ''
+biology: 'Relatively short wings and long legs. Chaoyangopterids are thought to have resembled azhdarchids: crane-like
+  terrestrial omnivores and opportunistic carnivores.'
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
+  page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Mistralazhdarcho maggii
+  matched: Azhdarchidae
+  genus_level: false
+  w: 1536
+  h: 722
+  flight_pose: true
+sources:
+- kind: original
+  text: X.-L. Wang and Z.-H. Zhou. 2003. Two new pterodactyloid pterosaurs from the Early Cretaceous Jiufotang Formation
+    of western Liaoning, China. Vertebrata PalAsiatica 41(1):34-41
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chaoyangopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chaoyangopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chaoyangopterus”. English Wikipedia, revision 1384632830.
+  url: https://en.wikipedia.org/w/index.php?title=Chaoyangopterus&oldid=1384632830
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

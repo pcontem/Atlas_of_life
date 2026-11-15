@@ -1,0 +1,116 @@
+name: Hatzegopteryx
+rank: genus
+parent: azhdarchidae
+incertae_sedis: false
+placement_note: ''
+authority: Buffetaut et al. 2002
+type_species: Hatzegopteryx thambema
+type_species_note: ''
+summary: Giant, heavy-skulled azhdarchid from the latest Cretaceous of Transylvania, Romania — the apex predator
+  of the Haţeg island.
+size:
+  wingspan_m: [10, 12]
+  note: Largest remains suggest 10–12 m; other material from smaller individuals (4.5–6 m).
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Hatzegopteryx thambema
+  authority: Buffetaut et al. 2002
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: E. Buffetaut, D. Grigorescu, and Z. Csiki. 2002. A new giant pterosaur with a robust skull from the
+    latest Cretaceous of Romania. Naturwissenschaften 89:180-184
+formations:
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+- formation: Râul Mare
+  group: ''
+  members: [upper]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+fossil_material:
+  holotype: FGGUB R 1083A — Densuş-Ciula Formation (Maastrichtian), Haţeg Basin, Romania.
+  material: Two fragments of the back of the skull and the proximal left humerus; referred femur, scapulocoracoid
+    and a large neck vertebra.
+  completeness: fragmentary
+  exceptional: Very robust skull (estimated ~2.5 m long) and short, stout neck vertebra.
+biology: A terrestrially foraging azhdarchid; with no large theropods on Haţeg Island it was probably the apex predator,
+  tackling dwarf titanosaurs and iguanodontians.
+images:
+- kind: life
+  file: Hatzegopteryx_thambema.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Hatzegopteryx_thambema.png/960px-Hatzegopteryx_thambema.png
+  page: https://commons.wikimedia.org/wiki/File:Hatzegopteryx_thambema.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-19'
+  caption: Speculative life reconstruction
+  width: 4000
+  height: 3798
+  review: unreviewed
+- kind: fossil
+  file: Hatzegopteryx_humerus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Hatzegopteryx_humerus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Hatzegopteryx_humerus.jpg
+  artist: Mark P. Witton1, Michael B. Habib
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010'
+  caption: Left humerus of the holotype specimen in ventral (A) and distal (B) view
+  width: 852
+  height: 1242
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
+  page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Mistralazhdarcho maggii
+  matched: Azhdarchidae
+  genus_level: false
+  w: 1536
+  h: 722
+  flight_pose: true
+sources:
+- kind: original
+  text: E. Buffetaut, D. Grigorescu, and Z. Csiki. 2002. A new giant pterosaur with a robust skull from the latest
+    Cretaceous of Romania. Naturwissenschaften 89:180-184
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hatzegopteryx (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hatzegopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hatzegopteryx”. English Wikipedia, revision 1352273204.
+  url: https://en.wikipedia.org/w/index.php?title=Hatzegopteryx&oldid=1352273204
+- kind: literature
+  text: 'Witton, M.P. (2017). "New paper: when the short-necked, giant azhdarchid pterosaur Hatzegopteryx ruled
+    Late Cretaceous Romania". Markwitton.com Blog.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

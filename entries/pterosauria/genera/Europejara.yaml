@@ -1,0 +1,101 @@
+name: Europejara
+rank: genus
+parent: tapejaridae
+incertae_sedis: false
+placement_note: ''
+authority: Vullo et al. 2012
+type_species: Europejara olcadesorum
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: The first European tapejarid, from the Barremian Las Hoyas Lagerstätte of Cuenca, Spain — at its description
+  the oldest known toothless pterosaur.
+size:
+  wingspan_m: [2, 4]
+  note: About 2 m in the 2012 description; revised to 3–4 m in 2023 by some of the same authors.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Europejara olcadesorum
+  authority: Vullo et al. 2012
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: 'R. Vullo, J. Marugán-Lobón, and A. W. A. Kellner, A. D. Buscaloni, B. Gomez, M. de la Fuente, J. J.
+    Moratalla. 2012. A new crested pterosaur from the Early Cetaceous of Spain: the first European tapejarid (Pterodactyloidea:
+    Azhdarchoidea). PLoS ONE 7(7):e38900'
+formations:
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+fossil_material:
+  holotype: MCCM-LH 9413 — La Huérguina Formation, Las Hoyas, Cuenca, Spain.
+  material: Rear of the skull with almost complete lower jaws, compressed on slab and counterslab.
+  completeness: fragmentary
+  exceptional: ''
+biology: Tapejarids are thought to have eaten fruit and seeds (perhaps also insects and small vertebrates); Europejara's
+  age led its describers to suggest a role in seed dispersal of early flowering plants.
+images:
+- kind: life
+  file: Europejara_restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Europejara_restoration.png/960px-Europejara_restoration.png
+  page: https://commons.wikimedia.org/wiki/File:Europejara_restoration.png
+  artist: Caz41985, modified for accuracy by FunkMonk
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: between 2023 and 2026date QS:P,+2023-00-
+  caption: Hypothetical life restoration showing Europejara in flight; it has been suggested that tapejarids were
+    seed dispersers.
+  width: 4899
+  height: 4537
+  review: unreviewed
+- kind: fossil
+  file: Europejara_holotype_horizontal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Europejara_holotype_horizontal.png/960px-Europejara_holotype_horizontal.png
+  page: https://commons.wikimedia.org/wiki/File:Europejara_holotype_horizontal.png
+  artist: Romain Vullo1, Jesús Marugán-Lobón, Alexander W. A. Kellner, Angela D. Buscalioni, Bernard Gomez, Montserrat
+    de la Fuente, José J. Moratalla
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012'
+  caption: Slab and counterslab of the holotype skull; A shows the main slab under ultraviolet light, B shows the
+    acid-prepared counterslab.
+  width: 3147
+  height: 1499
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f/vector.svg
+  page: https://www.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Chaoyangopteridae
+  matched: Azhdarchoidea
+  genus_level: false
+  w: 3677
+  h: 2096
+  flight_pose: true
+sources:
+- kind: original
+  text: 'R. Vullo, J. Marugán-Lobón, and A. W. A. Kellner, A. D. Buscaloni, B. Gomez, M. de la Fuente, J. J. Moratalla.
+    2012. A new crested pterosaur from the Early Cetaceous of Spain: the first European tapejarid (Pterodactyloidea:
+    Azhdarchoidea). PLoS ONE 7(7):e38900'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Europejara (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Europejara
+- kind: encyclopedia
+  text: Wikipedia contributors. “Europejara”. English Wikipedia, revision 1385296189.
+  url: https://en.wikipedia.org/w/index.php?title=Europejara&oldid=1385296189
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

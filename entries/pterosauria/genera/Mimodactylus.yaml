@@ -1,0 +1,99 @@
+name: Mimodactylus
+rank: genus
+parent: istiodactyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Kellner et al. 2019
+type_species: Mimodactylus libanensis
+type_species_note: ''
+summary: '‘Mimo’: an almost complete small pterosaur from the Cenomanian Sannine Formation of Lebanon.'
+size:
+  wingspan_m: [1.32, 1.32]
+  note: 1.32 m (probably young).
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mimodactylus libanensis
+  authority: Kellner et al. 2019
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: 'A. W. A. Kellner, M. W. Caldwell, and B. Holgado, F. M. Dalla Vecchia, R. Nohra, J. M. Sayão, P. J.
+    Currie. 2019. First complete pterosaur from the Afro-Arabian continent: insight into pterodactyloid diversity.
+    Scientific Reports 9:17875:1-9'
+formations:
+- formation: Sannine Limestone
+  group: ''
+  members: []
+  country: Lebanon
+  regions: []
+  interval: Late Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+fossil_material:
+  holotype: MIM F1 — Sannine Formation Lagerstätte, Hjoula, Lebanon.
+  material: Almost complete skeleton with intact skull.
+  completeness: near-complete
+  exceptional: ''
+biology: Broad snout with cone-shaped teeth; its describers suggested it seized shrimp and other crustaceans in
+  the water.
+images:
+- kind: life
+  file: Mimodactylus_in_life.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mimodactylus_in_life.png/960px-Mimodactylus_in_life.png
+  page: https://commons.wikimedia.org/wiki/File:Mimodactylus_in_life.png
+  artist: Artwork of Julius T. Csotonyi. Published by Alexander W. A. Kellner, Michael W. Caldwell2, Borja Holgado,
+    Fabio M. Dalla Vecchia, Roy Nohra, Juliana M. Sayão &amp; Philip J. Currie.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Life restoration of Mimodactylus in its environment, by Julius Csotonyi
+  width: 1490
+  height: 1490
+  review: unreviewed
+- kind: fossil
+  file: Mimodactylus_skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Mimodactylus_skull.png/960px-Mimodactylus_skull.png
+  page: https://commons.wikimedia.org/wiki/File:Mimodactylus_skull.png
+  artist: Alexander W. A. Kellner, Michael W. Caldwell, Borja Holgado, Fabio M. Dalla Vecchia, Roy Nohra, Juliana
+    M. Sayão &amp; Philip J. Currie.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Skull and jaws, with inset close-up of the upper front teeth
+  width: 1342
+  height: 735
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: original
+  text: 'A. W. A. Kellner, M. W. Caldwell, and B. Holgado, F. M. Dalla Vecchia, R. Nohra, J. M. Sayão, P. J. Currie.
+    2019. First complete pterosaur from the Afro-Arabian continent: insight into pterodactyloid diversity. Scientific
+    Reports 9:17875:1-9'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mimodactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mimodactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mimodactylus”. English Wikipedia, revision 1370055735.
+  url: https://en.wikipedia.org/w/index.php?title=Mimodactylus&oldid=1370055735
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

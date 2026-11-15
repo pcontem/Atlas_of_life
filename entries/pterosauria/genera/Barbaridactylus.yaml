@@ -1,0 +1,87 @@
+name: Barbaridactylus
+rank: genus
+parent: pteranodontia
+incertae_sedis: false
+placement_note: ''
+authority: Longrich et al. 2018
+type_species: Barbaridactylus grandis
+type_species_note: ''
+summary: One of the largest nyctosaurids, from the latest Cretaceous (Maastrichtian) phosphates of Morocco.
+size:
+  wingspan_m: [4, 4]
+  note: About 4 m wingspan and 4 kg body mass.
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Barbaridactylus grandis
+  authority: Longrich et al. 2018
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: N. R. Longrich, D. M. Martill, and B. Andres. 2018. Late Maastrichtian pterosaurs from North Africa
+    and mass extinction of Pterosauria at the Cretaceous-Paleogene boundary. PLoS Biology 16(3):e2001663:1-38
+formations:
+- formation: Couche III
+  group: ''
+  members: [Middle]
+  country: Morocco
+  regions: [Khouribga]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+fossil_material:
+  holotype: FSAC-OB 232 — Couche III, Ouled Abdoun Basin, Morocco.
+  material: Right femur, left radius, ulna, humerus, scapulocoracoid and partial mandible; four referred specimens.
+  completeness: partial
+  exceptional: ''
+biology: Lived over a rich marine ecosystem with sharks, mosasaurs and plesiosaurs; nyctosaurids were ocean-going
+  soarers with upturned jaws.
+images:
+- kind: fossil
+  file: Journal.pbio.2001663.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Journal.pbio.2001663.png/960px-Journal.pbio.2001663.png
+  page: https://commons.wikimedia.org/wiki/File:Journal.pbio.2001663.png
+  artist: Nicholas R. Longrich, David M. Martill, Brian Andres
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-03-13'
+  caption: Holotype
+  width: 1618
+  height: 2400
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b/vector.svg
+  page: https://www.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alcione elainus
+  matched: Nyctosauridae
+  genus_level: false
+  w: 1912
+  h: 1056
+  flight_pose: true
+sources:
+- kind: original
+  text: N. R. Longrich, D. M. Martill, and B. Andres. 2018. Late Maastrichtian pterosaurs from North Africa and
+    mass extinction of Pterosauria at the Cretaceous-Paleogene boundary. PLoS Biology 16(3):e2001663:1-38
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Barbaridactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Barbaridactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Barbaridactylus”. English Wikipedia, revision 1342849498.
+  url: https://en.wikipedia.org/w/index.php?title=Barbaridactylus&oldid=1342849498
+- kind: literature
+  text: Paul's estimate of the wingspan and body mass is actually written for Alcione in his book, based on his
+    assumption that Barbaridactylus represents the adult stage of Alcione.[4] However, the 2018 study directly refutes
+    this claim based on the hatchet-shaped deltopectoral crest different from Alcione; the wingspan of approximately
+    4 m (13 ft) is noted in the supplement of this study which concurs w
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

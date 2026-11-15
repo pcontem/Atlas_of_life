@@ -1,0 +1,101 @@
+name: Forfexopterus
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: ''
+authority: Jiang et al. 2016
+type_species: Forfexopterus jeholensis
+type_species_note: ''
+summary: Scissor-jawed ctenochasmatid from the Early Cretaceous Jiufotang Formation of Liaoning, China.
+size:
+  wingspan_m: [1.78, 2.37]
+  note: Holotype (subadult) revised to 2.37 m; an adult wing specimen gives 1.78 m.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Forfexopterus jeholensis
+  authority: Jiang et al. 2016
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: S. Jiang, X. Cheng, and Y. Ma, X. Wang. 2016. A new archaeopterodactyloid pterosaur from the Jiufotang
+    Formation of western Liaoning, China, with a comparison of sterna in Pterodactylomorpha. Journal of Vertebrate
+    Paleontology 36(6):e1212058:1-12
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: HM V20 (Hami Museum) — Jiufotang Formation, Liaoning.
+  material: Mostly complete skeleton with skull (51 cm), missing much of the vertebral column; plus an articulated
+    wing (SDUST V1003) and a jaw tip.
+  completeness: near-complete
+  exceptional: ''
+biology: Long, low skull with slender outward-pointing teeth but no spatulate tip or crest; growth rates varied
+  between individuals.
+images:
+- kind: life
+  file: Forfexopterus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Forfexopterus.png/960px-Forfexopterus.png
+  page: https://commons.wikimedia.org/wiki/File:Forfexopterus.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-10-07'
+  caption: Life reconstruction of Forfexopterus
+  width: 1791
+  height: 1343
+  review: unreviewed
+- kind: fossil
+  file: Forfexopterus_SDUST_V1003.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Forfexopterus_SDUST_V1003.png/960px-Forfexopterus_SDUST_V1003.png
+  page: https://commons.wikimedia.org/wiki/File:Forfexopterus_SDUST_V1003.png
+  artist: Chang-Fu Zhou, Jiahao Wang, and Ziheng Zhu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-10-09'
+  caption: Second specimen of Forfexopterus (SDUST V1003)
+  width: 1984
+  height: 863
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b/vector.svg
+  page: https://www.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Ctenochasma roemeri
+  matched: Ctenochasmatidae
+  genus_level: false
+  w: 2967
+  h: 2054
+  flight_pose: false
+sources:
+- kind: original
+  text: S. Jiang, X. Cheng, and Y. Ma, X. Wang. 2016. A new archaeopterodactyloid pterosaur from the Jiufotang Formation
+    of western Liaoning, China, with a comparison of sterna in Pterodactylomorpha. Journal of Vertebrate Paleontology
+    36(6):e1212058:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Forfexopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Forfexopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Forfexopterus”. English Wikipedia, revision 1370547542.
+  url: https://en.wikipedia.org/w/index.php?title=Forfexopterus&oldid=1370547542
+- kind: literature
+  text: 'Zhou, C.-F.; Wang, J.; Zhu, Z. (2020). "A new wing skeleton of Forfexopterus (Pterosauria: Ctenochasmatidae)
+    from the Early Cretaceous Jehol Biota reveals a developmental variation". Fossil Record. 23: 191–196. doi:10.5194/fr-23-191-2020.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

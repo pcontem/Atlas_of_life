@@ -1,0 +1,103 @@
+name: Anurognathus
+rank: genus
+parent: anurognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Döderlein 1923
+type_species: Anurognathus ammoni
+type_species_note: ''
+summary: Tiny, short-faced ‘frog-jawed’ pterosaur from the Late Jurassic Solnhofen limestones of Bavaria.
+size:
+  wingspan_m: [0.35, 0.35]
+  note: Witton estimated 40 g for a specimen with a 35 cm wingspan.
+age:
+  first_ma: 149.2
+  last_ma: 145.06
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Anurognathus ammoni
+  authority: Döderlein 1923
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: D. M. Unwin. 2003. On the phylogeny and evolutionary history of pterosaurs. Evolution and Palaeobiology
+    of Pterosaurs, Geological Society of London, Special Publications 217:139-190
+formations:
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+fossil_material:
+  holotype: BSP 1922.I.42 — Solnhofen limestone near Eichstätt, Bavaria (found before 1922).
+  material: Crushed, fairly complete skeleton, much of it only as an impression; a second, smaller subadult specimen
+    is known.
+  completeness: near-complete
+  exceptional: The second specimen preserves impressions of the wing membrane and, under UV light, traces of limb
+    muscles.
+biology: Insectivore with pin-like teeth and a very short, broad skull; probably caught insects on the wing. Possible
+  bristles on the snout.
+images:
+- kind: life
+  file: AnurognathusDB.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/AnurognathusDB.jpg/960px-AnurognathusDB.jpg
+  page: https://commons.wikimedia.org/wiki/File:AnurognathusDB.jpg
+  artist: Dmitry Bogdanov
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008'
+  caption: Illustrated hunting a lacewing Kalligramma haeckeli
+  width: 2100
+  height: 1500
+  review: unreviewed
+- kind: fossil
+  file: Anurognathus_ammoni_juvenile.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Anurognathus_ammoni_juvenile.jpg/960px-Anurognathus_ammoni_juvenile.jpg
+  page: https://commons.wikimedia.org/wiki/File:Anurognathus_ammoni_juvenile.jpg
+  artist: Dean Falk Schnabel
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: 22 August 2018 (according to Exif data)
+  caption: Juvenile fossil, Dinosaurier Museum Altmühltal
+  width: 1742
+  height: 2188
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/56b1aae4-f330-47cf-a36a-8123149044e0/vector.svg
+  page: https://www.phylopic.org/images/56b1aae4-f330-47cf-a36a-8123149044e0
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Anurognathus ammoni
+  matched: Anurognathidae
+  genus_level: true
+  w: 1009
+  h: 534
+  flight_pose: true
+sources:
+- kind: original
+  text: B. Andres, J. M. Clark, and X. Xu. 2010. A new rhamphorhynchid pterosaur from the Upper Jurassic of Xinjiang,
+    China, and the phylogenetic relationships of basal pterosaurs. Journal of Vertebrate Paleontology 30(1):163-187
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anurognathus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anurognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anurognathus”. English Wikipedia, revision 1365370103.
+  url: https://en.wikipedia.org/w/index.php?title=Anurognathus&oldid=1365370103
+- kind: literature
+  text: 'Ingrid Cranfield (ed.). "Anurognathus". The Illustrated Directory of Dinosaurs and Other Prehistoric Creatures.
+    London: Salamander Books. pp. 292–295.'
+- kind: literature
+  text: 'Bennett, S. Christopher (December 2007). "A second specimen of the pterosaur Anurognathus ammoni". Paläontologische
+    Zeitschrift. 81: 376–398. doi:10.1007/BF02990250.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

@@ -1,0 +1,98 @@
+name: Cryodrakon
+rank: genus
+parent: azhdarchidae
+incertae_sedis: false
+placement_note: ''
+authority: Hone et al. 2019
+type_species: Cryodrakon boreas
+type_species_note: ''
+summary: Giant azhdarchid from the late Campanian Dinosaur Park Formation of Alberta, Canada — long referred to
+  Quetzalcoatlus.
+size:
+  wingspan_m: [5, 10]
+  note: The holotype (immature) indicates at least 5 m; a large referred neck vertebra suggests about 10 m for mature
+    individuals.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Cryodrakon boreas
+  authority: Hone et al. 2019
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: D. W. E. Hone, M. B. Habib, and F. Therrien. 2019. Cryodrakon boreas, gen. et sp. nov., a Late Cretaceous
+    Canadian azhdarchid pterosaur. Journal of Vertebrate Paleontology 39(3):e1649681
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+fossil_material:
+  holotype: TMP 1992.83 — Dinosaur Park Formation, Dinosaur Provincial Park, Alberta.
+  material: 'Associated, disarticulated partial skeleton without skull: 4th cervical, rib, humerus, pteroid, 4th
+    metacarpal, tibia, metatarsal; referred material from many individuals.'
+  completeness: partial
+  exceptional: Holotype bones bear bite marks and an embedded tooth tip, probably from Saurornitholestes.
+biology: Lived inland on a coastal plain; like other azhdarchids, probably a terrestrial stalker of small animals.
+images:
+- kind: life
+  file: Cryodrakon_boreas.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Cryodrakon_boreas.png/960px-Cryodrakon_boreas.png
+  page: https://commons.wikimedia.org/wiki/File:Cryodrakon_boreas.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-22'
+  caption: Life reconstruction of Cryodrakon boreas.
+  width: 4000
+  height: 3785
+  review: unreviewed
+- kind: fossil
+  file: Cryodrakon_holotype_cervical_IV,_humerus,_pteroid,_and_tibia..jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cryodrakon_holotype_cervical_IV%2C_humerus%2C_pteroid%2C_and_tibia..jpg/960px-Cryodrakon_holotype_cervical_IV%2C_humerus%2C_pteroid%2C_and_tibia..jpg
+  page: https://commons.wikimedia.org/wiki/File:Cryodrakon_holotype_cervical_IV,_humerus,_pteroid,_and_tibia..jpg
+  artist: Bloopityboop
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-08-14'
+  caption: The holotype specimen consists of a wingbone (upper left), a fourth neck vertebra (middle top), a left
+    humerus (upper right), and a tibia (bottom)
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
+  page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Mistralazhdarcho maggii
+  matched: Azhdarchidae
+  genus_level: false
+  w: 1536
+  h: 722
+  flight_pose: true
+sources:
+- kind: original
+  text: D. W. E. Hone, M. B. Habib, and F. Therrien. 2019. Cryodrakon boreas, gen. et sp. nov., a Late Cretaceous
+    Canadian azhdarchid pterosaur. Journal of Vertebrate Paleontology 39(3):e1649681
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cryodrakon (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cryodrakon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cryodrakon”. English Wikipedia, revision 1384036876.
+  url: https://en.wikipedia.org/w/index.php?title=Cryodrakon&oldid=1384036876
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

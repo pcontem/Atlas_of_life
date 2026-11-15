@@ -1,0 +1,97 @@
+name: Lacusovagus
+rank: genus
+parent: chaoyangopteridae
+incertae_sedis: false
+placement_note: Has also been recovered within Thalassodromidae or Tapejaridae.
+authority: Witton 2008
+type_species: Lacusovagus magnificens
+type_species_note: ''
+summary: '‘Grand lake wanderer’: the largest pterosaur of the Crato Formation, Brazil, known from a wide toothless
+  upper jaw.'
+size:
+  wingspan_m: [4, 4]
+  note: About 4 m and 30 kg.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lacusovagus magnificens
+  authority: Witton 2008
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: M. P. Witton. 2008. A new azhdarchoid pterosaur from the Crato Formation (Lower Cretaceous, Aptian?)
+    of Brazil. Palaeontology 51:1289-1300
+formations:
+- formation: Crato
+  group: Santana
+  members: [Nova Olinda]
+  country: Brazil
+  regions: [Ceara]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+fossil_material:
+  holotype: SMNK PAL 4325 — Nova Olinda Member, Crato Formation, Ceará.
+  material: Partial upper jaw (skull in front of the eyes).
+  completeness: fragmentary
+  exceptional: ''
+biology: Unusually wide, crestless toothless skull; chaoyangopterids are thought to have foraged on the ground.
+images:
+- kind: life
+  file: Crato_Formation_pterosaur_diversity.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Crato_Formation_pterosaur_diversity.jpg/960px-Crato_Formation_pterosaur_diversity.jpg
+  page: https://commons.wikimedia.org/wiki/File:Crato_Formation_pterosaur_diversity.jpg
+  artist: Maurílio Oliveira
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025'
+  caption: Life restorations of Lacusovagus (upper left) and other pterosaurs known from the Crato Formation
+  width: 1809
+  height: 1252
+  review: unreviewed
+- kind: fossil
+  file: Lacusovagus_magnificens_holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Lacusovagus_magnificens_holotype.jpg/960px-Lacusovagus_magnificens_holotype.jpg
+  page: https://commons.wikimedia.org/wiki/File:Lacusovagus_magnificens_holotype.jpg
+  artist: FELIPE L. PINHEIRO, ALEXANDER W.A. KELLNER, JOÃO L. DA SILVA, RUDAH R.C. DUQUE, JULIANA M. SAYÃO, ESAÚ
+    V. DE ARAÚJO, FABIANA R. COSTA, RICHARD BUCHMANN, GABRIELA M. CERQUEIRA, LUCAS CANEJO, VICTOR BECCARI, RENAN
+    A.M. BANTIM, BORJA HOLGADO &amp; RUBI V. PÊGAS
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025'
+  caption: Holotype specimen
+  width: 1804
+  height: 574
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f/vector.svg
+  page: https://www.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Chaoyangopteridae
+  matched: Chaoyangopteridae
+  genus_level: false
+  w: 3677
+  h: 2096
+  flight_pose: true
+sources:
+- kind: original
+  text: M. P. Witton. 2008. A new azhdarchoid pterosaur from the Crato Formation (Lower Cretaceous, Aptian?) of
+    Brazil. Palaeontology 51:1289-1300
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lacusovagus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lacusovagus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lacusovagus”. English Wikipedia, revision 1369774602.
+  url: https://en.wikipedia.org/w/index.php?title=Lacusovagus&oldid=1369774602
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

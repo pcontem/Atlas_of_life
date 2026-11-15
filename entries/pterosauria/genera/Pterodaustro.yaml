@@ -1,0 +1,126 @@
+name: Pterodaustro
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1970
+type_species: Pterodaustro guinazui
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Flamingo-like filter feeder from the Early Cretaceous of San Luis, Argentina, with about a thousand bristle-like
+  teeth.
+size:
+  wingspan_m: [3, 3]
+  note: Maximum adult about 3 m and 9.2 kg.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Pterodaustro guinazui
+  authority: Bonaparte 1970
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: L. Codorniú and Z. Gasparini. 2007. Pterosauria. Patagonian Mesozoic Reptiles. Indiana University Press,
+    Bloomington, IN
+formations:
+- formation: Lagarcito
+  group: ''
+  members: []
+  country: Argentina
+  regions: []
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+- formation: La Cruz
+  group: Gigante
+  members: []
+  country: Argentina
+  regions: [San Luis]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+fossil_material:
+  holotype: PVL 2571 (femur) — Lagarcito Formation, San Luis, Argentina.
+  material: Over 750 specimens from all growth stages, from egg to adult.
+  completeness: multiple
+  exceptional: Embryo in an egg (2004) and 3D eggs (2014); possible medullary bone.
+biology: Strongly upcurved jaws with a comb of long bristle-teeth for straining crustaceans and plankton. Bakker
+  suggested a flamingo-like pink colour from its diet.
+images:
+- kind: life
+  file: Pterodaustro_guinazui.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Pterodaustro_guinazui.png/960px-Pterodaustro_guinazui.png
+  page: https://commons.wikimedia.org/wiki/File:Pterodaustro_guinazui.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-16'
+  caption: Life restoration
+  width: 4000
+  height: 3704
+  review: unreviewed
+- kind: fossil
+  file: Pterodaustro_guinazui.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Pterodaustro_guinazui.jpg/960px-Pterodaustro_guinazui.jpg
+  page: https://commons.wikimedia.org/wiki/File:Pterodaustro_guinazui.jpg
+  artist: Gadfium
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2011-10-17'
+  caption: Cast of a fossil specimen at the Museo Argentino de Ciencias Naturales in Caballito, Buenos Aires, Argentina
+  width: 3444
+  height: 2594
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5fb7ce9e-dd3c-4af6-8d29-39a9a80c4947/vector.svg
+  page: https://www.phylopic.org/images/5fb7ce9e-dd3c-4af6-8d29-39a9a80c4947
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Pterodaustro guinazui
+  matched: Pterodaustro
+  genus_level: true
+  w: 1536
+  h: 1033
+  flight_pose: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pterodaustro (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pterodaustro
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pterodaustro”. English Wikipedia, revision 1384651460.
+  url: https://en.wikipedia.org/w/index.php?title=Pterodaustro&oldid=1384651460
+- kind: literature
+  text: Chiappe, Luis; Rivarola, David; Cione, Alberto; Fregenal-Martínez, Marian; Sozzi, Héctor; Buatois, Luis;
+    Gallego, Oscar; Laza, José; Romero, Edgardo; López-Arbarello, Adriana; Buscalioni, Angela; Marsicano, Claudia;
+    Adamonis, Susana; Ortega, Francisco; McGehee, Sherri; Di Iorio, Osvaldo (1 January 1998). "Biotic association
+    and palaeoenvironmental reconstruction of the "Loma del Pterodaustro" foss
+- kind: literature
+  text: 'Laura Codorniú (2005). "Morfología caudal de Pterodaustro guinazui (Pterosauria: Ctenochasmatidae) del
+    Cretácico de Argentina". Ameghiniana. 42 (2): 505–509.'
+- kind: literature
+  text: 'Luis M. Chiappe; Wilhelm Armin Kellner; David Rivarola; Sergio Davila; Marilyn Fox (2000). "Cranial Morphology
+    of Pterodaustro Guinazui (Pterosauria: Pterodactyloidea) from the Lower Cretaceous of Argentina". Contributions
+    in Science. 483: 1–19. doi:10.5962/p.226796.'
+- kind: literature
+  text: 'Ignacio A Cerda, Laura Codorniú, Palaeohistology reveals an unusual periodontium and tooth implantation
+    in a filter-feeding pterodactyloid pterosaur, Pterodaustro guinazui, from the Lower Cretaceous of Argentina,
+    2023 Oct;243(4):579-589. doi: 10.1111/joa.13878. Epub 2023 Apr 14.'
+- kind: literature
+  text: Burlot, Romain; Codorniú, Laura; Defend, Lenna; Laurin, Michel (2024). "The ankle joint of Pterodaustro
+    guinazui". Acta Palaeontologica Polonica. 69. doi:10.4202/app.01097.2023. hdl:11336/240037.
+- kind: literature
+  text: 'Chinsamy, A., Codorniú, L., and Chiappe, L. M. (2008). "Developmental growth patterns of the filter-feeder
+    pterosaur, Pterodaustro guinazui". Biology Letters. 4 (3): 282–285. doi:10.1098/rsbl.2008.0004.{{cite journal}}:
+    CS1 maint: multiple names: authors list (link)'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

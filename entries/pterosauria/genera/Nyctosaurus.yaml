@@ -1,0 +1,141 @@
+name: Nyctosaurus
+rank: genus
+parent: pteranodontia
+incertae_sedis: false
+placement_note: ''
+authority: (Marsh 1876)
+type_species: Nyctosaurus gracilis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Crested nyctosaurid from the Niobrara chalk of Kansas; mature individuals bore an enormous antler-like
+  crest, and the hand lacked grasping claws.
+size:
+  wingspan_m: [2, 2.9]
+  note: Adults a little over 2 m; some estimates reach 2.9 m.
+age:
+  first_ma: 110.1
+  last_ma: 66.0
+  early_interval: Albian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Nyctosaurus bonneri
+  authority: (Miller 1971)
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: H. W. Miller. 1971. The taxonomy of the Pteranodon species from Kansas. Transactions of the Kansas
+    Academy of Science 74(1):1-19
+- name: Nyctosaurus gracilis
+  authority: (Marsh 1876)
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: O. C. Marsh. 1876. Notice of a new sub-order of Pterosauria. American Journal of Science 11:507-509
+- name: Nyctosaurus lamegoi
+  authority: Price 1953
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: L. I. Price. 1953. A presença de Pterosáuria no Cretáceo Superior do Estado da Paraíba [The presence
+    of Pterosauria in the Upper Cretaceous of Paraíba state]. Ministério da Agricultura, Departamento Nacional da
+    Produção Mineral, Divisão de Geologia e Mineralogie, Notas Preliminares e Estudos 71:1-12
+- name: Nyctosaurus nanus
+  authority: (Marsh 1881)
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: O. C. Marsh. 1881. Note on American pterodactyls. American Journal of Science 31:342-343
+formations:
+- formation: Niobrara
+  group: Colorado
+  members: [Smoky Hill Chalk]
+  country: United States
+  regions: [Kansas]
+  interval: Late Coniacian–Early Santonian / Late Coniacian–Santonian / Late Santonian / San
+  occurrences: 8
+  ma: [83.6, 89.8]
+- formation: Tlayúa
+  group: ''
+  members: [Middle]
+  country: Mexico
+  regions: [Puebla]
+  interval: Middle Albian–Late Albian
+  occurrences: 1
+  ma: [100.5, 110.1]
+- formation: Gramame
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Paraíba]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+fossil_material:
+  holotype: YPM 1178 — Smoky Hill Chalk, Niobrara Formation, Kansas.
+  material: Several skeletons, including UNSM 93000 (most complete) and crested specimens KJ1 and KJ2.
+  completeness: multiple
+  exceptional: Crest of mature animals much larger than the skull.
+biology: An ocean-going soarer over the Western Interior Seaway; probably caught fish at sea.
+images:
+- kind: life
+  file: Nyctosaurus_mmartyniuk.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Nyctosaurus_mmartyniuk.jpg
+  page: https://commons.wikimedia.org/wiki/File:Nyctosaurus_mmartyniuk.jpg
+  artist: ''
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: ''
+  caption: Drawing of Nyctosaurus in a quadrupedal walking position
+  width: 288
+  height: 522
+  review: unreviewed
+- kind: fossil
+  file: Dinosaurs_at_CMNH_49.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dinosaurs_at_CMNH_49.JPG/960px-Dinosaurs_at_CMNH_49.JPG
+  page: https://commons.wikimedia.org/wiki/File:Dinosaurs_at_CMNH_49.JPG
+  artist: User:Piotrus
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2007-11
+  caption: Fossil specimen (CM 11422) of Nyctosaurus gracilis in the Carnegie Museum of Natural History
+  width: 3072
+  height: 2304
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0223839a-3c09-4a33-8369-e1ae92a16571/vector.svg
+  page: https://www.phylopic.org/images/0223839a-3c09-4a33-8369-e1ae92a16571
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Nyctosaurus gracilis
+  matched: Nyctosaurus
+  genus_level: true
+  w: 1340
+  h: 1536
+  flight_pose: false
+sources:
+- kind: original
+  text: O. C. Marsh. 1876. Principal characters of American pterodactyls. American Journal of Science, Series 3
+    12:479-480
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nyctosaurus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nyctosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nyctosaurus”. English Wikipedia, revision 1360141816.
+  url: https://en.wikipedia.org/w/index.php?title=Nyctosaurus&oldid=1360141816
+- kind: literature
+  text: 'Bennett, S.C. (2003). "New crested specimens of the Late Cretaceous pterosaur Nyctosaurus". Paläontologische
+    Zeitschrift. 77: 61–75...77...61B. doi:10.1007/BF03004560..'
+- kind: literature
+  text: 'Xing, L.; Wu, J.; Lu, Y.; Lu, J.; Ji, Q. (2009). "Aerodynamic characteristics of the crest with membrane
+    attachment on Cretaceous pterodactyloid Nyctosaurus". Acta Geologica Sinica. 83 (1): 25–32..83...25X. doi:10.1111/j.1755-6724.2009.00003.x.'
+- kind: literature
+  text: 'Brown GW (1978) Preliminary report on an articulated specimen of Pteranodon (Nyctosaurus) gracilis. Proceedings
+    of the Nebraska Academy of Science 88: 39.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

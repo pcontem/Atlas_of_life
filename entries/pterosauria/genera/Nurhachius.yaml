@@ -1,0 +1,119 @@
+name: Nurhachius
+rank: genus
+parent: istiodactyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2005
+type_species: Nurhachius ignaciobritoi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Istiodactylid from the Jiufotang Formation of Liaoning, China, close to the English Istiodactylus.
+size:
+  wingspan_m: [2.28, 2.5]
+  note: 2.4–2.5 m (describers); Witton estimated 2.28 m and 4 kg.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Nurhachius ignaciobritoi
+  authority: Wang et al. 2005
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: X. Wang, A. W. A. Kellner, and Z. Zhou, D. d. A. Campos. 2005. Pterosaur diversity and faunal turnover
+    in Cretaceous terrestrial ecosystems in China. Nature 437:875-879
+- name: Nurhachius luei
+  authority: Zhou et al. 2019
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: X.-Y. Zhou, R. V. Pegas, and M. E. C. Leal, N. Bonde. 2019. Nurhachius luei, a new istiodactylid pterosaur
+    (Pterosauria, Pterodactyloidea) from the Early Cretaceous Jiufotang Formation of Chaoyang City, Liaoning Province
+    (China) and comments on the Istiodactylidae. PeerJ 7:e7688
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+fossil_material:
+  holotype: IVPP V-13288 (N. ignaciobritoi) — Jiufotang Formation, Chaoyang, Liaoning.
+  material: Partial skull and most of the skeleton; second species N. luei from a skull, jaws and neck.
+  completeness: near-complete
+  exceptional: ''
+biology: Laterally compressed, three-rooted teeth at the jaw tips, similar to Istiodactylus.
+images:
+- kind: life
+  file: Nurhachius_NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3f/Nurhachius_NT.jpg
+  page: https://commons.wikimedia.org/wiki/File:Nurhachius_NT.jpg
+  artist: Nobu Tamura (http://spinops.blogspot.com/2012/01/nurhachius-ignaciobritoi.html)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-09-28'
+  caption: Life restoration of N. ignaciobritoi
+  width: 500
+  height: 460
+  review: unreviewed
+- kind: fossil
+  file: Nurhachius_ignaciobritoi_holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Nurhachius_ignaciobritoi_holotype.jpg/960px-Nurhachius_ignaciobritoi_holotype.jpg
+  page: https://commons.wikimedia.org/wiki/File:Nurhachius_ignaciobritoi_holotype.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-01-08 12:22:01'
+  caption: N. ignaciobritoi holotype specimen
+  width: 4528
+  height: 2256
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b/vector.svg
+  page: https://www.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alcione elainus
+  matched: Ornithocheiroidea
+  genus_level: false
+  w: 1912
+  h: 1056
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang, A. W. A. Kellner, and Z. Zhou, D. d. A. Campos. 2005. Pterosaur diversity and faunal turnover in
+    Cretaceous terrestrial ecosystems in China. Nature 437:875-879
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nurhachius (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nurhachius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nurhachius”. English Wikipedia, revision 1376547109.
+  url: https://en.wikipedia.org/w/index.php?title=Nurhachius&oldid=1376547109
+- kind: literature
+  text: Zhou X., Pêgas R.V., Leal M.E.C. & Bonde N. 2019. "Nurhachius luei, a new istiodactylid pterosaur (Pterosauria,
+    Pterodactyloidea) from the Early Cretaceous Jiufotang Formation of Chaoyang City, Liaoning Province (China)
+    and comments on the Istiodactylidae." PeerJ 7:e7688
+- kind: literature
+  text: 'Ozeki, Masanori; Unwin, David M.; Bell, Phil R.; Li, Daqing; Xing, Lida (2023-06-26). "A new pterosaur
+    specimen from the Lower Cretaceous Yixian Formation of Liaoning Province, China: The oldest fossil record of
+    Nurhachius". Historical Biology. 36 (8): 1625–1638. doi:10.1080/08912963.2023.2222127.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

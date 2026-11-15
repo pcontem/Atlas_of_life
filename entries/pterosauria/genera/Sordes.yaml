@@ -1,0 +1,96 @@
+name: Sordes
+rank: genus
+parent: scaphognathidae
+incertae_sedis: false
+placement_note: Usually assigned to Rhamphorhynchidae (Scaphognathinae).
+authority: Sharov 1971
+type_species: Sordes pilosus
+type_species_note: ''
+summary: ‘Hairy devil’ from the Late Jurassic Karabastau Formation of Kazakhstan — the first clear proof that pterosaurs
+  were furry.
+size:
+  wingspan_m: [0.63, 0.63]
+  note: About 63 cm.
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sordes pilosus
+  authority: Sharov 1971
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: A. G. Sharov. 1971. Novye letayushche reptilii is Mesosoya Kazachstana i Kirgizii [New Mesozoic flying
+    reptiles from Kazakhstan and Kirgizia]. Trudy Paleontologicheskiya Instituta Akademiy Nauk SSSR 130:104-113
+formations:
+- formation: Karabastau
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: []
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+fossil_material:
+  holotype: PIN 2585/3 — Karabastau Formation, Kazakhstan.
+  material: Several relatively complete skeletons (at least eight by 2003).
+  completeness: multiple
+  exceptional: Pycnofibres and wing membranes, including a membrane between the legs.
+biology: Large front teeth for catching prey and smaller rear teeth for crushing — perhaps hard-shelled invertebrates
+  or amphibians.
+images:
+- kind: life
+  file: SordesDB.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/SordesDB.jpg/960px-SordesDB.jpg
+  page: https://commons.wikimedia.org/wiki/File:SordesDB.jpg
+  artist: Dmitry Bogdanov
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2006'
+  caption: Life restoration
+  width: 1810
+  height: 1191
+  review: unreviewed
+- kind: fossil
+  file: Sordes_pilosus_skeleton_(cropped).JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sordes_pilosus_skeleton_%28cropped%29.JPG/960px-Sordes_pilosus_skeleton_%28cropped%29.JPG
+  page: https://commons.wikimedia.org/wiki/File:Sordes_pilosus_skeleton_(cropped).JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-06-21 10:48:32'
+  caption: Fossil specimen
+  width: 2001
+  height: 2034
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b20f93be-e13e-4d49-b9ab-2accf45caa6b/vector.svg
+  page: https://www.phylopic.org/images/b20f93be-e13e-4d49-b9ab-2accf45caa6b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Scaphognathus crassirostris
+  matched: Scaphognathinae
+  genus_level: false
+  w: 1844
+  h: 931
+  flight_pose: true
+sources:
+- kind: original
+  text: A. G. Sharov. 1971. Novye letayushche reptilii is Mesosoya Kazachstana i Kirgizii [New Mesozoic flying reptiles
+    from Kazakhstan and Kirgizia]. Trudy Paleontologicheskiya Instituta Akademiy Nauk SSSR 130:104-113
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sordes (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sordes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sordes”. English Wikipedia, revision 1371960396.
+  url: https://en.wikipedia.org/w/index.php?title=Sordes&oldid=1371960396
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

@@ -1,0 +1,97 @@
+name: Preondactylus
+rank: genus
+parent: pterosauria
+incertae_sedis: true
+placement_note: One of the most basal pterosaurs; relationships among Triassic forms unresolved.
+authority: Wild 1984
+type_species: Preondactylus buffarinii
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Very early long-tailed pterosaur from the Late Triassic Forni Dolostone of Udine, Italy.
+size:
+  wingspan_m: [0.45, 1.5]
+  note: Holotype 45 cm; a larger referred specimen about 1.5 m.
+age:
+  first_ma: 215.38
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Preondactylus buffarinii
+  authority: Wild 1984
+  first_ma: 215.38
+  last_ma: 205.7
+  interval: Norian
+  reference: R. Wild. 1984. A new pterosaur (Reptilia, Pterosauria) from the Upper Triassic (Norian) of Fruili,
+    Italy. Gortania - Atti del Museo Friulano di Storia Naturale 5:45-62
+formations:
+- formation: Dolomia di Forni
+  group: ''
+  members: [lower]
+  country: Italy
+  regions: [Friuli-Venezia Giulia]
+  interval: Alaunian / Alaunian–Sevatian
+  occurrences: 2
+  ma: [205.7, 215.38]
+fossil_material:
+  holotype: MFSN 1770 — Dolomia di Forni, Preone valley, Udine (found 1982).
+  material: Most of the skeleton without the rear of the skull; a second specimen and a partial skull.
+  completeness: near-complete
+  exceptional: The second specimen may be preserved in a fish's regurgitated pellet.
+biology: Single-pointed, widely spaced teeth; diet of fish, insects or both.
+images:
+- kind: life
+  file: Preondactylus_NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/19/Preondactylus_NT.jpg
+  page: https://commons.wikimedia.org/wiki/File:Preondactylus_NT.jpg
+  artist: Nobu Tamura (http://spinops.blogspot.com)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-09-28'
+  caption: Restoration
+  width: 500
+  height: 275
+  review: unreviewed
+- kind: fossil
+  file: Preondactylus_buffarinii_2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Preondactylus_buffarinii_2.jpg/960px-Preondactylus_buffarinii_2.jpg
+  page: https://commons.wikimedia.org/wiki/File:Preondactylus_buffarinii_2.jpg
+  artist: Ghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-03 15:01:08'
+  caption: Fossil cast
+  width: 4000
+  height: 3000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: original
+  text: R. Wild. 1984. A new pterosaur (Reptilia, Pterosauria) from the Upper Triassic (Norian) of Fruili, Italy.
+    Gortania - Atti del Museo Friulano di Storia Naturale 5:45-62
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Preondactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Preondactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Preondactylus”. English Wikipedia, revision 1379098008.
+  url: https://en.wikipedia.org/w/index.php?title=Preondactylus&oldid=1379098008
+- kind: literature
+  text: '"Preondactylus." In: Cranfield, Ingrid (ed.). The Illustrated Directory of Dinosaurs and Other Prehistoric
+    Creatures. London: Salamander Books, Ltd. Pp. 284-285.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

@@ -1,0 +1,96 @@
+name: Leptostomia
+rank: genus
+parent: azhdarchoidea
+incertae_sedis: true
+placement_note: Described as ?Azhdarchoidea; known material too limited for a confident family assignment.
+authority: Smith et al. 2020
+type_species: Leptostomia begaaensis
+type_species_note: ''
+summary: Small azhdarchoid from the Kem Kem Group of Morocco with an extraordinarily thin, long beak.
+size:
+  wingspan_m: null
+  note: Skull length estimated 6–20 cm — much smaller than most contemporaries.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Leptostomia begaaensis
+  authority: Smith et al. 2020
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: 'R. E. Smith, D. M. Martill, and A. Kao, S. Zouhri, N. Longrich. 2020. A long-billed, possible probe-feeding
+    pterosaur (Pterodactyloidea: ?Azhdarchoidea) from the mid-Cretaceous of Morocco, North Africa. Cretaceous Research'
+formations:
+- formation: Ifezouane
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+fossil_material:
+  holotype: FSAC-KK 5075 — Kem Kem Group, near Hassi El Begaa, Morocco.
+  material: Two isolated beak fragments (upper beak and lower beak).
+  completeness: fragmentary
+  exceptional: ''
+biology: Slender, slightly upcurved toothless beak with many sensory foramina, suggesting a probe-feeder that searched
+  sediment for invertebrates, like curlews, woodcocks and kiwis (Smith et al. 2020).
+images:
+- kind: life
+  file: Leptostomia_begaaensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Leptostomia_begaaensis.png/960px-Leptostomia_begaaensis.png
+  page: https://commons.wikimedia.org/wiki/File:Leptostomia_begaaensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-25'
+  caption: Speculative life restoration of Leptostomia
+  width: 4000
+  height: 3390
+  review: unreviewed
+- kind: fossil
+  file: Leptostomia_begaaensis_(holotype_and_paratype_specimens).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Leptostomia_begaaensis_%28holotype_and_paratype_specimens%29.png/960px-Leptostomia_begaaensis_%28holotype_and_paratype_specimens%29.png
+  page: https://commons.wikimedia.org/wiki/File:Leptostomia_begaaensis_(holotype_and_paratype_specimens).png
+  artist: R. E. Smith, N. Ibrahim, N. Longrich, D. M. Unwin, M. L. Jacobs, C. J. Williams, S. Zouhri &amp; D. M.
+    Martill
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-02-04'
+  caption: Beak bones of Leptostomia; holotype rostrum (top jaw) (A–E) and paratype mandible (lower jaw) (F–H)
+  width: 1652
+  height: 1776
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f/vector.svg
+  page: https://www.phylopic.org/images/22e2100b-198c-42f4-b0fb-267e60459d8f
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Chaoyangopteridae
+  matched: Azhdarchoidea
+  genus_level: false
+  w: 3677
+  h: 2096
+  flight_pose: true
+sources:
+- kind: original
+  text: 'R. E. Smith, D. M. Martill, and A. Kao, S. Zouhri, N. Longrich. 2020. A long-billed, possible probe-feeding
+    pterosaur (Pterodactyloidea: ?Azhdarchoidea) from the mid-Cretaceous of Morocco, North Africa. Cretaceous Research'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Leptostomia (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Leptostomia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Leptostomia”. English Wikipedia, revision 1341944475.
+  url: https://en.wikipedia.org/w/index.php?title=Leptostomia&oldid=1341944475
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

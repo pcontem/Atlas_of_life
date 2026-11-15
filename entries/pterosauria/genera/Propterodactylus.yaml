@@ -1,0 +1,78 @@
+name: Propterodactylus
+rank: genus
+parent: monofenestrata
+incertae_sedis: true
+placement_note: Recovered as the basalmost pterodactyloid or as sister to Pterodactyloidea; placed here at Monofenestrata,
+  which all analyses support.
+authority: Spindler 2024
+type_species: Propterodactylus frankerlae
+type_species_note: ''
+summary: Transitional monofenestratan — formerly the ‘Painten pro-pterodactyloid’ — from the Late Jurassic Painten
+  Formation of Bavaria.
+size:
+  wingspan_m: [0.55, 0.55]
+  note: About 55 cm (juvenile or subadult).
+age:
+  first_ma: 152.1
+  last_ma: 149.0
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Propterodactylus frankerlae
+  authority: Spindler 2024
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Painten
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bavaria]
+  interval: Kimmeridgian–Tithonian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: DMA-JP-2011/006 — Painten Formation, Rygol quarry, Painten, Bavaria.
+  material: Complete articulated skeleton.
+  completeness: complete
+  exceptional: Soft tissues preserved.
+biology: Skull proportions most similar to Pterodactylus; mosaic of primitive and pterodactyloid traits.
+images:
+- kind: fossil
+  file: Propterodactylus_frankerlae_(holotype).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Propterodactylus_frankerlae_%28holotype%29.jpg/960px-Propterodactylus_frankerlae_%28holotype%29.jpg
+  page: https://commons.wikimedia.org/wiki/File:Propterodactylus_frankerlae_(holotype).jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-07-04 13:32:25'
+  caption: Holotype specimen
+  width: 3036
+  height: 2011
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c/vector.svg
+  page: https://www.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ceoptera evansae
+  matched: Monofenestrata
+  genus_level: false
+  w: 1536
+  h: 638
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Propterodactylus”. English Wikipedia, revision 1369643158.
+  url: https://en.wikipedia.org/w/index.php?title=Propterodactylus&oldid=1369643158
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'

@@ -1,0 +1,143 @@
+name: Dimorphodon
+rank: genus
+parent: dimorphodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1859
+type_species: Dimorphodon macronyx
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Big-headed Early Jurassic pterosaur from the Blue Lias of England, named for its two kinds of teeth.
+size:
+  wingspan_m: [1.45, 1.45]
+  note: About 1.45 m; body length about 1 m.
+age:
+  first_ma: 201.4
+  last_ma: 184.2
+  early_interval: Hettangian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Dimorphodon banthensis
+  authority: (Theodori 1831)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: R. Owen. 1861. Palaeontology, or a Systematic Summary of Extinct Animals and their Geological Relations.
+    Second Edition. Adam and Charles Black, Edinburgh
+- name: Dimorphodon macronyx
+  authority: (Buckland 1829)
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: W. Buckland. 1829. On the discovery of a new species of Pterodactyle in the Lias at Lyme Regis. Transactions
+    of the Geological Society of London, series 2 3:217-222
+- name: Dimorphodon weintraubi
+  authority: Clark et al. 1998
+  first_ma: 192.9
+  last_ma: 184.2
+  interval: Pliensbachian
+  reference: J. M. Clark, J. A. Hopson, and R. Hernández R., D. E. Fastovsky, M. Montellano. 1998. Foot posture
+    in a primitive pterosaur. Nature 391:886-889
+formations:
+- formation: Blue Lias
+  group: Lias
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Hettangian–Early Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+- formation: Unnamed unit
+  group: Lias
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+- formation: La Boca
+  group: Huizachal
+  members: []
+  country: Mexico
+  regions: [Tamaulipas]
+  interval: Pliensbachian
+  occurrences: 1
+  ma: [184.2, 192.9]
+fossil_material:
+  holotype: NHMUK PV R1034 — Blue Lias, Lyme Regis, Dorset (found 1828, Mary Anning).
+  material: Partial disarticulated skeleton without skull; skulls known from NHMUK PV OR 41212 and R1035.
+  completeness: partial
+  exceptional: ''
+biology: Deep, lightly built skull with fangs at the front and tiny lancet teeth behind. Dental microwear supports
+  a predator of small vertebrates that may also have taken insects.
+images:
+- kind: life
+  file: Dimorphodon2DB.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dimorphodon2DB.jpg/960px-Dimorphodon2DB.jpg
+  page: https://commons.wikimedia.org/wiki/File:Dimorphodon2DB.jpg
+  artist: 'Creator: Dmitry Bogdanov'
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: between 2004 and 2008date QS:P,+2004-00-
+  caption: Restoration of a pair of D. macronyx
+  width: 2100
+  height: 1500
+  review: unreviewed
+- kind: fossil
+  file: Dimorphodon_Flight_Pose.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Dimorphodon_Flight_Pose.png/960px-Dimorphodon_Flight_Pose.png
+  page: https://commons.wikimedia.org/wiki/File:Dimorphodon_Flight_Pose.png
+  artist: MCDinosaurhunter
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Taken on 27 December 2011
+  caption: Reconstruction skeleton in flying pose at the Rocky Mountain Dinosaur Resource Center
+  width: 4352
+  height: 2627
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a4c37c72-e235-40c0-8ecb-6e567b3d2e1f/vector.svg
+  page: https://www.phylopic.org/images/a4c37c72-e235-40c0-8ecb-6e567b3d2e1f
+  attribution: John Conway
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Dimorphodon macronyx
+  matched: Dimorphodon
+  genus_level: true
+  w: 1536
+  h: 568
+  flight_pose: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dimorphodon (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dimorphodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dimorphodon”. English Wikipedia, revision 1377792288.
+  url: https://en.wikipedia.org/w/index.php?title=Dimorphodon&oldid=1377792288
+- kind: literature
+  text: '"Dimorphodon." In: Cranfield, Ingrid (ed.). The Illustrated Directory of Dinosaurs and Other Prehistoric
+    Creatures. London: Salamander Books, Ltd. Pp. 288-291.'
+- kind: literature
+  text: 'Owen, R. (1859). "On a new genus (Dimorphodon) of pterodactyle, with remarks on the geological distribution
+    of flying reptiles". Report for the British Association for the Advancement of Science. 28: 97–103.'
+- kind: literature
+  text: '"II. On the vertebral characters of the order pterosauria (ow.) as exemplified in the genera Pterodactylus
+    (cuv.) and Dimorphodon (ow.)". Proceedings of the Royal Society of London. 9: 703–704. 31 December 1859. doi:10.1098/rspl.1857.0143.'
+- kind: literature
+  text: 'Seeley, Harry G. (August 1870). "X.— Remarks on Prof. Owen''s monograph on Dimorphodon". Annals and Magazine
+    of Natural History. 6 (32): 129–152. doi:10.1080/00222937008696217.'
+- kind: literature
+  text: 'Padian, Kevin (1983). "Osteology and functional morphology of Dimorphodon macronyx (Buckland) (Pterosauria:
+    Rhamphorhynchoidea) based on new material in the Yale Peabody Museum" (PDF). Postilla. 189: 1–44. Archived from
+    the original (PDF) on 2021-01-26. Retrieved 2019-02-08.'
+- kind: literature
+  text: 'Sangster, S. (2001). "Anatomy, functional morphology and systematics of Dimorphodon". Strata. 11: 87–88.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

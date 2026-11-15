@@ -1,0 +1,67 @@
+name: Cascocauda
+rank: genus
+parent: anurognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Yang et al. 2022
+type_species: Cascocauda rong
+type_species_note: ''
+summary: Fluffy anurognathid from the Middle–Late Jurassic Tiaojishan Formation of Hebei, China, preserved with
+  wing membranes and a dense coat of pycnofibres.
+size:
+  wingspan_m: [0.434, 0.434]
+  note: Holotype 434 mm; an immature individual.
+age:
+  first_ma: 166.1
+  last_ma: 157.3
+  early_interval: Callovian
+  late_interval: Oxfordian
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Cascocauda rong
+  authority: Yang et al. 2022
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Hebei]
+  interval: Callovian–Oxfordian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: NJU-57003 — Mutoudeng locality (Daohugou bed), Tiaojishan Formation, Qinglong, Hebei.
+  material: Nearly complete articulated skeleton on main and counter slab.
+  completeness: complete
+  exceptional: 'Extensive soft tissue: wing membranes and pycnofibres, some apparently branched like simple feathers
+    (Yang et al. 2018).'
+biology: Short, wide ‘frog-like’ jaws with long thin teeth and large eyes — an aerial insect-hunter. Its tail is
+  relatively long for an anurognathid.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/56b1aae4-f330-47cf-a36a-8123149044e0/vector.svg
+  page: https://www.phylopic.org/images/56b1aae4-f330-47cf-a36a-8123149044e0
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Anurognathus ammoni
+  matched: Anurognathidae
+  genus_level: false
+  w: 1009
+  h: 534
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cascocauda”. English Wikipedia, revision 1380581643.
+  url: https://en.wikipedia.org/w/index.php?title=Cascocauda&oldid=1380581643
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'

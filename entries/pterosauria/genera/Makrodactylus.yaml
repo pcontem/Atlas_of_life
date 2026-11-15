@@ -1,0 +1,65 @@
+name: Makrodactylus
+rank: genus
+parent: monofenestrata
+incertae_sedis: true
+placement_note: A non-pterodactyloid monofenestratan without formal family assignment.
+authority: Hone et al. 2025
+type_species: Makrodactylus oligodontus
+type_species_note: ''
+summary: Smallest known adult early monofenestratan, from the Late Jurassic Mörnsheim Formation of Bavaria, named
+  in 2025.
+size:
+  wingspan_m: [0.606, 0.606]
+  note: 60.6 cm (adult).
+age:
+  first_ma: 152.1
+  last_ma: 145.0
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Makrodactylus oligodontus
+  authority: Hone et al. 2025
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Mörnsheim
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bavaria]
+  interval: Tithonian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: LF 1370 (Lauer Foundation) — Mörnsheim Formation, Schaudiberg Quarry, Bavaria.
+  material: 'Partly disarticulated skeleton: almost all of skull and mandible, vertebrae, girdles, most limbs.'
+  completeness: near-complete
+  exceptional: ''
+biology: Long skull with no more than seven tooth positions restricted to the jaw tip.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c/vector.svg
+  page: https://www.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ceoptera evansae
+  matched: Monofenestrata
+  genus_level: false
+  w: 1536
+  h: 638
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Makrodactylus”. English Wikipedia, revision 1353616057.
+  url: https://en.wikipedia.org/w/index.php?title=Makrodactylus&oldid=1353616057
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'

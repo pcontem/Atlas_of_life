@@ -1,0 +1,156 @@
+name: Eudimorphodon
+rank: genus
+parent: pterosauria
+incertae_sedis: true
+placement_note: Usually placed in Eudimorphodontidae or Campylognathoididae; Triassic pterosaur relationships remain
+  unresolved.
+authority: Zambelli 1973
+type_species: Eudimorphodon ranzii
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: One of the oldest pterosaurs, from the Late Triassic (Norian) of Lombardy, Italy, with over 100 multi-cusped
+  teeth.
+size:
+  wingspan_m: [1, 1]
+  note: About 1 m.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Eudimorphodon ranzii
+  authority: Zambelli 1973
+  first_ma: 215.38
+  last_ma: 205.7
+  interval: Norian
+  reference: R. Zambelli. 1973. Eudimorphodon ranzii gen. nov., sp. nov., uno pterosauro Triassico. Rendiconti Scienze
+    di Instituto Lombardo, B 107:27-32
+- name: Eudimorphodon rosenfeldi
+  authority: (Dalla Vecchia 1995)
+  first_ma: 215.38
+  last_ma: 211.18
+  interval: Norian
+  reference: F. M. Dalla Vecchia. 1995. A new pterosaur (Reptilia, Pterosauria) from the Norian (Late Triassic)
+    of Friuli (northeastern Italy). Preliminary note. Gortania - Atti del Museo Friulano di Storia Naturale 16:59-66
+formations:
+- formation: Dolomia di Forni
+  group: ''
+  members: []
+  country: Italy
+  regions: [Friuli-Venezia Giulia]
+  interval: Alaunian / Alaunian–Sevatian
+  occurrences: 4
+  ma: [205.7, 215.38]
+- formation: Klettgau
+  group: ''
+  members: [Gruhalde]
+  country: Switzerland
+  regions: [Schaffhausen]
+  interval: Norian / Rhaetian
+  occurrences: 2
+  ma: [201.4, 227.3]
+- formation: Unnamed unit
+  group: Steinmergel
+  members: []
+  country: Luxembourg
+  regions: [Diekirch]
+  interval: Alaunian / Rhaetian
+  occurrences: 2
+  ma: [201.4, 215.38]
+- formation: Zorzino Limestone
+  group: ''
+  members: []
+  country: Italy
+  regions: [Lombardia]
+  interval: Alaunian
+  occurrences: 2
+  ma: [211.18, 215.38]
+- formation: Grès à Avicula contorta
+  group: ''
+  members: []
+  country: France
+  regions: [Lorraine]
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+- formation: Argilliti di Riva di Solto
+  group: ''
+  members: []
+  country: Italy
+  regions: [Lombardia]
+  interval: Sevatian
+  occurrences: 1
+  ma: [205.7, 211.18]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Lorraine]
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+fossil_material:
+  holotype: MCSNB 2888 — Calcare di Zorzino, Cene, Bergamo (found 1973).
+  material: Nearly complete skeleton; several further skeletons including juveniles.
+  completeness: near-complete
+  exceptional: Stomach contents with remains of the fish Parapholidophorus.
+biology: Fangs at the front and multi-cusped rear teeth that met when the jaws closed. A fish-eater that also took
+  hard-shelled invertebrates; juveniles may have eaten insects.
+images:
+- kind: life
+  file: Eudimorphodon_NT_small.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0d/Eudimorphodon_NT_small.jpg
+  page: https://commons.wikimedia.org/wiki/File:Eudimorphodon_NT_small.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/ http://paleoexhibit.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-06-08'
+  caption: Restoration
+  width: 600
+  height: 450
+  review: unreviewed
+- kind: fossil
+  file: Eudimorphodon_ranzii_Berbenno.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Eudimorphodon_ranzii_Berbenno.JPG/960px-Eudimorphodon_ranzii_Berbenno.JPG
+  page: https://commons.wikimedia.org/wiki/File:Eudimorphodon_ranzii_Berbenno.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-03-31 14:48:11'
+  caption: Fossil at Museo di Scienze Naturali, Bergamo, specimens MCSNB 8959 a,b
+  width: 3405
+  height: 1769
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: original
+  text: R. Zambelli. 1973. Eudimorphodon ranzii gen. nov., sp. nov., uno pterosauro Triassico. Rendiconti Scienze
+    di Instituto Lombardo, B 107:27-32
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eudimorphodon (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eudimorphodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eudimorphodon”. English Wikipedia, revision 1358693982.
+  url: https://en.wikipedia.org/w/index.php?title=Eudimorphodon&oldid=1358693982
+- kind: literature
+  text: 'Jenkins, F.A. Jr.; et al. (2001). "A diminutive pterosaur (Pterosauria: Eudimorphodontidae) from the Greenlandic
+    Triassic". Bulletin of the Museum of Comparative Zoology, Harvard University. 155: 487–506.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

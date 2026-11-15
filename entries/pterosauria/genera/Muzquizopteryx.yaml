@@ -1,0 +1,100 @@
+name: Muzquizopteryx
+rank: genus
+parent: pteranodontia
+incertae_sedis: false
+placement_note: ''
+authority: Frey et al. 2006
+type_species: Muzquizopteryx coahuilensis
+type_species_note: ''
+summary: Small nyctosaurid from the early Coniacian of Coahuila, Mexico — the oldest known member of its family.
+size:
+  wingspan_m: [2, 2]
+  note: About 2 m.
+age:
+  first_ma: 93.9
+  last_ma: 85.7
+  early_interval: Turonian
+  late_interval: Coniacian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Muzquizopteryx coahuilensis
+  authority: Frey et al. 2006
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: E. Frey, M.-C. Buchy, and W. Stinnesbeck, A. González González, A. di Stefano. 2006. Muzquizopteryx
+    coahuilensis n. g., n. sp., a nyctosaurid pterosaur with soft tissue preservation from the Coniacian (Late Cretaceous)
+    of northeast Mexico (Coahuila). Oryctos 6:19-39
+formations:
+- formation: Unnamed unit
+  group: Austin
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Late Turonian–Early Coniacian
+  occurrences: 2
+  ma: [85.7, 93.9]
+fossil_material:
+  holotype: UNAM IGM 8621 — El Rosario quarry, Coahuila.
+  material: Nearly complete articulated skeleton of an adult; a second partial wing.
+  completeness: near-complete
+  exceptional: Long fossilised tendons along both forearms.
+biology: Robust arms with a hatchet-shaped deltopectoral crest; a strong-flying ocean soarer.
+images:
+- kind: life
+  file: Muzquizopteryx_coahuilensis_copia.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Muzquizopteryx_coahuilensis_copia.jpg/960px-Muzquizopteryx_coahuilensis_copia.jpg
+  page: https://commons.wikimedia.org/wiki/File:Muzquizopteryx_coahuilensis_copia.jpg
+  artist: Karkemish
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Life restoration
+  width: 1598
+  height: 1054
+  review: unreviewed
+- kind: fossil
+  file: Muzquizopteryx_coahuilensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Muzquizopteryx_coahuilensis.jpg/960px-Muzquizopteryx_coahuilensis.jpg
+  page: https://commons.wikimedia.org/wiki/File:Muzquizopteryx_coahuilensis.jpg
+  artist: Juan Carlos Fonseca Mata
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-03-28 13:56:55'
+  caption: Fossil skeleton
+  width: 2592
+  height: 1944
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b/vector.svg
+  page: https://www.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alcione elainus
+  matched: Nyctosauridae
+  genus_level: false
+  w: 1912
+  h: 1056
+  flight_pose: true
+sources:
+- kind: original
+  text: E. Frey, M.-C. Buchy, and W. Stinnesbeck, A. González González, A. di Stefano. 2006. Muzquizopteryx coahuilensis
+    n. g., n. sp., a nyctosaurid pterosaur with soft tissue preservation from the Coniacian (Late Cretaceous) of
+    northeast Mexico (Coahuila). Oryctos 6:19-39
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Muzquizopteryx (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Muzquizopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Muzquizopteryx”. English Wikipedia, revision 1317530166.
+  url: https://en.wikipedia.org/w/index.php?title=Muzquizopteryx&oldid=1317530166
+- kind: literature
+  text: 'Frey, Eberhard; Elgin, Ross A.; Stinnesbeck, Wolfgang; Manuel Padilla-Gutiérrez, José; Ifrim, Christina;
+    Giersch, Samuel; González-González, Arturo H. (2012). "A new specimen of nyctosaurid pterosaur, cf. Muzquizopteryx
+    sp. from the Late Cretaceous of northeast Mexico". Revista Mexicana de Ciencias Geológicas. 29 (1): 131–139.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

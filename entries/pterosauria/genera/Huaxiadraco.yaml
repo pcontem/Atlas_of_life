@@ -1,0 +1,90 @@
+name: Huaxiadraco
+rank: genus
+parent: tapejaridae
+incertae_sedis: false
+placement_note: ''
+authority: Pêgas et al. 2023
+type_species: Huaxiadraco corollatus
+type_species_note: ''
+summary: Crested tapejarid from the Aptian Jiufotang Formation of Chaoyang, Liaoning — formerly ‘Huaxiapterus’ corollatus.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Huaxiadraco corollatus
+  authority: (Lü et al. 2006)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Jiufotang
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: ZMNH M8131 — Jiufotang Formation, Chaoyang, Liaoning.
+  material: Nearly complete skeleton; several further specimens referred (D2525, BMPC 103–105).
+  completeness: near-complete
+  exceptional: ''
+biology: Toothless tapejarid; relatives such as Sinopterus show evidence of a plant-based diet.
+images:
+- kind: life
+  file: Jiufotang_tapejarids.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Jiufotang_tapejarids.png/960px-Jiufotang_tapejarids.png
+  page: https://commons.wikimedia.org/wiki/File:Jiufotang_tapejarids.png
+  artist: 'Art: courtesy of Zhao Chuang. Published by Rodrigo V. Pêgas1, Xuanyu Zhou, Xingsheng Jin, Kai Wang, Waisum
+    Ma'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023'
+  caption: Life restorations of Sinopterus and Huaxiadraco in Jiufotang
+  width: 2391
+  height: 1553
+  review: unreviewed
+- kind: fossil
+  file: Huaxiapterus_corollatus_holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Huaxiapterus_corollatus_holotype.png/960px-Huaxiapterus_corollatus_holotype.png
+  page: https://commons.wikimedia.org/wiki/File:Huaxiapterus_corollatus_holotype.png
+  artist: Rodrigo V. Pêgas1, Xuanyu Zhou, Xingsheng Jin, Kai Wang, Waisum Ma
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023'
+  caption: Holotype specimen
+  width: 3662
+  height: 1772
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3393418a-9ae3-4c01-a4c5-53adddc8c860/vector.svg
+  page: https://www.phylopic.org/images/3393418a-9ae3-4c01-a4c5-53adddc8c860
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vectidraco daisymorrisae
+  matched: Tapejaridae
+  genus_level: false
+  w: 1536
+  h: 554
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Huaxiadraco”. English Wikipedia, revision 1349561900.
+  url: https://en.wikipedia.org/w/index.php?title=Huaxiadraco&oldid=1349561900
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

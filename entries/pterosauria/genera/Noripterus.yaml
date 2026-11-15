@@ -1,0 +1,104 @@
+name: Noripterus
+rank: genus
+parent: dsungaripteridae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1973
+type_species: Noripterus complicidens
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Lighter-built dsungaripterid from the Early Cretaceous of Xinjiang, China, living alongside Dsungaripterus.
+size:
+  wingspan_m: [4, 4]
+  note: Maximum about 4 m if ‘Phobetor’ material from Mongolia is included.
+age:
+  first_ma: 137.05
+  last_ma: 121.4
+  early_interval: Valanginian
+  late_interval: Barremian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Noripterus complicidens
+  authority: Young 1973
+  first_ma: 137.05
+  last_ma: 121.4
+  interval: Valanginian–Barremian
+  reference: 'C.-C. Young. 1973. [Pterosaurs from Wuerho]. Reports of Paleontological Expedition to Sinkiang (II):
+    Pterosaurian Fauna from Wuerho, Sinkiang.  Memoirs of the Institute of Vertebrate Paleontology and Paleoanthropology
+    Academia Sinica 11:18-35'
+- name: Noripterus parvus
+  authority: (Bakhurina 1982)
+  first_ma: 137.05
+  last_ma: 121.4
+  interval: Valanginian–Barremian
+  reference: N. N. Bakhurina. 1982. [A pterodactyl from the Lower Cretaceous of Mongolia]. Paleontologicheskii Zhurnal
+    1982(4):104-108
+formations:
+- formation: Lianmuqin
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian–Albian
+  occurrences: 4
+  ma: [100.5, 137.05]
+- formation: Tsagaantsav
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorhangai, Uvs]
+  interval: Valanginian–Barremian
+  occurrences: 4
+  ma: [121.4, 137.05]
+fossil_material:
+  holotype: IVPP V.4062 — Lianmuqin Formation, Junggar Basin, Xinjiang.
+  material: Front of skull and lower jaws, vertebrae, partial limbs and pelvis; further material including an almost
+    complete skull (GIN 100/31, ‘Phobetor’).
+  completeness: partial
+  exceptional: ''
+biology: Toothless beak tip for probing and picking up prey, and teeth further back for cracking shells; its slenderer
+  teeth suggest a different niche from Dsungaripterus around inland lakes.
+images:
+- kind: life
+  file: Noripterus_Clear.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/86/Noripterus_Clear.jpg
+  page: https://commons.wikimedia.org/wiki/File:Noripterus_Clear.jpg
+  artist: Stanton F. Fink (Apokryltaros)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-04-30'
+  caption: Artist's impression of Noripterus parvus
+  width: 875
+  height: 518
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5edb87b6-2bb6-4087-a945-599e1f131804/vector.svg
+  page: https://www.phylopic.org/images/5edb87b6-2bb6-4087-a945-599e1f131804
+  attribution: Nix Illustration
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Noripterus complicidens
+  matched: Noripterus
+  genus_level: true
+  w: 1536
+  h: 1002
+  flight_pose: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Noripterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Noripterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Noripterus”. English Wikipedia, revision 1334270148.
+  url: https://en.wikipedia.org/w/index.php?title=Noripterus&oldid=1334270148
+- kind: literature
+  text: 'Hone, D. W. E.; Jiang, S.; Xu, X. (January 2018). "A taxonomic revision of Noripterus complicidens and
+    Asian members of the Dsungaripteridae". Geological Society, London, Special Publications. 455 (1): 149–157.
+    doi:10.1144/SP455.8.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

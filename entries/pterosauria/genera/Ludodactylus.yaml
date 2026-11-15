@@ -1,0 +1,99 @@
+name: Ludodactylus
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: ''
+authority: Frey et al. 2003
+type_species: Ludodactylus sibbicki
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Toothed pterosaur with a Pteranodon-like head crest, from the Crato Formation of Brazil — named after the
+  inaccurate toy pterosaurs it resembles.
+size:
+  wingspan_m: null
+  note: Skull over 66 cm long.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ludodactylus sibbicki
+  authority: Frey et al. 2003
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: E. Frey, D. M. Martill, and M.-C. Buchy. 2003. A new crested ornithocheirid from the Lower Cretaceous
+    of northeastern Brazil and the unusual death of an unusual pterosaur. Evolution and Palaeobiology of Pterosaurs,
+    Geological Society of London, Special Publications 217:55-63
+formations:
+- formation: Crato
+  group: Santana
+  members: [Nova Olinda]
+  country: Brazil
+  regions: [Ceara]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+fossil_material:
+  holotype: SMNK PAL 3828 — Nova Olinda Member, Crato Formation, Ceará.
+  material: Skull missing part of the crest (removed before illegal sale).
+  completeness: fragmentary
+  exceptional: A plant leaf stuck between the lower jaws, possibly contributing to its death.
+biology: No snout crest but a crest at the back of the skull; a fish-eating anhanguerian.
+images:
+- kind: life
+  file: Ludodactylus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ludodactylus.jpg/960px-Ludodactylus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Ludodactylus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009'
+  caption: Life restoration
+  width: 2166
+  height: 1666
+  review: unreviewed
+- kind: fossil
+  file: Ludodactylus_sibbicki_holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Ludodactylus_sibbicki_holotype.jpg/960px-Ludodactylus_sibbicki_holotype.jpg
+  page: https://commons.wikimedia.org/wiki/File:Ludodactylus_sibbicki_holotype.jpg
+  artist: FELIPE L. PINHEIRO, ALEXANDER W.A. KELLNER, JOÃO L. DA SILVA, RUDAH R.C. DUQUE, JULIANA M. SAYÃO, ESAÚ
+    V. DE ARAÚJO, FABIANA R. COSTA, RICHARD BUCHMANN, GABRIELA M. CERQUEIRA, LUCAS CANEJO, VICTOR BECCARI, RENAN
+    A.M. BANTIM, BORJA HOLGADO &amp; RUBI V. PÊGAS
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025'
+  caption: Holotype skull with diagram of same, including yucca leaf
+  width: 1717
+  height: 686
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b/vector.svg
+  page: https://www.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alcione elainus
+  matched: Ornithocheiroidea
+  genus_level: false
+  w: 1912
+  h: 1056
+  flight_pose: true
+sources:
+- kind: original
+  text: E. Frey, D. M. Martill, and M.-C. Buchy. 2003. A new crested ornithocheirid from the Lower Cretaceous of
+    northeastern Brazil and the unusual death of an unusual pterosaur. Evolution and Palaeobiology of Pterosaurs,
+    Geological Society of London, Special Publications 217:55-63
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ludodactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ludodactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ludodactylus”. English Wikipedia, revision 1369518988.
+  url: https://en.wikipedia.org/w/index.php?title=Ludodactylus&oldid=1369518988
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

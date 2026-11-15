@@ -1,0 +1,98 @@
+name: Peteinosaurus
+rank: genus
+parent: pterosauria
+incertae_sedis: true
+placement_note: Has been placed in Dimorphodontidae, Lonchognatha, or as sister to Macronychoptera (Zambellisauria,
+  2020). No consensus.
+authority: Wild 1978
+type_species: Peteinosaurus zambelli
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: One of the oldest and smallest pterosaurs, from the late Norian of Cene, Italy.
+size:
+  wingspan_m: [0.6, 1]
+  note: About 60 cm; some estimates up to 1 m.
+age:
+  first_ma: 215.38
+  last_ma: 211.18
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Peteinosaurus zambelli
+  authority: Wild 1978
+  first_ma: 215.38
+  last_ma: 211.18
+  interval: Norian
+  reference: R. Wild. 1978. Die Flugsaurier (Reptilia, Pterosauria) aus der Oberen Trias von Cene bei Bergamo, Italien.
+    Bolletino della Societa Paleontologia Italiana 17:176-257
+formations:
+- formation: Zorzino Limestone
+  group: ''
+  members: []
+  country: Italy
+  regions: [Lombardia]
+  interval: Alaunian
+  occurrences: 2
+  ma: [211.18, 215.38]
+fossil_material:
+  holotype: MCSNB 2886 — Calcare di Zorzino, Cene, Bergamo.
+  material: Three fragmentary subadult skeletons, none with a skull; the paratype may be another species.
+  completeness: fragmentary
+  exceptional: ''
+biology: Three types of conical teeth; thought to have been insectivorous.
+images:
+- kind: life
+  file: Coelophysids_and_Peteinosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Coelophysids_and_Peteinosaurus.jpg/960px-Coelophysids_and_Peteinosaurus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Coelophysids_and_Peteinosaurus.jpg
+  artist: ABelov2014 (https://abelov2014.deviantart.com/)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2015'
+  caption: Restoration of coelophysids and Peteinosaurus in their environment
+  width: 2430
+  height: 1812
+  review: unreviewed
+- kind: fossil
+  file: Peteinosaurus_fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Peteinosaurus_fossil.jpg/960px-Peteinosaurus_fossil.jpg
+  page: https://commons.wikimedia.org/wiki/File:Peteinosaurus_fossil.jpg
+  artist: Tommy from Arad
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: 2013-03-21 11:15
+  caption: Fossil in Museo civico di scienze naturali di Bergamo
+  width: 1341
+  height: 1024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a4c37c72-e235-40c0-8ecb-6e567b3d2e1f/vector.svg
+  page: https://www.phylopic.org/images/a4c37c72-e235-40c0-8ecb-6e567b3d2e1f
+  attribution: John Conway
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Dimorphodon macronyx
+  matched: Dimorphodontidae
+  genus_level: false
+  w: 1536
+  h: 568
+  flight_pose: true
+sources:
+- kind: original
+  text: R. Wild. 1978. Die Flugsaurier (Reptilia, Pterosauria) aus der Oberen Trias von Cene bei Bergamo, Italien.
+    Bolletino della Societa Paleontologia Italiana 17:176-257
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Peteinosaurus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Peteinosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Peteinosaurus”. English Wikipedia, revision 1380622419.
+  url: https://en.wikipedia.org/w/index.php?title=Peteinosaurus&oldid=1380622419
+- kind: literature
+  text: '"Peteinosaurus." In: Cranfield, I. (ed.) (2000). The Illustrated Directory of Dinosaurs and Other Prehistoric
+    Creatures. London: Salamander Books, Ltd. Pp. 282-283. ISBN 1-84065-241-1.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

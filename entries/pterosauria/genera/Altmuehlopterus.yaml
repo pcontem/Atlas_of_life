@@ -1,0 +1,91 @@
+name: Altmuehlopterus
+rank: genus
+parent: pterodactyloidea
+incertae_sedis: true
+placement_note: Separated from Germanodactylus as its own genus by Vidovic & Martill (2017); its relationships within
+  Pterodactyloidea remain unresolved.
+authority: Vidovic & Martill 2017
+type_species: Altmuehlopterus rhamphastinus
+type_species_note: ''
+summary: Late Jurassic pterodactyloid from the Solnhofen region of Bavaria with a large, beak-like snout (the species
+  name refers to toucans). Formerly the informal nomen nudum “Daitingopterus”.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 152.1
+  last_ma: 145.0
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Altmuehlopterus rhamphastinus
+  authority: (Wagner 1851)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Mörnsheim
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bavaria]
+  interval: Tithonian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: BSP AS.I.745 — Mörnsheim near Daiting, Malm Zeta 3 (Tithonian), Bavaria.
+  material: Partly articulated skeleton with skull, on plate and counterplate.
+  completeness: partial
+  exceptional: ''
+biology: A small pterodactyloid of the Solnhofen archipelago lagoons; diet not specifically studied.
+images:
+- kind: life
+  file: Altmuehlopterus_DB.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Altmuehlopterus_DB.jpg/960px-Altmuehlopterus_DB.jpg
+  page: https://commons.wikimedia.org/wiki/File:Altmuehlopterus_DB.jpg
+  artist: Dmitry Bogdanov
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2006'
+  caption: Restoration
+  width: 1440
+  height: 1198
+  review: unreviewed
+- kind: fossil
+  file: Altmuehlopterus_ramphastinus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Altmuehlopterus_ramphastinus.jpg/960px-Altmuehlopterus_ramphastinus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Altmuehlopterus_ramphastinus.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 - Jura Museum Eichstaett
+  caption: Specimen JME Moe 12 in Jura Museum Eichstätt
+  width: 2173
+  height: 1722
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/02651c35-768e-4570-9bad-90cac6911b52/vector.svg
+  page: https://www.phylopic.org/images/02651c35-768e-4570-9bad-90cac6911b52
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Pterodactylus antiquus
+  matched: Pterodactyloidea
+  genus_level: false
+  w: 1536
+  h: 679
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Altmuehlopterus”. English Wikipedia, revision 1335713280.
+  url: https://en.wikipedia.org/w/index.php?title=Altmuehlopterus&oldid=1335713280
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

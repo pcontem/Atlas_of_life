@@ -1,0 +1,104 @@
+name: Jeholopterus
+rank: genus
+parent: anurognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2002
+type_species: Jeholopterus ningchengensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Fuzzy anurognathid from the Daohugou beds of Inner Mongolia, China, preserved with a halo of pycnofibres.
+size:
+  wingspan_m: [0.9, 0.9]
+  note: About 90 cm.
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jeholopterus ningchengensis
+  authority: Wang et al. 2002
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: X. Wang, Z. Zhou, and F. Zhang, X. Xu. 2002. A nearly completely articulated rhamphorhynchoid pterosaur
+    with exceptionally well-preserved wing membranes and "hairs" from Inner Mongolia, northeast China. Chinese Science
+    Bulletin 47:226-230
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Early Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+fossil_material:
+  holotype: IVPP V12705 — Daohugou beds (Tiaojishan Formation), Ningcheng, Inner Mongolia.
+  material: Nearly complete crushed skeleton on slab and counterslab.
+  completeness: near-complete
+  exceptional: Carbonised skin fibres, pycnofibres and wing tissue; a possible Cretaceous specimen from North Korea.
+biology: Very broad mouth with peg-like and recurved teeth; anurognathids are considered insectivores, though Jeholopterus,
+  the largest, may also have eaten fish.
+images:
+- kind: life
+  file: Jeholopterus_reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Jeholopterus_reconstruction.png/960px-Jeholopterus_reconstruction.png
+  page: https://commons.wikimedia.org/wiki/File:Jeholopterus_reconstruction.png
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-19'
+  caption: Artist's impression
+  width: 2200
+  height: 2000
+  review: unreviewed
+- kind: fossil
+  file: Jeholopterus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/43/Jeholopterus.jpg
+  page: https://commons.wikimedia.org/wiki/File:Jeholopterus.jpg
+  artist: Ross A. Elgin, David W.E. Hone, and Eberhard Frey
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2011'
+  caption: Fossil specimen (IVPP V 12705)
+  width: 487
+  height: 359
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/56b1aae4-f330-47cf-a36a-8123149044e0/vector.svg
+  page: https://www.phylopic.org/images/56b1aae4-f330-47cf-a36a-8123149044e0
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Anurognathus ammoni
+  matched: Anurognathidae
+  genus_level: false
+  w: 1009
+  h: 534
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang, Z. Zhou, and F. Zhang, X. Xu. 2002. A nearly completely articulated rhamphorhynchoid pterosaur
+    with exceptionally well-preserved wing membranes and "hairs" from Inner Mongolia, northeast China. Chinese Science
+    Bulletin 47:226-230
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jeholopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jeholopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jeholopterus”. English Wikipedia, revision 1347364482.
+  url: https://en.wikipedia.org/w/index.php?title=Jeholopterus&oldid=1347364482
+- kind: literature
+  text: 'Kellner, Alexander W.A.; Wang, Xiaolin; Tischlinger, Helmut; Campos, Diogenes de Almeida; Hone, David W.E.;
+    Meng, Xi (2009-08-01). "The soft tissue of Jeholopterus (Pterosauria, Anurognathidae, Batrachognathinae) and
+    the structure of the pterosaur wing membrane". Proceedings of the Royal Society B. 277 (1679): 321–329. doi:10.1098/rspb.2009.0846.'
+- kind: literature
+  text: 'Dalla Vecchia, F.M. (2002). "Observations on the non-pterodactyloid pterosaur Jeholopterus ningchengensis
+    from the Early Cretaceous of Northeastern China". Natura Nascosta. 24: 8–27.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

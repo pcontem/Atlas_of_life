@@ -1,0 +1,140 @@
+name: Dorygnathus
+rank: genus
+parent: rhamphorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagner 1860
+type_species: Dorygnathus banthensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: ‘Spear-jaw’ rhamphorhynchid from the Early Jurassic (Toarcian) Posidonia Shale of Germany and France.
+size:
+  wingspan_m: [1, 1.69]
+  note: Usually about 1–1.5 m; the largest specimen (MBR 1977.21) reached 1.69 m.
+age:
+  first_ma: 184.2
+  last_ma: 182.9
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 37
+  note: ''
+species:
+- name: Dorygnathus banthensis
+  authority: (Theodori 1831)
+  first_ma: 184.2
+  last_ma: 182.9
+  interval: Toarcian
+  reference: R. Owen. 1861. Palaeontology, or a Systematic Summary of Extinct Animals and their Geological Relations.
+    Second Edition. Adam and Charles Black, Edinburgh
+formations:
+- formation: Posidonia Shale
+  group: ''
+  members: [Lias Epsilon II, Lias Epsilon II/1, Lias Epsilon II/12, Lias Epsilon II/3]
+  country: Germany
+  regions: [Baden-Württenburg, Bayern, Niedersachsen]
+  interval: Early Toarcian
+  occurrences: 34
+  ma: [182.9, 184.2]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Lorraine]
+  interval: Early Toarcian
+  occurrences: 1
+  ma: [182.9, 184.2]
+- formation: 'Posidonienschiefer '
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württenburg]
+  interval: Falciferum
+  occurrences: 1
+  ma: [182.9, 184.2]
+- formation: Marne de Flize
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Early Toarcian
+  occurrences: 1
+  ma: [182.9, 184.2]
+fossil_material:
+  holotype: PSB 757 — lower jaw, Posidonia Shale, Banz, Bavaria (described 1830).
+  material: Over fifty specimens, many complete skeletons.
+  completeness: multiple
+  exceptional: ''
+biology: Large intermeshing fangs at the jaw tip and smaller rear teeth — a fish-catcher over the shallow epicontinental
+  seas of Jurassic Europe.
+images:
+- kind: life
+  file: Dorygn_DB.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Dorygn_DB.jpg/960px-Dorygn_DB.jpg
+  page: https://commons.wikimedia.org/wiki/File:Dorygn_DB.jpg
+  artist: Dmitry Bogdanov
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2006'
+  caption: Life restoration
+  width: 1545
+  height: 1099
+  review: unreviewed
+- kind: fossil
+  file: Dorygnathus_banthensis_(cast)_at_Göteborgs_Naturhistoriska_Museum_9000.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dorygnathus_banthensis_%28cast%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_9000.jpg/960px-Dorygnathus_banthensis_%28cast%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_9000.jpg
+  page: https://commons.wikimedia.org/wiki/File:Dorygnathus_banthensis_(cast)_at_G%C3%B6teborgs_Naturhistoriska_Museum_9000.jpg
+  artist: Gunnar Creutz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-11-08 16:29:52'
+  caption: A cast of UUPM R 156 in Göteborgs Naturhistoriska Museum, a specimen sold by Bernhard Hauff to the University
+    of Uppsala in 1925
+  width: 3315
+  height: 2699
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292/vector.svg
+  page: https://www.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Rhamphorhynchus muensteri
+  matched: Rhamphorhynchinae
+  genus_level: false
+  w: 3702
+  h: 1744
+  flight_pose: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dorygnathus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dorygnathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dorygnathus”. English Wikipedia, revision 1332793448.
+  url: https://en.wikipedia.org/w/index.php?title=Dorygnathus&oldid=1332793448
+- kind: literature
+  text: '"Dorygnathus." In: Cranfield, Ingrid (ed.). The Illustrated Directory of Dinosaurs and Other Prehistoric
+    Creatures. London: Salamander Books, Ltd. Pp. 292-295.'
+- kind: literature
+  text: 'Dominique Delsate & Rupert Wild. (2000). "Première Découverte d''un Reptile volant determinable (Pterosauria,
+    Dorygnathus cf banthensis) du Toracien inférieur (Jurassique inférieur) de Nancy (Lorraine, France)", Bulletin
+    de l''Académie et de la Société lorraines des sciences, 2000, 39: 1-4'
+- kind: literature
+  text: 'Arthaber, G.E. von (1919). "Studien über Flugsaurier auf Grund der Bearbeitung des Wiener Exemplares von
+    Dorygnathus banthensis Theod. sp.", Denkschriften der Akademie der Wissenschaften Wien, Mathematisch-naturwissenschaftliche
+    Klasse, 97: 391–464'
+- kind: literature
+  text: 'Padian, K. & Wild, R. (1992). "Studies of Liassic Pterosauria, I. The holotype and referred specimens of
+    the Liassic Pterosaur Dorygnathus banthensis (Theodori) in the Petrefaktensammlung Banz, Northern Bavaria",
+    Palaeontographica Abteilung A, 225: 55-79'
+- kind: literature
+  text: 'Wild, R. (1971). "Dorygnathus mistelgauensis n. sp., ein neuer Flugsaurier aus dem Lias Epsilon von Mistelgau
+    (Frankischer Jura)" — Geol. Blatter NO-Bayern, 21(4): 178-195'
+- kind: literature
+  text: Kevin Padian (2008). The Early Jurassic Pterosaur Dorygnathus Banthensis(Theodori, 1830). Special Papers
+    in Palaeontology No. 80, The Palaeontological Association, London
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

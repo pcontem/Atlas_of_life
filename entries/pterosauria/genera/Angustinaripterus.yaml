@@ -1,0 +1,85 @@
+name: Angustinaripterus
+rank: genus
+parent: rhamphorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: He et al. 1983
+type_species: Angustinaripterus longicephalus
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Middle Jurassic rhamphorhynchine from Sichuan, China, with a long, flat skull and a low crest.
+size:
+  wingspan_m: [1.6, 1.6]
+  note: Estimated by Wellnhofer (1991) from skull length.
+age:
+  first_ma: 170.9
+  last_ma: 154.8
+  early_interval: Bajocian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Angustinaripterus longicephalus
+  authority: He et al. 1983
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: X. He, D. Yan, and C. Su. 1983. A new pterosaur from the Middle Jurassic of Dashanpu, Zigong, Sichuan.
+    Journal of the Chengdu College of Geology 1:27-33
+formations:
+- formation: Shaximiao
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 170.9]
+fossil_material:
+  holotype: ZDM T8001 — Xiashaximiao (Lower Shaximiao) Formation, Dashanpu, Zigong, Sichuan.
+  material: Single skull with lower jaws; left side badly damaged.
+  completeness: fragmentary
+  exceptional: ''
+biology: Long, curved, interlocking front teeth formed a ‘fish grab’, probably used to snatch fish from the water
+  surface.
+images:
+- kind: fossil
+  file: Angustinaripterus_skull_cast_USNM_PAL_419653.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Angustinaripterus_skull_cast_USNM_PAL_419653.png/960px-Angustinaripterus_skull_cast_USNM_PAL_419653.png
+  page: https://commons.wikimedia.org/wiki/File:Angustinaripterus_skull_cast_USNM_PAL_419653.png
+  artist: Michael Brett-Surman
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026'
+  caption: Cast of the holotype skull
+  width: 2902
+  height: 1077
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292/vector.svg
+  page: https://www.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Rhamphorhynchus muensteri
+  matched: Rhamphorhynchinae
+  genus_level: false
+  w: 3702
+  h: 1744
+  flight_pose: true
+sources:
+- kind: original
+  text: X. He, D. Yan, and C. Su. 1983. A new pterosaur from the Middle Jurassic of Dashanpu, Zigong, Sichuan. Journal
+    of the Chengdu College of Geology 1:27-33
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Angustinaripterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Angustinaripterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Angustinaripterus”. English Wikipedia, revision 1367462015.
+  url: https://en.wikipedia.org/w/index.php?title=Angustinaripterus&oldid=1367462015
+- kind: literature
+  text: Pursglove, P. "Angustinaripterus longicephalus" (PDF). The Pterosaur Database. Archived from the original
+    (PDF) on 2011-07-21.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

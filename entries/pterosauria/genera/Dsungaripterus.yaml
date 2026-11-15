@@ -1,0 +1,114 @@
+name: Dsungaripterus
+rank: genus
+parent: dsungaripteridae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1964
+type_species: Dsungaripterus weii
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Robust, crested dsungaripterid from the Early Cretaceous of Xinjiang, China, with upturned pincer-like
+  jaws.
+size:
+  wingspan_m: [3, 3.5]
+  note: 3–3.5 m.
+age:
+  first_ma: 137.05
+  last_ma: 121.4
+  early_interval: Valanginian
+  late_interval: Barremian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Dsungaripterus weii
+  authority: Young 1964
+  first_ma: 137.05
+  last_ma: 121.4
+  interval: Valanginian–Barremian
+  reference: C.-C. Young. 1964. On a new pterosaurian from Sinkiang, China. Vertebrata PalAsiatica 8(3):221-255
+formations:
+- formation: Lianmuqin
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian–Albian
+  occurrences: 2
+  ma: [100.5, 137.05]
+- formation: Tsagaantsav
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Uvs]
+  interval: Valanginian–Barremian
+  occurrences: 1
+  ma: [121.4, 137.05]
+- formation: Hutubihe
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+fossil_material:
+  holotype: IVPP V-2776 — Lianmuqin Formation, Junggar Basin, Xinjiang.
+  material: Partial skull and skeleton; further almost complete skulls from the Shengjinkou Formation.
+  completeness: multiple
+  exceptional: ''
+biology: Toothless pointed jaw tips to prise prey from crevices or mud, and knobbly rear teeth for crushing shellfish.
+  Thick-walled bones suggest a largely terrestrial life.
+images:
+- kind: life
+  file: Dsungaripterus_weii.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Dsungaripterus_weii.png/960px-Dsungaripterus_weii.png
+  page: https://commons.wikimedia.org/wiki/File:Dsungaripterus_weii.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-17'
+  caption: Restoration of Dsungaripterus
+  width: 4000
+  height: 4598
+  review: unreviewed
+- kind: fossil
+  file: Dsungaripterus-Paleozoological_Museum_of_China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Dsungaripterus-Paleozoological_Museum_of_China.jpg/960px-Dsungaripterus-Paleozoological_Museum_of_China.jpg
+  page: https://commons.wikimedia.org/wiki/File:Dsungaripterus-Paleozoological_Museum_of_China.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04 00:44:01'
+  caption: Holotype specimen, Paleozoological Museum of China
+  width: 2571
+  height: 1038
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f58adcd3-4593-4af2-9e6d-7fb8ca8a8318/vector.svg
+  page: https://www.phylopic.org/images/f58adcd3-4593-4af2-9e6d-7fb8ca8a8318
+  attribution: Connor Ashbridge
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dsungaripterus weii
+  matched: Dsungaripteridae
+  genus_level: true
+  w: 1302
+  h: 1536
+  flight_pose: false
+sources:
+- kind: original
+  text: C.-C. Young. 1964. On a new pterosaurian from Sinkiang, China. Vertebrata PalAsiatica 8(3):221-255
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dsungaripterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dsungaripterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dsungaripterus”. English Wikipedia, revision 1384626550.
+  url: https://en.wikipedia.org/w/index.php?title=Dsungaripterus&oldid=1384626550
+- kind: literature
+  text: Chen, He; Jiang, Shunxing; Kellner, Alexander W. A.; Cheng, Xin; Zhang, Xinjun; Qiu, Rui; Li, Yang; Wang,
+    Xiaolin (April 1, 2020). "New anatomical information on Dsungaripterus weii Young, 1964 with focus on the palatal
+    region". PeerJ. 8 e8741. doi:10.7717/peerj.8741.
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

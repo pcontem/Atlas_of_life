@@ -1,0 +1,87 @@
+name: Keresdrakon
+rank: genus
+parent: azhdarchoidea
+incertae_sedis: true
+placement_note: Recovered as the earliest-diverging tapejaromorph (Kellner et al. 2019) or as sister to Alanqa at
+  the base of Azhdarchoidea (Pêgas et al. 2022).
+authority: Kellner et al. 2019
+type_species: Keresdrakon vilsoni
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Toothless azhdarchoid from the Early Cretaceous ‘Pterosaur Graveyard’ of Paraná, Brazil, found with Caiuajara
+  and the theropod Vespersaurus.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 72.2
+  early_interval: Aptian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Keresdrakon vilsoni
+  authority: Kellner et al. 2019
+  first_ma: 121.4
+  last_ma: 72.2
+  interval: Aptian–Campanian
+  reference: A. W. A. Kellner, L. C. Weinschutz, and B. Holgado, R. A. M. Bantim, J. M. Sayão. 2019. A new toothless
+    pterosaur (Pterodactyloidea) from Southern Brazil with insights into the paleoecology of a Cretaceous desert.
+    Anais da Academia Brasileira de Ciências 91(2):e20190768
+formations:
+- formation: Goio-Erê
+  group: Caiuá
+  members: []
+  country: Brazil
+  regions: [Paraná]
+  interval: Aptian–Campanian
+  occurrences: 1
+  ma: [72.2, 121.4]
+fossil_material:
+  holotype: CP.V 2069 — Goio-Erê Formation (bonebed C), Cruzeiro do Oeste, Paraná.
+  material: 'Disarticulated 3D partial skeleton of a subadult: snout, quadrate, lower jaws, vertebrae, sternum,
+    girdles and limb bones.'
+  completeness: partial
+  exceptional: ''
+biology: Found in direct association with the tapejarid Caiuajara and the noasaurid theropod Vespersaurus, showing
+  the three lived together around a desert lake.
+images:
+- kind: fossil
+  file: Keresdrakon_holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Keresdrakon_holotype.jpg/960px-Keresdrakon_holotype.jpg
+  page: https://commons.wikimedia.org/wiki/File:Keresdrakon_holotype.jpg
+  artist: Kellner, Alexander W. A.; Weinschütz, Luiz C.; Holgado, Borja; Bantim, Renan A. M.; Sayão, Juliana M.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-08-19'
+  caption: Holotype specimen.
+  width: 4950
+  height: 6847
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3393418a-9ae3-4c01-a4c5-53adddc8c860/vector.svg
+  page: https://www.phylopic.org/images/3393418a-9ae3-4c01-a4c5-53adddc8c860
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vectidraco daisymorrisae
+  matched: Tapejaromorpha
+  genus_level: false
+  w: 1536
+  h: 554
+  flight_pose: true
+sources:
+- kind: original
+  text: A. W. A. Kellner, L. C. Weinschutz, and B. Holgado, R. A. M. Bantim, J. M. Sayão. 2019. A new toothless
+    pterosaur (Pterodactyloidea) from Southern Brazil with insights into the paleoecology of a Cretaceous desert.
+    Anais da Academia Brasileira de Ciências 91(2):e20190768
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Keresdrakon (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Keresdrakon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Keresdrakon”. English Wikipedia, revision 1384665758.
+  url: https://en.wikipedia.org/w/index.php?title=Keresdrakon&oldid=1384665758
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

@@ -1,0 +1,94 @@
+name: Wukongopterus
+rank: genus
+parent: darwinoptera
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2009
+type_species: Wukongopterus lii
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Wukongopterid from the Tiaojishan Formation of Liaoning, China, with both a long neck and a long tail.
+size:
+  wingspan_m: [0.73, 0.73]
+  note: About 73 cm.
+age:
+  first_ma: 168.2
+  last_ma: 152.21
+  early_interval: Bathonian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Wukongopterus lii
+  authority: Wang et al. 2009
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: X. Wang, A. W. A. Kellner, and S. Jiang, X. Meng. 2009. An unusual long-tailed pterosaur with elongated
+    neck from western Liaoning of China. Anais da Academia Brasileira de Ciências 81(4):793-812
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 168.2]
+fossil_material:
+  holotype: IVPP V15113 — Tiaojishan Formation, Liaoning.
+  material: Nearly complete compressed skeleton lacking the back and middle of the skull.
+  completeness: near-complete
+  exceptional: ''
+biology: May have had a membrane between the hind legs (uropatagium).
+images:
+- kind: life
+  file: Wukongopterus_NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/65/Wukongopterus_NT.jpg
+  page: https://commons.wikimedia.org/wiki/File:Wukongopterus_NT.jpg
+  artist: Nobu Tamura (http://spinops.blogspot.com)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-11-13'
+  caption: Restoration
+  width: 600
+  height: 443
+  review: unreviewed
+- kind: fossil
+  file: Wukongopterus-Paleozoological_Museum_of_China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Wukongopterus-Paleozoological_Museum_of_China.jpg/960px-Wukongopterus-Paleozoological_Museum_of_China.jpg
+  page: https://commons.wikimedia.org/wiki/File:Wukongopterus-Paleozoological_Museum_of_China.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04 00:45:09'
+  caption: Holotype, Paleozoological Museum of China
+  width: 1751
+  height: 1718
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c/vector.svg
+  page: https://www.phylopic.org/images/5c70af1e-337b-44b5-8bd7-ef190941e35c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ceoptera evansae
+  matched: Monofenestrata
+  genus_level: false
+  w: 1536
+  h: 638
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang, A. W. A. Kellner, and S. Jiang, X. Meng. 2009. An unusual long-tailed pterosaur with elongated
+    neck from western Liaoning of China. Anais da Academia Brasileira de Ciências 81(4):793-812
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wukongopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wukongopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wukongopterus”. English Wikipedia, revision 1378546182.
+  url: https://en.wikipedia.org/w/index.php?title=Wukongopterus&oldid=1378546182
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

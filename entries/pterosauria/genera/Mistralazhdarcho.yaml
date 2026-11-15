@@ -1,0 +1,85 @@
+name: Mistralazhdarcho
+rank: genus
+parent: azhdarchidae
+incertae_sedis: false
+placement_note: ''
+authority: Vullo et al. 2018
+type_species: Mistralazhdarcho maggii
+type_species_note: ''
+summary: Azhdarchid from the Campanian of Provence, southern France.
+size:
+  wingspan_m: [4.24, 6]
+  note: Holotype about 4.2–4.9 m (not fully grown); adults possibly 5–6 m.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mistralazhdarcho maggii
+  authority: Vullo et al. 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: R. Vullo, G. Garcia, and P. Godefroit, A. Cincotta, X. Valentin. 2018. Mistralazhdarcho maggii, gen.
+    et sp. nov., A New Azhdarchid Pterosaur from the Upper Cretaceous of Southeastern France. Journal of Vertebrate
+    Paleontology 38(4):1-16
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+fossil_material:
+  holotype: MMS/VBN.09.C.001 — Aix-en-Provence Basin, Velaux–La Bastide Neuve.
+  material: 'Partial skeleton: lower-jaw symphysis, atlas-axis, a mid-neck vertebra, humeri, radius, pteroid, wing
+    bones.'
+  completeness: partial
+  exceptional: ''
+biology: A terrestrially foraging azhdarchid of the European archipelago.
+images:
+- kind: life
+  file: Mistralazhdarcho_maggii.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Mistralazhdarcho_maggii.png/960px-Mistralazhdarcho_maggii.png
+  page: https://commons.wikimedia.org/wiki/File:Mistralazhdarcho_maggii.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-25'
+  caption: Hypothetical life restoration
+  width: 4000
+  height: 3915
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
+  page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Mistralazhdarcho maggii
+  matched: Azhdarchidae
+  genus_level: true
+  w: 1536
+  h: 722
+  flight_pose: true
+sources:
+- kind: original
+  text: R. Vullo, G. Garcia, and P. Godefroit, A. Cincotta, X. Valentin. 2018. Mistralazhdarcho maggii, gen. et
+    sp. nov., A New Azhdarchid Pterosaur from the Upper Cretaceous of Southeastern France. Journal of Vertebrate
+    Paleontology 38(4):1-16
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mistralazhdarcho (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mistralazhdarcho
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mistralazhdarcho”. English Wikipedia, revision 1368472168.
+  url: https://en.wikipedia.org/w/index.php?title=Mistralazhdarcho&oldid=1368472168
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

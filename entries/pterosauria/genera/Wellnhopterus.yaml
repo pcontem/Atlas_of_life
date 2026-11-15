@@ -1,0 +1,94 @@
+name: Wellnhopterus
+rank: genus
+parent: azhdarchidae
+incertae_sedis: false
+placement_note: ''
+authority: Andres and Langston 2021
+type_species: Wellnhopterus brevirostris
+type_species_note: ''
+summary: Short-faced azhdarchid from the Maastrichtian Javelina Formation of Big Bend, Texas.
+size:
+  wingspan_m: [3, 3]
+  note: About 3 m (Andres & Langston 2021).
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Wellnhopterus brevirostris
+  authority: Andres and Langston 2021
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: 'B. Andres and W. Langston Jr. 2021. Morphology and taxonomy of Quetzalcoatlus Lawson 1975 (Pterodactyloidea:
+    Azhdarchoidea). Journal of Vertebrate Paleontology 41(2):46-202'
+formations:
+- formation: Javelina
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+fossil_material:
+  holotype: TxVP 42489-2 — Javelina Formation, Big Bend National Park, Texas.
+  material: Upper and lower jaws, several neck vertebrae and a fragmentary long bone.
+  completeness: fragmentary
+  exceptional: ''
+biology: Unusually blunt, short jaws for an azhdarchid.
+images:
+- kind: life
+  file: Wellnhopterus_brevirostris.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Wellnhopterus_brevirostris.png/960px-Wellnhopterus_brevirostris.png
+  page: https://commons.wikimedia.org/wiki/File:Wellnhopterus_brevirostris.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-20'
+  caption: Life reconstruction of Wellnhopterus brevirostris with speculative beak crest
+  width: 4000
+  height: 4217
+  review: unreviewed
+- kind: fossil
+  file: TMM_42489-2.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/TMM_42489-2.png/960px-TMM_42489-2.png
+  page: https://commons.wikimedia.org/wiki/File:TMM_42489-2.png
+  artist: Sauriazoicillus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-08-08'
+  caption: Illustration of specimen TxVP 42489-2, the holotype
+  width: 1460
+  height: 996
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/25b01b89-c1f6-4146-92f4-ea44d6a779f7/vector.svg
+  page: https://www.phylopic.org/images/25b01b89-c1f6-4146-92f4-ea44d6a779f7
+  attribution: Marie Aimée ALLARD
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Serpennata lawsoni
+  matched: Quetzalcoatlinae
+  genus_level: false
+  w: 1536
+  h: 715
+  flight_pose: true
+sources:
+- kind: original
+  text: 'B. Andres and W. Langston Jr. 2021. Morphology and taxonomy of Quetzalcoatlus Lawson 1975 (Pterodactyloidea:
+    Azhdarchoidea). Journal of Vertebrate Paleontology 41(2):46-202'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wellnhopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wellnhopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wellnhopterus”. English Wikipedia, revision 1363962169.
+  url: https://en.wikipedia.org/w/index.php?title=Wellnhopterus&oldid=1363962169
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

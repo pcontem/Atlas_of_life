@@ -1,0 +1,123 @@
+name: Scaphognathus
+rank: genus
+parent: scaphognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagner 1861
+type_species: Parapsicephalus purdoni
+type_species_note: ''
+summary: Short, blunt-snouted long-tailed pterosaur from the Late Jurassic Solnhofen limestones of Bavaria.
+size:
+  wingspan_m: [0.5, 0.9]
+  note: Adult about 0.9 m; juvenile about 0.5 m.
+age:
+  first_ma: 168.2
+  last_ma: 143.1
+  early_interval: Bathonian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Scaphognathus crassirostris
+  authority: (Goldfuss 1831)
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: R. Owen. 1861. Palaeontology, or a Systematic Summary of Extinct Animals and their Geological Relations.
+    Second Edition. Adam and Charles Black, Edinburgh
+- name: Scaphognathus robustus
+  authority: Cheng 2012
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: S. C. Bennett. 2014. A new speicmen of the pterosaur Scaphognathus crassirostris, with comments on
+    constraint of cervical vertebrae number in pterosaurs. Neues Jahrbuch für Geologie und Paläontologie - Abhandlungen
+    271(3):327-348
+formations:
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bavaria]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 168.2]
+fossil_material:
+  holotype: Holotype (described 1831 as Pterodactylus crassirostris) — Solnhofen limestone, Eichstätt.
+  material: Three specimens.
+  completeness: partial
+  exceptional: ''
+biology: Vertical teeth and a blunt, boat-shaped lower jaw. Scleral rings suggest it may have been diurnal.
+images:
+- kind: life
+  file: Scaphognathus_(life_restoration).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Scaphognathus_%28life_restoration%29.png/960px-Scaphognathus_%28life_restoration%29.png
+  page: https://commons.wikimedia.org/wiki/File:Scaphognathus_(life_restoration).png
+  artist: Rudolf Hima
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-04'
+  caption: Life restoration exhibiting scansorial behavior
+  width: 1321
+  height: 1825
+  review: unreviewed
+- kind: fossil
+  file: Scaphognathus_crassirostris_cast_-_Pterosaurs_Flight_in_the_Age_of_Dinosaurs.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Scaphognathus_crassirostris_cast_-_Pterosaurs_Flight_in_the_Age_of_Dinosaurs.jpg/960px-Scaphognathus_crassirostris_cast_-_Pterosaurs_Flight_in_the_Age_of_Dinosaurs.jpg
+  page: https://commons.wikimedia.org/wiki/File:Scaphognathus_crassirostris_cast_-_Pterosaurs_Flight_in_the_Age_of_Dinosaurs.jpg
+  artist: Tim Evanson
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2018-08-09 13:30:20'
+  caption: Cast of the holotype specimen
+  width: 1968
+  height: 1454
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b20f93be-e13e-4d49-b9ab-2accf45caa6b/vector.svg
+  page: https://www.phylopic.org/images/b20f93be-e13e-4d49-b9ab-2accf45caa6b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Scaphognathus crassirostris
+  matched: Scaphognathinae
+  genus_level: true
+  w: 1844
+  h: 931
+  flight_pose: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scaphognathus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scaphognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scaphognathus”. English Wikipedia, revision 1341987401.
+  url: https://en.wikipedia.org/w/index.php?title=Scaphognathus&oldid=1341987401
+- kind: literature
+  text: '"Scaphognathus." In: Cranfield, Ingrid (ed.). The Illustrated Directory of Dinosaurs and Other Prehistoric
+    Creatures. London: Salamander Books, Ltd. Pp. 308–309.'
+- kind: literature
+  text: 'Bennett, S. C. (2004). "New information on the pterosaur Scaphognathus crassirostris and the pterosaurian
+    cervical series", Journal of Vertebrate Paleontology, 24(Supplement to #3):38A'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

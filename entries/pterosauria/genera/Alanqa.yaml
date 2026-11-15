@@ -1,0 +1,102 @@
+name: Alanqa
+rank: genus
+parent: azhdarchoidea
+incertae_sedis: true
+placement_note: Originally referred to Azhdarchidae; later analyses recovered it as a thalassodromid (Longrich et
+  al. 2018) or as a basal azhdarchoid in its own clade, Alanqidae. Placed here at the most inclusive group all analyses
+  agree on.
+authority: Ibrahim et al. 2010
+type_species: Alanqa saharica
+type_species_note: ''
+summary: Large toothless azhdarchoid from the Cenomanian Kem Kem Group of Morocco, known almost entirely from straight,
+  pointed jaw fragments.
+size:
+  wingspan_m: [4, 6]
+  note: About 4 m for the jaw specimens; an associated neck vertebra suggests individuals of about 6 m and 16–37
+    kg (Ibrahim et al. 2010).
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Alanqa saharica
+  authority: Ibrahim et al. 2010
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: 'N. Ibrahim, D. M. Unwin, and D. M. Martill, L. Baidder, S. Zouhri. 2010. A new pterosaur (Pterodactyloidea:
+    Azharchidae) from the Upper Cretaceous of Morocco. PLoS One 5(5):e10875'
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 100.5]
+- formation: Ifezouane
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+fossil_material:
+  holotype: Jaw fragments from Aferdou N'Chaft near Begaa, SE Morocco.
+  material: Five fragments of upper and lower jaws, possibly one neck vertebra; three further jaw specimens described
+    in 2010.
+  completeness: fragmentary
+  exceptional: Paired bony bumps where the jaws meet — possibly for display, soft-tissue anchoring or crushing hard-shelled
+    food.
+biology: Lived on a freshwater delta. Inferred to have been a generalist predator taking crustaceans, molluscs,
+  amphibians, small reptiles and possibly juvenile dinosaurs, like other azhdarchoids.
+images:
+- kind: fossil
+  file: Jaws_of_Alanqa_saharica.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Jaws_of_Alanqa_saharica.png/960px-Jaws_of_Alanqa_saharica.png
+  page: https://commons.wikimedia.org/wiki/File:Jaws_of_Alanqa_saharica.png
+  artist: Ibrahim N, Unwin DM, Martill DM, Baidder L, Zouhri S
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010'
+  caption: Jaws from the holotype of A. saharica
+  width: 1145
+  height: 395
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
+  page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
+  attribution: jack liddle
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Mistralazhdarcho maggii
+  matched: Azhdarchidae
+  genus_level: false
+  w: 1536
+  h: 722
+  flight_pose: true
+sources:
+- kind: original
+  text: 'N. Ibrahim, D. M. Unwin, and D. M. Martill, L. Baidder, S. Zouhri. 2010. A new pterosaur (Pterodactyloidea:
+    Azharchidae) from the Upper Cretaceous of Morocco. PLoS One 5(5):e10875'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alanqa (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alanqa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alanqa”. English Wikipedia, revision 1382861606.
+  url: https://en.wikipedia.org/w/index.php?title=Alanqa&oldid=1382861606
+- kind: literature
+  text: 'Martill, David M; Ibrahim, Nizar (2015). "An unusual modification of the jaws in cf. Alanqa, a mid-Cretaceous
+    azhdarchid pterosaur from the Kem Kem beds of Morocco". Cretaceous Research. 53: 59–67..53...59M. doi:10.1016/j.cretres.2014.11.001.'
+- kind: literature
+  text: 'Martill, D.M.; Ibrahim, N. (2015). "An unusual modification of the jaws in cf. Alanqa, a mid-Cretaceous
+    azhdarchid pterosaur from the Kem Kem beds of Morocco". Cretaceous Research. 53: 59–67..53...59M. doi:10.1016/j.cretres.2014.11.001.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

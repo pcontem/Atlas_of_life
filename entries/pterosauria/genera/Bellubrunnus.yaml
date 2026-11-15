@@ -1,0 +1,97 @@
+name: Bellubrunnus
+rank: genus
+parent: rhamphorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Hone et al. 2012
+type_species: Bellubrunnus rothgaengeri
+type_species_note: ''
+summary: Tiny rhamphorhynchid from the Late Jurassic (Kimmeridgian) of Brunn, Bavaria, unusual for its forward-curving
+  wingtips.
+size:
+  wingspan_m: [0.3, 0.3]
+  note: Holotype wingspan under about 30 cm (juvenile).
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bellubrunnus rothgaengeri
+  authority: Hone et al. 2012
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: D. W. E. Hone, H. Tischlinger, and E. Frey, M. Röper. 2012. A new non-pterodactyloid pterosaur from
+    the Late Jurassic of southern Germany. PLoS ONE 7(7):e38900
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Eastern Barvaria]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+fossil_material:
+  holotype: BSP–1993–XVIII–2 — Brunn quarry, Bavaria.
+  material: Single complete articulated skeleton in ventral view, missing only parts of the right foot and tail
+    tip.
+  completeness: complete
+  exceptional: ''
+biology: Very large eyes and about 22 pointed teeth; likely took small prey. Lacks the long tail-vertebra projections
+  of other rhamphorhynchids.
+images:
+- kind: life
+  file: Bellubrunnus_rothgaengeri.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bellubrunnus_rothgaengeri.png/960px-Bellubrunnus_rothgaengeri.png
+  page: https://commons.wikimedia.org/wiki/File:Bellubrunnus_rothgaengeri.png
+  artist: Matt Van Rooijen
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012'
+  caption: Life restoration of Bellubrunnus showing forward-curving wingtips
+  width: 4087
+  height: 2300
+  review: unreviewed
+- kind: fossil
+  file: Bellubrunnus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Bellubrunnus.png/960px-Bellubrunnus.png
+  page: https://commons.wikimedia.org/wiki/File:Bellubrunnus.png
+  artist: David W. E. Hone1¤*, Helmut Tischlinger2, Eberhard Frey3, Martin Röper4
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012'
+  caption: The holotype specimen of Bellubrunnus, BSP–1993–XVIII–2
+  width: 2211
+  height: 2775
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292/vector.svg
+  page: https://www.phylopic.org/images/4cc8f47d-baef-4d32-bce9-cba56b412292
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Rhamphorhynchus muensteri
+  matched: Rhamphorhynchidae
+  genus_level: false
+  w: 3702
+  h: 1744
+  flight_pose: true
+sources:
+- kind: original
+  text: D. W. E. Hone, H. Tischlinger, and E. Frey, M. Röper. 2012. A new non-pterodactyloid pterosaur from the
+    Late Jurassic of southern Germany. PLoS ONE 7(7):e38900
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bellubrunnus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bellubrunnus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bellubrunnus”. English Wikipedia, revision 1341983544.
+  url: https://en.wikipedia.org/w/index.php?title=Bellubrunnus&oldid=1341983544
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

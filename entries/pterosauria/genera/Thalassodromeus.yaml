@@ -1,0 +1,117 @@
+name: Thalassodromeus
+rank: genus
+parent: thalassodromidae
+incertae_sedis: false
+placement_note: Thalassodromids are treated as a subfamily of Tapejaridae by some authors and as close to azhdarchids
+  by others.
+authority: Kellner and Campos 2002
+type_species: Thalassodromeus sethi
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: '‘Sea runner’: the largest thalassodromid, with a huge bony head crest, from the Romualdo Formation of
+  Brazil.'
+size:
+  wingspan_m: [4.2, 4.5]
+  note: 4.2–4.5 m, based on related pterosaurs.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Thalassodromeus sethi
+  authority: Kellner and Campos 2002
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: A. W. A. Kellner and D. A. Campos. 2002. The function of the cranial crest and jaws of a unique pterosaur
+    from the Early Cretaceous of Brazil. Science 297:389-392
+formations:
+- formation: Romualdo
+  group: Santana
+  members: []
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+fossil_material:
+  holotype: DGM 1476-R — Romualdo Formation, Santana do Cariri, Ceará (found 1983).
+  material: Almost complete 3D skull.
+  completeness: fragmentary
+  exceptional: Huge, blood-vessel-rich crest.
+biology: Originally thought to skim the water like a skimmer bird; experiments rejected this. Its strong jaws suggest
+  it may have killed fairly large prey on the ground.
+images:
+- kind: life
+  file: Thalassodromeus_sethi_DB.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Thalassodromeus_sethi_DB.jpg
+  page: https://commons.wikimedia.org/wiki/File:Thalassodromeus_sethi_DB.jpg
+  artist: Dmitry Bogdanov
+  license: Public domain
+  license_url: ''
+  date: 22 July 2007 (original upload date)
+  caption: Life restoration of a T. sethi pair in flight
+  width: 555
+  height: 635
+  review: unreviewed
+- kind: fossil
+  file: Thalassodomeus_skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Thalassodomeus_skull.png/960px-Thalassodomeus_skull.png
+  page: https://commons.wikimedia.org/wiki/File:Thalassodomeus_skull.png
+  artist: John.Conway~commonswiki
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  date: '2006'
+  caption: Diagram of the T. sethi holotype skull (hatched lines represent missing parts), based on its initial
+    interpretation
+  width: 1440
+  height: 895
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/279e67f9-73ff-4f61-80c0-b4f05743aa35/vector.svg
+  page: https://www.phylopic.org/images/279e67f9-73ff-4f61-80c0-b4f05743aa35
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Thalassodromeus sethi
+  matched: Thalassodromeus
+  genus_level: true
+  w: 1340
+  h: 1258
+  flight_pose: false
+sources:
+- kind: original
+  text: A. W. A. Kellner and D. A. Campos. 2002. The function of the cranial crest and jaws of a unique pterosaur
+    from the Early Cretaceous of Brazil. Science 297:389-392
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thalassodromeus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thalassodromeus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Thalassodromeus”. English Wikipedia, revision 1369798127.
+  url: https://en.wikipedia.org/w/index.php?title=Thalassodromeus&oldid=1369798127
+- kind: literature
+  text: Pêgas, R. V.; Costa, F. R.; Kellner, A. W. A. (2018). "New Information on the osteology and a taxonomic
+    revision of The genus Thalassodromeus (Pterodactyloidea, Tapejaridae, Thalassodrominae)". Journal of Vertebrate
+    Paleontology. 38 (2) e1443273..38E3273P. doi:10.1080/02724634.2018.1443273.
+- kind: literature
+  text: 'Grellet Tinner, G.; Codrea, V. A. (2015). "Thalassodromeus sebesensis, an out of place and out of time
+    Gondwanan tapejarid pterosaur". Gondwana Research. 27 (4): 1673–1679..27.1673G. doi:10.1016/j.gr.2014.06.002.'
+- kind: literature
+  text: Dyke, G.; Vremir, M.; Brusatte, S. L.; Bever, G.S.; Buffetaut, E.; Chapman, S.; Csiki-Sava, Z.; Kellner,
+    A.; Martin, E.; Naish, D.; Norell, M.; Ősi, A.; Pinheiro, F. L.; Prondvai, E.; Rabi, M.; Rodrigues, T.; Steel,
+    L.; Tong, H.; Vila Nova, B. C.; Witton, M. (2015). "Thalassodromeus sebesensis – A new name for an old turtle.
+    Comment on "Thalassodromeus sebesensis, an out of place and out of time G
+- kind: literature
+  text: 'Codrea, V. A.; Grellet-Tinner, G. (2015). "Reply to comment by Dyke et al. on "Thalassodromeus sebesensis,
+    an out of place and out of time Gondwanan tapejarid pterosaur" by Grellet-Tinner and Codrea (July 2014), DOI
+    10.1016/j.gr.2014.06.002". Gondwana Research. 27 (4): 1683–1685..27.1683C. doi:10.1016/j.gr.2014.08.003.'
+- kind: literature
+  text: 'Pêgas, R. V.; Kellner, A. W. A. (2015). "Preliminary mandibular myological reconstruction of Thalassodromeus
+    sethi (Pterodactyloidea: Tapejaridae)". Flugsaurier 2015 Portsmouth, Abstracts: 47–48.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

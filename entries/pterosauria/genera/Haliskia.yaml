@@ -1,0 +1,99 @@
+name: Haliskia
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: ''
+authority: Pentland et al. 2024
+type_species: Haliskia peterseni
+type_species_note: ''
+summary: '‘Sea phantom’: a large anhanguerian from the Albian Toolebuc Formation of Queensland — the most complete
+  pterosaur from Australia.'
+size:
+  wingspan_m: [4.6, 4.6]
+  note: Estimated 4.6 m from proportions of Arthurdactylus.
+age:
+  first_ma: 106.3
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Haliskia peterseni
+  authority: Pentland et al. 2024
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: "A. H. Pentland, S. F. Poropat, and R. J. Duncan, A. W. A. Kellner, R. A. M. Bantim, J. J. Bevitt,\
+    \ A. M. Tait, K. Grice. 2024. Haliskia peterseni, a new anhanguerian pterosaur from the late Early Cretaceous\r\
+    \nof Australia. Scientific Reports 14(11789):1-22"
+formations:
+- formation: Toolebuc
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Late Albian
+  occurrences: 1
+  ma: [100.5, 106.3]
+fossil_material:
+  holotype: KK F1426 — Toolebuc Formation, near Richmond, Queensland (found 2021).
+  material: 'Partial skeleton (~22%): front of skull with partial crest, mandible, teeth, vertebrae, ribs, scapulocoracoid,
+    limb bones.'
+  completeness: partial
+  exceptional: ''
+biology: Skeletally mature; lived over the Eromanga inland sea. Like other anhanguerians it was probably a fish-eater.
+images:
+- kind: life
+  file: Haliskia_Life_Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Haliskia_Life_Restoration.png/960px-Haliskia_Life_Restoration.png
+  page: https://commons.wikimedia.org/wiki/File:Haliskia_Life_Restoration.png
+  artist: Gabriel N. Ugueto
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-06-12'
+  caption: Life restoration by Gabriel N. Ugueto
+  width: 1652
+  height: 1023
+  review: unreviewed
+- kind: fossil
+  file: Haliskia_(KK_F1426,_holotype).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Haliskia_%28KK_F1426%2C_holotype%29.png/960px-Haliskia_%28KK_F1426%2C_holotype%29.png
+  page: https://commons.wikimedia.org/wiki/File:Haliskia_(KK_F1426,_holotype).png
+  artist: A. H. Pentland, S. F. Poropat, R. J. Duncan, A. W. A. Kellner, R. A. M. Bantim, J. J. Bevitt, A. M. Tait
+    &amp; K. Grice
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-06-12'
+  caption: Haliskia holotype (photograph)
+  width: 1534
+  height: 876
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69/vector.svg
+  page: https://www.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69
+  attribution: Leon P. A. M. Claessens, Patrick M. O'Connor, David M. Unwin
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Anhanguera santanae
+  matched: Anhangueridae
+  genus_level: false
+  w: 2993
+  h: 985
+  flight_pose: true
+sources:
+- kind: original
+  text: "A. H. Pentland, S. F. Poropat, and R. J. Duncan, A. W. A. Kellner, R. A. M. Bantim, J. J. Bevitt, A. M.\
+    \ Tait, K. Grice. 2024. Haliskia peterseni, a new anhanguerian pterosaur from the late Early Cretaceous\r\n\
+    of Australia. Scientific Reports 14(11789):1-22"
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Haliskia (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Haliskia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Haliskia”. English Wikipedia, revision 1369380975.
+  url: https://en.wikipedia.org/w/index.php?title=Haliskia&oldid=1369380975
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

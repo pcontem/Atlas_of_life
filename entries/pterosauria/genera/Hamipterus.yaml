@@ -1,0 +1,95 @@
+name: Hamipterus
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: Placed in its own family Hamipteridae within Pteranodontoidea/Anhangueria (Pêgas et al. 2019).
+authority: Wang et al. 2014
+type_species: Hamipterus tianshanensis
+type_species_note: ''
+summary: Colonial crested pterosaur from the Early Cretaceous of Hami, Xinjiang, China, known from bonebeds with
+  eggs and embryos.
+size:
+  wingspan_m: [1.5, 3.5]
+  note: 1.5–3.5 m among the 2014 individuals.
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Hamipterus tianshanensis
+  authority: Wang et al. 2014
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: X. Wang, A. W. A. Kellner, and S. Jiang, Q. Wang, Y. Ma, Y. Paidoula, X. Cheng, T. Rodrigues, X. Meng,
+    J. Zhang, N. Li, Z. Zhou. 2014. Sexually dimorphic tridimensionally preserved pterosaurs and their eggs from
+    China. Current Biology 24:1323-1330
+formations:
+- formation: Shengjinkou
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian
+  occurrences: 4
+  ma: [132.6, 137.05]
+fossil_material:
+  holotype: IVPP V18931.1 — Shengjinkou Formation (Tugulu Group), Hami, Xinjiang (skull, probably female).
+  material: Remains of at least 40 animals in 3D, plus hundreds of eggs.
+  completeness: multiple
+  exceptional: Uncrushed eggs and embryos; crest horn sheaths preserved; one of the most important pterosaur nesting
+    sites.
+biology: Lived colonially by a lake. CT scans of embryos suggest hatchlings had well-developed legs but weak flight
+  apparatus, and some parental care has been proposed.
+images:
+- kind: fossil
+  file: Hamipterus-Paleozoological_Museum_of_China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Hamipterus-Paleozoological_Museum_of_China.jpg/960px-Hamipterus-Paleozoological_Museum_of_China.jpg
+  page: https://commons.wikimedia.org/wiki/File:Hamipterus-Paleozoological_Museum_of_China.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04 00:44:24'
+  caption: Skull on display at the Paleozoological Museum of China
+  width: 2470
+  height: 1361
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b/vector.svg
+  page: https://www.phylopic.org/images/3680eea0-40e7-4f4e-90f8-e7a7578e191b
+  attribution: Dean Schnabel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alcione elainus
+  matched: Pteranodontoidea
+  genus_level: false
+  w: 1912
+  h: 1056
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang, A. W. A. Kellner, and S. Jiang, Q. Wang, Y. Ma, Y. Paidoula, X. Cheng, T. Rodrigues, X. Meng, J.
+    Zhang, N. Li, Z. Zhou. 2014. Sexually dimorphic tridimensionally preserved pterosaurs and their eggs from China.
+    Current Biology 24:1323-1330
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hamipterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hamipterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hamipterus”. English Wikipedia, revision 1370053850.
+  url: https://en.wikipedia.org/w/index.php?title=Hamipterus&oldid=1370053850
+- kind: literature
+  text: 'Chen, He; Li, Zhiheng; Jiang, Shunxing; Wu, Qian; Gong, Yanxin; Zhu, Xufeng; Wang, Xiaolin (21 July 2023).
+    "A preliminary analysis of dental microstructure in Hamipterus (Pterosauria, Pterodactyloidea)". The Anatomical
+    Record. 308 (10): 2642–2656. doi:10.1002/ar.25289. Retrieved 13 October 2025 – via Wiley Online Library.'
+- kind: literature
+  text: 'Wu, Qian; Chen, He; Li, Zhiheng; Jiang, Shunxing; Wang, Xiaolin; Zhou, Zhonghe (October 2025). "The morphology
+    and histology of the pectoral girdle of Hamipterus ( Pterosauria ), from the Early Cretaceous of Northwest China".
+    The Anatomical Record. 308 (10): 2630–2641. doi:10.1002/ar.25167. Retrieved 22 October 2025 – via Wiley Online
+    Library.'
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

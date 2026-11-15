@@ -1,0 +1,102 @@
+name: Maaradactylus
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: ''
+authority: Bantim et al. 2014
+type_species: Maaradactylus kellneri
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Anhanguerid with one of the largest known anhanguerid skulls, from the Romualdo Formation of Ceará, Brazil.
+size:
+  wingspan_m: null
+  note: Skull 75 cm long.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Maaradactylus kellneri
+  authority: Bantim et al. 2014
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: 'R. A. M. Bantim, A. A. F. Saraiva, and G. R. Oliveira, J. M. Sayao. 2014. A new toothed pterosaur
+    (Pterodactyloidea: Anhangueridae) from the Early Cretaceous Romualdo Formation, NE Brazil. Zootaxa 3869(3):201-223'
+- name: Maaradactylus spielbergi
+  authority: (Veldmeijer 2003)
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: A. J. Veldmeijer. 2003. Coloborhynchus spielbergi sp. nov. (Pterodactyloidea) from the Albian (Lower
+    Cretaceous) of Brazil. Scripta Geologica 125:35-139
+formations:
+- formation: Romualdo
+  group: Santana
+  members: []
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 3
+  ma: [113.2, 119.57]
+fossil_material:
+  holotype: MPSC R 2357 — Romualdo Formation, Sítio São Gonçalo, Santana do Cariri, Ceará.
+  material: Skull, atlas and axis.
+  completeness: fragmentary
+  exceptional: ''
+biology: At least 36 pairs of upper teeth (most of any anhanguerid) and a tall triangular snout crest; a fish-eater.
+images:
+- kind: life
+  file: MaaradactylusTransparent.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ab/MaaradactylusTransparent.png
+  page: https://commons.wikimedia.org/wiki/File:MaaradactylusTransparent.png
+  artist: Maurílio Oliveira
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-11-17'
+  caption: Life restoration of Maaradactylus
+  width: 762
+  height: 396
+  review: unreviewed
+- kind: fossil
+  file: Maaradactylus_kellneri.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Maaradactylus_kellneri.tif/lossless-page1-960px-Maaradactylus_kellneri.tif.png
+  page: https://commons.wikimedia.org/wiki/File:Maaradactylus_kellneri.tif
+  artist: Renan Bantim
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-02-14'
+  caption: Holotype specimen of Maaradactylus, MPSC R 2357
+  width: 3266
+  height: 972
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69/vector.svg
+  page: https://www.phylopic.org/images/2388b73c-13cf-4fc8-b1c2-3ecf35cb0b69
+  attribution: Leon P. A. M. Claessens, Patrick M. O'Connor, David M. Unwin
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Anhanguera santanae
+  matched: Anhangueridae
+  genus_level: false
+  w: 2993
+  h: 985
+  flight_pose: true
+sources:
+- kind: original
+  text: 'R. A. M. Bantim, A. A. F. Saraiva, and G. R. Oliveira, J. M. Sayao. 2014. A new toothed pterosaur (Pterodactyloidea:
+    Anhangueridae) from the Early Cretaceous Romualdo Formation, NE Brazil. Zootaxa 3869(3):201-223'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Maaradactylus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Maaradactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maaradactylus”. English Wikipedia, revision 1369815328.
+  url: https://en.wikipedia.org/w/index.php?title=Maaradactylus&oldid=1369815328
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify type species against the original description.
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

@@ -1,0 +1,83 @@
+name: Haopterus
+rank: genus
+parent: pteranodontoidea
+incertae_sedis: true
+placement_note: Grouped with Mimodactylus in Mimodactylidae within Istiodactyliformes (Kellner et al. 2019), but
+  a 2024 redescription recovered it as a primitive ornithocheiriform.
+authority: Wang and Lü 2001
+type_species: Haopterus gracilis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Small crestless pteranodontoid from the Yixian Formation of Liaoning — the first Chinese pterosaur found
+  with a skull.
+size:
+  wingspan_m: [1.35, 1.35]
+  note: Holotype estimated at 1.35 m.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Haopterus gracilis
+  authority: Wang and Lü 2001
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: X. Wang and J. Lü. 2001. Discovery of a pterodactylid pterosaur from the Yixian Formation of western
+    Liaoning, China. Chinese Science Bulletin 46:1112-1117
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+fossil_material:
+  holotype: IVPP V11726 — Yixian Formation, Sihetun, Liaoning (found 1998).
+  material: 'Front half of a subadult: skull (145 mm), lower jaws, girdle, sternum, wings, vertebrae, partial pelvis.'
+  completeness: partial
+  exceptional: ''
+biology: Twelve pairs of robust, recurved teeth; probably took fish and other small prey.
+images:
+- kind: fossil
+  file: Haopterus-Paleozoological_Museum_of_China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Haopterus-Paleozoological_Museum_of_China.jpg/960px-Haopterus-Paleozoological_Museum_of_China.jpg
+  page: https://commons.wikimedia.org/wiki/File:Haopterus-Paleozoological_Museum_of_China.jpg
+  artist: Morosaurus millenii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04 00:05:45'
+  caption: Holotype fossil specimen, Paleozoological Museum of China
+  width: 2571
+  height: 1491
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: original
+  text: X. Wang and J. Lü. 2001. Discovery of a pterodactylid pterosaur from the Yixian Formation of western Liaoning,
+    China. Chinese Science Bulletin 46:1112-1117
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Haopterus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Haopterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Haopterus”. English Wikipedia, revision 1368802466.
+  url: https://en.wikipedia.org/w/index.php?title=Haopterus&oldid=1368802466
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

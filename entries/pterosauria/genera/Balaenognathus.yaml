@@ -1,0 +1,96 @@
+name: Balaenognathus
+rank: genus
+parent: ctenochasmatidae
+incertae_sedis: false
+placement_note: ''
+authority: Martill et al. 2023
+type_species: Balaenognathus maeuseri
+type_species_note: ''
+summary: Filter-feeding ctenochasmatid from the Late Jurassic of Bavaria, with more than 480 hooked, needle-like
+  teeth.
+size:
+  wingspan_m: [1.17, 1.17]
+  note: Holotype wingspan 1.17 m.
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Balaenognathus maeuseri
+  authority: Martill et al. 2023
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: D. M. Martill, E. Frey, and H. Tischlinger, M. Mäuser, H. E. Rivera-Sylva, S. U. Vidovic. 2023. A new
+    pterodactyloid pterosaur with a unique filter-feeding apparatus from the Late Jurassic of Germany. PalZ 97(2):383-424
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bavaria]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+fossil_material:
+  holotype: NKMB P2011-633 — Torleite Formation (late Kimmeridgian–Tithonian), Wattendorf, Bavaria.
+  material: Nearly complete, articulated skeleton on 17 slab pieces.
+  completeness: near-complete
+  exceptional: Small patch of wing-membrane soft tissue preserved.
+biology: Spatula-shaped snout and comb-like dentition strongly suggest filter feeding in plankton-rich water, probably
+  while wading or swimming rather than skimming in flight.
+images:
+- kind: life
+  file: Balaenognathus_(life_restoration).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Balaenognathus_%28life_restoration%29.png/960px-Balaenognathus_%28life_restoration%29.png
+  page: https://commons.wikimedia.org/wiki/File:Balaenognathus_(life_restoration).png
+  artist: Rudolf Hima
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-04'
+  caption: Speculative life restoration
+  width: 2237
+  height: 1412
+  review: unreviewed
+- kind: fossil
+  file: Naturkundemuseum_Wattendorfer_Flugsaurier_17RM1941.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Naturkundemuseum_Wattendorfer_Flugsaurier_17RM1941.jpg/960px-Naturkundemuseum_Wattendorfer_Flugsaurier_17RM1941.jpg
+  page: https://commons.wikimedia.org/wiki/File:Naturkundemuseum_Wattendorfer_Flugsaurier_17RM1941.jpg
+  artist: Ermell
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-11 15:26:08'
+  caption: Holotype specimen
+  width: 4797
+  height: 3598
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b/vector.svg
+  page: https://www.phylopic.org/images/230b9d10-9efd-459f-bd2c-89e9cdef997b
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Ctenochasma roemeri
+  matched: Ctenochasmatidae
+  genus_level: false
+  w: 2967
+  h: 2054
+  flight_pose: false
+sources:
+- kind: original
+  text: D. M. Martill, E. Frey, and H. Tischlinger, M. Mäuser, H. E. Rivera-Sylva, S. U. Vidovic. 2023. A new pterodactyloid
+    pterosaur with a unique filter-feeding apparatus from the Late Jurassic of Germany. PalZ 97(2):383-424
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Balaenognathus (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Balaenognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Balaenognathus”. English Wikipedia, revision 1347853643.
+  url: https://en.wikipedia.org/w/index.php?title=Balaenognathus&oldid=1347853643
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

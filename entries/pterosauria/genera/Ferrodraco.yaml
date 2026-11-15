@@ -1,0 +1,106 @@
+name: Ferrodraco
+rank: genus
+parent: anhangueria
+incertae_sedis: false
+placement_note: ''
+authority: Pentland et al. 2019
+type_species: Ferrodraco lentoni
+type_species_note: ''
+summary: Crested anhanguerid from the Cenomanian–Turonian Winton Formation of Queensland — one of the most complete
+  pterosaurs from Australia.
+size:
+  wingspan_m: [4, 4]
+  note: About 4 m and 10 kg.
+age:
+  first_ma: 100.5
+  last_ma: 89.8
+  early_interval: Cenomanian
+  late_interval: Turonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ferrodraco lentoni
+  authority: Pentland et al. 2019
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: A. H. Pentland, S. F. Poropat, and T. R. Tischler, T. Sloan, R. A. Elliott, H. A. Elliott, J. A. Elliott,
+    D. A. Elliott. 2019. Ferrodraco lentoni gen. et sp. nov., a new ornithocheirid pterosaur from the Winton Formation
+    (Cenomanian-lower Turonian) of Queensland, Australia. Scientific Reports 9(13454)
+formations:
+- formation: Winton
+  group: Rolling Downs
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Middle Cenomanian–Early Turonian
+  occurrences: 1
+  ma: [89.8, 100.5]
+fossil_material:
+  holotype: AODF 876 — Winton Formation, Queensland (found 2017).
+  material: Front of skull and lower jaws, 40 loose teeth, five neck vertebrae, shoulder joint and parts of the
+    left wing.
+  completeness: partial
+  exceptional: Largely 3D preservation in ironstone.
+biology: Anhanguerids are generally interpreted as fish-eaters; Ferrodraco had a high premaxillary crest and a toothed
+  snout not expanded into a rosette.
+images:
+- kind: life
+  file: Ferrodraco_restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ferrodraco_restoration.jpg/960px-Ferrodraco_restoration.jpg
+  page: https://commons.wikimedia.org/wiki/File:Ferrodraco_restoration.jpg
+  artist: Adele H. Pentland, Stephen F. Poropat, Travis R. Tischler, Trish Sloan, Robert A. Elliott, Harry A. Elliott,
+    Judy A. Elliott and David A. Elliott
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019'
+  caption: Life restoration
+  width: 1244
+  height: 852
+  review: unreviewed
+- kind: fossil
+  file: Ferrodraco.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ferrodraco.jpg/960px-Ferrodraco.jpg
+  page: https://commons.wikimedia.org/wiki/File:Ferrodraco.jpg
+  artist: Adele H. Pentland, Stephen F. Poropat, Travis R. Tischler, Trish Sloan, Robert A. Elliott, Harry A. Elliott,
+    Judy A. Elliott and David A. Elliott
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-10-03'
+  caption: Skull and mandible of Ferrodraco in different angles (left), and schematic diagram (right)
+  width: 1643
+  height: 980
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d4b26253-4424-4520-92f1-5b0dad1763c6/vector.svg
+  page: https://www.phylopic.org/images/d4b26253-4424-4520-92f1-5b0dad1763c6
+  attribution: Alessio Ciaffi
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Tropeognathus mesembrinus
+  matched: Tropeognathinae
+  genus_level: false
+  w: 1461
+  h: 1536
+  flight_pose: false
+sources:
+- kind: original
+  text: A. H. Pentland, S. F. Poropat, and T. R. Tischler, T. Sloan, R. A. Elliott, H. A. Elliott, J. A. Elliott,
+    D. A. Elliott. 2019. Ferrodraco lentoni gen. et sp. nov., a new ornithocheirid pterosaur from the Winton Formation
+    (Cenomanian-lower Turonian) of Queensland, Australia. Scientific Reports 9(13454)
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ferrodraco (downloaded 2026-11-15).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ferrodraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ferrodraco”. English Wikipedia, revision 1378647012.
+  url: https://en.wikipedia.org/w/index.php?title=Ferrodraco&oldid=1378647012
+- kind: literature
+  text: Pentland, Adele H.; Poropat, Stephen F.; White, Matt A.; Rigby, Samantha L.; Bevitt, Joseph J.; Duncan,
+    Ruairidh J.; Sloan, Trish; Elliott, Robert A.; Elliott, Harry A.; Elliott, Judy A.; Elliott, David A. (2022-03-30).
+    "The osteology of Ferrodraco lentoni, an anhanguerid pterosaur from the mid-Cretaceous of Australia". Journal
+    of Vertebrate Paleontology. 41 (5) e2038182. doi:10.1080/02724634.2021
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).

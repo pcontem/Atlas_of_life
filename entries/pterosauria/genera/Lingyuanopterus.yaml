@@ -1,0 +1,90 @@
+name: Lingyuanopterus
+rank: genus
+parent: istiodactyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Xu, Jiang & Wang 2022
+type_species: Lingyuanopterus camposi
+type_species_note: ''
+summary: Istiodactylid from the Jiufotang Formation of western Liaoning, China.
+size:
+  wingspan_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Age bracket from the stage named in the literature (ICS International Chronostratigraphic Chart); not in
+    PBDB at time of download.
+species:
+- name: Lingyuanopterus camposi
+  authority: Xu, Jiang & Wang 2022
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Jiufotang
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: null
+  ma: null
+fossil_material:
+  holotype: IVPP V 17940 — Jiufotang Formation, Lingyuan, Liaoning.
+  material: Nearly complete skull, mandible and atlas-axis complex.
+  completeness: fragmentary
+  exceptional: ''
+biology: Interlocking, laterally compressed teeth and shallow jaws suggest adaptation for scavenging (Xu et al.
+  2022).
+images:
+- kind: life
+  file: Lingyuanopterus_Head_Recon.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Lingyuanopterus_Head_Recon.png/960px-Lingyuanopterus_Head_Recon.png
+  page: https://commons.wikimedia.org/wiki/File:Lingyuanopterus_Head_Recon.png
+  artist: Sauriazoicillus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-07-26'
+  caption: Life reconstruction of head
+  width: 1137
+  height: 649
+  review: unreviewed
+- kind: fossil
+  file: IVPP_V_17940.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/IVPP_V_17940.png/960px-IVPP_V_17940.png
+  page: https://commons.wikimedia.org/wiki/File:IVPP_V_17940.png
+  artist: Xu et al., (2022)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-07-26'
+  caption: Holotype of Lingyuanopterus (IVPP V 17940) with a peipiaosteid fish above
+  width: 1890
+  height: 1484
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2/vector.svg
+  page: https://www.phylopic.org/images/bb56d24a-c7a5-4ca8-90e7-7e02df3d09f2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Peteinosaurus zambellii
+  matched: Pterosauria
+  genus_level: false
+  w: 4511
+  h: 2609
+  flight_pose: true
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lingyuanopterus”. English Wikipedia, revision 1314086767.
+  url: https://en.wikipedia.org/w/index.php?title=Lingyuanopterus&oldid=1314086767
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Only secondary sources: add the original description (primary literature).'
+  - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
