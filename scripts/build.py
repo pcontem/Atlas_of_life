@@ -21,10 +21,6 @@ def load(p):
     return yaml.safe_load(p.read_text())
 
 
-_TS = json.loads((ROOT / "data/raw/timescale/pbdb_ics_2024.json").read_text())["records"]
-TOPS = {r[0]: r[3] for r in _TS}
-
-
 def genus_to_site(e):
     """Map an entry file (readable names) to the compact keys the site uses."""
     g = dict(
@@ -45,11 +41,6 @@ def genus_to_site(e):
                      w=i["width"], h=i["height"]) for i in e["images"]],
         sources=e["sources"],
     )
-    # firm first appearance: the genus certainly existed by the YOUNGEST possible age of its oldest-dated
-    # occurrence (an occurrence dated "Late Triassic–Early Jurassic" only proves existence by 174.7 Ma)
-    mins = [f["ma"][0] for f in e["formations"] if f.get("ma")]
-    top = TOPS.get((e["age"]["early_interval"] or "").strip())  # no dated occurrences: end of the first stage named
-    g["fad_firm"] = max(mins) if mins else (top if top is not None else e["age"]["first_ma"])
     if e["age"].get("note"):
         g["dates_note"] = e["age"]["note"]
     if e.get("silhouette"):

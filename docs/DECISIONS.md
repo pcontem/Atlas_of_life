@@ -89,3 +89,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   occurrences (Caelestiventus "Late Triassic–Early Jurassic", Pterodactylus "Angulata /
   Kimmeridgian") gave almost every group a long ghost lineage. Groups in polytomies still get
   one when a sister is securely older, as they should.
+- Ghost lineages revised again (owner): drawn only within the group's own range, as gaps in its
+  record between first and last appearance. Comparisons with sister groups were dropped — the
+  classification is full of polytomies, not binary splits, so they produced more ghost lineages
+  than a resolved phylogeny would. (`fad_firm` removed from the build; no longer needed.)

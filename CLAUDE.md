@@ -268,10 +268,9 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   oldest first, coloured by the subdivision it belongs to, with a legend — this replaces the old
   "Genera through time" card on clade pages) and **Diversity** (one spindle for the selected
   group itself: thickness = its genera known at each moment, range-through, scale on the left;
-  dashed **ghost lineage** from the firm first appearance of its oldest sister group — the other
-  subdivisions of its parent, each dated by the youngest possible age of its oldest record
-  (`fad_firm`, computed by build.py) — to its own first record; imprecisely dated occurrences
-  therefore cannot stretch it). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
+  dashed **ghost lineages** only inside the group's own range — stretches between its first and
+  last record with no genus on record. No comparison with sister groups: the atlas classification
+  is not resolved into binary splits, so sister comparisons would invent ghost lineages). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
   come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
   two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
   "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the Cenozoic stays
