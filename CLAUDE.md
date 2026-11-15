@@ -249,7 +249,7 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 
 - Two modes in the top bar: **Encyclopedia** and **Tree of life** (it is an outline of the
   classification, not a true cladogram, so never call it "cladogram" in the interface).
-  Encyclopedia sub-tabs: **Entry, Timeline, Excluded names, Index, About & sources** (shown only in Encyclopedia mode; Encyclopedia
+  Encyclopedia sub-tabs: **Index, Entry, Timeline, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
   stays highlighted on its sub-tabs).
 - **One selection shared by all views** (`cur` in `core.js`): the entry being read is the node
   highlighted in the Tree of life and the focus of the Timeline, and vice versa. Switching mode keeps it.
