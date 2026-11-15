@@ -32,3 +32,9 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - The PBDB "type species" field proved unreliable (Pterodactylus and Scaphognathus came out
   wrong); type species are checked against the original description during consolidation.
 - d3 is vendored in `site/vendor/` so the site has no runtime network dependency.
+
+## 2026-11-15 (owner request)
+
+- The excluded-names list holds only real published names rejected as invalid (nomina dubia,
+  nuda, inquirenda, junior synonyms). Misspellings and duplicates of the prototype's list
+  (Linglongopterus, Diocephalus, Pterodactyle) are removed; they were never real names.

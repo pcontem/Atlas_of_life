@@ -1,7 +1,7 @@
 /* Atlas of Life — Excluded names and About & sources pages. */
 /* ---------- excluded ---------- */
 function renderExcluded(){const x=D.excluded.slice().sort((a,b)=>a.name.localeCompare(b.name));
-  $("#view").innerHTML=`<div class="xl"><h2>Excluded names</h2><p class="note">Names not accepted as valid taxa and therefore left out of the tree: <i>nomina dubia</i> (not diagnosable) and <i>nomina nuda</i> (published without a valid description), as recorded by the Paleobiology Database, plus spelling corrections to the original list.</p><table><tr><th>Name</th><th>Author</th><th>Status</th><th>Source</th></tr>${x.map(e=>`<tr><td><i>${esc(e.name)}</i></td><td>${esc(e.author)}</td><td>${esc(e.status)}</td><td class="note">${esc(e.ref||e.source)}</td></tr>`).join("")}</table></div>`}
+  $("#view").innerHTML=`<div class="xl"><h2>Excluded names</h2><p class="note">Names not accepted as valid taxa and therefore left out of the tree: <i>nomina dubia</i> (not diagnosable) and <i>nomina nuda</i> (published without a valid description), as recorded by the Paleobiology Database.</p><table><tr><th>Name</th><th>Author</th><th>Status</th><th>Source</th></tr>${x.map(e=>`<tr><td><i>${esc(e.name)}</i></td><td>${esc(e.author)}</td><td>${esc(e.status)}</td><td class="note">${esc(e.ref||e.source)}</td></tr>`).join("")}</table></div>`}
 
 /* ---------- about ---------- */
 function renderAbout(){const n=D.genera.length,li=D.genera.filter(g=>(g.images||[]).some(i=>i.kind==="life")).length,fo=D.genera.filter(g=>(g.images||[]).length&&!(g.images||[]).some(i=>i.kind==="life")).length,gl=D.genera.filter(g=>g.silhouette&&g.silhouette.genus_level).length;

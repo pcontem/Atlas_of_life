@@ -48,7 +48,7 @@ global scope, no bundler.
 3. **No AI-generated images**, ever. Only photographs and published, credited paleoart (§4.4).
 4. **Own words.** Paraphrase sources; never copy sentences. Quote at most a short phrase, in quotes.
 5. **The genus is the unit.** One entry per valid genus; species are listed inside it.
-6. **Only valid taxa.** Nomina dubia, nuda, inquirenda, misspellings and duplicates go to
+6. **Only valid taxa.** Nomina dubia, nuda and inquirenda go to
    `excluded.yaml`, never into the tree.
 7. **Generated files are not edited.** Change the entry, then run `build.py`.
 8. **Small steps.** One request = one focused change = one commit.
@@ -152,9 +152,10 @@ curation: {...}          # Q1
 
 ### 4.3 Excluded names (`excluded.yaml`)
 
-`name`, `author`, `status` (X1 E: `nomen dubium | nomen nudum | nomen inquirendum | duplicate |
-misspelling | junior synonym`), `ref` (the publication that established the status) and/or
-`source`. Every name dropped from the atlas goes here so the exclusion is traceable.
+`name`, `author`, `status` (X1 E: `nomen dubium | nomen nudum | nomen inquirendum |
+junior synonym`), `ref` (the publication that established the status) and/or `source`.
+Only real, published names whose validity is rejected go here. Misspellings, duplicates and
+vernacular forms are simply corrected in the entries and **not** listed.
 
 ### 4.4 Images
 
