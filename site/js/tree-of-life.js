@@ -41,10 +41,10 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
   }
   function draw(anchor){
     const rad=layout==="radial",root=d3.hierarchy(visTree(rad?rroot:"vida"));
-    if(rad){// radial: angle from the leaves, one ring per level; big enough that leaves keep ~DX px apart
-      const R=Math.max(root.height*RING,root.leaves().length*DX*1.15/(2*Math.PI));
-      d3.tree().size([2*Math.PI,R]).separation((a,b)=>(a.parent===b.parent?1:2)/Math.max(1,a.depth))(root);
-      root.y_step=root.height?R/root.height:R;root.each(d=>{d.px=d.y*Math.sin(d.x);d.py=-d.y*Math.cos(d.x)})}
+    if(rad){// circular tree: tips evenly spaced on the outer circle, each internal group on the ring of its level
+      const H=Math.max(1,root.height),nl=root.leaves().length,step=Math.max(RING*0.6,nl*DX*1.1/(2*Math.PI)/H),R=H*step;
+      d3.cluster().size([2*Math.PI*(nl>1?1-1/nl:1),1]).separation((a,b)=>a.parent===b.parent?1:1.6)(root);
+      root.y_step=step;root.R=R;root.each(d=>{d.y=d.children?d.depth*step:R;d.px=d.y*Math.sin(d.x);d.py=-d.y*Math.cos(d.x)})}
     else{d3.tree().nodeSize([DX,DY]).separation((a,b)=>{const o=x=>x.children?1.6:1;return Math.max(o(a),o(b))*(a.parent===b.parent?1:1.25)})(root);
       root.each(d=>{d.px=d.y;d.py=d.x})}
     const old=anchor&&pos[anchor];pos={};root.each(d=>pos[d.data.id]=[d.px,d.py]);
@@ -53,6 +53,20 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
     const P=(a,r)=>`${(r*Math.sin(a)).toFixed(1)},${(-r*Math.cos(a)).toFixed(1)}`;
     const elbow=l=>{const s=l.source,c=l.target;return `M${P(s.x,s.y)}A${s.y},${s.y} 0 0 ${c.x>s.x?1:0} ${P(c.x,s.y)}L${P(c.x,c.y)}`};
     g.selectAll("circle.ring").data(rad?d3.range(1,root.height+1).map(i=>i*root.y_step):[]).join("circle").attr("class","ring").attr("r",d=>d).lower();
+    // coloured sectors behind the tip labels, one per group directly under the centre, named on the outside
+    const SEC=["#f3e36b","#f2a7c8","#9fd8ef","#c9b8f2","#f7c9a3","#a9c5a0","#9ee6d3","#f19be8","#f5b071","#b7e08f","#ef8fb0","#a8c3f0"];
+    // groups: start with the clades under the centre, then keep splitting the biggest open one into its sub-clades
+    // (up to 12 colours) so no single colour covers most of the circle
+    const isG=c=>c.children||byId[c.data.id].type==="clade";let groups=rad?(root.children||[]).filter(isG):[];
+    for(let guard=0;rad&&guard<40;guard++){const tot=root.leaves().length;const big=groups.filter(c=>c.children&&c.leaves().length>tot*0.3).sort((a,b)=>b.leaves().length-a.leaves().length)[0];
+      if(!big)break;const sub=big.children.filter(isG);if(!sub.length||groups.length-1+sub.length>12)break;groups=groups.flatMap(c=>c===big?sub:[c])}
+    groups.sort((a,b)=>a.leaves()[0].x-b.leaves()[0].x);
+    const half=Math.PI/Math.max(1,root.leaves().length),secs=groups.length>1?groups.map((c,i)=>{const ls=c.leaves();return{id:c.data.id,i,a0:ls[0].x-half,a1:ls[ls.length-1].x+half}}):[];
+    const arc=d3.arc().innerRadius(rad?root.R-8:0).outerRadius(rad?root.R+215:0).startAngle(s=>s.a0).endAngle(s=>s.a1);
+    g.selectAll("path.sec").data(secs,s=>s.id).join("path").attr("class","sec").attr("d",arc).attr("fill",s=>SEC[s.i%SEC.length]).lower();
+    g.selectAll("text.secl").data(secs,s=>s.id).join("text").attr("class","secl").each(function(s){const a=(s.a0+s.a1)/2,deg=a*180/Math.PI-90,flip=a>Math.PI,r=root.R+228;
+      d3.select(this).attr("transform",`rotate(${deg}) translate(${r},0)${flip?" rotate(180)":""}`).attr("text-anchor",flip?"end":"start").attr("dy","0.35em")
+        .text(byId[s.id].name+" ("+byId[s.id].stat.g+")")});
     L.join("path").attr("class","lk").attr("d",rad?elbow:d3.linkHorizontal().x(d=>d.y).y(d=>d.x));
     const N=g.selectAll("g.nd").data(root.descendants(),d=>d.data.id).join(enter=>{const e=enter.append("g").attr("class","nd");
         e.append("circle").attr("class","c");e.append("image").attr("class","im");e.append("text").attr("class","tx");e.append("title");return e});
@@ -85,7 +99,7 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
   function prune(){const id=sel||cur||"vida";const keep=new Set();let p=byId[byId[id].parent];while(p){keep.add(p.id);p=byId[p.parent]}
     if(open.has(id))keep.add(id);keep.add("vida");open=keep;sel=id;cur=id;draw();center(id);info(id)}
   function fit(id){const ids=[];(function r(k){if(!pos[k])return;ids.push(k);if(byId[k].type==="clade"&&open.has(k))children[k].forEach(r)})(id);
-    const xs=ids.map(k=>pos[k][0]),ys=ids.map(k=>pos[k][1]);const rad=layout==="radial",P=rad?190:20,x0=Math.min(...xs)-P,x1=Math.max(...xs)+(rad?P:230),y0=Math.min(...ys)-P,y1=Math.max(...ys)+P;
+    const xs=ids.map(k=>pos[k][0]),ys=ids.map(k=>pos[k][1]);const rad=layout==="radial",P=rad?380:20,x0=Math.min(...xs)-P,x1=Math.max(...xs)+(rad?P:230),y0=Math.min(...ys)-P,y1=Math.max(...ys)+P;
     const r=$("#csvg").getBoundingClientRect(),top=60,bottom=40,W=r.width-40,H=r.height-top-bottom;
     const k=Math.max(0.08,Math.min(1.2,Math.min(W/(x1-x0||1),H/(y1-y0||1))));
     svg.call(zoom.transform,d3.zoomIdentity.translate(20+(W-(x1-x0)*k)/2-x0*k,top+(H-(y1-y0)*k)/2-y0*k).scale(k))}

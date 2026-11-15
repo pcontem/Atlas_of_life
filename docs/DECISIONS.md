@@ -50,3 +50,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   groups, search, prune and the info card.
 - Radial branches are drawn as elbows (arc along the parent's ring, then a straight spoke) and
   each classification level is one equally spaced ring, so divergence points are readable.
+- Radial view restyled after an example from the owner (circular phylogeny): tips aligned on the
+  outer circle, internal groups on equally spaced level rings, elbow branches, coloured sectors
+  for the main groups (the largest group is split into its sub-clades, max 12 colours).
