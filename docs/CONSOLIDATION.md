@@ -12,8 +12,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 | G7 | 2 |
 | G8 | 29 |
 | I3 | 7 |
-| I4 | 70 |
-| I6 | 21 |
+| I4 | 124 |
+| I6 | 17 |
 | L1 | 4 |
 | Q1 | 147 |
 | S2 | 32 |
@@ -78,6 +78,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - G7 summary must be one sentence ending in '.', ≤170 characters (now 185)
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
@@ -85,6 +87,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **genus Anhanguera**
   - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Anurognathus**
@@ -103,12 +107,14 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **genus Austriadactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Austriadraco**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I6 no image
   - Q1 draft: not yet checked
 - **genus Balaenognathus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Barbaridactylus**
@@ -156,7 +162,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Changchengopterus**
   - Q1 draft: not yet checked
 - **genus Chaoyangopterus**
-  - I6 no image
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Coloborhynchus**
   - G5 type species not verified against a source
@@ -186,6 +192,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **genus Dearc**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Dendrorhynchoides**
   - G5 type species not verified against a source
@@ -200,10 +207,16 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **genus Dorygnathus**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Douzhanopterus**
   - Q1 draft: not yet checked
 - **genus Dsungaripterus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Eopteranodon**
@@ -214,6 +227,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Europejara**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Feilongus**
   - I4 life restoration is 'unreviewed': review it for accuracy
@@ -223,8 +237,10 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **genus Ferrodraco**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Forfexopterus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Gegepterus**
@@ -241,11 +257,12 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Gnathosaurus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
-  - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+  - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).; Oldest date comes from one PBDB occurrence in the Taynton Limestone (Middle Bathonian, UK); check whether this referral to Gnathosaurus is secure.
 - **genus Guidraco**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - Q1 draft: not yet checked
 - **genus Haliskia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Hamipterus**
@@ -253,6 +270,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Haopterus**
   - Q1 draft: not yet checked
 - **genus Hatzegopteryx**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Hongshanopterus**
@@ -272,8 +290,10 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **genus Inabtanin**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Istiodactylus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Jeholopterus**
@@ -364,6 +384,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Noripterus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Normannognathus**
@@ -377,6 +398,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Nyctosaurus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Orientognathus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
@@ -385,6 +408,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Parapsicephalus**
   - Q1 draft: not yet checked
 - **genus Peteinosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Plataleorhynchus**
@@ -396,6 +420,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **genus Preondactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Propterodactylus**
   - S2 no 'original' source (the publication that named the taxon)
@@ -404,20 +430,31 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Pteranodon**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Pterodactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Species list comes straight from PBDB and includes historical combinations (e.g. P. kochi = Diopecephalus, which has its own entry); keep only valid species.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Pterodaustro**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Pterorhynchus**
   - I6 no image
   - Q1 draft: not yet checked
 - **genus Qinglongopterus**
-  - I6 no image
   - Q1 draft: not yet checked
 - **genus Quetzalcoatlus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Raeticodactylus**
@@ -426,17 +463,23 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Rhamphorhynchus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Scaphognathus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Sericipterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Shenzhoupterus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Sinomacrops**
   - G8 no wingspan: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Sinopterus**
   - G5 type species not verified against a source
@@ -451,9 +494,12 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Tapejara**
-  - I6 no image
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Thalassodromeus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Torukjara**
@@ -463,16 +509,21 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: Only secondary sources: add the original description (primary literature).
 - **genus Tropeognathus**
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Tupandactylus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Tupuxuara**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Vesperopterylus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Wellnhopterus**
@@ -491,7 +542,6 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Zhenyuanopterus**
-  - I6 no image
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: not yet checked
 - **tree node avemetatarsalia**

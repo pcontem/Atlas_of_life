@@ -139,3 +139,4 @@ main.full #side{display:none}
 .ixe small{display:block;color:var(--muted);font-size:11px;margin-top:-1px}
 .ixe:hover{color:var(--accent)}
 @media (max-width:820px){#side{display:none}.grid{grid-template-columns:1fr}.ficha{padding:18px}#search{width:130px}}
+.thumbs{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.thumbs:empty{display:none}.thumbs img{width:64px;height:64px;object-fit:cover;border-radius:5px;border:2px solid transparent;cursor:pointer;opacity:.8;background:#fff}.thumbs img.on{border-color:var(--accent);opacity:1}.thumbs img:hover{opacity:1}

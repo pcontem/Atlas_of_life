@@ -17,6 +17,7 @@ SITE = ROOT / "site"
 COMPLETENESS = {"complete", "near-complete", "partial", "fragmentary", "multiple"}
 IMAGE_KINDS = {"life", "fossil", "skeletal"}
 IMAGE_REVIEW = {"unreviewed", "accepted", "outdated"}
+MAX_PER_KIND = 8
 SOURCE_KINDS = {"original", "literature", "database", "encyclopedia"}
 LICENSE_OK = re.compile(r"^(CC0|Public domain|CC BY(-SA)? \d\.\d)$")
 SIL_LICENSE_OK = re.compile(r"creativecommons\.org/(publicdomain|licenses/by(-sa)?/)")
@@ -141,10 +142,15 @@ def check_genus(e, path, clade_ids, excluded_names):
             err("I4", iw, f"review must be one of {sorted(IMAGE_REVIEW)}")
         elif i.get("kind") == "life" and i["review"] != "accepted":
             strict("I4", iw, f"life restoration is '{i['review']}': review it for accuracy")
-        if not img_key(n, i.get("kind", "")).exists():
-            err("I5", iw, f"local copy missing: site/img/{img_key(n, i.get('kind', '')).name}")
-    if len({i.get("kind") for i in imgs}) < len(imgs):
-        err("I1", w, "at most one image per kind")
+        loc = SITE / i["local"] if i.get("local") else img_key(n, i.get("kind", ""))
+        if not loc.exists():
+            err("I5", iw, f"local copy missing: {loc.relative_to(ROOT)}")
+    per_kind = collections.Counter(i.get("kind") for i in imgs)
+    for k, c in per_kind.items():
+        if c > MAX_PER_KIND:
+            err("I1", w, f"{c} images of kind '{k}' (max {MAX_PER_KIND})")
+    if len({i.get("file") for i in imgs}) < len(imgs):
+        err("I1", w, "the same Commons file is listed twice")
     if not imgs:
         strict("I6", w, "no image")
     sil = e.get("silhouette")

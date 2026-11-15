@@ -1,7 +1,7 @@
 /* Atlas of Life — Clade entry page and the basic page for groups without an entry. */
 /* ---------- clade entry ---------- */
 function allGenera(id){const out=[];(function r(k){const n=byId[k];if(n.type==="genus")out.push(n);else children[k].forEach(r)})(id);return out}
-function thumb(g){const im=(g.images||[])[0];if(im)return `<div class="th" style="background-image:url('${imgKey(g.name,im.kind)}')"></div>`;
+function thumb(g){const im=(g.images||[])[0];if(im)return `<div class="th" style="background-image:url('${imgSrc(g.name,im)}')"></div>`;
   return `<div class="th">${g.silhouette?`<img src="${silSrc(g.silhouette)}" alt="">`:""}</div>`}
 function renderClade(id){const c=byId[id],gs=allGenera(id),s=c.stat;
   const direct=children[id].filter(k=>byId[k].type==="genus");

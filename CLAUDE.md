@@ -166,8 +166,12 @@ vernacular forms are simply corrected in the entries and **not** listed.
 
 ### 4.4 Images
 
-Each genus may have **at most one image per kind** (I1 E): `life` (life restoration),
-`fossil` (photo of the actual fossil or a cast/mount), `skeletal` (skeletal reconstruction).
+Each genus has a **gallery**: any number of images per kind up to 8 (I1 E), never the same
+Commons file twice. Kinds: `life` (life restoration), `fossil` (photo of the actual fossil, a
+cast or a mount, or a scientific figure of the specimen), `skeletal` (skeletal reconstruction).
+The site shows one tab per kind with thumbnails. Not accepted at all: museum models and
+sculptures, theme-park statues, stamps, posters, pre-1950 restorations, maps, faunal or size
+comparison charts, AI-generated images, and photos of other taxa.
 
 - **I2 E** Every image has `url`, `page` (the Wikimedia Commons file page), `artist`, `license`,
   `caption`. If Commons names no author, write `Unknown (...)` and why.
@@ -179,8 +183,13 @@ Each genus may have **at most one image per kind** (I1 E): `life` (life restorat
   wing membrane reaching the ankle; crest, teeth and skull proportions consistent with the known
   material; no features contradicted by the sources. Claude may propose a verdict with reasons;
   the owner decides. Mark replaced or contradicted art `outdated` and look for a better one.
-- **I5 E** The local copy exists: `site/img/<Genus>_<kind>.webp` (letters only in the genus part)
-  and `site/sil/<phylopic-uuid>.webp`. The site never loads remote images.
+- **I5 E** The local copy exists: the image's `local` path under `site/` (gallery images:
+  `img/gallery/<Genus>_<nnn>.webp`, max 800 px, WebP) or, for the original main images,
+  `site/img/<Genus>_<kind>.webp`; silhouettes in `site/sil/<phylopic-uuid>.webp`. The site never
+  loads remote images.
+- Finding images: Commons categories `Category:<Genus>` and its sub-categories ("… fossils",
+  "… life restorations", "… skeletal mounts", "… skulls"); every candidate is checked visually
+  before it is added (keep a contact sheet), and gets `review: unreviewed`.
 - **I6 S** Every genus has at least one image.
 - Silhouettes come from PhyloPic, with `attribution`, `license`, `page`; `genus_level: false`
   means it depicts a relative (the site says so). Size diagram: a 1.8 m human beside a schematic
