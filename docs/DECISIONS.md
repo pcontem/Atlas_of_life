@@ -65,3 +65,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   Triassic–Cretaceous bands (with the old 145 Ma boundary) are gone.
 - Index filters stack (AND): each Name / Clade / Time filter becomes a removable chip, so e.g.
   "inside Pterodactyloidea" + "lived in the Aptian" can be combined.
+- Timeline simplified: only the direct subdivisions of the selected group (no condensed / all
+  genera toggle), with a "↑ Parent group" button. The Earth-history strip uses a logarithmic
+  age scale, because recent time is divided much more finely in the ICS chart.

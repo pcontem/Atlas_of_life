@@ -259,10 +259,13 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
   except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
   double-clicking the info card of the selected node; double-clicking a tree node never opens it.
-- Timeline: follows the selected entry; condensed by default (3 levels of sub-clades, loose
-  genera grouped), with an "All genera" toggle. Time units come only from the ICS chart in
-  `D.timescale` (Hadean → Holocene); two rows chosen by window length (eon/era, era/period,
-  period/epoch or epoch/age), and an "Earth history" strip shows where the window lies.
+- Timeline: follows the selected entry and shows only its **direct subdivisions** (sub-groups as
+  their total range, genera individually; for a genus, its parent group's subdivisions with the
+  genus highlighted). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
+  come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
+  two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
+  "Earth history" strip above is **logarithmic** (log of age + 1 Myr) with eon/era/period rows
+  and marks where the window lies.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
 - Index: A–Z with **stackable filters**: pick **Search by** (Name / Clade / Time), type, press
   Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
