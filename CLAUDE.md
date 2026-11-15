@@ -262,15 +262,20 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
   except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
   double-clicking the info card of the selected node; double-clicking a tree node never opens it.
-- Timeline: follows the selected entry and shows only its **direct subdivisions** (sub-groups as
-  their total range, genera individually; for a genus, its parent group's subdivisions with the
-  genus highlighted). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
+- Timeline: follows the selected entry. Three modes: **Subdivisions** (default: only the direct
+  subdivisions — sub-groups as their total range, genera individually; for a genus, its parent
+  group's subdivisions with the genus highlighted), **All genera** (every genus in the group,
+  oldest first — this replaces the old "Genera through time" card on clade pages) and
+  **Diversity** (bar thickness = genera known at each moment, range-through; dashed **ghost
+  lineage** from the oldest record of the group shown to each subdivision's first record). Clicking a group goes down into it; "↑ Parent group" goes up. Time units
   come only from the ICS chart in `D.timescale` (Hadean → Holocene); the main axis is linear with
   two rows chosen by window length (eon/era, era/period, period/epoch or epoch/age); the
   "Earth history" strip above is **logarithmic** (log of age + 50 Myr, so the Cenozoic stays
   smaller than the Mesozoic) with eon/era/period rows and marks where the window lies. Click a
   row = select; double-click a genus = open its entry.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
+- Clade pages: genera sitting directly in the clade are split into "Genera placed directly here"
+  and **"Incertae sedis"** (those with `incertae_sedis: true`).
 - Excluded names: follows the selected entry and lists only the names placed **directly** in it,
   plus the sub-groups that hold more (with counts) and a "↑ Parent group" button.
 - Index: A–Z with **stackable filters**: pick **Search by** (Name / Clade / Time), type, press

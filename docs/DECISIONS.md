@@ -74,3 +74,8 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Excluded names are placed in the tree (`parent` in excluded.yaml, from PBDB taxonomy) and the
   Excluded names page shows only those placed directly in the selected node, with sub-groups to
   go down into and a parent button, so every level stays navigable.
+- "Genera through time" moved from clade pages to the Timeline (mode "All genera"). New Timeline
+  mode "Diversity": genera known at each moment per subdivision (range-through counting from the
+  PBDB first/last appearances) and ghost lineages back to the oldest record of the parent group
+  (minimum divergence implied by the record; no phylogenetic dating is attempted).
+- Clade pages list incertae sedis genera under their own heading "Incertae sedis".
