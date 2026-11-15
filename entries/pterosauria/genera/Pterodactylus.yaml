@@ -4,8 +4,9 @@ parent: ctenochasmatoidea
 incertae_sedis: false
 placement_note: Recovered as the most basal member of Euctenochasmatia.
 authority: Cuvier 1809
-type_species: Scaphognathus crassirostris
-type_species_note: ''
+type_species: Pterodactylus antiquus
+type_species_note: Designated by Lydekker 1888 (English Wikipedia, Pterodactylus); the PBDB export had a misaligned
+  value.
 summary: The first pterosaur ever named, from the Late Jurassic Solnhofen limestone of Bavaria.
 size:
   wingspan_m: [1.04, 1.04]
@@ -241,4 +242,6 @@ curation:
   checked_by: ''
   checked_on: ''
   notes:
+  - Species list comes straight from PBDB and includes historical combinations (e.g. P. kochi = Diopecephalus, which
+    has its own entry); keep only valid species.
   - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
