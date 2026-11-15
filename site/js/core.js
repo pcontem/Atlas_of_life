@@ -1,11 +1,26 @@
 /* Atlas of Life — Shared state, helpers, routing between views. */
-const ERAS=[["Triassic",251.9,201.4,"#8e5f8f"],["Jurassic",201.4,145,"#3d7f9b"],["Cretaceous",145,66,"#6f9a45"]];
-const EPOCHS=[["Early",251.9,247.2],["Middle",247.2,237],["Late",237,201.4],["Early",201.4,174.7],["Middle",174.7,161.5],["Late",161.5,145],["Early",145,100.5],["Late",100.5,66]];
+/* geological time: ICS chart v2024/12 (D.timescale, from PBDB), Hadean to Holocene */
+const TS=()=>(D&&D.timescale)||[];
+const ivAt=(ma,type)=>TS().find(t=>t.type===type&&ma<=t.base&&ma>t.top)||TS().find(t=>t.type===type&&ma<=t.base&&ma>=t.top);
+const TICKS=[0.01,0.02,0.05,0.1,0.2,0.5,1,2,5,10,20,25,50,100,200,250,500,1000];
+// the two rows of time units to draw for a window of `span` Myr (coarse above, fine below)
+const tsLevels=span=>span>1500?["eon","era"]:span>400?["era","period"]:span>60?["period","epoch"]:["epoch","age"];
+// SVG: two labelled rows of ICS units between A (older, Ma) and B (younger), x = Ma→px; returns {svg,fine}
+function tsRows(A,B,x,y=0,h=18,fs=1){let s="";const lv=tsLevels(A-B),rows=[];
+  lv.forEach((type,r)=>{const units=TS().filter(t=>t.type===type&&t.base>B&&t.top<A);rows.push(units);
+    for(const t of units){const a=Math.min(t.base,A),b=Math.max(t.top,B),w=x(b)-x(a),yy=y+r*h,lab=w>t.name.length*6.2*fs+6?t.name:w>22*fs&&t.name.length>3?t.name.slice(0,3)+"…":"";
+      s+=`<rect x="${x(a)}" y="${yy}" width="${w}" height="${h}" fill="${t.color}" stroke="#fffdf8" stroke-width=".6"><title>${esc(t.name)} (${t.type}) ${fmtMa(t.base)}–${fmtMa(t.top)}</title></rect>`+
+        (lab?`<text x="${x(a)+w/2}" y="${yy+h*0.68}" font-size="${(r?10:11)*fs}" text-anchor="middle" fill="#2b2620" pointer-events="none">${esc(lab)}</text>`:"")}});
+  return{svg:s,fine:rows[1]}}
+function tsTicks(A,B,x,y,y0,y1,fs=1){const st=TICKS.find(v=>(A-B)/v<=12)||1000;let s="";
+  for(let v=Math.ceil(B/st)*st;v<=A+1e-9;v+=st){const vv=+v.toFixed(3);s+=`<line x1="${x(vv)}" x2="${x(vv)}" y1="${y0}" y2="${y1}" stroke="#000" opacity=".07"/><text x="${x(vv)}" y="${y}" font-size="${9.5*fs}" text-anchor="middle" fill="#7a7266">${vv} Ma</text>`}
+  return s}
 let D,LIFE,byId={},byName={},children={},open=new Set(["vida"]),cur=null,view="tree";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmtMa=v=>v==null?"?":(v>=10?v.toFixed(1).replace(/\.0$/,""):v.toFixed(2))+" Ma";
-const era=ma=>{for(const e of ERAS)if(ma<=e[1]&&ma>e[2])return e;return ERAS[2]};
+// [name, base, top, colour] of the period containing `ma` (colour used for genus bars)
+const era=ma=>{const p=ivAt(ma,"period")||ivAt(ma,"era")||ivAt(ma,"eon");return p?[p.name,p.base,p.top,p.color]:["",0,0,"#9a9184"]};
 const imgKey=(g,k)=>"img/"+g.replace(/[^A-Za-z]/g,"")+"_"+k+".webp";
 const silSrc=s=>s?"sil/"+s.page.split("/images/")[1]+".webp":null;
 

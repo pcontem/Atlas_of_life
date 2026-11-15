@@ -60,3 +60,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   the same timescale PBDB uses for the genus ages; an entry matches when its range overlaps the
   interval. Note: the Timeline and the genus time bar still draw the Jurassic/Cretaceous boundary
   at 145 Ma (older chart); to align with 143.1 Ma in a later change.
+- Timeline and entry time bars cover the whole of Earth history (Hadean to Holocene) using the
+  ICS chart from PBDB, including the Precambrian eons, eras and periods; the hard-coded
+  Triassic–Cretaceous bands (with the old 145 Ma boundary) are gone.

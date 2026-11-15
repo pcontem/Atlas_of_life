@@ -21,12 +21,14 @@ function nodeHTML(id){const n=byId[id];
 function crumbs(id){const p=path(id).slice(0,-1);const lk=n=>`<a onclick="go('${n.id}')">${esc(n.name)}</a>`;
   const short=p.length>6?[lk(p[0]),`<a title="${esc(p.slice(1,-4).map(n=>n.name).join(" › "))}" onclick="this.parentNode.innerHTML=this.parentNode.dataset.full">…</a>`,...p.slice(-4).map(lk)]:p.map(lk);
   return `<div class="crumbs" data-full="${esc(p.map(lk).join(" › "))}">${short.join(" › ")}</div>`}
-function timeline(spans,h=58){const W=600,P=12,x=v=>P+(251.9-v)/(251.9-66)*(W-2*P);let s=`<svg viewBox="0 0 ${W} ${h}" style="max-height:${Math.max(70,h*0.9)}px">`;
-  for(const[nm,a,b,c]of ERAS)s+=`<rect x="${x(a)}" y="0" width="${x(b)-x(a)}" height="20" fill="${c}" opacity=".85"/><text x="${(x(a)+x(b))/2}" y="14" font-size="11" text-anchor="middle" fill="#fff">${nm}</text>`;
-  for(const[nm,a,b]of EPOCHS)s+=`<line x1="${x(a)}" x2="${x(a)}" y1="20" y2="${h-14}" stroke="#d8cfba"/>`;
-  spans.forEach((sp,i)=>{if(sp[0]==null)return;const a=x(sp[0]),b=Math.max(x(sp[1]),a+3);s+=`<rect x="${a}" y="${26+i*7}" width="${b-a}" height="6" rx="2" fill="${sp[2]||"var(--accent)"}"/>`});
-  [250,200,150,100,66].forEach(v=>s+=`<text x="${x(v)}" y="${h-2}" font-size="10" text-anchor="middle" fill="#756f60">${v}</text>`);
-  return s+"</svg>"}
+// small time bar used on entry pages: the window covers the periods containing the spans
+function timeline(spans,h=58){const W=600,P=12,ok=spans.filter(s=>s[0]!=null);if(!ok.length)return "";
+  const hi=Math.max(...ok.map(s=>s[0])),lo=Math.min(...ok.map(s=>s[1])),pa=era(hi),pb=era(lo>0?lo+1e-6:lo);
+  let A=pa[1]||hi,B=pb[2]!=null&&pb[1]?pb[2]:lo;if(A-B>(hi-lo)*8&&hi-lo>0){A=Math.min(A,hi+(hi-lo)*0.6);B=Math.max(B,lo-(hi-lo)*0.6)}
+  const x=v=>P+(A-v)/(A-B)*(W-2*P),top=tsRows(A,B,x,0,20,1.5),H=h+34;let s=`<svg viewBox="0 0 ${W} ${H}" style="max-height:${Math.max(80,H*0.95)}px">`+top.svg;
+  for(const t of top.fine||[])s+=`<line x1="${x(Math.min(t.base,A))}" x2="${x(Math.min(t.base,A))}" y1="40" y2="${H-20}" stroke="#e2d9c6"/>`;
+  ok.forEach((sp,i)=>{const a=x(sp[0]),b=Math.max(x(sp[1]),a+3);s+=`<rect x="${a}" y="${46+i*8}" width="${b-a}" height="7" rx="2" fill="${sp[2]||"var(--accent)"}"/>`});
+  return s+tsTicks(A,B,x,H-3,40,H-20,1.4)+"</svg>"}
 function sources(list){return `<ol class="src">${list.map(s=>`<li><span class="kind">${esc(s.kind)}</span>${esc(s.text)}${s.url?` <a href="${esc(s.url)}" target="_blank" rel="noopener">link</a>`:""}</li>`).join("")}</ol>`}
 const lic=(l,u)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`:esc(l);
 const licName=u=>{const m=String(u).match(/licenses\/([a-z-]+)\/([\d.]+)/);if(m)return "CC "+m[1].toUpperCase()+" "+m[2];if(/zero/.test(u))return "CC0 1.0";if(/mark/.test(u))return "Public domain mark";return u};
