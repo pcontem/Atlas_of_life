@@ -1,18 +1,31 @@
-/* Atlas of Life — Cladogram view (D3). */
-/* ---------- cladogram ---------- */
+/* Atlas of Life — Tree of life view (D3). Not a cladogram: an outline of the classification. */
 const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={};
   const DX=22,DY=270;
   function visTree(id){const n=byId[id];return{id,children:n.type==="clade"&&open.has(id)?children[id].map(visTree):null}}
   function render(focusId){
     $("#view").innerHTML=`<div id="cwrap"><svg id="csvg"><defs><clipPath id="cc"><circle r="10"/></clipPath></defs><g id="cg"></g></svg>
-      <div class="ctools"><input id="csearch" type="search" placeholder="Search a clade or genus…" list="names" autocomplete="off"><button data-a="go">Search</button><button data-a="prune" title="Close every node except the path to the highlighted one">Prune</button><button data-a="root">Root</button><button data-a="collapse">Collapse all</button></div>
-      <div class="chint">Search: opens all subgroups of a clade and collapses the rest · Prune: closes everything except the path to the highlighted node · Click: select · Double-click: open / close a group · Switch to Encyclopedia (top menu) to read the selected node · Drag and scroll to move and zoom</div><div id="cinfo"></div></div>`;
+      <div class="ctools"><span class="cbox"><input id="csearch" type="search" placeholder="Search a clade or genus…" autocomplete="off"><div id="cres"></div></span><button data-a="go">Search</button><button data-a="prune" title="Close every node except the path to the highlighted one">Prune</button><button data-a="root">Root</button><button data-a="collapse">Collapse all</button></div>
+      <div class="chint">Search: opens all subgroups of a clade and collapses the rest · Prune: closes everything except the path to the highlighted node · Click: select · Double-click: open / close a group · Double-click the info card or switch to Encyclopedia (top menu) to read the selected node · Drag and scroll to move and zoom</div><div id="cinfo"></div></div>`;
     svg=d3.select("#csvg");g=d3.select("#cg");
     zoom=d3.zoom().scaleExtent([0.08,3]).on("zoom",e=>{t=e.transform;g.attr("transform",t)});
     svg.call(zoom).on("dblclick.zoom",null);
-    const runSearch=()=>{const v=$("#csearch").value.trim().toLowerCase();if(v.length<2){if(v.length)$("#cinfo").innerHTML=`<div class="ci"><div>Type at least two letters.</div></div>`;return}const id=byName[v]||Object.keys(byName).filter(k=>k.startsWith(v)).map(k=>byName[k])[0];
-      if(id)isolate(id);else $("#cinfo").innerHTML=`<div class="ci"><div>No clade or genus matches “${esc(v)}”.</div></div>`};
-    $("#csearch").addEventListener("change",runSearch);$("#csearch").addEventListener("keydown",e=>{if(e.key==="Enter")runSearch()});
+    // search box: ranked suggestions (clades first), arrows + Enter, Enter without a pick takes the best match
+    const inp=$("#csearch"),res=$("#cres");let hits=[],hi=0;
+    const rank=q=>matches(q,40).sort((x,y)=>{const k=n=>(n.name.toLowerCase().startsWith(q.trim().toLowerCase())?0:2)+(n.type==="clade"?0:1);return k(x)-k(y)}).slice(0,12);
+    const show=()=>{const q=inp.value;hits=rank(q);hi=0;
+      res.innerHTML=hits.map((n,i)=>`<div class="sr${i===hi?" on":""}" data-id="${n.id}">${n.type==="genus"?"<i>"+esc(n.name)+"</i>":esc(n.name)}${n.ficha?' <span class="fb">entry</span>':""}<small>${n.type==="clade"?"clade · "+n.stat.g+" genera":"genus"} · in ${esc(parentName(n))}</small></div>`).join("")
+        ||(q.trim().length>=2?`<div class="sr none">No clade or genus matches “${esc(q.trim())}”</div>`:"");
+      res.querySelectorAll(".sr[data-id]").forEach(d=>d.onmousedown=e=>{e.preventDefault();pick(d.dataset.id)})};
+    const pick=id=>{inp.value=byId[id].name;res.innerHTML="";inp.blur();isolate(id)};
+    const runSearch=()=>{const q=inp.value.trim();if(q.length<2){$("#cinfo").innerHTML=q?`<div class="ci"><div>Type at least two letters.</div></div>`:"";return}
+      const exact=byName[q.toLowerCase()];const id=hits.length?hits[hi].id:exact||(rank(q)[0]||{}).id;
+      if(id)pick(id);else $("#cinfo").innerHTML=`<div class="ci"><div>No clade or genus matches “${esc(q)}”.</div></div>`};
+    inp.addEventListener("input",show);inp.addEventListener("focus",()=>{if(inp.value.trim().length>=2)show()});
+    inp.addEventListener("blur",()=>setTimeout(()=>res.innerHTML="",150));
+    inp.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();runSearch();return}
+      if(e.key==="Escape"){res.innerHTML="";return}if(!hits.length)return;
+      if(e.key==="ArrowDown")hi=Math.min(hi+1,hits.length-1);else if(e.key==="ArrowUp")hi=Math.max(hi-1,0);else return;
+      e.preventDefault();res.querySelectorAll(".sr[data-id]").forEach((d,i)=>d.classList.toggle("on",i===hi))});
     document.querySelectorAll(".ctools button").forEach(b=>b.onclick=()=>{const a=b.dataset.a;
       if(a==="go")runSearch();else if(a==="collapse"){open=new Set(["vida"]);draw();center("vida")}else if(a==="root"){center("vida")}else if(a==="prune")prune()});
     if(t)svg.call(zoom.transform,t);
@@ -50,16 +63,18 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={};
   function prune(){const id=sel||cur||"vida";const keep=new Set();let p=byId[byId[id].parent];while(p){keep.add(p.id);p=byId[p.parent]}
     if(open.has(id))keep.add(id);keep.add("vida");open=keep;sel=id;cur=id;draw();center(id);info(id)}
   function fit(id){const ids=[];(function r(k){if(!pos[k])return;ids.push(k);if(byId[k].type==="clade"&&open.has(k))children[k].forEach(r)})(id);
-    const xs=ids.map(k=>pos[k][0]),ys=ids.map(k=>pos[k][1]);const x0=Math.min(...xs),x1=Math.max(...xs)+220,y0=Math.min(...ys)-20,y1=Math.max(...ys)+20;
-    const r=$("#csvg").getBoundingClientRect();const k=Math.max(0.08,Math.min(1.2,Math.min((r.width-380)/(x1-x0||1),(r.height-60)/(y1-y0||1))));
-    svg.call(zoom.transform,d3.zoomIdentity.translate(30-x0*k,(r.height-(y1-y0)*k)/2-y0*k).scale(k))}
+    const xs=ids.map(k=>pos[k][0]),ys=ids.map(k=>pos[k][1]);const x0=Math.min(...xs)-20,x1=Math.max(...xs)+230,y0=Math.min(...ys)-20,y1=Math.max(...ys)+20;
+    const r=$("#csvg").getBoundingClientRect(),top=60,bottom=40,W=r.width-40,H=r.height-top-bottom;
+    const k=Math.max(0.08,Math.min(1.2,Math.min(W/(x1-x0||1),H/(y1-y0||1))));
+    svg.call(zoom.transform,d3.zoomIdentity.translate(20+(W-(x1-x0)*k)/2-x0*k,top+(H-(y1-y0)*k)/2-y0*k).scale(k))}
   function focus(id){reveal(id);if(byId[id].type==="clade")open.add(id);sel=id;draw();center(id);info(id)}
   function info(id){const n=byId[id];if(!n){return}const path=(()=>{const p=[];let m=byId[n.parent];while(m&&p.length<4){p.unshift(m.name);m=byId[m.parent]}return p.join(" › ")})();
     const im=n.ficha&&n.images&&n.images[0];
     $("#cinfo").innerHTML=`<div class="ci">${im?`<img src="${imgKey(n.name,im.kind)}" alt="">`:""}<div><div class="cpath">${esc(path)}</div><div class="cname">${n.type==="genus"?"<i>":""}${esc(n.name)}${n.type==="genus"?"</i>":""}</div>
       <div class="note">${n.type==="clade"?n.stat.g+" genera":""}${n.ficha&&n.type==="genus"?esc(n.early||"")+" · "+(n.ws?"wingspan "+n.ws[1]+" m":""):""}${!n.ficha&&n.status?(n.status==="e"?" · extinct":" · living"):""}</div>
       ${n.ficha?`<p style="margin:6px 0 0;font-size:13px">${esc(n.sum)}</p>`:n.note?`<p style="margin:6px 0 0;font-size:13px">${esc(n.note)}</p>`:""}
-      <div class="note" style="margin-top:6px">Switch to <b>Encyclopedia</b> above to read ${n.ficha?"its entry":"its basic page"}.</div></div></div>`}
-  function show(id){location.hash="cladogram";setTimeout(()=>isolate(id),30)}
+      <div class="note" style="margin-top:6px">Double-click this card (or switch to <b>Encyclopedia</b> above) to read ${n.ficha?"its entry":"its basic page"}.</div></div></div>`;
+    const card=$("#cinfo .ci");card.title="Double-click to open in the encyclopedia";card.ondblclick=()=>{location.hash=id}}
+  function show(id){location.hash="tree-of-life";setTimeout(()=>isolate(id),30)}
   return{render,focus,show,isolate};
 })();

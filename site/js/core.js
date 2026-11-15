@@ -23,12 +23,12 @@ function init(){
   const names=new Map();Object.values(byId).forEach(n=>{const k=n.name.toLowerCase();if(!byName[k])byName[k]=n.id;names.set(n.name,1)});
   $("#names").innerHTML=[...names.keys()].map(n=>`<option value="${esc(n)}">`).join("");
   initSearch();
-  document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;location.hash=v==="tree"?(cur||"vida"):v==="clado"?"cladogram":v});
+  document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;location.hash=v==="tree"?(cur||"vida"):v==="clado"?"tree-of-life":v});
   addEventListener("hashchange",route);route();
 }
 function route(){
   const h=decodeURIComponent(location.hash.slice(1));
-  if(["time","excluded","about","index"].includes(h)){view=h}else if(h==="cladogram"){view="clado"}else{view="tree";cur=byId[h]?h:(cur||"vida");reveal(cur)}
+  if(["time","excluded","about","index"].includes(h)){view=h}else if(h==="tree-of-life"||h==="cladogram"){view="clado"}else{view="tree";cur=byId[h]?h:(cur||"vida");reveal(cur)}
   document.querySelector("main").classList.toggle("full",view==="clado");
   $(".encnav").style.display=view==="clado"?"none":"";
   document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===view));

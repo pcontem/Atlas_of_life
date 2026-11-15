@@ -37,7 +37,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 
 Site code, one file per view: `js/core.js` (state, routing), `sidebar.js`, `entry-genus.js`
 (incl. size diagram), `entry-clade.js`, `timeline.js`, `index-search.js`, `pages.js`
-(excluded, about), `cladogram.js`, `main.js` (start-up, must load last). Plain scripts sharing
+(excluded, about), `tree-of-life.js`, `main.js` (start-up, must load last). Plain scripts sharing
 global scope, no bundler.
 
 ## 3. Golden rules
@@ -240,14 +240,17 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 
 ## 6. Website conventions (keep them when changing the site)
 
-- Two modes in the top bar: **Encyclopedia** and **Cladogram**. Encyclopedia sub-tabs: **Entry,
-  Index, Timeline, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
+- Two modes in the top bar: **Encyclopedia** and **Tree of life** (it is an outline of the
+  classification, not a true cladogram, so never call it "cladogram" in the interface).
+  Encyclopedia sub-tabs: **Entry, Index, Timeline, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
   stays highlighted on its sub-tabs).
 - **One selection shared by all views** (`cur` in `core.js`): the entry being read is the node
-  highlighted in the Cladogram and the focus of the Timeline, and vice versa. Switching mode keeps it.
-- Cladogram: single click = select; double click = open/close a clade; **Search** opens all
-  sub-clades of the found clade, collapses the rest and selects it; **Prune** closes everything
-  except the path to the selected node. Opening an entry is done only from the top bar.
+  highlighted in the Tree of life and the focus of the Timeline, and vice versa. Switching mode keeps it.
+- Tree of life: single click = select; double click = open/close a clade; **Search** (ranked
+  suggestions, clades first, arrows + Enter) opens all sub-clades of the found clade, collapses the
+  rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
+  except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by
+  double-clicking the info card of the selected node; double-clicking a tree node never opens it.
 - Timeline: follows the selected entry; condensed by default (3 levels of sub-clades, loose
   genera grouped), with an "All genera" toggle.
 - Index: A–Z with filters (name, type, clade). Sidebar search with keyboard support.

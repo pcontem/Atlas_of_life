@@ -91,12 +91,14 @@ main.full #side{display:none}
 .nd text.fi{fill:#6b2d14}
 .nd.sel circle.c{stroke:#c23b22;stroke-width:3}
 .nd.sel text{fill:#c23b22}
+.cbox{position:relative}#cres{position:absolute;left:0;top:34px;width:320px;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 6px 20px rgba(60,50,30,.15);overflow:hidden;z-index:5}#cres:empty{display:none}
 .ctools{position:absolute;top:12px;left:12px;display:flex;gap:6px;align-items:center}
 #csearch{font:inherit;font-size:13px;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:5px 10px;width:230px}
 .ctools button,#cinfo button{font:inherit;font-size:12px;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:5px 10px;cursor:pointer}
 .chint{position:absolute;bottom:10px;left:12px;font-size:11.5px;color:var(--muted);background:rgba(251,248,241,.9);padding:4px 8px;border-radius:5px}
 #cinfo{position:absolute;right:14px;bottom:14px;width:330px}
 #cinfo .ci{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;gap:12px;box-shadow:0 4px 18px rgba(60,50,30,.12)}
+#cinfo .ci{cursor:pointer;user-select:none}#cinfo .ci:hover{border-color:var(--accent)}
 #cinfo img{width:84px;height:84px;object-fit:cover;border-radius:6px;flex:none}
 #cinfo .cpath{font-size:11px;color:var(--muted)}
 #cinfo .cname{font:600 18px Fraunces,serif}

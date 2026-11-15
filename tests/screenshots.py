@@ -17,7 +17,7 @@ VIEWS = {
     "entry-clade": "#pterosauria",
     "index": "#index",
     "timeline": "#time",
-    "cladogram": "#cladogram",
+    "tree-of-life": "#tree-of-life",
     "excluded": "#excluded",
     "about": "#about",
 }
