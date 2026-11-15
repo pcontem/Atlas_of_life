@@ -246,7 +246,15 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   stays highlighted on its sub-tabs).
 - **One selection shared by all views** (`cur` in `core.js`): the entry being read is the node
   highlighted in the Tree of life and the focus of the Timeline, and vice versa. Switching mode keeps it.
-- Tree of life: single click = select; double click = open/close a clade; **Search** (ranked
+- Tree of life: **Linear / Radial** layout switch (same selection and open groups). The radial
+  view is drawn around one group (the selected clade, or the group of a selected genus; Search
+  re-centres it; "↑ Parent group" widens it; Root shows the whole tree). Radial drawing rules (circular tree, as
+  in published circular phylogenies): every internal group sits on the ring of its level (equal
+  spacing, dashed guide rings); all tips (genera and closed groups) sit on the outer circle; each
+  branch leaves its parent along the parent's ring, then runs straight out; coloured sectors behind
+  the tip labels give every tip the colour of the **least inclusive open group** that contains it
+  (open sub-groups are drawn first so each group's own tips are contiguous), named outside;
+  single click = select; double click = open/close a clade; **Search** (ranked
   suggestions, clades first, arrows + Enter) opens all sub-clades of the found clade, collapses the
   rest, selects it and centres the whole sub-tree on screen; **Prune** closes everything
   except the path to the selected node. An entry is opened from the top bar (Encyclopedia) or by

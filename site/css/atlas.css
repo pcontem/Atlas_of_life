@@ -92,6 +92,10 @@ main.full #side{display:none}
 .nd.sel circle.c{stroke:#c23b22;stroke-width:3}
 .nd.sel text{fill:#c23b22}
 .cbox{position:relative}#cres{position:absolute;left:0;top:34px;width:320px;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 6px 20px rgba(60,50,30,.15);overflow:hidden;z-index:5}#cres:empty{display:none}
+.ctools .ronly{display:none}#cwrap.radial .ctools .ronly{display:inline-block}
+#csvg path.sec{opacity:.55;pointer-events:none}#csvg text.secl{font:600 15px Inter,system-ui,sans-serif;fill:#4a4235;pointer-events:none}
+#csvg circle.ring{fill:none;stroke:#d9cfbb;stroke-dasharray:2 4;stroke-width:1;pointer-events:none}
+.lay{display:inline-flex;border:1px solid var(--line);border-radius:7px;padding:2px;margin-left:8px;background:#fffdf8}.ctools .lay button{border:none;background:none;padding:4px 10px}.ctools .lay button.on{background:var(--ink);color:var(--paper)}
 .ctools{position:absolute;top:12px;left:12px;display:flex;gap:6px;align-items:center}
 #csearch{font:inherit;font-size:13px;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:5px 10px;width:230px}
 .ctools button,#cinfo button{font:inherit;font-size:12px;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:5px 10px;cursor:pointer}

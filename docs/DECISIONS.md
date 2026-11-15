@@ -45,3 +45,13 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - In the Tree of life, double-clicking the info card of the selected node opens its entry in the
   encyclopedia (in addition to the Encyclopedia button). Double-clicking a node still only
   opens/closes it.
+- The Tree of life has a **Radial** layout besides the Linear one, drawn around the selected group
+  (the whole tree in radial form is unreadable: ~30 rings of ancestors); both share selection, open
+  groups, search, prune and the info card.
+- Radial branches are drawn as elbows (arc along the parent's ring, then a straight spoke) and
+  each classification level is one equally spaced ring, so divergence points are readable.
+- Radial view restyled after an example from the owner (circular phylogeny): tips aligned on the
+  outer circle, internal groups on equally spaced level rings, elbow branches, coloured sectors
+  for the main groups (the largest group is split into its sub-clades, max 12 colours).
+- Radial sectors: each tip is coloured by the least inclusive open group that contains it (not
+  by the top-level group), so colours follow the part of the tree being explored.
