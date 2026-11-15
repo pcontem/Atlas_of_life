@@ -264,9 +264,10 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   `D.timescale` (Hadean → Holocene); two rows chosen by window length (eon/era, era/period,
   period/epoch or epoch/age), and an "Earth history" strip shows where the window lies.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
-- Index: A–Z, one search box with a **Search by** selector — **Name** (substring), **Clade**
-  (everything inside it), **Time** (an ICS interval name or an age/range in Ma; lists entries whose
-  stratigraphic range overlaps it) — plus the type filter. Sidebar search with keyboard support.
+- Index: A–Z with **stackable filters**: pick **Search by** (Name / Clade / Time), type, press
+  Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
+  (and the text being typed). Time = an ICS interval name or an age/range in Ma, matched when the
+  stratigraphic range overlaps it. A type filter (Full entries / Clades / Genera / All) applies on top. Sidebar search with keyboard support.
 - No group gets special treatment in code because it is the pilot (no hard-coded "pterosauria"
   defaults); the start page is the root of the tree.
 - Images and libraries are served locally (no remote requests at runtime).
