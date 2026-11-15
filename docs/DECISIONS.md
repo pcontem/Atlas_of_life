@@ -71,3 +71,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Earth-history strip: log offset raised from 1 to 50 Myr (owner: Cenozoic was too wide);
   now Cenozoic ≈ 19 %, Mesozoic ≈ 21 %, Paleozoic ≈ 15 %, Precambrian ≈ 45 % of the strip.
   In the Timeline a double-click on a genus opens its entry.
+- Excluded names are placed in the tree (`parent` in excluded.yaml, from PBDB taxonomy) and the
+  Excluded names page shows only those placed directly in the selected node, with sub-groups to
+  go down into and a parent button, so every level stays navigable.

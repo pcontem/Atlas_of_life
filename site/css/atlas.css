@@ -56,6 +56,7 @@ ol.src{padding-left:18px;margin:0;font-size:12.5px}
 ol.src li{margin-bottom:5px}
 .kind{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px}
 ul.diag{margin:0;padding-left:18px}
+.pill{display:inline-block;cursor:pointer;border:1px solid var(--line);background:#fffdf8;border-radius:14px;padding:4px 12px;margin:0 6px 6px 0;font-size:13.5px}.pill:hover{border-color:var(--accent)}
 .members{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
 .mem{background:#fffdf8;border:1px solid var(--line);border-radius:8px;overflow:hidden;cursor:pointer}
 .mem:hover{border-color:var(--accent)}

@@ -153,7 +153,10 @@ curation: {...}          # Q1
 ### 4.3 Excluded names (`excluded.yaml`)
 
 `name`, `author`, `status` (X1 E: `nomen dubium | nomen nudum | nomen inquirendum |
-junior synonym`), `ref` (the publication that established the status) and/or `source`.
+junior synonym`), `ref` (the publication that established the status) and/or `source`,
+`parent` (X2 E: the clade id or genus of the volume where the name belongs — the genus for a
+species of a valid genus, otherwise the deepest atlas group among its PBDB parent taxa) and
+`placement` (how the parent was chosen).
 Only real, published names whose validity is rejected go here. Misspellings, duplicates and
 vernacular forms are simply corrected in the entries and **not** listed.
 
@@ -268,6 +271,8 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   smaller than the Mesozoic) with eon/era/period rows and marks where the window lies. Click a
   row = select; double-click a genus = open its entry.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
+- Excluded names: follows the selected entry and lists only the names placed **directly** in it,
+  plus the sub-groups that hold more (with counts) and a "↑ Parent group" button.
 - Index: A–Z with **stackable filters**: pick **Search by** (Name / Clade / Time), type, press
   Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
   (and the text being typed). Time = an ICS interval name or an age/range in Ma, matched when the

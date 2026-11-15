@@ -52,6 +52,6 @@ function route(){
   ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),index:renderIndex,time:renderTime,excluded:renderExcluded,about:renderAbout})[view]();
   $("#view").scrollTop=0;
 }
-function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else location.hash=id}
+function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();renderSide()}else location.hash=id}
 function path(id){const p=[];let n=byId[id];while(n){p.unshift(n);n=byId[n.parent]}return p}
 function reveal(id){path(id).forEach(n=>{if(n.type==="clade")open.add(n.id)})}
