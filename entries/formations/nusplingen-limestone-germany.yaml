@@ -3,18 +3,20 @@ name: Nusplingen Limestone
 rank: formation
 group: ''
 country: Germany
-regions: [Baden-Württemberg]
+regions: [Baden-Württemberg, Eastern Bavaria]
 location:
   lat: 48.125
   lng: 8.875
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 152.21
   last_ma: 149.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [open shallow subtidal]
-lithology: [lime mudstone]
-pbdb_collections: ['41817']
+environment: [lagoonal/restricted shallow subtidal, open shallow subtidal]
+lithology: ['"limestone"', lime mudstone]
+pbdb_collections: ['41817', '229120']
+includes:
+- PBDB collection “Nusplingen quarry (SMNS collection)” has no formation but is a locality of the Nusplingen Limestone.
 summary: ''
 paleoenvironment: ''
 sources:

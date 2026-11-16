@@ -3,18 +3,20 @@ name: Jagua
 rank: formation
 group: ''
 country: Cuba
-regions: [Pinar del Rio]
+regions: [Pinar del Rio, Pinar del Río]
 location:
-  lat: 22.717
-  lng: -83.617
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 22.758
+  lng: -83.381
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 159.0
-  last_ma: 154.8
+  first_ma: 161.5
+  last_ma: 143.1
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [carbonate indet.]
-lithology: [not reported]
-pbdb_collections: ['90872']
+environment: [carbonate indet., marine indet.]
+lithology: [not reported, '"limestone"']
+pbdb_collections: ['90872', '237355']
+includes:
+- Beds recorded without a formation in PBDB (Jagua Vieja) belong to the Jagua Vieja, a member of the Jagua Formation.
 summary: ''
 paleoenvironment: ''
 sources:

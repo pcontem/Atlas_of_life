@@ -7,7 +7,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 
 | Rule | Open |
 |---|---|
-| F5 | 202 |
+| F5 | 186 |
 | G5 | 17 |
 | G6 | 2 |
 | G7 | 2 |
@@ -16,8 +16,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 | I4 | 130 |
 | I6 | 17 |
 | L1 | 4 |
-| Q1 | 248 |
-| S2 | 130 |
+| Q1 | 240 |
+| S2 | 121 |
 
 ## Open issues by entry
 
@@ -81,12 +81,6 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **formation altmuhltal-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation alum-shale-united-kingdom**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
 - **formation argiles-d-octeville-france**
   - F5 summary is empty (one sentence on what the formation is)
@@ -94,6 +88,11 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
 - **formation argilliti-di-riva-di-solto-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation austin-group-mexico**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -208,6 +207,11 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation kem-kem-group-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation kimmeridge-clay-united-kingdom**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
@@ -258,6 +262,11 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation lias-group-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation liegende-bankkalk-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
@@ -274,6 +283,11 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
 - **formation marne-de-flize-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation matawan-group-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -328,6 +342,11 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation purbeck-group-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation purbek-kalk-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
@@ -363,11 +382,6 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation sharon-springs-united-states**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
 - **formation shaximiao-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
@@ -383,7 +397,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation solnhofen-germany**
+- **formation steinmergel-group-luxembourg**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -433,107 +447,47 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-auvergne-rhone-alpes-lorraine-pterodactylus**
+- **formation unnamed-andreas-schorr-gmbh-co-kg-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-baden-wurttemberg-eastern-bavaria-ardeadactylus**
+- **formation unnamed-brunn-quarry-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-baden-wurttemberg-rhamphorhynchus**
+- **formation unnamed-cerin-france**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-bavaria-balaenognathus**
+- **formation unnamed-hettange-france**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-bavaria-scaphognathus**
+- **formation unnamed-mulheim-am-main-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-coahuila-muzquizopteryx**
+- **formation unnamed-nurhachius-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-delaware-pteranodon**
+- **formation unnamed-place-thiers-france**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-diekirch-eudimorphodon**
+- **formation unnamed-varangeville-france**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
-- **formation unnamed-draa-tafilalet-alanqa**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-draa-tafilalet-coloborhynchus**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-draa-tafilalet-xericeps**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-eastern-barvaria-bellubrunnus**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-england-coloborhynchus**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-england-dimorphodon**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-england-gnathosaurus**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-england-plataleorhynchus**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-liaoning-nurhachius**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-lorraine-dorygnathus**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-lorraine-eudimorphodon**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-pinar-del-rio-cacibupteryx**
-  - F5 summary is empty (one sentence on what the formation is)
-  - F5 paleoenvironment is empty
-  - S2 only secondary sources (database/encyclopedia); add primary literature
-  - Q1 draft: not yet checked
-- **formation unnamed-provence-alpes-cote-d-azur-mistralazhdarcho**
+- **formation unnamed-velaux-la-bastide-neuve-france**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -544,6 +498,11 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
 - **formation wadhurst-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wealden-group-united-kingdom**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature

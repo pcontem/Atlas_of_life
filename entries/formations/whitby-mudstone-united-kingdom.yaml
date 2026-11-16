@@ -5,23 +5,25 @@ group: ''
 country: United Kingdom
 regions: [England]
 location:
-  lat: 54.483
-  lng: -0.581
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 54.517
+  lng: -0.732
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 184.2
   last_ma: 182.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet.]
-lithology: [mudstone]
-pbdb_collections: ['144583']
+environment: [offshore, marine indet.]
+lithology: ['"shale"', mudstone]
+pbdb_collections: ['90458', '144583']
+includes:
+- PBDB records the Alum Shale as a member of the Whitby Mudstone Formation.
 summary: ''
 paleoenvironment: ''
 sources:
 - kind: database
   text: Paleobiology Database — collections of the Whitby Mudstone (coordinates, environment, lithology; downloaded
     2026-11-16).
-  url: https://paleobiodb.org/classic/displayCollResults?formation=Whitby+Mudstone
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Alum+Shale
 curation:
   status: draft
   checked_by: ''

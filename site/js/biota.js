@@ -1,7 +1,7 @@
 /* Atlas of Life — Biota mode: a time slider, the continents of that time (Merdith et al. 2021 plate model via
    GPlates) and the formations with atlas taxa as points. Double-click a point: its environment and the atlas
    taxa found there (only taxa with atlas entries are listed). */
-const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0,zoom,zt=d3.zoomIdentity;
+const BT=(()=>{let T=null,selF=null,openF=null,openC=null,lastK=1,proj,gpath,cache={},tok=0,zoom,zt=d3.zoomIdentity;
   const ENV=[["coast","Coastal & lagoon","#4fa59a",/lagoon|estuar|coastal|peritidal|intertidal|delta|bay|marginal|beach/],
     ["marine","Marine","#3f7fa8",/marine|offshore|subtidal|basinal|deep|shelf|slope|reef|carbonate|pelagic/],
     ["lake","Lake","#7c8fd1",/lacustrine|lake|pond/],
@@ -16,7 +16,7 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0,zoom,zt
   const F=id=>D.formations.find(f=>f.id===id);
   const curForms=()=>{const n=cur&&byId[cur];if(!n)return new Set();
     const gs=n.type==="genus"?[n]:D.genera.filter(g=>path(g.name).some(p=>p.id===cur));
-    return new Set(gs.flatMap(g=>(g.formations||[]).map(f=>f.id)))};
+    return new Set(gs.flatMap(g=>(g.formations||[]).flatMap(f=>f.ids||[])))};
   // a sensible starting time: the middle of the selected entry's range, else the first time with formations
   function startTime(){const n=cur&&byId[cur];
     if(n&&n.type==="genus"&&n.fad)return near((n.fad+n.lad)/2);
@@ -50,11 +50,11 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0,zoom,zt
     proj=d3.geoEqualEarth().fitExtent([[10,10],[box.width-10,box.height-10]],{type:"Sphere"});gpath=d3.geoPath(proj);
     // zoom: scroll or the +/− buttons, drag to pan; kept while the time changes; points keep their size on screen
     const svg=d3.select("#bmap");
-    zoom=d3.zoom().scaleExtent([1,8]).translateExtent([[0,0],[box.width,box.height]]).on("zoom",e=>{zt=e.transform;applyZoom()});
+    zoom=d3.zoom().scaleExtent([1,8]).translateExtent([[0,0],[box.width,box.height]]).on("zoom",e=>{zt=e.transform;applyZoom()}).on("end",()=>{if(zt.k!==lastK)drawPoints()});
     svg.call(zoom).on("dblclick.zoom",null);svg.call(zoom.transform,zt);
     document.querySelectorAll(".bzoom button").forEach(b=>b.onclick=()=>{const z=b.dataset.z;
       if(z==="reset")svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);else{// zoom towards the highlighted formation if there is one, else the centre of the view
-        const n=selF&&document.querySelector(`#bmap .bpt[data-f="${selF}"]`),p=n?zt.apply([+n.dataset.x,+n.dataset.y]):null;
+        const n=selF&&[...document.querySelectorAll("#bmap .bpt")].find(n=>n.dataset.fs.split(" ").includes(selF)),p=n?zt.apply([+n.dataset.x,+n.dataset.y]):null;
         svg.transition().duration(250).call(zoom.scaleBy,z==="in"?1.6:1/1.6,p||undefined)}});
     drawStrip();setT(T,true)}
   function applyZoom(){const l=d3.select("#bzl");if(l.empty())return;l.attr("transform",zt);
@@ -75,27 +75,48 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0,zoom,zt
     svg.append("path").attr("d",gpath(d3.geoGraticule10())).attr("class","bgrat");
     const land={type:"MultiPolygon",coordinates:polys.map(p=>p.map(r=>r.map(([x,y])=>[x/10,y/10])))};
     svg.append("path").attr("d",gpath(land)).attr("class","bland");
-    const mine=curForms(),vis=visible().sort((a,b)=>(a.id===selF)-(b.id===selF)||b.genera.length-a.genera.length);
-    const g=svg.append("g");
-    for(const f of vis){const[x,y]=proj(f.pp[T]),e=envOf(f),r=4+Math.sqrt(f.genera.length)*3;
-      const c=g.append("g").attr("class","bpt"+(f.id===selF?" sel":"")).attr("data-f",f.id).attr("data-x",x).attr("data-y",y).attr("transform",`translate(${x},${y})`);
-      if(mine.has(f.id))c.append("circle").attr("r",r+4).attr("class","bring");
-      c.append("circle").attr("r",r).attr("fill",e[2]);
-      c.on("mouseenter",ev=>tip(ev,f)).on("mouseleave",()=>$("#btip").style.display="none")
-       .on("click",()=>openCard(f.id)).on("dblclick",ev=>{ev.stopPropagation();location.hash="formation/"+f.id})}
+    svg.append("g").attr("id","bpts");drawPoints();
     applyZoom();
-    svg0.on("click",ev=>{if(ev.defaultPrevented)return;if(ev.target.tagName!=="circle"&&(selF||openF)){openF=null;history.replaceState(null,"","#biota");highlight(null);side()}})}
+    svg0.on("click",ev=>{if(ev.defaultPrevented)return;if(ev.target.tagName!=="circle"&&ev.target.tagName!=="text"&&(selF||openF||openC)){openF=null;openC=null;history.replaceState(null,"","#biota");highlight(null);side()}})}
+  // points closer than ~16 px on screen (at the current zoom) are drawn as one cluster marker with a count;
+  // click lists its formations beside the map, double-click zooms in until they separate
+  function drawPoints(){const g=d3.select("#bpts");if(g.empty())return;g.selectAll("*").remove();lastK=zt.k;
+    const mine=curForms(),vis=visible().sort((a,b)=>b.genera.length-a.genera.length),cl=[];
+    for(const f of vis){const[x,y]=proj(f.pp[T]),[sx,sy]=zt.apply([x,y]);
+      const c=cl.find(c=>Math.hypot(c.sx-sx,c.sy-sy)<16);if(c)c.m.push({f,x,y});else cl.push({sx,sy,m:[{f,x,y}]})}
+    cl.sort((a,b)=>a.m.some(o=>o.f.id===selF)-b.m.some(o=>o.f.id===selF));
+    for(const c of cl){const fs=c.m.map(o=>o.f),n=fs.reduce((s,f)=>s+f.genera.length,0),x=d3.mean(c.m,o=>o.x),y=d3.mean(c.m,o=>o.y);
+      const env=d3.rollups(fs,v=>d3.sum(v,f=>f.genera.length||1),f=>envOf(f)[2]).sort((a,b)=>b[1]-a[1])[0][0],r=4+Math.sqrt(n)*3;
+      const ids=fs.map(f=>f.id),one=fs.length===1;
+      const e=g.append("g").attr("class","bpt"+(one?"":" bcl")+(ids.includes(selF)?" sel":"")).attr("data-f",one?ids[0]:null).attr("data-fs",ids.join(" "))
+        .attr("data-x",x).attr("data-y",y).attr("transform",`translate(${x},${y}) scale(${1/zt.k})`);
+      if(ids.some(i=>mine.has(i)))e.append("circle").attr("r",r+4).attr("class","bring");
+      e.append("circle").attr("r",one?r:r+2).attr("fill",env);
+      if(!one)e.append("text").attr("class","bcnt").attr("dy","0.35em").text(fs.length);
+      e.on("mouseenter",ev=>tip(ev,fs)).on("mouseleave",()=>$("#btip").style.display="none");
+      if(one)e.on("click",()=>openCard(ids[0])).on("dblclick",ev=>{ev.stopPropagation();location.hash="formation/"+ids[0]});
+      else e.on("click",()=>{openC=ids;openF=null;highlight(null);side()})
+            .on("dblclick",ev=>{ev.stopPropagation();d3.select("#bmap").transition().duration(350).call(zoom.scaleBy,2.5,zt.apply([x,y]))})}}
   // highlight without redrawing, so that a double-click still reaches the same element
   // click: open the formation's card beside the map (no redraw, so a double-click still lands on the point)
   function openCard(id){history.replaceState(null,"","#biota/"+id);openF=id;highlight(id);side()}
-  function highlight(id){selF=id;document.querySelectorAll("#bmap .bpt").forEach(n=>n.classList.toggle("sel",n.dataset.f===id));
+  function highlight(id){selF=id;document.querySelectorAll("#bmap .bpt").forEach(n=>n.classList.toggle("sel",!!id&&n.dataset.fs.split(" ").includes(id)));
     document.querySelectorAll("#bside .bfl").forEach(n=>n.classList.toggle("sel",n.dataset.f===id))}
-  function tip(ev,f){const t=$("#btip"),b=$("#bmapw").getBoundingClientRect();
-    t.innerHTML=`<b>${esc(f.name)}</b><br>${esc(f.country)} · ${fmtMa(f.fad)}–${fmtMa(f.lad)}<br>${f.genera.length} atlas ${f.genera.length===1?"genus":"genera"} · ${esc(envOf(f)[1].toLowerCase())}<br><small>Click: card · double-click: entry</small>`;
+  function tip(ev,fs){const t=$("#btip"),b=$("#bmapw").getBoundingClientRect();
+    if(fs.length>1){t.innerHTML=`<b>${fs.length} formations here</b><br>${fs.map(f=>esc(f.name)).join("<br>")}<br><small>Click: list · double-click: zoom in</small>`;
+      t.style.display="block";t.style.left=(ev.clientX-b.left+12)+"px";t.style.top=(ev.clientY-b.top+12)+"px";return}
+    const f=fs[0];t.innerHTML=`<b>${esc(f.name)}</b><br>${esc(f.country)} · ${fmtMa(f.fad)}–${fmtMa(f.lad)}<br>${f.genera.length} atlas ${f.genera.length===1?"genus":"genera"} · ${esc(envOf(f)[1].toLowerCase())}<br><small>Click: card · double-click: entry</small>`;
     t.style.display="block";t.style.left=(ev.clientX-b.left+12)+"px";t.style.top=(ev.clientY-b.top+12)+"px"}
   function side(){const s=$("#bside");const f=openF&&F(openF);
     if(f&&f.pp&&f.pp[T]){s.innerHTML=formationCard(f);wire(s);return}
-    openF=null;const vis=visible().sort((a,b)=>a.name.localeCompare(b.name));
+    openF=null;
+    if(openC){const fs=openC.map(F).filter(f=>f&&f.pp&&f.pp[T]);if(fs.length>1){
+      s.innerHTML=`<button class="bback">← All formations at ${T} Ma</button><h2>${fs.length} formations at this spot</h2>
+        <p class="note">Their points overlap at this zoom. Click one for its card, double-click for its entry; or zoom in to separate them.</p>`+
+        fs.map(f=>`<div class="bfl" data-f="${f.id}"><i style="background:${envOf(f)[2]}"></i><span>${esc(f.name)}<small>${esc(f.country)} · ${fmtMa(f.fad)}–${fmtMa(f.lad)} · ${f.genera.length} ${f.genera.length===1?"genus":"genera"}</small></span></div>`).join("");
+      s.querySelector(".bback").onclick=()=>{openC=null;side()};
+      s.querySelectorAll(".bfl").forEach(d=>{d.onclick=()=>openCard(d.dataset.f);d.ondblclick=()=>location.hash="formation/"+d.dataset.f});return}openC=null}
+    const vis=visible().sort((a,b)=>a.name.localeCompare(b.name));
     s.innerHTML=`<h3>${vis.length} formation${vis.length===1?"":"s"} at this time</h3>`+
       (vis.length?`<p class="note">Formations whose dated beds overlap ${T} ± 2.5 Ma. Click: show its card · double-click: open its entry.</p>`+
         vis.map(f=>`<div class="bfl${f.id===selF?" sel":""}" data-f="${f.id}"><i style="background:${envOf(f)[2]}"></i><span>${esc(f.name)}<small>${esc(f.country)} · ${f.genera.length} ${f.genera.length===1?"genus":"genera"}</small></span></div>`).join("")
@@ -119,7 +140,7 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0,zoom,zt
       ${Object.entries(groups).sort().map(([k,v])=>`<div class="bgrp">${esc(k)}</div><div class="bgen">${v.sort((a,b)=>a.name.localeCompare(b.name)).map(g=>
         `<div class="mem" data-g="${esc(g.name)}" title="Double-click to open the entry"><div class="th">${thumb(g)}</div><div class="nm"><i>${esc(g.name)}</i><small>${fmtMa(g.fad)}–${fmtMa(g.lad)}</small></div></div>`).join("")}</div>`).join("")}
       <h4>Sources</h4><ol class="src">${f.sources.map(s=>`<li><span class="kind">${esc(s.kind)}</span>${esc(s.text)}${s.url?` <a href="${esc(s.url)}" target="_blank" rel="noopener">link</a>`:""}</li>`).join("")}<li><span class="kind">model</span>${esc(D.paleo.citation)} ${esc(D.paleo.licence)}. ${esc(D.paleo.via)}</li></ol>`}
-  function wire(s){s.querySelector(".bback").onclick=()=>{openF=null;history.replaceState(null,"","#biota");highlight(null);side()};
+  function wire(s){s.querySelector(".bback").onclick=()=>{openF=null;openC=null;history.replaceState(null,"","#biota");highlight(null);side()};
     s.querySelectorAll(".mem[data-g]").forEach(d=>{d.onclick=()=>{cur=d.dataset.g;s.querySelectorAll(".mem").forEach(m=>m.classList.toggle("sel",m===d))};d.ondblclick=()=>location.hash=d.dataset.g})}
   const fmtLat=v=>`${Math.abs(v).toFixed(0)}° ${v>=0?"N":"S"}`,fmtLng=v=>`${Math.abs(v).toFixed(1)}° ${v>=0?"E":"W"}`;
   const about=()=>`<div class="bnote"><b>About the map.</b> ${esc(D.paleo.note)} Plate model: ${esc(D.paleo.citation)} (${esc(D.paleo.licence)}), ${esc(D.paleo.via)}</div>`;

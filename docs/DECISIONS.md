@@ -143,3 +143,11 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   0.3°, so closer zooms would only show their simplification), kept across time steps.
   New Encyclopedia sub-tab **Formations** (owner: "a section of geological formations"), between
   Timeline and Excluded names, listing and filtering all formation entries.
+- Formation clean-up (owner: units of the same formation and unnamed units cluttered the map):
+  units are merged only when they are the same formation — other names of the same unit (with
+  source), units PBDB records as members of a formation, and beds without a formation placed per
+  PBDB collection (member/collection name → formation; else PBDB group → "<Group> Group (beds not
+  assigned to a formation)"; else one entry per site). 101 → 93 entries; Solnhofen is now the
+  Altmühltal Formation (Solnhofen Member), Rauhut et al. 2017. Distinct formations close together
+  (e.g. Crato and Romualdo, Altmühltal and Mörnsheim) stay separate entries; on the map, points that
+  overlap on screen are drawn as one cluster marker that splits when zooming in.

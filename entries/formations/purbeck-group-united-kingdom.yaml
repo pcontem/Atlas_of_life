@@ -1,25 +1,27 @@
-id: unnamed-eastern-barvaria-bellubrunnus
-name: Unnamed unit, Eastern Barvaria (Bellubrunnus locality)
+id: purbeck-group-united-kingdom
+name: Purbeck Group (beds not assigned to a formation)
 rank: formation
-group: ''
-country: Germany
-regions: [Eastern Barvaria]
+group: Purbeck
+country: United Kingdom
+regions: [England]
 location:
-  lat: 49.108
-  lng: 11.901
+  lat: 50.61
+  lng: -2.001
   basis: median of 1 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 152.21
-  last_ma: 149.2
+  first_ma: 143.1
+  last_ma: 137.05
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [lagoonal/restricted shallow subtidal]
-lithology: [mudstone]
-pbdb_collections: ['130288']
+lithology: [not reported]
+pbdb_collections: ['92914']
+includes:
+- PBDB places these beds in the Purbeck Group without naming the formation.
 summary: ''
 paleoenvironment: ''
 sources:
 - kind: database
-  text: Paleobiology Database — collections of the Unnamed unit, Eastern Barvaria (Bellubrunnus locality) (coordinates,
+  text: Paleobiology Database — collections of the Purbeck Group (beds not assigned to a formation) (coordinates,
     environment, lithology; downloaded 2026-11-16).
   url: https://paleobiodb.org/classic/displayCollResults?formation=
 curation:

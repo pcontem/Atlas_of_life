@@ -29,6 +29,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `scripts/build.py` | entries → `site/data.json` + `site/life.json` | code |
 | `scripts/validate.py` | checks the rules in §4 | code |
 | `scripts/fmt.py` | canonical YAML layout | code |
+| `scripts/paleo_points.py` | keeps the reconstructed formation positions in step with the entries | code |
 | `scripts/make_formations.py` | creates/refreshes formation entries from genus entries + PBDB collections; links genera to them | code |
 | `data/raw/paleomaps/` | Merdith et al. 2021 coastlines per time step + reconstructed formation positions (GPlates Web Service) | **never** |
 | `scripts/legacy/` | prototype code, kept for history | never |
@@ -269,7 +270,20 @@ curation: {...}           # Q1
   `summary`, `paleoenvironment`, extra sources or curation.
 - **F4 E** the formation's location has palaeo-positions in `data/raw/paleomaps/formation_points.json`
   (refresh them through the GPlates Web Service when a location changes; see §7).
-- Unnamed units are separate localities: one entry per genus (`unnamed-<region>-<genus>`).
+- **Merging units of the same formation** (`scripts/make_formations.py`, every merge is written in
+  the entry's `includes` and shown as "Units grouped here"): other names of the same unit
+  (`ALIASES`, each with its reason/source: Posidonienschiefer → Posidonia Shale; Calcari di Zorzino →
+  Zorzino Limestone; Solnhofen → Altmühltal Formation, Solnhofen Member); a unit PBDB records as a
+  **member** of another formation goes into that formation (Alum Shale → Whitby Mudstone, Sharon
+  Springs → Pierre Shale). Beds without a formation are placed **per PBDB collection**: (1) member
+  or collection name = a PBDB member of a formation → that formation; (2) collection name contains a
+  formation's name (same country) → that formation (Nusplingen quarry → Nusplingen Limestone);
+  (3) PBDB gives a group → one entry "<Group> Group (beds not assigned to a formation)" per
+  country; (4) otherwise one "Unnamed beds, <site>" entry per site (0.25° cell, 5-Myr age bucket).
+  A genus item may then link several entries (`id: [a, b]`). Different formations are never merged.
+- After changing formations run `python3 scripts/paleo_points.py`: it reuses known palaeo-positions,
+  prunes unused ones and lists what still has to be fetched from GPlates (then merge the results
+  with `python3 scripts/paleo_points.py results.json`).
 - Biota lists only taxa with atlas entries; no PBDB faunal lists.
 
 ### 4.8 Tree names
@@ -365,7 +379,9 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   Merdith et al. 2021 plate model (coastlines every 5 Myr to 540 Ma, every 20 Myr to 1000 Ma) and the
   formations whose dated beds overlap the time ± 2.5 Myr, placed at their reconstructed positions,
   coloured by environment (marine, coastal & lagoon, lake, river & land), sized by the number of
-  atlas genera; formations of the selected entry get a dashed ring. **Zoom** (scroll, drag to pan,
+  atlas genera; formations of the selected entry get a dashed ring. Points closer than ~16 px on
+  screen are drawn as one **cluster** marker with a count (recomputed after each zoom): hover lists
+  them, click lists them beside the map, double-click zooms in until they separate. **Zoom** (scroll, drag to pan,
   + / − / ⟲ buttons; + zooms towards the highlighted formation; up to ×8) is kept while the time
   changes, and points keep their size on screen. Hover = name; **click** = the
   formation's card beside the map (age, PBDB environment and rock types, palaeolatitude,

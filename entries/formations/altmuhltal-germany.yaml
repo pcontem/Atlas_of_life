@@ -3,21 +3,46 @@ name: Altmühltal
 rank: formation
 group: Weißjura
 country: Germany
-regions: [Bayern]
+regions: [Bavaria, Bayern]
 location:
-  lat: 48.964
-  lng: 11.177
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: 48.91
+  lng: 11.145
+  basis: median of 17 PBDB collections that yielded the atlas genera
 age:
   first_ma: 149.2
   last_ma: 145.06
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [lagoonal/restricted shallow subtidal]
 lithology: [lime mudstone, '"limestone"']
-pbdb_collections: ['53034', '53039']
+pbdb_collections:
+- '29012'
+- '53034'
+- '53039'
+- '58604'
+- '84365'
+- '105797'
+- '117534'
+- '122586'
+- '123906'
+- '138219'
+- '139551'
+- '139876'
+- '212954'
+- '212956'
+- '212957'
+- '212958'
+- '216616'
+includes:
+- 'The Solnhofen limestones are the Solnhofen Member of the Altmühltal Formation (Niebuhr & Pürner 2014; Rauhut
+  et al. 2017, Zitteliana 89: 305–329).'
 summary: ''
 paleoenvironment: ''
 sources:
+- kind: literature
+  text: 'Rauhut, O. W. M., López-Arbarello, A., Röper, M. & Rothgaenger, M. 2017. Vertebrate fossils from the Kimmeridgian
+    of Brunn: the oldest fauna from the Solnhofen Archipelago (Late Jurassic, Bavaria, Germany). Zitteliana 89:
+    305–329 (uses the lithostratigraphy of Niebuhr & Pürner 2014: Solnhofen Member of the Altmühltal Formation).'
+  url: https://epub.ub.uni-muenchen.de/40470/1/17_rauhut_305_329.pdf
 - kind: database
   text: Paleobiology Database — collections of the Altmühltal (coordinates, environment, lithology; downloaded 2026-11-16).
   url: https://paleobiodb.org/classic/displayCollResults?formation=Altmühltal

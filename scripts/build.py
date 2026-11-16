@@ -36,7 +36,7 @@ def genus_to_site(e):
         type_species=e["type_species"], pbdb_occ=e["age"]["pbdb_occurrences"],
         species=[dict(name=s["name"], author=s["authority"], fad=s["first_ma"], lad=s["last_ma"],
                       interval=s["interval"], ref=s["reference"]) for s in e["species"]],
-        formations=[dict(id=f.get("id"), formation=f["formation"], group=f["group"], members=f["members"], country=f["country"],
+        formations=[dict(ids=f["id"] if isinstance(f.get("id"), list) else [f.get("id")], formation=f["formation"], group=f["group"], members=f["members"], country=f["country"],
                          regions=f["regions"], interval=f["interval"], n=f["occurrences"], ma=f["ma"])
                     for f in e["formations"]],
         images=[dict(kind=i["kind"], file=i["file"], src=i["url"], page=i["page"], artist=i["artist"],
@@ -83,7 +83,8 @@ def formations_to_site(genera):
     here = {}
     for g in genera:
         for f in g["formations"]:
-            here.setdefault(f["id"], []).append(g["name"])
+            for fid in f["ids"]:
+                here.setdefault(fid, []).append(g["name"])
     forms = []
     for p in sorted(fdir.glob("*.yaml")):
         e = load(p)
@@ -93,7 +94,7 @@ def formations_to_site(genera):
                           lat=loc["lat"], lng=loc["lng"], basis=loc["basis"], fad=e["age"]["first_ma"],
                           lad=e["age"]["last_ma"], agenote=e["age"]["note"], env=e["environment"], lith=e["lithology"],
                           sum=e["summary"], paleoenv=e["paleoenvironment"], sources=e["sources"],
-                          genera=sorted(here.get(e["id"], [])), pp=pp, ncol=len(e["pbdb_collections"])))
+                          genera=sorted(set(here.get(e["id"], []))), pp=pp, includes=e.get("includes") or [], ncol=len(e["pbdb_collections"])))
     paleo = dict(times=times, model=maps["model"], citation=maps["citation"], licence=maps["licence"],
                  via=maps["via"], note=maps["note"])
     return forms, paleo

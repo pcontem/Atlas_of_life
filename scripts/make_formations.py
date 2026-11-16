@@ -30,8 +30,18 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
-# PBDB spellings of the same unit -> the name used for its formation entry
-ALIASES = {"Posidonienschiefer": "Posidonia Shale"}
+# Names of the same unit -> the name used for its formation entry, with the reason (shown on the entry)
+ALIASES = {
+    "Posidonienschiefer": ("Posidonia Shale", "German name of the Posidonia Shale (both spellings are used in PBDB)."),
+    "Calcari di Zorzino": ("Zorzino Limestone", "Italian name of the Zorzino Limestone."),
+    "Solnhofen": ("Altmühltal", "The Solnhofen limestones are the Solnhofen Member of the Altmühltal Formation "
+                  "(Niebuhr & Pürner 2014; Rauhut et al. 2017, Zitteliana 89: 305–329)."),
+}
+MERGE_SOURCES = {"Altmühltal": dict(kind="literature", text=(
+    "Rauhut, O. W. M., López-Arbarello, A., Röper, M. & Rothgaenger, M. 2017. Vertebrate fossils from the Kimmeridgian "
+    "of Brunn: the oldest fauna from the Solnhofen Archipelago (Late Jurassic, Bavaria, Germany). Zitteliana 89: 305–329 "
+    "(uses the lithostratigraphy of Niebuhr & Pürner 2014: Solnhofen Member of the Altmühltal Formation)."),
+    url="https://epub.ub.uni-muenchen.de/40470/1/17_rauhut_305_329.pdf")}
 
 
 def parts(name):
@@ -39,7 +49,12 @@ def parts(name):
     m = re.match(r"(.*?)\s*\((.*)\)\s*$", name.strip())
     raw = re.split(r"\s*/\s*", m.group(1)) + re.split(r"\s*/\s*", m.group(2)) if m else re.split(r"\s*/\s*", name)
     out = [re.sub(r"\s+Formation$", "", x).strip() for x in raw if x.strip()]
-    return [ALIASES.get(x, x) for x in out]
+    res = []  # the entry's name first, then the other names of the same unit (used to match PBDB records)
+    for x in out:
+        for y in ([ALIASES[x][0], x] if x in ALIASES else [x]):
+            if y not in res:
+                res.append(y)
+    return res
 
 
 def same(a, b):
@@ -49,6 +64,40 @@ def same(a, b):
 
 def med(v):
     return round(statistics.median(v), 3)
+
+
+def unnamed_unit(c, f):
+    """Where a collection with no formation belongs: (id, name, names, note).
+    1. its member or collection name is a PBDB member of a named formation -> that formation;
+    2. its collection name contains the name of a formation of the same country -> that formation;
+    3. PBDB gives its group -> one unit for the group's unassigned beds in that country;
+    4. else one locality per region and nearby site (rounded to 0.25 degrees)."""
+    if c:
+        for key in (c.get("member"), c.get("collection_name")):
+            for (mem, cc), parent in MEMBER_OF.items():
+                if key and cc == f["country"] and re.search(r"\b" + re.escape(mem.lower()) + r"\b", key.lower()):
+                    return (slug(parent + " " + f["country"]), parent, [parent],
+                            f"Beds recorded without a formation in PBDB ({c['collection_name']}) belong to the {mem}, a member of the {parent} Formation.")
+        for n in sorted(FORM_NAMES.get(f["country"], ()), key=len, reverse=True):
+            core = re.sub(r"(?i)\b(limestone|shale|clay|marls?|sandstone|mudstone|formation|beds?)\b", "", n).strip()
+            if len(core) > 4 and re.search(r"\b" + re.escape(core.lower()) + r"\b", (c.get("collection_name") or "").lower()):
+                return (slug(n + " " + f["country"]), n, [n],
+                        f"PBDB collection “{c['collection_name']}” has no formation but is a locality of the {n}.")
+        if c.get("geological_group"):
+            g = c["geological_group"]
+            return (slug(f"{g} group {f['country']}"), f"{g} Group (beds not assigned to a formation)", [],
+                    f"PBDB places these beds in the {g} Group without naming the formation.")
+        # same site (0.25° cell) and same age bucket = one locality; named after the site
+        site = re.sub(r"\s*\(.*?\)|\s+layer.*$|\s*\[.*?\]", "", c["collection_name"]).strip()
+        mid = (float(c["max_ma"]) + float(c["min_ma"])) / 2
+        cell = f"{round(float(c['lat'])*4)/4} {round(float(c['lng'])*4)/4} {round(mid/5)}"
+        SITE_ID.setdefault(cell, slug(f"unnamed {site} {f['country']}"))
+        return (SITE_ID[cell],
+                f"Unnamed beds, {site}", [], None)
+    return None
+
+
+MEMBER_OF, FORM_NAMES, SITE_ID = {}, collections.defaultdict(set), {}
 
 
 def main():
@@ -69,29 +118,50 @@ def main():
             for f in e["formations"]:
                 name = f["formation"]
                 if name == "Unnamed unit":
-                    # unnamed units are separate localities: one point per genus
-                    where = ", ".join(f["regions"]) or f["country"]
-                    fid = slug(f"unnamed {where} {e['name']}")
-                    title, names = f"Unnamed unit, {where} ({e['name']} locality)", []
+                    # unnamed beds: each PBDB collection is placed on its own (one genus item may span several sites)
                     used = [o["col"] for o in occ[e["name"]] if not o["form"] and (not f["regions"] or o["state"] in f["regions"])]
+                    units = {}
+                    for c in used:
+                        u = unnamed_unit(cols.get(c), f)
+                        units.setdefault(u[0], (u, []))[1].append(c)
+                    if not units:  # no collection: keep a per-genus locality
+                        where = ", ".join(f["regions"]) or f["country"]
+                        units[slug(f"unnamed {where} {e['name']}")] = ((slug(f"unnamed {where} {e['name']}"),
+                            f"Unnamed beds, {where}", [], None), [])
                 else:
                     names = parts(name)
-                    fid, title = slug(names[0] + " " + f["country"]), names[0]
+                    first = re.split(r"\s*/\s*|\s*\(", name)[0].strip()
+                    note = ALIASES[first][1] if first in ALIASES else None
+                    parent = MEMBER_OF.get((names[0], f["country"]))
+                    if parent and parent != names[0]:
+                        note = f"PBDB records the {names[0]} as a member of the {parent} Formation."
+                        names = [parent] + names
+                    fid = slug(names[0] + " " + f["country"])
                     used = [o["col"] for o in occ[e["name"]] if any(same(o["form"], n) for n in names)]
-                d = forms.setdefault(fid, dict(name=title, names=set(names), country=f["country"], regions=set(),
-                                               cols=set(), ma=[], genera=set(), group=set()))
-                d["names"] |= set(names)
-                d["regions"] |= set(f["regions"])
-                d["cols"] |= {c for c in used if c in cols}
-                if f.get("group"):
-                    d["group"].add(f["group"])
-                if f.get("ma"):
-                    d["ma"].append(f["ma"])
-                else:  # no PBDB age for this bed: fall back on the genus age
-                    d.setdefault("gen_ma", []).append([e["age"]["last_ma"], e["age"]["first_ma"]])
-                d["genera"].add(e["name"])
-                if f.get("id") != fid:
-                    f["id"] = fid
+                    units = {fid: ((fid, names[0], names, note), used)}
+                ids = []
+                for fid, ((_, title, names, note), used) in units.items():
+                    d = forms.setdefault(fid, dict(name=title, names=set(), country=f["country"], regions=set(),
+                                                   cols=set(), ma=[], genera=set(), group=set(), notes=set()))
+                    d["names"] |= set(names)
+                    d["regions"] |= set(f["regions"])
+                    d["cols"] |= {c for c in used if c in cols}
+                    if note:
+                        d["notes"].add(note)
+                    if f.get("group"):
+                        d["group"].add(f["group"])
+                    ma = [[float(cols[c]["min_ma"]), float(cols[c]["max_ma"])] for c in used if c in cols] if name == "Unnamed unit" else []
+                    if ma:
+                        d["ma"] += ma
+                    elif f.get("ma") and name != "Unnamed unit":
+                        d["ma"].append(f["ma"])
+                    else:  # no PBDB age for this bed: fall back on the genus age
+                        d.setdefault("gen_ma", []).append([e["age"]["last_ma"], e["age"]["first_ma"]])
+                    d["genera"].add(e["name"])
+                    ids.append(fid)
+                new_id = ids[0] if len(ids) == 1 else sorted(ids)
+                if f.get("id") != new_id:
+                    f["id"] = new_id
                     changed = True
             if changed:
                 gp.write_text(yaml.safe_dump(e, allow_unicode=True, sort_keys=False, width=110))
@@ -122,8 +192,9 @@ def main():
             environment=[k for k, _ in env.most_common()],
             lithology=[k for k, _ in lith.most_common(4)],
             pbdb_collections=sorted((r["collection_no"] for r in sel), key=int),
+            includes=sorted(d["notes"]),
             summary=e.get("summary", ""), paleoenvironment=e.get("paleoenvironment", ""),
-            sources=e.get("sources") or [dict(kind="database", text=(
+            sources=e.get("sources") or ([MERGE_SOURCES[d["name"]]] if d["name"] in MERGE_SOURCES else []) + [dict(kind="database", text=(
                 f"Paleobiology Database — collections of the {d['name']} (coordinates, environment, lithology; "
                 f"downloaded 2026-11-16)."), url="https://paleobiodb.org/classic/displayCollResults?formation="
                 + re.sub(r"\s+", "+", sorted(d["names"])[0] if d["names"] else ""))],
@@ -140,4 +211,15 @@ if __name__ == "__main__":
         ALL_COLS.update(j["cols"])
         for k, v in j["byname"].items():
             BYNAME.setdefault(k, []).extend(v)
+    # PBDB members of formations (member name, country) -> formation, and formation names per country
+    CC = {v: k for k, v in COUNTRY.items()}
+    for recs in BYNAME.values():
+        for r in recs:
+            m = r.get("member") or ""
+            if len(m) >= 5 and r.get("formation") and m != r["formation"] and not re.match(r"(?i)(upper|lower|middle|basal|top)\b", m):
+                MEMBER_OF.setdefault((r["member"], COUNTRY.get(r.get("cc"), r.get("cc"))), ALIASES.get(r["formation"], (r["formation"],))[0])
+    for raw in (ROOT / "entries").glob("*/genera/*.yaml"):
+        for f in yaml.safe_load(raw.read_text())["formations"]:
+            if f["formation"] != "Unnamed unit":
+                FORM_NAMES[f["country"]].add(parts(f["formation"])[0])
     main()

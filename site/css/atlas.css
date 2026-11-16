@@ -198,3 +198,5 @@ main.full #side{display:none}
 .frow{cursor:pointer}.frow:hover td{background:var(--paper2)}
 .fmapc a{cursor:pointer;color:var(--accent);font-size:16px;text-decoration:none}
 .fsec table td:nth-child(1){width:30%}.fsec table td:nth-child(3){width:20%}
+.bcnt{font:600 11px "IBM Plex Sans";fill:#fffdf8;text-anchor:middle;pointer-events:none}
+.bcl circle:not(.bring){stroke-width:2}

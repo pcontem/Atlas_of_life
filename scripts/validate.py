@@ -293,9 +293,11 @@ def check_formations(genus_forms):
     used = collections.Counter()
     for genus, items in genus_forms:
         for f in items:
-            if f.get("id") not in ids:
-                err("F3", f"genus {genus}", f"formation '{f.get('formation')}' has no formation entry (id '{f.get('id')}'; run scripts/make_formations.py)")
-            used[f.get("id")] += 1
+            fids = f.get("id") if isinstance(f.get("id"), list) else [f.get("id")]
+            for fid in fids:
+                if fid not in ids:
+                    err("F3", f"genus {genus}", f"formation '{f.get('formation')}' has no formation entry (id '{fid}'; run scripts/make_formations.py)")
+                used[fid] += 1
     for p, e in forms.items():
         w = f"formation {e.get('id')}"
         if e.get("id") != p.stem or e.get("rank") != "formation" or not e.get("name") or not e.get("country"):

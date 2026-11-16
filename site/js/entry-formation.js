@@ -9,11 +9,12 @@ function renderFormation(fid){const f=(D.formations||[]).find(x=>x.id===fid);
   const thumb=g=>{const im=(g.images||[]).find(i=>i.kind==="life")||(g.images||[])[0];
     return im?`<img src="${imgSrc(g.name,im)}" alt="" style="max-height:96px;max-width:100%;opacity:1">`:(g.silhouette?`<img src="${silSrc(g.silhouette)}" alt="">`:"")};
   let h=`<div class="ficha"><div class="crumbs"><a onclick="location.hash='formations'">Formations</a> › ${esc(f.country)} · <a onclick="location.hash='biota/${f.id}'">show in Biota</a></div>
-    <h2>${esc(f.name)}${/^Unnamed/.test(f.name)?"":` <span class="fsub">Formation</span>`}</h2>
+    <h2>${esc(f.name)}${/^Unnamed|Group \(/.test(f.name)?"":` <span class="fsub">Formation</span>`}</h2>
     <div class="auth">${f.group?esc(f.group)+" Group · ":""}${esc(f.country)}${f.regions.length?" ("+esc(f.regions.join(", "))+")":""} · ${esc(age(f.fad-0.01))}${age(f.lad+0.01)!==age(f.fad-0.01)?"–"+esc(age(f.lad+0.01)):""} · ${fmtMa(f.fad)}–${fmtMa(f.lad)}</div>
     <span class="badge" style="border-color:${e[2]}">${esc(e[1])}</span><span class="badge">${gs.length} atlas ${gs.length===1?"genus":"genera"}</span>
     <p class="lead">${f.sum?esc(f.sum):`<span class="note">No summary written yet for this formation (draft entry).</span>`}</p><div class="grid"><div>`;
   h+=`<div class="card"><h3>Palaeoenvironment</h3>${f.paleoenv?`<p style="margin:0">${esc(f.paleoenv)}</p>`:`<p class="note" style="margin:0">Not written yet. PBDB records these depositional environments: ${esc(f.env.map(s=>s.replace(/"/g,"")).join("; ")||"none")}.</p>`}</div>`;
+  if(f.includes&&f.includes.length)h+=`<div class="card"><h3>Units grouped here</h3><ul class="diag">${f.includes.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`;
   h+=`<div class="card"><h3>Atlas taxa found here (${gs.length})</h3><p class="note" style="margin-top:0">Only taxa with atlas entries are listed; other groups will appear as new volumes are added. Click to open.</p>
     ${Object.entries(groups).sort().map(([k,v])=>`<div class="bgrp">${esc(k)}</div><div class="members">${v.sort((a,b)=>a.name.localeCompare(b.name)).map(g=>
       `<div class="mem" onclick="go('${esc(g.name)}')"><div class="th">${thumb(g)}</div><div class="nm"><i>${esc(g.name)}</i><small>${fmtMa(g.fad)}–${fmtMa(g.lad)}</small></div></div>`).join("")}</div>`).join("")}</div>`;
@@ -43,7 +44,7 @@ const FS={q:"",env:"all",per:"all",sort:"age",mine:false};
 function renderFormations(){const all=D.formations||[],sel=cur&&byId[cur]&&cur!=="vida"?byId[cur]:null;
   const per=f=>{const p=ivAt((f.fad+f.lad)/2,"period");return p?p.name:"—"};
   const pers=[...new Set(all.slice().sort((a,b)=>b.fad-a.fad).map(per))];
-  const mineIds=new Set();if(sel){const gs=sel.type==="genus"?[sel]:D.genera.filter(g=>path(g.name).some(p=>p.id===sel.id));gs.forEach(g=>(g.formations||[]).forEach(f=>mineIds.add(f.id)))}
+  const mineIds=new Set();if(sel){const gs=sel.type==="genus"?[sel]:D.genera.filter(g=>path(g.name).some(p=>p.id===sel.id));gs.forEach(g=>(g.formations||[]).forEach(f=>(f.ids||[]).forEach(i=>mineIds.add(i))))}
   $("#view").innerHTML=`<div class="xl fsec"><h2>Geological formations</h2>
     <p class="note">The rock units where atlas taxa were found — ${all.length} entries. Each has its age, depositional environment (PBDB), where it lay on the globe at the time, and the atlas taxa found in it. Click a row to open its entry; the map icon opens it in Biota.</p>
     <div class="fctl"><input id="fq" type="search" placeholder="Name, country, region or group…" value="${esc(FS.q)}">
