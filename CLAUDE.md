@@ -193,9 +193,13 @@ comparison charts, AI-generated images, and photos of other taxa.
   Non-commercial (CC BY-NC*) is tolerated only for PhyloPic silhouettes and is an **S** issue to
   replace. No-derivatives (ND) and "all rights reserved" are never allowed.
 - **I4** `review`: `unreviewed | accepted | outdated`. **S:** every `life` image must be `accepted`.
-  A life restoration is `accepted` only when it matches current knowledge: pycnofibres present;
-  wing membrane reaching the ankle; crest, teeth and skull proportions consistent with the known
-  material; no features contradicted by the sources. Claude may propose a verdict with reasons;
+  A life restoration is `accepted` only when it matches current knowledge. General criteria (every
+  group): anatomy and proportions consistent with the known material; body covering agrees with the
+  evidence for the group; soft structures (crests, sails, membranes…) supported or clearly
+  speculative; posture agrees with current understanding; no features contradicted by the sources.
+  Group-specific points live in each volume's `_volume.yaml` under `restoration_checks` (Pterosauria:
+  pycnofibres; wing membrane reaching the ankle; crest, teeth and skull matching the genus); a new
+  volume adds its own list. Claude may propose a verdict with reasons;
   the owner decides. Mark replaced or contradicted art `outdated` and look for a better one.
 - **I5 E** The image is in the media store: its `local` path under `site/` is listed in
   `media/manifest.json` (gallery images:

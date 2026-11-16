@@ -28,6 +28,8 @@ pre-filled GitHub issue:
   (scope) and your verdict: *accepted*, *needs changes* or *rejected*.
 - **Review or suggest an image** — judge a life restoration against current knowledge, flag an
   outdated one, or propose a new openly licensed image (CC0, public domain, CC BY, CC BY-SA).
+  The form lists general criteria for any group; the extra points for each group are under
+  `restoration_checks` in that volume's `entries/<volume>/_volume.yaml`.
 - **New genus or excluded name** — propose a genus that is missing, or a name that should be
   listed as excluded (nomen dubium, junior synonym…), with the reference.
 

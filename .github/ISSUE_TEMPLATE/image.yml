@@ -24,12 +24,19 @@ body:
   - type: checkboxes
     id: criteria
     attributes:
-      label: Life restorations — checked criteria (rule I4)
+      label: Life restorations — general criteria (rule I4)
+      description: These apply to every group. Leave a box empty if the point does not hold or you could not check it, and say why below.
       options:
-        - label: pycnofibres present
-        - label: wing membrane reaching the ankle
-        - label: crest, teeth and skull proportions consistent with the known material
+        - label: anatomy and proportions are consistent with the known fossil material
+        - label: body covering (scales, feathers, filaments, fur, bare skin) agrees with the evidence for the group
+        - label: soft structures (crests, sails, membranes, fins, wattles) are supported by fossils or close relatives, or are clearly speculative
+        - label: posture and stance agree with current understanding
         - label: no features contradicted by the sources
+  - type: textarea
+    id: group_checks
+    attributes:
+      label: Group-specific points
+      description: "Each volume lists the extra points to check for its group under `restoration_checks` in `entries/<volume>/_volume.yaml` (e.g. for pterosaurs: pycnofibres, extent of the wing membrane). Say which you checked and what you found."
   - type: input
     id: licence
     attributes:

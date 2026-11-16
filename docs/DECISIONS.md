@@ -185,3 +185,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   workflow opens an audit issue with 5 random checked entries. Still open for the owner: the licence
   of text and code, who is invited as reviewer, and whether 2 approvals are required for
   classification changes (for now the second-reviewer rule is in the PR checklist, not enforced by GitHub).
+- Image criteria made general (owner: the review form listed pterosaur-only checks). The issue form
+  and rule I4 now give criteria valid for any group (anatomy, body covering, soft structures, posture,
+  no contradictions); group-specific checks move to `restoration_checks` in each volume's
+  `_volume.yaml` (Pterosauria: pycnofibres, wing membrane to the ankle, crest/teeth/skull).
