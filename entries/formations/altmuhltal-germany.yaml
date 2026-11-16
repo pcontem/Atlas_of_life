@@ -1,0 +1,28 @@
+id: altmuhltal-germany
+name: Altmühltal
+rank: formation
+group: Weißjura
+country: Germany
+regions: [Bayern]
+location:
+  lat: 48.964
+  lng: 11.177
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 149.2
+  last_ma: 145.06
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [lagoonal/restricted shallow subtidal]
+lithology: [lime mudstone, '"limestone"']
+pbdb_collections: ['53034', '53039']
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Altmühltal (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Altmühltal
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

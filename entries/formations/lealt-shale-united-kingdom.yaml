@@ -1,0 +1,29 @@
+id: lealt-shale-united-kingdom
+name: Lealt Shale
+rank: formation
+group: Great Estuarine
+country: United Kingdom
+regions: [Scotland]
+location:
+  lat: 57.586
+  lng: -6.149
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [lagoonal]
+lithology: [lime mudstone]
+pbdb_collections: ['238818']
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Lealt Shale (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Lealt+Shale
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

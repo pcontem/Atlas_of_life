@@ -22,15 +22,18 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `entries/<volume>/genera/<Genus>.yaml` | one genus entry | **yes — source of truth** |
 | `entries/<volume>/clades/<id>.yaml` | one clade entry | **yes — source of truth** |
 | `entries/<volume>/excluded.yaml` | names left out (nomina dubia etc.) and why | yes |
+| `entries/formations/<id>.yaml` | one geological formation (a place in Biota mode), shared by all volumes | **yes** (prose); PBDB fields via script |
 | `entries/<volume>/_volume.yaml` | volume root clade and where it attaches to the tree | rarely |
 | `data/tree/backbone.json` | tree-of-life nodes that are not entries yet | rarely |
 | `data/raw/` | downloads from PBDB, Wikipedia, Commons, PhyloPic (provenance); `timescale/` = ICS chart v2024/12 via PBDB | **never** |
 | `scripts/build.py` | entries → `site/data.json` + `site/life.json` | code |
 | `scripts/validate.py` | checks the rules in §4 | code |
 | `scripts/fmt.py` | canonical YAML layout | code |
+| `scripts/make_formations.py` | creates/refreshes formation entries from genus entries + PBDB collections; links genera to them | code |
+| `data/raw/paleomaps/` | Merdith et al. 2021 coastlines per time step + reconstructed formation positions (GPlates Web Service) | **never** |
 | `scripts/legacy/` | prototype code, kept for history | never |
 | `site/` | the static website (`index.html`, `css/`, `js/`, `img/`, `sil/`, `vendor/`) | code |
-| `site/data.json`, `site/life.json` | **generated** by build.py | **never** |
+| `site/data.json`, `site/life.json`, `site/paleo/*.json` | **generated** by build.py | **never** |
 | `tests/screenshots.py` | visual smoke test of every view | code |
 | `docs/CONSOLIDATION.md` | generated to-do list (`validate.py --report`) | never |
 | `docs/DECISIONS.md` | log of project decisions and why | yes, append only |
@@ -232,7 +235,44 @@ Each item: `kind`, `text` (full citation), `url` (optional).
 - Anything doubtful you notice goes into `curation.notes` as a short to-do — never silently.
 - Claude may set `checked` only when the owner asks for it in the request.
 
-### 4.7 Tree names
+### 4.7 Formation entries (`entries/formations/<id>.yaml`)
+
+A formation is a place where atlas taxa were found; Biota mode shows it on the map of its time.
+Every formation item of a genus entry carries `id:` = the formation entry it belongs to.
+
+```yaml
+id: romualdo-brazil       # F1 E  = file name (slug of name + country); rank: formation; name; country
+name: Romualdo
+rank: formation
+group: Santana
+country: Brazil
+regions: [Ceará, Pernambuco]
+location:                 # F2 E  degrees; basis says how the point was chosen (PBDB collections)
+  lat: -7.2
+  lng: -39.576
+  basis: median of 4 PBDB collections that yielded the atlas genera
+age:                      # F2 E  first_ma ≥ last_ma ≥ 0; span of the dated beds with atlas taxa
+  first_ma: 119.57
+  last_ma: 113.2
+  note: ...
+environment: [lagoonal/restricted shallow subtidal]   # PBDB terms, most frequent first
+lithology: [limestone, shale]                          # PBDB terms
+pbdb_collections: ['12816', ...]
+summary: One sentence.    # F5 S  what the formation is
+paleoenvironment: ...     # F5 S  setting, climate, notable biota — own words, sourced
+sources: [...]            # S1 E; S2 S needs literature, not only PBDB
+curation: {...}           # Q1
+```
+- **F3 E** every genus formation item links an existing formation entry, and every formation is
+  listed by at least one genus. Run `python3 scripts/make_formations.py` after adding formations to
+  a genus: it creates the entry, fills the PBDB fields and the genus `id` links, and never touches
+  `summary`, `paleoenvironment`, extra sources or curation.
+- **F4 E** the formation's location has palaeo-positions in `data/raw/paleomaps/formation_points.json`
+  (refresh them through the GPlates Web Service when a location changes; see §7).
+- Unnamed units are separate localities: one entry per genus (`unnamed-<region>-<genus>`).
+- Biota lists only taxa with atlas entries; no PBDB faunal lists.
+
+### 4.8 Tree names
 
 - **L1 S** Names of tree nodes shown on the way to a volume are in English (the backbone still has
   some Portuguese glosses such as "(linhagem das aves)").
@@ -273,7 +313,7 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 
 ## 6. Website conventions (keep them when changing the site)
 
-- Two modes in the top bar: **Encyclopedia** and **Tree of life** (it is an outline of the
+- Three modes in the top bar: **Encyclopedia**, **Tree of life** and **Biota** (it is an outline of the
   classification, not a true cladogram, so never call it "cladogram" in the interface).
   Encyclopedia sub-tabs: **Index, Entry, Timeline, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
   stays highlighted on its sub-tabs).
@@ -316,6 +356,18 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
   (and the text being typed). Time = an ICS interval name or an age/range in Ma, matched when the
   stratigraphic range overlaps it. A type filter (Full entries / Clades / Genera / All) applies on top. Sidebar search with keyboard support.
+- **Biota** (third mode in the top bar, `#biota`, deep link `#biota/<formation id>`): a time slider
+  (oldest left, present right; ◀ ▶, arrow keys, an ICS era/period strip that can be clicked,
+  "⌖ Selected entry" jumps to the selected entry's time, "Next formations" to the next older time with
+  new formations). The map (Equal Earth projection) shows the continents of that time from the
+  Merdith et al. 2021 plate model (coastlines every 5 Myr to 540 Ma, every 20 Myr to 1000 Ma) and the
+  formations whose dated beds overlap the time ± 2.5 Myr, placed at their reconstructed positions,
+  coloured by environment (marine, coastal & lagoon, lake, river & land), sized by the number of
+  atlas genera; formations of the selected entry get a dashed ring. Hover = name; click = highlight;
+  double-click = side panel with age, PBDB environment and rock types, palaeolatitude,
+  palaeoenvironment text, the atlas taxa found there (click = select, double-click = open entry) and
+  sources. Longitudes in the model are not constrained (palaeomagnetic frame): say so, never
+  interpret them.
 - No group gets special treatment in code because it is the pilot (no hard-coded "pterosauria"
   defaults); the start page is the root of the tree.
 - Images and libraries are served locally (no remote requests at runtime).
@@ -326,5 +378,9 @@ The build needs no network. Raw downloads live in `data/raw/` and are refreshed 
 In the original environment the shell could not reach external sites; downloads were made in a
 browser with same-origin `fetch` on each site (scripts in `scripts/legacy/fetch/`). APIs used:
 PBDB `data1.2` (taxa, occurrences, refs), English Wikipedia API (extracts, revisions, images),
-Wikimedia Commons `imageinfo` (licences, authors), PhyloPic API (silhouettes).
+Wikimedia Commons `imageinfo` (licences, authors), PhyloPic API (silhouettes), PBDB `colls/list`
+(formation coordinates, environment, lithology → `data/raw/<volume>/pbdb_colls.json`), GPlates Web
+Service `reconstruct/coastlines` and `reconstruct/reconstruct_points` with `model=MERDITH2021`
+(coastlines simplified in the browser: rings < 1 deg² dropped, Douglas–Peucker 0.3°, coordinates
+×10 as integers → `data/raw/paleomaps/`).
 Record the download date in the source text when you add new data.

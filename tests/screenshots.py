@@ -20,6 +20,8 @@ VIEWS = {
     "tree-of-life": "#tree-of-life",
     "excluded": "#excluded",
     "about": "#about",
+    "biota": "#biota",
+    "biota-formation": "#biota/romualdo-brazil",
 }
 
 

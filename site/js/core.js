@@ -40,17 +40,19 @@ function init(){
   $("#names").innerHTML=[...names.keys()].map(n=>`<option value="${esc(n)}">`).join("");
   initSearch();
   document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;location.hash=v==="tree"?(cur||"vida"):v==="clado"?"tree-of-life":v});
+  const bt=$('.seg [data-v="biota"]');if(bt&&!(D.formations||[]).length)bt.style.display="none";
   addEventListener("hashchange",route);route();
 }
 function route(){
   const h=decodeURIComponent(location.hash.slice(1));
-  if(["time","excluded","about","index"].includes(h)){view=h}else if(h==="tree-of-life"||h==="cladogram"){view="clado"}else{view="tree";cur=byId[h]?h:(cur||"vida");reveal(cur)}
-  document.querySelector("main").classList.toggle("full",view==="clado");
-  $(".encnav").style.display=view==="clado"?"none":"";
+  if(["time","excluded","about","index","biota"].includes(h)){view=h}else if(h.startsWith("biota/")){view="biota";BT.focus(h.slice(6))}else if(h==="tree-of-life"||h==="cladogram"){view="clado"}else{view="tree";cur=byId[h]?h:(cur||"vida");reveal(cur)}
+  const full=view==="clado"||view==="biota";
+  document.querySelector("main").classList.toggle("full",full);
+  $(".encnav").style.display=full?"none":"";
   document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===view));
-  document.querySelector('.seg [data-v="tree"]').classList.toggle("on",view!=="clado");
-  if(view!=="clado")renderSide();
-  ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),index:renderIndex,time:renderTime,excluded:renderExcluded,about:renderAbout})[view]();
+  document.querySelector('.seg [data-v="tree"]').classList.toggle("on",!full);
+  if(!full)renderSide();
+  ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),biota:renderBiota,index:renderIndex,time:renderTime,excluded:renderExcluded,about:renderAbout})[view]();
   $("#view").scrollTop=0;
 }
 function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();renderSide()}else location.hash=id}

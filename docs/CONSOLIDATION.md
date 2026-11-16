@@ -7,6 +7,7 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 
 | Rule | Open |
 |---|---|
+| F5 | 202 |
 | G5 | 17 |
 | G6 | 2 |
 | G7 | 2 |
@@ -15,8 +16,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 | I4 | 130 |
 | I6 | 17 |
 | L1 | 4 |
-| Q1 | 147 |
-| S2 | 29 |
+| Q1 | 248 |
+| S2 | 130 |
 
 ## Open issues by entry
 
@@ -70,6 +71,511 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
 - **clade thalassodromidae**
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation alcobaca-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation altmuhltal-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation alum-shale-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation argiles-d-octeville-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation argilliti-di-riva-di-solto-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bahariya-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation black-peaks-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation blue-lias-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cabacos-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation caiua-group-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcaires-tachetes-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation couche-iii-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation crato-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation densus-ciula-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dinosaur-park-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dolomia-di-forni-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fleming-fjord-greenland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation goio-ere-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gramame-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gres-a-avicula-contorta-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation huachi-huanhe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hutubihe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ifezouane-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jagua-cuba**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation javelina-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jiufotang-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation karabastau-kazakhstan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kimmeridge-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation klettgau-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kossen-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-boca-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-cruz-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-huerguina-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lagarcito-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lealt-shale-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation leza-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lianmuqin-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation liegende-bankkalk-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lourinha-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lower-kimmeridge-marls-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marne-de-flize-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation merchantville-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mornsheim-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation muwaqqar-jordan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation niobrara-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nugget-sandstone-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nusplingen-limestone-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation painten-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation phosphorite-unit-jordan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pierre-shale-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation posidonia-shale-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation purbek-kalk-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation raul-mare-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation romualdo-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rosa-blanca-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sannine-limestone-lebanon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sebes-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation seefelder-schichten-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sharon-springs-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation shaximiao-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation shengjinkou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation shishugou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation solnhofen-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation suntel-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tangshang-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation taynton-limestone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tendaguru-tanzania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tiaojishan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tlayua-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation toolebuc-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tsagaantsav-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tuchengzi-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-auvergne-rhone-alpes-lorraine-pterodactylus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-baden-wurttemberg-eastern-bavaria-ardeadactylus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-baden-wurttemberg-rhamphorhynchus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bavaria-balaenognathus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bavaria-scaphognathus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-coahuila-muzquizopteryx**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-delaware-pteranodon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-diekirch-eudimorphodon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-draa-tafilalet-alanqa**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-draa-tafilalet-coloborhynchus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-draa-tafilalet-xericeps**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-eastern-barvaria-bellubrunnus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-england-coloborhynchus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-england-dimorphodon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-england-gnathosaurus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-england-plataleorhynchus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-liaoning-nurhachius**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-lorraine-dorygnathus**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-lorraine-eudimorphodon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-pinar-del-rio-cacibupteryx**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-provence-alpes-cote-d-azur-mistralazhdarcho**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation vectis-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wadhurst-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wessex-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation west-melbury-marly-chalk-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation whitby-mudstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation winton-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yixian-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zorzino-limestone-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
 - **genus Alanqa**

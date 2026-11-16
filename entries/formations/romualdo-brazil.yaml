@@ -1,0 +1,28 @@
+id: romualdo-brazil
+name: Romualdo
+rank: formation
+group: Santana
+country: Brazil
+regions: [Ceará]
+location:
+  lat: -7.2
+  lng: -39.576
+  basis: median of 4 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [lagoonal/restricted shallow subtidal]
+lithology: ['"shale"']
+pbdb_collections: ['67712', '92290', '94694', '194497']
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Romualdo (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Romualdo
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
