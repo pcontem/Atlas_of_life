@@ -40,7 +40,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 
 Site code, one file per view: `js/core.js` (state, routing), `sidebar.js`, `entry-genus.js`
 (incl. size diagram), `entry-clade.js`, `timeline.js`, `index-search.js`, `pages.js`
-(excluded, about), `tree-of-life.js`, `biota.js` (Biota mode), `main.js` (start-up, must load last). Plain scripts sharing
+(excluded, about), `tree-of-life.js`, `biota.js` (Biota mode), `entry-formation.js` (formation entries), `main.js` (start-up, must load last). Plain scripts sharing
 global scope, no bundler.
 
 ## 3. Golden rules
@@ -357,16 +357,22 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   (and the text being typed). Time = an ICS interval name or an age/range in Ma, matched when the
   stratigraphic range overlaps it. A type filter (Full entries / Clades / Genera / All) applies on top. Sidebar search with keyboard support.
 - **Biota** (third mode in the top bar, `#biota`, deep link `#biota/<formation id>`): a time slider
-  (oldest left, present right; ◀ ▶, arrow keys, an ICS era/period strip that can be clicked,
+  (oldest left, present right, on a gently non-linear scale — position = 1 − (age/1000 Ma)^0.6 — so
+  recent times get more room; ◀ ▶ step one map, arrow keys, an ICS era/period strip on the same
+  scale that can be clicked,
   "⌖ Selected entry" jumps to the selected entry's time, "Next formations" to the next older time with
   new formations). The map (Equal Earth projection) shows the continents of that time from the
   Merdith et al. 2021 plate model (coastlines every 5 Myr to 540 Ma, every 20 Myr to 1000 Ma) and the
   formations whose dated beds overlap the time ± 2.5 Myr, placed at their reconstructed positions,
   coloured by environment (marine, coastal & lagoon, lake, river & land), sized by the number of
-  atlas genera; formations of the selected entry get a dashed ring. Hover = name; click = highlight;
-  double-click = side panel with age, PBDB environment and rock types, palaeolatitude,
-  palaeoenvironment text, the atlas taxa found there (click = select, double-click = open entry) and
-  sources. Longitudes in the model are not constrained (palaeomagnetic frame): say so, never
+  atlas genera; formations of the selected entry get a dashed ring. Hover = name; **click** = the
+  formation's card beside the map (age, PBDB environment and rock types, palaeolatitude,
+  palaeoenvironment text, the atlas taxa found there — click = select, double-click = open entry —
+  and sources); **double-click** = the formation's encyclopedia entry.
+- **Formation entries** (`#formation/<id>`, Encyclopedia mode, Entry tab): name, group, country,
+  age, environment badge, summary; cards for palaeoenvironment, atlas taxa found there (grouped by
+  clade), sources; time range, a small map of where it lay (mid time of its record) with
+  "Explore in Biota", and the PBDB geology. Genus entries link each formation to its entry. Longitudes in the model are not constrained (palaeomagnetic frame): say so, never
   interpret them.
 - No group gets special treatment in code because it is the pilot (no hard-coded "pterosauria"
   defaults); the start page is the root of the tree.

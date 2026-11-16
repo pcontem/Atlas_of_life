@@ -45,14 +45,14 @@ function init(){
 }
 function route(){
   const h=decodeURIComponent(location.hash.slice(1));
-  if(["time","excluded","about","index","biota"].includes(h)){view=h}else if(h.startsWith("biota/")){view="biota";BT.focus(h.slice(6))}else if(h==="tree-of-life"||h==="cladogram"){view="clado"}else{view="tree";cur=byId[h]?h:(cur||"vida");reveal(cur)}
+  if(["time","excluded","about","index","biota"].includes(h)){view=h}else if(h.startsWith("biota/")){view="biota";BT.focus(h.slice(6))}else if(h.startsWith("formation/")){view="formation";curF=h.slice(10)}else if(h==="tree-of-life"||h==="cladogram"){view="clado"}else{view="tree";cur=byId[h]?h:(cur||"vida");reveal(cur)}
   const full=view==="clado"||view==="biota";
   document.querySelector("main").classList.toggle("full",full);
   $(".encnav").style.display=full?"none":"";
-  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===view));
+  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===view||(view==="formation"&&b.classList.contains("entry"))));
   document.querySelector('.seg [data-v="tree"]').classList.toggle("on",!full);
   if(!full)renderSide();
-  ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),biota:renderBiota,index:renderIndex,time:renderTime,excluded:renderExcluded,about:renderAbout})[view]();
+  ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),biota:renderBiota,formation:()=>renderFormation(curF),index:renderIndex,time:renderTime,excluded:renderExcluded,about:renderAbout})[view]();
   $("#view").scrollTop=0;
 }
 function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();renderSide()}else location.hash=id}

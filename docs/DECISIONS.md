@@ -135,3 +135,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
     (`summary`, `paleoenvironment`) written by hand with sources (rules F1–F5). 101 formation
     entries created as drafts (unnamed units are one locality per genus); their prose is open
     consolidation work (F5, S2, Q1).
+- Biota (owner): the slider and the era/period strip use a gently non-linear scale
+  (1 − (age/1000)^0.6) so recent times get more room; a single click on a formation shows its card
+  beside the map, a double-click opens the formation's own encyclopedia entry (`#formation/<id>`,
+  new view `entry-formation.js`), also linked from the formation table of genus entries.

@@ -22,6 +22,7 @@ VIEWS = {
     "about": "#about",
     "biota": "#biota",
     "biota-formation": "#biota/romualdo-brazil",
+    "entry-formation": "#formation/romualdo-brazil",
 }
 
 
