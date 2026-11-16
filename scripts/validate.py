@@ -23,6 +23,10 @@ SOURCE_KINDS = {"original", "literature", "database", "encyclopedia"}
 LICENSE_OK = re.compile(r"^(CC0|Public domain|CC BY(-SA)? \d\.\d)$")
 SIL_LICENSE_OK = re.compile(r"creativecommons\.org/(publicdomain|licenses/by(-sa)?/)")
 CURATION = {"draft", "checked"}
+ORIGINS = {"ai-draft", "human"}
+VERDICTS = {"accepted", "changes", "rejected"}
+SCOPES = {"all", "identity", "classification", "age", "formations", "size", "fossil_material", "biology", "images",
+          "sources", "text"}
 TAXON_RANKS = {"kingdom", "phylum", "class", "subclass", "order", "suborder", "infraorder", "superfamily",
                "family", "subfamily", "tribe", "unranked clade"}
 EXCLUDED_STATUS = {"nomen dubium", "nomen nudum", "nomen inquirendum", "junior synonym"}
@@ -187,13 +191,34 @@ def check_genus(e, path, clade_ids, excluded_names):
 
 
 def check_curation(w, c):
+    """Q rules: curation status, origin and the review record (CONTRIBUTING.md, CLAUDE.md §4.6)."""
     c = c or {}
     if c.get("status") not in CURATION:
         err("Q1", w, f"curation.status must be one of {sorted(CURATION)}")
         return
+    if c.get("origin") not in ORIGINS:
+        err("Q2", w, f"curation.origin must be one of {sorted(ORIGINS)}")
+    reviews = c.get("reviews") or []
+    for r in reviews:
+        rw = f"{w} review by {r.get('by')}"
+        if not r.get("by") or not re.match(r"^\d{4}-\d{2}-\d{2}$", str(r.get("on") or "")):
+            err("Q3", rw, "a review needs `by` (GitHub user) and `on` (YYYY-MM-DD)")
+        if r.get("verdict") not in VERDICTS:
+            err("Q3", rw, f"verdict must be one of {sorted(VERDICTS)}")
+        sc = r.get("scope") or []
+        if not sc or set(sc) - SCOPES:
+            err("Q3", rw, f"scope must be a non-empty list from {sorted(SCOPES)}")
+        if r.get("confirmed_by") and r["confirmed_by"] == r.get("by"):
+            err("Q3", rw, "a review cannot be confirmed by its own author")
+        if r.get("confirmed_by") and not re.match(r"^\d{4}-\d{2}-\d{2}$", str(r.get("confirmed_on") or "")):
+            err("Q3", rw, "confirmed reviews need confirmed_on (YYYY-MM-DD)")
     if c["status"] == "checked":
-        if not c.get("checked_by") or not c.get("checked_on"):
-            err("Q1", w, "checked entries need checked_by and checked_on")
+        full = [r for r in reviews if r.get("verdict") == "accepted" and "all" in (r.get("scope") or [])
+                and r.get("confirmed_by") and r["confirmed_by"] != r.get("by")]
+        if not full:
+            err("Q1", w, "checked entries need an accepted review of scope 'all', confirmed by a second reviewer")
+        elif c.get("checked_by") != full[-1]["by"] or not c.get("checked_on"):
+            err("Q1", w, "checked_by / checked_on must name the accepted, confirmed review")
         if c.get("notes"):
             err("Q1", w, "checked entries cannot have open curation notes")
     else:

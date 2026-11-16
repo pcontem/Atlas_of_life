@@ -1,0 +1,19 @@
+name: audit
+# Once a month, opens an issue with a random sample of `checked` entries for an independent
+# second look (CONTRIBUTING.md §7). Also runs on demand.
+on:
+  workflow_dispatch:
+  schedule: [{ cron: "41 5 3 * *" }]
+permissions: { contents: read, issues: write }
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - run: python3 scripts/audit.py --n 5 > /tmp/audit.md
+      - name: Open the audit issue
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh issue create --repo "$GITHUB_REPOSITORY" --title "Audit $(date +%Y-%m)" --label audit --body-file /tmp/audit.md

@@ -1,0 +1,26 @@
+name: New genus or name
+description: A genus missing from the atlas, or a name that should be excluded (nomen dubium, synonym…).
+title: "New genus: "
+labels: [new-genus]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Genus
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Proposal
+      options: [add — valid genus missing from the atlas, exclude — nomen dubium / nudum / junior synonym]
+    validations: { required: true }
+  - type: textarea
+    id: reference
+    attributes:
+      label: Publication
+      description: The paper that named it (or that established its status), with DOI or link.
+    validations: { required: true }
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

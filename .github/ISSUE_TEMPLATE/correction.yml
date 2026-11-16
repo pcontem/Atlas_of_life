@@ -1,0 +1,44 @@
+name: Correction
+description: Something in an entry is wrong, missing or outdated.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Every change needs a source. A reviewer (not you) will check it before it reaches the site.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: Genus, clade or formation, as it appears in the atlas (or its page link).
+      placeholder: Pteranodon
+    validations: { required: true }
+  - type: dropdown
+    id: field
+    attributes:
+      label: Part of the entry
+      options: [Name / authority / type species, Classification, Age, Formations, Size, Fossil material, Biology, Images, Summary or other text, Sources, Other]
+    validations: { required: true }
+  - type: textarea
+    id: current
+    attributes:
+      label: What the atlas says now
+  - type: textarea
+    id: proposed
+    attributes:
+      label: What it should say
+    validations: { required: true }
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Full reference (authors, year, title, journal) and DOI or link. Wikipedia alone is not enough.
+    validations: { required: true }
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      options:
+        - label: I wrote this in my own words and agree that it is published under the atlas licence (see CONTRIBUTING.md).
+          required: true

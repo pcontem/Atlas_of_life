@@ -118,9 +118,11 @@ silhouette: {...}                 # §4.4
 sources: [...]                    # §4.5
 curation:                         # §4.6
   status: draft
+  origin: ai-draft
   checked_by: ''
   checked_on: ''
   notes: []
+  reviews: []
 ```
 
 Completeness scale (G11): **complete** = whole skeleton incl. skull; **near-complete** = most of
@@ -239,11 +241,34 @@ Each item: `kind`, `text` (full citation), `url` (optional).
 
 ### 4.6 Curation status
 
-`curation.status`: `draft` (default) or `checked`.
-- `checked` means someone went through every field against the cited sources, all its **S** rules
-  pass and `notes` is empty. Fill `checked_by` (name) and `checked_on` (YYYY-MM-DD). **Q1.**
+```yaml
+curation:
+  status: draft          # draft | checked
+  origin: ai-draft       # Q2 E  ai-draft | human — who wrote the first version
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews:               # Q3 E  one item per review (issue "Submit a review" → PR)
+  - by: Jane Doe         #       name; on = YYYY-MM-DD
+    on: 2026-12-01
+    scope: [all]         #       all | identity, classification, age, formations, size,
+                         #       fossil_material, biology, images, sources, text
+    verdict: accepted    #       accepted | changes | rejected
+    notes: ''
+    confirmed_by: ''     #       a second person, never the same as `by`
+    confirmed_on: ''     #       required when confirmed_by is set
+```
+- **Two-person rule (Q1 E).** `checked` requires a review with `scope: [all]`, `verdict: accepted`,
+  confirmed by a different person; `checked_by` = that review's `by`; `notes` empty; all **S** rules
+  pass. Nobody confirms their own review.
 - Anything doubtful you notice goes into `curation.notes` as a short to-do — never silently.
-- Claude may set `checked` only when the owner asks for it in the request.
+- Claude never sets `checked`, never records a review or confirmation in its own name, and never
+  approves a pull request. Entries Claude drafts get `origin: ai-draft`.
+- Contribution process, roles and audits: [`CONTRIBUTING.md`](CONTRIBUTING.md). GitHub side: issue
+  forms in `.github/ISSUE_TEMPLATE/` (correction, review, image, new genus), the PR template,
+  `CODEOWNERS`, branch protection on `main` (one approval by someone other than the author, stale
+  approvals dismissed, `check` must pass), monthly `audit.yml` (random sample of checked entries,
+  `scripts/audit.py`).
 
 ### 4.7 Formation entries (`entries/formations/<id>.yaml`)
 
@@ -427,6 +452,13 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   interpret them.
 - No group gets special treatment in code because it is the pilot (no hard-coded "pterosauria"
   defaults); the start page is the root of the tree.
+- **Review status** on every entry page (genus, clade, formation): a badge next to the title —
+  "✓ Checked · <by> & <confirmed_by>", "AI draft · not yet reviewed" or "Draft · not yet reviewed" —
+  and a **Review & contribute** card after Sources with the review history and buttons that open
+  pre-filled GitHub issue forms (Suggest a correction, Submit a review, Review or suggest an image
+  [genera only], **Edit this entry** → the entry's YAML in GitHub's web editor, which forks and opens
+  a pull request; path from `cur.src`, How reviewing works → CONTRIBUTING.md). The issue forms only
+  work once they are on `main` (GitHub reads them from the default branch).
 - Images and libraries are served locally (no remote requests at runtime).
 - **Loading:** `data.json` is a light index (clades, one short record per genus with its
   representative image, formations, timescale); the full genus entry (`g/<Genus>.json`) is fetched

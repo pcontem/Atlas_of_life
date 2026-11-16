@@ -72,6 +72,27 @@ function taxaBlock(gs,tile,gridClass){const big=gs.length>12,vols={};
     `<details class="tgrp"${big?"":" open"}><summary>${esc(k)} <span class="note">${v.length}${big?" · "+v.slice(0,3).map(g=>"<i>"+esc(g.name)+"</i>").join(", ")+(v.length>3?"…":""):""}</span></summary><div class="${gridClass}">${v.sort((a,b)=>a.name.localeCompare(b.name)).map(tile).join("")}</div></details>`).join("");
   const vs=Object.entries(vols);
   return vs.length===1?inner(vs[0][1]):vs.map(([v,groups])=>`<details class="tvol" open><summary>${esc(v)} <span class="note">${Object.values(groups).flat().length}</span></summary>${inner(groups)}</details>`).join("")}
+/* ---------- review status and contributions (CONTRIBUTING.md) ---------- */
+const REPO="https://github.com/pcontem/Atlas_of_life";
+const issueUrl=(tpl,entry,title)=>`${REPO}/issues/new?template=${tpl}&entry=${encodeURIComponent(entry)}&title=${encodeURIComponent(title+entry)}`;
+// header badge: checked (who reviewed and who confirmed), or draft (AI-drafted or human draft)
+function curBadge(c){if(!c)return"";
+  if(c.status==="checked"){const r=(c.reviews||[]).filter(r=>r.verdict==="accepted"&&(r.scope||[]).includes("all")).pop()||{};
+    return `<span class="badge ok" title="Checked against its sources by ${esc(r.by)} on ${esc(r.on)}, confirmed by ${esc(r.confirmed_by)} on ${esc(r.confirmed_on)}">✓ Checked · ${esc(r.by)} &amp; ${esc(r.confirmed_by)}</span>`}
+  return c.origin==="ai-draft"?`<span class="badge draft" title="Drafted with AI from the cited sources; not yet checked by a person. Reviews are welcome.">AI draft · not yet reviewed</span>`
+    :`<span class="badge draft" title="Written by a contributor; not yet checked by a second person.">Draft · not yet reviewed</span>`}
+// card at the end of an entry: review history + links to propose a correction / a review / an image
+function curCard(c,entry,isGenus){c=c||{};const rv=c.reviews||[];
+  const row=r=>`<li><b>${esc(r.by)}</b>, ${esc(r.on)} — ${esc(r.verdict)} <span class="note">(${esc((r.scope||[]).join(", "))})</span>${r.confirmed_by?` · confirmed by <b>${esc(r.confirmed_by)}</b>, ${esc(r.confirmed_on)}`:` · <span class="note">awaiting confirmation</span>`}${r.notes?`<div class="note">${esc(r.notes)}</div>`:""}${r.ref?` <a href="${esc(r.ref)}" target="_blank" rel="noopener">discussion</a>`:""}</li>`;
+  return `<div class="card rvcard"><h3>Review &amp; contribute</h3>
+    <p class="note" style="margin-top:0">${c.status==="checked"?"This entry was checked against its sources by one reviewer and confirmed by a second.":c.origin==="ai-draft"?"This entry was drafted with AI from the cited sources and has not yet been checked by a person.":"This entry has not yet been checked by a second person."}
+    Anyone can propose a correction; reviewers record what they checked, and every review is confirmed by another reviewer.</p>
+    ${rv.length?`<ul class="rvlist">${rv.map(row).join("")}</ul>`:`<p class="note">No reviews yet.</p>`}
+    <div class="rvbtns"><a class="rvb" href="${issueUrl("correction.yml",entry,"Correction: ")}" target="_blank" rel="noopener">✎ Suggest a correction</a>
+      <a class="rvb" href="${issueUrl("review.yml",entry,"Review: ")}" target="_blank" rel="noopener">☑ Submit a review</a>
+      ${isGenus?`<a class="rvb" href="${issueUrl("image.yml",entry,"Image: ")}" target="_blank" rel="noopener">▣ Review or suggest an image</a>`:""}
+      ${c.src?`<a class="rvb" href="${REPO}/edit/main/${c.src}" target="_blank" rel="noopener" title="Opens this entry's file in GitHub's editor; saving proposes the change as a pull request (needs a GitHub account)">✍ Edit this entry</a>`:""}
+      <a class="rvb sub" href="${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">How reviewing works</a></div></div>`}
 function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();aboutTabs("excluded");renderSide()}else location.hash=id}
 function path(id){const p=[];let n=byId[id];while(n){p.unshift(n);n=byId[n.parent]}return p}
 function reveal(id){path(id).forEach(n=>{if(n.type==="clade")open.add(n.id)})}

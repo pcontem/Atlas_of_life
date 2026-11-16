@@ -363,9 +363,11 @@ sources:
     (help)'
 curation:
   status: draft
+  origin: ai-draft
   checked_by: ''
   checked_on: ''
   notes:
   - Species list comes straight from PBDB and includes historical combinations (e.g. P. kochi = Diopecephalus, which
     has its own entry); keep only valid species.
   - Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+  reviews: []

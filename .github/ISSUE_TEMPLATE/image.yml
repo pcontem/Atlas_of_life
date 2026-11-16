@@ -1,0 +1,42 @@
+name: Image review or suggestion
+description: Review a life restoration or suggest an openly licensed image.
+title: "Image: "
+labels: [image-review]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      placeholder: Pteranodon
+    validations: { required: true }
+  - type: input
+    id: image
+    attributes:
+      label: Image
+      description: The file name shown under the image, or the link of a new image (Wikimedia Commons, open-access article…).
+    validations: { required: true }
+  - type: dropdown
+    id: action
+    attributes:
+      label: What do you propose
+      options: [accept — the restoration matches current knowledge, outdated — contradicted by current knowledge, remove — wrong taxon / not allowed (model, AI, licence), add — new image]
+    validations: { required: true }
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Life restorations — checked criteria (rule I4)
+      options:
+        - label: pycnofibres present
+        - label: wing membrane reaching the ankle
+        - label: crest, teeth and skull proportions consistent with the known material
+        - label: no features contradicted by the sources
+  - type: input
+    id: licence
+    attributes:
+      label: Licence (for new images)
+      description: Only CC0, public domain, CC BY or CC BY-SA can be copied; anything else can only be linked.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Reasons and sources
+    validations: { required: true }
