@@ -1,0 +1,36 @@
+id: eumetazoa
+name: ParaHoxozoa
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: English Wikipedia, “ParaHoxozoa”, revision 1377051484 (clade)
+parent: metazoa
+wikipedia: ParaHoxozoa
+summary: 'Animals with Hox/ParaHox genes: bilaterians, cnidarians and placozoans, leaving out sponges and comb jellies.'
+diagnosis:
+- Hox/ParaHox genes of the ANTP class, which give the group its name
+- Several further gene classes absent in sponges and comb jellies (among them HNF, CUT, PROS and ZF)
+notes: The tree node is labelled ParaHoxozoa (id kept as "eumetazoa"). If comb jellies are the first animal branch,
+  the older name Eumetazoa is sometimes used for this same group. Whether sponges or comb jellies are the sister
+  of all other animals is unresolved, so the base of the animal tree is shown as uncertain. A claim that sponges
+  also have a ParaHox-like gene has been contested.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “ParaHoxozoa”. English Wikipedia, revision 1377051484.
+  url: https://en.wikipedia.org/w/index.php?title=ParaHoxozoa&oldid=1377051484
+- kind: literature
+  text: 'Simion, Paul; Philippe, Hervé; Baurain, Denis; Jager, Muriel; Richter, Daniel J.; Franco, Arnaud Di; et
+    al. (2017). A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals.
+    Current Biology 27: 958–967.'
+  url: https://doi.org/10.1016/j.cub.2017.02.031
+- kind: literature
+  text: Borowiec, Marek L.; Lee, Ernest K.; Chiu, Joanna C.; Plachetzki, David C. (2015). Extracting phylogenetic
+    signal and accounting for bias in whole-genome data sets supports the Ctenophora as sister to remaining Metazoa.
+    BMC Genomics 16.
+  url: https://doi.org/10.1186/s12864-015-2146-4
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

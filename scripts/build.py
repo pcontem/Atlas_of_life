@@ -142,7 +142,17 @@ def formations_to_site(genera):
 def main():
     backbone = json.loads((ROOT / "data/tree/backbone.json").read_text())
     known = {n[0] for n in backbone}
-    clades, genera, excluded, metas, tree = [], [], [], [], list(backbone)
+    clades, genera, excluded, metas, tree = [], [], [], [], [list(n) for n in backbone]
+    # clade entries for groups of the tree backbone (entries/tree/clades): the node keeps its place and name
+    # in backbone.json and is marked as having an entry
+    node_at = {n[0]: n for n in tree}
+    for p in sorted((ENTRIES / "tree/clades").glob("*.yaml")):
+        c = load(p)
+        n = node_at.get(c["id"])
+        if not n:
+            sys.exit(f"{p}: '{c['id']}' is not in the tree backbone")
+        n[6] = 1
+        clades.append(dict(clade_to_site(c), scope="tree", trank_src=c.get("taxon_rank_source", "")))
     for vol in sorted(ENTRIES.glob("*/_volume.yaml")):
         v = load(vol)
         d = vol.parent
