@@ -1,7 +1,7 @@
 /* Atlas of Life — Biota mode: a time slider, the continents of that time (Merdith et al. 2021 plate model via
    GPlates) and the formations with atlas taxa as points. Double-click a point: its environment and the atlas
    taxa found there (only taxa with atlas entries are listed). */
-const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0;
+const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0,zoom,zt=d3.zoomIdentity;
   const ENV=[["coast","Coastal & lagoon","#4fa59a",/lagoon|estuar|coastal|peritidal|intertidal|delta|bay|marginal|beach/],
     ["marine","Marine","#3f7fa8",/marine|offshore|subtidal|basinal|deep|shelf|slope|reef|carbonate|pelagic/],
     ["lake","Lake","#7c8fd1",/lacustrine|lake|pond/],
@@ -30,7 +30,8 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0;
         <div class="bioctl"><button data-s="-1" title="Older (←)">◀ Older</button><input id="bslider" type="range" min="0" max="1000" step="1"><button data-s="1" title="Younger (→)">Younger ▶</button>
         <button id="bjump" title="Go to the time of the selected entry">⌖ Selected entry</button><button id="bnext" title="Next older time with formations">Next formations ⟶</button></div>
         <svg id="bstrip" height="44"></svg></div>
-      <div id="bmapw"><svg id="bmap"></svg><div id="btip"></div></div>
+      <div id="bmapw"><svg id="bmap"></svg><div id="btip"></div>
+        <div class="bzoom"><button data-z="in" title="Zoom in (or scroll)">+</button><button data-z="out" title="Zoom out">−</button><button data-z="reset" title="Whole globe">⟲</button></div></div>
       <div class="biolegend" id="blegend"></div></div>
       <div class="bioside" id="bside"></div></div>`;
     const sl=$("#bslider");
@@ -47,7 +48,17 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0;
       `<span><i class="ring"></i>Formation of the selected entry</span><span class="note">Point size = atlas genera found there</span>`;
     const box=$("#bmapw").getBoundingClientRect();
     proj=d3.geoEqualEarth().fitExtent([[10,10],[box.width-10,box.height-10]],{type:"Sphere"});gpath=d3.geoPath(proj);
+    // zoom: scroll or the +/− buttons, drag to pan; kept while the time changes; points keep their size on screen
+    const svg=d3.select("#bmap");
+    zoom=d3.zoom().scaleExtent([1,8]).translateExtent([[0,0],[box.width,box.height]]).on("zoom",e=>{zt=e.transform;applyZoom()});
+    svg.call(zoom).on("dblclick.zoom",null);svg.call(zoom.transform,zt);
+    document.querySelectorAll(".bzoom button").forEach(b=>b.onclick=()=>{const z=b.dataset.z;
+      if(z==="reset")svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);else{// zoom towards the highlighted formation if there is one, else the centre of the view
+        const n=selF&&document.querySelector(`#bmap .bpt[data-f="${selF}"]`),p=n?zt.apply([+n.dataset.x,+n.dataset.y]):null;
+        svg.transition().duration(250).call(zoom.scaleBy,z==="in"?1.6:1/1.6,p||undefined)}});
     drawStrip();setT(T,true)}
+  function applyZoom(){const l=d3.select("#bzl");if(l.empty())return;l.attr("transform",zt);
+    l.selectAll(".bpt").attr("transform",function(){return `translate(${this.dataset.x},${this.dataset.y}) scale(${1/zt.k})`});}
   function drawStrip(){const s=$("#bstrip"),W=s.getBoundingClientRect().width||600,A=AMAX(),x=v=>W*pos(Math.min(v,A));
     s.innerHTML=tsRows(A,0,x,0,16,.85,["era","period"]).svg+`<line id="bmark" y1="0" y2="40" stroke="#26251f" stroke-width="2"/>`;
     s.onclick=e=>{const r=s.getBoundingClientRect();setT(near(ageAt((e.clientX-r.left)/r.width)))}}
@@ -59,7 +70,7 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0;
     const W=$("#bstrip").getBoundingClientRect().width||600,m=$("#bmark");if(m){m.setAttribute("x1",W*pos(T));m.setAttribute("x2",W*pos(T))}
     if(!cache[T])cache[T]=await fetch(`paleo/${T}.json`).then(r=>r.json()).catch(()=>[]);
     if(my!==tok)return;draw();side()}
-  function draw(){const svg=d3.select("#bmap"),polys=cache[T]||[];svg.selectAll("*").remove();
+  function draw(){const svg0=d3.select("#bmap"),polys=cache[T]||[];svg0.selectAll("*").remove();const svg=svg0.append("g").attr("id","bzl");
     svg.append("path").attr("d",gpath({type:"Sphere"})).attr("class","bocean");
     svg.append("path").attr("d",gpath(d3.geoGraticule10())).attr("class","bgrat");
     const land={type:"MultiPolygon",coordinates:polys.map(p=>p.map(r=>r.map(([x,y])=>[x/10,y/10])))};
@@ -67,12 +78,13 @@ const BT=(()=>{let T=null,selF=null,openF=null,proj,gpath,cache={},tok=0;
     const mine=curForms(),vis=visible().sort((a,b)=>(a.id===selF)-(b.id===selF)||b.genera.length-a.genera.length);
     const g=svg.append("g");
     for(const f of vis){const[x,y]=proj(f.pp[T]),e=envOf(f),r=4+Math.sqrt(f.genera.length)*3;
-      const c=g.append("g").attr("class","bpt"+(f.id===selF?" sel":"")).attr("data-f",f.id).attr("transform",`translate(${x},${y})`);
+      const c=g.append("g").attr("class","bpt"+(f.id===selF?" sel":"")).attr("data-f",f.id).attr("data-x",x).attr("data-y",y).attr("transform",`translate(${x},${y})`);
       if(mine.has(f.id))c.append("circle").attr("r",r+4).attr("class","bring");
       c.append("circle").attr("r",r).attr("fill",e[2]);
       c.on("mouseenter",ev=>tip(ev,f)).on("mouseleave",()=>$("#btip").style.display="none")
        .on("click",()=>openCard(f.id)).on("dblclick",ev=>{ev.stopPropagation();location.hash="formation/"+f.id})}
-    svg.on("click",ev=>{if(ev.target.tagName!=="circle"&&(selF||openF)){openF=null;history.replaceState(null,"","#biota");highlight(null);side()}})}
+    applyZoom();
+    svg0.on("click",ev=>{if(ev.defaultPrevented)return;if(ev.target.tagName!=="circle"&&(selF||openF)){openF=null;history.replaceState(null,"","#biota");highlight(null);side()}})}
   // highlight without redrawing, so that a double-click still reaches the same element
   // click: open the formation's card beside the map (no redraw, so a double-click still lands on the point)
   function openCard(id){history.replaceState(null,"","#biota/"+id);openF=id;highlight(id);side()}

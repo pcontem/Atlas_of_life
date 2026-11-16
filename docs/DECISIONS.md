@@ -139,3 +139,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   (1 − (age/1000)^0.6) so recent times get more room; a single click on a formation shows its card
   beside the map, a double-click opens the formation's own encyclopedia entry (`#formation/<id>`,
   new view `entry-formation.js`), also linked from the formation table of genus entries.
+- Biota map zoom (owner): scroll/drag and + / − / ⟲, up to ×8 (coastlines are simplified to
+  0.3°, so closer zooms would only show their simplification), kept across time steps.
+  New Encyclopedia sub-tab **Formations** (owner: "a section of geological formations"), between
+  Timeline and Excluded names, listing and filtering all formation entries.

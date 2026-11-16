@@ -315,7 +315,7 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 
 - Three modes in the top bar: **Encyclopedia**, **Tree of life** and **Biota** (it is an outline of the
   classification, not a true cladogram, so never call it "cladogram" in the interface).
-  Encyclopedia sub-tabs: **Index, Entry, Timeline, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
+  Encyclopedia sub-tabs: **Index, Entry, Timeline, Formations, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
   stays highlighted on its sub-tabs).
 - **One selection shared by all views** (`cur` in `core.js`): the entry being read is the node
   highlighted in the Tree of life and the focus of the Timeline, and vice versa. Switching mode keeps it.
@@ -365,11 +365,17 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   Merdith et al. 2021 plate model (coastlines every 5 Myr to 540 Ma, every 20 Myr to 1000 Ma) and the
   formations whose dated beds overlap the time ± 2.5 Myr, placed at their reconstructed positions,
   coloured by environment (marine, coastal & lagoon, lake, river & land), sized by the number of
-  atlas genera; formations of the selected entry get a dashed ring. Hover = name; **click** = the
+  atlas genera; formations of the selected entry get a dashed ring. **Zoom** (scroll, drag to pan,
+  + / − / ⟲ buttons; + zooms towards the highlighted formation; up to ×8) is kept while the time
+  changes, and points keep their size on screen. Hover = name; **click** = the
   formation's card beside the map (age, PBDB environment and rock types, palaeolatitude,
   palaeoenvironment text, the atlas taxa found there — click = select, double-click = open entry —
   and sources); **double-click** = the formation's encyclopedia entry.
-- **Formation entries** (`#formation/<id>`, Encyclopedia mode, Entry tab): name, group, country,
+- **Formations** section (`#formations`, Encyclopedia sub-tab): every formation entry in a table
+  (name, group, country/region, ICS age range, atlas taxa, Biota link), filters stackable: text
+  (name/country/region/group), environment chips, period menu, "only those of the selected entry";
+  sort by oldest/youngest (grouped by period), name or number of genera; a row opens the entry.
+- **Formation entries** (`#formation/<id>`, Encyclopedia mode, Formations tab): name, group, country,
   age, environment badge, summary; cards for palaeoenvironment, atlas taxa found there (grouped by
   clade), sources; time range, a small map of where it lay (mid time of its record) with
   "Explore in Biota", and the PBDB geology. Genus entries link each formation to its entry. Longitudes in the model are not constrained (palaeomagnetic frame): say so, never

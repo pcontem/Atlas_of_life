@@ -155,7 +155,7 @@ main.full #side{display:none}
 #bmap{width:100%;height:100%;display:block}
 .bocean{fill:#dfe9ec;stroke:#b9c9cf}
 .bgrat{fill:none;stroke:#fff;stroke-opacity:.7;stroke-width:.6}
-.bland{fill:#e7dcc2;stroke:#e7dcc2;stroke-width:.6}
+.bland{fill:#e7dcc2;stroke:#e7dcc2;stroke-width:1.6;stroke-linejoin:round}
 .bpt{cursor:pointer}.bpt circle{stroke:#fffdf8;stroke-width:1.2;fill-opacity:.9}
 .bpt:hover circle:not(.bring),.bpt.sel circle:not(.bring){stroke:var(--ink);stroke-width:2}
 .bring{fill:none!important;stroke:var(--accent)!important;stroke-width:2!important;stroke-dasharray:3 2}
@@ -181,3 +181,20 @@ main.full #side{display:none}
 .bgen .mem.sel{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
 .fsub{font:400 20px Fraunces,serif;color:var(--muted)}
 .bopen{display:inline-block;font-size:12.5px;margin:2px 0 4px;cursor:pointer}
+.bzoom{position:absolute;right:8px;top:8px;display:flex;flex-direction:column;gap:4px}
+.bzoom button{width:30px;height:30px;font:600 16px/1 'IBM Plex Sans';border:1px solid var(--line);background:#fffdf8;border-radius:6px;cursor:pointer}
+.bzoom button:hover{border-color:var(--accent)}
+#bmap{cursor:grab}#bmap:active{cursor:grabbing}
+.bocean,.bland,.bgrat{vector-effect:non-scaling-stroke}
+.fctl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:12px 0 8px}
+.fctl input[type=search]{font:inherit;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:6px 10px;width:280px}
+.fctl select{font:inherit;font-size:13px;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:5px 8px}
+.fmine{font-size:13px}
+.fenv{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.fenv button{font:inherit;font-size:12.5px;border:1px solid var(--line);background:#fffdf8;border-radius:14px;padding:3px 11px;cursor:pointer}
+.fenv button.on{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.fenv i,.fdot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:0}
+.fper{font:600 16px Fraunces,serif;margin:20px 0 6px;padding-left:8px;border-left:5px solid}
+.frow{cursor:pointer}.frow:hover td{background:var(--paper2)}
+.fmapc a{cursor:pointer;color:var(--accent);font-size:16px;text-decoration:none}
+.fsec table td:nth-child(1){width:30%}.fsec table td:nth-child(3){width:20%}
