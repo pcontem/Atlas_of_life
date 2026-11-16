@@ -191,6 +191,16 @@ comparison charts, AI-generated images, and photos of other taxa.
   "… life restorations", "… skeletal mounts", "… skulls"); every candidate is checked visually
   before it is added (keep a contact sheet), and gets `review: unreviewed`.
 - **I6 S** Every genus has at least one image.
+- **I7 E** `external`: artwork that may not be copied (e.g. DeviantArt, ArtStation, personal
+  sites, journal figures under restrictive licences) is only **linked**, never downloaded:
+  `kind`, `title`, `artist`, `site`, `url` (https, the artwork's own page), `accessed`
+  (YYYY-MM-DD), `review` (same scale as I4). Max 6 per genus; shown under the gallery as
+  "More reconstructions elsewhere". No permission requests: anything that would need one is a link.
+- Free sources besides Commons (copy allowed, licence checked per item and recorded): figures of
+  open-access papers under CC BY (PLOS ONE, PeerJ, Scientific Reports, Royal Society Open Science,
+  Acta Palaeontologica Polonica, Fossil Record, Frontiers…; cite the paper in `caption`),
+  Smithsonian Open Access (CC0), Biodiversity Heritage Library (public domain, fossil plates
+  only), Flickr/Openverse items under CC BY or CC BY-SA, PhyloPic.
 - Silhouettes come from PhyloPic, with `attribution`, `license`, `page`; `genus_level: false`
   means it depicts a relative (the site says so). Size diagram: a 1.8 m human beside a schematic
   pterosaur scaled to the maximum wingspan.

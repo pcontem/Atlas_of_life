@@ -45,6 +45,8 @@ def genus_to_site(e):
         g["dates_note"] = e["age"]["note"]
     if e.get("silhouette"):
         g["silhouette"] = e["silhouette"]
+    if e.get("external"):
+        g["external"] = e["external"]
     return g
 
 
