@@ -1,5 +1,6 @@
 name: pages
-# Publishes site/ to GitHub Pages when main changes.
+# Publishes site/ to GitHub Pages when main changes. Images come from the `media` branch
+# (scripts/media.py); they are checked against media/manifest.json before publishing.
 # One-time setup: repository Settings → Pages → Source: "GitHub Actions".
 on:
   push: { branches: [main] }
@@ -12,6 +13,11 @@ jobs:
     environment: { name: github-pages, url: "${{ steps.deploy.outputs.page_url }}" }
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - name: Fetch the site images from the media branch
+        run: python3 scripts/media.py pull
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: site }

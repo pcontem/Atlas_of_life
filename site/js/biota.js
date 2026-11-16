@@ -132,9 +132,8 @@ const BT=(()=>{const ZMAX=96;let T=null,selF=null,openF=null,openC=null,lastK=1,
       :`<p class="note">No formation with atlas taxa at this time. Use “Next formations” or drag the slider.</p>`)+about();
     s.querySelectorAll(".bfl").forEach(d=>{d.onclick=()=>openCard(d.dataset.f);d.ondblclick=()=>location.hash="formation/"+d.dataset.f})}
   function formationCard(f){const e=envOf(f);
-    const gs=f.genera.map(n=>byId[n]).filter(Boolean),groups={};
-    for(const g of gs){const p=byId[g.parent];(groups[p?p.name:"—"]=groups[p?p.name:"—"]||[]).push(g)}
-    const thumb=g=>{const im=(g.images||[]).find(i=>i.kind==="life")||(g.images||[])[0];return im?`<img src="${imgSrc(g.name,im)}" alt="">`:(g.silhouette?`<img class="sil" src="${silSrc(g.silhouette)}" alt="">`:"")};
+    const gs=f.genera.map(n=>byId[n]).filter(Boolean);
+    const thumb=g=>{const im=(g.images||[]).find(i=>i.kind==="life")||(g.images||[])[0];return im?`<img src="${thumbSrc(g.name,im)}" alt="">`:(g.silhouette?`<img class="sil" src="${silSrc(g.silhouette)}" alt="">`:"")};
     const tsn=v=>{const a=ivAt(v,"age");return a?a.name:""};
     return `<button class="bback">← All formations at ${T} Ma</button>
       <h2>${esc(f.name)}</h2><a class="bopen" href="#formation/${f.id}">Open the full entry →</a><div class="note">${f.group?esc(f.group)+" Group · ":""}${esc(f.country)}${f.regions.length?" ("+esc(f.regions.join(", "))+")":""}</div>
@@ -146,8 +145,8 @@ const BT=(()=>{const ZMAX=96;let T=null,selF=null,openF=null,openC=null,lastK=1,
       <dt>Position</dt><dd>${fmtLat(f.pp[T][1])} palaeolatitude at ${T} Ma<br><span class="note">Today ${fmtLat(f.lat)}, ${fmtLng(f.lng)} — ${esc(f.basis)}</span></dd></dl>
       <h4>Palaeoenvironment</h4>${f.paleoenv?`<p>${esc(f.paleoenv)}</p>`:`<p class="note">Not written yet for this formation (draft entry).</p>`}
       <h4>Atlas taxa found here (${gs.length})</h4><p class="note">Only taxa with entries in the atlas are listed; more groups will appear as new volumes are added.</p>
-      ${Object.entries(groups).sort().map(([k,v])=>`<div class="bgrp">${esc(k)}</div><div class="bgen">${v.sort((a,b)=>a.name.localeCompare(b.name)).map(g=>
-        `<div class="mem" data-g="${esc(g.name)}" title="Double-click to open the entry"><div class="th">${thumb(g)}</div><div class="nm"><i>${esc(g.name)}</i><small>${fmtMa(g.fad)}–${fmtMa(g.lad)}</small></div></div>`).join("")}</div>`).join("")}
+      ${taxaBlock(gs,g=>
+        `<div class="mem" data-g="${esc(g.name)}" title="Double-click to open the entry"><div class="th">${thumb(g)}</div><div class="nm"><i>${esc(g.name)}</i><small>${fmtMa(g.fad)}–${fmtMa(g.lad)}</small></div></div>`,"bgen")}
       <h4>Sources</h4><ol class="src">${f.sources.map(s=>`<li><span class="kind">${esc(s.kind)}</span>${esc(s.text)}${s.url?` <a href="${esc(s.url)}" target="_blank" rel="noopener">link</a>`:""}</li>`).join("")}<li><span class="kind">model</span>${esc(D.paleo.citation)} ${esc(D.paleo.licence)}. ${esc(D.paleo.via)}</li></ol>`}
   function wire(s){s.querySelector(".bback").onclick=()=>{openF=null;openC=null;history.replaceState(null,"","#biota");highlight(null);side()};
     s.querySelectorAll(".mem[data-g]").forEach(d=>{d.onclick=()=>{cur=d.dataset.g;s.querySelectorAll(".mem").forEach(m=>m.classList.toggle("sel",m===d))};d.ondblclick=()=>location.hash=d.dataset.g})}

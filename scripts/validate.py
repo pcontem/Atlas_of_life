@@ -13,6 +13,7 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
+MEDIA = json.loads((ROOT / "media/manifest.json").read_text()) if (ROOT / "media/manifest.json").exists() else {}
 
 COMPLETENESS = {"complete", "near-complete", "partial", "fragmentary", "multiple"}
 IMAGE_KINDS = {"life", "fossil", "skeletal"}
@@ -144,8 +145,8 @@ def check_genus(e, path, clade_ids, excluded_names):
         elif i.get("kind") == "life" and i["review"] != "accepted":
             strict("I4", iw, f"life restoration is '{i['review']}': review it for accuracy")
         loc = SITE / i["local"] if i.get("local") else img_key(n, i.get("kind", ""))
-        if not loc.exists():
-            err("I5", iw, f"local copy missing: {loc.relative_to(ROOT)}")
+        if loc.relative_to(SITE).as_posix() not in MEDIA:
+            err("I5", iw, f"image not in media/manifest.json: {loc.relative_to(ROOT)} (add it to site/ and run scripts/media.py push)")
     per_kind = collections.Counter(i.get("kind") for i in imgs)
     for k, c in per_kind.items():
         if c > MAX_PER_KIND:
@@ -179,7 +180,7 @@ def check_genus(e, path, clade_ids, excluded_names):
         if not sil.get("attribution"):
             err("I2", w, "silhouette without attribution")
         uid = (sil.get("page") or "").split("/images/")[-1]
-        if not (SITE / "sil" / f"{uid}.webp").exists():
+        if f"sil/{uid}.webp" not in MEDIA:
             err("I5", w, f"local silhouette missing: site/sil/{uid}.webp")
     check_sources(w, e.get("sources"), need_original=True)
     check_curation(w, e.get("curation"))

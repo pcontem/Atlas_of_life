@@ -202,3 +202,7 @@ main.full #side{display:none}
 .bcl circle:not(.bring){stroke-width:2}
 .bfan{stroke:#26251f;stroke-opacity:.5;vector-effect:non-scaling-stroke}
 .bzk{font-size:10.5px;color:var(--muted);text-align:center;background:#fffdf8cc;border-radius:4px}
+details.tgrp,details.tvol{margin:4px 0 8px}
+details.tgrp>summary,details.tvol>summary{cursor:pointer;font-size:12.5px;font-weight:600;padding:3px 0}
+details.tvol>summary{font-size:13.5px;border-bottom:1px solid var(--line);margin-bottom:6px}
+details.tgrp>div{margin:6px 0 4px}

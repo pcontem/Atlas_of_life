@@ -22,7 +22,8 @@ const fmtMa=v=>v==null?"?":(v>=10?v.toFixed(1).replace(/\.0$/,""):v.toFixed(2))+
 // [name, base, top, colour] of the period containing `ma` (colour used for genus bars)
 const era=ma=>{const p=ivAt(ma,"period")||ivAt(ma,"era")||ivAt(ma,"eon");return p?[p.name,p.base,p.top,p.color]:["",0,0,"#9a9184"]};
 const imgKey=(g,k)=>"img/"+g.replace(/[^A-Za-z]/g,"")+"_"+k+".webp";
-const imgSrc=(g,im)=>im.local||imgKey(g,im.kind);/* gallery images carry their own local path */
+const imgSrc=(g,im)=>im.local||imgKey(g,im.kind);
+const thumbSrc=(g,im)=>"img/thumb/"+imgSrc(g,im).slice(4);/* 240-px copy made by scripts/media.py, for lists, cards and maps *//* gallery images carry their own local path */
 const silSrc=s=>s?"sil/"+s.page.split("/images/")[1]+".webp":null;
 
 
@@ -55,6 +56,19 @@ function route(){
   ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),biota:renderBiota,formation:()=>renderFormation(curF),index:renderIndex,formations:renderFormations,time:renderTime,excluded:renderExcluded,about:renderAbout})[view]();
   $("#view").scrollTop=0;
 }
+// full genus entries are loaded on demand (site/g/<Name>.json); the index in data.json has what lists and maps need
+const GLOAD={};
+function loadGenus(id){const n=byId[id];if(!n||n.type!=="genus"||!n.ficha||n.full)return Promise.resolve(n);
+  return GLOAD[id]=GLOAD[id]||fetch(`g/${encodeURIComponent(id)}.json`).then(r=>{if(!r.ok)throw r.status;return r.json()})
+    .then(d=>{Object.assign(n,d,{full:true});return n}).catch(e=>{delete GLOAD[id];throw e})}
+// taxa of a place, grouped by volume (Pterosauria, Dinosauria…) and then by parent clade; collapsible <details>.
+// Small lists (≤ 12 taxa) open fully; larger ones open the volumes but close the clade groups (counts shown).
+function taxaBlock(gs,tile,gridClass){const big=gs.length>12,vols={};
+  for(const g of gs){const v=byId[g.vol]?byId[g.vol].name:(g.vol||"Other"),p=byId[g.parent];((vols[v]=vols[v]||{})[p?p.name:"—"]=(vols[v][p?p.name:"—"]||[])).push(g)}
+  const inner=groups=>Object.entries(groups).sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0])).map(([k,v])=>
+    `<details class="tgrp"${big?"":" open"}><summary>${esc(k)} <span class="note">${v.length}${big?" · "+v.slice(0,3).map(g=>"<i>"+esc(g.name)+"</i>").join(", ")+(v.length>3?"…":""):""}</span></summary><div class="${gridClass}">${v.sort((a,b)=>a.name.localeCompare(b.name)).map(tile).join("")}</div></details>`).join("");
+  const vs=Object.entries(vols);
+  return vs.length===1?inner(vs[0][1]):vs.map(([v,groups])=>`<details class="tvol" open><summary>${esc(v)} <span class="note">${Object.values(groups).flat().length}</span></summary>${inner(groups)}</details>`).join("")}
 function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();renderSide()}else location.hash=id}
 function path(id){const p=[];let n=byId[id];while(n){p.unshift(n);n=byId[n.parent]}return p}
 function reveal(id){path(id).forEach(n=>{if(n.type==="clade")open.add(n.id)})}

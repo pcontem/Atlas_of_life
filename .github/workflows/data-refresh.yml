@@ -1,0 +1,42 @@
+name: data-refresh
+# Downloads fresh data from the Paleobiology Database and the GPlates Web Service (which this
+# repository's maintainers cannot reach from their own sessions), regenerates the formation entries,
+# rebuilds the site data and opens a pull request with the result for review.
+# Runs on demand (Actions → data-refresh → Run workflow) and on the 1st of every month.
+# One-time setup: Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests".
+on:
+  workflow_dispatch:
+  schedule: [{ cron: "17 4 1 * *" }]
+permissions: { contents: write, pull-requests: write }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - name: PBDB occurrences and collections
+        run: python3 scripts/fetch/pbdb.py
+      - name: Formation entries from the new PBDB data
+        run: python3 scripts/make_formations.py
+      - name: Palaeo-positions of new or moved formations (GPlates)
+        run: python3 scripts/fetch/gplates.py
+      - name: Format, build, validate
+        run: |
+          python3 scripts/fmt.py
+          python3 scripts/build.py
+          python3 scripts/validate.py --report || echo "VALIDATION_FAILED=1" >> "$GITHUB_ENV"
+          python3 scripts/validate.py | tail -40 > /tmp/validate.txt || true
+          { cat /tmp/pbdb_report.md; echo; echo '## Validation'; echo '```'; cat /tmp/validate.txt; echo '```'; } > /tmp/pr.md
+          cat /tmp/pr.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: data/pbdb-refresh
+          title: "Refresh PBDB and GPlates data"
+          commit-message: |
+            Refresh PBDB and GPlates data
+
+            Automated by .github/workflows/data-refresh.yml.
+          body-path: /tmp/pr.md
+          delete-branch: true

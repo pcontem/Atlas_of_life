@@ -73,7 +73,7 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
     const N=g.selectAll("g.nd").data(root.descendants(),d=>d.data.id).join(enter=>{const e=enter.append("g").attr("class","nd");
         e.append("circle").attr("class","c");e.append("image").attr("class","im");e.append("text").attr("class","tx");e.append("title");return e});
     N.attr("transform",d=>`translate(${d.px},${d.py})`).each(function(d){const n=byId[d.data.id],el=d3.select(this),isC=n.type==="clade",closed=isC&&!open.has(n.id)&&children[n.id].length;
-      const img=n.ficha&&n.images&&n.images.length?imgSrc(n.name,n.images[0]):null;
+      const img=n.ficha&&n.images&&n.images.length?thumbSrc(n.name,n.images[0]):null;
       const col=n.status==="v"?"#2f7350":n.status==="e"?"#a8622f":"#8b8371";
       el.classed("sel",n.id===sel).classed("ficha",n.ficha);
       el.select("circle.c").attr("r",img?11:isC?5:3.5).attr("fill",closed?col:"#fbf8f1").attr("stroke",col).attr("stroke-width",isC?1.6:1.2);
@@ -108,7 +108,7 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
   function focus(id){reveal(id);if(byId[id].type==="clade")open.add(id);sel=id;draw();center(id);info(id)}
   function info(id){const n=byId[id];if(!n){return}const path=(()=>{const p=[];let m=byId[n.parent];while(m&&p.length<4){p.unshift(m.name);m=byId[m.parent]}return p.join(" › ")})();
     const im=n.ficha&&n.images&&n.images[0];
-    $("#cinfo").innerHTML=`<div class="ci">${im?`<img src="${imgSrc(n.name,im)}" alt="">`:""}<div><div class="cpath">${esc(path)}</div><div class="cname">${n.type==="genus"?"<i>":""}${esc(n.name)}${n.type==="genus"?"</i>":""}</div>
+    $("#cinfo").innerHTML=`<div class="ci">${im?`<img src="${thumbSrc(n.name,im)}" alt="">`:""}<div><div class="cpath">${esc(path)}</div><div class="cname">${n.type==="genus"?"<i>":""}${esc(n.name)}${n.type==="genus"?"</i>":""}</div>
       <div class="note">${n.type==="clade"?n.stat.g+" genera":""}${n.ficha&&n.type==="genus"?esc(n.early||"")+" · "+(n.ws?"wingspan "+n.ws[1]+" m":""):""}${!n.ficha&&n.status?(n.status==="e"?" · extinct":" · living"):""}</div>
       ${n.ficha?`<p style="margin:6px 0 0;font-size:13px">${esc(n.sum)}</p>`:n.note?`<p style="margin:6px 0 0;font-size:13px">${esc(n.note)}</p>`:""}
       <div class="note" style="margin-top:6px">Double-click this card (or switch to <b>Encyclopedia</b> above) to read ${n.ficha?"its entry":"its basic page"}.</div></div></div>`;
