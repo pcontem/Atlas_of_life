@@ -7,6 +7,11 @@ out into site/ before publishing; main only carries media/manifest.json.
     python3 scripts/media.py push       # thumbs + manifest + replace the `media` branch with site/img + site/sil
     python3 scripts/media.py pull       # fetch the `media` branch and unpack it into site/ (then verify)
     python3 scripts/media.py verify     # every file of the manifest is in site/ with the right checksum
+    python3 scripts/media.py sync       # upload site/img + site/sil to the Cloudflare R2 bucket (only what changed)
+
+Serving: when media/config.json has a base_url, the site loads the images from that public R2 bucket and
+the Pages workflow no longer publishes them (no 1 GB GitHub Pages limit). The `media` branch stays the
+reference copy; .github/workflows/media-sync.yml copies it to R2 whenever it changes.
 
 media/manifest.json records path, size, sha256 and volume of every file; the validator checks image
 paths against it. site/img and site/sil are git-ignored on main.
@@ -125,5 +130,43 @@ def verify():
     print(f"verify: {len(man)} media files OK")
 
 
+CONTENT_TYPES = {".webp": "image/webp", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".svg": "image/svg+xml"}
+
+
+def sync():
+    """Make the R2 bucket hold exactly the files of the manifest: upload missing or changed files (compared by
+    MD5 = the ETag R2 returns for single-part uploads), delete img/ and sil/ objects the manifest no longer has.
+    Needs boto3 and R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET in the environment."""
+    import os
+    need = ["R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY", "R2_BUCKET"]
+    missing = [k for k in need if not os.environ.get(k)]
+    if missing:
+        sys.exit("sync: missing " + ", ".join(missing))
+    import boto3
+    verify()
+    s3 = boto3.client("s3", endpoint_url=f"https://{os.environ['R2_ACCOUNT_ID']}.r2.cloudflarestorage.com",
+                      aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"],
+                      aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"], region_name="auto")
+    bucket, man = os.environ["R2_BUCKET"], json.loads(MAN.read_text())
+    remote = {}
+    for prefix in ("img/", "sil/"):
+        for page in s3.get_paginator("list_objects_v2").paginate(Bucket=bucket, Prefix=prefix):
+            for o in page.get("Contents", []):
+                remote[o["Key"]] = o["ETag"].strip('"')
+    up = 0
+    for rel in sorted(man):
+        b = (SITE / rel).read_bytes()
+        if remote.get(rel) == hashlib.md5(b).hexdigest():
+            continue
+        s3.put_object(Bucket=bucket, Key=rel, Body=b,
+                      ContentType=CONTENT_TYPES.get(pathlib.Path(rel).suffix.lower(), "application/octet-stream"),
+                      CacheControl="public, max-age=86400")
+        up += 1
+    gone = sorted(set(remote) - set(man))
+    for i in range(0, len(gone), 1000):
+        s3.delete_objects(Bucket=bucket, Delete={"Objects": [{"Key": k} for k in gone[i:i + 1000]]})
+    print(f"sync: {up} uploaded, {len(gone)} deleted, {len(man) - up} unchanged · bucket {bucket}")
+
+
 if __name__ == "__main__":
-    {"thumbs": thumbs, "manifest": manifest, "push": push, "pull": pull, "verify": verify}[sys.argv[1]]()
+    {"thumbs": thumbs, "manifest": manifest, "push": push, "pull": pull, "verify": verify, "sync": sync}[sys.argv[1]]()

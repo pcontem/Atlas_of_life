@@ -49,7 +49,7 @@ def main():
         threading.Thread(target=srv.serve_forever, daemon=True).start()
         bad = []
         for name, frag in views.items():
-            url = f"http://127.0.0.1:{port}/index.html{frag}"
+            url = f"http://127.0.0.1:{port}/index.html?localmedia{frag}"  # images from site/, not the bucket
             png = OUT / f"{name}.png"
             subprocess.run([chrome(), "--headless=new", "--no-sandbox", "--disable-gpu", "--window-size=1400,900",
                             "--virtual-time-budget=6000", f"--screenshot={png}", url],

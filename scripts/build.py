@@ -164,7 +164,9 @@ def main():
     formations, paleo = formations_to_site(genera)
     home = load(ENTRIES / "home.yaml") if (ENTRIES / "home.yaml").exists() else None
     m = metas[0]
-    data = dict(meta=dict(title="Atlas of Life", group=", ".join(x["title"] for x in metas), built=m["built"],
+    media_cfg = json.loads((ROOT / "media/config.json").read_text()) if (ROOT / "media/config.json").exists() else {}
+    base = (media_cfg.get("base_url") or "").strip()
+    data = dict(media_base=base + ("/" if base and not base.endswith("/") else ""),meta=dict(title="Atlas of Life", group=", ".join(x["title"] for x in metas), built=m["built"],
                           method=m["method"]),
                 clades=clades, genera=genera, excluded=excluded, formations=formations, paleo=paleo, home=home,
                 timescale=timescale, timescale_source=ts["reference"] + " Via " + ts["source"] + ".")

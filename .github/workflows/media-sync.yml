@@ -1,0 +1,35 @@
+name: media-sync
+# Copies the site images (branch `media`, checked against media/manifest.json on main) to the Cloudflare R2
+# bucket that serves them. Runs when media/manifest.json changes on main (that is, after `scripts/media.py push`
+# replaced the media branch and the manifest was merged) and on demand. Uploads only new or changed files; deletes files no longer in the manifest.
+# One-time setup (repository Settings → Secrets and variables → Actions):
+#   secrets   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY  (an R2 API token: Object Read & Write, this bucket only)
+#   variable  R2_BUCKET  (the bucket name)
+on:
+  push:
+    branches: [main]
+    paths: [media/manifest.json]
+  workflow_dispatch:
+permissions: { contents: read }
+concurrency: { group: media-sync, cancel-in-progress: false }
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml boto3
+      - name: Images from the media branch
+        run: python3 scripts/media.py pull
+      - name: Upload to R2
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+        run: |
+          if [ -z "$R2_ACCOUNT_ID" ] || [ -z "$R2_BUCKET" ]; then
+            echo "::notice::R2 is not configured yet (secrets/variable missing); nothing uploaded."; exit 0; fi
+          python3 scripts/media.py sync

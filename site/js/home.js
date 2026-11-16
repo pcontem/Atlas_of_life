@@ -9,7 +9,7 @@ function renderHome(){const h=D.home,lic=i=>i.license_url?`<a href="${esc(i.lice
     <div class="hgrid"><div>${h.intro.map(t=>`<p>${esc(t)}</p>`).join("")}
       <div class="hgo"><button onclick="location.hash='index'">Browse the encyclopedia</button><button onclick="location.hash='tree-of-life'">Explore the tree of life</button><button onclick="location.hash='biota'">Travel through time (Biota)</button></div>
       <div class="stat hstat"><div><b>${nodes.length.toLocaleString("en")}</b><span>taxa in the tree</span></div><div><b>${ng}</b><span>genera with full entries</span></div><div><b>${nf}</b><span>geological formations</span></div></div></div>
-      <figure class="hhero"><img src="${esc(h.hero.local)}" alt="${esc(h.hero.caption)}"><figcaption>${esc(h.hero.caption)}. ${credit(h.hero)}.</figcaption></figure></div>
+      <figure class="hhero"><img src="${esc(MB()+h.hero.local)}" alt="${esc(h.hero.caption)}"><figcaption>${esc(h.hero.caption)}. ${credit(h.hero)}.</figcaption></figure></div>
     <h3 class="hsec">The diversity of life</h3>
     <div class="hgroups">${h.groups.map(g=>`<div class="hg" onclick="go('${g.node}')" title="Open ${esc(g.label)} in the tree">
       <div class="hgi" style="background-image:url('${esc(thumbSrc("",g.image))}')"></div>
