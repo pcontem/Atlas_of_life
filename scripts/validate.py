@@ -27,7 +27,8 @@ ORIGINS = {"ai-draft", "human"}
 VERDICTS = {"accepted", "changes", "rejected"}
 SCOPES = {"all", "identity", "classification", "age", "formations", "size", "fossil_material", "biology", "images",
           "sources", "text"}
-TAXON_RANKS = {"kingdom", "phylum", "class", "subclass", "order", "suborder", "infraorder", "superfamily",
+TAXON_RANKS = {"domain", "kingdom", "subkingdom", "superphylum", "phylum", "subphylum", "superclass", "class",
+               "subclass", "infraclass", "superorder", "order", "suborder", "infraorder", "parvorder", "superfamily",
                "family", "subfamily", "tribe", "unranked clade"}
 EXCLUDED_STATUS = {"nomen dubium", "nomen nudum", "nomen inquirendum", "junior synonym"}
 YEAR = re.compile(r"\b(1[7-9]\d\d|20\d\d)\b")
@@ -250,6 +251,36 @@ def check_clade(e, path, clade_ids, root):
     check_curation(w, e.get("curation"))
 
 
+def check_tree_clades(backbone):
+    """Clade entries for groups of the tree backbone (entries/tree/clades/<id>.yaml). The tree structure stays
+    in data/tree/backbone.json: the entry's id must be a clade node there and its parent that node's parent."""
+    for p in sorted((ROOT / "entries/tree/clades").glob("*.yaml")):
+        e = yaml.safe_load(p.read_text()) or {}
+        w = f"clade {e.get('id')}"
+        node = backbone.get(e.get("id"))
+        if p.stem != e.get("id"):
+            err("C1", w, f"file name {p.name} must be {e.get('id')}.yaml")
+        if not node or node[5] != "c":
+            err("C1", w, "id is not a clade node of data/tree/backbone.json")
+            continue
+        if node[4].startswith(("Informal grouping", "Provisional grouping")):
+            err("C1", w, "informal groupings of the backbone do not get entries")
+        if e.get("rank") != "clade":
+            err("C1", w, "rank must be 'clade'")
+        if (e.get("parent") or "") != (node[2] or ""):
+            err("C1", w, f"parent must be the backbone parent '{node[2]}'")
+        if e.get("taxon_rank") not in TAXON_RANKS:
+            err("C4", w, f"taxon_rank must be one of {sorted(TAXON_RANKS)} (from PBDB or the literature, with taxon_rank_source)")
+        elif not e.get("taxon_rank_source"):
+            err("C4", w, "taxon_rank_source is empty")
+        if not (e.get("summary") or "").strip():
+            err("C2", w, "summary is empty")
+        if len(e.get("diagnosis") or []) < 2:
+            err("C2", w, "diagnosis needs at least two features")
+        check_sources(w, e.get("sources"), need_original=False)
+        check_curation(w, e.get("curation"))
+
+
 def check_volume(vdir, backbone, all_names):
     v = yaml.safe_load((vdir / "_volume.yaml").read_text())
     clades = {p: yaml.safe_load(p.read_text()) for p in sorted((vdir / "clades").glob("*.yaml"))}
@@ -378,6 +409,7 @@ def main():
     all_names = collections.defaultdict(list)
     vols = sorted(p.parent for p in (ROOT / "entries").glob("*/_volume.yaml"))
     genus_forms = []
+    check_tree_clades(backbone)
     for vd in vols:
         _, genera = check_volume(vd, backbone, all_names)
         genus_forms += [(g["name"], g.get("formations") or []) for g in genera.values()]

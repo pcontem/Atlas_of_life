@@ -8,9 +8,9 @@ with it, say so and ask before going ahead.
 A visual, fully sourced encyclopedia of **life on Earth** (no fictional or built worlds), organised
 as a tree of life. It is built volume by volume. **Pterosauria is the pilot volume.**
 
-**Current phase: consolidating Pterosauria.** No new volume (e.g. Dinosauria) is started until
-`python3 scripts/validate.py --strict` passes with zero issues for Pterosauria. Work in this phase
-fixes entries, sources, images and the site; it does not add groups.
+**Pterosauria is consolidated first** (`python3 scripts/validate.py --strict`), but the phase rule that
+blocked new groups until then was removed on 2026-11-16 (owner): clade entries for the whole tree may be
+drafted now (§4.2b). New genus volumes are still planned one at a time.
 
 The website language is **English**. Conversation with the owner may be in Portuguese.
 The word for a page about a taxon is **entry** (never "ficha").
@@ -21,6 +21,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 |---|---|---|
 | `entries/<volume>/genera/<Genus>.yaml` | one genus entry | **yes — source of truth** |
 | `entries/<volume>/clades/<id>.yaml` | one clade entry | **yes — source of truth** |
+| `entries/tree/clades/<id>.yaml` | clade entry for a group of the tree backbone (outside the volumes) | **yes** |
 | `entries/<volume>/excluded.yaml` | names left out (nomina dubia etc.) and why | yes |
 | `entries/formations/<id>.yaml` | one geological formation (a place in Biota mode), shared by all volumes | **yes** (prose); PBDB fields via script |
 | `entries/home.yaml` | the start page ("Life on Earth"): intro text, sources, group pictures with credits | yes |
@@ -165,6 +166,23 @@ curation: {...}          # Q1
 - **C4 E** `taxon_rank` (family, superfamily, suborder, order… or `unranked clade`) with
   `taxon_rank_source` (PBDB taxonomy or a publication). Used by the Timeline resolution menu.
 - **M6** Clades are only created when needed to place genera with consensus; no empty ranks.
+
+### 4.2b Clade entries for the tree backbone (`entries/tree/clades/<id>.yaml`)
+
+Groups of the tree of life outside the volumes (from Life to Avemetatarsalia, mammals, plants…) get the same
+full clade entry as §4.2. The tree structure stays in `data/tree/backbone.json`: `id` must be a clade node
+there and `parent` that node's parent (C1); the site keeps the backbone's display name (with its English
+gloss, e.g. "Metazoa (animals)") and shows the entry's content. Informal groupings of the backbone ("Basal
+X", "Uncertain position", "X and Y" pairs of families) get **no** entry.
+- Sources: a fixed English Wikipedia revision (S3) and, for S2, the publication that named the group or a
+  key phylogenetic study, taken from the PBDB record (`primary_reference`, kind `original` when it is the
+  naming work of the authority, otherwise `literature`) or from the citations of that Wikipedia revision
+  (author, year, title, journal, DOI copied from the citation, never from memory).
+- `taxon_rank` from PBDB when its record is the same taxon (check rank and parent: PBDB homonyms exist, e.g.
+  the spider genus *Archaea*); otherwise `unranked clade` with the source that treats it as a clade.
+- PBDB first-appearance ages of high-level groups include doubtful records; do not quote them as facts.
+- Raw material: `data/raw/tree/clade_sources_<date>.json` (backbone clades, Wikipedia titles and revisions,
+  PBDB records, article texts) and `clade_refs_<date>.json` (citations per revision).
 
 ### 4.3 Excluded names (`excluded.yaml`)
 
@@ -415,6 +433,9 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   lies. "↑ Parent group" goes up; clicking a group row goes down into it. Click a
   row = select; double-click a genus = open its entry.
   Entry pages use the same units for their small time bar. Never hard-code period boundaries.
+- Clade entries of the tree backbone (§4.2b, `scope: "tree"`): rank and living/extinct status, summary, counts
+  of genera in the tree outline, diagnostic features, notes on classification, subgroup and genus chips
+  (green when the group has an entry), sources and the review card.
 - Clade pages: genera sitting directly in the clade are split into "Genera placed directly here"
   and **"Incertae sedis"** (those with `incertae_sedis: true`).
 - Excluded names: follows the selected entry and lists only the names placed **directly** in it,

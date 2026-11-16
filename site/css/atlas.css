@@ -118,6 +118,7 @@ main.full #side{display:none}
 .chip{border:1px solid var(--line);background:#fffdf8;border-radius:16px;padding:3px 10px;font-size:13px;cursor:pointer;text-decoration:none;color:var(--ink)}
 .chip small{color:var(--muted)}
 .chip:hover{border-color:var(--accent)}
+.chip.has{border-color:#b9cfa6;background:#f3f8ee}
 #side{display:flex;flex-direction:column;padding:0 !important}
 #sbox{position:sticky;top:0;z-index:2;background:var(--paper);padding:10px 10px 8px;border-bottom:1px solid var(--line)}
 #ssearch{font:inherit;width:100%;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:7px 10px}

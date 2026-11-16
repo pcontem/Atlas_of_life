@@ -198,3 +198,9 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   changed or deleted there, and since 2026 non-standard thumbnail sizes are refused. Note: Cloudflare
   marks the free `r2.dev` address as rate-limited and not meant for production; a custom domain (~$10 a
   year) is the long-term address. Only `base_url` changes when switching.
+- Phase rule removed (owner, 2026-11-16): clade entries for the whole tree of life may be written now, not
+  only after Pterosauria is consolidated. Scope: all 787 named clade nodes of the backbone (89 informal
+  groupings get none), full entries (as for Pterosauria clades), written in batches by group, one PR per
+  batch. New files in `entries/tree/clades/`; the structure stays in `backbone.json`. Sources harvested on
+  2026-11-16 in the browser: Wikipedia (title, fixed revision, text, citations of that revision) and PBDB
+  (rank, authority, primary reference).
