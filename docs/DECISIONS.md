@@ -198,3 +198,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   changed or deleted there, and since 2026 non-standard thumbnail sizes are refused. Note: Cloudflare
   marks the free `r2.dev` address as rate-limited and not meant for production; a custom domain (~$10 a
   year) is the long-term address. Only `base_url` changes when switching.
+- R2 switch kept dormant (owner: the atlas is mostly for personal use, little traffic expected). The code
+  is merged but `base_url` stays empty; the validator reports image size against the 1 GB Pages limit and
+  warns from 800 MB, when the bucket should be set up.

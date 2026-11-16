@@ -505,3 +505,6 @@ only new or changed files and deleting files no longer in the manifest. Secrets 
 `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and variable `R2_BUCKET` in the repository settings; Claude never
 handles the keys. Once the bucket is filled, set `base_url` in `media/config.json` (the bucket's public
 address) and rebuild: the site then loads images from R2 and GitHub Pages publishes only code and data.
+**Not active yet** (owner, 2026-11-16: mostly personal use, little traffic; switch only when needed). The
+validator prints how much of the 1 GB Pages limit the images use and warns from 800 MB — that is the moment
+to create the bucket and switch.
