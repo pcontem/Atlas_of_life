@@ -22,7 +22,7 @@ function sizeDiagram(g){
   return svg+`<p class="note">${note}${esc(g.wsnote||"")}</p>`+side}
 
 /* ---------- genus entry ---------- */
-function renderFicha(id){const n=byId[id];if(!n.ficha)return renderBasic(id);if(n.type==="clade")return renderClade(id);
+function renderFicha(id){const n=byId[id];if(id==="vida"&&D.home)return renderHome();if(!n.ficha)return renderBasic(id);if(n.type==="clade")return renderClade(id);
   if(!n.full){$("#view").innerHTML=`<div class="empty">Loading <i>${esc(n.name)}</i>…</div>`;
     loadGenus(id).then(()=>{if(cur===id&&view==="tree")renderFicha(id)}).catch(()=>{if(cur===id)$("#view").innerHTML=`<div class="empty">Could not load the entry of <i>${esc(n.name)}</i>.</div>`});return}
   const g=n;

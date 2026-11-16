@@ -19,6 +19,7 @@ VIEWS = {
     "timeline": "#time",
     "tree-of-life": "#tree-of-life",
     "excluded": "#excluded",
+    "home": "#vida",
     "about": "#about",
     "biota": "#biota",
     "biota-formation": "#biota/romualdo-brazil",

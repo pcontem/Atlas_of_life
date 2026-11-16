@@ -6,10 +6,16 @@ i.sci,.sci{font-style:italic}
 header{height:58px;display:flex;align-items:center;gap:22px;padding:0 20px;border-bottom:1px solid var(--line);background:var(--paper)}
 header h1{font:600 21px Fraunces,serif;margin:0;letter-spacing:-.01em}
 header .sub{font-size:11px;color:var(--muted);letter-spacing:.09em;text-transform:uppercase}
-nav{display:flex;gap:4px;margin-left:auto}
-nav button{font:inherit;font-size:13px;background:none;border:1px solid transparent;border-radius:6px;padding:6px 11px;cursor:pointer;color:var(--ink)}
-nav button.on{background:var(--ink);color:var(--paper)}
-nav button:hover:not(.on){border-color:var(--line)}
+.brand{cursor:pointer}
+header .seg{margin-left:auto;margin-right:0}
+nav.encnav{position:absolute;top:58px;left:0;right:0;height:40px;display:none;align-items:center;gap:2px;padding:0 16px;border-bottom:1px solid var(--line);background:var(--paper2)}
+body.enc nav.encnav{display:flex}
+body.enc main{top:98px}
+.seg button,nav button{font:inherit;font-size:13px;background:none;border:1px solid transparent;border-radius:6px;padding:6px 11px;cursor:pointer;color:var(--ink)}
+.seg button.on{background:var(--ink);color:var(--paper)}
+.seg button:hover:not(.on),nav button:hover:not(.on){border-color:var(--line)}
+nav.encnav button{padding:4px 12px;border-radius:5px}
+nav.encnav button.on{background:var(--card);border-color:var(--line);font-weight:600}
 #search{font:inherit;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:6px 10px;width:210px}
 main{position:absolute;top:58px;left:0;right:0;bottom:0;display:flex}
 #side{width:350px;min-width:350px;border-right:1px solid var(--line);overflow:auto;padding:10px 0 40px}
@@ -206,3 +212,28 @@ details.tgrp,details.tvol{margin:4px 0 8px}
 details.tgrp>summary,details.tvol>summary{cursor:pointer;font-size:12.5px;font-weight:600;padding:3px 0}
 details.tvol>summary{font-size:13.5px;border-bottom:1px solid var(--line);margin-bottom:6px}
 details.tgrp>div{margin:6px 0 4px}
+.atabs{display:flex;gap:6px;margin-bottom:14px}.atabs button{font:inherit;font-size:13px;border:1px solid var(--line);background:#fffdf8;border-radius:14px;padding:4px 12px;cursor:pointer}.atabs button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.biot{display:flex;align-items:baseline;gap:4px;flex-wrap:wrap}
+.bsearch{position:relative;margin-left:auto}
+.bsearch input{font:inherit;font-size:13px;border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:5px 10px;width:260px}
+#bqres{position:absolute;right:0;top:100%;z-index:20;width:320px;background:#fffdf8;border:1px solid var(--line);border-radius:6px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+#bqres:empty{display:none}
+#bqres .sr{padding:6px 10px;cursor:pointer;font-size:13px}#bqres .sr small{display:block;color:var(--muted);font-size:11.5px}
+#bqres .sr.on,#bqres .sr:hover{background:var(--paper2)}#bqres .sr.none{cursor:default;color:var(--muted)}
+/* start page */
+.home{max-width:1180px;margin:0 auto;padding:26px 34px 60px}
+.home h2{font:600 40px/1.1 Fraunces,serif;margin:0 0 6px;letter-spacing:-.015em}
+.hgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:30px;align-items:start}
+.hgrid p{font-size:15px;line-height:1.6;margin:0 0 12px}
+.hhero{margin:0}.hhero img{width:100%;border-radius:10px;display:block}
+.hgo{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.hgo button{font:inherit;font-size:13.5px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:7px;padding:7px 14px;cursor:pointer}
+.hgo button+button{background:#fffdf8;color:var(--ink);border-color:var(--line)}
+.hstat{margin-top:6px}
+.hsec{font:600 22px Fraunces,serif;margin:30px 0 12px}
+.hgroups{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.hg{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column}
+.hg:hover{border-color:var(--accent);box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.hgi{height:130px;background:#e9e3d3 center/cover no-repeat}
+.hgt{padding:8px 10px 10px;display:flex;flex-direction:column;gap:2px}.hgt b{font-size:14px}.hgt small{font-size:11.5px;color:var(--muted);line-height:1.35}
+.hcred{font-size:12px;color:var(--muted);padding-left:18px;margin:0}.hcred li{margin-bottom:3px}

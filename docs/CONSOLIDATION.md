@@ -15,9 +15,8 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 | I3 | 7 |
 | I4 | 130 |
 | I6 | 17 |
-| L1 | 4 |
 | Q1 | 240 |
-| S2 | 121 |
+| S2 | 122 |
 
 ## Open issues by entry
 
@@ -1012,11 +1011,5 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Zhenyuanopterus**
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: not yet checked
-- **tree node avemetatarsalia**
-  - L1 name is not in English: 'Avemetatarsalia (linhagem das aves)'
-- **tree node gnathostomata**
-  - L1 name is not in English: 'Gnathostomata (com mandíbula)'
-- **tree node metazoa**
-  - L1 name is not in English: 'Metazoa (animais)'
-- **tree node sauropsida**
-  - L1 name is not in English: 'Sauropsida (répteis)'
+- **home**
+  - S2 only secondary sources (database/encyclopedia); add primary literature
