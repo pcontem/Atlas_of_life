@@ -153,6 +153,21 @@ def check_genus(e, path, clade_ids, excluded_names):
         err("I1", w, "the same Commons file is listed twice")
     if not imgs:
         strict("I6", w, "no image")
+    for x in e.get("external") or []:
+        xw = f"{w} external link {x.get('title')}"
+        for k in ("kind", "title", "artist", "site", "url", "accessed", "review"):
+            if not x.get(k):
+                err("I7", xw, f"missing {k}")
+        if x.get("kind") not in IMAGE_KINDS:
+            err("I7", xw, f"kind must be one of {sorted(IMAGE_KINDS)}")
+        if not str(x.get("url", "")).startswith("https://"):
+            err("I7", xw, "url must be https")
+        if x.get("review") not in IMAGE_REVIEW:
+            err("I7", xw, f"review must be one of {sorted(IMAGE_REVIEW)}")
+        if x.get("local") or x.get("file"):
+            err("I7", xw, "external art is only linked: no local copy")
+    if len(e.get("external") or []) > 6:
+        err("I7", w, "at most 6 external links")
     sil = e.get("silhouette")
     if sil:
         lic = sil.get("license") or ""

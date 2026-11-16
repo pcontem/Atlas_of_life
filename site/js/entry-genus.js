@@ -35,6 +35,9 @@ function renderFicha(id){const n=byId[id];if(!n.ficha)return renderBasic(id);if(
   h+=`<div class="card"><h3>Images${imgs.length>1?` <span class="note">(${imgs.length})</span>`:""}</h3>`;
   if(imgs.length){h+=`<div class="imgtabs">${KINDS.map(([k,l],i)=>`<button data-k="${k}" class="${i?"":"on"}">${l} (${imgs.filter(im=>im.kind===k).length})</button>`).join("")}</div>`;
     h+=`<figure id="fig"></figure><div id="thumbs" class="thumbs"></div>`}else h+=`<p class="note">No openly licensed restoration or fossil photograph was found for this genus. The silhouette below is the only image.</p>`;
+  // links to artwork that may not be copied (no local copy, no thumbnail): title, artist, site, opens in a new tab
+  const ext=g.external||[];
+  if(ext.length)h+=`<div class="extart"><h4>More reconstructions elsewhere <span class="note">(links, not reproduced here)</span></h4><ul>${ext.map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a> — ${esc(x.artist)} <span class="note">· ${esc(x.site)} · ${x.kind==="life"?"life restoration":x.kind==="skeletal"?"skeletal reconstruction":"fossil"}${x.review==="accepted"?"":" · not reviewed"}</span></li>`).join("")}</ul></div>`;
   h+=`</div>`;
   h+=`<div class="card"><h3>Size</h3>${sizeDiagram(g)}</div>`;
   h+=`<div class="card"><h3>Biology</h3><p style="margin:0">${esc(g.biology)}</p></div>`;
