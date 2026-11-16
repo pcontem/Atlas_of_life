@@ -21,22 +21,6 @@ body:
       label: What do you propose
       options: [accept — the restoration matches current knowledge, outdated — contradicted by current knowledge, remove — wrong taxon / not allowed (model, AI, licence), add — new image]
     validations: { required: true }
-  - type: checkboxes
-    id: criteria
-    attributes:
-      label: Life restorations — general criteria (rule I4)
-      description: These apply to every group. Leave a box empty if the point does not hold or you could not check it, and say why below.
-      options:
-        - label: anatomy and proportions are consistent with the known fossil material
-        - label: body covering (scales, feathers, filaments, fur, bare skin) agrees with the evidence for the group
-        - label: soft structures (crests, sails, membranes, fins, wattles) are supported by fossils or close relatives, or are clearly speculative
-        - label: posture and stance agree with current understanding
-        - label: no features contradicted by the sources
-  - type: textarea
-    id: group_checks
-    attributes:
-      label: Group-specific points
-      description: "Each volume lists the extra points to check for its group under `restoration_checks` in `entries/<volume>/_volume.yaml` (e.g. for pterosaurs: pycnofibres, extent of the wing membrane). Say which you checked and what you found."
   - type: input
     id: licence
     attributes:
@@ -45,5 +29,6 @@ body:
   - type: textarea
     id: notes
     attributes:
-      label: Reasons and sources
+      label: Assessment and sources
+      description: "Explain in your own words how the image compares with what is known of this taxon (anatomy, body covering, soft structures, posture…) and cite the publications you relied on. A reviewer — and the AI assistant that drafts the fixes — will read this text."
     validations: { required: true }
