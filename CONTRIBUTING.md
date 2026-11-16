@@ -33,6 +33,12 @@ pre-filled GitHub issue:
 
 You can also open these forms directly from the repository's *Issues → New issue*.
 
+**Edit the entry yourself.** The card's **Edit this entry** button opens the entry's file in
+GitHub's editor. Change the text, then *Commit changes… → Propose changes*: GitHub copies the
+repository to your account (a fork) and opens a pull request for review. Nothing changes on the
+site until a reviewer approves it. The file is YAML: keep the indentation and the field names, and
+add any new source to `sources`.
+
 ## 3. Rules every change must follow
 
 The full rules are in [`CLAUDE.md`](CLAUDE.md) §3–§4. In short:

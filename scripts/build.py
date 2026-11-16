@@ -22,7 +22,10 @@ ENTRIES = ROOT / "entries"
 
 
 def load(p):
-    return yaml.safe_load(p.read_text())
+    e = yaml.safe_load(p.read_text())
+    if isinstance(e, dict) and "curation" in e:
+        e["_src"] = p.resolve().relative_to(ROOT).as_posix()   # shown as "Edit this entry" on the site
+    return e
 
 
 def genus_to_site(e):
@@ -58,7 +61,7 @@ def genus_to_site(e):
 def curation_to_site(e):
     c = e.get("curation") or {}
     return dict(status=c.get("status", "draft"), origin=c.get("origin", "ai-draft"), by=c.get("checked_by", ""),
-                on=c.get("checked_on", ""), reviews=c.get("reviews") or [])
+                on=c.get("checked_on", ""), reviews=c.get("reviews") or [], src=e.get("_src", ""))
 
 
 INDEX_KEYS = ("name", "clade", "isd", "sum", "ws", "fad", "lad", "early", "late", "author", "type_species", "silhouette")

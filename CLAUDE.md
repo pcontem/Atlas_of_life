@@ -456,7 +456,9 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   "✓ Checked · <by> & <confirmed_by>", "AI draft · not yet reviewed" or "Draft · not yet reviewed" —
   and a **Review & contribute** card after Sources with the review history and buttons that open
   pre-filled GitHub issue forms (Suggest a correction, Submit a review, Review or suggest an image
-  [genera only], How reviewing works → CONTRIBUTING.md).
+  [genera only], **Edit this entry** → the entry's YAML in GitHub's web editor, which forks and opens
+  a pull request; path from `cur.src`, How reviewing works → CONTRIBUTING.md). The issue forms only
+  work once they are on `main` (GitHub reads them from the default branch).
 - Images and libraries are served locally (no remote requests at runtime).
 - **Loading:** `data.json` is a light index (clades, one short record per genus with its
   representative image, formations, timescale); the full genus entry (`g/<Genus>.json`) is fetched

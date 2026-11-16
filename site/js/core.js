@@ -91,6 +91,7 @@ function curCard(c,entry,isGenus){c=c||{};const rv=c.reviews||[];
     <div class="rvbtns"><a class="rvb" href="${issueUrl("correction.yml",entry,"Correction: ")}" target="_blank" rel="noopener">✎ Suggest a correction</a>
       <a class="rvb" href="${issueUrl("review.yml",entry,"Review: ")}" target="_blank" rel="noopener">☑ Submit a review</a>
       ${isGenus?`<a class="rvb" href="${issueUrl("image.yml",entry,"Image: ")}" target="_blank" rel="noopener">▣ Review or suggest an image</a>`:""}
+      ${c.src?`<a class="rvb" href="${REPO}/edit/main/${c.src}" target="_blank" rel="noopener" title="Opens this entry's file in GitHub's editor; saving proposes the change as a pull request (needs a GitHub account)">✍ Edit this entry</a>`:""}
       <a class="rvb sub" href="${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">How reviewing works</a></div></div>`}
 function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();aboutTabs("excluded");renderSide()}else location.hash=id}
 function path(id){const p=[];let n=byId[id];while(n){p.unshift(n);n=byId[n.parent]}return p}
