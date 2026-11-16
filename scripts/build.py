@@ -51,7 +51,14 @@ def genus_to_site(e):
         g["silhouette"] = e["silhouette"]
     if e.get("external"):
         g["external"] = e["external"]
+    g["cur"] = curation_to_site(e)
     return g
+
+
+def curation_to_site(e):
+    c = e.get("curation") or {}
+    return dict(status=c.get("status", "draft"), origin=c.get("origin", "ai-draft"), by=c.get("checked_by", ""),
+                on=c.get("checked_on", ""), reviews=c.get("reviews") or [])
 
 
 INDEX_KEYS = ("name", "clade", "isd", "sum", "ws", "fad", "lad", "early", "late", "author", "type_species", "silhouette")
@@ -62,14 +69,14 @@ def genus_index(g, vol):
     `images` holds only the representative image (first life restoration, else the first image)."""
     rep = next((i for i in g["images"] if i["kind"] == "life"), g["images"][0] if g["images"] else None)
     r = {k: g[k] for k in INDEX_KEYS if k in g}
-    r.update(vol=vol, nsp=len(g["species"]), images=[rep] if rep else [],
+    r.update(vol=vol, nsp=len(g["species"]), st=g["cur"]["status"], images=[rep] if rep else [],
              formations=[dict(ids=f["ids"], country=f["country"]) for f in g["formations"]])
     return r
 
 
 def clade_to_site(e):
     return dict(id=e["id"], name=e["name"], parent=e["parent"], wiki=e["wikipedia"], sum=e["summary"], trank=e.get("taxon_rank"),
-                diag=e["diagnosis"], notes=e["notes"], sources=e["sources"])
+                diag=e["diagnosis"], notes=e["notes"], sources=e["sources"], cur=curation_to_site(e))
 
 
 PALEO = ROOT / "data/raw/paleomaps"
@@ -108,7 +115,8 @@ def formations_to_site(genera):
                           lat=loc["lat"], lng=loc["lng"], basis=loc["basis"], fad=e["age"]["first_ma"],
                           lad=e["age"]["last_ma"], agenote=e["age"]["note"], env=e["environment"], lith=e["lithology"],
                           sum=e["summary"], paleoenv=e["paleoenvironment"], sources=e["sources"],
-                          genera=sorted(set(here.get(e["id"], []))), pp=pp, includes=e.get("includes") or [], ncol=len(e["pbdb_collections"])))
+                          genera=sorted(set(here.get(e["id"], []))), pp=pp, includes=e.get("includes") or [],
+                          cur=curation_to_site(e), ncol=len(e["pbdb_collections"])))
     paleo = dict(times=times, model=maps["model"], citation=maps["citation"], licence=maps["licence"],
                  via=maps["via"], note=maps["note"])
     return forms, paleo

@@ -1,0 +1,50 @@
+name: Entry review
+description: For reviewers — record that you checked an entry (or part of it) against its sources.
+title: "Review: "
+labels: [review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A review is itself checked: a second reviewer confirms it before the entry can be marked **checked**.
+        You cannot review an entry you wrote or changed yourself.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      placeholder: Pteranodon
+    validations: { required: true }
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: What you checked against the sources
+      options:
+        - label: all (the whole entry)
+        - label: identity (name, authority, type species, species list)
+        - label: classification
+        - label: age
+        - label: formations
+        - label: size
+        - label: fossil_material
+        - label: biology
+        - label: images (licences, correct taxon; life restorations against the I4 criteria)
+        - label: sources
+        - label: text (summary, wording, no copied sentences)
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict
+      options: [accepted — correct as it is, changes — needs the corrections listed below, rejected — fundamentally wrong]
+    validations: { required: true }
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes and corrections
+      description: For "changes", list each correction with its source.
+  - type: checkboxes
+    id: independence
+    attributes:
+      label: Independence
+      options:
+        - label: I did not write or change this entry.
+          required: true

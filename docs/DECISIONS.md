@@ -174,3 +174,14 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   life on Earth (sourced to fixed revisions of six Wikipedia articles) with 19 openly licensed
   pictures of very different groups, each linking to its place in the tree (`entries/home.yaml`,
   rules H1–H3).
+- Contributions and reviews (owner chose option A, GitHub only): AI builds the drafts, people
+  review them. Issue forms (correction, review, image, new genus), a PR template with checklists,
+  CODEOWNERS, labels, and branch protection on `main` (1 approval by someone other than the author,
+  stale approvals dismissed, `check` required; the owner can still merge as admin). Every entry's
+  `curation` gained `origin` (ai-draft | human) and `reviews` (by, on, scope, verdict, notes,
+  confirmed_by, confirmed_on); all 240 existing entries are `origin: ai-draft`. **Two-person rule:**
+  `checked` needs an accepted full review confirmed by a second person (validator Q1–Q3). The site
+  shows an "AI draft" badge and a "Review & contribute" card with pre-filled issue links. A monthly
+  workflow opens an audit issue with 5 random checked entries. Still open for the owner: the licence
+  of text and code, who is invited as reviewer, and whether 2 approvals are required for
+  classification changes (for now the second-reviewer rule is in the PR checklist, not enforced by GitHub).

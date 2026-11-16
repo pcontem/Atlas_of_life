@@ -31,6 +31,7 @@ function renderFicha(id){const n=byId[id];if(id==="vida"&&D.home)return renderHo
   let h=`<div class="ficha">${crumbs(id)}<h2><i>${esc(g.name)}</i></h2><div class="auth">${esc(g.author||"")} · ${esc(g.early)}${g.late?"–"+esc(g.late):""} · ${fmtMa(g.fad)}–${fmtMa(g.lad)}</div>`;
   h+=`${g.type_species?`<span class="badge">Type species: <i>${esc(g.type_species)}</i></span>`:""}<span class="badge">${esc(g.completeness)} material</span>`;
   if(g.isd)h+=`<span class="badge warn">incertae sedis in ${esc(byId[g.clade].name)}</span>`;
+  h+=curBadge(g.cur);
   h+=`<p class="lead">${esc(g.sum)}</p><div class="grid"><div>`;
   // images
   // gallery: one tab per kind (life restorations, fossils, skeletal reconstructions), thumbnails below the main image
@@ -53,7 +54,7 @@ function renderFicha(id){const n=byId[id];if(id==="vida"&&D.home)return renderHo
   h+=`<div class="card"><h3>Geological formations (${g.formations.length})</h3><table><tr><th>Formation</th><th>Member / unit</th><th>Country · region</th><th>Interval</th><th>Occ.</th></tr>${g.formations.map(f=>`<tr><td>${(f.ids||[]).filter(Boolean).length?(f.ids.length===1?`<a style="cursor:pointer" onclick="location.hash='formation/${f.ids[0]}'">${esc(f.formation)}</a>`:`${esc(f.formation)} <span class="note">(${f.ids.map(i=>{const x=(D.formations||[]).find(y=>y.id===i);return `<a style="cursor:pointer" onclick="location.hash='formation/${i}'">${esc(x?x.name:i)}</a>`}).join(", ")})</span>`):esc(f.formation)}${f.group?` <span class="note">(${esc(f.group)} Gr.)</span>`:""}</td><td>${esc(f.members.join(", "))}</td><td>${esc(f.country)}${f.regions.length?" · "+esc(f.regions.join(", ")):""}</td><td>${esc(f.interval)}${f.ma?` <span class="note">${f.ma[1]}–${f.ma[0]} Ma</span>`:""}</td><td>${f.n??""}</td></tr>`).join("")}</table><p class="note">Occurrences from the Paleobiology Database unless noted; “Unnamed unit” = no formation recorded.</p></div>`;
   // species
   h+=`<div class="card"><h3>Species (${g.species.length})</h3><table><tr><th>Species</th><th>Authority</th><th>Interval</th></tr>${g.species.map(s=>`<tr><td><i>${esc(s.name)}</i></td><td>${esc(s.author)}</td><td>${esc(s.interval)}${s.fad?` <span class="note">${fmtMa(s.fad)}–${fmtMa(s.lad)}</span>`:""}</td></tr>`).join("")}</table><p class="note">Valid species only; nomina dubia are listed under “Excluded names”.</p></div>`;
-  h+=`<div class="card"><h3>Sources</h3>${sources(g.sources)}</div></div>`;
+  h+=`<div class="card"><h3>Sources</h3>${sources(g.sources)}</div>${curCard(g.cur,g.name,true)}</div>`;
   $("#view").innerHTML=h;
   const srcOf=im=>im.local||imgKey(g.name,im.kind);
   const show=i=>{const im=imgs[i];if(!im)return;$("#fig").innerHTML=`<div class="hero"><img src="${srcOf(im)}" alt="${esc(im.caption)}" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'note',textContent:'Image unavailable offline — see the source link.'}))"></div><figcaption>${esc(im.caption)}. ${im.artist?"By "+esc(im.artist)+", ":""}${lic(im.license,im.licurl)}${im.date?", "+esc(String(im.date).slice(0,10)):""} — <a href="${esc(im.page)}" target="_blank" rel="noopener">${/doi\.org/.test(im.page||"")?"Open-access article":"Wikimedia Commons"}</a>.${im.kind!=="fossil"?` <br>Reconstruction: interpretive${im.review==="accepted"?", reviewed for this atlas":", not yet reviewed for this atlas"}.`:""}</figcaption>`;

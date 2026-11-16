@@ -198,7 +198,7 @@ def main():
                 f"Paleobiology Database — collections of the {d['name']} (coordinates, environment, lithology; "
                 f"downloaded 2026-11-16)."), url="https://paleobiodb.org/classic/displayCollResults?formation="
                 + re.sub(r"\s+", "+", sorted(d["names"])[0] if d["names"] else ""))],
-            curation=e.get("curation") or dict(status="draft", checked_by="", checked_on="", notes=[]),
+            curation=e.get("curation") or dict(status="draft", origin="ai-draft", checked_by="", checked_on="", notes=[], reviews=[]),
         )
         p.write_text(yaml.safe_dump(new, allow_unicode=True, sort_keys=False, width=110))
     print(f"{len(forms)} formations")

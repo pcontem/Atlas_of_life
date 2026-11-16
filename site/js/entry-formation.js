@@ -10,7 +10,7 @@ function renderFormation(fid){const f=(D.formations||[]).find(x=>x.id===fid);
   let h=`<div class="ficha"><div class="crumbs"><a onclick="location.hash='formations'">Formations</a> › ${esc(f.country)} · <a onclick="location.hash='biota/${f.id}'">show in Biota</a></div>
     <h2>${esc(f.name)}${/^Unnamed|Group \(/.test(f.name)?"":` <span class="fsub">Formation</span>`}</h2>
     <div class="auth">${f.group?esc(f.group)+" Group · ":""}${esc(f.country)}${f.regions.length?" ("+esc(f.regions.join(", "))+")":""} · ${esc(age(f.fad-0.01))}${age(f.lad+0.01)!==age(f.fad-0.01)?"–"+esc(age(f.lad+0.01)):""} · ${fmtMa(f.fad)}–${fmtMa(f.lad)}</div>
-    <span class="badge" style="border-color:${e[2]}">${esc(e[1])}</span><span class="badge">${gs.length} atlas ${gs.length===1?"genus":"genera"}</span>
+    <span class="badge" style="border-color:${e[2]}">${esc(e[1])}</span><span class="badge">${gs.length} atlas ${gs.length===1?"genus":"genera"}</span>${curBadge(f.cur)}
     <p class="lead">${f.sum?esc(f.sum):`<span class="note">No summary written yet for this formation (draft entry).</span>`}</p><div class="grid"><div>`;
   h+=`<div class="card"><h3>Palaeoenvironment</h3>${f.paleoenv?`<p style="margin:0">${esc(f.paleoenv)}</p>`:`<p class="note" style="margin:0">Not written yet. PBDB records these depositional environments: ${esc(f.env.map(s=>s.replace(/"/g,"")).join("; ")||"none")}.</p>`}</div>`;
   if(f.includes&&f.includes.length)h+=`<div class="card"><h3>Units grouped here</h3><ul class="diag">${f.includes.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`;
@@ -19,6 +19,7 @@ function renderFormation(fid){const f=(D.formations||[]).find(x=>x.id===fid);
       `<div class="mem" onclick="go('${esc(g.name)}')"><div class="th">${thumb(g)}</div><div class="nm"><i>${esc(g.name)}</i><small>${fmtMa(g.fad)}–${fmtMa(g.lad)}</small></div></div>`,"members")}</div>`;
   h+=`<div class="card"><h3>Sources</h3><ol class="src">${f.sources.map(s=>`<li><span class="kind">${esc(s.kind)}</span>${esc(s.text)}${s.url?` <a href="${esc(s.url)}" target="_blank" rel="noopener">link</a>`:""}</li>`).join("")}
     <li><span class="kind">model</span>${esc(D.paleo.citation)} (${esc(D.paleo.licence)}). ${esc(D.paleo.via)}</li></ol></div>`;
+  h+=curCard(f.cur,f.name,false);
   h+=`</div><div>`;
   h+=`<div class="card"><h3>Time range</h3><div class="tl">${timeline([[f.fad,f.lad,era(f.fad)[3]]],48)}</div><p class="note">${esc(f.agenote)}</p></div>`;
   h+=`<div class="card"><h3>Where it lay${mid!=null?` · ${mid} Ma`:""}</h3>${mid!=null?`<svg id="fmap" viewBox="0 0 460 240" style="width:100%;display:block"></svg>
