@@ -21,15 +21,6 @@ body:
       label: What do you propose
       options: [accept — the restoration matches current knowledge, outdated — contradicted by current knowledge, remove — wrong taxon / not allowed (model, AI, licence), add — new image]
     validations: { required: true }
-  - type: checkboxes
-    id: criteria
-    attributes:
-      label: Life restorations — checked criteria (rule I4)
-      options:
-        - label: pycnofibres present
-        - label: wing membrane reaching the ankle
-        - label: crest, teeth and skull proportions consistent with the known material
-        - label: no features contradicted by the sources
   - type: input
     id: licence
     attributes:
@@ -38,5 +29,6 @@ body:
   - type: textarea
     id: notes
     attributes:
-      label: Reasons and sources
+      label: Assessment and sources
+      description: "Explain in your own words how the image compares with what is known of this taxon (anatomy, body covering, soft structures, posture…) and cite the publications you relied on. A reviewer — and the AI assistant that drafts the fixes — will read this text."
     validations: { required: true }

@@ -185,3 +185,8 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   workflow opens an audit issue with 5 random checked entries. Still open for the owner: the licence
   of text and code, who is invited as reviewer, and whether 2 approvals are required for
   classification changes (for now the second-reviewer rule is in the PR checklist, not enforced by GitHub).
+- Image review form without tick boxes (owner: the criteria are too complex and group-specific to
+  tick). The reviewer describes the assessment and sources in free text, which a reviewer or the AI
+  reads. Rule I4 states general criteria for any group; group-specific points are guidance under
+  `restoration_checks` in each volume's `_volume.yaml` (Pterosauria: pycnofibres, wing membrane to
+  the ankle, crest/teeth/skull).
