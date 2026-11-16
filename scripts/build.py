@@ -85,6 +85,19 @@ def clade_to_site(e):
 PALEO = ROOT / "data/raw/paleomaps"
 
 
+def clean_coastlines(polys):
+    """Make the raw coastline polygons (coordinates ×10) safe for spherical drawing in d3.
+    Vertices exactly on the antimeridian (±180°) near a pole confuse d3's antimeridian clipping, which
+    then fills the whole globe (seen at 0 Ma); they are moved 0.1° inside. Slivers lying entirely on a
+    pole (|lat| ≥ 89.5°, seen at 230 Ma) have no area and are dropped."""
+    out = []
+    for poly in polys:
+        if all(abs(y) >= 895 for x, y in poly[0]):
+            continue
+        out.append([[[1799 if x >= 1800 else -1799 if x <= -1800 else x, y] for x, y in ring] for ring in poly])
+    return out
+
+
 def formations_to_site(genera):
     """Formation entries + their reconstructed positions; writes one coastline file per map time."""
     fdir = ENTRIES / "formations"
@@ -98,7 +111,8 @@ def formations_to_site(genera):
         old.unlink()
     times = sorted(int(t) for t in maps["maps"])
     for t in times:
-        (out_dir / f"{t}.json").write_text(json.dumps(maps["maps"][str(t)], separators=(",", ":")))
+        polys = clean_coastlines(maps["maps"][str(t)])
+        (out_dir / f"{t}.json").write_text(json.dumps(polys, separators=(",", ":")))
     pos = {}  # (formation id, present lng, lat) -> {Ma: [palaeo lng, lat]}
     for t, rows in pts["points"].items():
         for fid, lng, lat, plng, plat in rows:
