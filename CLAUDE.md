@@ -381,8 +381,10 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   coloured by environment (marine, coastal & lagoon, lake, river & land), sized by the number of
   atlas genera; formations of the selected entry get a dashed ring. Points closer than ~16 px on
   screen are drawn as one **cluster** marker with a count (recomputed after each zoom): hover lists
-  them, click lists them beside the map, double-click zooms in until they separate. **Zoom** (scroll, drag to pan,
-  + / − / ⟲ buttons; + zooms towards the highlighted formation; up to ×8) is kept while the time
+  them, click lists them beside the map, double-click zooms in ×4 towards them. **Zoom** (scroll, drag to pan,
+  + / − / ⟲ buttons with the current factor shown; + zooms towards the highlighted formation; up to
+  ×96; at the deepest zoom, points that still overlap — same or neighbouring sites — are fanned out
+  around their spot with thin leader lines) is kept while the time
   changes, and points keep their size on screen. Hover = name; **click** = the
   formation's card beside the map (age, PBDB environment and rock types, palaeolatitude,
   palaeoenvironment text, the atlas taxa found there — click = select, double-click = open entry —

@@ -1,7 +1,7 @@
 /* Atlas of Life — Biota mode: a time slider, the continents of that time (Merdith et al. 2021 plate model via
    GPlates) and the formations with atlas taxa as points. Double-click a point: its environment and the atlas
    taxa found there (only taxa with atlas entries are listed). */
-const BT=(()=>{let T=null,selF=null,openF=null,openC=null,lastK=1,proj,gpath,cache={},tok=0,zoom,zt=d3.zoomIdentity;
+const BT=(()=>{const ZMAX=96;let T=null,selF=null,openF=null,openC=null,lastK=1,proj,gpath,cache={},tok=0,zoom,zt=d3.zoomIdentity;
   const ENV=[["coast","Coastal & lagoon","#4fa59a",/lagoon|estuar|coastal|peritidal|intertidal|delta|bay|marginal|beach/],
     ["marine","Marine","#3f7fa8",/marine|offshore|subtidal|basinal|deep|shelf|slope|reef|carbonate|pelagic/],
     ["lake","Lake","#7c8fd1",/lacustrine|lake|pond/],
@@ -31,7 +31,7 @@ const BT=(()=>{let T=null,selF=null,openF=null,openC=null,lastK=1,proj,gpath,cac
         <button id="bjump" title="Go to the time of the selected entry">⌖ Selected entry</button><button id="bnext" title="Next older time with formations">Next formations ⟶</button></div>
         <svg id="bstrip" height="44"></svg></div>
       <div id="bmapw"><svg id="bmap"></svg><div id="btip"></div>
-        <div class="bzoom"><button data-z="in" title="Zoom in (or scroll)">+</button><button data-z="out" title="Zoom out">−</button><button data-z="reset" title="Whole globe">⟲</button></div></div>
+        <div class="bzoom"><button data-z="in" title="Zoom in (or scroll); deepest zoom fans out points at the same site">+</button><button data-z="out" title="Zoom out">−</button><span id="bzk" class="bzk"></span><button data-z="reset" title="Whole globe">⟲</button></div></div>
       <div class="biolegend" id="blegend"></div></div>
       <div class="bioside" id="bside"></div></div>`;
     const sl=$("#bslider");
@@ -50,15 +50,16 @@ const BT=(()=>{let T=null,selF=null,openF=null,openC=null,lastK=1,proj,gpath,cac
     proj=d3.geoEqualEarth().fitExtent([[10,10],[box.width-10,box.height-10]],{type:"Sphere"});gpath=d3.geoPath(proj);
     // zoom: scroll or the +/− buttons, drag to pan; kept while the time changes; points keep their size on screen
     const svg=d3.select("#bmap");
-    zoom=d3.zoom().scaleExtent([1,8]).translateExtent([[0,0],[box.width,box.height]]).on("zoom",e=>{zt=e.transform;applyZoom()}).on("end",()=>{if(zt.k!==lastK)drawPoints()});
+    zoom=d3.zoom().scaleExtent([1,ZMAX]).translateExtent([[0,0],[box.width,box.height]]).on("zoom",e=>{zt=e.transform;applyZoom()}).on("end",()=>{if(zt.k!==lastK)drawPoints()});
     svg.call(zoom).on("dblclick.zoom",null);svg.call(zoom.transform,zt);
     document.querySelectorAll(".bzoom button").forEach(b=>b.onclick=()=>{const z=b.dataset.z;
       if(z==="reset")svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);else{// zoom towards the highlighted formation if there is one, else the centre of the view
         const n=selF&&[...document.querySelectorAll("#bmap .bpt")].find(n=>n.dataset.fs.split(" ").includes(selF)),p=n?zt.apply([+n.dataset.x,+n.dataset.y]):null;
         svg.transition().duration(250).call(zoom.scaleBy,z==="in"?1.6:1/1.6,p||undefined)}});
     drawStrip();setT(T,true)}
-  function applyZoom(){const l=d3.select("#bzl");if(l.empty())return;l.attr("transform",zt);
-    l.selectAll(".bpt").attr("transform",function(){return `translate(${this.dataset.x},${this.dataset.y}) scale(${1/zt.k})`});}
+  function applyZoom(){const l=d3.select("#bzl");if(l.empty())return;l.attr("transform",zt);const zk=$("#bzk");if(zk)zk.textContent=zt.k<1.05?"":"×"+(zt.k<10?zt.k.toFixed(1):Math.round(zt.k));
+    l.selectAll(".bpt").attr("transform",function(){return `translate(${this.dataset.x},${this.dataset.y}) scale(${1/zt.k}) translate(${this.dataset.ox||0},${this.dataset.oy||0})`});
+    if(zt.k!==lastK)l.selectAll(".bfan").remove();}
   function drawStrip(){const s=$("#bstrip"),W=s.getBoundingClientRect().width||600,A=AMAX(),x=v=>W*pos(Math.min(v,A));
     s.innerHTML=tsRows(A,0,x,0,16,.85,["era","period"]).svg+`<line id="bmark" y1="0" y2="40" stroke="#26251f" stroke-width="2"/>`;
     s.onclick=e=>{const r=s.getBoundingClientRect();setT(near(ageAt((e.clientX-r.left)/r.width)))}}
@@ -85,18 +86,26 @@ const BT=(()=>{let T=null,selF=null,openF=null,openC=null,lastK=1,proj,gpath,cac
     for(const f of vis){const[x,y]=proj(f.pp[T]),[sx,sy]=zt.apply([x,y]);
       const c=cl.find(c=>Math.hypot(c.sx-sx,c.sy-sy)<16);if(c)c.m.push({f,x,y});else cl.push({sx,sy,m:[{f,x,y}]})}
     cl.sort((a,b)=>a.m.some(o=>o.f.id===selF)-b.m.some(o=>o.f.id===selF));
-    for(const c of cl){const fs=c.m.map(o=>o.f),n=fs.reduce((s,f)=>s+f.genera.length,0),x=d3.mean(c.m,o=>o.x),y=d3.mean(c.m,o=>o.y);
+    // at the deepest zoom, points that still overlap (same or neighbouring sites) are fanned out around their spot
+    const fan=zt.k>=ZMAX*0.95;
+    for(const c of cl){
+      if(fan&&c.m.length>1){const x0=d3.mean(c.m,o=>o.x),y0=d3.mean(c.m,o=>o.y),R=14+3*c.m.length;
+        c.m.forEach((o,i)=>{const a=-Math.PI/2+2*Math.PI*i/c.m.length;
+          g.append("line").attr("class","bfan").attr("x1",x0).attr("y1",y0).attr("x2",x0+R*Math.cos(a)/zt.k).attr("y2",y0+R*Math.sin(a)/zt.k);
+          marker(g,[o.f],x0,y0,mine,[R*Math.cos(a),R*Math.sin(a)])});continue}
+      marker(g,c.m.map(o=>o.f),d3.mean(c.m,o=>o.x),d3.mean(c.m,o=>o.y),mine)}}
+  function marker(g,fs,x,y,mine,off){const n=fs.reduce((s,f)=>s+f.genera.length,0);
       const env=d3.rollups(fs,v=>d3.sum(v,f=>f.genera.length||1),f=>envOf(f)[2]).sort((a,b)=>b[1]-a[1])[0][0],r=4+Math.sqrt(n)*3;
-      const ids=fs.map(f=>f.id),one=fs.length===1;
+      const ids=fs.map(f=>f.id),one=fs.length===1,ox=off?off[0]:0,oy=off?off[1]:0;
       const e=g.append("g").attr("class","bpt"+(one?"":" bcl")+(ids.includes(selF)?" sel":"")).attr("data-f",one?ids[0]:null).attr("data-fs",ids.join(" "))
-        .attr("data-x",x).attr("data-y",y).attr("transform",`translate(${x},${y}) scale(${1/zt.k})`);
+        .attr("data-x",x).attr("data-y",y).attr("data-ox",ox).attr("data-oy",oy).attr("transform",`translate(${x},${y}) scale(${1/zt.k}) translate(${ox},${oy})`);
       if(ids.some(i=>mine.has(i)))e.append("circle").attr("r",r+4).attr("class","bring");
       e.append("circle").attr("r",one?r:r+2).attr("fill",env);
       if(!one)e.append("text").attr("class","bcnt").attr("dy","0.35em").text(fs.length);
       e.on("mouseenter",ev=>tip(ev,fs)).on("mouseleave",()=>$("#btip").style.display="none");
       if(one)e.on("click",()=>openCard(ids[0])).on("dblclick",ev=>{ev.stopPropagation();location.hash="formation/"+ids[0]});
       else e.on("click",()=>{openC=ids;openF=null;highlight(null);side()})
-            .on("dblclick",ev=>{ev.stopPropagation();d3.select("#bmap").transition().duration(350).call(zoom.scaleBy,2.5,zt.apply([x,y]))})}}
+            .on("dblclick",ev=>{ev.stopPropagation();const k=Math.min(ZMAX,zt.k*4)/zt.k;d3.select("#bmap").transition().duration(400).call(zoom.scaleBy,k,zt.apply([x,y]))})}
   // highlight without redrawing, so that a double-click still reaches the same element
   // click: open the formation's card beside the map (no redraw, so a double-click still lands on the point)
   function openCard(id){history.replaceState(null,"","#biota/"+id);openF=id;highlight(id);side()}

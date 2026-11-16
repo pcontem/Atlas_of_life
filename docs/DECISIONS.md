@@ -151,3 +151,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   Altmühltal Formation (Solnhofen Member), Rauhut et al. 2017. Distinct formations close together
   (e.g. Crato and Romualdo, Altmühltal and Mörnsheim) stay separate entries; on the map, points that
   overlap on screen are drawn as one cluster marker that splits when zooming in.
+- Biota zoom made finer (owner: ×8 did not separate the formations): up to ×96, the factor shown
+  under the buttons, double-click on a cluster zooms ×4; at the deepest zoom, points that still
+  overlap (sites a few km apart or the same site) fan out around their spot. The coastlines stay
+  simplified to 0.3°, so at high zoom they are only indicative.
