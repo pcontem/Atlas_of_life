@@ -329,6 +329,13 @@ def check_volume(vdir, backbone, all_names):
         for text in (node[1], node[4] if len(node) > 4 else ""):
             if text and pt.search(text):
                 strict("L1", f"tree node {node[0]}", f"text is not in English: '{text}'")
+    # T1: the tree holds only real taxa — no informal groupings ("Basal X", "Uncertain position") and no
+    # nodes that pool several families ("X and Y", "X and relatives"); their members sit in the real clade
+    grouping = re.compile(r"\b(basal|uncertain|unidentified|various|other|relatives)\b| and ", re.I)
+    for node in backbone.values():
+        if node[5] == "c" and (node[4].startswith(("Informal grouping", "Provisional grouping"))
+                               or grouping.search(re.sub(r"\s*\(.*?\)", "", node[1]))):
+            err("T1", f"tree node {node[0]}", f"'{node[1]}' is a grouping, not a taxon: place its members in the real clade")
     return clades, genera
 
 

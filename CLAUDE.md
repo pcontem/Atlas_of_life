@@ -45,6 +45,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `tests/screenshots.py` | visual smoke test of every view | code |
 | `docs/CONSOLIDATION.md` | generated to-do list (`validate.py --report`) | never |
 | `docs/DECISIONS.md` | log of project decisions and why | yes, append only |
+| `docs/TREE_REVIEW.md` | every change made to the tree backbone in a taxonomy review, and the cases kept against PBDB | yes |
 
 Site code, one file per view: `js/core.js` (state, routing), `sidebar.js`, `entry-genus.js`
 (incl. size diagram), `entry-clade.js`, `timeline.js`, `index-search.js`, `pages.js`
@@ -347,6 +348,14 @@ curation: {...}           # Q1
 
 - **L1 S** Everything in the tree backbone — node names and notes — is in English (the Portuguese
   glosses of the first prototype were translated on 2026-11-16; the validator flags any that return).
+
+- **T1 E** The backbone holds only real taxa: no informal groupings ("Basal X", "Uncertain position",
+  "Unidentified", "Other X") and no nodes pooling several families ("X and Y", "X and relatives"). Their members
+  sit directly in the real clade; a genus whose position inside it is unknown carries the note *incertae sedis
+  within X*. When a genus's family is missing, add the family (recognised by PBDB and the literature).
+- **Placement** follows PBDB and recent literature: check a node's PBDB parent chain
+  (`data/raw/tree/pbdb_lineage_<date>.json`); change the tree only when PBDB agrees with recent studies, and
+  record every change and every case kept against PBDB in `docs/TREE_REVIEW.md`.
 
 ### 4.9 Start page (`entries/home.yaml`)
 

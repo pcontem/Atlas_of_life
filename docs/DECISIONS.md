@@ -204,3 +204,8 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   batch. New files in `entries/tree/clades/`; the structure stays in `backbone.json`. Sources harvested on
   2026-11-16 in the browser: Wikipedia (title, fixed revision, text, citations of that revision) and PBDB
   (rank, authority, primary reference).
+- Tree taxonomy review (owner, 2026-11-16): authority = PBDB + recent literature (changes only where they
+  agree; disagreements kept and listed). Informal groupings and multi-family nodes removed (99), members placed
+  in the real clade or in their PBDB family (21 families added), 15 clades moved, 135 genera placed more
+  precisely, duplicate nodes merged, Portuguese leftovers renamed. New validator rule T1. Full log and open
+  questions: docs/TREE_REVIEW.md.
