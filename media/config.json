@@ -1,0 +1,4 @@
+{
+  "base_url": "",
+  "about": "Public address of the Cloudflare R2 bucket that serves site/img and site/sil (e.g. https://pub-<id>.r2.dev or https://media.<domain>). Empty = the images are published with the site from the `media` branch. See scripts/media.py sync and .github/workflows/media-sync.yml."
+}

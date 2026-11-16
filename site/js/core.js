@@ -22,9 +22,15 @@ const fmtMa=v=>v==null?"?":(v>=10?v.toFixed(1).replace(/\.0$/,""):v.toFixed(2))+
 // [name, base, top, colour] of the period containing `ma` (colour used for genus bars)
 const era=ma=>{const p=ivAt(ma,"period")||ivAt(ma,"era")||ivAt(ma,"eon");return p?[p.name,p.base,p.top,p.color]:["",0,0,"#9a9184"]};
 const imgKey=(g,k)=>"img/"+g.replace(/[^A-Za-z]/g,"")+"_"+k+".webp";
-const imgSrc=(g,im)=>im.local||imgKey(g,im.kind);
-const thumbSrc=(g,im)=>"img/thumb/"+imgSrc(g,im).slice(4);/* 240-px copy made by scripts/media.py, for lists, cards and maps *//* gallery images carry their own local path */
-const silSrc=s=>s?"sil/"+s.page.split("/images/")[1]+".webp":null;
+// images live in the media store: D.media_base is "" (files served with the site) or the public
+// address of the Cloudflare R2 bucket (media/config.json → build.py); "?localmedia" in the address forces the
+// copies served with the site (tests, previews)
+const LOCALMEDIA=/[?&]localmedia\b/.test(location.search);
+const MB=()=>LOCALMEDIA?"":(D&&D.media_base)||"";
+const imgPath=(g,im)=>im.local||imgKey(g,im.kind);
+const imgSrc=(g,im)=>MB()+imgPath(g,im);
+const thumbSrc=(g,im)=>MB()+"img/thumb/"+imgPath(g,im).slice(4);/* 240-px copy made by scripts/media.py, for lists, cards and maps *//* gallery images carry their own local path */
+const silSrc=s=>s?MB()+"sil/"+s.page.split("/images/")[1]+".webp":null;
 
 
 function init(){

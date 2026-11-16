@@ -38,7 +38,8 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `site/data.json`, `site/life.json`, `site/g/*.json`, `site/paleo/*.json` | **generated** by build.py: the index every view loads, the tree, one full genus entry per file (loaded on demand), the maps | **never** |
 | `site/img/`, `site/sil/` | images and silhouettes — **not in main**: they live on the branch `media` (one commit, replaced on each update) | via `scripts/media.py` |
 | `media/manifest.json` | path, size, sha256 and volume of every media file (the validator checks against it) | via `scripts/media.py` |
-| `scripts/media.py` | `pull` the images into site/, `push` new ones (makes 240-px thumbnails, updates the manifest) | code |
+| `media/config.json` | `base_url`: public address of the Cloudflare R2 bucket that serves the images (empty = published with the site) | yes, rarely |
+| `scripts/media.py` | `pull` the images into site/, `push` new ones (makes 240-px thumbnails, updates the manifest), `sync` them to R2 | code |
 | `scripts/fetch/` | `pbdb.py`, `gplates.py`: download fresh PBDB and GPlates data (run by the data-refresh workflow) | code |
 | `tests/screenshots.py` | visual smoke test of every view | code |
 | `docs/CONSOLIDATION.md` | generated to-do list (`validate.py --report`) | never |
@@ -463,7 +464,10 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   [genera only], **Edit this entry** → the entry's YAML in GitHub's web editor, which forks and opens
   a pull request; path from `cur.src`, How reviewing works → CONTRIBUTING.md). The issue forms only
   work once they are on `main` (GitHub reads them from the default branch).
-- Images and libraries are served locally (no remote requests at runtime).
+- Images are served from the atlas's own media store: the Cloudflare R2 bucket named in `media/config.json`
+  (`D.media_base`, applied by `imgSrc`/`thumbSrc`/`silSrc` in `core.js`), or, while `base_url` is empty, the
+  copies published with the site. `?localmedia` in the address forces the local copies (screenshot tests,
+  previews). Never load images from third-party sites (Commons etc.); libraries are served locally.
 - **Loading:** `data.json` is a light index (clades, one short record per genus with its
   representative image, formations, timescale); the full genus entry (`g/<Genus>.json`) is fetched
   when its page is opened. Views other than the genus entry must work from the index alone. Lists,
@@ -493,4 +497,11 @@ formation entries, `scripts/fetch/gplates.py` fetches missing palaeo-positions, 
 validate, and a pull request `data/pbdb-refresh` is opened listing PBDB genera not yet in the atlas
 and the validation result. Genus entries are never changed automatically. One-time setting:
 Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests".
-The Pages workflow runs `scripts/media.py pull` before publishing.
+The Pages workflow runs `scripts/media.py pull` before publishing, unless the images are served from R2.
+
+**Image storage.** The branch `media` is the reference copy of all images. `.github/workflows/media-sync.yml`
+copies it to the Cloudflare R2 bucket when `media/manifest.json` changes on main (and on demand), uploading
+only new or changed files and deleting files no longer in the manifest. Secrets `R2_ACCOUNT_ID`,
+`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and variable `R2_BUCKET` in the repository settings; Claude never
+handles the keys. Once the bucket is filled, set `base_url` in `media/config.json` (the bucket's public
+address) and rebuild: the site then loads images from R2 and GitHub Pages publishes only code and data.

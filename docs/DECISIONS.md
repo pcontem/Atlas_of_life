@@ -190,3 +190,11 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   reads. Rule I4 states general criteria for any group; group-specific points are guidance under
   `restoration_checks` in each volume's `_volume.yaml` (Pterosauria: pycnofibres, wing membrane to
   the ankle, crest/teeth/skull).
+- Image storage moves to Cloudflare R2 (owner's choice: most flexible while free; the site stays on
+  GitHub Pages). Reason: GitHub Pages sites may not exceed 1 GB, about 4,000 genera at ~250 KB of images
+  each. R2's free tier gives 10 GB of storage with free egress (~40,000 genera), then $0.015/GB/month.
+  The `media` branch stays the reference copy; a workflow syncs it to the bucket; `media/config.json`
+  `base_url` switches the site to the bucket. Hotlinking Wikimedia Commons was rejected: files can be
+  changed or deleted there, and since 2026 non-standard thumbnail sizes are refused. Note: Cloudflare
+  marks the free `r2.dev` address as rate-limited and not meant for production; a custom domain (~$10 a
+  year) is the long-term address. Only `base_url` changes when switching.
