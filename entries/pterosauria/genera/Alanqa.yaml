@@ -94,6 +94,21 @@ images:
   height: 395
   review: unreviewed
   local: img/gallery/Alanqa_228.webp
+- kind: fossil
+  file: PMC4141157 Figure 1
+  url: https://europepmc.org/articles/PMC4141157/bin/zookeys-432-001-g001.jpg
+  page: https://doi.org/10.3897/zookeys.432.7913
+  artist: Averianov A (ZooKeys, 2014)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014'
+  caption: 'Figure 1 from Averianov (2014), ZooKeys: Ontogenetic interpretation of the known jaw fragments of Alanqa
+    saharica (all drawn at the same magnification; specimen numbers are shown on the figure; reversed images are
+    marked by asterisk). A–D rostrum fragments, in…'
+  width: 741
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Alanqa_oa_1.webp
 silhouette:
   src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
   page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
@@ -121,6 +136,14 @@ sources:
 - kind: literature
   text: 'Martill, D.M.; Ibrahim, N. (2015). "An unusual modification of the jaws in cf. Alanqa, a mid-Cretaceous
     azhdarchid pterosaur from the Kem Kem beds of Morocco". Cretaceous Research. 53: 59–67..53...59M. doi:10.1016/j.cretres.2014.11.001.'
+- kind: literature
+  text: Averianov A 2014. Review of taxonomy, geographic distribution, and paleoenvironments of Azhdarchidae (Pterosauria).
+    ZooKeys. doi:10.3897/zookeys.432.7913
+  url: https://doi.org/10.3897/zookeys.432.7913
+- kind: literature
+  text: 'Ibrahim N, Unwin DM, Martill DM, Baidder L, Zouhri S 2010. A new pterosaur (Pterodactyloidea: Azhdarchidae)
+    from the Upper Cretaceous of Morocco. PloS one. doi:10.1371/journal.pone.0010875'
+  url: https://doi.org/10.1371/journal.pone.0010875
 curation:
   status: draft
   checked_by: ''

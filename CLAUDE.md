@@ -173,8 +173,11 @@ The site shows one tab per kind with thumbnails. Not accepted at all: museum mod
 sculptures, theme-park statues, stamps, posters, pre-1950 restorations, maps, faunal or size
 comparison charts, AI-generated images, and photos of other taxa.
 
-- **I2 E** Every image has `url`, `page` (the Wikimedia Commons file page), `artist`, `license`,
-  `caption`. If Commons names no author, write `Unknown (...)` and why.
+- **I2 E** Every image has `url`, `page`, `artist`, `license`, `caption`. `page` is the Wikimedia
+  Commons file page, or `https://doi.org/<doi>` for a figure from an open-access article (then
+  `file` = `<PMCID> <figure label>`, `artist` = the article's authors with journal and year, the
+  caption starts with the figure label and short citation, and the article is also listed in the
+  genus `sources` as `literature`). If Commons names no author, write `Unknown (...)` and why.
 - **I3 E** Allowed licences: CC0, public domain, CC BY, CC BY-SA (any version).
   Non-commercial (CC BY-NC*) is tolerated only for PhyloPic silhouettes and is an **S** issue to
   replace. No-derivatives (ND) and "all rights reserved" are never allowed.
@@ -184,12 +187,16 @@ comparison charts, AI-generated images, and photos of other taxa.
   material; no features contradicted by the sources. Claude may propose a verdict with reasons;
   the owner decides. Mark replaced or contradicted art `outdated` and look for a better one.
 - **I5 E** The local copy exists: the image's `local` path under `site/` (gallery images:
-  `img/gallery/<Genus>_<nnn>.webp`, max 800 px, WebP) or, for the original main images,
+  `img/gallery/<Genus>_<nnn>.webp`, max 800 px, or `<Genus>_oa_<n>.webp`, max 1000 px for
+  article figures with small labels; WebP) or, for the original main images,
   `site/img/<Genus>_<kind>.webp`; silhouettes in `site/sil/<phylopic-uuid>.webp`. The site never
   loads remote images.
 - Finding images: Commons categories `Category:<Genus>` and its sub-categories ("… fossils",
   "… life restorations", "… skeletal mounts", "… skulls"); every candidate is checked visually
-  before it is added (keep a contact sheet), and gets `review: unreviewed`.
+  before it is added (keep a contact sheet), and gets `review: unreviewed`. Second source:
+  figures of CC BY / CC0 open-access articles found through Europe PMC (article licence checked
+  per article; captions screened to drop phylogenies, maps, charts, CT renderings, schematic
+  comparisons and figures of other taxa).
 - **I6 S** Every genus has at least one image.
 - **I7 E** `external`: artwork that may not be copied (e.g. DeviantArt, ArtStation, personal
   sites, journal figures under restrictive licences) is only **linked**, never downloaded:

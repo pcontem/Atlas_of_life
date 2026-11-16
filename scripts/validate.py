@@ -134,8 +134,9 @@ def check_genus(e, path, clade_ids, excluded_names):
         for k in ("url", "page", "artist", "license", "caption"):
             if not i.get(k):
                 err("I2", iw, f"missing {k}")
-        if "commons.wikimedia.org" not in (i.get("page") or ""):
-            err("I2", iw, "page must be the Wikimedia Commons file page")
+        pg = i.get("page") or ""
+        if "commons.wikimedia.org" not in pg and not pg.startswith("https://doi.org/"):
+            err("I2", iw, "page must be the Wikimedia Commons file page or the open-access article's DOI link")
         if not LICENSE_OK.match(i.get("license") or ""):
             err("I3", iw, f"licence '{i.get('license')}' not allowed (CC0, public domain, CC BY, CC BY-SA)")
         if i.get("review") not in IMAGE_REVIEW:
@@ -150,7 +151,7 @@ def check_genus(e, path, clade_ids, excluded_names):
         if c > MAX_PER_KIND:
             err("I1", w, f"{c} images of kind '{k}' (max {MAX_PER_KIND})")
     if len({i.get("file") for i in imgs}) < len(imgs):
-        err("I1", w, "the same Commons file is listed twice")
+        err("I1", w, "the same image file is listed twice")
     if not imgs:
         strict("I6", w, "no image")
     for x in e.get("external") or []:
