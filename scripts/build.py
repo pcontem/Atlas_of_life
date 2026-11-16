@@ -137,10 +137,11 @@ def main():
     ts = json.loads((ROOT / "data/raw/timescale/pbdb_ics_2024.json").read_text())
     timescale = [dict(name=r[0], type=r[1], base=r[2], top=r[3], parent=r[4], no=r[5], color=r[6]) for r in ts["records"]]
     formations, paleo = formations_to_site(genera)
+    home = load(ENTRIES / "home.yaml") if (ENTRIES / "home.yaml").exists() else None
     m = metas[0]
     data = dict(meta=dict(title="Atlas of Life", group=", ".join(x["title"] for x in metas), built=m["built"],
                           method=m["method"]),
-                clades=clades, genera=genera, excluded=excluded, formations=formations, paleo=paleo,
+                clades=clades, genera=genera, excluded=excluded, formations=formations, paleo=paleo, home=home,
                 timescale=timescale, timescale_source=ts["reference"] + " Via " + ts["source"] + ".")
     # full genus entries, one file each, loaded when an entry page is opened
     gdir = ROOT / "site/g"

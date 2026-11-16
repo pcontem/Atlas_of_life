@@ -267,16 +267,12 @@ def check_volume(vdir, backbone, all_names):
     for cid in clade_ids:
         if not used[cid]:
             err("C3", f"clade {cid}", "contains no genus")
-    # English names on the path from the root of life to the volume
-    names = {n[0]: n for n in backbone.values()}
-    k = v["attach_to"]
-    while k:
-        node = names.get(k)
-        if not node:
-            break
-        if re.search(r"\((?:[^)]*\b(da|das|do|dos|com|linhagem|animais|répteis|aves)\b)", node[1]):
-            strict("L1", f"tree node {k}", f"name is not in English: '{node[1]}'")
-        k = node[2]
+    # English names everywhere in the tree backbone (names and notes)
+    pt = re.compile(r"[ãõç]|ção\b|\b(da|das|do|dos|com|linhagem|animais|répteis|basais|afins|posição|incerta|planilha|parentes|não)\b", re.I)
+    for node in backbone.values():
+        for text in (node[1], node[4] if len(node) > 4 else ""):
+            if text and pt.search(text):
+                strict("L1", f"tree node {node[0]}", f"text is not in English: '{text}'")
     return clades, genera
 
 
@@ -327,6 +323,30 @@ def check_formations(genus_forms):
         check_curation(w, e.get("curation"))
 
 
+def check_home():
+    """H rules: the start page (entries/home.yaml) — text, sourced, images in the media store with allowed licences."""
+    p = ROOT / "entries/home.yaml"
+    if not p.exists():
+        return
+    h = yaml.safe_load(p.read_text())
+    if not h.get("title") or not h.get("intro"):
+        err("H1", "home", "needs title and intro")
+    check_sources("home", h.get("sources"), need_original=False)
+    backbone = {n[0] for n in json.loads((ROOT / "data/tree/backbone.json").read_text())}
+    for i in [h.get("hero")] + [g.get("image") for g in h.get("groups") or []]:
+        w = f"home image {(i or {}).get('file')}"
+        for k in ("page", "artist", "license", "caption", "local"):
+            if not (i or {}).get(k):
+                err("H2", w, f"missing {k}")
+        if i and not LICENSE_OK.match(i.get("license") or ""):
+            err("H2", w, f"licence '{i.get('license')}' not allowed")
+        if i and i.get("local") not in MEDIA:
+            err("H2", w, f"image not in media/manifest.json: {i.get('local')}")
+    for g in h.get("groups") or []:
+        if g.get("node") not in backbone and not (ROOT / "entries" / g.get("node", "") / "_volume.yaml").exists():
+            err("H3", f"home group {g.get('label')}", f"node '{g.get('node')}' is not in the tree")
+
+
 def main():
     args = set(sys.argv[1:])
     backbone = {n[0]: n for n in json.loads((ROOT / "data/tree/backbone.json").read_text())}
@@ -337,6 +357,7 @@ def main():
         _, genera = check_volume(vd, backbone, all_names)
         genus_forms += [(g["name"], g.get("formations") or []) for g in genera.values()]
     check_formations(genus_forms)
+    check_home()
     for n, vs in all_names.items():
         if len(vs) > 1 or n in backbone:
             err("G1", f"genus {n}", "name appears more than once in the atlas")

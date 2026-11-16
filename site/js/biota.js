@@ -26,7 +26,8 @@ const BT=(()=>{const ZMAX=96;let T=null,selF=null,openF=null,openC=null,lastK=1,
     if(!D.paleo){$("#view").innerHTML='<div class="empty">No palaeogeographic maps in this build.</div>';return}
     if(T==null)T=startTime();
     $("#view").innerHTML=`<div class="bio"><div class="biomain">
-      <div class="biobar"><div class="biot"><b id="btime"></b><span id="bunits"></span></div>
+      <div class="biobar"><div class="biot"><b id="btime"></b><span id="bunits"></span>
+        <span class="bsearch"><input id="bq" type="search" placeholder="Find a genus or a formation…" autocomplete="off"><div id="bqres"></div></span></div>
         <div class="bioctl"><button data-s="-1" title="Older (←)">◀ Older</button><input id="bslider" type="range" min="0" max="1000" step="1"><button data-s="1" title="Younger (→)">Younger ▶</button>
         <button id="bjump" title="Go to the time of the selected entry">⌖ Selected entry</button><button id="bnext" title="Next older time with formations">Next formations ⟶</button></div>
         <svg id="bstrip" height="44"></svg></div>
@@ -56,7 +57,30 @@ const BT=(()=>{const ZMAX=96;let T=null,selF=null,openF=null,openC=null,lastK=1,
       if(z==="reset")svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);else{// zoom towards the highlighted formation if there is one, else the centre of the view
         const n=selF&&[...document.querySelectorAll("#bmap .bpt")].find(n=>n.dataset.fs.split(" ").includes(selF)),p=n?zt.apply([+n.dataset.x,+n.dataset.y]):null;
         svg.transition().duration(250).call(zoom.scaleBy,z==="in"?1.6:1/1.6,p||undefined)}});
-    drawStrip();setT(T,true)}
+    wireSearch();drawStrip();setT(T,true)}
+  // search: genera (that have formations on the map) and formations; arrows + Enter, or click
+  function wireSearch(){const inp=$("#bq"),res=$("#bqres");let hits=[],hi=0;
+    const pool=()=>[...D.formations.filter(f=>f.pp&&Object.keys(f.pp).length).map(f=>({k:"f",id:f.id,name:f.name,sub:`formation · ${f.country} · ${fmtMa(f.fad)}–${fmtMa(f.lad)}`})),
+      ...D.genera.filter(g=>(g.formations||[]).some(x=>(x.ids||[]).some(i=>{const f=F(i);return f&&f.pp&&Object.keys(f.pp).length}))).map(g=>({k:"g",id:g.name,name:g.name,sub:`genus · ${fmtMa(g.fad)}–${fmtMa(g.lad)}`}))];
+    const find=q=>{q=q.trim().toLowerCase();if(q.length<2)return[];return pool().filter(x=>x.name.toLowerCase().includes(q))
+      .sort((a,b)=>(a.name.toLowerCase().startsWith(q)?0:1)-(b.name.toLowerCase().startsWith(q)?0:1)||a.name.localeCompare(b.name)).slice(0,10)};
+    const show=()=>{hits=find(inp.value);hi=0;res.innerHTML=hits.map((x,i)=>`<div class="sr${i===hi?" on":""}" data-i="${i}">${x.k==="g"?"<i>"+esc(x.name)+"</i>":esc(x.name)}<small>${esc(x.sub)}</small></div>`).join("")||
+      (inp.value.trim().length>=2?`<div class="sr none">Nothing on the map matches “${esc(inp.value.trim())}”</div>`:"");
+      res.querySelectorAll(".sr[data-i]").forEach(d=>d.onmousedown=e=>{e.preventDefault();pick(hits[+d.dataset.i])})};
+    const pick=x=>{if(!x)return;inp.value=x.name;res.innerHTML="";inp.blur();if(x.k==="f")goFormation(x.id);else goGenus(x.id)};
+    inp.oninput=show;inp.onblur=()=>setTimeout(()=>res.innerHTML="",150);
+    inp.onkeydown=e=>{e.stopPropagation();if(e.key==="Enter"){e.preventDefault();pick(hits[hi]||find(inp.value)[0]);return}
+      if(e.key==="Escape"){res.innerHTML="";return}if(!hits.length)return;
+      if(e.key==="ArrowDown")hi=Math.min(hi+1,hits.length-1);else if(e.key==="ArrowUp")hi=Math.max(hi-1,0);else return;
+      e.preventDefault();res.querySelectorAll(".sr").forEach((d,i)=>d.classList.toggle("on",i===hi))}}
+  // a formation: go to the middle of its record and open its card
+  async function goFormation(fid){const f=F(fid),ts=Object.keys(f.pp).map(Number).sort((a,b)=>a-b);openC=null;openF=selF=fid;
+    history.replaceState(null,"","#biota/"+fid);await setT(ts[Math.floor((ts.length-1)/2)])}
+  // a genus: select it (its formations get the dashed ring), go to the map time closest to the middle of its range
+  // at which one of its formations is shown, and open that formation's card
+  async function goGenus(name){const g=byId[name];cur=name;const ids=[...new Set((g.formations||[]).flatMap(x=>x.ids||[]))].filter(i=>{const f=F(i);return f&&f.pp});
+    const mid=(g.fad+g.lad)/2,cands=ids.flatMap(i=>Object.keys(F(i).pp).map(t=>[+t,i])).sort((a,b)=>Math.abs(a[0]-mid)-Math.abs(b[0]-mid));
+    if(!cands.length)return;const[t,fid]=cands[0];openC=null;openF=selF=fid;history.replaceState(null,"","#biota/"+fid);await setT(t)}
   function applyZoom(){const l=d3.select("#bzl");if(l.empty())return;l.attr("transform",zt);const zk=$("#bzk");if(zk)zk.textContent=zt.k<1.05?"":"×"+(zt.k<10?zt.k.toFixed(1):Math.round(zt.k));
     l.selectAll(".bpt").attr("transform",function(){return `translate(${this.dataset.x},${this.dataset.y}) scale(${1/zt.k}) translate(${this.dataset.ox||0},${this.dataset.oy||0})`});
     if(zt.k!==lastK)l.selectAll(".bfan").remove();}

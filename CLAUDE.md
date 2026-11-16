@@ -23,6 +23,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `entries/<volume>/clades/<id>.yaml` | one clade entry | **yes — source of truth** |
 | `entries/<volume>/excluded.yaml` | names left out (nomina dubia etc.) and why | yes |
 | `entries/formations/<id>.yaml` | one geological formation (a place in Biota mode), shared by all volumes | **yes** (prose); PBDB fields via script |
+| `entries/home.yaml` | the start page ("Life on Earth"): intro text, sources, group pictures with credits | yes |
 | `entries/<volume>/_volume.yaml` | volume root clade and where it attaches to the tree | rarely |
 | `data/tree/backbone.json` | tree-of-life nodes that are not entries yet | rarely |
 | `data/raw/` | downloads from PBDB, Wikipedia, Commons, PhyloPic (provenance); `timescale/` = ICS chart v2024/12 via PBDB | **never** |
@@ -45,7 +46,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 
 Site code, one file per view: `js/core.js` (state, routing), `sidebar.js`, `entry-genus.js`
 (incl. size diagram), `entry-clade.js`, `timeline.js`, `index-search.js`, `pages.js`
-(excluded, about), `tree-of-life.js`, `biota.js` (Biota mode), `entry-formation.js` (formation entries), `main.js` (start-up, must load last). Plain scripts sharing
+(excluded, about), `tree-of-life.js`, `biota.js` (Biota mode), `entry-formation.js` (formation entries), `home.js` (start page), `main.js` (start-up, must load last). Plain scripts sharing
 global scope, no bundler.
 
 ## 3. Golden rules
@@ -296,8 +297,16 @@ curation: {...}           # Q1
 
 ### 4.8 Tree names
 
-- **L1 S** Names of tree nodes shown on the way to a volume are in English (the backbone still has
-  some Portuguese glosses such as "(linhagem das aves)").
+- **L1 S** Everything in the tree backbone — node names and notes — is in English (the Portuguese
+  glosses of the first prototype were translated on 2026-11-16; the validator flags any that return).
+
+### 4.9 Start page (`entries/home.yaml`)
+
+`title`, `lead`, `intro` (paragraphs in our own words), `hero` and `groups` (each `node` = a tree node
+id, `label`, `image` with `file`, `page`, `artist`, `license`, `license_url`, `caption`, `local`),
+`sources`. **H1 E** title and intro; **H2 E** every image complete, licence allowed (§4.4 I3) and in
+the media store; **H3 E** every group node exists in the tree. Facts in the text follow §3 like any
+entry (sources: fixed Wikipedia revisions or literature).
 
 ## 5. Workflow: from a request to a commit
 
@@ -335,10 +344,16 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 
 ## 6. Website conventions (keep them when changing the site)
 
-- Three modes in the top bar: **Encyclopedia**, **Tree of life** and **Biota** (it is an outline of the
-  classification, not a true cladogram, so never call it "cladogram" in the interface).
-  Encyclopedia sub-tabs: **Index, Entry, Timeline, Formations, Excluded names, About & sources** (shown only in Encyclopedia mode; Encyclopedia
-  stays highlighted on its sub-tabs).
+- Three modes in the header, on the right: **Encyclopedia**, **Tree of life** and **Biota** (the tree
+  is an outline of the classification, not a true cladogram, so never call it "cladogram"). The
+  Encyclopedia's sub-tabs sit **apart from the mode selector**, in their own bar under the header
+  (shown only in Encyclopedia mode): **Index, Entry, Timeline, Formations, About & excluded names**.
+  The last is one tab with two parts, switched by pills at the top: "About & sources" (`#about`)
+  and "Excluded names" (`#excluded`). Clicking the title returns to the start page.
+- **Start page** = the root of the tree ("Life", `#vida`): "Life on Earth" — lead, a short sourced
+  introduction, a hero picture, links to the three modes, counts, and a grid of pictures of very
+  different groups (bacteria to mammals); each card opens that group in the tree. Sources and
+  picture credits at the bottom. Content from `entries/home.yaml`.
 - **One selection shared by all views** (`cur` in `core.js`): the entry being read is the node
   highlighted in the Tree of life and the focus of the Timeline, and vice versa. Switching mode keeps it.
 - Tree of life: **Linear / Radial** layout switch (same selection and open groups). The radial
@@ -378,7 +393,11 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
   (and the text being typed). Time = an ICS interval name or an age/range in Ma, matched when the
   stratigraphic range overlaps it. A type filter (Full entries / Clades / Genera / All) applies on top. Sidebar search with keyboard support.
-- **Biota** (third mode in the top bar, `#biota`, deep link `#biota/<formation id>`): a time slider
+- **Biota** (third mode in the top bar, `#biota`, deep link `#biota/<formation id>`): a **search
+  box** (genera with formations on the map, and formations; arrows + Enter): a formation jumps to the
+  middle of its record and opens its card; a genus becomes the selected entry (its formations get the
+  dashed ring), the map goes to the time closest to the middle of its range at which one of its
+  formations is shown, and that formation's card opens. A time slider
   (oldest left, present right, on a gently non-linear scale — position = 1 − (age/1000 Ma)^0.6 — so
   recent times get more room; ◀ ▶ step one map, arrow keys, an ICS era/period strip on the same
   scale that can be clicked,

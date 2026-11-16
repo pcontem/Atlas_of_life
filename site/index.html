@@ -9,13 +9,11 @@
 </head>
 <body>
 <header>
-  <div><h1>Atlas of Life</h1><div class="sub">Tree of life</div></div>
-  <nav>
-    <span class="seg"><button data-v="tree" class="on">Encyclopedia</button><button data-v="clado">Tree of life</button><button data-v="biota">Biota</button></span>
-    <span class="encnav"><button data-v="index">Index</button><button data-v="tree" class="entry">Entry</button><button data-v="time">Timeline</button><button data-v="formations">Formations</button><button data-v="excluded">Excluded names</button><button data-v="about">About &amp; sources</button></span>
-  </nav>
+  <div class="brand" onclick="location.hash='vida'" title="Back to the start: life on Earth"><h1>Atlas of Life</h1><div class="sub">Earth's life, sourced</div></div>
+  <span class="seg"><button data-v="tree" class="on">Encyclopedia</button><button data-v="clado">Tree of life</button><button data-v="biota">Biota</button></span>
   <datalist id="names"></datalist>
 </header>
+<nav class="encnav"><button data-v="index">Index</button><button data-v="tree" class="entry">Entry</button><button data-v="time">Timeline</button><button data-v="formations">Formations</button><button data-v="about">About &amp; excluded names</button></nav>
 <main><div id="side"><div id="sbox"><input id="ssearch" type="search" placeholder="Search the encyclopedia…" autocomplete="off"><div id="sres"></div></div><div id="stree"></div></div><div id="view"><div class="empty">Loading…</div></div></main>
 <script src="vendor/d3.min.js"></script>
 <script src="js/core.js"></script>
@@ -28,6 +26,7 @@
 <script src="js/tree-of-life.js"></script>
 <script src="js/biota.js"></script>
 <script src="js/entry-formation.js"></script>
+<script src="js/home.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

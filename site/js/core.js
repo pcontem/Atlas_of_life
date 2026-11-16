@@ -40,7 +40,7 @@ function init(){
   const names=new Map();Object.values(byId).forEach(n=>{const k=n.name.toLowerCase();if(!byName[k])byName[k]=n.id;names.set(n.name,1)});
   $("#names").innerHTML=[...names.keys()].map(n=>`<option value="${esc(n)}">`).join("");
   initSearch();
-  document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;location.hash=v==="tree"?(cur||"vida"):v==="clado"?"tree-of-life":v});
+  document.querySelectorAll(".seg button,nav.encnav button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;location.hash=v==="tree"?(cur||"vida"):v==="clado"?"tree-of-life":v});
   const bt=$('.seg [data-v="biota"]');if(bt&&!(D.formations||[]).length)bt.style.display="none";
   addEventListener("hashchange",route);route();
 }
@@ -49,11 +49,14 @@ function route(){
   if(["time","excluded","about","index","biota","formations"].includes(h)){view=h}else if(h.startsWith("biota/")){view="biota";BT.focus(h.slice(6))}else if(h.startsWith("formation/")){view="formation";curF=h.slice(10)}else if(h==="tree-of-life"||h==="cladogram"){view="clado"}else{view="tree";cur=byId[h]?h:(cur||"vida");reveal(cur)}
   const full=view==="clado"||view==="biota";
   document.querySelector("main").classList.toggle("full",full);
-  $(".encnav").style.display=full?"none":"";
-  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===view||(view==="formation"&&b.dataset.v==="formations")));
+  document.body.classList.toggle("enc",!full);
+  // sub-tabs of the Encyclopedia live in their own bar under the header, apart from the mode selector
+  const tab={formation:"formations",excluded:"about"}[view]||view;
+  document.querySelectorAll("nav.encnav button").forEach(b=>b.classList.toggle("on",b.dataset.v===tab));
+  document.querySelectorAll(".seg button").forEach(b=>b.classList.toggle("on",b.dataset.v==="tree"?!full:b.dataset.v===view));
   document.querySelector('.seg [data-v="tree"]').classList.toggle("on",!full);
   if(!full)renderSide();
-  ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),biota:renderBiota,formation:()=>renderFormation(curF),index:renderIndex,formations:renderFormations,time:renderTime,excluded:renderExcluded,about:renderAbout})[view]();
+  ({tree:()=>renderFicha(cur),clado:()=>CL.render(cur||"vida"),biota:renderBiota,formation:()=>renderFormation(curF),index:renderIndex,formations:renderFormations,time:renderTime,excluded:()=>{renderExcluded();aboutTabs("excluded")},about:()=>{renderAbout();aboutTabs("about")}})[view]();
   $("#view").scrollTop=0;
 }
 // full genus entries are loaded on demand (site/g/<Name>.json); the index in data.json has what lists and maps need
@@ -69,6 +72,6 @@ function taxaBlock(gs,tile,gridClass){const big=gs.length>12,vols={};
     `<details class="tgrp"${big?"":" open"}><summary>${esc(k)} <span class="note">${v.length}${big?" · "+v.slice(0,3).map(g=>"<i>"+esc(g.name)+"</i>").join(", ")+(v.length>3?"…":""):""}</span></summary><div class="${gridClass}">${v.sort((a,b)=>a.name.localeCompare(b.name)).map(tile).join("")}</div></details>`).join("");
   const vs=Object.entries(vols);
   return vs.length===1?inner(vs[0][1]):vs.map(([v,groups])=>`<details class="tvol" open><summary>${esc(v)} <span class="note">${Object.values(groups).flat().length}</span></summary>${inner(groups)}</details>`).join("")}
-function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();renderSide()}else location.hash=id}
+function go(id){if(view==="time"&&byId[id]){cur=id;renderTime()}else if(view==="excluded"&&byId[id]){cur=id;renderExcluded();aboutTabs("excluded");renderSide()}else location.hash=id}
 function path(id){const p=[];let n=byId[id];while(n){p.unshift(n);n=byId[n.parent]}return p}
 function reveal(id){path(id).forEach(n=>{if(n.type==="clade")open.add(n.id)})}

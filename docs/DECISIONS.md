@@ -167,3 +167,10 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
      raise that limit (images ≈ 230 KB per genus incl. thumbnails → about 4,000 genera).
   3. **Automated data refresh** in GitHub Actions (PBDB + GPlates → PR), monthly and on demand.
   4. **Collapsible taxa groups** (by volume, then parent clade) in the Biota card and formation entry.
+- Interface (owner): Biota search box (genus or formation); "Excluded names" and "About & sources"
+  merged into one Encyclopedia tab; the Encyclopedia sub-tabs moved to their own bar, apart from
+  the mode selector; all Portuguese removed from the atlas (177 backbone names and notes translated;
+  L1 now checks the whole backbone); the root page "Life" became the start page: an introduction to
+  life on Earth (sourced to fixed revisions of six Wikipedia articles) with 19 openly licensed
+  pictures of very different groups, each linking to its place in the tree (`entries/home.yaml`,
+  rules H1–H3).
