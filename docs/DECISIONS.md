@@ -104,3 +104,11 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   licence- and AI-filtered, every one checked visually; 74 rejected: models, statues, park
   sculptures, dark or duplicate shots, old restorations, other taxa). All new reconstructions
   are `unreviewed` for accuracy.
+- Galleries gain figures from open-access articles (CC BY, found through Europe PMC/PMC): 44
+  figures (29 fossil, 6 life, 9 skeletal) for 22 genera, from 63 candidate articles and 89
+  downloaded figures; 22 dropped as copies of figures already taken from Commons (image-hash
+  comparison per genus), 23 rejected on the contact sheet (charts, CT renderings, schematic
+  outlines, a shark tooth, insects of the beetle genus *Sordes*, a figure of *Sinopterus* filed
+  under *Huaxiadraco*). Image `page` may now be the article's DOI link (validator I2); each
+  article is also added to the genus sources. Figures kept at 1000 px so their labels stay
+  legible. All are `unreviewed`.

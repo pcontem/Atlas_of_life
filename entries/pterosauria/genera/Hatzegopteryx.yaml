@@ -162,6 +162,21 @@ images:
   height: 915
   review: unreviewed
   local: img/gallery/Hatzegopteryx_197.webp
+- kind: skeletal
+  file: PMC5248582 Figure 6
+  url: https://europepmc.org/articles/PMC5248582/bin/peerj-05-2908-g006.jpg
+  page: https://doi.org/10.7717/peerj.2908
+  artist: Naish D, Witton MP (PeerJ, 2017)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017'
+  caption: 'Figure 6 from Naish & Witton (2017), PeerJ: Speculative skeletal reconstructions of Hatzegopteryx sp.
+    and Arambourgiania philadelphiae (estimated wingspans ≥10 m—Frey & Martill, 1996; Buffetaut, Grigorescu & Csiki,
+    2003) to show discrepancy in neck length…'
+  width: 786
+  height: 436
+  review: unreviewed
+  local: img/gallery/Hatzegopteryx_oa_2.webp
 silhouette:
   src: https://images.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4/vector.svg
   page: https://www.phylopic.org/images/6d8a64c5-4def-4331-ba27-fb021280b2f4
@@ -186,6 +201,10 @@ sources:
 - kind: literature
   text: 'Witton, M.P. (2017). "New paper: when the short-necked, giant azhdarchid pterosaur Hatzegopteryx ruled
     Late Cretaceous Romania". Markwitton.com Blog.'
+- kind: literature
+  text: Naish D, Witton MP 2017. Neck biomechanics indicate that giant Transylvanian azhdarchid pterosaurs were
+    short-necked arch predators. PeerJ. doi:10.7717/peerj.2908
+  url: https://doi.org/10.7717/peerj.2908
 curation:
   status: draft
   checked_by: ''
