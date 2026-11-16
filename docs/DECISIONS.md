@@ -104,6 +104,13 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   licence- and AI-filtered, every one checked visually; 74 rejected: models, statues, park
   sculptures, dark or duplicate shots, old restorations, other taxa). All new reconstructions
   are `unreviewed` for accuracy.
+
+## 2026-11-16
+
+- No permission requests to artists. Artwork without a compatible open licence (DeviantArt,
+  ArtStation, personal sites…) is only linked from the entry (`external`, rule I7), never
+  copied. Other free sources (CC BY open-access papers, Smithsonian Open Access, BHL, Flickr CC)
+  may be copied, with the licence recorded per image.
 - Galleries gain figures from open-access articles (CC BY, found through Europe PMC/PMC): 44
   figures (29 fossil, 6 life, 9 skeletal) for 22 genera, from 63 candidate articles and 89
   downloaded figures; 22 dropped as copies of figures already taken from Commons (image-hash
