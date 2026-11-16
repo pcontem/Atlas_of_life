@@ -40,7 +40,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 
 Site code, one file per view: `js/core.js` (state, routing), `sidebar.js`, `entry-genus.js`
 (incl. size diagram), `entry-clade.js`, `timeline.js`, `index-search.js`, `pages.js`
-(excluded, about), `tree-of-life.js`, `main.js` (start-up, must load last). Plain scripts sharing
+(excluded, about), `tree-of-life.js`, `biota.js` (Biota mode), `main.js` (start-up, must load last). Plain scripts sharing
 global scope, no bundler.
 
 ## 3. Golden rules
