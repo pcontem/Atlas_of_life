@@ -22,7 +22,10 @@ function sizeDiagram(g){
   return svg+`<p class="note">${note}${esc(g.wsnote||"")}</p>`+side}
 
 /* ---------- genus entry ---------- */
-function renderFicha(id){const n=byId[id];if(!n.ficha)return renderBasic(id);if(n.type==="clade")return renderClade(id);const g=n;
+function renderFicha(id){const n=byId[id];if(!n.ficha)return renderBasic(id);if(n.type==="clade")return renderClade(id);
+  if(!n.full){$("#view").innerHTML=`<div class="empty">Loading <i>${esc(n.name)}</i>…</div>`;
+    loadGenus(id).then(()=>{if(cur===id&&view==="tree")renderFicha(id)}).catch(()=>{if(cur===id)$("#view").innerHTML=`<div class="empty">Could not load the entry of <i>${esc(n.name)}</i>.</div>`});return}
+  const g=n;
   const imgs=g.images||[];let gi=0;
   const pathC=path(id).slice(0,-1).filter(c=>c.ficha);
   let h=`<div class="ficha">${crumbs(id)}<h2><i>${esc(g.name)}</i></h2><div class="auth">${esc(g.author||"")} · ${esc(g.early)}${g.late?"–"+esc(g.late):""} · ${fmtMa(g.fad)}–${fmtMa(g.lad)}</div>`;
@@ -56,7 +59,7 @@ function renderFicha(id){const n=byId[id];if(!n.ficha)return renderBasic(id);if(
   const show=i=>{const im=imgs[i];if(!im)return;$("#fig").innerHTML=`<div class="hero"><img src="${srcOf(im)}" alt="${esc(im.caption)}" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'note',textContent:'Image unavailable offline — see the source link.'}))"></div><figcaption>${esc(im.caption)}. ${im.artist?"By "+esc(im.artist)+", ":""}${lic(im.license,im.licurl)}${im.date?", "+esc(String(im.date).slice(0,10)):""} — <a href="${esc(im.page)}" target="_blank" rel="noopener">${/doi\.org/.test(im.page||"")?"Open-access article":"Wikimedia Commons"}</a>.${im.kind!=="fossil"?` <br>Reconstruction: interpretive${im.review==="accepted"?", reviewed for this atlas":", not yet reviewed for this atlas"}.`:""}</figcaption>`;
     document.querySelectorAll("#thumbs img").forEach(t=>t.classList.toggle("on",+t.dataset.i===i))};
   const tab=k=>{const ix=imgs.map((im,i)=>[im,i]).filter(([im])=>im.kind===k).map(([,i])=>i);
-    $("#thumbs").innerHTML=ix.length>1?ix.map(i=>`<img data-i="${i}" src="${srcOf(imgs[i])}" alt="" loading="lazy">`).join(""):"";
+    $("#thumbs").innerHTML=ix.length>1?ix.map(i=>`<img data-i="${i}" src="${thumbSrc(g.name,imgs[i])}" alt="" loading="lazy">`).join(""):"";
     document.querySelectorAll("#thumbs img").forEach(t=>t.onclick=()=>show(+t.dataset.i));
     document.querySelectorAll(".imgtabs button").forEach(b=>b.classList.toggle("on",b.dataset.k===k));show(ix[0])};
   document.querySelectorAll(".imgtabs button").forEach(b=>b.onclick=()=>tab(b.dataset.k));if(KINDS.length)tab(KINDS[0][0]);

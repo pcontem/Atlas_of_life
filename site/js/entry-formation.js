@@ -5,9 +5,8 @@ function renderFormation(fid){const f=(D.formations||[]).find(x=>x.id===fid);
   if(!f){$("#view").innerHTML=`<div class="empty">No formation entry “${esc(fid)}”.</div>`;return}
   const e=BT.envClass(f),gs=f.genera.map(n=>byId[n]).filter(Boolean),ts=Object.keys(f.pp||{}).map(Number).sort((a,b)=>a-b);
   const mid=ts.length?ts[Math.floor((ts.length-1)/2)]:null,age=v=>{const a=ivAt(v,"age");return a?a.name:""};
-  const groups={};for(const g of gs){const p=byId[g.parent];(groups[p?p.name:"—"]=groups[p?p.name:"—"]||[]).push(g)}
   const thumb=g=>{const im=(g.images||[]).find(i=>i.kind==="life")||(g.images||[])[0];
-    return im?`<img src="${imgSrc(g.name,im)}" alt="" style="max-height:96px;max-width:100%;opacity:1">`:(g.silhouette?`<img src="${silSrc(g.silhouette)}" alt="">`:"")};
+    return im?`<img src="${thumbSrc(g.name,im)}" alt="" style="max-height:96px;max-width:100%;opacity:1">`:(g.silhouette?`<img src="${silSrc(g.silhouette)}" alt="">`:"")};
   let h=`<div class="ficha"><div class="crumbs"><a onclick="location.hash='formations'">Formations</a> › ${esc(f.country)} · <a onclick="location.hash='biota/${f.id}'">show in Biota</a></div>
     <h2>${esc(f.name)}${/^Unnamed|Group \(/.test(f.name)?"":` <span class="fsub">Formation</span>`}</h2>
     <div class="auth">${f.group?esc(f.group)+" Group · ":""}${esc(f.country)}${f.regions.length?" ("+esc(f.regions.join(", "))+")":""} · ${esc(age(f.fad-0.01))}${age(f.lad+0.01)!==age(f.fad-0.01)?"–"+esc(age(f.lad+0.01)):""} · ${fmtMa(f.fad)}–${fmtMa(f.lad)}</div>
@@ -16,8 +15,8 @@ function renderFormation(fid){const f=(D.formations||[]).find(x=>x.id===fid);
   h+=`<div class="card"><h3>Palaeoenvironment</h3>${f.paleoenv?`<p style="margin:0">${esc(f.paleoenv)}</p>`:`<p class="note" style="margin:0">Not written yet. PBDB records these depositional environments: ${esc(f.env.map(s=>s.replace(/"/g,"")).join("; ")||"none")}.</p>`}</div>`;
   if(f.includes&&f.includes.length)h+=`<div class="card"><h3>Units grouped here</h3><ul class="diag">${f.includes.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`;
   h+=`<div class="card"><h3>Atlas taxa found here (${gs.length})</h3><p class="note" style="margin-top:0">Only taxa with atlas entries are listed; other groups will appear as new volumes are added. Click to open.</p>
-    ${Object.entries(groups).sort().map(([k,v])=>`<div class="bgrp">${esc(k)}</div><div class="members">${v.sort((a,b)=>a.name.localeCompare(b.name)).map(g=>
-      `<div class="mem" onclick="go('${esc(g.name)}')"><div class="th">${thumb(g)}</div><div class="nm"><i>${esc(g.name)}</i><small>${fmtMa(g.fad)}–${fmtMa(g.lad)}</small></div></div>`).join("")}</div>`).join("")}</div>`;
+    ${taxaBlock(gs,g=>
+      `<div class="mem" onclick="go('${esc(g.name)}')"><div class="th">${thumb(g)}</div><div class="nm"><i>${esc(g.name)}</i><small>${fmtMa(g.fad)}–${fmtMa(g.lad)}</small></div></div>`,"members")}</div>`;
   h+=`<div class="card"><h3>Sources</h3><ol class="src">${f.sources.map(s=>`<li><span class="kind">${esc(s.kind)}</span>${esc(s.text)}${s.url?` <a href="${esc(s.url)}" target="_blank" rel="noopener">link</a>`:""}</li>`).join("")}
     <li><span class="kind">model</span>${esc(D.paleo.citation)} (${esc(D.paleo.licence)}). ${esc(D.paleo.via)}</li></ol></div>`;
   h+=`</div><div>`;

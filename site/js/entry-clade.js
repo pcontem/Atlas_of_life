@@ -1,12 +1,12 @@
 /* Atlas of Life — Clade entry page and the basic page for groups without an entry. */
 /* ---------- clade entry ---------- */
 function allGenera(id){const out=[];(function r(k){const n=byId[k];if(n.type==="genus")out.push(n);else children[k].forEach(r)})(id);return out}
-function thumb(g){const im=(g.images||[])[0];if(im)return `<div class="th" style="background-image:url('${imgSrc(g.name,im)}')"></div>`;
+function thumb(g){const im=(g.images||[])[0];if(im)return `<div class="th" style="background-image:url('${thumbSrc(g.name,im)}')"></div>`;
   return `<div class="th">${g.silhouette?`<img src="${silSrc(g.silhouette)}" alt="">`:""}</div>`}
 function renderClade(id){const c=byId[id],gs=allGenera(id),s=c.stat;
   const direct=children[id].filter(k=>byId[k].type==="genus");
   let h=`<div class="ficha">${crumbs(id)}<h2>${esc(c.name)}</h2><div class="auth">Clade · ${s.g} genera in this volume · ${fmtMa(s.fad)}–${fmtMa(s.lad)}</div><p class="lead">${esc(c.sum)}</p>`;
-  h+=`<div class="card"><div class="stat"><div><b>${s.g}</b><span>genera</span></div><div><b>${gs.reduce((a,g)=>a+g.species.length,0)}</b><span>valid species</span></div><div><b>${fmtMa(s.fad).replace(" Ma","")}–${fmtMa(s.lad).replace(" Ma","")}</b><span>million years ago</span></div><div><b>${s.cc.size}</b><span>countries with fossils</span></div></div></div>`;
+  h+=`<div class="card"><div class="stat"><div><b>${s.g}</b><span>genera</span></div><div><b>${gs.reduce((a,g)=>a+(g.nsp??g.species.length),0)}</b><span>valid species</span></div><div><b>${fmtMa(s.fad).replace(" Ma","")}–${fmtMa(s.lad).replace(" Ma","")}</b><span>million years ago</span></div><div><b>${s.cc.size}</b><span>countries with fossils</span></div></div></div>`;
   h+=`<div class="grid"><div><div class="card"><h3>Diagnostic features</h3><ul class="diag">${c.diag.map(d=>`<li>${esc(d)}</li>`).join("")}</ul></div></div><div><div class="card"><h3>Notes on classification</h3><p style="margin:0">${esc(c.notes)}</p></div></div></div>`;
   h+=`<p class="note" style="margin:-6px 0 14px">How these genera are spread through time: <a style="cursor:pointer" onclick="TLV='ranges';TLRES='genus';location.hash='time'">see the Timeline</a>.</p>`;
   const sub=children[id].filter(k=>byId[k].type==="clade");

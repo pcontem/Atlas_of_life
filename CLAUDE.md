@@ -33,8 +33,12 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `scripts/make_formations.py` | creates/refreshes formation entries from genus entries + PBDB collections; links genera to them | code |
 | `data/raw/paleomaps/` | Merdith et al. 2021 coastlines per time step + reconstructed formation positions (GPlates Web Service) | **never** |
 | `scripts/legacy/` | prototype code, kept for history | never |
-| `site/` | the static website (`index.html`, `css/`, `js/`, `img/`, `sil/`, `vendor/`) | code |
-| `site/data.json`, `site/life.json`, `site/paleo/*.json` | **generated** by build.py | **never** |
+| `site/` | the static website (`index.html`, `css/`, `js/`, `vendor/`) | code |
+| `site/data.json`, `site/life.json`, `site/g/*.json`, `site/paleo/*.json` | **generated** by build.py: the index every view loads, the tree, one full genus entry per file (loaded on demand), the maps | **never** |
+| `site/img/`, `site/sil/` | images and silhouettes — **not in main**: they live on the branch `media` (one commit, replaced on each update) | via `scripts/media.py` |
+| `media/manifest.json` | path, size, sha256 and volume of every media file (the validator checks against it) | via `scripts/media.py` |
+| `scripts/media.py` | `pull` the images into site/, `push` new ones (makes 240-px thumbnails, updates the manifest) | code |
+| `scripts/fetch/` | `pbdb.py`, `gplates.py`: download fresh PBDB and GPlates data (run by the data-refresh workflow) | code |
 | `tests/screenshots.py` | visual smoke test of every view | code |
 | `docs/CONSOLIDATION.md` | generated to-do list (`validate.py --report`) | never |
 | `docs/DECISIONS.md` | log of project decisions and why | yes, append only |
@@ -190,11 +194,15 @@ comparison charts, AI-generated images, and photos of other taxa.
   wing membrane reaching the ankle; crest, teeth and skull proportions consistent with the known
   material; no features contradicted by the sources. Claude may propose a verdict with reasons;
   the owner decides. Mark replaced or contradicted art `outdated` and look for a better one.
-- **I5 E** The local copy exists: the image's `local` path under `site/` (gallery images:
+- **I5 E** The image is in the media store: its `local` path under `site/` is listed in
+  `media/manifest.json` (gallery images:
   `img/gallery/<Genus>_<nnn>.webp`, max 800 px, or `<Genus>_oa_<n>.webp`, max 1000 px for
   article figures with small labels; WebP) or, for the original main images,
-  `site/img/<Genus>_<kind>.webp`; silhouettes in `site/sil/<phylopic-uuid>.webp`. The site never
-  loads remote images.
+  `site/img/<Genus>_<kind>.webp`; silhouettes in `site/sil/<phylopic-uuid>.webp`; every image also
+  gets a 240-px copy in `site/img/thumb/…` for lists, cards and maps). The site never loads remote
+  images. **Adding images:** `python3 scripts/media.py pull` (so site/ has all current images), put
+  the new files in site/img, reference them in the entry, `python3 scripts/media.py push` (thumbnails,
+  manifest, media branch), then commit the entry and `media/manifest.json` as usual.
 - Finding images: Commons categories `Category:<Genus>` and its sub-categories ("… fossils",
   "… life restorations", "… skeletal mounts", "… skulls"); every candidate is checked visually
   before it is added (keep a contact sheet), and gets `review: unreviewed`. Second source:
@@ -401,6 +409,14 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
 - No group gets special treatment in code because it is the pilot (no hard-coded "pterosauria"
   defaults); the start page is the root of the tree.
 - Images and libraries are served locally (no remote requests at runtime).
+- **Loading:** `data.json` is a light index (clades, one short record per genus with its
+  representative image, formations, timescale); the full genus entry (`g/<Genus>.json`) is fetched
+  when its page is opened. Views other than the genus entry must work from the index alone. Lists,
+  cards, the tree and maps use the 240-px thumbnails (`thumbSrc`); only the gallery's main image uses
+  the full file.
+- **Taxa of a place** (Biota card, formation entry) are grouped by volume and then by parent clade in
+  collapsible groups; up to 12 taxa everything is open, above that the clade groups start closed with
+  their count and first names.
 
 ## 7. Getting data from the web
 
@@ -414,3 +430,12 @@ Service `reconstruct/coastlines` and `reconstruct/reconstruct_points` with `mode
 (coastlines simplified in the browser: rings < 1 deg² dropped, Douglas–Peucker 0.3°, coordinates
 ×10 as integers → `data/raw/paleomaps/`).
 Record the download date in the source text when you add new data.
+
+**Automated refresh** (`.github/workflows/data-refresh.yml`, on demand and monthly — GitHub Actions
+can reach the web even when the maintainer's session cannot): `scripts/fetch/pbdb.py` re-downloads
+each volume's PBDB occurrences and collections (same file layouts), `make_formations.py` updates the
+formation entries, `scripts/fetch/gplates.py` fetches missing palaeo-positions, then fmt/build/
+validate, and a pull request `data/pbdb-refresh` is opened listing PBDB genera not yet in the atlas
+and the validation result. Genus entries are never changed automatically. One-time setting:
+Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests".
+The Pages workflow runs `scripts/media.py pull` before publishing.

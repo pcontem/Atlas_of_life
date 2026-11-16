@@ -7,7 +7,8 @@ Reads   entries/<volume>/_volume.yaml, clades/*.yaml, genera/*.yaml, excluded.ya
         data/raw/paleomaps/  (Merdith et al. 2021 coastlines + reconstructed formation positions)
         data/tree/backbone.json  (tree-of-life nodes that are not entries)
         data/raw/timescale/pbdb_ics_2024.json  (ICS chart intervals, for search by time)
-Writes  site/data.json  (everything the encyclopedia shows)
+Writes  site/data.json  (the index every view needs: clades, light genus records, formations, timescale)
+        site/g/<Genus>.json  (one full genus entry each, loaded on demand by the entry page)
         site/paleo/<Ma>.json  (one simplified coastline map per time step, loaded on demand)
         site/life.json  (the whole tree: backbone + every entry)
 
@@ -51,6 +52,19 @@ def genus_to_site(e):
     if e.get("external"):
         g["external"] = e["external"]
     return g
+
+
+INDEX_KEYS = ("name", "clade", "isd", "sum", "ws", "fad", "lad", "early", "late", "author", "type_species", "silhouette")
+
+
+def genus_index(g, vol):
+    """The light record every view needs (lists, tree, timeline, maps); the full entry is in site/g/<Name>.json.
+    `images` holds only the representative image (first life restoration, else the first image)."""
+    rep = next((i for i in g["images"] if i["kind"] == "life"), g["images"][0] if g["images"] else None)
+    r = {k: g[k] for k in INDEX_KEYS if k in g}
+    r.update(vol=vol, nsp=len(g["species"]), images=[rep] if rep else [],
+             formations=[dict(ids=f["ids"], country=f["country"]) for f in g["formations"]])
+    return r
 
 
 def clade_to_site(e):
@@ -116,6 +130,7 @@ def main():
             tree.append([c["id"], c["name"], c["parent"] or v["attach_to"], "e", "", "c", 1])
         for g in gn:
             genera.append(genus_to_site(g))
+            genera[-1]["vol"] = d.name
             tree.append([g["name"], g["name"], g["parent"], "e", "", "g", 1])
         excluded += load(d / "excluded.yaml") or []
         metas.append(v)
@@ -127,6 +142,14 @@ def main():
                           method=m["method"]),
                 clades=clades, genera=genera, excluded=excluded, formations=formations, paleo=paleo,
                 timescale=timescale, timescale_source=ts["reference"] + " Via " + ts["source"] + ".")
+    # full genus entries, one file each, loaded when an entry page is opened
+    gdir = ROOT / "site/g"
+    gdir.mkdir(exist_ok=True)
+    for old in gdir.glob("*.json"):
+        old.unlink()
+    for g in genera:
+        (gdir / f"{g['name']}.json").write_text(json.dumps(g, ensure_ascii=False))
+    data["genera"] = [genus_index(g, g["vol"]) for g in genera]
     (ROOT / "site/data.json").write_text(json.dumps(data, ensure_ascii=False))
     (ROOT / "site/life.json").write_text(json.dumps(tree, ensure_ascii=False))
     print(f"built: {len(genera)} genera, {len(clades)} clades, {len(excluded)} excluded names, {len(formations)} formations, {len(tree)} tree nodes")

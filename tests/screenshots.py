@@ -56,7 +56,7 @@ def main():
             dom = subprocess.run([chrome(), "--headless=new", "--no-sandbox", "--disable-gpu",
                                   "--virtual-time-budget=6000", "--dump-dom", url],
                                  capture_output=True, text=True, timeout=60).stdout
-            ok = png.exists() and "Could not load the data file" not in dom and "Loading…" not in dom
+            ok = png.exists() and "Could not load" not in dom and "Loading" not in dom
             print(("ok   " if ok else "FAIL ") + f"{name:14} {png.relative_to(ROOT)}")
             if not ok:
                 bad.append(name)

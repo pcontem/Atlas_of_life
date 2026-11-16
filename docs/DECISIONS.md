@@ -155,3 +155,15 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   under the buttons, double-click on a cluster zooms ×4; at the deepest zoom, points that still
   overlap (sites a few km apart or the same site) fan out around their spot. The coastlines stay
   simplified to 0.3°, so at high zoom they are only indicative.
+- Scaling (owner asked for the four changes):
+  1. **Lazy loading**: `data.json` is now an index (891 → 323 KB for 126 genera); each full genus
+     entry is its own file `site/g/<Genus>.json`, fetched when its page opens.
+  2. **Images out of main**: the owner chose GitHub Releases, but release assets cannot be created
+     or edited from the sessions that maintain the atlas (403). Same goal with plain git instead: the
+     images live on the branch `media`, kept as a single commit that `scripts/media.py push` replaces
+     (no old versions pile up); main keeps only `media/manifest.json`; the Pages workflow pulls them
+     before publishing. 240-px thumbnails added for every image. Note: the published site is still
+     subject to GitHub Pages' 1 GB limit; this change keeps the repository history light, it does not
+     raise that limit (images ≈ 230 KB per genus incl. thumbnails → about 4,000 genera).
+  3. **Automated data refresh** in GitHub Actions (PBDB + GPlates → PR), monthly and on demand.
+  4. **Collapsible taxa groups** (by volume, then parent clade) in the Biota card and formation entry.
