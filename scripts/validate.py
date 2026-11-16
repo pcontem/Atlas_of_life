@@ -372,6 +372,23 @@ def check_home():
             err("H3", f"home group {g.get('label')}", f"node '{g.get('node')}' is not in the tree")
 
 
+PAGES_LIMIT_MB, MEDIA_WARN_MB = 1000, 800
+
+
+def media_size_notice():
+    """GitHub Pages publishes at most 1 GB. While the images are published with the site (media/config.json
+    base_url empty), say how much of that they use, and warn from 800 MB: time to switch them to R2."""
+    cfg = ROOT / "media/config.json"
+    if cfg.exists() and (json.loads(cfg.read_text()).get("base_url") or "").strip():
+        return
+    mb = sum(v["bytes"] for v in MEDIA.values()) / 1e6
+    if mb >= MEDIA_WARN_MB:
+        print(f"WARNING media: images take {mb:.0f} MB of the {PAGES_LIMIT_MB} MB GitHub Pages limit — "
+              "time to serve them from Cloudflare R2 (CLAUDE.md §7, Image storage)")
+    else:
+        print(f"media: {mb:.0f} MB of images published with the site ({mb / PAGES_LIMIT_MB:.0%} of the GitHub Pages limit)")
+
+
 def main():
     args = set(sys.argv[1:])
     backbone = {n[0]: n for n in json.loads((ROOT / "data/tree/backbone.json").read_text())}
@@ -395,6 +412,7 @@ def main():
         print(f"{lvl:6} {rule:3} {where}: {msg}")
     print(f"\n{len(errors)} error(s), {len(stricts)} consolidation issue(s) "
           f"({len({p[2] for p in stricts})} entries) — see CLAUDE.md for rule codes")
+    media_size_notice()
     fail = errors or ("--strict" in args and stricts)
     sys.exit(1 if fail else 0)
 
