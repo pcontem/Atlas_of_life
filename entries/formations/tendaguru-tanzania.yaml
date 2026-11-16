@@ -1,0 +1,29 @@
+id: tendaguru-tanzania
+name: Tendaguru
+rank: formation
+group: ''
+country: Tanzania
+regions: [Lindi]
+location:
+  lat: -9.705
+  lng: 39.228
+  basis: median of 3 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 149.2
+  last_ma: 143.1
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [estuary/bay]
+lithology: [sandstone, not reported, marl]
+pbdb_collections: ['47154', '47160', '89996']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Tendaguru (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Tendaguru
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

@@ -1,0 +1,29 @@
+id: painten-germany
+name: Painten
+rank: formation
+group: Weißjura
+country: Germany
+regions: [Bavaria, Bayern]
+location:
+  lat: 48.971
+  lng: 11.784
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [lagoonal/restricted shallow subtidal]
+lithology: [lime mudstone, '"limestone"']
+pbdb_collections: ['57682', '59175']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Painten (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Painten
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

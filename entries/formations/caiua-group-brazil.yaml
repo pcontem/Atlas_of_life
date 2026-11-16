@@ -1,0 +1,30 @@
+id: caiua-group-brazil
+name: Caiuá Group
+rank: formation
+group: ''
+country: Brazil
+regions: [Paraná]
+location:
+  lat: -24.629
+  lng: -53.011
+  basis: median of 2 all PBDB collections of the formation in that country (none recorded with the atlas genera)
+age:
+  first_ma: 121.4
+  last_ma: 72.2
+  note: 'No PBDB age for these beds: span of the age of the atlas genera found here.'
+environment: [dune, interdune]
+lithology: [sandstone]
+pbdb_collections: ['99828', '160057']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Caiuá Group (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Caiuá+Group
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

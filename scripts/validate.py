@@ -279,13 +279,63 @@ def check_volume(vdir, backbone, all_names):
     return clades, genera
 
 
+def check_formations(genus_forms):
+    """F rules: formation entries (entries/formations) and the links from genus entries to them."""
+    fdir = ROOT / "entries/formations"
+    forms = {p: yaml.safe_load(p.read_text()) for p in sorted(fdir.glob("*.yaml"))} if fdir.is_dir() else {}
+    ids = {e.get("id") for e in forms.values()}
+    pts_file = ROOT / "data/raw/paleomaps/formation_points.json"
+    pts = json.loads(pts_file.read_text())["points"] if pts_file.exists() else {}
+    placed = collections.defaultdict(set)
+    for rows in pts.values():
+        for fid, lng, lat, plng, plat in rows:
+            placed[fid].add((round(lng, 3), round(lat, 3)))
+    used = collections.Counter()
+    for genus, items in genus_forms:
+        for f in items:
+            fids = f.get("id") if isinstance(f.get("id"), list) else [f.get("id")]
+            for fid in fids:
+                if fid not in ids:
+                    err("F3", f"genus {genus}", f"formation '{f.get('formation')}' has no formation entry (id '{fid}'; run scripts/make_formations.py)")
+                used[fid] += 1
+    for p, e in forms.items():
+        w = f"formation {e.get('id')}"
+        if e.get("id") != p.stem or e.get("rank") != "formation" or not e.get("name") or not e.get("country"):
+            err("F1", w, "needs id = file name, rank: formation, name and country")
+        loc = e.get("location") or {}
+        lat, lng = loc.get("lat"), loc.get("lng")
+        if lat is None or lng is None:
+            err("F2", w, "location has no coordinates")
+        elif not (-90 <= lat <= 90 and -180 <= lng <= 180) or not loc.get("basis"):
+            err("F2", w, "location must be lat/lng in degrees with a basis")
+        elif (round(lng, 3), round(lat, 3)) not in placed[e["id"]]:
+            err("F4", w, "no palaeo-positions for this location in data/raw/paleomaps/formation_points.json (refresh them)")
+        a = e.get("age") or {}
+        if not (isinstance(a.get("first_ma"), (int, float)) and isinstance(a.get("last_ma"), (int, float)) and a["first_ma"] >= a["last_ma"] >= 0):
+            err("F2", w, "age first_ma ≥ last_ma ≥ 0 required")
+        if not used[e.get("id")]:
+            err("F3", w, "no genus entry lists this formation")
+        sm = (e.get("summary") or "").strip()
+        if not sm:
+            strict("F5", w, "summary is empty (one sentence on what the formation is)")
+        elif len(sm) > 170 or not sm.endswith("."):
+            strict("F5", w, "summary must be one sentence ending in '.', ≤170 characters")
+        if not (e.get("paleoenvironment") or "").strip():
+            strict("F5", w, "paleoenvironment is empty")
+        check_sources(w, e.get("sources"), need_original=False)
+        check_curation(w, e.get("curation"))
+
+
 def main():
     args = set(sys.argv[1:])
     backbone = {n[0]: n for n in json.loads((ROOT / "data/tree/backbone.json").read_text())}
     all_names = collections.defaultdict(list)
     vols = sorted(p.parent for p in (ROOT / "entries").glob("*/_volume.yaml"))
+    genus_forms = []
     for vd in vols:
-        check_volume(vd, backbone, all_names)
+        _, genera = check_volume(vd, backbone, all_names)
+        genus_forms += [(g["name"], g.get("formations") or []) for g in genera.values()]
+    check_formations(genus_forms)
     for n, vs in all_names.items():
         if len(vs) > 1 or n in backbone:
             err("G1", f"genus {n}", "name appears more than once in the atlas")

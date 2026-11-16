@@ -1,0 +1,29 @@
+id: wessex-united-kingdom
+name: Wessex
+rank: formation
+group: Wealden
+country: United Kingdom
+regions: [England]
+location:
+  lat: 50.654
+  lng: -1.444
+  basis: median of 5 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [crevasse splay, terrestrial indet.]
+lithology: [conglomerate, mudstone, not reported]
+pbdb_collections: ['48853', '101091', '101092', '101093', '168797']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Wessex (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Wessex
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

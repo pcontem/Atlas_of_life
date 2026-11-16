@@ -1,0 +1,30 @@
+id: merchantville-united-states
+name: Merchantville
+rank: formation
+group: Matawan
+country: United States
+regions: [Delaware]
+location:
+  lat: 39.538
+  lng: -75.726
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [marine indet.]
+lithology: [sandstone]
+pbdb_collections: ['46565', '46566']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Merchantville (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Merchantville
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []

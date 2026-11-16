@@ -1,0 +1,29 @@
+id: winton-australia
+name: Winton
+rank: formation
+group: Rolling Downs
+country: Australia
+regions: [Queensland]
+location:
+  lat: -22.348
+  lng: 143.089
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 100.5
+  last_ma: 89.8
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: ['"floodplain"']
+lithology: [siltstone]
+pbdb_collections: ['236853']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Winton (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Winton
+curation:
+  status: draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
