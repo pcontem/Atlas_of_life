@@ -171,14 +171,16 @@ def fetch(vol=None):
             time.sleep(0.5)
             if not b:
                 continue
+            oa = "doi.org/" in (im.get("page") or "")  # open-access article figure: larger, for small labels
             k = 1
-            while f"{e['name']}_{k:03d}.webp" in taken:
+            pat = f"{e['name']}_oa_{{}}.webp" if oa else f"{e['name']}_{{:03d}}.webp"
+            while pat.format(k) in taken:
                 k += 1
-            name = f"{e['name']}_{k:03d}.webp"
+            name = pat.format(k)
             taken.add(name)
             pic = Image.open(io.BytesIO(b))
             pic = pic.convert("RGBA" if pic.mode in ("RGBA", "LA", "P") else "RGB")
-            pic.thumbnail((800, 800))
+            pic.thumbnail((1000, 1000) if oa else (800, 800))
             pic.save(SITE / "img/gallery" / name, "WEBP", quality=82)
             im["local"] = f"img/gallery/{name}"
             changed = True
