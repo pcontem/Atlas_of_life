@@ -646,6 +646,10 @@ Result: 4,046 → 3,965 backbone nodes; 99 groupings removed, 21 families added.
 - *Dickinsonia*: Ediacaran biota → Metazoa — out of the dissolved grouping "Ediacaran biota (uncertain position)"
 
 </details>
+## Later changes
+
+- 2026-11-17 — Revueltosauridae: Aetosauria → Pseudosuchia. *Revueltosaurus* is the sister group of aetosaurs, not one of them (Parker 2005, 2022, cited in the Revueltosauridae entry); PBDB has no record of the family. A node "Aetosauriformes" would place it more precisely.
+
 ## Kept against PBDB (open questions for reviewers)
 
 - **PBDB homonyms**, not real conflicts: *Archaea* (a spider genus in PBDB), Proboscidea (an insect group), Booidea, and genera such as *Lachesis*, *Regina*, *Aspidura*, *Hemiaspis*, *Cystophora*, *Trichechus*, *Cynocephalus*, *Gordonia*, *Rubidgea*, *Burnetia*, *Murina*, *Cuniculus*.
