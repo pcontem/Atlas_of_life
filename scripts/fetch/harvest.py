@@ -164,10 +164,14 @@ def strip_html(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
 
-LIVING_MAX = 6
+def cap_for(n_species):
+    """Candidates per genus (owner, 2026-11-17): at most 15, or one per species when the genus has more."""
+    return max(15, n_species)
 
 
-def commons(wikires, names, living=()):
+def commons(wikires, names, nsp, living=()):
+    """Candidate pictures per genus, at most cap_for(species): the article's own pictures first, then (extinct
+    genera only) Category:<Genus> and its sub-categories. Living genera use the article's pictures alone."""
     files = {}
 
     def add(title, genus, where):
@@ -181,21 +185,26 @@ def commons(wikires, names, living=()):
     for k, g in enumerate(names):
         if k % 50 == 0:
             print(f"  commons {k}/{len(names)}", flush=True)
+        cap, got = cap_for(nsp.get(g, 0)), []
         art = [t for t in (wikires.get(g) or {}).get("files", []) if not re.search(r"(map|range|distribution|\.svg$|icon|logo|status)", t, re.I)]
-        if g in living:
-            # living genera: only a few representative pictures (owner, 2026-11-17): those of the article
-            for t in art[:LIVING_MAX]:
-                add(t, g, "wikipedia")
-            continue
         for t in art:
-            add(t, g, "wikipedia")
+            if len(got) < cap and t not in got:
+                got.append(t)
+                add(t, g, "wikipedia")
+        if g in living or len(got) >= cap:
+            continue
         cats = [f"Category:{g}"]
         sub = mw(COMMONS, action="query", list="categorymembers", cmtitle=f"Category:{g}", cmtype="subcat", cmlimit=15)
         cats += [c["title"] for c in sub.get("query", {}).get("categorymembers", [])]
         for c in cats:
-            r = mw(COMMONS, action="query", list="categorymembers", cmtitle=c, cmtype="file", cmlimit=60)
+            if len(got) >= cap:
+                break
+            r = mw(COMMONS, action="query", list="categorymembers", cmtitle=c, cmtype="file", cmlimit=cap)
             for m in r.get("query", {}).get("categorymembers", []):
-                add(m["title"], g, c)
+                t = "File:" + m["title"].split(":", 1)[1]
+                if len(got) < cap and t not in got:
+                    got.append(t)
+                    add(t, g, c)
     titles = sorted(files)
     for i in range(0, len(titles), 40):
         r = mw(COMMONS, action="query", prop="imageinfo", iiprop="url|size|mime|extmetadata", iiurlwidth=330,
@@ -246,7 +255,7 @@ def sheets(files, names, outdir):
     for k, g in enumerate(names):
         if k % 50 == 0:
             print(f"  sheets {k}/{len(names)}", flush=True)
-        cand = [(t, f) for t, f in sorted(files.items()) if g in f["genera"] and f.get("thumb")][:60]
+        cand = [(t, f) for t, f in sorted(files.items()) if g in f["genera"] and f.get("thumb")]
         if not cand:
             continue
         cols, cw, ch = 4, 330, 300
@@ -292,8 +301,9 @@ def main():
     w("wiki.json", dict(downloaded=TODAY, pages=wk))
     print("Commons…", flush=True)
     living = {r["taxon_name"] for r in gen if r.get("is_extant") in ("extant", True, 1, "1")}
-    print(f"{len(living)} living genera: at most {LIVING_MAX} article images each")
-    files = commons(wk, names, living)
+    nsp = {g: len(v) for g, v in species.items()}
+    print(f"{len(living)} living genera (article pictures only); at most max(15, species) candidates per genus")
+    files = commons(wk, names, nsp, living)
     w("commons.json", dict(downloaded=TODAY, files=files))
     print("PhyloPic…")
     lineage = {r["taxon_name"]: [x for x in (r.get("family"), r.get("parent_name"), r.get("order")) if x and x != "NO_FAMILY_SPECIFIED"]
