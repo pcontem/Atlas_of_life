@@ -1,0 +1,52 @@
+name: harvest
+# Downloads the raw material for a new genus volume (PBDB, English Wikipedia, Wikimedia Commons, PhyloPic)
+# with scripts/fetch/harvest.py and commits data/raw/<volume>/ to the branch it was run on.
+# Contact sheets of the candidate images are uploaded as a workflow artifact for visual review.
+# Run from Actions → harvest → Run workflow, choosing the volume's branch, or by pushing a change to
+# data/raw/harvest_request.json on any branch ({"volume": ..., "base": ..., "genera": "", "sheets": true}).
+on:
+  push:
+    paths: [data/raw/harvest_request.json]
+  workflow_dispatch:
+    inputs:
+      volume: { description: "Volume folder (entries/<volume>)", required: true }
+      base: { description: "PBDB base taxon", required: true }
+      genera: { description: "Only these genera (comma-separated; empty = all)", required: false, default: "" }
+      sheets: { description: "Make contact sheets", type: boolean, default: true }
+permissions: { contents: write }
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml pillow
+      - name: Parameters
+        env: { VOL: "${{ inputs.volume }}", BASE: "${{ inputs.base }}", GENERA: "${{ inputs.genera }}", SHEETS: "${{ inputs.sheets }}" }
+        run: |
+          if [ -z "$VOL" ]; then
+            python3 - >> "$GITHUB_ENV" <<'PY'
+          import json; r = json.load(open("data/raw/harvest_request.json"))
+          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}")
+          PY
+          else
+            { echo "VOL=$VOL"; echo "BASE=$BASE"; echo "GENERA=$GENERA"; echo "SHEETS=$SHEETS"; } >> "$GITHUB_ENV"
+          fi
+      - name: Harvest
+        run: |
+          args=("$VOL" "$BASE")
+          [ -n "$GENERA" ] && args+=(--genera "$GENERA")
+          [ "$SHEETS" = "true" ] && args+=(--sheets /tmp/sheets)
+          python3 scripts/fetch/harvest.py "${args[@]}"
+      - uses: actions/upload-artifact@v4
+        if: env.SHEETS == 'true'
+        with: { name: "contact-sheets-${{ env.VOL }}", path: /tmp/sheets, retention-days: 30 }
+      - name: Commit raw data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add "data/raw/$VOL"
+          git diff --cached --quiet || git commit -m "Harvest raw data for the $VOL volume" -m "Automated by .github/workflows/harvest.yml."
+          git push
