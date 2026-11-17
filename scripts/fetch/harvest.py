@@ -190,16 +190,24 @@ def commons(wikires, names, nsp, living=()):
             print(f"  commons {k}/{len(names)}", flush=True)
         cap, got = cap_for(nsp.get(g, 0)), []
         art = [t for t in (wikires.get(g) or {}).get("files", []) if not re.search(r"(map|range|distribution|\.svg$|icon|logo|status)", t, re.I)]
-        for t in art:
+        # the article's pictures that name the genus first; the others are often navigation-box pictures of
+        # related genera, so they come last, after the Commons categories
+        named = [t for t in art if g.lower() in t.lower()]
+        other = [t for t in art if t not in named]
+        for t in named:
             if len(got) < cap and t not in got:
                 got.append(t)
                 add(t, g, "wikipedia")
-        if g in living or len(got) >= cap:
+        if g in living:
+            for t in other:
+                if len(got) < cap and t not in got:
+                    got.append(t)
+                    add(t, g, "wikipedia")
             continue
         cats = [f"Category:{g}"]
         sub = mw(COMMONS, action="query", list="categorymembers", cmtitle=f"Category:{g}", cmtype="subcat", cmlimit=15)
         cats += [c["title"] for c in sub.get("query", {}).get("categorymembers", [])]
-        for c in cats:
+        for c in cats if len(got) < cap else []:
             if len(got) >= cap:
                 break
             r = mw(COMMONS, action="query", list="categorymembers", cmtitle=c, cmtype="file", cmlimit=cap)
@@ -208,6 +216,10 @@ def commons(wikires, names, nsp, living=()):
                 if len(got) < cap and t not in got:
                     got.append(t)
                     add(t, g, c)
+        for t in other:
+            if len(got) < cap and t not in got:
+                got.append(t)
+                add(t, g, "wikipedia (other picture of the article)")
     titles = sorted(files)
     for i in range(0, len(titles), 40):
         r = mw(COMMONS, action="query", prop="imageinfo", iiprop="url|size|mime|extmetadata", iiurlwidth=330,
