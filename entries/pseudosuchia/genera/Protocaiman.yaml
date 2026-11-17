@@ -1,0 +1,91 @@
+name: Protocaiman
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Bona et al. 2018
+type_species: Protocaiman peligrensis
+type_species_note: ''
+summary: Paleocene caimanine from the Salamanca Formation of Patagonia, named in 2018 from a partial skull.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 72.2
+  last_ma: 61.66
+  early_interval: Maastrichtian
+  late_interval: Danian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Protocaiman peligrensis
+  authority: Bona et al. 2018
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Salamanca
+  group: ''
+  members: [Hansen]
+  country: Argentina
+  regions: [Chubut]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: salamanca-argentina
+fossil_material:
+  holotype: MLP 80-X-10-1 — partial skull, Salamanca Formation, Argentina.
+  material: The partial skull.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images:
+- kind: fossil
+  file: Protocaiman holotype skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Protocaiman_holotype_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Protocaiman_holotype_skull.png
+  artist: Massonne T, Augustin FJ
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: 23 May 202
+  caption: Holotype skull of P. peligrensis
+  width: 416
+  height: 417
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Bona, Paula; Ezcurra, Martín D.; Barrios, Francisco; Fernandez Blanco, María V. Augu. A new Palaeocene
+    crocodylian from southern Argentina sheds light on the early history of caimanines. Proceedings of the Royal
+    Society B: Biological Sciences 285(1885). doi:10.1098/rspb.2018.0843'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protocaiman (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protocaiman
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protocaiman”. English Wikipedia, revision 1379899263.
+  url: https://en.wikipedia.org/w/index.php?title=Protocaiman&oldid=1379899263
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [PBDB also lists a Hell Creek occurrence; check that referral.]
+  reviews: []

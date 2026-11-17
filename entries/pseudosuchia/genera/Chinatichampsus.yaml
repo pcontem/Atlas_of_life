@@ -1,0 +1,98 @@
+name: Chinatichampsus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Stocker et al. 2021
+type_species: Chinatichampsus wilsonorum
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Caimanine alligatorid from the middle Eocene Devil's Graveyard Formation of Texas, known from one skull.
+size:
+  length_m: null
+  note: The specimen was probably mature; the sources give no measurements.
+age:
+  first_ma: 45.9
+  last_ma: 37
+  early_interval: Lutetian
+  late_interval: Priabonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chinatichampsus wilsonorum
+  authority: Stocker et al. 2021
+  first_ma: 45.9
+  last_ma: 37
+  interval: Lutetian–Priabonian
+  reference: original description
+formations:
+- formation: Devil's Graveyard
+  group: ''
+  members: [Middle]
+  country: United States
+  regions: [Texas]
+  interval: Late Uintan–Duchesnean
+  occurrences: 1
+  ma: [37.0, 45.9]
+  id: devil-s-graveyard-united-states
+fossil_material:
+  holotype: TMM 45911-1 — skull without the lower jaw and most of the left upper surface, Devil's Graveyard Formation,
+    Texas (42.8–41.5 Ma).
+  material: Only the holotype, found in 2010.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images:
+- kind: fossil
+  file: Chinatichampsus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Chinatichampsus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chinatichampsus_skull.jpg
+  artist: Stocker, M. R.; Brochu, C. A.; Kirk, E. C
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-01-15'
+  caption: Skull of C. wilsonorum
+  width: 719
+  height: 582
+  review: unreviewed
+- kind: fossil
+  file: Chinatichampsus side view.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/55/Chinatichampsus_side_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chinatichampsus_side_view.jpg
+  artist: Stocker, M. R.; Brochu, C. A.; Kirk, E. C.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-01-15'
+  caption: Skull of C. wilsonorum in side view
+  width: 719
+  height: 560
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Stocker, M. R.; Brochu, C. A.; Kirk, E. C. 2021. A new caimanine alligatorid from the Middle Eocene of Southwest
+    Texas and implications for spatial and temporal shifts in Paleogene crocodyliform diversity. PeerJ 9. doi:10.7717/peerj.10665
+- kind: literature
+  text: 'Walter, Jules; Darlim, Gustavo; Massonne, Tobias; Aase, Arvid; Frey, Eberhard; Rabi, Márton Apri. On the
+    origin of Caimaninae: insights from new fossils of Tsoabichi greenriverensis and a review of the evidence. Historical
+    Biology 34(4): 580–595. doi:10.1080/08912963.2021.1938563'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chinatichampsus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chinatichampsus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chinatichampsus”. English Wikipedia, revision 1328838791.
+  url: https://en.wikipedia.org/w/index.php?title=Chinatichampsus&oldid=1328838791
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

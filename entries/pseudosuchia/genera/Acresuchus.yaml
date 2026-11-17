@@ -1,0 +1,94 @@
+name: Acresuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Souza-Filho et al. 2019
+type_species: Acresuchus pachytemporalis
+type_species_note: ''
+summary: Medium-sized Late Miocene caiman from Acre, Brazil, and Venezuela, a close relative of the giant Purussaurus.
+size:
+  length_m: [3.744, 3.744]
+  mass_kg: [260.3, 260.3]
+  note: A 2022 study estimated about 3.74 m and 260 kg from skull width; the holotype skull is about 51.5 cm long.
+age:
+  first_ma: 11.63
+  last_ma: 5.333
+  early_interval: Tortonian
+  late_interval: Messinian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Acresuchus pachytemporalis
+  authority: Souza-Filho et al. 2019
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian–Late Miocene
+  occurrences: 3
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre, Amazonas]
+  interval: Tortonian–Late Miocene
+  occurrences: 3
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+- formation: Urumaco
+  group: ''
+  members: [Middle]
+  country: Venezuela
+  regions: [Falcón]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: urumaco-venezuela
+fossil_material:
+  holotype: UFAC-2507 — a nearly complete skull, Solimões Formation, Acre, Brazil.
+  material: The holotype and several referred specimens, mostly from Niterói, Acre.
+  completeness: multiple
+  exceptional: ''
+biology: Its skull is smaller than in all Purussaurus species, so it may be a transitional form between generalist
+  caimans and Purussaurus.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Souza-Filho, Jonas P.; Souza, Rafael G.; Hsiou, Annie Schmaltz; Riff, Douglas; Guilherme, Edson; Negri,
+    Francisco Ricardo; Cidade, Giovanne M. 3 Se. A new caimanine (Crocodylia, Alligatoroidea) species from the Solimões
+    Formation of Brazil and the phylogeny of Caimaninae. Journal of Vertebrate Paleontology 38(5). doi:10.1080/02724634.2018.1528450
+- kind: literature
+  text: Paiva, Ana Laura S.; Godoy, Pedro L.; Souza, Ray B. B.; Klein, Wilfried; Hsiou, Annie S. 1 Oc. Body size
+    estimation of Caimaninae specimens from the Miocene of South America. Journal of South American Earth Sciences
+    118. doi:10.1016/j.jsames.2022.103970
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Acresuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Acresuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Acresuchus”. English Wikipedia, revision 1339622921.
+  url: https://en.wikipedia.org/w/index.php?title=Acresuchus&oldid=1339622921
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

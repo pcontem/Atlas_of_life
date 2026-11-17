@@ -3,18 +3,18 @@ name: Green River
 rank: formation
 group: ''
 country: United States
-regions: [Utah]
+regions: [Utah, Wyoming]
 location:
-  lat: 40.2
-  lng: -109.9
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 42.22
+  lng: -109.803
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 51.1
+  first_ma: 56.0
   last_ma: 45.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [channel lag]
-lithology: [sandstone]
-pbdb_collections: ['16396']
+environment: [lacustrine indet., channel lag, terrestrial indet.]
+lithology: [not reported, sandstone]
+pbdb_collections: ['16268', '16396', '143060', '224132']
 includes: []
 summary: ''
 paleoenvironment: ''

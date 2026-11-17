@@ -1,0 +1,31 @@
+id: cucaracha-panama
+name: Cucaracha
+rank: formation
+group: ''
+country: Panama
+regions: []
+location:
+  lat: 9.039
+  lng: -79.645
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 18.5
+  last_ma: 16.3
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [crevasse splay, delta plain]
+lithology: [conglomerate, sandstone]
+pbdb_collections: ['89444', '105889']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Cucaracha (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Cucaracha
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

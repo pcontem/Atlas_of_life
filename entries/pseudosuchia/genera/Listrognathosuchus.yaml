@@ -1,0 +1,68 @@
+name: Listrognathosuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: PBDB places it in Alligatoridae, but Wikipedia relates it closely to Borealosuchus, a non-alligatoroid
+  eusuchian; the material is fragmentary.
+authority: Brochu 1997
+type_species: Listrognathosuchus multidentatus
+type_species_note: ''
+summary: Fragmentary Paleocene eusuchian from New Mexico, split from Leidyosuchus in 1997.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 63.4
+  last_ma: 60.9
+  early_interval: Danian
+  late_interval: Selandian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Listrognathosuchus multidentatus
+  authority: (Mook 1930)
+  first_ma: 63.4
+  last_ma: 60.9
+  interval: Danian–Selandian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Torrejonian
+  occurrences: 1
+  ma: [60.9, 63.4]
+  id: unnamed-torrejon-arroyo-united-states
+fossil_material:
+  holotype: AMNH 5179 — partial vertebral column, mandible, left ilium and tibia, Torrejon beds (Nacimiento Formation),
+    New Mexico.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Listrognathosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Listrognathosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Listrognathosuchus”. English Wikipedia, revision 1227394880.
+  url: https://en.wikipedia.org/w/index.php?title=Listrognathosuchus&oldid=1227394880
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

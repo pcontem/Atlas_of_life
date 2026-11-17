@@ -1,0 +1,31 @@
+id: chambira-peru
+name: Chambira
+rank: formation
+group: ''
+country: Peru
+regions: [Loreto]
+location:
+  lat: -7.354
+  lng: -74.954
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: ['"channel"']
+lithology: [conglomerate]
+pbdb_collections: ['176147']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Chambira (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Chambira
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

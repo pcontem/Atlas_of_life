@@ -1,0 +1,82 @@
+name: Ahdeskatanka
+rank: genus
+parent: alligatorinae
+incertae_sedis: false
+placement_note: ''
+authority: Cossette and Tarailo 2024
+type_species: Ahdeskatanka russlanddeutsche
+type_species_note: ''
+summary: Short-snouted early alligatorine with globular crushing teeth from the early Eocene of North Dakota.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 56
+  last_ma: 51.1
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ahdeskatanka russlanddeutsche
+  authority: Cossette and Tarailo 2024
+  first_ma: 56
+  last_ma: 51.1
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Golden Valley
+  group: ''
+  members: []
+  country: United States
+  regions: [North Dakota]
+  interval: Wasatchian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: golden-valley-united-states
+fossil_material:
+  holotype: A nearly complete skull from the Golden Valley Formation, North Dakota (Cossette & Tarailo 2024).
+  material: The skull and several referred specimens collected in 1958–1961.
+  completeness: multiple
+  exceptional: ''
+biology: Its globular teeth suit crushing hard-shelled prey; it shared the Early Eocene Climatic Optimum wetlands
+  of North Dakota with at least three other crocodilians.
+images:
+- kind: fossil
+  file: Ahdeskatanka mandible.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Ahdeskatanka_mandible.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ahdeskatanka_mandible.jpg
+  artist: Adam P. Cossette & David A. Tarailo
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-08'
+  caption: Mandible of A. russlanddeutsche
+  width: 1500
+  height: 1025
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Cossette, A. P.; Tarailo, D. A. 2024. Crocodylian diversity during the early Eocene climatic optimum in
+    the Golden Valley Formation of North Dakota, U.S.A. Journal of Vertebrate Paleontology 44(1). doi:10.1080/02724634.2024.2403579
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ahdeskatanka (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ahdeskatanka
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ahdeskatanka”. English Wikipedia, revision 1383461267.
+  url: https://en.wikipedia.org/w/index.php?title=Ahdeskatanka&oldid=1383461267
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

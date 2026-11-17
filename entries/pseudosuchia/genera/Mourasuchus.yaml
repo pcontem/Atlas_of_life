@@ -1,0 +1,237 @@
+name: Mourasuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Price 1964
+type_species: Mourasuchus amazonensis
+type_species_note: PBDB gives no type species; M. amazonensis was named with the genus by Price (1964).
+summary: Giant Miocene caiman of South America with a broad, flat, duck-like skull up to 1 m long.
+size:
+  length_m: [6.3, 9.5]
+  mass_kg: [1200, 4400]
+  note: Mean estimates of 6.3 m and 1.2 t for the smallest species (M. atopus) and up to 9.5 m and 4.4 t for the
+    largest (Paiva et al. 2022).
+age:
+  first_ma: 23.04
+  last_ma: 2.58
+  early_interval: Aquitanian
+  late_interval: Piacenzian
+  pbdb_occurrences: 38
+  note: ''
+species:
+- name: Mourasuchus amazonensis
+  authority: Price 1964
+  first_ma: 11.63
+  last_ma: 2.58
+  interval: Tortonian–Piacenzian
+  reference: original description
+- name: Mourasuchus arendsi
+  authority: Bocquentin Villanueva 1984
+  first_ma: 15.98
+  last_ma: 5
+  interval: Langhian–Zanclean
+  reference: ''
+- name: Mourasuchus atopus
+  authority: (Langston 1965)
+  first_ma: 15.98
+  last_ma: 11
+  interval: Langhian–Tortonian
+  reference: ''
+- name: Mourasuchus nativus
+  authority: (Gasparini 1985)
+  first_ma: 15.98
+  last_ma: 5
+  interval: Langhian–Zanclean
+  reference: ''
+- name: Mourasuchus pattersoni
+  authority: Cidade et al. 2017
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+formations:
+- formation: Urumaco
+  group: ''
+  members: [Lower, Medio, Middle, Upper, upper]
+  country: Venezuela
+  regions: [Falcon, Falcón]
+  interval: Middle Miocene–Late Miocene
+  occurrences: 13
+  ma: [5.333, 15.98]
+  id: urumaco-venezuela
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Eocene–Pliocene
+  occurrences: 6
+  ma: [2.58, 56.0]
+  id: solimoes-brazil
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian–Late Miocene
+  occurrences: 4
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+- formation: La Victoria
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 3
+  ma: [11.0, 13.8]
+  id: la-victoria-colombia
+- formation: Pebas
+  group: ''
+  members: []
+  country: Peru
+  regions: [Maynas]
+  interval: Middle Miocene
+  occurrences: 3
+  ma: [11.63, 15.98]
+  id: pebas-peru
+- formation: Villavieja
+  group: Honda
+  members: [Baraya, Cerro Colorado]
+  country: Colombia
+  regions: []
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Ituzaingo
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Unnamed unit
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 1
+  ma: [11.0, 13.8]
+  id: honda-group-colombia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Laventan
+  occurrences: 1
+  ma: [11.0, 13.8]
+  id: unnamed-dtc-32-peru
+- formation: Socorro
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Falcon]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: socorro-venezuela
+- formation: Yecua
+  group: ''
+  members: []
+  country: Bolivia
+  regions: [Santa Cruz]
+  interval: Serravallian–Tortonian
+  occurrences: 1
+  ma: [7.246, 13.82]
+  id: yecua-bolivia
+- formation: Castilletes
+  group: ''
+  members: [Lower]
+  country: Colombia
+  regions: [La Guajira]
+  interval: Early Miocene–Middle Miocene
+  occurrences: 1
+  ma: [11.63, 23.04]
+  id: castilletes-colombia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bolivia
+  regions: [Pando]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: unnamed-cobija-bolivia
+fossil_material:
+  holotype: A nearly complete skull from the Solimões Formation, Amazonian Brazil (Price 1964).
+  material: Skulls, jaws and partial skeletons of several species from Brazil, Colombia, Venezuela, Argentina and
+    Bolivia.
+  completeness: multiple
+  exceptional: ''
+biology: More than 40 small conical teeth per jaw side; its flat, broad snout suggests an unusual way of feeding,
+  discussed by Cidade et al.
+images:
+- kind: fossil
+  file: Mourasuchus pattersoni - skull - Urumaco Formation - Venezuela.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Mourasuchus_pattersoni_-_skull_-_Urumaco_Formation_-_Venezuela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mourasuchus_pattersoni_-_skull_-_Urumaco_Formation_-_Venezuela.jpg
+  artist: Cidade et al., 2017
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-03-07'
+  caption: Skull of M. pattersoni, Urumaco Formation
+  width: 827
+  height: 834
+  review: unreviewed
+- kind: fossil
+  file: Mourasuchus pattersoni - skull -dorsal view - Urumaco Formation - Venezuela.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Mourasuchus_pattersoni_-_skull_-dorsal_view_-_Urumaco_Formation_-_Venezuela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mourasuchus_pattersoni_-_skull_-dorsal_view_-_Urumaco_Formation_-_Venezuela.jpg
+  artist: Cidade et al., 2017
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-03-07'
+  caption: Skull of M. pattersoni in dorsal view
+  width: 852
+  height: 838
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/752e8dae-a715-4632-a337-048740e23d32/vector.svg
+  png: https://images.phylopic.org/images/752e8dae-a715-4632-a337-048740e23d32/raster/512x171.png
+  page: https://www.phylopic.org/images/752e8dae-a715-4632-a337-048740e23d32
+  attribution: Nicholas J. Czaplewski, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Mourasuchus atopus
+  matched: Mourasuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Price, L. I. 1964. Sôbre o crânio de um grande crocodilídeo extinto do alto Rio Juruá, Estado do Acre.
+    An. Acad. Bras. Ciênc. 36(1): 59–66.'
+- kind: literature
+  text: 'Cidade, Giovanne M.; Rincón, Ascanio D.; Solórzano, Andrés 2020. New cranial and postcranial elements of
+    ''''Mourasuchus'''' (Alligatoroidea: Caimaninae) from the late Miocene of Venezuela and their palaeobiological
+    implications. Historical Biology 33(10): 2387–2399. doi:10.1080/08912963.2020.1795844'
+- kind: literature
+  text: Paiva, Ana Laura S.; Godoy, Pedro L.; Souza, Ray B. B.; Klein, Wilfried; Hsiou, Annie S. 13 A. Body size
+    estimation of Caimaninae specimens from the miocene of South America. Journal of South American Earth Sciences
+    118. doi:10.1016/j.jsames.2022.103970
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mourasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mourasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mourasuchus”. English Wikipedia, revision 1369944033.
+  url: https://en.wikipedia.org/w/index.php?title=Mourasuchus&oldid=1369944033
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

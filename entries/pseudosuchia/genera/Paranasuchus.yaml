@@ -1,0 +1,83 @@
+name: Paranasuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Bona et al. 2024
+type_species: Paranasuchus gasparinae
+type_species_note: ''
+summary: Large, broad-skulled caiman from the Late Miocene Ituzaingó Formation of Argentina, first named as a species
+  of Caiman.
+size:
+  length_m: null
+  note: Described as large; the sources give no measurements.
+age:
+  first_ma: 11.63
+  last_ma: 5
+  early_interval: Tortonian
+  late_interval: Zanclean
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Paranasuchus gasparinae
+  authority: (Bona and Carabajal 2013)
+  first_ma: 11.63
+  last_ma: 5
+  interval: Tortonian–Zanclean
+  reference: original description
+formations:
+- formation: Ituzaingo
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Ituzaingó
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Ríos]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: ituzaingo-argentina
+fossil_material:
+  holotype: A partial snout with premaxilla, maxilla and adjacent bones, Ituzaingó Formation, Argentina.
+  material: The holotype and specimens referred in 2024.
+  completeness: multiple
+  exceptional: ''
+biology: A generalist caiman, one of several in the Late Miocene of Paraná.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Bona, P.; Barrios, F.; Ezcurra, M.D.; Victoria, M.; Blanco, F.; Cidade, G.M. 2024. New taxa of giant caimans
+    from the southernmost hyperdiverse wetlands of the South American late Miocene. Journal of Systematic Palaeontology
+    22(1). doi:10.1080/14772019.2024.2375027
+- kind: literature
+  text: 'Bona, P.; Carabajal, A.P. 2013. Caiman gasparinae sp. nov., a huge alligatorid (Caimaninae) from the late
+    Miocene of Paraná, Argentina. Alcheringa: An Australasian Journal of Palaeontology 37(4): 462–473. doi:10.1080/03115518.2013.785335'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paranasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paranasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paranasuchus”. English Wikipedia, revision 1327695208.
+  url: https://en.wikipedia.org/w/index.php?title=Paranasuchus&oldid=1327695208
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

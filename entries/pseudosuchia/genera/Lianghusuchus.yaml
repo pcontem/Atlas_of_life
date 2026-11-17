@@ -1,0 +1,78 @@
+name: Lianghusuchus
+rank: genus
+parent: alligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1948
+type_species: Lianghusuchus hengyangensis
+type_species_note: ''
+summary: Eocene alligatorid from Hunan, China, first thought to be a true crocodile.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 56
+  last_ma: 37.71
+  early_interval: Ypresian
+  late_interval: Bartonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Lianghusuchus hengyangensis
+  authority: Young 1948
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Lingcha
+  group: ''
+  members: []
+  country: China
+  regions: [Hunan]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: lingcha-china
+- formation: Dongjun
+  group: ''
+  members: []
+  country: China
+  regions: [Guangxi]
+  interval: Middle Eocene
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: dongjun-china
+fossil_material:
+  holotype: Type material of L. hengyangensis from Hunan, China (Young 1948).
+  material: Few specimens from two Eocene formations of China.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say nothing about its biology beyond its placement.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Brochu, Christopher A. 1999. Phylogenetics, Taxonomy, and Historical Biogeography of Alligatoroidea. Society
+    of Vertebrate Paleontology Memoir 6: 9–100. doi:10.2307/3889340'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lianghusuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lianghusuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lianghusuchus”. English Wikipedia, revision 1354846024.
+  url: https://en.wikipedia.org/w/index.php?title=Lianghusuchus&oldid=1354846024
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Completeness to check; placed in Alligatoridae by Brochu (1999).]
+  reviews: []

@@ -1,0 +1,270 @@
+name: Purussaurus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Barbosa Rodrigues 1892
+type_species: Purussaurus brasiliensis
+type_species_note: ''
+summary: Giant Miocene caiman of the Amazon and northern South America, one of the largest crocodylians ever.
+size:
+  length_m: [7.6, 12.5]
+  mass_kg: [2000, 8400]
+  note: Estimates for P. brasiliensis vary with method — about 12.5 m and 8.4 t (Aureliano et al. 2015), 9.5–10.3
+    m (2007), 7.6–10 m and 2–6.3 t (Paiva et al. 2022), average 7.8 m (2025).
+age:
+  first_ma: 27.3
+  last_ma: 0.0117
+  early_interval: Chattian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 62
+  note: ''
+species:
+- name: Purussaurus brasiliensis
+  authority: (Barbosa-Rodrigues 1892)
+  first_ma: 23.04
+  last_ma: 0.0117
+  interval: Aquitanian–Late Pleistocene
+  reference: original description
+- name: Purussaurus mirandai
+  authority: Aguilera et al. 2006
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Purussaurus neivensis
+  authority: (Mook 1941)
+  first_ma: 15.98
+  last_ma: 11
+  interval: Langhian–Tortonian
+  reference: ''
+formations:
+- formation: Urumaco
+  group: ''
+  members: [Lower, Middle, Upper]
+  country: Venezuela
+  regions: [Falcon, Falcón]
+  interval: Tortonian–Late Miocene
+  occurrences: 18
+  ma: [5.333, 11.63]
+  id: urumaco-venezuela
+- formation: Pebas
+  group: ''
+  members: []
+  country: Peru
+  regions: [Loreto, Maynas]
+  interval: Colhuehuapian–Tortonian
+  occurrences: 11
+  ma: [7.246, 21.0]
+  id: pebas-peru
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Eocene–Pleistocene
+  occurrences: 8
+  ma: [0.0117, 56.0]
+  id: solimoes-brazil
+- formation: Unnamed unit
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Cesar, Huila, Tolima]
+  interval: Middle Miocene–Laventan
+  occurrences: 5
+  ma: [11.0, 15.98]
+  id:
+  - honda-group-colombia
+  - real-group-colombia
+  - unnamed-between-neiva-and-the-river-bache-colombia
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian–Late Miocene
+  occurrences: 4
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+- formation: Castillo
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Lara]
+  interval: Burdigalian
+  occurrences: 4
+  ma: [15.98, 20.45]
+  id: castillo-venezuela
+- formation: Culebra
+  group: ''
+  members: [upper]
+  country: Panama
+  regions: []
+  interval: Early Hemingfordian
+  occurrences: 2
+  ma: [16.3, 18.5]
+  id: culebra-panama
+- formation: Villavieja
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Middle Miocene–Laventan
+  occurrences: 2
+  ma: [11.0, 15.98]
+  id: [unnamed-alto-urubamba-sites-peru, unnamed-dtc-32-peru]
+- formation: Socorro
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Falcon]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: socorro-venezuela
+- formation: Chambira
+  group: ''
+  members: []
+  country: Peru
+  regions: [Loreto]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: chambira-peru
+- formation: Castilletes
+  group: ''
+  members: []
+  country: Colombia
+  regions: [Guajira]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: castilletes-colombia
+- formation: Río Yuca
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Portugesa]
+  interval: Santacrucian–Friasian
+  occurrences: 1
+  ma: [15.5, 17.5]
+  id: rio-yuca-venezuela
+- formation: Caujarao
+  group: ''
+  members: [El Muaco]
+  country: Venezuela
+  regions: []
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: caujarao-venezuela
+- formation: Ituzaingo
+  group: ''
+  members: [Conglomerado osifero]
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+fossil_material:
+  holotype: Type material of P. brasiliensis (Barbosa Rodrigues 1892); UFAC 1403 is one of the largest skulls (1.4
+    m).
+  material: Skull material from Brazil, Peru, Colombia, Panama, Venezuela and Argentina.
+  completeness: multiple
+  exceptional: ''
+biology: An apex predator of the Miocene wetlands with a very strong bite; its size let it take a wide range of
+  prey.
+images:
+- kind: life
+  file: Purussaurus life reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Purussaurus_life_reconstruction.png/960px-Purussaurus_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Purussaurus_life_reconstruction.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-20'
+  caption: Life restoration of Purussaurus
+  width: 4500
+  height: 1073
+  review: unreviewed
+- kind: life
+  file: Purrussaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/80/Purrussaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Purrussaurus.jpg
+  artist: Ornitholestes
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Life restoration of Purussaurus
+  width: 1579
+  height: 427
+  review: unreviewed
+- kind: fossil
+  file: Purussaurus skull.PNG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a8/Purussaurus_skull.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Purussaurus_skull.PNG
+  artist: Tito Aureliano, Aline M. Ghilardi, Edson Guilherme, Jonas P. Souza-Filho, Mauro Cavalcanti, Douglas Riff
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2015'
+  caption: Skull anatomy of P. brasiliensis
+  width: 1300
+  height: 2136
+  review: unreviewed
+- kind: fossil
+  file: Purussaurus Holotype plate XVI.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Purussaurus_Holotype_plate_XVI.jpg/960px-Purussaurus_Holotype_plate_XVI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Purussaurus_Holotype_plate_XVI.jpg
+  artist: JB Rodrigues
+  license: Public domain
+  license_url: ''
+  date: '1895'
+  caption: Plate of the P. brasiliensis holotype
+  width: 1860
+  height: 2800
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/10b3bb3f-c89d-48b2-b19d-b366a559e350/vector.svg
+  png: https://images.phylopic.org/images/10b3bb3f-c89d-48b2-b19d-b366a559e350/raster/512x73.png
+  page: https://www.phylopic.org/images/10b3bb3f-c89d-48b2-b19d-b366a559e350
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Purussaurus brasiliensis
+  matched: Purussaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Rodrigues, J.B. 1892. "Les reptiles fossils de la Vallée de L''Amazone". Vellosia. Contribuições do Museu
+    Botânico do Amazonas 2: 41–60.'
+- kind: literature
+  text: Aureliano, Tito; Ghilardi, Aline M.; Guilherme, Edson; Souza-Filho, Jonas P.; Cavalcanti, Mauro; Riff, Douglas
+    2015. Morphometry, Bite-Force, and Paleobiology of the Late Miocene Caiman ''Purussaurus brasiliensis''. PLOS
+    ONE 10(2). doi:10.1371/journal.pone.0117944
+- kind: literature
+  text: Paiva, Ana Laura S.; Godoy, Pedro L.; Souza, Ray B. B.; Klein, Wilfried; Hsiou, Annie S. Augu. Body size
+    estimation of Caimaninae specimens from the miocene of South America. Journal of South American Earth Sciences
+    118. doi:10.1016/j.jsames.2022.103970
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Purussaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Purussaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Purussaurus”. English Wikipedia, revision 1382646119.
+  url: https://en.wikipedia.org/w/index.php?title=Purussaurus&oldid=1382646119
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

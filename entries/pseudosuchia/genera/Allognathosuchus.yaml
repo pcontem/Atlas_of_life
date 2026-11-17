@@ -1,0 +1,317 @@
+name: Allognathosuchus
+rank: genus
+parent: alligatorinae
+incertae_sedis: false
+placement_note: ''
+authority: Mook 1921
+type_species: Allognathosuchus polyodon
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Medium-sized alligatorine with stout jaws and bulbous rear teeth, from the Paleocene and Eocene; its species
+  need revision.
+size:
+  length_m: [1.5, 1.5]
+  note: Up to about 1.5 m long.
+age:
+  first_ma: 83.6
+  last_ma: 33.9
+  early_interval: Campanian
+  late_interval: Priabonian
+  pbdb_occurrences: 133
+  note: ''
+species:
+- name: Allognathosuchus heterodon
+  authority: (Cope 1873)
+  first_ma: 56
+  last_ma: 51.1
+  interval: Ypresian
+  reference: ''
+- name: Allognathosuchus mlynarskii
+  authority: (Estes 1988)
+  first_ma: 56
+  last_ma: 51.1
+  interval: Ypresian
+  reference: ''
+- name: Allognathosuchus polyodon
+  authority: (Cope 1873)
+  first_ma: 51.1
+  last_ma: 39.7
+  interval: Ypresian–Bartonian
+  reference: original description
+- name: Allognathosuchus riggsi
+  authority: (Patterson 1931)
+  first_ma: 39.7
+  last_ma: 33.9
+  interval: Bartonian–Priabonian
+  reference: ''
+- name: Allognathosuchus wartheni
+  authority: Case 1925
+  first_ma: 57.5
+  last_ma: 51.1
+  interval: Thanetian–Ypresian
+  reference: ''
+- name: Allognathosuchus woutersi
+  authority: Buffetaut 1985
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: ''
+formations:
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Clarkforkian–Wasatchian
+  occurrences: 85
+  ma: [51.1, 57.5]
+  id: willwood-united-states
+- formation: Ferris
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian–Puercan
+  occurrences: 9
+  ma: [63.4, 72.2]
+  id: ferris-united-states
+- formation: North Horn
+  group: ''
+  members: [Joe's Valley]
+  country: United States
+  regions: [Utah]
+  interval: Puercan–Torrejonian
+  occurrences: 7
+  ma: [60.9, 66.0]
+  id: north-horn-united-states
+- formation: Fort Union
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Puercan–Cf3
+  occurrences: 6
+  ma: [56.0, 66.0]
+  id: fort-union-united-states
+- formation: Wasatch
+  group: ''
+  members: [Main Body]
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian–Bridgerian
+  occurrences: 4
+  ma: [45.9, 56.0]
+  id: wasatch-united-states
+- formation: Bridger
+  group: ''
+  members: [lower, upper]
+  country: United States
+  regions: [Wyoming]
+  interval: Bridgerian
+  occurrences: 4
+  ma: [45.9, 51.1]
+  id: bridger-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Sachsen-Anhalt]
+  interval: Lutetian
+  occurrences: 3
+  ma: [41.03, 48.07]
+  id: unnamed-geiseltal-mittelkohle-zone-ii-germany
+- formation: Golden Valley
+  group: ''
+  members: []
+  country: United States
+  regions: [North Dakota]
+  interval: Wasatchian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: golden-valley-united-states
+- formation: Marshalltown
+  group: Matawan
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: marshalltown-united-states
+- formation: Laredo
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Uintan
+  occurrences: 1
+  ma: [39.7, 45.9]
+  id: laredo-united-states
+- formation: Tienen
+  group: Landen
+  members: [Dormaal]
+  country: Belgium
+  regions: [Brabant]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: tienen-belgium
+- formation: Washakie
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Early Uintan
+  occurrences: 1
+  ma: [39.7, 45.9]
+  id: washakie-united-states
+- formation: Margaret
+  group: Eureka Sound
+  members: []
+  country: Canada
+  regions: [Northwest Territories]
+  interval: Wasatchian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: margaret-canada
+- formation: Denver
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Puercan
+  occurrences: 1
+  ma: [63.4, 66.0]
+  id: denver-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Puercan
+  occurrences: 1
+  ma: [63.4, 66.0]
+  id: unnamed-south-table-mountain-united-states
+- formation: Argiles d'lignite du Soissonnais
+  group: ''
+  members: []
+  country: France
+  regions: [Oise]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: argiles-d-lignite-du-soissonnais-france
+- formation: Green River
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Bridgerian
+  occurrences: 1
+  ma: [45.9, 51.1]
+  id: green-river-united-states
+- formation: Severn
+  group: ''
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: severn-united-states
+- formation: Salamanca
+  group: ''
+  members: [Hansen]
+  country: Argentina
+  regions: [Chubut]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: salamanca-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Picardie]
+  interval: MP 10
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: unnamed-premontre-level-2-france
+- formation: Krabi Basin B2
+  group: ''
+  members: []
+  country: Thailand
+  regions: []
+  interval: Late Eocene
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: krabi-basin-b2-thailand
+- formation: Vaugirard
+  group: ''
+  members: []
+  country: France
+  regions: [Île-de-France]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: vaugirard-france
+- formation: Wind River
+  group: ''
+  members: [Lost Cabin]
+  country: United States
+  regions: [Wyoming]
+  interval: Lostcabinian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: wind-river-united-states
+fossil_material:
+  holotype: Type material of the type species from North America (Mook 1921 named the genus).
+  material: Many jaws and teeth; isolated bulbous teeth are often referred to it although other lineages had similar
+    teeth.
+  completeness: multiple
+  exceptional: ''
+biology: Its bulbous rear teeth have traditionally been read as an adaptation for crushing molluscs.
+images:
+- kind: fossil
+  file: Allognathosuchus.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Allognathosuchus.JPG/960px-Allognathosuchus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Allognathosuchus.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Took the p
+  caption: Fossil of Allognathosuchus
+  width: 3264
+  height: 1384
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Brochu, Christopher A. 2004. Alligatorine phylogeny and the status of ''''Allognathosuchus'''' Mook, 1921.
+    Journal of Vertebrate Paleontology 24(4): 857–873. doi:10.1671/0272-4634(2004)024[0857:APATSO]2.0.CO;2'
+- kind: literature
+  text: Adam P. Cossette 2020. A systematic review of the giant alligatoroid ''Deinosuchus'' from the Campanian
+    of North America and its implications for the relationships at the root of Crocodylia. Journal of Vertebrate
+    Paleontology 40(1). doi:10.1080/02724634.2020.1767638
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Allognathosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Allognathosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Allognathosuchus”. English Wikipedia, revision 1314336902.
+  url: https://en.wikipedia.org/w/index.php?title=Allognathosuchus&oldid=1314336902
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Brochu (2004) recommends conservative use of the genus; several PBDB species may belong elsewhere (A. woutersi
+    possibly Diplocynodon).
+  reviews: []

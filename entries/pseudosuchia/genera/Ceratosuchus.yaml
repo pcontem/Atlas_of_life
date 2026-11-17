@@ -1,0 +1,102 @@
+name: Ceratosuchus
+rank: genus
+parent: alligatorinae
+incertae_sedis: false
+placement_note: ''
+authority: Schmidt 1938
+type_species: Ceratosuchus burdoshi
+type_species_note: ''
+summary: '"Horned crocodile": an alligatorine with triangular bony horns at the back of the skull, from the Paleocene–Eocene
+  boundary of Colorado and Wyoming.'
+size:
+  length_m: null
+  note: A moderately sized alligatorine; the sources give no measurements.
+age:
+  first_ma: 57.5
+  last_ma: 51.1
+  early_interval: Thanetian
+  late_interval: Ypresian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Ceratosuchus burdoshi
+  authority: Schmidt 1938
+  first_ma: 57.5
+  last_ma: 56
+  interval: Thanetian
+  reference: original description
+formations:
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Clarkforkian–Wasatchian
+  occurrences: 2
+  ma: [51.1, 57.5]
+  id: willwood-united-states
+- formation: Fort Union
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Clarkforkian
+  occurrences: 2
+  ma: [56.0, 57.5]
+  id: fort-union-united-states
+- formation: DeBeque
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Clarkforkian
+  occurrences: 1
+  ma: [56.0, 57.5]
+  id: debeque-united-states
+fossil_material:
+  holotype: A nearly complete skull found in western Colorado in 1937 (Schmidt 1938).
+  material: The holotype skull plus skulls, mandibles and neck armour from Wyoming (Bartels 1984).
+  completeness: multiple
+  exceptional: ''
+biology: A swamp-dwelling predator like its living relatives.
+images:
+- kind: life
+  file: Ceratosuchus burdoshi e.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a7/Ceratosuchus_burdoshi_e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ceratosuchus_burdoshi_e.jpg
+  artist: No machine-readable author provided. Apokryltaros assumed (based on copyright claims).
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: 19 March 2
+  caption: Life restoration of C. burdoshi
+  width: 453
+  height: 300
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Schmidt, Karl P. 1938. The Horned Crocodile of Western Colorado. Field Museum News.
+- kind: literature
+  text: 'Bartels, William S. 1984. Osteology and systematic affinities of the horned alligator ''''Ceratosuchus''''
+    (Reptilia, Crocodylia). Journal of Paleontology 58(6): 1347–1353.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ceratosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ceratosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ceratosuchus”. English Wikipedia, revision 1376370983.
+  url: https://en.wikipedia.org/w/index.php?title=Ceratosuchus&oldid=1376370983
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
