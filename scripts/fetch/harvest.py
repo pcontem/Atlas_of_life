@@ -58,7 +58,7 @@ def pbdb(base):
     inv = pbdb_get("taxa/list.json", base_name=base, rank="genus", taxon_status="invalid", show="attr,parent,ref", vocab="pbdb")
     keep = ["taxon_no", "orig_no", "taxon_name", "taxon_attr", "taxon_rank", "parent_name", "family", "order", "class",
             "firstapp_max_ma", "firstapp_min_ma", "lastapp_max_ma", "lastapp_min_ma", "early_interval", "late_interval",
-            "n_occs", "is_extant", "primary_reference", "reference_no", "accepted_name", "difference", "status"]
+            "n_occs", "is_extant", "flags", "type_taxon_name", "primary_reference", "reference_no", "accepted_name", "difference", "status"]
     slim = lambda r: {k: r.get(k) for k in keep if r.get(k) not in (None, "")}
     species = {}
     for r in sp:
