@@ -1,0 +1,73 @@
+name: Orthogenysuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: true
+placement_note: Grouped with Mourasuchus and Purussaurus by Brochu (1999); other studies call it a pristichampsid
+  or a synonym of Pristichampsus.
+authority: Mook 1924
+type_species: Orthogenysuchus olseni
+type_species_note: ''
+summary: Eocene caimanine from the Willwood Formation of Wyoming, known from a single skull.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 56
+  last_ma: 51.1
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Orthogenysuchus olseni
+  authority: Mook 1924
+  first_ma: 56
+  last_ma: 51.1
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: willwood-united-states
+fossil_material:
+  holotype: AMNH 5178 — a skull without the lower jaws, Willwood Formation, Wyoming.
+  material: Only the holotype; its sutures are hard to see, making comparisons difficult.
+  completeness: fragmentary
+  exceptional: ''
+biology: If close to Mourasuchus and Purussaurus, it implies long ghost lineages, since it is about 30 million years
+  older.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mook, C. C. 1924. A new crocodilian from the Wasatch Beds. American Museum Novitates(137): 1–4.'
+- kind: literature
+  text: 'Brochu, C. A. 1999. Phylogenetics, taxonomy, and historical biogeography of Alligatoroidea. Society of
+    Vertebrate Paleontology Memoir 6: 9–100. doi:10.2307/3889340'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Orthogenysuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Orthogenysuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Orthogenysuchus”. English Wikipedia, revision 1374371926.
+  url: https://en.wikipedia.org/w/index.php?title=Orthogenysuchus&oldid=1374371926
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

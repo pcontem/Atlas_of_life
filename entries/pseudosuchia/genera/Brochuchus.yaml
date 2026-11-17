@@ -1,0 +1,117 @@
+name: Brochuchus
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Conrad et al. 2013
+type_species: Brochuchus pigotti
+type_species_note: ''
+summary: Early to Middle Miocene crocodile from Kenya and Saudi Arabia, a close relative of the living dwarf crocodiles.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 20.45
+  last_ma: 13.82
+  early_interval: Burdigalian
+  late_interval: Langhian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Brochuchus parvidens
+  authority: Cossette et al. 2020
+  first_ma: 15.98
+  last_ma: 13.82
+  interval: Langhian
+  reference: ''
+- name: Brochuchus pigotti
+  authority: (Tchernov and Van Couvering 1978)
+  first_ma: 20.45
+  last_ma: 15.98
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Lothidok
+  group: ''
+  members: [Kalodirr]
+  country: Kenya
+  regions: [Northern Frontier District]
+  interval: Burdigalian
+  occurrences: 2
+  ma: [15.98, 20.45]
+  id: lothidok-kenya
+- formation: Dam
+  group: ''
+  members: []
+  country: Saudi Arabia
+  regions: []
+  interval: Burdigalian
+  occurrences: 2
+  ma: [15.98, 20.45]
+  id: dam-saudi-arabia
+- formation: Hiwegi
+  group: ''
+  members: [Fossil Bed]
+  country: Kenya
+  regions: [Nyanza]
+  interval: Burdigalian
+  occurrences: 2
+  ma: [15.98, 20.45]
+  id: hiwegi-kenya
+- formation: Maboko
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: maboko-kenya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: unnamed-locherangan-west-of-lake-turkana-kenya
+fossil_material:
+  holotype: Type material of "Crocodylus" pigotti from Rusinga Island, Lake Victoria, Kenya.
+  material: Skulls and skeletons of two species.
+  completeness: multiple
+  exceptional: ''
+biology: A generalized crocodylid with a long, narrow snout and robust skeleton, probably a predator that spent
+  much time in water.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: original
+  text: Conrad, J. L.; Jenkins, K.; Lehmann, T.; Manthi, F. K.; Peppe, D. J.; Nightingale, S.; Cossette, A.; Dunsworth,
+    H. M.; Harcourt-Smith, W. E. H.; McNulty, K. P. 2013. New specimens of ''"Crocodylus" pigotti'' (Crocodylidae)
+    from Rusinga Island, Kenya, and generic reallocation of the species. Journal of Vertebrate Paleontology 33(3).
+    doi:10.1080/02724634.2013.743404
+- kind: literature
+  text: 'Adam P. Cossette 2020. A new crocodylid from the middle Miocene of Kenya and the timing of crocodylian
+    faunal change in the late Cenozoic of Africa. Journal of Paleontology 94(6): 1165–1179. doi:10.1017/jpa.2020.60'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brochuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brochuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brochuchus”. English Wikipedia, revision 1354876563.
+  url: https://en.wikipedia.org/w/index.php?title=Brochuchus&oldid=1354876563
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

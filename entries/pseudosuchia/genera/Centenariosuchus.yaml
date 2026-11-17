@@ -1,0 +1,69 @@
+name: Centenariosuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Hastings et al. 2013
+type_species: Centenariosuchus gilmorei
+type_species_note: ''
+summary: Basal caimanine from the Miocene Cucaracha Formation of the Panama Canal Zone.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 18.5
+  last_ma: 16.3
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Centenariosuchus gilmorei
+  authority: Hastings et al. 2013
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Cucaracha
+  group: ''
+  members: []
+  country: Panama
+  regions: []
+  interval: Early Hemingfordian
+  occurrences: 3
+  ma: [16.3, 18.5]
+  id: cucaracha-panama
+fossil_material:
+  holotype: Skull fragments from the Cucaracha Formation, Panama, found in 2009 and 2011 (possibly one individual).
+  material: Two specimens of skull fragments.
+  completeness: fragmentary
+  exceptional: ''
+biology: Shares skull features with basal caimans such as Tsoabichi, Eocaiman and Culebrasuchus.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Hastings, A. K.; Bloch, J. I.; Jaramillo, C. A.; Rincon, A. F.; MacFadden, B. J. 2013. Systematics and
+    biogeography of crocodylians from the Miocene of Panama. Journal of Vertebrate Paleontology 33(2): 239. doi:10.1080/02724634.2012.713814'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Centenariosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Centenariosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Centenariosuchus”. English Wikipedia, revision 1282150971.
+  url: https://en.wikipedia.org/w/index.php?title=Centenariosuchus&oldid=1282150971
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

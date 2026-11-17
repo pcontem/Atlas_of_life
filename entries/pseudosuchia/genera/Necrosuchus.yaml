@@ -1,0 +1,90 @@
+name: Necrosuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Simpson 1937
+type_species: Necrosuchus ionensis
+type_species_note: ''
+summary: Early caiman from the Paleocene Salamanca Formation of Patagonia, Argentina.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 66
+  last_ma: 61.66
+  early_interval: Danian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Necrosuchus ionensis
+  authority: Simpson 1937
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: original description
+formations:
+- formation: Salamanca
+  group: ''
+  members: [Hansen]
+  country: Argentina
+  regions: [Chubut]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: salamanca-argentina
+fossil_material:
+  holotype: AMNH 3219 — much of the postcranial skeleton, a right dentary and cranial fragments, Salamanca Formation,
+    Argentina.
+  material: Only the holotype; other Paleocene Patagonian material cannot safely be referred to it.
+  completeness: partial
+  exceptional: ''
+biology: Lived in a marine or river-and-lake setting in Patagonia about 60 million years ago.
+images:
+- kind: life
+  file: Necrosuchus ionensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/04/Necrosuchus_ionensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Necrosuchus_ionensis.jpg
+  artist: Apokryltaros
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-05-01'
+  caption: Life restoration of N. ionensis
+  width: 764
+  height: 1010
+  review: unreviewed
+  local: img/gallery/Necrosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Simpson, George Gaylord 1937. An ancient eusuchian crocodile from Patagonia. American Museum Novitates(965):
+    1–20.'
+- kind: literature
+  text: 'Brochu, C.A. 2012. Phylogenetic relationships of ''''Necrosuchus ionensis'''' Simpson, 1937 and the early
+    history of caimanines. Zoological Journal of the Linnean Society 163: S228–S256. doi:10.1111/j.1096-3642.2011.00716.x'
+- kind: literature
+  text: 'Cicade, G.M.; Fortier, D.; Hsiou, A.S. 2020. Taxonomic and phylogenetic review of ''''Necrosuchus ionensis''''
+    (Alligatoroidea: Caimaninae) and the early evolution and radiation of caimanines. Zoological Journal of the
+    Linnean Society 189(2): 657–669. doi:10.1093/zoolinnean/zlz051'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Necrosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Necrosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Necrosuchus”. English Wikipedia, revision 1312087637.
+  url: https://en.wikipedia.org/w/index.php?title=Necrosuchus&oldid=1312087637
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,41 @@
+name: media-fetch
+# Downloads what new entries need from the web: the images and PhyloPic silhouettes that genus entries reference
+# but the media store lacks (scripts/media.py fetch → WebP, `media` branch replaced by media.py push) and the
+# palaeo-positions of new formation locations (scripts/fetch/gplates.py). Commits the entries (new `local`
+# paths), media/manifest.json, data/raw/paleomaps and the rebuilt site data to the branch it ran on.
+# Run from Actions → media-fetch → Run workflow, or by pushing a change to media/fetch_request.json
+# ({"volume": "<volume>"}) on any branch.
+on:
+  workflow_dispatch:
+    inputs:
+      volume: { description: "Volume folder (empty = all)", required: false, default: "" }
+  push:
+    paths: [media/fetch_request.json]
+permissions: { contents: write }
+concurrency: { group: media, cancel-in-progress: false }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml pillow
+      - name: Fetch
+        env: { VOL: "${{ inputs.volume }}", MEDIA_REMOTE: "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" }
+        run: |
+          [ -z "$VOL" ] && [ -f media/fetch_request.json ] && VOL=$(python3 -c "import json;print(json.load(open('media/fetch_request.json')).get('volume',''))")
+          python3 scripts/media.py pull
+          python3 scripts/media.py fetch $VOL
+          python3 scripts/fmt.py
+          python3 scripts/media.py push
+          python3 scripts/fetch/gplates.py
+          python3 scripts/build.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add entries media/manifest.json data/raw/paleomaps site/data.json site/life.json site/g site/paleo
+          git diff --cached --quiet || git commit -m "Fetch new images into the media store" -m "Automated by .github/workflows/media-fetch.yml."
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push

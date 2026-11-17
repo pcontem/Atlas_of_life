@@ -1,0 +1,752 @@
+name: Diplocynodon
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: Usually an alligatoroid (PBDB; Lee & Yates 2018), but recent work (Walter et al. 2025) places it
+  outside crown Crocodylia.
+authority: Pomel 1847
+type_species: Diplocynodon ratelii
+type_species_note: PBDB gives no type species; D. ratelii was named with the genus by Pomel (1847).
+summary: Freshwater eusuchian of Paleocene–Miocene Europe, known from many species and articulated skeletons from
+  Messel and the Geiseltal.
+size:
+  length_m: [1, 5.9]
+  note: Some species probably did not exceed 1 m, others reached about 3 m; the largest, D. hantoniensis, measured
+    5.9 m.
+age:
+  first_ma: 83.6
+  last_ma: 0.129
+  early_interval: Campanian
+  late_interval: Chibanian
+  pbdb_occurrences: 130
+  note: ''
+species:
+- name: Diplocynodon buetikonensis
+  authority: (von Meyer 1855)
+  first_ma: 23.04
+  last_ma: 5.333
+  interval: Aquitanian–Messinian
+  reference: ''
+- name: Diplocynodon darwini
+  authority: (Ludwig 1877)
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: ''
+- name: Diplocynodon deponiae
+  authority: (Frey et al. 1987)
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: ''
+- name: Diplocynodon elavericus
+  authority: Martin 2010
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: ''
+- name: Diplocynodon gracilis
+  authority: Vaillant 1872
+  first_ma: 33.9
+  last_ma: 13.82
+  interval: Rupelian–Langhian
+  reference: ''
+- name: Diplocynodon guerini
+  authority: Bataller 1941
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: ''
+- name: Diplocynodon hantoniensis
+  authority: (Wood 1846)
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: ''
+- name: Diplocynodon kochi
+  authority: Venczel and Codrea 2022
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: ''
+- name: Diplocynodon levantinicum
+  authority: Huene and Nikoloff 1963
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: ''
+- name: Diplocynodon marini
+  authority: Bataller 1941
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: ''
+- name: Diplocynodon muelleri
+  authority: (Kalin 1936)
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: ''
+- name: Diplocynodon plenidens
+  authority: (Meyer 1838)
+  first_ma: 23.04
+  last_ma: 5.333
+  interval: Aquitanian–Messinian
+  reference: ''
+- name: Diplocynodon ratelii
+  authority: Pomel 1847
+  first_ma: 33.9
+  last_ma: 13.82
+  interval: Rupelian–Langhian
+  reference: original description
+- name: Diplocynodon remensis
+  authority: Martin et al. 2014
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: ''
+- name: Diplocynodon stuckeri
+  authority: Mook 1960
+  first_ma: 56
+  last_ma: 45.9
+  interval: Ypresian–Lutetian
+  reference: ''
+- name: Diplocynodon tormis
+  authority: Buscalioni et al. 1992
+  first_ma: 48.07
+  last_ma: 33.9
+  interval: Lutetian–Priabonian
+  reference: ''
+- name: Diplocynodon ungeri
+  authority: (Prangner 1845)
+  first_ma: 23.04
+  last_ma: 7.246
+  interval: Aquitanian–Tortonian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Alzey, Bavaria, Bayern, North Rhine-Westfalia, Sachsen-Anhalt, Saxony-Anhalt]
+  interval: Selandian–Tortonian
+  occurrences: 18
+  ma: [7.246, 61.66]
+  id:
+  - unnamed-appertshofen-germany
+  - unnamed-geiseltal-mittelkohle-zone-ii-germany
+  - unnamed-neumuhle-bei-weinheim-germany
+  - unnamed-oberleichtersbach-germany
+  - unnamed-rott-germany
+  - unnamed-unterneul-1a-germany
+  - unnamed-walbeck-germany
+  - unnamed-ziemetshausen-1b-germany
+- formation: Tudela
+  group: ''
+  members: []
+  country: Spain
+  regions: [Navarre]
+  interval: Aquitanian–Burdigalian
+  occurrences: 18
+  ma: [15.98, 23.04]
+  id: tudela-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions:
+  - Allier
+  - Alpes-de-Haute-Provence
+  - Aquitaine Region
+  - Bouches-du-Rhône
+  - Gers
+  - Occitanie
+  - Picardie
+  - Quercy, Midi-Pyrenees Region
+  interval: MP 10–Tortonian
+  occurrences: 12
+  ma: [7.246, 56.0]
+  id:
+  - unnamed-between-cereste-and-apt-france
+  - unnamed-bezian-france
+  - unnamed-domerat-france
+  - unnamed-premontre-level-2-france
+  - unnamed-saint-dezery-france
+  - unnamed-sainte-neboule-france
+  - unnamed-sos-france
+  - unnamed-venelles-france
+- formation: Upper Freshwater Molasse
+  group: Molasse
+  members: [Fluviatile Untere Serie, Untere Fluviatile Serie]
+  country: Germany
+  regions: [Baden-Wurttemberg, Baden-Württemberg, Bavaria]
+  interval: Burdigalian–Langhian
+  occurrences: 8
+  ma: [13.82, 20.45]
+  id: upper-freshwater-molasse-germany
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [A Coruña, Basque County, Castilla y Leon, Catalonia, Salamanca, Zamora]
+  interval: Middle Eocene–Burdigalian
+  occurrences: 7
+  ma: [15.98, 48.07]
+  id:
+  - unnamed-as-pontes-coal-seam-package-h-spain
+  - unnamed-cazurra-spain
+  - unnamed-les-cases-de-valenciana-spain
+  - unnamed-san-morales-spain
+  - unnamed-santa-clara-de-avedillo-spain
+  - unnamed-teso-de-la-flecha-spain
+  - unnamed-zambrana-spain
+- formation: Calcaries de Tàrrega
+  group: ''
+  members: []
+  country: Spain
+  regions: [Lleida]
+  interval: Early Oligocene
+  occurrences: 3
+  ma: [27.3, 33.9]
+  id: calcaries-de-tarrega-spain
+- formation: Messel
+  group: ''
+  members: []
+  country: Germany
+  regions: [Hessen]
+  interval: MP 11
+  occurrences: 3
+  ma: [41.03, 48.07]
+  id: messel-germany
+- formation: Eibiswald
+  group: ''
+  members: [Middle, Upper]
+  country: Austria
+  regions: [Styria]
+  interval: Langhian
+  occurrences: 3
+  ma: [13.82, 15.98]
+  id: eibiswald-austria
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Vicenza]
+  interval: Early Oligocene
+  occurrences: 3
+  ma: [27.3, 33.9]
+  id: unnamed-ligniti-di-monteviale-italy
+- formation: Corrales
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Lutetian
+  occurrences: 3
+  ma: [41.03, 48.07]
+  id: corrales-spain
+- formation: Most
+  group: ''
+  members: [Holešice]
+  country: Czech Republic
+  regions: [Ústí nad Labem]
+  interval: Early Miocene
+  occurrences: 3
+  ma: [15.98, 23.04]
+  id: most-czech-republic
+- formation: Entrala
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Lutetian
+  occurrences: 3
+  ma: [41.03, 48.07]
+  id: entrala-spain
+- formation: Wasatch
+  group: ''
+  members: [Main Body]
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian–Bridgerian
+  occurrences: 2
+  ma: [45.9, 56.0]
+  id: wasatch-united-states
+- formation: Argiles d'lignite du Soissonnais
+  group: ''
+  members: []
+  country: France
+  regions: [Oise]
+  interval: Ypresian
+  occurrences: 2
+  ma: [48.07, 56.0]
+  id: argiles-d-lignite-du-soissonnais-france
+- formation: Brackwater Molasse
+  group: Molasse
+  members: [Kirchberg beds]
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Burdigalian
+  occurrences: 2
+  ma: [15.98, 20.45]
+  id: brackwater-molasse-germany
+- formation: Laa
+  group: ''
+  members: []
+  country: Austria
+  regions: []
+  interval: MN 5
+  occurrences: 2
+  ma: [13.82, 15.98]
+  id: laa-austria
+- formation: Maritsa
+  group: ''
+  members: []
+  country: Bulgaria
+  regions: [Haskovo]
+  interval: Late Oligocene
+  occurrences: 2
+  ma: [23.04, 27.3]
+  id: maritsa-bulgaria
+- formation: Marshalltown
+  group: Matawan
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: marshalltown-united-states
+- formation: Bridger
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Bridgerian
+  occurrences: 1
+  ma: [45.9, 51.1]
+  id: bridger-united-states
+- formation: Tienen
+  group: Landen
+  members: [Dormaal]
+  country: Belgium
+  regions: [Brabant]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: tienen-belgium
+- formation: Upper Headon Beds
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Eocene
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: upper-headon-beds-united-kingdom
+- formation: Mazaterón
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Bartonian
+  occurrences: 1
+  ma: [37.71, 41.03]
+  id: mazateron-spain
+- formation: Ville
+  group: ''
+  members: [Frimmersdorf]
+  country: Germany
+  regions: []
+  interval: MN 5
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: ville-germany
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Clarkforkian
+  occurrences: 1
+  ma: [56.0, 57.5]
+  id: willwood-united-states
+- formation: Bohlen
+  group: ''
+  members: []
+  country: Germany
+  regions: []
+  interval: MP 22
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: bohlen-germany
+- formation: Melker Sand
+  group: ''
+  members: []
+  country: Austria
+  regions: []
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: melker-sand-austria
+- formation: Areniscas de Cabrerizos
+  group: ''
+  members: []
+  country: Spain
+  regions: [Salamanca]
+  interval: Bartonian
+  occurrences: 1
+  ma: [37.71, 41.03]
+  id: areniscas-de-cabrerizos-spain
+- formation: Sables de Bracheux
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Thanetian
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: sables-de-bracheux-france
+- formation: Conglomérat de Cernay
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Thanetian
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: conglomerat-de-cernay-france
+- formation: Enspel
+  group: ''
+  members: []
+  country: Germany
+  regions: [Rheinland-Pfalz]
+  interval: MP 28
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: enspel-germany
+- formation: Silveirinha
+  group: ''
+  members: [Rio Mondego]
+  country: Portugal
+  regions: [Região Centro]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: silveirinha-portugal
+- formation: Detritic-Carbonated Unit of Subirats
+  group: ''
+  members: []
+  country: Spain
+  regions: [Catalonia]
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: detritic-carbonated-unit-of-subirats-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Jiangsu]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-jiangsu-crocodiles-china
+- formation: Vaugirard
+  group: ''
+  members: []
+  country: France
+  regions: [Île-de-France]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: vaugirard-france
+- formation: Borgloon
+  group: Tongeren
+  members: [Boutersem Sand]
+  country: Belgium
+  regions: []
+  interval: Early Oligocene
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: borgloon-belgium
+- formation: Turabi
+  group: ''
+  members: []
+  country: Turkey
+  regions: [Anatolia]
+  interval: Early Miocene
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: turabi-turkey
+- formation: Molasse de Carcassonne
+  group: ''
+  members: []
+  country: France
+  regions: [Occitanie]
+  interval: Ypresian–Lutetian
+  occurrences: 1
+  ma: [41.03, 56.0]
+  id: molasse-de-carcassonne-france
+- formation: Headon Beds
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: headon-beds-united-kingdom
+- formation: Freshwater Molasse
+  group: ''
+  members: []
+  country: Switzerland
+  regions: [Bremgarten]
+  interval: Miocene
+  occurrences: 1
+  ma: [5.333, 23.04]
+  id: freshwater-molasse-switzerland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Switzerland
+  regions: []
+  interval: Miocene
+  occurrences: 1
+  ma: [5.333, 23.04]
+  id: unnamed-stein-schaffhausen-switzerland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: [Bihor]
+  interval: MN 6
+  occurrences: 1
+  ma: [12.75, 13.82]
+  id: unnamed-subpiatra-2-1r-romania
+- formation: Viens Marl
+  group: ''
+  members: []
+  country: France
+  regions: [Alpes-de-Haute Provence]
+  interval: MP 25
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: viens-marl-france
+- formation: Lower Freshwater Molasse
+  group: ''
+  members: []
+  country: Switzerland
+  regions: [Fribourg]
+  interval: Agenian
+  occurrences: 1
+  ma: [20.0, 23.04]
+  id: lower-freshwater-molasse-switzerland
+- formation: Buchak
+  group: ''
+  members: []
+  country: Ukraine
+  regions: [Luhansk]
+  interval: Lutetian
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: buchak-ukraine
+- formation: Viștea Limestone
+  group: ''
+  members: []
+  country: Romania
+  regions: [Cluj-Napoca]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: vistea-limestone-romania
+- formation: Turbuța
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: turbuta-romania
+- formation: Valea Nadăşului
+  group: ''
+  members: []
+  country: Romania
+  regions: [Cluj]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: valea-nadasului-romania
+- formation: Cluj Limestone
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: cluj-limestone-romania
+- formation: Dâncu
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Early Oligocene
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: dancu-romania
+- formation: Aldearrubia
+  group: ''
+  members: []
+  country: Spain
+  regions: [Salamanca]
+  interval: Bartonian–Priabonian
+  occurrences: 1
+  ma: [33.9, 41.03]
+  id: aldearrubia-spain
+- formation: Törökbálint
+  group: ''
+  members: [Mányi]
+  country: Hungary
+  regions: [Esztergom]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: torokbalint-hungary
+- formation: Kressenberg
+  group: ''
+  members: [Frauengrube]
+  country: Austria
+  regions: []
+  interval: Lutetian
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: kressenberg-austria
+- formation: Holíč
+  group: ''
+  members: []
+  country: Austria
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: holic-austria
+fossil_material:
+  holotype: Type of D. ratelii (Pomel 1847), from France.
+  material: Many skulls and articulated skeletons, notably from the Messel Pit and the Geiseltal, Germany.
+  completeness: multiple
+  exceptional: Most articulated skeletons from Messel and the Geiseltal contain gastroliths.
+biology: Almost exclusively found in freshwater settings; probably an opportunistic aquatic predator.
+images:
+- kind: life
+  file: Diplocynodon head.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Diplocynodon_head.png/960px-Diplocynodon_head.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diplocynodon_head.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-09-12'
+  caption: Life restoration of the head
+  width: 1822
+  height: 1096
+  review: unreviewed
+  local: img/gallery/Diplocynodon_001.webp
+- kind: fossil
+  file: Diplocynodon darwini 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Diplocynodon_darwini_01.jpg/960px-Diplocynodon_darwini_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diplocynodon_darwini_01.jpg
+  artist: Kuebi = Armin Kübelbeck
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-07-29'
+  caption: Skeleton of D. darwini
+  width: 3200
+  height: 2207
+  review: unreviewed
+  local: img/gallery/Diplocynodon_002.webp
+- kind: fossil
+  file: Diplocynodon darwini 3478839.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Diplocynodon_darwini_3478839.jpg/960px-Diplocynodon_darwini_3478839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diplocynodon_darwini_3478839.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-07-04'
+  caption: Skeleton of D. darwini
+  width: 2524
+  height: 1443
+  review: unreviewed
+  local: img/gallery/Diplocynodon_003.webp
+- kind: fossil
+  file: Diplocynodon - Geiseltal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Diplocynodon_-_Geiseltal.jpg/960px-Diplocynodon_-_Geiseltal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diplocynodon_-_Geiseltal.jpg
+  artist: DagdaMor
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-10'
+  caption: Specimen from the Geiseltal
+  width: 2548
+  height: 1566
+  review: unreviewed
+  local: img/gallery/Diplocynodon_004.webp
+- kind: fossil
+  file: Diplocynodon ratelii.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Diplocynodon_ratelii.JPG/960px-Diplocynodon_ratelii.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diplocynodon_ratelii.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-05-18'
+  caption: Mounted skeleton of D. ratelii
+  width: 3500
+  height: 1433
+  review: unreviewed
+  local: img/gallery/Diplocynodon_005.webp
+- kind: fossil
+  file: Diplocynodon cf rateli.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Diplocynodon_cf_rateli.JPG/960px-Diplocynodon_cf_rateli.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diplocynodon_cf_rateli.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2009-06
+  caption: Specimen of D. cf. ratelii
+  width: 2560
+  height: 1920
+  review: unreviewed
+  local: img/gallery/Diplocynodon_006.webp
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Alligatoroidea
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Massimo Delfino 2012. Reappraisal of the morphology and phylogenetic relationships of the middle Eocene
+    alligatoroid ''''Diplocynodon deponiae'''' (Frey, Laemmert, and Riess, 1987) based on a three-dimensional specimen.
+    Journal of Vertebrate Paleontology 32(6): 1358–1369. doi:10.1080/02724634.2012.699484'
+- kind: literature
+  text: Massonne, Tobias; Böhme, Madelaine 2022. Re-evaluation of the morphology and phylogeny of Diplocynodon levantinicum
+    Huene & Nikoloff, 1963 and the stratigraphic age of the West Maritsa coal field (Upper Thrace Basin, Bulgaria).
+    PeerJ 10. doi:10.7717/peerj.14167
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diplocynodon (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diplocynodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Diplocynodon”. English Wikipedia, revision 1375403743.
+  url: https://en.wikipedia.org/w/index.php?title=Diplocynodon&oldid=1375403743
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No original description among the sources yet; type species deduced from the authority.
+  - Species list from PBDB; check against Massonne et al. (2022).
+  reviews: []

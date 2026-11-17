@@ -1,0 +1,81 @@
+name: Globidentosuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Scheyer et al. 2013
+type_species: Globidentosuchus brachyrostris
+type_species_note: ''
+summary: Small, short-snouted basal caiman from the Miocene of Venezuela, with spherical teeth for cracking mollusc
+  shells.
+size:
+  length_m: [1.72, 1.72]
+  mass_kg: [16.7, 16.7]
+  note: About 1.72 m long and 16.7 kg.
+age:
+  first_ma: 11.63
+  last_ma: 5.333
+  early_interval: Tortonian
+  late_interval: Messinian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Globidentosuchus brachyrostris
+  authority: Scheyer et al. 2013
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: Urumaco
+  group: ''
+  members: [Lower, Middle, Upper]
+  country: Venezuela
+  regions: [Falcon, Falcón]
+  interval: Late Miocene
+  occurrences: 9
+  ma: [5.333, 11.63]
+  id: urumaco-venezuela
+fossil_material:
+  holotype: AMU-CURS-222 — a nearly complete skull with mandibles, Urumaco Formation, Venezuela.
+  material: Holotype, paratype AMU-CURS-224 and fragmentary skulls and jaws; a skull once called Melanosuchus fisheri
+    was referred here in 2017.
+  completeness: multiple
+  exceptional: ''
+biology: Its spherical crushing teeth broke the shells of molluscs (durophagy).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Scheyer, T. M.; Aguilera, O. A.; Delfino, M.; Fortier, D. C.; Carlini, A. A.; Sánchez, R.; Carrillo-Briceño,
+    J. D.; Quiroz, L.; Sánchez-Villagra, M. R. 2013. Crocodylian diversity peak and extinction in the late Cenozoic
+    of the northern Neotropics. Nature Communications 4. doi:10.1038/ncomms2940
+- kind: literature
+  text: 'Bona, Paula; Blanco, M. Victoria Fernandez; Schever, Torsten M.; Both, Christian 2017. Shedding Light on
+    the Taxonomic Diversity of the South American Miocene Caimans: The Status of Melanosuchus fisheri (Crocodylia,
+    Alligatoroidea). Ameghiniana 54(6): 681–687. doi:10.5710/AMGH.08.06.2017.3103'
+- kind: literature
+  text: 'Hastings, Alexander K.; Reisser, Moritz; Scheyer, Torsten M. 2016. Character evolution and the origin of
+    Caimaninae (Crocodylia) in the New World Tropics: new evidence from the Miocene of Panama and Venezuela. Journal
+    of Paleontology 90(2): 317–332. doi:10.1017/jpa.2016.37'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Globidentosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Globidentosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Globidentosuchus”. English Wikipedia, revision 1385823897.
+  url: https://en.wikipedia.org/w/index.php?title=Globidentosuchus&oldid=1385823897
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

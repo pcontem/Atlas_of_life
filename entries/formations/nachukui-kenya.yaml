@@ -1,0 +1,31 @@
+id: nachukui-kenya
+name: Nachukui
+rank: formation
+group: Omo
+country: Kenya
+regions: [Rift Valley]
+location:
+  lat: 4.028
+  lng: 35.788
+  basis: median of 6 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 5.333
+  last_ma: 0.774
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [fluvial-lacustrine indet., lacustrine indet., lacustrine - small]
+lithology: [sandstone]
+pbdb_collections: ['21282', '21294', '21300', '21341', '22235', '22239']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Nachukui (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Nachukui
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,31 @@
+id: shanwang-china
+name: Shanwang
+rank: formation
+group: ''
+country: China
+regions: [Shandong]
+location:
+  lat: 34.327
+  lng: 118.618
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 20.45
+  last_ma: 15.98
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [lacustrine indet., terrestrial indet.]
+lithology: [sandstone, conglomerate]
+pbdb_collections: ['41810', '41812']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Shanwang (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Shanwang
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

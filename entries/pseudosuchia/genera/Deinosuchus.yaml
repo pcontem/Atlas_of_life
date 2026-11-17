@@ -1,0 +1,245 @@
+name: Deinosuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: Usually recovered as an alligatoroid (PBDB; Cossette & Brochu 2020), but Walter et al. (2025) place
+  it outside crown Crocodylia.
+authority: Holland 1909
+type_species: Deinosuchus hatcheri
+type_species_note: ''
+summary: Giant Late Cretaceous eusuchian of North America, over 9 m long, with crushing teeth and thick armour.
+size:
+  length_m: [9, 9]
+  note: The largest individuals surpassed 9 m in total length.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 19
+  note: ''
+species:
+- name: Deinosuchus hatcheri
+  authority: (Holland 1909)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Deinosuchus riograndensis
+  authority: (Colbert and Bird 1954)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Deinosuchus schwimmeri
+  authority: Cossette and Brochu 2020
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Aguja
+  group: ''
+  members: [Abajo Shale, Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Judithian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Judith River
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Aguja
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: aguja-mexico
+- formation: Mooreville
+  group: Selma
+  members: []
+  country: United States
+  regions: [Alabama]
+  interval: Early Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: mooreville-united-states
+- formation: Kaiparowits
+  group: ''
+  members: [Middle]
+  country: United States
+  regions: [Utah]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: kaiparowits-united-states
+- formation: Fruitland
+  group: ''
+  members: [Fossil Forest]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Coffee Sand
+  group: ''
+  members: []
+  country: United States
+  regions: [Mississippi]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: coffee-sand-united-states
+- formation: Menefee
+  group: Mesaverde
+  members: [Allison]
+  country: United States
+  regions: [New Mexico]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: menefee-united-states
+- formation: Blufftown
+  group: ''
+  members: []
+  country: United States
+  regions: [Alabama]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: blufftown-united-states
+fossil_material:
+  holotype: Holotype of D. hatcheri described by Holland (1909); the first remains were teeth found in North Carolina
+    in the 1850s.
+  material: Skulls, jaws, vertebrae, osteoderms and teeth from 12 U.S. states and northern Mexico.
+  completeness: multiple
+  exceptional: Bite marks on Late Cretaceous turtle shells and dinosaur bones attributed to it.
+biology: Robust teeth built for crushing; may have lived up to 50 years, growing at a modern-crocodile rate for
+  longer. Probably fed on sea turtles, fish and other aquatic and land prey.
+images:
+- kind: life
+  file: Deinosuchus hatcheri.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Deinosuchus_hatcheri.png/960px-Deinosuchus_hatcheri.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinosuchus_hatcheri.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-10'
+  caption: Life restoration of D. hatcheri
+  width: 2872
+  height: 526
+  review: unreviewed
+  local: img/gallery/Deinosuchus_001.webp
+- kind: life
+  file: Deinosuchus illustration Andrey Atuchin.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Deinosuchus_illustration_Andrey_Atuchin.jpg/960px-Deinosuchus_illustration_Andrey_Atuchin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinosuchus_illustration_Andrey_Atuchin.jpg
+  artist: Andrey Atuchin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014'
+  caption: Life restoration of Deinosuchus
+  width: 3000
+  height: 755
+  review: unreviewed
+  local: img/gallery/Deinosuchus_002.webp
+- kind: skeletal
+  file: Deinosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Deinosuchus_skeletal.png/960px-Deinosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-31'
+  caption: Skeletal reconstruction of a large Deinosuchus
+  width: 9372
+  height: 4788
+  review: unreviewed
+  local: img/gallery/Deinosuchus_003.webp
+- kind: fossil
+  file: Deinosuchus side profile.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Deinosuchus_side_profile.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Deinosuchus_side_profile.webp
+  artist: A Cynical Idealist
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-05'
+  caption: Mounted skeleton of Deinosuchus
+  width: 1494
+  height: 1120
+  review: unreviewed
+  local: img/gallery/Deinosuchus_004.webp
+- kind: fossil
+  file: Deinosuchus-0251.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Deinosuchus-0251.jpg/960px-Deinosuchus-0251.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinosuchus-0251.jpg
+  artist: 'Source: Jonathan Cutrer Derivative: User:MathKnight'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-29'
+  caption: Reconstructed skull, Big Bend National Park
+  width: 4032
+  height: 2550
+  review: unreviewed
+  local: img/gallery/Deinosuchus_005.webp
+- kind: fossil
+  file: Deinosuchus at the CMNH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Deinosuchus_at_the_CMNH.jpg/960px-Deinosuchus_at_the_CMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinosuchus_at_the_CMNH.jpg
+  artist: User:Piotrus
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: 2007-11
+  caption: Osteoderms and a vertebra, Carnegie Museum of Natural History
+  width: 2288
+  height: 2349
+  review: unreviewed
+  local: img/gallery/Deinosuchus_006.webp
+silhouette:
+  src: https://images.phylopic.org/images/c238dde3-3faa-4e91-9487-4a1b4be43db6/vector.svg
+  png: https://images.phylopic.org/images/c238dde3-3faa-4e91-9487-4a1b4be43db6/raster/512x81.png
+  page: https://www.phylopic.org/images/c238dde3-3faa-4e91-9487-4a1b4be43db6
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Deinosuchus rugosus
+  matched: Deinosuchus
+  genus_level: true
+  w: 512
+  h: 81
+sources:
+- kind: original
+  text: 'Holland, W.J. 1909. ''''Deinosuchus hatcheri'''', a new genus and species of crocodile from the Judith
+    River beds of Montana. Annals of the Carnegie Museum 6(1): 281–294. doi:10.5962/p.214851'
+- kind: literature
+  text: Cossette, Adam P.; Brochu, Christopher A. Janu. A systematic review of the giant alligatoroid''Deinosuchus''from
+    the Campanian of North America and its implications for the relationships at the root of Crocodylia. Journal
+    of Vertebrate Paleontology 40(1). doi:10.1080/02724634.2020.1767638
+- kind: literature
+  text: Walter, J. D.; Massonne, T.; Paiva, A. L. S.; Martin, J. E.; Delfino, M.; Rabi, M. 2025. Expanded phylogeny
+    elucidates ''Deinosuchus relationships'', crocodylian osmoregulation and body-size evolution. Communications
+    Biology 8(1). doi:10.1038/s42003-025-07653-4
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Deinosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Deinosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Deinosuchus”. English Wikipedia, revision 1384352612.
+  url: https://en.wikipedia.org/w/index.php?title=Deinosuchus&oldid=1384352612
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype specimen number not in the sources read; take it from Holland (1909).
+  reviews: []

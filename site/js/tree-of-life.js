@@ -109,7 +109,7 @@ const CL=(()=>{let svg,g,zoom,t=null,sel=null,timer=null,pos={},layout="linear",
   function info(id){const n=byId[id];if(!n){return}const path=(()=>{const p=[];let m=byId[n.parent];while(m&&p.length<4){p.unshift(m.name);m=byId[m.parent]}return p.join(" › ")})();
     const im=n.ficha&&n.images&&n.images[0];
     $("#cinfo").innerHTML=`<div class="ci">${im?`<img src="${thumbSrc(n.name,im)}" alt="">`:""}<div><div class="cpath">${esc(path)}</div><div class="cname">${n.type==="genus"?"<i>":""}${esc(n.name)}${n.type==="genus"?"</i>":""}</div>
-      <div class="note">${n.type==="clade"?n.stat.g+" genera":""}${n.ficha&&n.type==="genus"?esc(n.early||"")+" · "+(n.ws?"wingspan "+n.ws[1]+" m":""):""}${!n.ficha&&n.status?(n.status==="e"?" · extinct":" · living"):""}</div>
+      <div class="note">${n.type==="clade"?n.stat.g+" genera":""}${n.ficha&&n.type==="genus"?esc(n.early||"")+" · "+sizeLabel(n):""}${!n.ficha&&n.status?(n.status==="e"?" · extinct":" · living"):""}</div>
       ${n.ficha?`<p style="margin:6px 0 0;font-size:13px">${esc(n.sum)}</p>`:n.note?`<p style="margin:6px 0 0;font-size:13px">${esc(n.note)}</p>`:""}
       <div class="note" style="margin-top:6px">Double-click this card (or switch to <b>Encyclopedia</b> above) to read ${n.ficha?"its entry":"its basic page"}.</div></div></div>`;
     const card=$("#cinfo .ci");card.title="Double-click to open in the encyclopedia";card.ondblclick=()=>{location.hash=id}}

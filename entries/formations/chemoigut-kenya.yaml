@@ -1,0 +1,31 @@
+id: chemoigut-kenya
+name: Chemoigut
+rank: formation
+group: ''
+country: Kenya
+regions: []
+location:
+  lat: 0.65
+  lng: 36.2
+  basis: median of 3 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 2.58
+  last_ma: 0.0117
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [fluvial-lacustrine indet.]
+lithology: [siltstone]
+pbdb_collections: ['22268', '22269', '22270']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Chemoigut (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Chemoigut
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

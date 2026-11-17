@@ -1,0 +1,209 @@
+name: Leidyosuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: An alligatoroid in Lee & Yates (2018); Walter et al. (2025) find many supposed alligatoroid features
+  more widespread.
+authority: Lambe 1907
+type_species: Leidyosuchus canadensis
+type_species_note: ''
+summary: Medium-sized eusuchian from the Late Cretaceous of Alberta, the most common crocodilian of the Dinosaur
+  Park Formation.
+size:
+  length_m: null
+  note: Maximum skull length over 40 cm; the sources give no body length.
+age:
+  first_ma: 85.7
+  last_ma: 63.4
+  early_interval: Santonian
+  late_interval: Danian
+  pbdb_occurrences: 47
+  note: ''
+species:
+- name: Leidyosuchus canadensis
+  authority: Lambe 1907
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Leidyosuchus gilmorei
+  authority: Mook 1942
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta, Saskatchewan]
+  interval: Late Campanian
+  occurrences: 31
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota, Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Unnamed unit
+  group: Black Creek
+  members: []
+  country: United States
+  regions: [Missouri, North Carolina]
+  interval: Late Santonian–Middle Campanian
+  occurrences: 2
+  ma: [72.2, 85.7]
+  id: [black-creek-group-united-states, unnamed-chronister-site-united-states]
+- formation: Unnamed unit
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: belly-river-group-canada
+- formation: Nacimiento
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Puercan
+  occurrences: 1
+  ma: [63.4, 66.0]
+  id: nacimiento-united-states
+- formation: Marshalltown
+  group: Matawan
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: marshalltown-united-states
+- formation: Kaiparowits
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kaiparowits-united-states
+- formation: El Gallo
+  group: ''
+  members: [El Disecado]
+  country: Mexico
+  regions: [Baja California]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: el-gallo-mexico
+fossil_material:
+  holotype: Type material of L. canadensis described by Lambe (1907), Judith River Formation, Alberta.
+  material: Numerous specimens from the Dinosaur Park Formation; most other species once placed here were moved
+    to other genera by Brochu (1997).
+  completeness: multiple
+  exceptional: ''
+biology: A medium-sized semi-aquatic predator of Campanian Alberta; the sources say little more.
+images:
+- kind: life
+  file: Leidyosuchus paleoart.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Leidyosuchus_paleoart.png/960px-Leidyosuchus_paleoart.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Leidyosuchus_paleoart.png
+  artist: Sauroarchive
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-16'
+  caption: Life restoration of Leidyosuchus
+  width: 6402
+  height: 1946
+  review: unreviewed
+  local: img/gallery/Leidyosuchus_001.webp
+- kind: life
+  file: LeidyosuchuscanadensisJF.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/LeidyosuchuscanadensisJF.png/960px-LeidyosuchuscanadensisJF.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:LeidyosuchuscanadensisJF.png
+  artist: Jfstudiospaleoart
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-03-24'
+  caption: Head of L. canadensis
+  width: 2048
+  height: 1583
+  review: unreviewed
+  local: img/gallery/Leidyosuchus_002.webp
+- kind: fossil
+  file: Royal Tyrrell Leidyosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Royal_Tyrrell_Leidyosuchus.jpg/960px-Royal_Tyrrell_Leidyosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Royal_Tyrrell_Leidyosuchus.jpg
+  artist: Bloopityboop
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-08-14'
+  caption: Skull, Royal Tyrrell Museum
+  width: 4032
+  height: 3024
+  review: unreviewed
+  local: img/gallery/Leidyosuchus_003.webp
+- kind: fossil
+  file: Leidyosuchus canadensis 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Leidyosuchus_canadensis_2.jpg/960px-Leidyosuchus_canadensis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Leidyosuchus_canadensis_2.jpg
+  artist: Bloopityboop
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-08-14'
+  caption: Skull of L. canadensis
+  width: 4032
+  height: 1146
+  review: unreviewed
+  local: img/gallery/Leidyosuchus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Alligatoroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lambe, Lawrence M. 1907. On a new crocodilian genus and species from the Judith River Formation of Alberta.
+    Transactions of the Royal Society of Canada 1(4): 219–235.'
+- kind: literature
+  text: 'Brochu, C.A. 1997. A review of "Leidyosuchus" (Crocodyliformes, Eusuchia) from the Cretaceous through Eocene
+    of North America. Journal of Vertebrate Paleontology 17(4): 679–697. doi:10.1080/02724634.1997.10011017'
+- kind: literature
+  text: Walter, J. D.; Massonne, T.; Paiva, A. L. S.; Martin, J. E.; Delfino, M.; Rabi, M. 2025. Expanded phylogeny
+    elucidates ''Deinosuchus relationships'', crocodylian osmoregulation and body-size evolution. Communications
+    Biology 8. doi:10.1038/s42003-025-07653-4
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Leidyosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Leidyosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Leidyosuchus”. English Wikipedia, revision 1374465914.
+  url: https://en.wikipedia.org/w/index.php?title=Leidyosuchus&oldid=1374465914
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

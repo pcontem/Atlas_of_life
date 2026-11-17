@@ -1,0 +1,75 @@
+name: Culebrasuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Hastings et al. 2013
+type_species: Culebrasuchus mesoamericanus
+type_species_note: ''
+summary: Early to Middle Miocene caiman from the Culebra Formation of Panama, an early participant in the Great
+  American Interchange.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 18.5
+  last_ma: 16.3
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Culebrasuchus mesoamericanus
+  authority: Hastings et al. 2013
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Culebra
+  group: ''
+  members: [upper]
+  country: Panama
+  regions: []
+  interval: Early Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: culebra-panama
+fossil_material:
+  holotype: A skull and three neck vertebrae from the Culebra Formation, Panama.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its ancestors probably lived farther north, perhaps in southern Mexico, since most of Panama was under
+  water before the Miocene.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Hastings, A. K.; Bloch, J. I.; Jaramillo, C. A.; Rincon, A. F.; MacFadden, B. J. 2013. Systematics and biogeography
+    of crocodylians from the Miocene of Panama. Journal of Vertebrate Paleontology 33(2). doi:10.1080/02724634.2012.713814
+- kind: literature
+  text: Adam P. Cossette 2020. A systematic review of the giant alligatoroid ''Deinosuchus'' from the Campanian
+    of North America and its implications for the relationships at the root of Crocodylia. Journal of Vertebrate
+    Paleontology 40(1). doi:10.1080/02724634.2020.1767638
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Culebrasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Culebrasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Culebrasuchus”. English Wikipedia, revision 1327695038.
+  url: https://en.wikipedia.org/w/index.php?title=Culebrasuchus&oldid=1327695038
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

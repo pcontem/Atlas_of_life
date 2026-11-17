@@ -1,0 +1,70 @@
+name: Kuttanacaiman
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Salas-Gismondi et al. 2015
+type_species: Kuttanacaiman iquitosensis
+type_species_note: ''
+summary: Small basal caiman with blunt crushing teeth from the Middle Miocene Pebas Formation near Iquitos, Peru.
+size:
+  length_m: [1.712, 1.891]
+  note: Estimated total length 171.2–189.1 cm.
+age:
+  first_ma: 15.98
+  last_ma: 11.63
+  early_interval: Langhian
+  late_interval: Serravallian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Kuttanacaiman iquitosensis
+  authority: Salas-Gismondi et al. 2015
+  first_ma: 15.98
+  last_ma: 11.63
+  interval: Langhian–Serravallian
+  reference: original description
+formations:
+- formation: Pebas
+  group: ''
+  members: []
+  country: Peru
+  regions: [Maynas]
+  interval: Middle Miocene
+  occurrences: 3
+  ma: [11.63, 15.98]
+  id: pebas-peru
+fossil_material:
+  holotype: A nearly complete skull from the Pebas Formation near Iquitos, Peru; a second partial skull is referred.
+  material: Two skulls.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its blunt rear teeth were probably used to crush freshwater bivalves in the Pebas mega-wetlands.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Salas-Gismondi, R.; Flynn, J. J.; Baby, P.; Tejada-Lara, J. V.; Wesselingh, F. P.; Antoine, P. -O. 2015.
+    A Miocene hyperdiverse crocodylian community reveals peculiar trophic dynamics in proto-Amazonian mega-wetlands.
+    Proceedings of the Royal Society B: Biological Sciences 282(1804). doi:10.1098/rspb.2014.2490'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kuttanacaiman (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kuttanacaiman
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kuttanacaiman”. English Wikipedia, revision 1327695137.
+  url: https://en.wikipedia.org/w/index.php?title=Kuttanacaiman&oldid=1327695137
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

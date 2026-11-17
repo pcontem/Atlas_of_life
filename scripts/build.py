@@ -32,7 +32,7 @@ def genus_to_site(e):
     """Map an entry file (readable names) to the compact keys the site uses."""
     g = dict(
         name=e["name"], clade=e["parent"], isd=e["incertae_sedis"], isnote=e["placement_note"],
-        sum=e["summary"], ws=e["size"]["wingspan_m"], wsnote=e["size"]["note"],
+        sum=e["summary"], wsnote=e["size"]["note"],
         holotype=e["fossil_material"]["holotype"], material=e["fossil_material"]["material"],
         completeness=e["fossil_material"]["completeness"], exceptional=e["fossil_material"]["exceptional"],
         biology=e["biology"], author=e["authority"],
@@ -48,6 +48,12 @@ def genus_to_site(e):
                      w=i["width"], h=i["height"], local=i.get("local"), review=i.get("review")) for i in e["images"]],
         sources=e["sources"],
     )
+    # size: wingspan (pterosaurs) or body length, plus body mass when published; [min, max]
+    for key, k in (("wingspan_m", "ws"), ("length_m", "len"), ("mass_kg", "kg")):
+        if key in e["size"]:
+            g[k] = e["size"][key]
+    if e.get("extant"):
+        g["extant"] = True
     if e["age"].get("note"):
         g["dates_note"] = e["age"]["note"]
     if e.get("silhouette"):
@@ -64,13 +70,13 @@ def curation_to_site(e):
                 on=c.get("checked_on", ""), reviews=c.get("reviews") or [], src=e.get("_src", ""))
 
 
-INDEX_KEYS = ("name", "clade", "isd", "sum", "ws", "fad", "lad", "early", "late", "author", "type_species", "silhouette")
+INDEX_KEYS = ("name", "clade", "isd", "sum", "ws", "len", "kg", "extant", "fad", "lad", "early", "late", "author", "type_species", "silhouette")
 
 
 def genus_index(g, vol):
     """The light record every view needs (lists, tree, timeline, maps); the full entry is in site/g/<Name>.json.
     `images` holds only the representative image (first life restoration, else the first image)."""
-    rep = next((i for i in g["images"] if i["kind"] == "life"), g["images"][0] if g["images"] else None)
+    rep = next((i for k in ("photo", "life") for i in g["images"] if i["kind"] == k), g["images"][0] if g["images"] else None)
     r = {k: g[k] for k in INDEX_KEYS if k in g}
     r.update(vol=vol, nsp=len(g["species"]), st=g["cur"]["status"], images=[rep] if rep else [],
              formations=[dict(ids=f["ids"], country=f["country"]) for f in g["formations"]])
@@ -78,7 +84,7 @@ def genus_index(g, vol):
 
 
 def clade_to_site(e):
-    return dict(id=e["id"], name=e["name"], parent=e["parent"], wiki=e["wikipedia"], sum=e["summary"], trank=e.get("taxon_rank"),
+    return dict(id=e["id"], name=e["name"], parent=e["parent"], wiki=e["wikipedia"], sum=e["summary"], trank=e.get("taxon_rank"), trank_src=e.get("taxon_rank_source", ""),
                 diag=e["diagnosis"], notes=e["notes"], sources=e["sources"], cur=curation_to_site(e))
 
 
@@ -143,6 +149,7 @@ def main():
     backbone = json.loads((ROOT / "data/tree/backbone.json").read_text())
     known = {n[0] for n in backbone}
     clades, genera, excluded, metas, tree = [], [], [], [], [list(n) for n in backbone]
+    vol_clades = set()
     # clade entries for groups of the tree backbone (entries/tree/clades): the node keeps its place and name
     # in backbone.json and is marked as having an entry
     node_at = {n[0]: n for n in tree}
@@ -152,7 +159,7 @@ def main():
         if not n:
             sys.exit(f"{p}: '{c['id']}' is not in the tree backbone")
         n[6] = 1
-        clades.append(dict(clade_to_site(c), scope="tree", trank_src=c.get("taxon_rank_source", "")))
+        clades.append(dict(clade_to_site(c), scope="tree"))
     for vol in sorted(ENTRIES.glob("*/_volume.yaml")):
         v = load(vol)
         d = vol.parent
@@ -162,18 +169,34 @@ def main():
             sys.exit(f"{vol}: attach_to '{v['attach_to']}' is not in the tree backbone")
         for c in cl:
             clades.append(clade_to_site(c))
-            tree.append([c["id"], c["name"], c["parent"] or v["attach_to"], "e", "", "c", 1])
+            tree.append([c["id"], c["name"], c["parent"] or v["attach_to"], "", "", "c", 1])
         for g in gn:
             genera.append(genus_to_site(g))
             genera[-1]["vol"] = d.name
-            tree.append([g["name"], g["name"], g["parent"], "e", "", "g", 1])
+            tree.append([g["name"], g["name"], g["parent"], "v" if g.get("extant") else "e", "", "g", 1])
+        vol_clades |= {c["id"] for c in cl}
         excluded += load(d / "excluded.yaml") or []
         metas.append(v)
+    # volume clades: living if any genus below them (entry or backbone genus) is living, otherwise extinct
+    up = {n[0]: n[2] for n in tree}
+    living = set()
+    for n in tree:
+        if n[5] == "g" and n[3] == "v":
+            k = n[2]
+            while k and k not in living:
+                living.add(k)
+                k = up.get(k)
+    for n in tree:
+        if n[0] in vol_clades:
+            n[3] = "v" if n[0] in living else "e"
+    for c in clades:
+        if c["id"] in vol_clades:
+            c["status"] = "v" if c["id"] in living else "e"
     ts = json.loads((ROOT / "data/raw/timescale/pbdb_ics_2024.json").read_text())
     timescale = [dict(name=r[0], type=r[1], base=r[2], top=r[3], parent=r[4], no=r[5], color=r[6]) for r in ts["records"]]
     formations, paleo = formations_to_site(genera)
     home = load(ENTRIES / "home.yaml") if (ENTRIES / "home.yaml").exists() else None
-    m = metas[0]
+    m = max(metas, key=lambda x: str(x["built"]))
     media_cfg = json.loads((ROOT / "media/config.json").read_text()) if (ROOT / "media/config.json").exists() else {}
     base = (media_cfg.get("base_url") or "").strip()
     data = dict(media_base=base + ("/" if base and not base.endswith("/") else ""),meta=dict(title="Atlas of Life", group=", ".join(x["title"] for x in metas), built=m["built"],

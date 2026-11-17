@@ -731,3 +731,9 @@ the sources agree on; where they disagree, in the deepest shared clade with an *
 - **Archaic eutherians** (Arctocyonidae, Mesonychia, Periptychidae, Triisodontidae, Pantodonta, Pantolesta, Tillodontia, Taeniodonta, Dinocerata, Leptictida, Anagaloidea…): now directly in Eutheria; PBDB puts several in Laurasiatheria, but their placement is very uncertain.
 - **Theriimorpha**: the tree uses it for several Mesozoic mammal groups; its contents should be checked against current definitions.
 - Single genera where PBDB and recent work disagree and the tree was kept: *Eomaia*, *Sinodelphys*, *Asaphestera*, *Chilesaurus*, *Gualicho*, *Sciurumimus*, *Saltopus*, *Dickinsonia*, *Cryolophosaurus*, *Pseudotribos*, and genera PBDB puts deeper than the tree (e.g. titanosaurs in Saltasauroidea, anoplotheriids in Tylopoda, herpetotheriids in Marsupialia).
+
+## Pseudosuchia becomes a volume (2026-11-17)
+The 59 clade nodes of Pseudosuchia left `backbone.json` for `entries/pseudosuchia/clades` (same structure as
+above). Ids with a prefix were shortened to the clade name in lower case (e.g. `notosuchia__sebecosuchia` →
+`sebecosuchia`, `crocodylia__alligatoroidea__alligatoridae` → `alligatoridae`); the backbone genus nodes now
+point to the new ids.

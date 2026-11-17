@@ -1,0 +1,31 @@
+id: pinjor-india
+name: Pinjor
+rank: formation
+group: Siwalik
+country: India
+regions: []
+location:
+  lat: 30.531
+  lng: 76.988
+  basis: median of 4 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 3.6
+  last_ma: 0.774
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., fluvial indet.]
+lithology: [not reported]
+pbdb_collections: ['92070', '198812', '224301', '224312']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Pinjor (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Pinjor
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,74 @@
+name: Paranacaiman
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Bona et al. 2024
+type_species: Paranacaiman bravardi
+type_species_note: ''
+summary: Large caiman from the Late Miocene Ituzaingó Formation of Argentina, named in 2024 from a skull table.
+size:
+  length_m: null
+  note: Described as large; the sources give no measurements.
+age:
+  first_ma: 8
+  last_ma: 5
+  early_interval: Tortonian
+  late_interval: Zanclean
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Paranacaiman bravardi
+  authority: Bona et al. 2024
+  first_ma: 8
+  last_ma: 5
+  interval: Tortonian–Zanclean
+  reference: original description
+formations:
+- formation: Ituzaingo
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+fossil_material:
+  holotype: MACN-Pv 13551 — an isolated skull table, Ituzaingó Formation, Argentina (once part of "Caiman lutescens").
+  material: Only the skull table.
+  completeness: fragmentary
+  exceptional: ''
+biology: One of several large caimans in the Late Miocene of Paraná.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Bona, P.; Barrios, F.; Ezcurra, M.D.; Victoria, M.; Blanco, F.; Cidade, G.M. 2024. New taxa of giant caimans
+    from the southernmost hyperdiverse wetlands of the South American late Miocene. Journal of Systematic Palaeontology
+    22(1). doi:10.1080/14772019.2024.2375027
+- kind: literature
+  text: 'Bona, Paula; Riff, Douglas; Gasparini, Zulma Brandoni de 2012. Late Miocene crocodylians from northeast
+    Argentina: new approaches about the austral components of the Neogene South American crocodylian fauna. Earth
+    and Environmental Science Transactions of the Royal Society of Edinburgh 103(3–4): 551–570. doi:10.1017/s175569101300042x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paranacaiman (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paranacaiman
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paranacaiman”. English Wikipedia, revision 1327695193.
+  url: https://en.wikipedia.org/w/index.php?title=Paranacaiman&oldid=1327695193
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

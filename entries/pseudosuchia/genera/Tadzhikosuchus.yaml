@@ -1,0 +1,92 @@
+name: Tadzhikosuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: PBDB places it in Crocodylinae, Wikipedia only in Neosuchia; mostly known from dentaries, its relationships
+  (and possible synonymy with Zhyrasuchus) are unresolved.
+authority: Efimov 1982
+type_species: Tadzhikosuchus macrodentis
+type_species_note: ''
+summary: Late Cretaceous neosuchian from Tajikistan and Uzbekistan known mostly from lower jaws.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 93.9
+  last_ma: 83.6
+  early_interval: Turonian
+  late_interval: Santonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Tadzhikosuchus kizylkumensis
+  authority: Nesov et al. 1989
+  first_ma: 93.9
+  last_ma: 83.6
+  interval: Turonian–Santonian
+  reference: ''
+- name: Tadzhikosuchus macrodentis
+  authority: Efimov 1982
+  first_ma: 93.9
+  last_ma: 83.6
+  interval: Turonian–Santonian
+  reference: original description
+- name: Tadzhikosuchus neutralis
+  authority: Efimov 1988
+  first_ma: 93.9
+  last_ma: 83.6
+  interval: Turonian–Santonian
+  reference: ''
+formations:
+- formation: Yalovach
+  group: ''
+  members: []
+  country: Tajikistan
+  regions: [Sogd]
+  interval: Early Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: yalovach-tajikistan
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Type material of T. macrodentis from the lower Santonian Ialovachsk Formation, Kansai, Tajikistan (Efimov
+    1982).
+  material: Mostly partial dentaries of three species.
+  completeness: fragmentary
+  exceptional: ''
+biology: Too poorly known for statements about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Martin, J.E.; Delfino, M. 2010. Recent advances in the comprehension of the biogeography of Cretaceous
+    European eusuchians. Palaeogeography, Palaeoclimatology, Palaeoecology 293(3): 406–418. doi:10.1016/j.palaeo.2009.10.021'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tadzhikosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tadzhikosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tadzhikosuchus”. English Wikipedia, revision 1282991173.
+  url: https://en.wikipedia.org/w/index.php?title=Tadzhikosuchus&oldid=1282991173
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

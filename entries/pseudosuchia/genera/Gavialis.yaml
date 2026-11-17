@@ -1,0 +1,144 @@
+name: Gavialis
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Oppel 1811
+type_species: Gavialis gangeticus
+type_species_note: PBDB gives no type species; G. gangeticus (Gmelin 1789) is the only species named before the
+  genus (Oppel 1811).
+summary: The gharial and its fossil relative from Java — long-snouted crocodilians of South Asia that spread into
+  the Malay Archipelago.
+extant: true
+size:
+  length_m: null
+  note: The genus article gives no measurements.
+age:
+  first_ma: 3.6
+  last_ma: 0
+  early_interval: Late Pliocene
+  late_interval: Holocene
+  pbdb_occurrences: 20
+  note: ''
+species:
+- name: Gavialis bengawanicus
+  authority: Dubois 1908
+  first_ma: 2.58
+  last_ma: 0.129
+  interval: Gelasian–Chibanian
+  reference: ''
+- name: Gavialis gangeticus
+  authority: Gmelin 1789
+  first_ma: 3.6
+  last_ma: 0
+  interval: Piacenzian–Holocene
+  reference: original description
+formations:
+- formation: Pinjor
+  group: Siwalik
+  members: []
+  country: India
+  regions: []
+  interval: Late Pliocene–Early Pleistocene
+  occurrences: 4
+  ma: [0.774, 3.6]
+  id: pinjor-india
+- formation: Pinjor
+  group: Siwalik
+  members: []
+  country: Pakistan
+  regions: []
+  interval: Late Pliocene–Early Pleistocene
+  occurrences: 2
+  ma: [0.774, 3.6]
+  id: pinjor-pakistan
+- formation: Tatrot
+  group: ''
+  members: []
+  country: India
+  regions: []
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: tatrot-india
+fossil_material:
+  holotype: Living genus — the name-bearing type of the type species is not covered by the sources used.
+  material: The living gharial, Siwalik fossils now referred to G. gangeticus, and G. bengawanicus from the Pleistocene
+    of Java.
+  completeness: multiple
+  exceptional: ''
+biology: Probably arose in the Indian subcontinent in the Pliocene and reached the Malay Archipelago in the Quaternary;
+  remains east of the Wallace Line suggest one lineage crossed the sea.
+images:
+- kind: photo
+  file: Gharial san diego.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Gharial_san_diego.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gharial_san_diego.jpg
+  artist: Bo Link from Knoxville, TN, USA
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2006-01-13'
+  caption: Gharial (G. gangeticus), San Diego Zoo
+  width: 960
+  height: 1280
+  review: unreviewed
+  local: img/gallery/Gavialis_001.webp
+- kind: photo
+  file: Gavialis gangeticus (Gharial, Gavial) white background.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Gavialis_gangeticus_%28Gharial%2C_Gavial%29_white_background.jpg/960px-Gavialis_gangeticus_%28Gharial%2C_Gavial%29_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gavialis_gangeticus_(Gharial,_Gavial)_white_background.jpg
+  artist: User Greverod on sv.wikipedia
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: '2007-04-20'
+  caption: Gharial (G. gangeticus), San Antonio Zoo
+  width: 2616
+  height: 440
+  review: unreviewed
+  local: img/gallery/Gavialis_002.webp
+- kind: fossil
+  file: Gavialis bengawanicus skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Gavialis_bengawanicus_skull.png/960px-Gavialis_bengawanicus_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gavialis_bengawanicus_skull.png
+  artist: Jeremy E. Martin, Eric Buffetaut, Wilailuck Naksri, Komsorn Lauprasert, Julien Claude
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012-09-18'
+  caption: Skull of G. cf. bengawanicus from the Early Pleistocene of Khok Sung, Thailand
+  width: 1993
+  height: 2323
+  review: unreviewed
+  local: img/gallery/Gavialis_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/f963f388-8297-4ceb-91f6-493b38dccba5/vector.svg
+  png: https://images.phylopic.org/images/f963f388-8297-4ceb-91f6-493b38dccba5/raster/512x72.png
+  page: https://www.phylopic.org/images/f963f388-8297-4ceb-91f6-493b38dccba5
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Gavialis gangeticus
+  matched: Gavialis
+  genus_level: true
+  w: 512
+  h: 72
+sources:
+- kind: literature
+  text: 'Martin, J. E. 2018. The taxonomic content of the genus ''''Gavialis'''' from the Siwalik Hills of India
+    and Pakistan. Papers in Palaeontology 5(3): 483–497. doi:10.1002/spp2.1247'
+- kind: literature
+  text: Delfino, M.; De Vos, J. 2010. A revision of the Dubois crocodylians, ''Gavialis bengawanicus'' and ''Crocodylus
+    ossifragus'', from the Pleistocene Homo erectus beds of Java. Journal of Vertebrate Paleontology 30(2). doi:10.1080/02724631003617910
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gavialis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gavialis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gavialis”. English Wikipedia, revision 1336219093.
+  url: https://en.wikipedia.org/w/index.php?title=Gavialis&oldid=1336219093
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Martin (2018) keeps only G. gangeticus and G. bengawanicus in the genus (G. hysudricus a junior synonym); G.
+    browni and G. lewisi need revision and are left out.
+  reviews: []

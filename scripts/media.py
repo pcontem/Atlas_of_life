@@ -7,6 +7,7 @@ out into site/ before publishing; main only carries media/manifest.json.
     python3 scripts/media.py push       # thumbs + manifest + replace the `media` branch with site/img + site/sil
     python3 scripts/media.py pull       # fetch the `media` branch and unpack it into site/ (then verify)
     python3 scripts/media.py verify     # every file of the manifest is in site/ with the right checksum
+    python3 scripts/media.py fetch [vol] # download images/silhouettes the entries reference but the store lacks
     python3 scripts/media.py sync       # upload site/img + site/sil to the Cloudflare R2 bucket (only what changed)
 
 Serving: when media/config.json has a base_url, the site loads the images from that public R2 bucket and
@@ -92,7 +93,9 @@ def push():
     import shutil, tempfile
     thumbs()
     manifest()
-    remote = git("remote", "get-url", "origin").decode().strip()
+    import os
+    # in GitHub Actions the checkout's credentials do not apply to the temporary repository: pass a token URL
+    remote = os.environ.get("MEDIA_REMOTE") or git("remote", "get-url", "origin").decode().strip()
     with tempfile.TemporaryDirectory() as tmp:
         for d in ("img", "sil"):
             shutil.copytree(SITE / d, pathlib.Path(tmp) / d)
@@ -128,6 +131,74 @@ def verify():
     if bad:
         sys.exit(f"{len(bad)} media file(s) missing or different, e.g. {bad[:3]}")
     print(f"verify: {len(man)} media files OK")
+
+
+UA = {"User-Agent": "AtlasOfLife/1.0 (https://github.com/pcontem/Atlas_of_life; media fetch)"}
+
+
+def download(url):
+    import time, urllib.request
+    for k in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r:
+                return r.read()
+        except Exception as e:
+            if k == 3:
+                print(f"  ! {url}: {e}")
+                return None
+            time.sleep(5 * (k + 1))
+
+
+def fetch(vol=None):
+    """Download the images and silhouettes that genus entries reference but the media store lacks (images without
+    `local`, or whose local file is missing): gallery images -> img/gallery/<Genus>_<nnn>.webp (max 800 px),
+    silhouettes -> sil/<uuid>.webp (from PhyloPic's PNG). Writes `local` (and the silhouette's w/h) into the entry.
+    Needs web access: run in GitHub Actions (.github/workflows/media-fetch.yml), after `pull`."""
+    import re, time
+    from PIL import Image
+    taken = {p.name for p in (SITE / "img/gallery").glob("*.webp")} if (SITE / "img/gallery").exists() else set()
+    (SITE / "img/gallery").mkdir(parents=True, exist_ok=True)
+    (SITE / "sil").mkdir(parents=True, exist_ok=True)
+    done = 0
+    for gp in sorted((ROOT / "entries").glob(f"{vol or '*'}/genera/*.yaml")):
+        text = gp.read_text()
+        e = yaml.safe_load(text)
+        changed = False
+        for im in e.get("images") or []:
+            if im.get("local") and (SITE / im["local"]).exists():
+                continue
+            b = download(im["url"])
+            time.sleep(0.5)
+            if not b:
+                continue
+            k = 1
+            while f"{e['name']}_{k:03d}.webp" in taken:
+                k += 1
+            name = f"{e['name']}_{k:03d}.webp"
+            taken.add(name)
+            pic = Image.open(io.BytesIO(b))
+            pic = pic.convert("RGBA" if pic.mode in ("RGBA", "LA", "P") else "RGB")
+            pic.thumbnail((800, 800))
+            pic.save(SITE / "img/gallery" / name, "WEBP", quality=82)
+            im["local"] = f"img/gallery/{name}"
+            changed = True
+            done += 1
+        s = e.get("silhouette")
+        if s:
+            uuid = s["page"].split("/images/")[-1]
+            dest = SITE / "sil" / f"{uuid}.webp"
+            if not dest.exists() and s.get("png"):
+                b = download(s["png"])
+                if b:
+                    pic = Image.open(io.BytesIO(b)).convert("RGBA")
+                    pic.thumbnail((600, 600))
+                    pic.save(dest, "WEBP", quality=85)
+                    s["w"], s["h"] = pic.size
+                    changed = True
+                    done += 1
+        if changed:
+            gp.write_text(yaml.safe_dump(e, allow_unicode=True, sort_keys=False, width=120))
+    print(f"fetch: {done} files downloaded")
 
 
 CONTENT_TYPES = {".webp": "image/webp", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".svg": "image/svg+xml"}
@@ -169,4 +240,5 @@ def sync():
 
 
 if __name__ == "__main__":
-    {"thumbs": thumbs, "manifest": manifest, "push": push, "pull": pull, "verify": verify, "sync": sync}[sys.argv[1]]()
+    cmd = {"thumbs": thumbs, "manifest": manifest, "push": push, "pull": pull, "verify": verify, "sync": sync, "fetch": fetch}[sys.argv[1]]
+    cmd(*sys.argv[2:3])

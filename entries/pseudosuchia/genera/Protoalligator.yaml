@@ -1,0 +1,74 @@
+name: Protoalligator
+rank: genus
+parent: alligatoroidea
+incertae_sedis: true
+placement_note: Possibly an orientalosuchin (early Asian alligatoroids), but not all studies agree on that group
+  or its alligatoroid position.
+authority: Wang et al. 2016
+type_species: Protoalligator huiningensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Paleocene alligatoroid from China, first described as a species of Eoalligator and given its own genus
+  in 2016.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 66
+  last_ma: 61.66
+  early_interval: Danian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Protoalligator huiningensis
+  authority: (Young 1982)
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: original description
+formations:
+- formation: Wanghudun
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Anhui]
+  interval: Early Paleocene
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: wanghudun-china
+fossil_material:
+  holotype: A single partial skull from the Wanghudun Formation, China (Young 1982).
+  material: The partial skull only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Part of an early radiation of alligatoroids in Asia, if the orientalosuchin placement is correct.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Alligatoroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Yan-Yin Wang 2016. Taxonomic revision of Eoalligator (Crocodylia, Brevirostres) and the paleogeographic
+    origins of the Chinese alligatoroids. PeerJ 4. doi:10.7717/peerj.2356
+- kind: literature
+  text: Wu, X.C.; Wang, Y.C.; You, H.L.; Zhang, Y.Q.; Yi, L.P. 2022. New brevirostrines (Crocodylia, Brevirostres)
+    from the Upper Cretaceous of China. Cretaceous Research 144. doi:10.1016/j.cretres.2022.105450
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protoalligator (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protoalligator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protoalligator”. English Wikipedia, revision 1348866198.
+  url: https://en.wikipedia.org/w/index.php?title=Protoalligator&oldid=1348866198
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

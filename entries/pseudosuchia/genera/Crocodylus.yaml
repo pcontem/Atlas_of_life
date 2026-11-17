@@ -1,0 +1,476 @@
+name: Crocodylus
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Laurenti 1768
+type_species: Crocodylus niloticus
+type_species_note: ''
+summary: The true crocodiles — 13–14 living species across the tropics, plus a few fossil species from the Miocene
+  onwards.
+extant: true
+size:
+  length_m: null
+  note: Size differs greatly between species; the sources used give no range for the genus as a whole.
+age:
+  first_ma: 23.04
+  last_ma: 0
+  early_interval: Early Miocene
+  late_interval: Holocene
+  pbdb_occurrences: 124
+  note: First appearance from the PBDB occurrences of the species listed here; older fossils that PBDB still files
+    under Crocodylus belong to species that recent studies remove from the genus (Wikipedia, Crocodylus).
+species:
+- name: Crocodylus acutus
+  authority: Cuvier 1807
+  first_ma: 4.7
+  last_ma: 0.014
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+- name: Crocodylus anthropophagus
+  authority: Brochu et al. 2010
+  first_ma: 2.58
+  last_ma: 0.774
+  interval: Gelasian–Calabrian
+  reference: ''
+- name: Crocodylus checchiai
+  authority: Maccagno 1947
+  first_ma: 11.63
+  last_ma: 3.6
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Crocodylus falconensis
+  authority: Scheyer et al. 2013
+  first_ma: 3.6
+  last_ma: 2.58
+  interval: Piacenzian
+  reference: ''
+- name: Crocodylus halli
+  authority: Murray et al. 2019
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Crocodylus intermedius
+  authority: Graves 1819
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Crocodylus johnstoni
+  authority: Krefft 1873
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Crocodylus mindorensis
+  authority: Schmidt 1935
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Crocodylus moreletii
+  authority: (Dumeril and Bibron 1851)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Crocodylus niloticus
+  authority: Laurenti 1768
+  first_ma: 23.04
+  last_ma: 0
+  interval: Aquitanian–Holocene
+  reference: original description
+- name: Crocodylus novaeguineae
+  authority: Schmidt 1928
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Crocodylus palaeindicus
+  authority: Falconer and Walker 1859
+  first_ma: 11.63
+  last_ma: 0.774
+  interval: Tortonian–Calabrian
+  reference: ''
+- name: Crocodylus palustris
+  authority: (Lesson 1831)
+  first_ma: 3.6
+  last_ma: 0.0117
+  interval: Piacenzian–Late Pleistocene
+  reference: ''
+- name: Crocodylus porosus
+  authority: Schneider 1801
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Crocodylus rhombifer
+  authority: Cuvier 1807
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Crocodylus siamensis
+  authority: Schneider 1801
+  first_ma: 2.58
+  last_ma: 0.129
+  interval: Gelasian–Chibanian
+  reference: ''
+- name: Crocodylus suchus
+  authority: (Geoffroy Saint-Hilaire 1807)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Crocodylus thorbjarnarsoni
+  authority: Brochu and Storrs 2012
+  first_ma: 5.333
+  last_ma: 0.774
+  interval: Zanclean–Calabrian
+  reference: ''
+formations:
+- formation: Koobi Fora
+  group: ''
+  members: [Indet., KBS, indet.]
+  country: Kenya
+  regions: []
+  interval: Zanclean–Calabrian
+  occurrences: 22
+  ma: [0.774, 5.333]
+  id: koobi-fora-kenya
+- formation: Olduvai
+  group: Vogel River Series (?)
+  members: []
+  country: Tanzania
+  regions: []
+  interval: Gelasian–Calabrian
+  occurrences: 10
+  ma: [0.774, 2.58]
+  id: olduvai-tanzania
+- formation: Nachukui
+  group: Omo
+  members: [Apak, Kaiyumung, Lomekwi]
+  country: Kenya
+  regions: [Rift Valley]
+  interval: Zanclean–Gelasian
+  occurrences: 4
+  ma: [1.8, 5.333]
+  id: nachukui-kenya
+- formation: Tatrot
+  group: ''
+  members: []
+  country: India
+  regions: []
+  interval: Piacenzian
+  occurrences: 3
+  ma: [2.58, 3.6]
+  id: tatrot-india
+- formation: Kanapoi
+  group: ''
+  members: []
+  country: Kenya
+  regions: [Turkana District]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: kanapoi-kenya
+- formation: Sahabi
+  group: ''
+  members: [U-1]
+  country: Libya
+  regions: []
+  interval: Messinian
+  occurrences: 2
+  ma: [5.333, 7.246]
+  id: sahabi-libya
+- formation: Irrawaddy
+  group: ''
+  members: [Upper]
+  country: Myanmar
+  regions: [Magway Division]
+  interval: Late Pliocene–Early Pleistocene
+  occurrences: 2
+  ma: [0.774, 3.6]
+  id: irrawaddy-myanmar
+- formation: Piram Conglomerate
+  group: ''
+  members: []
+  country: India
+  regions: [Gujarat]
+  interval: Tortonian
+  occurrences: 2
+  ma: [7.246, 11.63]
+  id: piram-conglomerate-india
+- formation: Chemoigut
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: chemoigut-kenya
+- formation: Lusso Beds
+  group: Semliki
+  members: []
+  country: DR Congo
+  regions: []
+  interval: Pliocene–Pleistocene
+  occurrences: 1
+  ma: [0.0117, 5.333]
+  id: lusso-beds-dr-congo
+- formation: '2'
+  group: ''
+  members: []
+  country: Djibouti
+  regions: []
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: 2-djibouti
+- formation: Kromdraai
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: kromdraai-south-africa
+- formation: Nawata
+  group: ''
+  members: [Lower Nawata]
+  country: Kenya
+  regions: []
+  interval: Tortonian–Messinian
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: nawata-kenya
+- formation: Nawata or Nachukui
+  group: ''
+  members: [Upper Nawata and Apak]
+  country: Kenya
+  regions: []
+  interval: Messinian–Zanclean
+  occurrences: 1
+  ma: [3.6, 7.246]
+  id: nawata-or-nachukui-kenya
+- formation: Otibanda
+  group: ''
+  members: []
+  country: Papua New Guinea
+  regions: [Morobe]
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: otibanda-papua-new-guinea
+- formation: Bakate
+  group: ''
+  members: [Buluk]
+  country: Kenya
+  regions: []
+  interval: Early Miocene
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: bakate-kenya
+- formation: Siwaliks
+  group: ''
+  members: [Upper]
+  country: India
+  regions: [Panjab]
+  interval: Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 2.58]
+  id: siwaliks-india
+- formation: Baynunah
+  group: ''
+  members: []
+  country: United Arab Emirates
+  regions: [Abu Dhabi]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: baynunah-united-arab-emirates
+- formation: Allingham
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: allingham-australia
+- formation: San Gregorio
+  group: ''
+  members: [Vergel]
+  country: Venezuela
+  regions: [Falcon]
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: san-gregorio-venezuela
+- formation: Sinda Beds
+  group: ''
+  members: []
+  country: DR Congo
+  regions: [Orientale]
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: sinda-beds-dr-congo
+- formation: Segui
+  group: ''
+  members: [lower]
+  country: Tunisia
+  regions: []
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: segui-tunisia
+- formation: Aït Kandoula
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: ait-kandoula-morocco
+- formation: Saketi
+  group: ''
+  members: []
+  country: India
+  regions: []
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: saketi-india
+fossil_material:
+  holotype: Living genus — the name-bearing type of the type species is not covered by the sources used.
+  material: Living species, plus fossils of five extinct species from the Miocene to the Pleistocene of Africa,
+    South Asia and South America.
+  completeness: multiple
+  exceptional: ''
+biology: The most recent common ancestor of the living species probably had lingual salt glands for osmoregulation,
+  which may have helped the genus spread across the tropics.
+images:
+- kind: photo
+  file: Mugger crocodile (Crocodylus palustris) from Ranganathittu Bird Sanctuary JEG4362.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mugger_crocodile_%28Crocodylus_palustris%29_from_Ranganathittu_Bird_Sanctuary_JEG4362.JPG/960px-Mugger_crocodile_%28Crocodylus_palustris%29_from_Ranganathittu_Bird_Sanctuary_JEG4362.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mugger_crocodile_(Crocodylus_palustris)_from_Ranganathittu_Bird_Sanctuary_JEG4362.JPG
+  artist: PJeganathan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-07-28'
+  caption: Mugger crocodile (C. palustris), Ranganathittu Bird Sanctuary, India
+  width: 4928
+  height: 3264
+  review: unreviewed
+  local: img/gallery/Crocodylus_001.webp
+- kind: photo
+  file: Nile Crocodile (Crocodylus niloticus) big male ... (51991988586).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Nile_Crocodile_%28Crocodylus_niloticus%29_big_male_..._%2851991988586%29.jpg/960px-Nile_Crocodile_%28Crocodylus_niloticus%29_big_male_..._%2851991988586%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nile_Crocodile_(Crocodylus_niloticus)_big_male_..._(51991988586).jpg
+  artist: Bernard DUPONT from FRANCE
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2022-04-08'
+  caption: Nile crocodile (C. niloticus), Kruger National Park, South Africa
+  width: 5472
+  height: 3648
+  review: unreviewed
+  local: img/gallery/Crocodylus_002.webp
+- kind: photo
+  file: Saltwater Croc from Sundarbans India.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Saltwater_Croc_from_Sundarbans_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Saltwater_Croc_from_Sundarbans_India.jpg
+  artist: Dibyendu Ash
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Taken on 1
+  caption: Saltwater crocodile (C. porosus), Sundarbans, India
+  width: 900
+  height: 600
+  review: unreviewed
+  local: img/gallery/Crocodylus_003.webp
+- kind: photo
+  file: Crocodylus mindorensis Köln Zoo 31122014 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Crocodylus_mindorensis_K%C3%B6ln_Zoo_31122014_1.jpg/960px-Crocodylus_mindorensis_K%C3%B6ln_Zoo_31122014_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Crocodylus_mindorensis_K%C3%B6ln_Zoo_31122014_1.jpg
+  artist: Vassil
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2014-12-31'
+  caption: Philippine crocodile (C. mindorensis)
+  width: 4796
+  height: 2452
+  review: unreviewed
+  local: img/gallery/Crocodylus_004.webp
+- kind: photo
+  file: American Crocodile, Everglades National Park, Monroe County, US-FL, US imported from iNaturalist photo 478213702
+    (cropped).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/American_Crocodile%2C_Everglades_National_Park%2C_Monroe_County%2C_US-FL%2C_US_imported_from_iNaturalist_photo_478213702_%28cropped%29.jpg/960px-American_Crocodile%2C_Everglades_National_Park%2C_Monroe_County%2C_US-FL%2C_US_imported_from_iNaturalist_photo_478213702_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:American_Crocodile,_Everglades_National_Park,_Monroe_County,_US-FL,_US_imported_from_iNaturalist_photo_478213702_(cropped).jpg
+  artist: no rights reserved
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025'
+  caption: American crocodile (C. acutus), Everglades National Park, Florida
+  width: 1638
+  height: 1092
+  review: unreviewed
+  local: img/gallery/Crocodylus_005.webp
+- kind: life
+  file: Crocodylus anthropophagus NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Crocodylus_anthropophagus_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Crocodylus_anthropophagus_NT.jpg
+  artist: NobuTamura email:nobu.tamura@yahoo.com palaeocritti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-03-30'
+  caption: Life restoration of the extinct C. anthropophagus
+  width: 600
+  height: 290
+  review: unreviewed
+  local: img/gallery/Crocodylus_006.webp
+silhouette:
+  src: https://images.phylopic.org/images/a796420f-5158-4e96-acbe-e30ef36b26d6/vector.svg
+  png: https://images.phylopic.org/images/a796420f-5158-4e96-acbe-e30ef36b26d6/raster/512x243.png
+  page: https://www.phylopic.org/images/a796420f-5158-4e96-acbe-e30ef36b26d6
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Crocodylus porosus
+  matched: Crocodylus
+  genus_level: true
+  w: 512
+  h: 243
+sources:
+- kind: original
+  text: Laurenti, J.N. 1768. Specimen medicum, exhibens synopsin reptilium emendatam cum experimentis circa venena
+    et antidota reptilium austriacorum. Joan. Thom. Nob. de Trattnern.
+- kind: literature
+  text: 'Brochu, C.A.; Storrs, G.W. 2012. A giant crocodile from the Plio-Pleistocene of Kenya, the phylogenetic
+    relationships of Neogene African crocodylines, and the antiquity of ''''Crocodylus'''' in Africa. Journal of
+    Vertebrate Paleontology 32(3): 587. doi:10.1080/02724634.2012.652324'
+- kind: literature
+  text: 'Hekkala, E.; Gatesy, J.; Narechania, A.; Meredith, R.; Russello, M.; Aardema, M. L.; Jensen, E.; Montanari,
+    S.; Brochu, C.; Norell, M.; Amato, G. 2021. Paleogenomics illuminates the evolutionary history of the extinct
+    Holocene "horned" crocodile of Madagascar, Voay robustus. Communications Biology 4(1): 505. doi:10.1038/s42003-021-02017-0'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Crocodylus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Crocodylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Crocodylus”. English Wikipedia, revision 1385833224.
+  url: https://en.wikipedia.org/w/index.php?title=Crocodylus&oldid=1385833224
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list = PBDB valid species that are living or that the cited Wikipedia revision lists as fossil Crocodylus
+    (C. sudani and C. lucivenator are in Wikipedia but not in PBDB); check against a current checklist.
+  - Old Eocene "Crocodylus" species (C. affinis, C. acer, C. aptus…) left out as no longer belonging to the genus;
+    they are not in excluded.yaml because they have not been formally reassigned.
+  reviews: []

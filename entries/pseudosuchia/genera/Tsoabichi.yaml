@@ -1,0 +1,86 @@
+name: Tsoabichi
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Brochu 2010
+type_species: Tsoabichi greenriverensis
+type_species_note: ''
+summary: Basal caiman from the early Eocene Green River Formation of Wyoming, close to the living dwarf caimans.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Tsoabichi greenriverensis
+  authority: Brochu 2010
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Green River
+  group: ''
+  members: [Laney]
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian–Early Eocene
+  occurrences: 2
+  ma: [48.07, 56.0]
+  id: green-river-united-states
+fossil_material:
+  holotype: Type material of T. greenriverensis from the Green River Formation, Wyoming (Brochu 2010).
+  material: Specimens from the Green River Formation.
+  completeness: multiple
+  exceptional: ''
+biology: Probably descends from caimans that dispersed into North America from South America; its back osteoderms
+  are wider than in other caimans.
+images:
+- kind: fossil
+  file: Tsoabichi greenriverensis cast Catalog number FOBU801.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Tsoabichi_greenriverensis_cast_Catalog_number_FOBU801.jpg/960px-Tsoabichi_greenriverensis_cast_Catalog_number_FOBU801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tsoabichi_greenriverensis_cast_Catalog_number_FOBU801.jpg
+  artist: NPS Photo
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Cast of a T. greenriverensis skeleton
+  width: 3042
+  height: 1936
+  review: unreviewed
+  local: img/gallery/Tsoabichi_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brochu, C.A. 2010. A new alligatorid from the lower Eocene Green River Formation of Wyoming and the origin
+    of caimans. Journal of Vertebrate Paleontology 30(4): 1109–1126. doi:10.1080/02724634.2010.483569'
+- kind: literature
+  text: Hastings, A. K.; Bloch, J. I.; Jaramillo, C. A.; Rincon, A. F.; MacFadden, B. J. 2013. Systematics and biogeography
+    of crocodylians from the Miocene of Panama. Journal of Vertebrate Paleontology 33(2). doi:10.1080/02724634.2012.713814
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tsoabichi (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tsoabichi
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tsoabichi”. English Wikipedia, revision 1327695257.
+  url: https://en.wikipedia.org/w/index.php?title=Tsoabichi&oldid=1327695257
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
