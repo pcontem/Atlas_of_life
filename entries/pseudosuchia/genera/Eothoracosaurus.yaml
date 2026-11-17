@@ -1,0 +1,73 @@
+name: Eothoracosaurus
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: A "thoracosaur", described as a gavialoid (Brochu 2004) but recovered outside crown Crocodylia by
+  tip-dating (Lee & Yates 2018).
+authority: Brochu 2004
+type_species: Eothoracosaurus mississippiensis
+type_species_note: ''
+summary: Long-snouted Late Cretaceous eusuchian from the Ripley Formation of Mississippi, a close relative of Thoracosaurus.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Eothoracosaurus mississippiensis
+  authority: Brochu 2004
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Ripley
+  group: ''
+  members: [Coon Creek Tongue]
+  country: United States
+  regions: [Mississippi, Tennessee]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 83.6]
+  id: ripley-united-states
+fossil_material:
+  holotype: MSU 3293 — skull and associated postcranial bones, Dunn-Seiler Museum, Mississippi.
+  material: The holotype, first referred to Thoracosaurus neocesariensis.
+  completeness: partial
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brochu, Christopher A. 2004. A new Late Cretaceous gavialoid crocodylian from eastern North America and
+    the phylogenetic relationships of thoracosaurs. Journal of Vertebrate Paleontology 24(3): 610–633. doi:10.1671/0272-4634(2004)024[0610:ANLCGC]2.0.CO;2'
+- kind: literature
+  text: 'Michael S. Y. Lee 27 J. Tip-dating and homoplasy: reconciling the shallow molecular divergences of modern
+    gharials with their long fossil. Proceedings of the Royal Society B 285(1881). doi:10.1098/rspb.2018.1071'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eothoracosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eothoracosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eothoracosaurus”. English Wikipedia, revision 1365439814.
+  url: https://en.wikipedia.org/w/index.php?title=Eothoracosaurus&oldid=1365439814
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

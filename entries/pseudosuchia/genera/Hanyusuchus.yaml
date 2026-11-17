@@ -1,0 +1,112 @@
+name: Hanyusuchus
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Iijima et al. 2022
+type_species: Hanyusuchus sinensis
+type_species_note: ''
+summary: The Chinese gharial — a large gavialid of Holocene southern China, intermediate between false and true
+  gharials.
+size:
+  length_m: [5.43, 6.19]
+  note: Total length 5.43–6.19 m.
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Hanyusuchus sinensis
+  authority: Iijima et al. 2022
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Chancheng, Nanhai, Pengjiang, Shunde]
+  interval: Holocene
+  occurrences: 6
+  ma: [null, 0.0117]
+  id:
+  - unnamed-dalin-brigade-china
+  - unnamed-hedang-beiqiu-neolithic-site-china
+  - unnamed-hongwei-nongchang-china
+  - unnamed-siji-brigade-china
+fossil_material:
+  holotype: Type material of H. sinensis from southern China (Iijima et al. 2022).
+  material: Skulls and remains from Holocene sites of southern China.
+  completeness: multiple
+  exceptional: ''
+biology: Shares traits of tomistomines and gharials, including a possibly sexually dimorphic vocal structure; lived
+  in southern China until historical times.
+images:
+- kind: life
+  file: Hanyusuchus life reconstruction 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Hanyusuchus_life_reconstruction_2.jpg/960px-Hanyusuchus_life_reconstruction_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hanyusuchus_life_reconstruction_2.jpg
+  artist: Hikaru Amemiya
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-03-09'
+  caption: Life restoration of H. sinensis
+  width: 1705
+  height: 768
+  review: unreviewed
+- kind: skeletal
+  file: Hanyusuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Hanyusuchus_skeletal.png/960px-Hanyusuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hanyusuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-11-08'
+  caption: Skeletal reconstruction of H. sinensis
+  width: 6085
+  height: 2577
+  review: unreviewed
+- kind: fossil
+  file: Hanyusuchus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Hanyusuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hanyusuchus_skull.jpg
+  artist: Iijima Masaya, Qiao Yu, Lin Wenbin, Peng Youjie, Yoneda Minoru and Liu Jun
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-02-09'
+  caption: Skull of H. sinensis
+  width: 509
+  height: 630
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Iijima M, Qiao Y, Lin W, Peng Y, Yoneda M, Liu J 2022. An intermediate crocodylian linking two extant gharials
+    from the Bronze Age of China and its human-induced extinction. Proceedings of the Royal Society B: Biological
+    Sciences 289(1970). doi:10.1098/rspb.2022.0085'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hanyusuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hanyusuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hanyusuchus”. English Wikipedia, revision 1385529240.
+  url: https://en.wikipedia.org/w/index.php?title=Hanyusuchus&oldid=1385529240
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
