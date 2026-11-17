@@ -258,6 +258,7 @@ images:
   width: 4320
   height: 3240
   review: unreviewed
+  local: img/gallery/Alligator_001.webp
 - kind: photo
   file: ChineseAlligator.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/ChineseAlligator.jpg/960px-ChineseAlligator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -270,6 +271,7 @@ images:
   width: 5202
   height: 3465
   review: unreviewed
+  local: img/gallery/Alligator_002.webp
 - kind: photo
   file: Florida alligator (7143519441).jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Florida_alligator_%287143519441%29.jpg/960px-Florida_alligator_%287143519441%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -282,6 +284,7 @@ images:
   width: 5234
   height: 3506
   review: unreviewed
+  local: img/gallery/Alligator_003.webp
 - kind: photo
   file: Alligator Canberra Zoo.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Alligator_Canberra_Zoo.jpg/960px-Alligator_Canberra_Zoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -294,6 +297,7 @@ images:
   width: 4608
   height: 3456
   review: unreviewed
+  local: img/gallery/Alligator_004.webp
 silhouette:
   src: https://images.phylopic.org/images/eefc0a4d-24b5-4c91-b687-8bd28c414295/vector.svg
   png: https://images.phylopic.org/images/eefc0a4d-24b5-4c91-b687-8bd28c414295/raster/512x96.png
@@ -303,6 +307,8 @@ silhouette:
   depicts: Alligator mississippiensis
   matched: Alligator
   genus_level: true
+  w: 512
+  h: 96
 sources:
 - kind: literature
   text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
