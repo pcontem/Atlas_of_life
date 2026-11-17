@@ -209,3 +209,9 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   in the real clade or in their PBDB family (21 families added), 15 clades moved, 135 genera placed more
   precisely, duplicate nodes merged, Portuguese leftovers renamed. New validator rule T1. Full log and open
   questions: docs/TREE_REVIEW.md.
+- The tree must be an approximate phylogeny of nested clades, like the Pterosauria volume, not a set of
+  groupings (owner, 2026-11-17). Each group is restructured from recent cladograms (Wikipedia {{clade}}
+  diagrams of the cited revisions, with their source studies) checked against PBDB, before its clade entries
+  are written. Pseudosuchia done first: 10 clades added (Suchia, Paracrocodylomorpha, Loricata, Solidocrania,
+  Mesoeucrocodylia, Protosuchidae, Gobiosuchidae, Longirostres, Gavialidae, Desmatosuchia), the grades
+  Rauisuchia and Protosuchia removed.

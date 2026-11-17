@@ -650,6 +650,74 @@ Result: 4,046 → 3,965 backbone nodes; 99 groupings removed, 21 families added.
 
 - 2026-11-17 — Revueltosauridae: Aetosauria → Pseudosuchia. *Revueltosaurus* is the sister group of aetosaurs, not one of them (Parker 2005, 2022, cited in the Revueltosauridae entry); PBDB has no record of the family. A node "Aetosauriformes" would place it more precisely.
 
+## Pseudosuchia restructured as a phylogeny (2026-11-17)
+
+Owner: the tree must be an approximate phylogeny of nested clades, as in the Pterosauria volume. Structure from
+Nesbitt (2011) for the pseudosuchian backbone, Leardi (2025) for early crocodylomorphs, Bronzati et al. (2012)
+for crocodyliforms, the aetosaur and crocodilian cladograms of the cited Wikipedia revisions
+(`data/raw/tree/cladograms_2026-11-17.json`), each checked against PBDB. Genera sit in the most exclusive clade
+the sources agree on; where they disagree, in the deepest shared clade with an *incertae sedis* note.
+
+- Suchia added in Pseudosuchia — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Paracrocodylomorpha added in Suchia — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Loricata added in Paracrocodylomorpha — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Gracilisuchidae: Pseudosuchia → Suchia — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Revueltosauridae: Pseudosuchia → Suchia — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Aetosauria: Pseudosuchia → Suchia — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- *Ticinosuchus*: Pseudosuchia → Suchia — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Poposauroidea: Pseudosuchia → Paracrocodylomorpha — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- *Heptasuchus*: Rauisuchia → Paracrocodylomorpha — PBDB
+- *Batrachotomus*: Rauisuchia → Loricata — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- *Prestosuchus*: Rauisuchia → Loricata — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- *Saurosuchus*: Rauisuchia → Loricata — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- *Fasolasuchus*: Rauisuchia → Loricata — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- *Etjosuchus*: Rauisuchia → Loricata — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Rauisuchidae: Rauisuchia → Loricata — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- Crocodylomorpha: Pseudosuchia → Loricata — Nesbitt 2011, as reproduced in the cited Wikipedia revision of Pseudosuchia, and PBDB
+- *Decuriasuchus*: Rauisuchia → Suchia — PBDB places it in Suchia
+- *Youngosuchus*: Rauisuchia → Suchia — former "rauisuchian", not resolved further in PBDB
+- Rauisuchia removed — paraphyletic grade ("rauisuchians"); its members are loricatans or poposauroids (Nesbitt 2011)
+- Solidocrania added in Crocodylomorpha — Leardi 2025 (Crocodylomorpha revision) and PBDB
+- Crocodyliformes: Crocodylomorpha → Solidocrania — Leardi 2025; PBDB
+- *Junggarsuchus*: Crocodylomorpha → Solidocrania — Leardi 2025; PBDB
+- Protosuchidae added in Crocodyliformes — Bronzati et al. 2012 (Crocodyliformes revision) and PBDB
+- Gobiosuchidae added in Crocodyliformes — Bronzati et al. 2012 and PBDB
+- *Protosuchus*: Protosuchia → Protosuchidae — PBDB; Bronzati et al. 2012
+- *Hoplosuchus*: Protosuchia → Protosuchidae — PBDB; Bronzati et al. 2012
+- *Orthosuchus*: Protosuchia → Protosuchidae — PBDB; Bronzati et al. 2012
+- *Gobiosuchus*: Protosuchia → Gobiosuchidae — PBDB; Bronzati et al. 2012
+- *Zaraasuchus*: Protosuchia → Gobiosuchidae — PBDB; Bronzati et al. 2012
+- *Pedeticosaurus*: Protosuchia → Crocodyliformes — former "protosuchian"; no family agreed
+- *Stegomosuchus*: Protosuchia → Crocodyliformes — former "protosuchian"; no family agreed
+- *Sichuanosuchus*: Protosuchia → Crocodyliformes — former "protosuchian"; no family agreed
+- *Fruitachampsia*: Protosuchia → Crocodyliformes — former "protosuchian"; no family agreed
+- Protosuchia removed — a grade of early crocodyliforms, not a clade (cited Wikipedia revision); replaced by Protosuchidae and Gobiosuchidae
+- Mesoeucrocodylia added in Crocodyliformes — PBDB; Notosuchia + Neosuchia (Metasuchia in Bronzati et al. 2012)
+- Notosuchia: Crocodyliformes → Mesoeucrocodylia — PBDB; Bronzati et al. 2012
+- Neosuchia: Crocodyliformes → Mesoeucrocodylia — PBDB; Bronzati et al. 2012
+- Thalattosuchia: Crocodyliformes → Crocodylomorpha — position debated (within Neosuchia or among early crocodylomorphs; cited Wikipedia revision); PBDB places it in Crocodylomorpha — deepest shared clade
+- Peirosauridae: Notosuchia → Mesoeucrocodylia — inside Notosuchia in some analyses (2014 on), outside in others (Bronzati et al. 2012; PBDB) — deepest shared clade
+- Longirostres added in Crocodylia — molecular phylogenies (Crocodylia revision) and PBDB: crocodiles and gharials closer to each other than to alligators
+- Crocodyloidea: Crocodylia → Longirostres — molecular phylogenies; PBDB
+- Gavialoidea: Crocodylia → Longirostres — molecular phylogenies; PBDB
+- Gavialidae added in Gavialoidea — Gavialoidea revision cladogram (Gavialis + Tomistoma) and PBDB (with tomistomines and gryposuchines)
+- *Gavialis*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- *Tomistoma*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- *Gryposuchus*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- *Piscogavialis*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- *Hanyusuchus*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- *Rhamphosuchus*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- *Toyotamaphimeia*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- *Megadontosuchus*: Gavialoidea → Gavialidae — PBDB; Gavialoidea revision
+- Planocraniidae: Crocodylia → Eusuchia — recovered inside Crocodylia by Rio & Mannion 2021, outside by other analyses (cited Wikipedia revision) — deepest shared clade
+- *Aetosauroides*: Aetosaurinae → Aetosauria — outside Stagonolepididae/Aetosauridae (aetosaur cladogram in the cited revision; PBDB)
+- Desmatosuchia added in Aetosauridae — aetosaur cladogram in the cited Aetosauria revision and PBDB
+- *Stagonolepis*: Aetosaurinae → Desmatosuchia — cladogram; PBDB
+- Desmatosuchinae: Aetosauridae → Desmatosuchia — cladogram; PBDB
+- *Neoaetosauroides*: Aetosaurinae → Desmatosuchinae — cladogram; PBDB
+- *Rioarribasuchus*: Desmatosuchinae → Typothoracinae — cladogram (Paratypothoracisini); PBDB
+- *Lotosaurus*: Ctenosauriscidae → Poposauroidea — its own lineage (Lotosauridae), not a ctenosauriscid (Nesbitt 2011 cladogram in the Poposauroidea revision)
+
 ## Kept against PBDB (open questions for reviewers)
 
 - **PBDB homonyms**, not real conflicts: *Archaea* (a spider genus in PBDB), Proboscidea (an insect group), Booidea, and genera such as *Lachesis*, *Regina*, *Aspidura*, *Hemiaspis*, *Cystophora*, *Trichechus*, *Cynocephalus*, *Gordonia*, *Rubidgea*, *Burnetia*, *Murina*, *Cuniculus*.
