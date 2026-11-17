@@ -42,15 +42,6 @@ fossil_material:
   exceptional: ''
 biology: The sources say nothing about its biology.
 images: []
-silhouette:
-  src: https://images.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1/vector.svg
-  png: null
-  page: https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1
-  attribution: Armin Reindl
-  license: https://creativecommons.org/licenses/by-nc/3.0/
-  depicts: Astorgosuchus bugtiensis
-  matched: Crocodyloidea
-  genus_level: false
 sources:
 - kind: literature
   text: 'Cidade, G.M.; Fortier, D.; Hsiou, A.S. 2019. The crocodylomorph fauna of the Cenozoic of South America
@@ -66,5 +57,7 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: []
+  notes:
+  - PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px
+    or more in the harvest; add it with a smaller raster.
   reviews: []

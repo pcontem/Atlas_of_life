@@ -64,15 +64,6 @@ images:
   height: 413
   review: unreviewed
   local: img/gallery/Astorgosuchus_001.webp
-silhouette:
-  src: https://images.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1/vector.svg
-  png: null
-  page: https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1
-  attribution: Armin Reindl
-  license: https://creativecommons.org/licenses/by-nc/3.0/
-  depicts: Astorgosuchus bugtiensis
-  matched: Crocodyloidea
-  genus_level: false
 sources:
 - kind: original
   text: Martin, Jeremy E.; Antoine, Pierre-Olivier; Perrier, Vincent; Welcomme, Jean-Loup; Metais, Gregoire; Marivaux,
@@ -89,5 +80,7 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: []
+  notes:
+  - PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px
+    or more in the harvest; add it with a smaller raster.
   reviews: []
