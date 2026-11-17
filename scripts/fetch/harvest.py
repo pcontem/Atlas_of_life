@@ -373,6 +373,7 @@ def main():
     sheet_dir = pathlib.Path(a[a.index("--sheets") + 1]) if "--sheets" in a else None
     raw = ROOT / "data/raw" / vol
     raw.mkdir(parents=True, exist_ok=True)
+    w = lambda name, obj: (raw / name).write_text(json.dumps(obj, ensure_ascii=False, indent=0))
     if "--oa" in a:  # open-access figures for the listed genera (or all), added to data already harvested
         names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
         oaf = raw / "oa_figures.json"
