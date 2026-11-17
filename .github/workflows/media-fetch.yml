@@ -23,7 +23,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install pyyaml pillow
       - name: Fetch
-        env: { VOL: "${{ inputs.volume }}" }
+        env: { VOL: "${{ inputs.volume }}", MEDIA_REMOTE: "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" }
         run: |
           [ -z "$VOL" ] && [ -f media/fetch_request.json ] && VOL=$(python3 -c "import json;print(json.load(open('media/fetch_request.json')).get('volume',''))")
           python3 scripts/media.py pull

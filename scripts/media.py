@@ -93,7 +93,9 @@ def push():
     import shutil, tempfile
     thumbs()
     manifest()
-    remote = git("remote", "get-url", "origin").decode().strip()
+    import os
+    # in GitHub Actions the checkout's credentials do not apply to the temporary repository: pass a token URL
+    remote = os.environ.get("MEDIA_REMOTE") or git("remote", "get-url", "origin").decode().strip()
     with tempfile.TemporaryDirectory() as tmp:
         for d in ("img", "sil"):
             shutil.copytree(SITE / d, pathlib.Path(tmp) / d)
