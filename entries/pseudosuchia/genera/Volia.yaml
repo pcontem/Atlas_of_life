@@ -1,0 +1,101 @@
+name: Volia
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Molnar et al. 2002
+type_species: Volia athollandersoni
+type_species_note: ''
+summary: Mekosuchine from the Pleistocene of Fiji, 2–3 m long and probably the island's apex predator.
+size:
+  length_m: [2, 3]
+  note: About 2–3 m long.
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Volia athollandersoni
+  authority: Molnar et al. 2002
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Fiji
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-naigani-lapita-site-vl21-5-fiji
+  - unnamed-voli-voli-cave-site-1-viti-levu-fiji
+  - unnamed-wainibuku-cave-viti-levu-fiji
+fossil_material:
+  holotype: Type material from Voli Voli Cave, Viti Levu, Fiji (Molnar et al. 2002).
+  material: Largely fragmentary skull and limb bones from caves on Viti Levu and similar remains from Naigani.
+  completeness: fragmentary
+  exceptional: ''
+biology: The largest predator on Viti Levu and probably its apex predator.
+images:
+- kind: life
+  file: Volia vitiensis.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Volia_vitiensis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Volia_vitiensis.JPG
+  artist: Mr Fink ( talk )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2008-06-30'
+  caption: Life restoration of Volia
+  width: 600
+  height: 240
+  review: unreviewed
+- kind: fossil
+  file: Volia.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Volia.jpg/960px-Volia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Volia.jpg
+  artist: Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-05-22'
+  caption: Fossil material of Volia
+  width: 3400
+  height: 2156
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638/vector.svg
+  png: https://images.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638/raster/512x92.png
+  page: https://www.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Paludirex vincenti
+  matched: Mekosuchini
+  genus_level: false
+sources:
+- kind: original
+  text: 'Molnar, R.E.; Worthy, T.; Willis, P.M.A. 2002. An extinct Pleistocene endemic mekosuchine crocodylian from
+    Fiji. Journal of Vertebrate Paleontology 22(3): 612–628. doi:10.1671/0272-4634(2002)022[0612:AEPEMC]2.0.CO;2'
+- kind: literature
+  text: 'Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W. 2023. Migrations, diversifications and extinctions: the evolutionary history of crocodyliforms in Australasia.
+    Alcheringa: An Australasian Journal of Palaeontology 47(4): 1–46. doi:10.1080/03115518.2023.2201319'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Volia (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Volia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Volia”. English Wikipedia, revision 1381966090.
+  url: https://en.wikipedia.org/w/index.php?title=Volia&oldid=1381966090
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

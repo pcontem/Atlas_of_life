@@ -1,0 +1,99 @@
+name: Ultrastenos
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Stein et al. 2016
+type_species: Ultrastenos willisi
+type_species_note: ''
+summary: Small mekosuchine from the late Oligocene of Queensland, first thought to have an extremely narrow snout.
+size:
+  length_m: [1.5, 1.5]
+  note: Up to about 1.5 m.
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ultrastenos willisi
+  authority: Stein et al. 2016
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Carl Creek Limestone
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: carl-creek-limestone-australia
+fossil_material:
+  holotype: Type material of U. willisi from the Carl Creek Limestone, Riversleigh, Queensland (Stein et al. 2016).
+  material: Skull and jaw material, including specimens first described as "Baru" huberi.
+  completeness: multiple
+  exceptional: ''
+biology: Later study showed its snout was of a generalist shape, not gharial-like as first thought.
+images:
+- kind: fossil
+  file: Ultrastenos QM F31060 multiview.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Ultrastenos_QM_F31060_multiview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ultrastenos_QM_F31060_multiview.jpg
+  artist: Yates, Adam M. and Stein, Michael.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-08'
+  caption: Skull QM F31060 in several views
+  width: 800
+  height: 674
+  review: unreviewed
+- kind: skeletal
+  file: Ultrastenos skull reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Ultrastenos_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ultrastenos_skull_reconstruction.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-23'
+  caption: Skull reconstruction of Ultrastenos
+  width: 1518
+  height: 2477
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/vector.svg
+  png: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/raster/512x90.png
+  page: https://www.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Kambara
+  matched: Mekosuchinae
+  genus_level: false
+sources:
+- kind: original
+  text: Stein, Michael; Hand, Suzanne J.; Archer, Michael 26 M. A new crocodile displaying extreme constriction
+    of the mandible, from the late Oligocene of Riversleigh, Australia. Journal of Vertebrate Paleontology 36(5).
+    doi:10.1080/02724634.2016.1179041
+- kind: literature
+  text: Yates, A.M.; Stein, M. 2024. A reinterpretation and taxonomic revision of Ultrastenos willisi Stein, Hand
+    and Archer, 2016, a short-snouted mekosuchine crocodylian from the Oligocene of northern Australia. Palaeontologia
+    Electronica 27(1). doi:10.26879/1355
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ultrastenos (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ultrastenos
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ultrastenos”. English Wikipedia, revision 1367480201.
+  url: https://en.wikipedia.org/w/index.php?title=Ultrastenos&oldid=1367480201
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Yates (2024) unites U. willisi with "Baru" huberi; check which species name is now valid.
+  reviews: []

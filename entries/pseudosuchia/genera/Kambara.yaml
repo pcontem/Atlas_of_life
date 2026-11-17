@@ -1,0 +1,130 @@
+name: Kambara
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Willis et al. 1993
+type_species: Kambara murgonensis
+type_species_note: PBDB gives no type species; K. murgonensis was named with the genus (Willis et al. 1993).
+summary: Eocene mekosuchine from Queensland, a semi-aquatic generalist and one of the oldest Australian crocodylians.
+size:
+  length_m: [3, 4]
+  note: Mature specimens generally 3–4 m; a large mandible of K. implexidens suggests up to 3.5 m for that species.
+age:
+  first_ma: 56
+  last_ma: 33.9
+  early_interval: Ypresian
+  late_interval: Priabonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Kambara implexidens
+  authority: Salisbury and Willis 1996
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: ''
+- name: Kambara molnari
+  authority: Holt et al. 2005
+  first_ma: 48.07
+  last_ma: 33.9
+  interval: Lutetian–Priabonian
+  reference: ''
+- name: Kambara murgonensis
+  authority: Willis et al. 1993
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+- name: Kambara taraina
+  authority: Buchanan 2009
+  first_ma: 48.07
+  last_ma: 33.9
+  interval: Lutetian–Priabonian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Ypresian
+  occurrences: 2
+  ma: [48.07, 56.0]
+  id: unnamed-tingamarra-local-fauna-boat-mountain-deposit-australia
+- formation: Rundle
+  group: ''
+  members: [Kerosene Creek]
+  country: Australia
+  regions: [Queensland]
+  interval: Middle Eocene–Late Eocene
+  occurrences: 2
+  ma: [33.9, 48.07]
+  id: rundle-australia
+fossil_material:
+  holotype: Type material of K. murgonensis from Murgon, Queensland (Willis et al. 1993).
+  material: Skulls, jaws and limb bones of four species from Murgon and the Rundle Formation.
+  completeness: multiple
+  exceptional: ''
+biology: Lived like many modern crocodiles; its limb bones suggest it walked on land better than Australia's living
+  crocodiles.
+images:
+- kind: fossil
+  file: Kambara skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Kambara_skull.jpg/960px-Kambara_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kambara_skull.jpg
+  artist: Paleocolour
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2019-04-21'
+  caption: Skull of Kambara
+  width: 1705
+  height: 1253
+  review: unreviewed
+- kind: fossil
+  file: Kambara species.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Kambara_species.jpg/960px-Kambara_species.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kambara_species.jpg
+  artist: Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-05-23'
+  caption: Skulls of Kambara species
+  width: 3400
+  height: 2301
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/vector.svg
+  png: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/raster/512x90.png
+  page: https://www.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Kambara
+  matched: Kambara
+  genus_level: true
+sources:
+- kind: original
+  text: 'Willis, P. M. A.; Molnar, R.E.; Scanlon, J.D. 1993. An early Eocene crocodilian from Murgon, southeastern
+    Queensland. Kaupia(3): 27–33.'
+- kind: literature
+  text: 'Buchanan, L.A. 2009. ''''Kambara taraina'''' sp. nov. (Crocodylia, Crocodyloidea), a new Eocene mekosuchine
+    from Queensland, Australia, and a revision of the genus. Journal of Vertebrate Paleontology 29(2): 473–486.
+    doi:10.1671/039.029.0220'
+- kind: literature
+  text: 'Stein, M.; Salisbury, S. W.; Hand, S. J.; Archer, M.; Godthelp, H. 2012. Humeral morphology of the early
+    Eocene mekosuchine crocodylian Kambara from the Tingamarra Local Fauna southeastern Queensland, Australia. Alcheringa:
+    An Australasian Journal of Palaeontology 36(4): 473–486. doi:10.1080/03115518.2012.671697'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kambara (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kambara
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kambara”. English Wikipedia, revision 1375962659.
+  url: https://en.wikipedia.org/w/index.php?title=Kambara&oldid=1375962659
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

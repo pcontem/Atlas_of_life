@@ -1,0 +1,161 @@
+name: Mekosuchus
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Balouet and Buffetaut 1987
+type_species: Mekosuchus inexpectatus
+type_species_note: ''
+summary: Small, blunt-snouted, land-living mekosuchines of Australia and the Pacific islands, surviving into the
+  Holocene.
+size:
+  length_m: [2, 2]
+  note: Species generally under 2 m long; M. whitehunterensis was in the size range of living dwarf crocodiles.
+age:
+  first_ma: 27.3
+  last_ma: 0
+  early_interval: Chattian
+  late_interval: Holocene
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Mekosuchus inexpectatus
+  authority: Balouet and Buffetaut 1987
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+- name: Mekosuchus kalpokasi
+  authority: Mead et al. 2002
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Mekosuchus sanderi
+  authority: Willis 2001
+  first_ma: 15.98
+  last_ma: 11.63
+  interval: Langhian–Serravallian
+  reference: ''
+- name: Mekosuchus whitehunterensis
+  authority: Willis 1997
+  first_ma: 27.3
+  last_ma: 15.98
+  interval: Chattian–Burdigalian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Caledonia
+  regions: []
+  interval: Holocene
+  occurrences: 5
+  ma: [null, 0.0117]
+  id:
+  - unnamed-kanumera-new-caledonia-new-caledonia
+  - unnamed-pindai-cave-nepoui-peninsula-new-caledonia
+- formation: Carl Creek Limestone
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Chattian
+  occurrences: 3
+  ma: [23.04, 27.3]
+  id: carl-creek-limestone-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Early Miocene–Serravallian
+  occurrences: 2
+  ma: [11.63, 23.04]
+  id: [unnamed-price-is-right-site-australia, unnamed-ringtail-site-australia]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Vanuatu
+  regions: [Efate Island]
+  interval: Holocene
+  occurrences: 1
+  ma: [null, 0.0117]
+  id: unnamed-arapus-archaeological-site-efate-island-vanuatu
+fossil_material:
+  holotype: Type material of M. inexpectatus from New Caledonia (Balouet & Buffetaut 1987).
+  material: Skull and jaw remains of four species from Australia, New Caledonia and Vanuatu.
+  completeness: multiple
+  exceptional: ''
+biology: Terrestrial with strong limbs; M. whitehunterensis may have stripped flesh from carcasses with blade-like
+  teeth.
+images:
+- kind: life
+  file: Mekosuchus inexpectans.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Mekosuchus_inexpectans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mekosuchus_inexpectans.JPG
+  artist: Mr Fink ( talk )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2008-06-30'
+  caption: Life restoration of M. inexpectatus
+  width: 373
+  height: 500
+  review: unreviewed
+- kind: fossil
+  file: Mekosuchus holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Mekosuchus_holotype.png/960px-Mekosuchus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mekosuchus_holotype.png
+  artist: Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-05-23'
+  caption: Holotype of Mekosuchus
+  width: 3712
+  height: 2108
+  review: unreviewed
+- kind: fossil
+  file: Mekosuchus inexpectatus mandible.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Mekosuchus_inexpectatus_mandible.JPG/960px-Mekosuchus_inexpectatus_mandible.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mekosuchus_inexpectatus_mandible.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-05-18'
+  caption: Mandible of M. inexpectatus
+  width: 2444
+  height: 922
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638/vector.svg
+  png: https://images.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638/raster/512x92.png
+  page: https://www.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Paludirex vincenti
+  matched: Mekosuchini
+  genus_level: false
+sources:
+- kind: original
+  text: 'Balouet, J.; Buffetaut, E. 1987. Mekosuchus inexpectatus, n. Gen., n. Sp., crocodilien nouveau de l''Holocene
+    de Nouvelle Calédonie. Comptes Rendus de l''Académie des Sciences de Paris 2(304): 853–856.'
+- kind: literature
+  text: Mead, Jim I; Steadman, David W; Bedford, Stuart H; Bell, Christopher J; Spriggs, Matthew 2002. New Extinct
+    Mekosuchine Crocodile from Vanuatu, South Pacific. Copeia 2(3). doi:10.1643/0045-8511(2002)002[0632:NEMCFV]2.0.CO;2
+- kind: literature
+  text: 'Stein, M.; Archer, M.; Hand, S.J. 2016. Dwarfism and feeding behaviours in Oligo-Miocene crocodiles from
+    Riversleigh, northwestern Queensland, Australia. Acta Palaeontologica Polonica 61(1): 135–142. doi:10.4202/app.00134.2014'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mekosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mekosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mekosuchus”. English Wikipedia, revision 1379239690.
+  url: https://en.wikipedia.org/w/index.php?title=Mekosuchus&oldid=1379239690
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

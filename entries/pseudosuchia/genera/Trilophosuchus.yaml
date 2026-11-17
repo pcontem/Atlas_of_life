@@ -1,0 +1,123 @@
+name: Trilophosuchus
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Willis 1993
+type_species: Trilophosuchus rackhami
+type_species_note: ''
+summary: '"Triple-crest crocodile": a tiny, short-snouted mekosuchine from the Oligocene–Miocene of Riversleigh,
+  Queensland.'
+size:
+  length_m: [0.7, 0.9]
+  mass_kg: [1, 2]
+  note: Estimated 70–90 cm and 1–2 kg, though no body remains are known.
+age:
+  first_ma: 27.3
+  last_ma: 11.63
+  early_interval: Chattian
+  late_interval: Serravallian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Trilophosuchus rackhami
+  authority: Willis 1993
+  first_ma: 15.98
+  last_ma: 11.63
+  interval: Langhian–Serravallian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Langhian–Serravallian
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: unnamed-ringtail-site-australia
+- formation: Carl Creek Limestone
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: carl-creek-limestone-australia
+fossil_material:
+  holotype: QM F16856 — partial skull missing the snout tip, Ringtail Site, Riversleigh.
+  material: The holotype and isolated skull bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: A short, blunt snout and large eyes, like its relative Mekosuchus; as small as living dwarf crocodilians.
+images:
+- kind: life
+  file: Trilophosuchus rackhami.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Trilophosuchus_rackhami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Trilophosuchus_rackhami.jpg
+  artist: Mr Fink ( talk )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 07/01/2008
+  caption: Life restoration of T. rackhami
+  width: 600
+  height: 202
+  review: unreviewed
+- kind: fossil
+  file: Trilophosuchus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Trilophosuchus_skull.jpg/960px-Trilophosuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Trilophosuchus_skull.jpg
+  artist: Ristevski, J.; Weisbecker, V.; Scanlon, J.D.; Price, G.J.; Salisbury, S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-01-22'
+  caption: Skull of T. rackhami
+  width: 2128
+  height: 2325
+  review: unreviewed
+- kind: skeletal
+  file: Trilophosuchus skull reconstructed.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Trilophosuchus_skull_reconstructed.png/960px-Trilophosuchus_skull_reconstructed.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Trilophosuchus_skull_reconstructed.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-01'
+  caption: Skull reconstruction of T. rackhami
+  width: 2398
+  height: 2756
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638/vector.svg
+  png: https://images.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638/raster/512x92.png
+  page: https://www.phylopic.org/images/9499d992-2a61-44e6-96d3-37fcf201a638
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Paludirex vincenti
+  matched: Mekosuchini
+  genus_level: false
+sources:
+- kind: original
+  text: 'Willis, P.M.A. 1993. ''''Trilophosuchus rackhami'''' gen. et sp. nov., a new crocodilian from the Early
+    Miocene limestones of Riversleigh, northwestern Queensland. Journal of Vertebrate Paleontology 13(1): 90–98.
+    doi:10.1080/02724634.1993.10011489'
+- kind: literature
+  text: 'Ristevski, J.; Weisbecker, V.; Scanlon, J.D.; Price, G.J.; Salisbury, S.W. 2023. Cranial anatomy of the
+    mekosuchine crocodylian Trilophosuchus rackhami Willis, 1993. The Anatomical Record 306(2): 239–297. doi:10.1002/ar.25050'
+- kind: literature
+  text: 'Ristevski, J. 2022. Neuroanatomy of the mekosuchine crocodylian Trilophosuchus rackhami Willis, 1993. Journal
+    of Anatomy 241(4): 981–1013. doi:10.1111/joa.13732'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Trilophosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Trilophosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Trilophosuchus”. English Wikipedia, revision 1348881300.
+  url: https://en.wikipedia.org/w/index.php?title=Trilophosuchus&oldid=1348881300
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

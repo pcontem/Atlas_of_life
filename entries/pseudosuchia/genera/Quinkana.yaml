@@ -1,0 +1,188 @@
+name: Quinkana
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Molnar 1982
+type_species: Quinkana fortirostrum
+type_species_note: ''
+summary: Land-dwelling mekosuchine of Australia with blade-like serrated teeth, from about 25 million to 20,000
+  years ago.
+size:
+  length_m: [3, 3]
+  mass_kg: [200, 200]
+  note: Usually estimated at about 3 m and 200 kg; some Pliocene remains may be larger.
+age:
+  first_ma: 27.3
+  last_ma: 0.0117
+  early_interval: Chattian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Quinkana babarra
+  authority: Willis and Mackness 1996
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Quinkana fortirostrum
+  authority: Molnar 1982
+  first_ma: 0.774
+  last_ma: 0.129
+  interval: Chibanian
+  reference: original description
+- name: Quinkana meboldi
+  authority: Willis 1997
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: ''
+- name: Quinkana timara
+  authority: Megirian 1994
+  first_ma: 15.98
+  last_ma: 11.63
+  interval: Langhian–Serravallian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [New South Wales, Queensland]
+  interval: Pleistocene
+  occurrences: 7
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-cuddie-springs-australia
+  - unnamed-king-creek-pilton-australia
+  - unnamed-south-walker-creek-australia
+  - unnamed-tea-tree-cave-australia
+  - unnamed-the-joint-australia
+- formation: Camfield Beds
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Middle Miocene
+  occurrences: 2
+  ma: [11.63, 15.98]
+  id: camfield-beds-australia
+- formation: Allingham
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: allingham-australia
+- formation: Carl Creek Limestone
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: carl-creek-limestone-australia
+- formation: Tirari
+  group: ''
+  members: [Mampuwordu Sand]
+  country: Australia
+  regions: [South Australia]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: tirari-australia
+fossil_material:
+  holotype: Type material of Q. fortirostrum from the Pleistocene of Queensland (Molnar 1981).
+  material: Skulls, jaws and teeth of four species, mostly from Queensland.
+  completeness: multiple
+  exceptional: ''
+biology: Ziphodont teeth — recurved, serrated and flattened like blades — suited to tearing flesh, as in a land
+  predator.
+images:
+- kind: life
+  file: Quinkana fortirostrum.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Quinkana_fortirostrum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Quinkana_fortirostrum.JPG
+  artist: Mr Fink ( talk )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2008-06-30'
+  caption: Life restoration of Q. fortirostrum
+  width: 600
+  height: 185
+  review: unreviewed
+- kind: fossil
+  file: Quinkana timara skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Quinkana_timara_skull.jpg/960px-Quinkana_timara_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Quinkana_timara_skull.jpg
+  artist: Mark Marathon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '1901-05-01'
+  caption: Skull of Q. timara
+  width: 2991
+  height: 1857
+  review: unreviewed
+- kind: fossil
+  file: Quinkana holotype specimens.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/84/Quinkana_holotype_specimens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Quinkana_holotype_specimens.jpg
+  artist: Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W. - Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 23 May 202
+  caption: Holotype specimens of Quinkana
+  width: 500
+  height: 289
+  review: unreviewed
+- kind: fossil
+  file: Quinkana tooth.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/99/Quinkana_tooth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Quinkana_tooth.jpg
+  artist: Louys, J. and Price, G.J.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-01-11'
+  caption: Tooth of Quinkana
+  width: 137
+  height: 185
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/46f7244a-386a-438b-8084-13ceccc85d4b/vector.svg
+  png: https://images.phylopic.org/images/46f7244a-386a-438b-8084-13ceccc85d4b/raster/512x110.png
+  page: https://www.phylopic.org/images/46f7244a-386a-438b-8084-13ceccc85d4b
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Quinkana fortirostrum
+  matched: Quinkana
+  genus_level: true
+sources:
+- kind: original
+  text: 'Molnar, R. E. 1981. Pleistocene ziphodont crocodilians of Queensland. Records of the Australian Museum
+    33(19): 803–834. doi:10.3853/j.0067-1975.33.1981.198'
+- kind: literature
+  text: 'Megirian, Dirk 1994. A New Species of ''''Quinkana'''' Molnar (Eusuchia: Crocodylidae) from the Miocene
+    Camfield Beds of Northern Australia. The Beagle 11: 145–166.'
+- kind: literature
+  text: 'Willis, Paul M.A.; Mackness, Brian S. 1996. Quinkana babarra, a new species of ziphodont mekosuchine crocodile
+    from the Early Pliocene Bluff Downs Local Fauna, Northern Australia with a revision of the genus. Proceedings
+    of the Linnean Society of New South Wales 116: 143–151.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Quinkana (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Quinkana
+- kind: encyclopedia
+  text: Wikipedia contributors. “Quinkana”. English Wikipedia, revision 1380405394.
+  url: https://en.wikipedia.org/w/index.php?title=Quinkana&oldid=1380405394
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,143 @@
+name: Paludirex
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Ristevski et al. 2020
+type_species: Paludirex vincenti
+type_species_note: ''
+summary: '"Swamp king": a large, robust mekosuchine ambush hunter of Pliocene–Pleistocene Australia, up to 5 m long.'
+size:
+  length_m: [5, 5]
+  note: Up to about 5 m; P. gracilis was smaller than P. vincenti.
+age:
+  first_ma: 5.333
+  last_ma: 0.0117
+  early_interval: Zanclean
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Paludirex gracilis
+  authority: (Willis and Molnar 1997)
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+- name: Paludirex vincenti
+  authority: Ristevski et al. 2020
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Pliocene–Late Pleistocene
+  occurrences: 6
+  ma: [0.0117, 5.333]
+  id:
+  - unnamed-condamine-river-12-km-east-of-warra-australia
+  - unnamed-ernie-s-croc-jaw-site-australia
+  - unnamed-lansdowne-station-tambo-australia
+  - unnamed-pioneer-valley-area-mackay-australia
+  - unnamed-tara-creek-australia
+  - unnamed-terrace-site-australia
+- formation: Chinchilla Sand
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Early Pliocene
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: chinchilla-sand-australia
+fossil_material:
+  holotype: Type material of P. vincenti from the Chinchilla Sand, Queensland (Ristevski et al. 2020).
+  material: Skulls and jaws from Queensland; the old syntype material of "Pallimnarchus" is partly lost.
+  completeness: multiple
+  exceptional: ''
+biology: Probably the top predator of Australian waterways before saltwater crocodiles arrived.
+images:
+- kind: fossil
+  file: Paludirex skulls.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Paludirex_skulls.jpg/960px-Paludirex_skulls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Paludirex_skulls.jpg
+  artist: Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-05-23'
+  caption: Skull material of Paludirex
+  width: 3850
+  height: 4783
+  review: unreviewed
+- kind: skeletal
+  file: Paludirex skeletal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Paludirex_skeletal.jpg/960px-Paludirex_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Paludirex_skeletal.jpg
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-01-30'
+  caption: Skull reconstruction of P. vincenti
+  width: 2304
+  height: 1632
+  review: unreviewed
+- kind: fossil
+  file: Geoff Vincents Specimen.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Geoff_Vincents_Specimen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Geoff_Vincents_Specimen.jpg
+  artist: Ralph Molnar, Chinchilla Museum
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '1988'
+  caption: Specimen of P. vincenti on display
+  width: 722
+  height: 377
+  review: unreviewed
+- kind: fossil
+  file: Pallimnarchus syntype fossils.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Pallimnarchus_syntype_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pallimnarchus_syntype_fossils.jpg
+  artist: Ristevski J, Yates AM, Price GJ, Molnar RE, Weisbecker V, Salisbury SW.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-12-21'
+  caption: Syntype fossils of "Pallimnarchus"
+  width: 722
+  height: 605
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6bd6022e-6ed1-44c2-a63e-26b850bed4fd/vector.svg
+  png: https://images.phylopic.org/images/6bd6022e-6ed1-44c2-a63e-26b850bed4fd/raster/610x1024.png
+  page: https://www.phylopic.org/images/6bd6022e-6ed1-44c2-a63e-26b850bed4fd
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Paludirex vincenti
+  matched: Paludirex
+  genus_level: true
+sources:
+- kind: original
+  text: 'Ristevski, J.; Yates, A.M.; Price, G.J.; Molnar, R.E.; Weisbecker, V.; Salisbury, S.W. 2020. Australia''s
+    prehistoric ''swamp king'': revision of the Plio-Pleistocene crocodylian genus ''''Pallimnarchus'''' de Vis,
+    1886. PeerJ 8. doi:10.7717/peerj.10466'
+- kind: literature
+  text: 'Willis, P.M.A.; Molnar, R.E. 1997. A review of the Plio-Pleistocene crocodilian genus Pallimnarchus. Proceedings
+    of the Linnean Society of New South Wales(117): 223–242.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paludirex (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paludirex
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paludirex”. English Wikipedia, revision 1368848659.
+  url: https://en.wikipedia.org/w/index.php?title=Paludirex&oldid=1368848659
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
