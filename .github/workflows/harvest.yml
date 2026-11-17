@@ -50,13 +50,14 @@ jobs:
         if: always() && env.SHEETS != 'false'
         with: { name: "contact-sheets-${{ env.VOL }}", path: /tmp/sheets, retention-days: 30 }
       - name: Contact sheets to the branch sheets/<volume> (artifact downloads are blocked in some sessions)
-        if: env.SHEETS != 'false'
+        if: always() && env.SHEETS != 'false'
         run: |
+          [ -d /tmp/sheets ] || exit 0
           cd /tmp/sheets && git init -q -b sheets && git add -A
           git -c user.name=github-actions[bot] -c user.email=41898283+github-actions[bot]@users.noreply.github.com commit -qm "Contact sheets of $VOL"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "sheets:sheets/$VOL$([ "$OA" = "true" ] && echo -oa)"
       - name: Commit raw data
-        if: env.SHEETS != 'only' || env.OA == 'true'
+        if: always() && (env.SHEETS != 'only' || env.OA == 'true')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
