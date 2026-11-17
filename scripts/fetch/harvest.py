@@ -36,6 +36,9 @@ def fetch_json(url, params=None, tries=4):
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as r:
                 return json.loads(r.read())
         except Exception as e:
+            code = getattr(e, "code", None)
+            if code and 400 <= code < 500 and code != 429:  # not found etc.: retrying will not help
+                return None
             if k == tries - 1:
                 print(f"  ! {url[:160]}: {e}")
                 return None
