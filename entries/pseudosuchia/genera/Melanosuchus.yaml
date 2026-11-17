@@ -1,0 +1,97 @@
+name: Melanosuchus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Gray 1862
+type_species: Melanosuchus niger
+type_species_note: PBDB gives no type species; M. niger (Spix 1825) is the only species named before the genus (Gray
+  1862).
+summary: Black caimans — the largest living member of the alligator family, from the Amazon basin, with one Late
+  Miocene fossil species.
+extant: true
+size:
+  length_m: null
+  note: The genus article gives no measurements.
+age:
+  first_ma: 11.63
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Melanosuchus latrubessei
+  authority: Souza-Filho et al. 2020
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Melanosuchus niger
+  authority: Spix 1825
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: original description
+formations:
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre, Amazonas]
+  interval: Tortonian
+  occurrences: 2
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+fossil_material:
+  holotype: Living genus — the name-bearing type of the type species is not covered by the sources used.
+  material: The living black caiman, plus the fossil M. latrubessei from the Upper Miocene Solimões Formation of
+    Brazil.
+  completeness: multiple
+  exceptional: ''
+biology: The black caiman of the Amazon basin is the largest living caimanine and the largest living member of Alligatoridae.
+images:
+- kind: photo
+  file: Black-Caiman-(cropped).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Black-Caiman-%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Black-Caiman-(cropped).jpg
+  artist: Jovem Rural
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2008-08-15'
+  caption: Black caiman (M. niger)
+  width: 590
+  height: 363
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f0df5f4e-7a16-412a-9dfc-bd5fdc58278a/vector.svg
+  png: https://images.phylopic.org/images/f0df5f4e-7a16-412a-9dfc-bd5fdc58278a/raster/512x67.png
+  page: https://www.phylopic.org/images/f0df5f4e-7a16-412a-9dfc-bd5fdc58278a
+  attribution: David Stanley
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Melanosuchus niger
+  matched: Melanosuchus
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Souza-Filho, J.P. 2020. On a new Melanosuchus species (Alligatoroidea: Caimaninae) from Solimões Formation
+    (Eocene-Pliocene), Northern Brazil, and evolution of Caimaninae. Zootaxa 4894(4): 561–593. doi:10.11646/zootaxa.4894.4.5'
+- kind: literature
+  text: 'Bona, Paula; Blanco, M. Victoria Fernandez; Schever, Torsten M.; Both, Christian 2017. Shedding Light on
+    the Taxonomic Diversity of the South American Miocene Caimans: The Status of ''''Melanosuchus fisheri'''' (Crocodylia,
+    Alligatoroidea). Ameghiniana 54(6): 681–687. doi:10.5710/AMGH.08.06.2017.3103'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Melanosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Melanosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Melanosuchus”. English Wikipedia, revision 1384689338.
+  url: https://en.wikipedia.org/w/index.php?title=Melanosuchus&oldid=1384689338
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - M. fisheri (Medina 1976, Urumaco Formation, Venezuela) is sometimes treated as a nomen dubium or a synonym of
+    M. niger (Bona et al. 2017; Foth et al. 2018); left out of the species list.
+  reviews: []

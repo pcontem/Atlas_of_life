@@ -1,0 +1,131 @@
+name: Tomistoma
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Müller 1846
+type_species: Tomistoma schlegelii
+type_species_note: PBDB gives no type species; T. schlegelii (Müller 1846) was named with the genus, the fossil
+  species later.
+summary: The false gharial of Southeast Asia, a narrow-snouted fish-eater now placed with the gharials, and perhaps
+  two fossil species.
+extant: true
+size:
+  length_m: null
+  note: The genus article gives no measurements.
+age:
+  first_ma: 33.9
+  last_ma: 0
+  early_interval: Oligocene
+  late_interval: Holocene
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Tomistoma coppensi
+  authority: Pickford 1994
+  first_ma: 11.63
+  last_ma: 2.58
+  interval: Tortonian–Piacenzian
+  reference: ''
+- name: Tomistoma lusitanicum
+  authority: (Antunes 1961)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Tomistoma schlegelii
+  authority: Müller 1846
+  first_ma: 33.9
+  last_ma: 0
+  interval: Rupelian–Holocene
+  reference: original description
+formations:
+- formation: Nkondo
+  group: Albertine
+  members: []
+  country: Uganda
+  regions: []
+  interval: Late Miocene–Pliocene
+  occurrences: 4
+  ma: [2.58, 11.63]
+  id: nkondo-uganda
+- formation: Warwire
+  group: Albertine
+  members: []
+  country: Uganda
+  regions: []
+  interval: Pliocene
+  occurrences: 2
+  ma: [2.58, 5.333]
+  id: warwire-uganda
+- formation: Nkondo/Warwire
+  group: Albertine
+  members: []
+  country: Uganda
+  regions: []
+  interval: Late Miocene–Early Pliocene
+  occurrences: 1
+  ma: [3.6, 11.63]
+  id: nkondo-uganda
+- formation: Hohwa Beds
+  group: ''
+  members: []
+  country: Uganda
+  regions: []
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: hohwa-beds-uganda
+fossil_material:
+  holotype: Living genus — the name-bearing type of the type species is not covered by the sources used.
+  material: The living false gharial; fossils referred to the genus from the Paleogene to the Quaternary of Africa,
+    Europe and Asia, most of them probably other genera.
+  completeness: multiple
+  exceptional: ''
+biology: Uses its long, narrow snout to catch fish. Its skeleton resembles true crocodiles, but molecular studies
+  consistently place it with the gharial in Gavialidae.
+images:
+- kind: photo
+  file: Tomistoma schlegelii false gharial LA zoo 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tomistoma_schlegelii_false_gharial_LA_zoo_01.jpg/960px-Tomistoma_schlegelii_false_gharial_LA_zoo_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tomistoma_schlegelii_false_gharial_LA_zoo_01.jpg
+  artist: Junkyardsparkle
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2014-03-24'
+  caption: False gharial (T. schlegelii), Los Angeles Zoo
+  width: 1919
+  height: 2400
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: literature
+  text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
+    the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9. doi:10.7717/peerj.12094
+- kind: literature
+  text: 'Cho, Yi-Yang; Tsai, Cheng-Hsiu 2023. Crocodylian princess in Taiwan: Revising the taxonomic status of ''''Tomistoma
+    taiwanicus'''' from the Pleistocene of Taiwan and its paleobiogeographic implications. Journal of Paleontology
+    97(4): 927–940. doi:10.1017/jpa.2023.36'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tomistoma (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tomistoma
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tomistoma”. English Wikipedia, revision 1378959322.
+  url: https://en.wikipedia.org/w/index.php?title=Tomistoma&oldid=1378959322
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Only T. lusitanicum and T. coppensi are kept as possible fossil species (Wikipedia); PBDB lists ten more, most
+    reassigned to other genera (Herugavialis, Eogavialis, Toyotamaphimeia, Sutekhsuchus).
+  reviews: []

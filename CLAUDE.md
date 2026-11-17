@@ -91,7 +91,7 @@ size:
   mass_kg: null                   # G8 E  optional [min, max] in kg, only when published
   note: Females about 3.8 m; ...  # G8 S  required when the measure is null (say why unknown)
 age:
-  first_ma: 89.8                  # G9 E  first_ma ≥ last_ma > 0
+  first_ma: 89.8                  # G9 E  first_ma ≥ last_ma > 0 (last_ma 0 for living genera)
   last_ma: 72.2
   early_interval: Coniacian       # G9 E  ICS stage/age names
   late_interval: Campanian
@@ -207,7 +207,7 @@ vernacular forms are simply corrected in the entries and **not** listed.
 ### 4.4 Images
 
 Each genus has a **gallery**: any number of images per kind up to 8 (I1 E), never the same
-Commons file twice. Kinds: `life` (life restoration), `fossil` (photo of the actual fossil, a
+Commons file twice. Kinds: `photo` (photograph of a living animal — living genera only), `life` (life restoration), `fossil` (photo of the actual fossil, a
 cast or a mount, or a scientific figure of the specimen), `skeletal` (skeletal reconstruction).
 The site shows one tab per kind with thumbnails. Not accepted at all: museum models and
 sculptures, theme-park statues, stamps, posters, pre-1950 restorations, maps, faunal or size

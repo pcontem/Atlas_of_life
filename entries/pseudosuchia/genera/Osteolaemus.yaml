@@ -1,0 +1,113 @@
+name: Osteolaemus
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Cope 1860
+type_species: Osteolaemus tetraspis
+type_species_note: ''
+summary: African dwarf crocodiles — small, secretive, strictly nocturnal crocodiles of the wetlands of West and
+  Middle Africa.
+extant: true
+size:
+  length_m: null
+  note: The sources used give no measurements.
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Early Pliocene
+  late_interval: Holocene
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Osteolaemus osborni
+  authority: Schmidt 1919
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+formations:
+- formation: Sinda Beds
+  group: ''
+  members: []
+  country: DR Congo
+  regions: [Orientale]
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: sinda-beds-dr-congo
+fossil_material:
+  holotype: Living genus — the name-bearing type of the type species is not covered by the sources used.
+  material: Living species; PBDB records only a few fossil or subfossil occurrences.
+  completeness: multiple
+  exceptional: ''
+biology: Small, secretive crocodiles of forest wetlands; unlike other crocodiles they are strictly nocturnal.
+images:
+- kind: photo
+  file: Osteolaemus osborni 88103967.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Osteolaemus_osborni_88103967.jpg/960px-Osteolaemus_osborni_88103967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Osteolaemus_osborni_88103967.jpg
+  artist: Marius Burger
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2014-05-05'
+  caption: Congo dwarf crocodile (O. osborni)
+  width: 2048
+  height: 1536
+  review: unreviewed
+- kind: photo
+  file: Osteolaemus tetraspis - Karlsruhe Zoo 02.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Osteolaemus_tetraspis_-_Karlsruhe_Zoo_02.jpg/960px-Osteolaemus_tetraspis_-_Karlsruhe_Zoo_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Osteolaemus_tetraspis_-_Karlsruhe_Zoo_02.jpg
+  artist: H. Zell
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2019-09-19'
+  caption: Dwarf crocodile (O. tetraspis), Karlsruhe Zoo
+  width: 4775
+  height: 3135
+  review: unreviewed
+- kind: photo
+  file: Crocodile nain aquarium porte dorée Paris.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Crocodile_nain_aquarium_porte_dor%C3%A9e_Paris.JPG/960px-Crocodile_nain_aquarium_porte_dor%C3%A9e_Paris.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Crocodile_nain_aquarium_porte_dor%C3%A9e_Paris.JPG
+  artist: Thesupermat
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2008-08-31'
+  caption: Dwarf crocodile at the Aquarium tropical de la Porte Dorée, Paris
+  width: 2592
+  height: 1944
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Cope, E.D. 1861. Recent species of Emydosaurian reptiles represented in the museum of the Academy. Proceedings
+    of the Academy of Natural Sciences of Philadelphia 12: 549–551.'
+- kind: literature
+  text: 'Eaton, Mitchell J.; Martin, Andrew; Thorbjarnarson, John; Amato, George 2009. Species-level diversification
+    of African dwarf crocodiles (genus ''''Osteolaemus''''): A geographic and phylogenetic perspective. Molecular
+    Phylogenetics and Evolution 50(3): 496–506. doi:10.1016/j.ympev.2008.11.009'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Osteolaemus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Osteolaemus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Osteolaemus”. English Wikipedia, revision 1373775266.
+  url: https://en.wikipedia.org/w/index.php?title=Osteolaemus&oldid=1373775266
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Molecular data suggest O. tetraspis contains two lineages that may deserve species rank (Eaton et al. 2009).
+  - Authority year differs between PBDB (Cope 1860) and Wikipedia (Cope 1861).
+  reviews: []

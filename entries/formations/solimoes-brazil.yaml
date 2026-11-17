@@ -1,0 +1,31 @@
+id: solimoes-brazil
+name: Solimões
+rank: formation
+group: ''
+country: Brazil
+regions: [Acre, Amazonas]
+location:
+  lat: -8.911
+  lng: -68.838
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 11.63
+  last_ma: 7.246
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [fluvial-deltaic indet., fluvial-lacustrine indet.]
+lithology: [claystone, mudstone]
+pbdb_collections: ['67386', '209089']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Solimões (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Solimões
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -76,7 +76,7 @@ INDEX_KEYS = ("name", "clade", "isd", "sum", "ws", "len", "kg", "extant", "fad",
 def genus_index(g, vol):
     """The light record every view needs (lists, tree, timeline, maps); the full entry is in site/g/<Name>.json.
     `images` holds only the representative image (first life restoration, else the first image)."""
-    rep = next((i for i in g["images"] if i["kind"] == "life"), g["images"][0] if g["images"] else None)
+    rep = next((i for k in ("photo", "life") for i in g["images"] if i["kind"] == k), g["images"][0] if g["images"] else None)
     r = {k: g[k] for k in INDEX_KEYS if k in g}
     r.update(vol=vol, nsp=len(g["species"]), st=g["cur"]["status"], images=[rep] if rep else [],
              formations=[dict(ids=f["ids"], country=f["country"]) for f in g["formations"]])

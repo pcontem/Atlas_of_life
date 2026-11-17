@@ -24,6 +24,28 @@ COUNTRY = {"AR": "Argentina", "AU": "Australia", "BR": "Brazil", "CA": "Canada",
            "PT": "Portugal", "RO": "Romania", "TZ": "Tanzania", "US": "United States", "AT": "Austria",
            "CH": "Switzerland", "BE": "Belgium", "RU": "Russia", "IN": "India", "JP": "Japan", "NZ": "New Zealand"}
 
+COUNTRY.update({"AQ": "Antarctica", "BD": "Bangladesh", "BO": "Bolivia", "BG": "Bulgaria", "CZ": "Czech Republic", "EC": "Ecuador",
+       "ET": "Ethiopia", "GE": "Georgia", "GR": "Greece", "HU": "Hungary", "ID": "Indonesia", "IL": "Israel", "IQ": "Iraq",
+       "IR": "Iran", "KE": "Kenya", "KG": "Kyrgyzstan", "KR": "South Korea", "LA": "Laos", "LK": "Sri Lanka", "LS": "Lesotho",
+       "LU": "Luxembourg", "LY": "Libya", "MG": "Madagascar", "ML": "Mali", "MM": "Myanmar", "MW": "Malawi", "MZ": "Mozambique",
+       "NA": "Namibia", "NE": "Niger", "NG": "Nigeria", "NL": "Netherlands", "OM": "Oman", "PA": "Panama", "PE": "Peru",
+       "PK": "Pakistan", "PL": "Poland", "PY": "Paraguay", "SA": "Saudi Arabia", "SD": "Sudan", "SE": "Sweden", "SN": "Senegal",
+       "SY": "Syria", "TH": "Thailand", "TJ": "Tajikistan", "TN": "Tunisia", "TR": "Turkey", "TW": "Taiwan", "UA": "Ukraine",
+       "UY": "Uruguay", "UZ": "Uzbekistan", "VE": "Venezuela", "VN": "Vietnam", "ZA": "South Africa", "ZM": "Zambia",
+       "ZW": "Zimbabwe", "DZ": "Algeria", "CM": "Cameroon", "CD": "DR Congo", "AO": "Angola", "BW": "Botswana", "GA": "Gabon",
+       "TD": "Chad", "HR": "Croatia", "SI": "Slovenia", "SK": "Slovakia", "RS": "Serbia", "IE": "Ireland", "NO": "Norway",
+       "FI": "Finland", "PR": "Puerto Rico", "JM": "Jamaica", "DO": "Dominican Republic", "HT": "Haiti", "PH": "Philippines",
+       "MY": "Malaysia", "PG": "Papua New Guinea", "NC": "New Caledonia", "FJ": "Fiji", "VU": "Vanuatu", "SB": "Solomon Islands",
+       "GT": "Guatemala", "HN": "Honduras", "NI": "Nicaragua", "CR": "Costa Rica", "SV": "El Salvador", "BZ": "Belize",
+       "GY": "Guyana", "SR": "Suriname", "GF": "French Guiana", "TT": "Trinidad and Tobago", "KH": "Cambodia", "NP": "Nepal",
+       "AF": "Afghanistan", "KW": "Kuwait", "AE": "United Arab Emirates", "YE": "Yemen", "SO": "Somalia", "UG": "Uganda",
+       "RW": "Rwanda", "BI": "Burundi", "MR": "Mauritania", "EH": "Western Sahara", "BF": "Burkina Faso", "GH": "Ghana",
+       "CI": "Ivory Coast", "BJ": "Benin", "TG": "Togo", "SZ": "Eswatini", "MU": "Mauritius", "SC": "Seychelles", "CG": "Congo",
+       "CF": "Central African Republic", "ER": "Eritrea", "DJ": "Djibouti", "MK": "North Macedonia", "AL": "Albania",
+       "BA": "Bosnia and Herzegovina", "ME": "Montenegro", "LT": "Lithuania", "LV": "Latvia", "EE": "Estonia", "BY": "Belarus",
+       "MD": "Moldova", "AM": "Armenia", "AZ": "Azerbaijan", "TM": "Turkmenistan", "IS": "Iceland", "SJ": "Svalbard",
+       "AW": "Aruba", "CW": "Curaçao", "BS": "Bahamas", "CY": "Cyprus", "MT": "Malta"})
+
 
 def slug(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
@@ -119,7 +141,8 @@ def main():
                 name = f["formation"]
                 if name == "Unnamed unit":
                     # unnamed beds: each PBDB collection is placed on its own (one genus item may span several sites)
-                    used = [o["col"] for o in occ[e["name"]] if not o["form"] and (not f["regions"] or o["state"] in f["regions"])]
+                    used = [o["col"] for o in occ[e["name"]] if not o["form"] and COUNTRY.get(o["cc"], o["cc"]) == f["country"]
+                            and (not f["regions"] or o["state"] in f["regions"])]
                     units = {}
                     for c in used:
                         u = unnamed_unit(cols.get(c), f)

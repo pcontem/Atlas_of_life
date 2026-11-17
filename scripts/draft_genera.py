@@ -25,28 +25,6 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from make_formations import COUNTRY  # noqa: E402
 
-ISO = {"AQ": "Antarctica", "BD": "Bangladesh", "BO": "Bolivia", "BG": "Bulgaria", "CZ": "Czech Republic", "EC": "Ecuador",
-       "ET": "Ethiopia", "GE": "Georgia", "GR": "Greece", "HU": "Hungary", "ID": "Indonesia", "IL": "Israel", "IQ": "Iraq",
-       "IR": "Iran", "KE": "Kenya", "KG": "Kyrgyzstan", "KR": "South Korea", "LA": "Laos", "LK": "Sri Lanka", "LS": "Lesotho",
-       "LU": "Luxembourg", "LY": "Libya", "MG": "Madagascar", "ML": "Mali", "MM": "Myanmar", "MW": "Malawi", "MZ": "Mozambique",
-       "NA": "Namibia", "NE": "Niger", "NG": "Nigeria", "NL": "Netherlands", "OM": "Oman", "PA": "Panama", "PE": "Peru",
-       "PK": "Pakistan", "PL": "Poland", "PY": "Paraguay", "SA": "Saudi Arabia", "SD": "Sudan", "SE": "Sweden", "SN": "Senegal",
-       "SY": "Syria", "TH": "Thailand", "TJ": "Tajikistan", "TN": "Tunisia", "TR": "Turkey", "TW": "Taiwan", "UA": "Ukraine",
-       "UY": "Uruguay", "UZ": "Uzbekistan", "VE": "Venezuela", "VN": "Vietnam", "ZA": "South Africa", "ZM": "Zambia",
-       "ZW": "Zimbabwe", "DZ": "Algeria", "CM": "Cameroon", "CD": "DR Congo", "AO": "Angola", "BW": "Botswana", "GA": "Gabon",
-       "TD": "Chad", "HR": "Croatia", "SI": "Slovenia", "SK": "Slovakia", "RS": "Serbia", "IE": "Ireland", "NO": "Norway",
-       "FI": "Finland", "PR": "Puerto Rico", "JM": "Jamaica", "DO": "Dominican Republic", "HT": "Haiti", "PH": "Philippines",
-       "MY": "Malaysia", "PG": "Papua New Guinea", "NC": "New Caledonia", "FJ": "Fiji", "VU": "Vanuatu", "SB": "Solomon Islands",
-       "GT": "Guatemala", "HN": "Honduras", "NI": "Nicaragua", "CR": "Costa Rica", "SV": "El Salvador", "BZ": "Belize",
-       "GY": "Guyana", "SR": "Suriname", "GF": "French Guiana", "TT": "Trinidad and Tobago", "KH": "Cambodia", "NP": "Nepal",
-       "AF": "Afghanistan", "KW": "Kuwait", "AE": "United Arab Emirates", "YE": "Yemen", "SO": "Somalia", "UG": "Uganda",
-       "RW": "Rwanda", "BI": "Burundi", "MR": "Mauritania", "EH": "Western Sahara", "BF": "Burkina Faso", "GH": "Ghana",
-       "CI": "Ivory Coast", "BJ": "Benin", "TG": "Togo", "SZ": "Eswatini", "MU": "Mauritius", "SC": "Seychelles", "CG": "Congo",
-       "CF": "Central African Republic", "ER": "Eritrea", "DJ": "Djibouti", "MK": "North Macedonia", "AL": "Albania",
-       "BA": "Bosnia and Herzegovina", "ME": "Montenegro", "LT": "Lithuania", "LV": "Latvia", "EE": "Estonia", "BY": "Belarus",
-       "MD": "Moldova", "AM": "Armenia", "AZ": "Azerbaijan", "TM": "Turkmenistan", "IS": "Iceland", "SJ": "Svalbard",
-       "AW": "Aruba", "CW": "Curaçao", "BS": "Bahamas", "CY": "Cyprus", "MT": "Malta"}
-COUNTRY = {**ISO, **COUNTRY}
 TODAY_RAW = None
 
 
@@ -73,15 +51,27 @@ def interval(a, b):
     return a if not b or b == a else f"{a}–{b}"
 
 
-def formations(R, g):
+def occs_of(R, g, keep=None, genus_level=True):
+    """Occurrences of a genus; with `keep` (species epithets) only those species, plus — if genus_level — the
+    occurrences identified to the genus alone."""
+    rows = R["occ"].get(g, [])
+    if keep is None:
+        return rows
+    ok = lambda p: (p[1].split()[-1] in keep if len(p[1].split()) > 1 else genus_level)
+    return [p for p in rows if ok(p)]
+
+
+def formations(R, g, keep=None, genus_level=True):
     by = collections.OrderedDict()
-    for p in R["occ"].get(g, []):
+    for p in occs_of(R, g, keep, genus_level):
         key = (p[3] or "Unnamed unit", p[6])
         by.setdefault(key, []).append(p)
     out = []
     for (form, cc), rows in sorted(by.items(), key=lambda kv: -len(kv[1])):
-        mx = max(float(r[10]) for r in rows if r[10])
-        mn = min(float(r[11]) for r in rows if r[11])
+        num = lambda v: float(v) if v not in ("", None) else None
+        mxs = [num(r[10]) for r in rows if num(r[10]) is not None]
+        mns = [num(r[11]) for r in rows if num(r[11]) is not None]
+        mx, mn = (max(mxs) if mxs else None), (min(mns) if mns else None)
         older = max(rows, key=lambda r: float(r[10] or 0))
         younger = min(rows, key=lambda r: float(r[11] or 999))
         out.append(dict(formation=form, group=next((r[5] for r in rows if r[5]), ""),
@@ -95,9 +85,11 @@ def authority(attr):
     return (attr or "").strip()
 
 
-def species(R, g):
+def species(R, g, keep=None):
     out = []
     for s in sorted(R["sp"].get(g, []), key=lambda s: s["taxon_name"]):
+        if keep is not None and s["taxon_name"].split()[-1] not in keep:
+            continue
         fa, la = s.get("firstapp_max_ma"), s.get("lastapp_min_ma")
         out.append(dict(name=s["taxon_name"], authority=authority(s.get("taxon_attr")), first_ma=fa, last_ma=la,
                         interval=interval(s.get("early_interval", ""), s.get("late_interval", "")) if fa else "",
@@ -176,15 +168,28 @@ def write(R, vol, batch, force=False):
         if w and not w.get("missing") and h.get("use_wiki", True):
             sources.append(dict(kind="encyclopedia", text=f"Wikipedia contributors. “{w['title']}”. English Wikipedia, revision {w['revid']}.",
                                 url=f"https://en.wikipedia.org/w/index.php?title={w['title'].replace(' ', '_')}&oldid={w['revid']}"))
-        sp = species(R, g)
+        keep = h.get("species")
+        sp = species(R, g, keep)
         ts = h.get("type_species") or ""
         for s in sp:
             if s["name"] == ts or (not ts and len(sp) == 1):
                 s["reference"] = "original description"
         fa, la = r.get("firstapp_max_ma"), r.get("lastapp_min_ma")
+        early, late, nocc = r.get("early_interval"), r.get("late_interval", ""), int(r.get("n_occs") or 0)
+        if keep is not None:  # ages and counts from the occurrences of the accepted species only
+            rows = occs_of(R, g, keep, h.get("genus_level_occs", True))
+            nocc = len(rows)
+            if rows:
+                old = max(rows, key=lambda p: float(p[10] or 0))
+                fa, early = float(old[10]), old[8]
+            if h.get("extant"):
+                la, late = 0, "Holocene"
+        if h.get("extant"):
+            la = 0
         files = files_of(R, g)
         images = []
-        for n, kind, cap in h.get("images", []):
+        for n, kind, *cap in h.get("images", []):
+            cap = ", ".join(str(c) for c in cap)
             t, f = files[n - 1]
             images.append(dict(kind=kind, file=t[5:], url=f["url"] if f.get("width", 0) <= 1600 else f["thumb"].replace("330px-", "960px-"),
                                page=f["page"], artist=h.get("artists", {}).get(n) or f.get("Artist") or "Unknown (no author on the Commons page)",
@@ -194,7 +199,7 @@ def write(R, vol, batch, force=False):
         e = dict(name=g, rank="genus", parent=h["parent"], incertae_sedis=bool(h.get("incertae_sedis")),
                  placement_note=h.get("placement_note", ""), authority=authority(r.get("taxon_attr")).strip("()"),
                  type_species=ts, type_species_note=h.get("type_species_note", ""), summary=h["summary"])
-        if r.get("is_extant") in ("extant", True, 1, "1"):
+        if h.get("extant"):  # set by hand: PBDB's flag is wrong for some fossil and ichno genera
             e["extant"] = True
         size = {"length_m": h.get("length_m")}
         if h.get("mass_kg"):
@@ -202,10 +207,11 @@ def write(R, vol, batch, force=False):
         size["note"] = h.get("size_note", "")
         e.update(size=size,
                  age=dict(first_ma=fa if fa is not None else h.get("first_ma"), last_ma=la if la is not None else h.get("last_ma"),
-                          early_interval=r.get("early_interval") or h.get("early_interval", ""),
-                          late_interval=r.get("late_interval", "") if r.get("late_interval") != r.get("early_interval") else "",
-                          pbdb_occurrences=int(r.get("n_occs") or 0), note=h.get("age_note", "")),
-                 species=sp, formations=h.get("formations") or formations(R, g),
+                          early_interval=early or h.get("early_interval", ""),
+                          late_interval=late if late != early else "",
+                          pbdb_occurrences=nocc, note=h.get("age_note", "")),
+                 species=sp, formations=h.get("formations") or [f for f in formations(R, g, keep, h.get("genus_level_occs", True))
+                                                                if not h.get("named_formations_only") or f["formation"] != "Unnamed unit"],
                  fossil_material=dict(holotype=h["holotype"], material=h["material"], completeness=h["completeness"],
                                       exceptional=h.get("exceptional", "")),
                  biology=h["biology"], images=images)

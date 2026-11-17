@@ -1,0 +1,31 @@
+id: goliad-united-states
+name: Goliad
+rank: formation
+group: ''
+country: United States
+regions: [Texas]
+location:
+  lat: 28.565
+  lng: -97.7
+  basis: median of 6 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 12.5
+  last_ma: 9.4
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., fine channel fill]
+lithology: [not reported, sandstone]
+pbdb_collections: ['18610', '18611', '18623', '18640', '18645', '207452']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Goliad (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Goliad
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

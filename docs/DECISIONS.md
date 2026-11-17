@@ -226,3 +226,12 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   `extant` flag; volume clades living/extinct computed from the genera below them.
 - Raw material is downloaded by a GitHub Actions workflow (`harvest.yml`), since the runners reach PBDB,
   Wikipedia, Commons and PhyloPic directly.
+- Scope of the volume (2026-11-17): PBDB's 646 valid genera of Pseudosuchia include 33 ichno- and egg form-genera
+  (flags I/F: footprints such as *Chirotherium*, *Batrachopus*; eggs such as *Krokolithes*) — not entries, since an
+  entry is a body-fossil or living genus — and 29 phytosaurs, which the atlas tree keeps outside Archosauria
+  (TREE_REVIEW: "Phytosauria … kept where it was"); they get entries with Archosauriformes. PBDB's living flag is
+  wrong for some fossil and ichno genera, so `extant` is set by hand.
+- Living genera: image kind `photo` (photographs of the living animal), at most the article's pictures; formations
+  only the named units with fossils of the accepted species; ages from those occurrences, `last_ma: 0`.
+- `scripts/make_formations.py`: beds without a formation are matched to a genus item by country as well as region
+  (unnamed Tanzanian beds were being filed under Chad); the ISO country table moved there from the drafting helper.

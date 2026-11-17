@@ -55,7 +55,7 @@ function renderFicha(id){const n=byId[id];if(id==="vida"&&D.home)return renderHo
   h+=`<p class="lead">${esc(g.sum)}</p><div class="grid"><div>`;
   // images
   // gallery: one tab per kind (life restorations, fossils, skeletal reconstructions), thumbnails below the main image
-  const KINDS=[["life","Life restorations"],["fossil","Fossils"],["skeletal","Skeletal reconstructions"]].filter(([k])=>imgs.some(im=>im.kind===k));
+  const KINDS=[["photo","Photographs"],["life","Life restorations"],["fossil","Fossils"],["skeletal","Skeletal reconstructions"]].filter(([k])=>imgs.some(im=>im.kind===k));
   h+=`<div class="card"><h3>Images${imgs.length>1?` <span class="note">(${imgs.length})</span>`:""}</h3>`;
   if(imgs.length){h+=`<div class="imgtabs">${KINDS.map(([k,l],i)=>`<button data-k="${k}" class="${i?"":"on"}">${l} (${imgs.filter(im=>im.kind===k).length})</button>`).join("")}</div>`;
     h+=`<figure id="fig"></figure><div id="thumbs" class="thumbs"></div>`}else h+=`<p class="note">No openly licensed restoration or fossil photograph was found for this genus. The silhouette below is the only image.</p>`;
