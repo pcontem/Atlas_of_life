@@ -66,7 +66,7 @@ def check_sources(where, sources, need_original):
         strict("S2", where, "only secondary sources (database/encyclopedia); add primary literature")
 
 
-def check_genus(e, path, clade_ids, excluded_names):
+def check_genus(e, path, clade_ids, excluded_names, measure="wingspan"):
     n = e.get("name", "?")
     w = f"genus {n}"
     if path.stem != n:
@@ -106,12 +106,21 @@ def check_genus(e, path, clade_ids, excluded_names):
     elif len(sm) > 170 or not sm.endswith("."):
         strict("G7", w, f"summary must be one sentence ending in '.', ≤170 characters (now {len(sm)})")
     size = e.get("size") or {}
-    ws = size.get("wingspan_m")
-    if ws is not None:
-        if not (isinstance(ws, list) and len(ws) == 2 and all(isinstance(x, (int, float)) for x in ws) and 0 < ws[0] <= ws[1] < 15):
-            err("G8", w, f"wingspan_m must be [min, max] in metres, got {ws}")
+    key = {"wingspan": "wingspan_m", "length": "length_m"}[measure]
+    for other in {"wingspan_m", "length_m"} - {key}:
+        if other in size:
+            err("G8", w, f"this volume measures size as {key}, not {other}")
+    rng = lambda v, top: isinstance(v, list) and len(v) == 2 and all(isinstance(x, (int, float)) for x in v) and 0 < v[0] <= v[1] < top
+    sz = size.get(key)
+    if sz is not None:
+        if not rng(sz, 25):
+            err("G8", w, f"{key} must be [min, max] in metres, got {sz}")
     elif not (size.get("note") or "").strip():
-        strict("G8", w, "no wingspan: give one, or say in size.note why it is unknown")
+        strict("G8", w, f"no {measure}: give one, or say in size.note why it is unknown")
+    if size.get("mass_kg") is not None and not rng(size["mass_kg"], 20000):
+        err("G8", w, f"mass_kg must be [min, max] in kilograms, got {size['mass_kg']}")
+    if e.get("extant") not in (None, True, False):
+        err("G1", w, "extant must be true or false")
     a = e.get("age") or {}
     fa, la = a.get("first_ma"), a.get("last_ma")
     if not (isinstance(fa, (int, float)) and isinstance(la, (int, float)) and fa >= la > 0):
@@ -303,7 +312,7 @@ def check_volume(vdir, backbone, all_names):
     for p, c in clades.items():
         check_clade(c, p, clade_ids, v["root"])
     for p, g in genera.items():
-        check_genus(g, p, clade_ids, ex_names)
+        check_genus(g, p, clade_ids, ex_names, v.get("size_measure", "wingspan"))
         all_names[g["name"]].append(vdir.name)
     # every clade reaches the root and holds at least one genus
     parent = {c["id"]: c["parent"] for c in clades.values()}
@@ -314,9 +323,12 @@ def check_volume(vdir, backbone, all_names):
             k = parent.get(k)
         if k is not None:
             err("C3", f"clade {cid}", "parent chain loops")
+    if v.get("size_measure", "wingspan") not in ("wingspan", "length"):
+        err("V1", vdir.name, "size_measure must be wingspan or length")
     used = collections.Counter()
-    for g in genera.values():
-        k = g["parent"]
+    # genera of the tree outline still waiting for their entry (backbone genus nodes inside the volume) count too
+    waiting = [n[2] for n in backbone.values() if n[5] == "g" and n[2] in clade_ids]
+    for k in [g["parent"] for g in genera.values()] + waiting:
         while k:
             used[k] += 1
             k = parent.get(k)

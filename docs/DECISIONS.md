@@ -215,3 +215,14 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   are written. Pseudosuchia done first: 10 clades added (Suchia, Paracrocodylomorpha, Loricata, Solidocrania,
   Mesoeucrocodylia, Protosuchidae, Gobiosuchidae, Longirostres, Gavialidae, Desmatosuchia), the grades
   Rauisuchia and Protosuchia removed.
+
+## 2026-11-17 — Pseudosuchia genus volume started
+- Owner request: genus entries for all 646 valid PBDB genera of Pseudosuchia, by the Pterosauria method; size as
+  body length plus mass when published; images written together with the text.
+- The 59 Pseudosuchia clade entries move from `entries/tree/clades` to the new volume `entries/pseudosuchia/clades`
+  and their nodes leave `backbone.json`; compound ids lose their prefix (`crocodylia__alligatoroidea` →
+  `alligatoroidea`). Backbone genera of the group stay in the outline until their entry is written.
+- Size generalised: `size_measure` per volume (`wingspan` | `length`), `length_m`, optional `mass_kg`; genus
+  `extant` flag; volume clades living/extinct computed from the genera below them.
+- Raw material is downloaded by a GitHub Actions workflow (`harvest.yml`), since the runners reach PBDB,
+  Wikipedia, Commons and PhyloPic directly.

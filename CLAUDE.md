@@ -41,7 +41,7 @@ The word for a page about a taxon is **entry** (never "ficha").
 | `media/manifest.json` | path, size, sha256 and volume of every media file (the validator checks against it) | via `scripts/media.py` |
 | `media/config.json` | `base_url`: public address of the Cloudflare R2 bucket that serves the images (empty = published with the site) | yes, rarely |
 | `scripts/media.py` | `pull` the images into site/, `push` new ones (makes 240-px thumbnails, updates the manifest), `sync` them to R2 | code |
-| `scripts/fetch/` | `pbdb.py`, `gplates.py`: download fresh PBDB and GPlates data (run by the data-refresh workflow) | code |
+| `scripts/fetch/` | `pbdb.py`, `gplates.py`: download fresh PBDB and GPlates data (run by the data-refresh workflow); `harvest.py`: raw material for a new genus volume (run by `harvest.yml`) | code |
 | `tests/screenshots.py` | visual smoke test of every view | code |
 | `docs/CONSOLIDATION.md` | generated to-do list (`validate.py --report`) | never |
 | `docs/DECISIONS.md` | log of project decisions and why | yes, append only |
@@ -84,9 +84,12 @@ authority: Marsh 1876             # G4 E  "Author(s) year", as in PBDB / origina
 type_species: Pteranodon longiceps  # G5 E belongs to the genus · S: in species list and verified
 type_species_note: ''             # G5    how it was established if not from PBDB; empty = PBDB
 summary: One sentence.            # G7 E  non-empty · S: one sentence, ends with ".", ≤170 chars
+extant: false                     #       true for living genera (PBDB is_extant); makes its clades "living"
 size:
-  wingspan_m: [3.8, 7.6]          # G8 E  [min, max] in metres (same value twice if one estimate)
-  note: Females about 3.8 m; ...  # G8 S  required when wingspan_m is null (say why unknown)
+  wingspan_m: [3.8, 7.6]          # G8 E  [min, max] in metres (same value twice if one estimate); the measure
+                                  #       is the volume's size_measure: wingspan_m (Pterosauria) or length_m
+  mass_kg: null                   # G8 E  optional [min, max] in kg, only when published
+  note: Females about 3.8 m; ...  # G8 S  required when the measure is null (say why unknown)
 age:
   first_ma: 89.8                  # G9 E  first_ma ≥ last_ma > 0
   last_ma: 72.2
@@ -141,8 +144,10 @@ Manual rules for genera:
   in `placement_note` (name the conflicting analyses).
 - **M3 Species list.** Only valid species of the genus. Species moved to another genus are not
   listed here (the other genus lists them).
-- **M4 Size.** Pterosaurs use wingspan. Give the range of adult estimates from the sources;
-  `size.note` says which specimens/sexes/methods. Juveniles are not used for the range.
+- **M4 Size.** Each volume names its measure in `_volume.yaml` (`size_measure`): pterosaurs use
+  wingspan (`wingspan_m`), other groups total body length (`length_m`), plus `mass_kg` when a published
+  estimate exists. Give the range of adult estimates from the sources; `size.note` says which
+  specimens/sexes/methods. Juveniles are not used for the range.
 - **M5 Ages.** From PBDB occurrences when possible. Otherwise use the ICS boundaries of the stage
   named in the description and say so in `age.note`.
 
@@ -163,7 +168,11 @@ notes: Classification debates, size range, notable members.
 sources: [...]           # S1 E, S2 S (needs primary literature)
 curation: {...}          # Q1
 ```
-- **C3 E** Parent chains reach the root without loops; every clade contains at least one genus.
+- **C3 E** Parent chains reach the root without loops; every clade contains at least one genus (genus
+  entries, or genus nodes of `backbone.json` still waiting for their entry while a volume is being written).
+- A volume clade is shown as living when any genus below it is living (`extant: true`, or a living genus node of
+  the backbone), otherwise as extinct. While a volume still has backbone genera without entries, its clade pages
+  use the tree-outline layout (§4.2b); when a genus entry is written, its backbone node is removed (G1).
 - **C4 E** `taxon_rank` (family, superfamily, suborder, order… or `unranked clade`) with
   `taxon_rank_source` (PBDB taxonomy or a publication). Used by the Timeline resolution menu.
 - **M6** Clades are only created when needed to place genera with consensus; no empty ranks.
@@ -249,7 +258,8 @@ comparison charts, AI-generated images, and photos of other taxa.
   only), Flickr/Openverse items under CC BY or CC BY-SA, PhyloPic.
 - Silhouettes come from PhyloPic, with `attribution`, `license`, `page`; `genus_level: false`
   means it depicts a relative (the site says so). Size diagram: a 1.8 m human beside a schematic
-  pterosaur scaled to the maximum wingspan.
+  pterosaur scaled to the maximum wingspan; for
+  `length_m` volumes the genus's PhyloPic silhouette stretched to the maximum length beside the human.
 
 ### 4.5 Sources
 
@@ -532,7 +542,12 @@ can reach the web even when the maintainer's session cannot): `scripts/fetch/pbd
 each volume's PBDB occurrences and collections (same file layouts), `make_formations.py` updates the
 formation entries, `scripts/fetch/gplates.py` fetches missing palaeo-positions, then fmt/build/
 validate, and a pull request `data/pbdb-refresh` is opened listing PBDB genera not yet in the atlas
-and the validation result. Genus entries are never changed automatically. One-time setting:
+and the validation result. Genus entries are never changed automatically. **New volume:** `.github/workflows/harvest.yml` runs
+`scripts/fetch/harvest.py` (on demand, or when `data/raw/harvest_request.json` changes on a branch) and commits
+`data/raw/<volume>/`: PBDB genera, species, invalid names, occurrences and collections; the English Wikipedia
+revision of each genus (text, taxobox, citations); Commons metadata of the article images and of
+`Category:<Genus>`; PhyloPic silhouettes; contact sheets of the image candidates as a workflow artifact.
+One-time setting:
 Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests".
 The Pages workflow runs `scripts/media.py pull` before publishing, unless the images are served from R2.
 

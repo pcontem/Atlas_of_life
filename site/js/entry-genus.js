@@ -2,9 +2,28 @@
 /* ---------- size diagram ---------- */
 const HUMAN="M50 0c7 0 12 6 12 13s-5 13-12 13-12-6-12-13 5-13 12-13zM34 30h32c8 0 13 6 14 13l7 52c1 5-3 8-7 7-3 0-5-3-6-6l-6-40-2 0v136c0 6-4 9-9 9s-8-3-8-9v-82h-2v82c0 6-4 9-8 9s-9-3-9-9V56l-2 0-6 40c-1 3-3 6-6 6-4 1-8-2-7-7l7-52c1-7 6-13 14-13z"; // ~ 1.8 m tall in a 0..195 box
 const WING="M0 24 C30 18 70 12 92 13 L97 6 C99 3 101 3 103 6 L108 13 C130 12 170 18 200 24 C170 26 135 30 110 31 L106 46 L102 40 L98 40 L94 46 L90 31 C65 30 30 26 0 24Z"; // generic front view, wings spread
+// size as text: "wingspan up to 7.6 m", "length 4–5 m · mass about 250 kg"
+const rngTxt=(r,u)=>r[0]===r[1]?`${r[0]} ${u}`:`${r[0]}–${r[1]} ${u}`;
+function sizeLabel(g){const p=[];if(g.ws)p.push("wingspan "+rngTxt(g.ws,"m"));if(g.len)p.push("length "+rngTxt(g.len,"m"));if(g.kg)p.push("mass "+rngTxt(g.kg,"kg"));return p.join(" · ")}
+// length diagram: the PhyloPic silhouette (side view) stretched to the maximum length beside a 1.8 m human
+function lengthDiagram(g){const L=g.len[1],s=g.silhouette;
+  const H=170,W=520,unit=Math.max(L,1.8)*1.12,pxm=Math.min((W-150)/unit,H*0.85/1.8),ground=H,human=1.8*pxm,hs=human/195;
+  let svg=`<svg viewBox="0 0 ${W} ${H+30}" style="width:100%;max-width:560px"><line x1="0" x2="${W}" y1="${ground}" y2="${ground}" stroke="#bbb1"/>`;
+  const step=L>12?5:L>6?2:L>2.5?1:0.5;
+  for(let m=0;20+m*pxm<W;m+=step)svg+=`<line x1="${20+m*pxm}" x2="${20+m*pxm}" y1="${ground}" y2="${ground+5}" stroke="#a99f88"/><text x="${20+m*pxm}" y="${ground+16}" font-size="9" text-anchor="middle" fill="#756f60">${m} m</text>`;
+  svg+=`<g transform="translate(20,${ground-human}) scale(${hs})"><path d="${HUMAN}" fill="#5e5a4f"/></g><text x="${20+50*hs}" y="${ground-human-6}" font-size="10" text-anchor="middle" fill="#5e5a4f">1.8 m</text>`;
+  const x0=20+110*hs+20,lpx=L*pxm;
+  if(s)svg+=`<image href="${silSrc(s)}" x="${x0}" y="${ground-8-lpx}" width="${lpx}" height="${lpx}" preserveAspectRatio="xMidYMax meet" opacity=".8"/>`;
+  else svg+=`<rect x="${x0}" y="${ground-20}" width="${lpx}" height="10" rx="5" fill="#7a5a44" opacity=".6"/>`;
+  svg+=`<line x1="${x0}" x2="${x0+lpx}" y1="${ground-4}" y2="${ground-4}" stroke="var(--accent)" stroke-width="2"/><line x1="${x0}" x2="${x0}" y1="${ground-9}" y2="${ground+1}" stroke="var(--accent)" stroke-width="2"/><line x1="${x0+lpx}" x2="${x0+lpx}" y1="${ground-9}" y2="${ground+1}" stroke="var(--accent)" stroke-width="2"/>`;
+  svg+=`</svg><p style="margin:4px 0 0;color:var(--accent)">${esc(sizeLabel(g))}</p>`;
+  const cap=s?`Silhouette${s.genus_level?` of <i>${esc(s.depicts||g.name)}</i>`:` of a related form: <i>${esc(s.depicts||"")}</i> (${esc(s.matched)}) — none exists yet for <i>${esc(g.name)}</i>`}, stretched to the maximum length (proportions schematic). By ${esc(s.attribution)}, ${lic(licName(s.license),s.license)}, via <a href="${esc(s.page)}" target="_blank" rel="noopener">PhyloPic</a>. `:"Bar: maximum body length. ";
+  return svg+`<p class="note">${cap}Human figure 1.8 m. ${esc(g.wsnote||"")}</p>`}
 function sizeDiagram(g){
+  if(g.len)return lengthDiagram(g);
+  if(!g.ws&&g.kg)return `<p>${esc(sizeLabel(g))}</p><p class="note">${esc(g.wsnote||"")}</p>`;
   const ws=g.ws?g.ws[1]:null,s=g.silhouette;
-  if(!ws){const s2=g.silhouette;return `<p class="note">No published wingspan estimate in the sources used — size diagram not drawn.</p>`+(s2?`<figure style="display:flex;gap:12px;align-items:center"><img src="${silSrc(s2)}" alt="" style="max-width:150px;max-height:90px;opacity:.85"><figcaption style="margin:0">Silhouette (not to scale)${s2.genus_level?"":` of a related form: <i>${esc(s2.depicts||"")}</i> (${esc(s2.matched)})`}. By ${esc(s2.attribution)}, ${lic(licName(s2.license),s2.license)}, via <a href="${esc(s2.page)}" target="_blank" rel="noopener">PhyloPic</a>.</figcaption></figure>`:"")}
+  if(!ws){const s2=g.silhouette;return `<p class="note">No published ${g.ws!==undefined?"wingspan":"size"} estimate in the sources used — size diagram not drawn. ${esc(g.wsnote||"")}</p>`+(s2?`<figure style="display:flex;gap:12px;align-items:center"><img src="${silSrc(s2)}" alt="" style="max-width:150px;max-height:90px;opacity:.85"><figcaption style="margin:0">Silhouette (not to scale)${s2.genus_level?"":` of a related form: <i>${esc(s2.depicts||"")}</i> (${esc(s2.matched)})`}. By ${esc(s2.attribution)}, ${lic(licName(s2.license),s2.license)}, via <a href="${esc(s2.page)}" target="_blank" rel="noopener">PhyloPic</a>.</figcaption></figure>`:"")}
   const H=210,unit=Math.max(ws,1.8)*1.15,W=520,pxm=Math.min((W-90)/unit,H*0.82/1.8);
   const human=1.8*pxm,hs=human/195;let svg=`<svg viewBox="0 0 ${W} ${H+30}" style="width:100%;max-width:560px">`;
   const ground=H;svg+=`<line x1="0" x2="${W}" y1="${ground}" y2="${ground}" stroke="#bbb1"/>`;
@@ -15,14 +34,15 @@ function sizeDiagram(g){
   const x0=20+110*hs+20,wpx=ws*pxm;
   {const hpx=wpx*0.3,y=ground-human*0.62-hpx/2;svg+=`<g transform="translate(${x0},${y}) scale(${wpx/200},${hpx/60})"><path d="${WING}" fill="#7a5a44" opacity=".85"/></g>`}
   svg+=`<line x1="${x0}" x2="${x0+wpx}" y1="${ground-6}" y2="${ground-6}" stroke="var(--accent)" stroke-width="2"/><line x1="${x0}" x2="${x0}" y1="${ground-11}" y2="${ground-1}" stroke="var(--accent)" stroke-width="2"/><line x1="${x0+wpx}" x2="${x0+wpx}" y1="${ground-11}" y2="${ground-1}" stroke="var(--accent)" stroke-width="2"/>`;
-  svg+=`<text x="${x0+wpx/2}" y="${ground-14}" font-size="11" text-anchor="middle" fill="var(--accent)">wingspan ${g.ws[0]!==g.ws[1]?"up to ":""}${ws} m</text></svg>`;
+  svg+=`<text x="${x0+wpx/2}" y="${ground-14}" font-size="11" text-anchor="middle" fill="var(--accent)">wingspan ${g.ws[0]!==g.ws[1]?"up to ":""}${ws} m${g.kg?" · mass "+rngTxt(g.kg,"kg"):""}</text></svg>`;
   let note="",side="";
   if(s){side=`<figure style="margin-top:10px;display:flex;gap:12px;align-items:center"><img src="${silSrc(s)}" alt="" style="max-width:150px;max-height:90px;opacity:.85"><figcaption style="margin:0">Silhouette (not to scale)${s.genus_level?` of <i>${esc(s.depicts||g.name)}</i>`:` of a related form: <i>${esc(s.depicts||"")}</i> (${esc(s.matched)}) — none exists yet for <i>${esc(g.name)}</i>`}. By ${esc(s.attribution)}, ${lic(licName(s.license),s.license)}, via <a href="${esc(s.page)}" target="_blank" rel="noopener">PhyloPic</a>.</figcaption></figure>`}
   note="Brown outline: schematic pterosaur scaled to the maximum wingspan (not genus-specific). Human figure 1.8 m. ";
   return svg+`<p class="note">${note}${esc(g.wsnote||"")}</p>`+side}
 
 /* ---------- genus entry ---------- */
-function renderFicha(id){const n=byId[id];if(id==="vida"&&D.home)return renderHome();if(!n.ficha)return renderBasic(id);if(n.type==="clade")return n.scope==="tree"?renderTreeClade(id):renderClade(id);
+function renderFicha(id){const n=byId[id];if(id==="vida"&&D.home)return renderHome();if(!n.ficha)return renderBasic(id);if(n.type==="clade")return n.scope==="tree"||allGenera(id).some(g=>!g.ficha)?renderTreeClade(id):renderClade(id); // a volume still being written keeps the outline view until all its genera have entries
+  
   if(!n.full){$("#view").innerHTML=`<div class="empty">Loading <i>${esc(n.name)}</i>…</div>`;
     loadGenus(id).then(()=>{if(cur===id&&view==="tree")renderFicha(id)}).catch(()=>{if(cur===id)$("#view").innerHTML=`<div class="empty">Could not load the entry of <i>${esc(n.name)}</i>.</div>`});return}
   const g=n;
