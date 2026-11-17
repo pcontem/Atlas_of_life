@@ -22,7 +22,10 @@ function renderClade(id){const c=byId[id],gs=allGenera(id),s=c.stat;
 function treeKids(id){const kids=children[id];return{cl:kids.filter(k=>byId[k].type==="clade"),gs:kids.filter(k=>byId[k].type==="genus")}}
 function kidChips(id){const{cl,gs}=treeKids(id);let h="";
   if(cl.length)h+=`<div class="card"><h3>Subgroups</h3><div class="chips">${cl.map(k=>`<a class="chip${byId[k].ficha?" has":""}" onclick="go('${k}')">${esc(byId[k].name)} <small>${byId[k].stat.g}</small></a>`).join("")}</div></div>`;
-  if(gs.length)h+=`<div class="card"><h3>Genera placed directly here (${gs.length})</h3><div class="chips">${gs.map(k=>`<a class="chip${byId[k].ficha?" has":""}" onclick="go('${k}')"><i>${byId[k].status==="e"?"† ":""}${esc(byId[k].name)}</i></a>`).join("")}</div></div>`;
+  const chip=k=>`<a class="chip${byId[k].ficha?" has":""}" onclick="go('${k}')"><i>${byId[k].status==="e"?"† ":""}${esc(byId[k].name)}</i></a>`;
+  const inc=gs.filter(k=>/^Incertae sedis/.test(byId[k].note||"")),sure=gs.filter(k=>!inc.includes(k));
+  if(sure.length)h+=`<div class="card"><h3>Genera placed directly here (${sure.length})</h3><div class="chips">${sure.map(chip).join("")}</div></div>`;
+  if(inc.length)h+=`<div class="card"><h3>Incertae sedis (${inc.length})</h3><p class="note" style="margin-top:0">Genera whose position inside this group is not resolved.</p><div class="chips">${inc.map(chip).join("")}</div></div>`;
   return h}
 function renderTreeClade(id){const c=byId[id],s=c.stat,{cl}=treeKids(id);
   const st=c.status==="e"?"Extinct":c.status==="v"?"Living (extant)":"";

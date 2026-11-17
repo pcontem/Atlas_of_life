@@ -1,0 +1,33 @@
+id: crocodylia__crocodyloidea
+name: Crocodyloidea
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Crocodyloidea, unranked clade), downloaded 2026-11-16
+parent: longirostres
+wikipedia: Crocodyloidea
+summary: 'True crocodiles and their extinct relatives: one of the three superfamilies of crocodilians.'
+diagnosis:
+- Crocodylus niloticus and all crocodylians closer to it than to Alligator or Gavialis (stem-based definition)
+- May include the extinct Australasian Mekosuchinae (disputed)
+notes: Molecular studies find crocodiles and gharials more closely related to each other than either is to alligators,
+  rejecting the older grouping Brevirostres.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Crocodyloidea”. English Wikipedia, revision 1368187418.
+  url: https://en.wikipedia.org/w/index.php?title=Crocodyloidea&oldid=1368187418
+- kind: database
+  text: 'Paleobiology Database, taxon Crocodyloidea (no. 155308): rank, authority and reference (downloaded 2026-11-16).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=155308
+- kind: literature
+  text: 'C. A. Brochu, J. R. Wagner, and S. Jouve, C. D. Sumrall, L. D. Densmore. 2009. A correction corrected:
+    consensus of the meaning of Crocodylia and why it matters. Systematic Biology 58(5):537-543 (reference of the
+    PBDB record)'
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies
+    should be added from the primary literature.
+  reviews: []

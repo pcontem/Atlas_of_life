@@ -353,6 +353,13 @@ curation: {...}           # Q1
   "Unidentified", "Other X") and no nodes pooling several families ("X and Y", "X and relatives"). Their members
   sit directly in the real clade; a genus whose position inside it is unknown carries the note *incertae sedis
   within X*. When a genus's family is missing, add the family (recognised by PBDB and the literature).
+- **The tree is an approximate phylogeny** (owner, 2026-11-17), built like the Pterosauria volume: nested
+  clades only; every genus in the most exclusive clade on which recent analyses agree; where they disagree,
+  in the deepest clade they share, with the note *incertae sedis within X* (M2). The structure of each group
+  comes from the cladograms of recent analyses (the `{{clade}}` diagrams of the cited Wikipedia revisions,
+  `data/raw/tree/cladograms_<date>.json`, with their source study) checked against PBDB; clades are added
+  only when needed to place genera (M6), and paraphyletic grades ("Rauisuchia", "Protosuchia") are removed.
+  Done group by group, together with the clade-entry batches.
 - **Placement** follows PBDB and recent literature: check a node's PBDB parent chain
   (`data/raw/tree/pbdb_lineage_<date>.json`); change the tree only when PBDB agrees with recent studies, and
   record every change and every case kept against PBDB in `docs/TREE_REVIEW.md`.
