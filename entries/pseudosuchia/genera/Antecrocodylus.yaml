@@ -1,0 +1,80 @@
+name: Antecrocodylus
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Martin et al. 2023
+type_species: Antecrocodylus chiangmuanensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Middle Miocene crocodile from northern Thailand, recovered as the earliest-diverging member of Crocodylidae.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 13.82
+  last_ma: 11.63
+  early_interval: Serravallian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Antecrocodylus chiangmuanensis
+  authority: Martin et al. 2023
+  first_ma: 13.82
+  last_ma: 11.63
+  interval: Serravallian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Thailand
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: unnamed-chiang-muan-mine-thailand
+- formation: Na Khaem
+  group: ''
+  members: []
+  country: Thailand
+  regions: [Lampang]
+  interval: MN 6
+  occurrences: 1
+  ma: [12.75, 13.82]
+  id: na-khaem-thailand
+fossil_material:
+  holotype: CMMC22 — partial skull without the snout, with an associated mandible, Chiang Muan mine, Thailand.
+  material: The crushed holotype and possibly referable isolated bones from the Mae Moh mine (Na Khaem Formation).
+  completeness: fragmentary
+  exceptional: ''
+biology: Shows how little is known of the crocodylids of Miocene Asia; it split off before osteolaemines and crocodylines
+  diverged.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Astorgosuchus bugtiensis
+  matched: Crocodyloidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Martin, J. E.; Naksri, W.; Lauprasert, K.; Wongko, K.; Chompusri, S.; Sila, S.; Claude, J. 2023. An early
+    diverging crocodylid from the Middle Miocene of Thailand highlights the role of SE Asia for the radiation of
+    the Crocodyloidea. Historical Biology 36(12): 2794–2803. doi:10.1080/08912963.2023.2278152'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Antecrocodylus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Antecrocodylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Antecrocodylus”. English Wikipedia, revision 1293211674.
+  url: https://en.wikipedia.org/w/index.php?title=Antecrocodylus&oldid=1293211674
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

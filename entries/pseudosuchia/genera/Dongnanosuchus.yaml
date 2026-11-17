@@ -1,0 +1,98 @@
+name: Dongnanosuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: An orientalosuchin; that group shares traits of early alligatoroids and crocodylids and its position
+  within Crocodylia is unsettled.
+authority: Shan et al. 2021
+type_species: Dongnanosuchus hsui
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Small, short-snouted orientalosuchin from the Eocene Youganwo Formation of China.
+size:
+  length_m: null
+  note: The holotype skull is a little over 20 cm long; the sources give no body length.
+age:
+  first_ma: 48.07
+  last_ma: 37.71
+  early_interval: Lutetian
+  late_interval: Bartonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dongnanosuchus hsui
+  authority: Shan et al. 2021
+  first_ma: 48.07
+  last_ma: 37.71
+  interval: Lutetian–Bartonian
+  reference: original description
+formations:
+- formation: Youganwo
+  group: ''
+  members: []
+  country: China
+  regions: [Guangdong]
+  interval: Lutetian–Bartonian
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: youganwo-china
+fossil_material:
+  holotype: Holotype skull from the Youganwo Formation, Maoming Basin, China (Shan et al. 2021).
+  material: The holotype and four further skulls kept at the Darwin Museum, Keelung, Taiwan.
+  completeness: multiple
+  exceptional: ''
+biology: Comparatively small-bodied, with a short, rounded snout.
+images:
+- kind: life
+  file: Dongnanosuchus hsui.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Dongnanosuchus_hsui.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dongnanosuchus_hsui.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-10'
+  caption: Life restoration of D. hsui
+  width: 1173
+  height: 573
+  review: unreviewed
+- kind: skeletal
+  file: Dongnaosuchus skull reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b6/Dongnaosuchus_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dongnaosuchus_skull_reconstruction.png
+  artist: Armin Reindl
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-09'
+  caption: Skull reconstruction of D. hsui
+  width: 1039
+  height: 891
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Orientalosuchina
+  genus_level: false
+sources:
+- kind: original
+  text: 'Shan, Hsi-yin; Wu, Xiao-Chun; Sato, Tamaki; Cheng, Yen-nien; Rufolo, Scott 2021. A new alligatoroid (Eusuchia,
+    Crocodylia) from the Eocene of China and its implications for the relationships of Orientalosuchina. Journal
+    of Paleontology 95(6): 1–19. doi:10.1017/jpa.2021.69'
+- kind: literature
+  text: Wu, X.C.; Wang, Y.C.; You, H.L.; Zhang, Y.Q.; Yi, L.P. 2022. New brevirostrines (Crocodylia, Brevirostres)
+    from the Upper Cretaceous of China. Cretaceous Research 144. doi:10.1016/j.cretres.2022.105450
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dongnanosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dongnanosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dongnanosuchus”. English Wikipedia, revision 1385674612.
+  url: https://en.wikipedia.org/w/index.php?title=Dongnanosuchus&oldid=1385674612
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

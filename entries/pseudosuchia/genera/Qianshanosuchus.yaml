@@ -1,0 +1,71 @@
+name: Qianshanosuchus
+rank: genus
+parent: crocodyloidea
+incertae_sedis: false
+placement_note: ''
+authority: Boerman et al. 2023
+type_species: Qianshanosuchus youngi
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Basal crocodyloid from the Paleocene Qianshan Basin of China, known from a juvenile skull.
+size:
+  length_m: null
+  note: The holotype skull is 9.7 cm long and probably from a juvenile.
+age:
+  first_ma: 66
+  last_ma: 61.66
+  early_interval: Danian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Qianshanosuchus youngi
+  authority: Boerman et al. 2023
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: original description
+formations:
+- formation: Wanghudun
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Anhui]
+  interval: Early Paleocene
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: wanghudun-china
+fossil_material:
+  holotype: An incomplete juvenile skull with parts of the lower jaw, near Xialou, Qianshan Basin, China.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: The only basal crocodyloid known from the Paleocene of China, where alligatoroids and planocraniids were
+  the known crocodylians.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Astorgosuchus bugtiensis
+  matched: Crocodyloidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Boerman SA, Perrichon G, Yang J, Li CS, Martin JE, Speijer RP, Smith T 2022. A juvenile skull from the
+    early Palaeocene of China extends the appearance of crocodyloids in Asia back by 15–20 million years. Zoological
+    Journal of the Linnean Society 197(3): 787–811. doi:10.1093/zoolinnean/zlac067'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Qianshanosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Qianshanosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Qianshanosuchus”. English Wikipedia, revision 1298431500.
+  url: https://en.wikipedia.org/w/index.php?title=Qianshanosuchus&oldid=1298431500
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

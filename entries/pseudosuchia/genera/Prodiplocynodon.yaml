@@ -1,0 +1,71 @@
+name: Prodiplocynodon
+rank: genus
+parent: crocodyloidea
+incertae_sedis: false
+placement_note: ''
+authority: Mook 1941
+type_species: Prodiplocynodon langi
+type_species_note: ''
+summary: Late Cretaceous basal crocodyloid from the Lance Formation of Wyoming, one of the few Cretaceous crocodyloids.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Prodiplocynodon langi
+  authority: Mook 1941
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: A skull without the lower jaw, collected in 1892 near the Cheyenne River, Niobrara County, Wyoming.
+  material: Only the holotype skull.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/vector.svg
+  png: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/raster/512x90.png
+  page: https://www.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Kambara
+  matched: Longirostres
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mook, C. C. 1941. A new crocodilian from the Lance Formation. American Museum Novitates(1128): 1–5.'
+- kind: literature
+  text: 'Brochu, C. A. 2003. Phylogenetic approaches toward crocodylian history. Annual Review of Earth and Planetary
+    Sciences 31(31): 357–97. doi:10.1146/annurev.earth.31.100901.141308'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Prodiplocynodon (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Prodiplocynodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Prodiplocynodon”. English Wikipedia, revision 1300987865.
+  url: https://en.wikipedia.org/w/index.php?title=Prodiplocynodon&oldid=1300987865
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,300 @@
+name: Asiatosuchus
+rank: genus
+parent: crocodyloidea
+incertae_sedis: false
+placement_note: ''
+authority: Mook 1940
+type_species: Asiatosuchus grangeri
+type_species_note: ''
+summary: Generalized flat-skulled crocodyloid of Paleogene Eurasia; many species once referred to it are now considered
+  dubious.
+size:
+  length_m: [4, 4]
+  note: Largely complete skeletons of "A." germanicus and "A." depressifrons suggest lengths up to about 4 m.
+age:
+  first_ma: 60.9
+  last_ma: 33.9
+  early_interval: Selandian
+  late_interval: Priabonian
+  pbdb_occurrences: 32
+  note: ''
+species:
+- name: Asiatosuchus depressifrons
+  authority: (Blainville 1855)
+  first_ma: 59.24
+  last_ma: 37.71
+  interval: Thanetian–Bartonian
+  reference: ''
+- name: Asiatosuchus germanicus
+  authority: Berg 1966
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: ''
+- name: Asiatosuchus grangeri
+  authority: Mook 1940
+  first_ma: 56
+  last_ma: 37.71
+  interval: Ypresian–Bartonian
+  reference: original description
+- name: Asiatosuchus monsvialensis
+  authority: (Fabiani 1914)
+  first_ma: 33.9
+  last_ma: 13.82
+  interval: Rupelian–Langhian
+  reference: ''
+- name: Asiatosuchus nanlingensis
+  authority: Young 1964
+  first_ma: 60.9
+  last_ma: 57.5
+  interval: Selandian–Thanetian
+  reference: ''
+- name: Asiatosuchus oenotriensis
+  authority: Narváez et al. 2024
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: ''
+formations:
+- formation: Tienen
+  group: Landen
+  members: [Dormaal, Erquelinnes Sand]
+  country: Belgium
+  regions: [Brabant, Hainaut, Leval-Trahegnies]
+  interval: Ypresian
+  occurrences: 5
+  ma: [48.07, 56.0]
+  id: tienen-belgium
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Aude, Drome, Oise, Picardie]
+  interval: Late Paleocene–Lutetian
+  occurrences: 5
+  ma: [41.03, 59.24]
+  id:
+  - unnamed-eygalayes-france
+  - unnamed-la-borie-france
+  - unnamed-muirancourt-france
+  - unnamed-petit-patis-rivecourt-france
+  - unnamed-premontre-level-2-france
+- formation: Nongshan
+  group: Luofozhai
+  members: [Zhuguikou]
+  country: China
+  regions: [Guangdong]
+  interval: Tiffanian
+  occurrences: 4
+  ma: [57.5, 60.9]
+  id: nongshan-china
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Sachsen-Anhalt]
+  interval: Lutetian
+  occurrences: 3
+  ma: [41.03, 48.07]
+  id: unnamed-geiseltal-mittelkohle-zone-ii-germany
+- formation: Corrales
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Lutetian
+  occurrences: 3
+  ma: [41.03, 48.07]
+  id: corrales-spain
+- formation: Vaugirard
+  group: ''
+  members: []
+  country: France
+  regions: [Île-de-France]
+  interval: Ypresian
+  occurrences: 2
+  ma: [48.07, 56.0]
+  id: vaugirard-france
+- formation: Entrala
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Lutetian
+  occurrences: 2
+  ma: [41.03, 48.07]
+  id: entrala-spain
+- formation: Argiles d'lignite du Soissonnais
+  group: ''
+  members: []
+  country: France
+  regions: [Oise]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: argiles-d-lignite-du-soissonnais-france
+- formation: Arshanto
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Arshantan
+  occurrences: 1
+  ma: [37.71, 56.0]
+  id: arshanto-china
+- formation: Drazinda
+  group: ''
+  members: [upper middle]
+  country: Pakistan
+  regions: [Punjab]
+  interval: Bartonian
+  occurrences: 1
+  ma: [37.71, 41.03]
+  id: drazinda-pakistan
+- formation: Sables du Castrais
+  group: ''
+  members: []
+  country: France
+  regions: [Aude]
+  interval: Ypresian–Bartonian
+  occurrences: 1
+  ma: [37.71, 56.0]
+  id: sables-du-castrais-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Verona]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: unnamed-monte-purga-vestenanova-di-bolca-italy
+- formation: Sables de Bracheux
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Thanetian
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: sables-de-bracheux-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Middle Eocene
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: unnamed-cazurra-spain
+- formation: Viștea Limestone
+  group: ''
+  members: []
+  country: Romania
+  regions: [Cluj-Napoca]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: vistea-limestone-romania
+fossil_material:
+  holotype: Type material of A. grangeri from Mongolia (Mook 1940).
+  material: Skulls and skeletons from Europe and Asia referred to several species, most of them now nomina dubia.
+  completeness: multiple
+  exceptional: ''
+biology: Its upper teeth fully overlapped the lower ones (an overbite), a primitive crocodylian trait.
+images:
+- kind: fossil
+  file: Crocodylus depressifrons.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Crocodylus_depressifrons.jpg/960px-Crocodylus_depressifrons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Crocodylus_depressifrons.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-11'
+  caption: Skull of "Crocodylus" depressifrons (A. depressifrons)
+  width: 2048
+  height: 1536
+  review: unreviewed
+- kind: fossil
+  file: Asiatosuchus germanicus - skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Asiatosuchus_germanicus_-_skull.jpg/960px-Asiatosuchus_germanicus_-_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Asiatosuchus_germanicus_-_skull.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-19'
+  caption: Skull of A. germanicus
+  width: 1706
+  height: 793
+  review: unreviewed
+- kind: fossil
+  file: Asiatosuchus germanicus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Asiatosuchus_germanicus.jpg/960px-Asiatosuchus_germanicus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Asiatosuchus_germanicus.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-19'
+  caption: Skeleton of A. germanicus
+  width: 1917
+  height: 1370
+  review: unreviewed
+- kind: fossil
+  file: Asiatosuchus 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Asiatosuchus_2.jpg/960px-Asiatosuchus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Asiatosuchus_2.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2009-06
+  caption: Skull of Asiatosuchus
+  width: 2560
+  height: 1920
+  review: unreviewed
+- kind: fossil
+  file: Asiatosuchus nanlingensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Asiatosuchus_nanlingensis.png/960px-Asiatosuchus_nanlingensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Asiatosuchus_nanlingensis.png
+  artist: Yan-yin Wang​, Corwin Sullivan, Jun Liu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Jaw material of A. nanlingensis
+  width: 3200
+  height: 3490
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Astorgosuchus bugtiensis
+  matched: Crocodyloidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mook, C.C. 1940. A new fossil crocodilian from Mongolia. American Museum Novitates(1097): 1–3.'
+- kind: literature
+  text: 'Delfino, M.; Smith, T. 2009. A reassessment of the morphology and taxonomic status of ''Crocodylus''depressifronsBlainville,
+    1855 (Crocodylia, Crocodyloidea) based on the Early Eocene remains from Belgium. Zoological Journal of the Linnean
+    Society 156: 140–167. doi:10.1111/j.1096-3642.2008.00478.x'
+- kind: literature
+  text: 'Walter, Jules D.; Massonne, Tobias; Paiva, Ana Laura S.; Martin, Jeremy E.; Delfino, Massimo; Rabi, Márton
+    2025. Expanded phylogeny elucidates Deinosuchus relationships, crocodylian osmoregulation and body-size evolution.
+    Communications Biology 8(1): 611. doi:10.1038/s42003-025-07653-4'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Asiatosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Asiatosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Asiatosuchus”. English Wikipedia, revision 1368822911.
+  url: https://en.wikipedia.org/w/index.php?title=Asiatosuchus&oldid=1368822911
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Most species listed by PBDB are regarded as nomina dubia or belong elsewhere (Wikipedia); the species list needs
+    revision.
+  reviews: []

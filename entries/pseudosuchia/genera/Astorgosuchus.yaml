@@ -1,0 +1,92 @@
+name: Astorgosuchus
+rank: genus
+parent: crocodyloidea
+incertae_sedis: false
+placement_note: ''
+authority: Martin et al. 2019
+type_species: Astorgosuchus bugtiensis
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Giant late Oligocene crocodyloid from the Bugti Hills of Pakistan, up to 7–8 m long.
+size:
+  length_m: [7, 8]
+  note: May have reached 7–8 m.
+age:
+  first_ma: 33.9
+  last_ma: 23.04
+  early_interval: Rupelian
+  late_interval: Chattian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Astorgosuchus bugtiensis
+  authority: (Pilgrim 1908)
+  first_ma: 33.9
+  last_ma: 23.04
+  interval: Rupelian–Chattian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Pakistan
+  regions: [Baluchistan]
+  interval: Oligocene
+  occurrences: 1
+  ma: [23.04, 33.9]
+  id: unnamed-pishi-nala-pakistan
+- formation: Chitarwata
+  group: ''
+  members: [Bugti]
+  country: Pakistan
+  regions: [Baluchistan]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: chitarwata-pakistan
+fossil_material:
+  holotype: IM E221 — left maxilla with cranial fragments, Pishi Nala, Bugti Hills (Indian Museum, Kolkata).
+  material: The holotype and other remains from the Bugti Hills.
+  completeness: fragmentary
+  exceptional: ''
+biology: Preyed on large mammals; bite marks of a large crocodile on bones of juvenile Paraceratherium may or may
+  not be its own.
+images:
+- kind: skeletal
+  file: Astorgosuchus skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/d/df/Astorgosuchus_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Astorgosuchus_skull.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: ''
+  caption: Skull reconstruction showing the known holotype material
+  width: 348
+  height: 413
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Astorgosuchus bugtiensis
+  matched: Crocodyloidea
+  genus_level: false
+sources:
+- kind: original
+  text: Martin, Jeremy E.; Antoine, Pierre-Olivier; Perrier, Vincent; Welcomme, Jean-Loup; Metais, Gregoire; Marivaux,
+    Laurent 2019. A large crocodyloid from the Oligocene of the Bugti Hills, Pakistan. Journal of Vertebrate Paleontology
+    39(4). doi:10.1080/02724634.2019.1671427
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Astorgosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Astorgosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Astorgosuchus”. English Wikipedia, revision 1376851795.
+  url: https://en.wikipedia.org/w/index.php?title=Astorgosuchus&oldid=1376851795
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

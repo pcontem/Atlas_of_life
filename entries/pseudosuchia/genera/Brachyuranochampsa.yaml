@@ -1,0 +1,83 @@
+name: Brachyuranochampsa
+rank: genus
+parent: crocodyloidea
+incertae_sedis: false
+placement_note: ''
+authority: Zangerl 1944
+type_species: Brachyuranochampsa eversolei
+type_species_note: PBDB gives no type species; B. eversolei is the only species kept in the genus (Wikipedia).
+summary: Middle Eocene crocodyloid from Wyoming, consistently recovered just outside crown Crocodylidae.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 83.6
+  last_ma: 39.7
+  early_interval: Late Campanian
+  late_interval: Bartonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Brachyuranochampsa eversolei
+  authority: Zangerl 1944
+  first_ma: 45.9
+  last_ma: 39.7
+  interval: Lutetian–Bartonian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Washakie
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Uintan
+  occurrences: 1
+  ma: [39.7, 45.9]
+  id: washakie-united-states
+fossil_material:
+  holotype: Type material of B. eversolei, Middle Eocene of Wyoming.
+  material: The only robust occurrence is B. eversolei; B. zangerli has been synonymized with "Crocodylus" affinis.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Astorgosuchus bugtiensis
+  matched: Crocodyloidea
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Brochu, C. A. 1997. Morphology, fossils, divergence timing, and the phylogenetic relationships of Gavialis.
+    Systematic Biology 46(3): 479-522. doi:10.1093/sysbio/46.3.479'
+- kind: literature
+  text: 'Michael S. Y. Lee 27 J. Tip-dating and homoplasy: reconciling the shallow molecular divergences of modern
+    gharials with their long fossil. Proceedings of the Royal Society B 285(1881). doi:10.1098/rspb.2018.1071'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brachyuranochampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brachyuranochampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brachyuranochampsa”. English Wikipedia, revision 1300979317.
+  url: https://en.wikipedia.org/w/index.php?title=Brachyuranochampsa&oldid=1300979317
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB gives the authority as Zangerl 1910, but its type species is B. eversolei Zangerl 1944; check the original
+    description.
+  reviews: []
