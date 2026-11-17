@@ -121,7 +121,7 @@ def dossier(R, g):
         print("  silhouette:", s["matched"], s.get("depicts"), s["attribution"], s["license"], "genus level" if s["genus_level"] else "relative")
 
 
-BAD_IMG = re.compile(r"(map|scale|size|comparison|compar|phylogen|clad|diagram|chart|stamp|statue|model|sculpt|museum model|life-size|\.svg$|tamano|tamaño)", re.I)
+BAD_IMG = re.compile(r"(map\\b|range map|scale diagram|\\bsize|comparison|compar|phylogen|clad|diagram|chart|stamp|statue|model|sculpt|museum model|life-size|\.svg$|tamano|tamaño)", re.I)
 
 
 def img_kind(t, f):
@@ -218,6 +218,29 @@ def license_url(f):
     return u.replace("http://", "https://")
 
 
+def image(files, n, kind, cap, artist=None):
+    t, f = files[n - 1]
+    return dict(kind=kind, file=t[5:], url=f["url"] if f.get("width", 0) <= 1600 else f["thumb"].replace("330px-", "960px-"),
+                page=f["page"], artist=artist or f.get("Artist") or "Unknown (no author on the Commons page)",
+                license=f.get("LicenseShortName", ""), license_url=license_url(f),
+                date=(f.get("DateTimeOriginal") or "")[:10], caption=cap, width=f.get("width"), height=f.get("height"),
+                review="unreviewed")
+
+
+def addimg(R, vol, specs):
+    """Add Commons candidates to existing entries: specs = ["Genus:n:kind:caption", ...]."""
+    for spec in specs:
+        g, n, kind, cap = spec.split(":", 3)
+        p = ROOT / "entries" / vol / "genera" / f"{g}.yaml"
+        e = yaml.safe_load(p.read_text())
+        im = image(files_of(R, g), int(n), kind, cap)
+        if any(x["page"] == im["page"] for x in e.get("images") or []):
+            continue
+        e.setdefault("images", []).append(im)
+        p.write_text(yaml.safe_dump(e, allow_unicode=True, sort_keys=False, width=120))
+        print("added", g, n)
+
+
 def write(R, vol, batch, force=False):
     B = yaml.safe_load(pathlib.Path(batch).read_text())
     out = ROOT / "entries" / vol / "genera"
@@ -259,15 +282,8 @@ def write(R, vol, batch, force=False):
         if h.get("extant"):
             la = 0
         files = files_of(R, g)
-        images = []
-        for n, kind, *cap in h.get("images", []):
-            cap = ", ".join(str(c) for c in cap)
-            t, f = files[n - 1]
-            images.append(dict(kind=kind, file=t[5:], url=f["url"] if f.get("width", 0) <= 1600 else f["thumb"].replace("330px-", "960px-"),
-                               page=f["page"], artist=h.get("artists", {}).get(n) or f.get("Artist") or "Unknown (no author on the Commons page)",
-                               license=f.get("LicenseShortName", ""), license_url=license_url(f),
-                               date=(f.get("DateTimeOriginal") or "")[:10], caption=cap, width=f.get("width"), height=f.get("height"),
-                               review="unreviewed"))
+        images = [image(files, n, kind, ", ".join(str(c) for c in cap), h.get("artists", {}).get(n))
+                  for n, kind, *cap in h.get("images", [])]
         e = dict(name=g, rank="genus", parent=h["parent"], incertae_sedis=bool(h.get("incertae_sedis")),
                  placement_note=h.get("placement_note", ""), authority=h.get("authority") or authority(r.get("taxon_attr")).strip("()"),
                  type_species=ts, type_species_note=h.get("type_species_note", ""), summary=h["summary"])
@@ -334,6 +350,8 @@ if __name__ == "__main__":
     elif cmd == "dossier":
         for g in rest:
             dossier(R, g)
+    elif cmd == "addimg":
+        addimg(R, vol, rest)
     elif cmd == "synonyms":
         synonyms(R, vol, yaml.safe_load(pathlib.Path(rest[0]).read_text()) if rest else None)
     elif cmd == "write":

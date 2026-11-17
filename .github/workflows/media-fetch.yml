@@ -10,6 +10,7 @@ on:
     inputs:
       volume: { description: "Volume folder (empty = all)", required: false, default: "" }
   push:
+    branches-ignore: [main]  # a merge must not run it again
     paths: [media/fetch_request.json]
 permissions: { contents: write }
 concurrency: { group: media, cancel-in-progress: false }
