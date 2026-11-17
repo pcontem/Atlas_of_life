@@ -12,7 +12,7 @@ on:
       volume: { description: "Volume folder (entries/<volume>)", required: true }
       base: { description: "PBDB base taxon", required: true }
       genera: { description: "Only these genera (comma-separated; empty = all)", required: false, default: "" }
-      sheets: { description: "Make contact sheets", type: boolean, default: true }
+      sheets: { description: "Contact sheets: true, false or only (from data already harvested)", default: "true" }
 permissions: { contents: write }
 jobs:
   harvest:
@@ -38,15 +38,23 @@ jobs:
         run: |
           args=("$VOL" "$BASE")
           [ -n "$GENERA" ] && args+=(--genera "$GENERA")
-          [ "$SHEETS" = "true" ] && args+=(--sheets /tmp/sheets)
+          [ "$SHEETS" = "true" ] || [ "$SHEETS" = "only" ] && args+=(--sheets /tmp/sheets)
+          [ "$SHEETS" = "only" ] && args+=(--sheets-only)
           python3 -u scripts/fetch/harvest.py "${args[@]}"
       - uses: actions/upload-artifact@v4
         if: always()
         with: { name: "raw-${{ env.VOL }}", path: "data/raw/${{ env.VOL }}", retention-days: 30 }
       - uses: actions/upload-artifact@v4
-        if: always() && env.SHEETS == 'true'
+        if: always() && env.SHEETS != 'false'
         with: { name: "contact-sheets-${{ env.VOL }}", path: /tmp/sheets, retention-days: 30 }
+      - name: Contact sheets to the branch sheets/<volume> (artifact downloads are blocked in some sessions)
+        if: env.SHEETS != 'false'
+        run: |
+          cd /tmp/sheets && git init -q -b sheets && git add -A
+          git -c user.name=github-actions[bot] -c user.email=41898283+github-actions[bot]@users.noreply.github.com commit -qm "Contact sheets of $VOL"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "sheets:sheets/$VOL"
       - name: Commit raw data
+        if: env.SHEETS != 'only'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

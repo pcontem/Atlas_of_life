@@ -298,6 +298,11 @@ def main():
     sheet_dir = pathlib.Path(a[a.index("--sheets") + 1]) if "--sheets" in a else None
     raw = ROOT / "data/raw" / vol
     raw.mkdir(parents=True, exist_ok=True)
+    if "--sheets-only" in a:  # contact sheets from data already harvested
+        files = json.loads((raw / "commons.json").read_text())["files"]
+        names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
+        sheets(files, names, sheet_dir)
+        return
     w = lambda name, obj: (raw / name).write_text(json.dumps(obj, ensure_ascii=False, indent=0))
     print("PBDB taxa…")
     gen, species, inv = pbdb(base)
