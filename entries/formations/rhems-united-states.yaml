@@ -1,0 +1,31 @@
+id: rhems-united-states
+name: Rhems
+rank: formation
+group: Black Mingo
+country: United States
+regions: [South Carolina]
+location:
+  lat: 33.671
+  lng: -79.829
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 66.0
+  last_ma: 61.66
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [marginal marine indet.]
+lithology: [not reported]
+pbdb_collections: ['115148', '115152']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Rhems (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Rhems
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

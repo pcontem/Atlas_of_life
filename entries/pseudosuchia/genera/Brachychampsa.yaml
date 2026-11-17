@@ -1,0 +1,298 @@
+name: Brachychampsa
+rank: genus
+parent: alligatoridae
+incertae_sedis: true
+placement_note: Possibly a basal caiman or a basal alligatorine (Walter et al. 2022); once also placed outside Alligatoridae.
+authority: Gilmore 1911
+type_species: Brachychampsa montana
+type_species_note: PBDB gives no type species; B. montana was named with the genus (Gilmore 1911).
+summary: Broad-snouted alligatorid of the latest Cretaceous of western North America, with crushing rear teeth.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 93.9
+  last_ma: 63.4
+  early_interval: Turonian
+  late_interval: Danian
+  pbdb_occurrences: 131
+  note: ''
+species:
+- name: Brachychampsa montana
+  authority: Gilmore 1911
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Brachychampsa sealeyi
+  authority: Williamson 1996
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: [Little Beaver Creek, Pretty Butte, Upper]
+  country: United States
+  regions: [Montana, North Dakota, South Dakota]
+  interval: Late Maastrichtian
+  occurrences: 65
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota, Wyoming]
+  interval: Lancian
+  occurrences: 22
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Ferris
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 17
+  ma: [66.0, 72.2]
+  id: ferris-united-states
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Fruitland
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Kirtland
+  group: ''
+  members: [De-na-zin]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: El Gallo
+  group: ''
+  members: [El Disecado]
+  country: Mexico
+  regions: [Baja California]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: el-gallo-mexico
+- formation: Menefee
+  group: Mesaverde
+  members: [Allison]
+  country: United States
+  regions: [New Mexico]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: menefee-united-states
+- formation: Marshalltown
+  group: Matawan
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: marshalltown-united-states
+- formation: Laramie
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: laramie-united-states
+- formation: Mesaverde
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Judithian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: mesaverde-united-states
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Judith River
+  group: Montana
+  members: [Coal Ridge]
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-canada
+- formation: Tullock
+  group: ''
+  members: [Collins Ranch]
+  country: United States
+  regions: [Montana]
+  interval: Puercan
+  occurrences: 1
+  ma: [63.4, 66.0]
+  id: tullock-united-states
+- formation: Dabrazhin
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Ongtüstik Qazaqstan]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dabrazhin-kazakhstan
+- formation: Medicine Bow
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: medicine-bow-united-states
+- formation: Mount Laurel
+  group: Monmouth
+  members: [upper]
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: mount-laurel-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: unnamed-kulkuduk-2-uzbekistan
+- formation: Williams Fork
+  group: Mesaverde
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: williams-fork-united-states
+- formation: Kaiparowits
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kaiparowits-united-states
+fossil_material:
+  holotype: Type material of B. montana from the Hell Creek beds, Montana (Gilmore 1911).
+  material: Skulls and postcranial remains from Montana, Utah and New Mexico; other referred material is less certain.
+  completeness: multiple
+  exceptional: ''
+biology: Heterodont teeth, with blunt rear teeth probably used to crush hard prey.
+images:
+- kind: life
+  file: Brachychampsa NT small.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Brachychampsa_NT_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Brachychampsa_NT_small.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/ http://paleoexhibit.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-07-06'
+  caption: Life restoration of Brachychampsa
+  width: 1000
+  height: 332
+  review: unreviewed
+- kind: fossil
+  file: Brachychampsa sp skull salt lake city.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Brachychampsa_sp_skull_salt_lake_city.jpg/960px-Brachychampsa_sp_skull_salt_lake_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brachychampsa_sp_skull_salt_lake_city.jpg
+  artist: Jens Lallensack
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2016-10
+  caption: Skull of Brachychampsa sp.
+  width: 4646
+  height: 2873
+  review: unreviewed
+- kind: fossil
+  file: Brachychampsa sp. - Natural History Museum of Utah - DSC07238.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Brachychampsa_sp._-_Natural_History_Museum_of_Utah_-_DSC07238.JPG/960px-Brachychampsa_sp._-_Natural_History_Museum_of_Utah_-_DSC07238.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brachychampsa_sp._-_Natural_History_Museum_of_Utah_-_DSC07238.JPG
+  artist: Daderot
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2013-03-17'
+  caption: Skeleton of Brachychampsa sp.
+  width: 4320
+  height: 3240
+  review: unreviewed
+- kind: fossil
+  file: Brachychampsa sp. - Natural History Museum of Utah - DSC07244.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Brachychampsa_sp._-_Natural_History_Museum_of_Utah_-_DSC07244.JPG/960px-Brachychampsa_sp._-_Natural_History_Museum_of_Utah_-_DSC07244.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brachychampsa_sp._-_Natural_History_Museum_of_Utah_-_DSC07244.JPG
+  artist: Daderot
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2013-03-17'
+  caption: Skull of Brachychampsa sp.
+  width: 4320
+  height: 3240
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Brachychampsa
+  genus_level: true
+sources:
+- kind: original
+  text: 'Gilmore, Charles W. 1911. A new fossil alligator from the Hell Creek Beds of Montana. Proceedings of the
+    United States National Museum 41(1860): 297–302. doi:10.5479/si.00963801.41-1860.297'
+- kind: literature
+  text: 'Williamson, Thomas E. 1996. ?''''Brachychampsa sealeyi'''', sp. nov., (Crocodylia, Alligatoridea) from
+    the Upper Cretaceous (Lower Campanian) Menefee Formation, northwestern New Mexico. Journal of Vertebrate Paleontology
+    16(3): 421–431. doi:10.1080/02724634.1996.10011331'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brachychampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brachychampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brachychampsa”. English Wikipedia, revision 1367336079.
+  url: https://en.wikipedia.org/w/index.php?title=Brachychampsa&oldid=1367336079
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [B. sealeyi may be an immature B. montana.]
+  reviews: []

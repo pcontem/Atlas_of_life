@@ -1,0 +1,137 @@
+name: Eocaiman
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Simpson 1933
+type_species: Eocaiman cavernensis
+type_species_note: ''
+summary: Early caiman from the Paleocene to Miocene of Argentina, Brazil and Colombia, usually one of the most basal
+  caimanines.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 66
+  last_ma: 11
+  early_interval: Danian
+  late_interval: Tortonian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Eocaiman cavernensis
+  authority: Simpson 1933
+  first_ma: 41.03
+  last_ma: 37.71
+  interval: Bartonian
+  reference: original description
+- name: Eocaiman itaboraiensis
+  authority: Pinheiro et al. 2013
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: ''
+- name: Eocaiman palaeocenicus
+  authority: Bona 2007
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: ''
+formations:
+- formation: Salamanca
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Danian
+  occurrences: 2
+  ma: [61.66, 66.0]
+  id: salamanca-argentina
+- formation: Unnamed unit
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila, Tolima]
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: honda-group-colombia
+- formation: Sarmiento
+  group: ''
+  members: [Gran Barranca]
+  country: Argentina
+  regions: [Chubut]
+  interval: Bartonian
+  occurrences: 1
+  ma: [37.71, 41.03]
+  id: sarmiento-argentina
+- formation: Peñas Coloradas
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: penas-coloradas-argentina
+- formation: Itaboraí
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Rio de Janeiro]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: itaborai-brazil
+fossil_material:
+  holotype: Type material of E. cavernensis from the Sarmiento Formation, Patagonia (Simpson 1933).
+  material: Three species from Argentina, Brazil and Colombia; Notocaiman was sunk into E. palaeocenicus in 2022.
+  completeness: multiple
+  exceptional: ''
+biology: One of the earliest caimans of South America; the sources say little about its habits.
+images:
+- kind: fossil
+  file: Eocaiman left dentaries.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Eocaiman_left_dentaries.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eocaiman_left_dentaries.png
+  artist: Massonne T, Augustin FJ
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025-05-23'
+  caption: Left dentaries of Eocaiman
+  width: 524
+  height: 368
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Globidonta
+  genus_level: false
+sources:
+- kind: original
+  text: G. G. Simpson. 1933. A new crocodilian from the Notostylops beds of Patagonia. American Museum Novitates
+    623:1-9
+- kind: literature
+  text: 'André E.P. Pinheiro 2013. A new ''''Eocaiman'''' (Alligatoridae, Crocodylia) from the Itaboraí Basin, Paleogene
+    of Rio de Janeiro, Brazil. Historical Biology: An International Journal of Paleobiology 25(3): 327–337. doi:10.1080/08912963.2012.705838'
+- kind: literature
+  text: 'Bona, Paula; Barrios, Francisco; Ezcurra, Martín D.; Blanco, M. Victoria Fernandez 2022. The Taxonomic
+    Status of Notocaiman stromeri (Crocodylia, Alligatoroidea) and the Early Diversity of South American Caimanines.
+    Ameghiniana 59(3): 210–220. doi:10.5710/AMGH.27.02.2022.3470'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eocaiman (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eocaiman
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eocaiman”. English Wikipedia, revision 1367735166.
+  url: https://en.wikipedia.org/w/index.php?title=Eocaiman&oldid=1367735166
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

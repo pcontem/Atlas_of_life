@@ -1,0 +1,68 @@
+name: Menatalligator
+rank: genus
+parent: alligatoridae
+incertae_sedis: true
+placement_note: Called an alligatorid by Wikipedia; PBDB places it only in Alligatoroidea.
+authority: Piton 1940
+type_species: Menatalligator bergouniouxi
+type_species_note: ''
+summary: Alligatorid from crater-lake deposits at Menat, central France.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 61.66
+  last_ma: 59.24
+  early_interval: Selandian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Menatalligator bergouniouxi
+  authority: Piton 1940
+  first_ma: 61.66
+  last_ma: 59.24
+  interval: Selandian
+  reference: original description
+formations:
+- formation: Menat
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne]
+  interval: Selandian
+  occurrences: 1
+  ma: [59.24, 61.66]
+  id: menat-france
+fossil_material:
+  holotype: Type material of M. bergouniouxi from Menat, Puy-de-Dôme, France.
+  material: Remains from a single locality.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived in a lake that filled a volcanic crater; fish such as Amia were probably part of its diet.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Alligatoroidea
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Menatalligator (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Menatalligator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Menatalligator”. English Wikipedia, revision 1209183176.
+  url: https://en.wikipedia.org/w/index.php?title=Menatalligator&oldid=1209183176
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Age conflict — PBDB Selandian (Paleocene), Wikipedia Ypresian (early Eocene); age kept from PBDB.
+  - Completeness and holotype to check in Piton (1940).
+  reviews: []

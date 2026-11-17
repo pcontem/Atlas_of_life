@@ -1,0 +1,133 @@
+name: Bottosaurus
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Agassiz 1849
+type_species: Bottosaurus harlani
+type_species_note: ''
+summary: Caiman relative with blunt crushing teeth from the latest Cretaceous and Paleocene of eastern North America.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 83.6
+  last_ma: 56
+  early_interval: Campanian
+  late_interval: Thanetian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Bottosaurus fustidens
+  authority: Cossette 2021
+  first_ma: 63.4
+  last_ma: 57.5
+  interval: Danian–Thanetian
+  reference: ''
+- name: Bottosaurus harlani
+  authority: (Meyer 1832)
+  first_ma: 72.2
+  last_ma: 61.66
+  interval: Maastrichtian–Danian
+  reference: original description
+formations:
+- formation: Hornerstown
+  group: Rancocas
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Maastrichtian–Early Paleocene
+  occurrences: 2
+  ma: [61.66, 72.2]
+  id: hornerstown-united-states
+- formation: Black Peaks
+  group: Tornillo
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Torrejonian–Tiffanian
+  occurrences: 2
+  ma: [57.5, 63.4]
+  id: black-peaks-united-states
+- formation: Rhems
+  group: Black Mingo
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Danian
+  occurrences: 2
+  ma: [61.66, 66.0]
+  id: rhems-united-states
+- formation: Williamsburg
+  group: Black Mingo
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Clarkforkian
+  occurrences: 1
+  ma: [56.0, 57.5]
+  id: williamsburg-united-states
+- formation: Severn
+  group: ''
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: severn-united-states
+- formation: Coachman
+  group: ''
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: coachman-united-states
+- formation: Donoho Creek
+  group: Black Creek
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: donoho-creek-united-states
+fossil_material:
+  holotype: Type material of B. harlani from the Late Cretaceous of New Jersey.
+  material: Mostly teeth, plus skull, jaw and postcranial material of B. fustidens.
+  completeness: multiple
+  exceptional: ''
+biology: Its blunt, conical crushing teeth suggest hard-shelled prey; it survived the end-Cretaceous extinction.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Cossette, Adam P. Octo. A new species of ''''Bottosaurus'''' (Alligatoroidea: Caimaninae) from the Black
+    Peaks Formation (Palaeocene) of Texas indicates an early radiation of North American caimanines. Zoological
+    Journal of the Linnean Society 191(1): 276–301. doi:10.1093/zoolinnean/zlz178'
+- kind: literature
+  text: 'Cossette, A. P.; Brochu, C. A. 15 O. A new specimen of the alligatoroid Bottosaurus harlani and the early
+    history of character evolution in alligatorids. Journal of Vertebrate Paleontology 38(4): (1)-(22). doi:10.1080/02724634.2018.1486321'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bottosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bottosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bottosaurus”. English Wikipedia, revision 1327695001.
+  url: https://en.wikipedia.org/w/index.php?title=Bottosaurus&oldid=1327695001
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

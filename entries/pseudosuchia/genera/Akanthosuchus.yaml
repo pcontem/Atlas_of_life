@@ -1,0 +1,86 @@
+name: Akanthosuchus
+rank: genus
+parent: alligatoroidea
+incertae_sedis: true
+placement_note: An alligatoroid regarded as a possible alligatorine; its position inside Alligatoroidea has not
+  been settled.
+authority: O'Neill et al. 1981
+type_species: Akanthosuchus langstoni
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Paleocene alligatoroid from New Mexico with unusual spiked and blade-shaped armour plates.
+size:
+  length_m: null
+  note: Moderately sized; the femur of the holotype is 137 mm long, but the specimen may not have been fully grown.
+age:
+  first_ma: 66
+  last_ma: 60.9
+  early_interval: Danian
+  late_interval: Selandian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Akanthosuchus langstoni
+  authority: O'Neill et al. 1981
+  first_ma: 66
+  last_ma: 60.9
+  interval: Danian–Selandian
+  reference: original description
+formations:
+- formation: Nacimiento
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Puercan–Torrejonian
+  occurrences: 3
+  ma: [60.9, 66.0]
+  id: nacimiento-united-states
+fossil_material:
+  holotype: NMMNH NP-139 — partial skeleton without the skull, Nacimiento Formation, San Juan Basin, New Mexico.
+  material: Holotype with the hindlimbs, 28 vertebrae and about 200 osteoderms, plus isolated osteoderms.
+  completeness: partial
+  exceptional: ''
+biology: Its armour mixed square, oval, bladed and conical spiked osteoderms; the spikes may have run in paired
+  rows down the back and tail and along the flanks.
+images:
+- kind: fossil
+  file: Akanthosuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/95/Akanthosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Akanthosuchus.jpg
+  artist: Robert V. Hill and Spencer G. Lucas
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2006'
+  caption: Osteoderms of Akanthosuchus langstoni
+  width: 1073
+  height: 1304
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Alligatoroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'O''Neill, F. Michael 1981. ''''Akanthosuchus langstoni'''', a new crocodilian from the Nacimiento Formation
+    (Paleocene, Torrejonian) of New Mexico. Journal of Paleontology 55(2): 340–352.'
+- kind: literature
+  text: 'Hill, Robert V. 2006. New data on the anatomy and relationships of the Paleocene crocodylian ''''Akanthosuchus
+    langstoni''''. Acta Palaeontologica Polonica 51(3): 455–464.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Akanthosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Akanthosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Akanthosuchus”. English Wikipedia, revision 1346377541.
+  url: https://en.wikipedia.org/w/index.php?title=Akanthosuchus&oldid=1346377541
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -121,6 +121,78 @@ def dossier(R, g):
         print("  silhouette:", s["matched"], s.get("depicts"), s["attribution"], s["license"], "genus level" if s["genus_level"] else "relative")
 
 
+BAD_IMG = re.compile(r"(map|scale|size|comparison|compar|phylogen|clad|diagram|chart|stamp|statue|model|sculpt|museum model|life-size|\.svg$|tamano|tamaño)", re.I)
+
+
+def img_kind(t, f):
+    d = (t + " " + f.get("ImageDescription", "")).lower()
+    if re.search(r"skeletal (reconstruction|diagram)|skeletal\b", d):
+        return "skeletal"
+    if re.search(r"restoration|reconstruction|life |recreaci|reconstitu|paleoart|illustration|drawing|pencil", d) and not re.search(r"skull reconstruction", d):
+        return "life"
+    if re.search(r"skull|fossil|holotype|specimen|jaw|mandible|teeth|tooth|scute|osteoderm|vertebra|bone|mount|cast|skeleton|cranium|plate", d):
+        return "fossil"
+    return None
+
+
+def auto_images(R, g, maxn=8):
+    """Suggested gallery: candidates named after the genus, not charts/maps/models, kind guessed from the text."""
+    out = []
+    for k, (t, f) in enumerate(files_of(R, g), 1):
+        lic = f.get("LicenseShortName", "")
+        if not re.match(r"(CC0|Public domain|CC BY(-SA)? \d|CC BY-SA \d|CC BY \d|PD)", lic, re.I) or "NC" in lic or "ND" in lic:
+            continue
+        if BAD_IMG.search(t) or BAD_IMG.search(f.get("ImageDescription", "")[:80]) or g.lower() not in (t + f.get("ImageDescription", "")).lower():
+            continue
+        kd = img_kind(t, f)
+        if kd:
+            out.append((k, kd))
+    return out[:maxn]
+
+
+def auto_original(R, g):
+    """Index of the Wikipedia citation that looks like the naming paper (same first author and year as the authority)."""
+    r, w = R["gen"].get(g, {}), R["wiki"].get(g, {})
+    m = re.match(r"\(?([^\d]+?)\s(?:et al\.?\s|and .*?\s)?(\d{4})", r.get("taxon_attr") or "")
+    if not m:
+        return None
+    who, yr = m.group(1).split()[0].lower(), m.group(2)
+    for k, c in enumerate(w.get("cites", []), 1):
+        a = (c.get("last1") or c.get("last") or c.get("author1") or c.get("authors") or c.get("vauthors") or "").lower()
+        if yr in (c.get("year") or c.get("date") or "") and who[:5] in a:
+            return k
+    return None
+
+
+def brief(R, g):
+    """A short dossier: the facts an entry needs, for batch drafting."""
+    r, w, s = R["gen"].get(g, {}), R["wiki"].get(g, {}), R["sil"].get(g)
+    print(f"##### {g} | {r.get('taxon_attr')} | PBDB parent {r.get('parent_name')} / {r.get('family')} | "
+          f"{r.get('early_interval')}–{r.get('late_interval', '')} {r.get('firstapp_max_ma')}–{r.get('lastapp_min_ma')} Ma | occ {r.get('n_occs')}")
+    print("  ref:", (r.get("primary_reference") or "")[:220])
+    print("  sp:", "; ".join(f"{x['name'].split()[-1]} {x['authority']}" for x in species(R, g)))
+    print("  fm:", "; ".join(f"{f['formation']} ({f['country']}, {f['interval']}, {f['occurrences']})" for f in formations(R, g)[:4]))
+    if w.get("missing"):
+        print("  WIKI: none")
+    else:
+        t = w.get("text", "")
+        tb = w.get("taxobox", {})
+        print(f"  WIKI {w['title']} rev {w['revid']}{'' if w.get('about_genus') else ' (!not about genus)'} | type: {tb.get('type_species', '')[:80]}")
+        sents = re.split(r"(?<=[.!?])\s+", re.sub(r"\n+", " ", t))
+        lead = " ".join(sents[:6])
+        print("  LEAD:", lead[:700])
+        keys = re.compile(r"(\d(\.\d+)? ?(m|metres|meters|cm|kg|ft)\b|length|long\b|weigh|holotype|specimen|[A-Z]{2,}[ -]?[A-Z]*\s?\d{2,}|diet|ate|fed|prey|teeth)", re.I)
+        extra = [x for x in sents[6:] if keys.search(x)][:10]
+        print("  MORE:", " ".join(extra)[:1600])
+        cs = [(k, c) for k, c in enumerate(w.get("cites", []), 1) if c.get("doi") or c.get("journal")]
+        print(f"  ORIG? {auto_original(R, g)} | CITES:", " | ".join(f"[{k}] {(c.get('last1') or c.get('last') or c.get('author1') or c.get('authors') or '')[:14]} {(c.get('year') or c.get('date') or '')[:4]} {c.get('title', '')[:45]}"
+                                     for k, c in cs[:9]))
+    fl = files_of(R, g)
+    print("  IMG auto:", " | ".join(f"{k}:{kd}:{fl[k - 1][0][5:40]}" for k, kd in auto_images(R, g)))
+    if s:
+        print(f"  SIL: {s['matched']}{'' if s['genus_level'] else ' (relative)'} {s['license'].split('/')[-3:-1]}")
+
+
 def cite_text(c):
     names = []
     for k in range(1, 30):
@@ -226,11 +298,43 @@ def write(R, vol, batch, force=False):
         print("wrote", p.relative_to(ROOT))
 
 
+def synonyms(R, vol, extra=None):
+    """Add to excluded.yaml the genus names PBDB treats as junior synonyms (or that the batch lists in `extra`:
+    {name: [senior genus, source text]}) whose senior genus already has an entry in this volume."""
+    exp = ROOT / "entries" / vol / "excluded.yaml"
+    ex = yaml.safe_load(exp.read_text()) or []
+    have = {x["name"] for x in ex}
+    entries = {p.stem for p in (ROOT / "entries" / vol / "genera").glob("*.yaml")}
+    added = []
+    for g, r in sorted(R["gen"].items()):
+        if g in have or g in entries or r.get("flags"):
+            continue
+        if r.get("difference") in ("subjective synonym of", "objective synonym of") and r.get("accepted_name") in entries:
+            ex.append(dict(name=g, author=r.get("taxon_attr", ""), status="junior synonym",
+                           ref=f"{r['difference'].capitalize()} {r['accepted_name']} (Paleobiology Database taxonomy, downloaded {R['pbdb_date']})",
+                           source="Paleobiology Database", parent=r["accepted_name"],
+                           placement="the senior synonym named by PBDB"))
+            added.append(g)
+    for g, (senior, src) in (extra or {}).items():
+        if g not in have and g not in added and senior in entries:
+            r = R["gen"].get(g, {})
+            ex.append(dict(name=g, author=r.get("taxon_attr", ""), status="junior synonym", ref=src,
+                           source="English Wikipedia", parent=senior, placement="the senior synonym named in the source"))
+            added.append(g)
+    exp.write_text(yaml.safe_dump(ex, allow_unicode=True, sort_keys=False, width=120))
+    print("excluded:", ", ".join(added) or "none")
+
+
 if __name__ == "__main__":
     vol, cmd, *rest = sys.argv[1:]
     R = raw(vol)
-    if cmd == "dossier":
+    if cmd == "brief":
+        for g in rest:
+            brief(R, g)
+    elif cmd == "dossier":
         for g in rest:
             dossier(R, g)
+    elif cmd == "synonyms":
+        synonyms(R, vol, yaml.safe_load(pathlib.Path(rest[0]).read_text()) if rest else None)
     elif cmd == "write":
         write(R, vol, rest[0], force="--force" in rest)
