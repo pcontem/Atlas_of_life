@@ -28,12 +28,12 @@ COMMONS = "https://commons.wikimedia.org/w/api.php"
 TODAY = datetime.date.today().isoformat()
 
 
-def fetch_json(url, params=None, tries=5):
+def fetch_json(url, params=None, tries=4):
     if params:
         url += "?" + urllib.parse.urlencode(params)
     for k in range(tries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=90) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as r:
                 return json.loads(r.read())
         except Exception as e:
             if k == tries - 1:
@@ -141,7 +141,9 @@ def wiki(names):
                           disambiguation="disambiguation" in p.get("pageprops", {}), taxobox=taxobox(wt),
                           cites=cites(wt), files=[im["title"] for im in p.get("images", [])
                                                   if re.search(r"\.(jpe?g|png|svg|tiff?|webp|gif)$", im["title"], re.I)])
-    for g, w in res.items():
+    for k, (g, w) in enumerate(res.items()):
+        if k % 50 == 0:
+            print(f"  wikipedia text {k}/{len(res)}", flush=True)
         if w.get("missing"):
             continue
         e = mw(WIKI, action="query", prop="extracts", explaintext=1, exsectionformat="wiki", titles=w["title"])
@@ -162,7 +164,10 @@ def strip_html(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
 
-def commons(wikires, names):
+LIVING_MAX = 6
+
+
+def commons(wikires, names, living=()):
     files = {}
 
     def add(title, genus, where):
@@ -173,14 +178,22 @@ def commons(wikires, names):
         if where not in f["found"]:
             f["found"].append(where)
 
-    for g in names:
-        for t in (wikires.get(g) or {}).get("files", []):
+    for k, g in enumerate(names):
+        if k % 50 == 0:
+            print(f"  commons {k}/{len(names)}", flush=True)
+        art = [t for t in (wikires.get(g) or {}).get("files", []) if not re.search(r"(map|range|distribution|\.svg$|icon|logo|status)", t, re.I)]
+        if g in living:
+            # living genera: only a few representative pictures (owner, 2026-11-17): those of the article
+            for t in art[:LIVING_MAX]:
+                add(t, g, "wikipedia")
+            continue
+        for t in art:
             add(t, g, "wikipedia")
         cats = [f"Category:{g}"]
-        sub = mw(COMMONS, action="query", list="categorymembers", cmtitle=f"Category:{g}", cmtype="subcat", cmlimit=50)
+        sub = mw(COMMONS, action="query", list="categorymembers", cmtitle=f"Category:{g}", cmtype="subcat", cmlimit=15)
         cats += [c["title"] for c in sub.get("query", {}).get("categorymembers", [])]
         for c in cats:
-            r = mw(COMMONS, action="query", list="categorymembers", cmtitle=c, cmtype="file", cmlimit=100)
+            r = mw(COMMONS, action="query", list="categorymembers", cmtitle=c, cmtype="file", cmlimit=60)
             for m in r.get("query", {}).get("categorymembers", []):
                 add(m["title"], g, c)
     titles = sorted(files)
@@ -203,7 +216,9 @@ def phylopic(names, lineage):
     root = fetch_json("https://api.phylopic.org/") or {}
     build = root.get("build")
     out = {}
-    for g in names:
+    for k, g in enumerate(names):
+        if k % 50 == 0:
+            print(f"  phylopic {k}/{len(names)}", flush=True)
         for name in [g] + lineage.get(g, []):
             n = fetch_json("https://api.phylopic.org/nodes", dict(build=build, filter_name=name.lower(), embed_items="true",
                                                                  embed_primaryImage="true", page=0))
@@ -228,8 +243,10 @@ def phylopic(names, lineage):
 def sheets(files, names, outdir):
     from PIL import Image, ImageDraw
     outdir.mkdir(parents=True, exist_ok=True)
-    for g in names:
-        cand = [(t, f) for t, f in sorted(files.items()) if g in f["genera"] and f.get("thumb")]
+    for k, g in enumerate(names):
+        if k % 50 == 0:
+            print(f"  sheets {k}/{len(names)}", flush=True)
+        cand = [(t, f) for t, f in sorted(files.items()) if g in f["genera"] and f.get("thumb")][:60]
         if not cand:
             continue
         cols, cw, ch = 4, 330, 300
@@ -273,8 +290,10 @@ def main():
     print(f"Wikipedia ({len(names)} genera)…")
     wk = wiki(names)
     w("wiki.json", dict(downloaded=TODAY, pages=wk))
-    print("Commons…")
-    files = commons(wk, names)
+    print("Commons…", flush=True)
+    living = {r["taxon_name"] for r in gen if r.get("is_extant") in ("extant", True, 1, "1")}
+    print(f"{len(living)} living genera: at most {LIVING_MAX} article images each")
+    files = commons(wk, names, living)
     w("commons.json", dict(downloaded=TODAY, files=files))
     print("PhyloPic…")
     lineage = {r["taxon_name"]: [x for x in (r.get("family"), r.get("parent_name"), r.get("order")) if x and x != "NO_FAMILY_SPECIFIED"]

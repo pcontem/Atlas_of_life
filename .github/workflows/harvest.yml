@@ -39,9 +39,12 @@ jobs:
           args=("$VOL" "$BASE")
           [ -n "$GENERA" ] && args+=(--genera "$GENERA")
           [ "$SHEETS" = "true" ] && args+=(--sheets /tmp/sheets)
-          python3 scripts/fetch/harvest.py "${args[@]}"
+          python3 -u scripts/fetch/harvest.py "${args[@]}"
       - uses: actions/upload-artifact@v4
-        if: env.SHEETS == 'true'
+        if: always()
+        with: { name: "raw-${{ env.VOL }}", path: "data/raw/${{ env.VOL }}", retention-days: 30 }
+      - uses: actions/upload-artifact@v4
+        if: always() && env.SHEETS == 'true'
         with: { name: "contact-sheets-${{ env.VOL }}", path: /tmp/sheets, retention-days: 30 }
       - name: Commit raw data
         run: |
