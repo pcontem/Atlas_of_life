@@ -1,0 +1,70 @@
+name: Melitosaurus
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1850
+type_species: Melitosaurus champsoides
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Early Miocene "tomistomine" gavialid from marine limestone on Gozo, Malta.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 20.45
+  last_ma: 15.98
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Melitosaurus champsoides
+  authority: Owen 1850
+  first_ma: 20.45
+  last_ma: 15.98
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Globigerina Limestone
+  group: ''
+  members: [Middle]
+  country: Malta
+  regions: []
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: globigerina-limestone-malta
+fossil_material:
+  holotype: Type material from the Globigerina Limestone of Gozo, Malta (Owen 1850).
+  material: Remains from a single locality.
+  completeness: fragmentary
+  exceptional: ''
+biology: A relative of the living false gharial found in marine rocks.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Iijima M, Qiao Y, Lin W, Peng Y, Yoneda M, Liu J 2022. An intermediate crocodylian linking two extant gharials
+    from the Bronze Age of China and its human-induced extinction. Proceedings of the Royal Society B: Biological
+    Sciences 289(1970). doi:10.1098/rspb.2022.0085'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Melitosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Melitosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Melitosaurus”. English Wikipedia, revision 1298688660.
+  url: https://en.wikipedia.org/w/index.php?title=Melitosaurus&oldid=1298688660
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

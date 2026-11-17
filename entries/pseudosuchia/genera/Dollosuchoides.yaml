@@ -1,0 +1,72 @@
+name: Dollosuchoides
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Brochu 2007
+type_species: Dollosuchoides densmorei
+type_species_note: ''
+summary: '"Crocodile of Maransart": a middle Eocene "tomistomine" gavialoid from Belgium.'
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 48.07
+  last_ma: 41.03
+  early_interval: Lutetian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dollosuchoides densmorei
+  authority: Brochu 2007
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: original description
+formations:
+- formation: Brussel Sand
+  group: ''
+  members: []
+  country: Belgium
+  regions: []
+  interval: Lutetian
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: brussel-sand-belgium
+fossil_material:
+  holotype: IRScNB 482 — a nearly complete skeleton found in 1915, Brussels Formation, Maransart, Belgium.
+  material: The holotype skeleton.
+  completeness: near-complete
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/vector.svg
+  png: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/raster/536x1311.png
+  page: https://www.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Gunggamarandu maunala
+  matched: Gavialoidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brochu, C.A. 2007. Systematics and taxonomy of Eocene tomistomine crocodylians from Britain and Northern
+    Europe. [[Palaeontology (journal) 50(4): 917–928. doi:10.1111/j.1475-4983.2007.00679.x'
+- kind: literature
+  text: 'Piras, P.; Delfino, M.; Del Favero, L.; Kotsakis, T. 2007. Phylogenetic position of the crocodylian ''''Megadontosuchus
+    arduini'''' and tomistomine palaeobiogeography. Acta Palaeontologica Polonica 52(2): 315–328.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dollosuchoides (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dollosuchoides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dollosuchoides”. English Wikipedia, revision 1314015068.
+  url: https://en.wikipedia.org/w/index.php?title=Dollosuchoides&oldid=1314015068
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
