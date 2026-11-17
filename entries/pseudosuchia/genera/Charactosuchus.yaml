@@ -1,0 +1,121 @@
+name: Charactosuchus
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Langston 1965
+type_species: Charactosuchus fieldsi
+type_species_note: ''
+summary: Long, narrow-snouted crocodylid of the Eocene–Miocene of South America and the Caribbean, gharial-like
+  but related to true crocodiles.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 48.07
+  last_ma: 7.246
+  early_interval: Lutetian
+  late_interval: Tortonian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Charactosuchus fieldsi
+  authority: Langston 1965
+  first_ma: 13.8
+  last_ma: 7.246
+  interval: Serravallian–Tortonian
+  reference: original description
+- name: Charactosuchus kugleri
+  authority: von Berg 1969
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: ''
+- name: Charactosuchus sansoai
+  authority: Souza Filho 1991
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+formations:
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian
+  occurrences: 3
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+- formation: Chapelton
+  group: Yellow Limestone
+  members: [Guys Hill]
+  country: Jamaica
+  regions: []
+  interval: Lutetian
+  occurrences: 2
+  ma: [41.03, 48.07]
+  id: chapelton-jamaica
+- formation: Villavieja
+  group: Honda
+  members: [Baraya]
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+- formation: Urumaco
+  group: ''
+  members: [Upper]
+  country: Venezuela
+  regions: [Falcon]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: urumaco-venezuela
+fossil_material:
+  holotype: Type material of C. fieldsi from the Villavieja Formation, La Venta, Colombia (Langston 1965).
+  material: Jaws and skull material from Colombia, Brazil, Venezuela and Jamaica.
+  completeness: multiple
+  exceptional: ''
+biology: Its long, narrow snout evolved independently of the gharials'.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Langston, W. 1965. Fossil crocodilians from Colombia and the Cenozoic history of the Crocodilia in South
+    America. University of California Publications in Geological Sciences 52: 1–169.'
+- kind: literature
+  text: 'Cozzuol, M. A. 2006. The Acre vertebrate fauna: Age, diversity, and geography. Journal of South American
+    Earth Sciences 21(3): 185–203. doi:10.1016/j.jsames.2006.03.005'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Charactosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Charactosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Charactosuchus”. English Wikipedia, revision 1354655547.
+  url: https://en.wikipedia.org/w/index.php?title=Charactosuchus&oldid=1354655547
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

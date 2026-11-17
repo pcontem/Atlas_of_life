@@ -1,0 +1,115 @@
+name: Voay
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Brochu 2007
+type_species: Voay robustus
+type_species_note: ''
+summary: Horned crocodile of Late Pleistocene–Holocene Madagascar, extinct only recently.
+size:
+  length_m: [3.5, 4]
+  mass_kg: [170, 170]
+  note: About 3.5–4 m long and 170 kg.
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Voay robustus
+  authority: (Grandidier and Vaillant 1872)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-ambolisatra-madagascar
+  - unnamed-ampoza-madagascar
+  - unnamed-near-antsirabe-madagascar
+  - unnamed-tsaramody-village-l3-madagascar
+fossil_material:
+  holotype: Type material of Crocodilus robustus (Grandidier & Vaillant 1872), Madagascar.
+  material: Numerous subfossils, including complete skulls, vertebrae and osteoderms from Ambolisatra and Antsirabe.
+  completeness: multiple
+  exceptional: ''
+biology: Its "horns" are extended corners of the squamosal bones; it may have died out in the extinction event that
+  removed much of Madagascar's megafauna.
+images:
+- kind: life
+  file: Voay robustus head.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Voay_robustus_head.png/960px-Voay_robustus_head.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Voay_robustus_head.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-20'
+  caption: Life restoration of the head of V. robustus
+  width: 2000
+  height: 1384
+  review: unreviewed
+- kind: fossil
+  file: Voay robustus.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Voay_robustus.JPG/960px-Voay_robustus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Voay_robustus.JPG
+  artist: Ghedoghedo
+  license: Public domain
+  license_url: ''
+  date: 2008-04
+  caption: Skull of V. robustus
+  width: 1864
+  height: 1144
+  review: unreviewed
+- kind: fossil
+  file: Voay angular.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Voay_angular.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Voay_angular.jpg
+  artist: Constanze Bickelmann and Nicole Klein
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-05-14'
+  caption: Angular bone of V. robustus
+  width: 975
+  height: 751
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brochu, C. A. 2007. Morphology, relationships, and biogeographical significance of an extinct horned crocodile
+    (Crocodylia, Crocodylidae) from the Quaternary of Madagascar. Zoological Journal of the Linnean Society 150(4):
+    835–863. doi:10.1111/j.1096-3642.2007.00315.x'
+- kind: literature
+  text: 'Bickelmann, C.; Klein, N. 2009. The late Pleistocene horned crocodile ''''Voay robustus'''' (Grandidier
+    & Vaillant, 1872) from Madagascar in the Museum für Naturkunde Berlin. Fossil Record 12(1): 13–21. doi:10.1002/mmng.200800007'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Voay (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Voay
+- kind: encyclopedia
+  text: Wikipedia contributors. “Voay”. English Wikipedia, revision 1385845750.
+  url: https://en.wikipedia.org/w/index.php?title=Voay&oldid=1385845750
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

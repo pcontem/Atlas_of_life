@@ -91,7 +91,7 @@ size:
   mass_kg: null                   # G8 E  optional [min, max] in kg, only when published
   note: Females about 3.8 m; ...  # G8 S  required when the measure is null (say why unknown)
 age:
-  first_ma: 89.8                  # G9 E  first_ma ≥ last_ma > 0 (last_ma 0 for living genera)
+  first_ma: 89.8                  # G9 E  first_ma ≥ last_ma > 0 (0 for living or Holocene genera)
   last_ma: 72.2
   early_interval: Coniacian       # G9 E  ICS stage/age names
   late_interval: Campanian

@@ -1,19 +1,24 @@
 id: koobi-fora-kenya
 name: Koobi Fora
 rank: formation
-group: ''
+group: Omo
 country: Kenya
 regions: []
 location:
   lat: 4.15
   lng: 36.317
-  basis: median of 29 PBDB collections that yielded the atlas genera
+  basis: median of 31 PBDB collections that yielded the atlas genera
 age:
   first_ma: 5.333
   last_ma: 0.774
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial-deltaic indet., fluvial indet., deltaic indet.]
-lithology: [tuff, not reported, sandstone, siltstone]
+environment:
+- terrestrial indet.
+- fluvial-deltaic indet.
+- fluvial indet.
+- deltaic indet.
+- foreshore
+lithology: [tuff, sandstone, not reported, siltstone]
 pbdb_collections:
 - '21369'
 - '21377'
@@ -26,6 +31,7 @@ pbdb_collections:
 - '21456'
 - '21466'
 - '21490'
+- '21495'
 - '21497'
 - '21499'
 - '21500'
@@ -43,6 +49,7 @@ pbdb_collections:
 - '32058'
 - '32060'
 - '32085'
+- '32111'
 - '32116'
 includes: []
 summary: ''

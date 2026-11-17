@@ -1,0 +1,233 @@
+name: Euthecodon
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Fortau 1920
+type_species: Euthecodon nitriae
+type_species_note: ''
+summary: Long-snouted fish-eating crocodile common across Neogene Africa, among the largest Cenozoic crocodilians.
+size:
+  length_m: [7.2, 8.6]
+  note: Skull KNM-ER 757 (96 cm, Koobi Fora) gives an estimated 7.2–8.6 m; specimen LT 26306 from Lothagam had a
+    skull of about 1.52 m.
+age:
+  first_ma: 23.04
+  last_ma: 0.0117
+  early_interval: Aquitanian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 57
+  note: ''
+species:
+- name: Euthecodon arambourgii
+  authority: Ginsburg and Buffetaut 1978
+  first_ma: 20.45
+  last_ma: 15.98
+  interval: Burdigalian
+  reference: ''
+- name: Euthecodon brumpti
+  authority: (Joleaud 1920)
+  first_ma: 11.63
+  last_ma: 0.774
+  interval: Tortonian–Calabrian
+  reference: ''
+- name: Euthecodon nitriae
+  authority: Fortau 1920
+  first_ma: 11.63
+  last_ma: 2.58
+  interval: Tortonian–Piacenzian
+  reference: original description
+formations:
+- formation: Koobi Fora
+  group: Omo
+  members: [Burgi, Indet., KBS, Lonyumun, Okote, indet.]
+  country: Kenya
+  regions: []
+  interval: Zanclean–Calabrian
+  occurrences: 29
+  ma: [0.774, 5.333]
+  id: koobi-fora-kenya
+- formation: Nachukui
+  group: Omo
+  members: [Apak, Kaiyumung, Kalochoro, Nariokotome, Natoo]
+  country: Kenya
+  regions: [Rift Valley]
+  interval: Zanclean–Calabrian
+  occurrences: 5
+  ma: [0.774, 5.333]
+  id: nachukui-kenya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kenya
+  regions: [Nyanza, Turkana District]
+  interval: Burdigalian–Pleistocene
+  occurrences: 5
+  ma: [0.0117, 20.45]
+  id: [unnamed-ekora-kenya, unnamed-gumba-red-beds-kenya]
+- formation: Kanapoi
+  group: ''
+  members: []
+  country: Kenya
+  regions: [Turkana District]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: kanapoi-kenya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chad
+  regions: []
+  interval: Late Miocene–Early Pliocene
+  occurrences: 2
+  ma: [3.6, 11.63]
+  id: [unnamed-kb3-kossom-bougoudi-chad, unnamed-toros-menalla-chad]
+- formation: Beglia
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Gafsa]
+  interval: Serravallian–Tortonian
+  occurrences: 2
+  ma: [7.246, 13.82]
+  id: beglia-tunisia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ethiopia
+  regions: [Afar]
+  interval: Piacenzian–Gelasian
+  occurrences: 2
+  ma: [1.8, 3.6]
+  id:
+  - unnamed-seraitu-mille-logya-ethiopia
+  - unnamed-uraitele-mille-logya-ethiopia
+- formation: Lothagam 1
+  group: Lothagam
+  members: [B and C]
+  country: Kenya
+  regions: [Turkana District]
+  interval: Messinian–Piacenzian
+  occurrences: 1
+  ma: [2.58, 7.246]
+  id: lothagam-1-kenya
+- formation: Lothagam 3
+  group: Lothagam
+  members: []
+  country: Kenya
+  regions: [Turkana District]
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: lothagam-3-kenya
+- formation: Nawata and Nachukui
+  group: ''
+  members: [Lower/Upper Nawata & Apak]
+  country: Kenya
+  regions: []
+  interval: Tortonian–Zanclean
+  occurrences: 1
+  ma: [3.6, 11.63]
+  id: nawata-and-nachukui-kenya
+- formation: Nawata
+  group: ''
+  members: [Lower Nawata]
+  country: Kenya
+  regions: []
+  interval: Tortonian–Messinian
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: nawata-kenya
+- formation: Nawata or Nachukui
+  group: ''
+  members: [Upper Nawata and Apak]
+  country: Kenya
+  regions: []
+  interval: Messinian–Zanclean
+  occurrences: 1
+  ma: [3.6, 7.246]
+  id: nawata-or-nachukui-kenya
+- formation: Marada
+  group: ''
+  members: []
+  country: Libya
+  regions: []
+  interval: Aquitanian–Burdigalian
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: marada-libya
+- formation: Maradah
+  group: ''
+  members: [Qarat Jahanam]
+  country: Libya
+  regions: []
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: maradah-libya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: unnamed-wadi-el-natrun-egypt
+- formation: Sinda Beds
+  group: ''
+  members: []
+  country: DR Congo
+  regions: [Orientale]
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: sinda-beds-dr-congo
+- formation: Segui
+  group: ''
+  members: [lower]
+  country: Tunisia
+  regions: []
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: segui-tunisia
+fossil_material:
+  holotype: Type material of E. nitriae from Wadi Natrun, Egypt (Fourtau 1920).
+  material: Many skulls and jaws from Kenya, Ethiopia, Libya and elsewhere in Africa.
+  completeness: multiple
+  exceptional: ''
+biology: Its gharial-like snout evolved independently and suggests a mainly fish diet; it lived alongside many other
+  crocodiles until it died out in the Pleistocene.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Euthecodon
+  genus_level: true
+sources:
+- kind: literature
+  text: Brochu, C. A. 2017. Pliocene crocodiles from Kanapoi, Turkana Basin, Kenya. Journal of Human Evolution 140.
+    doi:10.1016/j.jhevol.2017.10.003
+- kind: literature
+  text: Hekkala, E.; Gatesy, J.; Narechania, A.; Meredith, R.; Russello, M.; Aardema, M. L.; Jensen, E.; Montanari,
+    S.; Brochu, C.; Norell, M.; Amato, G. 2021. Paleogenomics illuminates the evolutionary history of the extinct
+    Holocene "horned" crocodile of Madagascar, Voay robustus. Communications Biology 4(1). doi:10.1038/s42003-021-02017-0
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Euthecodon (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Euthecodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Euthecodon”. English Wikipedia, revision 1378940927.
+  url: https://en.wikipedia.org/w/index.php?title=Euthecodon&oldid=1378940927
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

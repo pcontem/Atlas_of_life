@@ -1,0 +1,68 @@
+name: Zhyrasuchus
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: true
+placement_note: Possibly a crocodylid eusuchian (PBDB places it in Crocodylidae), but the scanty material allows
+  no firm placement (Storrs & Efimov 2000).
+authority: Nesov et al. 1989
+type_species: Zhyrasuchus angustifrons
+type_species_note: ''
+summary: Crocodylomorph from the Late Cretaceous Bissekty Formation of Uzbekistan known from scanty material.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhyrasuchus angustifrons
+  authority: Nesov et al. 1989
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Type material including a frontal bone, Bissekty Formation, Dzharakhuduk, Uzbekistan (Nessov et al.
+    1989).
+  material: Scanty material, including a frontal.
+  completeness: fragmentary
+  exceptional: ''
+biology: Too poorly known for statements about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhyrasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhyrasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhyrasuchus”. English Wikipedia, revision 1318375503.
+  url: https://en.wikipedia.org/w/index.php?title=Zhyrasuchus&oldid=1318375503
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

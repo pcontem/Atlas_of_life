@@ -1,0 +1,66 @@
+name: Dzungarisuchus
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Dong 1974
+type_species: Dzungarisuchus manacensis
+type_species_note: ''
+summary: Poorly known crocodile from the late Eocene of Xinjiang, China.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dzungarisuchus manacensis
+  authority: Dong 1974
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Late Eocene
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: unnamed-dzungarisuchus-manacensis-type-china
+fossil_material:
+  holotype: Type material of D. manacensis from Xinjiang (Dong 1974).
+  material: Isolated postcranial and jaw fragments.
+  completeness: fragmentary
+  exceptional: ''
+biology: Too poorly known for statements about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dzungarisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dzungarisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dzungarisuchus”. English Wikipedia, revision 1282992035.
+  url: https://en.wikipedia.org/w/index.php?title=Dzungarisuchus&oldid=1282992035
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

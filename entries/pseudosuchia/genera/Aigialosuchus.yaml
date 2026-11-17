@@ -1,0 +1,98 @@
+name: Aigialosuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: Long classed as a eusuchian (PBDB places it in Crocodylinae), but since 2016 repeatedly placed in
+  Dyrosauridae; Neosuchia is the group both views share.
+authority: Persson 1960
+type_species: Aigialosuchus villandensis
+type_species_note: ''
+summary: Long-snouted crocodylomorph from the Campanian Kristianstad Basin of southern Sweden.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aigialosuchus villandensis
+  authority: Persson 1960
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Sweden
+  regions: [Skåne]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: unnamed-ivo-klack-sweden
+fossil_material:
+  holotype: Type material of A. villandensis from the Kristianstad Basin, Sweden (Persson 1959).
+  material: Fragmentary skull material and teeth.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its short, stout teeth may have been suited to large fish and invertebrates.
+images:
+- kind: fossil
+  file: Aigialosuchus teeth.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/96/Aigialosuchus_teeth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aigialosuchus_teeth.png
+  artist: Ichthyovenator
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-05-03'
+  caption: Teeth of A. villandensis
+  width: 318
+  height: 342
+  review: unreviewed
+- kind: life
+  file: Aigialosuchus villandensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Aigialosuchus_villandensis.jpg/960px-Aigialosuchus_villandensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aigialosuchus_villandensis.jpg
+  artist: TurokSwe
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-02-13'
+  caption: Life restoration of A. villandensis
+  width: 2624
+  height: 1640
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Kear, Benjamin P.; Lindgren, Johan; Hurum, Jørn H.; Milàn, Jesper; Vajda, Vivi 2016. An introduction to
+    the Mesozoic biotas of Scandinavia and its Arctic territories. Geological Society, London, Special Publications
+    434(1): 1–14. doi:10.1144/SP434.18'
+- kind: literature
+  text: 'Adolfssen, Jan S.; Milàn, Jesper; Friedman, Matt 2017. Review of the Danian vertebrate fauna of southern
+    Scandinavia. Bulletin of the Geological Society of Denmark 65: 1–23. doi:10.37570/bgsd-2017-65-01'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aigialosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aigialosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aigialosuchus”. English Wikipedia, revision 1372302740.
+  url: https://en.wikipedia.org/w/index.php?title=Aigialosuchus&oldid=1372302740
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

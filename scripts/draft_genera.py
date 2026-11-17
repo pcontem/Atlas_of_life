@@ -269,7 +269,7 @@ def write(R, vol, batch, force=False):
                                date=(f.get("DateTimeOriginal") or "")[:10], caption=cap, width=f.get("width"), height=f.get("height"),
                                review="unreviewed"))
         e = dict(name=g, rank="genus", parent=h["parent"], incertae_sedis=bool(h.get("incertae_sedis")),
-                 placement_note=h.get("placement_note", ""), authority=authority(r.get("taxon_attr")).strip("()"),
+                 placement_note=h.get("placement_note", ""), authority=h.get("authority") or authority(r.get("taxon_attr")).strip("()"),
                  type_species=ts, type_species_note=h.get("type_species_note", ""), summary=h["summary"])
         if h.get("extant"):  # set by hand: PBDB's flag is wrong for some fossil and ichno genera
             e["extant"] = True

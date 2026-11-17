@@ -123,9 +123,9 @@ def check_genus(e, path, clade_ids, excluded_names, measure="wingspan"):
         err("G1", w, "extant must be true or false")
     a = e.get("age") or {}
     fa, la = a.get("first_ma"), a.get("last_ma")
-    living = e.get("extant") is True
+    living = e.get("extant") is True or a.get("late_interval") == "Holocene"  # living, or extinct within the Holocene
     if not (isinstance(fa, (int, float)) and isinstance(la, (int, float)) and fa >= la and (la > 0 or (living and la == 0))):
-        err("G9", w, f"age first_ma ≥ last_ma > 0 required (last_ma = 0 only for living genera), got {fa}, {la}")
+        err("G9", w, f"age first_ma ≥ last_ma > 0 required (last_ma = 0 only for living or Holocene genera), got {fa}, {la}")
     if not a.get("early_interval"):
         err("G9", w, "age.early_interval is empty")
     if not a.get("pbdb_occurrences") and not (a.get("note") or "").strip():

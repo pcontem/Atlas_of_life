@@ -1,0 +1,69 @@
+name: Tzaganosuchus
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Efimov 1983
+type_species: Tzaganosuchus infansis
+type_species_note: ''
+summary: Early Eocene crocodile from the Gobi Desert of Mongolia.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tzaganosuchus infansis
+  authority: Efimov 1983
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Naran Bulak
+  group: ''
+  members: [Bumban]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: naran-bulak-mongolia
+fossil_material:
+  holotype: Type material of T. infansis from the Naran Bulak Formation, Mongolia (Efimov 1983).
+  material: Remains from a single formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say little beyond its relationship to modern crocodiles.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Brochu, CA 1997. Morphology, fossils, divergence timing, and the phylogenetic relationships of Gavialis.
+    Systematic Biology 46(3): 479–522. doi:10.1093/sysbio/46.3.479'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tzaganosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tzaganosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tzaganosuchus”. English Wikipedia, revision 1373737436.
+  url: https://en.wikipedia.org/w/index.php?title=Tzaganosuchus&oldid=1373737436
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
