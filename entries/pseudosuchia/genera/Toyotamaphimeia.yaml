@@ -1,0 +1,108 @@
+name: Toyotamaphimeia
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Aoki 1983
+type_species: Toyotamaphimeia machikanensis
+type_species_note: ''
+summary: Large Pleistocene gavialid from Japan and Taiwan, named after the princess Toyotama-hime.
+size:
+  length_m: [6.3, 7.3]
+  note: About 6.3–7.3 m; the first description suggested 8 m.
+age:
+  first_ma: 3.6
+  last_ma: 0.129
+  early_interval: Late Pliocene
+  late_interval: Chibanian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Toyotamaphimeia machikanensis
+  authority: (Kobatake et al. 1965)
+  first_ma: 0.774
+  last_ma: 0.129
+  interval: Chibanian
+  reference: original description
+formations:
+- formation: Ibaraki
+  group: Osaka
+  members: []
+  country: Japan
+  regions: [Osaka]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: ibaraki-japan
+- formation: Senpoku
+  group: Osaka
+  members: []
+  country: Japan
+  regions: [Osaka]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: senpoku-japan
+- formation: Tsubusagawa
+  group: ''
+  members: []
+  country: Japan
+  regions: []
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: tsubusagawa-japan
+fossil_material:
+  holotype: Skull found in 1964 at Osaka University, about 430–380 thousand years old.
+  material: The Osaka skeleton and remains from other Japanese and Taiwanese sites.
+  completeness: multiple
+  exceptional: ''
+biology: The Osaka excavations of 1964 also yielded fossil shellfish, insects and plant remains from the same beds.
+images:
+- kind: skeletal
+  file: Toyotamaphimeia machikanensis skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Toyotamaphimeia_machikanensis_skeletal.png/960px-Toyotamaphimeia_machikanensis_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Toyotamaphimeia_machikanensis_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-11-11'
+  caption: Skeletal reconstruction of T. machikanensis
+  width: 6360
+  height: 2650
+  review: unreviewed
+  local: img/gallery/Toyotamaphimeia_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Aoki, R. 1983. A new generic allocation of ''''Tomistoma machikanense'''', a fossil crocodilian from the
+    Pleistocene of Japan. Copeia 1983(1): 89–95. doi:10.2307/1444701'
+- kind: literature
+  text: 'Cho, Y.-Y.; Tsai, C.-H. 2023. Crocodylian princess in Taiwan: Revising the taxonomic status of ''''Tomistoma
+    taiwanicus'''' from the Pleistocene of Taiwan and its paleobiogeographic implications. Journal of Paleontology
+    97(4): 927–940. doi:10.1017/jpa.2023.36'
+- kind: literature
+  text: Iijima, M.; Kubo, T. 2020. Vertebrae-Based Body Length Estimation in Crocodylians and Its Implication for
+    Sexual Maturity and the Maximum Sizes. Integrative Organismal Biology 2(1). doi:10.1093/iob/obaa042
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Toyotamaphimeia (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Toyotamaphimeia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Toyotamaphimeia”. English Wikipedia, revision 1385134590.
+  url: https://en.wikipedia.org/w/index.php?title=Toyotamaphimeia&oldid=1385134590
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The status of "Tomistoma" taiwanicus is revised by Cho et al. (2023); PBDB also lists the spelling variant machikanense.
+  reviews: []

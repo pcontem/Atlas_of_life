@@ -263,6 +263,81 @@ def phylopic(names, lineage):
     return out
 
 
+# ---------- open-access article figures (Europe PMC) ----------
+EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest"
+
+
+def oa_one(g, max_articles=4):
+    import xml.etree.ElementTree as ET
+    q = f'"{g}" AND OPEN_ACCESS:y AND (LICENSE:"cc by" OR LICENSE:"cc0")'
+    r = fetch_json(f"{EPMC}/search", dict(query=q, resultType="core", format="json", pageSize=25)) or {}
+    arts = [a for a in r.get("resultList", {}).get("result", []) if a.get("pmcid")]
+    arts.sort(key=lambda a: (g.lower() not in (a.get("title") or "").lower(), -int(a.get("pubYear") or 0)))
+    figs = []
+    for a in arts[:max_articles]:
+        try:
+            with urllib.request.urlopen(urllib.request.Request(f"{EPMC}/{a['pmcid']}/fullTextXML", headers=UA), timeout=40) as rr:
+                root = ET.fromstring(rr.read())
+        except Exception:
+            continue
+        for fig in root.iter("fig"):
+            cap = re.sub(r"\s+", " ", " ".join("".join(c.itertext()) for c in fig.iter("caption"))).strip()
+            if g.lower() not in cap.lower():
+                continue
+            gr = fig.find(".//graphic")
+            href = gr.get("{http://www.w3.org/1999/xlink}href") if gr is not None else None
+            if not href:
+                continue
+            lab = "".join(fig.find("label").itertext()).strip() if fig.find("label") is not None else ""
+            figs.append(dict(pmcid=a["pmcid"], doi=a.get("doi"), license=a.get("license"),
+                             cite=f"{a.get('authorString', '')} {a.get('pubYear', '')}. {a.get('title', '')} "
+                                  f"{(a.get('journalInfo') or {}).get('journal', {}).get('title', '')}.",
+                             label=lab, caption=cap[:600],
+                             img=f"https://europepmc.org/articles/{a['pmcid']}/bin/{href}{'' if '.' in href else '.jpg'}"))
+    return figs[:15]
+
+
+def oa_figures(names, max_articles=4):
+    """Figures that mention the genus in their caption, from CC BY / CC0 open-access articles in Europe PMC
+    (8 genera at a time)."""
+    from concurrent.futures import ThreadPoolExecutor
+    out = {}
+    with ThreadPoolExecutor(8) as ex:
+        for k, (g, figs) in enumerate(zip(names, ex.map(lambda g: oa_one(g, max_articles), names))):
+            out[g] = figs
+            if k % 25 == 0:
+                print(f"  oa {k}/{len(names)}", flush=True)
+    return out
+
+
+def oa_sheets(oa, outdir):
+    from concurrent.futures import ThreadPoolExecutor
+    outdir.mkdir(parents=True, exist_ok=True)
+    with ThreadPoolExecutor(8) as ex:
+        list(ex.map(lambda kv: oa_sheet(kv[0], kv[1], outdir), oa.items()))
+
+
+def oa_sheet(g, figs, outdir):
+    from PIL import Image, ImageDraw
+    if True:
+        if not figs:
+            return
+        cols, cw, ch = 4, 330, 300
+        sheet = Image.new("RGB", (cols * cw, ((len(figs) + cols - 1) // cols) * ch), "white")
+        d = ImageDraw.Draw(sheet)
+        for k, f in enumerate(figs):
+            x, y = (k % cols) * cw, (k // cols) * ch
+            try:
+                with urllib.request.urlopen(urllib.request.Request(f["img"], headers=UA), timeout=60) as r:
+                    im = Image.open(io.BytesIO(r.read())).convert("RGB")
+                im.thumbnail((cw - 10, ch - 40))
+                sheet.paste(im, (x + 5, y + 5))
+            except Exception:
+                d.text((x + 10, y + 100), "(could not load)", fill="red")
+            d.text((x + 5, y + ch - 32), f"{k + 1}. {f['pmcid']} {f['label']}"[:50], fill="black")
+        sheet.save(outdir / f"oa_{g}.jpg", quality=70)
+
+
 # ---------- contact sheets ----------
 def sheets(files, names, outdir):
     from PIL import Image, ImageDraw
@@ -298,6 +373,18 @@ def main():
     sheet_dir = pathlib.Path(a[a.index("--sheets") + 1]) if "--sheets" in a else None
     raw = ROOT / "data/raw" / vol
     raw.mkdir(parents=True, exist_ok=True)
+    w = lambda name, obj: (raw / name).write_text(json.dumps(obj, ensure_ascii=False, indent=0))
+    if "--oa" in a:  # open-access figures for the listed genera (or all), added to data already harvested
+        names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
+        oaf = raw / "oa_figures.json"
+        old = json.loads(oaf.read_text())["figures"] if oaf.exists() else {}
+        new = oa_figures(names)
+        old.update(new)
+        w("oa_figures.json", dict(downloaded=TODAY, figures=old))
+        if sheet_dir:
+            oa_sheets(new, sheet_dir)
+        print(f"done: {sum(len(v) for v in new.values())} figures for {len(new)} genera")
+        return
     if "--sheets-only" in a:  # contact sheets from data already harvested
         files = json.loads((raw / "commons.json").read_text())["files"]
         names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])

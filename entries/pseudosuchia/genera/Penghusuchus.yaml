@@ -1,0 +1,100 @@
+name: Penghusuchus
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Shan et al. 2009
+type_species: Penghusuchus pani
+type_species_note: ''
+summary: Medium-sized Miocene gavialid from the Penghu Islands off Taiwan, known from a 70% complete skeleton.
+size:
+  length_m: [4.5, 5]
+  note: Estimated 4.5–5 m, smaller than Hanyusuchus and Toyotamaphimeia.
+age:
+  first_ma: 11.63
+  last_ma: 5.333
+  early_interval: Tortonian
+  late_interval: Messinian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Penghusuchus pani
+  authority: Shan et al. 2009
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: Yuwentao
+  group: ''
+  members: []
+  country: Taiwan
+  regions: []
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: yuwentao-taiwan
+fossil_material:
+  holotype: A skeleton about 70% complete, found on 25 March 2006 on the coast of Neian, Shiyu, Penghu Islands (Yuwentao
+    Formation).
+  material: The holotype skeleton.
+  completeness: near-complete
+  exceptional: ''
+biology: Possibly related to Toyotamaphimeia of Japan and Hanyusuchus of southern China.
+images:
+- kind: fossil
+  file: Penghusuchus pani.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Penghusuchus_pani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Penghusuchus_pani.jpg
+  artist: Hsi-yin Shan, Xiao-chun Wu, Yen-nien Cheng, and Tamaki Sato
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2009-09-16'
+  caption: Skull of P. pani
+  width: 1454
+  height: 1707
+  review: unreviewed
+  local: img/gallery/Penghusuchus_001.webp
+- kind: skeletal
+  file: Penghusuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Penghusuchus_skeletal.png/960px-Penghusuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Penghusuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-10-30'
+  caption: Skeletal reconstruction of P. pani
+  width: 7607
+  height: 3762
+  review: unreviewed
+  local: img/gallery/Penghusuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Shan, Hsi-yin 2009. A new tomistomine (Crocodylia) from the Miocene of Taiwan. Canadian Journal of Earth
+    Sciences 46(7): 529–555. doi:10.1139/E09-036'
+- kind: literature
+  text: 'Iijima, Masaya; Qiao, Yu; Lin, Wenbin; Peng, Youjie; Yoneda, Minoru; Liu, Jun 2022. An intermediate crocodylian
+    linking two extant gharials from the Bronze Age of China and its human-induced extinction. Proceedings of the
+    Royal Society B: Biological Sciences 289(1970). doi:10.1098/rspb.2022.0085'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Penghusuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Penghusuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Penghusuchus”. English Wikipedia, revision 1384689915.
+  url: https://en.wikipedia.org/w/index.php?title=Penghusuchus&oldid=1384689915
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

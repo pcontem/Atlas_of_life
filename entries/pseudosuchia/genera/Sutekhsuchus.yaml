@@ -1,0 +1,105 @@
+name: Sutekhsuchus
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Burke et al. 2024
+type_species: Sutekhsuchus dowsoni
+type_species_note: ''
+summary: Miocene gavialine from Egypt and Libya, first named as a species of Tomistoma.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 23.04
+  last_ma: 15.98
+  early_interval: Aquitanian
+  late_interval: Burdigalian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Sutekhsuchus dowsoni
+  authority: (Fourtau 1918)
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: original description
+formations:
+- formation: Moghara
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Early Miocene–MN 4
+  occurrences: 2
+  ma: [15.98, 23.04]
+  id: moghara-egypt
+- formation: Maradah
+  group: ''
+  members: [Qarat Jahanam]
+  country: Libya
+  regions: []
+  interval: Burdigalian
+  occurrences: 2
+  ma: [15.98, 20.45]
+  id: maradah-libya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Early Miocene
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: unnamed-siwa-oasis-egypt
+fossil_material:
+  holotype: No holotype designated by Fourtau; type material includes a lower jaw and snout tip from the Moghra
+    Formation, Wadi Moghra, Egypt.
+  material: Jaws and snout fragments from Egypt and Libya.
+  completeness: fragmentary
+  exceptional: ''
+biology: A derived gavialoid close to Eogavialis andrewsi of Kenya.
+images:
+- kind: life
+  file: Paleoart reconstruction of Sutekhsuchus downsoni.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paleoart_reconstruction_of_Sutekhsuchus_downsoni.png/960px-Paleoart_reconstruction_of_Sutekhsuchus_downsoni.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Paleoart_reconstruction_of_Sutekhsuchus_downsoni.png
+  artist: Paleo Miguel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-10-09'
+  caption: Life restoration of S. dowsoni
+  width: 6072
+  height: 3417
+  review: unreviewed
+  local: img/gallery/Sutekhsuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: Burke, P. M. J.; Nicholl, C. S. C.; Pittard, B. E.; Sallam, H.; Mannion, P. D. 2024. The anatomy and taxonomy
+    of the North African Early Miocene crocodylian ''{{'.
+- kind: literature
+  text: 'Groh, S.S.; Upchurch, P.; Barrett, P.M.; Day, J. 2020. The phylogenetic relationships of neosuchian crocodiles
+    and their implications for the convergent evolution of the longirostrine condition. Zoological Journal of the
+    Linnean Society 188(2): 473–506. doi:10.1093/zoolinnean/zlz117'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sutekhsuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sutekhsuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sutekhsuchus”. English Wikipedia, revision 1323598407.
+  url: https://en.wikipedia.org/w/index.php?title=Sutekhsuchus&oldid=1323598407
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

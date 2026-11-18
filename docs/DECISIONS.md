@@ -235,3 +235,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   only the named units with fossils of the accepted species; ages from those occurrences, `last_ma: 0`.
 - `scripts/make_formations.py`: beds without a formation are matched to a genus item by country as well as region
   (unnamed Tanzanian beds were being filed under Chad); the ISO country table moved there from the drafting helper.
+- Images (2026-11-17): 23 of the first 52 Pseudosuchia genera had no free picture on Commons beyond navigation-box
+  images of other genera. The harvest now also collects figures of CC BY / CC0 open-access articles from Europe
+  PMC whose caption names the genus (`data/raw/<volume>/oa_figures.json`, contact sheets on branch
+  `sheets/<volume>-oa`), the second image source of CLAUDE.md §4.4. The request-file workflows no longer run on main.

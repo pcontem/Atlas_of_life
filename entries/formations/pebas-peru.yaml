@@ -5,9 +5,9 @@ group: ''
 country: Peru
 regions: [Loreto, Maynas]
 location:
-  lat: -4.008
+  lat: -4.012
   lng: -73.367
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 21.0
   last_ma: 7.246
@@ -17,11 +17,23 @@ environment:
 - fluvial-lacustrine indet.
 - coastal indet.
 - wet floodplain
-- fluvial indet.
 - lacustrine indet.
+- fluvial indet.
 lithology: [lignite, not reported, sandstone, mudstone]
-pbdb_collections: ['166767', '166768', '166769', '166770', '176143', '176149', '176162', '213137', '224009', '224010',
-  '224013']
+pbdb_collections:
+- '166767'
+- '166768'
+- '166769'
+- '166770'
+- '176143'
+- '176149'
+- '176162'
+- '179000'
+- '179001'
+- '213137'
+- '224009'
+- '224010'
+- '224013'
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,115 @@
+name: Ikanogavialis
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Sill 1970
+type_species: Ikanogavialis gameroi
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Late Miocene gavialid from the Urumaco Formation of Venezuela; a Pleistocene gharial from Woodlark Island
+  may belong to it.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 15.98
+  last_ma: 5.333
+  early_interval: Langhian
+  late_interval: Messinian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Ikanogavialis gameroi
+  authority: Sill 1970
+  first_ma: 15.98
+  last_ma: 5.333
+  interval: Langhian–Messinian
+  reference: original description
+formations:
+- formation: Urumaco
+  group: ''
+  members: [Middle, Upper]
+  country: Venezuela
+  regions: [Falcon]
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: urumaco-venezuela
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+- formation: Baynunah
+  group: ''
+  members: []
+  country: United Arab Emirates
+  regions: [Abu Dhabi]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: baynunah-united-arab-emirates
+- formation: Socorro
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Falcon]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: socorro-venezuela
+fossil_material:
+  holotype: Type material of I. gameroi from the Urumaco Formation, Venezuela (Sill 1970).
+  material: Skull material from Venezuela and Brazil.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say little about its biology.
+images:
+- kind: skeletal
+  file: Ikanogavialis skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Ikanogavialis_skull.png/960px-Ikanogavialis_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ikanogavialis_skull.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-10-21'
+  caption: Skull reconstruction of I. gameroi
+  width: 2492
+  height: 3262
+  review: unreviewed
+  local: img/gallery/Ikanogavialis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sill, William D. 1970. NOTA PRELIMINAR SOBRE UN NUEVO GAVIAL DEL PLIOCENO DE VENEZUELA Y UNA DISCUSION
+    DE LOS GA VIALES SUDAMERICANOS. Ameghiniana 7(2): 151–159.'
+- kind: literature
+  text: 'Ristevski, Jorgo; Willis, Paul M. A.; Yates, Adam M.; White, Matt A.; Hart, Lachlan J.; Stein, Michael
+    D.; Price, Gilbert J.; Salisbury, Steven W. 2023. Migrations, diversifications and extinctions: the evolutionary
+    history of crocodyliforms in Australasia. Alcheringa: An Australasian Journal of Palaeontology 47(4): 370–415.
+    doi:10.1080/03115518.2023.2201319'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ikanogavialis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ikanogavialis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ikanogavialis”. English Wikipedia, revision 1383696237.
+  url: https://en.wikipedia.org/w/index.php?title=Ikanogavialis&oldid=1383696237
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

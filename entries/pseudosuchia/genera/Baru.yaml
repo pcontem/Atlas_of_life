@@ -1,0 +1,162 @@
+name: Baru
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Willis et al. 1990
+type_species: Baru darrowi
+type_species_note: PBDB gives no type species; B. darrowi was named with the genus (Willis et al. 1990).
+summary: '"Cleaver-headed crocodile": a large, deep-skulled mekosuchine common in Oligocene and Miocene northern
+  Australia.'
+size:
+  length_m: [4, 4]
+  note: About 4 m long, among the largest Australian crocodilians of its time.
+age:
+  first_ma: 27.3
+  last_ma: 5.333
+  early_interval: Late Oligocene
+  late_interval: Messinian
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Baru darrowi
+  authority: Willis et al. 1990
+  first_ma: 27.3
+  last_ma: 11.63
+  interval: Chattian–Serravallian
+  reference: original description
+- name: Baru iylwenpeny
+  authority: Yates et al. 2023
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Baru wickeni
+  authority: Willis 1997
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: ''
+formations:
+- formation: Carl Creek Limestone
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Late Oligocene
+  occurrences: 6
+  ma: [23.04, 27.3]
+  id: carl-creek-limestone-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory, Queensland]
+  interval: Late Oligocene–Serravallian
+  occurrences: 3
+  ma: [11.63, 27.3]
+  id:
+  - unnamed-300-br-riversleigh-australia
+  - unnamed-pwerte-marnte-marnte-australia
+  - unnamed-ringtail-site-australia
+- formation: Camfield Beds
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Middle Miocene
+  occurrences: 2
+  ma: [11.63, 15.98]
+  id: camfield-beds-australia
+- formation: Waite
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: waite-australia
+fossil_material:
+  holotype: Type material of B. darrowi (Willis et al. 1990).
+  material: Skulls and jaws from many Late Oligocene and Miocene sites in the Northern Territory and Queensland.
+  completeness: multiple
+  exceptional: ''
+biology: A powerful predator with a very deep, robust skull and long, compressed teeth, finely serrated in B. darrowi.
+images:
+- kind: skeletal
+  file: Baru darrowi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Baru_darrowi.png/960px-Baru_darrowi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Baru_darrowi.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-07'
+  caption: Skull reconstruction of B. darrowi with the known material
+  width: 2512
+  height: 1624
+  review: unreviewed
+  local: img/gallery/Baru_001.webp
+- kind: fossil
+  file: Baru sp alcoota.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/31/Baru_sp_alcoota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Baru_sp_alcoota.jpg
+  artist: Mark Marathon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '1901-05-01'
+  caption: Skull of Baru from Alcoota
+  width: 1200
+  height: 657
+  review: unreviewed
+  local: img/gallery/Baru_002.webp
+- kind: fossil
+  file: Baru wickeni lateral view.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/00/Baru_wickeni_lateral_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Baru_wickeni_lateral_view.jpg
+  artist: Adam M. Yates
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-06-21'
+  caption: Skull of B. wickeni in side view
+  width: 1200
+  height: 886
+  review: unreviewed
+  local: img/gallery/Baru_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/f7a86660-55dd-49d2-ade6-1c88e399951b/vector.svg
+  png: https://images.phylopic.org/images/f7a86660-55dd-49d2-ade6-1c88e399951b/raster/711x1024.png
+  page: https://www.phylopic.org/images/f7a86660-55dd-49d2-ade6-1c88e399951b
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Baru wickeni
+  matched: Baru
+  genus_level: true
+  w: 417
+  h: 600
+sources:
+- kind: original
+  text: 'Willis, P.M.; Murray, P.; Megirian, D. 1990. ''''Baru darrowi'''' gen. et sp. nov., a large, broad-snouted
+    crocodyline (Eusuchia: Crocodylidae) from mid-Tertiary freshwater limestones in Northern Australia. Memoirs
+    of the Queensland Museum 29(2): 521–540.'
+- kind: literature
+  text: 'Yates, A.M.; Ristevski, J.; Salisbury, S.W. 2023. The last Baru (Crocodylia, Mekosuchinae): a new species
+    of ''cleaver-headed crocodile'' from central Australia and the turnover of crocodylians during the Late Miocene
+    in Australia. Papers in Palaeontology 9(5). doi:10.1002/spp2.1523'
+- kind: literature
+  text: Yates, A.M.; Stein, M. 2024. A reinterpretation and taxonomic revision of Ultrastenos willisi Stein, Hand
+    and Archer, 2016, a short-snouted mekosuchine crocodylian from the Oligocene of northern Australia. Palaeontologia
+    Electronica 27(1). doi:10.26879/1355
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Baru (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Baru
+- kind: encyclopedia
+  text: Wikipedia contributors. “Baru”. English Wikipedia, revision 1373545982.
+  url: https://en.wikipedia.org/w/index.php?title=Baru&oldid=1373545982
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: ['"Baru" huberi is now referred to Ultrastenos (Yates 2024).']
+  reviews: []

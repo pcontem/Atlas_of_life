@@ -1,0 +1,113 @@
+name: Piscogavialis
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Kraus 1998
+type_species: Piscogavialis jugaliperforatus
+type_species_note: ''
+summary: Large marine gryposuchine gavialid from the Miocene–Pliocene Pisco Formation of Peru, with exceptionally
+  preserved skulls.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 20.45
+  last_ma: 3.6
+  early_interval: Burdigalian
+  late_interval: Zanclean
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Piscogavialis jugaliperforatus
+  authority: Kraus 1998
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: Pisco
+  group: ''
+  members: [upper]
+  country: Peru
+  regions: [Arequipa, Caraveli]
+  interval: Langhian–Zanclean
+  occurrences: 7
+  ma: [3.6, 15.98]
+  id: pisco-peru
+- formation: Chilcatay
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: chilcatay-peru
+fossil_material:
+  holotype: A nearly complete, three-dimensional skull from the Pisco Formation, Sacaco Basin, Peru (Kraus 1998).
+  material: The holotype with an associated mandible and postcranial bones, and other specimens.
+  completeness: multiple
+  exceptional: ''
+biology: Lived along the south-east Pacific coast together with the smaller gavialid Sacacosuchus.
+images:
+- kind: fossil
+  file: Piscogavialis 1.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e9/Piscogavialis_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Piscogavialis_1.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-09-13'
+  caption: Skull of Piscogavialis
+  width: 853
+  height: 434
+  review: unreviewed
+  local: img/gallery/Piscogavialis_001.webp
+- kind: fossil
+  file: Piscogavialis jugaliperforatus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Piscogavialis_jugaliperforatus_skeleton.jpg/960px-Piscogavialis_jugaliperforatus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Piscogavialis_jugaliperforatus_skeleton.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-07-04'
+  caption: Skeleton of P. jugaliperforatus
+  width: 4000
+  height: 2851
+  review: unreviewed
+  local: img/gallery/Piscogavialis_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kraus, R. M. 1998. The cranium of ''''Piscogavialis jugaliperforatus'''' n.gen., n.sp. (Gavialidae, Crocodylia)
+    from the Miocene of Peru. Paläontologische Zeitschrift 72(3): 389–406. doi:10.1007/bf02988368'
+- kind: literature
+  text: Salas-Gismondi, R.; Ochoa, D.; Jouve, S.; Romero, P.E.; Cardich, J.; Perez, A.; DeVries, T.; Baby, P.; Urbina,
+    M.; Carré, M. 2022. Miocene fossils from the southeastern Pacific shed light on the last radiation of marine
+    crocodylians. Proceedings of the Royal Society B 289. doi:10.1098/rspb.2022.0380
+- kind: literature
+  text: Zamora-Vega, C.; Romero, P. E.; Urbina, M.; Carré, M.; Ochoa, D.; Salas-Gismondi, R. 2025. Exceptional fossils
+    from Peru and an integrative phylogeny reconcile the evolutionary timing and mode of ''Gavialis'' and its kin.
+    Biology Letters 21(8). doi:10.1098/rsbl.2025.0238
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Piscogavialis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Piscogavialis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Piscogavialis”. English Wikipedia, revision 1384037329.
+  url: https://en.wikipedia.org/w/index.php?title=Piscogavialis&oldid=1384037329
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

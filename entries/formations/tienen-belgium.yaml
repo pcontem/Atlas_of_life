@@ -3,18 +3,18 @@ name: Tienen
 rank: formation
 group: Landen
 country: Belgium
-regions: [Brabant]
+regions: [Brabant, Hainaut, Leval-Trahegnies]
 location:
-  lat: 50.817
-  lng: 5.1
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 50.558
+  lng: 4.633
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
   first_ma: 56.0
   last_ma: 48.07
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet.]
-lithology: [sandstone]
-pbdb_collections: ['35531']
+environment: [terrestrial indet., fluvial indet.]
+lithology: [not reported, gravel, sandstone]
+pbdb_collections: ['35531', '87947', '144102', '144103']
 includes: []
 summary: ''
 paleoenvironment: ''

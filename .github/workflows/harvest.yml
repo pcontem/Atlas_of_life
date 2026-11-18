@@ -6,6 +6,7 @@ name: harvest
 # data/raw/harvest_request.json on any branch ({"volume": ..., "base": ..., "genera": "", "sheets": true}).
 on:
   push:
+    branches-ignore: [main]  # a merge must not run it again
     paths: [data/raw/harvest_request.json]
   workflow_dispatch:
     inputs:
@@ -29,7 +30,7 @@ jobs:
           if [ -z "$VOL" ]; then
             python3 - >> "$GITHUB_ENV" <<'PY'
           import json; r = json.load(open("data/raw/harvest_request.json"))
-          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}")
+          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}\nOA={str(r.get('oa', False)).lower()}")
           PY
           else
             { echo "VOL=$VOL"; echo "BASE=$BASE"; echo "GENERA=$GENERA"; echo "SHEETS=$SHEETS"; } >> "$GITHUB_ENV"
@@ -40,6 +41,7 @@ jobs:
           [ -n "$GENERA" ] && args+=(--genera "$GENERA")
           [ "$SHEETS" = "true" ] || [ "$SHEETS" = "only" ] && args+=(--sheets /tmp/sheets)
           [ "$SHEETS" = "only" ] && args+=(--sheets-only)
+          [ "$OA" = "true" ] && args+=(--oa)
           python3 -u scripts/fetch/harvest.py "${args[@]}"
       - uses: actions/upload-artifact@v4
         if: always()
@@ -48,13 +50,14 @@ jobs:
         if: always() && env.SHEETS != 'false'
         with: { name: "contact-sheets-${{ env.VOL }}", path: /tmp/sheets, retention-days: 30 }
       - name: Contact sheets to the branch sheets/<volume> (artifact downloads are blocked in some sessions)
-        if: env.SHEETS != 'false'
+        if: always() && env.SHEETS != 'false'
         run: |
+          [ -d /tmp/sheets ] || exit 0
           cd /tmp/sheets && git init -q -b sheets && git add -A
           git -c user.name=github-actions[bot] -c user.email=41898283+github-actions[bot]@users.noreply.github.com commit -qm "Contact sheets of $VOL"
-          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "sheets:sheets/$VOL"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "sheets:sheets/$VOL$([ "$OA" = "true" ] && echo -oa)"
       - name: Commit raw data
-        if: env.SHEETS != 'only'
+        if: always() && (env.SHEETS != 'only' || env.OA == 'true')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

@@ -1,0 +1,86 @@
+name: Dolichochampsa
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: Only member of Dolichochampsidae; its fragmentary material leaves its relationships among eusuchians
+  unknown.
+authority: Gasparini and Buffetaut 1980
+type_species: Dolichochampsa minima
+type_species_note: ''
+summary: Slender-snouted eusuchian from the latest Cretaceous of Argentina and Bolivia.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Dolichochampsa minima
+  authority: Gasparini and Buffetaut 1980
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Yacoraite
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: yacoraite-argentina
+- formation: El Molino
+  group: Puca
+  members: [Middle]
+  country: Bolivia
+  regions: [Cochabamba, Potosí]
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: el-molino-bolivia
+fossil_material:
+  holotype: Type material of D. minima from the Yacoraite Formation, Argentina (Gasparini & Buffetaut 1980).
+  material: Fragmentary remains from Argentina and Bolivia.
+  completeness: fragmentary
+  exceptional: ''
+biology: Too poorly known for statements about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/vector.svg
+  png: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/raster/536x1311.png
+  page: https://www.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Gunggamarandu maunala
+  matched: Gavialoidea
+  genus_level: false
+  w: 245
+  h: 600
+sources:
+- kind: original
+  text: 'Gasparini, Z; Buffetaut, E. 1980. ''''Dolichochampsa minima'''', n.g.n.sp., a representative of a new family
+    of eusuchian crocodiles from the Late Cretaceous of northern Argentina. Neues Jahrbuch für Geologie und Paläontologie
+    - Monatshefte 1980(5): 257–271. doi:10.1127/njgpm/1980/1980/257'
+- kind: literature
+  text: 'Jouve, S.; de Muizon, C.; Cespedes-Paz, R.; Sossa-Soruco, V.; Knoll, S. 2020. The longirostrine crocodyliforms
+    from Bolivia and their evolution through the Cretaceous–Palaeogene boundary. Zoological Journal of the Linnean
+    Society 192(2): 475–509. doi:10.1093/zoolinnean/zlaa081'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dolichochampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dolichochampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dolichochampsa”. English Wikipedia, revision 1379972834.
+  url: https://en.wikipedia.org/w/index.php?title=Dolichochampsa&oldid=1379972834
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,117 @@
+name: Australosuchus
+rank: genus
+parent: mekosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Willis and Molnar 1991
+type_species: Australosuchus clarkae
+type_species_note: ''
+summary: Medium-sized mekosuchine from the late Oligocene–early Miocene Lake Eyre Basin of South Australia.
+size:
+  length_m: [3, 3]
+  note: About 3 m (Willis's estimate).
+age:
+  first_ma: 27.3
+  last_ma: 15.98
+  early_interval: Chattian
+  late_interval: Burdigalian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Australosuchus clarkae
+  authority: Willis and Molnar 1991
+  first_ma: 27.3
+  last_ma: 15.98
+  interval: Chattian–Burdigalian
+  reference: original description
+formations:
+- formation: Namba
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene
+  occurrences: 2
+  ma: [23.04, 27.3]
+  id: namba-australia
+- formation: Etadunna
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: etadunna-australia
+- formation: Wipajiri
+  group: ''
+  members: [Unit 3]
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene–Early Miocene
+  occurrences: 1
+  ma: [15.98, 27.3]
+  id: wipajiri-australia
+fossil_material:
+  holotype: Type material from Lake Palankarinna, South Australia (Willis & Molnar 1991).
+  material: Specimens from the Etadunna, Namba and Wipajiri formations.
+  completeness: multiple
+  exceptional: ''
+biology: One of the southernmost mekosuchines; it may have been more cold-tolerant than relatives such as Baru.
+images:
+- kind: fossil
+  file: Australosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Australosuchus.jpg/960px-Australosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Australosuchus.jpg
+  artist: Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-05-23'
+  caption: Skull of A. clarkae
+  width: 3200
+  height: 1483
+  review: unreviewed
+  local: img/gallery/Australosuchus_001.webp
+- kind: skeletal
+  file: Australosuchus skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Australosuchus_skull.png/960px-Australosuchus_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Australosuchus_skull.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-04'
+  caption: Skull reconstruction of A. clarkae
+  width: 1705
+  height: 2722
+  review: unreviewed
+  local: img/gallery/Australosuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/vector.svg
+  png: https://images.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5/raster/512x90.png
+  page: https://www.phylopic.org/images/c1c4cf71-64af-4940-aa4f-9d45beac3ed5
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Kambara
+  matched: Mekosuchinae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Willis, P.M.A. 1991. A new middle Tertiary crocodile from Lake Palankarinna, South Australia. Records of
+    the South Australian Museum 25(1): 39–55.'
+- kind: literature
+  text: 'Yates, A.M. 2017. The biochronology and palaeobiogeography of Baru (Crocodylia: Mekosuchinae) based on
+    new specimens from the Northern Territory and Queensland, Australia. PeerJ 5. doi:10.7717/peerj.3458'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Australosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Australosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Australosuchus”. English Wikipedia, revision 1348881967.
+  url: https://en.wikipedia.org/w/index.php?title=Australosuchus&oldid=1348881967
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

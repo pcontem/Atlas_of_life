@@ -1,0 +1,73 @@
+name: Dadagavialis
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Salas-Gismondi et al. 2019
+type_species: Dadagavialis gunai
+type_species_note: PBDB gives no type species; taken as the only species listed.
+summary: Early Miocene gavialid from the Cucaracha Formation of Panama.
+size:
+  length_m: null
+  note: The sources give no measurements.
+age:
+  first_ma: 18.5
+  last_ma: 16.3
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Dadagavialis gunai
+  authority: Salas-Gismondi et al. 2019
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Cucaracha
+  group: ''
+  members: []
+  country: Panama
+  regions: []
+  interval: Hemingfordian
+  occurrences: 2
+  ma: [16.3, 18.5]
+  id: cucaracha-panama
+fossil_material:
+  holotype: Type material of D. gunai from the Cucaracha Formation, Panama (Salas-Gismondi et al. 2019).
+  material: Remains from the Cucaracha Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources say nothing about its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Rodolfo Salas-Gismondi 2018. New Miocene Caribbean gavialoids and patterns of longirostry in crocodylians.
+    Journal of Systematic Palaeontology 17(12): 1049–1075. doi:10.1080/14772019.2018.1495275'
+- kind: literature
+  text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
+    the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9. doi:10.7717/peerj.12094
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dadagavialis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dadagavialis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dadagavialis”. English Wikipedia, revision 1351305932.
+  url: https://en.wikipedia.org/w/index.php?title=Dadagavialis&oldid=1351305932
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Proposed as a gryposuchine; Gryposuchinae may be a grade towards the living gharial, so it is kept in Gavialidae.
+  reviews: []

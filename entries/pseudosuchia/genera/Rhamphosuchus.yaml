@@ -1,0 +1,147 @@
+name: Rhamphosuchus
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Lydekker 1886
+type_species: Rhamphosuchus crassidens
+type_species_note: ''
+summary: Giant robust-snouted gavialoid of the Indian subcontinent, from the Oligocene to the Pleistocene.
+size:
+  length_m: [6, 11]
+  note: Estimates of 8–11 m for R. crassidens from all known specimens, and 6–8 m for R. pachyrhynchus (Courville
+    et al. 2025).
+age:
+  first_ma: 3.6
+  last_ma: 0.774
+  early_interval: Piacenzian
+  late_interval: Calabrian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Rhamphosuchus crassidens
+  authority: (Cautley and Falconer 1840)
+  first_ma: 3.6
+  last_ma: 0.774
+  interval: Piacenzian–Calabrian
+  reference: original description
+formations:
+- formation: Pinjor
+  group: Siwalik
+  members: []
+  country: Pakistan
+  regions: []
+  interval: Late Pliocene–Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 3.6]
+  id: pinjor-pakistan
+- formation: Tatrot
+  group: ''
+  members: []
+  country: India
+  regions: []
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: tatrot-india
+- formation: Unnamed unit
+  group: Siwalik
+  members: []
+  country: Nepal
+  regions: []
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: siwalik-group-nepal
+fossil_material:
+  holotype: Type material of Leptorhynchus crassidens from the Siwalik Hills (Cautley & Falconer 1840).
+  material: Snouts, jaws and teeth from the Siwaliks and from the Bugti and Laki Hills of Pakistan.
+  completeness: fragmentary
+  exceptional: ''
+biology: More robust than the gharial, with snouts widening towards the back and teeth of varied sizes.
+images:
+- kind: fossil
+  file: Rhamphosuchus Holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Rhamphosuchus_Holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rhamphosuchus_Holotype.png
+  artist: Richard Lydekker
+  license: Public domain
+  license_url: ''
+  date: '1886-03-07'
+  caption: Holotype material of R. crassidens
+  width: 1023
+  height: 1360
+  review: unreviewed
+  local: img/gallery/Rhamphosuchus_001.webp
+- kind: fossil
+  file: Hul - Rhamphosuchus crassidens - 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hul_-_Rhamphosuchus_crassidens_-_1.jpg/960px-Hul_-_Rhamphosuchus_crassidens_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hul_-_Rhamphosuchus_crassidens_-_1.jpg
+  artist: Emőke Dénes
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-09-01'
+  caption: Snout of R. crassidens
+  width: 4238
+  height: 2825
+  review: unreviewed
+  local: img/gallery/Rhamphosuchus_002.webp
+- kind: fossil
+  file: Ramphosuchus crassidens.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Ramphosuchus_crassidens.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ramphosuchus_crassidens.JPG
+  artist: Ghedo
+  license: Public domain
+  license_url: ''
+  date: 2007-01
+  caption: Snout of R. crassidens
+  width: 824
+  height: 405
+  review: unreviewed
+  local: img/gallery/Rhamphosuchus_003.webp
+- kind: fossil
+  file: Rhamphosuchus pachyrhynchus snout and mandible.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Rhamphosuchus_pachyrhynchus_snout_and_mandible.jpg/960px-Rhamphosuchus_pachyrhynchus_snout_and_mandible.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rhamphosuchus_pachyrhynchus_snout_and_mandible.jpg
+  artist: Erwan Courville, Grégoire Métais, Pierre-Olivier Antoine, Laurent Marivaux, Stéphane Jouve
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-06'
+  caption: Snout and jaws of R. pachyrhynchus
+  width: 2128
+  height: 2096
+  review: unreviewed
+  local: img/gallery/Rhamphosuchus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Cautley, P. T.; Falconer, H. 1840. Notice on the remains of a fossil monkey from the Tertiary strata of
+    the Siwalik Hills in the North of Hindoostan. Transactions of the Geological Society of London 2(5): 499–504.'
+- kind: literature
+  text: 'Courville, E.; Métais, G.; Antoine, P.-O.; Marivaux, L.; Jouve, S. 2025. Giant longirostrine crocodylians
+    from the Lower Miocene of Pakistan: new material and taxonomic review. Papers in Palaeontology 11(3). doi:10.1002/spp2.70010'
+- kind: literature
+  text: 'Martin, J. E. 2019. The taxonomic content of the genus ''''Gavialis'''' from the Siwalik Hills of India
+    and Pakistan. Papers in Palaeontology 5(3): 483–497. doi:10.1002/spp2.1247'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rhamphosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rhamphosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rhamphosuchus”. English Wikipedia, revision 1381049103.
+  url: https://en.wikipedia.org/w/index.php?title=Rhamphosuchus&oldid=1381049103
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - R. pachyrhynchus (with G. breviceps) is accepted by Courville et al. (2025) but not yet in PBDB.
+  reviews: []

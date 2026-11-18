@@ -121,7 +121,7 @@ def dossier(R, g):
         print("  silhouette:", s["matched"], s.get("depicts"), s["attribution"], s["license"], "genus level" if s["genus_level"] else "relative")
 
 
-BAD_IMG = re.compile(r"(map|scale|size|comparison|compar|phylogen|clad|diagram|chart|stamp|statue|model|sculpt|museum model|life-size|\.svg$|tamano|tamaño)", re.I)
+BAD_IMG = re.compile(r"(map\\b|range map|scale diagram|\\bsize|comparison|compar|phylogen|clad|diagram|chart|stamp|statue|model|sculpt|museum model|life-size|\.svg$|tamano|tamaño)", re.I)
 
 
 def img_kind(t, f):
@@ -218,6 +218,63 @@ def license_url(f):
     return u.replace("http://", "https://")
 
 
+def image(files, n, kind, cap, artist=None):
+    t, f = files[n - 1]
+    return dict(kind=kind, file=t[5:], url=f["url"] if f.get("width", 0) <= 1600 else f["thumb"].replace("330px-", "960px-"),
+                page=f["page"], artist=artist or f.get("Artist") or "Unknown (no author on the Commons page)",
+                license=f.get("LicenseShortName", ""), license_url=license_url(f),
+                date=(f.get("DateTimeOriginal") or "")[:10], caption=cap, width=f.get("width"), height=f.get("height"),
+                review="unreviewed")
+
+
+def addimg(R, vol, specs):
+    """Add Commons candidates to existing entries: specs = ["Genus:n:kind:caption", ...]."""
+    for spec in specs:
+        g, n, kind, cap = spec.split(":", 3)
+        p = ROOT / "entries" / vol / "genera" / f"{g}.yaml"
+        e = yaml.safe_load(p.read_text())
+        im = image(files_of(R, g), int(n), kind, cap)
+        if any(x["page"] == im["page"] for x in e.get("images") or []):
+            continue
+        e.setdefault("images", []).append(im)
+        p.write_text(yaml.safe_dump(e, allow_unicode=True, sort_keys=False, width=120))
+        print("added", g, n)
+
+
+def addoa(vol, specs):
+    """Add open-access article figures (data/raw/<vol>/oa_figures.json) to entries: specs = ["Genus:n:kind:caption"],
+    n = number on the oa_<Genus> contact sheet. Follows CLAUDE.md I2 for article figures and lists the article
+    as a literature source."""
+    oa = json.loads((ROOT / "data/raw" / vol / "oa_figures.json").read_text())["figures"]
+    for spec in specs:
+        g, n, kind, cap = spec.split(":", 3)
+        f = oa[g][int(n) - 1]
+        p = ROOT / "entries" / vol / "genera" / f"{g}.yaml"
+        e = yaml.safe_load(p.read_text())
+        page = f"https://doi.org/{f['doi']}" if f.get("doi") else f"https://europepmc.org/article/PMC/{f['pmcid']}"
+        if any(x.get("file") == f"{f['pmcid']} {f['label']}" for x in e.get("images") or []):
+            continue
+        lic = {"cc by": "CC BY 4.0", "cc0": "CC0"}.get((f.get("license") or "").lower(), f.get("license", ""))
+        m = re.match(r"^(.*?)\.?\s(\d{4})\.\s", f.get("cite") or "")
+        authors, year = (m.group(1), m.group(2)) if m else (f.get("cite", ""), "")
+        journal = (f.get("cite") or "").rstrip(". ").split(". ")[-1]
+        first = authors.split(",")[0].split()[0] if authors else ""
+        short = f"{first}{' et al.' if authors.count(',') > 1 else ''} {year}".strip()
+        e.setdefault("images", []).append(dict(
+            kind=kind, file=f"{f['pmcid']} {f['label']}".strip(), url=f["img"], page=page,
+            artist=f"{authors} ({journal}, {year})",
+            license=lic, license_url="https://creativecommons.org/licenses/by/4.0/" if lic.startswith("CC BY") else "https://creativecommons.org/publicdomain/zero/1.0/",
+            date=year, caption=f"{f['label']}, {short}: {cap}".strip(), width=None, height=None, review="unreviewed"))
+        e["curation"].setdefault("notes", [])
+        note = "Licence version of open-access figures recorded as CC BY 4.0 from Europe PMC's 'cc by'; check on the article page."
+        if lic.startswith("CC BY") and note not in e["curation"]["notes"]:
+            e["curation"]["notes"].append(note)
+        if not any(f["pmcid"] in (x.get("text", "") + x.get("url", "")) for x in e["sources"]):
+            e["sources"].insert(1, dict(kind="literature", text=f"{f['cite']} {f['pmcid']}.", url=page))
+        p.write_text(yaml.safe_dump(e, allow_unicode=True, sort_keys=False, width=120))
+        print("added", g, n)
+
+
 def write(R, vol, batch, force=False):
     B = yaml.safe_load(pathlib.Path(batch).read_text())
     out = ROOT / "entries" / vol / "genera"
@@ -259,15 +316,8 @@ def write(R, vol, batch, force=False):
         if h.get("extant"):
             la = 0
         files = files_of(R, g)
-        images = []
-        for n, kind, *cap in h.get("images", []):
-            cap = ", ".join(str(c) for c in cap)
-            t, f = files[n - 1]
-            images.append(dict(kind=kind, file=t[5:], url=f["url"] if f.get("width", 0) <= 1600 else f["thumb"].replace("330px-", "960px-"),
-                               page=f["page"], artist=h.get("artists", {}).get(n) or f.get("Artist") or "Unknown (no author on the Commons page)",
-                               license=f.get("LicenseShortName", ""), license_url=license_url(f),
-                               date=(f.get("DateTimeOriginal") or "")[:10], caption=cap, width=f.get("width"), height=f.get("height"),
-                               review="unreviewed"))
+        images = [image(files, n, kind, ", ".join(str(c) for c in cap), h.get("artists", {}).get(n))
+                  for n, kind, *cap in h.get("images", [])]
         e = dict(name=g, rank="genus", parent=h["parent"], incertae_sedis=bool(h.get("incertae_sedis")),
                  placement_note=h.get("placement_note", ""), authority=h.get("authority") or authority(r.get("taxon_attr")).strip("()"),
                  type_species=ts, type_species_note=h.get("type_species_note", ""), summary=h["summary"])
@@ -334,6 +384,10 @@ if __name__ == "__main__":
     elif cmd == "dossier":
         for g in rest:
             dossier(R, g)
+    elif cmd == "addoa":
+        addoa(vol, rest)
+    elif cmd == "addimg":
+        addimg(R, vol, rest)
     elif cmd == "synonyms":
         synonyms(R, vol, yaml.safe_load(pathlib.Path(rest[0]).read_text()) if rest else None)
     elif cmd == "write":

@@ -1,0 +1,239 @@
+name: Gryposuchus
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Gürich 1912
+type_species: Gryposuchus jessei
+type_species_note: ''
+summary: Long-snouted Miocene gavialid of South America; G. croizati may have reached about 10 m.
+size:
+  length_m: [10, 10]
+  note: G. croizati estimated at about 10 m.
+age:
+  first_ma: 20.45
+  last_ma: 0.0117
+  early_interval: Burdigalian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 31
+  note: ''
+species:
+- name: Gryposuchus colombianus
+  authority: (Langston 1965)
+  first_ma: 15.98
+  last_ma: 11
+  interval: Langhian–Tortonian
+  reference: ''
+- name: Gryposuchus croizati
+  authority: Riff and Aguilera 2008
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Gryposuchus jessei
+  authority: Gürich 1912
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+- name: Gryposuchus neogaeus
+  authority: (Rusconi 1933)
+  first_ma: 8
+  last_ma: 5
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Gryposuchus pachakamue
+  authority: Salas-Gismondi et al. 2016
+  first_ma: 15.98
+  last_ma: 5.333
+  interval: Langhian–Messinian
+  reference: ''
+formations:
+- formation: Urumaco
+  group: ''
+  members: [Middle, Upper]
+  country: Venezuela
+  regions: [Falcon, Falcón]
+  interval: Late Miocene
+  occurrences: 8
+  ma: [5.333, 11.63]
+  id: urumaco-venezuela
+- formation: Pebas
+  group: ''
+  members: []
+  country: Peru
+  regions: [Maynas]
+  interval: Middle Miocene
+  occurrences: 6
+  ma: [11.63, 15.98]
+  id: pebas-peru
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian–Late Miocene
+  occurrences: 3
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+- formation: Unnamed unit
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Tolima]
+  interval: Middle Miocene–Laventan
+  occurrences: 3
+  ma: [11.0, 15.98]
+  id: honda-group-colombia
+- formation: La Victoria
+  group: Honda
+  members: []
+  country: Colombia
+  regions: []
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: la-victoria-colombia
+- formation: Villavieja
+  group: Honda
+  members: [Baraya]
+  country: Colombia
+  regions: []
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Amazonas]
+  interval: Eocene–Pliocene
+  occurrences: 2
+  ma: [2.58, 56.0]
+  id: solimoes-brazil
+- formation: Ituzaingo
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: unnamed-paricao-brazil
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Laventan
+  occurrences: 1
+  ma: [11.0, 13.8]
+  id: unnamed-dtc-32-peru
+- formation: Castillo
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Lara]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: castillo-venezuela
+- formation: Caujarao
+  group: ''
+  members: [El Muaco]
+  country: Venezuela
+  regions: []
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: caujarao-venezuela
+fossil_material:
+  holotype: A well-preserved rostrum from the Pauini River, Brazil (Gürich 1912), probably destroyed in the 1943
+    bombing of Hamburg.
+  material: Skulls and jaws of five species from Argentina, Colombia, Venezuela, Brazil and Peru.
+  completeness: multiple
+  exceptional: ''
+biology: A large long-snouted gavialid of the Miocene of South America; G. jessei is based on a rostrum lost in
+  the Second World War.
+images:
+- kind: life
+  file: Gryposuchus pachakamue.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Gryposuchus_pachakamue.png/960px-Gryposuchus_pachakamue.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gryposuchus_pachakamue.png
+  artist: Driptosaurus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-03-20'
+  caption: Life restoration of G. pachakamue
+  width: 4676
+  height: 2995
+  review: unreviewed
+  local: img/gallery/Gryposuchus_001.webp
+- kind: fossil
+  file: Gryposuchus colombianus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Gryposuchus_colombianus_skull.jpg/960px-Gryposuchus_colombianus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gryposuchus_colombianus_skull.jpg
+  artist: Rextron
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-08-17'
+  caption: Skull of G. colombianus
+  width: 2160
+  height: 3840
+  review: unreviewed
+  local: img/gallery/Gryposuchus_002.webp
+- kind: fossil
+  file: Gryposuchus display.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Gryposuchus_display.jpg/960px-Gryposuchus_display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gryposuchus_display.jpg
+  artist: Anfecaro
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2019-06-20'
+  caption: Gryposuchus fossils on display
+  width: 4032
+  height: 2811
+  review: unreviewed
+  local: img/gallery/Gryposuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/c4f68f96-33a2-4741-a7ea-c25313211c9c/vector.svg
+  png: https://images.phylopic.org/images/c4f68f96-33a2-4741-a7ea-c25313211c9c/raster/512x58.png
+  page: https://www.phylopic.org/images/c4f68f96-33a2-4741-a7ea-c25313211c9c
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Gryposuchus croizati
+  matched: Gryposuchus
+  genus_level: true
+  w: 512
+  h: 58
+sources:
+- kind: literature
+  text: 'de Souza, R.G.; Riff, D.; de Souza-Filho, J.P.; Kellner, A.W.A. 2018. Revisiting ''''Gryposuchus jessei''''
+    Gürich, 1912 (Crocodylia: Gavialoidea): specimen description and comments on the genus. Zootaxa 4457(1): 167–178.
+    doi:10.11646/zootaxa.4457.1.9'
+- kind: literature
+  text: 'Cidade, Giovanne; Fortier, Daniel; Hsiou, Annie 1 De. The crocodylomorph fauna of the cenozoic of South
+    America and its evolutionary history: A review. Journal of South American Earth Sciences 90: 392–411. doi:10.1016/j.jsames.2018.12.026'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gryposuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gryposuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gryposuchus”. English Wikipedia, revision 1383743094.
+  url: https://en.wikipedia.org/w/index.php?title=Gryposuchus&oldid=1383743094
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

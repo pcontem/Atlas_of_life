@@ -1,0 +1,103 @@
+name: Argochampsa
+rank: genus
+parent: gavialoidea
+incertae_sedis: false
+placement_note: ''
+authority: Hua and Jouve 2004
+type_species: Argochampsa krebsi
+type_species_note: ''
+summary: Long-snouted, probably marine gavialoid from the Paleocene phosphates of Morocco.
+size:
+  length_m: null
+  note: Skull 43.3 cm long, about 70% of it snout; no body length is given.
+age:
+  first_ma: 66
+  last_ma: 48.07
+  early_interval: Danian
+  late_interval: Ypresian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Argochampsa krebsi
+  authority: Hua and Jouve 2004
+  first_ma: 66
+  last_ma: 48.07
+  interval: Danian–Ypresian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Danian
+  occurrences: 2
+  ma: [61.66, 66.0]
+  id: unnamed-rhinopolis-collection-phosphate-1-morocco
+- formation: Couche II
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Danian–Thanetian
+  occurrences: 1
+  ma: [56.0, 66.0]
+  id: couche-ii-morocco
+- formation: Couche I
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: couche-i-morocco
+fossil_material:
+  holotype: Type material of A. krebsi from Morocco (Hua & Jouve 2004).
+  material: Skulls from the Moroccan phosphates.
+  completeness: multiple
+  exceptional: ''
+biology: A long-snouted gavialoid that appears to have lived in the sea.
+images:
+- kind: life
+  file: Argochampsa krebsi.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5f/Argochampsa_krebsi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Argochampsa_krebsi.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-10'
+  caption: Life restoration of A. krebsi
+  width: 1341
+  height: 617
+  review: unreviewed
+  local: img/gallery/Argochampsa_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Hua, Stephane; Jouve, Stéphane 2004. A primitive marine gavialoid from the Paleocene of Morocco. Journal
+    of Vertebrate Paleontology 24(2): 341–350. doi:10.1671/1104'
+- kind: literature
+  text: 'Jouve, Stéphane 2006. New material of ''''Argochampsa krebsi'''' (Crocodylia: Gavialoidea) from the Lower
+    Paleocene of the Oulad Abdoun Basin (Morocco): phylogenetic implications. Geobios 39(6): 817–832. doi:10.1016/j.geobios.2005.07.003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Argochampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Argochampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Argochampsa”. English Wikipedia, revision 1385665649.
+  url: https://en.wikipedia.org/w/index.php?title=Argochampsa&oldid=1385665649
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
