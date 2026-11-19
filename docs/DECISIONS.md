@@ -239,3 +239,10 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   images of other genera. The harvest now also collects figures of CC BY / CC0 open-access articles from Europe
   PMC whose caption names the genus (`data/raw/<volume>/oa_figures.json`, contact sheets on branch
   `sheets/<volume>-oa`), the second image source of CLAUDE.md §4.4. The request-file workflows no longer run on main.
+
+## 2026-11-19 — Clade work queue
+- `docs/QUEUE.md` is the ordered list of backbone clades still without an entry, with the working
+  procedure for Claude, so a new session needs no chat history: read CLAUDE.md and QUEUE.md, take the
+  next batch (10 by default), write the entries (§4.2b), run fmt/build/validate, re-run `scripts/queue.py`.
+- The file is generated (`python3 scripts/queue.py`): done = an entry file exists; order = top-down walk of
+  the backbone (parents first), with optional priority subtrees in `docs/queue_priority.txt`.

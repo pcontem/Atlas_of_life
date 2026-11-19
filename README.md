@@ -42,7 +42,7 @@ data/raw/              raw downloads (PBDB, Wikipedia, Commons, PhyloPic) — pr
 scripts/               build.py, validate.py, fmt.py, legacy/ (prototype)
 site/                  static website (index.html, css/, js/, img/, sil/, vendor/)
 tests/                 screenshots.py
-docs/                  CONSOLIDATION.md (generated), DECISIONS.md
+docs/                  QUEUE.md (clade work queue, generated), CONSOLIDATION.md (generated), DECISIONS.md
 ```
 
 ## Publishing
