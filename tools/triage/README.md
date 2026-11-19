@@ -17,6 +17,10 @@ request for review.
 6. **Send to GitHub** — needs a token (see below). Choices are kept in the browser until they are sent;
    **Download JSON** saves them as a file instead.
 
+Pictures of relatives: a candidate whose file name or description names another genus of the volume but not this
+one (nor a synonym or one of its species epithets) is hidden; tick *Show images that name only other genera* to see
+them (marked with the names they mention). Candidates naming no genus at all stay visible.
+
 Rules the tool enforces: licences outside CC0 / public domain / CC BY / CC BY-SA cannot be chosen; `photo` only for
 living genera. The workflow also keeps the 8-per-kind limit. Not checked by the tool (judge them yourself):
 museum models, statues, stamps, maps, size charts, pre-1950 restorations, AI images, pictures of other taxa
