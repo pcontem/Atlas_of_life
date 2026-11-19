@@ -31,6 +31,50 @@ def text(s, limit=220):
     return s if len(s) <= limit else s[: limit - 1].rstrip() + "…"
 
 
+def name_index(vol, raw, genera, entries):
+    """For each genus, the words that point to it: its name, its synonyms (PBDB accepted names, junior synonyms in
+    excluded.yaml) and the epithets of its species (old combinations such as "Crocodylus cataphractus" for
+    Mecistops). Also the set of every genus name of the volume, valid or not."""
+    own = {g: {g} for g in set(genera) | set(entries)}
+    allnames = set(own)
+    recs = json.loads((raw / "pbdb_genera.json").read_text())["records"]
+    if (raw / "pbdb_invalid.json").exists():
+        recs += json.loads((raw / "pbdb_invalid.json").read_text())["records"]
+    for r in recs:
+        allnames.add(r["taxon_name"])
+        a = r.get("accepted_name")
+        if a and a != r["taxon_name"] and a in own:
+            own[a].add(r["taxon_name"])
+    exp = ROOT / "entries" / vol / "excluded.yaml"
+    for x in (yaml.safe_load(exp.read_text()) if exp.exists() else None) or []:
+        allnames.add(x["name"])
+        if x.get("status") == "junior synonym" and x.get("parent") in own:
+            own[x["parent"]].add(x["name"])
+    epithets = {g: set() for g in own}
+    sp = json.loads((raw / "pbdb_species.json").read_text())["species"] if (raw / "pbdb_species.json").exists() else {}
+    for g, lst in sp.items():
+        for x in lst if g in epithets else []:
+            ep = (x.get("name") or x.get("taxon_name") or "").split()[-1:]
+            if ep and len(ep[0]) >= 5:
+                epithets[g].add(ep[0].lower())
+    for g, e in entries.items():
+        for x in e.get("species") or []:
+            ep = x["name"].split()[-1]
+            if len(ep) >= 5:
+                epithets[g].add(ep.lower())
+    return own, epithets, allnames
+
+
+def relatives(g, txt, own, epithets, allnames):
+    """Other genera a candidate names when it does not name this genus (its name, a synonym or a species
+    epithet) — the sign of a picture of a relative taken from the genus's Wikipedia article or category tree."""
+    words = set(re.findall(r"[A-Za-z]+", txt))
+    low = {w.lower() for w in words}
+    if any(n.lower() in low for n in own.get(g, {g})) or epithets.get(g, set()) & low:
+        return []
+    return sorted((words & allnames) - own.get(g, {g}))
+
+
 def build(vol):
     raw = ROOT / "data/raw" / vol
     j = lambda n: json.loads((raw / n).read_text())
@@ -41,6 +85,7 @@ def build(vol):
     for p in (ROOT / "entries" / vol / "genera").glob("*.yaml"):
         e = yaml.safe_load(p.read_text())
         entries[e["name"]] = e
+    own, epithets, allnames = name_index(vol, raw, genera, entries)
     by_genus = {}
     for title, f in sorted(commons.items()):
         if not f.get("thumb") or not (f.get("mime") or "").startswith("image/") or f.get("mime") == "image/svg+xml":
@@ -58,14 +103,16 @@ def build(vol):
             cands.append(dict(key=title, thumb=f["thumb"], page=f["page"], w=f.get("width"), h=f.get("height"),
                               artist=text(f.get("Artist"), 90), license=f.get("LicenseShortName") or "?",
                               ok=bool(lic), caption=text(f.get("ImageDescription")), found=f.get("found", []),
-                              inentry=f["page"] in shown))
+                              inentry=f["page"] in shown,
+                              other=relatives(name, f"{title} {text(f.get('ImageDescription'), 2000)}", own, epithets, allnames)))
         figs = []
         for f in oa.get(name, []):
             key = f"{f['pmcid']} {f['label']}".strip()
             lic = (f.get("license") or "").lower()
             figs.append(dict(key=key, img=f["img"], page=f"https://doi.org/{f['doi']}" if f.get("doi") else f"https://europepmc.org/article/PMC/{f['pmcid']}",
                              cite=text(f.get("cite"), 160), label=f["label"], caption=text(f.get("caption"), 300),
-                             license=f.get("license") or "?", ok=lic in ("cc by", "cc0"), inentry=key in shown_files))
+                             license=f.get("license") or "?", ok=lic in ("cc by", "cc0"), inentry=key in shown_files,
+                             other=relatives(name, f.get("caption") or "", own, epithets, allnames)))
         if not (cands or figs or e):
             continue
         r = genera.get(name, {})
@@ -89,4 +136,5 @@ if __name__ == "__main__":
         p.parent.mkdir(exist_ok=True)
         p.write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")))
         n = sum(len(g["commons"]) + len(g["oa"]) for g in d["genera"])
-        print(f"{p.relative_to(ROOT)}: {len(d['genera'])} genera, {n} candidates, {p.stat().st_size // 1024} KB")
+        o = sum(1 for g in d["genera"] for c in g["commons"] + g["oa"] if c["other"])
+        print(f"{p.relative_to(ROOT)}: {len(d['genera'])} genera, {n} candidates ({o} name only other genera), {p.stat().st_size // 1024} KB")

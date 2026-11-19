@@ -261,3 +261,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - The page shows Commons and article images directly from their sites (it is a tool, not part of the published site,
   so the §6 rule against remote images does not apply to it).
 - Volumes from before `harvest.py` (Pterosauria) have no candidate file yet.
+- Triage page hides pictures of relatives by default (owner, 2026-11-19): `triage_data.py` marks a candidate `other`
+  when its file name or description names another genus of the volume and not the genus itself, one of its
+  synonyms (PBDB, excluded.yaml) or one of its species epithets. About 55% of the Pseudosuchia candidates; nothing is
+  deleted, a checkbox shows them.

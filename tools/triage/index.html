@@ -83,6 +83,7 @@ kbd{font:11px monospace;border:1px solid var(--line);border-bottom-width:2px;bor
         <option value="all">All genera</option>
         <option value="changed">Changed in this session</option>
       </select>
+      <label style="font-size:12px;display:flex;gap:5px;align-items:center"><input type="checkbox" id="showrel"> Show images that name only other genera</label>
     </div>
     <ul id="list"></ul>
   </aside>
@@ -204,7 +205,9 @@ function counter() {
 }
 
 function cands(g) { return [...g.commons.map(c => ({ ...c, src: "commons" })), ...g.oa.map(c => ({ ...c, src: "oa" }))]; }
-function undecided(g) { return cands(g).filter(c => c.ok && !c.inentry && !decision(g.name, c.key)).length; }
+const relHidden = c => (c.other || []).length && !$("#showrel").checked;  // pictures of relatives (scripts/triage_data.py)
+function visible(g) { return cands(g).filter(c => !c.inentry && !relHidden(c)); }
+function undecided(g) { return visible(g).filter(c => c.ok && !decision(g.name, c.key)).length; }
 
 // ---- list ------------------------------------------------------------------------------------
 function renderList() {
@@ -219,7 +222,7 @@ function renderList() {
     return true;
   });
   $("#list").innerHTML = shown.map(i => {
-    const g = DATA.genera[i], tot = cands(g).filter(c => c.ok && !c.inentry).length;
+    const g = DATA.genera[i], tot = visible(g).filter(c => c.ok).length;
     return `<li data-i="${i}" class="${i === cur ? "sel" : ""} ${g.has_entry ? "entry" : ""} ${LOCALD[g.name] ? "changed" : ""}">
       <span class="name">${esc(g.name)}</span><span class="n">${tot - undecided(g)}/${tot}</span></li>`;
   }).join("") || `<li class="empty">Nothing here.</li>`;
@@ -229,6 +232,8 @@ function firstShown() { return shown.length ? shown[0] : 0; }
 $("#list").addEventListener("click", e => { const li = e.target.closest("li[data-i]"); if (li) show(+li.dataset.i); });
 $("#q").addEventListener("input", renderList);
 $("#filter").addEventListener("change", () => { renderList(); });
+$("#showrel").checked = localStorage.getItem("triage.showrel") === "1";
+$("#showrel").addEventListener("change", () => { localStorage.setItem("triage.showrel", $("#showrel").checked ? "1" : ""); if (DATA) show(cur); });
 
 // ---- genus view ------------------------------------------------------------------------------
 function show(i) {
@@ -249,7 +254,9 @@ function show(i) {
         `<button class="k-${v} ${r === v ? "on" : ""}" data-review="${v}" data-page="${esc(x.page)}" data-orig="${x.review}">${v}</button>`).join("")}</div></div>`;
     }).join("") + `</div>`;
   }
-  const c = cands(g).filter(x => !x.inentry);  // those already shown are reviewed above
+  const c = visible(g);  // those already in the entry are reviewed above
+  const hid = cands(g).filter(x => !x.inentry && relHidden(x));
+  if (hid.length) h += `<div class="meta">${hid.length} image(s) naming only other genera hidden (${esc([...new Set(hid.flatMap(x => x.other))].slice(0, 6).join(", "))}) — tick “Show images that name only other genera” to see them.</div>`;
   const sec = (title, list) => list.length ? `<h3>${title}</h3><div class="grid">${list.map(card).join("")}</div>` : "";
   h += sec("Wikimedia Commons", c.filter(x => x.src === "commons")) + sec("Open-access article figures", c.filter(x => x.src === "oa"));
   if (!c.length) h += `<div class="empty">No other candidates were harvested for this genus.</div>`;
@@ -270,6 +277,7 @@ function card(x) {
   return `<div class="card st-${st}" data-key="${esc(x.key)}" data-src="${x.src}">
     <div class="pic" data-big="${esc(big)}" data-cap="${esc(x.caption)}"><img loading="lazy" src="${esc(thumb)}" alt="" referrerpolicy="no-referrer"></div>
     <div class="info">${x.inentry ? `<span class="tag" style="--c:var(--accent)">in the entry</span>` : ""}
+      ${(x.other || []).length ? `<span class="tag" style="--c:#a15c00">names ${esc(x.other.slice(0, 3).join(", "))}</span>` : ""}
       <a class="cap" href="${esc(x.page)}" target="_blank" rel="noopener">${esc(x.key.replace(/^File:/, ""))}</a>
       <span class="by">${by}</span>
       <input class="capin" placeholder="Caption shown on the site" value="${esc(capText)}" ${dis ? "disabled" : ""}></div>
