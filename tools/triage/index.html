@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas of Life — image triage</title>
+<style>
+:root{--bg:#f6f5f2;--panel:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#dedcd6;--accent:#2f6f5e;
+--photo:#2b6cb0;--life:#b7791f;--fossil:#6b4f3a;--skeletal:#553c9a;--reject:#b42318;--ok:#2f855a}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);height:100vh;display:flex;flex-direction:column}
+header{display:flex;gap:12px;align-items:center;padding:8px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
+header h1{font-size:16px;margin:0 8px 0 0;white-space:nowrap}
+header label{font-size:12px;color:var(--mute);display:flex;flex-direction:column;gap:2px}
+header input{font:inherit;padding:4px 6px;border:1px solid var(--line);border-radius:4px;min-width:0}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:4px;padding:4px 9px}
+button:hover:not(:disabled){border-color:#999}
+button:disabled{opacity:.4;cursor:default}
+button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+main{flex:1;display:flex;min-height:0}
+aside{width:250px;display:flex;flex-direction:column;border-right:1px solid var(--line);background:var(--panel)}
+aside .filters{padding:8px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line)}
+aside input,aside select{font:inherit;padding:4px 6px;border:1px solid var(--line);border-radius:4px}
+#list{overflow:auto;flex:1;margin:0;padding:0;list-style:none}
+#list li{padding:5px 10px;cursor:pointer;display:flex;justify-content:space-between;gap:6px;border-bottom:1px solid #f0efeb}
+#list li.sel{background:#e6f0ec}
+#list li .n{color:var(--mute);font-size:12px;white-space:nowrap}
+#list li.entry .name::after{content:" ●";color:var(--accent);font-size:10px}
+#list li.changed .name{font-weight:600}
+#view{flex:1;overflow:auto;padding:14px 18px 80px}
+#view h2{margin:0;font-size:20px}
+.meta{color:var(--mute);margin:2px 0 10px}
+.badge{display:inline-block;font-size:11px;padding:1px 6px;border-radius:9px;background:#eee;margin-left:6px;vertical-align:2px}
+.warn{background:#fff4e5;border:1px solid #f3c78b;padding:6px 10px;border-radius:4px;margin:8px 0}
+h3{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute);margin:18px 0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.card{background:var(--panel);border:2px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.card.focus{outline:3px solid #f0b429;outline-offset:1px}
+.card .pic{height:170px;background:#eceae5;display:flex;align-items:center;justify-content:center;cursor:zoom-in}
+.card .pic img{max-width:100%;max-height:100%}
+.card .info{padding:6px 8px;font-size:12px;display:flex;flex-direction:column;gap:3px;flex:1}
+.card .cap{color:var(--ink)}
+.card .by{color:var(--mute)}
+.card .lic.bad{color:var(--reject);font-weight:600}
+.card input.capin{font:inherit;font-size:12px;padding:3px 5px;border:1px solid var(--line);border-radius:3px;width:100%}
+.card .btns{display:flex;flex-wrap:wrap;gap:4px;padding:6px 8px;border-top:1px solid var(--line)}
+.card .btns button{font-size:12px;padding:3px 7px}
+.k-photo{--c:var(--photo)}.k-life{--c:var(--life)}.k-fossil{--c:var(--fossil)}.k-skeletal{--c:var(--skeletal)}.k-reject{--c:var(--reject)}
+.k-accepted{--c:var(--ok)}.k-outdated{--c:var(--reject)}.k-unreviewed{--c:#777}
+.btns button.on{background:var(--c);border-color:var(--c);color:#fff}
+.card.st-photo{border-color:var(--photo)}.card.st-life{border-color:var(--life)}.card.st-fossil{border-color:var(--fossil)}
+.card.st-skeletal{border-color:var(--skeletal)}.card.st-reject{border-color:var(--reject);opacity:.55}.card.st-inentry{border-color:var(--accent)}
+.tag{font-size:11px;font-weight:600;color:#fff;background:var(--c,#777);padding:1px 6px;border-radius:3px;align-self:flex-start}
+footer{position:fixed;bottom:0;left:0;right:0;background:var(--panel);border-top:1px solid var(--line);padding:8px 14px;display:flex;gap:10px;align-items:center}
+footer .grow{flex:1}
+#status{color:var(--mute)}
+#status a{color:var(--accent)}
+#lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;flex-direction:column;z-index:10;color:#eee;padding:20px;cursor:zoom-out}
+#lightbox img{max-width:95vw;max-height:85vh;background:#fff}
+#lightbox p{max-width:900px;text-align:center}
+#help{font-size:12px;color:var(--mute)}
+kbd{font:11px monospace;border:1px solid var(--line);border-bottom-width:2px;border-radius:3px;padding:0 4px;background:#fff}
+.empty{color:var(--mute);padding:40px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1>Image triage</h1>
+  <label>Repository<input id="repo" size="22"></label>
+  <label>Branch<input id="base" size="8"></label>
+  <label>Volume<input id="vol" size="12"></label>
+  <label>GitHub token (only to send)<input id="token" type="password" size="22" placeholder="github_pat_…"></label>
+  <button id="load" class="primary">Load</button>
+  <span id="help"><kbd>←</kbd><kbd>→</kbd> image · <kbd>1</kbd> photo <kbd>2</kbd> life <kbd>3</kbd> fossil <kbd>4</kbd> skeletal <kbd>X</kbd> reject <kbd>0</kbd> clear · <kbd>[</kbd><kbd>]</kbd> genus · <kbd>Enter</kbd> enlarge</span>
+</header>
+<main>
+  <aside>
+    <div class="filters">
+      <input id="q" placeholder="Search genus or family">
+      <select id="filter">
+        <option value="todo">Undecided candidates</option>
+        <option value="entry">Genera with an entry</option>
+        <option value="all">All genera</option>
+        <option value="changed">Changed in this session</option>
+      </select>
+    </div>
+    <ul id="list"></ul>
+  </aside>
+  <section id="view"><div class="empty">Load a volume to start.</div></section>
+</main>
+<footer>
+  <span id="count"></span>
+  <span class="grow" id="status"></span>
+  <button id="export">Download JSON</button>
+  <button id="discard">Discard changes</button>
+  <button id="send" class="primary">Send to GitHub</button>
+</footer>
+<div id="lightbox"><img alt=""><p></p></div>
+<script>
+"use strict";
+// Decisions: one batch file per "Send", data/triage/<vol>_decisions/<time>.json, folded in time order
+// (same rules as scripts/apply_triage.py). The workflow triage-apply turns them into entry changes and a PR.
+const KINDS = ["photo", "life", "fossil", "skeletal"];
+const $ = s => document.querySelector(s);
+const params = new URLSearchParams(location.search);
+const LOCAL = params.has("local");  // read the files of a local checkout (python3 -m http.server from the repo root)
+const cfg = {
+  repo: localStorage.getItem("triage.repo") || "pcontem/Atlas_of_life",
+  base: localStorage.getItem("triage.base") || "main",
+  vol: params.get("volume") || localStorage.getItem("triage.vol") || "pseudosuchia",
+  token: localStorage.getItem("triage.token") || "",
+};
+for (const k of ["repo", "base", "vol", "token"]) $("#" + k).value = cfg[k];
+
+let DATA = null, SAVED = {}, LOCALD = {}, cur = 0, focus = 0, shown = [];
+const storeKey = () => `triage.edits.${cfg.repo}.${cfg.vol}`;
+
+function status(html) { $("#status").innerHTML = html; }
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+
+async function gh(path, opt = {}) {
+  const h = { Accept: "application/vnd.github+json", ...(opt.headers || {}) };
+  if (cfg.token) h.Authorization = "Bearer " + cfg.token;
+  const r = await fetch("https://api.github.com" + path, { ...opt, headers: h });
+  if (r.status === 404 && opt.allow404) return null;
+  if (!r.ok) throw new Error(`${opt.method || "GET"} ${path}: ${r.status} ${(await r.text()).slice(0, 200)}`);
+  return opt.raw ? r.text() : r.json();
+}
+const rawFile = (p, ref) => gh(`/repos/${cfg.repo}/contents/${p}?ref=${encodeURIComponent(ref)}`,
+  { headers: { Accept: "application/vnd.github.raw+json" }, raw: true, allow404: true });
+
+async function readBatches() {
+  const dir = `data/triage/${cfg.vol}_decisions`;
+  let names = [];
+  if (LOCAL) {
+    const r = await fetch(`../../${dir}/`);
+    if (r.ok) names = [...(await r.text()).matchAll(/href="([^"]+\.json)"/g)].map(m => decodeURIComponent(m[1]));
+  } else {
+    const ls = await gh(`/repos/${cfg.repo}/contents/${dir}?ref=${encodeURIComponent(cfg.base)}`, { allow404: true });
+    names = (ls || []).filter(f => f.name.endsWith(".json")).map(f => f.name);
+  }
+  names.sort();
+  const out = [];
+  for (const n of names) {
+    const t = LOCAL ? await (await fetch(`../../${dir}/${encodeURIComponent(n)}`)).text() : await rawFile(`${dir}/${n}`, cfg.base);
+    if (t) out.push(JSON.parse(t));
+  }
+  return out;
+}
+
+function fold(batches) {
+  const st = {};
+  for (const b of batches) for (const [g, d] of Object.entries(b.genera || {})) {
+    const s = st[g] ||= { items: {}, review: {} };
+    for (const a of d.add || []) s.items[a.key] = { src: a.src, kind: a.kind, caption: a.caption };
+    for (const k of d.reject || []) s.items[k] = { reject: true };
+    for (const k of d.clear || []) delete s.items[k];
+    Object.assign(s.review, d.review || {});
+  }
+  return st;
+}
+
+async function load() {
+  for (const k of ["repo", "base", "vol", "token"]) { cfg[k] = $("#" + k).value.trim(); localStorage.setItem("triage." + k, cfg[k]); }
+  status("Loading…");
+  try {
+    const p = `data/triage/${cfg.vol}.json`;
+    const t = LOCAL ? await (await fetch("../../" + p)).text() : await rawFile(p, cfg.base);
+    if (!t) throw new Error(`${p} not found on ${cfg.base}`);
+    DATA = JSON.parse(t);
+    SAVED = fold(await readBatches());
+    LOCALD = JSON.parse(localStorage.getItem(storeKey()) || "{}");
+    cur = 0; focus = 0;
+    renderList(); show(firstShown());
+    status(`${DATA.genera.length} genera loaded${LOCAL ? " (local files)" : ""}. Choices are kept in this browser until you send them.`);
+  } catch (e) { status("⚠ " + esc(e.message)); }
+}
+
+// ---- decisions -------------------------------------------------------------------------------
+function decision(g, key) {
+  const l = LOCALD[g]?.items;
+  if (l && key in l) return l[key];  // null = withdrawn in this session
+  return SAVED[g]?.items[key] || null;
+}
+function review(g, page, orig) { return LOCALD[g]?.review?.[page] ?? SAVED[g]?.review?.[page] ?? orig; }
+function setDecision(g, key, val) {
+  const s = LOCALD[g] ||= { items: {}, review: {} };
+  const before = SAVED[g]?.items[key] || null;
+  if (JSON.stringify(val) === JSON.stringify(before)) delete s.items[key]; else s.items[key] = val;
+  tidy(g); persist();
+}
+function setReview(g, page, val, orig) {
+  const s = LOCALD[g] ||= { items: {}, review: {} };
+  const before = SAVED[g]?.review?.[page] ?? orig;
+  if (val === before) delete s.review[page]; else s.review[page] = val;
+  tidy(g); persist();
+}
+function tidy(g) { const s = LOCALD[g]; if (s && !Object.keys(s.items).length && !Object.keys(s.review).length) delete LOCALD[g]; }
+function persist() { localStorage.setItem(storeKey(), JSON.stringify(LOCALD)); counter(); }
+function counter() {
+  const n = Object.values(LOCALD).reduce((a, s) => a + Object.keys(s.items).length + Object.keys(s.review).length, 0);
+  $("#count").textContent = n ? `${n} change(s) in ${Object.keys(LOCALD).length} genera — not sent yet` : "No unsent changes";
+  $("#send").disabled = $("#discard").disabled = !n;
+}
+
+function cands(g) { return [...g.commons.map(c => ({ ...c, src: "commons" })), ...g.oa.map(c => ({ ...c, src: "oa" }))]; }
+function undecided(g) { return cands(g).filter(c => c.ok && !c.inentry && !decision(g.name, c.key)).length; }
+
+// ---- list ------------------------------------------------------------------------------------
+function renderList() {
+  if (!DATA) return;
+  const q = $("#q").value.trim().toLowerCase(), f = $("#filter").value;
+  shown = DATA.genera.map((g, i) => i).filter(i => {
+    const g = DATA.genera[i];
+    if (q && !g.name.toLowerCase().includes(q) && !(g.family || "").toLowerCase().includes(q)) return false;
+    if (f === "todo") return undecided(g) > 0;
+    if (f === "entry") return g.has_entry;
+    if (f === "changed") return !!LOCALD[g.name];
+    return true;
+  });
+  $("#list").innerHTML = shown.map(i => {
+    const g = DATA.genera[i], tot = cands(g).filter(c => c.ok && !c.inentry).length;
+    return `<li data-i="${i}" class="${i === cur ? "sel" : ""} ${g.has_entry ? "entry" : ""} ${LOCALD[g.name] ? "changed" : ""}">
+      <span class="name">${esc(g.name)}</span><span class="n">${tot - undecided(g)}/${tot}</span></li>`;
+  }).join("") || `<li class="empty">Nothing here.</li>`;
+  counter();
+}
+function firstShown() { return shown.length ? shown[0] : 0; }
+$("#list").addEventListener("click", e => { const li = e.target.closest("li[data-i]"); if (li) show(+li.dataset.i); });
+$("#q").addEventListener("input", renderList);
+$("#filter").addEventListener("change", () => { renderList(); });
+
+// ---- genus view ------------------------------------------------------------------------------
+function show(i) {
+  if (!DATA || !DATA.genera[i]) return;
+  cur = i; focus = 0;
+  const g = DATA.genera[i];
+  const wiki = `https://commons.wikimedia.org/wiki/Category:${encodeURIComponent(g.name)}`;
+  let h = `<h2>${esc(g.name)}<span class="badge">${g.extant ? "living" : "extinct"}</span>
+    <span class="badge">${g.has_entry ? "has an entry" : "no entry yet"}</span></h2>
+    <div class="meta">${esc(g.family || "")} · <a href="${wiki}" target="_blank" rel="noopener">Commons category</a></div>`;
+  if (!g.has_entry) h += `<div class="warn">This genus has no entry yet. Images you choose are stored and added when its entry is written.</div>`;
+  if (g.existing.length) {
+    h += `<h3>Already in the entry — review</h3><div class="grid">` + g.existing.map(x => {
+      const r = review(g.name, x.page, x.review);
+      return `<div class="card st-inentry"><div class="pic" data-big="${esc(x.url)}" data-cap="${esc(x.caption)}"><img loading="lazy" src="${esc(x.url)}" alt=""></div>
+      <div class="info"><span class="tag k-${x.kind}">${x.kind}</span><span class="cap">${esc(x.caption)}</span><span class="by">${esc(x.artist)} · ${esc(x.license)}</span></div>
+      <div class="btns">${["accepted", "outdated", "unreviewed"].map(v =>
+        `<button class="k-${v} ${r === v ? "on" : ""}" data-review="${v}" data-page="${esc(x.page)}" data-orig="${x.review}">${v}</button>`).join("")}</div></div>`;
+    }).join("") + `</div>`;
+  }
+  const c = cands(g).filter(x => !x.inentry);  // those already shown are reviewed above
+  const sec = (title, list) => list.length ? `<h3>${title}</h3><div class="grid">${list.map(card).join("")}</div>` : "";
+  h += sec("Wikimedia Commons", c.filter(x => x.src === "commons")) + sec("Open-access article figures", c.filter(x => x.src === "oa"));
+  if (!c.length) h += `<div class="empty">No other candidates were harvested for this genus.</div>`;
+  $("#view").innerHTML = h;
+  $("#view").scrollTop = 0;
+  renderList(); paintFocus();
+}
+
+function card(x) {
+  const g = DATA.genera[cur], d = decision(g.name, x.key);
+  const st = x.inentry ? "inentry" : d ? (d.reject ? "reject" : d.kind) : "";
+  const thumb = x.src === "commons" ? x.thumb : x.img;
+  const big = x.src === "commons" ? x.thumb.replace("/330px-", "/1280px-") : x.img;
+  const capText = d && !d.reject ? d.caption : (x.src === "oa" ? x.caption : x.caption);
+  const by = x.src === "commons" ? `${esc(x.artist || "no author on Commons")} · <span class="lic ${x.ok ? "" : "bad"}">${esc(x.license)}${x.ok ? "" : " — not allowed"}</span>`
+    : `${esc(x.label)} · ${esc(x.cite)} · <span class="lic ${x.ok ? "" : "bad"}">${esc(x.license)}</span>`;
+  const dis = !x.ok || x.inentry;
+  return `<div class="card st-${st}" data-key="${esc(x.key)}" data-src="${x.src}">
+    <div class="pic" data-big="${esc(big)}" data-cap="${esc(x.caption)}"><img loading="lazy" src="${esc(thumb)}" alt="" referrerpolicy="no-referrer"></div>
+    <div class="info">${x.inentry ? `<span class="tag" style="--c:var(--accent)">in the entry</span>` : ""}
+      <a class="cap" href="${esc(x.page)}" target="_blank" rel="noopener">${esc(x.key.replace(/^File:/, ""))}</a>
+      <span class="by">${by}</span>
+      <input class="capin" placeholder="Caption shown on the site" value="${esc(capText)}" ${dis ? "disabled" : ""}></div>
+    <div class="btns">${KINDS.map(k => `<button class="k-${k} ${st === k ? "on" : ""}" data-kind="${k}"
+      ${dis || (k === "photo" && !g.extant) ? "disabled" : ""} title="${k === "photo" ? "photo of a living animal (living genera only)" : k}">${k}</button>`).join("")}
+      <button class="k-reject ${st === "reject" ? "on" : ""}" data-kind="reject" ${x.inentry ? "disabled" : ""}>✕ reject</button></div></div>`;
+}
+
+function choose(el, kind) {
+  const g = DATA.genera[cur], key = el.dataset.key, src = el.dataset.src;
+  const x = cands(g).find(c => c.key === key && c.src === src);
+  if (!x || x.inentry || (!x.ok && kind !== "reject") || (kind === "photo" && !g.extant)) return false;
+  const d = decision(g.name, key), cap = el.querySelector(".capin").value.trim();
+  let val;
+  if (kind === null) val = null;
+  else if (kind === "reject") val = d?.reject ? null : { reject: true };
+  else val = d && d.kind === kind ? null : { src, kind, caption: cap || x.caption || g.name };
+  setDecision(g.name, key, val);
+  el.outerHTML = card(x);
+  renderList(); paintFocus();
+  return true;
+}
+
+$("#view").addEventListener("click", e => {
+  const pic = e.target.closest(".pic");
+  if (pic) { openBox(pic.dataset.big, pic.dataset.cap); return; }
+  const b = e.target.closest("button");
+  if (!b) return;
+  const g = DATA.genera[cur];
+  if (b.dataset.review) { setReview(g.name, b.dataset.page, b.dataset.review, b.dataset.orig); const y = $("#view").scrollTop; show(cur); $("#view").scrollTop = y; return; }
+  const el = b.closest(".card[data-key]");
+  if (el) { focus = [...document.querySelectorAll(".card[data-key]")].indexOf(el); choose(el, b.dataset.kind); }
+});
+$("#view").addEventListener("change", e => {
+  if (!e.target.classList.contains("capin")) return;
+  const el = e.target.closest(".card[data-key]"), g = DATA.genera[cur], d = decision(g.name, el.dataset.key);
+  if (d && !d.reject) setDecision(g.name, el.dataset.key, { ...d, caption: e.target.value.trim() });
+});
+
+function paintFocus() {
+  const cs = [...document.querySelectorAll(".card[data-key]")];
+  cs.forEach((c, i) => c.classList.toggle("focus", i === focus));
+  cs[focus]?.scrollIntoView({ block: "nearest" });
+}
+function openBox(src, cap) { const b = $("#lightbox"); b.querySelector("img").src = src; b.querySelector("p").textContent = cap || ""; b.style.display = "flex"; }
+$("#lightbox").addEventListener("click", () => $("#lightbox").style.display = "none");
+
+document.addEventListener("keydown", e => {
+  if (!DATA || e.target.matches("input,select,textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+  const cs = [...document.querySelectorAll(".card[data-key]")], box = $("#lightbox").style.display === "flex";
+  const k = e.key.toLowerCase();
+  if (k === "escape") { $("#lightbox").style.display = "none"; return; }
+  if (k === "arrowright" || k === "arrowleft") { focus = Math.max(0, Math.min(cs.length - 1, focus + (k === "arrowright" ? 1 : -1))); paintFocus(); if (box) { const p = cs[focus].querySelector(".pic"); openBox(p.dataset.big, p.dataset.cap); } e.preventDefault(); return; }
+  if (k === "]" || k === "[") { const j = shown.indexOf(cur), n = shown[j + (k === "]" ? 1 : -1)]; if (n !== undefined) show(n); else if (j < 0 && shown.length) show(shown[0]); return; }
+  const el = cs[focus]; if (!el) return;
+  if (k === "enter") { const p = el.querySelector(".pic"); openBox(p.dataset.big, p.dataset.cap); return; }
+  const map = { 1: "photo", 2: "life", 3: "fossil", 4: "skeletal", x: "reject", 0: null };
+  if (k in map && choose(el, map[k]) && map[k] !== null && focus < cs.length - 1) { focus++; paintFocus(); }
+});
+
+// ---- export / send ---------------------------------------------------------------------------
+function batch() {
+  const genera = {};
+  for (const [g, s] of Object.entries(LOCALD)) {
+    const d = { add: [], reject: [], clear: [], review: { ...s.review } };
+    for (const [key, v] of Object.entries(s.items)) {
+      if (v === null) d.clear.push(key); else if (v.reject) d.reject.push(key); else d.add.push({ key, ...v });
+    }
+    genera[g] = d;
+  }
+  return { volume: cfg.vol, created: new Date().toISOString(), genera };
+}
+const stamp = () => new Date().toISOString().replace(/[-:]/g, "").replace(/\..*/, "").replace("T", "-");
+
+$("#export").onclick = () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(batch(), null, 1)], { type: "application/json" }));
+  a.download = `${stamp()}.json`; a.click();
+};
+$("#discard").onclick = () => { if (confirm("Discard every change not sent yet?")) { LOCALD = {}; persist(); show(cur); } };
+$("#send").onclick = async () => {
+  cfg.token = $("#token").value.trim(); localStorage.setItem("triage.token", cfg.token);
+  if (!cfg.token) { status("⚠ A GitHub token is needed to send (fine-grained, this repository, Contents: read and write)."); return; }
+  const b = batch(), name = stamp(), branch = `triage/${cfg.vol}-${name}`;
+  $("#send").disabled = true;
+  try {
+    status("Creating branch…");
+    const ref = await gh(`/repos/${cfg.repo}/git/ref/heads/${encodeURIComponent(cfg.base)}`);
+    await gh(`/repos/${cfg.repo}/git/refs`, { method: "POST", body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: ref.object.sha }) });
+    status("Uploading decisions…");
+    const text = JSON.stringify(b, null, 1) + "\n";
+    const bytes = new TextEncoder().encode(text);
+    let bin = ""; bytes.forEach(x => bin += String.fromCharCode(x));
+    const n = Object.keys(b.genera).length;
+    await gh(`/repos/${cfg.repo}/contents/data/triage/${cfg.vol}_decisions/${name}.json`, {
+      method: "PUT", body: JSON.stringify({ message: `Image triage: ${cfg.vol}, ${n} genera`, content: btoa(bin), branch }) });
+    // keep the sent decisions as the known state, so the page stays consistent until the PR is merged
+    for (const [g, s] of Object.entries(LOCALD)) {
+      const t = SAVED[g] ||= { items: {}, review: {} };
+      for (const [k, v] of Object.entries(s.items)) { if (v === null) delete t.items[k]; else t.items[k] = v; }
+      Object.assign(t.review, s.review);
+    }
+    LOCALD = {}; persist(); show(cur);
+    const u = `https://github.com/${cfg.repo}`;
+    status(`✓ Sent to branch <a href="${u}/tree/${encodeURIComponent(branch)}" target="_blank">${esc(branch)}</a>. The workflow
+      <a href="${u}/actions/workflows/triage-apply.yml" target="_blank">triage-apply</a> adds the images and opens a
+      <a href="${u}/pulls" target="_blank">pull request</a> (a few minutes).`);
+  } catch (e) { status("⚠ " + esc(e.message)); $("#send").disabled = false; }
+};
+
+$("#load").onclick = load;
+counter();
+if (LOCAL || params.has("autoload")) load();
+</script>
+</body>
+</html>

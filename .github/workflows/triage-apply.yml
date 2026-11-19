@@ -1,0 +1,56 @@
+name: triage-apply
+# Applies the image decisions made in the triage tool (tools/triage/index.html). The tool commits
+# a batch file data/triage/<volume>_decisions/<time>.json to a new branch triage/...; this workflow then adds the chosen images to the
+# genus entries (scripts/apply_triage.py), downloads them into the media store (scripts/media.py fetch/push),
+# refreshes the tool's candidate list (scripts/triage_data.py), builds, validates, commits to the same branch and
+# opens a pull request for review. Nothing reaches main without that review.
+on:
+  push:
+    branches: ["triage/**"]
+    paths: ["data/triage/*_decisions/*.json"]
+  workflow_dispatch:
+    inputs:
+      volume: { description: "Volume folder", required: true, default: "pseudosuchia" }
+permissions: { contents: write, pull-requests: write }
+concurrency: { group: media, cancel-in-progress: false }
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml pillow
+      - name: Volumes
+        env: { VOL: "${{ inputs.volume }}" }
+        run: |
+          [ -n "$VOL" ] || VOL=$(ls -d data/triage/*_decisions | sed -E 's#.*/(.*)_decisions#\1#' | tr '\n' ' ')
+          echo "VOLS=$VOL" >> "$GITHUB_ENV"
+      - name: Apply decisions and fetch the images
+        env: { MEDIA_REMOTE: "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" }
+        run: |
+          : > /tmp/report.md
+          for v in $VOLS; do python3 scripts/apply_triage.py "$v" --report /tmp/r_$v.md; cat /tmp/r_$v.md >> /tmp/report.md; done
+          python3 scripts/media.py pull
+          for v in $VOLS; do python3 scripts/media.py fetch "$v"; done
+          python3 scripts/fmt.py
+          python3 scripts/media.py push
+          python3 scripts/triage_data.py $VOLS
+          python3 scripts/build.py
+      - name: Validate
+        run: |
+          { echo; echo '## Validation'; echo '```'; python3 scripts/validate.py 2>&1 | tail -30; echo '```'; } >> /tmp/report.md || true
+          cat /tmp/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit and open a pull request
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add entries media/manifest.json data/triage site/data.json site/life.json site/g
+          git diff --cached --quiet || git commit -m "Apply image triage decisions" -m "Automated by .github/workflows/triage-apply.yml."
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push
+          if [ "$GITHUB_REF_NAME" != "main" ] && [ -z "$(gh pr list --head "$GITHUB_REF_NAME" --json number -q '.[].number')" ]; then
+            gh pr create --base main --head "$GITHUB_REF_NAME" --title "Image triage: $VOLS" --body-file /tmp/report.md \
+              || echo "Could not open the pull request (Settings → Actions → General → allow GitHub Actions to create pull requests)."
+          fi
