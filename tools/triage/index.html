@@ -334,7 +334,8 @@ function openBox(src, cap) {
 const proxy = u => "https://wsrv.nl/?w=900&url=" + encodeURIComponent(u);
 function chain(orig) {
   const m = orig.match(/europepmc\.org\/articles\/(PMC\d+)\/bin\/(.+)$/), list = [];
-  if (m) list.push(`https://www.ncbi.nlm.nih.gov/pmc/articles/${m[1]}/bin/${m[2]}`);
+  if (m) list.push(`https://pmc.ncbi.nlm.nih.gov/articles/${m[1]}/bin/${m[2]}`,
+                   `https://www.ncbi.nlm.nih.gov/pmc/articles/${m[1]}/bin/${m[2]}`);
   list.push(proxy(orig));
   if (m) list.push(proxy(list[0]));
   return list;
