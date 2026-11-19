@@ -5,15 +5,15 @@ group: ''
 country: Brazil
 regions: [Acre, Amazonas]
 location:
-  lat: -9.659
-  lng: -69.43
-  basis: median of 18 PBDB collections that yielded the atlas genera
+  lat: -9.141
+  lng: -69.325
+  basis: median of 20 PBDB collections that yielded the atlas genera
 age:
   first_ma: 56.0
   last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., fluvial-lacustrine indet., fluvial-deltaic indet.]
-lithology: [claystone, not reported, mudstone, conglomerate]
+lithology: [not reported, claystone, mudstone, conglomerate]
 pbdb_collections:
 - '55602'
 - '57989'
@@ -24,7 +24,9 @@ pbdb_collections:
 - '136720'
 - '144739'
 - '191932'
+- '195449'
 - '209089'
+- '217618'
 - '217775'
 - '217776'
 - '217781'
