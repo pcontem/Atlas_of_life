@@ -1,0 +1,345 @@
+name: Caiman
+rank: genus
+parent: caimaninae
+incertae_sedis: false
+placement_note: ''
+authority: Spix 1825
+type_species: Caiman crocodilus
+type_species_note: PBDB gives no type species. Caiman crocodilus (Linnaeus 1758) is the type species in the taxobox
+  of English Wikipedia's 'Caiman (genus)' article (checked 2026-11-19, no fixed revision recorded); a mirror of
+  an older version lists C. fissipes Spix 1825 instead.
+summary: Spectacled, broad-snouted and yacare caimans and their fossil relatives — small alligatorids of Central
+  and South America, known from the Miocene to today.
+extant: true
+size:
+  length_m: null
+  note: The source article describes caimans as a whole, not this genus alone — average maximum weights of 6–40
+    kg depending on species, the black caiman (Melanosuchus) being the large exception. No genus-level length is
+    given.
+age:
+  first_ma: 21
+  last_ma: 0
+  early_interval: Aquitanian
+  late_interval: Holocene
+  pbdb_occurrences: 36
+  note: The 21 Ma upper bound comes from PBDB records of the Pebas Formation (Peru), whose interval runs from the
+    Colhuehuapian to the Middle Miocene; the oldest species with a PBDB date is C. wannlangstoni (15.98 Ma).
+species:
+- name: Caiman australis
+  authority: (Bravard 1858)
+  first_ma: 11.63
+  last_ma: 5
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Caiman brevirostris
+  authority: Souza Filho 1987
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Caiman crocodilus
+  authority: Linnaeus 1758
+  first_ma: 11.63
+  last_ma: 0.774
+  interval: Tortonian–Calabrian
+  reference: type species, per English Wikipedia (see type_species_note)
+- name: Caiman latirostris
+  authority: Daudin 1801
+  first_ma: 11.63
+  last_ma: 0
+  interval: Tortonian–Holocene
+  reference: ''
+- name: Caiman paranensis
+  authority: (Scalabrini 1887)
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Caiman praecursor
+  authority: (Rusconi 1933)
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Caiman sclerops
+  authority: (Schneider 1801)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Caiman venezuelensis
+  authority: Fortier and Rincón 2013
+  first_ma: 11.63
+  last_ma: 0.774
+  interval: Tortonian–Calabrian
+  reference: ''
+- name: Caiman wannlangstoni
+  authority: Salas-Gismondi et al. 2015
+  first_ma: 15.98
+  last_ma: 5.333
+  interval: Langhian–Messinian
+  reference: ''
+- name: Caiman yacare
+  authority: Daudin 1802
+  first_ma: 11.63
+  last_ma: 0.774
+  interval: Tortonian–Calabrian
+  reference: ''
+formations:
+- formation: Ituzaingo
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 4
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Bahia, Piaui, Rio Grande do Sul, Sergipe]
+  interval: Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-balneario-hermenegildo-brazil
+  - unnamed-fazenda-sao-jose-poco-redondo-brazil
+  - unnamed-gruta-do-ioio-brazil
+  - unnamed-toca-da-janela-da-barra-do-antoniao-brazil
+- formation: Urumaco
+  group: ''
+  members: [Lower, Upper]
+  country: Venezuela
+  regions: [Falcon, Falcón]
+  interval: Late Miocene
+  occurrences: 4
+  ma: [5.333, 11.63]
+  id: urumaco-venezuela
+- formation: Entre Rios
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Tortonian
+  occurrences: 3
+  ma: [7.246, 11.63]
+  id: entre-rios-argentina
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre, Amazonas]
+  interval: Tortonian
+  occurrences: 3
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+- formation: Pebas
+  group: ''
+  members: []
+  country: Peru
+  regions: [Maynas]
+  interval: Colhuehuapian–Middle Miocene
+  occurrences: 3
+  ma: [11.63, 21.0]
+  id: pebas-peru
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian
+  occurrences: 2
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+- formation: Mesa
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Monagas]
+  interval: Late Pliocene–Early Pleistocene
+  occurrences: 2
+  ma: [0.774, 3.6]
+  id: mesa-venezuela
+- formation: Palo Pintado
+  group: Payogastilla
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: palo-pintado-argentina
+- formation: Villavieja
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 1
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: unnamed-alto-urubamba-sites-peru
+- formation: Chaco
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Quaternary
+  occurrences: 1
+  ma: [null, 2.58]
+  id: chaco-argentina
+- formation: Socorro
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Falcon]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: socorro-venezuela
+- formation: Arroyo Feliciano
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: arroyo-feliciano-argentina
+- formation: Piquete
+  group: Orán
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Pliocene–Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 5.333]
+  id: piquete-argentina
+- formation: Ipururo
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Miocene–Pliocene
+  occurrences: 1
+  ma: [2.58, 11.63]
+  id: ipururo-peru
+- formation: Castillo
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Lara]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: castillo-venezuela
+- formation: San Gregorio
+  group: ''
+  members: [Cocuiza]
+  country: Venezuela
+  regions: [Falcon]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: san-gregorio-venezuela
+fossil_material:
+  holotype: Living genus — the name-bearing type of the type species is not covered by the sources used.
+  material: The living spectacled, broad-snouted and yacare caimans, plus fossil species of the Miocene to Pleistocene
+    of South America listed by PBDB (for example C. wannlangstoni, C. brevirostris, C. venezuelensis, C. paranensis).
+  completeness: multiple
+  exceptional: ''
+biology: Caimans live in marshes, swamps, lakes and mangrove rivers of Central and South America and are mostly
+  nocturnal. They eat chiefly fish, and also insects, birds, small mammals and reptiles. Females build large nests,
+  more than 1.5 m wide, lay 10–50 eggs that hatch in about six weeks, and lead the young to shallow pools; in summer
+  or drought they may dig burrows and aestivate. This description is given in the source for caimans in general,
+  not for this genus alone.
+images:
+- kind: photo
+  file: Caiman yacare.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Caiman_yacare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Caiman_yacare.jpg
+  artist: Lea Maimone
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: ''
+  caption: Yacare caiman (Caiman yacare), Argentina
+  width: 1191
+  height: 798
+  review: unreviewed
+- kind: photo
+  file: Jacare de papo amarelo zoo.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Jacare_de_papo_amarelo_zoo.jpg/960px-Jacare_de_papo_amarelo_zoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jacare_de_papo_amarelo_zoo.jpg
+  artist: Miguelrangeljr
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012-07-14'
+  caption: Broad-snouted caiman (Caiman latirostris), São Paulo Zoo
+  width: 4000
+  height: 3000
+  review: unreviewed
+- kind: photo
+  file: Spectacled Caiman.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a0/Spectacled_Caiman.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Spectacled_Caiman.JPG
+  artist: Robert Lawton
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  date: 27 Decembe
+  caption: Spectacled caiman (Caiman crocodilus), St. Louis Zoo
+  width: 640
+  height: 427
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/fde166d6-e855-45a6-99ee-92e0789c26af/vector.svg
+  png: https://images.phylopic.org/images/fde166d6-e855-45a6-99ee-92e0789c26af/raster/512x166.png
+  page: https://www.phylopic.org/images/fde166d6-e855-45a6-99ee-92e0789c26af
+  attribution: Berrucomons
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Caiman crocodilus
+  matched: Caiman
+  genus_level: true
+sources:
+- kind: literature
+  text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
+    the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9. doi:10.7717/peerj.12094
+- kind: literature
+  text: 'Brochu, C. A. 2003. Phylogenetic approaches toward crocodylian history. Annual Review of Earth and Planetary
+    Sciences 31(31): 357–97. doi:10.1146/annurev.earth.31.100901.141308'
+- kind: literature
+  text: Paiva, Ana Laura S.; Godoy, Pedro L.; Souza, Ray B.B.; Klein, Wilfried; Hsiou, Annie S. 2022. Body size
+    estimation of Caimaninae specimens from the Miocene of South America. Journal of South American Earth Sciences
+    118. doi:10.1016/j.jsames.2022.103970
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Caiman (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Caiman
+- kind: encyclopedia
+  text: Wikipedia contributors. “Caiman”. English Wikipedia, revision 1385083844.
+  url: https://en.wikipedia.org/w/index.php?title=Caiman&oldid=1385083844
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The English Wikipedia article "Caiman" covers the caimans as a group (Caimaninae), not the genus alone; biology
+    and size text is written at that level. Replace with genus- or species-level sources (C. crocodilus, C. latirostris,
+    C. yacare).
+  - PBDB lists C. sclerops (Schneider 1801) as a species without ages; check whether it is a valid species or a
+    synonym of C. crocodilus.
+  - Size (length) of the living species is missing; source it from species-level articles (G8).
+  - Type species rests on a Wikipedia taxobox with conflicting versions; confirm it and cite the original description
+    (Spix 1825) — PBDB's primary reference (Mook 1921) is not the naming work.
+  - Images were chosen from Commons captions and licences, not visually checked (the shell cannot download them);
+    the media-fetch workflow stores the files. Check them against the contact sheet.
+  reviews: []

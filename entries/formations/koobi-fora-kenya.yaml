@@ -7,17 +7,17 @@ regions: []
 location:
   lat: 4.15
   lng: 36.317
-  basis: median of 31 PBDB collections that yielded the atlas genera
+  basis: median of 32 PBDB collections that yielded the atlas genera
 age:
   first_ma: 5.333
-  last_ma: 0.774
+  last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
 - terrestrial indet.
 - fluvial-deltaic indet.
 - fluvial indet.
-- deltaic indet.
 - foreshore
+- deltaic indet.
 lithology: [tuff, sandstone, not reported, siltstone]
 pbdb_collections:
 - '21369'
@@ -51,7 +51,9 @@ pbdb_collections:
 - '32085'
 - '32111'
 - '32116'
-includes: []
+- '185323'
+includes:
+- PBDB collection “Koobi Fora, area 102 vicinity” has no formation but is a locality of the Koobi Fora.
 summary: ''
 paleoenvironment: ''
 sources:

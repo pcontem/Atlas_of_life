@@ -7,14 +7,15 @@ regions: []
 location:
   lat: 1.5
   lng: 31.0
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  basis: median of 12 PBDB collections that yielded the atlas genera
 age:
   first_ma: 11.63
   last_ma: 2.58
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [lacustrine indet.]
-lithology: [claystone, not reported]
-pbdb_collections: ['22248', '22345', '22368', '22456', '145619', '145620', '145621']
+lithology: [not reported, claystone]
+pbdb_collections: ['22248', '22265', '22345', '22368', '22376', '22377', '22423', '22456', '145618', '145619', '145620',
+  '145621']
 includes: []
 summary: ''
 paleoenvironment: ''

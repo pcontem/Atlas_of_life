@@ -1,0 +1,32 @@
+id: chaco-argentina
+name: Chaco
+rank: formation
+group: ''
+country: Argentina
+regions: [Salta]
+location:
+  lat: -24.25
+  lng: -66.917
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 2.58
+  last_ma: 0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera. PBDB dates the bed only as Quaternary (upper
+    limit 2.58 Ma, no lower limit); the present is used as the lower limit.
+environment: [terrestrial indet.]
+lithology: [sandstone]
+pbdb_collections: ['144517']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Chaco (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Chaco
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

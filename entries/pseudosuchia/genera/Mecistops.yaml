@@ -1,0 +1,201 @@
+name: Mecistops
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Gray 1844
+type_species: Mecistops cataphractus
+type_species_note: PBDB gives no type species. Shirley et al. 2018 (Zootaxa 4504) give Mecistops cataphractus (Cuvier
+  1824/1825) as the type species of Mecistops Gray 1844; some older sources instead name M. bennettii Gray 1844,
+  a replacement name for Crocodilus leptorhynchus Bennett 1835.
+summary: Slender-snouted crocodiles of western and central Africa — two living species recognised on genetic evidence,
+  with Miocene to Pleistocene fossils in East Africa.
+extant: true
+size:
+  length_m: [2.5, 4.2]
+  mass_kg: [125, 325]
+  note: Adults are typically about 2.5 m long and have reached 4.2 m, weighing 125–325 kg; males are clearly larger
+    than females (genus article, not split by species).
+age:
+  first_ma: 11.63
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Mecistops cataphractus
+  authority: (Cuvier 1825)
+  first_ma: 7.246
+  last_ma: 2.58
+  interval: Messinian–Piacenzian
+  reference: type species (Shirley et al. 2018)
+- name: Mecistops leptorhynchus
+  authority: Bennett 1835
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Mecistops nkondoensis
+  authority: (Pickford 1994)
+  first_ma: 11.63
+  last_ma: 2.58
+  interval: Tortonian–Piacenzian
+  reference: ''
+formations:
+- formation: Nkondo
+  group: Albertine
+  members: []
+  country: Uganda
+  regions: []
+  interval: Late Miocene–Early Pliocene
+  occurrences: 3
+  ma: [3.6, 11.63]
+  id: nkondo-uganda
+- formation: Nkondo/Warwire
+  group: Albertine
+  members: []
+  country: Uganda
+  regions: []
+  interval: Late Miocene–Early Pliocene
+  occurrences: 2
+  ma: [3.6, 11.63]
+  id: nkondo-uganda
+- formation: Nawata and Nachukui
+  group: Lothagam
+  members: [All]
+  country: Kenya
+  regions: []
+  interval: Messinian–Piacenzian
+  occurrences: 1
+  ma: [2.58, 7.246]
+  id: nawata-and-nachukui-kenya
+- formation: Warwire
+  group: Albertine
+  members: []
+  country: Uganda
+  regions: []
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: warwire-uganda
+- formation: Nawata
+  group: ''
+  members: [Lower Nawata]
+  country: Kenya
+  regions: []
+  interval: Tortonian–Messinian
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: nawata-kenya
+- formation: Sinda Beds
+  group: ''
+  members: []
+  country: DR Congo
+  regions: [Orientale]
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: sinda-beds-dr-congo
+- formation: Kanapoi
+  group: ''
+  members: []
+  country: Kenya
+  regions: [Turkana District]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: kanapoi-kenya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: koobi-fora-kenya
+fossil_material:
+  holotype: Living genus — the name-bearing type of the type species is not covered by the sources used.
+  material: The two living species, plus the fossil M. nkondoensis and other PBDB occurrences from the Miocene to
+    Pleistocene of Uganda, Kenya and the Democratic Republic of the Congo.
+  completeness: multiple
+  exceptional: ''
+biology: Slender-snouted crocodiles live in heavily vegetated fresh waters of sub-Saharan Africa and feed mainly
+  on fish, amphibians and crustaceans, occasionally taking small mammals, water snakes, turtles and birds. Females
+  build a mound nest of rotting plants on the bank and lay on average 16 large eggs; incubation is long (often over
+  110 days) and the incubation temperature sets the sex. The genus was long thought to hold one species; genetic
+  work split it into the West African M. cataphractus and the Central African M. leptorhynchus, which diverged in
+  the Miocene. Both are heavily hunted, have lost ground in several countries and have been little studied.
+images:
+- kind: photo
+  file: African Slender Snouted Crocodile.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/African_Slender_Snouted_Crocodile.JPG/960px-African_Slender_Snouted_Crocodile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:African_Slender_Snouted_Crocodile.JPG
+  artist: Nireekshit
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-06-04'
+  caption: Captive African slender-snouted crocodile
+  width: 3626
+  height: 2022
+  review: unreviewed
+- kind: photo
+  file: Mecistops leptorhynchus 2009.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Mecistops_leptorhynchus_2009.jpg/960px-Mecistops_leptorhynchus_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mecistops_leptorhynchus_2009.jpg
+  artist: Leyo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/ch/deed.en
+  date: 2009-10
+  caption: Central African slender-snouted crocodile (Mecistops leptorhynchus), Tanzania
+  width: 2008
+  height: 794
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/de5d813a-fb71-4324-9049-e0f68fefde3a/vector.svg
+  png: https://images.phylopic.org/images/de5d813a-fb71-4324-9049-e0f68fefde3a/raster/512x157.png
+  page: https://www.phylopic.org/images/de5d813a-fb71-4324-9049-e0f68fefde3a
+  attribution: Matthew Speight
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mecistops cataphractus
+  matched: Mecistops
+  genus_level: true
+sources:
+- kind: original
+  text: Gray, J.E. 1844. Catalogue of the Tortoises, Crocodiles, and Amphisbaenians in the collection of the British
+    Museum (page 57, as cited by Shirley et al. 2018; bibliographic details not checked).
+- kind: literature
+  text: Brochu, C. A.; Storrs, G. W. 2012. A giant crocodile from the Plio-Pleistocene of Kenya, the phylogenetic
+    relationships of Neogene African crocodylines, and the antiquity of ''Crocodylus'' in Africa. Journal of Vertebrate
+    Paleontology 32(3). doi:10.1080/02724634.2012.652324
+- kind: literature
+  text: 'Shirley, M. H.; Vliet, K. A.; Carr, A. N.; Austin, J. D. 2014. Rigorous approaches to species delimitation
+    have significant implications for African crocodilian systematics and conservation. Proceedings of the Royal
+    Society B: Biological Sciences 281(1776). doi:10.1098/rspb.2013.2483'
+- kind: literature
+  text: 'Shirley, Matthew H.; Carr, Amanda N.; Nestler, Jennifer H.; Vliet, Kent A.; Brochu, Christopher A. 2018.
+    Systematic revision of the living African Slender-snouted Crocodiles (''''Mecistops'''' Gray, 1844). Zootaxa
+    4504(2): 151–193. doi:10.11646/zootaxa.4504.2.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mecistops (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mecistops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mecistops”. English Wikipedia, revision 1380324562.
+  url: https://en.wikipedia.org/w/index.php?title=Mecistops&oldid=1380324562
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Position inside Crocodylidae is debated — molecular and combined analyses put it basal to Crocodylus, some morphological
+    analyses basal to Crocodylinae (see the cladograms in the cited Wikipedia revision); the atlas has no Crocodylinae
+    clade, so it sits in Crocodylidae like Crocodylus.
+  - Conservation status (IUCN) quoted in the source predates the split into two species; do not use it without a
+    current source.
+  - Check the bibliographic details of Gray 1844 and decide between M. cataphractus and M. leptorhynchus (via M.
+    bennettii) as type species.
+  - Images were chosen from Commons captions and licences, not visually checked (the shell cannot download them);
+    the media-fetch workflow stores the files. Check them against the contact sheet.
+  reviews: []
