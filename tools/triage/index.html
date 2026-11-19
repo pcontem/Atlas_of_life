@@ -328,19 +328,26 @@ function openBox(src, cap) {
   im.dataset.orig = src; im.dataset.fb = ""; im.src = src; b.querySelector("p").textContent = cap || ""; b.style.display = "flex";
 }
 
-// Some sites (Europe PMC) refuse images shown on other pages. Fallback: 1) the same image through a public image
-// proxy (wsrv.nl, only the public image address is sent), 2) a note with a link to the article page.
+// Some sites (Europe PMC) refuse images shown on other pages. Fallback chain: the same file from NCBI's PMC copy,
+// then each address through a public image proxy (wsrv.nl; only the public image address is sent), then a note
+// with a link to the article page.
 const proxy = u => "https://wsrv.nl/?w=900&url=" + encodeURIComponent(u);
+function chain(orig) {
+  const m = orig.match(/europepmc\.org\/articles\/(PMC\d+)\/bin\/(.+)$/), list = [];
+  if (m) list.push(`https://www.ncbi.nlm.nih.gov/pmc/articles/${m[1]}/bin/${m[2]}`);
+  list.push(proxy(orig));
+  if (m) list.push(proxy(list[0]));
+  return list;
+}
 document.addEventListener("error", e => {
   const im = e.target;
   if (!(im instanceof HTMLImageElement) || !im.dataset.orig) return;
-  const step = +(im.dataset.fb || 0);
-  if (step === 0) { im.dataset.fb = "1"; im.removeAttribute("referrerpolicy"); im.src = proxy(im.dataset.orig); return; }
-  if (step === 1 && im.closest("#lightbox")) { im.alt = "Image not available"; return; }
-  im.dataset.fb = "2";
+  const step = +(im.dataset.fb || 0), list = chain(im.dataset.orig);
+  if (step < list.length) { im.dataset.fb = String(step + 1); im.removeAttribute("referrerpolicy"); im.src = list[step]; return; }
+  if (im.closest("#lightbox")) { im.alt = "Image not available"; return; }
   const pic = im.closest(".pic");
   if (pic) pic.innerHTML = `<div style="padding:10px;text-align:center;color:#6b6a66;font-size:12px">Image could not be loaded here.<br>
-    <a href="${im.dataset.page || im.dataset.orig}" target="_blank" rel="noopener">Open the original</a></div>`;
+    <a href="${im.dataset.page || im.dataset.orig}" target="_blank" rel="noopener">Open the article</a> · <a href="${im.dataset.orig}" target="_blank" rel="noopener">image address</a></div>`;
 }, true);
 $("#lightbox").addEventListener("click", () => $("#lightbox").style.display = "none");
 
