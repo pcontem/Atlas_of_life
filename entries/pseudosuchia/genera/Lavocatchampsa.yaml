@@ -1,0 +1,60 @@
+name: Lavocatchampsa
+rank: genus
+parent: candidodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Martin and de Lapparent de Broin 2016
+type_species: Lavocatchampsa sigogneaurusselae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Lavocatchampsa is a miniature notosuchian with multicuspid teeth from the Cretaceous Kem Kem beds of Morocco.
+size:
+  length_m: null
+  note: Described as miniature in the title of its naming paper; no length is given.
+age:
+  first_ma: 106.3
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lavocatchampsa sigogneaurusselae
+  authority: Martin and de Lapparent de Broin 2016
+  first_ma: 106.3
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: kem-kem-group-morocco
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: The sources consulted do not list the material.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits beyond its multicuspid teeth.
+images: []
+sources:
+- kind: original
+  text: J. E. Martin and F. de Lapparent de Broin. 2016. A miniature notosuchian with multicuspid teeth from the
+    Cretaceous of Morocco. Journal of Vertebrate Paleontology
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lavocatchampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lavocatchampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lavocatchampsa”. English Wikipedia, revision 1314152236.
+  url: https://en.wikipedia.org/w/index.php?title=Lavocatchampsa&oldid=1314152236
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

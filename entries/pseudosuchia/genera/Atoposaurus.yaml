@@ -1,0 +1,131 @@
+name: Atoposaurus
+rank: genus
+parent: atoposauridae
+incertae_sedis: false
+placement_note: ''
+authority: von Meyer 1850
+type_species: Atoposaurus jourdani
+type_species_note: 'Filled from general knowledge, not yet checked: the sources consulted name two species (A. jourdani
+  and A. oberndorferi, both Meyer 1850) without saying which is the type.'
+summary: Atoposaurus is the type genus of the Atoposauridae, a small crocodylomorph lacking dorsal scutes from the
+  Late Jurassic of France and Germany.
+size:
+  length_m: null
+  note: Described as small; the sources consulted give no length.
+age:
+  first_ma: 154.8
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Atoposaurus jourdani
+  authority: Meyer 1850
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+- name: Atoposaurus oberndorferi
+  authority: Meyer 1850
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+formations:
+- formation: Painten
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: painten-germany
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: altmuhltal-germany
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne-Rhône-Alpes]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-cerin-france
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens of two species from France and Germany (Painten, Solnhofen).
+  completeness: multiple
+  exceptional: ''
+biology: The absence of dorsal scutes is noted as unusual among crurotarsans; no more on habits in the sources consulted.
+images:
+- kind: fossil
+  file: Atoposaurus bones Angeac-Charente Musée Angoulême.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Atoposaurus_bones_Angeac-Charente_Mus%C3%A9e_Angoul%C3%AAme.jpg/960px-Atoposaurus_bones_Angeac-Charente_Mus%C3%A9e_Angoul%C3%AAme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Atoposaurus_bones_Angeac-Charente_Mus%C3%A9e_Angoul%C3%AAme.jpg
+  artist: Marie-Lan Taÿ Pamart
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Atoposaurus bones from Angeac-Charente.
+  width: 5167
+  height: 4133
+  review: unreviewed
+- kind: fossil
+  file: Atoposaurus oberndorfi - Solnhofen.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/92/Atoposaurus_oberndorfi_-_Solnhofen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Atoposaurus_oberndorfi_-_Solnhofen.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-12'
+  caption: Atoposaurus oberndorferi from Solnhofen.
+  width: 1512
+  height: 1484
+  review: unreviewed
+- kind: fossil
+  file: Atoposaurus oberndorfi Teylers.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Atoposaurus_oberndorfi_Teylers.JPG/960px-Atoposaurus_oberndorfi_Teylers.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Atoposaurus_oberndorfi_Teylers.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-08-27'
+  caption: Atoposaurus oberndorferi specimen.
+  width: 2281
+  height: 1877
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/vector.svg
+  png: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/raster/645x1024.png
+  page: https://www.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Theriosuchus
+  matched: Atoposauridae
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Atoposaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Atoposaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Atoposaurus”. English Wikipedia, revision 1337673608.
+  url: https://en.wikipedia.org/w/index.php?title=Atoposaurus&oldid=1337673608
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Naming work (von Meyer 1850) is not in the citations consulted; PBDB's reference is a textbook (Carroll 1988).
+    Add the original.
+  - Verify the type species.
+  reviews: []

@@ -1,0 +1,72 @@
+name: Eurycephalosuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: The Orientalosuchina were first read as early alligatoroids but later studies argue they are crocodyloids
+  (English Wikipedia, Orientalosuchus); left in Crocodylia.
+authority: Wu et al. 2023
+type_species: Eurycephalosuchus gannanensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Eurycephalosuchus is an orientalosuchine crocodylian from the Late Cretaceous Hekou Formation of Jiangxi,
+  China, with an unusually short, broad skull.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eurycephalosuchus gannanensis
+  authority: Wu et al. 2023
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Hekou
+  group: Guifeng
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hekou-china
+fossil_material:
+  holotype: A well-preserved skull and mandible with postcranial remains, found in 2021 at a construction site in
+    Ganzhou City, Jiangxi Province; Catalogue number not given in the sources consulted.
+  material: The holotype and associated postcranial remains.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe the skull and teeth but give no direct evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Orientalosuchina
+  genus_level: false
+sources:
+- kind: original
+  text: X.-C. Wu, Y.-C. Wang, and H.-L. You, Y.-Q. Zhang, L.-P. Yi. 2023. New brevirostrines (Crocodylia, Brevirostres)
+    from the Upper Cretaceous of China. Cretaceous Research 144:105450
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eurycephalosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eurycephalosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eurycephalosuchus”. English Wikipedia, revision 1370052472.
+  url: https://en.wikipedia.org/w/index.php?title=Eurycephalosuchus&oldid=1370052472
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No images found among the automatic candidates.]
+  reviews: []

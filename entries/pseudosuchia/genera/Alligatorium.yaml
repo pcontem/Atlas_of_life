@@ -1,0 +1,86 @@
+name: Alligatorium
+rank: genus
+parent: atoposauridae
+incertae_sedis: false
+placement_note: ''
+authority: Gervais 1871
+type_species: Alligatorium meyeri
+type_species_note: Named in 1871 from a single specimen from Cerin, France (English Wikipedia).
+summary: Alligatorium is an atoposaurid crocodylomorph from Late Jurassic marine deposits of France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 154.8
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Alligatorium meyeri
+  authority: Gervais 1871
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne-Rhône-Alpes]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-cerin-france
+fossil_material:
+  holotype: A single specimen from Cerin, eastern France (Gervais 1871); Catalogue number not given in the sources
+    consulted.
+  material: The holotype; two other nominal species from Bavaria, based on now-missing specimens, are synonymised
+    into one.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Alligatorium meyeri 654.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Alligatorium_meyeri_654.JPG/960px-Alligatorium_meyeri_654.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alligatorium_meyeri_654.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-07'
+  caption: Alligatorium meyeri specimen.
+  width: 2224
+  height: 2980
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/vector.svg
+  png: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/raster/645x1024.png
+  page: https://www.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Theriosuchus
+  matched: Atoposauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Tennant, Jonathan P.; Mannion, Philip D. 2014. Revision of the Late Jurassic crocodyliformAlligatorellus,
+    and evidence for allopatric speciation driving high diversity in western European atoposaurids. PeerJ 2: e599.
+    doi:10.7717/peerj.599'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alligatorium (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alligatorium
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alligatorium”. English Wikipedia, revision 1282991279.
+  url: https://en.wikipedia.org/w/index.php?title=Alligatorium&oldid=1282991279
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Naming work: Gervais 1871; PBDB''s reference is Martin et al. 2010 (a Theriosuchus paper); add the original.'
+  - Alligatorium depereti was moved to Montsecosuchus in 1988.
+  reviews: []

@@ -1,0 +1,71 @@
+name: Aprosuchus
+rank: genus
+parent: atoposauridae
+incertae_sedis: false
+placement_note: ''
+authority: Venczel and Codrea 2019
+type_species: Aprosuchus ghirai
+type_species_note: Monotypic genus; the only species is the type.
+summary: Aprosuchus is a small atoposaurid from the Maastrichtian Pui Beds of the Hateg Basin, Romania.
+size:
+  length_m: null
+  note: Described as small-bodied; no length is given.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aprosuchus ghirai
+  authority: Venczel and Codrea 2019
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+fossil_material:
+  holotype: UBB V.562/1, an incomplete three-dimensional skull with closely associated mandibles, from the Hateg
+    Basin, Romania.
+  material: The holotype and a referred set of cervical vertebrae (UBB V.562/2).
+  completeness: partial
+  exceptional: ''
+biology: Its teeth show at least four morphotypes (pseudocaniniform, pseudoziphodont lanceolate, ziphodont lanceolate
+  and low-crowned), per English Wikipedia; no more on diet.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/vector.svg
+  png: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/raster/645x1024.png
+  page: https://www.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Theriosuchus
+  matched: Atoposauridae
+  genus_level: false
+sources:
+- kind: original
+  text: M. Venczel and V. A. Codrea. 2019. A new Theriosuchus-like crocodyliform from the Maastrichtian of Romania.
+    Cretaceous Research 100:24-38
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aprosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aprosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aprosuchus”. English Wikipedia, revision 1298002751.
+  url: https://en.wikipedia.org/w/index.php?title=Aprosuchus&oldid=1298002751
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
