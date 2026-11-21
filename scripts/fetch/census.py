@@ -35,6 +35,11 @@ NOT_GENERA = {"Early", "Late", "Middle", "Upper", "Lower", "Cretaceous", "Jurass
 
 
 # ---------------------------------------------------------------- names
+def is_form_taxon(rec):
+    """PBDB flags: I = ichnotaxon (tracks, burrows), F = form taxon (eggs, isolated teeth…): not body-fossil genera."""
+    return any(ch in (rec.get("flags") or "") for ch in "IF")
+
+
 def year_of(text):
     m = re.search(r"\b(1[6-9]\d\d|20\d\d)\b", text or "")
     return int(m.group(1)) if m else None
@@ -48,11 +53,22 @@ def title_to_name(title):
     return m.group(1)
 
 
+HIGHER_SUFFIX = re.compile(r"(idae|inae|oidea|oidae|ineae|iformes|morpha)$")   # families, subfamilies, superfamilies, orders, clades
+HIGHER_WORDS = re.compile(r"\b(family|subfamily|superfamily|clade|order|suborder|infraorder|tribe|group|grade)\b")
+
+
 def wiki_is_genus(wikitext, name):
-    """An article about a genus: its taxobox names a type species, or the lead sentence calls it a genus."""
-    if harvest.taxobox(wikitext).get("type_species"):
+    """An article about a genus: its taxobox names a type species, or the lead sentence says "is a … genus".
+    Family and clade articles (type_genus in the taxobox, a higher-taxon word in the lead, a family-like name) are not."""
+    if HIGHER_SUFFIX.search(name):
+        return False
+    tb = harvest.taxobox(wikitext)
+    if tb.get("type_species"):
         return True
-    return bool(re.search(r"'''+\s*(?:\[\[)?" + re.escape(name) + r"[^.]{0,200}?\bgenus\b", wikitext[:4000]))
+    if "type_genus" in wikitext[:3000] and "type_species" not in wikitext[:3000]:
+        return False
+    m = re.search(r"'''+\s*(?:\[\[)?" + re.escape(name) + r"[^.]{0,80}?\b(?:is|was|are|were) (?:a|an|the) ([^.]{0,100}?)\bgenus\b", wikitext[:4000])
+    return bool(m) and not HIGHER_WORDS.search(m.group(1))
 
 
 LEADS = [  # a new genus announced in a title: "Foo bar gen. et sp. nov.", "Foo bar, a new …", "a new genus … : Foo"
@@ -110,6 +126,16 @@ def wiki_category_pages(roots, depth=3, cap=8000):
     return pages, missing, False
 
 
+def wiki_suggest_categories(missing_cats, limit=8):
+    """-> {missing category title: [existing category titles found by searching its words]} (to fix sources.yaml)."""
+    out = {}
+    for t in missing_cats:
+        words = re.sub(r"^Category:|^Prehistoric ", "", t)
+        r = harvest.mw(harvest.WIKI, action="query", list="search", srsearch=words, srnamespace=14, srlimit=limit)
+        out[t] = [x["title"] for x in r.get("query", {}).get("search", [])]
+    return out
+
+
 def wiki_texts(titles):
     """-> {title: {"wikitext", "ts"}} (latest revision; titles without a page are left out)."""
     out = {}
@@ -165,7 +191,7 @@ def literature(terms, since):
     return list(papers.values())
 
 
-NET = types.SimpleNamespace(pbdb=pbdb_taxa, wiki_pages=wiki_category_pages, wiki_texts=wiki_texts,
+NET = types.SimpleNamespace(pbdb=pbdb_taxa, wiki_pages=wiki_category_pages, wiki_texts=wiki_texts, wiki_suggest=wiki_suggest_categories,
                             wiki_redirects=wiki_redirects, literature=literature)
 
 
@@ -205,10 +231,15 @@ def run_census(group, cfg, since, atlas, net=NET):
             tb = harvest.taxobox(texts[t]["wikitext"])
             wiki_genera[n] = dict(title=t, year=year_of(tb.get("authority")))
 
+    suggestions = net.wiki_suggest(missing_cats) if missing_cats else {}
+
     # genera missing from the atlas, newest first
-    missing = []
+    missing, form_taxa = [], []
     for n in sorted((set(pbv) | set(wiki_genera)) - known):
         r = pbv.get(n, {})
+        if is_form_taxon(r):
+            form_taxa.append(dict(name=n, authority=r.get("taxon_attr", ""), flags=r.get("flags"), family=r.get("family")))
+            continue
         yr = year_of(r.get("taxon_attr")) or (wiki_genera.get(n) or {}).get("year")
         missing.append(dict(name=n, authority=r.get("taxon_attr", ""), year=yr, recent=bool(yr and yr >= since),
                             in_pbdb=n in pbv, in_wikipedia=n in wiki_genera,
@@ -238,11 +269,12 @@ def run_census(group, cfg, since, atlas, net=NET):
     leads.sort(key=lambda x: (x["known"], x["in_pbdb"], -(x.get("year") or 0), x["name"]))
     return dict(group=group, date=TODAY, since=since, config=cfg,
                 counts=dict(pbdb_valid=len(pbv), pbdb_invalid=len(pbi), wikipedia_pages=len(pages), wikipedia_genera=len(wiki_genera),
-                            atlas_entries_in_group=len(mine), missing=len(missing), missing_recent=sum(m["recent"] for m in missing),
+                            atlas_entries_in_group=len(mine), missing=len(missing), form_taxa=len(form_taxa), missing_recent=sum(m["recent"] for m in missing),
                             waiting_in_backbone=len(waiting), atlas_unconfirmed=len(atlas_unconfirmed), leads=len(leads),
                             leads_new=sum(not x["known"] and not x["in_pbdb"] for x in leads)),
-                missing=missing, waiting_in_backbone=waiting, atlas_unconfirmed=atlas_unconfirmed, atlas_pbdb_invalid=atlas_invalid,
-                literature_leads=leads, wikipedia_missing_categories=missing_cats, wikipedia_truncated=truncated)
+                missing=missing, form_taxa=form_taxa, waiting_in_backbone=waiting, atlas_unconfirmed=atlas_unconfirmed, atlas_pbdb_invalid=atlas_invalid,
+                literature_leads=leads, wikipedia_missing_categories=missing_cats, wikipedia_category_suggestions=suggestions,
+                wikipedia_truncated=truncated)
 
 
 def report(c):
@@ -252,10 +284,15 @@ def report(c):
          f"genus articles found: {n['wikipedia_genera']}. The atlas has {n['atlas_entries_in_group']} entries in this group.", "",
          f"- **{n['missing']}** genera are missing from the atlas ({n['missing_recent']} named since {c['since']}); "
          f"**{n['waiting_in_backbone']}** more are known and waiting in the backbone.",
+         f"- {n['form_taxa']} PBDB names are form taxa (ichnogenera, oogenera…, PBDB flags I/F) and are listed apart, not as missing.",
          f"- {n['atlas_unconfirmed']} entries of this group are confirmed by neither PBDB nor Wikipedia; {n['leads']} literature leads "
          f"({n['leads_new']} not yet in PBDB or the atlas).", ""]
     if c["wikipedia_missing_categories"]:
-        L += ["**Wikipedia categories not found (fix `data/census/sources.yaml`):** " + ", ".join(c["wikipedia_missing_categories"]), ""]
+        L += ["**Wikipedia categories not found (fix `data/census/sources.yaml`):**", ""]
+        for cat in c["wikipedia_missing_categories"]:
+            sug = c.get("wikipedia_category_suggestions", {}).get(cat) or []
+            L.append(f"- {cat}" + (" — existing categories with these words: " + "; ".join(sug) if sug else ""))
+        L.append("")
     if c["wikipedia_truncated"]:
         L += ["**The Wikipedia crawl hit its page cap**: narrow the categories or the depth.", ""]
     if c["missing"]:
@@ -268,6 +305,9 @@ def report(c):
         if len(c["missing"]) > 400:
             L.append(f"\n… and {len(c['missing']) - 400} more in the JSON file.")
         L.append("")
+    if c.get("form_taxa"):
+        L += ["### Form taxa not counted as missing (ichnogenera, oogenera…)", "",
+              ", ".join(f"*{f['name']}*" for f in c["form_taxa"]), ""]
     if c["atlas_unconfirmed"]:
         L += ["### Atlas entries that no source confirms", ""]
         L += [f"- *{a['name']}*: Wikipedia {a['wikipedia']}" + (f"; PBDB: {a['pbdb']}" if a["pbdb"] else "") for a in c["atlas_unconfirmed"]]
