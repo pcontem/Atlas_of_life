@@ -283,3 +283,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - G10 is now an error only for a genus with no formation **and** no curation note; with a note it is a consolidation (S) issue, so the
   entry may stay a draft. Items that exist still need `formation` and `country`. Such genera have no map point in Biota.
 - The genus page shows "No formation is recorded for this genus yet". CLAUDE.md §4.1 updated to match.
+
+## 2026-11-21 — Genus spotlight on the Index
+- Owner request: a genus exploration tool beside the Index, like the "Species spotlight" column of prehistoric-wildlife.com: thumbnail of a reconstruction plus the genus name.
+- Built in `site/js/index-search.js` and `atlas.css` (no new data, no build step): random genera with a full entry and a non-outdated `life` image, three at a time, following the Index filters, with a Shuffle button. CLAUDE.md §6 updated.
