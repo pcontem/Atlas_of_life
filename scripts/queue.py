@@ -8,6 +8,7 @@ Run it after every batch:  python3 scripts/queue.py
 """
 import json, glob, os, re, collections, sys
 
+CLADE_MAX = int(os.environ.get("CLADE_MAX", 12))  # ...and at most this many sub-clades (keeps very inclusive clades with few known genera general)
 UNIT_MAX = int(os.environ.get("UNIT_MAX", 30))  # a clade with at most this many genera is a production unit
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -50,7 +51,7 @@ general, units, direct = [], [], []
 def walk(i, depth):
     r = by[i]
     n = tips(i)
-    if 0 < n <= UNIT_MAX:
+    if 0 < n <= UNIT_MAX and len(clades_under(i)) <= CLADE_MAX:
         units.append((r, depth)); return
     general.append((r, depth))
     g = [c for c in kids[i] if c[5] == "g"]
