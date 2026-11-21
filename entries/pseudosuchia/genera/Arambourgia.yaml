@@ -1,0 +1,79 @@
+name: Arambourgia
+rank: genus
+parent: alligatorinae
+incertae_sedis: false
+placement_note: ''
+authority: de Stefano 1905
+type_species: Arambourgia gaudryi
+type_species_note: Monotypic genus; named Alligator gaudryi by de Stefano (1905).
+summary: Arambourgia is a monotypic alligatorine crocodylian from the Eocene of Europe, found in karstic deposits.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 56.0
+  last_ma: 33.9
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. English Wikipedia places it in the Eocene; the whole Eocene of the ICS chart is used
+    here.
+species:
+- name: Arambourgia gaudryi
+  authority: (de Stefano 1905)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Not given in the sources consulted; named Alligator gaudryi by de Stefano (1905).
+  material: The sources consulted do not list the material.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its unusual anatomy and karstic setting led to a proposed habit, but the sources consulted here give no
+  direct evidence of diet.
+images:
+- kind: life
+  file: Arambourgia gaudryi.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Arambourgia_gaudryi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Arambourgia_gaudryi.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-10'
+  caption: Life restoration of Arambourgia gaudryi.
+  width: 1039
+  height: 329
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Brochu, Christopher A. 2004. Alligatorine phylogeny and the status of Allognathosuchus Mook, 1921. Journal
+    of Vertebrate Paleontology 24(4): 857–873. doi:10.1671/0272-4634(2004)024[0857:APATSO]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arambourgia (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arambourgia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Arambourgia”. English Wikipedia, revision 1353371626.
+  url: https://en.wikipedia.org/w/index.php?title=Arambourgia&oldid=1353371626
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No geological formation is recorded in the atlas yet: PBDB has no occurrences and the sources consulted name
+    no formation; karstic deposits in Europe.'
+  - Named Arambourgia in 1940, synonymised with Allognathosuchus haupti in 1990 and reinstated in 2004 (English
+    Wikipedia).
+  - Check the life restoration.
+  reviews: []

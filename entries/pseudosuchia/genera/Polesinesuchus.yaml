@@ -1,0 +1,93 @@
+name: Polesinesuchus
+rank: genus
+parent: aetosauria
+incertae_sedis: false
+placement_note: ''
+authority: Roberto-da-Silva et al. 2014
+type_species: Polesinesuchus aurelioi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Polesinesuchus is a small stagonolepidid aetosaur from the Late Triassic Santa Maria Supersequence of southern
+  Brazil, perhaps a juvenile of Aetosauroides.
+size:
+  length_m: null
+  note: The holotype is about 76 cm long and probably a two-year-old juvenile (English Wikipedia), so no adult range
+    is given.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Polesinesuchus aurelioi
+  authority: Roberto-da-Silva et al. 2014
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: Rosário do Sul
+  members: [Alemoa]
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: A partially articulated partial skeleton from the Santa Maria Formation, Rio Grande do Sul, Brazil;
+    catalogue number not given in the sources consulted.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe a juvenile individual but give no direct evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Polesinesuchus skeletal (possible synonym with Aetosauroides).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Polesinesuchus_skeletal_%28possible_synonym_with_Aetosauroides%29.png/960px-Polesinesuchus_skeletal_%28possible_synonym_with_Aetosauroides%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Polesinesuchus_skeletal_(possible_synonym_with_Aetosauroides).png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-22'
+  caption: Skeletal reconstruction of Polesinesuchus.
+  width: 5557
+  height: 1687
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: L. Roberto-da-Silva, J. B. Desojo, and S. F. Cabreira, A. S. S. Aires, R. T. Mueller, C. P. Pacheco, S.
+    Dias-da-Silva. 2014. A new aetosaur from the Upper Triassic of the Santa Maria Formation, southern Brazil. Zootaxa
+    3764(3):240-278
+- kind: literature
+  text: 'Paes-Neto, V.D.; Desojo, J.B.; Brust, A.C.B.; Schultz, C.L.; Da-Rosa, A.A.S.; Soares, M.B. 2021. Intraspecific
+    variation in the axial skeleton of ''''Aetosauroides scagliai'''' (Archosauria: Aetosauria) and its implications
+    for the aetosaur diversity of the Late Triassic of Brazil. Annals of the Brazilian Academy of Sciences 93(supp.
+    2). doi:10.1590/0001-3765202120201239'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Polesinesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Polesinesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Polesinesuchus”. English Wikipedia, revision 1314766717.
+  url: https://en.wikipedia.org/w/index.php?title=Polesinesuchus&oldid=1314766717
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Validity (M1): the English Wikipedia lead says anatomical evidence suggests the holotype is a juvenile of the
+    contemporary Aetosauroides; check the 2021 papers (Paes-Neto et al.).'
+  - The image file name suggests a possible-synonym reconstruction; check it.
+  reviews: []
