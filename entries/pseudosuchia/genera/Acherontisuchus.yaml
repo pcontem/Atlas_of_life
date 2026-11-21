@@ -1,0 +1,74 @@
+name: Acherontisuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Hastings et al. 2011
+type_species: Acherontisuchus guajiraensis
+type_species_note: From the Wikipedia taxobox.
+summary: Acherontisuchus is a longirostrine dyrosaurid from the Paleocene Cerrejón Formation of Colombia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 61.66
+  last_ma: 56
+  early_interval: Selandian
+  late_interval: Thanetian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Acherontisuchus guajiraensis
+  authority: Hastings et al. 2011
+  first_ma: 61.66
+  last_ma: 56
+  interval: Selandian–Thanetian
+  reference: original description
+formations:
+- formation: Cerrejón
+  group: ''
+  members: [lower segment, middle segment]
+  country: Colombia
+  regions: [Guajira]
+  interval: Middle Paleocene–Late Paleocene
+  occurrences: 4
+  ma: [56.0, 61.66]
+  id: cerrejon-colombia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Six specimens (English Wikipedia).
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. K. Hastings, J. I. Bloch, and C. A. Jaramillo. 2011. A new longirostrine dyrosaurid (Crocodylomorpha,
+    Mesoeucrocodylia) from the Paleocene of north-eastern Colombia: biogeographic and behavioural implications for
+    New-World Dyrosauridae. Palaeontology 54(5):1095-1116'
+- kind: literature
+  text: '[[Alexander K. Hastings 2011. A new longirostrine dyrosaurid (Crocodylomorpha, Mesoeucrocodylia) from the
+    Paleocene of north-eastern Colombia: biogeographic and behavioural implications for new-world dyrosauridae.
+    Palaeontology 54(5): 1095–1116. doi:10.1111/j.1475-4983.2011.01092.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Acherontisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Acherontisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Acherontisuchus”. English Wikipedia, revision 1312619918.
+  url: https://en.wikipedia.org/w/index.php?title=Acherontisuchus&oldid=1312619918
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add holotype number and size from Hastings et al. 2011.]
+  reviews: []

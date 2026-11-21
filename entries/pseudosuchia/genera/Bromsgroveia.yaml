@@ -1,0 +1,114 @@
+name: Bromsgroveia
+rank: genus
+parent: ctenosauriscidae
+incertae_sedis: false
+placement_note: ''
+authority: Galton 1985
+type_species: Bromsgroveia walkeri
+type_species_note: From the Wikipedia taxobox.
+summary: Bromsgroveia is a predatory ctenosauriscid archosaur from the Middle Triassic Bromsgrove Sandstone of England.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 247
+  last_ma: 241.464
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 4
+  note: PBDB gives no interval names; the age range matches the ICS Anisian stage, as does the Bromsgrove Sandstone
+    Formation (Anisian per PBDB).
+species:
+- name: Bromsgroveia walkeri
+  authority: Galton 1985
+  first_ma: 247
+  last_ma: 241.464
+  interval: ''
+  reference: original description
+formations:
+- formation: Bromsgrove Sandstone
+  group: Sherwood Sandstone
+  members: [Finstall]
+  country: United Kingdom
+  regions: [England]
+  interval: Anisian
+  occurrences: 4
+  ma: [241.464, 247.0]
+  id: bromsgrove-sandstone-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Fragmentary remains from the Bromsgrove Sandstone.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Bromsgroveia ilium cast.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Bromsgroveia_ilium_cast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bromsgroveia_ilium_cast.jpg
+  artist: The Trustees of the Natural History Museum, London
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2011'
+  caption: Bromsgroveia ilium cast.
+  width: 1263
+  height: 924
+  review: unreviewed
+- kind: fossil
+  file: Bromsgroveia vertebra.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Bromsgroveia_vertebra.jpg/960px-Bromsgroveia_vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bromsgroveia_vertebra.jpg
+  artist: Harold9595959
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2026-02-27'
+  caption: Bromsgroveia vertebra.
+  width: 2598
+  height: 3060
+  review: unreviewed
+- kind: fossil
+  file: Bromsgroveia and mastodonsaurid fossils.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Bromsgroveia_and_mastodonsaurid_fossils.jpg/960px-Bromsgroveia_and_mastodonsaurid_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bromsgroveia_and_mastodonsaurid_fossils.jpg
+  artist: G. Scharf, published by Richard Owen
+  license: Public domain
+  license_url: ''
+  date: '1842'
+  caption: Bromsgroveia with a mastodonsaurid fossil.
+  width: 2116
+  height: 2704
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/vector.svg
+  png: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/raster/512x196.png
+  page: https://www.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Ctenosauriscus koeneni
+  matched: Ctenosauriscidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Galton, P.M. 1985. The poposaurid thecodontian ''''Teratosaurus suevicus'''' v. Meyer, plus referred specimens
+    mostly based on prosauropod dinosaurs, from the Middle Stubensandstein (Upper Triassic) of Nordwürttemberg.
+    Stuttgarter Beiträge zur Naturkunde, Serie B (Geologie und Paläontologie) 116: 1–29.'
+- kind: literature
+  text: 'Galton, Peter M.; Walker, Alick D. 1996. Bromsgroveia from the Middle Triassic of England, the earliest
+    record of a poposaurid thecodontian reptile (Archosauria: Rauisuchia). Neues Jahrbuch für Geologie und Paläontologie
+    - Abhandlungen 201(3): 303–325. doi:10.1127/njgpa/201/1996/303'
+- kind: literature
+  text: 'Nesbitt, S.J. 2005. Osteology of the Middle Triassic pseudosuchian archosaur ''''Arizonasaurus babbitti''''.
+    Historical Biology 8(1): 19–47. doi:10.1080/08912960500476499'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bromsgroveia (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bromsgroveia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bromsgroveia”. English Wikipedia, revision 1363741027.
+  url: https://en.wikipedia.org/w/index.php?title=Bromsgroveia&oldid=1363741027
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images; image 2 shows two taxa.]
+  reviews: []

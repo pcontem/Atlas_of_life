@@ -1,0 +1,71 @@
+name: Phyllodontosuchus
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Harris et al. 2000
+type_species: Phyllodontosuchus lufengensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Phyllodontosuchus is a sphenosuchian crocodylomorph with leaf-shaped teeth from the Early Jurassic Lufeng
+  Formation of China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 199.5
+  last_ma: 192.9
+  early_interval: Sinemurian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Phyllodontosuchus lufengensis
+  authority: Harris et al. 2000
+  first_ma: 199.5
+  last_ma: 192.9
+  interval: Sinemurian
+  reference: original description
+formations:
+- formation: Lufeng
+  group: ''
+  members: [Zhangjia'ao]
+  country: China
+  regions: [Yunnan]
+  interval: Sinemurian
+  occurrences: 1
+  ma: [192.9, 199.5]
+  id: lufeng-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One specimen from the Lufeng Formation, Yunnan.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/vector.svg
+  png: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/raster/512x140.png
+  page: https://www.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Trialestes romeri
+  matched: Crocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'Harris, Jerald D. 2000. A new and unusual sphenosuchian (Archosauria: Crocodylomorpha) from the Lower Jurassic
+    Lufeng Formation, People''s Republic of China. Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen 215(1):
+    47–68. doi:10.1127/njgpa/215/2000/47'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Phyllodontosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Phyllodontosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Phyllodontosuchus”. English Wikipedia, revision 1320054370.
+  url: https://en.wikipedia.org/w/index.php?title=Phyllodontosuchus&oldid=1320054370
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add holotype number from Harris et al. 2000.]
+  reviews: []

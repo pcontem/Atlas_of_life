@@ -1,0 +1,78 @@
+name: Gorgetosuchus
+rank: genus
+parent: desmatosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Heckert et al. 2015
+type_species: Gorgetosuchus pekinensis
+type_species_note: From the Wikipedia taxobox.
+summary: Gorgetosuchus is an aetosaur from the Late Triassic Pekin Formation of North Carolina, known mainly from
+  osteoderms.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gorgetosuchus pekinensis
+  authority: Heckert et al. 2015
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Pekin
+  group: Chatham
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: pekin-united-states
+fossil_material:
+  holotype: Osteoderms including the front half of an articulated carapace (Heckert et al. 2015).
+  material: Mostly osteoderms.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: Heckert, A. B.; Schneider, V. P.; Fraser, N. C.; Webb, R. A. 2015. A new aetosaur (Archosauria, Suchia)
+    from the Upper Triassic Pekin Formation, Deep River Basin, North Carolina, U.S.A., and its implications for
+    early aetosaur evolution. Journal of Vertebrate Paleontology 35. doi:10.1080/02724634.2014.881831
+- kind: literature
+  text: 'Parker, William G. 2016. Revised phylogenetic analysis of the Aetosauria (Archosauria: Pseudosuchia); assessing
+    the effects of incongruent morphological character sets. PeerJ 4. doi:10.7717/peerj.1583'
+- kind: literature
+  text: 'Hoffman, Devin K.; Heckert, Andrew B.; Zanno, Lindsay E. 2018. Under the armor: X-ray computed tomographic
+    reconstruction of the internal skeleton of ''''Coahomasuchus chathamensis'''' (Archosauria: Aetosauria) from
+    the Upper Triassic of North Carolina, USA, and a phylogenetic analysis of Aetosauria. PeerJ 6. doi:10.7717/peerj.4368'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gorgetosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gorgetosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gorgetosuchus”. English Wikipedia, revision 1314498157.
+  url: https://en.wikipedia.org/w/index.php?title=Gorgetosuchus&oldid=1314498157
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [PBDB places it in Desmatosuchini; the parent here is the subfamily.]
+  reviews: []

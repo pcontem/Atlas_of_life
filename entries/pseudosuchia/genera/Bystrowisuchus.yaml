@@ -1,0 +1,71 @@
+name: Bystrowisuchus
+rank: genus
+parent: ctenosauriscidae
+incertae_sedis: false
+placement_note: ''
+authority: Sennikov 2012
+type_species: Bystrowisuchus flerovi
+type_species_note: From the Wikipedia taxobox.
+summary: Bystrowisuchus is a ctenosauriscid pseudosuchian from the Early Triassic Lipovskaya Formation of European
+  Russia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 250.8
+  last_ma: 247
+  early_interval: Olenekian
+  late_interval: Olenekian
+  pbdb_occurrences: 1
+  note: PBDB gives no interval names; the age range matches the ICS Olenekian stage (Lipovskaya Formation, Olenekian
+    per PBDB).
+species:
+- name: Bystrowisuchus flerovi
+  authority: Sennikov 2012
+  first_ma: 250.8
+  last_ma: 247
+  interval: ''
+  reference: original description
+formations:
+- formation: Lipovskaya
+  group: ''
+  members: []
+  country: Russia
+  regions: [Volgograd]
+  interval: Olenekian
+  occurrences: 1
+  ma: [247.0, 250.8]
+  id: lipovskaya-russia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Lipovskaya Formation, Ilovlinsky District.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/vector.svg
+  png: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/raster/512x196.png
+  page: https://www.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Ctenosauriscus koeneni
+  matched: Ctenosauriscidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sennikov, A. G. 2012. The first ctenosauriscid (Reptilia: Archosauromorpha) from the Lower Triassic of
+    Eastern Europe. Paleontological Journal 46(5): 499–511. doi:10.1134/S0031030112050097'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bystrowisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bystrowisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bystrowisuchus”. English Wikipedia, revision 1282989145.
+  url: https://en.wikipedia.org/w/index.php?title=Bystrowisuchus&oldid=1282989145
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add holotype from Sennikov 2012.]
+  reviews: []

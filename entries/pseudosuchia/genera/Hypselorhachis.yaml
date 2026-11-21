@@ -1,0 +1,85 @@
+name: Hypselorhachis
+rank: genus
+parent: ctenosauriscidae
+incertae_sedis: true
+placement_note: Possibly a ctenosauriscid; known from a single vertebra, so its position is uncertain (English Wikipedia).
+authority: Charig 1967
+type_species: Hypselorhachis mirabilis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Hypselorhachis is a possible ctenosauriscid archosaur known only from a single tall-spined vertebra from
+  the Middle Triassic Manda Beds of Tanzania.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 247
+  last_ma: 241.464
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 1
+  note: PBDB gives no interval names; the age range matches the ICS Anisian stage (Manda Beds, Anisian per PBDB).
+species:
+- name: Hypselorhachis mirabilis
+  authority: Charig 1967
+  first_ma: 247
+  last_ma: 241.464
+  interval: ''
+  reference: original description
+formations:
+- formation: Manda Beds
+  group: ''
+  members: [Lifua]
+  country: Tanzania
+  regions: [Ruvuma]
+  interval: Anisian
+  occurrences: 1
+  ma: [241.464, 247.0]
+  id: manda-beds-tanzania
+fossil_material:
+  holotype: A single vertebra from the Manda Beds, Tanzania.
+  material: One vertebra.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Hypselorhachis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Hypselorhachis.png/960px-Hypselorhachis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hypselorhachis.png
+  artist: Richard J. Butler, Paul M. Barrett, Richard L. Abel, David J. Gower
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012-03-28'
+  caption: Hypselorhachis vertebra.
+  width: 4643
+  height: 1785
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/vector.svg
+  png: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/raster/512x196.png
+  page: https://www.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Ctenosauriscus koeneni
+  matched: Ctenosauriscidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. J. Charig. 1967. Archosauria. The Fossil Record: A Symposium with Documentation. Geological Society
+    of London Special Publication 2:703-718'
+- kind: literature
+  text: 'Butler, R.J. 2009. A Possible Ctenosauriscid Archosaur from the Middle Triassic Manda Beds of Tanzania.
+    Journal of Vertebrate Paleontology 29(4): 1022–1031. doi:10.1671/039.029.0404'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hypselorhachis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hypselorhachis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hypselorhachis”. English Wikipedia, revision 1315923648.
+  url: https://en.wikipedia.org/w/index.php?title=Hypselorhachis&oldid=1315923648
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the image.]
+  reviews: []
