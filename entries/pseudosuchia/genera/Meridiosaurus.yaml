@@ -1,0 +1,72 @@
+name: Meridiosaurus
+rank: genus
+parent: pholidosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Mones 1980
+type_species: Meridiosaurus vallisparadisi
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Meridiosaurus is a pholidosaurid mesoeucrocodylian from the Late Jurassic Tacuarembó Formation of Uruguay.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Meridiosaurus vallisparadisi
+  authority: Mones 1980
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Tacuarembó
+  group: ''
+  members: [Batoví]
+  country: Uruguay
+  regions: [Tacuarembó]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: tacuarembo-uruguay
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Tacuarembó Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/vector.svg
+  png: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/raster/642x1536.png
+  page: https://www.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Pholidosaurus
+  matched: Pholidosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mones, A. 1980. Nuevos elementos de la paleoherpetofauna del Uruguay (Crocodilia y Dinosauria). Actas II
+    Congreso Argentino de Paleontologia y Bioestratigrafia y I Congreso Latinoamericano, Buenos Aires 1: 265–277.'
+- kind: literature
+  text: 'Gasparini, Z. 1991. A new Senonian peirosaurid (Crocodylomorpha) from Argentina and a synopsis of the South
+    American Cretaceous crocodilians. Journal of Vertebrate Paleontology 11(3): 316–333. doi:10.1080/02724634.1991.10011401'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Meridiosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Meridiosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Meridiosaurus”. English Wikipedia, revision 1354846836.
+  url: https://en.wikipedia.org/w/index.php?title=Meridiosaurus&oldid=1354846836
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,79 @@
+name: Woodbinesuchus
+rank: genus
+parent: pholidosauridae
+incertae_sedis: true
+placement_note: PBDB places it in Pholidosauridae while English Wikipedia calls it a goniopholidid; placed in Pholidosauridae
+  as in PBDB.
+authority: Lee 1997
+type_species: Woodbinesuchus byersmauricei
+type_species_note: From the Wikipedia taxobox.
+summary: Woodbinesuchus is a mesoeucrocodylian from the Cenomanian Woodbine Formation of Texas.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Woodbinesuchus byersmauricei
+  authority: Lee 1997
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Rush Creek
+  group: Woodbine
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Early Cenomanian–Middle Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: rush-creek-united-states
+- formation: Lewisville
+  group: Woodbine
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Middle Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: lewisville-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Woodbine and Rush Creek formations.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/vector.svg
+  png: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/raster/642x1536.png
+  page: https://www.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Pholidosaurus
+  matched: Pholidosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lee, Yuong–Nam 1997. The Archosauria from the Woodbine Formation (Cenomanian) in Texas. Journal of Paleontology
+    71(6): 1147–1156. doi:10.1017/S0022336000036088'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Woodbinesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Woodbinesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Woodbinesuchus”. English Wikipedia, revision 1334383481.
+  url: https://en.wikipedia.org/w/index.php?title=Woodbinesuchus&oldid=1334383481
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

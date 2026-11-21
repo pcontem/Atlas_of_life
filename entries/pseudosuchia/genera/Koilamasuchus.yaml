@@ -1,0 +1,86 @@
+name: Koilamasuchus
+rank: genus
+parent: pseudosuchia
+incertae_sedis: true
+placement_note: Described as an indeterminate archosauriform in English Wikipedia; PBDB places it in Pseudosuchia;
+  placed there.
+authority: Ezcurra et al. 2010
+type_species: Koilamasuchus gonzalezdiazi
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Koilamasuchus is an indeterminate archosauriform known from an external mold of a partial postcranial skeleton
+  from the Triassic of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 241.464
+  last_ma: 233.6
+  early_interval: Ladinian
+  late_interval: Carnian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Koilamasuchus gonzalezdiazi
+  authority: Ezcurra et al. 2010
+  first_ma: 241.464
+  last_ma: 233.6
+  interval: Ladinian–Carnian
+  reference: original description
+formations:
+- formation: Quebrada de Los Fosiles
+  group: Puesto Viejo
+  members: []
+  country: Argentina
+  regions: [Mendoza]
+  interval: Ladinian–Julian
+  occurrences: 1
+  ma: [233.6, 241.464]
+  id: quebrada-de-los-fosiles-argentina
+fossil_material:
+  holotype: An external mold of a partial postcranial skeleton from the Quebrada de los Fósiles Formation.
+  material: The mold.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Koilamasuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Koilamasuchus_skeletal.png/960px-Koilamasuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Koilamasuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-12'
+  caption: Skeletal reconstruction of Koilamasuchus.
+  width: 6235
+  height: 2022
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/vector.svg
+  png: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/raster/512x126.png
+  page: https://www.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Nundasuchus songeaensis
+  matched: Pseudosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ezcurra, M.D. 2010. A new basal archosauriform diapsid from the Lower Triassic of Argentina. Journal of
+    Vertebrate Paleontology 30(5): 1433–1450. doi:10.1080/02724634.2010.501446'
+- kind: literature
+  text: Sookias, Roland B. 2016. The relationships of the Euparkeriidae and the rise of Archosauria. Royal Society
+    Open Science 3(3). doi:10.1098/rsos.150674
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Koilamasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Koilamasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Koilamasuchus”. English Wikipedia, revision 1354866078.
+  url: https://en.wikipedia.org/w/index.php?title=Koilamasuchus&oldid=1354866078
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the skeletal reconstruction.]
+  reviews: []

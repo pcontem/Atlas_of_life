@@ -1,0 +1,97 @@
+name: Chalawan
+rank: genus
+parent: pholidosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Martin et al. 2013
+type_species: Chalawan thailandicus
+type_species_note: Monotypic in PBDB; named as Goniopholis thailandicus (Buffetaut and Ingavat 1980).
+summary: Chalawan is a pholidosaurid-grade crocodyliform from the Late Jurassic to Early Cretaceous Phu Kradung
+  Formation of Thailand.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 149.2
+  last_ma: 137.05
+  early_interval: Tithonian
+  late_interval: Berriasian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Chalawan thailandicus
+  authority: (Buffetaut and Ingavat 1980)
+  first_ma: 149.2
+  last_ma: 137.05
+  interval: Tithonian–Berriasian
+  reference: original description
+formations:
+- formation: Phu Kradung
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Mukdahan, Nong Bua Lamphu]
+  interval: Tithonian–Berriasian
+  occurrences: 3
+  ma: [137.05, 149.2]
+  id: phu-kradung-thailand
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Phu Kradung Formation (3 PBDB occurrences).
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Chalawan skull reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Chalawan_skull_reconstruction.png/960px-Chalawan_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chalawan_skull_reconstruction.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-01-08'
+  caption: Skull reconstruction of Chalawan.
+  width: 2732
+  height: 2232
+  review: unreviewed
+- kind: life
+  file: Chalawan thailandicus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Chalawan_thailandicus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chalawan_thailandicus.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-09'
+  caption: Chalawan thailandicus restoration.
+  width: 1368
+  height: 382
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/7b5375f8-7f3d-4e90-993c-b06f0d6b238b/vector.svg
+  png: https://images.phylopic.org/images/7b5375f8-7f3d-4e90-993c-b06f0d6b238b/raster/528x1024.png
+  page: https://www.phylopic.org/images/7b5375f8-7f3d-4e90-993c-b06f0d6b238b
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Chalawan thailandicus
+  matched: Chalawan
+  genus_level: true
+sources:
+- kind: original
+  text: J. E. Martin, K. Lauprasert, and E. Buffetaut, R. Liard, V. Suteethorn. 2013. A large pholidosaurid from
+    the Phu Kradung Formation of north-eastern Thailand. Palaeontology
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chalawan (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chalawan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Krai Thong”. English Wikipedia, revision 1368939284.
+  url: https://en.wikipedia.org/w/index.php?title=Krai_Thong&oldid=1368939284
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'The Wikipedia page for ''Chalawan'' is a folktale; no genus revision is cited: PBDB record only.'
+  - Check the images and the life restoration; the skull reconstruction may be a model rather than a fossil.
+  - Add the original (Martin et al. 2013).
+  reviews: []
