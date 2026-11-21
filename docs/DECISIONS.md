@@ -277,3 +277,9 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   Paleosuchus (entries exist, parents already in the Pseudosuchia volume) are still to be removed from `backbone.json`.
 - 2026-11-21 (follow-up): a production unit must also have at most `CLADE_MAX` (default 12) sub-clades, so very inclusive clades
   with few known genera (Archaeplastida, Embryophyta) stay general until their subtree is filled in.
+
+## 2026-11-21 — G10 relaxed: a genus may be drafted without a formation
+- Owner request: write the pseudosuchian genera that PBDB has no occurrences for, and note the missing formation in `docs/NEXT.md`.
+- G10 is now an error only for a genus with no formation **and** no curation note; with a note it is a consolidation (S) issue, so the
+  entry may stay a draft. Items that exist still need `formation` and `country`. Such genera have no map point in Biota.
+- The genus page shows "No formation is recorded for this genus yet". CLAUDE.md §4.1 updated to match.

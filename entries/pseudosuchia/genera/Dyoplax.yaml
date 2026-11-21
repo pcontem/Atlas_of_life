@@ -1,0 +1,63 @@
+name: Dyoplax
+rank: genus
+parent: erpetosuchidae
+incertae_sedis: true
+placement_note: English Wikipedia lists Erpetosuchidae as tentative; the genus was earlier placed in Aetosauridae,
+  Notochampsidae/Protosuchidae, Sphenosuchia and Crocodylomorpha.
+authority: Fraas 1867
+type_species: Dyoplax arenaceus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Dyoplax is an enigmatic pseudosuchian known from a natural cast of a nearly complete skeleton from the
+  Carnian Schilfsandstein of Stuttgart, Germany.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 237.0
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. English Wikipedia gives the early Carnian (about 228 Ma); the whole Carnian stage of
+    the ICS chart is used here.
+species:
+- name: Dyoplax arenaceus
+  authority: Fraas 1867
+  first_ma: 237.0
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: A natural cast of a nearly complete skeleton, lacking only parts of the tail and limb bones, from the
+    Schilfsandstein of Stuttgart, Germany.
+  material: The holotype only.
+  completeness: near-complete
+  exceptional: ''
+biology: The sources consulted describe its classification history but give no direct evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: 'Fraas, O. 1867. Dyoplax arenaceus, ein neuer Stuttgarter Keuper-Saurier. Jahreshefte des Vereins für vaterländische
+    Naturkunde in Württemberg 23: 108–112.'
+- kind: literature
+  text: 'Maisch, M. W., Matzke, A. T. and Rathgeber, T. 2013. Re-evaluation of the enigmatic archosaur Dyoplax arenaceus
+    O. Fraas, 1867 [title shortened in the source list]. Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen
+    267(3): 353–362.'
+  url: https://doi.org/10.1127/0077-7749/2013/0317
+- kind: literature
+  text: 'Lucas, S. G., Wild, R. and Hunt, A. P. 1998. Dyoplax O. Fraas, a Triassic sphenosuchian from Germany. Stuttgarter
+    Beiträge zur Naturkunde B 263: 1–13.'
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia
+    and the literature give the locality: Upper Schilfsandstein (also called the Stuttgart Formation), Stuttgart,
+    Germany (early Carnian). No coordinates or PBDB collection yet.'
+  - Completeness rated from the description 'nearly complete skeleton'; whether the skull is present was not checked.
+  - The title of the Maisch et al. 2013 paper was truncated in the source; complete it.
+  - No Wikipedia revision recorded; no images yet.
+  reviews: []

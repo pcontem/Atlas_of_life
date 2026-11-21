@@ -1,0 +1,69 @@
+name: Stegomosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: English Wikipedia calls it a protosuchian crocodylomorph (family Stegomosuchidae), but Whetstone
+  and Whybrow (1983) found the only specimen too poorly preserved to classify; kept in Crocodyliformes.
+authority: von Huene 1922
+type_species: Stegomosuchus longipes
+type_species_note: The species was named Stegomus longipes by Emerson and Loomis (1904); the genus name Stegomosuchus
+  is by von Huene (1922).
+summary: Stegomosuchus is a small crocodylomorph known from one partial skeleton, mostly impressions, from the Early
+  Jurassic Portland Formation of Massachusetts.
+size:
+  length_m: null
+  note: Skull about 35 mm long; snout-to-pelvis length about 149 mm; Walker regarded the specimen as a juvenile,
+    so no adult range is given.
+age:
+  first_ma: 201.4
+  last_ma: 199.5
+  early_interval: Hettangian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. English Wikipedia gives the late Hettangian (about 200.5-200 Ma); the whole Hettangian
+    stage of the ICS chart is used here. Originally thought to be Triassic.
+species:
+- name: Stegomosuchus longipes
+  authority: (Emerson and Loomis 1904)
+  first_ma: 201.4
+  last_ma: 199.5
+  interval: Hettangian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: AM 900 (Amherst College Museum of Natural History), a partial skeleton preserved mostly as impressions,
+    from the Portland Formation, Hoover Quarry (formerly Hines Quarry), east of East Longmeadow, Massachusetts.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted describe the specimen and its classification but give no direct evidence of diet
+  or habits.
+images: []
+sources:
+- kind: original
+  text: 'von Huene, F. 1922. The Triassic reptilian order Thecodontia. American Journal of Science (5) 4(19): 22–26.'
+  url: https://doi.org/10.2475/ajs.s5-4.19.22
+- kind: literature
+  text: 'Emerson, B. K. and Loomis, F. B. 1904. On Stegomus longipes, a new reptile from the Triassic sandstones
+    of the Connecticut Valley. American Journal of Science (4) 17(4): 377–380.'
+  url: https://doi.org/10.2475/ajs.s4-17.101.377
+- kind: literature
+  text: 'Walker, A. D. 1968. Protosuchus, Proterochampsa, and the origin of phytosaurs and crocodiles. Geological
+    Magazine 105(1): 1–14.'
+  url: https://doi.org/10.1017/S0016756800046434
+- kind: literature
+  text: 'Whetstone, K. N. and Whybrow, P. J. 1983. A ''cursorial'' crocodilian from the Triassic of Lesotho (Basutoland),
+    southern Africa. Occasional Papers of the Museum of Natural History, University of Kansas 106: 1–37.'
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia
+    and the literature give the locality: Portland Formation, Hoover Quarry, East Longmeadow, Massachusetts, USA
+    (late Hettangian). No coordinates or PBDB collection yet.'
+  - 'Validity: kept as valid; Whetstone and Whybrow (1983) found the specimen too poorly preserved to classify it
+    further. Check recent literature (M1).'
+  - No Wikipedia revision recorded; no images yet.
+  reviews: []

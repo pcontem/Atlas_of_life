@@ -130,8 +130,11 @@ def check_genus(e, path, clade_ids, excluded_names, measure="wingspan"):
         err("G9", w, "age.early_interval is empty")
     if not a.get("pbdb_occurrences") and not (a.get("note") or "").strip():
         err("G9", w, "age not from PBDB occurrences: age.note must say where it comes from")
-    if not e.get("formations"):
-        err("G10", w, "no geological formation")
+    if not e.get("formations"):  # relaxed 2026-11-21 (owner): allowed while drafting, if a curation note says why
+        if not (e.get("curation") or {}).get("notes"):
+            err("G10", w, "no geological formation: add a curation note saying why (and what is known about the locality)")
+        else:
+            strict("G10", w, "no geological formation recorded yet (needs one for consolidation)")
     for f in e.get("formations") or []:
         if not f.get("formation") or not f.get("country"):
             err("G10", w, "formation without name or country")

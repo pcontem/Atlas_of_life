@@ -109,7 +109,7 @@ species:                          # G6 S  at least the type species
   last_ma: 72.2
   interval: Santonian–Campanian
   reference: original description
-formations:                       # G10 E at least one; each with formation and country
+formations:                       # G10 E each item with formation and country; S: at least one. May be empty while drafting if curation.notes says why (owner, 2026-11-21)
 - formation: Niobrara
   group: Colorado
   members: [Smoky Hill Chalk]

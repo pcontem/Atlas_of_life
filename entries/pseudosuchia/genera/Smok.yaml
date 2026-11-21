@@ -1,0 +1,69 @@
+name: Smok
+rank: genus
+parent: poposauroidea
+incertae_sedis: true
+placement_note: English Wikipedia places Smok in Paracrocodylomorpha without a family; the backbone kept it in Poposauroidea,
+  unresolved within it.
+authority: Niedźwiedzki et al. 2012
+type_species: Smok wawelski
+type_species_note: Monotypic genus; the only species is the type.
+summary: Smok is a large predatory pseudosuchian from the latest Triassic of Lisowice, southern Poland, first described
+  as a theropod dinosaur.
+size:
+  length_m: [5.0, 6.0]
+  note: About 5-6 m long with a skull 50-60 cm long (English Wikipedia); estimates, not measurements.
+age:
+  first_ma: 208.5
+  last_ma: 205.0
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Age 208.5-205 Ma (latest Norian to early Rhaetian) from the English Wikipedia summary
+    of the Lisowice site.
+species:
+- name: Smok wawelski
+  authority: Niedźwiedzki et al. 2012
+  first_ma: 208.5
+  last_ma: 205.0
+  interval: Norian–Rhaetian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: ZPAL V.33/15, a partially complete braincase associated with a partially preserved skeleton, from Lisowice,
+    Silesian Voivodeship, Poland.
+  material: The holotype and further material from Lisowice; a second occurrence in southern Poland is reported
+    by Niedźwiedzki and Budziszewska-Karwowska (2018).
+  completeness: partial
+  exceptional: ''
+biology: A large predator; a 2019 study (Qvarnström and colleagues) reports tyrannosaurid-like bone eating in a
+  Triassic archosaur, according to its title. Fuller details are not read here.
+images: []
+sources:
+- kind: literature
+  text: 'Niedźwiedzki, G., Sulej, T. and Dzik, J. 2012. A large predatory archosaur from the Late Triassic of Poland.
+    Acta Palaeontologica Polonica 57(2): 251–256.'
+  url: https://doi.org/10.4202/app.2010.0045
+- kind: literature
+  text: 'Niedźwiedzki, G. and Budziszewska-Karwowska, E. 2018. A new occurrence of the Late Triassic archosaur Smok
+    in southern Poland. Acta Palaeontologica Polonica 63(4): 703–712.'
+  url: https://doi.org/10.4202/app.00505.2018
+- kind: literature
+  text: 'Qvarnström, M., Ahlberg, P. E. and Niedźwiedzki, G. 2019. Tyrannosaurid-like osteophagy by a Triassic archosaur.
+    Scientific Reports 9(1): 925.'
+  url: https://doi.org/10.1038/s41598-018-37540-4
+- kind: literature
+  text: 'Dzik, J., Sulej, T. and Niedźwiedzki, G. 2008. A dicynodont-theropod association in the latest Triassic
+    of Poland. Acta Palaeontologica Polonica 53(4): 733–738.'
+  url: https://doi.org/10.4202/app.2008.0415
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia
+    and the literature give the locality: Lipie Śląskie clay pit, Lisowice, Silesian Voivodeship, Poland (latest
+    Norian to early Rhaetian). No coordinates or PBDB collection yet.'
+  - 'No Wikipedia revision recorded: the revision id could not be fetched; add it when the page is harvested.'
+  - No images yet.
+  reviews: []
