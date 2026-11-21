@@ -1,0 +1,95 @@
+name: Edentosuchus
+rank: genus
+parent: protosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1973
+type_species: Edentosuchus tienshanensis
+type_species_note: From the Wikipedia taxobox.
+summary: Edentosuchus is a protosuchian crocodyliform from the Early Cretaceous Tugulu Group of the Junggar Basin,
+  China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 199.5
+  last_ma: 184.2
+  early_interval: Sinemurian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Edentosuchus tienshanensis
+  authority: Young 1973
+  first_ma: 137.05
+  last_ma: 100.5
+  interval: Valanginian–Albian
+  reference: original description
+formations:
+- formation: Kayenta
+  group: Glen Canyon
+  members: []
+  country: United States
+  regions: [Arizona]
+  interval: Sinemurian–Pliensbachian
+  occurrences: 3
+  ma: [184.2, 199.5]
+  id: kayenta-united-states
+- formation: Lianmuqin
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian–Albian
+  occurrences: 2
+  ma: [100.5, 137.05]
+  id: lianmuqin-china
+- formation: Unnamed unit
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian–Albian
+  occurrences: 1
+  ma: [100.5, 137.05]
+  id: tugulu-group-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Two partial skulls (English Wikipedia).
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
+  png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
+  page: https://www.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hoplosuchus kayi
+  matched: Protosuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'C.-C. Young. 1973. [A new fossil crocodile from Wuerho]. Reports of Paleontological Expedition to Sinkiang
+    (II): Pterosaurian Fauna from Wuerho, Sinkiang.  Memoirs of the Institute of Vertebrate Paleontology and Paleoanthropology
+    Academia Sinica 11:37-44'
+- kind: literature
+  text: 'Pol, Diego 2004. Basal crocodyliforms from the Lower Cretaceous Tugulu Group (Xinjiang, China), and the
+    phylogenetic position of ''''Edentosuchus''''. Cretaceous Research 25(4): 603–622. doi:10.1016/j.cretres.2004.05.002'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Edentosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Edentosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Edentosuchus”. English Wikipedia, revision 1320054439.
+  url: https://en.wikipedia.org/w/index.php?title=Edentosuchus&oldid=1320054439
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB also lists a Kayenta Formation (Early Jurassic, USA) occurrence, which conflicts with the Cretaceous Chinese
+    age on Wikipedia; check.
+  - Add the original (Young 1973).
+  reviews: []

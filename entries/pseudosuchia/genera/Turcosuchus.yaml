@@ -1,0 +1,70 @@
+name: Turcosuchus
+rank: genus
+parent: hylaeochampsidae
+incertae_sedis: false
+placement_note: ''
+authority: Jouve et al. 2019
+type_species: Turcosuchus okani
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Turcosuchus is a basal eusuchian crocodyliform from the Early Cretaceous İncigez Formation of Turkey.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Turcosuchus okani
+  authority: Jouve et al. 2019
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: İncigez
+  group: ''
+  members: []
+  country: Turkey
+  regions: [Zonguldak]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: incigez-turkey
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the İncigez Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/vector.svg
+  png: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/raster/512x86.png
+  page: https://www.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c
+  attribution: François-Louis Pelissier
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Acynodon iberoccitanus
+  matched: Hylaeochampsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Jouve, Stéphane; Sarıgül, Volkan; Steyer, J.-Sébastien; Sen, Sevket 2019. The first crocodylomorph from
+    the Mesozoic of Turkey (Barremian of Zonguldak) and the dispersal of the eusuchians during the Cretaceous. Journal
+    of Systematic Palaeontology 17(2): 111–128. doi:10.1080/14772019.2017.1393469'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Turcosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Turcosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Turcosuchus”. English Wikipedia, revision 1292662224.
+  url: https://en.wikipedia.org/w/index.php?title=Turcosuchus&oldid=1292662224
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

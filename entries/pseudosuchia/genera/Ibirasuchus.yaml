@@ -1,0 +1,56 @@
+name: Ibirasuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: true
+placement_note: English Wikipedia places it in Itasuchidae (Notosuchia); the atlas has no Itasuchidae clade, so
+  it sits in Notosuchia.
+authority: Iori et al. 2025
+type_species: Ibirasuchus gelcae
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Ibirasuchus is a medium to large itasuchid notosuchian from the Santonian São José do Rio Preto Formation
+  (Bauru Group) of Brazil.
+size:
+  length_m: [4.0, 4.0]
+  mass_kg: null
+  note: Up to 4 m, estimated from proxies (English Wikipedia); the page calls it medium to large.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: Santonian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Santonian per English Wikipedia; whole ICS stage used.
+species:
+- name: Ibirasuchus gelcae
+  authority: Iori et al. 2025
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Several skull-table bones (a small part of the squamosal, parietal and supraoccipital) found in 2008;
+    catalogue number not given on the page.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Itasuchids are generally interpreted as semi-aquatic (English Wikipedia).
+images: []
+sources:
+- kind: original
+  text: Iori, F. V., Marinho, T. S., Paschoa, L. S., Fernandes, R. O., Tavares, S. S. and Montefeltro, F. C. 2025.
+    Crocodyliforms of the São José do Rio Preto Formation (Bauru Basin, Upper Cretaceous), taxonomic and preservational
+    aspects. Journal of South American Earth Sciences 105718.
+  url: https://doi.org/10.1016/j.jsames.2025.105718
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: São José do Rio Preto Formation, Bauru Group, Brazil (Santonian). No coordinates or
+    PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

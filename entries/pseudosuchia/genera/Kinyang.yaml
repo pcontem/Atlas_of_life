@@ -1,0 +1,124 @@
+name: Kinyang
+rank: genus
+parent: crocodylidae
+incertae_sedis: false
+placement_note: ''
+authority: Brochu et al. 2022
+type_species: Kinyang mabokoensis
+type_species_note: 'Filled from general knowledge, not yet checked: PBDB lists K. mabokoensis and K. tchernovi,
+  both Brochu et al. 2022.'
+summary: Kinyang is a genus of giant crocodylids from the Early to Middle Miocene of Kenya, with two species named
+  in 2022.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 20.45
+  last_ma: 13.82
+  early_interval: Burdigalian
+  late_interval: Langhian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Kinyang mabokoensis
+  authority: Brochu et al. 2022
+  first_ma: 15.98
+  last_ma: 13.82
+  interval: Langhian
+  reference: original description
+- name: Kinyang tchernovi
+  authority: Brochu et al. 2022
+  first_ma: 20.45
+  last_ma: 15.98
+  interval: Burdigalian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Burdigalian
+  occurrences: 2
+  ma: [15.98, 20.45]
+  id:
+  - unnamed-chianda-uyoma-peninsula-kenya
+  - unnamed-ngira-site-gully-13-karungu-kenya
+- formation: Maboko
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: maboko-kenya
+- formation: Lokone
+  group: ''
+  members: [Lokone]
+  country: Kenya
+  regions: []
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: lokone-kenya
+- formation: Lothidok
+  group: ''
+  members: [Kalodirr]
+  country: Kenya
+  regions: [Northern Frontier District]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: lothidok-kenya
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from several Kenyan localities (Maboko, Lokone, Lothidok and unnamed units) per PBDB.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Kinyang mabokoensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Kinyang_mabokoensis.png/960px-Kinyang_mabokoensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kinyang_mabokoensis.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-06-17'
+  caption: Kinyang mabokoensis fossil.
+  width: 2088
+  height: 1524
+  review: unreviewed
+  local: img/gallery/Kinyang_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/vector.svg
+  png: https://images.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a/raster/512x58.png
+  page: https://www.phylopic.org/images/a1e916c4-e020-4657-932b-d74ec6c08e0a
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euthecodon brumpti
+  matched: Crocodylidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. A. Brochu, A. De Celis, and A. J. Adams, S. K. Drumheller, J. H. Nestler, B. R. Benefit, A. Grossman,
+    F. Kirera, T. Lehmann, C. Liutkus-Pierce, F. K. Manthi, M. L. McCrossin, K. P. McNulty, R. Nyaboke Juna. 2022.
+    Giant dwarf crocodiles from the Miocene of Kenya and crocodylid faunal dynamics in the late Cenozoic of East
+    Africa. The Anataomical Record 305(10):2729-2765
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kinyang (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kinyang
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kinyang”. English Wikipedia, revision 1378283294.
+  url: https://en.wikipedia.org/w/index.php?title=Kinyang&oldid=1378283294
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia page titled Kinyang is about a Kenyan settlement, not the genus; no revision is cited.
+  - Verify the type species, holotype, size (the paper's title mentions giant crocodylians) and the placement in
+    Euthecodontini.
+  reviews: []

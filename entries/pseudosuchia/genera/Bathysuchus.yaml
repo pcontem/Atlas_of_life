@@ -1,0 +1,113 @@
+name: Bathysuchus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Foffa et al. 2019
+type_species: Bathysuchus megarhinus
+type_species_note: PBDB's only species, originally Steneosaurus megarhinus (Hulke 1871).
+summary: Bathysuchus is a teleosaurid thalattosuchian from Late Jurassic deep-water marine deposits of England and
+  France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bathysuchus megarhinus
+  authority: (Hulke 1871)
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Kimmeridge Clay
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: kimmeridge-clay-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Kimmeridge Clay.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Bathysuchus megarhinus holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Bathysuchus_megarhinus_holotype.png/960px-Bathysuchus_megarhinus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bathysuchus_megarhinus_holotype.png
+  artist: Davide Foffa​​1,2, Michela M. Johnson​2, Mark T. Young​2, Lorna Steel3, Stephen L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Holotype of Bathysuchus megarhinus.
+  width: 3995
+  height: 4130
+  review: unreviewed
+  local: img/gallery/Bathysuchus_001.webp
+- kind: fossil
+  file: Bathysuchus osteoderms.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bathysuchus_osteoderms.png/960px-Bathysuchus_osteoderms.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bathysuchus_osteoderms.png
+  artist: Davide Foffa​​1,2, Michela M. Johnson​2, Mark T. Young​2, Lorna Steel3, Stephen L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Bathysuchus osteoderms.
+  width: 3607
+  height: 2373
+  review: unreviewed
+  local: img/gallery/Bathysuchus_002.webp
+- kind: fossil
+  file: Bathysuchus tooth.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bathysuchus_tooth.png/960px-Bathysuchus_tooth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bathysuchus_tooth.png
+  artist: Davide Foffa​​1,2, Michela M. Johnson​2, Mark T. Young​2, Lorna Steel3, Stephen L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Bathysuchus tooth.
+  width: 3430
+  height: 1885
+  review: unreviewed
+  local: img/gallery/Bathysuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Foffa, D.; Johnson, M.M.; Young, M.T.; Steel, L.; Brusatte, S.L. 2019. Revision of the Late Jurassic deep-water
+    teleosauroid crocodylomorph ''Teleosaurus megarhinus'' Hulke, 1871 and evidence of pelagic adaptations in Teleosauroidea.
+    PeerJ 7. doi:10.7717/peerj.6646
+- kind: literature
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bathysuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bathysuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bathysuchus”. English Wikipedia, revision 1328256964.
+  url: https://en.wikipedia.org/w/index.php?title=Bathysuchus&oldid=1328256964
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

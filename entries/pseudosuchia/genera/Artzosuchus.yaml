@@ -1,0 +1,62 @@
+name: Artzosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: Placed in the Artzosuchidae by PBDB; Wikipedia says its classification beyond basal crocodylomorph
+  is indeterminate.
+authority: Efimov 1983
+type_species: Artzosuchus brachicephalus
+type_species_note: From the Wikipedia taxobox.
+summary: Artzosuchus is a basal crocodylomorph known from the Campanian Djadokhta Formation of Mongolia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Artzosuchus brachicephalus
+  authority: Efimov 1983
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Üüden Sair locality, Djadokhta Formation, Mongolia.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: M. B. Efimov. 1983. Obzor iskopayemykh krokodilov Mongolii [Overview of the fossil crocodiles of Mongolia].
+    Fossil Reptiles of Mongolia. Sovmestnaya Sovetsko-Mongol'skaya Paleontologicheskaya Ekspeditsiya, Trudy [The
+    Joint Soviet-Mongolian Paleontological Expedition, Transactions] 24:76-95
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Artzosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Artzosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Artzosuchus”. English Wikipedia, revision 1351820388.
+  url: https://en.wikipedia.org/w/index.php?title=Artzosuchus&oldid=1351820388
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: ['Naming work: Efimov 1983 (Russian); add the original.']
+  reviews: []

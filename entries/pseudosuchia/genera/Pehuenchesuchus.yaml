@@ -1,0 +1,69 @@
+name: Pehuenchesuchus
+rank: genus
+parent: sebecosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Turner and Calvo 2005
+type_species: Pehuenchesuchus enderi
+type_species_note: From the Wikipedia taxobox.
+summary: Pehuenchesuchus is a sebecosuchian mesoeucrocodylian from the Santonian Bajo de la Carpa Formation of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pehuenchesuchus enderi
+  authority: Turner and Calvo 2005
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Bajo de la Carpa Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/vector.svg
+  png: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/raster/512x131.png
+  page: https://www.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Comahuesuchus brachybuccalis
+  matched: Sebecosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Turner, Alan H. 2005. A new sebecosuchian crocodyliform from the Late Cretaceous of Patagonia. Journal
+    of Vertebrate Paleontology 25(1): 87–98. doi:10.1671/0272-4634(2005)025[0087:ANSCFT]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pehuenchesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pehuenchesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pehuenchesuchus”. English Wikipedia, revision 1305039435.
+  url: https://en.wikipedia.org/w/index.php?title=Pehuenchesuchus&oldid=1305039435
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

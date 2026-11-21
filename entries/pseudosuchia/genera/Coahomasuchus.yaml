@@ -1,0 +1,103 @@
+name: Coahomasuchus
+rank: genus
+parent: aetosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Heckert and Lucas 1999
+type_species: Coahomasuchus kahleorum
+type_species_note: Named by Heckert and Lucas (1999); the second species is C. chathamensis (Heckert et al. 2017).
+summary: Coahomasuchus is a small aetosaurine aetosaur from the Late Triassic of Texas and North Carolina with flat,
+  unkeeled dorsal plates.
+size:
+  length_m: null
+  note: Less than 1.5 m long (English Wikipedia); only an upper bound, so no range is given.
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Coahomasuchus chathamensis
+  authority: Heckert et al. 2017
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: ''
+- name: Coahomasuchus kahleorum
+  authority: Heckert and Lucas 1999
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: original description
+formations:
+- formation: Colorado City
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: colorado-city-united-states
+- formation: Pekin
+  group: Chatham
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: pekin-united-states
+- formation: Dockum
+  group: ''
+  members: [Iatan]
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: dockum-united-states
+fossil_material:
+  holotype: 'C. kahleorum: from the Colorado City Formation, Dockum Group, Texas; the catalogue number is not given
+    in the sources consulted. The holotype of C. chathamensis includes parts of the skull (Pekin Formation, North
+    Carolina).'
+  material: Material of two species, from the Colorado City, Pekin and Dockum formations.
+  completeness: partial
+  exceptional: ''
+biology: Sharp, recurved teeth indicate a carnivorous diet, shared among aetosaurs only with Aetosauroides (English
+  Wikipedia).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. B. Heckert and S. G. Lucas. 1999. A new aetosaur (Reptilia: Archosauria) from the Upper Triassic of
+    Texas and the phylogeny of aetosaurs. Journal of Vertebrate Paleontology 19:50-68'
+- kind: literature
+  text: 'Heckert, A.B.; Fraser, N.C.; Schneider, V.P. 2017. A new species of ''''Coahomasuchus'''' (Archosauria,
+    Aetosauria) from the Upper Triassic Pekin Formation, Deep River Basin, North Carolina. Journal of Paleontology
+    91(1): 162–178. doi:10.1017/jpa.2016.130'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coahomasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coahomasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coahomasuchus”. English Wikipedia, revision 1374651502.
+  url: https://en.wikipedia.org/w/index.php?title=Coahomasuchus&oldid=1374651502
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Catalogue numbers of the holotypes to be added.
+  - No images found among the automatic candidates.
+  reviews: []

@@ -1,0 +1,78 @@
+name: Purranisaurus
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Rusconi 1948
+type_species: Purranisaurus potens
+type_species_note: Monotypic in PBDB; named by Rusconi in 1948 (English Wikipedia).
+summary: Purranisaurus is a marine metriorhynchid crocodyliform from the Vaca Muerta Formation of Argentina, first
+  thought to be a plesiosaur.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 145.06
+  last_ma: 141
+  early_interval: Tithonian
+  late_interval: Berriasian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Purranisaurus potens
+  authority: (Rusconi 1948)
+  first_ma: 145.06
+  last_ma: 141
+  interval: Tithonian–Berriasian
+  reference: original description
+formations:
+- formation: Vaca Muerta
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Mendoza]
+  interval: Late Tithonian–Early Berriasian
+  occurrences: 1
+  ma: [141.0, 145.06]
+  id: vaca-muerta-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Vaca Muerta Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/vector.svg
+  png: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/raster/512x323.png
+  page: https://www.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Metriorhynchus brevirostris
+  matched: Metriorhynchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. Cau and F. Fanti. 2011. The oldest known metriorhynchid crocodylian from the Middle Jurassic of North-eastern
+    Italy: Neptunidraco ammoniticus gen. et sp. nov. Gondwana Research 19:550-565'
+- kind: literature
+  text: 'Young, M.T.; Bell, M.A.; de Andrade, M.B.; Brusatte, S.L. 2011. Body size estimation and evolution in metriorhynchid
+    crocodylomorphs: implications for species diversification and niche partitioning. Zoological Journal of the
+    Linnean Society 163(4): 1199–1216. doi:10.1111/j.1096-3642.2011.00734.x'
+- kind: literature
+  text: Herrera Y, Gasparini Z, Fernandez MS 2015. Purranisaurus potens Rusconi, an enigmatic metriorhynchid from
+    the Late Jurassic–Early Cretaceous of the Neuquén Basin. Journal of Vertebrate Paleontology 35(2). doi:10.1080/02724634.2014.904790
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Purranisaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Purranisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Purranisaurus”. English Wikipedia, revision 1331429380.
+  url: https://en.wikipedia.org/w/index.php?title=Purranisaurus&oldid=1331429380
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The automatic image suggestion shows another taxon (Suchodus) and was not used.
+  reviews: []

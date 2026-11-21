@@ -1,0 +1,71 @@
+name: Pagosvenator
+rank: genus
+parent: erpetosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Lacerda et al. 2018
+type_species: Pagosvenator candelariensis
+type_species_note: From the Wikipedia taxobox.
+summary: Pagosvenator is an erpetosuchid pseudosuchian from the Dinodontosaurus Assemblage Zone of the Santa Maria
+  Supergroup, Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 241.464
+  last_ma: 227.3
+  early_interval: Ladinian
+  late_interval: Carnian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pagosvenator candelariensis
+  authority: Lacerda et al. 2018
+  first_ma: 241.464
+  last_ma: 227.3
+  interval: Ladinian–Carnian
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Ladinian–Carnian
+  occurrences: 1
+  ma: [227.3, 241.464]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Santa Maria Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a74117c4-30e0-4bc6-9595-83a3c971228e/vector.svg
+  png: https://images.phylopic.org/images/a74117c4-30e0-4bc6-9595-83a3c971228e/raster/512x188.png
+  page: https://www.phylopic.org/images/a74117c4-30e0-4bc6-9595-83a3c971228e
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Erpetosuchus granti
+  matched: Erpetosuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lacerda, Marcel B.; França, De; G, Marco A.; Schultz, Cesar L. 2018. A new erpetosuchid (Pseudosuchia,
+    Archosauria) from the Middle–Late Triassic of Southern Brazil. Zoological Journal of the Linnean Society 184(3):
+    804–824. doi:10.1093/zoolinnean/zly008'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pagosvenator (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pagosvenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pagosvenator”. English Wikipedia, revision 1282988908.
+  url: https://en.wikipedia.org/w/index.php?title=Pagosvenator&oldid=1282988908
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add holotype from Lacerda et al. 2018.]
+  reviews: []

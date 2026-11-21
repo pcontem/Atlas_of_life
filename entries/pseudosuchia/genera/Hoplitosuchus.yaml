@@ -1,0 +1,82 @@
+name: Hoplitosuchus
+rank: genus
+parent: aetosauria
+incertae_sedis: true
+placement_note: Based on osteoderms that cannot be identified closely; no finer placement within the aetosaurs.
+authority: Huene 1942
+type_species: Hoplitosuchus raui
+type_species_note: Monotypic genus; the only species is the type.
+summary: Hoplitosuchus is an aetosaur known from osteoderms of the Late Triassic Santa Maria Formation of Rio Grande
+  do Sul, Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Hoplitosuchus raui
+  authority: Huene 1942
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: Rosário do Sul
+  members: [Alemoa]
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: Osteoderms from the Santa Maria Formation, Rio Grande do Sul, Brazil, described by von Huene (1942);
+    catalogue number not given in the sources consulted.
+  material: The holotype osteoderms, which the Wikipedia lead describes as unidentifiable.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Aetosauria
+  genus_level: false
+sources:
+- kind: original
+  text: F. v. Huene. 1942. Lieferungen 3/4. Pseudosuchia, Saurischia, Rhynchosauridae und Schlussabschnitt [Parts
+    3/4.  Pseudosuchia, Saurischia, Rhynchosauridae, and Conclusions]. Die Fossilen Reptilien des Südamerikanischen
+    Gondwanalandes.  Ergebnisse der Sauriergrabungen in Südbrasilien 1928/29 [The Fossil Reptiles of South American
+    Gondwanaland.  Results of the Dinosaur Expeditions in southern Brazil 1928/29].  C. H. Beck'sche Verlagsbuchhandlung,
+    München
+- kind: literature
+  text: 'Langer, M. C. 2005. Studies on continental Late Triassic tetrapod biochronology. I. The type locality of
+    ''''Saturnalia tupiniquim'''' and the faunal succession in south Brazil. Journal of South American Earth Sciences
+    19(2): 205–218. doi:10.1016/j.jsames.2005.04.003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hoplitosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hoplitosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hoplitosuchus”. English Wikipedia, revision 1365468253.
+  url: https://en.wikipedia.org/w/index.php?title=Hoplitosuchus&oldid=1365468253
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Validity: the English Wikipedia lead says the holotype consists of unidentifiable osteoderms; check whether
+    it should be treated as a nomen dubium (M1).'
+  - Replacement name for Hoplitosaurus Huene 1938, which was preoccupied by an ankylosaurian name of 1902.
+  - No images found among the automatic candidates.
+  reviews: []

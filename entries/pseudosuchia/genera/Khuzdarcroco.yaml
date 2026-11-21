@@ -1,0 +1,71 @@
+name: Khuzdarcroco
+rank: genus
+parent: mesoeucrocodylia
+incertae_sedis: false
+placement_note: ''
+authority: Malkani 2015
+type_species: Khuzdarcroco zahri
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Khuzdarcroco is a mesoeucrocodylian named in 2015 from the Goru Formation of Pakistan.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 143.1
+  last_ma: 89.8
+  early_interval: Berriasian
+  late_interval: Turonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Khuzdarcroco zahri
+  authority: Malkani 2015
+  first_ma: 143.1
+  last_ma: 89.8
+  interval: Berriasian–Turonian
+  reference: original description
+formations:
+- formation: Goru
+  group: Parh
+  members: []
+  country: Pakistan
+  regions: [Balochistan]
+  interval: Berriasian–Turonian
+  occurrences: 1
+  ma: [89.8, 143.1]
+  id: goru-pakistan
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Goru Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/vector.svg
+  png: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/raster/512x96.png
+  page: https://www.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8
+  attribution: Nobu Tamura
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Sichuanosuchus huidongensis
+  matched: Mesoeucrocodylia
+  genus_level: false
+sources:
+- kind: original
+  text: M. S. Malkani. 2015. Terrestrial mesoeucrocodiles from the Cretaceous of Pakistan. The 12th Symposium on
+    Mesozoic Terrestrial Ecosystems. Abstracts
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Khuzdarcroco (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Khuzdarcroco
+- kind: encyclopedia
+  text: Wikipedia contributors. “List of informally named fossil reptiles”. English Wikipedia, revision 1385660993.
+  url: https://en.wikipedia.org/w/index.php?title=List_of_informally_named_fossil_reptiles&oldid=1385660993
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No Wikipedia page for the genus (the matching page is a list of informally named reptiles): PBDB record only.'
+  - Malkani's 2015 taxa need a validity check (M1).
+  reviews: []

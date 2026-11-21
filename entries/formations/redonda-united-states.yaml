@@ -1,0 +1,36 @@
+id: redonda-united-states
+name: Redonda
+rank: formation
+group: Chinle
+country: United States
+regions: [New Mexico]
+location:
+  lat: 34.978
+  lng: -103.459
+  basis: median of 5 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment:
+- crevasse splay
+- '"floodplain"'
+- channel lag
+- terrestrial indet.
+- lacustrine - small
+lithology: [conglomerate, siltstone]
+pbdb_collections: ['83737', '83738', '84272', '89969', '93672']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Redonda (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Redonda
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,93 @@
+name: Magyarosuchus
+rank: genus
+parent: metriorhynchoidea
+incertae_sedis: false
+placement_note: ''
+authority: Osi et al. 2018
+type_species: Magyarosuchus fitosi
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Magyarosuchus is a large metriorhynchoid thalattosuchian from the Toarcian Kisgerecse Marl of Hungary.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 180.4
+  last_ma: 174.7
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Magyarosuchus fitosi
+  authority: Osi et al. 2018
+  first_ma: 180.4
+  last_ma: 174.7
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Kisgerecse Marl
+  group: ''
+  members: []
+  country: Hungary
+  regions: []
+  interval: Thouarsense
+  occurrences: 1
+  ma: [174.7, 180.4]
+  id: kisgerecse-marl-hungary
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Fossils from the Kisgerecse Marl.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Magyarosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Magyarosuchus_skeletal.png/960px-Magyarosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Magyarosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2026-02-16'
+  caption: Skeletal reconstruction of Magyarosuchus.
+  width: 5760
+  height: 1946
+  review: unreviewed
+  local: img/gallery/Magyarosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/vector.svg
+  png: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/raster/512x70.png
+  page: https://www.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5
+  attribution: LiterallyMiguel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Magyarosuchus fitosi
+  matched: Metriorhynchoidea
+  genus_level: false
+sources:
+- kind: original
+  text: A. Osi, M. T. Young, and A. Galacz, M. Rabi. 2018. A new large-bodied thalattosuchian crocodyliform from
+    the Lower Jurassic (Toarcian) of Hungary, with further evidence of the mosaic acquisition of marine adaptations
+    in Metriorhynchoidea. PeerJ
+- kind: literature
+  text: Attila Ősi 2018. A new crocodyliform thalattosuchian large body from the Lower Jurassic (Toarcian) of Hungary,
+    with further evidence of the mosaic acquisition of marine adaptations in Metriorhynchoidea. PeerJ 6. doi:10.7717/peerj.4668
+- kind: literature
+  text: 'Young, Mark T.; Wilberg, Eric W.; Johnson, Michela M.; Herrera, Yanina; De Andrade, Marco Brandalise; Brignon,
+    Arnaud; Sachs, Sven; Abel, Pascal; Foffa, Davide; Fernández, Marta S.; Vignaud, Patrick; Cowgill, Thomas; Brusatte,
+    Stephen L. 2024. The history, systematics, and nomenclature of Thalattosuchia (Archosauria: Crocodylomorpha).
+    Zoological Journal of the Linnean Society 200(2): 547–617. doi:10.1093/zoolinnean/zlad165'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Magyarosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Magyarosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Magyarosuchus”. English Wikipedia, revision 1379418094.
+  url: https://en.wikipedia.org/w/index.php?title=Magyarosuchus&oldid=1379418094
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the skeletal reconstruction.
+  - Add size from Ősi et al. 2018 (the paper title mentions a large body).
+  reviews: []

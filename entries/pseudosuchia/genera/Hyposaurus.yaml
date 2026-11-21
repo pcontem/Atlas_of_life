@@ -1,0 +1,144 @@
+name: Hyposaurus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1849
+type_species: Hyposaurus rogersii
+type_species_note: From the Wikipedia taxobox. PBDB does not list this species among its valid species of the genus;
+  check.
+summary: Hyposaurus is a marine dyrosaurid crocodyliform known from Late Cretaceous to Paleocene rocks of the Americas,
+  Africa and Arabia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 72.2
+  last_ma: 56
+  early_interval: Maastrichtian
+  late_interval: Thanetian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Hyposaurus derbianus
+  authority: Cope 1885
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: ''
+- name: Hyposaurus fraterculus
+  authority: (Cope 1869)
+  first_ma: 85.7
+  last_ma: 48.07
+  interval: Santonian–Ypresian
+  reference: ''
+- name: Hyposaurus natator
+  authority: Troxell 1925
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Maria Farinha
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Pernambuco]
+  interval: Danian
+  occurrences: 3
+  ma: [61.66, 66.0]
+  id: maria-farinha-brazil
+- formation: Hornerstown
+  group: Rancocas
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Maastrichtian–Early Paleocene
+  occurrences: 2
+  ma: [61.66, 72.2]
+  id: hornerstown-united-states
+- formation: Umm Himar
+  group: ''
+  members: [Middle]
+  country: Saudi Arabia
+  regions: [Makkah]
+  interval: Paleocene
+  occurrences: 2
+  ma: [56.0, 66.0]
+  id: umm-himar-saudi-arabia
+- formation: Williamsburg
+  group: Black Mingo
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Clarkforkian
+  occurrences: 1
+  ma: [56.0, 57.5]
+  id: williamsburg-united-states
+- formation: New Egypt
+  group: Monmouth
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: new-egypt-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Hornerstown and Williamsburg formations (USA), Maria Farinha (Brazil), Umm Himar
+    (Saudi Arabia) and elsewhere.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Hyposaurus fossil map.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Hyposaurus_fossil_map.jpg/960px-Hyposaurus_fossil_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hyposaurus_fossil_map.jpg
+  artist: Dippel.Max
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-03-03'
+  caption: Hyposaurus fossil map.
+  width: 3024
+  height: 4032
+  review: unreviewed
+  local: img/gallery/Hyposaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/af2843e1-9e18-4d47-a3fd-a37618810a99/vector.svg
+  png: https://images.phylopic.org/images/af2843e1-9e18-4d47-a3fd-a37618810a99/raster/512x137.png
+  page: https://www.phylopic.org/images/af2843e1-9e18-4d47-a3fd-a37618810a99
+  attribution: Arthur S. Brum
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Hyposaurus
+  matched: Hyposaurus
+  genus_level: true
+  w: 512
+  h: 137
+sources:
+- kind: original
+  text: '[[Richard Owen, Richard 1849. Notes on the remains of a fossil reptile discovered by professor Henry Rogers
+    of Pennsylvania, United States, in greensand formations of New Jersey. Proceedings of the Geological Society
+    of London 5: 380–383.'
+- kind: literature
+  text: 'Jouve, S. 2007. Taxonomic revision of the dyrosaurid assemblage (Crocodyliformes: Mesoeucrocodylia) from
+    the Paleocene of the Iullemmeden Basin, West Africa. Journal of Paleontology 81(1): 163–175. doi:10.1666/0022-3360(2007)81[163:TROTDA]2.0.CO;2'
+- kind: literature
+  text: Khalaf Allah O. Salih 2016. First record of ''Hyposaurus'' (Dyrosauridae, Crocodyliformes) from the Upper
+    Cretaceous Shendi Formation of Sudan. Journal of Vertebrate Paleontology 36(1). doi:10.1080/02724634.2016.1115408
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hyposaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hyposaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hyposaurus”. English Wikipedia, revision 1378849494.
+  url: https://en.wikipedia.org/w/index.php?title=Hyposaurus&oldid=1378849494
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Image 9 may be a map; check it and drop it if it is not a fossil photo.
+  - PBDB lists H. derbianus, H. fraterculus and H. natator.
+  reviews: []

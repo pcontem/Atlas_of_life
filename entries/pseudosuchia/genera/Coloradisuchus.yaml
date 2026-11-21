@@ -1,0 +1,83 @@
+name: Coloradisuchus
+rank: genus
+parent: protosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Martínez et al. 2018
+type_species: Coloradisuchus abelini
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Coloradisuchus is a protosuchid crocodyliform from the Late Triassic Los Colorados Formation of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Coloradisuchus abelini
+  authority: Martínez et al. 2018
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Los Colorados
+  group: ''
+  members: []
+  country: Argentina
+  regions: [La Rioja]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: los-colorados-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Los Colorados Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: life
+  file: Coloradisuchus abelini.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/77/Coloradisuchus_abelini.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Coloradisuchus_abelini.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-10'
+  caption: Life restoration of Coloradisuchus abelini.
+  width: 1494
+  height: 442
+  review: unreviewed
+  local: img/gallery/Coloradisuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
+  png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
+  page: https://www.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hoplosuchus kayi
+  matched: Protosuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Martínez, Ricardo N.; Alcober, Oscar A.; Pol, Diego 2018. A new protosuchid crocodyliform (Pseudosuchia,
+    Crocodylomorpha) from the Norian Los Colorados Formation, northwestern Argentina. Journal of Vertebrate Paleontology
+    38(4): (1)–(12). doi:10.1080/02724634.2018.1491047'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coloradisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coloradisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coloradisuchus”. English Wikipedia, revision 1307734808.
+  url: https://en.wikipedia.org/w/index.php?title=Coloradisuchus&oldid=1307734808
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the life restoration.]
+  reviews: []

@@ -1,0 +1,134 @@
+name: Hulkepholis
+rank: genus
+parent: goniopholididae
+incertae_sedis: false
+placement_note: ''
+authority: Buscalioni et al. 2013
+type_species: Hulkepholis willetti
+type_species_note: From the Wikipedia taxobox (originally Goniopholis willetti).
+summary: Hulkepholis is a goniopholidid neosuchian from the Early Cretaceous of southern England and eastern Spain.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 137.05
+  last_ma: 110.1
+  early_interval: Valanginian
+  late_interval: Albian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Hulkepholis plotos
+  authority: Buscalioni et al. 2013
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: ''
+- name: Hulkepholis rori
+  authority: Arribas et al. 2019
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: ''
+- name: Hulkepholis willetti
+  authority: (Salisbury and Naish 2011)
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Tunbridge Wells Sand
+  group: Wealden
+  members: [Grinstead Clay]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: tunbridge-wells-sand-united-kingdom
+- formation: Escucha
+  group: ''
+  members: [Lower Sedimentary Succession]
+  country: Spain
+  regions: [Aragón]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: escucha-spain
+- formation: Camarillas
+  group: ''
+  members: [Unit 5]
+  country: Spain
+  regions: [Teruel]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: camarillas-spain
+- formation: Wadhurst Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Wadhurst Clay and Tunbridge Wells Sand (UK) and the Camarillas and Escucha formations
+    (Spain).
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Hulkepholis and Goniopholis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Hulkepholis_and_Goniopholis.jpg/960px-Hulkepholis_and_Goniopholis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hulkepholis_and_Goniopholis.jpg
+  artist: C. L. Grisbach
+  license: Public domain
+  license_url: ''
+  date: '1878'
+  caption: Hulkepholis and Goniopholis fossils.
+  width: 1940
+  height: 1462
+  review: unreviewed
+  local: img/gallery/Hulkepholis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Goniopholididae
+  genus_level: false
+sources:
+- kind: original
+  text: A. D. Buscalioni, L. Alcalá, and E. Espílez, L. Mampel. 2013. European Goniopholididae from the Early Albian
+    Escucha Formation in Ariño (Teruel, Aragón, España). Spanish Journal of Paleontology 28(1):103-121
+- kind: literature
+  text: 'Buscalioni, A.D. 2013. European Goniopholididae from the Early Albian Escucha Formation in Ariño (Teruel,
+    Aragón, España). Spanish Journal of Palaeontology 28(1): 103–122. doi:10.7203/sjp.28.1.17835'
+- kind: literature
+  text: Martin, J.E.; Delfino, M.; Smith, T. 2016. Osteology and affinities of Dollo's goniopholidid (Mesoeucrocodylia)
+    from the Early Cretaceous of Bernissart, Belgium. Journal of Vertebrate Paleontology 36(6). doi:10.1080/02724634.2016.1222534
+- kind: literature
+  text: 'De Andrade, M. B.; Edmonds, R.; Benton, M. J.; Schouten, R. 2011. A new Berriasian species of ''''Goniopholis''''
+    (Mesoeucrocodylia, Neosuchia) from England, and a review of the genus. Zoological Journal of the Linnean Society
+    163: S66–S108. doi:10.1111/j.1096-3642.2011.00709.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hulkepholis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hulkepholis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hulkepholis”. English Wikipedia, revision 1324123796.
+  url: https://en.wikipedia.org/w/index.php?title=Hulkepholis&oldid=1324123796
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The image shows two taxa; check it.
+  - PBDB lists a third species, H. rori.
+  reviews: []

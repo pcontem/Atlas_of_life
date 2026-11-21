@@ -1,0 +1,118 @@
+name: Eoalligator
+rank: genus
+parent: alligatoroidea
+incertae_sedis: false
+placement_note: PBDB places it in the Orientalosuchina, a group the atlas has no clade for.
+authority: Young 1964
+type_species: Eoalligator chunyii
+type_species_note: Monotypic genus; the only species is the type.
+summary: Eoalligator is an alligatoroid crocodilian known from fragmentary remains from the Paleocene of Guangdong,
+  China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 60.9
+  last_ma: 57.5
+  early_interval: Selandian
+  late_interval: Thanetian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Eoalligator chunyii
+  authority: Young 1964
+  first_ma: 60.9
+  last_ma: 57.5
+  interval: Selandian–Thanetian
+  reference: original description
+formations:
+- formation: Nongshan
+  group: Luofozhai
+  members: [Zhuguikou]
+  country: China
+  regions: [Guangdong]
+  interval: Tiffanian
+  occurrences: 3
+  ma: [57.5, 60.9]
+  id: nongshan-china
+fossil_material:
+  holotype: Fragmentary material from Nanxiong County, Guangdong, described by Young (1964); catalogue number not
+    given in the sources consulted.
+  material: Material from three localities within 8 km of each other in Nanxiong County.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Eoalligator mandible elements.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Eoalligator_mandible_elements.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eoalligator_mandible_elements.jpg
+  artist: Wang YY, Sullivan C, Liu J.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-08-24'
+  caption: Mandible elements of Eoalligator.
+  width: 431
+  height: 600
+  review: unreviewed
+  local: img/gallery/Eoalligator_001.webp
+- kind: fossil
+  file: Eoalligator skull elements.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2c/Eoalligator_skull_elements.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eoalligator_skull_elements.jpg
+  artist: Wang YY, Sullivan C, Liu J.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-08-24'
+  caption: Skull elements of Eoalligator.
+  width: 564
+  height: 394
+  review: unreviewed
+  local: img/gallery/Eoalligator_002.webp
+- kind: fossil
+  file: Eoalligator skull table.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Eoalligator_skull_table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eoalligator_skull_table.jpg
+  artist: Wang YY, Sullivan C, Liu J.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-08-24'
+  caption: Skull table of Eoalligator.
+  width: 600
+  height: 600
+  review: unreviewed
+  local: img/gallery/Eoalligator_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Orientalosuchina
+  genus_level: false
+sources:
+- kind: original
+  text: C.-C. Young. 1964. New fossil crocodiles from China. Vertebrata PalAsiatica 8:189-208
+- kind: literature
+  text: Yan-Yin Wang 2016. Taxonomic revision of Eoalligator (Crocodylia, Brevirostres) and the paleogeographic
+    origins of the Chinese alligatoroids. PeerJ 4. doi:10.7717/peerj.2356
+- kind: literature
+  text: 'Xiao-Chun Wu 2018. Taxonomic reassessment and phylogenetic test of Asiatosuchus nanlingensis Young, 1964
+    and Eoalligator chunyii Young, 1964. Vertebrata PalAsiatica 56(2): 137–146.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoalligator (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoalligator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eoalligator”. English Wikipedia, revision 1377465888.
+  url: https://en.wikipedia.org/w/index.php?title=Eoalligator&oldid=1377465888
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - English Wikipedia says remains come from Late Cretaceous to Paleocene beds of Nanxiong (Zhenshui and Shanghu
+    formations); PBDB dates the occurrences to the Selandian-Thanetian.
+  - A 2016 study suggested it may be the same animal as Asiatosuchus nanlingensis; a 2018 study argued they differ.
+  reviews: []

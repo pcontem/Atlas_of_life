@@ -1,0 +1,74 @@
+name: Scythosuchus
+rank: genus
+parent: paracrocodylomorpha
+incertae_sedis: true
+placement_note: PBDB places it in Vjushkovisaurini (Rauisuchidae); the group is not in the atlas as a clade; placed
+  in Paracrocodylomorpha.
+authority: Sennikov 1999
+type_species: Scythosuchus basileus
+type_species_note: From the Wikipedia taxobox.
+summary: Scythosuchus is a rauisuchid from the Early Triassic (Olenekian) of Russia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 250.8
+  last_ma: 247
+  early_interval: Olenekian
+  late_interval: Olenekian
+  pbdb_occurrences: 1
+  note: PBDB gives no interval names; the age range matches the ICS Olenekian stage (Lipovskaya Formation, Olenekian
+    per PBDB).
+species:
+- name: Scythosuchus basileus
+  authority: Sennikov 1999
+  first_ma: 250.8
+  last_ma: 247
+  interval: ''
+  reference: original description
+formations:
+- formation: Lipovskaya
+  group: ''
+  members: []
+  country: Russia
+  regions: [Volgograd]
+  interval: Olenekian
+  occurrences: 1
+  ma: [247.0, 250.8]
+  id: lipovskaya-russia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Lipovskaya Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Rauisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sennikov, A.G. 1999. The evolution of the postcranial skeleton in archosaurs in connection with new finds
+    of the Rauisuchidae in the Early Triassic of Russia. Paleontological Journal 1999(6): 44–56.'
+- kind: literature
+  text: 'Borsuk−Białynicka, M. 2009. Archosauriform postcranial remains from the Early Triassic karst deposits of
+    southern Poland. Palaeontologica Polonica 65: 283–328.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scythosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scythosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scythosuchus”. English Wikipedia, revision 1367348080.
+  url: https://en.wikipedia.org/w/index.php?title=Scythosuchus&oldid=1367348080
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check whether Paracrocodylomorpha is the best atlas ancestor.]
+  reviews: []

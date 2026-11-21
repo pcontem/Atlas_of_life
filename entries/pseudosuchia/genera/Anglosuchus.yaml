@@ -1,0 +1,91 @@
+name: Anglosuchus
+rank: genus
+parent: pholidosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Mook 1942
+type_species: Anglosuchus geoffroyi
+type_species_note: 'Filled from general knowledge, not yet checked: the two species (A. geoffroyi and A. laticeps,
+  Owen 1884) are listed without a stated type.'
+summary: Anglosuchus is a pholidosaurid mesoeucrocodylian from the Bathonian Great Oolite of England; both species
+  were first assigned to Steneosaurus.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Anglosuchus geoffroyi
+  authority: (Owen 1884)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+- name: Anglosuchus laticeps
+  authority: (Owen 1884)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Great Oolite
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Oxfordshire]
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: great-oolite-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains of two species from the Great Oolite.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Anglosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Anglosuchus.jpg/960px-Anglosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Anglosuchus.jpg
+  artist: J. Erxleben
+  license: Public domain
+  license_url: ''
+  date: 1800s date
+  caption: Anglosuchus fossil.
+  width: 2514
+  height: 3072
+  review: unreviewed
+  local: img/gallery/Anglosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/vector.svg
+  png: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/raster/642x1536.png
+  page: https://www.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Pholidosaurus
+  matched: Pholidosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: C. C. Mook. 1942. Anglosuchus, a new genus of teleosauroid crocodilians. American Museum Novitates 1217:1-2
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anglosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anglosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anglosuchus”. English Wikipedia, revision 1354655450.
+  url: https://en.wikipedia.org/w/index.php?title=Anglosuchus&oldid=1354655450
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the image.
+  - Verify the type species; no citations in the Wikipedia revision.
+  reviews: []

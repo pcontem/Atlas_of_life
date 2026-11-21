@@ -1,0 +1,80 @@
+name: Microsuchus
+rank: genus
+parent: mesoeucrocodylia
+incertae_sedis: true
+placement_note: Originally named as a goniopholid; English Wikipedia places it in Notosuchia; placed in Mesoeucrocodylia
+  as in PBDB.
+authority: Saez 1928
+type_species: Microsuchus schilleri
+type_species_note: From the Wikipedia taxobox.
+summary: Microsuchus is a notosuchian mesoeucrocodylian from the Santonian Bajo de la Carpa Formation of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Microsuchus schilleri
+  authority: Saez 1928
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Bajo de la Carpa Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/vector.svg
+  png: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/raster/512x96.png
+  page: https://www.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8
+  attribution: Nobu Tamura
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Sichuanosuchus huidongensis
+  matched: Mesoeucrocodylia
+  genus_level: false
+sources:
+- kind: original
+  text: M. D. d. Saez. 1928. Un nuevo goniofolido Argentino. Anales de la Sociedad Cientifica Argentina, Buenos
+    Aires 105:287-290
+- kind: literature
+  text: 'Mook, C. C. 1934. The evolution and classification of the crocodilia. The Journal of Geology 42(3): 295–304.
+    doi:10.1086/624165'
+- kind: literature
+  text: 'Saez, M. D. d. 1928. Un nuevo goniofolido Argentino. Anales de la Sociedad Cientifica Argentina, Buenos
+    Aires 105: 287–290.'
+- kind: literature
+  text: 'Leardi, Juan Martín; Fiorelli, Lucas E.; Gasparini, Zulma 2015. Redescription and reevaluation of the taxonomical
+    status of ''''Microsuchus schilleri'''' (Crocodyliformes: Mesoeucrocodylia) from the Upper Cretaceous of Neuquén,
+    Argentina. Cretaceous Research 52: 153–166. doi:10.1016/j.cretres.2014.09.007'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Microsuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Microsuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Microsuchus”. English Wikipedia, revision 1280851219.
+  url: https://en.wikipedia.org/w/index.php?title=Microsuchus&oldid=1280851219
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the redescription of Leardi et al. 2015 (citation 4).]
+  reviews: []

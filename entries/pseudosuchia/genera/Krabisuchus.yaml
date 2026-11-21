@@ -1,0 +1,84 @@
+name: Krabisuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: First read as an alligatorine related to Allognathosuchus, later placed in the Orientalosuchina,
+  whose position (alligatoroid or crocodyloid) is disputed.
+authority: Martin and Lauprasert 2010
+type_species: Krabisuchus siamogallicus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Krabisuchus is an orientalosuchine crocodylian from the Late Eocene of the Krabi Basin, Thailand.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Krabisuchus siamogallicus
+  authority: Martin and Lauprasert 2010
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Thailand
+  regions: []
+  interval: Late Eocene
+  occurrences: 2
+  ma: [33.9, 37.71]
+  id:
+  - unnamed-bang-mark-lignite-mine-thailand
+  - unnamed-bang-pu-dam-coal-pit-thailand
+- formation: Krabi Basin B2
+  group: ''
+  members: []
+  country: Thailand
+  regions: []
+  interval: Late Eocene
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: krabi-basin-b2-thailand
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted. Named by Martin and Lauprasert (2010) from the
+    Krabi Basin.
+  material: The sources consulted do not list the material.
+  completeness: fragmentary
+  exceptional: ''
+biology: It has been speculated that it was more terrestrial than modern alligators (English Wikipedia).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/vector.svg
+  png: https://images.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168/raster/512x247.png
+  page: https://www.phylopic.org/images/0d68bcc3-b17c-4ef1-a81c-337841dc5168
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dongnanosuchus hsui
+  matched: Orientalosuchina
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. E. Martin and K. Lauprasert. 2010. A new primitive alligatorine from the Eocene of Thailand: relevance
+    of Asiatic members to the radiation of the group. Zoological Journal of the Linnean Society 158:608-628'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Krabisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Krabisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Krabisuchus”. English Wikipedia, revision 1348866058.
+  url: https://en.wikipedia.org/w/index.php?title=Krabisuchus&oldid=1348866058
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype and material to be added from Martin and Lauprasert 2010.
+  - No images found among the automatic candidates.
+  reviews: []

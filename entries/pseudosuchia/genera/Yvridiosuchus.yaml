@@ -1,0 +1,112 @@
+name: Yvridiosuchus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2019
+type_species: Yvridiosuchus boutilieri
+type_species_note: PBDB's only species, originally Steneosaurus boutilieri (Eudes-Deslongchamps 1868).
+summary: Yvridiosuchus is a machimosaurid crocodyliform from the Middle Jurassic of England and France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Yvridiosuchus boutilieri
+  authority: (Eudes-Deslongchamps 1868)
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Great Oolite
+  members: []
+  country: France
+  regions: [Normandie]
+  interval: Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: great-oolite-group-france
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from a French unnamed unit and the Oxford Clay.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Yvridiosuchus skulls OUMNH.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0d/Yvridiosuchus_skulls_OUMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yvridiosuchus_skulls_OUMNH.jpg
+  artist: Harold9595959
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-05-31'
+  caption: Yvridiosuchus skulls.
+  width: 919
+  height: 585
+  review: unreviewed
+  local: img/gallery/Yvridiosuchus_001.webp
+- kind: fossil
+  file: Yvridiosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Yvridiosuchus.png/960px-Yvridiosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yvridiosuchus.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Yvridiosuchus fossil.
+  width: 2428
+  height: 2299
+  review: unreviewed
+  local: img/gallery/Yvridiosuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Machimosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2019. Re-description of two contemporaneous mesorostrine
+    teleosauroids (Crocodylomorpha: Thalattosuchia) from the Bathonian of England and insights into the early evolution
+    of Machimosaurini. Zoological Journal of the Linnean Society Advanced online publication(2): 449–482. doi:10.1093/zoolinnean/zlz037'
+- kind: literature
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: literature
+  text: Johnson, M. M.; Foffa, D.; Young, M. T.; Brusatte, S. L. 2022. The ecological diversification and evolution
+    of Teleosauroidea (Crocodylomorpha, Thalattosuchia), with insights into their mandibular biomechanics. Ecology
+    and Evolution 12(11). doi:10.1002/ece3.9484
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yvridiosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yvridiosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yvridiosuchus”. English Wikipedia, revision 1372391017.
+  url: https://en.wikipedia.org/w/index.php?title=Yvridiosuchus&oldid=1372391017
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

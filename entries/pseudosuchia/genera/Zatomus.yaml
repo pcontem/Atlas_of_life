@@ -1,0 +1,71 @@
+name: Zatomus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: true
+placement_note: English Wikipedia says Late Triassic and classifies it as a rauisuchian; PBDB gives a Campanian
+  age (Tar Heel Formation); check.
+authority: Cope 1871
+type_species: Zatomus sarcophagus
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Zatomus is a pseudosuchian named by Cope in 1871 from North Carolina, classified as a rauisuchian.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zatomus sarcophagus
+  authority: Cope 1871
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Tar Heel
+  group: Black Creek
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: tar-heel-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Tar Heel Formation per PBDB.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Teratosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Edward D Cope 1871. Observations on the Distribution of Certain Extinct Vertebrata in North Carolina. Proc.
+    Amer. Philos. Soc. 12: 211.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zatomus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zatomus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zatomus”. English Wikipedia, revision 1289165410.
+  url: https://en.wikipedia.org/w/index.php?title=Zatomus&oldid=1289165410
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Age conflict between Wikipedia (Late Triassic) and PBDB (Campanian): the atlas age follows PBDB; resolve (M5).'
+  reviews: []

@@ -1,0 +1,116 @@
+name: Maehary
+rank: genus
+parent: gracilisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Kellner et al. 2022
+type_species: Maehary bonapartei
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Maehary is a gracilisuchid pseudosuchian from the Late Triassic (Norian) Caturrita Formation of Rio Grande
+  do Sul, Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Maehary bonapartei
+  authority: Kellner et al. 2022
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Caturrita
+  group: Rosário do Sul
+  members: []
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: caturrita-brazil
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Caturrita Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Maehary bonapartei 2.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/72/Maehary_bonapartei_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Maehary_bonapartei_2.png
+  artist: Maurício S. Garcia
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-05-03'
+  caption: Maehary bonapartei fossil.
+  width: 869
+  height: 489
+  review: unreviewed
+  local: img/gallery/Maehary_001.webp
+- kind: fossil
+  file: Maehary bonapartei.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/84/Maehary_bonapartei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Maehary_bonapartei.png
+  artist: Maurício S. Garcia
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-05-03'
+  caption: Maehary bonapartei fossil.
+  width: 1272
+  height: 686
+  review: unreviewed
+  local: img/gallery/Maehary_002.webp
+- kind: fossil
+  file: Maehary skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Maehary_skull.png/960px-Maehary_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Maehary_skull.png
+  artist: Kellner AWA, Holgado B, Grillo O, Pretto FA, Kerber L, Pinheiro FL, Soares MB, Schultz CL, Lopes RT, Araújo
+    O, Müller RT
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-05-03'
+  caption: Skull of Maehary.
+  width: 3200
+  height: 4147
+  review: unreviewed
+  local: img/gallery/Maehary_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4/vector.svg
+  png: https://images.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4/raster/512x153.png
+  page: https://www.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Gracilisuchus stipanicicorum
+  matched: Gracilisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: Kellner, A.W.A.; Holgado, B.; Grillo, O.; Pretto, F.A.; Kerber, L.; Pinheiro, F.L.; Soares, M.B.; Schultz,
+    C.L.; Lopes, R.T.; Araújo, A.; Müller, R.T. 2022. Reassessment of ''Faxinalipterus minimus'', a purported Triassic
+    pterosaur from southern Brazil with the description of a new taxon. PeerJ 10. doi:10.7717/peerj.13276
+- kind: literature
+  text: Müller, Rodrigo T. 2024. A new small-sized predatory pseudosuchian archosaur from the Middle-Late Triassic
+    of Southern Brazil. Scientific Reports 14(1). doi:10.1038/s41598-024-63313-3
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Maehary (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Maehary
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maehary”. English Wikipedia, revision 1358801188.
+  url: https://en.wikipedia.org/w/index.php?title=Maehary&oldid=1358801188
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the images.
+  - Kellner et al. 2022 also reassessed Faxinalipterus; check whether that affects this genus.
+  reviews: []

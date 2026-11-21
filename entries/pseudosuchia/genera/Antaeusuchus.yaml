@@ -1,0 +1,88 @@
+name: Antaeusuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: true
+placement_note: PBDB places it in Itasuchidae, which has no clade entry in the atlas yet; placed in Notosuchia,
+  the nearest atlas ancestor.
+authority: Nicholl et al. 2021
+type_species: Antaeusuchus taouzensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Antaeusuchus is a peirosaurid notosuchian from the Cretaceous Kem Kem Group of Morocco.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Antaeusuchus taouzensis
+  authority: Nicholl et al. 2021
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: kem-kem-group-morocco
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Kem Kem beds.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Antaeusuchus taouzensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/40/Antaeusuchus_taouzensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Antaeusuchus_taouzensis.jpg
+  artist: Cecily S. C. Nicholl, Eloise S. E. Hunt
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-10-13'
+  caption: Antaeusuchus taouzensis fossil.
+  width: 1517
+  height: 884
+  review: unreviewed
+  local: img/gallery/Antaeusuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/58a09c24-34ae-4712-840e-540b398ed919/vector.svg
+  png: https://images.phylopic.org/images/58a09c24-34ae-4712-840e-540b398ed919/raster/745x1536.png
+  page: https://www.phylopic.org/images/58a09c24-34ae-4712-840e-540b398ed919
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hamadasuchus
+  matched: Antaeusuchus
+  genus_level: true
+sources:
+- kind: original
+  text: Nicholl, C.S.C.; Hunt, E.S.E.; Ouarhache, D.; Mannion, P.D. 2021. A second peirosaurid crocodyliform from
+    the Mid-Cretaceous Kem Kem Group of Morocco and the diversity of Gondwanan notosuchians outside South America.
+    Royal Society Open Science 8(10). doi:10.1098/rsos.211254
+- kind: literature
+  text: Pochat-Cottilloux, Y.; Perrier, V.; Amiot, R.; Martin, J.E. 2023. A peirosaurid mandible from the Albian–Cenomanian
+    (Lower Cretaceous) of Algeria and the taxonomic content of Hamadasuchus (Crocodylomorpha, Peirosauridae). Papers
+    in Palaeontology 9(2). doi:10.1002/spp2.1485
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Antaeusuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Antaeusuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Antaeusuchus”. English Wikipedia, revision 1360952399.
+  url: https://en.wikipedia.org/w/index.php?title=Antaeusuchus&oldid=1360952399
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the image.]
+  reviews: []

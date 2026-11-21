@@ -1,0 +1,71 @@
+name: Redondavenator
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Nesbitt et al. 2005
+type_species: Redondavenator quayensis
+type_species_note: From the Wikipedia taxobox.
+summary: Redondavenator is a large sphenosuchian crocodylomorph known from a partial upper jaw and shoulder girdle
+  from the Late Triassic Redonda Formation of New Mexico.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Redondavenator quayensis
+  authority: Nesbitt et al. 2005
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Redonda
+  group: Chinle
+  members: [Red Peak]
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: redonda-united-states
+fossil_material:
+  holotype: A partial upper jaw and left shoulder girdle from the Redonda Formation (Nesbitt et al. 2005).
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/vector.svg
+  png: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/raster/512x140.png
+  page: https://www.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Trialestes romeri
+  matched: Crocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'Nesbitt, Sterling J. 2005. A giant crocodylomorph from the Upper Triassic of New Mexico. Paläontologische
+    Zeitschrift 79(4): 471–478. doi:10.1007/bf02988373'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Redondavenator (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Redondavenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Redondavenator”. English Wikipedia, revision 1376482895.
+  url: https://en.wikipedia.org/w/index.php?title=Redondavenator&oldid=1376482895
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Size not stated in the brief; the naming paper title says 'giant'. Add figures from it.
+  reviews: []

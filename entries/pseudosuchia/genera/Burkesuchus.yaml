@@ -1,0 +1,83 @@
+name: Burkesuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2021
+type_species: Burkesuchus mallingrandensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Burkesuchus is a basal neosuchian from the Tithonian Toqui Formation of southern Chile.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 149.2
+  last_ma: 143.1
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Burkesuchus mallingrandensis
+  authority: Novas et al. 2021
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Toqui
+  group: ''
+  members: []
+  country: Chile
+  regions: [Aisén]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: toqui-chile
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Toqui Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Burkesuchus mallingrandensis skeleton.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Burkesuchus_mallingrandensis_skeleton.png/960px-Burkesuchus_mallingrandensis_skeleton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Burkesuchus_mallingrandensis_skeleton.png
+  artist: Santiago Miner
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-15'
+  caption: Skeletal reconstruction of Burkesuchus.
+  width: 1920
+  height: 1080
+  review: unreviewed
+  local: img/gallery/Burkesuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Neosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: Novas FE, Agnolin FL, Lio GL, Rozadilla S, Suárez M, de la Cruz R, Carvalho IS, Rubilar-Rogers D, Isasi
+    MP 2021. New transitional fossil from late Jurassic of Chile sheds light on the origin of modern crocodiles.
+    Scientific Reports 11(1). doi:10.1038/s41598-021-93994-z
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Burkesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Burkesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Burkesuchus”. English Wikipedia, revision 1298691380.
+  url: https://en.wikipedia.org/w/index.php?title=Burkesuchus&oldid=1298691380
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the skeletal reconstruction.]
+  reviews: []

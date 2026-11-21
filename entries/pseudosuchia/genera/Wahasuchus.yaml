@@ -1,0 +1,75 @@
+name: Wahasuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: Described as an enigmatic mesoeucrocodylian, likely a neosuchian (English Wikipedia).
+authority: Saber et al. 2018
+type_species: Wahasuchus egyptensis
+type_species_note: From the Wikipedia taxobox.
+summary: Wahasuchus is an enigmatic mesoeucrocodylian, likely a neosuchian, from the Middle Campanian Quseir Formation
+  of Egypt.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Wahasuchus egyptensis
+  authority: Saber et al. 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Quseir
+  group: ''
+  members: [El Hindaw]
+  country: Egypt
+  regions: [New Valley]
+  interval: Middle Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: quseir-egypt
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Mostly fragmentary remains from the Quseir Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Neosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Saber, Sara; Sertich, Joseph J.W.; Sallam, Hesham M.; Ouda, Khaled A.; O''Connor, Patrick M.; Seiffert,
+    Erik R. 2018. An enigmatic crocodyliform from the Upper Cretaceous Quseir Formation, central Egypt. Cretaceous
+    Research 90: 174–184. doi:10.1016/j.cretres.2018.04.004'
+- kind: literature
+  text: 'Krause, D.W.; Sertich, J.J.W.; O''Connor, P.M; Rogers, K.C.; Rogers, R.R. 2019. The Mesozoic biogeographic
+    history of Gondwanan terrestrial vertebrates: insights from Madagascar''s fossil record. Annual Review of Earth
+    and Planetary Sciences 47(1): 519–553. doi:10.1146/annurev-earth-053018-060051'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wahasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wahasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wahasuchus”. English Wikipedia, revision 1298018239.
+  url: https://en.wikipedia.org/w/index.php?title=Wahasuchus&oldid=1298018239
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

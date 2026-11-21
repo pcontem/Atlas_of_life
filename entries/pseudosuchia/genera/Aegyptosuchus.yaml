@@ -1,0 +1,103 @@
+name: Aegyptosuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: Placed in Aegyptosuchidae by PBDB; that family has no atlas clade, so the nearest atlas ancestor
+  is used.
+authority: Stromer 1933
+type_species: Aegyptosuchus peyeri
+type_species_note: From the Wikipedia taxobox.
+summary: Aegyptosuchus is an aegyptosuchid eusuchian crocodyliform from the Cenomanian Bahariya Formation of Egypt.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Aegyptosuchus peyeri
+  authority: Stromer 1933
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Niger
+  regions: [Zinder]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: unnamed-tanout-damergou-niger
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Matruh]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Bahariya Formation (Egypt) and Niger.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Aegyptosuchus peyeri holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/66/Aegyptosuchus_peyeri_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aegyptosuchus_peyeri_holotype.jpg
+  artist: brahim N, Sereno PC, Varricchio DJ, Martill DM, Dutheil DB, Unwin DM, Baidder L, Larsson HCE, Zouhri S,
+    Kaoukaya A
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-04-21'
+  caption: Holotype of Aegyptosuchus peyeri.
+  width: 1512
+  height: 918
+  review: unreviewed
+  local: img/gallery/Aegyptosuchus_001.webp
+- kind: fossil
+  file: Aegyptosuchus peyeri.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Aegyptosuchus_peyeri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aegyptosuchus_peyeri.jpg
+  artist: Ghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-12'
+  caption: Aegyptosuchus peyeri.
+  width: 720
+  height: 960
+  review: unreviewed
+  local: img/gallery/Aegyptosuchus_002.webp
+sources:
+- kind: original
+  text: E. Stromer. 1933. Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltierreste
+    der Baharîje-Stufe (unterstes Cenoman). 12. Die procölen Crocodilia. [Results of the expeditions of Professor
+    E. Stromer in the Egyptian deserts. II. Vertebrate animal remains from the Baharîje bed (lowest Cenomanian).
+    12. The procoelous Crocodilia.]. Abhandlungen der Bayerischen Akademie der Wissenschaften Mathematisch-naturwissenschaftliche
+    Abteilung, Neue Folge 15:1-31
+- kind: literature
+  text: Casey M. Holliday and Nicholas M. Gardner 2012. A New Eusuchian Crocodyliform with Novel Cranial Integument
+    and Its Significance for the Origin and Evolution of Crocodylia. PLOS ONE 7(1). doi:10.1371/journal.pone.0030471
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aegyptosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aegyptosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aegyptosuchus”. English Wikipedia, revision 1354840650.
+  url: https://en.wikipedia.org/w/index.php?title=Aegyptosuchus&oldid=1354840650
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add holotype details from Stromer 1933 and a recent source.]
+  reviews: []

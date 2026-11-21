@@ -1,0 +1,105 @@
+name: Mambawakale
+rank: genus
+parent: pseudosuchia
+incertae_sedis: true
+placement_note: A large basal paracrocodylomorph, possibly a poposauroid (English Wikipedia); PBDB lists Pseudosuchia;
+  placed there.
+authority: Butler et al. 2022
+type_species: Mambawakale ruhuhu
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Mambawakale is a large basal paracrocodylomorph, possibly a poposauroid, from the Anisian Manda Beds of
+  Tanzania, informally called Pallisteria before publication.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 247
+  last_ma: 241.464
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 1
+  note: PBDB gives no interval names; the age range matches the ICS Anisian stage (Manda Beds, Anisian per PBDB).
+species:
+- name: Mambawakale ruhuhu
+  authority: Butler et al. 2022
+  first_ma: 247
+  last_ma: 241.464
+  interval: ''
+  reference: original description
+formations:
+- formation: Manda Beds
+  group: ''
+  members: [Lifua]
+  country: Tanzania
+  regions: [Ruvuma]
+  interval: Anisian
+  occurrences: 1
+  ma: [241.464, 247.0]
+  id: manda-beds-tanzania
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Manda Beds.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Mambawakale skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Mambawakale_skeletal.png/960px-Mambawakale_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mambawakale_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-01-17'
+  caption: Skeletal reconstruction of Mambawakale.
+  width: 6807
+  height: 1978
+  review: unreviewed
+  local: img/gallery/Mambawakale_001.webp
+- kind: fossil
+  file: Mambawakale.gif
+  url: https://upload.wikimedia.org/wikipedia/commons/4/41/Mambawakale.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mambawakale.gif
+  artist: Butler, R.J.; Fernandez, V.; Nesbitt, N.J.; Leite, J.V.; Gower, D.J
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-02-09'
+  caption: Mambawakale fossil.
+  width: 417
+  height: 500
+  review: unreviewed
+  local: img/gallery/Mambawakale_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/vector.svg
+  png: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/raster/512x126.png
+  page: https://www.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Nundasuchus songeaensis
+  matched: Pseudosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: Butler, R.J.; Fernandez, V.; Nesbitt, N.J.; Leite, J.V.; Gower, D.J. 2022. A new pseudosuchian archosaur,
+    ''Mambawakale ruhuhu'' gen. et sp. nov., from the Middle Triassic Manda Beds of Tanzania. Royal Society Open
+    Science 9(2). doi:10.1098/rsos.211622
+- kind: literature
+  text: 'Desojo, J.B.; Rauhut, O.W.M. 2024. Reassessment of the enigmatic "''''Prestosuchus''''" ''''loricatus''''
+    (Archosauria: Pseudosuchia) from the Middle-Late Triassic of southern Brazil. The Anatomical Record 307(4):
+    974–1000. doi:10.1002/ar.25401'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mambawakale (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mambawakale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mambawakale”. English Wikipedia, revision 1374924499.
+  url: https://en.wikipedia.org/w/index.php?title=Mambawakale&oldid=1374924499
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the images; the Manda Beds 1963 photograph (image 11) is not used.
+  - Pallisteria Charig 1967 is the informal name; consider an excluded.yaml entry (nomen nudum) after checking the
+    sources.
+  reviews: []

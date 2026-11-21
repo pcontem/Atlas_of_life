@@ -1,0 +1,70 @@
+name: Coringasuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: true
+placement_note: Described as perhaps a notosuchian within Mesoeucrocodylia (English Wikipedia).
+authority: Kellner et al. 2009
+type_species: Coringasuchus anisodontis
+type_species_note: From the Wikipedia taxobox.
+summary: Coringasuchus is a mesoeucrocodylian crocodyliform, perhaps a notosuchian, from the Cenomanian Alcântara
+  Formation of Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Coringasuchus anisodontis
+  authority: Kellner et al. 2009
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Alcântara
+  group: Itapecuru
+  members: []
+  country: Brazil
+  regions: [Maranhão]
+  interval: Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: alcantara-brazil
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Cranial material from the Alcântara Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/vector.svg
+  png: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/raster/512x124.png
+  page: https://www.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Araripesuchus aznarezi
+  matched: Notosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kellner, A.W.A. 2009. A new crocodyliform from the Alcântara Formation (Cenomanian), Cajual Island, Brazil.
+    Zootaxa 2030: 49–58. doi:10.11646/zootaxa.2030.1.4'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coringasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coringasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coringasuchus”. English Wikipedia, revision 1365977893.
+  url: https://en.wikipedia.org/w/index.php?title=Coringasuchus&oldid=1365977893
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

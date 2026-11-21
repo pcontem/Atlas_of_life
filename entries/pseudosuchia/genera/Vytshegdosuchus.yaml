@@ -1,0 +1,77 @@
+name: Vytshegdosuchus
+rank: genus
+parent: paracrocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Sennikov 1988
+type_species: Vytshegdosuchus zheshartensis
+type_species_note: From the Wikipedia taxobox.
+summary: Vytshegdosuchus is a paracrocodylomorph archosaur from the latest Olenekian Yarenskian horizon of the Komi
+  Republic, Russia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 250.8
+  last_ma: 247
+  early_interval: Olenekian
+  late_interval: Olenekian
+  pbdb_occurrences: 1
+  note: PBDB gives no interval names; the age range matches the ICS Olenekian stage (Yarenskian horizon, Olenekian
+    per PBDB).
+species:
+- name: Vytshegdosuchus zheshartensis
+  authority: Sennikov 1988
+  first_ma: 250.8
+  last_ma: 247
+  interval: ''
+  reference: original description
+formations:
+- formation: Yarenskian
+  group: Gamskaya
+  members: []
+  country: Russia
+  regions: [Komi]
+  interval: Olenekian
+  occurrences: 1
+  ma: [247.0, 250.8]
+  id: yarenskian-russia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Yarenskian horizon.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ff70ea87-23ee-4c61-b174-7e587c2cbd09/vector.svg
+  png: https://images.phylopic.org/images/ff70ea87-23ee-4c61-b174-7e587c2cbd09/raster/512x124.png
+  page: https://www.phylopic.org/images/ff70ea87-23ee-4c61-b174-7e587c2cbd09
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mambawakale ruhuhu
+  matched: Paracrocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: D. J. Gower and A. G. Sennikov. 2000. Early Archosaurs from Russia. The Age of Dinosaurs in Russia and Mongolia.
+    Cambridge University Press, Cambridge
+- kind: literature
+  text: 'Sterling J. Nesbitt 2009. The early evolution of archosaurs: Relationships and the origin of major clades.
+    Columbia University (Open Access Dissertation): 1–632.'
+- kind: literature
+  text: Richard J. Butler 2011. The sail-backed reptile ''Ctenosauriscus'' from the latest Early Triassic of Germany
+    and the timing and biogeography of the early archosaur radiation. PLOS ONE 6(10). doi:10.1371/journal.pone.0025693
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vytshegdosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vytshegdosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vytshegdosuchus”. English Wikipedia, revision 1315130602.
+  url: https://en.wikipedia.org/w/index.php?title=Vytshegdosuchus&oldid=1315130602
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original (Sennikov 1988).]
+  reviews: []

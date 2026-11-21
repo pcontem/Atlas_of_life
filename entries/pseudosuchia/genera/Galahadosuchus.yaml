@@ -1,0 +1,57 @@
+name: Galahadosuchus
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: true
+placement_note: English Wikipedia places it in Saltoposuchidae; the atlas has no Saltoposuchidae clade, so it sits
+  in Crocodylomorpha.
+authority: Bodenham et al. 2026
+type_species: Galahadosuchus jonesi
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Galahadosuchus is a small slender-limbed saltoposuchid crocodylomorph, probably a digitigrade runner, from
+  the Late Triassic fissure deposits of Cromhall Quarry, England.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 237
+  last_ma: 201.4
+  early_interval: Carnian
+  late_interval: Rhaetian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Late Triassic fissure deposits (English Wikipedia, no stage given); the ICS Carnian-Rhaetian
+    range is used.
+species:
+- name: Galahadosuchus jonesi
+  authority: Bodenham et al. 2026
+  first_ma: 237
+  last_ma: 201.4
+  interval: Carnian–Rhaetian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: 'NHMUK PV R 10002, on two slabs: a partly articulated postcranial skeleton with parts of the tail and
+    hindlimbs, a nearly complete right forelimb, osteoderms, ribs and vertebrae, and remains of a rhynchocephalian.'
+  material: The holotype.
+  completeness: partial
+  exceptional: ''
+biology: Likely walked on all fours with an upright digitigrade stance and was adapted for running (English Wikipedia).
+images: []
+sources:
+- kind: original
+  text: 'Bodenham, E. H., Spiekman, S. N. F., Maidment, S. C. R., Upchurch, P. and Mannion, P. D. 2026. A second
+    species of non-crocodyliform crocodylomorph from the Late Triassic fissure deposits of southwestern UK: Implications
+    for locomotory ecological diversity in Saltoposuchidae. The Anatomical Record.'
+  url: https://doi.org/10.1002/ar.70162
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Fissure deposits, Cromhall Quarry, Gloucestershire, England; no formation is named
+    on the page. No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17
+    download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

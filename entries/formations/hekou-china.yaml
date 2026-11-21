@@ -1,0 +1,31 @@
+id: hekou-china
+name: Hekou
+rank: formation
+group: Guifeng
+country: China
+regions: [Jiangxi]
+location:
+  lat: 25.819
+  lng: 114.967
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet.]
+lithology: [not reported]
+pbdb_collections: ['228656']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Hekou (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Hekou
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

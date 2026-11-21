@@ -1,0 +1,63 @@
+name: Adzhosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: false
+placement_note: PBDB places it in the Shartegosuchidae, which has no clade entry in the atlas yet; placed in the
+  nearest atlas ancestor.
+authority: Efimov et al. 2000
+type_species: Adzhosuchus fuscus
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Adzhosuchus is a shartegosuchid crocodyliform from the Late Jurassic of southwestern Mongolia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 149.2
+  last_ma: 143.1
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Adzhosuchus fuscus
+  authority: (Efimov et al. 2000)
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Ulan Malgait
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Govi-Altay]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: ulan-malgait-mongolia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: The sources consulted do not list the material; PBDB records one occurrence in the Ulan Malgait Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: 'M. B. Efimov, Y. M. Gubin, and S. M. Kurzanov. 2000. New primitive crocodile (Crocodylomorpha: Shartegosuchidae)
+    from the Jurassic of Mongolia. Paleontological Journal 34:S238-S241'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Adzhosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Adzhosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Adzhosuchus”. English Wikipedia, revision 1354655476.
+  url: https://en.wikipedia.org/w/index.php?title=Adzhosuchus&oldid=1354655476
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Original: Efimov, Gubin and Kurzanov 2000 (PBDB reference).'
+  - Create a Shartegosuchidae clade entry and move this genus into it.
+  reviews: []

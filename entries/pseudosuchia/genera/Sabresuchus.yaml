@@ -1,0 +1,124 @@
+name: Sabresuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: PBDB places it in Atoposauridae, but a 2016 analysis (Tennant et al.) found it closer to the Paralligatoridae
+  than to atoposaurids (English Wikipedia).
+authority: Tennant et al. 2016
+type_species: Sabresuchus sympiestodon
+type_species_note: 'Filled from general knowledge, not yet checked: two valid species are recognised, S. ibericus
+  and S. sympiestodon.'
+summary: Sabresuchus is a neosuchian crocodyliform from the Cretaceous of Spain and Romania, named for its enlarged
+  curved fifth maxillary tooth.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 125.77
+  last_ma: 66
+  early_interval: Barremian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Sabresuchus ibericus
+  authority: (Brinkman 1992)
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: ''
+- name: Sabresuchus sympiestodon
+  authority: (Martin et al. 2010)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Sînpetru
+  group: ''
+  members: [lower]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Camarillas
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: camarillas-spain
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: unnamed-nocea-coal-mine-dump-romania
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Material of two species from Spain (La Huérguina, Camarillas) and Romania (Sînpetru, Densuș-Ciula).
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet beyond the enlarged tooth.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/vector.svg
+  png: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/raster/645x1024.png
+  page: https://www.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Theriosuchus
+  matched: Atoposauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. P. Tennant, P. D. Mannion, and P. Upchurch. 2016. Evolutionary relationships and systematics of Atoposauridae
+    (Crocodylomorpha: Neosuchia): implications for the rise of Eusuchia. Zoological Journal of the Linnean Society
+    177:854-936'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sabresuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sabresuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sabresuchus”. English Wikipedia, revision 1304199308.
+  url: https://en.wikipedia.org/w/index.php?title=Sabresuchus&oldid=1304199308
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Verify the type species.]
+  reviews: []

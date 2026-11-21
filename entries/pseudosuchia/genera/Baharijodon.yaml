@@ -1,0 +1,68 @@
+name: Baharijodon
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: Named as a goniopholidid by Kuhn (1936); Buffetaut and Taquet (1979) referred the tooth to the Trematochampsidae
+  (English Wikipedia).
+authority: Kuhn 1936
+type_species: Baharijodon carnosauroides
+type_species_note: From the Wikipedia taxobox.
+summary: Baharijodon is a crocodylomorph known only from a single tooth from the Cenomanian Bahariya Formation of
+  Egypt.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species: []
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Giza]
+  interval: Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: bahariya-egypt
+fossil_material:
+  holotype: A single tooth figured by Stromer in 1933, from the Bahariya Formation, Egypt; Catalogue number not
+    given in the sources consulted.
+  material: The tooth only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from one tooth; the sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/vector.svg
+  png: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/raster/512x398.png
+  page: https://www.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b
+  attribution: B Kimmel
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Crocodylia
+  matched: Crocodylia
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Baharijodon (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Baharijodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Baharijodon”. English Wikipedia, revision 1282227282.
+  url: https://en.wikipedia.org/w/index.php?title=Baharijodon&oldid=1282227282
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Naming work (Kuhn 1936) not in the citations consulted; PBDB's reference is a textbook (Carroll 1988). Add the
+    original.
+  - Validity of a genus based on one tooth to be checked (M1).
+  reviews: []

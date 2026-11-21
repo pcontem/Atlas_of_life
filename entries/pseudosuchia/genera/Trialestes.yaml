@@ -1,0 +1,100 @@
+name: Trialestes
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1982
+type_species: Trialestes romeri
+type_species_note: PBDB's only species; named by Reig in 1963.
+summary: Trialestes is a Carnian sphenosuchian crocodylomorph from the Ischigualasto Formation of Argentina, once
+  classed as a dinosaur.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Trialestes romeri
+  authority: (Reig 1963)
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Ischigualasto
+  group: ''
+  members: [Cancha de Bochas]
+  country: Argentina
+  regions: [La Rioja, San Juan]
+  interval: Carnian
+  occurrences: 2
+  ma: [227.3, 237.0]
+  id: ischigualasto-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Ischigualasto Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Trialestes skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Trialestes_skeletal.png/960px-Trialestes_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Trialestes_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-03'
+  caption: Skeletal reconstruction of Trialestes.
+  width: 6604
+  height: 1970
+  review: unreviewed
+  local: img/gallery/Trialestes_001.webp
+- kind: fossil
+  file: Trialestes.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Trialestes.jpg/960px-Trialestes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Trialestes.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-06-22'
+  caption: Trialestes fossil.
+  width: 1923
+  height: 954
+  review: unreviewed
+  local: img/gallery/Trialestes_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/vector.svg
+  png: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/raster/512x140.png
+  page: https://www.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Trialestes romeri
+  matched: Crocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Randall B. Irmis, Sterling J. Nesbitt and Hans-Dieter Sues 2013. Anatomy, phylogeny and palaeobiology of
+    early archosaurs and their kin. Geological Society, London, Special Publications 379: 275–302. doi:10.1144/SP379.24'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Trialestes (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Trialestes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Trialestes”. English Wikipedia, revision 1352469186.
+  url: https://en.wikipedia.org/w/index.php?title=Trialestes&oldid=1352469186
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the images.
+  - Add holotype and the genus-naming work (Bonaparte 1982).
+  reviews: []

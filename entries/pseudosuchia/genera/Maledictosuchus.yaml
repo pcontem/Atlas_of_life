@@ -1,0 +1,142 @@
+name: Maledictosuchus
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Parrilla-Bel et al. 2013
+type_species: Maledictosuchus riclaensis
+type_species_note: 'Filled from general knowledge, not yet checked: PBDB lists M. riclaensis (2013, named with the
+  genus) and M. nuyivijanan (2018).'
+summary: Maledictosuchus is a short-bodied basal metriorhynchid thalattosuchian from the Jurassic of Spain and Mexico.
+size:
+  length_m: [2.95, 2.95]
+  note: About 2.95 m long (English Wikipedia).
+age:
+  first_ma: 165.3
+  last_ma: 149.2
+  early_interval: Callovian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Maledictosuchus nuyivijanan
+  authority: Barrientos-Lara et al. 2018
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Maledictosuchus riclaensis
+  authority: Parrilla-Bel et al. 2013
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Ágreda
+  group: Tera
+  members: []
+  country: Spain
+  regions: [Zaragoza]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: agreda-spain
+- formation: Sabinal
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Oaxaca]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: sabinal-mexico
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Ágreda Formation (Spain) and Sabinal Formation (Mexico).
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Cocodrilo de ricla. Maledictosuchus riclaensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cocodrilo_de_ricla._Maledictosuchus_riclaensis.jpg/960px-Cocodrilo_de_ricla._Maledictosuchus_riclaensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cocodrilo_de_ricla._Maledictosuchus_riclaensis.jpg
+  artist: Miguel Calvo
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2000-01-01'
+  caption: Maledictosuchus riclaensis specimen.
+  width: 3307
+  height: 1867
+  review: unreviewed
+  local: img/gallery/Maledictosuchus_001.webp
+- kind: fossil
+  file: Maledictosuchus riclaensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2e/Maledictosuchus_riclaensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Maledictosuchus_riclaensis.png
+  artist: Jara Parrilla-Bel, Mark T. Young, Miguel Moreno-Azanza, José Ignacio Canudo
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Maledictosuchus riclaensis.
+  width: 1013
+  height: 778
+  review: unreviewed
+  local: img/gallery/Maledictosuchus_002.webp
+- kind: life
+  file: Maldictosuchus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Maldictosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Maldictosuchus.png
+  artist: Jackosaurs
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-06-16'
+  caption: Life restoration of Maledictosuchus.
+  width: 930
+  height: 458
+  review: unreviewed
+  local: img/gallery/Maledictosuchus_003.webp
+- kind: life
+  file: Maledictosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Maledictosuchus.png/960px-Maledictosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Maledictosuchus.png
+  artist: Jara Parrilla-Bel, Mark T. Young, Miguel Moreno-Azanza, José Ignacio Canudo
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Life restoration of Maledictosuchus.
+  width: 2020
+  height: 1796
+  review: unreviewed
+  local: img/gallery/Maledictosuchus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/vector.svg
+  png: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/raster/512x323.png
+  page: https://www.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Metriorhynchus brevirostris
+  matched: Metriorhynchidae
+  genus_level: false
+sources:
+- kind: original
+  text: Parrilla-Bel, J.; Young, M. T.; Moreno-Azanza, M.; Canudo, J. I. 2013. The First Metriorhynchid Crocodylomorph
+    from the Middle Jurassic of Spain, with Implications for Evolution of the Subclade Rhacheosaurini. PLOS ONE
+    8(1). doi:10.1371/journal.pone.0054275
+- kind: literature
+  text: 'Jair I. Barrientos-Lara 2018. The marine crocodile ''''Maledictosuchus'''' (Thalattosuchia, Metriorhynchidae)
+    from the Kimmeridgian deposits of Tlaxiaco, Oaxaca, southern Mexico. Journal of Vertebrate Paleontology 38(4):
+    (1)-(14). doi:10.1080/02724634.2018.1478419'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Maledictosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Maledictosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maledictosuchus”. English Wikipedia, revision 1354875589.
+  url: https://en.wikipedia.org/w/index.php?title=Maledictosuchus&oldid=1354875589
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the life restorations., Verify the type species.]
+  reviews: []

@@ -1,0 +1,55 @@
+name: Kuttysuchus
+rank: genus
+parent: typothoracinae
+incertae_sedis: true
+placement_note: English Wikipedia calls it a typothoracine, probably a basal paratypothoracin; the atlas parent
+  is Typothoracinae.
+authority: Haldar et al. 2024
+type_species: Kuttysuchus minori
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Kuttysuchus is a small armoured aetosaur known only from isolated osteoderms from the Late Triassic Dharmaram
+  Formation of India.
+size:
+  length_m: null
+  note: No body-length estimate is given; the species name refers to the small size of the osteoderms.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Mid or late Norian to Rhaetian (English Wikipedia).
+species:
+- name: Kuttysuchus minori
+  authority: Haldar et al. 2024
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: One almost complete paramedian osteoderm; catalogue number not given on the page.
+  material: Isolated osteoderms, likely from the anterior or middle tail armour.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: 'Haldar, A., Ray, S. and Bandyopadhyay, S. 2024. A new paratypothoracin aetosaur (Archosauria: Pseudosuchia)
+    from the Upper Triassic Dharmaram Formation of India and its biostratigraphic implications. Journal of Vertebrate
+    Paleontology 44(3): e2439533.'
+  url: https://doi.org/10.1080/02724634.2024.2439533
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Lower Dharmaram Formation, Pranhita-Godavari Basin, India (mid-late Norian to Rhaetian).
+    No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  - The infobox gives 2025 as the naming year while the reference list dates the paper to 2024; 2024 is used.
+  reviews: []

@@ -1,0 +1,57 @@
+name: Pseudogavialis
+rank: genus
+parent: gavialoidea
+incertae_sedis: false
+placement_note: ''
+authority: Courville et al. 2025
+type_species: Pseudogavialis curvirostris
+type_species_note: Type species named Gharialis curvirostris by Lydekker (1886); moved to the new genus Pseudogavialis
+  by Courville et al. (2025).
+summary: Pseudogavialis is a large long-snouted gavialoid crocodylian from the Late Oligocene to Early Miocene of
+  Pakistan.
+size:
+  length_m: [6.0, 7.0]
+  mass_kg: null
+  note: Around 6-7 m long (English Wikipedia); an estimate.
+age:
+  first_ma: 27.3
+  last_ma: 20.45
+  early_interval: Chattian
+  late_interval: Aquitanian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Late Oligocene to early Miocene (English Wikipedia); the ICS Chattian-Aquitanian range
+    is used.
+species:
+- name: Pseudogavialis curvirostris
+  authority: (Lydekker 1886)
+  first_ma: 27.3
+  last_ma: 20.45
+  interval: Chattian–Aquitanian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Two skull pieces from the Laki Hills, Sindh, one with the tip of the snout and one with the region just
+    before the eyes (Lydekker's original type); catalogue number not given on the page.
+  material: The holotype plus 1990s material from the Chitarwata Formation (Aquitanian).
+  completeness: fragmentary
+  exceptional: ''
+biology: Described with long slender jaws and many interlocking teeth, resembling the modern gharial (English Wikipedia).
+images: []
+sources:
+- kind: original
+  text: 'Courville, E., Métais, G., Antoine, P.-O., Marivaux, L. and Jouve, S. 2025. Giant longirostrine crocodylians
+    from the Lower Miocene of Pakistan: new material and taxonomic review. Papers in Palaeontology 11(3): e70010.'
+  url: https://doi.org/10.1002/spp2.70010
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Chitarwata Formation (and probably the Chinji Formation), Laki Hills (Sindh) and Bugti
+    Hills, Pakistan. No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17
+    download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

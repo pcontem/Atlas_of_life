@@ -1,0 +1,88 @@
+name: Venkatasuchus
+rank: genus
+parent: typothoracinae
+incertae_sedis: false
+placement_note: ''
+authority: Haldar et al. 2023
+type_species: Venkatasuchus armatum
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Venkatasuchus is a typothoracine aetosaur from the Late Triassic Dharmaram Formation of India, known from
+  associated osteoderms.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Venkatasuchus armatum
+  authority: Haldar et al. 2023
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations:
+- formation: Dharmaram
+  group: Gondwana
+  members: [Lower]
+  country: India
+  regions: []
+  interval: Norian–Rhaetian
+  occurrences: 1
+  ma: [201.4, 227.3]
+  id: dharmaram-india
+fossil_material:
+  holotype: A series of associated osteoderms forming part of the carapace (English Wikipedia).
+  material: The holotype osteoderms.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Venkatasuchus reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Venkatasuchus_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Venkatasuchus_reconstruction.png
+  artist: DNB XD
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-06-15'
+  caption: Reconstruction of Venkatasuchus.
+  width: 697
+  height: 448
+  review: unreviewed
+  local: img/gallery/Venkatasuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: Haldar, A.; Ray, S.; Bandyopadhyay, S. 2023. A new typothoracine aetosaur (Archosauria, Pseudosuchia) from
+    the Upper Triassic of India with insights on biostratigraphy, diversification, and paleobiogeography. Journal
+    of Vertebrate Paleontology 43. doi:10.1080/02724634.2023.2253292
+- kind: literature
+  text: 'Haldar, A.; Ray, S.; Bandyopadhyay, S. 2024. A new paratypothoracin aetosaur (Archosauria: Pseudosuchia)
+    from the Upper Triassic Dharmaram Formation of India and its biostratigraphic implications. Journal of Vertebrate
+    Paleontology 44(3). doi:10.1080/02724634.2024.2439533'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Venkatasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Venkatasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Venkatasuchus”. English Wikipedia, revision 1372802183.
+  url: https://en.wikipedia.org/w/index.php?title=Venkatasuchus&oldid=1372802183
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the reconstruction.]
+  reviews: []

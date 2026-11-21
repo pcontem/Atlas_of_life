@@ -3,11 +3,11 @@ name: Chinle
 rank: formation
 group: ''
 country: United States
-regions: [Arizona, 'Arizona ', New Mexico, Utah]
+regions: [Arizona, 'Arizona ', Colorado, New Mexico, Utah]
 location:
   lat: 34.983
-  lng: -109.794
-  basis: median of 126 PBDB collections that yielded the atlas genera
+  lng: -109.793
+  basis: median of 128 PBDB collections that yielded the atlas genera
 age:
   first_ma: 237.0
   last_ma: 201.4
@@ -16,12 +16,12 @@ environment:
 - terrestrial indet.
 - fine channel fill
 - crevasse splay
-- '"floodplain"'
 - fluvial indet.
+- '"floodplain"'
 - '"channel"'
-- coarse channel fill
-- pond
 - fluvial-lacustrine indet.
+- pond
+- coarse channel fill
 - wet floodplain
 - lacustrine indet.
 lithology: [not reported, mudstone, siltstone, conglomerate]
@@ -62,6 +62,7 @@ pbdb_collections:
 - '84268'
 - '88338'
 - '89256'
+- '92089'
 - '92321'
 - '92322'
 - '92811'
@@ -143,6 +144,7 @@ pbdb_collections:
 - '94497'
 - '108771'
 - '179601'
+- '182593'
 - '182617'
 - '182618'
 - '188760'

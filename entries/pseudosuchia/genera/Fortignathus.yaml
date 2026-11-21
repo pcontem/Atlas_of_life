@@ -1,0 +1,94 @@
+name: Fortignathus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Young et al. 2016
+type_species: Fortignathus felixi
+type_species_note: Monotypic in PBDB; the only species is the type. (de Lapparent de Broin 2002 as Araripesuchus;
+  check).
+summary: Fortignathus is a crocodylomorph known from a few partial specimens from the Cretaceous Echkar Formation
+  of Niger.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 106.3
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fortignathus felixi
+  authority: (de Lapparent de Broin 2002)
+  first_ma: 106.3
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Echkar
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: echkar-niger
+fossil_material:
+  holotype: One of three incompletely preserved specimens from Niger.
+  material: Three incompletely preserved specimens.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Fortignathus holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Fortignathus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Fortignathus_holotype.png
+  artist: Ibrahim N, Sereno PC, Varricchio DJ, Martill DM, Dutheil DB, Unwin DM, Baidder L, Larsson HCE, Zouhri
+    S, Kaoukaya A
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-04-21'
+  caption: Holotype of Fortignathus.
+  width: 507
+  height: 727
+  review: unreviewed
+  local: img/gallery/Fortignathus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Young, Mark T.; Hastings, Alexander K.; Allain, Ronan; Smith, Thomas J. July. Revision of the enigmatic
+    crocodyliform ''''Elosuchus felixi'''' de Lapparent de Broin, 2002 from the Lower-Upper Cretaceous boundary
+    of Niger: potential evidence for an early origin of the clade Dyrosauridae. Zoological Journal of the Linnean
+    Society. doi:10.1111/zoj.12452'
+- kind: literature
+  text: 'Leardi, J. M.; Pol, D.; Montefeltro, F.; Marinho, T. S.; Ruiz, J. V.; Bravo, G. G.; Pinheiro, A. E. P.;
+    Godoy, P. L.; Nicholl, C. S. C.; Lecuona, A.; Larsson, H. C. E. 2024. Phylogenetic nomenclature of Notosuchia
+    (Crocodylomorpha; Crocodyliformes). Bulletin of Phylogenetic Nomenclature 1(3): 44–82. doi:10.11646/bpn.1.3.2'
+- kind: literature
+  text: Parra, S.; Sellés, A. 2022. New cranial remains of the broad-nosed crocodile Elosuchus (Pholidosauridae;
+    Mesoeucocodrylia) and its palaeoecological implications. Historical Biology. doi:10.1080/08912963.2022.2130791
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fortignathus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fortignathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fortignathus”. English Wikipedia, revision 1384644508.
+  url: https://en.wikipedia.org/w/index.php?title=Fortignathus&oldid=1384644508
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the image.]
+  reviews: []

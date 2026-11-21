@@ -1,0 +1,96 @@
+name: Dagasuchus
+rank: genus
+parent: loricata
+incertae_sedis: false
+placement_note: ''
+authority: Lacerda et al. 2015
+type_species: Dagasuchus santacruzensis
+type_species_note: From the Wikipedia taxobox.
+summary: Dagasuchus is a pseudosuchian archosaur from the Carnian Santa Maria Formation of Rio Grande do Sul, Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dagasuchus santacruzensis
+  authority: Lacerda et al. 2015
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: Rosário do Sul
+  members: []
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Santa Maria Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Dagasuchus santacruzensis holotype ilium in 2015.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/96/Dagasuchus_santacruzensis_holotype_ilium_in_2015.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dagasuchus_santacruzensis_holotype_ilium_in_2015.png
+  artist: Marcel B. Lacerda, Cesar L. Schultz & Cristina Bertoni-Machado
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2015'
+  caption: Holotype of Dagasuchus santacruzensis.
+  width: 1014
+  height: 1368
+  review: unreviewed
+  local: img/gallery/Dagasuchus_001.webp
+- kind: skeletal
+  file: Dagasuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Dagasuchus_skeletal.png/960px-Dagasuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dagasuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-04-19'
+  caption: Skeletal reconstruction of Dagasuchus.
+  width: 3726
+  height: 1933
+  review: unreviewed
+  local: img/gallery/Dagasuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/vector.svg
+  png: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/raster/606x1536.png
+  page: https://www.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243
+  attribution: Noah Schlottman, photo from Casey Dunn
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Polyplacophora
+  matched: Loricata
+  genus_level: false
+sources:
+- kind: original
+  text: Lacerda, M. B.; Schultz, C. L.; Bertoni-Machado, C. 2015. First 'Rauisuchian' archosaur (Pseudosuchia, Loricata)
+    for the Middle Triassic Santacruzodon Assemblage Zone (Santa Maria Supersequence), Rio Grande do Sul State,
+    Brazil. PLOS ONE 10(2). doi:10.1371/journal.pone.0118563
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dagasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dagasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dagasuchus”. English Wikipedia, revision 1349940763.
+  url: https://en.wikipedia.org/w/index.php?title=Dagasuchus&oldid=1349940763
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

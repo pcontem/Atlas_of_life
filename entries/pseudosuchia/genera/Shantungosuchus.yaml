@@ -1,0 +1,96 @@
+name: Shantungosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: PBDB places it in a shartegosuchid/shartegosuchoid group that has no clade entry in the atlas yet;
+  placed in the nearest atlas ancestor.
+authority: Young 1961
+type_species: Shantungosuchus chuhsienensis
+type_species_note: 'Filled from general knowledge, not yet checked: the species described with the genus in 1961.'
+summary: Shantungosuchus is an Early Cretaceous crocodyliform from China with three named species.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 143.1
+  last_ma: 125.77
+  early_interval: Berriasian
+  late_interval: Hauterivian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Shantungosuchus brachycephalus
+  authority: Young 1982
+  first_ma: 143.1
+  last_ma: 132.6
+  interval: Berriasian–Valanginian
+  reference: ''
+- name: Shantungosuchus chuhsienensis
+  authority: Young 1961
+  first_ma: 143.1
+  last_ma: 132.6
+  interval: Berriasian–Valanginian
+  reference: original description
+- name: Shantungosuchus hangjinensis
+  authority: Wu et al. 1994
+  first_ma: 137.05
+  last_ma: 125.77
+  interval: Valanginian–Hauterivian
+  reference: ''
+formations:
+- formation: Luohandong
+  group: Zhidan
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Valanginian–Early Hauterivian
+  occurrences: 2
+  ma: [125.77, 137.05]
+  id: luohandong-china
+- formation: Mengyin
+  group: ''
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Berriasian–Valanginian
+  occurrences: 1
+  ma: [132.6, 143.1]
+  id: mengyin-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens of three species from the Luohandong and Mengyin formations.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/vector.svg
+  png: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/raster/512x96.png
+  page: https://www.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8
+  attribution: Nobu Tamura
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Sichuanosuchus huidongensis
+  matched: Shartegosuchoidea
+  genus_level: false
+sources:
+- kind: original
+  text: C.-C. Young. 1961. On a new crocodile from Chuhsien, E. Shantung. Vertebrata PalAsiatica 5(1):6-10
+- kind: literature
+  text: 'Pol, D. 2004. Basal crocodyliforms from the Lower Cretaceous Tugulu Group (Xinjiang, China), and the phylogenetic
+    position of ''''Edentosuchus''''. Cretaceous Research 25(4): 603–622. doi:10.1016/j.cretres.2004.05.002'
+- kind: literature
+  text: 'Buscalioni, A. D. 2017. The Gobiosuchidae in the early evolution of Crocodyliformes. Journal of Vertebrate
+    Paleontology: 1-21. doi:10.1080/02724634.2017.1324459'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shantungosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shantungosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shantungosuchus”. English Wikipedia, revision 1328854542.
+  url: https://en.wikipedia.org/w/index.php?title=Shantungosuchus&oldid=1328854542
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Verify the type species and holotype (Young 1961).]
+  reviews: []

@@ -1,0 +1,87 @@
+name: Neuquensuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Fiorelli and Calvo 2007
+type_species: Neuquensuchus universitas
+type_species_note: From the Wikipedia taxobox.
+summary: Neuquensuchus is a small crocodyliform from the Santonian Bajo de la Carpa Formation of Neuquén, Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Neuquensuchus universitas
+  authority: Fiorelli and Calvo 2007
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains found on the campus of the Universidad Nacional del Comahue in Neuquén.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Neuquensuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Neuquensuchus_skeletal.png/960px-Neuquensuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neuquensuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-02'
+  caption: Skeletal reconstruction of Neuquensuchus.
+  width: 6670
+  height: 4471
+  review: unreviewed
+  local: img/gallery/Neuquensuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
+  png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
+  page: https://www.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hoplosuchus kayi
+  matched: Crocodyliformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Fiorelli, Lucas E. 2007. The first "protosuchian" (Archosauria: Crocodyliformes) from the Cretaceous (Santonian)
+    of Gondwana. Arquivos do Museu Nacional 65(4): 417–459.'
+- kind: literature
+  text: 'Gabriel Lio 2017. New specimen of the enigmatic, Late Cretaceous crocodyliform ''''Neuquensuchus universitas''''
+    sheds light on the anatomy of the species. Cretaceous Research 83: 62–74. doi:10.1016/j.cretres.2017.09.014'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neuquensuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neuquensuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neuquensuchus”. English Wikipedia, revision 1362301630.
+  url: https://en.wikipedia.org/w/index.php?title=Neuquensuchus&oldid=1362301630
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the skeletal reconstruction.
+  - Add holotype number from Fiorelli and Calvo 2007.
+  reviews: []

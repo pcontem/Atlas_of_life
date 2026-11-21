@@ -1,0 +1,98 @@
+name: Peipehsuchus
+rank: genus
+parent: thalattosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Young 1948
+type_species: Peipehsuchus teleorhinus
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Peipehsuchus is a metriorhynchoid crocodyliform known from China and fragmentary remains from Kyrgyzstan.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Peipehsuchus teleorhinus
+  authority: Young 1948
+  first_ma: 143.1
+  last_ma: 100.5
+  interval: Berriasian–Albian
+  reference: original description
+formations:
+- formation: Balabansai
+  group: ''
+  members: []
+  country: Kyrgyzstan
+  regions: [Jalal-Abad]
+  interval: Callovian
+  occurrences: 2
+  ma: [161.5, 165.3]
+  id: balabansai-kyrgyzstan
+- formation: Tzeliuching
+  group: ''
+  members: []
+  country: China
+  regions: [Sichuan]
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: tzeliuching-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Balabansai Formation (Kyrgyzstan) and the Tzeliuching Formation (China).
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Chinese teleosauroid.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Chinese_teleosauroid.png/960px-Chinese_teleosauroid.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chinese_teleosauroid.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Peipehsuchus specimen.
+  width: 1868
+  height: 1356
+  review: unreviewed
+  local: img/gallery/Peipehsuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/vector.svg
+  png: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/raster/512x70.png
+  page: https://www.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5
+  attribution: LiterallyMiguel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Magyarosuchus fitosi
+  matched: Thalattosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: C. -C. Young. 1948. Fossil crocodiles in China, with notes on dinosaurian remains associated with the Kansu
+    crocodiles. Bulletin of the Geological Society of China 28(3-4):255-288
+- kind: literature
+  text: 'Aiglstorfer, M.; Havlik, P.; Herrera, Y. 2019. The first metriorhynchoid crocodyliform from the Aalenian
+    (Middle Jurassic) of Germany, with implications for the evolution of Metriorhynchoidea. Zoological Journal of
+    the Linnean Society 188(2): 522–551. doi:10.1093/zoolinnean/zlz072'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Peipehsuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Peipehsuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Peipehsuchus”. English Wikipedia, revision 1359361967.
+  url: https://en.wikipedia.org/w/index.php?title=Peipehsuchus&oldid=1359361967
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Age conflict: Wikipedia says Early Jurassic (Toarcian) while PBDB gives Callovian; atlas age follows PBDB;
+    resolve (M5).'
+  - The image is captioned as a 'Chinese teleosauroid'; check.
+  reviews: []

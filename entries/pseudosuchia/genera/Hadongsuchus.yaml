@@ -1,0 +1,73 @@
+name: Hadongsuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: PBDB places it among the 'protosuchians', a grade rather than a clade, so it is placed in the nearest
+  atlas ancestor.
+authority: Hangjae et al. 2005
+type_species: Hadongsuchus acerdentis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Hadongsuchus is a protosuchian-grade crocodyliform known from a skull from the Early Cretaceous Hasandong
+  Formation of Korea.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 119.57
+  last_ma: 110.1
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hadongsuchus acerdentis
+  authority: Hangjae et al. 2005
+  first_ma: 119.57
+  last_ma: 110.1
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Hasandong
+  group: Shindong
+  members: []
+  country: South Korea
+  regions: [Gyeongsangnam-do]
+  interval: Late Aptian–Early Albian
+  occurrences: 1
+  ma: [110.1, 119.57]
+  id: hasandong-south-korea
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: A skull from the Hasandong Formation near Hadong, Korea (per the title of the PBDB reference).
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
+  png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
+  page: https://www.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hoplosuchus kayi
+  matched: Protosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Y. Hangjae, Y. Yungnam, and Y. Hyesu. 2005. [A new protosuchian (Archosauria: Crocodyliformes) skull from
+    the Hasandong Formation (Lower Cretaceous) of Hadong, Korea]. Korean Journal of Paleontology 21(1):146-150'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hadongsuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hadongsuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “List of informally named fossil reptiles”. English Wikipedia, revision 1385660993.
+  url: https://en.wikipedia.org/w/index.php?title=List_of_informally_named_fossil_reptiles&oldid=1385660993
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No Wikipedia page for the genus (the matching page is a list of informally named reptiles): PBDB record only.'
+  - Validity and placement to be checked (M1).
+  reviews: []

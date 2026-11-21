@@ -1,0 +1,75 @@
+name: Aenigmaspina
+rank: genus
+parent: ornithosuchidae
+incertae_sedis: true
+placement_note: Described as an enigmatic pseudosuchian; PBDB lists Ornithosuchidae; check.
+authority: Patrick et al. 2019
+type_species: Aenigmaspina pantyffynnonensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Aenigmaspina is an enigmatic pseudosuchian archosaur from the Late Triassic of Wales, United Kingdom.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aenigmaspina pantyffynnonensis
+  authority: Patrick et al. 2019
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Wales]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: unnamed-pant-y-ffynnon-quarry-bonvilston-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: 'Fossils from a fissure fill near Pant-y-ffynnon, Wales (PBDB: unnamed unit, Carnian).'
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c/vector.svg
+  png: https://images.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c/raster/512x239.png
+  page: https://www.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c
+  attribution: Dmitry Bogdanov
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Ornithosuchus longidens
+  matched: Ornithosuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: Patrick, Erin L.; Whiteside, David I.; Benton, Michael J. 2019. A new crurotarsan archosaur from the Late
+    Triassic of South Wales. Journal of Vertebrate Paleontology 39(3). doi:10.1080/02724634.2019.1645147
+- kind: literature
+  text: 'Kermack, K. A. 1956. An ancestral crocodile from South Wales. Proceedings of the Linnean Society of London
+    166: 1–2. doi:10.1111/j.1095-8312.1956.tb00747.x'
+- kind: literature
+  text: Ezcurra, Martín D. 2016. The phylogenetic relationships of basal archosauromorphs, with an emphasis on the
+    systematics of proterosuchian archosauriforms. PeerJ 4. doi:10.7717/peerj.1778
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aenigmaspina (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aenigmaspina
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aenigmaspina”. English Wikipedia, revision 1354683688.
+  url: https://en.wikipedia.org/w/index.php?title=Aenigmaspina&oldid=1354683688
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

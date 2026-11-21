@@ -1,0 +1,74 @@
+name: Tienosuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: Traditionally placed in the Thoracosaurinae, now regarded as a paraphyletic assemblage of basal
+  gavialoids; the fragmentary material allows no finer placement (English Wikipedia).
+authority: Young 1948
+type_species: Tienosuchus hsiangi
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Tienosuchus is a dubious gavialoid crocodilian known from a tooth and some postcranial remains from the
+  Eocene of Hunan, China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tienosuchus hsiangi
+  authority: Young 1948
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Lingcha
+  group: ''
+  members: []
+  country: China
+  regions: [Hunan]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: lingcha-china
+fossil_material:
+  holotype: A tooth and postcranial remains collected in Hunan (Young 1948); Catalogue number not given in the sources
+    consulted.
+  material: One tooth and some postcranial bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/vector.svg
+  png: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/raster/512x398.png
+  page: https://www.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b
+  attribution: B Kimmel
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Crocodylia
+  matched: Crocodylia
+  genus_level: false
+sources:
+- kind: original
+  text: C. -C. Young. 1948. Fossil crocodiles in China, with notes on dinosaurian remains associated with the Kansu
+    crocodiles. Bulletin of the Geological Society of China 28(3-4):255-288
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tienosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tienosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tienosuchus”. English Wikipedia, revision 1363273609.
+  url: https://en.wikipedia.org/w/index.php?title=Tienosuchus&oldid=1363273609
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia calls the genus dubious; decide whether it belongs in excluded.yaml (M1).
+  - 'Naming work: Young 1948; add as original with text from the PBDB record.'
+  reviews: []

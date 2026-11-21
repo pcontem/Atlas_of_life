@@ -1,0 +1,77 @@
+name: Pabwehshi
+rank: genus
+parent: sebecosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Wilson et al. 2001
+type_species: Pabwehshi pakistanensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Pabwehshi is a baurusuchine mesoeucrocodylian from the Maastrichtian Vitakri Formation of Pakistan.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Pabwehshi pakistanensis
+  authority: Wilson et al. 2001
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Vitakri
+  group: Fort Munro
+  members: []
+  country: Pakistan
+  regions: [Balochistan]
+  interval: Late Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: vitakri-pakistan
+fossil_material:
+  holotype: GSP-UM 2000, a partial snout and corresponding lower jaw element.
+  material: The holotype and further specimens (5 PBDB occurrences).
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/vector.svg
+  png: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/raster/512x131.png
+  page: https://www.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Comahuesuchus brachybuccalis
+  matched: Sebecosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wilson, Jeffrey A. 2001. New crocodyliform (Reptilia, Mesoeucrocodylia) from the Upper Cretaceous Pab Formation
+    of Vitakri, Balochistan (Pakistan). Contributions from the Museum of Paleontology, University of Michigan 30(12):
+    321–336.'
+- kind: literature
+  text: 'Turner, A.H. 2005. A new sebecosuchian crocodyliform from the Late Cretaceous of Patagonia. Journal of
+    Vertebrate Paleontology 25(1): 87–98. doi:10.1671/0272-4634(2005)025[0087:ANSCFT]2.0.CO;2'
+- kind: literature
+  text: 'Paulo Miranda Nascimento 2010. A new species of ''''Baurusuchus'''' (Crocodyliformes, Mesoeucrocodylia)
+    from the Upper Cretaceous of Brazil, with the first complete postcranial skeleton described from the family
+    Baurusuchidae. Papéis Avulsos de Zoologia 50(21): 323‑361. doi:10.1590/s0031-10492010002100001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pabwehshi (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pabwehshi
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pabwehshi”. English Wikipedia, revision 1382901994.
+  url: https://en.wikipedia.org/w/index.php?title=Pabwehshi&oldid=1382901994
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

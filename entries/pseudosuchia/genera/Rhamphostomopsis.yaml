@@ -1,0 +1,83 @@
+name: Rhamphostomopsis
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Rusconi 1933
+type_species: Rhamphostomopsis neogaeus
+type_species_note: 'Filled from general knowledge, not yet checked: PBDB lists R. neogaeus (Rusconi 1933) and R.
+  intermedius (1935); the type species is not given in the sources consulted.'
+summary: Rhamphostomopsis is a gavialid crocodylian from the Miocene of Colombia and Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 13.8
+  last_ma: 7.246
+  early_interval: Serravallian
+  late_interval: Tortonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Rhamphostomopsis intermedius
+  authority: Rusconi 1935
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Rhamphostomopsis neogaeus
+  authority: Rusconi 1933
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: original description
+formations:
+- formation: Villavieja
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Entre Rios
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Tortonian
+  occurrences: 2
+  ma: [7.246, 11.63]
+  id: entre-rios-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Villavieja (Colombia) and Entre Ríos (Argentina) formations.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. Kraus. 1998. The cranium of Piscogavialis jugalipeforatus n. nen., n. sp. (Gavialidae, Crocodylia) from
+    the Miocene of Peru. Palaeontologische Zeischrift 72(3/4):389-406
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rhamphostomopsis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rhamphostomopsis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No Wikipedia page; PBDB record only. Verify the type species and add literature.
+  reviews: []

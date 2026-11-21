@@ -1,0 +1,108 @@
+name: Wannchampsus
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Adams 2014
+type_species: Wannchampsus kirpachi
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Wannchampsus is a small paralligatorid neosuchian from the Early Cretaceous of Texas, close to but not
+  a true crocodilian.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 119.57
+  last_ma: 110.1
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Wannchampsus kirpachi
+  authority: Adams 2014
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Twin Mountains
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: twin-mountains-united-states
+- formation: Antlers
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Aptian–Early Albian
+  occurrences: 1
+  ma: [110.1, 119.57]
+  id: antlers-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Twin Mountains and Antlers formations.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Wkirpachi1.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Wkirpachi1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Wkirpachi1.JPG
+  artist: Wkirpach
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-10-09'
+  caption: Wannchampsus kirpachi fossil.
+  width: 928
+  height: 720
+  review: unreviewed
+  local: img/gallery/Wannchampsus_001.webp
+- kind: fossil
+  file: Wkirpachi2.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/8/87/Wkirpachi2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Wkirpachi2.JPG
+  artist: Wkirpach
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-10-09'
+  caption: Wannchampsus kirpachi fossil.
+  width: 960
+  height: 688
+  review: unreviewed
+  local: img/gallery/Wannchampsus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: T. L. Adams. 2014. Small crocodyliform from the Lower Cretaceous (late Aptian) of central Texas and its
+    systematic relationship to the evolution of Eusuchia. Journal of Paleontology 88(5):1031-1049
+- kind: literature
+  text: 'Thomas L. Adams 2014. Small crocodyliform from the Lower Cretaceous (late Aptian) of central Texas and
+    its systematic relationship to the evolution of Eusuchia. Journal of Paleontology 88(5): 1031–1049. doi:10.1666/12-089'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wannchampsus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wannchampsus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wannchampsus”. English Wikipedia, revision 1315022169.
+  url: https://en.wikipedia.org/w/index.php?title=Wannchampsus&oldid=1315022169
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

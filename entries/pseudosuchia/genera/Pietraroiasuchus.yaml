@@ -1,0 +1,69 @@
+name: Pietraroiasuchus
+rank: genus
+parent: hylaeochampsidae
+incertae_sedis: false
+placement_note: ''
+authority: Buscalioni et al. 2011
+type_species: Pietraroiasuchus ormezzanoi
+type_species_note: From the Wikipedia taxobox.
+summary: Pietraroiasuchus is a hylaeochampsid eusuchian from the Pietraroja Plattenkalk of southern Italy.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pietraroiasuchus ormezzanoi
+  authority: Buscalioni et al. 2011
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Campania]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: unnamed-civita-di-pietraroja-italy
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Pietraroja Plattenkalk.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/vector.svg
+  png: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/raster/512x86.png
+  page: https://www.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c
+  attribution: François-Louis Pelissier
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Acynodon iberoccitanus
+  matched: Hylaeochampsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Buscalioni, A.D. 2011. Early eusuchia crocodylomorpha from the vertebrate-rich Plattenkalk of Pietraroia
+    (Lower Albian, southern Apennines, Italy). Zoological Journal of the Linnean Society 163: S199–S227. doi:10.1111/j.1096-3642.2011.00718.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pietraroiasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pietraroiasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pietraroiasuchus”. English Wikipedia, revision 1282991897.
+  url: https://en.wikipedia.org/w/index.php?title=Pietraroiasuchus&oldid=1282991897
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

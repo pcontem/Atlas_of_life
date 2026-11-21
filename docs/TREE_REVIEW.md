@@ -744,3 +744,6 @@ Xilosuchus → Xilousuchus, Pseudohesperosuchus → Pseudhesperosuchus, Fruitach
 Gracilineusteus → Gracilineustes, Racheosaurus → Rhacheosaurus, Phosphatosuchus → Phosphatosaurus.
 Pelagosuchus was a duplicate of Pelagosaurus (already an entry) and was removed.
 
+
+## Euphorosuchus replaced by Eosphorosuchus (2026-11-21)
+The backbone node "Euphorosuchus" had no source in PBDB or English Wikipedia. The 2026 genus Eosphorosuchus (Margulis-Ohnuma et al., Chinle Formation, New Mexico) is probably the intended name. The node was removed and Eosphorosuchus got a genus entry in Crocodylomorpha (source: the naming paper, Proceedings of the Royal Society B 2026).

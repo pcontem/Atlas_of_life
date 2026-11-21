@@ -1,0 +1,77 @@
+name: Rugosuchus
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 2001
+type_species: Rugosuchus nonganensis
+type_species_note: From the Wikipedia taxobox.
+summary: Rugosuchus is a neosuchian crocodyliform with a wrinkled upper jaw from the Cretaceous Nenjiang Formation
+  of China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rugosuchus nonganensis
+  authority: Wu et al. 2001
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Nenjiang
+  group: ''
+  members: []
+  country: China
+  regions: [Jilin]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: nenjiang-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Most of a skull and mandible (per English Wikipedia).
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'X.-C. Wu, Z.-W. Cheng, and A. P. Russell. 2001. Cranial anatomy of a new crocodyliform (Archosauria: Crocodylomorpha)
+    from the Lower Cretaceous of Song-Liao Plain, northeastern China. Canadian Journal of Earth Sciences 38:1653-1663'
+- kind: literature
+  text: 'Xiao-Chun Wu 2001. Cranial anatomy of a new crocodyliform (Archosauria: Crocodylomorpha) from the Lower
+    Cretaceous of Song-Liao Plain, northeastern China. Canadian Journal of Earth Sciences 38(12): 1653–1663. doi:10.1139/cjes-38-12-1653'
+- kind: literature
+  text: Rummy, Paul; Wu, Xiao-Chun; Clark, James M.; Zhao, Qi; Jin, Chang-Zhu; Shibata, Masateru; Jin, Feng; Xu,
+    Xing 2022. A new paralligatorid (Crocodyliformes, Neosuchia) from the mid-Cretaceous of Jilin Province, northeastern
+    China. Cretaceous Research 129. doi:10.1016/j.cretres.2021.105018
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rugosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rugosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rugosuchus”. English Wikipedia, revision 1341096022.
+  url: https://en.wikipedia.org/w/index.php?title=Rugosuchus&oldid=1341096022
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add holotype number from Wu et al. 2001.]
+  reviews: []

@@ -1,0 +1,105 @@
+name: Lukousaurus
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: true
+placement_note: Described as a possible dinosaur by Young (1940); English Wikipedia calls it an archosauromorph
+  and PBDB treats it as a crocodylomorph; placed in Crocodylomorpha as in PBDB.
+authority: Young 1940
+type_species: Lukousaurus yini
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Lukousaurus is a small archosauromorph known from a snout with distinctive lacrimal horns from the Early
+  Jurassic lower Lufeng Formation, China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Lukousaurus yini
+  authority: Young 1940
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Lufeng
+  group: ''
+  members: [Shawan, Zhangjia'ao]
+  country: China
+  regions: [Yunnan]
+  interval: Hettangian–Sinemurian
+  occurrences: 4
+  ma: [192.9, 201.4]
+  id: lufeng-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Most of a small snout from the lower Lufeng Formation, Yunnan.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Lukousaurus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Lukousaurus_skeletal.png/960px-Lukousaurus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lukousaurus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-19'
+  caption: Skeletal reconstruction of Lukousaurus.
+  width: 6500
+  height: 2500
+  review: unreviewed
+  local: img/gallery/Lukousaurus_001.webp
+- kind: life
+  file: Lukousaurus yini.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Lukousaurus_yini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lukousaurus_yini.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-17'
+  caption: Life restoration of Lukousaurus yini.
+  width: 675
+  height: 472
+  review: unreviewed
+  local: img/gallery/Lukousaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/vector.svg
+  png: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/raster/512x140.png
+  page: https://www.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Trialestes romeri
+  matched: Crocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: C.-C. Young. 1940. Preliminary notes on the Lufeng vertebrate fossils. Bulletin of the Geological Society
+    of China 20(3-4):235-239
+- kind: literature
+  text: 'Yates, Adam M. 2010. A revision of the problematic sauropodomorph dinosaurs from Manchester, Connecticut
+    and the status of Anchisaurus Marsh: THE TAXONOMIC STATUS OF ANCHISAURUS. Palaeontology 53(4): 739–752. doi:10.1111/j.1475-4983.2010.00952.x'
+- kind: literature
+  text: 'Baron, Matthew G.; Norman, David B.; Barrett, Paul M. 2017. A new hypothesis of dinosaur relationships
+    and early dinosaur evolution. Nature 543(7646): 501–506. doi:10.1038/nature21700'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lukousaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lukousaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lukousaurus”. English Wikipedia, revision 1346508416.
+  url: https://en.wikipedia.org/w/index.php?title=Lukousaurus&oldid=1346508416
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the images and the life restoration.
+  - Placement is debated (dinosaur, sauropodomorph, crocodylomorph); review the sources (M2).
+  reviews: []

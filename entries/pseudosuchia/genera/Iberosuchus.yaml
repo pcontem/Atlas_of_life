@@ -1,0 +1,185 @@
+name: Iberosuchus
+rank: genus
+parent: sebecosuchia
+incertae_sedis: true
+placement_note: Described as a sebecosuchian; it was also reclassified as a baurusuchid (English Wikipedia); placed
+  in Sebecosuchia.
+authority: Antunes 1975
+type_species: Iberosuchus macrodon
+type_species_note: From the Wikipedia taxobox.
+summary: Iberosuchus is a terrestrial sebecosuchian mesoeucrocodylian from the Eocene of Portugal, Spain and France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 56
+  last_ma: 33.9
+  early_interval: Ypresian
+  late_interval: Priabonian
+  pbdb_occurrences: 24
+  note: ''
+species:
+- name: Iberosuchus macrodon
+  authority: Antunes 1975
+  first_ma: 56
+  last_ma: 37.71
+  interval: Ypresian–Bartonian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon, Lleida, Salamanca, Zamora]
+  interval: Early Eocene–Late Eocene
+  occurrences: 7
+  ma: [33.9, 56.0]
+  id:
+  - unnamed-cazurra-spain
+  - unnamed-les-saleres-spain
+  - unnamed-san-morales-spain
+  - unnamed-santa-clara-de-avedillo-spain
+  - unnamed-teso-de-la-flecha-spain
+  - unnamed-tosalet-del-morral-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Drome, Herault, Languedoc-Roussillon, Languedoc-Roussillon Region]
+  interval: Ypresian–Late Eocene
+  occurrences: 5
+  ma: [33.9, 56.0]
+  id:
+  - unnamed-aumelas-1-france
+  - unnamed-eygalayes-france
+  - unnamed-la-liviniere-france
+  - unnamed-robiac-nord-france
+  - unnamed-saint-martin-de-londres-france
+- formation: Corrales
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Lutetian
+  occurrences: 3
+  ma: [41.03, 48.07]
+  id: corrales-spain
+- formation: Cabrerizos
+  group: ''
+  members: []
+  country: Spain
+  regions: [Salamanca]
+  interval: Bartonian
+  occurrences: 2
+  ma: [37.71, 41.03]
+  id: cabrerizos-spain
+- formation: Entrala
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Lutetian
+  occurrences: 2
+  ma: [41.03, 48.07]
+  id: entrala-spain
+- formation: Mazaterón
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Bartonian
+  occurrences: 1
+  ma: [37.71, 41.03]
+  id: mazateron-spain
+- formation: Feligueira Grande
+  group: ''
+  members: [Lower]
+  country: Portugal
+  regions: [Nazaré]
+  interval: Lutetian–Bartonian
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: feligueira-grande-portugal
+- formation: Escanilla
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragon]
+  interval: Bartonian
+  occurrences: 1
+  ma: [37.71, 41.03]
+  id: escanilla-spain
+- formation: Molasse de Carcassonne
+  group: ''
+  members: []
+  country: France
+  regions: [Occitanie]
+  interval: Ypresian–Lutetian
+  occurrences: 1
+  ma: [41.03, 56.0]
+  id: molasse-de-carcassonne-france
+- formation: Aldearrubia
+  group: ''
+  members: []
+  country: Spain
+  regions: [Salamanca]
+  interval: Bartonian–Priabonian
+  occurrences: 1
+  ma: [33.9, 41.03]
+  id: aldearrubia-spain
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Cranial remains, dentaries, teeth and osteoderms from many sites (24 PBDB occurrences).
+  completeness: fragmentary
+  exceptional: ''
+biology: Described as a terrestrial carnivore (English Wikipedia).
+images:
+- kind: fossil
+  file: Iberosuchus fossil.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Iberosuchus_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Iberosuchus_fossil.jpg
+  artist: UNED Universidad Nacional de Educación a Distancia
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2000-11-08'
+  caption: Iberosuchus fossil.
+  width: 1600
+  height: 1200
+  review: unreviewed
+  local: img/gallery/Iberosuchus_001.webp
+- kind: fossil
+  file: Right Premaxilla Fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Right_Premaxilla_Fossil.jpg/960px-Right_Premaxilla_Fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Right_Premaxilla_Fossil.jpg
+  artist: Jeremy E. Martin, Université Lyon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2012-04-20'
+  caption: Iberosuchus right premaxilla.
+  width: 3008
+  height: 2000
+  review: unreviewed
+  local: img/gallery/Iberosuchus_002.webp
+sources:
+- kind: original
+  text: 'Antunes, M.T. 1975. ''''Iberosuchus'''', crocodile Sebecosuchien nouveau, l''Eocène ibérique au nord de
+    la Chaîne central, et l''origine du canyon de Nazaré. Comunicaçoes Dos Servicos Geologicos de Portugal 59: 285–330.'
+- kind: literature
+  text: 'Ortega, F. 1996. Reinterpretation and new denomination of ''''Atacisaurus crassiproratus'''' (Middle Eocene;
+    Issel, France) as cf. ''''Iberosuchus'''' (Crocodylomorpha, Metasuchia). Geobios 29(3): 353–364. doi:10.1016/S0016-6995(96)80037-4'
+- kind: literature
+  text: 'Martin, Jérémy 2015. A sebecosuchian in a middle Eocene karst with comments on the dorsal shield in Crocodylomorpha.
+    Acta Palaeontologica Polonica 60(3): 673–680.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Iberosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Iberosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Iberosuchus”. English Wikipedia, revision 1325116556.
+  url: https://en.wikipedia.org/w/index.php?title=Iberosuchus&oldid=1325116556
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

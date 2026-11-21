@@ -1,0 +1,77 @@
+name: Paluxysuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: PBDB places it in Paluxysuchidae, which has no clade entry in the atlas yet; placed in Neosuchia,
+  the nearest atlas ancestor.
+authority: Adams 2013
+type_species: Paluxysuchus newmani
+type_species_note: From the Wikipedia taxobox.
+summary: Paluxysuchus is a neosuchian crocodyliform from the Early Cretaceous Twin Mountains Formation of north-central
+  Texas.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 119.57
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Paluxysuchus newmani
+  authority: Adams 2013
+  first_ma: 119.57
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Twin Mountains
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: twin-mountains-united-states
+- formation: Holly Creek
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Arkansas]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: holly-creek-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Twin Mountains Formation and Holly Creek Formation (PBDB).
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: 'Adams, T. L. 2013. A new neosuchian crocodyliform from the Lower Cretaceous (late Aptian) Twin Mountains
+    Formation of North-Central Texas. Journal of Vertebrate Paleontology 33: 85–101. doi:10.1080/02724634.2012.713277'
+- kind: literature
+  text: 'Rose, Peter J. 2007. A new titanosauriform sauropod (Dinosauria: Saurischia) from the Early Cretaceous
+    of central Texas and its phylogenetic relationships. Palaeontologia Electronica 10(2).'
+- kind: literature
+  text: 'd''Emic, M. D.; Foreman, B. Z. 2012. The beginning of the sauropod dinosaur hiatus in North America: Insights
+    from the Lower Cretaceous Cloverly Formation of Wyoming. Journal of Vertebrate Paleontology 32(4). doi:10.1080/02724634.2012.671204'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paluxysuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paluxysuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paluxysuchus”. English Wikipedia, revision 1352710471.
+  url: https://en.wikipedia.org/w/index.php?title=Paluxysuchus&oldid=1352710471
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

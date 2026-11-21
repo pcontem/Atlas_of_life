@@ -1,0 +1,69 @@
+name: Sakhibaghoon
+rank: genus
+parent: gavialoidea
+incertae_sedis: true
+placement_note: PBDB places it in Tomistominae; the group's gavialoid/tomistomine status is debated; placed in Gavialoidea.
+authority: Malkani et al. 2022
+type_species: Sakhibaghoon khizari
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Sakhibaghoon is a crocodylian named in 2022 from the Late Miocene Litra Formation of Pakistan.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 11.63
+  last_ma: 5.333
+  early_interval: Tortonian
+  late_interval: Messinian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sakhibaghoon khizari
+  authority: Malkani et al. 2022
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: Litra
+  group: Vihowa
+  members: []
+  country: Pakistan
+  regions: [South Punjab]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: litra-pakistan
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Litra Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'M. S. Malkani, M. Ilyas, and R. Yasin, A. Abbas, K. Samiullah, T. Raza, S. S. E. Hassan, R. M., Fazal,
+    A. Noor, A. Malik. 2022. Geology of Northern Sulaiman Foldbelt, Shirani and Waziristan Regions (South Punjab,
+    Balochistan and Khyber Pakhtunkhwa): New Tomistominae (Miocene False Gharial) from Sakhi Sarwar Area of Dera
+    Ghazi Khan (South Punjab), Pakistan. Open Journal of Geology 12:521-564'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sakhibaghoon (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sakhibaghoon
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No Wikipedia page; PBDB record only. Malkani's taxa need a validity check (M1).
+  reviews: []

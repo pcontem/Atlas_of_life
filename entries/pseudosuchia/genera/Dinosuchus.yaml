@@ -1,0 +1,87 @@
+name: Dinosuchus
+rank: genus
+parent: alligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Gervais 1876
+type_species: Dinosuchus terror
+type_species_note: Monotypic after D. neivensis was found to be a synonym of Purussaurus (English Wikipedia).
+summary: Dinosuchus is a very large alligatorid known from a vertebra from the Late Miocene Solimões Formation of
+  the Brazilian Amazon.
+size:
+  length_m: null
+  note: Very large compared to other alligatorids except Purussaurus and its closest relatives (English Wikipedia);
+    no number is given.
+age:
+  first_ma: 11.63
+  last_ma: 5.333
+  early_interval: Tortonian
+  late_interval: Messinian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dinosuchus terror
+  authority: Gervais 1876
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: 'Solimões '
+  group: ''
+  members: []
+  country: Brazil
+  regions: []
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+fossil_material:
+  holotype: A vertebra from the Brazilian Amazon described by Gervais (1876); catalogue number not given in the
+    sources consulted.
+  material: The holotype vertebra only.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: “Dinosuchus terror” vertebra.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/65/%E2%80%9CDinosuchus_terror%E2%80%9D_vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:%E2%80%9CDinosuchus_terror%E2%80%9D_vertebra.jpg
+  artist: M. Paul Gervais
+  license: Public domain
+  license_url: ''
+  date: '1876'
+  caption: Vertebra of Dinosuchus terror.
+  width: 1028
+  height: 702
+  review: unreviewed
+  local: img/gallery/Dinosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/vector.svg
+  png: https://images.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2/raster/512x85.png
+  page: https://www.phylopic.org/images/ad397d75-9927-4690-9680-e89d8fb204a2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachychampsa
+  matched: Alligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: P. Gervais. 1876. Crocodile gigantesque fossile au Brésil. Journal de Zoologie 5:232-236
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dinosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dinosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dinosuchus”. English Wikipedia, revision 1340403518.
+  url: https://en.wikipedia.org/w/index.php?title=Dinosuchus&oldid=1340403518
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The name Dinosuchus was also used in 1936 by Broom for a dinocephalian therapsid; not to be confused with Deinosuchus.
+  - Validity of a genus based on one vertebra should be checked (M1).
+  - English Wikipedia dates the genus to the Late Miocene-Late Pliocene; PBDB gives Tortonian-Messinian, used here.
+  reviews: []

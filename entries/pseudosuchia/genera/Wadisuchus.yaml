@@ -1,0 +1,54 @@
+name: Wadisuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Saber et al. 2025
+type_species: Wadisuchus kassabi
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Wadisuchus is an early long-snouted dyrosaurid from the Middle Campanian El Hindaw Member of the Quseir
+  Formation, Egypt.
+size:
+  length_m: [3.51, 3.51]
+  mass_kg: [199.75, 265.15]
+  note: About 3.51 m long and 199.75-265.15 kg for the holotype, estimated from head width (English Wikipedia).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: Campanian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Middle Campanian per English Wikipedia; whole ICS stage used.
+species:
+- name: Wadisuchus kassabi
+  authority: Saber et al. 2025
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: MUVP 180, the better preserved of two nearly complete skulls.
+  material: Two nearly complete skulls.
+  completeness: multiple
+  exceptional: ''
+biology: May have been a fish-eating specialist (English Wikipedia).
+images: []
+sources:
+- kind: original
+  text: Saber, S., Salem, B. S., Ouda, K., Gohar, A. S., El-Sayed, S., O'Connor, P. M. and Sallam, H. M. 2025. An
+    early dyrosaurid (Wadisuchus kassabi gen. et sp. nov.) from the Campanian of Egypt sheds light on the origin
+    and biogeography of Dyrosauridae. Zoological Journal of the Linnean Society 205(2).
+  url: https://doi.org/10.1093/zoolinnean/zlaf134
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: El Hindaw Member, Quseir Formation, Egypt (Middle Campanian). No coordinates or PBDB
+    collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

@@ -1,0 +1,68 @@
+name: Shartegosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: PBDB places it in a shartegosuchid/shartegosuchoid group that has no clade entry in the atlas yet;
+  placed in the nearest atlas ancestor.
+authority: Efimov 1988
+type_species: Shartegosuchus asperopalatum
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Shartegosuchus is a protosuchian-grade crocodyliform from Late Jurassic lake deposits of the Ulan Malgait
+  Formation, Mongolia.
+size:
+  length_m: null
+  note: The holotype is a juvenile, so no adult size is given.
+age:
+  first_ma: 149.2
+  last_ma: 143.1
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Shartegosuchus asperopalatum
+  authority: Efimov 1988
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Ulan Malgait
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Govi-Altay]
+  interval: Tithonian
+  occurrences: 2
+  ma: [143.1, 149.2]
+  id: ulan-malgait-mongolia
+fossil_material:
+  holotype: PIN 4174/2, a partial deformed skull and jaws of a juvenile, Ulan Malgait Formation, Mongolia.
+  material: The holotype and further PBDB occurrences.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: 'L. Fiorelli and J. O. Calvo. 2008. New remains of Notosuchus terrestris Woodward, 1896 (Crocodyliformes:
+    Mesoeucrocodylia) from Late Cretaceous of Neuquen, Patagonia, Argentina. Arquivos do Museu Nacional, Rio de
+    Janeiro 66(1):83-124'
+- kind: literature
+  text: 'Dollman, Kathleen N.; Clark, James M.; Norell, Mark A.; Xing, Xu; Choiniere, Jonah N. 2018. Convergent
+    Evolution of a Eusuchian-Type Secondary Palate within Shartegosuchidae. American Museum Novitates 3901(3901):
+    1–23. doi:10.1206/3901.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shartegosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shartegosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shartegosuchus”. English Wikipedia, revision 1354843832.
+  url: https://en.wikipedia.org/w/index.php?title=Shartegosuchus&oldid=1354843832
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB's listed reference is a Notosuchus paper; add the naming work, Efimov 1988.
+  reviews: []

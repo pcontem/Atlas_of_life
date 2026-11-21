@@ -1,0 +1,81 @@
+name: Atlantosuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Buffetaut and Wouters 1979
+type_species: Atlantosuchus coupatezi
+type_species_note: From the Wikipedia taxobox.
+summary: Atlantosuchus is a dyrosaurid crocodylomorph from the Paleocene of Morocco with the proportionally longest
+  snout of any dyrosaurid.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 66
+  last_ma: 61.66
+  early_interval: Danian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Atlantosuchus coupatezi
+  authority: Buffetaut and Wouters 1979
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: unnamed-atlantosuchus-coupatezi-type-locality-morocco
+- formation: Couche II
+  group: ''
+  members: [IIb]
+  country: Morocco
+  regions: []
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: couche-ii-morocco
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from Couche II and an unnamed unit in Morocco.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: E. Buffetaut and G. Wouters. 1979. Atlantosuchus coupatez i, n. g., n. sp., un nouveau Dyrosauride (Crocodylia,
+    Mesosuchia) des phosphates Montiens du Maroc. Bulletin trimestriel de la Société Géologique de Normandie et
+    des Amis du Muséum du Havre 66:85-90
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Atlantosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Atlantosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Atlantosuchus”. English Wikipedia, revision 1282991459.
+  url: https://en.wikipedia.org/w/index.php?title=Atlantosuchus&oldid=1282991459
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No citations in the Wikipedia revision; add the original (Buffetaut and Wouters 1979).
+  reviews: []

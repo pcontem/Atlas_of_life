@@ -1,0 +1,82 @@
+name: Clovesuurdameredeor
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2020
+type_species: Clovesuurdameredeor stephani
+type_species_note: PBDB's only species, originally Steneosaurus stephani (Hulke 1877).
+summary: Clovesuurdameredeor is a machimosaurid teleosauroid from the Bathonian Cornbrash of England.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Clovesuurdameredeor stephani
+  authority: (Hulke 1877)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: Cornbrash
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: cornbrash-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Cornbrash.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Clovesuurdameredeor.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Clovesuurdameredeor.png/960px-Clovesuurdameredeor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Clovesuurdameredeor.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Clovesuurdameredeor fossil.
+  width: 2428
+  height: 1995
+  review: unreviewed
+  local: img/gallery/Clovesuurdameredeor_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Clovesuurdameredeor (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Clovesuurdameredeor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Clovesuurdameredeor”. English Wikipedia, revision 1372391170.
+  url: https://en.wikipedia.org/w/index.php?title=Clovesuurdameredeor&oldid=1372391170
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

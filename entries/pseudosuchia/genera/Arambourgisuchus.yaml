@@ -1,0 +1,118 @@
+name: Arambourgisuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Jouve et al. 2005
+type_species: Arambourgisuchus khouribgaensis
+type_species_note: From the Wikipedia taxobox.
+summary: Arambourgisuchus is a dyrosaurid crocodylomorph from the late Paleocene of Morocco, found near Sidi Chenane
+  in 2000.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 61.66
+  last_ma: 59.24
+  early_interval: Selandian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Arambourgisuchus khouribgaensis
+  authority: Jouve et al. 2005
+  first_ma: 61.66
+  last_ma: 59.24
+  interval: Selandian
+  reference: original description
+formations:
+- formation: Couche II
+  group: ''
+  members: [IIa]
+  country: Morocco
+  regions: []
+  interval: Selandian
+  occurrences: 1
+  ma: [59.24, 61.66]
+  id: couche-ii-morocco
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from Couche II, Morocco.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Arambourgisuchus khouribgaensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Arambourgisuchus_khouribgaensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Arambourgisuchus_khouribgaensis.jpg
+  artist: Stéphane Jouve, Mohamed Iarochčne, Baâdi Bouya, and Mbarek Amaghzaz
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2005'
+  caption: Arambourgisuchus khouribgaensis fossil.
+  width: 827
+  height: 711
+  review: unreviewed
+  local: img/gallery/Arambourgisuchus_001.webp
+- kind: fossil
+  file: Arambourgisuchus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Arambourgisuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Arambourgisuchus.png
+  artist: Jouve, S.; Iarochène, M.; Bouya, B. & Amaghzaz, M.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2005'
+  caption: Arambourgisuchus fossil.
+  width: 862
+  height: 614
+  review: unreviewed
+  local: img/gallery/Arambourgisuchus_002.webp
+- kind: life
+  file: Arambourgisuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/10/Arambourgisuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Arambourgisuchus.jpg
+  artist: Stéphane Jouve, Mohamed Iarochčne, Baâdi Bouya, and Mbarek Amaghzaz
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2005'
+  caption: Life restoration of Arambourgisuchus.
+  width: 1036
+  height: 778
+  review: unreviewed
+  local: img/gallery/Arambourgisuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: S. Jouve, M. Iarochène, and B. Bouya, M. Amaghzaz. 2005. A new dyrosaurid crocodyliform from the Palaeocene
+    of Morocco and a phylogenetic analysis of Dyrosauridae. Acta Palaeontologica Polonica 50(3):581-594
+- kind: literature
+  text: 'Jouve, S. 2005. A new dyrosaurid crocodyliform from the Palaeocene of Morocco and a phylogenetic analysis
+    of Dyrosauridae. Acta Palaeontologica Polonica 50(3): 581–594.'
+- kind: literature
+  text: 'Jouve, Stéphane; de Muizon, Christian; Cespedes-Paz, Ricardo; Sossa-Soruco, Víctor; Knoll, Stephane 2020.
+    The longirostrine crocodyliforms from Bolivia and their evolution through the Cretaceous–Palaeogene boundary.
+    Zoological Journal of the Linnean Society 192(zlaa081): 475–509. doi:10.1093/zoolinnean/zlaa081'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arambourgisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arambourgisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Arambourgisuchus”. English Wikipedia, revision 1282991453.
+  url: https://en.wikipedia.org/w/index.php?title=Arambourgisuchus&oldid=1282991453
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the life restoration.
+  - Wikipedia lead says the page is partly not about the genus; verify the revision text.
+  reviews: []

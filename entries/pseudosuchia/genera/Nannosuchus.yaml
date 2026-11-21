@@ -1,0 +1,111 @@
+name: Nannosuchus
+rank: genus
+parent: goniopholididae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1879
+type_species: Nannosuchus gracilidens
+type_species_note: From the Wikipedia taxobox (originally Goniopholis gracilidens Owen 1879).
+summary: Nannosuchus is a small goniopholidid mesoeucrocodylian from the Berriasian Purbeck of England, first named
+  as a species of Goniopholis.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 143.1
+  last_ma: 121.4
+  early_interval: Berriasian
+  late_interval: Barremian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Nannosuchus gracilidens
+  authority: (Owen 1879)
+  first_ma: 143.1
+  last_ma: 121.4
+  interval: Berriasian–Barremian
+  reference: original description
+formations:
+- formation: Lulworth
+  group: Purbeck
+  members: [Worbarrow Tout]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Berriasian–Middle Berriasian
+  occurrences: 2
+  ma: [139.1, 143.1]
+  id: lulworth-united-kingdom
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Lulworth Formation (England) and La Huérguina (Spain).
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Nannosuchus sp 34.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Nannosuchus_sp_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nannosuchus_sp_34.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-10-30'
+  caption: Nannosuchus fossil.
+  width: 1428
+  height: 858
+  review: unreviewed
+  local: img/gallery/Nannosuchus_001.webp
+- kind: fossil
+  file: Nannosuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b9/Nannosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nannosuchus.jpg
+  artist: C. L. Griesbach
+  license: Public domain
+  license_url: ''
+  date: 1800s date
+  caption: Nannosuchus fossil.
+  width: 1375
+  height: 1805
+  review: unreviewed
+  local: img/gallery/Nannosuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Goniopholididae
+  genus_level: false
+sources:
+- kind: original
+  text: Owen, R. 1879. On the Association of Dwarf Crocodiles (''Nannosuchus'' and ''Theriosuchus pusillus'', e.g.)
+    with the Diminutive Mammals of the Purbeck Shales. Quarterly Journal of the Geological Society 35(1–4). doi:10.1144/GSL.JGS.1879.035.01-04.02
+- kind: literature
+  text: 'Marco Brandalise de Andrade 2011. A new Berriasian species of ''''Goniopholis'''' (Mesoeucrocodylia, Neosuchia)
+    from England, and a review of the genus. Zoological Journal of the Linnean Society 163(s1): S66–S108. doi:10.1111/j.1096-3642.2011.00709.x'
+- kind: literature
+  text: Owen, R. 1878. Monograph on the Fossil Reptilia of the Wealden and Purbeck Formations. Palæontographical
+    Society 31.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nannosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nannosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nannosuchus”. English Wikipedia, revision 1282991638.
+  url: https://en.wikipedia.org/w/index.php?title=Nannosuchus&oldid=1282991638
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

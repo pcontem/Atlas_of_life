@@ -1,0 +1,53 @@
+name: Paarthurnax
+rank: genus
+parent: goniopholididae
+incertae_sedis: true
+placement_note: The naming paper calls it a neosuchian crocodyliform; English Wikipedia places it in Goniopholididae.
+authority: Platt et al. 2025
+type_species: Paarthurnax holliensis
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Paarthurnax is a neosuchian crocodyliform from the Aptian-Albian Holly Creek Formation of Arkansas, about
+  4 m long.
+size:
+  length_m: [3.975, 3.975]
+  mass_kg: null
+  note: Total length about 3.975 m, estimated by the authors (English Wikipedia); skull about 530 mm.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Aptian to Albian per English Wikipedia.
+species:
+- name: Paarthurnax holliensis
+  authority: Platt et al. 2025
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: TxVP 41881-1, a nearly complete skull with a single partial paravertebral osteoderm.
+  material: The holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: Platt, N. C., Adams, T. L. and Brochu, C. A. 2025. A new neosuchian crocodyliform from the Lower Cretaceous
+    (Aptian-Albian) Holly Creek Formation. Journal of Vertebrate Paleontology e2536843.
+  url: https://doi.org/10.1080/02724634.2025.2536843
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Holly Creek Formation (Trinity Group), southwest Arkansas, USA (Aptian-Albian). No
+    coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

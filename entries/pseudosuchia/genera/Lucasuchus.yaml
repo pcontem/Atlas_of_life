@@ -1,0 +1,82 @@
+name: Lucasuchus
+rank: genus
+parent: desmatosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Long and Murry 1995
+type_species: Lucasuchus hunti
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Lucasuchus is an aetosaur from the Late Triassic Bull Canyon Formation of New Mexico.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Lucasuchus hunti
+  authority: Long and Murry 1995
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Pekin
+  group: Chatham
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Carnian
+  occurrences: 3
+  ma: [227.3, 237.0]
+  id: pekin-united-states
+- formation: Colorado City
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: colorado-city-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Revuelto Creek locality, Quay County; PBDB also lists the Pekin and Colorado City
+    formations.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: R. A. Long and P. A. Murry. 1995. Late Triassic (Carnian and Norian) Tetrapods from the Southwestern United
+    States. New Mexico Museum of Natural History and Science Bulletin 4:1-254
+- kind: literature
+  text: 'Parker, W.G. 2010. Using positional homology in aetosaur (Archosauria: Pseudosuchia) osteoderms to evaluate
+    the taxonomic status of ''''Lucasuchus hunti''''. Journal of Vertebrate Paleontology 30(4): 1100–1108. doi:10.1080/02724634.2010.483536'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lucasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lucasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lucasuchus”. English Wikipedia, revision 1258130829.
+  url: https://en.wikipedia.org/w/index.php?title=Lucasuchus&oldid=1258130829
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original (Long and Murry 1995).]
+  reviews: []

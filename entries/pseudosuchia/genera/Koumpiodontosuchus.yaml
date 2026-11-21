@@ -1,0 +1,113 @@
+name: Koumpiodontosuchus
+rank: genus
+parent: bernissartiidae
+incertae_sedis: false
+placement_note: ''
+authority: Sweetman et al. 2015
+type_species: Koumpiodontosuchus aprosdokiti
+type_species_note: Monotypic genus; the only species is the type.
+summary: Koumpiodontosuchus is a small bernissartiid neosuchian from the Early Cretaceous Wessex Formation of the
+  Isle of Wight, England.
+size:
+  length_m: null
+  note: Small; an isolated tooth twice the size of those in the holotype is known; no length is given.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Koumpiodontosuchus aprosdokiti
+  authority: Sweetman et al. 2015
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: A skull fragment found in 2011 on a beach near Sandown, Isle of Wight, by Diane Trevarthen; Catalogue
+    number not given in the sources consulted.
+  material: The holotype fragments and an isolated tooth found by Megan Jacobs.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Koumpiodontosuchus aprosdokiti (holotype, CT data).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ef/Koumpiodontosuchus_aprosdokiti_%28holotype%2C_CT_data%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Koumpiodontosuchus_aprosdokiti_(holotype,_CT_data).jpg
+  artist: Chris T. Barker
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2026-04-13'
+  caption: Holotype of Koumpiodontosuchus aprosdokiti.
+  width: 846
+  height: 790
+  review: unreviewed
+  local: img/gallery/Koumpiodontosuchus_001.webp
+- kind: fossil
+  file: Koumpiodontosuchus aprosdokiti.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Koumpiodontosuchus_aprosdokiti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Koumpiodontosuchus_aprosdokiti.jpg
+  artist: Steven C. Sweetman, Ulysse Pedreira-Segade, and Steven Vidovic
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2014'
+  caption: Koumpiodontosuchus aprosdokiti.
+  width: 1363
+  height: 1560
+  review: unreviewed
+  local: img/gallery/Koumpiodontosuchus_002.webp
+- kind: life
+  file: Koumpiodontosuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Koumpiodontosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Koumpiodontosuchus.jpg
+  artist: Illustration by Mark Witton.
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2014'
+  caption: Life restoration of Koumpiodontosuchus.
+  width: 1078
+  height: 539
+  review: unreviewed
+  local: img/gallery/Koumpiodontosuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/cd34322c-9f71-4c57-9836-b60926b8e7b7/vector.svg
+  png: https://images.phylopic.org/images/cd34322c-9f71-4c57-9836-b60926b8e7b7/raster/512x113.png
+  page: https://www.phylopic.org/images/cd34322c-9f71-4c57-9836-b60926b8e7b7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Bernissartia fagesii
+  matched: Bernissartiidae
+  genus_level: false
+  w: 512
+  h: 113
+sources:
+- kind: original
+  text: S. C. Sweetman, U. Pedreira-Segade, and S. U. Vidovic. 2015. A new bernissartiid crocodyliform from the
+    Lower Cretaceous Wessex Formation (Wealden Group, Barremian) of the Isle of Wight, southern England. Acta Palaeontologica
+    Polonica 60(2):257-268
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Koumpiodontosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Koumpiodontosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Koumpiodontosuchus”. English Wikipedia, revision 1378597654.
+  url: https://en.wikipedia.org/w/index.php?title=Koumpiodontosuchus&oldid=1378597654
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the life restoration.]
+  reviews: []

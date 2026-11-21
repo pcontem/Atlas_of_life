@@ -3,18 +3,23 @@ name: Manda Beds
 rank: formation
 group: ''
 country: Tanzania
-regions: [Ruvuma]
+regions: [Iringa, Ruvuma]
 location:
-  lat: -10.343
-  lng: 35.242
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: -10.35
+  lng: 35.25
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 247.0
   last_ma: 241.464
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial-lacustrine indet.]
-lithology: [sandstone, marl, mudstone]
-pbdb_collections: ['194380', '194381', '194382', '194548']
+environment:
+- fluvial-lacustrine indet.
+- fluvial-deltaic indet.
+- terrestrial indet.
+- fluvial indet.
+lithology: [sandstone, not reported, marl, mudstone]
+pbdb_collections: ['55756', '64085', '93024', '105297', '105767', '136941', '159740', '194380', '194381', '194382',
+  '194548']
 includes: []
 summary: ''
 paleoenvironment: ''

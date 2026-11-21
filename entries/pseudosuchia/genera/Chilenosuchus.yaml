@@ -1,0 +1,81 @@
+name: Chilenosuchus
+rank: genus
+parent: aetosauria
+incertae_sedis: true
+placement_note: Its armour resembles Typothorax and it has been placed in Typothoracisinae, but many other differences
+  leave its position within the aetosaurs uncertain (English Wikipedia).
+authority: Casamiquela 1980
+type_species: Chilenosuchus forttae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Chilenosuchus is an aetosaur known from poorly preserved remains in the El Bordo Formation of northern
+  Chile, of uncertain age.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 201.4
+  early_interval: Carnian
+  late_interval: Rhaetian
+  pbdb_occurrences: 1
+  note: PBDB gives Carnian-Rhaetian (Late Triassic). English Wikipedia notes that fossil plants and invertebrates
+    suggest a Late Carboniferous or Early Permian age for the beds, which conflicts with an aetosaur.
+species:
+- name: Chilenosuchus forttae
+  authority: Casamiquela 1980
+  first_ma: 237
+  last_ma: 201.4
+  interval: Carnian–Rhaetian
+  reference: original description
+formations:
+- formation: El Bordo
+  group: ''
+  members: []
+  country: Chile
+  regions: [Antofagasta]
+  interval: Late Triassic
+  occurrences: 1
+  ma: [201.4, 237.0]
+  id: el-bordo-chile
+fossil_material:
+  holotype: Described by Casamiquela (1980) from the El Bordo Formation, Antofagasta Region, Chile; the catalogue
+    number is not given in the sources consulted.
+  material: The original specimens, known partly from poor-quality photographs.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted describe the armour but give no direct evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Aetosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Casamiquela, R.M. 1980. Nota sobre restos de un reptil aetosauroideo (Thecodontia, Aetosauria) de Quimal,
+    Cordillera de Domeyko, Antofagasta. Prueba de la existencia del Neotriásico continental en los Andes del Norte
+    de Chile. In Congreso Argentino de Paleontología y Bioestratigrafía, No. 2 y Congreso Latinoamericano de Paleontología
+    1(1): 135–142.'
+- kind: literature
+  text: 'Desojo, J. B. 2003. Redescripcion del aetosaurio ''''Chilenosuchus forttae'''' Casamiqueal (Diapsida: Arcosauria):
+    presencia de Triásico continental en el norte de Chile. Revista Geológica de Chile 30(1): 53–63. doi:10.4067/S0716-02082003000100004'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chilenosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chilenosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chilenosuchus”. English Wikipedia, revision 1318896719.
+  url: https://en.wikipedia.org/w/index.php?title=Chilenosuchus&oldid=1318896719
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Age of the El Bordo beds conflicts with the aetosaur identification; check the literature.
+  - PBDB's reference is Desojo et al. 2013 (a review); the naming work used here is Casamiquela 1980.
+  - No images found among the automatic candidates.
+  reviews: []
