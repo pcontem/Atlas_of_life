@@ -1,0 +1,76 @@
+name: Pachycheilosuchus
+rank: genus
+parent: hylaeochampsidae
+incertae_sedis: false
+placement_note: ''
+authority: Rogers 2003
+type_species: Pachycheilosuchus trinquei
+type_species_note: From the Wikipedia taxobox.
+summary: Pachycheilosuchus is a neosuchian with thick lips and procoelous vertebrae from the Early Cretaceous Glen
+  Rose Limestone of Texas.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pachycheilosuchus trinquei
+  authority: Rogers 2003
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Glen Rose Limestone
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: glen-rose-limestone-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Glen Rose Limestone.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/vector.svg
+  png: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/raster/512x86.png
+  page: https://www.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c
+  attribution: François-Louis Pelissier
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Acynodon iberoccitanus
+  matched: Hylaeochampsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Rogers, Jack V. II 2003. ''''Pachycheilosuchus trinquei'''', a new procoelous crocodyliform from the Lower
+    Cretaceous (Albian) Glen Rose Formation of Texas. Journal of Vertebrate Paleontology 23(1): 128–145. doi:10.1671/0272-4634(2003)23[128:PTANPC]2.0.CO;2'
+- kind: literature
+  text: Iijima, M.; Kubo, T. 2020. Vertebrae-Based Body Length Estimation in Crocodylians and Its Implication for
+    Sexual Maturity and the Maximum Sizes. Integrative Organismal Biology 2(1). doi:10.1093/iob/obaa042
+- kind: literature
+  text: 'Buscalioni, A.D. 2011. Early eusuchia crocodylomorpha from the vertebrate-rich Plattenkalk of Pietraroia
+    (Lower Albian, southern Apennines, Italy). Zoological Journal of the Linnean Society 163: S199–S227. doi:10.1111/j.1096-3642.2011.00718.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pachycheilosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pachycheilosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pachycheilosuchus”. English Wikipedia, revision 1382256550.
+  url: https://en.wikipedia.org/w/index.php?title=Pachycheilosuchus&oldid=1382256550
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add body-length estimate from Iijima and Kubo 2020 if applicable.]
+  reviews: []

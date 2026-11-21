@@ -1,0 +1,87 @@
+name: Unasuchus
+rank: genus
+parent: hylaeochampsidae
+incertae_sedis: false
+placement_note: ''
+authority: Brinkmann 1992
+type_species: Unasuchus reginae
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Unasuchus is a hylaeochampsid eusuchian from the Early Cretaceous of Uña, central Spain.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 132.6
+  last_ma: 121.4
+  early_interval: Hauterivian
+  late_interval: Barremian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Unasuchus reginae
+  authority: Brinkmann 1992
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+- formation: El Castellar
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Hauterivian–Late Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: el-castellar-spain
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from La Huérguina and El Castellar.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/vector.svg
+  png: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/raster/512x86.png
+  page: https://www.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c
+  attribution: François-Louis Pelissier
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Acynodon iberoccitanus
+  matched: Hylaeochampsidae
+  genus_level: false
+sources:
+- kind: original
+  text: J. E. Martin and M. Delfino. 2010. Recent advances in the comprehension of the biogeography of Cretaceous
+    European eusuchians. Palaeogeography, Palaeoclimatology, Palaeoecology 293:406-418
+- kind: literature
+  text: 'Ortega, F. 1996. Sobre la presencia de un cocodrilo fósil (Crocodylomorpha: Neosuchia: ''''Goniopholis''''
+    sp.) en la cuenca de Cameros (Cretácico inferior: Vadillos-San Román de Cameros, La Rioja). Zubía 14: 113–120.'
+- kind: literature
+  text: 'Martin, J.E. 2010. Recent advances in the comprehension of the biogeography of Cretaceous European eusuchians.
+    Palaeogeography, Palaeoclimatology, Palaeoecology 293(3): 406–418. doi:10.1016/j.palaeo.2009.10.021'
+- kind: literature
+  text: 'Stéphane Jouve 2017. The first crocodylomorph from the Mesozoic of Turkey (Barremian of Zonguldak) and
+    the dispersal of the eusuchians during the Cretaceous. Journal of Systematic Palaeontology 17(2): 111–128. doi:10.1080/14772019.2017.1393469'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Unasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Unasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Unasuchus”. English Wikipedia, revision 1292769660.
+  url: https://en.wikipedia.org/w/index.php?title=Unasuchus&oldid=1292769660
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original (Brinkmann 1992).]
+  reviews: []

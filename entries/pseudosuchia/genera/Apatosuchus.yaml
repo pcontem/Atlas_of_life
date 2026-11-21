@@ -1,0 +1,82 @@
+name: Apatosuchus
+rank: genus
+parent: loricata
+incertae_sedis: false
+placement_note: ''
+authority: Sues and Schoch 2013
+type_species: Apatosuchus orbitoangulatus
+type_species_note: PBDB's only species, a combination of Halticosaurus orbitoangulatus (Huene 1932); check.
+summary: Apatosuchus is a non-crocodylomorph loricatan pseudosuchian from the Late Triassic Stubensandstein of Germany.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 215.38
+  last_ma: 211.18
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Apatosuchus orbitoangulatus
+  authority: (Huene 1932)
+  first_ma: 215.38
+  last_ma: 211.18
+  interval: Norian
+  reference: original description
+formations:
+- formation: Löwenstein
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Alaunian
+  occurrences: 1
+  ma: [211.18, 215.38]
+  id: lowenstein-germany
+fossil_material:
+  holotype: A partial skull from the middle Stubensandstein.
+  material: The holotype.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Apatosuchus orbitoangulatus (holotype, 4SMNS 12353b).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Apatosuchus_orbitoangulatus_%28holotype%2C_4SMNS_12353b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Apatosuchus_orbitoangulatus_(holotype,_4SMNS_12353b).jpg
+  artist: H.-D. Sues & R. R. Schoch
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025-12-04'
+  caption: Holotype of Apatosuchus orbitoangulatus.
+  width: 889
+  height: 650
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/vector.svg
+  png: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/raster/606x1536.png
+  page: https://www.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243
+  attribution: Noah Schlottman, photo from Casey Dunn
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Polyplacophora
+  matched: Loricata
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sues, H. D.; Schoch, R. R. 2013. Reassessment of cf. ''''Halticosaurus orbitoangulatus'''' from the Upper
+    Triassic (Norian) of Germany - a pseudosuchian, not a dinosaur. Zoological Journal of the Linnean Society 168(4):
+    859. doi:10.1111/zoj.12038'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Apatosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Apatosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Apatosuchus”. English Wikipedia, revision 1349622402.
+  url: https://en.wikipedia.org/w/index.php?title=Apatosuchus&oldid=1349622402
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the image.]
+  reviews: []
