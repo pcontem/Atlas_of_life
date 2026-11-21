@@ -737,3 +737,10 @@ The 59 clade nodes of Pseudosuchia left `backbone.json` for `entries/pseudosuchi
 above). Ids with a prefix were shortened to the clade name in lower case (e.g. `notosuchia__sebecosuchia` →
 `sebecosuchia`, `crocodylia__alligatoroidea__alligatoridae` → `alligatoridae`); the backbone genus nodes now
 point to the new ids.
+
+## Misspelled genus nodes of Pseudosuchia (2026-11-21)
+Backbone genus nodes with misspelled names were replaced by entries under the valid spelling (PBDB and English Wikipedia):
+Xilosuchus → Xilousuchus, Pseudohesperosuchus → Pseudhesperosuchus, Fruitachampsia → Fruitachampsa,
+Gracilineusteus → Gracilineustes, Racheosaurus → Rhacheosaurus, Phosphatosuchus → Phosphatosaurus.
+Pelagosuchus was a duplicate of Pelagosaurus (already an entry) and was removed.
+
