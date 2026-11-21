@@ -1,0 +1,101 @@
+name: Zholsuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: Possibly a goniopholidid mesoeucrocodylian; known only from a premaxilla, and a 2000 review (Storrs
+  and Efimov) is cited for its status (English Wikipedia).
+authority: Nesov et al. 1989
+type_species: Zholsuchus procerus
+type_species_note: Monotypic in PBDB; Wikipedia's taxobox spells the epithet 'procevus' — check the spelling.
+summary: Zholsuchus is a crocodyliform known only from a premaxilla from the Turonian Bissekty Formation of Uzbekistan,
+  possibly a goniopholidid.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 72.2
+  early_interval: Cenomanian
+  late_interval: Campanian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Zholsuchus procerus
+  authority: Nesov et al. 1989
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+- formation: Bostobe
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Qyzylorda]
+  interval: Santonian–Early Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: bostobe-kazakhstan
+- formation: Khodzhakul
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: khodzhakul-uzbekistan
+- formation: Zhirkindek
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Qyzylorda]
+  interval: Late Turonian–Coniacian
+  occurrences: 1
+  ma: [85.7, 93.9]
+  id: zhirkindek-kazakhstan
+fossil_material:
+  holotype: A right premaxilla from the Bissekty Formation, Dzharakhuduk, Uzbekistan (Nessov et al. 1989); Catalogue
+    number not given in the sources consulted.
+  material: The premaxilla; PBDB also lists occurrences in Kazakhstan and Uzbekistan.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/vector.svg
+  png: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/raster/512x398.png
+  page: https://www.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b
+  attribution: B Kimmel
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Crocodylia
+  matched: Crocodylia
+  genus_level: false
+sources:
+- kind: original
+  text: G. W. Storrs and M. B. Efimov. 2000. Mesozoic crocodyliforms of north-central Eurasia. The Age of Dinosaurs
+    in Russia and Mongolia
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zholsuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zholsuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zholsuchus”. English Wikipedia, revision 1318375441.
+  url: https://en.wikipedia.org/w/index.php?title=Zholsuchus&oldid=1318375441
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the epithet spelling (procerus vs procevus).
+  - Check validity after Storrs and Efimov 2000 (M1).
+  reviews: []

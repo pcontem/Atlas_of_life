@@ -5,17 +5,18 @@ group: ''
 country: Egypt
 regions: [Giza]
 location:
-  lat: 28.431
-  lng: 28.923
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 28.38
+  lng: 28.966
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 100.5
   last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: ['"floodplain"']
-lithology: [sandstone]
-pbdb_collections: ['226126']
-includes: []
+environment: ['"floodplain"', terrestrial indet.]
+lithology: [sandstone, not reported]
+pbdb_collections: ['153671', '226126']
+includes:
+- PBDB collection “Bahariya” has no formation but is a locality of the Bahariya.
 summary: ''
 paleoenvironment: ''
 sources:

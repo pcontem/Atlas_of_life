@@ -1,0 +1,74 @@
+name: Brachygnathosuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: Only 'crocodilian' is supported by the sources consulted; no finer placement is given.
+authority: Mook 1921
+type_species: Brachygnathosuchus braziliensis
+type_species_note: From the Wikipedia taxobox.
+summary: Brachygnathosuchus is a crocodilian known from partial remains found in the Upper Purus River region of
+  western Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 11.63
+  last_ma: 7.246
+  early_interval: Tortonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Brachygnathosuchus neivensis
+  authority: (Mook 1941)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+fossil_material:
+  holotype: Remains from the Upper Purus River, western Brazil, found in river silt (Mook 1921); Catalogue number
+    not given in the sources consulted.
+  material: Partial remains and an eroded osteoderm.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/vector.svg
+  png: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/raster/512x398.png
+  page: https://www.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b
+  attribution: B Kimmel
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Crocodylia
+  matched: Crocodylia
+  genus_level: false
+sources:
+- kind: original
+  text: C. C. Mook. 1921. Brachygnathosuchus braziliensis, a new fossil crocodilian from Brazil. Bulletin of the
+    American Museum of Natural History 44:43-49
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brachygnathosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brachygnathosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brachygnathosuchus”. English Wikipedia, revision 1268054012.
+  url: https://en.wikipedia.org/w/index.php?title=Brachygnathosuchus&oldid=1268054012
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The original specimen has no lithified context, so its age is uncertain; the age here is from PBDB (Solimões
+    Formation, Tortonian) — check.
+  - PBDB lists a species B. neivensis (Mook 1941); Wikipedia's lead names only B. braziliensis.
+  reviews: []

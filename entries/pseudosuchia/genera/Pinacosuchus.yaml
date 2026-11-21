@@ -1,0 +1,72 @@
+name: Pinacosuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: true
+placement_note: Gilmore (1942) considered and rejected a pseudosuchian thecodont identity; the specimen is too fragmentary
+  for a finer placement (English Wikipedia).
+authority: Gilmore 1942
+type_species: Pinacosuchus mantiensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Pinacosuchus is a small crocodylomorph with spiky dermal armour, known from limited remains from the Maastrichtian
+  North Horn Formation of Utah.
+size:
+  length_m: null
+  note: Small-bodied; the sacrum of USNM 16592 is only 14.3 mm long; no body length is given.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pinacosuchus mantiensis
+  authority: Gilmore 1942
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: North Horn
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: north-horn-united-states
+fossil_material:
+  holotype: 'USNM 16592: a fragment of upper jaw, several vertebrae and armour, from the North Horn Formation, Utah.'
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/vector.svg
+  png: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/raster/512x398.png
+  page: https://www.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b
+  attribution: B Kimmel
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Crocodylia
+  matched: Crocodylia
+  genus_level: false
+sources:
+- kind: original
+  text: C. W. Gilmore. 1942. A new fossil reptile from the Upper Cretaceous of Utah. Proceedings of the United States
+    National Museum 93(3158):109-114
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pinacosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pinacosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pinacosuchus”. English Wikipedia, revision 1372901613.
+  url: https://en.wikipedia.org/w/index.php?title=Pinacosuchus&oldid=1372901613
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia's citations include O'Neill 1981 on Akanthosuchus; check whether it concerns the same specimens.
+  reviews: []
