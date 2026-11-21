@@ -291,3 +291,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 ## 2026-11-21 — Genus spotlight stays in view
 - Bug: below 1100 px wide the column was switched to a static row and scrolled away with the list; on short windows the fixed column was taller than the window and cut the last card.
 - Now sticky down to 700 px (compact 170 px column below 1250 px), with a maximum height of the window.
+
+## 2026-11-21 — Genus spotlight scrolls with the Index
+- Owner: the spotlight must move together with the list when scrolling, not stay fixed on screen. The sticky behaviour added earlier the same day is removed (the column is ordinary page content).
