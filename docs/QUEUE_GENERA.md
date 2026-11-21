@@ -320,8 +320,8 @@ Genera: Fukuivenator
 ### [ ] Aves (crown group) — direct genera (`aves`) — genera 0/1, clades 0/0
 Genera: Struthio
 
-### [ ] Archaeplastida (`archaeplastida`) — genera 0/6, clades 4/24
-Clades: ~~`archaeplastida`~~, `rhodophyta`, ~~`viridiplantae`~~, ~~`chlorophyta`~~, ~~`streptophyta`~~, `embryophyta`, `briofitas`, `tracheophyta`, `lycophyta`, `lepidodendrales`, `euphyllophyta`, `polypodiopsida`, `lignofitas`, `progymnospermae`, `spermatophyta`, `glossopteridales`, `acrogymnospermae`, `cycadophyta`, `ginkgophyta`, `pinophyta`, `angiospermae`, `amborellales`, `monocotyledoneae`, `eudicotyledoneae`
+### [ ] Archaeplastida (`archaeplastida`) — genera 0/6, clades 8/24
+Clades: ~~`archaeplastida`~~, ~~`rhodophyta`~~, ~~`viridiplantae`~~, ~~`chlorophyta`~~, ~~`streptophyta`~~, ~~`embryophyta`~~, ~~`briofitas`~~, ~~`tracheophyta`~~, `lycophyta`, `lepidodendrales`, `euphyllophyta`, `polypodiopsida`, `lignofitas`, `progymnospermae`, `spermatophyta`, `glossopteridales`, `acrogymnospermae`, `cycadophyta`, `ginkgophyta`, `pinophyta`, `angiospermae`, `amborellales`, `monocotyledoneae`, `eudicotyledoneae`
 Genera: Lepidodendron, Archaeopteris, Glossopteris, Ginkgo, Wollemia, Amborella
 
 ### [ ] Holomycota (`holomycota`) — genera 0/1, clades 0/2
