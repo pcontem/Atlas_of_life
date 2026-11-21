@@ -314,3 +314,14 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Raw material is requested through `data/raw/harvest_request.json` (all PBDB genera of Sauropodomorpha; `harvest.yml` runs on the branch).
   Ichno- and oogenera (flags I/F) are not entries. Genera that only Wikipedia lists (e.g. Musango, Yantaloong) and literature leads need a
   check against PBDB before they are drafted.
+
+## 2026-11-21 — Sauropodomorpha: scope and clade entries
+- Owner: one volume (449 valid PBDB genera, close enough to the ~300 limit); ichnogenera and oogenera (PBDB flags I/F) stay out;
+  clade entries are written together with the genera.
+- 20 clade entries written from the backbone's Sauropodomorpha clades (Wikipedia revisions and PBDB records of 2026-11-16): Sauropodiformes,
+  Sauropoda, Diplodocoidea, Rebbachisauridae, Dicraeosauridae, Diplodocidae, Apatosaurinae, Diplodocinae, Macronaria, Brachiosauridae,
+  Titanosauria, Lognkosauria, Saltasauroidea, Euhelopodidae, Mamenchisauridae, Turiasauria, Unaysauridae, Plateosauridae,
+  Massospondylidae, Riojasauridae. They moved from the backbone to `entries/sauropodomorpha/clades`; compound ids lost their prefix and the
+  parents of the backbone genera were remapped. Tree structure unchanged. Authorities that PBDB and Wikipedia attribute differently
+  (Rebbachisauridae, Dicraeosauridae, Saltasauroidea, Mamenchisauridae) are noted in `curation.notes`.
+- Clades seen only in Wikipedia categories (Massopoda, Saturnaliidae, Anchisauria) are not added yet (M6): they come with the genera that need them.
