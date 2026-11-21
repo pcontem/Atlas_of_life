@@ -1,0 +1,94 @@
+name: Gunggamarandu
+rank: genus
+parent: gavialoidea
+incertae_sedis: true
+placement_note: Treated as a tomistomine in the literature cited by English Wikipedia and as a gavialoid in PBDB;
+  the tomistomine/gavialoid affinity of this group is debated; placed in Gavialoidea.
+authority: Ristevski et al. 2021
+type_species: Gunggamarandu maunala
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Gunggamarandu is a tomistomine crocodilian from Pliocene-Pleistocene deposits of the Darling Downs, Australia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 5.333
+  last_ma: 0.0117
+  early_interval: Zanclean
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gunggamarandu maunala
+  authority: Ristevski et al. 2021
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Pliocene–Pleistocene
+  occurrences: 1
+  ma: [0.0117, 5.333]
+  id: unnamed-darling-downs-australia
+fossil_material:
+  holotype: A skull from the Darling Downs (Ristevski et al. 2021; the image caption below shows the holotype).
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Gunggamarandu holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Gunggamarandu_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gunggamarandu_holotype.png
+  artist: Ristevski et al.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-09'
+  caption: Holotype of Gunggamarandu maunala.
+  width: 255
+  height: 280
+  review: unreviewed
+- kind: fossil
+  file: Gunggamarandu skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e5/Gunggamarandu_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gunggamarandu_skull.png
+  artist: Ristevski J, Price GJ, Weisbecker V, Salisbury SW
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-09'
+  caption: Skull of Gunggamarandu.
+  width: 1171
+  height: 388
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/vector.svg
+  png: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/raster/536x1311.png
+  page: https://www.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Gunggamarandu maunala
+  matched: Gavialoidea
+  genus_level: false
+sources:
+- kind: original
+  text: Ristevski J, Price GJ, Weisbecker V, Salisbury SW 2021. First record of a tomistomine crocodylian from Australia.
+    Scientific Reports 11(1). doi:10.1038/s41598-021-91717-y
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gunggamarandu (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gunggamarandu
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gunggamarandu”. English Wikipedia, revision 1368880147.
+  url: https://en.wikipedia.org/w/index.php?title=Gunggamarandu&oldid=1368880147
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the holotype number and length estimate from the original.]
+  reviews: []

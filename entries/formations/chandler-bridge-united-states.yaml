@@ -5,16 +5,20 @@ group: Cooper
 country: United States
 regions: [South Carolina]
 location:
-  lat: 33.009
-  lng: -80.082
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: 33.008
+  lng: -80.106
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 27.3
   last_ma: 23.04
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., shoreface, lagoonal/restricted shallow subtidal]
-lithology: [not reported, claystone, sandstone]
-pbdb_collections: ['60443', '97550', '144260', '144262']
+environment:
+- terrestrial indet.
+- shoreface
+- lagoonal/restricted shallow subtidal
+- coastal indet.
+lithology: [not reported, sandstone, claystone]
+pbdb_collections: ['60443', '97550', '144260', '144262', '279928']
 includes: []
 summary: ''
 paleoenvironment: ''

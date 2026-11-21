@@ -1,0 +1,85 @@
+name: Maroccosuchus
+rank: genus
+parent: gavialoidea
+incertae_sedis: true
+placement_note: Traditionally a tomistomine, now treated as a gavialoid (English Wikipedia).
+authority: Jonet and Wouters 1977
+type_species: Maroccosuchus zennaroi
+type_species_note: From the Wikipedia taxobox.
+summary: Maroccosuchus is a gavialoid crocodylian from the Early Eocene of Morocco.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Maroccosuchus zennaroi
+  authority: Jonet and Wouters 1977
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Morocco
+  regions: [Oued Zem]
+  interval: Ypresian
+  occurrences: 2
+  ma: [48.07, 56.0]
+  id: unnamed-sidi-daoui-morocco
+- formation: Couche I
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: couche-i-morocco
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from Couche I and an unnamed unit in Morocco.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/vector.svg
+  png: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/raster/536x1311.png
+  page: https://www.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Gunggamarandu maunala
+  matched: Gavialoidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Jonet, S. 1977. ''''Maroccosuchus zennaroi'''', crocodilien eusuchien nouveau des phosphates du Maroc.
+    Notes et Mémoires du Service Géologique du Maroc 38: 177–202.'
+- kind: literature
+  text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
+    the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9. doi:10.7717/peerj.12094
+- kind: literature
+  text: 'Brochu, Christopher A. 2000. New tomistomine crocodylian from the Middle Eocene (Bartonian) of Wadi Hitan,
+    Fayum Province, Egypt. Contributions from the Museum of Paleontology 30(10): 251–268.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Maroccosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Maroccosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maroccosuchus”. English Wikipedia, revision 1322435248.
+  url: https://en.wikipedia.org/w/index.php?title=Maroccosuchus&oldid=1322435248
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia's lead for this revision is a cladogram note; check the genus description.
+  reviews: []

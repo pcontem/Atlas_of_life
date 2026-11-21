@@ -1,0 +1,173 @@
+name: Anteophthalmosuchus
+rank: genus
+parent: goniopholididae
+incertae_sedis: false
+placement_note: ''
+authority: Salisbury and Naish 2011
+type_species: Anteophthalmosuchus hooleyi
+type_species_note: From the Wikipedia taxobox.
+summary: Anteophthalmosuchus is a goniopholidid neosuchian, 3.5 to 4 m long, from the Early Cretaceous of England,
+  Spain and Belgium.
+size:
+  length_m: [3.5, 4.0]
+  note: Length range of 3.5-4 m from English Wikipedia.
+age:
+  first_ma: 132.6
+  last_ma: 110.1
+  early_interval: Hauterivian
+  late_interval: Albian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Anteophthalmosuchus epikrator
+  authority: Ristevski et al. 2018
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: ''
+- name: Anteophthalmosuchus esuchae
+  authority: Buscalioni et al. 2013
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: ''
+- name: Anteophthalmosuchus hooleyi
+  authority: Salisbury and Naish 2011
+  first_ma: 132.6
+  last_ma: 119.57
+  interval: Hauterivian–Aptian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 3
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+- formation: Sainte-Barbe Clays
+  group: Wealden
+  members: []
+  country: Belgium
+  regions: [Hainaut]
+  interval: Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: sainte-barbe-clays-belgium
+- formation: Escucha
+  group: ''
+  members: [Lower Sedimentary Succession]
+  country: Spain
+  regions: [Aragón]
+  interval: Early Albian
+  occurrences: 2
+  ma: [110.1, 113.2]
+  id: escucha-spain
+- formation: Vectis
+  group: Wealden
+  members: [Shepherd's Chine]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: vectis-united-kingdom
+- formation: Papo Seco
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Lisboa]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: papo-seco-portugal
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 132.6]
+  id: wealden-group-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens of three species from the Wessex and Vectis formations (UK), the Sainte-Barbe Clays (Belgium)
+    and the Escucha Formation (Spain).
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Anteophthalmosuchus hooleyi skull bottom.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Anteophthalmosuchus_hooleyi_skull_bottom.jpg/960px-Anteophthalmosuchus_hooleyi_skull_bottom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Anteophthalmosuchus_hooleyi_skull_bottom.jpg
+  artist: Reginald Walter Hooley
+  license: Public domain
+  license_url: ''
+  date: '1907'
+  caption: Anteophthalmosuchus hooleyi skull.
+  width: 2420
+  height: 3183
+  review: unreviewed
+- kind: fossil
+  file: Anteophthalmosuchus hooleyi top.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Anteophthalmosuchus_hooleyi_top.jpg/960px-Anteophthalmosuchus_hooleyi_top.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Anteophthalmosuchus_hooleyi_top.jpg
+  artist: Reginald Walter Hooley
+  license: Public domain
+  license_url: ''
+  date: '1907'
+  caption: Anteophthalmosuchus hooleyi skull, top view.
+  width: 2331
+  height: 3184
+  review: unreviewed
+- kind: fossil
+  file: Anteophthalmosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Anteophthalmosuchus.png/960px-Anteophthalmosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Anteophthalmosuchus.png
+  artist: DaCaTaraptor
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-03-26'
+  caption: Anteophthalmosuchus fossil.
+  width: 5312
+  height: 1848
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Goniopholididae
+  genus_level: false
+sources:
+- kind: original
+  text: S. W. Salisbury and D. Naish. 2011. Crocodilians. English Wealden fossils
+- kind: literature
+  text: Martin, J.E.; Delfino, M.; Smith, T. 2016. Osteology and affinities of Dollo's goniopholidid (Mesoeucrocodylia)
+    from the Early Cretaceous of Bernissart, Belgium. Journal of Vertebrate Paleontology 36(6). doi:10.1080/02724634.2016.1222534
+- kind: literature
+  text: 'Ristevski, J.; Young, M.T.; de Andrade, M.B.; Hastings, A.K. 2017. A new species of ''''Anteophthalmosuchus''''
+    (Crocodylomorpha, Goniopholididae) from the Lower Cretaceous of the Isle of Wight, United Kingdom, and a review
+    of the genus. Cretaceous Research 84: 340–383. doi:10.1016/j.cretres.2017.11.008'
+- kind: literature
+  text: 'Buscalioni, A.D.; Alcalá, L.; Espílez, E.; Mampel, L. 2013. European Goniopholididae from the Early Albian
+    Escucha Formation in Ariño (Teruel, Aragón, España). Spanish Journal of Palaeontology 28(1): 103–122. doi:10.7203/sjp.28.1.17835'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anteophthalmosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anteophthalmosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anteophthalmosuchus”. English Wikipedia, revision 1334137699.
+  url: https://en.wikipedia.org/w/index.php?title=Anteophthalmosuchus&oldid=1334137699
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

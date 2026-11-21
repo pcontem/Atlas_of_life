@@ -6,16 +6,28 @@ country: Colombia
 regions: [Huila]
 location:
   lat: 3.259
-  lng: -75.188
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  lng: -75.183
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 13.8
   last_ma: 11.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., fluvial indet.]
-lithology: [not reported, claystone, mudstone, sandstone]
-pbdb_collections: ['13686', '13749', '134806', '135348', '135373', '143788', '153817', '153818', '153823', '153824',
-  '187741']
+lithology: [not reported, claystone, sandstone, mudstone]
+pbdb_collections:
+- '13686'
+- '13749'
+- '133692'
+- '134806'
+- '135348'
+- '135373'
+- '140051'
+- '143788'
+- '153817'
+- '153818'
+- '153823'
+- '153824'
+- '187741'
 includes: []
 summary: ''
 paleoenvironment: ''

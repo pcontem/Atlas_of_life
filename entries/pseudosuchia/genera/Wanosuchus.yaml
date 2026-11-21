@@ -1,0 +1,72 @@
+name: Wanosuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: Described as a sebecosuchian mesoeucrocodylian (English Wikipedia) but PBDB places it in Eusuchia;
+  placed in Eusuchia.
+authority: Zhang 1981
+type_species: Wanosuchus atresus
+type_species_note: From the Wikipedia taxobox.
+summary: Wanosuchus is a crocodyliform known only from a nearly complete lower jaw from the Paleocene of southern
+  Anhui, China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 66
+  last_ma: 56
+  early_interval: Danian
+  late_interval: Thanetian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Wanosuchus atresus
+  authority: Zhang 1981
+  first_ma: 66
+  last_ma: 56
+  interval: Danian–Thanetian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Anhui]
+  interval: Paleocene
+  occurrences: 1
+  ma: [56.0, 66.0]
+  id: unnamed-southern-district-of-anhui-province-china
+fossil_material:
+  holotype: IVPP V 6262, a nearly complete lower jaw, Anhui, China.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/vector.svg
+  png: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/raster/512x103.png
+  page: https://www.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Allodaposuchus precedens
+  matched: Eusuchia
+  genus_level: false
+sources:
+- kind: original
+  text: F. Zhang. 1981. A fossil crocodile from Anhui Province. Vertebrata PalAsiatica 19(3):200-207
+- kind: literature
+  text: 'Zhang Fakui 1981. A fossil crocodile from Anhui province. Vertebrata PalAsiatica 19(3): 200–207.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wanosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wanosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wanosuchus”. English Wikipedia, revision 1371223017.
+  url: https://en.wikipedia.org/w/index.php?title=Wanosuchus&oldid=1371223017
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Placement conflicts between Wikipedia and PBDB; review (M2).]
+  reviews: []
