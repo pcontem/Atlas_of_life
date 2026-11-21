@@ -1,0 +1,53 @@
+name: Herugavialis
+rank: genus
+parent: gavialidae
+incertae_sedis: false
+placement_note: ''
+authority: Burke et al. 2026
+type_species: Herugavialis cairensis
+type_species_note: 'The type species was Tomistoma cairense Müller 1927; the epithet is spelled ''cairensis'' in
+  the title of the naming paper and ''cairense'' in the English Wikipedia taxobox: check.'
+summary: Herugavialis is a marine gavialoid crocodylian from the Middle Eocene Mokattam Formation near Cairo, Egypt.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 48.07
+  last_ma: 41.03
+  early_interval: Lutetian
+  late_interval: Lutetian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Lutetian per English Wikipedia; whole ICS stage used.
+species:
+- name: Herugavialis cairensis
+  authority: (Müller 1927)
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: A skull lacking the premaxilla; catalogue number not given on the page.
+  material: The holotype.
+  completeness: partial
+  exceptional: ''
+biology: Described as a marine gavialoid (English Wikipedia).
+images: []
+sources:
+- kind: original
+  text: Burke, P. M. J., Spiekman, S. N. F., Salem, B. S., Saber, S., Sallam, H. M. and Mannion, P. D. 2026. Cranial
+    anatomy of the Middle Eocene Egyptian crocodylian Herugavialis cairensis provides new insights into gavialoid
+    diversity in the Mediterranean region. Royal Society Open Science 13(10).
+  url: https://doi.org/10.1098/rsos.261173
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Mokattam Formation, near Cairo, Egypt (Lutetian). No coordinates or PBDB collection;
+    PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

@@ -45,3 +45,8 @@
 - Uncertain validity kept as entries with a note: Tienosuchus, Stromerosuchus, Stagonosuchus, Redondasuchus, Hypselorhachis.
 - PBDB data are from 2026-11-17: genera described since then are missing.
 - Many images are unchecked automatic suggestions (`unreviewed`); life restorations need the triage page.
+- 18 more genera with no PBDB record (described 2024-2026, found in the Wikipedia lists "2025/2026 in archosaur paleontology") were added without formation:
+  Ibirasuchus, Pseudogavialis, Sissokosuchus, Taihangosuchus, Tainrakuasuchus, Telkaralura, Wadisuchus, Paarthurnax, Antusuchus, Carinthiasuchus,
+  Ctenosuchus, Eosphorosuchus, Galahadosuchus, Herugavialis, Labrujasuchus, Mandrasuchus, Kuttysuchus, Olkasuchus. They cite only the naming paper
+  (the Wikipedia revision ids could not be fetched), have no images, and each curation note gives the formation and locality. Euphorosuchus was
+  replaced by Eosphorosuchus (TREE_REVIEW.md). Pages for 2024 and earlier were not checked; the 2025/2026 pages were read only in part (first 100,000 characters).

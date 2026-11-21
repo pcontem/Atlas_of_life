@@ -1,0 +1,54 @@
+name: Olkasuchus
+rank: genus
+parent: desmatosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Sotomayor et al. 2025
+type_species: Olkasuchus walasto
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Olkasuchus is a desmatosuchine aetosaur from the Norian Los Colorados Formation of Talampaya National Park,
+  Argentina.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: Norian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Norian (about 227-213 Ma) per English Wikipedia; whole ICS stage used.
+species:
+- name: Olkasuchus walasto
+  authority: Sotomayor et al. 2025
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: PULR-V 246, an incomplete partly articulated skeleton with vertebrae, ribs, a partial right scapulocoracoid,
+    humerus, pelvis, femur, tibia, fibula and osteoderms from the dorsal, ventral, sacral and caudal regions.
+  material: The holotype.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: Sotomayor, J. C., Leardi, J. M., Desojo, J. B., Gaetano, L. C., Otero, A. and Apaldetti, C. Olkasuchus walasto,
+    a new taxon of Aetosauria (Archosauria; Pseudosuchia) from the Los Colorados Formation (Upper Triassic), Argentina.
+    Historical Biology 1-22.
+  url: https://doi.org/10.1080/08912963.2025.2571751
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Los Colorados Formation, La Esquina locality, Talampaya National Park, La Rioja, Argentina
+    (Norian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

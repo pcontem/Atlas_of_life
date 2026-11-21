@@ -1,0 +1,52 @@
+name: Telkaralura
+rank: genus
+parent: gracilisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: von Baczko et al. 2025
+type_species: Telkaralura coniceti
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Telkaralura is the largest known gracilisuchid, a crocodile-line archosaur from the Carnian Chañares Formation
+  of Argentina.
+size:
+  length_m: null
+  note: Skull length 19.2-20.8 cm and femur about 19 cm, estimated (English Wikipedia); no body length.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: Carnian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Carnian per English Wikipedia (early Late Triassic); whole ICS stage used.
+species:
+- name: Telkaralura coniceti
+  authority: von Baczko et al. 2025
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: PULR-V 057, a partial skull.
+  material: The holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: von Baczko, M. B., Ezcurra, M. D., Lecuona, A., Vega, N. and Desojo, J. B. 2025. A new large gracilisuchid
+    from the Upper Triassic levels of the Chañares Formation, northwestern Argentina. Ameghiniana 62(5).
+  url: https://doi.org/10.5710/AMGH.29.09.2025.3658
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Chañares Formation (lower part, Massetognathus-Chanaresuchus Assemblage Zone), Argentina
+    (Carnian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []

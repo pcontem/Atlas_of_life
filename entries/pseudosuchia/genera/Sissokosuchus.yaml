@@ -1,0 +1,56 @@
+name: Sissokosuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: true
+placement_note: English Wikipedia places it in Itasuchidae (Notosuchia); the atlas has no Itasuchidae clade, so
+  it sits in Notosuchia.
+authority: Wilberg et al. 2025
+type_species: Sissokosuchus maliensis
+type_species_note: Monotypic genus; the only species is the type (English Wikipedia).
+summary: Sissokosuchus is an itasuchid notosuchian from the Early Cretaceous 'Continental intercalaire' of Mali,
+  with narrow toothy jaws.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Early Cretaceous, roughly Aptian to Albian (English Wikipedia); the ICS Aptian-Albian
+    range is used.
+species:
+- name: Sissokosuchus maliensis
+  authority: Wilberg et al. 2025
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: A partial dentary tip, parts of the maxilla and several nearly articulated cranial elements, with some
+    postcranial material (vertebrae, osteoderms, limb bones); catalogue number not given on the page.
+  material: The holotype.
+  completeness: partial
+  exceptional: ''
+biology: Likely lived in or near rivers and may have been semi-aquatic (English Wikipedia).
+images: []
+sources:
+- kind: original
+  text: Wilberg, E., Hill, R. V., Pascucci, T. R., Roberts, E. M., Bouaré, M. L. and O'Leary, M. A. 2025. A new
+    itasuchid (Crocodyliformes, Notosuchia) from the Early Cretaceous of Mali and the ancient Paleo-Tegama river
+    system of Gondwana. Journal of Vertebrate Paleontology e2505473.
+  url: https://doi.org/10.1080/02724634.2025.2505473
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No formation entry yet: Informal ''Continental intercalaire'' beds, locality Mali 12, Mali (about Aptian-Albian).
+    No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).'
+  - No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the
+    naming paper only. Add the revision and PBDB data when available.
+  - No images yet; no silhouette.
+  reviews: []
