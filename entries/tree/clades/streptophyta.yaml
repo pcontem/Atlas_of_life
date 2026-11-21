@@ -1,0 +1,41 @@
+id: streptophyta
+name: Streptophyta
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: English Wikipedia, “Streptophyta”, revision 1374433022 (treated as a clade of plants); PBDB record
+  Streptophyta, unranked clade, attributed to (Jeffrey 1971)
+parent: viridiplantae
+wikipedia: Streptophyta
+summary: Clade of plants made up of freshwater charophyte green algae and all land plants.
+diagnosis:
+- Includes land plants (embryophytes) and all green algae except Chlorophyta and the basal Prasinodermophyta
+- Name refers to the twisted sperm morphology of some members (Greek strepto, “twisted”)
+notes: The composition varies considerably between authors; some include only the charophyte algae Charales and
+  the land plants, others add more groups, and some exclude the land plants. Streptophyta includes both unicellular
+  and multicellular organisms. Nedelcu et al. (2006) argued that the unicellular alga Mesostigma is closely related
+  to Streptophyta, on the basis of a land-plant-specific gene family. The PBDB record is attributed to (Jeffrey
+  1971), which is not in the Wikipedia citations.
+sources:
+- kind: literature
+  text: 'Nedelcu AM, Borza T, Lee RW (2006). A land plant-specific multigene family in the unicellular Mesostigma
+    argues for its close relationship to Streptophyta. Molecular Biology and Evolution 23(5): 1011–1015.'
+  url: https://doi.org/10.1093/molbev/msj108
+- kind: encyclopedia
+  text: Wikipedia contributors. “Streptophyta”. English Wikipedia, revision 1374433022 (ts 2026-09-12).
+  url: https://en.wikipedia.org/w/index.php?title=Streptophyta&oldid=1374433022
+- kind: database
+  text: Paleobiology Database. Taxon record Streptophyta (taxon_no 518963), unranked clade, attributed to (Jeffrey
+    1971). Downloaded 2026-11-16.
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_no=518963
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The original naming publication (Jeffrey 1971) is not in the Wikipedia citations; add it as original once checked.
+  - Composition differs between classifications (whether the land plants and some charophyte groups are included);
+    the tree follows the Wikipedia definition used in the revision cited above.
+  - The Liang et al. (2020) study on Mesostigma in the Wikipedia citations has a malformed DOI in the raw record
+    and is not used here.
+  reviews: []
