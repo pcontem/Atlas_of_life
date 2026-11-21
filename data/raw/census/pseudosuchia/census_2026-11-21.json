@@ -30,9 +30,10 @@
   "pbdb_valid": 644,
   "pbdb_invalid": 48,
   "wikipedia_pages": 316,
-  "wikipedia_genera": 252,
+  "wikipedia_genera": 251,
   "atlas_entries_in_group": 506,
-  "missing": 143,
+  "missing": 109,
+  "form_taxa": 33,
   "missing_recent": 0,
   "waiting_in_backbone": 15,
   "atlas_unconfirmed": 16,
@@ -52,20 +53,6 @@
    "last_ma": 227.3,
    "parent": "Mystriosuchinae",
    "family": "Parasuchidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Angolaichnus",
-   "authority": "Mateus et al. 2017",
-   "year": 2017,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 119.57,
-   "last_ma": 113.2,
-   "parent": "Batrachopodidae",
-   "family": "Batrachopodidae",
    "pbdb_invalid": null
   },
   {
@@ -97,20 +84,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Mycomorphoolithus",
-   "authority": "Moreno-Azanza et al. 2015",
-   "year": 2015,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 143.1,
-   "last_ma": 93.9,
-   "parent": "Crocodylomorpha",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
    "name": "Wannia",
    "authority": "Stocker 2013",
    "year": 2013,
@@ -125,20 +98,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Bauruoolithus",
-   "authority": "Oliveira et al. 2011",
-   "year": 2011,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 83.6,
-   "last_ma": 66,
-   "parent": "Krokolithidae",
-   "family": "Krokolithidae",
-   "pbdb_invalid": null
-  },
-  {
    "name": "Leiokarinosuchus",
    "authority": "Salisbury and Naish 2011",
    "year": 2011,
@@ -150,20 +109,6 @@
    "last_ma": 110.1,
    "parent": "Goniopholididae",
    "family": "Goniopholididae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Palaeochirotherium",
-   "authority": "Fichter and Kunz 2011",
-   "year": 2011,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 251.902,
-   "last_ma": 248.6,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
    "pbdb_invalid": null
   },
   {
@@ -206,62 +151,6 @@
    "last_ma": 17.5,
    "parent": "Sebecidae",
    "family": "Sebecidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Heterodontichnites",
-   "authority": "Rinehart et al. 2006",
-   "year": 2006,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 237,
-   "last_ma": 205.7,
-   "parent": "Phytosauria",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Nihilichnus",
-   "authority": "Mikulas et al. 2006",
-   "year": 2006,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 227.3,
-   "last_ma": 0.0117,
-   "parent": "Crocodylia",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Protochirotherium",
-   "authority": "Fichter and Kunz 2004",
-   "year": 2004,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 251.902,
-   "last_ma": 248.6,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Hatcherichnus",
-   "authority": "Foster and Lockley 1997",
-   "year": 1997,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 161.5,
-   "last_ma": 93.9,
-   "parent": "Crocodylia",
-   "family": null,
    "pbdb_invalid": null
   },
   {
@@ -363,20 +252,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Mekosuchinae",
-   "authority": "",
-   "year": 1993,
-   "recent": false,
-   "in_pbdb": false,
-   "in_wikipedia": true,
-   "wikipedia": "Mekosuchinae",
-   "first_ma": null,
-   "last_ma": null,
-   "parent": null,
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
    "name": "Thecachampsoides",
    "authority": "Norell and Storrs 1989",
    "year": 1989,
@@ -402,34 +277,6 @@
    "last_ma": 72.2,
    "parent": "Paralligatoridae",
    "family": "Paralligatoridae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Parasynaptichnium",
-   "authority": "Mietto 1987",
-   "year": 1987,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 247,
-   "last_ma": 241.464,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Krokolithes",
-   "authority": "Hirsch 1985",
-   "year": 1985,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 149.2,
-   "last_ma": 23.04,
-   "parent": "Krokolithidae",
-   "family": "Krokolithidae",
    "pbdb_invalid": null
   },
   {
@@ -503,34 +350,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Quadridigitus",
-   "authority": "Biron and Dutuit 1981",
-   "year": 1981,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 243.43,
-   "last_ma": 241.464,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Rectilinetopus",
-   "authority": "Biron and Dutuit 1981",
-   "year": 1981,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 237,
-   "last_ma": 227.3,
-   "parent": "Phytosauria",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
    "name": "Suchopus",
    "authority": "Ellenberger 1974",
    "year": 1974,
@@ -545,48 +364,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Paratetrasauropus",
-   "authority": "Ellenberger 1972",
-   "year": 1972,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 201.4,
-   "last_ma": 192.9,
-   "parent": "Crocodylomorpha",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Isochirotherium",
-   "authority": "Haubold 1971",
-   "year": 1971,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 251.902,
-   "last_ma": 247,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Dijaquesopus",
-   "authority": "Ellenberger 1970",
-   "year": 1970,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 237,
-   "last_ma": 227.3,
-   "parent": "Crocodylia",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
    "name": "Nanopodiscus",
    "authority": "Ellenberger 1970",
    "year": 1970,
@@ -598,20 +375,6 @@
    "last_ma": 100.5,
    "parent": "Batrachopodidae",
    "family": "Batrachopodidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Sauropodopus",
-   "authority": "Ellenberger 1970",
-   "year": 1970,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 227.3,
-   "last_ma": 201.4,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
    "pbdb_invalid": null
   },
   {
@@ -640,20 +403,6 @@
    "last_ma": null,
    "parent": "Metriorhynchidae",
    "family": "Metriorhynchidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Sphingopus",
-   "authority": "Demathieu 1966",
-   "year": 1966,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 243.43,
-   "last_ma": 241.464,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
    "pbdb_invalid": null
   },
   {
@@ -696,20 +445,6 @@
    "last_ma": null,
    "parent": "Rauisuchidae",
    "family": "Rauisuchidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Ingenierichnus",
-   "authority": "Casamiquela 1964",
-   "year": 1964,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 259.857,
-   "last_ma": 247,
-   "parent": "Pseudosuchia",
-   "family": null,
    "pbdb_invalid": null
   },
   {
@@ -769,34 +504,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Laiyangpus",
-   "authority": "Young 1960",
-   "year": 1960,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 125.77,
-   "last_ma": 121.4,
-   "parent": "Crocodylia",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Apatopus",
-   "authority": "Baird 1957",
-   "year": 1957,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 237,
-   "last_ma": 201.4,
-   "parent": "Parasuchidae",
-   "family": "Parasuchidae",
-   "pbdb_invalid": null
-  },
-  {
    "name": "Rhabdosaurus",
    "authority": "Bergounioux 1955",
    "year": 1955,
@@ -825,62 +532,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Gwyneddichnium",
-   "authority": "Bock 1952",
-   "year": 1952,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 227.3,
-   "last_ma": 201.4,
-   "parent": "Gwyneddichniidae",
-   "family": "Gwyneddichniidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Prochirotherium",
-   "authority": "Leonardi 1951",
-   "year": 1951,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 259.857,
-   "last_ma": 227.3,
-   "parent": "Pseudosuchia",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Brachychirotherium",
-   "authority": "Beurlen 1950",
-   "year": 1950,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 227.3,
-   "last_ma": 205.7,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Rotodactylus",
-   "authority": "Peabody 1948",
-   "year": 1948,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 247,
-   "last_ma": 237,
-   "parent": "Rotodactylidae",
-   "family": "Rotodactylidae",
-   "pbdb_invalid": null
-  },
-  {
    "name": "Cunampaia",
    "authority": "",
    "year": 1946,
@@ -905,20 +556,6 @@
    "first_ma": 27.3,
    "last_ma": 7.246,
    "parent": "Gavialoidea",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Kuangyuanpus",
-   "authority": "Young 1943",
-   "year": 1943,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 170.9,
-   "last_ma": 168.2,
-   "parent": "Crocodylia",
    "family": null,
    "pbdb_invalid": null
   },
@@ -1007,20 +644,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Aetosauripus",
-   "authority": "Weiss 1934",
-   "year": 1934,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 250.8,
-   "last_ma": 227.3,
-   "parent": "Aetosauria",
-   "family": null,
-   "pbdb_invalid": null
-  },
-  {
    "name": "Archaeosuchus",
    "authority": "Brown 1933",
    "year": 1933,
@@ -1061,20 +684,6 @@
    "parent": null,
    "family": null,
    "pbdb_invalid": "nomen dubium"
-  },
-  {
-   "name": "Rigalites",
-   "authority": "Huene 1931",
-   "year": 1931,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 227.3,
-   "last_ma": 205.7,
-   "parent": "Batrachopodidae",
-   "family": "Batrachopodidae",
-   "pbdb_invalid": null
   },
   {
    "name": "Walteria",
@@ -1145,34 +754,6 @@
    "parent": null,
    "family": null,
    "pbdb_invalid": "nomen dubium"
-  },
-  {
-   "name": "Krokodilipus",
-   "authority": "Nopcsa 1923",
-   "year": 1923,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 243.43,
-   "last_ma": 241.464,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Synaptichnium",
-   "authority": "Nopcsa 1923",
-   "year": 1923,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 251.902,
-   "last_ma": 192.9,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
   },
   {
    "name": "Promystriosuchus",
@@ -1511,20 +1092,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Saurichnites",
-   "authority": "Geinitz 1861",
-   "year": 1861,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 243.43,
-   "last_ma": 241.464,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
    "name": "Arachichnus",
    "authority": "Hitchcock 1858",
    "year": 1858,
@@ -1604,20 +1171,6 @@
    "wikipedia": null,
    "first_ma": 247,
    "last_ma": 100.5,
-   "parent": "Batrachopodidae",
-   "family": "Batrachopodidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Tarsodactylus",
-   "authority": "Hitchcock 1858",
-   "year": 1858,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 201.4,
-   "last_ma": 192.9,
    "parent": "Batrachopodidae",
    "family": "Batrachopodidae",
    "pbdb_invalid": null
@@ -1875,34 +1428,6 @@
    "pbdb_invalid": null
   },
   {
-   "name": "Chirosaurus",
-   "authority": "Kaup 1835",
-   "year": 1835,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 243.43,
-   "last_ma": 241.464,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
-   "name": "Chirotherium",
-   "authority": "Kaup 1835",
-   "year": 1835,
-   "recent": false,
-   "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
-   "first_ma": 243.43,
-   "last_ma": 241.464,
-   "parent": "Chirotheriidae",
-   "family": "Chirotheriidae",
-   "pbdb_invalid": null
-  },
-  {
    "name": "Cubicodon",
    "authority": "Jaeger 1828",
    "year": 1828,
@@ -2043,6 +1568,206 @@
    "pbdb_invalid": null
   }
  ],
+ "form_taxa": [
+  {
+   "name": "Aetosauripus",
+   "authority": "Weiss 1934",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Angolaichnus",
+   "authority": "Mateus et al. 2017",
+   "flags": "IF",
+   "family": "Batrachopodidae"
+  },
+  {
+   "name": "Apatopus",
+   "authority": "Baird 1957",
+   "flags": "IF",
+   "family": "Parasuchidae"
+  },
+  {
+   "name": "Bauruoolithus",
+   "authority": "Oliveira et al. 2011",
+   "flags": "I",
+   "family": "Krokolithidae"
+  },
+  {
+   "name": "Brachychirotherium",
+   "authority": "Beurlen 1950",
+   "flags": "IF",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Chirosaurus",
+   "authority": "Kaup 1835",
+   "flags": "I",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Chirotherium",
+   "authority": "Kaup 1835",
+   "flags": "I",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Dijaquesopus",
+   "authority": "Ellenberger 1970",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Gwyneddichnium",
+   "authority": "Bock 1952",
+   "flags": "IF",
+   "family": "Gwyneddichniidae"
+  },
+  {
+   "name": "Hatcherichnus",
+   "authority": "Foster and Lockley 1997",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Heterodontichnites",
+   "authority": "Rinehart et al. 2006",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Ingenierichnus",
+   "authority": "Casamiquela 1964",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Isochirotherium",
+   "authority": "Haubold 1971",
+   "flags": "IF",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Krokodilipus",
+   "authority": "Nopcsa 1923",
+   "flags": "I",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Krokolithes",
+   "authority": "Hirsch 1985",
+   "flags": "F",
+   "family": "Krokolithidae"
+  },
+  {
+   "name": "Kuangyuanpus",
+   "authority": "Young 1943",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Laiyangpus",
+   "authority": "Young 1960",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Mycomorphoolithus",
+   "authority": "Moreno-Azanza et al. 2015",
+   "flags": "F",
+   "family": null
+  },
+  {
+   "name": "Nihilichnus",
+   "authority": "Mikulas et al. 2006",
+   "flags": "I",
+   "family": null
+  },
+  {
+   "name": "Palaeochirotherium",
+   "authority": "Fichter and Kunz 2011",
+   "flags": "IF",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Parasynaptichnium",
+   "authority": "Mietto 1987",
+   "flags": "IF",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Paratetrasauropus",
+   "authority": "Ellenberger 1972",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Prochirotherium",
+   "authority": "Leonardi 1951",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Protochirotherium",
+   "authority": "Fichter and Kunz 2004",
+   "flags": "IF",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Quadridigitus",
+   "authority": "Biron and Dutuit 1981",
+   "flags": "I",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Rectilinetopus",
+   "authority": "Biron and Dutuit 1981",
+   "flags": "IF",
+   "family": null
+  },
+  {
+   "name": "Rigalites",
+   "authority": "Huene 1931",
+   "flags": "IF",
+   "family": "Batrachopodidae"
+  },
+  {
+   "name": "Rotodactylus",
+   "authority": "Peabody 1948",
+   "flags": "IF",
+   "family": "Rotodactylidae"
+  },
+  {
+   "name": "Saurichnites",
+   "authority": "Geinitz 1861",
+   "flags": "I",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Sauropodopus",
+   "authority": "Ellenberger 1970",
+   "flags": "IF",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Sphingopus",
+   "authority": "Demathieu 1966",
+   "flags": "I",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Synaptichnium",
+   "authority": "Nopcsa 1923",
+   "flags": "IF",
+   "family": "Chirotheriidae"
+  },
+  {
+   "name": "Tarsodactylus",
+   "authority": "Hitchcock 1858",
+   "flags": "IF",
+   "family": "Batrachopodidae"
+  }
+ ],
  "waiting_in_backbone": [
   "Angistorhinus",
   "Brachysuchus",
@@ -2177,5 +1902,16 @@
   "Category:Aetosaurs",
   "Category:Rauisuchians"
  ],
+ "wikipedia_category_suggestions": {
+  "Category:Prehistoric pseudosuchians": [
+   "Category:Prehistoric pseudosuchian genera",
+   "Category:Mesozoic crocodylomorphs"
+  ],
+  "Category:Crocodylomorph genera": [],
+  "Category:Aetosaurs": [
+   "Category:Aetosaurs of North America"
+  ],
+  "Category:Rauisuchians": []
+ },
  "wikipedia_truncated": false
 }
