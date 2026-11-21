@@ -1,0 +1,70 @@
+name: Albertosuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: false
+placement_note: ''
+authority: Wu and Brinkman 2015
+type_species: Albertosuchus knudsenii
+type_species_note: From the Wikipedia taxobox.
+summary: Albertosuchus is a crocodyloid crocodylian from the Maastrichtian Scollard Formation of Alberta, the northernmost
+  known Late Cretaceous crocodyloid.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Albertosuchus knudsenii
+  authority: Wu and Brinkman 2015
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Scollard
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: scollard-canada
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Scollard Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/vector.svg
+  png: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/raster/512x103.png
+  page: https://www.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Allodaposuchus precedens
+  matched: Eusuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wu, Xiao-Chun; Brinkman, Donald B.; Gardner, James 2015. A new crocodylian (Eusuchia) from the uppermost
+    Cretaceous of Alberta, Canada1. Canadian Journal of Earth Sciences 52(8): 590. doi:10.1139/cjes-2014-0133'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Albertosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Albertosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Albertosuchus”. English Wikipedia, revision 1385541465.
+  url: https://en.wikipedia.org/w/index.php?title=Albertosuchus&oldid=1385541465
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

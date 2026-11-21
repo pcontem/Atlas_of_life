@@ -1,0 +1,118 @@
+name: Arenysuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: true
+placement_note: PBDB places it in Allodaposuchidae, which has no clade entry in the atlas yet; placed in Eusuchia,
+  the nearest atlas ancestor.
+authority: Puértolas et al. 2011
+type_species: Arenysuchus gascabadiolorum
+type_species_note: From the Wikipedia taxobox.
+summary: Arenysuchus is an allodaposuchid eusuchian from the late Maastrichtian of northern Spain.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Arenysuchus gascabadiolorum
+  authority: Puértolas et al. 2011
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: La Posa
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: la-posa-spain
+- formation: Conques
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: conques-spain
+fossil_material:
+  holotype: MPZ ELI-1, a partial skull from the Arén area.
+  material: The holotype and further material from La Posa and Conques.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Arenysuchus gascabadiolorum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Arenysuchus_gascabadiolorum.png/960px-Arenysuchus_gascabadiolorum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Arenysuchus_gascabadiolorum.png
+  artist: Eduardo Puértolas, José I. Canudo & Penélope Cruzado-Caballero
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2011-06-08'
+  caption: Arenysuchus gascabadiolorum fossil.
+  width: 2067
+  height: 1295
+  review: unreviewed
+- kind: fossil
+  file: Arenysuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Arenysuchus.jpg/960px-Arenysuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Arenysuchus.jpg
+  artist: Eduardo Puértolas*, José I. Canudo, Penélope Cruzado-Caballero
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2011'
+  caption: Arenysuchus fossil.
+  width: 2022
+  height: 1299
+  review: unreviewed
+- kind: fossil
+  file: Skull of Arenysuchus gascabadiolorum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Skull_of_Arenysuchus_gascabadiolorum.png/960px-Skull_of_Arenysuchus_gascabadiolorum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skull_of_Arenysuchus_gascabadiolorum.png
+  artist: Eduardo Puértolas, José I. Canudo, Penélope Cruzado-Caballero
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2011-06-08'
+  caption: Skull of Arenysuchus gascabadiolorum.
+  width: 2022
+  height: 1299
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/vector.svg
+  png: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/raster/512x103.png
+  page: https://www.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Allodaposuchus precedens
+  matched: Arenysuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Puértolas, E.; Canudo, J.I.; Cruzado-Caballero, P. 2011. A New Crocodylian from the Late Maastrichtian
+    of Spain: Implications for the Initial Radiation of Crocodyloids. PLoS ONE 6(6). doi:10.1371/journal.pone.0020011'
+- kind: literature
+  text: 'Blanco, Alejandro 2021. Importance of the postcranial skeleton in eusuchian phylogeny: Reassessing the
+    systematics of allodaposuchid crocodylians. PLOS ONE 16(6). doi:10.1371/journal.pone.0251900'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arenysuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arenysuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Arenysuchus”. English Wikipedia, revision 1314194803.
+  url: https://en.wikipedia.org/w/index.php?title=Arenysuchus&oldid=1314194803
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images (image 3 is a site photo and is not used).]
+  reviews: []

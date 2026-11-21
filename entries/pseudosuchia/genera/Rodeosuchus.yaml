@@ -1,0 +1,86 @@
+name: Rodeosuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Jouve et al. 2021
+type_species: Rodeosuchus machukiru
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Rodeosuchus is a dyrosaurid crocodyliform from the Paleocene Santa Lucía Formation of Bolivia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 66
+  last_ma: 61.66
+  early_interval: Danian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Rodeosuchus machukiru
+  authority: Jouve et al. 2021
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: original description
+formations:
+- formation: Santa Lucía
+  group: ''
+  members: []
+  country: Bolivia
+  regions: [Mizque, Potosí]
+  interval: Danian
+  occurrences: 3
+  ma: [61.66, 66.0]
+  id: santa-lucia-bolivia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from three Santa Lucía collections.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: life
+  file: Rodeosuchus machukiru.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/76/Rodeosuchus_machukiru.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rodeosuchus_machukiru.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-02-27'
+  caption: Life restoration of Rodeosuchus machukiru.
+  width: 1269
+  height: 262
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: S. Jouve, C. de Muizon, and R. Cespedes-Paz, V. Sossa-Soruco, S. Knoll. 2021. The longirostrine crocodyliforms
+    from Bolivia and their evolution through the Cretaceous–Palaeogene boundary. Zoological Journal of the Linnean
+    Society 192(2):475-509
+- kind: literature
+  text: 'Jouve, Stéphane; de Muizon, Christian; Cespedes-Paz, Ricardo; Sossa-Soruco, Víctor; Knoll, Stephane 2020.
+    The longirostrine crocodyliforms from Bolivia and their evolution through the Cretaceous–Palaeogene boundary.
+    Zoological Journal of the Linnean Society 192(2): 475–509. doi:10.1093/zoolinnean/zlaa081'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rodeosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rodeosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rodeosuchus”. English Wikipedia, revision 1293872812.
+  url: https://en.wikipedia.org/w/index.php?title=Rodeosuchus&oldid=1293872812
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the life restoration., Add the original (Jouve et al. 2021).]
+  reviews: []

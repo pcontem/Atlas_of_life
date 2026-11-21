@@ -1,0 +1,31 @@
+id: new-egypt-united-states
+name: New Egypt
+rank: formation
+group: Monmouth
+country: United States
+regions: [New Jersey]
+location:
+  lat: 39.733
+  lng: -75.16
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet.]
+lithology: [sandstone]
+pbdb_collections: ['48570']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the New Egypt (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=New+Egypt
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
