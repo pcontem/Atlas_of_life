@@ -6,11 +6,8 @@
   "pbdb": "Pseudosuchia",
   "wikipedia": {
    "categories": [
-    "Prehistoric pseudosuchians",
-    "Prehistoric crocodylomorphs",
-    "Crocodylomorph genera",
-    "Aetosaurs",
-    "Rauisuchians"
+    "Prehistoric pseudosuchian genera",
+    "Prehistoric crocodylomorphs"
    ],
    "depth": 3
   },
@@ -29,18 +26,46 @@
  "counts": {
   "pbdb_valid": 644,
   "pbdb_invalid": 48,
-  "wikipedia_pages": 316,
-  "wikipedia_genera": 251,
+  "wikipedia_pages": 582,
+  "wikipedia_genera": 517,
   "atlas_entries_in_group": 506,
-  "missing": 109,
+  "missing": 126,
   "form_taxa": 33,
-  "missing_recent": 0,
+  "missing_recent": 2,
   "waiting_in_backbone": 15,
-  "atlas_unconfirmed": 16,
+  "atlas_unconfirmed": 6,
   "leads": 2,
   "leads_new": 1
  },
  "missing": [
+  {
+   "name": "Schultzsuchus",
+   "authority": "",
+   "year": 2024,
+   "recent": true,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Schultzsuchus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Kryphioparma",
+   "authority": "",
+   "year": 2023,
+   "recent": true,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Kryphioparma",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": null
+  },
   {
    "name": "Volcanosuchus",
    "authority": "Datta et al. 2019",
@@ -61,8 +86,8 @@
    "year": 2016,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Agaresuchus",
    "first_ma": 85.7,
    "last_ma": 66,
    "parent": "Allodaposuchidae",
@@ -75,8 +100,8 @@
    "year": 2015,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Lohuecosuchus",
    "first_ma": 85.7,
    "last_ma": 66,
    "parent": "Allodaposuchidae",
@@ -95,6 +120,20 @@
    "last_ma": 205.7,
    "parent": "Parasuchidae",
    "family": "Parasuchidae",
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Archeopelta",
+   "authority": "",
+   "year": 2011,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Archeopelta",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
    "pbdb_invalid": null
   },
   {
@@ -126,6 +165,20 @@
    "pbdb_invalid": null
   },
   {
+   "name": "Kemkemia",
+   "authority": "",
+   "year": 2009,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Kemkemia",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": "nomen dubium"
+  },
+  {
    "name": "Heliocanthus",
    "authority": "Parker 2007",
    "year": 2007,
@@ -151,6 +204,34 @@
    "last_ma": 17.5,
    "parent": "Sebecidae",
    "family": "Sebecidae",
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Krzyzanowskisaurus",
+   "authority": "",
+   "year": 2002,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Krzyzanowskisaurus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Tarjadia",
+   "authority": "",
+   "year": 1998,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Tarjadia",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
    "pbdb_invalid": null
   },
   {
@@ -196,6 +277,20 @@
    "pbdb_invalid": null
   },
   {
+   "name": "Ischyrochampsa",
+   "authority": "",
+   "year": 1995,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Ischyrochampsa",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": "nomen dubium"
+  },
+  {
    "name": "Lythrosuchus",
    "authority": "Long and Murry 1995",
    "year": 1995,
@@ -229,8 +324,8 @@
    "year": 1994,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Galtonia (reptile)",
    "first_ma": 237,
    "last_ma": 205.7,
    "parent": "Aetosauria",
@@ -248,6 +343,20 @@
    "first_ma": 237,
    "last_ma": 205.7,
    "parent": "Aetosauria",
+   "family": null,
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Euscolosuchus",
+   "authority": "",
+   "year": 1992,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Euscolosuchus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
    "family": null,
    "pbdb_invalid": null
   },
@@ -271,12 +380,26 @@
    "year": 1988,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Turanosuchus",
    "first_ma": 100.5,
    "last_ma": 72.2,
    "parent": "Paralligatoridae",
    "family": "Paralligatoridae",
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Jushatyria",
+   "authority": "",
+   "year": 1985,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Jushatyria",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
    "pbdb_invalid": null
   },
   {
@@ -362,6 +485,34 @@
    "parent": "Batrachopodidae",
    "family": "Batrachopodidae",
    "pbdb_invalid": null
+  },
+  {
+   "name": "Trematochampsa",
+   "authority": "",
+   "year": 1974,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Trematochampsa",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": "nomen dubium"
+  },
+  {
+   "name": "Lisboasaurus",
+   "authority": "",
+   "year": 1970,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Lisboasaurus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": "nomen dubium"
   },
   {
    "name": "Nanopodiscus",
@@ -574,6 +725,20 @@
    "pbdb_invalid": null
   },
   {
+   "name": "Dongusia",
+   "authority": "",
+   "year": 1940,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Dongusia",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": "nomen dubium"
+  },
+  {
    "name": "Caimanosuchus",
    "authority": "Kuhn 1938",
    "year": 1938,
@@ -635,8 +800,8 @@
    "year": 1936,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Ebrachosaurus",
    "first_ma": 237,
    "last_ma": 205.7,
    "parent": "Desmatosuchia",
@@ -684,6 +849,20 @@
    "parent": null,
    "family": null,
    "pbdb_invalid": "nomen dubium"
+  },
+  {
+   "name": "Brasileosaurus",
+   "authority": "",
+   "year": 1931,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Brasileosaurus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": null
   },
   {
    "name": "Walteria",
@@ -775,8 +954,8 @@
    "year": 1915,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Acompsosaurus",
    "first_ma": 237,
    "last_ma": 205.7,
    "parent": "Desmatosuchinae",
@@ -837,6 +1016,20 @@
    "last_ma": 205.7,
    "parent": "Parasuchidae",
    "family": "Parasuchidae",
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Dolichobrachium",
+   "authority": "",
+   "year": 1904,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Dolichobrachium",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
    "pbdb_invalid": null
   },
   {
@@ -901,8 +1094,8 @@
    "year": 1899,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Symptosuchus",
    "first_ma": null,
    "last_ma": null,
    "parent": "Goniopholididae",
@@ -994,13 +1187,27 @@
    "pbdb_invalid": null
   },
   {
+   "name": "Heterosuchus",
+   "authority": "",
+   "year": 1887,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Heterosuchus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": "nomen dubium"
+  },
+  {
    "name": "Oweniasuchus",
    "authority": "Woodward 1885",
    "year": 1885,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Oweniasuchus",
    "first_ma": null,
    "last_ma": null,
    "parent": "Goniopholididae",
@@ -1022,6 +1229,20 @@
    "pbdb_invalid": null
   },
   {
+   "name": "Rhamphocephalus",
+   "authority": "",
+   "year": 1880,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Rhamphocephalus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": null
+  },
+  {
    "name": "Brachydectes",
    "authority": "Owen 1879",
    "year": 1879,
@@ -1033,6 +1254,20 @@
    "last_ma": null,
    "parent": "Goniopholididae",
    "family": "Goniopholididae",
+   "pbdb_invalid": null
+  },
+  {
+   "name": "Dasygnathoides",
+   "authority": "",
+   "year": 1877,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Dasygnathoides",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
    "pbdb_invalid": null
   },
   {
@@ -1787,32 +2022,7 @@
  ],
  "atlas_unconfirmed": [
   {
-   "name": "Antusuchus",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Carinthiasuchus",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Dyoplax",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Eosphorosuchus",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
    "name": "Ibirasuchus",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Kuttysuchus",
    "pbdb": null,
    "wikipedia": "has an article"
   },
@@ -1827,37 +2037,12 @@
    "wikipedia": "has an article"
   },
   {
-   "name": "Paarthurnax",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Proexochokefalos",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Sissokosuchus",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
    "name": "Smok",
    "pbdb": null,
    "wikipedia": "has an article"
   },
   {
    "name": "Taihangosuchus",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Tainrakuasuchus",
-   "pbdb": null,
-   "wikipedia": "has an article"
-  },
-  {
-   "name": "Telkaralura",
    "pbdb": null,
    "wikipedia": "has an article"
   },
@@ -1887,7 +2072,7 @@
    "name": "Garzapelta",
    "known": true,
    "in_pbdb": true,
-   "in_wikipedia": false,
+   "in_wikipedia": true,
    "title": "Garzapelta muelleri gen. et sp. nov., a new aetosaur (Archosauria: Pseudosuchia) from the Late Triassic (middle Norian) middle Cooper Canyon Formation, Dockum Group, Texas, USA, and its implications on our understanding of the morphological disparity of the aetosaurian dorsal carapace",
    "doi": "10.1002/ar.25379",
    "year": 2024,
@@ -1896,22 +2081,7 @@
    "term": "pseudosuchian"
   }
  ],
- "wikipedia_missing_categories": [
-  "Category:Prehistoric pseudosuchians",
-  "Category:Crocodylomorph genera",
-  "Category:Aetosaurs",
-  "Category:Rauisuchians"
- ],
- "wikipedia_category_suggestions": {
-  "Category:Prehistoric pseudosuchians": [
-   "Category:Prehistoric pseudosuchian genera",
-   "Category:Mesozoic crocodylomorphs"
-  ],
-  "Category:Crocodylomorph genera": [],
-  "Category:Aetosaurs": [
-   "Category:Aetosaurs of North America"
-  ],
-  "Category:Rauisuchians": []
- },
+ "wikipedia_missing_categories": [],
+ "wikipedia_category_suggestions": {},
  "wikipedia_truncated": false
 }
