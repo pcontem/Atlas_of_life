@@ -1,0 +1,71 @@
+name: Colhuehuapisuchus
+rank: genus
+parent: mahajangasuchidae
+incertae_sedis: true
+placement_note: English Wikipedia calls it a peirosaurid notosuchian and PBDB lists Mahajangasuchidae; check.
+authority: Lamanna et al. 2019
+type_species: Colhuehuapisuchus lunai
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Colhuehuapisuchus is a peirosaurid crocodyliform from the Late Cretaceous Lago Colhué Huapi Formation of
+  Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Colhuehuapisuchus lunai
+  authority: Lamanna et al. 2019
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Lago Colhué Huapi
+  group: Chubut
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: lago-colhue-huapi-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Lago Colhué Huapi Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba/vector.svg
+  png: https://images.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba/raster/512x102.png
+  page: https://www.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Mahajangasuchus insignis
+  matched: Mahajangasuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lamanna, Matthew C.; Casal, Gabriel A.; Ibiricu, Lucio M.; Martínez, Rubén D. F. Augu. A New Peirosaurid
+    Crocodyliform from the Upper Cretaceous Lago Colhué Huapi Formation of Central Patagonia, Argentina. Annals
+    of Carnegie Museum 85(3): 193–211. doi:10.2992/007.085.0301'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Colhuehuapisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Colhuehuapisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Colhuehuapisuchus”. English Wikipedia, revision 1362303067.
+  url: https://en.wikipedia.org/w/index.php?title=Colhuehuapisuchus&oldid=1362303067
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

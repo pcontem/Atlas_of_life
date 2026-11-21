@@ -1,0 +1,106 @@
+name: Aegisuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: Placed in Aegyptosuchidae by PBDB; that family has no atlas clade, so the nearest atlas ancestor
+  is used.
+authority: Holliday and Gardner 2012
+type_species: Aegisuchus witmeri
+type_species_note: From the Wikipedia taxobox.
+summary: Aegisuchus is a giant flat-headed crocodyliform from the Cenomanian Kem Kem beds of Morocco.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aegisuchus witmeri
+  authority: Holliday and Gardner 2012
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: kem-kem-group-morocco
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One skull from the Kem Kem beds.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Aegisuchus witmeri skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Aegisuchus_witmeri_skull.png/960px-Aegisuchus_witmeri_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aegisuchus_witmeri_skull.png
+  artist: Casey M. Holliday and Nicholas M. Gardner
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012-01-31'
+  caption: Skull of Aegisuchus witmeri.
+  width: 4934
+  height: 2278
+  review: unreviewed
+- kind: fossil
+  file: August 1, 2012 - Aegisuchus witmeri Skull on Display at the Royal Ontario Museum (ROM 64736).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/August_1%2C_2012_-_Aegisuchus_witmeri_Skull_on_Display_at_the_Royal_Ontario_Museum_%28ROM_64736%29.jpg/960px-August_1%2C_2012_-_Aegisuchus_witmeri_Skull_on_Display_at_the_Royal_Ontario_Museum_%28ROM_64736%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:August_1,_2012_-_Aegisuchus_witmeri_Skull_on_Display_at_the_Royal_Ontario_Museum_(ROM_64736).jpg
+  artist: CaptMondo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-08-01'
+  caption: Aegisuchus witmeri skull.
+  width: 3123
+  height: 1330
+  review: unreviewed
+- kind: life
+  file: Aegisuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Aegisuchus.png/960px-Aegisuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aegisuchus.png
+  artist: Original artwork by Henry P. Tsai, University of Missouri.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012-01-31'
+  caption: Life restoration of Aegisuchus.
+  width: 1631
+  height: 1222
+  review: unreviewed
+sources:
+- kind: original
+  text: C. M. Holliday and N. M. Gardner. 2012. A new eusuchian crocodyliform with novel cranial integument and
+    its significance for the origin and evolution of Crocodylia. PLoS One 7(1):e30471:1-13
+- kind: literature
+  text: Casey M. Holliday and Nicholas M. Gardner 2012. A New Eusuchian Crocodyliform with Novel Cranial Integument
+    and Its Significance for the Origin and Evolution of Crocodylia. PLOS ONE 7(1). doi:10.1371/journal.pone.0030471
+- kind: literature
+  text: Gayford, Joel H.; Engelman, Russell K.; Sternes, Phillip C.; Itano, Wayne M.; Bazzi, Mohamad; Collareta,
+    Alberto; Salas-Gismondi, Rodolfo; Shimada, Kenshu 2024. Cautionary tales on the use of proxies to estimate body
+    size and form of extinct animals. Ecology and Evolution 14(9). doi:10.1002/ece3.70218
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aegisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aegisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aegisuchus”. English Wikipedia, revision 1368793025.
+  url: https://en.wikipedia.org/w/index.php?title=Aegisuchus&oldid=1368793025
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the life restoration.
+  - Size estimates are debated (Gayford et al. 2024, citation 3); add figures from the sources.
+  reviews: []

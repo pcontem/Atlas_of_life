@@ -1,0 +1,74 @@
+name: Opisuchus
+rank: genus
+parent: metriorhynchoidea
+incertae_sedis: false
+placement_note: ''
+authority: Aiglstorfer et al. 2019
+type_species: Opisuchus meieri
+type_species_note: From the Wikipedia taxobox.
+summary: Opisuchus is a metriorhynchoid crocodyliform from the Middle Jurassic Opalinuston Formation of Germany.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 174.7
+  last_ma: 170.9
+  early_interval: Aalenian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Opisuchus meieri
+  authority: Aiglstorfer et al. 2019
+  first_ma: 174.7
+  last_ma: 170.9
+  interval: Aalenian
+  reference: original description
+formations:
+- formation: Opalinuston
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Early Aalenian
+  occurrences: 1
+  ma: [170.9, 174.7]
+  id: opalinuston-germany
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Opalinuston Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/vector.svg
+  png: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/raster/512x70.png
+  page: https://www.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5
+  attribution: LiterallyMiguel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Magyarosuchus fitosi
+  matched: Metriorhynchoidea
+  genus_level: false
+sources:
+- kind: original
+  text: M. Aiglstorfer, P. Havlik, and Y. Herrera. 2019. The first metriorhynchoid crocodyliform from the Aalenian
+    (Middle Jurassic) of Germany, with implications for the evolution of Metriorhynchoidea. Zoological Journal of
+    the Linnean Society
+- kind: literature
+  text: 'Aiglstorfer, Manuela; Havlik, Philipe; Herrera, Yanina 2020. The first metriorhynchoid crocodyliform from
+    the Aalenian (Middle Jurassic) of Germany, with implications for the evolution of Metriorhynchoidea. Zoological
+    Journal of the Linnean Society 188(2): 522–551. doi:10.1093/zoolinnean/zlz072'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Opisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Opisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Opisuchus”. English Wikipedia, revision 1328740820.
+  url: https://en.wikipedia.org/w/index.php?title=Opisuchus&oldid=1328740820
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
