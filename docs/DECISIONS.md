@@ -287,3 +287,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 ## 2026-11-21 — Genus spotlight on the Index
 - Owner request: a genus exploration tool beside the Index, like the "Species spotlight" column of prehistoric-wildlife.com: thumbnail of a reconstruction plus the genus name.
 - Built in `site/js/index-search.js` and `atlas.css` (no new data, no build step): random genera with a full entry and a non-outdated `life` image, three at a time, following the Index filters, with a Shuffle button. CLAUDE.md §6 updated.
+
+## 2026-11-21 — Genus spotlight stays in view
+- Bug: below 1100 px wide the column was switched to a static row and scrolled away with the list; on short windows the fixed column was taller than the window and cut the last card.
+- Now sticky down to 700 px (compact 170 px column below 1250 px), with a maximum height of the window.
