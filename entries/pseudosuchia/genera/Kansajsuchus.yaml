@@ -1,0 +1,119 @@
+name: Kansajsuchus
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Efimov 1975
+type_species: Kansajsuchus extensus
+type_species_note: From the Wikipedia taxobox.
+summary: Kansajsuchus is a large paralligatorid mesoeucrocodylian based on a premaxilla (PIN 2399/301) from Central
+  Asia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 100.5
+  last_ma: 72.2
+  early_interval: Cenomanian
+  late_interval: Campanian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Kansajsuchus extensus
+  authority: Efimov 1975
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bostobe
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Qyzylorda]
+  interval: Santonian–Early Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: bostobe-kazakhstan
+- formation: Yalovach
+  group: ''
+  members: []
+  country: Tajikistan
+  regions: [Sogd]
+  interval: Early Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: yalovach-tajikistan
+- formation: Khodzhakul
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: khodzhakul-uzbekistan
+fossil_material:
+  holotype: PIN 2399/301, a right premaxilla.
+  material: The premaxilla; PBDB lists occurrences in Kazakhstan, Tajikistan and Uzbekistan.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Kansajsuchus extensus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Kansajsuchus_extensus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kansajsuchus_extensus.jpg
+  artist: Thomas J.D. Halliday, Marco Brandalise De Andrade, Michael J. Benton, and Mikhail B. Efimov
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2013'
+  caption: Kansajsuchus extensus fossil.
+  width: 1081
+  height: 1001
+  review: unreviewed
+- kind: fossil
+  file: Kansajsuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Kansajsuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kansajsuchus.jpg
+  artist: Thomas J.D. Halliday, Marco Brandalise De Andrade, Michael J. Benton, and Mikhail B. Efimov
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2013'
+  caption: Kansajsuchus fossil.
+  width: 1004
+  height: 1321
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Halliday, T. 2013. A re-evaluation of goniopholidid crocodylomorph material from Central Asia: Biogeographic
+    and phylogenetic implications. Acta Palaeontologica Polonica. doi:10.4202/app.2013.0018'
+- kind: literature
+  text: 'Ivan T. Kuzmin 2019. Revision of the large crocodyliform ''''Kansajsuchus'''' (Neosuchia) from the Late
+    Cretaceous of Central Asia. Zoological Journal of the Linnean Society 185(2): 335–387. doi:10.1093/zoolinnean/zly027'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kansajsuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kansajsuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kansajsuchus”. English Wikipedia, revision 1282991710.
+  url: https://en.wikipedia.org/w/index.php?title=Kansajsuchus&oldid=1282991710
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the images.
+  - Kuzmin et al. 2019 (citation 3) revises the genus; check validity of the referred material.
+  reviews: []

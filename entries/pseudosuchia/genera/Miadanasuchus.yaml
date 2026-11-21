@@ -1,0 +1,74 @@
+name: Miadanasuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Rasmusson Simons and Buckley 2009
+type_species: Miadanasuchus oblita
+type_species_note: PBDB's only species, a combination of Trematochampsa oblita (Buffetaut and Taquet 1979); check.
+summary: Miadanasuchus is a peirosaurid notosuchian from the Maastrichtian of Madagascar, first described as Trematochampsa
+  oblita.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Miadanasuchus oblita
+  authority: (Buffetaut and Taquet 1979)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Maevarano
+  group: ''
+  members: [Anembalemba, Lac Kinkony]
+  country: Madagascar
+  regions: [Mahajanga]
+  interval: Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: maevarano-madagascar
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Maevarano Formation.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: E. L. Rasmusson Simons and G. A. Buckley. 2009. New material of "Trematochampsa" oblita (Crocodyliformes,
+    Trematochampsidae) from the Late Cretaceous of Madagascar. Journal of Vertebrate Paleontology 29(2):599-604
+- kind: literature
+  text: 'Erin L. Rasmusson Simons and Gregory A. Buckley 2009. New Material of "Trematochampsa" Oblita (Crocodyliformes,
+    Trematochampsidae) from the Late Cretaceous of Madagascar. Journal of Vertebrate Paleontology 29(2): 599–604.
+    doi:10.1671/039.029.0224'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Miadanasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Miadanasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Miadanasuchus”. English Wikipedia, revision 1367453103.
+  url: https://en.wikipedia.org/w/index.php?title=Miadanasuchus&oldid=1367453103
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

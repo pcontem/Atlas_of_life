@@ -1,0 +1,71 @@
+name: Tarsomordeo
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Adams 2019
+type_species: Tarsomordeo winkleri
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Tarsomordeo is a small terrestrial paralligatorid neosuchian from the Early Cretaceous Twin Mountains Formation
+  of Texas.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tarsomordeo winkleri
+  authority: Adams 2019
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Twin Mountains
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: twin-mountains-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Twin Mountains Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Adams, Thomas L. 2019. Small terrestrial crocodyliform from the Lower Cretaceous (late Aptian) of central
+    Texas and its implications on the paleoecology of the Proctor Lake Dinosaur locality. Journal of Vertebrate
+    Paleontology 39(3). doi:10.1080/02724634.2019.1623226
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tarsomordeo (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tarsomordeo
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tarsomordeo”. English Wikipedia, revision 1314802115.
+  url: https://en.wikipedia.org/w/index.php?title=Tarsomordeo&oldid=1314802115
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

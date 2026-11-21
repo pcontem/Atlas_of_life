@@ -1,0 +1,82 @@
+name: Gasparinisuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Martinelli et al. 2012
+type_species: Gasparinisuchus peirosauroides
+type_species_note: From the Wikipedia taxobox.
+summary: Gasparinisuchus is a peirosaurid notosuchian from the Late Cretaceous of Neuquén and Mendoza, Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Gasparinisuchus peirosauroides
+  authority: Martinelli et al. 2012
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+- formation: Anacleto
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Mendoza]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: anacleto-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Bajo de la Carpa and Anacleto formations.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Agustín G. Martinelli 2012. A new peirosaurid from the Upper Cretaceous of Argentina: Implications for
+    specimens referred to ''''Peirosaurus torminni'''' Price (Crocodyliformes: Peirosauridae). Cretaceous Research
+    37: 191–200. doi:10.1016/j.cretres.2012.03.017'
+- kind: literature
+  text: 'Turner, Alan H. 2010. Phylogenetic history of ''''Simosuchus clarki'''' (Crocodyliformes: Notosuchia) from
+    the Late Cretaceous of Madagascar. Journal of Vertebrate Paleontology 30(6, Memoir 10): 177–236. doi:10.1080/02724634.2010.532348'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gasparinisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gasparinisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gasparinisuchus”. English Wikipedia, revision 1282990690.
+  url: https://en.wikipedia.org/w/index.php?title=Gasparinisuchus&oldid=1282990690
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,79 @@
+name: Amargasuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: true
+placement_note: PBDB lists Peirosauridae, but the original assignment was to the Trematochampsidae (Chiappe 1988)
+  and English Wikipedia calls it a notosuchian; check.
+authority: Chiappe 1988
+type_species: Amargasuchus minor
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Amargasuchus is a notosuchian crocodylomorph known from a partial maxilla from the La Amarga Formation
+  of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Amargasuchus minor
+  authority: Chiappe 1988
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Amarga
+  group: Bajada del Agrio
+  members: [Puesto Antigual]
+  country: Argentina
+  regions: [Neuquén]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-amarga-argentina
+fossil_material:
+  holotype: A partial maxilla of small size (English Wikipedia).
+  material: The maxilla.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chiappe, Luis M. 1988. A new trematochampsid crocodile from the Early Cretaceous of north-western Patagonia,
+    Argentina and its palaeobiogeographical and phylogenetic implications. Cretaceous Research 9(4): 379–389. doi:10.1016/0195-6671(88)90009-2'
+- kind: literature
+  text: 'Leardi, J. M.; Pol, D.; Montefeltro, F.; Marinho, T. S.; Ruiz, J. V.; Bravo, G. G.; Pinheiro, A. E. P.;
+    Godoy, P. L.; Nicholl, C. S. C.; Lecuona, A.; Larsson, H. C. E. 2024. Phylogenetic nomenclature of Notosuchia
+    (Crocodylomorpha; Crocodyliformes). Bulletin of Phylogenetic Nomenclature 1(3): 44–82. doi:10.11646/bpn.1.3.2'
+- kind: literature
+  text: 'Pol, D.; Leardi, J.M. 2015. Diversity patterns of Notosuchia (Crocodyliformes, Mesoeucrocodylia) during
+    the Cretaceous of Gondwana. Publicación Electrónica de la Asociación Paleontológica Argentina 15(1): 172–186.
+    doi:10.5710/PEAPA.10.06.2015.108'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Amargasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Amargasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Amargasuchus”. English Wikipedia, revision 1374811630.
+  url: https://en.wikipedia.org/w/index.php?title=Amargasuchus&oldid=1374811630
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

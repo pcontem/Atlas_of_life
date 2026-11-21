@@ -1,0 +1,74 @@
+name: Yanjisuchus
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Rummy et al. 2021
+type_species: Yanjisuchus longshanensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Yanjisuchus is a paralligatorid neosuchian from the Early Cretaceous Longjing Formation of Jilin, China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 106.3
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yanjisuchus longshanensis
+  authority: Rummy et al. 2021
+  first_ma: 106.3
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Longjing
+  group: ''
+  members: []
+  country: China
+  regions: [Jilin]
+  interval: Late Albian–Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: longjing-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Longjing Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: P. Rummy, X.-C. Wu, and J. M. Clark, Q. Zhao, C.-Z. Jin, M. Shibata, F. Jin, X. Xu. 2021. A new paralligatorid
+    (Crocodyliformes, Neosuchia) from the middle Cretaceous of Jilin Province, northeastern China. Cretaceous Research
+    129:105018:1-23
+- kind: literature
+  text: Rummy, Paul; Wu, Xiao-Chun; Clark, James M.; Zhao, Qi; Jin, Chang-Zhu; Shibata, Masateru; Jin, Feng; Xu,
+    Xing 2022. A new paralligatorid (Crocodyliformes, Neosuchia) from the mid-Cretaceous of Jilin Province, northeastern
+    China. Cretaceous Research 129. doi:10.1016/j.cretres.2021.105018
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yanjisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yanjisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yanjisuchus”. English Wikipedia, revision 1314987369.
+  url: https://en.wikipedia.org/w/index.php?title=Yanjisuchus&oldid=1314987369
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

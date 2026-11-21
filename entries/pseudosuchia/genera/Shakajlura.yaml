@@ -1,0 +1,89 @@
+name: Shakajlura
+rank: genus
+parent: paracrocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Cardillo et al. 2026
+type_species: Shakajlura riojanensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Shakajlura is a large paracrocodylomorph from the Middle to Late Triassic Chañares Formation of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 241.464
+  last_ma: 227.3
+  early_interval: Ladinian
+  late_interval: Carnian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Shakajlura riojanensis
+  authority: Cardillo et al. 2026
+  first_ma: 241.464
+  last_ma: 227.3
+  interval: Ladinian–Carnian
+  reference: original description
+formations:
+- formation: Chañares
+  group: Agua de la Peña
+  members: [Lower]
+  country: Argentina
+  regions: [Rioja]
+  interval: Ladinian–Carnian
+  occurrences: 1
+  ma: [227.3, 241.464]
+  id: chanares-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Chañares Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: life
+  file: Shakajlura riojanensis シャカイルラ・リオハネンシス.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shakajlura_riojanensis_%E3%82%B7%E3%83%A3%E3%82%AB%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%BB%E3%83%AA%E3%82%AA%E3%83%8F%E3%83%8D%E3%83%B3%E3%82%B7%E3%82%B9.jpg/960px-Shakajlura_riojanensis_%E3%82%B7%E3%83%A3%E3%82%AB%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%BB%E3%83%AA%E3%82%AA%E3%83%8F%E3%83%8D%E3%83%B3%E3%82%B7%E3%82%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Shakajlura_riojanensis_%E3%82%B7%E3%83%A3%E3%82%AB%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%BB%E3%83%AA%E3%82%AA%E3%83%8F%E3%83%8D%E3%83%B3%E3%82%B7%E3%82%B9.jpg
+  artist: Solanohikali
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-08'
+  caption: Life restoration of Shakajlura riojanensis.
+  width: 5788
+  height: 4093
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ff70ea87-23ee-4c61-b174-7e587c2cbd09/vector.svg
+  png: https://images.phylopic.org/images/ff70ea87-23ee-4c61-b174-7e587c2cbd09/raster/512x124.png
+  page: https://www.phylopic.org/images/ff70ea87-23ee-4c61-b174-7e587c2cbd09
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mambawakale ruhuhu
+  matched: Paracrocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: Cardillo, Ariel F.; Desojo, Julia B.; von Baczko, M. Belén; Ezcurra, Martín D.; Martinelli, Agustín G.;
+    Vega, Nahuel; Fiorelli, Lucas E. 2026. A new large paracrocodylomorph archosaurian from the ''Tarjadia'' Assemblage
+    Zone (upper Ladinian to lower Carnian) of the Chañares Formation (Argentina) and a revision of key loricatan
+    features. Papers in Palaeontology 12(3). doi:10.1002/spp2.70086
+- kind: literature
+  text: 'Desojo, Julia B.; Rauhut, Oliver W. M. 2024. Reassessment of the enigmatic "''''Prestosuchus''''" ''''loricatus''''
+    (Archosauria: Pseudosuchia) from the Middle‐Late Triassic of southern Brazil. The Anatomical Record 307(4):
+    974–1000. doi:10.1002/ar.25401'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shakajlura (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shakajlura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shakajlura”. English Wikipedia, revision 1385694413.
+  url: https://en.wikipedia.org/w/index.php?title=Shakajlura&oldid=1385694413
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the life restoration (Japanese file name; confirm credit and licence).
+  - Very recent genus (2026); add holotype and size from the naming paper.
+  reviews: []
