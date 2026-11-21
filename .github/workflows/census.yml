@@ -1,0 +1,52 @@
+name: census
+# Census of a group's genera against PBDB, English Wikipedia and recent literature (scripts/fetch/census.py).
+# Writes data/raw/census/<group>/census_<date>.{json,md} to the branch it ran on and shows the report in the run summary.
+# Run from Actions → census → Run workflow, or by pushing a change to data/census/request.json on any branch
+# ({"groups": ["pseudosuchia", "pterosauria"], "since": 2023}). Groups are the keys of data/census/sources.yaml.
+on:
+  push:
+    branches-ignore: [main]  # a merge must not run it again
+    paths: [data/census/request.json]
+  workflow_dispatch:
+    inputs:
+      groups: { description: "Groups (space-separated keys of data/census/sources.yaml)", required: true }
+      since: { description: "New = named since this year (empty = three years ago)", required: false, default: "" }
+permissions: { contents: write }
+jobs:
+  census:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - name: Offline tests of the census code
+        run: python3 tests/test_census.py
+      - name: Parameters
+        env: { GROUPS_IN: "${{ inputs.groups }}", SINCE_IN: "${{ inputs.since }}" }
+        run: |
+          if [ -z "$GROUPS_IN" ]; then
+            python3 - >> "$GITHUB_ENV" <<'PY'
+          import json; r = json.load(open("data/census/request.json"))
+          print("CENSUS_GROUPS=" + " ".join(r["groups"]))
+          print("CENSUS_SINCE=" + str(r.get("since", "")))
+          PY
+          else
+            { echo "CENSUS_GROUPS=$GROUPS_IN"; echo "CENSUS_SINCE=$SINCE_IN"; } >> "$GITHUB_ENV"
+          fi
+      - name: Census
+        run: |
+          args=($CENSUS_GROUPS)
+          [ -n "$CENSUS_SINCE" ] && args+=(--since "$CENSUS_SINCE")
+          python3 -u scripts/fetch/census.py "${args[@]}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: census, path: data/raw/census, retention-days: 30 }
+      - name: Commit the census files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/census
+          git diff --cached --quiet || git commit -m "Census of $CENSUS_GROUPS" -m "Automated by .github/workflows/census.yml."
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push

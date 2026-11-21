@@ -1,0 +1,26 @@
+# Where the census (scripts/fetch/census.py) looks for each group's genera. One key per group: a volume folder
+# (entries/<group>) or a clade that may become a volume. Edit by hand.
+#   pbdb        base taxon of the PBDB query (all descendants, rank genus)
+#   wikipedia   categories (without "Category:") whose pages are read, sub-categories followed to `depth`;
+#               a category that does not exist is reported in the census, so wrong guesses show up on the first run
+#   literature  words searched with "new genus" in Crossref and Europe PMC
+pterosauria:
+  pbdb: Pterosauria
+  wikipedia: { categories: [Pterosaur genera, Pterosaurs], depth: 2 }
+  literature: [pterosaur, Pterosauria, azhdarchid, pterodactyloid]
+pseudosuchia:
+  pbdb: Pseudosuchia
+  wikipedia: { categories: [Prehistoric pseudosuchians, Prehistoric crocodylomorphs, Crocodylomorph genera, Aetosaurs, Rauisuchians], depth: 3 }
+  literature: [pseudosuchian, crocodylomorph, crocodyliform, crocodile, alligatoroid, notosuchian, thalattosuchian, aetosaur, rauisuchian]
+sauropodomorpha:
+  pbdb: Sauropodomorpha
+  wikipedia: { categories: [Sauropod genera, Prosauropods, Sauropodomorphs], depth: 3 }
+  literature: [sauropod, sauropodomorph, titanosaur, diplodocid, prosauropod]
+ornithischia:
+  pbdb: Ornithischia
+  wikipedia: { categories: [Ornithischian genera, Ornithischians], depth: 3 }
+  literature: [ornithischian, ceratopsian, hadrosaurid, ankylosaur, stegosaur, ornithopod, pachycephalosaur]
+theropoda:
+  pbdb: Theropoda
+  wikipedia: { categories: [Theropod genera, Theropods], depth: 3 }
+  literature: [theropod, tyrannosaurid, dromaeosaurid, oviraptorosaur, spinosaurid, abelisaurid, troodontid, megalosaurid]

@@ -1,0 +1,127 @@
+"""Offline tests of scripts/fetch/census.py: the network functions are replaced by fakes whose answers have the shapes
+PBDB, the MediaWiki API, Crossref and Europe PMC return. Run: python3 tests/test_census.py"""
+import pathlib, sys, types
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts/fetch"))
+import census, harvest  # noqa: E402
+
+# ---- small pure functions
+assert census.year_of("Marsh 1876") == 1876 and census.year_of("(Smith and Jones, 2025)") == 2025 and census.year_of("") is None
+assert census.title_to_name("Pteranodon") == "Pteranodon" and census.title_to_name("Caiman (genus)") == "Caiman"
+assert census.title_to_name("List of pterosaurs") is None and census.title_to_name("Pteranodon longiceps") is None
+assert census.title_to_name("Mercury (planet)") is None and census.title_to_name("Ab") is None
+gen_page = "{{Automatic taxobox\n| taxon = Foosuchus\n| type_species = †''Foosuchus bar''\n| authority = Smith, 2025\n}}\n'''Foosuchus''' is a genus."
+clade_page = "{{Automatic taxobox\n| taxon = Pseudosuchia\n| authority = Zittel, 1887\n}}\n'''Pseudosuchia''' is a clade of archosaurs."
+lead_only = "{{Speciesbox\n| genus = Barsaurus\n}}\n'''''Barsaurus''''' was an extinct genus of reptiles."
+assert census.wiki_is_genus(gen_page, "Foosuchus") and not census.wiki_is_genus(clade_page, "Pseudosuchia")
+assert census.wiki_is_genus(lead_only, "Barsaurus")
+t = {
+    "Foosuchus barensis gen. et sp. nov., a Late Triassic aetosaur from Brazil": ["Foosuchus"],
+    "Quxosaurus zed, a new pterosaur from the Cretaceous of China": ["Quxosaurus"],
+    "A new genus of azhdarchid from Morocco: Nixopteryx": ["Nixopteryx"],
+    "Redescription of Pteranodon and its relatives": [],
+    "A new genus of crocodylomorph from Cretaceous, Early Jurassic gen. nov.": [],
+}
+for title, want in t.items():
+    assert census.genus_leads(title) == want, (title, census.genus_leads(title))
+
+# ---- Wikipedia category crawl against a fake MediaWiki
+CATS = {
+    "Category:Root": [dict(ns=0, title="Alphasaurus"), dict(ns=14, title="Category:Child"), dict(ns=14, title="Category:Root stubs"),
+                      dict(ns=14, title="Category:Fossils of Brazil")],
+    "Category:Child": [dict(ns=0, title="Betasuchus"), dict(ns=0, title="Alphasaurus"), dict(ns=14, title="Category:Grandchild")],
+    "Category:Grandchild": [dict(ns=0, title="Gammasaurus")],
+    "Category:Empty": [],
+    "Category:Root stubs": [dict(ns=0, title="Stubsaurus")],
+    "Category:Fossils of Brazil": [dict(ns=0, title="Brazilosaurus")],
+}
+calls = []
+
+
+def fake_mw(api, **p):
+    calls.append(p)
+    if p.get("list") == "categorymembers":
+        mem = CATS.get(p["cmtitle"], [])
+        if p["cmtitle"] == "Category:Root" and "cmcontinue" not in p:  # paginate the root: first page, then the rest
+            return dict(query=dict(categorymembers=mem[:1]), **{"continue": dict(cmcontinue="x", **{"continue": "-||"})})
+        if p["cmtitle"] == "Category:Root":
+            return dict(query=dict(categorymembers=mem[1:]))
+        return dict(query=dict(categorymembers=mem))
+    if p.get("prop") == "info":
+        return dict(query=dict(pages=[dict(title=p["titles"], missing=True)] if "Nope" in p["titles"] else [dict(title=p["titles"])]))
+    raise AssertionError(p)
+
+
+real_mw = harvest.mw
+harvest.mw = fake_mw
+pages, missing, trunc = census.wiki_category_pages(["Root", "Empty", "Nope"], depth=3)
+harvest.mw = real_mw
+assert set(pages) == {"Alphasaurus", "Betasuchus", "Gammasaurus"}, pages     # stubs and "Fossils of" skipped, sub-categories followed
+assert missing == ["Category:Nope"] and not trunc, (missing, trunc)           # an empty category that exists is not "missing"
+assert any(c.get("cmcontinue") == "x" for c in calls)                          # the continuation token was passed on
+harvest.mw = fake_mw
+_, _, trunc = census.wiki_category_pages(["Root"], depth=3, cap=1)
+harvest.mw = real_mw
+assert trunc
+
+# ---- command line
+assert census.parse_args(["pseudosuchia", "pterosauria", "--since", "2021"]) == (["pseudosuchia", "pterosauria"], 2021)
+assert census.parse_args(["--since", "2020", "theropoda"]) == (["theropoda"], 2020)
+assert census.parse_args(["theropoda"]) == (["theropoda"], census.DEFAULT_SINCE)
+
+# ---- the census itself
+atlas = dict(entries={"Alphasaurus": "demo", "Betasuchus": "demo", "Oldname": "demo", "Elsewhere": "other"},
+             excluded={"Deadname": "nomen dubium"}, backbone={"Waitingosaurus"})
+PBV = [dict(taxon_name=n, taxon_attr=a, firstapp_max_ma=1, lastapp_min_ma=0, parent_name="P")
+       for n, a in [("Alphasaurus", "Smith 1900"), ("Betasuchus", "Jones 1950"), ("Newsuchus", "Doe 2025"), ("Oldsaurus", "Marsh 1880"), ("Aaasaurus", "Owen 1850"),
+                    ("Waitingosaurus", "Roe 1990"), ("Elsewhere", "X 2000"), ("Deadname", "Q 1900")]]
+PBI = [dict(taxon_name="Oldname", difference="subjective synonym of Alphasaurus")]
+WIKI = {"Foosuchus": gen_page, "Pseudosuchia": clade_page, "Alphasaurus": "x"}
+
+
+def fake_net():
+    n = types.SimpleNamespace()
+    n.pbdb = lambda base, status: {"valid": PBV, "invalid": PBI}[status]
+    n.wiki_pages = lambda roots, depth=3, cap=8000: ({"Foosuchus": "Category:A", "Pseudosuchia": "Category:A", "Alphasaurus": "Category:A",
+                                                        "List of things": "Category:A", "Waitingosaurus": "Category:A"}, ["Category:Gone"], False)
+    n.wiki_texts = lambda titles: {t: dict(wikitext=WIKI[t], ts="2026-01-01T00:00:00Z") for t in titles if t in WIKI}
+    n.wiki_redirects = lambda names: {g: dict(missing=False, redirect="Alphasaurus") for g in names}
+    n.literature = lambda terms, since: [
+        dict(title="Zedosuchus alpha gen. et sp. nov., a new crocodylomorph", doi="10.1/z", year=2025, journal="J Test", via="crossref", term="x"),
+        dict(title="Newsuchus doe gen. nov. from Brazil", doi="10.1/n", year=2025, journal="J Test", via="crossref", term="x"),
+        dict(title="Redescription of Alphasaurus", doi="10.1/a", year=2024, journal="J Test", via="crossref", term="x")]
+    return n
+
+
+cfg = dict(pbdb="Demo", wikipedia=dict(categories=["A"]), literature=["demo"])
+c = census.run_census("demo", cfg, 2023, atlas, fake_net())
+miss = {m["name"]: m for m in c["missing"]}
+assert set(miss) == {"Newsuchus", "Oldsaurus", "Foosuchus", "Aaasaurus"}, set(miss)       # known = entries, excluded, backbone; Deadname/Elsewhere/Waiting are known
+assert miss["Newsuchus"]["recent"] and miss["Foosuchus"]["recent"] and not miss["Oldsaurus"]["recent"]
+assert miss["Foosuchus"]["in_wikipedia"] and not miss["Foosuchus"]["in_pbdb"] and miss["Foosuchus"]["year"] == 2025
+assert [m["name"] for m in c["missing"]] == ["Foosuchus", "Newsuchus", "Oldsaurus", "Aaasaurus"]   # recent first (A-Z), then old ones newest first
+assert "Pseudosuchia" not in miss                                              # a clade article is not a genus
+assert c["waiting_in_backbone"] == ["Waitingosaurus"]
+un = {a["name"]: a for a in c["atlas_unconfirmed"]}
+assert set(un) == {"Oldname"}, un                                              # Alphasaurus and Betasuchus are confirmed by PBDB
+assert un["Oldname"]["pbdb"].startswith("subjective synonym") and un["Oldname"]["wikipedia"] == "redirects to Alphasaurus"
+assert c["atlas_pbdb_invalid"] == ["Oldname"]
+leads = {x["name"]: x for x in c["literature_leads"]}
+assert set(leads) == {"Zedosuchus", "Newsuchus"} and not leads["Zedosuchus"]["known"] and leads["Newsuchus"]["in_pbdb"]
+assert c["literature_leads"][0]["name"] == "Zedosuchus"                        # leads absent from PBDB come first
+assert c["wikipedia_missing_categories"] == ["Category:Gone"] and c["counts"]["missing_recent"] == 2
+md = census.report(c)
+assert "Foosuchus" in md and "Zedosuchus" in md and "Category:Gone" in md and "Oldname" in md and "10.1/z" in md
+
+# a group with nothing configured still runs (a clade that may become a volume)
+c2 = census.run_census("future", dict(pbdb="Demo"), 2023, atlas, fake_net())
+assert c2["counts"]["wikipedia_pages"] == 0 and c2["atlas_unconfirmed"] == [] and c2["literature_leads"] == []
+assert {m["name"] for m in c2["missing"]} == {"Newsuchus", "Oldsaurus", "Aaasaurus"}   # PBDB alone still works
+
+# the real configuration parses and names real folders
+import yaml
+src = yaml.safe_load((ROOT / "data/census/sources.yaml").read_text())
+assert {"pterosauria", "pseudosuchia"} <= set(src) and all("pbdb" in v for v in src.values())
+a = census.load_atlas()
+assert len(a["entries"]) > 600 and "Pteranodon" in a["entries"] and len(a["backbone"]) > 1000
+print("census tests: all passed")

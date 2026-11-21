@@ -297,3 +297,10 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 
 ## 2026-11-21 — Genus spotlight shows 25 cards
 - Owner: 25 cards instead of 3, still scrolling with the list and not stretched to the whole page height. Fewer when the filters match fewer genera.
+
+## 2026-11-21 — Census of genera per group
+- Owner: no genus list in the atlas is complete (the backbone counts are only a lower bound, and PBDB lags behind new descriptions), so every clade
+  has to be checked against PBDB **and** Wikipedia (and the recent literature) for new discoveries.
+- New tool `scripts/fetch/census.py` + `.github/workflows/census.yml` + `data/census/sources.yaml` (see CLAUDE.md §7). It only reports; entries are
+  never changed automatically. Tested offline (`tests/test_census.py`, also run by `check.yml`); the live APIs can only be reached from GitHub Actions.
+- To be done per group: run the census before planning or finishing its volume. Pseudosuchia and Pterosauria first.
