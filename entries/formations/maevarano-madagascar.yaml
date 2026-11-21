@@ -1,0 +1,54 @@
+id: maevarano-madagascar
+name: Maevarano
+rank: formation
+group: ''
+country: Madagascar
+regions: [Mahajanga]
+location:
+  lat: -15.908
+  lng: 46.582
+  basis: median of 23 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., '"channel"', crevasse splay, open shallow subtidal]
+lithology: [sandstone, not reported, claystone]
+pbdb_collections:
+- '25074'
+- '32366'
+- '39265'
+- '39266'
+- '55269'
+- '55270'
+- '77393'
+- '83731'
+- '83732'
+- '83733'
+- '85063'
+- '96692'
+- '118200'
+- '118201'
+- '118202'
+- '118203'
+- '118204'
+- '118205'
+- '118206'
+- '118209'
+- '118210'
+- '118211'
+- '144728'
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Maevarano (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Maevarano
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

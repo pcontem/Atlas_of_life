@@ -1,0 +1,165 @@
+name: Stagonolepis
+rank: genus
+parent: desmatosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Agassiz 1844
+type_species: Stagonolepis robertsoni
+type_species_note: Deduced - the first species, named with the genus by Agassiz in 1844.
+summary: Stagonolepis is an armoured, beaked stagonolepidid aetosaur from the Late Triassic of Scotland, Poland
+  and Germany.
+size:
+  length_m: [3.0, 3.0]
+  note: S. robertsoni was about 3 m long (Wikipedia).
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Stagonolepis olenkae
+  authority: Sulej 2010
+  first_ma: 233.6
+  last_ma: 227.3
+  interval: Carnian
+  reference: ''
+- name: Stagonolepis robertsoni
+  authority: Agassiz 1844
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Blue Mesa, Sonsela]
+  country: United States
+  regions: [Arizona, Utah]
+  interval: Norian
+  occurrences: 3
+  ma: [205.7, 227.3]
+  id: chinle-united-states
+- formation: Bluewater Creek
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 3
+  ma: [205.7, 227.3]
+  id: bluewater-creek-united-states
+- formation: Lossiemouth Sandstone
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Scotland]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: lossiemouth-sandstone-united-kingdom
+- formation: Drawno Beds
+  group: ''
+  members: []
+  country: Poland
+  regions: [Opole]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: drawno-beds-poland
+- formation: Grabowa
+  group: ''
+  members: []
+  country: Poland
+  regions: [Opole]
+  interval: Carnian–Norian
+  occurrences: 1
+  ma: [205.7, 237.0]
+  id: grabowa-poland
+- formation: Hassberge
+  group: Keuper
+  members: [Blasensandstein]
+  country: Germany
+  regions: [Bayern]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: hassberge-germany
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; S. robertsoni was named by Agassiz in 1844 from
+    the Lossiemouth Sandstone, Scotland.
+  material: Remains of S. robertsoni from Scotland and of S. olenkae (a skull and forelimb studied by Sulej and
+    Dróżdż) from the Drawno Beds of Poland.
+  completeness: multiple
+  exceptional: ''
+biology: A quadrupedal animal covered in thick armour, with a toothless upturned beak-like tip and peg-like back
+  teeth suited to chewing tough plants such as horsetails, ferns and cycads; S. olenkae may have dug in soft ground.
+images:
+- kind: skeletal
+  file: Stagonolepis robertsoni.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/22/Stagonolepis_robertsoni.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Stagonolepis_robertsoni.png
+  artist: Courtesy of Jeffrey Martz.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Skeletal reconstruction of Stagonolepis robertsoni.
+  width: 451
+  height: 224
+  review: unreviewed
+- kind: skeletal
+  file: Stagonolepis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Stagonolepis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Stagonolepis.jpg
+  artist: No machine-readable author provided. ArthurWeasley~commonswiki assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: 17 Decembe
+  caption: Stagonolepis restoration.
+  width: 800
+  height: 298
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Dróżdż, Dawid 2018. Osteology of a forelimb of an aetosaur Stagonolepis olenkae (Archosauria: Pseudosuchia:
+    Aetosauria) from the Krasiejów locality in Poland and its probable adaptations for a scratch-digging behavior.
+    PeerJ 6. doi:10.7717/peerj.5595'
+- kind: literature
+  text: 'Sulej, Tomasz 2010. The skull of an early Late Triassic aetosaur and the evolution of the stagonolepidid
+    archosaurian reptiles. Zoological Journal of the Linnean Society 158(4): 860–881. doi:10.1111/j.1096-3642.2009.00566.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stagonolepis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stagonolepis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stagonolepis”. English Wikipedia, revision 1314546099.
+  url: https://en.wikipedia.org/w/index.php?title=Stagonolepis&oldid=1314546099
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original description (Agassiz 1844) and holotype to be added.
+  - South American material formerly assigned to the genus belongs to Aetosauroides.
+  reviews: []

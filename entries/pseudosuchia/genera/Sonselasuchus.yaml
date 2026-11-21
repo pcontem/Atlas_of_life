@@ -1,0 +1,91 @@
+name: Sonselasuchus
+rank: genus
+parent: shuvosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Armour Smith and Sidor 2026
+type_species: Sonselasuchus cedrus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Sonselasuchus is a shuvosaurid poposauroid from the Late Triassic Chinle Formation of Arizona, known from
+  a bone bed of at least 36 individuals.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sonselasuchus cedrus
+  authority: Armour Smith and Sidor 2026
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Sonsela]
+  country: United States
+  regions: [Arizona]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: chinle-united-states
+fossil_material:
+  holotype: A specimen from the Petrified Forest National Park bone bed (the Commons image title cites PEFO); catalogue
+    number not given in the sources consulted.
+  material: A bone bed of at least 36 individuals representing the whole skeleton - skull bones, vertebrae, forelimb,
+    pectoral, hind limb and pelvic elements.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted describe the bone bed and osteology but give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Sonselasuchus cedrus (holotype, PEFO 47305 - UWBM 119436).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Sonselasuchus_cedrus_%28holotype%2C_PEFO_47305_-_UWBM_119436%29.png/960px-Sonselasuchus_cedrus_%28holotype%2C_PEFO_47305_-_UWBM_119436%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sonselasuchus_cedrus_(holotype,_PEFO_47305_-_UWBM_119436).png
+  artist: Elliott Armour Smith
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2026-03-27'
+  caption: Holotype of Sonselasuchus cedrus.
+  width: 4320
+  height: 3026
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9/vector.svg
+  png: https://images.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9/raster/512x127.png
+  page: https://www.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9
+  attribution: PaleoNeolitic
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Sillosuchus longicervix
+  matched: Shuvosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: E. Armour Smith and C. A. Sidor. 2026. Osteology and relationships of a new shuvosaurid (Pseudosuchia, Poposauroidea)
+    from the Upper Triassic Chinle Formation of Petrified Forest National Park, Arizona, U.S.A. Journal of Vertebrate
+    Paleontology
+- kind: literature
+  text: Smith, Elliott Armour; Sidor, Christian A. 2026. Osteology and relationships of a new shuvosaurid (Pseudosuchia,
+    Poposauroidea) from the Upper Triassic Chinle Formation of Petrified Forest National Park, Arizona, U.S.A. Journal
+    of Vertebrate Paleontology. doi:10.1080/02724634.2025.2604859
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sonselasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sonselasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sonselasuchus”. English Wikipedia, revision 1358039180.
+  url: https://en.wikipedia.org/w/index.php?title=Sonselasuchus&oldid=1358039180
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Described in 2026 (Armour Smith and Sidor); holotype number to be added.
+  - Original naming work is the 2026 paper (PBDB).
+  reviews: []

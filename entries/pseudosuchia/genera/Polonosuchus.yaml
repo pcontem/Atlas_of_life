@@ -1,0 +1,109 @@
+name: Polonosuchus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Brusatte et al. 2009
+type_species: Polonosuchus silesiacus
+type_species_note: Monotypic genus; the only species is the type (originally named in Teratosaurus).
+summary: Polonosuchus is a predatory rauisuchid with a large head and long sharp teeth from the Late Triassic of
+  Poland.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 233.6
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Polonosuchus silesiacus
+  authority: (Sulej 2005)
+  first_ma: 233.6
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Drawno Beds
+  group: ''
+  members: []
+  country: Poland
+  regions: [Opole]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: drawno-beds-poland
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the genus was named by Brusatte et al. in 2009 for
+    a species earlier placed in Teratosaurus.
+  material: Skull bones and vertebrae from the Drawno Beds of Poland.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its legs were held almost under the body, which would have made it a fast, powerful runner; it was ecologically
+  similar to Postosuchus.
+images:
+- kind: fossil
+  file: Polonosuchus silesiacus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8e/Polonosuchus_silesiacus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Polonosuchus_silesiacus.jpg
+  artist: Stephen L. Brusatte, Richard J. Butler, Tomasz Sulej, and Grzegorz Niedźwiedzki
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2009'
+  caption: Polonosuchus silesiacus fossil.
+  width: 1080
+  height: 582
+  review: unreviewed
+- kind: fossil
+  file: Polonosuchus skull bones.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Polonosuchus_skull_bones.jpg/960px-Polonosuchus_skull_bones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Polonosuchus_skull_bones.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2018'
+  caption: Skull bones of Polonosuchus.
+  width: 1810
+  height: 672
+  review: unreviewed
+- kind: life
+  file: Reconstruction of Polonosuchus by Szymon Górnicki.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e8/Reconstruction_of_Polonosuchus_by_Szymon_G%C3%B3rnicki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Reconstruction_of_Polonosuchus_by_Szymon_G%C3%B3rnicki.jpg
+  artist: Szymon Górnicki
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-06-21'
+  caption: Reconstruction of Polonosuchus.
+  width: 1024
+  height: 372
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Rauisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brusatte, Stephen L.; Butler, Richard J.; Sulej, Tomasz; Niedźwiedzki, Grzegorz 2009. The taxonomy and
+    anatomy of rauisuchian archosaurs from the Late Triassic of Germany and Poland. Acta Palaeontologica Polonica
+    54(2): 221–230. doi:10.4202/app.2008.0065'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Polonosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Polonosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Polonosuchus”. English Wikipedia, revision 1358925155.
+  url: https://en.wikipedia.org/w/index.php?title=Polonosuchus&oldid=1358925155
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

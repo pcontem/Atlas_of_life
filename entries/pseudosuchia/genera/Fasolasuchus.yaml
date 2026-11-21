@@ -1,0 +1,112 @@
+name: Fasolasuchus
+rank: genus
+parent: loricata
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1981
+type_species: Fasolasuchus tenax
+type_species_note: Monotypic genus; the only species is the type.
+summary: Fasolasuchus is a very large loricatan from the Late Triassic Los Colorados Formation of Argentina, one
+  of the last rauisuchians.
+size:
+  length_m: null
+  note: Larger than other large rauisuchians; the holotype femur is 70 cm long (Wikipedia); no total length is given
+    in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fasolasuchus tenax
+  authority: Bonaparte 1981
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Los Colorados
+  group: Agua de la Peña
+  members: []
+  country: Argentina
+  regions: [La Rioja]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: los-colorados-argentina
+fossil_material:
+  holotype: A smaller individual with a 70 cm femur, double the length of the fibula, from the Los Colorados Formation;
+    catalogue number not given in the sources consulted.
+  material: The holotype plus a larger individual.
+  completeness: partial
+  exceptional: ''
+biology: Bone microstructure shows relatively fast growth, like most rauisuchians except Prestosuchus; the studied
+  specimen was somatically and skeletally mature.
+images:
+- kind: skeletal
+  file: Fasolasuchus skeletal merged.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Fasolasuchus_skeletal_merged.png/960px-Fasolasuchus_skeletal_merged.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fasolasuchus_skeletal_merged.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-01-01'
+  caption: Skeletal reconstruction of Fasolasuchus.
+  width: 9777
+  height: 2278
+  review: unreviewed
+- kind: life
+  file: Fasolasuchus tenax.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Fasolasuchus_tenax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Fasolasuchus_tenax.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-09-18'
+  caption: Life restoration of Fasolasuchus tenax.
+  width: 1180
+  height: 684
+  review: unreviewed
+- kind: life
+  file: Fasolasuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5f/Fasolasuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Fasolasuchus.jpg
+  artist: Ornitholestes
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Fasolasuchus in life.
+  width: 1268
+  height: 326
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/vector.svg
+  png: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/raster/606x1536.png
+  page: https://www.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243
+  attribution: Noah Schlottman, photo from Casey Dunn
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Polyplacophora
+  matched: Loricata
+  genus_level: false
+sources:
+- kind: original
+  text: 'Bonaparte, J. F. 1981. Description de "''''Fasolasuchus tenax''''" y su significado en la sistemarica y
+    evolucion de los thecodontia. [[Revista del Museo Argentino de Ciencias Naturales 3: 55–101.'
+- kind: literature
+  text: 'Bonaparte, José F. Marc. Locomotion in rauisuchid thecodonts. Journal of Vertebrate Paleontology 3(4):
+    210–218. doi:10.1080/02724634.1984.10011976'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fasolasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fasolasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fasolasuchus”. English Wikipedia, revision 1368906708.
+  url: https://en.wikipedia.org/w/index.php?title=Fasolasuchus&oldid=1368906708
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,123 @@
+name: Anatosuchus
+rank: genus
+parent: uruguaysuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Sereno et al. 2003
+type_species: Anatosuchus minor
+type_species_note: The English Wikipedia names A. minor as the type species.
+summary: Anatosuchus is a duck-snouted notosuchian crocodyliform from the Early Cretaceous Elrhaz Formation of Niger.
+size:
+  length_m: null
+  note: No body-length estimate is given in the excerpt consulted.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Anatosuchus minor
+  authority: Sereno et al. 2003
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: elrhaz-niger
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; found at Gadoufaoua, Niger, and described by Sereno
+    et al. in 2003.
+  material: Skull, jaw and pectoral girdle/forelimb material from the Elrhaz Formation.
+  completeness: partial
+  exceptional: ''
+biology: Its broad, flat snout, with six backward-pointing teeth in each premaxilla, gave it a duck-like look; skull
+  differences suggest that this shape developed as the animal aged.
+images:
+- kind: life
+  file: Anatosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/42/Anatosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Anatosuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-25'
+  caption: Anatosuchus restoration (Bogdanov).
+  width: 800
+  height: 448
+  review: unreviewed
+- kind: life
+  file: Anatosuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/06/Anatosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Anatosuchus.jpg
+  artist: Todd Marshall
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-11-19'
+  caption: Life restoration of Anatosuchus.
+  width: 1422
+  height: 560
+  review: unreviewed
+- kind: fossil
+  file: Anatosuchus minor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b9/Anatosuchus_minor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Anatosuchus_minor.jpg
+  artist: Sereno PC, Larsson HCE
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Anatosuchus minor fossil.
+  width: 1512
+  height: 699
+  review: unreviewed
+- kind: fossil
+  file: Anatosuchus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/28/Anatosuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Anatosuchus_skull.jpg
+  artist: Sereno PC, Larsson HCE
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Skull of Anatosuchus.
+  width: 1512
+  height: 1514
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2ff63c9f-f1c3-4cbf-9396-d6038d1cb9c1/vector.svg
+  png: https://images.phylopic.org/images/2ff63c9f-f1c3-4cbf-9396-d6038d1cb9c1/raster/512x177.png
+  page: https://www.phylopic.org/images/2ff63c9f-f1c3-4cbf-9396-d6038d1cb9c1
+  attribution: Todd Marshall, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Anatosuchus wegeneri
+  matched: Anatosuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Sereno PC, Sidor CA, Larsson HC, Gado B 2003. A new notosuchian from the Early Cretaceous of Niger. Journal
+    of Vertebrate Paleontology 23(2): 477–482. doi:10.1671/0272-4634(2003)023[0477:ANNFTE]2.0.CO;2'
+- kind: literature
+  text: 'Paul C. Sereno 2009. Cretaceous Crocodyliforms from the Sahara. ZooKeys(28): 1–143. doi:10.3897/zookeys.28.325'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anatosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anatosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anatosuchus”. English Wikipedia, revision 1339969795.
+  url: https://en.wikipedia.org/w/index.php?title=Anatosuchus&oldid=1339969795
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia text was flagged as possibly not about the genus; its lead does describe Anatosuchus.
+  - Completeness to be checked against Sereno et al. 2003.
+  reviews: []

@@ -1,0 +1,370 @@
+name: Thoracosaurus
+rank: genus
+parent: gavialoidea
+incertae_sedis: false
+placement_note: ''
+authority: Leidy 1852
+type_species: Thoracosaurus neocesariensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Thoracosaurus is an extinct long-snouted eusuchian of the Late Cretaceous and Early Paleocene of North
+  America and Europe.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 85.7
+  last_ma: 48.07
+  early_interval: Santonian
+  late_interval: Ypresian
+  pbdb_occurrences: 53
+  note: ''
+species:
+- name: Thoracosaurus borissiaki
+  authority: Efimov 1988
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Thoracosaurus brevispinus
+  authority: (Cope 1867)
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: ''
+- name: Thoracosaurus isorhynchus
+  authority: (Pomel 1847)
+  first_ma: 72.2
+  last_ma: 61.66
+  interval: Maastrichtian–Danian
+  reference: ''
+- name: Thoracosaurus macrorhynchus
+  authority: (de Blainville 1855)
+  first_ma: 72.2
+  last_ma: 61.66
+  interval: Maastrichtian–Danian
+  reference: ''
+- name: Thoracosaurus meirsanus
+  authority: Troxell 1925
+  first_ma: 85.7
+  last_ma: 48.07
+  interval: Santonian–Ypresian
+  reference: ''
+- name: Thoracosaurus mullicensis
+  authority: Troxell 1925
+  first_ma: 85.7
+  last_ma: 48.07
+  interval: Santonian–Ypresian
+  reference: ''
+- name: Thoracosaurus neocesariensis
+  authority: (De Kay 1842)
+  first_ma: 85.7
+  last_ma: 48.07
+  interval: Santonian–Ypresian
+  reference: original description
+- name: Thoracosaurus scanicus
+  authority: Troedsson 1924
+  first_ma: 72.2
+  last_ma: 61.66
+  interval: Maastrichtian–Danian
+  reference: ''
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [North Dakota, South Dakota]
+  interval: Late Maastrichtian
+  occurrences: 14
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Hornerstown
+  group: Rancocas
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Maastrichtian–Early Paleocene
+  occurrences: 7
+  ma: [61.66, 72.2]
+  id: hornerstown-united-states
+- formation: Vincentown
+  group: Rancocas
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Thanetian
+  occurrences: 4
+  ma: [56.0, 59.24]
+  id: vincentown-united-states
+- formation: Severn
+  group: ''
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: severn-united-states
+- formation: Rhems
+  group: Black Mingo
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Danian
+  occurrences: 2
+  ma: [61.66, 66.0]
+  id: rhems-united-states
+- formation: Unnamed unit
+  group: Monmouth
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Cretaceous–Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 100.5]
+  id:
+  - monmouth-group-united-states
+  - unnamed-burlington-county-greensand-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: unnamed-mont-aime-france
+- formation: Nanjemoy
+  group: ''
+  members: [Potapaco]
+  country: United States
+  regions: [Virginia]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: nanjemoy-united-states
+- formation: Blufftown
+  group: ''
+  members: []
+  country: United States
+  regions: [Georgia]
+  interval: Late Santonian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: blufftown-united-states
+- formation: Fruitland
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Mount Laurel
+  group: Monmouth
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: mount-laurel-united-states
+- formation: Williamsburg
+  group: Black Mingo
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Clarkforkian
+  occurrences: 1
+  ma: [56.0, 57.5]
+  id: williamsburg-united-states
+- formation: Marnes d'Auzas
+  group: ''
+  members: []
+  country: France
+  regions: [Haute-Garonne]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: marnes-d-auzas-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ukraine
+  regions: []
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: unnamed-inkerman-crimea-ukraine
+- formation: København Limestone
+  group: ''
+  members: []
+  country: Sweden
+  regions: []
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: kbenhavn-limestone-sweden
+- formation: Maastrichter Tuffkreide
+  group: ''
+  members: []
+  country: Netherlands
+  regions: []
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: maastrichter-tuffkreide-netherlands
+- formation: Matawan
+  group: ''
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: matawan-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Poland
+  regions: [Lublin]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: unnamed-kamienny-dol-gorge-poland
+- formation: Arén
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: aren-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Denmark
+  regions: [Sjaelland]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: unnamed-fakse-limestone-quarry-denmark
+- formation: Møns Klint
+  group: ''
+  members: [Hvidskud]
+  country: Denmark
+  regions: []
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: mns-klint-denmark
+- formation: Demopolis
+  group: ''
+  members: []
+  country: United States
+  regions: [Mississippi]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: demopolis-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the genus was named by Leidy in 1852.
+  material: Abundant remains of several species from the Hell Creek, Hornerstown, Vincentown and Severn formations
+    of the United States and from Europe.
+  completeness: multiple
+  exceptional: ''
+biology: A long-snouted crocodylian; the sources consulted give no direct evidence of diet.
+images:
+- kind: fossil
+  file: Thoracosaurus (Marnes d'Auzas).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Thoracosaurus_%28Marnes_d%27Auzas%29.jpg/960px-Thoracosaurus_%28Marnes_d%27Auzas%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Thoracosaurus_(Marnes_d%27Auzas).jpg
+  artist: Taxon34
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-08-04'
+  caption: Thoracosaurus fossil (Marnes d'Auzas).
+  width: 2674
+  height: 1337
+  review: unreviewed
+- kind: fossil
+  file: Thoracosaurus EFM.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Thoracosaurus_EFM.jpg/960px-Thoracosaurus_EFM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Thoracosaurus_EFM.jpg
+  artist: Skye McDavid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-02'
+  caption: Thoracosaurus fossil (EFM).
+  width: 3983
+  height: 860
+  review: unreviewed
+- kind: fossil
+  file: Thoracosaurus macrorhynchus - Maastricht.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Thoracosaurus_macrorhynchus_-_Maastricht.jpg/960px-Thoracosaurus_macrorhynchus_-_Maastricht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Thoracosaurus_macrorhynchus_-_Maastricht.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-13'
+  caption: Thoracosaurus macrorhynchus fossil.
+  width: 1884
+  height: 756
+  review: unreviewed
+- kind: fossil
+  file: Thoracosaurus macrorhynchus Naturalis.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Thoracosaurus_macrorhynchus_Naturalis.JPG/960px-Thoracosaurus_macrorhynchus_Naturalis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Thoracosaurus_macrorhynchus_Naturalis.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-08-26'
+  caption: Thoracosaurus macrorhynchus (museum specimen).
+  width: 2841
+  height: 1326
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/db3efbe4-e638-4374-846e-0506f967736e/vector.svg
+  png: https://images.phylopic.org/images/db3efbe4-e638-4374-846e-0506f967736e/raster/512x79.png
+  page: https://www.phylopic.org/images/db3efbe4-e638-4374-846e-0506f967736e
+  attribution: Evan Boucher
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Thoracosaurus neocesariensis
+  matched: Thoracosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Brochu, C. A. 2006. Osteology and phylogenetic significance of ''''Eosuchus minor'''' (Marsh, 1870) new
+    combination, a longirostrine crocodylian from the Late Paleocene of North America. Journal of Paleontology 80(1):
+    162–186. doi:10.1666/0022-3360(2006)080[0162:OAPSOE]2.0.CO;2'
+- kind: literature
+  text: 'Michael S. Y. Lee 2018. Tip-dating and homoplasy: reconciling the shallow molecular divergences of modern
+    gharials with their long fossil record. Proceedings of the Royal Society B: Biological Sciences 285(1881). doi:10.1098/rspb.2018.1071'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thoracosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thoracosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Thoracosaurus”. English Wikipedia, revision 1315058859.
+  url: https://en.wikipedia.org/w/index.php?title=Thoracosaurus&oldid=1315058859
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Traditionally related to the false gharial; later work supports affinities within Gavialoidea, though a 2018
+    tip-dating study differed.
+  - Original naming work (Leidy 1852) to be added.
+  reviews: []

@@ -1,0 +1,116 @@
+name: Decuriasuchus
+rank: genus
+parent: suchia
+incertae_sedis: false
+placement_note: ''
+authority: Franca et al. 2011
+type_species: Decuriasuchus quartacolonia
+type_species_note: Monotypic genus; the only species is the type.
+summary: Decuriasuchus is a carnivorous loricatan from the Middle Triassic Santa Maria Formation of Brazil, known
+  from ten immature individuals.
+size:
+  length_m: null
+  note: All known specimens are immature, so no adult size is given.
+age:
+  first_ma: 247
+  last_ma: 227.3
+  early_interval: Anisian
+  late_interval: Carnian
+  pbdb_occurrences: 4
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Decuriasuchus quartacolonia
+  authority: Franca et al. 2011
+  first_ma: 247
+  last_ma: 227.3
+  interval: ''
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: Rosário do Sul
+  members: [Alemoa]
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Middle Triassic–Carnian
+  occurrences: 4
+  ma: [227.3, 247.0]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: MCN PV10105a, an articulated partial skeleton lacking the scapular girdle and limbs.
+  material: Ten specimens including nine articulated and associated skeletons, three with nearly complete skulls;
+    all are immature.
+  completeness: multiple
+  exceptional: ''
+biology: A carnivorous archosaur of the Ladinian of southern Brazil; the name means unit of ten crocodiles, for
+  the ten individuals found together.
+images:
+- kind: life
+  file: Decuriasuchus quartacolonia.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Decuriasuchus_quartacolonia.png/960px-Decuriasuchus_quartacolonia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Decuriasuchus_quartacolonia.png
+  artist: Driptosaurus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-10-10'
+  caption: Life restoration of Decuriasuchus quartacolonia.
+  width: 4450
+  height: 1102
+  review: unreviewed
+- kind: fossil
+  file: Decuriasuchus1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Decuriasuchus1.jpg/960px-Decuriasuchus1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Decuriasuchus1.jpg
+  artist: marco frança
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2011-03-29'
+  caption: Decuriasuchus fossil.
+  width: 2392
+  height: 1568
+  review: unreviewed
+- kind: fossil
+  file: Decuriasuchus3.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Decuriasuchus3.jpg/960px-Decuriasuchus3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Decuriasuchus3.jpg
+  artist: Marcofranca
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Decuriasuchus fossil, second specimen.
+  width: 1613
+  height: 2860
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/69649a06-01d6-46c7-b12b-e7e6cacaf9d9/vector.svg
+  png: https://images.phylopic.org/images/69649a06-01d6-46c7-b12b-e7e6cacaf9d9/raster/512x115.png
+  page: https://www.phylopic.org/images/69649a06-01d6-46c7-b12b-e7e6cacaf9d9
+  attribution: Nobu Tamura
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Ticinosuchus ferox
+  matched: Suchia
+  genus_level: false
+sources:
+- kind: original
+  text: M. A. G. Franca, J. Ferigolo, and M. C. Langer. 2011. Associated skeletons of a new middle Triassic “Rauisuchia”
+    from Brazil. Naturwissenschaften 98:389-395
+- kind: literature
+  text: 'Marco Aurélio G. França 2011. Associated skeletons of a new middle Triassic "Rauisuchia" from Brazil. Naturwissenschaften
+    98(5): 389–395. doi:10.1007/s00114-011-0782-3'
+- kind: literature
+  text: 'De França, Marco A. G.; Langer, Max C.; Ferigolo, Jorge 2013. The skull anatomy of Decuriasuchus quartacolonia
+    (Pseudosuchia: Suchia: Loricata) from the middle Triassic of Brazil. Geological Society, London, Special Publications
+    379(1): 469–501. doi:10.1144/SP379.8'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Decuriasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Decuriasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Decuriasuchus”. English Wikipedia, revision 1353439204.
+  url: https://en.wikipedia.org/w/index.php?title=Decuriasuchus&oldid=1353439204
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB places it in Suchia; Wikipedia calls it a loricatan. Original naming work is França et al. 2011.
+  reviews: []

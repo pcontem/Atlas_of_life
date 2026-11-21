@@ -1,0 +1,110 @@
+name: Yacarerani
+rank: genus
+parent: sphagesauridae
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2009
+type_species: Yacarerani boliviensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Yacarerani is a notosuchian crocodylomorph with rabbit-like incisors from the Late Cretaceous Cajones Formation
+  of Bolivia.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yacarerani boliviensis
+  authority: Novas et al. 2009
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Cajones
+  group: ''
+  members: []
+  country: Bolivia
+  regions: [Santa Cruz de la Sierra]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: cajones-bolivia
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; found in 2002 in Amboró National Park.
+  material: Two individuals found in association with eggs.
+  completeness: partial
+  exceptional: ''
+biology: Two teeth at the tip of the lower jaw project forward like rabbit incisors, and cusped back teeth suit
+  grinding or chopping food such as tubers or small arthropods.
+images:
+- kind: life
+  file: Yacarerani.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Yacarerani.jpg/960px-Yacarerani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yacarerani.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-01-24'
+  caption: Life restoration of Yacarerani.
+  width: 6000
+  height: 6357
+  review: unreviewed
+- kind: skeletal
+  file: Yacarerani skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Yacarerani_skeletal.png/960px-Yacarerani_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yacarerani_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-09'
+  caption: Skeletal reconstruction of Yacarerani.
+  width: 10253
+  height: 3385
+  review: unreviewed
+- kind: skeletal
+  file: Yacarerani boliviensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Yacarerani_boliviensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yacarerani_boliviensis.png
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2013'
+  caption: Yacarerani boliviensis skeleton.
+  width: 900
+  height: 600
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/vector.svg
+  png: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/raster/512x205.png
+  page: https://www.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Adamantinasuchus navae
+  matched: Sphagesauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Novas, F. E. 2009. Bizarre notosuchian crocodyliform with associated eggs from the Upper Cretaceous of
+    Bolivia. Journal of Vertebrate Paleontology 29(4): 1316–1320. doi:10.1671/039.029.0409'
+- kind: literature
+  text: 'Novas, F. E. 2009. Bizarre notosuchian crocodyliform with associated eggs from the Upper Cretaceous of
+    Bolivia. Journal of Vertebrate Paleontology 29(4): 1316–1320. doi:10.1671/039.029.0409'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yacarerani (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yacarerani
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yacarerani”. English Wikipedia, revision 1368526913.
+  url: https://en.wikipedia.org/w/index.php?title=Yacarerani&oldid=1368526913
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

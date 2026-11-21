@@ -1,0 +1,136 @@
+name: Laganosuchus
+rank: genus
+parent: stomatosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Sereno and Larsson 2009
+type_species: Laganosuchus thaumastos
+type_species_note: ''
+summary: Laganosuchus is a stomatosuchid crocodyliform with a very flat skull from the Late Cretaceous of Niger
+  and Morocco.
+size:
+  length_m: null
+  note: The jaw of L. thaumastos was 838 mm long in total; no body-length estimate is given in the sources consulted.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Laganosuchus maghrebensis
+  authority: Sereno and Larsson 2009
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: ''
+- name: Laganosuchus thaumastos
+  authority: Sereno and Larsson 2009
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: kem-kem-group-morocco
+- formation: Echkar
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: echkar-niger
+- formation: Grès rouges
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Béchar]
+  interval: Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: gres-rouges-algeria
+fossil_material:
+  holotype: L. maghrebensis has the holotype UCRC PV2 (Kem Kem Beds, Morocco); the type species L. thaumastos is
+    from the Echkar Formation of Niger; its catalogue number was not read for this draft.
+  material: Skull and jaw remains of two species from Niger, Morocco and Algeria.
+  completeness: fragmentary
+  exceptional: ''
+biology: The name means pancake crocodile, for the shallow skull typical of stomatosuchids; the sources consulted
+  give no direct evidence of diet.
+images:
+- kind: fossil
+  file: Laganosuchus fossils.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Laganosuchus_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Laganosuchus_fossils.jpg
+  artist: brahim N, Sereno PC, Varricchio DJ, Martill DM, Dutheil DB, Unwin DM, Baidder L, Larsson HCE, Zouhri S,
+    Kaoukaya A
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-04-21'
+  caption: Laganosuchus fossils.
+  width: 1512
+  height: 1808
+  review: unreviewed
+- kind: fossil
+  file: Laganosuchus maghrebensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/55/Laganosuchus_maghrebensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Laganosuchus_maghrebensis.jpg
+  artist: Carol Abraczinskas
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-11-19'
+  caption: Laganosuchus maghrebensis fossil.
+  width: 1371
+  height: 1366
+  review: unreviewed
+- kind: fossil
+  file: Laganosuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/61/Laganosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Laganosuchus.jpg
+  artist: Carol Abraczinskas
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-11-19'
+  caption: Laganosuchus fossil.
+  width: 1512
+  height: 732
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/651d71a6-0232-408b-911e-afb5cfadaa8a/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/651d71a6-0232-408b-911e-afb5cfadaa8a
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Laganosuchus
+  matched: Laganosuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Sereno, Paul; Larsson, Hans 2009. Cretaceous Crocodyliforms from the Sahara. ZooKeys(28): 1–143. doi:10.3897/zookeys.28.325'
+- kind: literature
+  text: 'Sereno, P. C.; Dutheil, D. B.; Iarochene, M.; Larsson, H. C. E.; Lyon, G. H.; Magwene, P. M.; Sidor, C.
+    A.; Varricchio, D. J.; Wilson, J. A. 1996. Predatory dinosaurs from the Sahara and Late Cretaceous faunal differentiation.
+    Science 272(5264): 986–991. doi:10.1126/science.272.5264.986'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Laganosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Laganosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Laganosuchus”. English Wikipedia, revision 1288845498.
+  url: https://en.wikipedia.org/w/index.php?title=Laganosuchus&oldid=1288845498
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

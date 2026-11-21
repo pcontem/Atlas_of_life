@@ -1,0 +1,101 @@
+name: Turnersuchus
+rank: genus
+parent: thalattosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Wilberg et al. 2023
+type_species: Turnersuchus hingleyae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Turnersuchus is the oldest diagnostic and most basal known thalattosuchian, from the Early Jurassic of
+  the United Kingdom.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 192.9
+  last_ma: 184.2
+  early_interval: Pliensbachian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Turnersuchus hingleyae
+  authority: Wilberg et al. 2023
+  first_ma: 192.9
+  last_ma: 184.2
+  interval: Pliensbachian
+  reference: original description
+formations:
+- formation: Charmouth Mudstone
+  group: ''
+  members: [Belemnite Marl]
+  country: United Kingdom
+  regions: [England]
+  interval: Pliensbachian
+  occurrences: 1
+  ma: [184.2, 192.9]
+  id: charmouth-mudstone-united-kingdom
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; on display at the Lyme Regis Museum since 2023.
+  material: The holotype from the Charmouth Mudstone Formation, discovered by Paul Turner and prepared by Elizabeth
+    Hingley, who also found additional material.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe its anatomy and basal position but give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Turnersuchus holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Turnersuchus_holotype.jpg/960px-Turnersuchus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Turnersuchus_holotype.jpg
+  artist: Harold9595959
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-30'
+  caption: Holotype of Turnersuchus hingleyae.
+  width: 4000
+  height: 3000
+  review: unreviewed
+- kind: skeletal
+  file: Turnersuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Turnersuchus_skeletal.png/960px-Turnersuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Turnersuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-02-01'
+  caption: Skeletal reconstruction of Turnersuchus.
+  width: 6414
+  height: 1403
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/vector.svg
+  png: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/raster/512x70.png
+  page: https://www.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5
+  attribution: LiterallyMiguel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Magyarosuchus fitosi
+  matched: Thalattosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: Wilberg, E. W.; Godoy, P. L.; Griffiths, E. F.; Turner, A. H.; Benson, R. B. J. 2023. A new early diverging
+    thalattosuchian (Crocodylomorpha) from the Early Jurassic (Pliensbachian) of Dorset, U.K. and implications for
+    the origin and evolution of the group. Journal of Vertebrate Paleontology 42(3). doi:10.1080/02724634.2022.2161909
+- kind: literature
+  text: Wilberg, E. W.; Godoy, P. L.; Griffiths, E. F.; Turner, A. H.; Benson, R. B. J. 2023. A new early diverging
+    thalattosuchian (Crocodylomorpha) from the Early Jurassic (Pliensbachian) of Dorset, U.K. and implications for
+    the origin and evolution of the group. Journal of Vertebrate Paleontology 42(3). doi:10.1080/02724634.2022.2161909
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Turnersuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Turnersuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Turnersuchus”. English Wikipedia, revision 1336119107.
+  url: https://en.wikipedia.org/w/index.php?title=Turnersuchus&oldid=1336119107
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Situated outside both Metriorhynchoidea and Teleosauroidea (Wilberg et al. 2023).
+  reviews: []

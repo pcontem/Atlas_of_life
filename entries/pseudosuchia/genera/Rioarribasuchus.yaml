@@ -1,0 +1,104 @@
+name: Rioarribasuchus
+rank: genus
+parent: typothoracinae
+incertae_sedis: false
+placement_note: ''
+authority: Lucas et al. 2006
+type_species: Rioarribasuchus chamaensis
+type_species_note: Monotypic genus; PBDB lists only R. chamaensis, originally named in Desmatosuchus.
+summary: Rioarribasuchus is an aetosaur from the Late Triassic Chinle Formation of Arizona and New Mexico.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 119.57
+  early_interval: Norian
+  late_interval: Aptian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Rioarribasuchus chamaensis
+  authority: (Zeigler et al. 2002)
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Petrified Forest, Sonsela]
+  country: United States
+  regions: [Arizona, New Mexico]
+  interval: Lacian–Sevatian
+  occurrences: 3
+  ma: [205.7, 227.3]
+  id: chinle-united-states
+- formation: Bull Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: bull-canyon-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+- formation: Atherfield Clay
+  group: ''
+  members: [Perna Beds]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: atherfield-clay-united-kingdom
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; "Desmatosuchus" chamaensis comes from the Petrified
+    Forest Member of the Chinle Formation, New Mexico.
+  material: Remains from the Chinle, Bull Canyon and Cooper Canyon formations.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no information on its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: S. G. Lucas, A. P. Hunt, and J. A. Spielmann. 2006. Rioarribasuchus, a new name for an aetosaur from the
+    Upper Triassic of north-central New Mexico. The Triassic-Jurassic Terrestrial Transition, New Mexico Museum
+    of Natural History and Science Bulletin 37:581-582
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rioarribasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rioarribasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rioarribasuchus”. English Wikipedia, revision 1374651821.
+  url: https://en.wikipedia.org/w/index.php?title=Rioarribasuchus&oldid=1374651821
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Suggested to be closer to Paratypothorax; Parker gave it the name Heliocanthus, which stayed a nomen nudum until
+    2007, while Lucas et al. published Rioarribasuchus in 2006 - a naming priority dispute.
+  - PBDB lists an Early Aptian occurrence in the Atherfield Clay (United Kingdom) that looks erroneous - check.
+  - No candidate image on the contact sheet.
+  - Wikipedia lists no citations in this revision; add literature sources.
+  - Original naming work is Lucas et al. 2006 (PBDB).
+  reviews: []

@@ -1,0 +1,126 @@
+name: Batrachotomus
+rank: genus
+parent: loricata
+incertae_sedis: false
+placement_note: ''
+authority: Gower 1999
+type_species: Batrachotomus kupferzellensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Batrachotomus is a large loricatan pseudosuchian of the Middle Triassic of southern Germany with paired
+  bony plates along its back.
+size:
+  length_m: null
+  note: Wikipedia gives a 50 cm skull and a 47.8 cm femur for the holotype; no body-length estimate is given in
+    the sources consulted, so these numbers are placeholders to check.
+age:
+  first_ma: 239.48
+  last_ma: 237
+  early_interval: Ladinian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Batrachotomus kupferzellensis
+  authority: Gower 1999
+  first_ma: 239.48
+  last_ma: 237
+  interval: Ladinian
+  reference: original description
+formations:
+- formation: Erfurt
+  group: Keuper
+  members: [Upper Lettenkeuper]
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Longobardian
+  occurrences: 3
+  ma: [237.0, 239.48]
+  id: erfurt-germany
+fossil_material:
+  holotype: SMNS 52970, an almost complete skull and partial postcranial skeleton, the largest known specimen.
+  material: The holotype plus other specimens from the Erfurt Formation near Kupferzell, Germany.
+  completeness: multiple
+  exceptional: ''
+biology: It lived in a swampy region; a series of small paired plates was attached to each vertebra, and a bone
+  histology study has been made (Klein et al. 2017).
+images:
+- kind: life
+  file: Batrachotomus kupferzellensis 2.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Batrachotomus_kupferzellensis_2.JPG/960px-Batrachotomus_kupferzellensis_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Batrachotomus_kupferzellensis_2.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 -
+  caption: Life restoration of Batrachotomus kupferzellensis.
+  width: 2118
+  height: 1406
+  review: unreviewed
+- kind: fossil
+  file: Batrachotomus kupferzellensis fossils.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Batrachotomus_kupferzellensis_fossils.jpg/960px-Batrachotomus_kupferzellensis_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Batrachotomus_kupferzellensis_fossils.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-19'
+  caption: Batrachotomus kupferzellensis fossil.
+  width: 2634
+  height: 1777
+  review: unreviewed
+- kind: skeletal
+  file: Batrachotomus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Batrachotomus_skeletal.png/960px-Batrachotomus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Batrachotomus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-02'
+  caption: Skeletal reconstruction of Batrachotomus.
+  width: 8453
+  height: 2829
+  review: unreviewed
+- kind: life
+  file: Batrachotomus1DB.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Batrachotomus1DB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Batrachotomus1DB.jpg
+  artist: Dmitry Bogdanov
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2007'
+  caption: Batrachotomus restoration.
+  width: 1500
+  height: 930
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/vector.svg
+  png: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/raster/606x1536.png
+  page: https://www.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243
+  attribution: Noah Schlottman, photo from Casey Dunn
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Polyplacophora
+  matched: Loricata
+  genus_level: false
+sources:
+- kind: original
+  text: 'Gower, David J. 1999. The cranial and mandibular osteology of a new rauisuchian archosaur from the Middle
+    Triassic of southern Germany. Stuttgarter Beiträge zur Naturkunde B 280: 1–9.'
+- kind: literature
+  text: Klein, Nicole; Foth, Christian; Schoch, Rainer R. 2017. Preliminary observations on the bone histology of
+    the Middle Triassic pseudosuchian archosaur Batrachotomus kupferzellensis reveal fast growth with laminar fibrolamellar
+    bone tissue. Journal of Vertebrate Paleontology 37(4). doi:10.1080/02724634.2017.1333121
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Batrachotomus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Batrachotomus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Batrachotomus”. English Wikipedia, revision 1362364712.
+  url: https://en.wikipedia.org/w/index.php?title=Batrachotomus&oldid=1362364712
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The length range is a placeholder - replace with a sourced estimate or set to null.
+  - Described 22 years after its discovery.
+  reviews: []

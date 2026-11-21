@@ -1,0 +1,188 @@
+name: Typothorax
+rank: genus
+parent: typothoracinae
+incertae_sedis: false
+placement_note: ''
+authority: Cope 1875
+type_species: Typothorax coccinarum
+type_species_note: ''
+summary: Typothorax is a typothoracine aetosaur of the Late Triassic of North America with horned lateral armour.
+size:
+  length_m: null
+  note: No body-length estimate is given in the excerpt consulted.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 90
+  note: ''
+species:
+- name: Typothorax antiquum
+  authority: Lucas et al. 2002
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: ''
+- name: Typothorax coccinarum
+  authority: Cope 1875
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+- name: Typothorax meadei
+  authority: Sawin 1947
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Chinle
+  group: ''
+  members: [Owl Rock, Petrified Forest, Sonsela]
+  country: United States
+  regions: [Arizona, New Mexico]
+  interval: Norian–Rhaetian
+  occurrences: 62
+  ma: [201.4, 227.3]
+  id: chinle-united-states
+- formation: Garita Creek
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 11
+  ma: [205.7, 227.3]
+  id: garita-creek-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: [12-13]
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 5
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+- formation: Trujillo
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 4
+  ma: [205.7, 227.3]
+  id: trujillo-united-states
+- formation: Santa Rosa
+  group: Chinle
+  members: [Tres Lagunas]
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 2
+  ma: [205.7, 227.3]
+  id: santa-rosa-united-states
+- formation: Petrified Forest
+  group: Chinle
+  members: [Correo Sandstone, Mesa Montosa]
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 2
+  ma: [205.7, 227.3]
+  id: petrified-forest-united-states
+- formation: Bull Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 2
+  ma: [205.7, 227.3]
+  id: bull-canyon-united-states
+- formation: Sloan Canyon
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: sloan-canyon-united-states
+- formation: Maleri
+  group: Gondwana
+  members: [Lower]
+  country: India
+  regions: [Telangana]
+  interval: Carnian–Norian
+  occurrences: 1
+  ma: [205.7, 237.0]
+  id: maleri-india
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Cope in 1875.
+  material: Abundant remains, mostly armour, from the Chinle, Garita Creek, Cooper Canyon and Trujillo formations
+    (90 PBDB occurrences).
+  completeness: multiple
+  exceptional: ''
+biology: Typothorax and other aetosaurs had small, leaf-shaped teeth unsuited to meat; its lateral scutes bore horns
+  hooked backwards and its flanks and belly had ornamented scutes.
+images:
+- kind: fossil
+  file: Typothorax coccinarum skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Typothorax_coccinarum_skeleton.jpg/960px-Typothorax_coccinarum_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Typothorax_coccinarum_skeleton.jpg
+  artist: ★Kumiko★
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2017-08-31'
+  caption: Skeleton of Typothorax coccinarum.
+  width: 4896
+  height: 3264
+  review: unreviewed
+- kind: life
+  file: Typothorax coccinarum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Typothorax_coccinarum.jpg/960px-Typothorax_coccinarum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Typothorax_coccinarum.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-08-13'
+  caption: Life restoration of Typothorax coccinarum.
+  width: 2541
+  height: 1972
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: E. D. Cope. 1875. Abstract of remarks made before a meeting of the Academy of Natural Sciences of Philadelphia,
+    June 8th and 15th, 1875. Proceedings of the Academy of Natural Sciences of Philadelphia (separate)
+- kind: literature
+  text: 'Heckert, A. B.; Lucas, S. G. 1999. A new aetosaur (Reptilia: Archosauria) from the Upper Triassic of Texas
+    and the phylogeny of aetosaurs. Journal of Vertebrate Paleontology 19(1): 50–68. doi:10.1080/02724634.1999.10011122'
+- kind: literature
+  text: 'Parker, W. G.; Reyes, W. A.; Marsh, A. D. 2023. Incongruent ontogenetic maturity indicators in a Late Triassic
+    archosaur (Aetosauria: ''''Typothorax coccinarum''''). The Anatomical Record. doi:10.1002/ar.25343'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Typothorax (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Typothorax
+- kind: encyclopedia
+  text: Wikipedia contributors. “Typothorax”. English Wikipedia, revision 1258223694.
+  url: https://en.wikipedia.org/w/index.php?title=Typothorax&oldid=1258223694
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Two species are recognised on Wikipedia (T. coccinarum and T. antiquum); PBDB lists coccinarum, antiquum and
+    meadei.
+  - Original naming work (Cope 1875) to be added.
+  reviews: []

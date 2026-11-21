@@ -1,0 +1,92 @@
+name: Uruguaysuchus
+rank: genus
+parent: uruguaysuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Rusconi 1933
+type_species: Uruguaysuchus aznarezi
+type_species_note: ''
+summary: Uruguaysuchus is a small to moderate-sized crocodyliform from the Late Cretaceous Guichón Formation of
+  Uruguay.
+size:
+  length_m: [1.2, 1.2]
+  note: Estimated length 120 cm (Wikipedia).
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Uruguaysuchus aznarezi
+  authority: Rusconi 1933
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+- name: Uruguaysuchus terrai
+  authority: Rusconi 1933
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: ''
+formations:
+- formation: Guichón
+  group: Paysandú
+  members: []
+  country: Uruguay
+  regions: [Paysandú]
+  interval: Cenomanian–Santonian
+  occurrences: 2
+  ma: [83.6, 100.5]
+  id: guichon-uruguay
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Rusconi in 1933.
+  material: Remains of two species (U. aznarezi and U. terrai) from the Guichón Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: Related to Simosuchus and Malawisuchus; the sources consulted give no direct evidence of diet.
+images:
+- kind: life
+  file: Uruguaysuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/51/Uruguaysuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Uruguaysuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )]
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-20'
+  caption: Uruguaysuchus restoration (Bogdanov).
+  width: 800
+  height: 293
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/vector.svg
+  png: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/raster/512x124.png
+  page: https://www.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Araripesuchus aznarezi
+  matched: Uruguaysuchus
+  genus_level: true
+sources:
+- kind: original
+  text: C. Rusconi. 1933. Sobre reptiles cretáceos del Uruguay (Uruguaysuchus aznarezi, n.g.n.sp.) y sus relaciones
+    con los notosúquidos de Patagonia [On the Cretaceous reptiles of Uruguay (Uruguaysuchus aznarezi, n.g.n.sp.)
+    and their relationships with the notosuchids of Patagonia]. Instituto de Geología y Perforaciones Boletín 19:1-64
+- kind: literature
+  text: 'Turner, Alan H. 2004. Crocodyliform biogeography during the Cretaceous: evidence of Gondwanan vicariance
+    from biogeographical analysis. Proceedings of the Royal Society B 271(1552): 2003–2009. doi:10.1098/rspb.2004.2840'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Uruguaysuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Uruguaysuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Uruguaysuchus”. English Wikipedia, revision 1282990477.
+  url: https://en.wikipedia.org/w/index.php?title=Uruguaysuchus&oldid=1282990477
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original naming work (Rusconi 1933) to be added.]
+  reviews: []

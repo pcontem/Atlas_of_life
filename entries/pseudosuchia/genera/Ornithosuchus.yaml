@@ -1,0 +1,141 @@
+name: Ornithosuchus
+rank: genus
+parent: ornithosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Newton 1894
+type_species: Ornithosuchus woodwardi
+type_species_note: ''
+summary: Ornithosuchus is a pseudosuchian from the Late Triassic Lossiemouth Sandstone of Scotland, once thought
+  to be a dinosaur ancestor.
+size:
+  length_m: null
+  note: No body-length estimate is given in the excerpt consulted; its maximum length has been revised in later
+    work.
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Ornithosuchus taylori
+  authority: Broom 1913
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: ''
+- name: Ornithosuchus woodwardi
+  authority: Newton 1894
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: original description
+formations:
+- formation: Lossiemouth Sandstone
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Scotland]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: lossiemouth-sandstone-united-kingdom
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Newton in 1894.
+  material: Several specimens from the Lossiemouth Sandstone, including skulls and partial skeletons.
+  completeness: multiple
+  exceptional: ''
+biology: Originally thought ancestral to carnosaurian dinosaurs, it is now known to be more closely related to crocodilians;
+  the sources consulted give no direct evidence of diet.
+images:
+- kind: life
+  file: Ornithosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Ornithosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ornithosuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-07-14'
+  caption: Ornithosuchus restoration (Bogdanov).
+  width: 800
+  height: 289
+  review: unreviewed
+- kind: life
+  file: Ornithosuchus life reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Ornithosuchus_life_reconstruction.png/960px-Ornithosuchus_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ornithosuchus_life_reconstruction.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-07-04'
+  caption: Life reconstruction of Ornithosuchus.
+  width: 4000
+  height: 1816
+  review: unreviewed
+- kind: fossil
+  file: Ornithosuchus fossils.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ornithosuchus_fossils.jpg/960px-Ornithosuchus_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ornithosuchus_fossils.jpg
+  artist: Cambridge Engraving Co., published by E. T. Newton
+  license: Public domain
+  license_url: ''
+  date: '1894'
+  caption: Ornithosuchus fossils.
+  width: 2100
+  height: 2681
+  review: unreviewed
+- kind: fossil
+  file: Ornithosuchus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Ornithosuchus_skull.jpg/960px-Ornithosuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ornithosuchus_skull.jpg
+  artist: Cambridge Engraving Co., published by E. T. Newton
+  license: Public domain
+  license_url: ''
+  date: '1894'
+  caption: Skull of Ornithosuchus.
+  width: 2295
+  height: 2677
+  review: unreviewed
+- kind: fossil
+  file: Ornithosuchus woodwardi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Ornithosuchus_woodwardi.jpg/960px-Ornithosuchus_woodwardi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ornithosuchus_woodwardi.jpg
+  artist: Photographed by Walker & Boutall, published by E. T. Newton
+  license: Public domain
+  license_url: ''
+  date: '1894'
+  caption: Ornithosuchus woodwardi fossil.
+  width: 2240
+  height: 1587
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c/vector.svg
+  png: https://images.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c/raster/512x239.png
+  page: https://www.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c
+  attribution: Dmitry Bogdanov
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Ornithosuchus longidens
+  matched: Ornithosuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ornithosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ornithosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornithosuchus”. English Wikipedia, revision 1369504044.
+  url: https://en.wikipedia.org/w/index.php?title=Ornithosuchus&oldid=1369504044
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Dasygnathus longidens (Huxley 1877), renamed Dasygnathoides, was synonymised with Ornithosuchus by Walker 1964
+    but a 2016 study found it indeterminate beyond Pseudosuchia.
+  - Wikipedia lists no citations in this revision; add literature sources.
+  - Second species O. taylori (Broom 1913) is listed by PBDB.
+  reviews: []

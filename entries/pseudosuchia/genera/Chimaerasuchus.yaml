@@ -1,0 +1,103 @@
+name: Chimaerasuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 1995
+type_species: Chimaerasuchus paradoxus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Chimaerasuchus is a short-snouted crocodyliform with multicusped teeth from the Early Cretaceous Wulong
+  Formation of China, likely herbivorous.
+size:
+  length_m: null
+  note: The skull is about 135 mm long with a snout of about 65 mm; no body length is given.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chimaerasuchus paradoxus
+  authority: Wu et al. 1995
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Wulong
+  group: ''
+  members: []
+  country: China
+  regions: [Hubei]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: wulong-china
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; found in the 1960s and identified as a crocodyliform
+    in 1995.
+  material: Skull material; once thought to be a multituberculate mammal.
+  completeness: fragmentary
+  exceptional: ''
+biology: Marked heterodonty and multicusped teeth suggest it was herbivorous, and four teeth at the snout tip gave
+  it a bucktoothed look.
+images:
+- kind: fossil
+  file: Chimaerasuchus paradoxus Holotype IVPP.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/30/Chimaerasuchus_paradoxus_Holotype_IVPP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chimaerasuchus_paradoxus_Holotype_IVPP.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-31'
+  caption: Holotype of Chimaerasuchus paradoxus.
+  width: 1515
+  height: 976
+  review: unreviewed
+- kind: life
+  file: Chimaerasuchus paradoxus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Chimaerasuchus_paradoxus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chimaerasuchus_paradoxus.jpg
+  artist: Apokryltaros at English Wikipedia
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: 6 November
+  caption: Life restoration of Chimaerasuchus paradoxus.
+  width: 633
+  height: 707
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/vector.svg
+  png: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/raster/512x148.png
+  page: https://www.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084
+  attribution: Nobu Tamura (head modified by FunkMonk)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Notosuchus terrestris
+  matched: Ziphosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: X.-C. Wu, H.-D. Sues, and A. Sun. 1995. A plant-eating crocodyliform reptile from the Cretaceous of China.
+    Nature 376:678-680
+- kind: literature
+  text: 'Melstrom, Keegan M.; Irmis, Randall B. 2019. Repeated Evolution of Herbivorous Crocodyliforms during the
+    Age of Dinosaurs. Current Biology 29(14): 2389-2395.e3. doi:10.1016/j.cub.2019.05.076'
+- kind: literature
+  text: 'Wu, X. C. 1996. Anatomy and Phylogenetic Relationships of ''''Chimaerasuchus paradoxus'''', an Unusual
+    Crocodyliform Reptile from the Lower Cretaceous of Hubei, China. Journal of Vertebrate Paleontology 16(4): 688-702.
+    doi:10.1080/02724634.1996.10011358'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chimaerasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chimaerasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chimaerasuchus”. English Wikipedia, revision 1363530969.
+  url: https://en.wikipedia.org/w/index.php?title=Chimaerasuchus&oldid=1363530969
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original naming work (Wu et al. 1995) to be added.]
+  reviews: []

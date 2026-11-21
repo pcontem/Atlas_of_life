@@ -1,0 +1,99 @@
+name: Saurosuchus
+rank: genus
+parent: loricata
+incertae_sedis: false
+placement_note: ''
+authority: Reig 1959
+type_species: Saurosuchus galilei
+type_species_note: Monotypic genus; the only species is the type.
+summary: Saurosuchus is a large loricatan pseudosuchian of the Late Triassic of Argentina, with a skull convergent
+  with that of large theropod dinosaurs.
+size:
+  length_m: [5.5, 7.0]
+  mass_kg: [590, 590]
+  note: Estimated at 5.5-7 m long and up to 590 kg, with a skull up to 58.6 cm (Wikipedia).
+age:
+  first_ma: 233.6
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Saurosuchus galilei
+  authority: Reig 1959
+  first_ma: 233.6
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Ischigualasto
+  group: ''
+  members: [Cancha de Bochas, Valle de la Luna]
+  country: Argentina
+  regions: [San Juan]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: ischigualasto-argentina
+fossil_material:
+  holotype: Found in 1957 by Galileo J. Scaglia and Leocadio Soria in the Ischigualasto Formation; catalogue number
+    not given in the sources consulted.
+  material: The holotype plus an adult and several subadults found since.
+  completeness: multiple
+  exceptional: ''
+biology: It lived in a region of floodplains and rivers; its skull was strongly convergent with those of large theropods.
+images:
+- kind: skeletal
+  file: Saurosuchus composite wikipedia.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Saurosuchus_composite_wikipedia.png/960px-Saurosuchus_composite_wikipedia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saurosuchus_composite_wikipedia.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-14'
+  caption: Composite skeletal reconstruction of Saurosuchus.
+  width: 6500
+  height: 2000
+  review: unreviewed
+- kind: fossil
+  file: Saurosuchus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Saurosuchus_skull.jpg/960px-Saurosuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saurosuchus_skull.jpg
+  artist: ProjectManhattan
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 30 March 2
+  caption: Skull of Saurosuchus.
+  width: 3920
+  height: 2204
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/vector.svg
+  png: https://images.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243/raster/606x1536.png
+  page: https://www.phylopic.org/images/e000909a-bbba-46c3-93ff-7891b85b5243
+  attribution: Noah Schlottman, photo from Casey Dunn
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Polyplacophora
+  matched: Loricata
+  genus_level: false
+sources:
+- kind: original
+  text: 'Reig, O. A. 1959. Primeros datos descriptivos sobre nuevos arcosaurios del Triásico de Ischigualasto (San
+    Juan, Argentina). Revista de la Asociación Geológica Argentina 13(4): 257–270.'
+- kind: literature
+  text: 'Sill, W. D. 1974. The anatomy of ''''Saurosuchus galilei'''' and the relationships of the rauisuchid thecodonts.
+    Bulletin of the Museum of Comparative Zoology 146: 317–362.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saurosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saurosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saurosuchus”. English Wikipedia, revision 1384617726.
+  url: https://en.wikipedia.org/w/index.php?title=Saurosuchus&oldid=1384617726
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

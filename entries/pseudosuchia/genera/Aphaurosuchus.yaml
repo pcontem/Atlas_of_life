@@ -1,0 +1,105 @@
+name: Aphaurosuchus
+rank: genus
+parent: baurusuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Darlim et al. 2021
+type_species: Aphaurosuchus escharafacies
+type_species_note: The genus was named with A. escharafacies; A. kaiju was added later.
+summary: Aphaurosuchus is an extinct baurusuchid crocodyliform from the Late Cretaceous Bauru Basin of southern
+  Brazil.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Aphaurosuchus escharafacies
+  authority: Darlim et al. 2021
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Aphaurosuchus kaiju
+  authority: Martins et al. 2024
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Sao Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: unnamed-9-6-km-south-of-jales-brazil
+fossil_material:
+  holotype: LPRP/USP 0697, a nearly complete skeleton broken into six main blocks (Fazenda Furnas site, Jales, São
+    Paulo; Adamantina/Vale do Rio do Peixe Formation).
+  material: The nearly complete holotype skeleton, two isolated caudal vertebrae with osteoderms and rib fragments;
+    A. kaiju is based on fragmentary skull remains including parts of the mandible, palate and teeth.
+  completeness: near-complete
+  exceptional: ''
+biology: The sources consulted describe its anatomy and naming only; they give no direct evidence of diet or habits.
+images:
+- kind: life
+  file: Aphaurosuchus escharafacies.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/01/Aphaurosuchus_escharafacies.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aphaurosuchus_escharafacies.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-11'
+  caption: Life restoration of Aphaurosuchus escharafacies.
+  width: 1411
+  height: 412
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3904402f-e59f-4998-a135-eadccd6ef72d/vector.svg
+  png: https://images.phylopic.org/images/3904402f-e59f-4998-a135-eadccd6ef72d/raster/512x142.png
+  page: https://www.phylopic.org/images/3904402f-e59f-4998-a135-eadccd6ef72d
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Aphaurosuchus escharafacies
+  matched: Aphaurosuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Darlim, Gustavo; Montefeltro, Felipe C.; Langer, Max C. 2021. 3D skull modelling and description of a new
+    baurusuchid (Crocodyliformes, Mesoeucrocodylia) from the Late Cretaceous (Bauru Basin) of Brazil. Journal of
+    Anatomy 239(3): 622–662. doi:10.1111/joa.13442'
+- kind: literature
+  text: Martins, K.C.; Queiroz, M.V.; Ruiz, J.V.; Langer, M.C.; Montefeltro, F.C. 2023. A new Baurusuchidae (Notosuchia,
+    Crocodyliformes) from the Adamantina Formation (Bauru Group, Upper Cretaceous), with a revised phylogenetic
+    analysis of Baurusuchia. Cretaceous Research 153. doi:10.1016/j.cretres.2023.105680
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aphaurosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aphaurosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aphaurosuchus”. English Wikipedia, revision 1350947542.
+  url: https://en.wikipedia.org/w/index.php?title=Aphaurosuchus&oldid=1350947542
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The second species A. kaiju is dated 2023 on Wikipedia and 2024 in PBDB - check.
+  reviews: []

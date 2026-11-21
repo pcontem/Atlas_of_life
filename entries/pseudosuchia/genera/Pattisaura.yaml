@@ -1,0 +1,120 @@
+name: Pattisaura
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 2025
+type_species: Pattisaura gracilis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Pattisaura is an early crocodylomorph pseudosuchian from the Late Triassic Cooper Canyon Formation of Texas.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pattisaura gracilis
+  authority: Wu et al. 2025
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Cooper Canyon
+  group: Dockum
+  members: [12-13]
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+fossil_material:
+  holotype: TTU-P10927, a cranium articulated with the mandible and the first cervical vertebrae, from the Headquarters
+    site of the Cooper Canyon Formation, Garza County, Texas.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe its anatomy and affinities but give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Pattisaura gracilis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Pattisaura_gracilis.jpg/960px-Pattisaura_gracilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pattisaura_gracilis.jpg
+  artist: Aaron dp
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-02-12'
+  caption: Pattisaura gracilis fossil.
+  width: 4032
+  height: 3024
+  review: unreviewed
+- kind: life
+  file: Pattisaura gracilis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Pattisaura_gracilis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pattisaura_gracilis.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-02-27'
+  caption: Life restoration of Pattisaura gracilis.
+  width: 1356
+  height: 448
+  review: unreviewed
+- kind: skeletal
+  file: Pattisaura skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Pattisaura_skeletal.png/960px-Pattisaura_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pattisaura_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-11'
+  caption: Skeletal reconstruction of Pattisaura.
+  width: 6664
+  height: 1936
+  review: unreviewed
+- kind: fossil
+  file: Pattisaura skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Pattisaura_skull.png/960px-Pattisaura_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pattisaura_skull.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-11'
+  caption: Skull of Pattisaura.
+  width: 3387
+  height: 1618
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/vector.svg
+  png: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/raster/512x140.png
+  page: https://www.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Trialestes romeri
+  matched: Crocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: Wu, Xiao-Chun; Witmer, Lawrence M.; Chatterjee, Sankar; Cunningham, Douglas 2025. A new crocodylomorph (Pseudosuchia,
+    Crocodylomorpha) from the Upper Triassic of Texas and its phylogenetic relationships. Journal of Vertebrate
+    Paleontology 44(4). doi:10.1080/02724634.2024.2446604
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pattisaura (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pattisaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pattisaura”. English Wikipedia, revision 1309214046.
+  url: https://en.wikipedia.org/w/index.php?title=Pattisaura&oldid=1309214046
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Named in 2025 and its relationship to other early crocodylomorphs is only weakly supported.
+  reviews: []

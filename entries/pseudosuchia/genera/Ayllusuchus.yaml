@@ -1,0 +1,87 @@
+name: Ayllusuchus
+rank: genus
+parent: sebecidae
+incertae_sedis: false
+placement_note: ''
+authority: Gasparini 1984
+type_species: Ayllusuchus fernandezi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Ayllusuchus is a medium-sized sebecid crocodyliform from the Eocene Lumbrera Formation of Argentina.
+size:
+  length_m: null
+  note: Described as medium-sized; no length is given in the sources consulted.
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ayllusuchus fernandezi
+  authority: Gasparini 1984
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Lumbrera
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Jujuy]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: lumbrera-argentina
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Gasparini in 1984.
+  material: Skull material from the Lumbrera Formation (Casamayoran).
+  completeness: fragmentary
+  exceptional: ''
+biology: It had a relatively long, low snout compared with other sebecids.
+images:
+- kind: fossil
+  file: Ayllusuchus skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ayllusuchus_skull.png/960px-Ayllusuchus_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ayllusuchus_skull.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-03'
+  caption: Skull of Ayllusuchus.
+  width: 2409
+  height: 2003
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870/vector.svg
+  png: https://images.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870/raster/512x111.png
+  page: https://www.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870
+  attribution: Michael "FunkMonk" B. H. (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sebecus icaeorhinus
+  matched: Sebecidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Z. Gasparini. 1984. New Tertiary Sebecosuchia (Crocodylia: Mesosuchia) from Argentina. Journal of Vertebrate
+    Paleontology 4(1):85-95'
+- kind: literature
+  text: 'Turner, Alan H.; Calvo, Jorge O. 2005. A new sebecosuchian crocodyliform from the Late Cretaceous of Patagonia.
+    Journal of Vertebrate Paleontology 25(1): 87–98. doi:10.1671/0272-4634(2005)025[0087:ANSCFT]2.0.CO;2'
+- kind: literature
+  text: 'Paolillo, Alfredo; Linares, Omar J. 2007. Nuevos cocodrilos Sebecosuchia del Cenozoico Suramericano (Mesosuchia:
+    Crocodylia). Paleobiologia Neotropical 3: 1–25.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ayllusuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ayllusuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ayllusuchus”. English Wikipedia, revision 1343882475.
+  url: https://en.wikipedia.org/w/index.php?title=Ayllusuchus&oldid=1343882475
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype and original naming work (Gasparini 1984) to be added.]
+  reviews: []

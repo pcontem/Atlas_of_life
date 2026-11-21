@@ -1,0 +1,74 @@
+name: Luperosuchus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Romer 1971
+type_species: Luperosuchus fractus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Luperosuchus is a loricatan pseudosuchian from the Chañares Formation of Argentina with a tall crest on
+  the front of its snout.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 241.464
+  last_ma: 237
+  early_interval: Ladinian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Luperosuchus fractus
+  authority: Romer 1971
+  first_ma: 241.464
+  last_ma: 237
+  interval: Ladinian
+  reference: original description
+formations:
+- formation: Chañares
+  group: Agua de la Peña
+  members: [Lower]
+  country: Argentina
+  regions: [La Rioja]
+  interval: Ladinian–Judithian
+  occurrences: 3
+  ma: [72.2, 241.464]
+  id: chanares-argentina
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Romer in 1971.
+  material: Mostly the skull roof, including nasals, maxilla and part of the premaxilla.
+  completeness: fragmentary
+  exceptional: ''
+biology: An unusual tall, mediolaterally compressed crest sits on the front of the snout; the sources consulted
+  give no direct evidence of diet.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Rauisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. S. Romer 1971c. The Chañares (Argentina) Triassic reptile fauna. VIII. A fragmentary skull of a large
+    thecodont, ''''Luperosuchus fractus''''. Breviora 373: 1–8.'
+- kind: literature
+  text: 'Arcucci, A. 1998. A distinctive new archosaur from the Middle Triassic (Los Chañares Formation) of Argentina.
+    Journal of Vertebrate Paleontology 18(1): 228–232. doi:10.1080/02724634.1998.10011046'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Luperosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Luperosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Luperosuchus”. English Wikipedia, revision 1385962821.
+  url: https://en.wikipedia.org/w/index.php?title=Luperosuchus&oldid=1385962821
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No candidate image on the contact sheet.]
+  reviews: []

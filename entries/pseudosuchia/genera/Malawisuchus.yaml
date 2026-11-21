@@ -1,0 +1,68 @@
+name: Malawisuchus
+rank: genus
+parent: candidodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Gomani 1997
+type_species: Malawisuchus mwakasyungutiensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Malawisuchus is a small notosuchian crocodyliform from the Early Cretaceous Dinosaur Beds of Malawi, with
+  mammal-like teeth.
+size:
+  length_m: [0.6, 0.6]
+  note: About 60 cm long (Wikipedia).
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Malawisuchus mwakasyungutiensis
+  authority: Gomani 1997
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Dinosaur Beds
+  group: Lupata
+  members: [Upper]
+  country: Malawi
+  regions: [Northern]
+  interval: Aptian
+  occurrences: 5
+  ma: [113.2, 121.4]
+  id: dinosaur-beds-malawi
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; first discovered in 1989 and described by Gomani
+    in 1997.
+  material: Several specimens, including articulated ones, from the Dinosaur Beds of northern Malawi.
+  completeness: multiple
+  exceptional: ''
+biology: Its rear teeth had several cusps; hind-limb joints suggest an upright posture and running ability, muscle
+  attachments on the upper arm suggest digging, and articulated specimens appear to have been preserved in burrows.
+images: []
+sources:
+- kind: original
+  text: 'Gomani, Elizabeth M. 1997. A crocodyliform from the Early Cretaceous Dinosaur Beds, northern Malawi. Journal
+    of Vertebrate Paleontology 17(2): 280–294. doi:10.1080/02724634.1997.10010975'
+- kind: literature
+  text: 'Carvalho, I.d.S. 2004. ''''Uberabasuchus terrificus'''' sp. nov., a new Crocodylomorpha from the Bauru
+    Basin (Upper Cretaceous), Brazil. Gondwana Research 7(4): 975–1002. doi:10.1016/S1342-937X(05)71079-0'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Malawisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Malawisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Malawisuchus”. English Wikipedia, revision 1378623034.
+  url: https://en.wikipedia.org/w/index.php?title=Malawisuchus&oldid=1378623034
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No candidate image on the contact sheet; look for a source.
+  - Classified as Notosuchidae by Gomani and as Itasuchidae by Carvalho et al. 2004.
+  reviews: []

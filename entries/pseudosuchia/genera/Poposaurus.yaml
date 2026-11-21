@@ -1,0 +1,153 @@
+name: Poposaurus
+rank: genus
+parent: poposauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Mehl 1915
+type_species: Poposaurus gracilis
+type_species_note: The English Wikipedia names P. gracilis as the type species.
+summary: Poposaurus is a bipedal poposauroid pseudosuchian from the Late Triassic of the southwestern and eastern
+  United States.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 237
+  last_ma: 201.4
+  early_interval: Carnian
+  late_interval: Rhaetian
+  pbdb_occurrences: 20
+  note: ''
+species:
+- name: Poposaurus gracilis
+  authority: Mehl 1915
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: original description
+- name: Poposaurus langstoni
+  authority: (Long and Murry 1995)
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: ''
+formations:
+- formation: Chinle
+  group: ''
+  members:
+  - Blue Mesa
+  - Camp Butte Beds
+  - Mesa Redondo
+  - Monitor Butte
+  - Owl Rock
+  - Petrified Forest
+  - Sonsela
+  country: United States
+  regions: [Arizona, 'Arizona ', Utah]
+  interval: Late Triassic–Rhaetian
+  occurrences: 11
+  ma: [201.4, 237.0]
+  id: chinle-united-states
+- formation: Colorado City
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 4
+  ma: [205.7, 237.0]
+  id: colorado-city-united-states
+- formation: Tecovas
+  group: Chinle
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 3
+  ma: [205.7, 237.0]
+  id: tecovas-united-states
+- formation: Popo Agie
+  group: Chugwater
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Carnian
+  occurrences: 2
+  ma: [227.3, 237.0]
+  id: popo-agie-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Mehl in 1915 from the Popo Agie Formation,
+    Wyoming; the first remains were found near Lander in 1904.
+  material: Remains from Wyoming, Utah, Arizona, Texas and Virginia; most of the skeleton is known except the skull.
+  completeness: multiple
+  exceptional: ''
+biology: Like theropod dinosaurs it was an obligate biped, although it is more closely related to living crocodilians
+  than to dinosaurs.
+images:
+- kind: life
+  file: Poposaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Poposaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Poposaurus_BW.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-12'
+  caption: Poposaurus restoration (Bogdanov).
+  width: 800
+  height: 274
+  review: unreviewed
+- kind: life
+  file: Poposaurus gracilis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Poposaurus_gracilis.jpg/960px-Poposaurus_gracilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Poposaurus_gracilis.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-12-17'
+  caption: Poposaurus gracilis in life.
+  width: 1832
+  height: 846
+  review: unreviewed
+- kind: skeletal
+  file: Poposaurus skeletal composite.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Poposaurus_skeletal_composite.png/960px-Poposaurus_skeletal_composite.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Poposaurus_skeletal_composite.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-01-08'
+  caption: Composite skeletal reconstruction of Poposaurus.
+  width: 6603
+  height: 1862
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/694830cf-1e9d-4795-8165-ef7fce9c088d/vector.svg
+  png: https://images.phylopic.org/images/694830cf-1e9d-4795-8165-ef7fce9c088d/raster/512x95.png
+  page: https://www.phylopic.org/images/694830cf-1e9d-4795-8165-ef7fce9c088d
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Poposaurus gracilis
+  matched: Poposaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Mehl, M.G. 1915. ''''Poposaurus gracilis'''', a new reptile from the Triassic of Wyoming. The Journal of
+    Geology 23(6): 516–522. doi:10.1086/622268'
+- kind: literature
+  text: 'Gauthier, J.A. 2011. The bipedal stem crocodilian ''''Poposaurus gracilis'''': inferring function in fossils
+    and innovation in archosaur locomotion. Bulletin of the Peabody Museum of Natural History 52(1): 107–126. doi:10.3374/014.052.0102'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Poposaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Poposaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Poposaurus”. English Wikipedia, revision 1383134758.
+  url: https://en.wikipedia.org/w/index.php?title=Poposaurus&oldid=1383134758
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Remains once assigned to Poposaurus have been reassigned to other taxa such as Paleorhinus (Lees 1907 discusses
+    a skull).
+  reviews: []

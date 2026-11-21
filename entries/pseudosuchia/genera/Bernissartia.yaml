@@ -1,0 +1,277 @@
+name: Bernissartia
+rank: genus
+parent: bernissartiidae
+incertae_sedis: false
+placement_note: ''
+authority: Dollo 1883
+type_species: Bernissartia fagesii
+type_species_note: Monotypic genus; the only species is the type.
+summary: Bernissartia is a small, probably semi-aquatic neosuchian crocodyliform of the Early Cretaceous of Europe
+  and North America.
+size:
+  length_m: [0.6, 0.6]
+  note: About 60 cm long (one estimate given by Wikipedia).
+age:
+  first_ma: 152.21
+  last_ma: 93.9
+  early_interval: Kimmeridgian
+  late_interval: Cenomanian
+  pbdb_occurrences: 39
+  note: ''
+species:
+- name: Bernissartia fagesii
+  authority: Dollo 1883
+  first_ma: 143.1
+  last_ma: 119.57
+  interval: Berriasian–Aptian
+  reference: original description
+formations:
+- formation: El Castellar
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragon, Aragón, Teruel]
+  interval: Late Berriasian–Early Barremian
+  occurrences: 5
+  ma: [121.4, 139.1]
+  id: el-castellar-spain
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Mussentuchit, Ruby Ranch]
+  country: United States
+  regions: [Utah]
+  interval: Aptian–Early Cenomanian
+  occurrences: 5
+  ma: [93.9, 121.4]
+  id: cedar-mountain-united-states
+- formation: Unnamed unit
+  group: ''
+  members: ['2']
+  country: France
+  regions: [Nord-Pas-de-Calais, Poitou-Charentes]
+  interval: Early Tithonian–Early Cenomanian
+  occurrences: 5
+  ma: [93.9, 149.2]
+  id:
+  - unnamed-chassiron-ile-d-oleron-france
+  - unnamed-cherves-de-cognac-levels-3237-france
+  - unnamed-la-rochette-france
+  - unnamed-montrouge-2-france
+  - unnamed-vauban-cliff-fouras-peninsula-france
+- formation: Weald Clay
+  group: Wealden
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian
+  occurrences: 3
+  ma: [125.77, 132.6]
+  id: weald-clay-united-kingdom
+- formation: Antlers
+  group: Trinity
+  members: [Middle, middle]
+  country: United States
+  regions: [Oklahoma, Texas]
+  interval: Late Aptian–Early Albian
+  occurrences: 3
+  ma: [110.1, 119.57]
+  id: antlers-united-states
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: [vectis-united-kingdom, wealden-group-united-kingdom]
+- formation: Camarillas
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón, Cuenca]
+  interval: Early Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: camarillas-spain
+- formation: Arcillas de Morella
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valenciana]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: arcillas-de-morella-spain
+- formation: Vectis
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: vectis-united-kingdom
+- formation: Twin Mountains
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: twin-mountains-united-states
+- formation: Lulworth
+  group: Purbeck
+  members: [Worbarrow Tout]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Berriasian–Middle Berriasian
+  occurrences: 1
+  ma: [139.1, 143.1]
+  id: lulworth-united-kingdom
+- formation: Artoles
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: artoles-spain
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+- formation: Lewisville
+  group: Woodbine
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Middle Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: lewisville-united-states
+- formation: Rabekke
+  group: Nyker
+  members: [Skyttegaard]
+  country: Denmark
+  regions: [Bornholm]
+  interval: Early Berriasian
+  occurrences: 1
+  ma: [141.0, 143.1]
+  id: rabekke-denmark
+- formation: Sainte-Barbe Clays
+  group: Wealden
+  members: []
+  country: Belgium
+  regions: [Hainaut]
+  interval: Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: sainte-barbe-clays-belgium
+- formation: Tendaguru
+  group: ''
+  members: [Middle Dinosaur]
+  country: Tanzania
+  regions: [Lindi]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: tendaguru-tanzania
+- formation: Blackleaf
+  group: Colorado
+  members: [Flood]
+  country: United States
+  regions: [Montana]
+  interval: Late Albian
+  occurrences: 1
+  ma: [100.5, 106.3]
+  id: blackleaf-united-states
+- formation: El Horcajo Unit
+  group: Enciso
+  members: []
+  country: Spain
+  regions: [La Rioja]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: el-horcajo-unit-spain
+- formation: Aïn el Guettar
+  group: ''
+  members: [Oum ed Diab]
+  country: Tunisia
+  regions: [Tataouine]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: ain-el-guettar-tunisia
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Dollo in 1883 from Bernissart, Belgium.
+  material: Skulls and skeletons from the Sainte-Barbe Clays Formation of Bernissart, plus remains from Spain, the
+    United States, France and the United Kingdom recorded in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Probably semi-aquatic; long pointed front teeth suited it to catching fish, while broad flat back teeth
+  could crush hard food such as shellfish and possibly bone.
+images:
+- kind: fossil
+  file: Bernissartia fagesii skull.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Bernissartia_fagesii_skull.JPG/960px-Bernissartia_fagesii_skull.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bernissartia_fagesii_skull.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-11'
+  caption: Skull of Bernissartia fagesii.
+  width: 3507
+  height: 1988
+  review: unreviewed
+- kind: fossil
+  file: Bernissartia fagesii.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Bernissartia_fagesii.jpg/960px-Bernissartia_fagesii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bernissartia_fagesii.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-11'
+  caption: Bernissartia fagesii specimen.
+  width: 1764
+  height: 653
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Neosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: L. Dollo. 1883. Première note sur les crocodiliens de Bernissart [First note on the crocodilians of Bernissart].
+    Bulletin du Musée Royal d'Histoire Naturelle de Belgique 2:309-338
+- kind: literature
+  text: 'Jeremy E. Martin, Thierry Smith, Céline Salaviale, Jerôme Adrien & Massimo Delfino 2020. Virtual reconstruction
+    of the skull of Bernissartia fagesii and current understanding of the neosuchian-eusuchian transition. Journal
+    of Systematic Palaeontology 18(13): 1079–1101. doi:10.1080/14772019.2020.1731722'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bernissartia (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bernissartia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bernissartia”. English Wikipedia, revision 1313766201.
+  url: https://en.wikipedia.org/w/index.php?title=Bernissartia&oldid=1313766201
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Sainte-Barbe Clays Formation (Wikipedia) is not among the PBDB formations of this entry.
+  reviews: []

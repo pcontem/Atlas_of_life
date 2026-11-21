@@ -1,0 +1,218 @@
+name: Boverisuchus
+rank: genus
+parent: planocraniidae
+incertae_sedis: false
+placement_note: ''
+authority: Kuhn 1938
+type_species: Boverisuchus magnifrons
+type_species_note: ''
+summary: Boverisuchus is a relatively small planocraniid crocodyliform of the Eocene of Germany and western North
+  America.
+size:
+  length_m: [2.2, 3.6]
+  mass_kg: [100, 100]
+  note: Estimated total length about 2.2-3.6 m and weight about 100 kg (Wikipedia).
+age:
+  first_ma: 61.66
+  last_ma: 37.71
+  early_interval: Selandian
+  late_interval: Bartonian
+  pbdb_occurrences: 21
+  note: ''
+species:
+- name: Boverisuchus magnifrons
+  authority: Kuhn 1938
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: original description
+- name: Boverisuchus vorax
+  authority: (Troxell 1925)
+  first_ma: 56
+  last_ma: 39.7
+  interval: Ypresian–Bartonian
+  reference: ''
+formations:
+- formation: Devil's Graveyard
+  group: ''
+  members: [Lower]
+  country: United States
+  regions: [Texas]
+  interval: Early Uintan
+  occurrences: 4
+  ma: [39.7, 45.9]
+  id: devil-s-graveyard-united-states
+- formation: Bridger
+  group: ''
+  members: [lower, upper]
+  country: United States
+  regions: [Wyoming]
+  interval: Bridgerian
+  occurrences: 4
+  ma: [45.9, 51.1]
+  id: bridger-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Sachsen-Anhalt, Saxony-Anhalt]
+  interval: Selandian–Lutetian
+  occurrences: 3
+  ma: [41.03, 61.66]
+  id: [unnamed-geiseltal-mittelkohle-zone-ii-germany, unnamed-walbeck-germany]
+- formation: Wasatch
+  group: ''
+  members: [Main Body]
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian–Bridgerian
+  occurrences: 2
+  ma: [45.9, 56.0]
+  id: wasatch-united-states
+- formation: Green River
+  group: ''
+  members: [Douglas Creek]
+  country: United States
+  regions: [Utah, Wyoming]
+  interval: Bridgerian
+  occurrences: 2
+  ma: [45.9, 51.1]
+  id: green-river-united-states
+- formation: Washakie
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Bridgerian
+  occurrences: 2
+  ma: [45.9, 51.1]
+  id: washakie-united-states
+- formation: Laredo
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Uintan
+  occurrences: 1
+  ma: [39.7, 45.9]
+  id: laredo-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Wasatchian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: unnamed-red-dog-buttes-united-states
+- formation: Clarno
+  group: ''
+  members: [Unit B]
+  country: United States
+  regions: [Oregon]
+  interval: Middle Eocene
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: clarno-united-states
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lostcabinian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: willwood-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; B. magnifrons was named by Kuhn in 1938.
+  material: Many remains from the Messel and Geiseltal areas of Germany and from the Bridger, Wasatch and Devil's
+    Graveyard formations of North America.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted describe its classification and size but give no direct evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Boverisuchus magnifrons.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Boverisuchus_magnifrons.jpg/960px-Boverisuchus_magnifrons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Boverisuchus_magnifrons.jpg
+  artist: DagdaMor
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-05-08'
+  caption: Skeleton of Boverisuchus magnifrons.
+  width: 3734
+  height: 1373
+  review: unreviewed
+- kind: skeletal
+  file: Boverisuchus vorax skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Boverisuchus_vorax_skeletal.png/960px-Boverisuchus_vorax_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Boverisuchus_vorax_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-17'
+  caption: Skeletal reconstruction of Boverisuchus vorax.
+  width: 5725
+  height: 1415
+  review: unreviewed
+- kind: life
+  file: Boverisuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/72/Boverisuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Boverisuchus.jpg
+  artist: Daeng Dino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-11-10'
+  caption: Life restoration of Boverisuchus.
+  width: 1489
+  height: 720
+  review: unreviewed
+- kind: fossil
+  file: Boverisuchus - Geiseltal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Boverisuchus_-_Geiseltal.jpg/960px-Boverisuchus_-_Geiseltal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Boverisuchus_-_Geiseltal.jpg
+  artist: DagdaMor
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-10'
+  caption: Boverisuchus specimen (Geiseltal).
+  width: 2813
+  height: 1170
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b/vector.svg
+  png: https://images.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b/raster/512x125.png
+  page: https://www.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Duerosuchus piscator
+  matched: Planocraniidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. A. Brochu. 2013. Phylogenetic relationships of Palaeogene ziphodont eusuchians and the status of Pristichampsus
+    Gervais, 1853. Earth and Environmental Science Transactions of the Royal Society of Edinburgh 103:1-30
+- kind: literature
+  text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
+    the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9. doi:10.7717/peerj.12094
+- kind: literature
+  text: 'Brochu, C. A. 2013. Phylogenetic relationships of Palaeogene ziphodont eusuchians and the status of ''''Pristichampsus''''
+    Gervais, 1853. Earth and Environmental Science Transactions of the Royal Society of Edinburgh 103(3–4): 521–550.
+    doi:10.1017/S1755691013000200'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Boverisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Boverisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Boverisuchus”. English Wikipedia, revision 1385133096.
+  url: https://en.wikipedia.org/w/index.php?title=Boverisuchus&oldid=1385133096
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - B. rollinati was found to be based on insufficient material (nomen dubium), and the genus was reinstated as
+    valid.
+  - Material from Italy and Texas may represent another species (Brochu 2013).
+  - Original naming work (Kuhn 1938) to be added.
+  reviews: []

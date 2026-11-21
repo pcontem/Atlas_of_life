@@ -1,0 +1,122 @@
+name: Kaprosuchus
+rank: genus
+parent: mahajangasuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Sereno and Larsson 2009
+type_species: Kaprosuchus saharicus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Kaprosuchus is a mahajangasuchid crocodyliform from the Late Cretaceous Echkar Formation of Niger with
+  boar-like tusk teeth.
+size:
+  length_m: [2.42, 3.77]
+  note: Total length estimated at 2.42-3.77 m from a skull 507 mm long (Wikipedia).
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kaprosuchus saharicus
+  authority: Sereno and Larsson 2009
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Echkar
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: echkar-niger
+fossil_material:
+  holotype: A single nearly complete skull about 507 mm long (lower jaw 603 mm) from the Echkar Formation, Niger.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Three pairs of tusk-like caniniform teeth project above and below the skull; the sources consulted give
+  no further evidence of habits.
+images:
+- kind: life
+  file: Kaprosuchus head.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Kaprosuchus_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kaprosuchus_head.jpg
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-11-08'
+  caption: Life restoration of the head of Kaprosuchus.
+  width: 1597
+  height: 1174
+  review: unreviewed
+- kind: life
+  file: Kaprosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kaprosuchus.png/960px-Kaprosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kaprosuchus.png
+  artist: LiterallyMiguel
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-04-08'
+  caption: Life restoration of Kaprosuchus.
+  width: 2287
+  height: 1053
+  review: unreviewed
+- kind: fossil
+  file: Kaprosuchus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/30/Kaprosuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kaprosuchus_skull.jpg
+  artist: Carol Abraczinskas
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Skull of Kaprosuchus.
+  width: 1402
+  height: 1696
+  review: unreviewed
+- kind: fossil
+  file: Kaprosuchus skull details.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Kaprosuchus_skull_details.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kaprosuchus_skull_details.jpg
+  artist: Paul C. Sereno, Hans C.E. Larsson
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Skull details of Kaprosuchus.
+  width: 1046
+  height: 1773
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba/vector.svg
+  png: https://images.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba/raster/512x102.png
+  page: https://www.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Mahajangasuchus insignis
+  matched: Mahajangasuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sereno, Paul; Larsson, Hans 2009. Cretaceous Crocodyliforms from the Sahara. ZooKeys(28): 1–143. doi:10.3897/zookeys.28.325'
+- kind: literature
+  text: Gayford, Joel H.; Engelman, Russell K.; Sternes, Phillip C.; Itano, Wayne M.; Bazzi, Mohamad; Collareta,
+    Alberto; Salas-Gismondi, Rodolfo; Shimada, Kenshu Sept. Cautionary tales on the use of proxies to estimate body
+    size and form of extinct animals. Ecology and Evolution 14(9). doi:10.1002/ece3.70218
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kaprosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kaprosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kaprosuchus”. English Wikipedia, revision 1368882528.
+  url: https://en.wikipedia.org/w/index.php?title=Kaprosuchus&oldid=1368882528
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

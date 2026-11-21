@@ -1,0 +1,118 @@
+name: Planocrania
+rank: genus
+parent: planocraniidae
+incertae_sedis: false
+placement_note: ''
+authority: Li 1976
+type_species: Planocrania datangensis
+type_species_note: ''
+summary: Planocrania is an eusuchian crocodyliform from the Paleocene of China, the genus that gave the Planocraniidae
+  their name.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 60.9
+  last_ma: 56
+  early_interval: Selandian
+  late_interval: Thanetian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Planocrania datangensis
+  authority: Li 1976
+  first_ma: 60.9
+  last_ma: 57.5
+  interval: Selandian–Thanetian
+  reference: original description
+- name: Planocrania hengdongensis
+  authority: Li 1984
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: ''
+formations:
+- formation: Limuping
+  group: ''
+  members: []
+  country: China
+  regions: [Hunan]
+  interval: Late Paleocene
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: limuping-china
+- formation: Nongshan
+  group: ''
+  members: []
+  country: China
+  regions: [Guangdong]
+  interval: Tiffanian
+  occurrences: 1
+  ma: [57.5, 60.9]
+  id: nongshan-china
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; P. datangensis was named in 1976 from material from
+    Nanxiong, Guangdong.
+  material: 'Two species: P. datangensis and P. hengdongensis (Li 1984) from Hengdong.'
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no information on its biology.
+images:
+- kind: fossil
+  file: Planocrania datangensis Holotype IVPP.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Planocrania_datangensis_Holotype_IVPP.jpg/960px-Planocrania_datangensis_Holotype_IVPP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Planocrania_datangensis_Holotype_IVPP.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-31'
+  caption: Holotype of Planocrania datangensis.
+  width: 2349
+  height: 965
+  review: unreviewed
+- kind: life
+  file: Planocrania.png
+  url: https://upload.wikimedia.org/wikipedia/commons/3/31/Planocrania.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Planocrania.png
+  artist: Apokryltaros at English Wikipedia
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 17 July 20
+  caption: Life restoration of Planocrania.
+  width: 351
+  height: 121
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b/vector.svg
+  png: https://images.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b/raster/512x125.png
+  page: https://www.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Duerosuchus piscator
+  matched: Planocraniidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Li, J. L. 1976. Fossils of Sebecosuchia discovered from Nanxiong, Guangdong. Vertebrata PalAsiatica 14:
+    169–173.'
+- kind: literature
+  text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
+    the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9. doi:10.7717/peerj.12094
+- kind: literature
+  text: 'Michael S. Y. Lee 27 J. Tip-dating and homoplasy: reconciling the shallow molecular divergences of modern
+    gharials with their long fossil. Proceedings of the Royal Society B 285(1881). doi:10.1098/rspb.2018.1071'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Planocrania (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Planocrania
+- kind: encyclopedia
+  text: Wikipedia contributors. “Planocrania”. English Wikipedia, revision 1374088609.
+  url: https://en.wikipedia.org/w/index.php?title=Planocrania&oldid=1374088609
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - A 2013 analysis grouped the two Asian species with Boverisuchus and reinstated Planocraniidae.
+  - Holotype and material to be added from Li 1976 and 1984.
+  reviews: []

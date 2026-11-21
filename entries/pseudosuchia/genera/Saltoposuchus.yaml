@@ -1,0 +1,138 @@
+name: Saltoposuchus
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: von Huene 1921
+type_species: Saltoposuchus connectens
+type_species_note: ''
+summary: Saltoposuchus is a small, long-tailed sphenosuchian crocodylomorph from the Norian of Germany and Switzerland.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Saltoposuchus connectens
+  authority: Huene 1921
+  first_ma: 215.38
+  last_ma: 211.18
+  interval: Norian
+  reference: original description
+- name: Saltoposuchus longipes
+  authority: Huene 1921
+  first_ma: 215.38
+  last_ma: 211.18
+  interval: Norian
+  reference: ''
+formations:
+- formation: Löwenstein
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Alaunian
+  occurrences: 2
+  ma: [211.18, 215.38]
+  id: lowenstein-germany
+- formation: Klettgau
+  group: Keuper
+  members: [Gruhalde]
+  country: Switzerland
+  regions: [Aargau]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: klettgau-switzerland
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; S. connectens was named by von Huene in 1921.
+  material: Specimens from the Löwenstein Formation of Germany and the Klettgau Formation of Switzerland.
+  completeness: partial
+  exceptional: ''
+biology: A long pointed skull with sharp flattened teeth suggests a carnivore; it was once wrongly cited as a dinosaur
+  ancestor, and Terrestrisuchus has been proposed to be a juvenile of this genus.
+images:
+- kind: life
+  file: Saltoposuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Saltoposuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Saltoposuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-05-30'
+  caption: Life restoration of Saltoposuchus.
+  width: 800
+  height: 259
+  review: unreviewed
+- kind: fossil
+  file: Saltoposuchus connectens (SMNS 12596, skull bones).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/de/Saltoposuchus_connectens_%28SMNS_12596%2C_skull_bones%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Saltoposuchus_connectens_(SMNS_12596,_skull_bones).jpg
+  artist: Photograph by S. N. F. Spiekman in H.-D. Sues & R. R. Schoch
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025-12-04'
+  caption: Saltoposuchus connectens specimen SMNS.
+  width: 1547
+  height: 876
+  review: unreviewed
+- kind: fossil
+  file: Saltoposuchus connectens (holotype, SMNS 12597a).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Saltoposuchus_connectens_%28holotype%2C_SMNS_12597a%29.jpg/960px-Saltoposuchus_connectens_%28holotype%2C_SMNS_12597a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saltoposuchus_connectens_(holotype,_SMNS_12597a).jpg
+  artist: Photograph by S. N. F. Spiekman in H.-D. Sues & R. R. Schoch
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025-12-04'
+  caption: Holotype of Saltoposuchus connectens.
+  width: 1711
+  height: 734
+  review: unreviewed
+- kind: skeletal
+  file: Saltoposuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Saltoposuchus_skeletal.png/960px-Saltoposuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saltoposuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-04-10'
+  caption: Skeletal reconstruction of Saltoposuchus.
+  width: 5819
+  height: 2089
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/vector.svg
+  png: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/raster/512x140.png
+  page: https://www.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Trialestes romeri
+  matched: Crocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Spiekman, Stephan N F 2023. A revision and histological investigation of Saltoposuchus connectens (Archosauria:
+    Crocodylomorpha) from the Norian (Late Triassic) of south-western Germany. Zoological Journal of the Linnean
+    Society 199(2): 354–391. doi:10.1093/zoolinnean/zlad035'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saltoposuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saltoposuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saltoposuchus”. English Wikipedia, revision 1348020507.
+  url: https://en.wikipedia.org/w/index.php?title=Saltoposuchus&oldid=1348020507
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Material and completeness to be checked against Spiekman et al. 2023.
+  - Terrestrisuchus is kept as a separate genus here (PBDB).
+  reviews: []

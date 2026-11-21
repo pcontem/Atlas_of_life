@@ -1,0 +1,110 @@
+name: Sillosuchus
+rank: genus
+parent: shuvosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Alcober and Parrish 1997
+type_species: Sillosuchus longicervix
+type_species_note: Monotypic genus; the only species is the type.
+summary: Sillosuchus is a large shuvosaurid poposauroid archosaur of the Late Triassic Ischigualasto Formation of
+  Argentina.
+size:
+  length_m: null
+  note: The holotype femur is 47 cm long; no body-length estimate is given in the sources consulted.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sillosuchus longicervix
+  authority: Alcober and Parrish 1997
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Ischigualasto
+  group: ''
+  members: [Cancha de Bochas]
+  country: Argentina
+  regions: [San Juan]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: ischigualasto-argentina
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Alcober and Parrish in 1997.
+  material: The holotype plus referred bones such as PVL 2472 (tibia, ankle and a 20 cm cervical vertebra) and PVL
+    2267 (hip and hind limb), first collected by William Sill in 1974 and referred to Saurosuchus.
+  completeness: fragmentary
+  exceptional: ''
+biology: Shuvosaurids were bipedal and lightly armoured, with dinosaur-like hip and skull structures.
+images:
+- kind: life
+  file: Sillosuchus longicervix life restoration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Sillosuchus_longicervix_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sillosuchus_longicervix_life_restoration.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.ca/ )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-27'
+  caption: Life restoration of Sillosuchus longicervix.
+  width: 938
+  height: 562
+  review: unreviewed
+- kind: skeletal
+  file: Sillosuchus skeletal large.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sillosuchus_skeletal_large.png/960px-Sillosuchus_skeletal_large.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sillosuchus_skeletal_large.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-02-21'
+  caption: Large skeletal reconstruction of Sillosuchus.
+  width: 6446
+  height: 1617
+  review: unreviewed
+- kind: skeletal
+  file: Sillosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Sillosuchus_skeletal.png/960px-Sillosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sillosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-02-21'
+  caption: Skeletal reconstruction of Sillosuchus.
+  width: 6781
+  height: 1976
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9/vector.svg
+  png: https://images.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9/raster/512x127.png
+  page: https://www.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9
+  attribution: PaleoNeolitic
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Sillosuchus longicervix
+  matched: Shuvosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Alcober, O. A.; Parrish, J. M. 1997. A new poposaurid from the Upper Triassic of Argentina. Journal of
+    Vertebrate Paleontology 17(3): 548–556. doi:10.1080/02724634.1997.10011001'
+- kind: literature
+  text: 'Sterling J. Nesbitt 2011. The Early Evolution of Archosaurs: Relationships and the Origin of Major Clades.
+    Bulletin of the American Museum of Natural History 352: 1–292. doi:10.1206/352.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sillosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sillosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sillosuchus”. English Wikipedia, revision 1340581195.
+  url: https://en.wikipedia.org/w/index.php?title=Sillosuchus&oldid=1340581195
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

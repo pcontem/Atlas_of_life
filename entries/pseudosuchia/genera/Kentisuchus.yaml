@@ -1,0 +1,126 @@
+name: Kentisuchus
+rank: genus
+parent: gavialoidea
+incertae_sedis: false
+placement_note: ''
+authority: Mook 1955
+type_species: Kentisuchus spenceri
+type_species_note: Filled from general knowledge, not yet checked; the genus was erected by Mook in 1955.
+summary: Kentisuchus is an extinct gavialoid crocodylian of the Eocene of England and France, traditionally classed
+  as a tomistomine.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 56
+  last_ma: 37.71
+  early_interval: Ypresian
+  late_interval: Bartonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Kentisuchus astrei
+  authority: Jouve 2016
+  first_ma: 56
+  last_ma: 37.71
+  interval: Ypresian–Bartonian
+  reference: ''
+- name: Kentisuchus spenceri
+  authority: (Buckland 1836)
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: London Clay
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: london-clay-united-kingdom
+- formation: Sables du Castrais
+  group: ''
+  members: []
+  country: France
+  regions: [Aude]
+  interval: Ypresian–Bartonian
+  occurrences: 1
+  ma: [37.71, 56.0]
+  id: sables-du-castrais-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Aude]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: unnamed-la-borie-france
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft.
+  material: Fossils from the London Clay (England) and Eocene beds of France; Ukrainian specimens are of uncertain
+    assignment.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Kentisuchus champsoides.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Kentisuchus_champsoides.jpg/960px-Kentisuchus_champsoides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kentisuchus_champsoides.jpg
+  artist: J. Erxleben
+  license: Public domain
+  license_url: ''
+  date: 1800s date
+  caption: Kentisuchus champsoides specimen.
+  width: 2160
+  height: 3202
+  review: unreviewed
+- kind: fossil
+  file: Kentisuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Kentisuchus.jpg/960px-Kentisuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kentisuchus.jpg
+  artist: J. E. Girardot
+  license: Public domain
+  license_url: ''
+  date: 1880s date
+  caption: Kentisuchus fossil.
+  width: 2864
+  height: 1976
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/vector.svg
+  png: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/raster/536x1311.png
+  page: https://www.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Gunggamarandu maunala
+  matched: Gavialoidea
+  genus_level: false
+sources:
+- kind: original
+  text: C. C. Mook. 1955. Two new genera of Eocene crocodilians. American Museum Novitates 1727:1-4
+- kind: literature
+  text: Rio, Jonathan P.; Mannion, Philip D. 6 Se. Phylogenetic analysis of a new morphological dataset elucidates
+    the evolutionary history of Crocodylia and resolves the long-standing gharial problem. PeerJ 9. doi:10.7717/peerj.12094
+- kind: literature
+  text: 'Zvonok, E. A.; Skutschas, P. P. 2011. On a tomistomine crocodile (Crocodylidae, Tomistominae) from the
+    Middle Eocene of Ukraine. Paleontological Journal 45(6): 661–664. doi:10.1134/S0031030111060165'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kentisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kentisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kentisuchus”. English Wikipedia, revision 1312853822.
+  url: https://en.wikipedia.org/w/index.php?title=Kentisuchus&oldid=1312853822
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia says it was erected by Mook (1955) for a species described by Owen; type species to be confirmed.
+  - Original naming work to be added.
+  reviews: []

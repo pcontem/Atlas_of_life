@@ -1,0 +1,104 @@
+name: Youngosuchus
+rank: genus
+parent: suchia
+incertae_sedis: false
+placement_note: ''
+authority: Sennikov 1985
+type_species: Youngosuchus sinensis
+type_species_note: Monotypic genus; the only species is the type (originally Vjushkovia sinensis).
+summary: Youngosuchus is a loricatan archosaur from the Middle Triassic of China, first described as an erythrosuchid.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 247
+  last_ma: 241.464
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 1
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Youngosuchus sinensis
+  authority: (Young 1973)
+  first_ma: 247
+  last_ma: 241.464
+  interval: ''
+  reference: original description
+formations:
+- formation: Kelamayi
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Anisian
+  occurrences: 1
+  ma: [241.464, 247.0]
+  id: kelamayi-china
+fossil_material:
+  holotype: IVPP V 3239, a skeleton with a complete skull, cervical vertebrae, ribs, pectoral girdle and forelimbs.
+  material: The holotype only (Kelamayi Formation, Xinjiang).
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe its classification and anatomy but give no direct evidence of diet or habits.
+images:
+- kind: life
+  file: Youngosuchus restoration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Youngosuchus_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Youngosuchus_restoration.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-06-24'
+  caption: Life restoration of Youngosuchus.
+  width: 1444
+  height: 410
+  review: unreviewed
+- kind: fossil
+  file: Youngosuchus-Paleozoological Museum of China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Youngosuchus-Paleozoological_Museum_of_China.jpg/960px-Youngosuchus-Paleozoological_Museum_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Youngosuchus-Paleozoological_Museum_of_China.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04'
+  caption: Youngosuchus specimen (museum display).
+  width: 2592
+  height: 1728
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/vector.svg
+  png: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/raster/512x126.png
+  page: https://www.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Nundasuchus songeaensis
+  matched: Pseudosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: N. N. Kalandadze and A. G. Sennikov. 1985. New reptiles from the Middle Triassic in the southern Ural forelands.
+    Paleontological Journal 19(2):73-80
+- kind: literature
+  text: Ezcurra, Martín D. 2016. The phylogenetic relationships of basal archosauromorphs, with an emphasis on the
+    systematics of proterosuchian archosauriforms. PeerJ 4. doi:10.7717/peerj.1778
+- kind: literature
+  text: Butler, Richard J.; Sennikov, Andrey G.; Dunne, Emma M.; Ezcurra, Martin D.; Hedrick, Brandon P.; Maidment,
+    Susannah C. R.; Meade, Luke E.; Raven, Thomas J.; Gower, David J. 2019. Cranial anatomy and taxonomy of the
+    erythrosuchid archosauriform 'Vjushkovia triplicostata' Huene, 1960, from the Early Triassic of European Russia.
+    Royal Society Open Science 6(11). doi:10.1098/rsos.191289
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Youngosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Youngosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Youngosuchus”. English Wikipedia, revision 1377465906.
+  url: https://en.wikipedia.org/w/index.php?title=Youngosuchus&oldid=1377465906
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Described by Young in 1973 as Vjushkovia sinensis and reassigned by Sennikov in 1985; a 1992 study kept it as
+    an erythrosuchid while more recent studies place it among loricatans.
+  - PBDB gives a different paper as the reference - original naming work to be added.
+  reviews: []

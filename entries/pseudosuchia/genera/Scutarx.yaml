@@ -1,0 +1,97 @@
+name: Scutarx
+rank: genus
+parent: desmatosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Parker 2016
+type_species: Scutarx deltatylus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Scutarx is a medium-sized armoured aetosaur from the Late Triassic Chinle Formation of Arizona.
+size:
+  length_m: null
+  note: Described as medium-sized; no length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Scutarx deltatylus
+  authority: Parker 2016
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Sonsela]
+  country: United States
+  regions: [Arizona]
+  interval: Norian
+  occurrences: 4
+  ma: [205.7, 227.3]
+  id: chinle-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Parker in 2016 from Petrified Forest National
+    Park (PEFO).
+  material: Four partial skeletons with much of the carapace, vertebral column and shoulder and pelvic girdles,
+    collected at PEFO between 2002 and 2009.
+  completeness: multiple
+  exceptional: ''
+biology: Its fossils lie near the base of the Revueltian faunachron; the sources consulted give no direct evidence
+  of diet or habits.
+images:
+- kind: fossil
+  file: Scutarxskull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/4f/Scutarxskull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Scutarxskull.png
+  artist: William G. Parker
+  license: Public domain
+  license_url: ''
+  date: '2016-08-30'
+  caption: Skull of Scutarx deltatylus.
+  width: 610
+  height: 492
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Parker, William 2016. Osteology of the Late Triassic aetosaur Scutarx deltatylus (Archosauria: Pseudosuchia).
+    PeerJ 4. doi:10.7717/peerj.1583'
+- kind: literature
+  text: 'Parker, William 2018. Anatomical notes and discussion of the first described aetosaur Stagonolepis robertsoni
+    (Archosauria: Suchia) from the Upper Triassic of Europe, and the use of plesiomorphies in aetosaur biochronology.
+    PeerJ 6. doi:10.7717/peerj.5455'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scutarx (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scutarx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scutarx”. English Wikipedia, revision 1375988591.
+  url: https://en.wikipedia.org/w/index.php?title=Scutarx&oldid=1375988591
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number to be added from Parker 2016.]
+  reviews: []

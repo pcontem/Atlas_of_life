@@ -1,0 +1,85 @@
+name: Neoaetosauroides
+rank: genus
+parent: desmatosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1969
+type_species: Neoaetosauroides engaeus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Neoaetosauroides is a primitive aetosaur from the Late Triassic Los Colorados Formation of Argentina.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Neoaetosauroides engaeus
+  authority: Bonaparte 1969
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Los Colorados
+  group: Agua de la Peña
+  members: []
+  country: Argentina
+  regions: [La Rioja]
+  interval: Norian
+  occurrences: 6
+  ma: [205.7, 227.3]
+  id: los-colorados-argentina
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Bonaparte in 1969.
+  material: Several individuals; one of the best-represented aetosaurs of South America, and the first aetosaur
+    known from the Los Colorados Formation.
+  completeness: multiple
+  exceptional: ''
+biology: Biomechanical studies of its skull suggest a diet that differed greatly from that of most aetosaurs; its
+  upper tooth row reached the snout tip, which argues against a keratinous beak.
+images:
+- kind: life
+  file: Neoaetosauroides.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Neoaetosauroides.jpg/960px-Neoaetosauroides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neoaetosauroides.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-04-26'
+  caption: Life restoration of Neoaetosauroides.
+  width: 2320
+  height: 817
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Desojo, Julia Brenda; Vizcaíno, Sergio Fabián 2009. Jaw biomechanics in the South American aetosaur Neoaetosauroides
+    engaeus. Paläontologische Zeitschrift 83(4): 499–510. doi:10.1007/s12542-009-0032-6'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neoaetosauroides (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neoaetosauroides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neoaetosauroides”. English Wikipedia, revision 1283173237.
+  url: https://en.wikipedia.org/w/index.php?title=Neoaetosauroides&oldid=1283173237
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

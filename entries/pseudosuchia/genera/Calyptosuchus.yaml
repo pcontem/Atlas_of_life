@@ -1,0 +1,114 @@
+name: Calyptosuchus
+rank: genus
+parent: desmatosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Long and Ballew 1985
+type_species: Calyptosuchus wellesi
+type_species_note: Monotypic genus; PBDB lists only C. wellesi (originally named in another genus).
+summary: Calyptosuchus is a heavily armoured aetosaur with a pig-like snout from the Late Triassic of North America.
+size:
+  length_m: [4.0, 4.0]
+  note: Estimated at about 4 m long or possibly larger, with a carapace up to almost 70 cm wide (Wikipedia).
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 45
+  note: ''
+species:
+- name: Calyptosuchus wellesi
+  authority: (Long and Ballew 1985)
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Blue Mesa, Bluewater Creek, Mesa Redondo, Petrified Forest, Sonsela]
+  country: United States
+  regions: [Arizona, New Mexico]
+  interval: Norian
+  occurrences: 37
+  ma: [205.7, 227.3]
+  id: chinle-united-states
+- formation: Tecovas
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 5
+  ma: [205.7, 237.0]
+  id: tecovas-united-states
+- formation: Santa Rosa
+  group: Chinle
+  members: [Los Esteros]
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: santa-rosa-united-states
+- formation: Petrified Forest
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: petrified-forest-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the species was named by Long and Ballew in 1985.
+  material: Abundant remains, mostly osteoderms, from the Chinle, Tecovas, Santa Rosa and Petrified Forest formations;
+    redescribed by Parker in 2018.
+  completeness: multiple
+  exceptional: ''
+biology: Heavily armoured with a pig-like snout probably used to uproot plants; its dorsal and lateral osteoderms
+  were not fully fused.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: R. A. Long and K. L. Ballew. 1985. Aetosaur dermal armor from the Late Triassic of southwestern North America,
+    with special reference to material from the Chinle Formation of Petrified Forest National Park. Museum of Northern
+    Arizona Bulletin 54:45-68
+- kind: literature
+  text: 'Parker, William G. 2018. Redescription of ''''Calyptosuchus (Stagonolepis) wellesi'''' (Archosauria: Pseudosuchia:
+    Aetosauria) from the Late Triassic of the Southwestern United States with a discussion of genera in vertebrate
+    paleontology. PeerJ 6. doi:10.7717/peerj.4291'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Calyptosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Calyptosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Calyptosuchus”. English Wikipedia, revision 1313988783.
+  url: https://en.wikipedia.org/w/index.php?title=Calyptosuchus&oldid=1313988783
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No candidate image on the contact sheet.
+  - Holotype and original naming work (Long and Ballew 1985) to be added.
+  reviews: []

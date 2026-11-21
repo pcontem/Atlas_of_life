@@ -1,0 +1,148 @@
+name: Baurusuchus
+rank: genus
+parent: baurusuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Price 1945
+type_species: Baurusuchus pachecoi
+type_species_note: ''
+summary: Baurusuchus is an extinct baurusuchid crocodyliform, a terrestrial predator of the Late Cretaceous of Brazil.
+size:
+  length_m: null
+  note: The Wikipedia article estimates a weight of up to about 113 kg; no body-length range is given in the sources
+    consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Baurusuchus albertoi
+  authority: Nascimento and Zaher 2010
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Baurusuchus pachecoi
+  authority: Price 1945
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Baurusuchus salgadoensis
+  authority: Carvalho et al. 2005
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Sao Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: unnamed-9-6-km-south-of-jales-brazil
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; B. pachecoi was named by Price in 1945.
+  material: Several complete skeletons and skulls of different growth stages from the Adamantina Formation, belonging
+    to three species.
+  completeness: multiple
+  exceptional: ''
+biology: A terrestrial predator whose laterally compressed snout and teeth resemble those of theropods; its nostrils
+  were unsuited to an amphibious life, and it may have dug holes for water in dry seasons or for thermoregulation.
+images:
+- kind: skeletal
+  file: Baurusuchus albertoi skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Baurusuchus_albertoi_skeletal.png/960px-Baurusuchus_albertoi_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Baurusuchus_albertoi_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-25'
+  caption: Skeletal reconstruction of Baurusuchus albertoi.
+  width: 4523
+  height: 1473
+  review: unreviewed
+- kind: life
+  file: Baurusuchus albertoi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Baurusuchus_albertoi.jpg/960px-Baurusuchus_albertoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Baurusuchus_albertoi.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-05-13'
+  caption: Life restoration of Baurusuchus albertoi.
+  width: 2649
+  height: 1294
+  review: unreviewed
+- kind: fossil
+  file: Baurusuchus salgadoensis (MPMA) 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Baurusuchus_salgadoensis_%28MPMA%29_1.jpg/960px-Baurusuchus_salgadoensis_%28MPMA%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Baurusuchus_salgadoensis_(MPMA)_1.jpg
+  artist: Marco Aurélio Esparz
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-03-18'
+  caption: Skull of Baurusuchus salgadoensis (MPMA).
+  width: 1849
+  height: 1056
+  review: unreviewed
+- kind: fossil
+  file: Baurusuchus salgadoensis (MPMA) 2.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Baurusuchus_salgadoensis_%28MPMA%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Baurusuchus_salgadoensis_(MPMA)_2.jpg
+  artist: Marco Aurélio Esparz
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-03-31'
+  caption: Skull of Baurusuchus salgadoensis (MPMA), second view.
+  width: 1442
+  height: 1245
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/734ef782-b204-4fad-8e70-7190731b8237/vector.svg
+  png: https://images.phylopic.org/images/734ef782-b204-4fad-8e70-7190731b8237/raster/512x219.png
+  page: https://www.phylopic.org/images/734ef782-b204-4fad-8e70-7190731b8237
+  attribution: Smokeybjb, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Baurusuchus albertoi
+  matched: Baurusuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Price, L.I. 1945. A new reptile from the Cretaceous of Brazil. Departamento Nacional da Produção Mineral,
+    Notas Preliminares e Estudos 25: 1–8.'
+- kind: literature
+  text: 'Montefeltro, Felipe C.; Lautenschlager, Stephan; Godoy, Pedro L.; Ferreira, Gabriel S.; Butler, Richard
+    J. 2020. A unique predator in a unique ecosystem: modelling the apex predator within a Late Cretaceous crocodyliform-dominated
+    fauna from Brazil. Journal of Anatomy 237(2): 323–333. doi:10.1111/joa.13192'
+- kind: literature
+  text: 'Carvalho; Campos, Antonio; de Celso, Arruda; Nobre, Pedro Henrique 2005. ''''Baurusuchus salgadoensis'''',
+    a new Crocodylomorpha from the Bauru Basin (Cretaceous), Brazil. Gondwana Research 8(1): 11–30. doi:10.1016/S1342-937X(05)70259-8'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Baurusuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Baurusuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Baurusuchus”. English Wikipedia, revision 1364371718.
+  url: https://en.wikipedia.org/w/index.php?title=Baurusuchus&oldid=1364371718
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

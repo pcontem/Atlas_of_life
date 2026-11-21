@@ -1,0 +1,98 @@
+name: Mariliasuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Carvalho and Bertini 1999
+type_species: Mariliasuchus amarali
+type_species_note: The English Wikipedia lead names M. amarali as the type species.
+summary: Mariliasuchus is a notosuchian crocodyliform from the Late Cretaceous Adamantina Formation of Brazil, found
+  near eggs and coprolites.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Mariliasuchus amarali
+  authority: Carvalho and Bertini 1999
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Mariliasuchus robustus
+  authority: Nobre et al. 2007
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: UFRJ DG 50-R, a partially complete articulated juvenile skeleton with a nearly complete skull.
+  material: Several specimens of M. amarali, some found close to eggs, eggshells and coprolites; M. robustus was
+    named in 2007.
+  completeness: multiple
+  exceptional: ''
+biology: Several specimens occur close to eggs and eggshells, which the sources describe without further interpretation.
+images:
+- kind: life
+  file: Mariliasuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Mariliasuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mariliasuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-11-12'
+  caption: Mariliasuchus restoration.
+  width: 800
+  height: 299
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/888c53ca-19c5-4380-9013-cb24d06930ba/vector.svg
+  png: https://images.phylopic.org/images/888c53ca-19c5-4380-9013-cb24d06930ba/raster/512x145.png
+  page: https://www.phylopic.org/images/888c53ca-19c5-4380-9013-cb24d06930ba
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Mariliasuchus amarali
+  matched: Mariliasuchus
+  genus_level: true
+sources:
+- kind: original
+  text: I. d. S. Carvalho and R. J. Bertini. 1999. Mariliasuchus, um novo Crocodylomorpha (Notosuchia) do Cretáceo
+    da Bacia Bauru, Brasil. Revista Geologia Colombiana 24:83-105
+- kind: literature
+  text: 'Pedro Henrique Nobre 2007. Mariliasuchus robustus, a new Crocodylomorpha (Mesoeucrocodylia) from the Bauru
+    Basin, Brazil. Anuário do Instituto de Geociências 30(1): 38–49. doi:10.11137/2007_1_38-49'
+- kind: literature
+  text: 'Zaher, Hussam; Pol, Diego; Carvalho, A. B.; Riccomini, C.; Campos, D.; Nava, W. 2006. Re-description of
+    the cranial morphology of ''''Mariliasuchus amarali'''', and its phylogenetic affinities (Crocodyliformes, Notosuchia).
+    American Museum Novitates(3512): 1–40. doi:10.1206/0003-0082(2006)3512[1:ROTCMO]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mariliasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mariliasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mariliasuchus”. English Wikipedia, revision 1339948421.
+  url: https://en.wikipedia.org/w/index.php?title=Mariliasuchus&oldid=1339948421
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - First remains collected in 1995 by William Nava and described in 1999 by Carvalho and Bertini; original paper
+    to be added.
+  reviews: []

@@ -1,0 +1,258 @@
+name: Thecachampsa
+rank: genus
+parent: gavialoidea
+incertae_sedis: false
+placement_note: ''
+authority: Cope 1867
+type_species: Thecachampsa sericodon
+type_species_note: Filled from general knowledge, not yet checked; PBDB gives no type species.
+summary: Thecachampsa is a large marine tomistomine crocodylian of the Miocene of the eastern United States with
+  a long, slender snout.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 59.24
+  last_ma: 0.014
+  early_interval: Thanetian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 39
+  note: ''
+species:
+- name: Thecachampsa antiquus
+  authority: (Leidy 1852)
+  first_ma: 59.24
+  last_ma: 2.58
+  interval: Thanetian–Piacenzian
+  reference: ''
+- name: Thecachampsa carolinensis
+  authority: (Erickson and Sawyer 1996)
+  first_ma: 33.9
+  last_ma: 23.04
+  interval: Rupelian–Chattian
+  reference: ''
+- name: Thecachampsa contusor
+  authority: (Cope 1867)
+  first_ma: 59.24
+  last_ma: 2.58
+  interval: Thanetian–Piacenzian
+  reference: ''
+- name: Thecachampsa marylandica
+  authority: Clark 1895
+  first_ma: 59.24
+  last_ma: 48.07
+  interval: Thanetian–Ypresian
+  reference: ''
+- name: Thecachampsa minor
+  authority: (Marsh 1870)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Thecachampsa sericodon
+  authority: (Cope 1867)
+  first_ma: 59.24
+  last_ma: 0.014
+  interval: Thanetian–Late Pleistocene
+  reference: original description
+- name: Thecachampsa sicaria
+  authority: (Cope 1869)
+  first_ma: 59.24
+  last_ma: 0.014
+  interval: Thanetian–Late Pleistocene
+  reference: ''
+formations:
+- formation: Calvert
+  group: Chesapeake
+  members: [Calvert Beach, Plum Point]
+  country: United States
+  regions: [Maryland, Virginia]
+  interval: Langhian–Serravallian
+  occurrences: 9
+  ma: [11.63, 15.98]
+  id: calvert-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida, South Carolina]
+  interval: Late Oligocene–Rancholabrean
+  occurrences: 5
+  ma: [0.014, 27.3]
+  id:
+  - unnamed-edisto-beach-united-states
+  - unnamed-haile-v-xixa-united-states
+  - unnamed-lambs-phosphate-mine-united-states
+- formation: Peace River
+  group: Hawthorn
+  members: [Bone Valley]
+  country: United States
+  regions: [Florida, florida]
+  interval: Tortonian–Zanclean
+  occurrences: 4
+  ma: [3.6, 11.63]
+  id: peace-river-united-states
+- formation: Chandler Bridge
+  group: Cooper
+  members: ['1', Bed 2]
+  country: United States
+  regions: [South Carolina]
+  interval: Chattian
+  occurrences: 4
+  ma: [23.04, 27.3]
+  id: chandler-bridge-united-states
+- formation: Aquia
+  group: ''
+  members: [Piscataway]
+  country: United States
+  regions: [Maryland, Virginia]
+  interval: Thanetian
+  occurrences: 4
+  ma: [56.0, 59.24]
+  id: aquia-united-states
+- formation: Alachua
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Late Clarendonian–Hemphillian
+  occurrences: 2
+  ma: [4.7, 12.5]
+  id: alachua-united-states
+- formation: Socorro
+  group: ''
+  members: [Upper]
+  country: Venezuela
+  regions: [Falcon, Falcón]
+  interval: Middle Miocene
+  occurrences: 2
+  ma: [11.63, 15.98]
+  id: socorro-venezuela
+- formation: Choptank
+  group: Chesapeake
+  members: [Boston Cliffs]
+  country: United States
+  regions: [Maryland, Virginia]
+  interval: Serravallian
+  occurrences: 2
+  ma: [11.63, 13.82]
+  id: choptank-united-states
+- formation: Kirkwood
+  group: ''
+  members: [Alloway Clay]
+  country: United States
+  regions: [New Jersey]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: kirkwood-united-states
+- formation: Nanjemoy
+  group: Pamunkey
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: nanjemoy-united-states
+- formation: Yorktown
+  group: Chesapeake
+  members: [basal]
+  country: United States
+  regions: [North Carolina]
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: yorktown-united-states
+- formation: Ashley
+  group: Cooper
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Rupelian
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: ashley-united-states
+- formation: Curré
+  group: ''
+  members: []
+  country: Costa Rica
+  regions: [Puntarenas]
+  interval: Messinian
+  occurrences: 1
+  ma: [5.333, 7.246]
+  id: curre-costa-rica
+- formation: Statenville
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Early Clarendonian
+  occurrences: 1
+  ma: [9.4, 12.5]
+  id: statenville-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the genus was named by Cope in 1867.
+  material: Fossils from the Calvert, Peace River and Chandler Bridge formations and other deposits of the eastern
+    United States.
+  completeness: fragmentary
+  exceptional: ''
+biology: Like living gharials it had a long, slender snout with interlocking teeth whose shape varied between species,
+  but it was marine, living in estuaries and shallow coastal waters.
+images:
+- kind: fossil
+  file: Thecachampsa sericodon tooth Clark.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Thecachampsa_sericodon_tooth_Clark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Thecachampsa_sericodon_tooth_Clark.jpg
+  artist: William Bullock Clark
+  license: Public domain
+  license_url: ''
+  date: '1901'
+  caption: Thecachampsa sericodon tooth.
+  width: 158
+  height: 342
+  review: unreviewed
+- kind: fossil
+  file: Thecachampsa sp. Vertebra.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Thecachampsa_sp._Vertebra.jpg/960px-Thecachampsa_sp._Vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Thecachampsa_sp._Vertebra.jpg
+  artist: Mason Hintermeister
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-03-22'
+  caption: Thecachampsa vertebra.
+  width: 2118
+  height: 1705
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/vector.svg
+  png: https://images.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321/raster/536x1311.png
+  page: https://www.phylopic.org/images/2c420500-1a95-4574-83b7-b4fbf32f5321
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Gunggamarandu maunala
+  matched: Gavialoidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Cope, E.D. 1867. Note on ''''Thoracosaurus brevispinus''''. Proceedings of the Academy of Natural Sciences
+    of Philadelphia 19: 39.'
+- kind: literature
+  text: 'Iijima, M.; Kobayashi, Y. 2019. Mosaic nature in the skeleton of East Asian crocodylians fills the morphological
+    gap between "Tomistominae" and Gavialinae. Cladistics 35(6): 623–632. doi:10.1111/cla.12372'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thecachampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thecachampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Thecachampsa”. English Wikipedia, revision 1383586389.
+  url: https://en.wikipedia.org/w/index.php?title=Thecachampsa&oldid=1383586389
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Weems (2018) accepts three species, T. sericodon, T. antiquus and T. carolinensis; the validity and spelling
+    of species are disputed.
+  - PBDB lists seven species.
+  reviews: []

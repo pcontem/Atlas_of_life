@@ -1,0 +1,83 @@
+name: Kayentasuchus
+rank: genus
+parent: crocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Clark and Sues 2002
+type_species: Kayentasuchus walkeri
+type_species_note: Monotypic genus; the only species is the type.
+summary: Kayentasuchus is a sphenosuchian crocodylomorph known from one skeleton from the Early Jurassic Kayenta
+  Formation of Arizona.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 199.5
+  last_ma: 184.2
+  early_interval: Sinemurian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kayentasuchus walkeri
+  authority: Clark and Sues 2002
+  first_ma: 199.5
+  last_ma: 184.2
+  interval: Sinemurian–Pliensbachian
+  reference: original description
+formations:
+- formation: Kayenta
+  group: Glen Canyon
+  members: [Silty Facies]
+  country: United States
+  regions: [Arizona]
+  interval: Sinemurian–Pliensbachian
+  occurrences: 1
+  ma: [184.2, 199.5]
+  id: kayenta-united-states
+fossil_material:
+  holotype: UCMP 131830, a fragmentary skeleton found in 1983 by James M. Clark in a channel sandstone of the Kayenta
+    Formation.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its teeth were nearly conical with unserrated edges; the sources consulted give no direct evidence of diet.
+images:
+- kind: skeletal
+  file: Kayentasuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Kayentasuchus_skeletal.png/960px-Kayentasuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kayentasuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-07-28'
+  caption: Skeletal reconstruction of Kayentasuchus.
+  width: 5087
+  height: 1834
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/vector.svg
+  png: https://images.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4/raster/512x140.png
+  page: https://www.phylopic.org/images/79c1cdc9-5858-4480-bd8c-e880a42138c4
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Trialestes romeri
+  matched: Crocodylomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'Clark, James M. 2002. Two new species of basal crocodylomorphs and the status of the Sphenosuchia. Zoological
+    Journal of the Linnean Society 136(1): 77–96. doi:10.1046/j.1096-3642.2002.00026.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kayentasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kayentasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kayentasuchus”. English Wikipedia, revision 1303005233.
+  url: https://en.wikipedia.org/w/index.php?title=Kayentasuchus&oldid=1303005233
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

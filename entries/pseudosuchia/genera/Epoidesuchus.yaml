@@ -1,0 +1,92 @@
+name: Epoidesuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Ruiz et al. 2024
+type_species: Epoidesuchus tavaresae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Epoidesuchus is a long-jawed peirosaurid notosuchian from the Late Cretaceous Adamantina Formation of Brazil,
+  described in 2024.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Epoidesuchus tavaresae
+  authority: Ruiz et al. 2024
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the type specimen is held by a museum directed by
+    Sandra Simionato Tavares.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Long, gracile jaws like those of other pepesuchines, unlike peirosaurines, may indicate semi-aquatic habits
+  like modern crocodilians.
+images:
+- kind: life
+  file: Epoidesuchus tavaresae.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/67/Epoidesuchus_tavaresae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Epoidesuchus_tavaresae.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-08-30'
+  caption: Life restoration of Epoidesuchus tavaresae.
+  width: 1467
+  height: 420
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ruiz, Juan V.; Queiroz, Marcos V. L.; Martins, Kawan C.; Godoy, Pedro L.; Iori, Fabiano V.; Langer, Max
+    C.; Montefeltro, Felipe C.; Bronzati, Mario 2024. A new Peirosauridae (Crocodyliformes, Notosuchia) from the
+    Adamantina Formation (Bauru Group, Late Cretaceous), with a revised phylogenetic analysis of Sebecia. The Anatomical
+    Record 308(2): 574–597. doi:10.1002/ar.25559'
+- kind: literature
+  text: 'Leardi, J. M.; Pol, D.; Montefeltro, F.; Marinho, T. S.; Ruiz, J. V.; Bravo, G. G.; Pinheiro, A. E. P.;
+    Godoy, P. L.; Nicholl, C. S. C.; Lecuona, A.; Larsson, H. C. E. 2024. Phylogenetic nomenclature of Notosuchia
+    (Crocodylomorpha; Crocodyliformes). Bulletin of Phylogenetic Nomenclature 1(3): 44–82. doi:10.11646/bpn.1.3.2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Epoidesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Epoidesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Epoidesuchus”. English Wikipedia, revision 1381003846.
+  url: https://en.wikipedia.org/w/index.php?title=Epoidesuchus&oldid=1381003846
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia article calls it an itasuchid; PBDB places it in Pepesuchinae within Peirosauridae.
+  - Holotype number and material to be added from Ruiz et al. 2024.
+  reviews: []

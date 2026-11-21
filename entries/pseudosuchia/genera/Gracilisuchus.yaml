@@ -1,0 +1,125 @@
+name: Gracilisuchus
+rank: genus
+parent: gracilisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Romer 1972
+type_species: Gracilisuchus stipanicicorum
+type_species_note: Monotypic genus; the only species is the type.
+summary: Gracilisuchus is a tiny pseudosuchian of the Middle to Late Triassic of Argentina, placed close to the
+  ancestry of crocodylomorphs.
+size:
+  length_m: null
+  note: Described as tiny; no length estimate is given in the sources consulted.
+age:
+  first_ma: 241.464
+  last_ma: 237
+  early_interval: Ladinian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Gracilisuchus stipanicicorum
+  authority: Romer 1972
+  first_ma: 241.464
+  last_ma: 237
+  interval: Ladinian
+  reference: original description
+formations:
+- formation: Chañares
+  group: Agua de la Peña
+  members: [Lower]
+  country: Argentina
+  regions: [La Rioja]
+  interval: Ladinian–Judithian
+  occurrences: 2
+  ma: [72.2, 241.464]
+  id: chanares-argentina
+fossil_material:
+  holotype: PULR 08 (formerly MLP 64-XI-14-11), a partial skull, incomplete vertebral column, parts of the scapula
+    and humerus and gastralia, from the Chañares Formation.
+  material: The holotype plus further specimens described by Romer (1972) and later studies, including postcranial
+    material (Lecuona et al. 2017).
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted describe its anatomy and placement in Suchia but give no direct evidence of diet
+  or habits.
+images:
+- kind: life
+  file: Gracilisuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/49/Gracilisuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gracilisuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: Dec 25, 20
+  caption: Life restoration of Gracilisuchus.
+  width: 800
+  height: 253
+  review: unreviewed
+- kind: skeletal
+  file: Gracilisuchus Composite Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Gracilisuchus_Composite_Skeletal.png/960px-Gracilisuchus_Composite_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gracilisuchus_Composite_Skeletal.png
+  artist: Justice's Skeletals
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2026-07-13'
+  caption: Composite skeletal reconstruction of Gracilisuchus.
+  width: 5752
+  height: 2060
+  review: unreviewed
+- kind: life
+  file: Gracilisuchus stipanicicorum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Gracilisuchus_stipanicicorum.png/960px-Gracilisuchus_stipanicicorum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gracilisuchus_stipanicicorum.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-08-27'
+  caption: Gracilisuchus stipanicicorum in life.
+  width: 1648
+  height: 502
+  review: unreviewed
+- kind: fossil
+  file: Gracilisuchus.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Gracilisuchus.tif/lossy-page1-960px-Gracilisuchus.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gracilisuchus.tif
+  artist: Richard J. Butler, Corwin Sullivan, Martín D. Ezcurra, Jun Liu, Agustina Lecuona and Roland B. Sookias
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014-06-10'
+  caption: Gracilisuchus fossil.
+  width: 3891
+  height: 4524
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4/vector.svg
+  png: https://images.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4/raster/512x153.png
+  page: https://www.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Gracilisuchus stipanicicorum
+  matched: Gracilisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Romer, A.S. 1972. The Chañares (Argentina) Triassic reptile fauna. An early ornithosuchid pseudosuchian,
+    ''''Gracilisuchus stipanicicorum, gen. et sp. nov''''. Breviora 389: 1–24.'
+- kind: literature
+  text: 'Lecuona, A.; Desojo, J.B.; Pol, D. 2017. New information on the postcranial skeleton of ''''Gracilisuchus
+    stipanicicorum'''' (Archosauria: Suchia) and reappraisal of its phylogenetic position. Zoological Journal of
+    the Linnean Society 181(3): 638–677. doi:10.1093/zoolinnean/zlx011'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gracilisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gracilisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gracilisuchus”. English Wikipedia, revision 1364008162.
+  url: https://en.wikipedia.org/w/index.php?title=Gracilisuchus&oldid=1364008162
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

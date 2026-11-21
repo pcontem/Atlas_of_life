@@ -1,0 +1,102 @@
+name: Libycosuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Stromer 1914
+type_species: Libycosuchus brevirostris
+type_species_note: Monotypic genus; the only species is the type.
+summary: Libycosuchus is a terrestrial notosuchian crocodyliform from the Late Cretaceous Bahariya Formation of
+  Egypt.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Libycosuchus brevirostris
+  authority: Stromer 1914
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Matruh]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Stromer in 1914.
+  material: Remains from the Bahariya Formation of Egypt, including new material described in a later study.
+  completeness: fragmentary
+  exceptional: ''
+biology: Terrestrial; it lived alongside the crocodilian Stomatosuchus and dinosaurs such as Spinosaurus.
+images:
+- kind: fossil
+  file: Libycosuchus brevirostris fossils.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ad/Libycosuchus_brevirostris_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Libycosuchus_brevirostris_fossils.jpg
+  artist: brahim N, Sereno PC, Varricchio DJ, Martill DM, Dutheil DB, Unwin DM, Baidder L, Larsson HCE, Zouhri S,
+    Kaoukaya A
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-04-21'
+  caption: Libycosuchus brevirostris fossils.
+  width: 1512
+  height: 1601
+  review: unreviewed
+- kind: fossil
+  file: Libycosuchus brevirostris.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0d/Libycosuchus_brevirostris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Libycosuchus_brevirostris.jpg
+  artist: Ghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-12'
+  caption: Libycosuchus brevirostris.
+  width: 720
+  height: 960
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/vector.svg
+  png: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/raster/512x124.png
+  page: https://www.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Araripesuchus aznarezi
+  matched: Eunotosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'E. v. Stromer. 1914. Ergebnisse der Forschungreisen Prof. E. Stromers in den Wusten Agyptens: II. Wirbeltier-Reste
+    der Baharije-Stufe (unterstes Cenoman). 1. Einleitung und 2. Libycosuchus. Abhandlungen der Koniglichen Bayerischen
+    Akademie der Wissenschaften, Mathematisch-Physikalischen Klasse 27(3):1-15'
+- kind: literature
+  text: Tumarkin-Deratzian, Allison; Grandstaff, Barbara S.; Lamanna, Matthew; Smith, Joshua B. Sept. New material
+    of Libycosuchus brevirostris from the Cenomanian Bahariya Formation of Egypt. Journal of Vertebrate Paleontology
+    24(3).
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Libycosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Libycosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Libycosuchus”. English Wikipedia, revision 1282990365.
+  url: https://en.wikipedia.org/w/index.php?title=Libycosuchus&oldid=1282990365
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Sole member of Libycosuchidae and Libycosuchinae; possibly related to Notosuchus.
+  - Original naming work (Stromer 1914) to be added.
+  reviews: []
