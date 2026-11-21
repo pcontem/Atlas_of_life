@@ -1,0 +1,104 @@
+name: Suchodus
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Lydekker 1890
+type_species: Suchodus durobrivensis
+type_species_note: ''
+summary: Fully marine metriorhynchid from the Middle to Late Jurassic of England and France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Suchodus durobrivensis
+  authority: (Lydekker 1890)
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: The article consulted gives no specimen list; a skeletal reconstruction of NHMUK PV R 3804 exists on
+    Commons.
+  completeness: partial
+  exceptional: ''
+biology: A large predator that would have fed on other large marine animals, with a streamlined body, powerful tail
+  and long, robust jaws.
+images:
+- kind: skeletal
+  file: NHMUK PV R 3804 Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/NHMUK_PV_R_3804_Skeletal.png/960px-NHMUK_PV_R_3804_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:NHMUK_PV_R_3804_Skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-13'
+  caption: Skeletal reconstruction (NHMUK PV R 3804)
+  width: 6311
+  height: 2757
+  review: unreviewed
+  local: img/gallery/Suchodus_001.webp
+- kind: fossil
+  file: Suchodus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Suchodus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Suchodus.jpg
+  artist: G. M. Woodward
+  license: Public domain
+  license_url: ''
+  date: '1910'
+  caption: Skull figure
+  width: 1175
+  height: 1334
+  review: unreviewed
+  local: img/gallery/Suchodus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/vector.svg
+  png: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/raster/512x323.png
+  page: https://www.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Metriorhynchus brevirostris
+  matched: Metriorhynchidae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Young, Mark T; Brignon, Arnaud; Sachs, Sven; Hornung, Jahn J; Foffa, Davide; Kitson, James J N; Johnson,
+    Michela M; Steel, Lorna 2021. Cutting the Gordian knot: a historical and taxonomic revision of the Jurassic
+    crocodylomorph Metriorhynchus. Zoological Journal of the Linnean Society 192(2): 510–553. doi:10.1093/zoolinnean/zlaa092'
+- kind: literature
+  text: Girard, L. C.; De Sousa Oliveira, S.; Raselli, I.; Martin, J. E.; Anquetin, J. 2023. Description and phylogenetic
+    relationships of a new species of ''Torvoneustes'' (Crocodylomorpha, Thalattosuchia) from the Kimmeridgian of
+    Switzerland. PeerJ 11. doi:10.7717/peerj.15512
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Suchodus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Suchodus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Suchodus”. English Wikipedia, revision 1375620819.
+  url: https://en.wikipedia.org/w/index.php?title=Suchodus&oldid=1375620819
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Completeness is provisional; add holotype data.
+  - Add the original description (Lydekker 1890).
+  reviews: []

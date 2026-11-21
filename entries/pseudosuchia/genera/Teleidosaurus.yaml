@@ -1,0 +1,128 @@
+name: Teleidosaurus
+rank: genus
+parent: metriorhynchoidea
+incertae_sedis: false
+placement_note: ''
+authority: Eudes-Deslongchamps 1869
+type_species: Teleidosaurus calvadosii
+type_species_note: ''
+summary: Carnivorous metriorhynchoid crocodyliform from the Middle Jurassic of Normandy, France, outside the family
+  Metriorhynchidae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.6
+  last_ma: 152.21
+  early_interval: Bajocian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Teleidosaurus calvadosii
+  authority: (Eudes-Deslongchamps 1866)
+  first_ma: 168.6
+  last_ma: 165.3
+  interval: Bajocian–Bathonian
+  reference: original description
+- name: Teleidosaurus joberti
+  authority: Eudes-Deslongchamps 1867
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Lower Normandy, Normandy]
+  interval: Late Bajocian–Early Kimmeridgian
+  occurrences: 2
+  ma: [152.21, 168.6]
+  id: [unnamed-calvados-france, unnamed-sannerville-france]
+- formation: Great Oolite
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: great-oolite-france
+- formation: Calcaire d'Ecouché
+  group: ''
+  members: []
+  country: France
+  regions: [Basse-Normandie]
+  interval: Early Bathonian–Middle Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: calcaire-d-ecouche-france
+fossil_material:
+  holotype: The original holotype was lost in the Second World War; a neotype from the 1980s (a lower jaw, partial
+    skull and a cervical vertebra) replaced it, and plastotype casts survive.
+  material: The plastotype NHM R.2681 is a complete skull and mandible.
+  completeness: partial
+  exceptional: ''
+biology: Its skull has some metriorhynchid features but keeps ancestral thalattosuchian traits, especially in the
+  lower jaw.
+images:
+- kind: life
+  file: Teleidosaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Teleidosaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Teleidosaurus_BW.jpg
+  artist: User:ArthurWeasley
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-01-06'
+  caption: Life restoration
+  width: 800
+  height: 504
+  review: unreviewed
+  local: img/gallery/Teleidosaurus_001.webp
+- kind: skeletal
+  file: Teleidosaurus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Teleidosaurus_skeletal.png/960px-Teleidosaurus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Teleidosaurus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-10-11'
+  caption: Skull reconstruction
+  width: 8248
+  height: 2694
+  review: unreviewed
+  local: img/gallery/Teleidosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/vector.svg
+  png: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/raster/512x70.png
+  page: https://www.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5
+  attribution: LiterallyMiguel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Magyarosuchus fitosi
+  matched: Thalattosuchia
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Mark T. Young 2010. The evolution of Metriorhynchoidea (Mesoeucrocodylia, Thalattosuchia): an integrated
+    approach using geometrics morphometrics, analysis of disparity and biomechanics. Zoological Journal of the Linnean
+    Society 158(4): 801–859. doi:10.1111/j.1096-3642.2009.00571.x'
+- kind: literature
+  text: 'Young, Mark T.; Wilberg, Eric W.; Johnson, Michela M.; Herrera, Yanina; De Andrade, Marco Brandalise; Brignon,
+    Arnaud; Sachs, Sven; Abel, Pascal; Foffa, Davide; Fernández, Marta S.; Vignaud, Patrick; Cowgill, Thomas; Brusatte,
+    Stephen L. 2024. The history, systematics, and nomenclature of Thalattosuchia (Archosauria: Crocodylomorpha).
+    Zoological Journal of the Linnean Society 200(2): 547–617. doi:10.1093/zoolinnean/zlad165'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Teleidosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Teleidosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Teleidosaurus”. English Wikipedia, revision 1382043654.
+  url: https://en.wikipedia.org/w/index.php?title=Teleidosaurus&oldid=1382043654
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original description (Eudes-Deslongchamps).]
+  reviews: []

@@ -1,0 +1,104 @@
+name: Enalioetes
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Sachs et al. 2024
+type_species: Enalioetes schroederi
+type_species_note: ''
+summary: Marine metriorhynchid thalattosuchian from the Early Cretaceous of Germany, among the most recent and best-preserved
+  Cretaceous members of its group.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 139.1
+  last_ma: 132.6
+  early_interval: Berriasian
+  late_interval: Valanginian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Enalioetes schroederi
+  authority: Sachs et al. 2024
+  first_ma: 139.1
+  last_ma: 132.6
+  interval: Berriasian–Valanginian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: []
+  interval: Late Berriasian–Valanginian
+  occurrences: 1
+  ma: [132.6, 139.1]
+  id: unnamed-tongrube-sachsenhagen-germany
+fossil_material:
+  holotype: Much of a skull plus parts of the neck, found no later than 1916 in the Stadthagen Formation at Engelbostel,
+    Germany.
+  material: The Wikipedia article describes the holotype; a second specimen, the Sachsenhagen specimen, was historically
+    linked to the same form.
+  completeness: partial
+  exceptional: ''
+biology: Metriorhynchids were fully marine; the genus name means 'dweller of the sea'. Few members of the group
+  are known from three-dimensionally preserved skulls, which makes some internal skull characters uncertain.
+images:
+- kind: fossil
+  file: Atlas-axis complex of Enalioetes schroederi.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Atlas-axis_complex_of_Enalioetes_schroederi.tif/lossy-page1-960px-Atlas-axis_complex_of_Enalioetes_schroederi.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Atlas-axis_complex_of_Enalioetes_schroederi.tif
+  artist: Dinosven
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-09-13'
+  caption: Atlas-axis complex
+  width: 3814
+  height: 2968
+  review: unreviewed
+  local: img/gallery/Enalioetes_001.webp
+- kind: fossil
+  file: Skull of Enalioetes schroederi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Skull_of_Enalioetes_schroederi.jpg/960px-Skull_of_Enalioetes_schroederi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skull_of_Enalioetes_schroederi.jpg
+  artist: Dinosven
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-09-13'
+  caption: Skull of Enalioetes schroederi
+  width: 4370
+  height: 1818
+  review: unreviewed
+  local: img/gallery/Enalioetes_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/vector.svg
+  png: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/raster/512x323.png
+  page: https://www.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Metriorhynchus brevirostris
+  matched: Metriorhynchidae
+  genus_level: false
+  w: 512
+  h: 323
+sources:
+- kind: original
+  text: Sachs, S.; Young, M.T.; Hornung, J.J.; Cowgill, T.; Schwab, J.A.; Brusatte, S.L. 2024. A new genus of metriorhynchid
+    crocodylomorph from the Lower Cretaceous of Germany. Journal of Systematic Palaeontology 22(1). doi:10.1080/14772019.2024.2359946
+- kind: literature
+  text: 'Schroeder, H. 1923. Ein Meereskrokodilier aus der Unteren Kreide Norddeutschlands. Jahrbuch der Preußischen
+    Geologischen Landesanstalt zu Berlin 42: 352–364.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Enalioetes (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Enalioetes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Enalioetes”. English Wikipedia, revision 1332767513.
+  url: https://en.wikipedia.org/w/index.php?title=Enalioetes&oldid=1332767513
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the article consulted.]
+  reviews: []

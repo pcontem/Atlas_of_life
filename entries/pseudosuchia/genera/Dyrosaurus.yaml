@@ -1,0 +1,206 @@
+name: Dyrosaurus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Pomel 1894
+type_species: Dyrosaurus phosphaticus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Large dyrosaurid with an estimated body length of 6.5 m, from North Africa; it gave the family its name.
+size:
+  length_m: [6.5, 6.5]
+  note: Estimated body length 6.5 m (Wikipedia).
+age:
+  first_ma: 113.2
+  last_ma: 33.9
+  early_interval: Albian
+  late_interval: Priabonian
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Dyrosaurus berneti
+  authority: Bergounioux 1955
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: ''
+- name: Dyrosaurus maghribensis
+  authority: Jouve et al. 2006
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: ''
+- name: Dyrosaurus phosphaticus
+  authority: (Thomas 1893)
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+- name: Dyrosaurus variabilis
+  authority: Bergounioux 1955
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: ''
+formations:
+- formation: Gafsa Phosphates
+  group: ''
+  members: []
+  country: Tunisia
+  regions: []
+  interval: Ypresian
+  occurrences: 4
+  ma: [48.07, 56.0]
+  id: gafsa-phosphates-tunisia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Gafsa]
+  interval: Ypresian
+  occurrences: 2
+  ma: [48.07, 56.0]
+  id: unnamed-gafsa-tunisia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Libya
+  regions: []
+  interval: Bartonian–Late Eocene
+  occurrences: 1
+  ma: [33.9, 41.03]
+  id: unnamed-gebel-rascal-libya
+- formation: Continental Intercalaire
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Adrar]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: continental-intercalaire-algeria
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Niger
+  regions: [Tahoua]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: unnamed-mantass-niger
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Algeria
+  regions: []
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: unnamed-tebessa-algeria
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: unnamed-mrah-iaresh-morocco
+fossil_material:
+  holotype: MNHN 1901-11, one tooth, one caudal vertebra and the ends of an ulna and radius, from Djebel Dyr, Algeria.
+  material: The family Dyrosauridae was named by de Stefano in 1903 after this locality; other species have dorsal
+    osteoderms with distinctive shapes.
+  completeness: fragmentary
+  exceptional: ''
+biology: A large marine reptile; the dorsal osteoderms of D. maghribensis are not sutured and lack a serrated margin.
+images:
+- kind: fossil
+  file: Dyrosaurus mount (retouched in the background).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Dyrosaurus_mount_%28retouched_in_the_background%29.jpg/960px-Dyrosaurus_mount_%28retouched_in_the_background%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dyrosaurus_mount_(retouched_in_the_background).jpg
+  artist: incidencematrix
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2014-07-17'
+  caption: Skeleton mount
+  width: 3622
+  height: 1746
+  review: unreviewed
+  local: img/gallery/Dyrosaurus_001.webp
+- kind: fossil
+  file: Dyrosaurus fossils.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/61/Dyrosaurus_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dyrosaurus_fossils.jpg
+  artist: Tommy from Arad
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2013-03-20'
+  caption: Fossils
+  width: 1441
+  height: 1024
+  review: unreviewed
+  local: img/gallery/Dyrosaurus_002.webp
+- kind: life
+  file: Dyrosaurus 2020 coloured.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Dyrosaurus_2020_coloured.jpg/960px-Dyrosaurus_2020_coloured.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dyrosaurus_2020_coloured.jpg
+  artist: Nrd23456
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-12-10'
+  caption: Life restoration
+  width: 6468
+  height: 1500
+  review: unreviewed
+  local: img/gallery/Dyrosaurus_003.webp
+- kind: life
+  file: Dyrosaurus BW (cropped).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/24/Dyrosaurus_BW_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dyrosaurus_BW_(cropped).jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-02'
+  caption: Life restoration
+  width: 339
+  height: 152
+  review: unreviewed
+  local: img/gallery/Dyrosaurus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/13ff6eb0-a671-44d8-8a51-8b9f95d49403/vector.svg
+  png: https://images.phylopic.org/images/13ff6eb0-a671-44d8-8a51-8b9f95d49403/raster/512x119.png
+  page: https://www.phylopic.org/images/13ff6eb0-a671-44d8-8a51-8b9f95d49403
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Dyrosaurus phosphaticus
+  matched: Dyrosaurus
+  genus_level: true
+  w: 512
+  h: 119
+sources:
+- kind: original
+  text: 'Pomel, A. 1894. Découverte de champsosauriens dans les gisements de phosphorite du suessonien de l''Algérie.
+    Comptes rendus de l''Académie des Sciences 118: 1309–1310.'
+- kind: literature
+  text: 'Jouve, Stéphane; Iarochène, Mohamed; Bouya, Baâdi; Amaghzaz, Mbarek 2005. A new dyrosaurid crocodyliform
+    from the Palaeocene of Morocco and a phylogenetic analysis of Dyrosauridae. Acta Palaeontologica Polonica 50(3):
+    581–594.'
+- kind: literature
+  text: 'Jouve, Stéphane; Iarochène, Mohamed; Bouya, Baâdi; Amaghzaz, Mbarek 2006. A new species of ''''Dyrosaurus''''
+    (Crocodylomorpha, Dyrosauridae) from the early Eocene of Morocco: phylogenetic implications. Zoological Journal
+    of the Linnean Society 148(4): 603–656. doi:10.1111/j.1096-3642.2006.00241.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dyrosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dyrosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dyrosaurus”. English Wikipedia, revision 1373686636.
+  url: https://en.wikipedia.org/w/index.php?title=Dyrosaurus&oldid=1373686636
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Type species deduced; confirm it is D. phosphaticus.
+  reviews: []

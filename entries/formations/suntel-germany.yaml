@@ -3,18 +3,18 @@ name: Süntel
 rank: formation
 group: ''
 country: Germany
-regions: [Niedersachsen]
+regions: [Niedersachsen, Nordrhein-Westfalen]
 location:
-  lat: 51.9
-  lng: 10.483
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 52.096
+  lng: 9.596
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 152.21
+  first_ma: 154.8
   last_ma: 149.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [estuary/bay]
-lithology: [mudstone]
-pbdb_collections: ['51859']
+environment: [coarse channel fill, estuary/bay]
+lithology: [sandstone, mudstone]
+pbdb_collections: ['51859', '182492']
 includes: []
 summary: ''
 paleoenvironment: ''

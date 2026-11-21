@@ -1,0 +1,102 @@
+name: Neptunidraco
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Cau and Fanti 2011
+type_species: Neptunidraco ammoniticus
+type_species_note: ''
+summary: Oldest known metriorhynchid, a marine crocodylomorph from the Middle Jurassic of northeastern Italy.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 170.9
+  last_ma: 143.1
+  early_interval: Bajocian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Neptunidraco ammoniticus
+  authority: Cau and Fanti 2011
+  first_ma: 170.9
+  last_ma: 165.3
+  interval: Bajocian–Bathonian
+  reference: original description
+formations:
+- formation: Rosso Ammonitico Veronese
+  group: ''
+  members: [lower unit]
+  country: Italy
+  regions: [Altipiano dei Sette Comuni, Veneto, Vicenza]
+  interval: Bajocian–Tithonian
+  occurrences: 3
+  ma: [143.1, 170.9]
+  id: rosso-ammonitico-veronese-italy
+fossil_material:
+  holotype: The 'Portomaggiore crocodile', a partial skeleton with an incomplete skull and mandible, found in the
+    1950s near Portomaggiore in the Rosso Ammonitico Veronese.
+  material: The most complete metriorhynchid specimen known from Italy; it was provisionally assigned to Metriorhynchus
+    or Geosaurus before 2011.
+  completeness: partial
+  exceptional: ''
+biology: Member of the subfamily Geosaurinae, a group of mostly large marine predators adapted to open-ocean life.
+images:
+- kind: fossil
+  file: Neptunidraco ammoniticus 1.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Neptunidraco_ammoniticus_1.JPG/960px-Neptunidraco_ammoniticus_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neptunidraco_ammoniticus_1.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Took the p
+  caption: Fossil slab (holotype)
+  width: 2354
+  height: 1935
+  review: unreviewed
+  local: img/gallery/Neptunidraco_001.webp
+- kind: fossil
+  file: Neptunidraco ammoniticus.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Neptunidraco_ammoniticus.JPG/960px-Neptunidraco_ammoniticus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neptunidraco_ammoniticus.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Took the p
+  caption: Holotype slab and drawing
+  width: 2048
+  height: 1536
+  review: unreviewed
+  local: img/gallery/Neptunidraco_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/vector.svg
+  png: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/raster/512x323.png
+  page: https://www.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Metriorhynchus brevirostris
+  matched: Metriorhynchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Andrea Cau 2011. The oldest known metriorhynchid crocodylian from the Middle Jurassic of North-eastern
+    Italy: ''''Neptunidraco ammoniticus'''' gen. et sp. nov. Gondwana Research 19(2): 550–565. doi:10.1016/j.gr.2010.07.007'
+- kind: literature
+  text: 'Serafini, G.; Foffa, D.; Young, M. T.; Friso, G.; Cobianchi, M.; Giusberti, L. 2023. Reappraisal of the
+    thalattosuchian crocodylomorph record from the Middle-Upper Jurassic Rosso Ammonitico Veronese of northeastern
+    Italy: Age calibration, new specimens and taphonomic biases. PLOS ONE 18(10). doi:10.1371/journal.pone.0293614'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neptunidraco (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neptunidraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neptunidraco”. English Wikipedia, revision 1380632119.
+  url: https://en.wikipedia.org/w/index.php?title=Neptunidraco&oldid=1380632119
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Age: late Bajocian to earliest Bathonian per Wikipedia; PBDB range is wider.'
+  reviews: []

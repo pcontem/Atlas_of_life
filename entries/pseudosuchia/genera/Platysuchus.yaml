@@ -1,0 +1,103 @@
+name: Platysuchus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Westphal 1961
+type_species: Platysuchus multiscrobiculatus
+type_species_note: ''
+summary: Flat-skulled teleosaurid crocodyliform from the Early Jurassic (Toarcian) of southern Germany and Luxembourg.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 184.2
+  last_ma: 182.9
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Platysuchus multicrobiculatus
+  authority: (Berckhemer 1929)
+  first_ma: 184.2
+  last_ma: 182.9
+  interval: Toarcian
+  reference: ''
+formations:
+- formation: Posidonia Shale
+  group: ''
+  members: [Lias Epsilon II/5, Lias Epsilon II/6]
+  country: Germany
+  regions: [Baden-Würtemberg, Baden-Württenburg, Württemberg]
+  interval: Early Toarcian
+  occurrences: 3
+  ma: [182.9, 184.2]
+  id: posidonia-shale-germany
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Luxembourg
+  regions: [Mondercange]
+  interval: Falciferum
+  occurrences: 1
+  ma: [182.9, 184.2]
+  id: unnamed-dudelange-luxembourg
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Not stated in the Wikipedia article consulted; check the original description.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images:
+- kind: fossil
+  file: Platysuchus multiscrobiculatus 1.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Platysuchus_multiscrobiculatus_1.JPG/960px-Platysuchus_multiscrobiculatus_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Platysuchus_multiscrobiculatus_1.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 -
+  caption: Fossil specimen
+  width: 1913
+  height: 809
+  review: unreviewed
+  local: img/gallery/Platysuchus_001.webp
+- kind: fossil
+  file: Platysuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Platysuchus.png/960px-Platysuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Platysuchus.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Specimen with details
+  width: 2428
+  height: 2205
+  review: unreviewed
+  local: img/gallery/Platysuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauridae
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Platysuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Platysuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Platysuchus”. English Wikipedia, revision 1352564334.
+  url: https://en.wikipedia.org/w/index.php?title=Platysuchus&oldid=1352564334
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Originally Mystriosaurus multiscrobiculatus; renamed by Westphal 1961.
+  - Holotype, material and completeness not stated; no literature source in the dossier.
+  reviews: []

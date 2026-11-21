@@ -1,0 +1,32 @@
+id: el-castellar-spain
+name: El Castellar
+rank: formation
+group: ''
+country: Spain
+regions: [Aragón, Teruel]
+location:
+  lat: 40.66
+  lng: -0.776
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 132.6
+  last_ma: 121.4
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., deltaic indet.]
+lithology: [not reported, '"siliciclastic"']
+pbdb_collections: ['36378', '59076']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the El Castellar (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=El+Castellar
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

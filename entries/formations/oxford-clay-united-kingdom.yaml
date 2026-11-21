@@ -1,0 +1,32 @@
+id: oxford-clay-united-kingdom
+name: Oxford Clay
+rank: formation
+group: Ancholme
+country: United Kingdom
+regions: [Dorset, England]
+location:
+  lat: 52.552
+  lng: -0.242
+  basis: median of 9 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 165.3
+  last_ma: 154.8
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [offshore indet., marine indet., offshore, shallow subtidal indet.]
+lithology: [mudstone, not reported, sandstone]
+pbdb_collections: ['47362', '92051', '100669', '109800', '133067', '133068', '142299', '162945', '224072']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Oxford Clay (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Oxford+Clay
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

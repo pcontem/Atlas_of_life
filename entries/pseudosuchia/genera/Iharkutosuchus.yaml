@@ -1,0 +1,111 @@
+name: Iharkutosuchus
+rank: genus
+parent: hylaeochampsidae
+incertae_sedis: false
+placement_note: ''
+authority: Osi et al. 2007
+type_species: Iharkutosuchus makadii
+type_species_note: ''
+summary: Small Late Cretaceous crocodyliform from Hungary, about 80 cm long, with a plant-grinding jaw.
+size:
+  length_m: [0.8, 0.8]
+  note: Skull up to 11.1 cm, body about 80 cm (Wikipedia).
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Iharkutosuchus makadii
+  authority: Osi et al. 2007
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Csehbánya
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Veszprém]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: csehbanya-hungary
+- formation: Ajka Coal
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Veszprém]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: ajka-coal-hungary
+fossil_material:
+  holotype: MTM 2006.52.1, a nearly complete skull.
+  material: Several partial skulls, isolated skull bones and numerous teeth are also known.
+  completeness: multiple
+  exceptional: ''
+biology: Its mobile lower jaw could grind food, and wear on its teeth suggests a diet of fibrous plant material.
+images:
+- kind: fossil
+  file: Iharkutosuchus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/73/Iharkutosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Iharkutosuchus.jpg
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2015'
+  caption: Skull
+  width: 425
+  height: 497
+  review: unreviewed
+  local: img/gallery/Iharkutosuchus_001.webp
+- kind: life
+  file: Iharkutosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Iharkutosuchus.png/960px-Iharkutosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Iharkutosuchus.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-02-16'
+  caption: Life restoration
+  width: 1791
+  height: 1343
+  review: unreviewed
+  local: img/gallery/Iharkutosuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/vector.svg
+  png: https://images.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c/raster/512x86.png
+  page: https://www.phylopic.org/images/e938ef4f-ab18-4062-800b-8010ac63be1c
+  attribution: François-Louis Pelissier
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Acynodon iberoccitanus
+  matched: Hylaeochampsidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Osi, J. M. Clark, and D. B. Weishampel. 2007. First report on a new basal eusuchian crocodyliform with
+    multicusped teeth from the Upper Cretaceous (Santonian) of Hungary. Neues Jahrbuch für Geologie und Paläontologie
+    - Abhandlungen 243(2):169-177
+- kind: literature
+  text: 'Ősi, Attila 2007. First report on a new eusuchian crocodyliform with multicusped teeth from the Upper Cretaceous
+    (Santonian) of Hungary. Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen 243(2): 169–177. doi:10.1127/0077-7749/2007/0243-0169'
+- kind: literature
+  text: 'Ősi, Attila; Weishampel, David B. 2009. Jaw mechanism and dental function in the Late Cretaceous basal
+    eusuchian ''''Iharkutosuchus''''. Journal of Morphology 270(8): 903–920. doi:10.1002/jmor.10726'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Iharkutosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Iharkutosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Iharkutosuchus”. English Wikipedia, revision 1352907796.
+  url: https://en.wikipedia.org/w/index.php?title=Iharkutosuchus&oldid=1352907796
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

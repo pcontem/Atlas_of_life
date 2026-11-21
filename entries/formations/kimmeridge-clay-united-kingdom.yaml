@@ -1,20 +1,43 @@
 id: kimmeridge-clay-united-kingdom
 name: Kimmeridge Clay
 rank: formation
-group: ''
+group: Ancholme, Dorset Succession
 country: United Kingdom
-regions: [England]
+regions: [England, Wiltshire, england]
 location:
-  lat: 50.61
+  lat: 50.617
   lng: -2.132
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  basis: median of 18 PBDB collections that yielded the atlas genera
 age:
   first_ma: 154.8
   last_ma: 143.1
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [shallow subtidal indet., deep-water indet.]
-lithology: [mudstone]
-pbdb_collections: ['92095', '120291', '178843']
+environment:
+- marine indet.
+- shallow subtidal indet.
+- deep-water indet.
+- marginal marine indet.
+- open shallow subtidal
+lithology: [not reported, claystone, mudstone, '"carbonate"']
+pbdb_collections:
+- '26795'
+- '70996'
+- '74931'
+- '92095'
+- '98478'
+- '100263'
+- '118949'
+- '118950'
+- '119504'
+- '119508'
+- '120291'
+- '133663'
+- '138974'
+- '144398'
+- '144402'
+- '152924'
+- '156363'
+- '178843'
 includes: []
 summary: ''
 paleoenvironment: ''

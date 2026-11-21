@@ -1,0 +1,79 @@
+name: Barrosasuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Coria et al. 2019
+type_species: Barrosasuchus neuquenianus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Peirosaurid known from an almost complete skull and most of the postcranial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Barrosasuchus neuquenianus
+  authority: Coria et al. 2019
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: MCF-PV 413, an almost complete skull (315 mm) and most of the postcranial skeleton.
+  material: Not stated in the Wikipedia article consulted; check the original description.
+  completeness: near-complete
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+  w: 512
+  h: 138
+sources:
+- kind: literature
+  text: 'Coria, R.A.; Ortega, F.; Arcucci, A.B.; Currie, P.J. 2018. "A new and complete peirosaurid (Crocodyliformes,
+    Notosuchia) from Sierra Barrosa (Santonian, Upper Cretaceous) of the Neuquen Basin, Argentina". Cretaceous Research
+    95: 89–105. doi:10.1016/j.cretres.2018.11.008'
+- kind: literature
+  text: Nicholl, C.S.C.; Hunt, E.S.E.; Ouarhache, D.; Mannion, P.D. 2021. A second peirosaurid crocodyliform from
+    the Mid-Cretaceous Kem Kem Group of Morocco and the diversity of Gondwanan notosuchians outside South America.
+    Royal Society Open Science 8(10). doi:10.1098/rsos.211254
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Barrosasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Barrosasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Barrosasuchus”. English Wikipedia, revision 1348521196.
+  url: https://en.wikipedia.org/w/index.php?title=Barrosasuchus&oldid=1348521196
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Type species filled from general knowledge.
+  - Add the original naming work.
+  reviews: []

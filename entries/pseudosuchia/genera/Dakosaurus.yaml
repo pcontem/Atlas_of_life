@@ -1,0 +1,316 @@
+name: Dakosaurus
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Quenstedt 1856
+type_species: Dakosaurus maximus
+type_species_note: ''
+summary: Large marine metriorhynchid with serrated, side-flattened teeth, from the Late Jurassic and Early Cretaceous.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 113.2
+  early_interval: Callovian
+  late_interval: Aptian
+  pbdb_occurrences: 37
+  note: ''
+species:
+- name: Dakosaurus andiniensis
+  authority: Vignaud and Gasparini 1996
+  first_ma: 149.2
+  last_ma: 137.05
+  interval: Tithonian–Berriasian
+  reference: ''
+- name: Dakosaurus gracilis
+  authority: (Quenstedt 1885)
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: ''
+- name: Dakosaurus lissocephalus
+  authority: Seeley 1869
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: ''
+- name: Dakosaurus maximus
+  authority: (Plieninger 1846)
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+formations:
+- formation: Kimmeridge Clay
+  group: Dorset Succession
+  members: [Lower]
+  country: United Kingdom
+  regions: [England, england]
+  interval: Early Kimmeridgian–Early Tithonian
+  occurrences: 6
+  ma: [145.06, 154.8]
+  id: kimmeridge-clay-united-kingdom
+- formation: Vaca Muerta
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Mendoza, Neuquén]
+  interval: Tithonian–Berriasian
+  occurrences: 6
+  ma: [137.05, 149.2]
+  id: vaca-muerta-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg, Franconia]
+  interval: Late Jurassic
+  occurrences: 4
+  ma: [143.1, 161.5]
+  id:
+  - nusplingen-limestone-germany
+  - unnamed-heidenheim-germany
+  - unnamed-kelheim-germany
+- formation: Mergelstetten
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 152.21]
+  id: mergelstetten-germany
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian–Oxfordian
+  occurrences: 2
+  ma: [154.8, 165.3]
+  id: oxford-clay-united-kingdom
+- formation: Torleite
+  group: Weißjura
+  members: [Arnstorf, Wattendorf]
+  country: Germany
+  regions: [Bavaria, Bayern]
+  interval: Kimmeridgian–Late Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 154.8]
+  id: torleite-germany
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 2
+  ma: [145.06, 149.2]
+  id: altmuhltal-germany
+- formation: La Casita
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Coahuila, Nuevo Leon]
+  interval: Early Kimmeridgian–Late Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 154.8]
+  id: la-casita-mexico
+- formation: Faringdon Sand
+  group: Lower Greensand
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: faringdon-sand-united-kingdom
+- formation: Nusplingen Limestone
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: nusplingen-limestone-germany
+- formation: Argiles de Châtillon
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: argiles-de-chatillon-france
+- formation: Reuchenette
+  group: ''
+  members: []
+  country: Switzerland
+  regions: [Solothurn]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: reuchenette-switzerland
+- formation: Marnes de Dives
+  group: ''
+  members: []
+  country: France
+  regions: [Basse-Normandie]
+  interval: Late Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: marnes-de-dives-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Mendoza]
+  interval: Late Tithonian
+  occurrences: 1
+  ma: [143.1, 145.06]
+  id: unnamed-poti-malal-argentina
+- formation: Painten
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: painten-germany
+- formation: Liegende Bankkalk
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: liegende-bankkalk-germany
+- formation: Tereñes
+  group: ''
+  members: []
+  country: Spain
+  regions: [Asturias]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: terenes-spain
+- formation: Woburn Sand
+  group: Lower Greensand
+  members: [Potton Nodule Bed]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: woburn-sand-united-kingdom
+- formation: Altmühltal
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: altmuhltal-germany
+fossil_material:
+  holotype: Named from an isolated tooth that Plieninger called Geosaurus maximus in 1846; Quenstedt erected the
+    genus in 1856.
+  material: Fossils come from the Late Jurassic of England, France, Switzerland, Germany, Poland, Russia, Argentina
+    and Mexico; teeth are known from the Oxfordian.
+  completeness: multiple
+  exceptional: ''
+biology: A carnivore that probably spent its life at sea and most likely mated there; whether it bore live young
+  is unknown. D. andiniensis has a short, tall snout, nicknamed 'Godzilla' in press reports.
+images:
+- kind: skeletal
+  file: Dakosaurus maximus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Dakosaurus_maximus_skeletal.png/960px-Dakosaurus_maximus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dakosaurus_maximus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-19'
+  caption: Skeletal reconstruction (D. maximus)
+  width: 9326
+  height: 5363
+  review: unreviewed
+  local: img/gallery/Dakosaurus_001.webp
+- kind: fossil
+  file: Dakosaurus maximus skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Dakosaurus_maximus_skull.png/960px-Dakosaurus_maximus_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dakosaurus_maximus_skull.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-19'
+  caption: Skull (D. maximus)
+  width: 3152
+  height: 1479
+  review: unreviewed
+  local: img/gallery/Dakosaurus_002.webp
+- kind: life
+  file: Dakosaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/88/Dakosaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dakosaurus_BW.jpg
+  artist: User:ArthurWeasley
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2006-12-25'
+  caption: Life restoration
+  width: 800
+  height: 575
+  review: unreviewed
+  local: img/gallery/Dakosaurus_003.webp
+- kind: life
+  file: Dakosaurus maximus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/05/Dakosaurus_maximus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dakosaurus_maximus_BW.jpg
+  artist: User:ArthurWeasley
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-01-02'
+  caption: Life restoration (D. maximus)
+  width: 800
+  height: 484
+  review: unreviewed
+  local: img/gallery/Dakosaurus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/2c1cd803-6075-4fe6-993d-b9e0a62fc786/vector.svg
+  png: https://images.phylopic.org/images/2c1cd803-6075-4fe6-993d-b9e0a62fc786/raster/512x138.png
+  page: https://www.phylopic.org/images/2c1cd803-6075-4fe6-993d-b9e0a62fc786
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dakosaurus maximus
+  matched: Dakosaurus
+  genus_level: true
+  w: 512
+  h: 138
+sources:
+- kind: literature
+  text: 'Young, M.T.; Bell, M.A.; de Andrade, M.B.; Brusatte, S.L. 2011. Body size estimation and evolution in metriorhynchid
+    crocodylomorphs: implications for species diversification and niche partitioning. Zoological Journal of the
+    Linnean Society 163(4): 1199–1216. doi:10.1111/j.1096-3642.2011.00734.x'
+- kind: literature
+  text: 'Herrera, Yanina; Spindler, Frederik; Bronzati, Mario 17 J. A complete morphological description of Dakosaurus
+    maximus (Crocodyliformes: Thalattosuchia) with further insights into their palaeoecology. Palaeontologia Electronica
+    29(1): 1–116. doi:10.26879/1577'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dakosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dakosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dakosaurus”. English Wikipedia, revision 1384854147.
+  url: https://en.wikipedia.org/w/index.php?title=Dakosaurus&oldid=1384854147
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Add the original description (Quenstedt 1856).
+  reviews: []

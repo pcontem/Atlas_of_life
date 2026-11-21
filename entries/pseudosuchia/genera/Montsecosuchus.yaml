@@ -1,0 +1,94 @@
+name: Montsecosuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Buscalioni and Sanz 1988
+type_species: Montsecosuchus depereti
+type_species_note: ''
+summary: Small crocodyliform from the Early Cretaceous of Montsec, Spain, once placed in Alligatorium.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Montsecosuchus depereti
+  authority: (Vidal 1915)
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Pedrera de Rúbies
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-pedrera-de-rubies-spain
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+fossil_material:
+  holotype: MGB 512, a nearly complete articulated skeleton in limestone, in the Museu de Ciències Naturals de Barcelona.
+  material: Prepared further for a 1990 revision that first used the genus name.
+  completeness: near-complete
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images:
+- kind: life
+  file: Montsecosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Montsecosuchus.jpg/960px-Montsecosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Montsecosuchus.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-08-25'
+  caption: Life restoration
+  width: 2733
+  height: 1302
+  review: unreviewed
+  local: img/gallery/Montsecosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Neosuchia
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Vidal, L. M. 1915. Nota geológica y paleontológica sobre el Jurásico superior de la provincia de Lérida.
+    Boletín del Instituto Geológico de España 16: 17–55.'
+- kind: literature
+  text: 'Broili, F. 1932. Der obere Jura von Montsech (Provinz Lérida) im Vergleich mit den Ob. Jura-Vorkommen von
+    Cerin (Dept. Ain) und von Franken. Geologica Méditerranea Occidentalis 2: 3–11.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Montsecosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Montsecosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Montsecosuchus”. English Wikipedia, revision 1377214379.
+  url: https://en.wikipedia.org/w/index.php?title=Montsecosuchus&oldid=1377214379
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original description (Buscalioni & Sanz 1988).]
+  reviews: []

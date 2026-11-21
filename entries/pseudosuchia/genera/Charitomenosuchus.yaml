@@ -1,0 +1,88 @@
+name: Charitomenosuchus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2020
+type_species: Charitomenosuchus leedsi
+type_species_note: ''
+summary: Machimosaurid teleosauroid from the Callovian Oxford Clay of England, named in 2020 for 'Steneosaurus'
+  leedsi.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Charitomenosuchus leedsi
+  authority: (Andrews 1909)
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: Andrews (1909) named the species from three specimens; the holotype number is not given in the article
+    consulted.
+  material: Known from the Oxford Clay Formation of England.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted gives no information on its biology; the name means 'graceful crocodile'.
+images:
+- kind: fossil
+  file: Charitomenosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Charitomenosuchus.png/960px-Charitomenosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Charitomenosuchus.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Skull figure
+  width: 2428
+  height: 1268
+  review: unreviewed
+  local: img/gallery/Charitomenosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: literature
+  text: Johnson, M. M.; Foffa, D.; Young, M. T.; Brusatte, S. L. 2022. The ecological diversification and evolution
+    of Teleosauroidea (Crocodylomorpha, Thalattosuchia), with insights into their mandibular biomechanics. Ecology
+    and Evolution 12(11). doi:10.1002/ece3.9484
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Charitomenosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Charitomenosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Charitomenosuchus”. English Wikipedia, revision 1372391416.
+  url: https://en.wikipedia.org/w/index.php?title=Charitomenosuchus&oldid=1372391416
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number not stated.]
+  reviews: []

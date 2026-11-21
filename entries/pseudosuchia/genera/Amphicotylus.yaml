@@ -1,0 +1,117 @@
+name: Amphicotylus
+rank: genus
+parent: goniopholididae
+incertae_sedis: false
+placement_note: ''
+authority: Cope 1878
+type_species: Amphicotylus lucasii
+type_species_note: ''
+summary: Goniopholidid from the Late Jurassic Morrison Formation with a triangular, flat skull like modern crocodilians.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 152.21
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Amphicotylus lucasii
+  authority: (Cope 1878)
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+- name: Amphicotylus milesi
+  authority: Yoshida et al. 2021
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Amphicotylus stovalli
+  authority: (Mook 1964)
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Kenton]
+  country: United States
+  regions: [Colorado, Oklahoma, Wyoming]
+  interval: Late Kimmeridgian–Tithonian
+  occurrences: 3
+  ma: [143.1, 152.21]
+  id: morrison-united-states
+fossil_material:
+  holotype: Cope (1878) described dorsal and lumbar vertebrae, ribs and osteoderms; Mook later used a skull from
+    the same locality as a provisional neotype.
+  material: Species include A. lucasii, A. stovalli and A. milesi, the largest, with a skull 43 cm long.
+  completeness: partial
+  exceptional: ''
+biology: A semi-aquatic neosuchian with a platyrostral skull.
+images:
+- kind: skeletal
+  file: Amphicotylus lucasii skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Amphicotylus_lucasii_skeletal.png/960px-Amphicotylus_lucasii_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Amphicotylus_lucasii_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-09-22'
+  caption: Skeletal reconstruction (A. lucasii)
+  width: 7315
+  height: 3745
+  review: unreviewed
+  local: img/gallery/Amphicotylus_001.webp
+- kind: fossil
+  file: Amphicotylus milesi.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Amphicotylus_milesi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Amphicotylus_milesi.jpg
+  artist: Yoshida Junki, Hori Atsushi, Kobayashi Yoshitsugu, Ryan Michael J., Takakuwa Yuji and Hasegawa Yoshikazu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-12-08'
+  caption: Skeleton (A. milesi)
+  width: 1570
+  height: 619
+  review: unreviewed
+  local: img/gallery/Amphicotylus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Goniopholididae
+  genus_level: false
+  w: 512
+  h: 83
+sources:
+- kind: literature
+  text: 'Pritchard, A. C.; Turner, A. H.; Allen, E. R.; Norell, M. A. 2013. Osteology of a North American Goniopholidid
+    (''''Eutretauranosuchus delfsi'''') and Palate Evolution in Neosuchia. American Museum Novitates(3783): 1–56.
+    doi:10.1206/3783.2'
+- kind: literature
+  text: 'Yoshida, J.; Hori, A.; Kobayashi, Y.; Ryan, M.J.; Takakuwa, Y.; Hasegawa, Y. 8 De. A new goniopholidid
+    from the Upper Jurassic Morrison Formation, USA: novel insight into aquatic adaptation toward modern crocodylians.
+    Royal Society Open Science 8(12). doi:10.1098/rsos.210320'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Amphicotylus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Amphicotylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Amphicotylus”. English Wikipedia, revision 1366266413.
+  url: https://en.wikipedia.org/w/index.php?title=Amphicotylus&oldid=1366266413
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Add the original description (Cope 1878).
+  reviews: []

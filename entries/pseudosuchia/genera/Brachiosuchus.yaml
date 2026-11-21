@@ -1,0 +1,89 @@
+name: Brachiosuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Salih et al. 2022
+type_species: Brachiosuchus kababishensis
+type_species_note: ''
+summary: Long-snouted dyrosaurid from the Late Cretaceous Kababish Formation of Sudan, possibly about 7 m long.
+size:
+  length_m: [7, 7]
+  note: Possible length around 7 m from body size estimates (Wikipedia).
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Brachiosuchus kababishensis
+  authority: Salih et al. 2022
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Kababish
+  group: ''
+  members: []
+  country: Sudan
+  regions: []
+  interval: Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: kababish-sudan
+fossil_material:
+  holotype: MfN SUD001 to SUD012, cranial and postcranial material of a single individual.
+  material: The skull is about 1.5 m long and the snout makes up 67% of its length; four complete and several fragmentary
+    osteoderms are preserved.
+  completeness: partial
+  exceptional: ''
+biology: Body size estimates suggest a possible length of around 7 m; the femur is 48 cm long and of typical dyrosaurid
+  form.
+images:
+- kind: skeletal
+  file: Brachiosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Brachiosuchus.jpg/960px-Brachiosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brachiosuchus.jpg
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-25'
+  caption: Skeletal reconstruction
+  width: 10438
+  height: 4818
+  review: unreviewed
+  local: img/gallery/Brachiosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: K. O. Salih, D. C. Evans, and R. Bussert, N. Klein, J. Müller. 2022. Brachiosuchus kababishensis, a new
+    long-snouted dyrosaurid (Mesoeucrocodylia) from the Late Cretaceous of north central Sudan. Historical Biology
+    34:821-840
+- kind: literature
+  text: 'Salih, Khalafallah O.; Evans, David C.; Bussert, Robert; Klein, Nicole; Mueller, Johannes 2021. Brachiosuchus
+    kababishensis, a new long-snouted dyrosaurid (Mesoeucrocodylia) from the Late Cretaceous of north central Sudan.
+    Historical Biology 34(5): 821–840. doi:10.1080/08912963.2021.1947513'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brachiosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brachiosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brachiosuchus”. English Wikipedia, revision 1355469416.
+  url: https://en.wikipedia.org/w/index.php?title=Brachiosuchus&oldid=1355469416
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

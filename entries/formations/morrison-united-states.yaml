@@ -1,0 +1,84 @@
+id: morrison-united-states
+name: Morrison
+rank: formation
+group: ''
+country: United States
+regions: [Colorado, Oklahoma, Utah, Wyoming]
+location:
+  lat: 41.879
+  lng: -106.002
+  basis: median of 43 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment:
+- terrestrial indet.
+- '"channel"'
+- pond
+- crevasse splay
+- wet floodplain
+- coarse channel fill
+- fluvial-lacustrine indet.
+- delta plain
+- dry floodplain
+- '"floodplain"'
+lithology: [sandstone, mudstone, claystone, not reported]
+pbdb_collections:
+- '12816'
+- '21852'
+- '22648'
+- '22711'
+- '28366'
+- '28382'
+- '39253'
+- '39345'
+- '39346'
+- '39347'
+- '39370'
+- '39375'
+- '39426'
+- '39427'
+- '39429'
+- '39431'
+- '45975'
+- '46439'
+- '47065'
+- '48124'
+- '48155'
+- '48160'
+- '48161'
+- '48168'
+- '48172'
+- '49598'
+- '49636'
+- '53040'
+- '57913'
+- '58811'
+- '70030'
+- '71476'
+- '210654'
+- '220417'
+- '230769'
+- '230770'
+- '230771'
+- '230774'
+- '231533'
+- '231545'
+- '231548'
+- '231563'
+- '231564'
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Morrison (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Morrison
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,102 @@
+name: Paralligator
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Konjukova 1954
+type_species: Paralligator gradilifrons
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Mongolian and Chinese Cretaceous neosuchian, with P. gradilifrons reaching about 4 m in length.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Paralligator ancestralis
+  authority: Konzhukova 1954
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Paralligator gradilifrons
+  authority: Konzhukova 1954
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+- name: Paralligator major
+  authority: Efimov 1981
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: ''
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Cenomanian–Santonian
+  occurrences: 4
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Species come from the Cretaceous of Mongolia and China.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted says only that P. gradilifrons reached up to 4 m.
+images:
+- kind: fossil
+  file: Paralligator Skulls.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Paralligator_Skulls.png/960px-Paralligator_Skulls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Paralligator_Skulls.png
+  artist: A. H. Turner
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-02-25'
+  caption: Skull figures
+  width: 4038
+  height: 5064
+  review: unreviewed
+  local: img/gallery/Paralligator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+sources:
+- kind: literature
+  text: Turner, Alan H. 25 F. A Review of Shamosuchus and Paralligator (Crocodyliformes, Neosuchia) from the Cretaceous
+    of Asia. PLOS ONE 10(2). doi:10.1371/journal.pone.0118116
+- kind: literature
+  text: 'Kuzmin, Ivan T.; Sichinava, Ekaterina A.; Mazur, Evgeniia V.; Gombolevskiy, Victor A.; Sennikov, Andrey
+    G.; Skutschas, Pavel P. 28 D. Neurocranial anatomy of Paralligator (Neosuchia: Paralligatoridae) from the Upper
+    Cretaceous of Mongolia. Zoological Journal of the Linnean Society 203(1). doi:10.1093/zoolinnean/zlae177'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paralligator (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paralligator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paralligator”. English Wikipedia, revision 1337538767.
+  url: https://en.wikipedia.org/w/index.php?title=Paralligator&oldid=1337538767
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Holotype and type species not stated; deduced.
+  - 'Size: up to 4 m for P. gradilifrons; no genus range.'
+  - Add the original description (Konjukova 1954).
+  reviews: []

@@ -1,0 +1,154 @@
+name: Elosuchus
+rank: genus
+parent: pholidosauridae
+incertae_sedis: false
+placement_note: ''
+authority: de Lapparent de Broin 2002
+type_species: Elosuchus cherifiensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Broad-snouted crocodyliform of the Albian to Cenomanian of North Africa, with a large skull up to about
+  1.35 m.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 106.3
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Elosuchus broinae
+  authority: Meunier and Larsson 2016
+  first_ma: 106.3
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: ''
+- name: Elosuchus cherifiensis
+  authority: (Lavocat 1955)
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet, Errachidia]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 106.3]
+  id: kem-kem-group-morocco
+- formation: Gara Samani
+  group: ''
+  members: [Samani Vertebrate-Rich Sand]
+  country: Algeria
+  regions: [Adrar]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: gara-samani-algeria
+- formation: Gara Sbaa
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: gara-sbaa-morocco
+- formation: Echkar
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: echkar-niger
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Cranial, mandibular and dentary material is described on Commons; the largest premaxilla (2022) suggests
+    a skull up to 1.35 m long.
+  completeness: partial
+  exceptional: ''
+biology: A skull about 1.08 m long indicates a body length of up to 7.7 m.
+images:
+- kind: fossil
+  file: Elosuchus cherifiensis skull 1.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Elosuchus_cherifiensis_skull_1.JPG/960px-Elosuchus_cherifiensis_skull_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Elosuchus_cherifiensis_skull_1.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-06-09'
+  caption: Skull (E. cherifiensis)
+  width: 3691
+  height: 1084
+  review: unreviewed
+  local: img/gallery/Elosuchus_001.webp
+- kind: fossil
+  file: Elosuchus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Elosuchus_skull.jpg/960px-Elosuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Elosuchus_skull.jpg
+  artist: Ryan Somma from Occoquan, USA
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2014-09-14'
+  caption: Skull
+  width: 5184
+  height: 3456
+  review: unreviewed
+  local: img/gallery/Elosuchus_002.webp
+- kind: life
+  file: Elosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Elosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Elosuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-04'
+  caption: Life restoration
+  width: 800
+  height: 410
+  review: unreviewed
+  local: img/gallery/Elosuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/f9d7c657-5711-4d34-a653-aa2d13e8f51f/vector.svg
+  png: https://images.phylopic.org/images/f9d7c657-5711-4d34-a653-aa2d13e8f51f/raster/512x468.png
+  page: https://www.phylopic.org/images/f9d7c657-5711-4d34-a653-aa2d13e8f51f
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Elosuchus cherifiensis
+  matched: Elosuchus
+  genus_level: true
+  w: 512
+  h: 468
+sources:
+- kind: original
+  text: F. de Lapparent de Broin. 2002. Elosuchus, a new genus of crocodile from the Lower Cretaceous of the north
+    of Africa. Comptes Rendus Palevol 1:275-285
+- kind: literature
+  text: 'Louise M. V. Meunier 2016. Revision and phylogenetic affinities of ''''Elosuchus'''' (Crocodyliformes).
+    Zoological Journal of the Linnean Society 179(1): 169–200. doi:10.1111/zoj.12448'
+- kind: literature
+  text: 'Parra, Sara; Sellés, Albert 2023. New cranial remains of the broad-nosed crocodile ''''Elosuchus'''' (Pholidosauridae;
+    Mesoeucocodrylia) and its palaeoecological implications. Historical Biology 35(10): 1992–1998. doi:10.1080/08912963.2022.2130791'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elosuchus”. English Wikipedia, revision 1340444696.
+  url: https://en.wikipedia.org/w/index.php?title=Elosuchus&oldid=1340444696
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Holotype not stated; type species deduced (E. cherifiensis).
+  - 'Size: up to 7.7 m from skull length; no genus range.'
+  reviews: []

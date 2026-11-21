@@ -1,0 +1,74 @@
+name: Batrachomimus
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Montefeltro et al. 2013
+type_species: Batrachomimus pastosbonensis
+type_species_note: ''
+summary: Small neosuchian from the Late Jurassic Pastos Bons Formation of Brazil, with an unusually smooth bone
+  area on the snout.
+size:
+  length_m: [1, 1]
+  note: About 1 m estimated from skull length (Wikipedia).
+age:
+  first_ma: 161.5
+  last_ma: 149.2
+  early_interval: Oxfordian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Batrachomimus pastosbonensis
+  authority: Montefeltro et al. 2013
+  first_ma: 161.5
+  last_ma: 149.2
+  interval: Oxfordian–Kimmeridgian
+  reference: original description
+formations:
+- formation: Pastos Bons
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Maranhão]
+  interval: Oxfordian–Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 161.5]
+  id: pastos-bons-brazil
+fossil_material:
+  holotype: LPRP/USP-0617, a skull about 20 cm long preserving most of the skull and lower jaws, from the Pastos
+    Bons Formation.
+  material: Osteoderms and limb bones are also known.
+  completeness: partial
+  exceptional: ''
+biology: Its estimated body length is about 1 m.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+  w: 411
+  h: 600
+sources:
+- kind: original
+  text: 'Montefeltro, F. C.; Larsson, H. C. E.; de França, M. A. G.; Langer, M. C. 2013. A new neosuchian with Asian
+    affinities from the Jurassic of northeastern Brazil. Naturwissenschaften 100(9): 835–841. doi:10.1007/s00114-013-1083-9'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Batrachomimus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Batrachomimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Batrachomimus”. English Wikipedia, revision 1282991697.
+  url: https://en.wikipedia.org/w/index.php?title=Batrachomimus&oldid=1282991697
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Commons candidate image looked like a gharial and was not used; look for a better one.
+  reviews: []

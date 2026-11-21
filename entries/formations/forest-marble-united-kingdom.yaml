@@ -1,0 +1,32 @@
+id: forest-marble-united-kingdom
+name: Forest Marble
+rank: formation
+group: Great Oolite
+country: United Kingdom
+regions: [England]
+location:
+  lat: 51.867
+  lng: -1.267
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [mire/swamp]
+lithology: [marl]
+pbdb_collections: ['39075']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Forest Marble (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Forest+Marble
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

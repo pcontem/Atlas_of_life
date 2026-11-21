@@ -1,0 +1,109 @@
+name: Itasuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Price 1955
+type_species: Itasuchus jesuinoi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Semi-aquatic crocodyliform of about 2–2.5 m, placed here in Peirosauridae.
+size:
+  length_m: [2.0, 2.5]
+  note: Range given in the Wikipedia article.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Itasuchus jesuinoi
+  authority: Price 1955
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Serra da Galga
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [Minas Gerais]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: serra-da-galga-brazil
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+- formation: Presidente Prudente
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: presidente-prudente-brazil
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Not stated in the Wikipedia article consulted; check the original description.
+  completeness: fragmentary
+  exceptional: ''
+biology: Estimated at 2–2.5 m long and probably semi-aquatic.
+images:
+- kind: life
+  file: Itasuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Itasuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Itasuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-03'
+  caption: Life restoration
+  width: 767
+  height: 230
+  review: unreviewed
+  local: img/gallery/Itasuchus_001.webp
+- kind: fossil
+  file: Itasuchus mandibles.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Itasuchus_mandibles.png/960px-Itasuchus_mandibles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Itasuchus_mandibles.png
+  artist: Pinheiro, A.E.P.; Pereira, P.V.L.G.d.C.; de Souza, R.G.; Brum, A.S.; Lopes, R.T.; Machado, A.S.; Bergqvist,
+    L.P.; Simbras, F.M.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-08-01'
+  caption: Lower jaw figure
+  width: 1736
+  height: 931
+  review: unreviewed
+  local: img/gallery/Itasuchus_002.webp
+sources:
+- kind: original
+  text: 'Price, L. I. 1955. Novos crocodilídeos dos arenitos da Série Bauru. Cretáceo do Estado de Minas Gerais.
+    Anais da Academia Brasileira de Ciências 27: 487–498.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Itasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Itasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Itasuchus”. English Wikipedia, revision 1380532691.
+  url: https://en.wikipedia.org/w/index.php?title=Itasuchus&oldid=1380532691
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - PBDB places Itasuchus in Itasuchidae; the backbone placed it in Peirosauridae. Check which is current.
+  - Holotype not stated.
+  - Type species filled from general knowledge.
+  reviews: []

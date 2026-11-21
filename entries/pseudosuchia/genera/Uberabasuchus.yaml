@@ -1,0 +1,99 @@
+name: Uberabasuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Carvalho et al. 2004
+type_species: Uberabasuchus terrificus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Peirosaurid with a high skull and teeth of circular cross-section.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Uberabasuchus terrificus
+  authority: Carvalho et al. 2004
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Serra da Galga
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [Minas Gerais]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: serra-da-galga-brazil
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Not stated in the Wikipedia article consulted; check the original description.
+  completeness: partial
+  exceptional: ''
+biology: The skull is high and the teeth have a circular cross-section.
+images:
+- kind: life
+  file: Uberabasuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Uberabasuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Uberabasuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-06-06'
+  caption: Life restoration
+  width: 800
+  height: 280
+  review: unreviewed
+  local: img/gallery/Uberabasuchus_001.webp
+- kind: fossil
+  file: Uberabasuchus terrificus sp - fossil.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/95/Uberabasuchus_terrificus_sp_-_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Uberabasuchus_terrificus_sp_-_fossil.jpg
+  artist: Andre Borges Lopes
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2000-06-08'
+  caption: Skull in the rock
+  width: 1087
+  height: 724
+  review: unreviewed
+  local: img/gallery/Uberabasuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: I. d. S. Carvalho, L. C. B. Ribeiro, and L. d. S. Avilla. 2004. Uberabasuchus terrificus sp. nov., a new
+    Crocodylomorpha from the Bauru Basin (Upper Cretaceous), Brazil. Gondwana Research 7(4):975-1002
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Uberabasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Uberabasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Uberabasuchus”. English Wikipedia, revision 1376329582.
+  url: https://en.wikipedia.org/w/index.php?title=Uberabasuchus&oldid=1376329582
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - No citations available in the Wikipedia text.
+  - Type species filled from general knowledge.
+  - Add the original naming work and a holotype.
+  reviews: []
