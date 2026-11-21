@@ -304,3 +304,13 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - New tool `scripts/fetch/census.py` + `.github/workflows/census.yml` + `data/census/sources.yaml` (see CLAUDE.md §7). It only reports; entries are
   never changed automatically. Tested offline (`tests/test_census.py`, also run by `check.yml`); the live APIs can only be reached from GitHub Actions.
 - To be done per group: run the census before planning or finishing its volume. Pseudosuchia and Pterosauria first.
+
+## 2026-11-21 — Sauropodomorpha genus volume started
+- Owner request: create the Sauropodomorpha volume, using the new census (`data/raw/census/sauropodomorpha/census_2026-11-21.md`:
+  449 valid PBDB genera, 291 missing from the atlas, 39 of them named since 2023, 138 more waiting in the backbone, 41 form taxa).
+- `entries/sauropodomorpha/` created (`_volume.yaml`, root clade entry, empty `excluded.yaml`); size measure `length`, as for Pseudosuchia.
+  The root node leaves `backbone.json`; its sub-clades and the backbone genera stay in the outline until their entries are written.
+  No Sauropodomorpha clade entry existed in `entries/tree/clades`, so none moved.
+- Raw material is requested through `data/raw/harvest_request.json` (all PBDB genera of Sauropodomorpha; `harvest.yml` runs on the branch).
+  Ichno- and oogenera (flags I/F) are not entries. Genera that only Wikipedia lists (e.g. Musango, Yantaloong) and literature leads need a
+  check against PBDB before they are drafted.
