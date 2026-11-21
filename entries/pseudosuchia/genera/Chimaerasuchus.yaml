@@ -56,6 +56,7 @@ images:
   width: 1515
   height: 976
   review: unreviewed
+  local: img/gallery/Chimaerasuchus_001.webp
 - kind: life
   file: Chimaerasuchus paradoxus.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Chimaerasuchus_paradoxus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -68,6 +69,7 @@ images:
   width: 633
   height: 707
   review: unreviewed
+  local: img/gallery/Chimaerasuchus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/vector.svg
   png: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/raster/512x148.png
@@ -77,6 +79,8 @@ silhouette:
   depicts: Notosuchus terrestris
   matched: Ziphosuchia
   genus_level: false
+  w: 512
+  h: 148
 sources:
 - kind: original
   text: X.-C. Wu, H.-D. Sues, and A. Sun. 1995. A plant-eating crocodyliform reptile from the Cretaceous of China.

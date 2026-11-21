@@ -78,6 +78,7 @@ images:
   width: 1000
   height: 658
   review: unreviewed
+  local: img/gallery/Aetosauroides_001.webp
 - kind: fossil
   file: Aetosauroides skull.PNG
   url: https://upload.wikimedia.org/wikipedia/commons/7/7e/Aetosauroides_skull.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -91,6 +92,7 @@ images:
   width: 1567
   height: 2583
   review: unreviewed
+  local: img/gallery/Aetosauroides_002.webp
 silhouette:
   src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
   png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
@@ -100,6 +102,8 @@ silhouette:
   depicts: Stagonolepis robertsoni
   matched: Aetosauria
   genus_level: false
+  w: 512
+  h: 123
 sources:
 - kind: original
   text: R. M. Casamiquela. 1960. Notica preliminar sobre dos nuevos estagonolepoideos Argentinos. Ameghiniana 2:3-9

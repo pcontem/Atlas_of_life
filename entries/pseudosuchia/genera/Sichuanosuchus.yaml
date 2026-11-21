@@ -71,6 +71,7 @@ images:
   width: 800
   height: 232
   review: unreviewed
+  local: img/gallery/Sichuanosuchus_001.webp
 silhouette:
   src: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/vector.svg
   png: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/raster/512x96.png
@@ -80,6 +81,8 @@ silhouette:
   depicts: Sichuanosuchus huidongensis
   matched: Sichuanosuchus
   genus_level: true
+  w: 512
+  h: 96
 sources:
 - kind: database
   text: Paleobiology Database — taxon and occurrence records for Sichuanosuchus (downloaded 2026-11-17).

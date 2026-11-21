@@ -56,6 +56,7 @@ images:
   width: 2048
   height: 3421
   review: unreviewed
+  local: img/gallery/Hoplosuchus_001.webp
 - kind: fossil
   file: Hoplosuchus kayi.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/7/77/Hoplosuchus_kayi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -68,6 +69,7 @@ images:
   width: 720
   height: 455
   review: unreviewed
+  local: img/gallery/Hoplosuchus_002.webp
 - kind: skeletal
   file: Hoplosuchus skeletal.png
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Hoplosuchus_skeletal.png/960px-Hoplosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -80,6 +82,7 @@ images:
   width: 3108
   height: 3119
   review: unreviewed
+  local: img/gallery/Hoplosuchus_003.webp
 - kind: life
   file: Hoplosuchus.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Hoplosuchus.jpg/960px-Hoplosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -92,6 +95,7 @@ images:
   width: 2704
   height: 800
   review: unreviewed
+  local: img/gallery/Hoplosuchus_004.webp
 silhouette:
   src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
   png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
@@ -101,6 +105,8 @@ silhouette:
   depicts: Hoplosuchus kayi
   matched: Protosuchidae
   genus_level: false
+  w: 512
+  h: 144
 sources:
 - kind: original
   text: C. W. Gilmore. 1926. A new aetosaurian reptile from the Morrison Formation of Utah. Annals of Carnegie Museum
