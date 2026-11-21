@@ -294,3 +294,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 
 ## 2026-11-21 — Genus spotlight scrolls with the Index
 - Owner: the spotlight must move together with the list when scrolling, not stay fixed on screen. The sticky behaviour added earlier the same day is removed (the column is ordinary page content).
+
+## 2026-11-21 — Genus spotlight shows 25 cards
+- Owner: 25 cards instead of 3, still scrolling with the list and not stretched to the whole page height. Fewer when the filters match fewer genera.
