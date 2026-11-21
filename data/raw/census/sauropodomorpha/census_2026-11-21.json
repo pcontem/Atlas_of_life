@@ -7,13 +7,20 @@
   "wikipedia": {
    "categories": [
     "Sauropodomorpha",
-    "Prehistoric sauropods"
+    "Sauropods",
+    "Diplodocoids",
+    "Macronarians",
+    "Titanosaurs",
+    "Diplodocidae",
+    "Brachiosauridae",
+    "Mamenchisauridae"
    ],
    "depth": 4,
    "probe": [
     "Diplodocus",
     "Plateosaurus",
-    "Brachiosaurus"
+    "Brachiosaurus",
+    "Mamenchisaurus"
    ]
   },
   "literature": [
@@ -27,16 +34,16 @@
  "counts": {
   "pbdb_valid": 449,
   "pbdb_invalid": 66,
-  "wikipedia_pages": 204,
-  "wikipedia_genera": 164,
+  "wikipedia_pages": 242,
+  "wikipedia_genera": 188,
   "atlas_entries_in_group": 0,
-  "missing": 291,
+  "missing": 292,
   "form_taxa": 41,
   "missing_recent": 39,
   "waiting_in_backbone": 138,
   "atlas_unconfirmed": 0,
-  "leads": 1,
-  "leads_new": 1
+  "leads": 0,
+  "leads_new": 0
  },
  "missing": [
   {
@@ -1151,8 +1158,8 @@
    "year": 2017,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Soriatitan",
    "first_ma": 132.6,
    "last_ma": 121.4,
    "parent": "Brachiosauridae",
@@ -1193,8 +1200,8 @@
    "year": 2017,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Vouivria",
    "first_ma": 159,
    "last_ma": 154.8,
    "parent": "Brachiosauridae",
@@ -1347,8 +1354,8 @@
    "year": 2014,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Leinkupal",
    "first_ma": 139.1,
    "last_ma": 132.6,
    "parent": "Diplodocinae",
@@ -1767,8 +1774,8 @@
    "year": 2010,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Duriatitan",
    "first_ma": 154.8,
    "last_ma": 137.05,
    "parent": "Titanosauriformes",
@@ -2565,8 +2572,8 @@
    "year": 2003,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Lusotitan",
    "first_ma": 152.21,
    "last_ma": 145.06,
    "parent": "Brachiosauridae",
@@ -2747,8 +2754,8 @@
    "year": 1999,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Dinheirosaurus",
    "first_ma": 152.21,
    "last_ma": 149.2,
    "parent": "Diplodocinae",
@@ -2831,8 +2838,8 @@
    "year": 1998,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Sonorasaurus",
    "first_ma": 106.3,
    "last_ma": 93.9,
    "parent": "Brachiosauridae",
@@ -3909,13 +3916,27 @@
    "year": 1877,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Amphicoelias",
    "first_ma": 157.9,
    "last_ma": 143.1,
    "parent": "Diplodocoidea",
    "family": null,
    "pbdb_invalid": null
+  },
+  {
+   "name": "Atlantosaurus",
+   "authority": "",
+   "year": 1877,
+   "recent": false,
+   "in_pbdb": false,
+   "in_wikipedia": true,
+   "wikipedia": "Atlantosaurus",
+   "first_ma": null,
+   "last_ma": null,
+   "parent": null,
+   "family": null,
+   "pbdb_invalid": "nomen dubium"
   },
   {
    "name": "Caulodon",
@@ -4063,8 +4084,8 @@
    "year": 1850,
    "recent": false,
    "in_pbdb": true,
-   "in_wikipedia": false,
-   "wikipedia": null,
+   "in_wikipedia": true,
+   "wikipedia": "Pelorosaurus",
    "first_ma": 145.06,
    "last_ma": 110.1,
    "parent": "Titanosauriformes",
@@ -4504,28 +4525,21 @@
  ],
  "atlas_unconfirmed": [],
  "atlas_pbdb_invalid": [],
- "literature_leads": [
-  {
-   "name": "Diuqin",
-   "known": false,
-   "in_pbdb": false,
-   "in_wikipedia": false,
-   "title": "Diuqin lechiguanae gen. et sp. nov., a new unenlagiine (Theropoda: Paraves) from the Bajo de la Carpa Formation (Neuquén Group, Upper Cretaceous) of Neuquén Province, Patagonia, Argentina",
-   "doi": "10.1186/s12862-024-02247-w",
-   "year": 2024,
-   "journal": "BMC Ecol Evol",
-   "via": "europepmc",
-   "term": "sauropod"
-  }
- ],
+ "literature_leads": [],
  "wikipedia_missing_categories": [
-  "Category:Prehistoric sauropods"
+  "Category:Sauropods",
+  "Category:Diplodocoids",
+  "Category:Macronarians",
+  "Category:Titanosaurs"
  ],
  "wikipedia_category_suggestions": {
-  "Category:Prehistoric sauropods": [
+  "Category:Sauropods": [
    "Category:Mokele-mbembe",
    "Category:Films about Brontosaurus"
-  ]
+  ],
+  "Category:Diplodocoids": [],
+  "Category:Macronarians": [],
+  "Category:Titanosaurs": []
  },
  "wikipedia_layout": {
   "Category:Sauropodomorpha": {
@@ -4540,8 +4554,40 @@
     "Category:Sauropodomorph stubs"
    ]
   },
-  "Category:Prehistoric sauropods": {
+  "Category:Sauropods": {
    "pages": 0,
+   "subcats": [],
+   "skipped": []
+  },
+  "Category:Diplodocoids": {
+   "pages": 0,
+   "subcats": [],
+   "skipped": []
+  },
+  "Category:Macronarians": {
+   "pages": 0,
+   "subcats": [],
+   "skipped": []
+  },
+  "Category:Titanosaurs": {
+   "pages": 0,
+   "subcats": [],
+   "skipped": []
+  },
+  "Category:Diplodocidae": {
+   "pages": 17,
+   "subcats": [
+    "Category:Films about Brontosaurus"
+   ],
+   "skipped": []
+  },
+  "Category:Brachiosauridae": {
+   "pages": 12,
+   "subcats": [],
+   "skipped": []
+  },
+  "Category:Mamenchisauridae": {
+   "pages": 22,
    "subcats": [],
    "skipped": []
   },
@@ -4565,6 +4611,11 @@
   },
   "Category:Unaysauridae": {
    "pages": 5,
+   "subcats": [],
+   "skipped": []
+  },
+  "Category:Films about Brontosaurus": {
+   "pages": 9,
    "subcats": [],
    "skipped": []
   }
@@ -4594,6 +4645,16 @@
    "Category:Kimmeridgian dinosaurs",
    "Category:Taxa named by Elmer S. Riggs",
    "Category:Tithonian dinosaurs"
+  ],
+  "Mamenchisaurus": [
+   "Category:Dinosaur genera",
+   "Category:Dinosaurs of China",
+   "Category:Early Cretaceous dinosaurs",
+   "Category:Fossil taxa described in 1954",
+   "Category:Late Jurassic dinosaurs",
+   "Category:Mamenchisauridae",
+   "Category:Shaximiao Formation",
+   "Category:Taxa named by Yang Zhongjian"
   ]
  },
  "wikipedia_truncated": false
