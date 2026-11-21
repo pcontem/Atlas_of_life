@@ -5,16 +5,31 @@ group: Stormberg
 country: South Africa
 regions: [Eastern Cape, Free State]
 location:
-  lat: -28.886
-  lng: 28.227
-  basis: median of 10 PBDB collections that yielded the atlas genera
+  lat: -29.05
+  lng: 27.6
+  basis: median of 15 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 201.4
+  first_ma: 227.3
   last_ma: 192.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet.]
-lithology: [sandstone, not reported, mudstone, '"siliciclastic"']
-pbdb_collections: ['13359', '36670', '59363', '98599', '98603', '98608', '190130', '194004', '194005', '194006']
+lithology: [not reported, sandstone, mudstone, '"siliciclastic"']
+pbdb_collections:
+- '13359'
+- '36610'
+- '36670'
+- '59363'
+- '98599'
+- '98603'
+- '98608'
+- '107152'
+- '107158'
+- '107168'
+- '107171'
+- '190130'
+- '194004'
+- '194005'
+- '194006'
 includes: []
 summary: ''
 paleoenvironment: ''

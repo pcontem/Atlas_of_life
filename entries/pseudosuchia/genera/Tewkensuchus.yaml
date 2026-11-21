@@ -1,0 +1,90 @@
+name: Tewkensuchus
+rank: genus
+parent: sebecosuchia
+incertae_sedis: true
+placement_note: Described as a large sebecoid notosuchian; PBDB lists Sebecoidea; placed in Sebecosuchia.
+authority: Bravo et al. 2025
+type_species: Tewkensuchus salamanquensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Tewkensuchus is a large sebecoid notosuchian from the Paleocene Salamanca Formation of Argentina, described
+  in 2025 from fragmentary skull remains.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 66
+  last_ma: 61.66
+  early_interval: Danian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tewkensuchus salamanquensis
+  authority: Bravo et al. 2025
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: original description
+formations:
+- formation: Salamanca
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: salamanca-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Fragmentary skull remains from the Salamanca Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Tewkensuchus palpebral articulation.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Tewkensuchus_palpebral_articulation.jpg/960px-Tewkensuchus_palpebral_articulation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tewkensuchus_palpebral_articulation.jpg
+  artist: Bravo, Gonzalo Gabriel; Pol, Diego; Leardi, Juan Martín; Krause, Javier Marcelo; Nicholl, Cecily S. C.;
+    Rougier, Guillermo; Mannion, Philip D.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-26'
+  caption: Tewkensuchus palpebral articulation.
+  width: 1654
+  height: 1427
+  review: unreviewed
+- kind: life
+  file: Tewkensuchus rec wikipedia.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tewkensuchus_rec_wikipedia.png/960px-Tewkensuchus_rec_wikipedia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tewkensuchus_rec_wikipedia.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-17'
+  caption: Tewkensuchus restoration.
+  width: 2090
+  height: 2582
+  review: unreviewed
+sources:
+- kind: original
+  text: 'Bravo, Gonzalo Gabriel; Pol, Diego; Leardi, Juan Martín; Krause, Javier Marcelo; Nicholl, Cecily S. C.;
+    Rougier, Guillermo; Mannion, Philip D. 2025. A new notosuchian crocodyliform from the Early Palaeocene of Patagonia
+    and the survival of a large-bodied terrestrial lineage across the K–Pg mass extinction. Proceedings of the Royal
+    Society B: Biological Sciences 292(2043). doi:10.1098/rspb.2024.1980'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tewkensuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tewkensuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tewkensuchus”. English Wikipedia, revision 1374280026.
+  url: https://en.wikipedia.org/w/index.php?title=Tewkensuchus&oldid=1374280026
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the images; image 5 is labelled as a life image of the holotype and was left out.
+  - Very recent genus (2025); add holotype and size from the naming paper.
+  reviews: []

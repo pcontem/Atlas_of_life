@@ -1,0 +1,85 @@
+name: Andrianavoay
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2020
+type_species: Andrianavoay baroni
+type_species_note: PBDB's only species, a combination of Steneosaurus baroni (Newton 1893); check.
+summary: Andrianavoay is a teleosauroid from the Jurassic of Madagascar, originally described as a species of another
+  genus.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Andrianavoay baroni
+  authority: (Newton 1893)
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Oolite
+  group: ''
+  members: []
+  country: Madagascar
+  regions: [Sofia]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: oolite-madagascar
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Oolite of Madagascar.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Andrianavoay.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Andrianavoay.png/960px-Andrianavoay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Andrianavoay.png
+  artist: Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Andrianavoay fossil.
+  width: 1868
+  height: 1634
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Andrianavoay (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Andrianavoay
+- kind: encyclopedia
+  text: Wikipedia contributors. “Andrianavoay”. English Wikipedia, revision 1331963737.
+  url: https://en.wikipedia.org/w/index.php?title=Andrianavoay&oldid=1331963737
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Age conflict: English Wikipedia says Bathonian while PBDB gives Oxfordian; the atlas age follows PBDB; resolve
+    (M5).'
+  - Check the image.
+  reviews: []

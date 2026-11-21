@@ -7,15 +7,32 @@ regions: [Neuquén, Río Negro]
 location:
   lat: -38.941
   lng: -68.058
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 85.7
   last_ma: 83.6
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., fluvial-deltaic indet., levee]
+environment:
+- terrestrial indet.
+- fluvial indet.
+- levee
+- fluvial-lacustrine indet.
+- fluvial-deltaic indet.
 lithology: [sandstone, not reported, siltstone, mudstone]
-pbdb_collections: ['47796', '47797', '47808', '84309', '112698', '114543', '114545', '114763', '114765', '118195',
-  '147178', '197477']
+pbdb_collections:
+- '47796'
+- '47797'
+- '47808'
+- '56157'
+- '84309'
+- '112698'
+- '114543'
+- '114545'
+- '114763'
+- '114765'
+- '118195'
+- '147178'
+- '197477'
 includes: []
 summary: ''
 paleoenvironment: ''

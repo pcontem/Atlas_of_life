@@ -1,0 +1,87 @@
+name: Almadasuchus
+rank: genus
+parent: solidocrania
+incertae_sedis: false
+placement_note: ''
+authority: Pol et al. 2013
+type_species: Almadasuchus figarii
+type_species_note: From the Wikipedia taxobox.
+summary: Almadasuchus is a crocodylomorph from the early Late Jurassic Cañadón Calcáreo Formation of Patagonia,
+  Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 161.5
+  last_ma: 159
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Almadasuchus figarii
+  authority: Pol et al. 2013
+  first_ma: 161.5
+  last_ma: 159
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Cañadón Calcáreo
+  group: Sierra de Olte
+  members: [Puesto Almada]
+  country: Argentina
+  regions: [Chubut]
+  interval: Early Oxfordian
+  occurrences: 1
+  ma: [159.0, 161.5]
+  id: canadon-calcareo-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Puesto Almada Member.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Almadasuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Almadasuchus_skeletal.png/960px-Almadasuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Almadasuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-07'
+  caption: Skeletal reconstruction of Almadasuchus.
+  width: 6296
+  height: 3745
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2f9a790f-996f-482e-8f9c-a4bfbdde18ea/vector.svg
+  png: https://images.phylopic.org/images/2f9a790f-996f-482e-8f9c-a4bfbdde18ea/raster/512x156.png
+  page: https://www.phylopic.org/images/2f9a790f-996f-482e-8f9c-a4bfbdde18ea
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Almadasuchus figarii
+  matched: Solidocrania
+  genus_level: false
+sources:
+- kind: original
+  text: 'Pol, D.; Rauhut, O. W. M.; Lecuona, A.; Leardi, J. M.; Xu, X.; Clark, J. M. 2013. A new fossil from the
+    Jurassic of Patagonia reveals the early basicranial evolution and the origins of Crocodyliformes. Biological
+    Reviews 88(4): 862–872. doi:10.1111/brv.12030'
+- kind: literature
+  text: 'Leardi, Juan Martín; Pol, Diego; Clark, James Matthew 2020. Braincase anatomy of Almadasuchus figarii (Archosauria,
+    Crocodylomorpha) and a review of the cranial pneumaticity in the origins of Crocodylomorpha. Journal of Anatomy
+    237(1): 48–73. doi:10.1111/joa.13171'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Almadasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Almadasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Almadasuchus”. English Wikipedia, revision 1344980127.
+  url: https://en.wikipedia.org/w/index.php?title=Almadasuchus&oldid=1344980127
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the reconstruction.]
+  reviews: []

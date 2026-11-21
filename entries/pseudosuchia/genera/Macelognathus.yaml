@@ -1,0 +1,96 @@
+name: Macelognathus
+rank: genus
+parent: solidocrania
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1884
+type_species: Macelognathus vagans
+type_species_note: From the Wikipedia taxobox.
+summary: Macelognathus is a sphenosuchian crocodylomorph from the Late Jurassic Morrison Formation of Wyoming, first
+  thought to be a turtle and then a dinosaur.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Macelognathus vagans
+  authority: Marsh 1884
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Talking Rocks]
+  country: United States
+  regions: [Colorado, Wyoming]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 3
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Morrison Formation (3 PBDB occurrences).
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Macelognathus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/48/Macelognathus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Macelognathus.jpg
+  artist: Marsh
+  license: Public domain
+  license_url: ''
+  date: '1884'
+  caption: Macelognathus fossil.
+  width: 405
+  height: 262
+  review: unreviewed
+- kind: skeletal
+  file: Macelognathus vagans.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Macelognathus_vagans.jpg/960px-Macelognathus_vagans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Macelognathus_vagans.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011'
+  caption: Macelognathus vagans reconstruction.
+  width: 5089
+  height: 1795
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2f9a790f-996f-482e-8f9c-a4bfbdde18ea/vector.svg
+  png: https://images.phylopic.org/images/2f9a790f-996f-482e-8f9c-a4bfbdde18ea/raster/512x156.png
+  page: https://www.phylopic.org/images/2f9a790f-996f-482e-8f9c-a4bfbdde18ea
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Almadasuchus figarii
+  matched: Solidocrania
+  genus_level: false
+sources:
+- kind: original
+  text: O. C. Marsh. 1884. A new order of extinct Jurassic reptiles (Macelognatha). The American Journal of Science
+    and Arts, series 3 27(160):341
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Macelognathus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Macelognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Macelognathus”. English Wikipedia, revision 1374988293.
+  url: https://en.wikipedia.org/w/index.php?title=Macelognathus&oldid=1374988293
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the images.
+  - No citations in the Wikipedia revision; add the original (Marsh 1884).
+  reviews: []

@@ -1,0 +1,71 @@
+name: Coronelsuchus
+rank: genus
+parent: sphagesauridae
+incertae_sedis: true
+placement_note: PBDB places it in Sphagesauria; placed in Sphagesauridae, the nearest atlas clade.
+authority: Pinheiro et al. 2021
+type_species: Coronelsuchus civali
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Coronelsuchus is a sphagesaurian crocodylomorph from the Late Cretaceous Araçatuba Formation of Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 93.9
+  last_ma: 85.7
+  early_interval: Turonian
+  late_interval: Coniacian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Coronelsuchus civali
+  authority: Pinheiro et al. 2021
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: original description
+formations:
+- formation: Araçatuba
+  group: ''
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Turonian–Early Coniacian
+  occurrences: 1
+  ma: [85.7, 93.9]
+  id: aracatuba-brazil
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Araçatuba Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/vector.svg
+  png: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/raster/512x148.png
+  page: https://www.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084
+  attribution: Nobu Tamura (head modified by FunkMonk)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Notosuchus terrestris
+  matched: Sphagesauria
+  genus_level: false
+sources:
+- kind: original
+  text: Pinheiro, André Eduardo P.; Souza, Lucy G. De; Bandeira, Kamila L. N.; Brum, Arthur S.; Pereira, Paulo Victor
+    Luiz G. C.; Castro, Luís Otávio R. De; Ramos, Renato R. C.; Simbras, Felipe M. 2021. The first notosuchian crocodyliform
+    from the Araçatuba Formation (Bauru Group, Paraná Basin), and diversification of sphagesaurians. Anais da Academia
+    Brasileira de Ciências 93(suppl 2). doi:10.1590/0001-3765202120201591
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coronelsuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coronelsuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coronelsuchus”. English Wikipedia, revision 1313760357.
+  url: https://en.wikipedia.org/w/index.php?title=Coronelsuchus&oldid=1313760357
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
