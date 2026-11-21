@@ -2,7 +2,8 @@
 # (entries/<group>) or a clade that may become a volume. Edit by hand.
 #   pbdb        base taxon of the PBDB query (all descendants, rank genus)
 #   wikipedia   categories (without "Category:") whose pages are read, sub-categories followed to `depth`;
-#               a category that does not exist is reported in the census, so wrong guesses show up on the first run
+#               a category that does not exist is reported in the census with existing ones found by search; Wikipedia names
+#               them "Prehistoric <group> genera" / "Prehistoric <group>s" (Pterosaur genera is an exception)
 #   literature  words searched with "new genus" in Crossref and Europe PMC
 pterosauria:
   pbdb: Pterosauria
@@ -10,17 +11,17 @@ pterosauria:
   literature: [pterosaur, Pterosauria, azhdarchid, pterodactyloid]
 pseudosuchia:
   pbdb: Pseudosuchia
-  wikipedia: { categories: [Prehistoric pseudosuchians, Prehistoric crocodylomorphs, Crocodylomorph genera, Aetosaurs, Rauisuchians], depth: 3 }
+  wikipedia: { categories: [Prehistoric pseudosuchian genera, Prehistoric crocodylomorphs], depth: 3 }
   literature: [pseudosuchian, crocodylomorph, crocodyliform, crocodile, alligatoroid, notosuchian, thalattosuchian, aetosaur, rauisuchian]
 sauropodomorpha:
   pbdb: Sauropodomorpha
-  wikipedia: { categories: [Sauropod genera, Prosauropods, Sauropodomorphs], depth: 3 }
+  wikipedia: { categories: [Prehistoric sauropodomorph genera, Prehistoric sauropodomorphs, Prehistoric sauropods], depth: 3 }
   literature: [sauropod, sauropodomorph, titanosaur, diplodocid, prosauropod]
 ornithischia:
   pbdb: Ornithischia
-  wikipedia: { categories: [Ornithischian genera, Ornithischians], depth: 3 }
+  wikipedia: { categories: [Prehistoric ornithischian genera, Prehistoric ornithischians], depth: 3 }
   literature: [ornithischian, ceratopsian, hadrosaurid, ankylosaur, stegosaur, ornithopod, pachycephalosaur]
 theropoda:
   pbdb: Theropoda
-  wikipedia: { categories: [Theropod genera, Theropods], depth: 3 }
+  wikipedia: { categories: [Prehistoric theropod genera, Prehistoric theropods], depth: 3 }
   literature: [theropod, tyrannosaurid, dromaeosaurid, oviraptorosaur, spinosaurid, abelisaurid, troodontid, megalosaurid]
