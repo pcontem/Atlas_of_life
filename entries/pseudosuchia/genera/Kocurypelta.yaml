@@ -1,0 +1,70 @@
+name: Kocurypelta
+rank: genus
+parent: typothoracinae
+incertae_sedis: true
+placement_note: A paratypothoracin aetosaur (English Wikipedia); the atlas parent is Typothoracinae.
+authority: Czepiński et al. 2021
+type_species: Kocurypelta silvestris
+type_species_note: Stated as the only species in English Wikipedia.
+summary: Kocurypelta is a paratypothoracin aetosaur from the Norian Lissauer Breccia of southern Poland.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kocurypelta silvestris
+  authority: Czepiński et al. 2021
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Lissauer Breccia
+  group: ''
+  members: []
+  country: Poland
+  regions: [Opole]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: lissauer-breccia-poland
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Lissauer Breccia.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/vector.svg
+  png: https://images.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f/raster/512x123.png
+  page: https://www.phylopic.org/images/e779b623-ff1c-4777-8ba8-83f2df6bdb9f
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stagonolepis robertsoni
+  matched: Stagonolepididae
+  genus_level: false
+sources:
+- kind: original
+  text: Czepiński, Ł.; Dróżdż, D.; Szczygielski, T.; Tałanda, M.; Pawlak, W.; Lewczuk, A.; Rytel, A.; Sulej, T.
+    2021. An Upper Triassic Terrestrial Vertebrate Assemblage from the Forgotten Kocury Locality (Poland) with a
+    New Aetosaur Taxon. Journal of Vertebrate Paleontology 41(1). doi:10.1080/02724634.2021.1898977
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kocurypelta (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kocurypelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kocurypelta”. English Wikipedia, revision 1311724986.
+  url: https://en.wikipedia.org/w/index.php?title=Kocurypelta&oldid=1311724986
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

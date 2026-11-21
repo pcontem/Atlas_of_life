@@ -5,9 +5,9 @@ group: Chinle, Dockum
 country: United States
 regions: [Texas]
 location:
-  lat: 33.567
+  lat: 33.574
   lng: -101.169
-  basis: median of 13 PBDB collections that yielded the atlas genera
+  basis: median of 14 PBDB collections that yielded the atlas genera
 age:
   first_ma: 237.0
   last_ma: 205.7
@@ -15,13 +15,26 @@ age:
 environment:
 - terrestrial indet.
 - channel lag
-- fine channel fill
-- lacustrine delta plain
-- crevasse splay
 - fluvial indet.
-lithology: [not reported, claystone, siltstone, sandstone]
-pbdb_collections: ['13266', '48424', '71976', '71977', '71978', '71982', '79374', '84271', '85485', '94493', '98596',
-  '105769', '135662']
+- crevasse splay
+- lacustrine delta plain
+- fine channel fill
+lithology: [not reported, claystone, conglomerate, siltstone]
+pbdb_collections:
+- '13266'
+- '48424'
+- '71976'
+- '71977'
+- '71978'
+- '71982'
+- '79374'
+- '84271'
+- '85485'
+- '94493'
+- '98596'
+- '105766'
+- '105769'
+- '135662'
 includes: []
 summary: ''
 paleoenvironment: ''

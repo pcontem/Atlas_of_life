@@ -5,16 +5,21 @@ group: Chinle
 country: United States
 regions: [New Mexico]
 location:
-  lat: 35.067
-  lng: -103.633
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 34.978
+  lng: -103.459
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 227.3
   last_ma: 205.7
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lacustrine - small]
-lithology: [conglomerate]
-pbdb_collections: ['89969']
+environment:
+- crevasse splay
+- '"floodplain"'
+- channel lag
+- terrestrial indet.
+- lacustrine - small
+lithology: [conglomerate, siltstone]
+pbdb_collections: ['83737', '83738', '84272', '89969', '93672']
 includes: []
 summary: ''
 paleoenvironment: ''

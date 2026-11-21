@@ -1,0 +1,75 @@
+name: Eoneustes
+rank: genus
+parent: thalattosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Young et al. 2010
+type_species: Eoneustes gaudryi
+type_species_note: PBDB's only species, originally Metriorhynchus gaudryi (Collot 1905).
+summary: Eoneustes is a metriorhynchoid crocodyliform from the Middle Jurassic of France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eoneustes gaudryi
+  authority: (Collot 1905)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: Dalle nacrée
+  group: ''
+  members: []
+  country: France
+  regions: [Bourgogne]
+  interval: Early Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: dalle-nacree-france
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Dalle nacrée.
+  completeness: fragmentary
+  exceptional: ''
+biology: Described as a carnivore (English Wikipedia).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/vector.svg
+  png: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/raster/512x70.png
+  page: https://www.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5
+  attribution: LiterallyMiguel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Magyarosuchus fitosi
+  matched: Thalattosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mark T. Young 2010. The evolution of Metriorhynchoidea (Mesoeucrocodylia, Thalattosuchia): an integrated
+    approach using geometrics morphometrics, analysis of disparity and biomechanics. Zoological Journal of the Linnean
+    Society 158(4): 801–859. doi:10.1111/j.1096-3642.2009.00571.x'
+- kind: literature
+  text: 'Mark T. Young 2009. What is ''''Geosaurus''''? Redescription of ''''Geosaurus giganteus'''' (Thalattosuchia:
+    Metriorhynchidae) from the Upper Jurassic of Bayern, Germany. Zoological Journal of the Linnean Society 157(3):
+    551–585. doi:10.1111/j.1096-3642.2009.00536.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoneustes (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoneustes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eoneustes”. English Wikipedia, revision 1287354287.
+  url: https://en.wikipedia.org/w/index.php?title=Eoneustes&oldid=1287354287
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Age conflict: Wikipedia says late Bajocian to early Bathonian; PBDB gives Bathonian; atlas age follows PBDB.'
+  reviews: []

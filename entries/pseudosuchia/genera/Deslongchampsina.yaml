@@ -1,0 +1,94 @@
+name: Deslongchampsina
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2019
+type_species: Deslongchampsina larteti
+type_species_note: PBDB's only species, originally Steneosaurus larteti (Eudes-Deslongchamps 1869).
+summary: Deslongchampsina is a machimosaurid crocodyliform from the Bathonian of England and France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Deslongchampsina larteti
+  authority: (Eudes-Deslongchamps 1869)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: Comblanchien
+  group: ''
+  members: []
+  country: France
+  regions: [Bourgogne]
+  interval: Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: comblanchien-france
+- formation: Pierre de Caen
+  group: Calcaires de Caen
+  members: []
+  country: France
+  regions: [Normandy]
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: pierre-de-caen-france
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Comblanchien and Pierre de Caen.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Deslongchampsina.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Deslongchampsina.png/960px-Deslongchampsina.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deslongchampsina.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Deslongchampsina fossil.
+  width: 2428
+  height: 1307
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Michela M. Johnson 2019. Re-description of two contemporaneous mesorostrine teleosauroids (Crocodylomorpha:
+    Thalattosuchia) from the Bathonian of England and insights into the early evolution of Machimosaurini. Zoological
+    Journal of the Linnean Society Advanced online publication(2): 449–482. doi:10.1093/zoolinnean/zlz037'
+- kind: literature
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Deslongchampsina (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Deslongchampsina
+- kind: encyclopedia
+  text: Wikipedia contributors. “Deslongchampsina”. English Wikipedia, revision 1372391112.
+  url: https://en.wikipedia.org/w/index.php?title=Deslongchampsina&oldid=1372391112
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

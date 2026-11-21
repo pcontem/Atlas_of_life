@@ -1,0 +1,117 @@
+name: Seldsienean
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2020
+type_species: Seldsienean megistorhynchus
+type_species_note: PBDB's only species, originally Steneosaurus megistorhynchus (Saint-Hilaire 1866).
+summary: Seldsienean is a teleosauroid thalattosuchian from the Middle Jurassic of England and France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Seldsienean megistorhynchus
+  authority: (Saint-Hilaire 1866)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: Pierre de Caen
+  group: Calcaires de Caen
+  members: []
+  country: France
+  regions: [Basse-Normandie, Normandy]
+  interval: Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: pierre-de-caen-france
+- formation: Unnamed unit
+  group: Calcaires de Caen
+  members: []
+  country: France
+  regions: [Normandie]
+  interval: Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: calcaires-de-caen-group-france
+- formation: Great Oolite
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: great-oolite-france
+- formation: Forest Marble
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: forest-marble-united-kingdom
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Pierre de Caen, Great Oolite and Forest Marble.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Seldsienean.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Seldsienean.png/960px-Seldsienean.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Seldsienean.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Seldsienean fossil.
+  width: 2428
+  height: 1152
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: literature
+  text: 'Young, Mark T.; Wilberg, Eric W.; Johnson, Michela M.; Herrera, Yanina; De Andrade, Marco Brandalise; Brignon,
+    Arnaud; Sachs, Sven; Abel, Pascal; Foffa, Davide; Fernández, Marta S.; Vignaud, Patrick; Cowgill, Thomas; Brusatte,
+    Stephen L. 2024. The history, systematics, and nomenclature of Thalattosuchia (Archosauria: Crocodylomorpha).
+    Zoological Journal of the Linnean Society 200(2): 547–617. doi:10.1093/zoolinnean/zlad165'
+- kind: literature
+  text: Johnson, M. M.; Foffa, D.; Young, M. T.; Brusatte, S. L. 2022. The ecological diversification and evolution
+    of Teleosauroidea (Crocodylomorpha, Thalattosuchia), with insights into their mandibular biomechanics. Ecology
+    and Evolution 12(11). doi:10.1002/ece3.9484
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Seldsienean (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Seldsienean
+- kind: encyclopedia
+  text: Wikipedia contributors. “Seldsienean”. English Wikipedia, revision 1372391361.
+  url: https://en.wikipedia.org/w/index.php?title=Seldsienean&oldid=1372391361
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []

@@ -1,0 +1,72 @@
+name: Haematosaurus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Sauvage 1874
+type_species: Haematosaurus lanceolatus
+type_species_note: From the Wikipedia taxobox. (as Plesiosaurus lanceolatus).
+summary: Haematosaurus is a teleosaurid thalattosuchian from the Jurassic of Boulogne-sur-Mer, France, first thought
+  to be a plesiosaur.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Haematosaurus lanceolatus
+  authority: Sauvage 1874
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: unnamed-chatillon-france
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from an unnamed unit in France.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: H.-E. Sauvage. 1874. Mémoire sur les dinosauriens et les crocodiliens des terrains jurassiques de Boulogne-sur-Mer
+    [Memoir on the dinosaurs and crocodilians of the Jurassic deposits of Boulogne-sur-mer]. Mémoires de la Société
+    Géologique de France, série 2 10(2):1-57
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Haematosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Haematosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Haematosaurus”. English Wikipedia, revision 1272067991.
+  url: https://en.wikipedia.org/w/index.php?title=Haematosaurus&oldid=1272067991
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No citations in the Wikipedia revision; add the original (Sauvage 1874).
+  reviews: []

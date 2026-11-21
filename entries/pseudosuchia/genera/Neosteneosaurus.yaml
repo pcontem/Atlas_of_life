@@ -1,0 +1,141 @@
+name: Neosteneosaurus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2020
+type_species: Neosteneosaurus edwardsi
+type_species_note: The type species named N. edwardsi (English Wikipedia); originally Steneosaurus edwardsi.
+summary: Neosteneosaurus is a machimosaurid teleosauroid from the Middle Jurassic Oxford Clay of the UK and the
+  Marnes de Dives of France.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 165.3
+  last_ma: 143.1
+  early_interval: Callovian
+  late_interval: Tithonian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Neosteneosaurus edwardsi
+  authority: (Eudes-Deslongchamps 1867)
+  first_ma: 165.3
+  last_ma: 143.1
+  interval: Callovian–Tithonian
+  reference: original description
+formations:
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 2
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+- formation: Oxford Clay
+  group: Ancholme
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais]
+  interval: Late Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Vienne]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: unnamed-les-lourdines-france
+- formation: Marnes de Dives
+  group: ''
+  members: []
+  country: France
+  regions: [Calvados]
+  interval: Late Callovian–Early Oxfordian
+  occurrences: 1
+  ma: [159.0, 165.3]
+  id: marnes-de-dives-france
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens from the Oxford Clay and French units (5 PBDB occurrences).
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Neosteneosaurus front.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Neosteneosaurus_front.jpg/960px-Neosteneosaurus_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neosteneosaurus_front.jpg
+  artist: DamnationDaniel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-23'
+  caption: Neosteneosaurus fossil, front.
+  width: 3000
+  height: 4000
+  review: unreviewed
+- kind: fossil
+  file: Neosteneosaurus side.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Neosteneosaurus_side.jpg/960px-Neosteneosaurus_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neosteneosaurus_side.jpg
+  artist: DamnationDaniel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-23'
+  caption: Neosteneosaurus fossil, side.
+  width: 3500
+  height: 2072
+  review: unreviewed
+- kind: fossil
+  file: Neosteneosaurus closeup.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Neosteneosaurus_closeup.jpg/960px-Neosteneosaurus_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neosteneosaurus_closeup.jpg
+  artist: DamnationDaniel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-23'
+  caption: Neosteneosaurus fossil, close-up.
+  width: 4000
+  height: 3000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: literature
+  text: Johnson, M. M.; Foffa, D.; Young, M. T.; Brusatte, S. L. 2022. The ecological diversification and evolution
+    of Teleosauroidea (Crocodylomorpha, Thalattosuchia), with insights into their mandibular biomechanics. Ecology
+    and Evolution 12(11). doi:10.1002/ece3.9484
+- kind: literature
+  text: 'Michela M Johnson, Mark Thomas Young, Lorna Steel, Yves Lepage July. Steneosaurus edwardsi (Thalattosuchia:
+    Teleosauridae), the largest known crocodylomorph of the Middle Jurassic. Biological Journal of the Linnean Society
+    115(4): 911–918. doi:10.1111/bij.12525'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neosteneosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neosteneosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neosteneosaurus”. English Wikipedia, revision 1372392045.
+  url: https://en.wikipedia.org/w/index.php?title=Neosteneosaurus&oldid=1372392045
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the images.]
+  reviews: []
