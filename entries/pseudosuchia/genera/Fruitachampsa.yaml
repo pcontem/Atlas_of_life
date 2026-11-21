@@ -1,0 +1,80 @@
+name: Fruitachampsa
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: PBDB and English Wikipedia place it in the Shartegosuchidae; the atlas has no clade for that family
+  yet, so it sits in Crocodyliformes.
+authority: Clark 2011
+type_species: Fruitachampsa callisoni
+type_species_note: Monotypic genus; the only species is the type.
+summary: Fruitachampsa is a small shartegosuchid crocodyliform from the Late Jurassic Morrison Formation of Fruita,
+  Colorado.
+size:
+  length_m: null
+  note: Less than 1 m long, with a skull up to about 9 cm (English Wikipedia, rev. 1282989540); no precise estimate
+    is given.
+age:
+  first_ma: 152.21
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Fruitachampsa callisoni
+  authority: Clark 2011
+  first_ma: 152.21
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Salt Wash]
+  country: United States
+  regions: [Colorado]
+  interval: Late Kimmeridgian–Tithonian
+  occurrences: 3
+  ma: [143.1, 152.21]
+  id: morrison-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted; the genus is known from several specimens from
+    the Fruita Paleontological Area.
+  material: Multiple specimens from the Fruita Paleontological Area, found from 1975 onwards.
+  completeness: multiple
+  exceptional: ''
+biology: Described as a relatively long-limbed, terrestrial quadrupedal predator with a short face and a pair of
+  canine-like lower teeth (Clark 2011, as summarised on Wikipedia).
+images:
+- kind: fossil
+  file: Fruitachampsa callisoni LACM.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/37/Fruitachampsa_callisoni_LACM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Fruitachampsa_callisoni_LACM.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-07-31'
+  caption: Fruitachampsa callisoni specimen in the LACM collection.
+  width: 1559
+  height: 1403
+  review: unreviewed
+  local: img/gallery/Fruitachampsa_001.webp
+sources:
+- kind: original
+  text: J. M. Clark. 2011. A new shartegosuchid crocodyliform from the Upper Jurassic Morrison Formation of western
+    Colorado. Zoological Journal of the Linnean Society 163:S152-S172
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fruitachampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fruitachampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fruitachampsa”. English Wikipedia, revision 1282989540.
+  url: https://en.wikipedia.org/w/index.php?title=Fruitachampsa&oldid=1282989540
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Filed under the spelling Fruitachampsa; the backbone had the misspelling Fruitachampsia (removed). It was a
+    nomen nudum (the Fruita form) until Clark 2011.
+  reviews: []

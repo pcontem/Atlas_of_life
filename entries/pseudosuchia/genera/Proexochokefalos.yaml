@@ -1,0 +1,65 @@
+name: Proexochokefalos
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2020
+type_species: Proexochokefalos heberti
+type_species_note: Named Steneosaurus heberti by Morel de Glasville (1876); moved to Proexochokefalos by Johnson
+  et al. (2020).
+summary: Proexochokefalos is a large machimosaurid teleosauroid from the Middle Jurassic of Normandy, France, known
+  from a skull and mandible.
+size:
+  length_m: null
+  note: The skull and mandible measure about 1.1 m; the sources consulted give no total body length.
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. The type horizon is Callovian (English Wikipedia); referred material is dated only
+    loosely Middle to Late Jurassic, so the Callovian is used.
+species:
+- name: Proexochokefalos heberti
+  authority: (Morel de Glasville 1876)
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: MNHN.F 1890-13, a complete skull and mandible from the Marnes de Dives near Villers-sur-Mer, Calvados,
+    Normandy (the page does not label it holotype; Brignon 2018 does).
+  material: The skull and mandible; P. cf. bouchardi from the Calcaire de Caen (France) and Reuchenette Formation
+    (Switzerland) is assigned tentatively.
+  completeness: fragmentary
+  exceptional: ''
+biology: Described as a large-bodied marine teleosauroid; the sources consulted give no more on diet or habits here.
+images: []
+sources:
+- kind: original
+  text: 'Johnson, M. M., Young, M. T. and Brusatte, S. L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8: e9808.'
+  url: https://doi.org/10.7717/peerj.9808
+- kind: literature
+  text: 'Johnson, M. M., Foffa, D., Young, M. T. and Brusatte, S. L. 2022. The ecological diversification and evolution
+    of Teleosauroidea (Crocodylomorpha, Thalattosuchia), with insights into their mandibular biomechanics. Ecology
+    and Evolution 12(11): e9484.'
+  url: https://doi.org/10.1002/ece3.9484
+- kind: literature
+  text: 'Morel de Glasville, M. 1876. Sur la cavité crânienne et la position du trou optique dans le Steneosaurus
+    heberti. Bulletin de la Société Géologique de France (3) 4: 342–348.'
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia
+    and the literature give the locality: Marnes de Dives, near Villers-sur-Mer, Calvados, Normandy, France (Callovian);
+    also Calcaire de Caen and Reuchenette Formation for P. cf. bouchardi. No coordinates or PBDB collection yet.'
+  - English Wikipedia places it in the Machimosauridae (subfamily Machimosaurinae); the atlas has no clade for that
+    family, so the genus sits in Teleosauroidea.
+  - No Wikipedia revision recorded; no images yet.
+  reviews: []

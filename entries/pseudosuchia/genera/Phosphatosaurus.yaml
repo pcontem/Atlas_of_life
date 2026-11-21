@@ -1,0 +1,134 @@
+name: Phosphatosaurus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bergounioux 1955
+type_species: Phosphatosaurus gavialoides
+type_species_note: Monotypic genus; the only species is the type.
+summary: Phosphatosaurus is a large, blunt-toothed dyrosaurid crocodylomorph from Paleogene phosphate deposits of
+  North Africa.
+size:
+  length_m: null
+  note: A large dyrosaurid with a skull more than 1 m long (English Wikipedia, rev. 1380808813); no body-length
+    estimate.
+age:
+  first_ma: 83.6
+  last_ma: 48.07
+  early_interval: Campanian
+  late_interval: Ypresian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Phosphatosaurus gavialoides
+  authority: Bergounioux 1955
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Duwi
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Aswan]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: duwi-egypt
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Niger
+  regions: []
+  interval: Middle Paleocene–Late Paleocene
+  occurrences: 1
+  ma: [56.0, 61.66]
+  id: unnamed-gadamata-niger
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mali
+  regions: []
+  interval: Middle Paleocene–Late Paleocene
+  occurrences: 1
+  ma: [56.0, 61.66]
+  id: unnamed-cheit-keini-tilemsi-valley-mali
+- formation: Gafsa Phosphates
+  group: ''
+  members: []
+  country: Tunisia
+  regions: []
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: gafsa-phosphates-tunisia
+- formation: Umm Himar
+  group: ''
+  members: [Middle]
+  country: Saudi Arabia
+  regions: [Makkah]
+  interval: Paleocene
+  occurrences: 1
+  ma: [56.0, 66.0]
+  id: umm-himar-saudi-arabia
+- formation: Tamaguélelt
+  group: ''
+  members: []
+  country: Mali
+  regions: [Gao]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: tamaguelelt-mali
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted; named from the phosphate deposits of southern Tunisia
+    by Bergounioux (1955).
+  material: Tunisian specimens of P. gavialoides; further remains from Mali and Niger (the Niger specimen not identified
+    to species) are reported in the literature.
+  completeness: fragmentary
+  exceptional: ''
+biology: A long-snouted marine crocodylomorph with blunt teeth and a spoon-shaped snout tip; the sources consulted
+  give no more on diet.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F.-M. Bergounioux. 1955. Les crocodiliens fossiles des depots phosphates du Sud-Tunisien. Comptes rendus
+    hebdomadaires de seances de l'Academie des sciences 240:1917-1918
+- kind: literature
+  text: 'Hill, R. V. 2008. Dyrosaurid (Crocodyliformes: Mesoeucrocodylia) fossils from the Upper Cretaceous and
+    Paleogene of Mali: implications for phylogeny and survivorship across the K/T Boundary. American Museum Novitates(3631):
+    15–17. doi:10.1206/598.1'
+- kind: literature
+  text: 'Buffetaut, E. 1979. Présence du Crocodilien ''''Phosphatosaurus'''' (Mesosuchia, Dyrosauridae) dans le
+    Paléocène du Niger et du Mali. Paläontologische Zeitschrift 53(3–4): 323–333. doi:10.1007/bf02986594'
+- kind: literature
+  text: 'Buffetaut, E. 1978. Les Dyrosauridae (Crocodylia, Mesosuchia) des phosphates de l''Eocène inférieur de
+    Tunisie: ''''Dyrosaurus'''', ''''Rhabdognathus'''', ''''Phosphatosaurus''''. Géologie Méditerranéenne 5(2):
+    237–256. doi:10.3406/geolm.1978.1046'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Phosphatosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Phosphatosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Phosphatosaurus”. English Wikipedia, revision 1380808813.
+  url: https://en.wikipedia.org/w/index.php?title=Phosphatosaurus&oldid=1380808813
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Filed under the spelling Phosphatosaurus; the backbone had the misspelling Phosphatosuchus (removed).
+  - No images found among the automatic candidates.
+  - PBDB also lists an Egyptian record (Duwi Formation, Campanian-Maastrichtian) that Wikipedia does not mention;
+    check.
+  reviews: []

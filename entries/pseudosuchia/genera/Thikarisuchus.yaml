@@ -1,0 +1,57 @@
+name: Thikarisuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: true
+placement_note: English Wikipedia places it in the neosuchian family Wannchampsidae; the atlas has no clade for
+  that family, so it sits in Neosuchia (the backbone had it in Pholidosauridae, which the source does not support).
+authority: Allen et al. 2025
+type_species: Thikarisuchus xenodentes
+type_species_note: Monotypic genus; the only species is the type.
+summary: Thikarisuchus is a small heterodont neosuchian from the Cenomanian Blackleaf Formation of Montana, known
+  from a juvenile skull and partial skeleton.
+size:
+  length_m: null
+  note: The holotype skull is about 5.5 cm long and the animal was immature; a referred dentary suggests an individual
+    about twice that size. No body length is given.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB occurrences. Age is the Cenomanian stage of the ICS chart, as named in the description.
+species:
+- name: Thikarisuchus xenodentes
+  authority: Allen et al. 2025
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: MOR 11969 (nicknamed 'Elton'), most of a skull plus partial postcranial remains, found in 2021 in the
+    Vaughn Member of the Blackleaf Formation near Lima, southwest Montana.
+  material: The holotype and a referred dentary fragment (MOR 11969-3).
+  completeness: partial
+  exceptional: ''
+biology: The description concerns the paleoecology of heterodont neosuchians; the sources consulted here give no
+  more on its diet.
+images: []
+sources:
+- kind: original
+  text: Allen, H. J., Wilberg, E. W., Turner, A. H. and Varricchio, D. J. 2025. A new, diminutive, heterodont neosuchian
+    from the Blackleaf Formation's Vaughn Member (Cenomanian) of southwest Montana, with implications for heterodont
+    neosuchian paleoecology. Journal of Vertebrate Paleontology, e2542185.
+  url: https://doi.org/10.1080/02724634.2025.2542185
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia
+    and the literature give the locality: Blackleaf Formation, Vaughn Member, near Lima, southwest Montana, USA
+    (Cenomanian). No coordinates or PBDB collection yet.'
+  - 'Biology line is minimal: only the abstract''s topic is known; read the paper.'
+  - No Wikipedia revision recorded; no images yet.
+  reviews: []
