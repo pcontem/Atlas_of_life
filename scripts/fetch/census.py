@@ -94,15 +94,17 @@ def pbdb_taxa(base, status):
 
 
 def wiki_category_pages(roots, depth=3, cap=8000):
-    """-> (pages {title: category it was found in}, roots that do not exist, truncated?). Sub-categories are followed."""
-    pages, missing, queue, seen = {}, [], [(r, 0) for r in roots], set()
+    """-> (pages {title: category it was found in}, roots that do not exist, truncated?, layout). Sub-categories are followed.
+    layout[category] = {"pages": n, "subcats": [followed], "skipped": [not followed]} for the roots and their sub-categories
+    one level down, so an empty result can be diagnosed from the report."""
+    pages, missing, queue, seen, layout = {}, [], [(r, 0) for r in roots], set(), {}
     while queue:
         cat, d = queue.pop(0)
         if cat in seen:
             continue
         seen.add(cat)
         title = cat if cat.startswith("Category:") else "Category:" + cat
-        n_here, cont = 0, {}
+        n_here, cont, followed, skipped, n_pages = 0, {}, [], [], 0
         while True:
             r = harvest.mw(harvest.WIKI, action="query", list="categorymembers", cmtitle=title, cmlimit=500,
                            cmtype="page|subcat", **cont)
@@ -112,18 +114,24 @@ def wiki_category_pages(roots, depth=3, cap=8000):
                     sub = m["title"]
                     if d < depth and not SKIP_CAT.search(sub[len("Category:"):]):
                         queue.append((sub, d + 1))
+                        followed.append(sub)
+                    else:
+                        skipped.append(sub)
                 elif m["ns"] == 0:
+                    n_pages += 1
                     pages.setdefault(m["title"], title)
             if "continue" not in r or len(pages) >= cap:
                 break
             cont = r["continue"]
+        if d <= 1:
+            layout[title] = dict(pages=n_pages, subcats=followed[:40], skipped=skipped[:40])
         if n_here == 0 and d == 0:  # empty root: does the category exist at all?
             q = harvest.mw(harvest.WIKI, action="query", titles=title, prop="info").get("query", {})
             if any(p.get("missing") for p in q.get("pages", [])):
                 missing.append(title)
         if len(pages) >= cap:
-            return pages, missing, True
-    return pages, missing, False
+            return pages, missing, True, layout
+    return pages, missing, False, layout
 
 
 def wiki_suggest_categories(missing_cats, limit=8):
@@ -131,8 +139,11 @@ def wiki_suggest_categories(missing_cats, limit=8):
     out = {}
     for t in missing_cats:
         words = re.sub(r"^Category:|^Prehistoric ", "", t)
-        r = harvest.mw(harvest.WIKI, action="query", list="search", srsearch=words, srnamespace=14, srlimit=limit)
-        out[t] = [x["title"] for x in r.get("query", {}).get("search", [])]
+        for q in (words, re.sub(r"\b(genera|genus)\b", "", words).split()[0] if words.split() else words):
+            r = harvest.mw(harvest.WIKI, action="query", list="search", srsearch=q, srnamespace=14, srlimit=limit)
+            out[t] = [x["title"] for x in r.get("query", {}).get("search", [])]
+            if out[t]:
+                break
     return out
 
 
@@ -215,7 +226,8 @@ def run_census(group, cfg, since, atlas, net=NET):
 
     # Wikipedia: pages of the genus categories that are, or look like, genus articles
     w = cfg.get("wikipedia") or {}
-    pages, missing_cats, truncated = net.wiki_pages(w.get("categories", []), w.get("depth", 3)) if w.get("categories") else ({}, [], False)
+    pages, missing_cats, truncated, layout = (net.wiki_pages(w.get("categories", []), w.get("depth", 3)) if w.get("categories")
+                                              else ({}, [], False, {}))
     cand = {}  # genus name -> page title
     for t in pages:
         n = title_to_name(t)
@@ -273,7 +285,7 @@ def run_census(group, cfg, since, atlas, net=NET):
                             waiting_in_backbone=len(waiting), atlas_unconfirmed=len(atlas_unconfirmed), leads=len(leads),
                             leads_new=sum(not x["known"] and not x["in_pbdb"] for x in leads)),
                 missing=missing, form_taxa=form_taxa, waiting_in_backbone=waiting, atlas_unconfirmed=atlas_unconfirmed, atlas_pbdb_invalid=atlas_invalid,
-                literature_leads=leads, wikipedia_missing_categories=missing_cats, wikipedia_category_suggestions=suggestions,
+                literature_leads=leads, wikipedia_missing_categories=missing_cats, wikipedia_category_suggestions=suggestions, wikipedia_layout=layout,
                 wikipedia_truncated=truncated)
 
 
@@ -292,6 +304,12 @@ def report(c):
         for cat in c["wikipedia_missing_categories"]:
             sug = c.get("wikipedia_category_suggestions", {}).get(cat) or []
             L.append(f"- {cat}" + (" — existing categories with these words: " + "; ".join(sug) if sug else ""))
+        L.append("")
+    if c.get("wikipedia_layout") and not c["counts"]["wikipedia_pages"]:
+        L += ["**The Wikipedia crawl found no pages.** What the categories hold:", ""]
+        for cat, v in c["wikipedia_layout"].items():
+            L.append(f"- {cat}: {v['pages']} pages; sub-categories followed: {', '.join(v['subcats']) or 'none'}; "
+                     f"skipped: {', '.join(v['skipped']) or 'none'}")
         L.append("")
     if c["wikipedia_truncated"]:
         L += ["**The Wikipedia crawl hit its page cap**: narrow the categories or the depth.", ""]

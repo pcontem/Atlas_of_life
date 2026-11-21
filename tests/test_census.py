@@ -60,6 +60,8 @@ def fake_mw(api, **p):
         return dict(query=dict(categorymembers=mem))
     if p.get("list") == "search":
         assert p["srnamespace"] == 14
+        if "genera" in p["srsearch"]:   # the full phrase finds nothing: the census must retry with the group word alone
+            return dict(query=dict(search=[]))
         return dict(query=dict(search=[dict(title="Category:Real pseudosuchians"), dict(title="Category:Aetosaurs of Brazil")]))
     if p.get("prop") == "info":
         return dict(query=dict(pages=[dict(title=p["titles"], missing=True)] if "Nope" in p["titles"] else [dict(title=p["titles"])]))
@@ -68,20 +70,25 @@ def fake_mw(api, **p):
 
 real_mw = harvest.mw
 harvest.mw = fake_mw
-pages, missing, trunc = census.wiki_category_pages(["Root", "Empty", "Nope"], depth=3)
+pages, missing, trunc, layout = census.wiki_category_pages(["Root", "Empty", "Nope"], depth=3)
 harvest.mw = real_mw
 assert set(pages) == {"Alphasaurus", "Betasuchus", "Gammasaurus"}, pages     # stubs and "Fossils of" skipped, sub-categories followed
 assert missing == ["Category:Nope"] and not trunc, (missing, trunc)           # an empty category that exists is not "missing"
 assert any(c.get("cmcontinue") == "x" for c in calls)                          # the continuation token was passed on
 harvest.mw = fake_mw
-_, _, trunc = census.wiki_category_pages(["Root"], depth=3, cap=1)
+_, _, trunc, _ = census.wiki_category_pages(["Root"], depth=3, cap=1)
 harvest.mw = real_mw
 assert trunc
+# layout: what the roots hold, with the sub-categories that were followed and those skipped
+assert layout["Category:Root"]["pages"] == 1 and layout["Category:Root"]["subcats"] == ["Category:Child"], layout["Category:Root"]
+assert layout["Category:Root"]["skipped"] == ["Category:Root stubs", "Category:Fossils of Brazil"]
+assert layout["Category:Child"]["pages"] == 2 and "Category:Grandchild" not in layout          # only two levels are recorded
 
 harvest.mw = fake_mw
-sug = census.wiki_suggest_categories(["Category:Prehistoric pseudosuchians"])
+sug = census.wiki_suggest_categories(["Category:Prehistoric pseudosuchians", "Category:Prehistoric pseudosuchian genera"])
 harvest.mw = real_mw
-assert sug == {"Category:Prehistoric pseudosuchians": ["Category:Real pseudosuchians", "Category:Aetosaurs of Brazil"]}
+assert sug == {"Category:Prehistoric pseudosuchians": ["Category:Real pseudosuchians", "Category:Aetosaurs of Brazil"],
+               "Category:Prehistoric pseudosuchian genera": ["Category:Real pseudosuchians", "Category:Aetosaurs of Brazil"]}, sug
 
 # ---- command line
 assert census.parse_args(["pseudosuchia", "pterosauria", "--since", "2021"]) == (["pseudosuchia", "pterosauria"], 2021)
@@ -102,7 +109,8 @@ def fake_net():
     n = types.SimpleNamespace()
     n.pbdb = lambda base, status: {"valid": PBV, "invalid": PBI}[status]
     n.wiki_pages = lambda roots, depth=3, cap=8000: ({"Foosuchus": "Category:A", "Pseudosuchia": "Category:A", "Alphasaurus": "Category:A",
-                                                        "List of things": "Category:A", "Waitingosaurus": "Category:A"}, ["Category:Gone"], False)
+                                                        "List of things": "Category:A", "Waitingosaurus": "Category:A"}, ["Category:Gone"], False,
+                                                       {"Category:A": dict(pages=5, subcats=["Category:B"], skipped=[])})
     n.wiki_texts = lambda titles: {t: dict(wikitext=WIKI[t], ts="2026-01-01T00:00:00Z") for t in titles if t in WIKI}
     n.wiki_suggest = lambda cats: {k: ["Category:Real"] for k in cats}
     n.wiki_redirects = lambda names: {g: dict(missing=False, redirect="Alphasaurus") for g in names}
@@ -135,6 +143,12 @@ assert c["wikipedia_missing_categories"] == ["Category:Gone"] and c["counts"]["m
 md = census.report(c)
 assert "existing categories with these words: Category:Real" in md and "Trackus" in md and "form taxa" in md
 assert "Foosuchus" in md and "Zedosuchus" in md and "Category:Gone" in md and "Oldname" in md and "10.1/z" in md
+
+empty = fake_net()
+empty.wiki_pages = lambda roots, depth=3, cap=8000: ({}, [], False, {"Category:Only subcats": dict(pages=0, subcats=[], skipped=["Category:X by country"])})
+ce = census.run_census("demo", cfg, 2023, atlas, empty)
+assert "found no pages" in census.report(ce) and "Category:X by country" in census.report(ce) and ce["wikipedia_layout"]
+assert "found no pages" not in md                                  # a crawl that found pages does not print the layout
 
 # a group with nothing configured still runs (a clade that may become a volume)
 c2 = census.run_census("future", dict(pbdb="Demo"), 2023, atlas, fake_net())
