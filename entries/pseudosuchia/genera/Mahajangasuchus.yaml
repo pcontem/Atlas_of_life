@@ -1,0 +1,113 @@
+name: Mahajangasuchus
+rank: genus
+parent: mahajangasuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Buckley and Brochu 1999
+type_species: Mahajangasuchus insignis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Mahajangasuchus is a large crocodyliform with blunt, serrated teeth from the Late Cretaceous Maevarano
+  Formation of Madagascar.
+size:
+  length_m: [4.0, 4.0]
+  note: Up to about 4 m long (Wikipedia).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Mahajangasuchus insignis
+  authority: Buckley and Brochu 1999
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Maevarano
+  group: ''
+  members: [Anembalemba]
+  country: Madagascar
+  regions: [Mahajanga]
+  interval: Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: maevarano-madagascar
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Buckley and Brochu in 1999.
+  material: Specimens collected by the Mahajanga Basin Project, including UA 8654, a well-preserved disarticulated
+    skeleton found in 1995 near Berivotra, plus osteoderms and isolated teeth.
+  completeness: multiple
+  exceptional: ''
+biology: A fairly large predator with blunt, laterally compressed, serrated teeth.
+images:
+- kind: life
+  file: Mahajangasuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Mahajangasuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mahajangasuchus_BW.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-16'
+  caption: Life restoration of Mahajangasuchus insignis.
+  width: 800
+  height: 219
+  review: unreviewed
+  local: img/gallery/Mahajangasuchus_001.webp
+- kind: fossil
+  file: Mahajangasuchus FMNH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mahajangasuchus_FMNH.jpg/960px-Mahajangasuchus_FMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mahajangasuchus_FMNH.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-30'
+  caption: Mahajangasuchus specimen (FMNH).
+  width: 2533
+  height: 1198
+  review: unreviewed
+  local: img/gallery/Mahajangasuchus_002.webp
+- kind: skeletal
+  file: Mahajangasuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mahajangasuchus_skeletal.png/960px-Mahajangasuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mahajangasuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-06-25'
+  caption: Skeletal reconstruction of Mahajangasuchus.
+  width: 5868
+  height: 3493
+  review: unreviewed
+  local: img/gallery/Mahajangasuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba/vector.svg
+  png: https://images.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba/raster/512x102.png
+  page: https://www.phylopic.org/images/16d9a84b-7be8-4624-baf8-d7db90e900ba
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Mahajangasuchus insignis
+  matched: Mahajangasuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Buckley, G.A.; Brochu, C. 1999. An enigmatic new crocodile from the Upper Cretaceous of Madagascar. Cretaceous
+    Fossil Vertebrates 60: 149–175.'
+- kind: literature
+  text: 'Buckley, G.A.; Brochu, C. 1999. An enigmatic new crocodile from the Upper Cretaceous of Madagascar. Cretaceous
+    Fossil Vertebrates 60: 149–175.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mahajangasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mahajangasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mahajangasuchus”. English Wikipedia, revision 1370258541.
+  url: https://en.wikipedia.org/w/index.php?title=Mahajangasuchus&oldid=1370258541
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

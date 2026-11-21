@@ -1,0 +1,89 @@
+name: Adamantinasuchus
+rank: genus
+parent: sphagesauridae
+incertae_sedis: false
+placement_note: ''
+authority: Nobre and Carvalho 2006
+type_species: Adamantinasuchus navae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Adamantinasuchus is a small notosuchian crocodylomorph known from one fossil from the Late Cretaceous Adamantina
+  Formation of Brazil.
+size:
+  length_m: null
+  note: The skull is only 60 mm long and about 30 mm high; no body length is given.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Adamantinasuchus navae
+  authority: Nobre and Carvalho 2006
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: UFRJ-DG 107-R, a partial skull, fragmentary limb bones and a few broken vertebrae, found 25 km south-west
+    of Marília and collected by William Nava.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Very large elliptical orbits, nearly as long as the rostrum, might indicate nocturnal habits; its premaxilla
+  bore two incisiform teeth and one caniniform tooth.
+images:
+- kind: life
+  file: Adamantinasuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/73/Adamantinasuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Adamantinasuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-31'
+  caption: Adamantinasuchus restoration (Bogdanov).
+  width: 800
+  height: 369
+  review: unreviewed
+  local: img/gallery/Adamantinasuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/vector.svg
+  png: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/raster/512x205.png
+  page: https://www.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Adamantinasuchus navae
+  matched: Sphagesauridae
+  genus_level: false
+  w: 512
+  h: 205
+sources:
+- kind: original
+  text: 'P. H. Nobre and I. d. S. Carvalho. 2006. Adamantinasuchus navae: A new Gondwanan Crocodylomorpha (Mesoeucrocodylia)
+    from the Late Cretaceous of Brazil. Gondwana Research 10:370-378'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Adamantinasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Adamantinasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Adamantinasuchus”. English Wikipedia, revision 1282990881.
+  url: https://en.wikipedia.org/w/index.php?title=Adamantinasuchus&oldid=1282990881
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia lists no citations in this revision; add literature sources.
+  - Original naming work is Nobre and Carvalho 2006 (PBDB).
+  reviews: []

@@ -1,0 +1,170 @@
+name: Pelagosaurus
+rank: genus
+parent: thalattosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Bronn 1841
+type_species: Pelagosaurus typus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Pelagosaurus is a small thalattosuchian crocodyliform of the Early Jurassic seas of western Europe.
+size:
+  length_m: null
+  note: No body-length estimate is given in the excerpt consulted; several specimens are small juveniles.
+age:
+  first_ma: 184.2
+  last_ma: 174.7
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Pelagosaurus typus
+  authority: Bronn 1841
+  first_ma: 184.2
+  last_ma: 174.7
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Posidonia Shale
+  group: ''
+  members: [Lias Epsilon II/4, Lias Mittel-epsilon II/5]
+  country: Germany
+  regions: [Baden-Würtemberg, Baden-Württenburg, Württemberg]
+  interval: Early Toarcian
+  occurrences: 3
+  ma: [182.9, 184.2]
+  id: posidonia-shale-germany
+- formation: Alum Shale
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Falciferum–Bifrons
+  occurrences: 2
+  ma: [174.7, 184.2]
+  id: whitby-mudstone-united-kingdom
+- formation: Calcare di Sogno
+  group: ''
+  members: []
+  country: Italy
+  regions: [Lombardy]
+  interval: Early Toarcian
+  occurrences: 1
+  ma: [182.9, 184.2]
+  id: calcare-di-sogno-italy
+- formation: Beacon Limstone
+  group: Lias
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Falciferum
+  occurrences: 1
+  ma: [182.9, 184.2]
+  id: beacon-limstone-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Early Toarcian
+  occurrences: 1
+  ma: [182.9, 184.2]
+  id: unnamed-la-caine-curcy-france
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Bronn in 1841.
+  material: Specimens from the Posidonia Shale (Germany), Alum Shale and Strawberry Bank quarry near Ilminster (England)
+    and Italy, including small juveniles.
+  completeness: multiple
+  exceptional: ''
+biology: Its name means lizard of the open sea; it lived in shallow epicontinental seas that covered much of western
+  Europe, and juvenile specimens give some insight into its growth.
+images:
+- kind: life
+  file: Pelagosaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Pelagosaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pelagosaurus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-01-15'
+  caption: Pelagosaurus restoration (Bogdanov).
+  width: 800
+  height: 316
+  review: unreviewed
+  local: img/gallery/Pelagosaurus_001.webp
+- kind: skeletal
+  file: Pelagosaurus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Pelagosaurus_skeletal.png/960px-Pelagosaurus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pelagosaurus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-10-09'
+  caption: Skeletal reconstruction of Pelagosaurus.
+  width: 9077
+  height: 2296
+  review: unreviewed
+  local: img/gallery/Pelagosaurus_002.webp
+- kind: fossil
+  file: Pelagosaurus typus.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Pelagosaurus_typus.JPG/960px-Pelagosaurus_typus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pelagosaurus_typus.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 -
+  caption: Pelagosaurus typus fossil.
+  width: 2204
+  height: 793
+  review: unreviewed
+  local: img/gallery/Pelagosaurus_003.webp
+- kind: fossil
+  file: Pelagosaurus typus 7.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Pelagosaurus_typus_7.JPG/960px-Pelagosaurus_typus_7.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pelagosaurus_typus_7.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-05-18'
+  caption: Pelagosaurus typus specimen.
+  width: 3000
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Pelagosaurus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/vector.svg
+  png: https://images.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5/raster/512x70.png
+  page: https://www.phylopic.org/images/bab7e8f6-2a8e-4add-a7da-c3d4a1bbcde5
+  attribution: LiterallyMiguel
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Magyarosuchus fitosi
+  matched: Thalattosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: J. J., Jr. Sepkoski. 2002. A compendium of fossil marine animal genera. Bulletins of American Paleontology
+    363:1-560
+- kind: literature
+  text: 'Young, Mark; Wilberg, Eric; Johnson, Michela; Herrera, Yanina; Andrade, Marco; Brignon, Arnaud; Sachs,
+    Sven; Abel, Pascal; Foffa, Davide; Fernandez, Marta; Vignaud, Patrick; Cowgill, Thomas; Brusatte, Stephen 2024.
+    The history, systematics, and nomenclature of Thalattosuchia (Archosauria: Crocodylomorpha). Zoological Journal
+    of the Linnean Society 200: 547–617. doi:10.1093/zoolinnean/zlad165'
+- kind: literature
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pelagosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pelagosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pelagosaurus”. English Wikipedia, revision 1379402572.
+  url: https://en.wikipedia.org/w/index.php?title=Pelagosaurus&oldid=1379402572
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Usually placed as a teleosauroid; Buffetaut (1980) suggested an early-diverging metriorhynchid and the placement
+    has been disputed - kept in Thalattosuchia.
+  - Original naming work (Bronn 1841) to be added.
+  reviews: []

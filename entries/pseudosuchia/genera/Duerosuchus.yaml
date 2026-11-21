@@ -1,0 +1,94 @@
+name: Duerosuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: false
+placement_note: ''
+authority: Alonso Santiago and Alonso Andrés 2009
+type_species: Duerosuchus piscator
+type_species_note: Monotypic genus; the only species is the type.
+summary: Duerosuchus is a basal crocodilian from the middle Eocene of Zamora, Spain, known from one incomplete skull.
+size:
+  length_m: null
+  note: The skull is about 20 cm long; no reliable body-length estimate is given in the sources consulted.
+age:
+  first_ma: 48.07
+  last_ma: 41.03
+  early_interval: Lutetian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Duerosuchus piscator
+  authority: Alonso Santiago and Alonso Andrés 2009
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: original description
+formations:
+- formation: Corrales
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zamora]
+  interval: Lutetian
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: corrales-spain
+fossil_material:
+  holotype: A single incomplete but well preserved skull, with a lower jaw, some osteoderms and possibly some vertebrae,
+    from Corrales del Vino, Zamora.
+  material: The holotype only, found by the amateur palaeontologists Luis Alonso Andrés and his son Luis Alonso
+    Santiago.
+  completeness: partial
+  exceptional: ''
+biology: The species name piscator refers to a presumed ability to catch fish, inferred from the shape of its teeth.
+images:
+- kind: fossil
+  file: Duerosuchus piscator.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Duerosuchus_piscator.jpg/960px-Duerosuchus_piscator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Duerosuchus_piscator.jpg
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-02-18'
+  caption: Duerosuchus piscator.
+  width: 9585
+  height: 4575
+  review: unreviewed
+  local: img/gallery/Duerosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b/vector.svg
+  png: https://images.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b/raster/512x125.png
+  page: https://www.phylopic.org/images/ba019355-a056-40e7-b515-f7080cd9848b
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Duerosuchus piscator
+  matched: Planocraniidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'L. Alonso Santiago and L. Alonso Andrés. 2009. Nuevo género de Crocodylia del Eoceno medio de la Península
+    Ibérica (Zamora, España): Duerosuchus piscator nov. gen., nov. sp. Studia Geologica Salmanticensia 45(2):149-173'
+- kind: literature
+  text: 'Santiago, L.A. 2009. Nuevo género de Crocodylia del Eoceno medio de la Península Ibérica (Zamora, España):
+    ''''Duerosuchus piscator'''' nov. gen., nov. sp. Studia Geologica Salmanticensia 45(2): 149–173.'
+- kind: literature
+  text: Narváez, I.; de Celis, A.; Escaso, F.; De Jesús, S. M.; Pérez-García, A.; Rodríguez, A.; Ortega, F. 2021.
+    Redescription and phylogenetic placement of the Spanish middle Eocene eusuchian ''Duerosuchus piscator'' (Crocodylia,
+    Planocraniidae). Journal of Vertebrate Paleontology 41(3). doi:10.1080/02724634.2021.1974868
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Duerosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Duerosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Duerosuchus”. English Wikipedia, revision 1354865944.
+  url: https://en.wikipedia.org/w/index.php?title=Duerosuchus&oldid=1354865944
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Related to short-snouted crocodilians such as alligatoroids per Wikipedia; PBDB places it in Planocraniidae
+    - placement to be checked.
+  - Image kind to be confirmed.
+  reviews: []

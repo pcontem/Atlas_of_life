@@ -1,0 +1,90 @@
+name: Armadillosuchus
+rank: genus
+parent: sphagesauridae
+incertae_sedis: false
+placement_note: ''
+authority: Marinho and Carvalho 2009
+type_species: Armadillosuchus arrudai
+type_species_note: Monotypic genus; the only species is the type.
+summary: Armadillosuchus is a robust, armoured sphagesaurid crocodylomorph of about 2 m from the Late Cretaceous
+  Adamantina Formation of Brazil.
+size:
+  length_m: [2.0, 2.0]
+  note: Total length of about 2 m (Wikipedia).
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Armadillosuchus arrudai
+  authority: Marinho and Carvalho 2009
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: Not confirmed here; the Wikipedia text mentions UFRJ DG 303-R.
+  material: Two PBDB occurrences from the Adamantina Formation; the species was described in 2009.
+  completeness: partial
+  exceptional: ''
+biology: Heterodont teeth and prominent armour, which later research suggests was embedded deep in the skin and
+  may not have been visible in life.
+images:
+- kind: life
+  file: Armadillosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Armadillosuchus.jpg/960px-Armadillosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Armadillosuchus.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-10-05'
+  caption: Life restoration of Armadillosuchus.
+  width: 5600
+  height: 3162
+  review: unreviewed
+  local: img/gallery/Armadillosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/vector.svg
+  png: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/raster/512x205.png
+  page: https://www.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Adamantinasuchus navae
+  matched: Sphagesauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Marinho, Thiago S. 2009. An armadillo-like sphagesaurid crocodyliform from the Late Cretaceous of Brazil.
+    Journal of South American Earth Sciences 27(1): 36–41. doi:10.1016/j.jsames.2008.11.005'
+- kind: literature
+  text: 'Kitayama, Pedro Akira; Bertini, Reinaldo José 2026. A review of Sphagesaurus huenei and related sphagesaurids.
+    Revista Regeo 17(9): 1–20. doi:10.56238/revgeov17n9-121'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Armadillosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Armadillosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Armadillosuchus”. English Wikipedia, revision 1377171157.
+  url: https://en.wikipedia.org/w/index.php?title=Armadillosuchus&oldid=1377171157
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - A 2026 review (Kitayama and Bertini) proposes that A. arrudai is a junior synonym of Sphagesaurus huenei - consider
+    M1 and excluded.yaml if accepted.
+  - Holotype and completeness to be checked against Marinho and Carvalho 2009.
+  reviews: []

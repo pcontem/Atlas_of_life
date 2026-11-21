@@ -1,0 +1,328 @@
+name: Borealosuchus
+rank: genus
+parent: crocodylia
+incertae_sedis: false
+placement_note: ''
+authority: Brochu 1997
+type_species: Borealosuchus sternbergii
+type_species_note: ''
+summary: Borealosuchus is an extinct crocodylian genus of the Late Cretaceous to Eocene of North America, named
+  for species once placed in Leidyosuchus.
+size:
+  length_m: [3.2, 7.0]
+  note: B. wilsoni about 3.2-4.5 m; B. acutidentatus estimated at nearly 7 m (Wikipedia).
+age:
+  first_ma: 83.6
+  last_ma: 33.9
+  early_interval: Campanian
+  late_interval: Priabonian
+  pbdb_occurrences: 135
+  note: ''
+species:
+- name: Borealosuchus acutidentatus
+  authority: (Sternberg 1932)
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: ''
+- name: Borealosuchus formidabilis
+  authority: (Erickson 1976)
+  first_ma: 83.6
+  last_ma: 56
+  interval: Campanian–Thanetian
+  reference: ''
+- name: Borealosuchus griffithi
+  authority: Wu et al. 2001
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: ''
+- name: Borealosuchus sternbergii
+  authority: (Gilmore 1910)
+  first_ma: 72.2
+  last_ma: 63.4
+  interval: Maastrichtian–Danian
+  reference: original description
+- name: Borealosuchus threeensis
+  authority: Brochu et al. 2012
+  first_ma: 72.2
+  last_ma: 61.66
+  interval: Maastrichtian–Danian
+  reference: ''
+- name: Borealosuchus wilsoni
+  authority: (Mook 1959)
+  first_ma: 56
+  last_ma: 45.9
+  interval: Ypresian–Lutetian
+  reference: ''
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: [Little Beaver Creek, Upper]
+  country: United States
+  regions: [Montana, North Dakota, South Dakota]
+  interval: Late Maastrichtian
+  occurrences: 55
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 20
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Fort Union
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Tiffanian–Clarkforkian
+  occurrences: 14
+  ma: [56.0, 60.9]
+  id: fort-union-united-states
+- formation: Denver
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Puercan
+  occurrences: 10
+  ma: [63.4, 66.0]
+  id: denver-united-states
+- formation: Bridger
+  group: ''
+  members: [lower]
+  country: United States
+  regions: [Wyoming]
+  interval: Bridgerian
+  occurrences: 4
+  ma: [45.9, 51.1]
+  id: bridger-united-states
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian
+  occurrences: 3
+  ma: [51.1, 56.0]
+  id: willwood-united-states
+- formation: Ravenscrag
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Danian
+  occurrences: 3
+  ma: [61.66, 66.0]
+  id: ravenscrag-canada
+- formation: Unnamed unit
+  group: Jackson
+  members: []
+  country: United States
+  regions: [Arkansas, Wyoming]
+  interval: Clarkforkian–Priabonian
+  occurrences: 3
+  ma: [33.9, 57.5]
+  id: [jackson-group-united-states, unnamed-rainbow-valley-united-states]
+- formation: Green River
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Early Eocene–Bridgerian
+  occurrences: 3
+  ma: [45.9, 56.0]
+  id: green-river-united-states
+- formation: Tar Heel
+  group: Black Creek
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: tar-heel-united-states
+- formation: Black Peaks
+  group: Tornillo
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Torrejonian
+  occurrences: 2
+  ma: [60.9, 63.4]
+  id: black-peaks-united-states
+- formation: Fox Hills
+  group: Montana
+  members: [Timber Lake]
+  country: United States
+  regions: [North Dakota]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: fox-hills-united-states
+- formation: Scollard
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: scollard-canada
+- formation: Hornerstown
+  group: Rancocas
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Maastrichtian–Early Paleocene
+  occurrences: 1
+  ma: [61.66, 72.2]
+  id: hornerstown-united-states
+- formation: Laramie
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: laramie-united-states
+- formation: Bullion Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [North Dakota]
+  interval: Tiffanian
+  occurrences: 1
+  ma: [57.5, 60.9]
+  id: bullion-creek-united-states
+- formation: Ohio Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Ti3
+  occurrences: 1
+  ma: [57.5, 60.9]
+  id: ohio-creek-united-states
+- formation: DeBeque
+  group: ''
+  members: [Atwell Gulch]
+  country: United States
+  regions: [Colorado]
+  interval: Clarkforkian
+  occurrences: 1
+  ma: [56.0, 57.5]
+  id: debeque-united-states
+- formation: Tullock
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Puercan
+  occurrences: 1
+  ma: [63.4, 66.0]
+  id: tullock-united-states
+- formation: Canoe
+  group: Big Bend
+  members: [Big Yellow Sandstone]
+  country: United States
+  regions: [Texas]
+  interval: Early Uintan
+  occurrences: 1
+  ma: [39.7, 45.9]
+  id: canoe-united-states
+- formation: Coachman
+  group: ''
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: coachman-united-states
+- formation: Bladen
+  group: ''
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: bladen-united-states
+- formation: Peedee
+  group: ''
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: peedee-united-states
+- formation: Donoho Creek
+  group: Black Creek
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: donoho-creek-united-states
+- formation: Navesink
+  group: Monmouth
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: navesink-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the type species B. sternbergii (Gilmore 1910) comes
+    from the Maastrichtian of the western United States.
+  material: Abundant remains from the Hell Creek, Lance, Fort Union and Denver formations among others, plus an
+    indeterminate species from the Demopolis Chalk of Alabama.
+  completeness: multiple
+  exceptional: ''
+biology: Size estimates vary widely between species; the sources consulted give no direct evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/vector.svg
+  png: https://images.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b/raster/512x398.png
+  page: https://www.phylopic.org/images/dffda000-77cb-4251-b837-0cd2ab21ed5b
+  attribution: B Kimmel
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Crocodylia
+  matched: Crocodylia
+  genus_level: false
+  w: 512
+  h: 398
+sources:
+- kind: original
+  text: 'Brochu, C.A. 1997. A review of "Leidyosuchus" (Crocodyliformes, Eusuchia) from the Cretaceous through Eocene
+    of North America. Journal of Vertebrate Paleontology 17(4): 679–697. doi:10.1080/02724634.1997.10011017'
+- kind: literature
+  text: 'Wu, X-C. 2001. A new crocodylian (Archosauria) from the basal Paleocene of the Red Deer River Valley, southern
+    Alberta. Canadian Journal of Earth Sciences 38(12): 1689–1704. doi:10.1139/cjes-38-12-1689'
+- kind: literature
+  text: 'Brochu, C.A. 2012. A new species of ''''Borealosuchus'''' (Crocodyliformes, Eusuchia) from the Late Cretaceous–early
+    Paleogene of New Jersey. Journal of Vertebrate Paleontology 32(1): 105–116. doi:10.1080/02724634.2012.633585'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Borealosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Borealosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Borealosuchus”. English Wikipedia, revision 1368823084.
+  url: https://en.wikipedia.org/w/index.php?title=Borealosuchus&oldid=1368823084
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Contact-sheet tiles did not render for this genus; select images later.
+  - Placement within Crocodylia to be checked.
+  reviews: []

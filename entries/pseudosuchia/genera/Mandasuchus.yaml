@@ -1,0 +1,107 @@
+name: Mandasuchus
+rank: genus
+parent: poposauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Charig 1967
+type_species: Mandasuchus tanyauchen
+type_species_note: The English Wikipedia taxobox gives M. tanyauchen as the type species.
+summary: Mandasuchus is a quadrupedal, long-necked carnivorous loricatan from the Middle Triassic Manda Formation
+  of Tanzania.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 247
+  last_ma: 241.464
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 3
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Mandasuchus tanyauchen
+  authority: Charig 1967
+  first_ma: 247
+  last_ma: 241.464
+  interval: ''
+  reference: original description
+formations:
+- formation: Manda Beds
+  group: ''
+  members: [Lifua]
+  country: Tanzania
+  regions: [Ruvuma]
+  interval: Anisian
+  occurrences: 3
+  ma: [241.464, 247.0]
+  id: manda-beds-tanzania
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; formally described by Butler et al. in 2018.
+  material: Several specimens from the Manda Beds, including referred material.
+  completeness: multiple
+  exceptional: ''
+biology: A quadrupedal carnivore with a relatively long neck.
+images:
+- kind: fossil
+  file: Mandasuchus referred material.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Mandasuchus_referred_material.jpg/960px-Mandasuchus_referred_material.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mandasuchus_referred_material.jpg
+  artist: The Trustees of the Natural History Museum, London
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-10-29'
+  caption: Referred material of Mandasuchus.
+  width: 2362
+  height: 3307
+  review: unreviewed
+  local: img/gallery/Mandasuchus_001.webp
+- kind: skeletal
+  file: Mandasuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Mandasuchus_skeletal.png/960px-Mandasuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mandasuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-12'
+  caption: Skeletal reconstruction of Mandasuchus.
+  width: 7300
+  height: 3724
+  review: unreviewed
+  local: img/gallery/Mandasuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/f36f1127-2a74-4d17-aa9a-ec73e63b80c2/vector.svg
+  png: https://images.phylopic.org/images/f36f1127-2a74-4d17-aa9a-ec73e63b80c2/raster/512x126.png
+  page: https://www.phylopic.org/images/f36f1127-2a74-4d17-aa9a-ec73e63b80c2
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mandasuchus tanyauchen
+  matched: Poposauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. J. Charig. 1967. Archosauria. The Fossil Record: A Symposium with Documentation. Geological Society
+    of London Special Publication 2:703-718'
+- kind: literature
+  text: 'Richard J. Butler 2018. ''''Mandasuchus tanyauchen'''', gen. et sp. nov., a pseudosuchian archosaur from
+    the Manda Beds (?Middle Triassic) of Tanzania. Journal of Vertebrate Paleontology 37(Supplement to No. 6): 96–121.
+    doi:10.1080/02724634.2017.1343728'
+- kind: literature
+  text: 'Nesbitt, S.J.; Butler, R.J.; Ezcurra, M.D.; Barrett, P.M.; Stocker, M.R.; Angielczyk, K.D.; Smith, R.M
+    H.; Sidor, C.A.; Niedźwiedzki, G.; Sennikov, A.G.; Charig, A.J. 2017. The earliest bird-line archosaurs and
+    the assembly of the dinosaur body plan. Nature 544(7651): 484–487. doi:10.1038/nature22037'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mandasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mandasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mandasuchus”. English Wikipedia, revision 1327112929.
+  url: https://en.wikipedia.org/w/index.php?title=Mandasuchus&oldid=1327112929
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The name was first used in a 1956 thesis by Charig and formally published only in 2018 (Butler et al.); PBDB
+    gives Charig 1967 - check authority.
+  - Placed by Romer (1967) in Prestosuchidae.
+  reviews: []

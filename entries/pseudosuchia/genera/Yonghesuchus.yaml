@@ -1,0 +1,95 @@
+name: Yonghesuchus
+rank: genus
+parent: gracilisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 2001
+type_species: Yonghesuchus sangbiensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Yonghesuchus is a Late Triassic archosaur from the Tongchuan Formation of Shanxi, China, related to Gracilisuchus.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 241.464
+  last_ma: 227.3
+  early_interval: Ladinian
+  late_interval: Carnian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yonghesuchus sangbiensis
+  authority: Wu et al. 2001
+  first_ma: 241.464
+  last_ma: 227.3
+  interval: Ladinian–Carnian
+  reference: original description
+formations:
+- formation: Tongchuan
+  group: ''
+  members: ['2']
+  country: China
+  regions: [Shanxi]
+  interval: Ladinian–Carnian
+  occurrences: 1
+  ma: [227.3, 241.464]
+  id: tongchuan-china
+fossil_material:
+  holotype: IVPP V 12378, a skull with attached mandible, dorsoventrally flattened by compression.
+  material: 'Two skulls: the holotype and the paratype IVPP V 12379, with articulated cervical vertebrae.'
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted describe its anatomy only and give no direct evidence of diet or habits.
+images:
+- kind: life
+  file: Yonghesuchus sangbiensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Yonghesuchus_sangbiensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yonghesuchus_sangbiensis.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-08-06'
+  caption: Life restoration of Yonghesuchus sangbiensis.
+  width: 1351
+  height: 496
+  review: unreviewed
+  local: img/gallery/Yonghesuchus_001.webp
+- kind: fossil
+  file: Yonghesuchus.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Yonghesuchus.tif/lossy-page1-960px-Yonghesuchus.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yonghesuchus.tif
+  artist: Richard J. Butler, Corwin Sullivan, Martín D. Ezcurra, Jun Liu, Agustina Lecuona and Roland B. Sookias
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014-06-10'
+  caption: Yonghesuchus fossil.
+  width: 2362
+  height: 3564
+  review: unreviewed
+  local: img/gallery/Yonghesuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4/vector.svg
+  png: https://images.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4/raster/512x153.png
+  page: https://www.phylopic.org/images/5d98ea69-ad8f-4e4c-9756-d72bbf9805d4
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Gracilisuchus stipanicicorum
+  matched: Gracilisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wu, X.-C. 2001. The anatomy of the first archosauriform (Diapsida) from the terrestrial Upper Triassic
+    of China. Vertebrata PalAsiatica 39(4): 251–265.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yonghesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yonghesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yonghesuchus”. English Wikipedia, revision 1354864429.
+  url: https://en.wikipedia.org/w/index.php?title=Yonghesuchus&oldid=1354864429
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

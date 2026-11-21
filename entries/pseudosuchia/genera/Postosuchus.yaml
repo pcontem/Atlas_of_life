@@ -1,0 +1,185 @@
+name: Postosuchus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Chatterjee 1985
+type_species: Postosuchus kirkpatricki
+type_species_note: ''
+summary: Postosuchus is a large rauisuchid predator of the Late Triassic of North America, named for the Post Quarry
+  in Texas.
+size:
+  length_m: [5.0, 6.0]
+  note: Estimated at 5-6 m long or more (Wikipedia).
+age:
+  first_ma: 237
+  last_ma: 201.4
+  early_interval: Carnian
+  late_interval: Rhaetian
+  pbdb_occurrences: 31
+  note: ''
+species:
+- name: Postosuchus alisonae
+  authority: Peyer et al. 2008
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: ''
+- name: Postosuchus kirkpatricki
+  authority: Chatterjee 1985
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Blue Mesa, Mesa Redondo, Owl Rock, Petrified Forest, Sonsela]
+  country: United States
+  regions: [Arizona, New Mexico]
+  interval: Norian–Rhaetian
+  occurrences: 21
+  ma: [201.4, 227.3]
+  id: chinle-united-states
+- formation: Tecovas
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 4
+  ma: [205.7, 237.0]
+  id: tecovas-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 2
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+- formation: Colorado City
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: colorado-city-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Carnian–Norian
+  occurrences: 1
+  ma: [205.7, 237.0]
+  id: unnamed-dromicosuchus-quarry-united-states
+- formation: Garita Creek
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: garita-creek-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; P. kirkpatricki was named by Chatterjee in 1985
+    from the Post Quarry, Texas.
+  material: Numerous fossils of P. kirkpatricki from the Post Quarry plus remains of P. alisonae from North Carolina;
+    the postcranial skeleton was described by Weinbaum in 2013.
+  completeness: multiple
+  exceptional: ''
+biology: It likely preyed on large herbivores such as dicynodonts and on small early dinosaurs; short forelimbs
+  relative to the hind limbs suggest it may have been mainly bipedal.
+images:
+- kind: life
+  file: Postosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Postosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Postosuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2007-06-26'
+  caption: Postosuchus restoration (Bogdanov).
+  width: 800
+  height: 360
+  review: unreviewed
+  local: img/gallery/Postosuchus_001.webp
+- kind: skeletal
+  file: Postosuchus alisonae skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Postosuchus_alisonae_skeletal.png/960px-Postosuchus_alisonae_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Postosuchus_alisonae_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-06-09'
+  caption: Skeletal reconstruction of Postosuchus alisonae.
+  width: 6944
+  height: 2814
+  review: unreviewed
+  local: img/gallery/Postosuchus_002.webp
+- kind: skeletal
+  file: Postosuchus holotype skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Postosuchus_holotype_skeletal.png/960px-Postosuchus_holotype_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Postosuchus_holotype_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-06-09'
+  caption: Skeletal reconstruction of the Postosuchus holotype.
+  width: 8489
+  height: 2837
+  review: unreviewed
+  local: img/gallery/Postosuchus_003.webp
+- kind: fossil
+  file: Postosuchus profile.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Postosuchus_profile.jpg/960px-Postosuchus_profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Postosuchus_profile.jpg
+  artist: mark byzewski
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: 10 Decembe
+  caption: Postosuchus profile.
+  width: 6000
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Postosuchus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/be9ace64-29f6-45d4-9cc9-9b035d1cc04c/vector.svg
+  png: https://images.phylopic.org/images/be9ace64-29f6-45d4-9cc9-9b035d1cc04c/raster/512x147.png
+  page: https://www.phylopic.org/images/be9ace64-29f6-45d4-9cc9-9b035d1cc04c
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Postosuchus kirkpatricki
+  matched: Postosuchus
+  genus_level: true
+  w: 512
+  h: 147
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Weinbaum, J. C. 2013. Postcranial skeleton of ''''Postosuchus kirkpatricki'''' (Archosauria: Paracrocodylomorpha),
+    from the upper Triassic of the United States. Geological Society, London, Special Publications 379(1): 525–553.
+    doi:10.1144/SP379.7'
+- kind: literature
+  text: 'Chatterjee, S. 1985. ''''Postosuchus'''', a new Thecodontian reptile from the Triassic of Texas and the
+    origin of Tyrannosaurs. Philosophical Transactions of the Royal Society of London. B, Biological Sciences 309(1139):
+    395–460. doi:10.1098/rstb.1985.0092'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Postosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Postosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Postosuchus”. English Wikipedia, revision 1385932325.
+  url: https://en.wikipedia.org/w/index.php?title=Postosuchus&oldid=1385932325
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,86 @@
+name: Morrinhosuchus
+rank: genus
+parent: sphagesauridae
+incertae_sedis: false
+placement_note: ''
+authority: Iori and Carvalho 2009
+type_species: Morrinhosuchus luziae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Morrinhosuchus is a notosuchian crocodyliform from the Late Cretaceous Adamantina Formation of Brazil,
+  known from a mandible and the front of a skull.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Morrinhosuchus luziae
+  authority: Iori and Carvalho 2009
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: A mandible and a portion of the front of the skull collected in the municipality of Monte Alto, São
+    Paulo; catalogue number not given in the sources consulted.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its teeth are very similar to those of Mariliasuchus, although their number and placement differ; the sources
+  consulted give no direct evidence of diet.
+images:
+- kind: life
+  file: Morrinhosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Morrinhosuchus.jpg/960px-Morrinhosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Morrinhosuchus.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-20'
+  caption: Life restoration of Morrinhosuchus.
+  width: 1790
+  height: 1356
+  review: unreviewed
+  local: img/gallery/Morrinhosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/vector.svg
+  png: https://images.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d/raster/512x205.png
+  page: https://www.phylopic.org/images/1de50190-80bd-4ac1-bad1-eccf5f38e23d
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Adamantinasuchus navae
+  matched: Sphagesauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Iori, F.V. 2009. ''''Morrinhosuchus luziae'''', um novo Crocodylomorpha Notosuchia da Bacia Bauru, Brasil.
+    [[Brazilian Journal of Geology 39(4): 717–725. doi:10.25249/0375-7536.2009394717725'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Morrinhosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Morrinhosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Morrinhosuchus”. English Wikipedia, revision 1328555592.
+  url: https://en.wikipedia.org/w/index.php?title=Morrinhosuchus&oldid=1328555592
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Named for Morrinho de Santa Luzia, a hill near the collection site, and the nearby chapel of Santa Luzia.
+  reviews: []

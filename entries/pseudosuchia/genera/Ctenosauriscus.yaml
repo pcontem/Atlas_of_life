@@ -1,0 +1,110 @@
+name: Ctenosauriscus
+rank: genus
+parent: ctenosauriscidae
+incertae_sedis: false
+placement_note: ''
+authority: Kuhn 1964
+type_species: Ctenosauriscus koeneni
+type_species_note: Monotypic genus; the only species is the type.
+summary: Ctenosauriscus is a sail-backed poposauroid archosaur from the latest Early Triassic of Lower Saxony, Germany,
+  and the namesake of the Ctenosauriscidae.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 248.6
+  last_ma: 247
+  early_interval: Olenekian
+  late_interval: Olenekian
+  pbdb_occurrences: 1
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Ctenosauriscus koeneni
+  authority: (Huene 1902)
+  first_ma: 248.6
+  last_ma: 247
+  interval: ''
+  reference: original description
+formations:
+- formation: Solling
+  group: Middle Buntsandstein
+  members: [Trendelburg/Karlshafen Beds]
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Spathian
+  occurrences: 1
+  ma: [247.0, 248.6]
+  id: solling-germany
+fossil_material:
+  holotype: GZG.V.4191, found in 1871 at the Bremke dell locality near Göttingen (Solling-Bausandstein), housed
+    at the University of Göttingen.
+  material: The holotype only, first assigned in 1902 by von Huene to Ctenosaurus koeneni and renamed Ctenosauriscus
+    by Kuhn in 1964.
+  completeness: fragmentary
+  exceptional: ''
+biology: One of the earliest known archosaurs, with a dorsal sail; the sources consulted give no direct evidence
+  of diet.
+images:
+- kind: life
+  file: Ctenosauriscus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/12/Ctenosauriscus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ctenosauriscus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-09'
+  caption: Life restoration of Ctenosauriscus koeneni.
+  width: 800
+  height: 352
+  review: unreviewed
+  local: img/gallery/Ctenosauriscus_001.webp
+- kind: fossil
+  file: Ctenosauriscus koeneni.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a6/Ctenosauriscus_koeneni.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ctenosauriscus_koeneni.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 -
+  caption: Ctenosauriscus koeneni fossil.
+  width: 1235
+  height: 502
+  review: unreviewed
+  local: img/gallery/Ctenosauriscus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/vector.svg
+  png: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/raster/512x196.png
+  page: https://www.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Ctenosauriscus koeneni
+  matched: Ctenosauriscidae
+  genus_level: false
+sources:
+- kind: original
+  text: O. Kuhn. 1964. Ungelöste Probleme der Stammesgeschichte der Amphibien und Reptilien [Unsolved problems of
+    the phylogeny of amphibians and reptiles]. Jahreshefte des Vereins für vaterländische Naturkunde in Württemberg
+    118/119:293-325
+- kind: literature
+  text: 'Friedrich von Huene 1902. Übersicht über die Reptilien der Trias. Geologische und Paläontologische Abhandlungen
+    6: 1–84.'
+- kind: literature
+  text: 'Oskar Kuhn 1964. Ungelöste Probleme der Stammesgeschichte der Amphibien und Reptilien. Jahreshefte des
+    Vereins für vaterländische Naturkunde in Württemberg 118-119: 293–325.'
+- kind: literature
+  text: Richard J. Butler 2011. The sail-backed reptile ''Ctenosauriscus'' from the latest Early Triassic of Germany
+    and the timing and biogeography of the early archosaur radiation. PLOS ONE 6(10). doi:10.1371/journal.pone.0025693
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ctenosauriscus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ctenosauriscus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ctenosauriscus”. English Wikipedia, revision 1320462370.
+  url: https://en.wikipedia.org/w/index.php?title=Ctenosauriscus&oldid=1320462370
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Nature and completeness of the holotype to be checked against Butler et al. 2011.
+  reviews: []

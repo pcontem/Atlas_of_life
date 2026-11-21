@@ -1,0 +1,128 @@
+name: Qianosuchus
+rank: genus
+parent: poposauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Li et al. 2006
+type_species: Qianosuchus mixtus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Qianosuchus is a semi-aquatic poposauroid archosaur of more than 3 m from the Middle Triassic Guanling
+  Formation of China.
+size:
+  length_m: [3.0, 3.0]
+  note: More than 3 m long (Wikipedia).
+age:
+  first_ma: 244.4
+  last_ma: 243.43
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 1
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Qianosuchus mixtus
+  authority: Li et al. 2006
+  first_ma: 244.4
+  last_ma: 243.43
+  interval: ''
+  reference: original description
+formations:
+- formation: Guanling
+  group: ''
+  members: []
+  country: China
+  regions: [Guizhou]
+  interval: Pelsonian
+  occurrences: 1
+  ma: [243.43, 244.4]
+  id: guanling-china
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Li et al. in 2006 from Pan County, Guizhou.
+  material: Two nearly complete skeletons and a crushed skull preserved in limestone.
+  completeness: multiple
+  exceptional: ''
+biology: Several skeletal adaptations point to a semi-marine lifestyle like that of modern saltwater crocodiles;
+  its teeth were curved, laterally compressed and serrated, with nine in each premaxilla and eighteen in each maxilla.
+images:
+- kind: fossil
+  file: Qianosuchus mixtus Holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Qianosuchus_mixtus_Holotype.jpg/960px-Qianosuchus_mixtus_Holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qianosuchus_mixtus_Holotype.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-01-08'
+  caption: Holotype of Qianosuchus mixtus.
+  width: 4528
+  height: 2558
+  review: unreviewed
+  local: img/gallery/Qianosuchus_001.webp
+- kind: fossil
+  file: Qianosuchus mixtus paratype BMNHC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Qianosuchus_mixtus_paratype_BMNHC.jpg/960px-Qianosuchus_mixtus_paratype_BMNHC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qianosuchus_mixtus_paratype_BMNHC.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-27'
+  caption: Paratype of Qianosuchus mixtus.
+  width: 3289
+  height: 5988
+  review: unreviewed
+  local: img/gallery/Qianosuchus_002.webp
+- kind: skeletal
+  file: Qianosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Qianosuchus_skeletal.png/960px-Qianosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qianosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-04-28'
+  caption: Skeletal reconstruction of Qianosuchus.
+  width: 9260
+  height: 3743
+  review: unreviewed
+  local: img/gallery/Qianosuchus_003.webp
+- kind: fossil
+  file: Qianosuchus skull color coded.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/25/Qianosuchus_skull_color_coded.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Qianosuchus_skull_color_coded.png
+  artist: Neil Pezzoni
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-08-14'
+  caption: Colour-coded skull of Qianosuchus.
+  width: 991
+  height: 450
+  review: unreviewed
+  local: img/gallery/Qianosuchus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/1c777ee5-48b3-4501-a8f9-0f5e3c535d21/vector.svg
+  png: https://images.phylopic.org/images/1c777ee5-48b3-4501-a8f9-0f5e3c535d21/raster/512x154.png
+  page: https://www.phylopic.org/images/1c777ee5-48b3-4501-a8f9-0f5e3c535d21
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Petrolacosaurus kansensis
+  matched: Qianosuchus
+  genus_level: true
+  w: 512
+  h: 154
+sources:
+- kind: original
+  text: 'Li, Chun; Wu, Xiao-chun; Cheng, Yen-nien; Sato, Tamaki; Wang, Liting 2006. An unusual archosaurian from
+    the marine Triassic of China. Naturwissenschaften 93(4): 200–206. doi:10.1007/s00114-006-0097-y'
+- kind: literature
+  text: 'Nesbitt, S.J. 2011. The early evolution of archosaurs: relationships and the origin of major clades. Bulletin
+    of the American Museum of Natural History 352: 1–292. doi:10.1206/352.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Qianosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Qianosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Qianosuchus”. English Wikipedia, revision 1374603310.
+  url: https://en.wikipedia.org/w/index.php?title=Qianosuchus&oldid=1374603310
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -3,18 +3,18 @@ name: La Posa
 rank: formation
 group: Tremp
 country: Spain
-regions: [Aragón]
+regions: [Aragón, Cataluña]
 location:
-  lat: 42.267
-  lng: 0.733
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 42.167
+  lng: 0.9
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lagoonal/restricted shallow subtidal]
-lithology: [marl]
-pbdb_collections: ['45437']
+environment: [lagoonal, terrestrial indet., lagoonal/restricted shallow subtidal]
+lithology: [marl, '"limestone"']
+pbdb_collections: ['36381', '45437', '141185']
 includes: []
 summary: ''
 paleoenvironment: ''

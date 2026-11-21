@@ -6,15 +6,35 @@ country: United States
 regions: [Wyoming]
 location:
   lat: 44.3
-  lng: -108.934
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  lng: -109.0
+  basis: median of 20 PBDB collections that yielded the atlas genera
 age:
   first_ma: 66.0
   last_ma: 56.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., fluvial-lacustrine indet.]
 lithology: [not reported, '"siliciclastic"']
-pbdb_collections: ['14805', '15049', '15114', '15173', '15208', '46653', '46676']
+pbdb_collections:
+- '14805'
+- '15049'
+- '15098'
+- '15108'
+- '15114'
+- '15147'
+- '15152'
+- '15155'
+- '15157'
+- '15159'
+- '15173'
+- '15174'
+- '15176'
+- '15184'
+- '15190'
+- '15192'
+- '15208'
+- '15211'
+- '46653'
+- '46676'
 includes: []
 summary: ''
 paleoenvironment: ''

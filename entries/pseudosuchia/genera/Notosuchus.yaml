@@ -1,0 +1,105 @@
+name: Notosuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Woodward 1896
+type_species: Notosuchus terrestris
+type_species_note: ''
+summary: Notosuchus is a terrestrial South American crocodyliform from the Late Cretaceous of Patagonia, the first
+  notosuchian ever named.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Notosuchus lepidus
+  authority: Dolgopol de Saez 1957
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: ''
+- name: Notosuchus terrestris
+  authority: Woodward 1896
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén, Río Negro]
+  interval: Santonian
+  occurrences: 6
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Woodward in 1896.
+  material: Remains from the Bajo de la Carpa Formation, with new material of the type species described by Fiorelli
+    and Calvo in 2008.
+  completeness: multiple
+  exceptional: ''
+biology: Terrestrial; forward-facing nostrils and no bony nasal septum suggest a trunk-like snout, and striations
+  on the nasals and lower jaw probably anchored facial muscles.
+images:
+- kind: life
+  file: Cabeza de Notosuchus terrestris.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Cabeza_de_Notosuchus_terrestris.jpg/960px-Cabeza_de_Notosuchus_terrestris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cabeza_de_Notosuchus_terrestris.jpg
+  artist: Fbarrios84
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-03-23'
+  caption: Head of Notosuchus terrestris.
+  width: 4156
+  height: 2176
+  review: unreviewed
+  local: img/gallery/Notosuchus_001.webp
+- kind: life
+  file: Notosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Notosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Notosuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com ), head modified by User:FunkMonk
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-05-29'
+  caption: Notosuchus restoration (Bogdanov).
+  width: 791
+  height: 256
+  review: unreviewed
+  local: img/gallery/Notosuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/vector.svg
+  png: https://images.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084/raster/512x148.png
+  page: https://www.phylopic.org/images/39b819f8-b4a7-4c53-8588-d78aff379084
+  attribution: Nobu Tamura (head modified by FunkMonk)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Notosuchus terrestris
+  matched: Notosuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Woodward, AS 1896. On Two Mesozoic Crocodilians Notosuchus (Genus Novum) and Cynodontosuchus (Genus Novum)
+    from the Red Sandstone of the Territory of Neuquen (Argentine Republic). Anales del Museo de la Plata, Paleontologia
+    Argentina 6: 1–20.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Notosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Notosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Notosuchus”. English Wikipedia, revision 1334229864.
+  url: https://en.wikipedia.org/w/index.php?title=Notosuchus&oldid=1334229864
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

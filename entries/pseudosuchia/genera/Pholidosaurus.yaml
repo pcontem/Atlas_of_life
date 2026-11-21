@@ -1,0 +1,187 @@
+name: Pholidosaurus
+rank: genus
+parent: pholidosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Meyer 1841
+type_species: Pholidosaurus schaumburgensis
+type_species_note: The English Wikipedia names P. schaumburgensis (Meyer 1841) as the first species of the genus;
+  confirm as type.
+summary: Pholidosaurus is a neosuchian crocodylomorph of the Early Cretaceous of Europe and the type genus of the
+  Pholidosauridae.
+size:
+  length_m: null
+  note: The individual that left the natural mould of the first species was about 25 cm long, but other species
+    were larger; no adult range is given in the sources consulted.
+age:
+  first_ma: 149.2
+  last_ma: 113.2
+  early_interval: Tithonian
+  late_interval: Aptian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Pholidosaurus decipiens
+  authority: Watson 1911
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: ''
+- name: Pholidosaurus laevis
+  authority: Andrews 1913
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: ''
+- name: Pholidosaurus meyeri
+  authority: (Dunker 1843)
+  first_ma: 139.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: ''
+- name: Pholidosaurus milwardi
+  authority: Roxo 1929
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Pholidosaurus purbeckensis
+  authority: (Mansel-Pleydell 1888)
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: ''
+- name: Pholidosaurus schaumburgensis
+  authority: (Meyer 1841)
+  first_ma: 139.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: ['2']
+  country: France
+  regions: [Poitou-Charentes]
+  interval: Early Tithonian–Berriasian
+  occurrences: 3
+  ma: [137.05, 149.2]
+  id:
+  - unnamed-angeac-charente-france
+  - unnamed-chassiron-ile-d-oleron-france
+  - unnamed-cherves-de-cognac-levels-3237-france
+- formation: Unnamed unit
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Berriasian
+  occurrences: 2
+  ma: [137.05, 143.1]
+  id: purbeck-group-united-kingdom
+- formation: Bückeberg
+  group: ''
+  members: [Obernkirchen]
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Berriasian
+  occurrences: 2
+  ma: [137.05, 139.1]
+  id: buckeberg-germany
+- formation: Durlston
+  group: Purbeck
+  members: [Intermarine]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: durlston-united-kingdom
+- formation: Unnamed unit
+  group: Enciso
+  members: []
+  country: Spain
+  regions: [La Rioja]
+  interval: Barremian–Aptian
+  occurrences: 1
+  ma: [113.2, 125.77]
+  id: enciso-group-spain
+fossil_material:
+  holotype: A natural mould of part of a thorax found around 1830 in the Berriasian Obernkirchen Sandstone near
+    Bückeburg, Germany (P. schaumburgensis).
+  material: Remains of several species from Germany, England and France; Scandinavian material has been referred
+    to the genus.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no direct evidence of diet or habits.
+images:
+- kind: fossil
+  file: Pholidosaurus purbeckensis holotype.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Pholidosaurus_purbeckensis_holotype.JPG/960px-Pholidosaurus_purbeckensis_holotype.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pholidosaurus_purbeckensis_holotype.JPG
+  artist: Geni
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2023-02
+  caption: Holotype of Pholidosaurus purbeckensis.
+  width: 2019
+  height: 3119
+  review: unreviewed
+  local: img/gallery/Pholidosaurus_001.webp
+- kind: fossil
+  file: Pholidosaurus tooth.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a8/Pholidosaurus_tooth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pholidosaurus_tooth.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009'
+  caption: Tooth of Pholidosaurus.
+  width: 402
+  height: 242
+  review: unreviewed
+  local: img/gallery/Pholidosaurus_002.webp
+- kind: fossil
+  file: Pholidosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pholidosaurus.jpg/960px-Pholidosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pholidosaurus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009'
+  caption: Pholidosaurus fossil.
+  width: 2816
+  height: 1106
+  review: unreviewed
+  local: img/gallery/Pholidosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/vector.svg
+  png: https://images.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2/raster/642x1536.png
+  page: https://www.phylopic.org/images/20d43a14-6c51-43cc-8eee-02a0e97cb6e2
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Pholidosaurus
+  matched: Pholidosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Meyer, H. 1841. ''''Pholidosaurus schaumburgensis'''' ein Saurus aus dem Sandstein der Wald-Formation Nord-Deutschlands.
+    Neues Jahrbuch für Mineralogie, Geologie und Paläontologie 4: 443–445.'
+- kind: literature
+  text: 'Schwarz-Wings, D. 2009. Lower Cretaceous Mesoeucrocodylians from Scandinavia (Denmark and Sweden). Cretaceous
+    Research 30(5): 1345–1355. doi:10.1016/j.cretres.2009.07.011'
+- kind: literature
+  text: 'Lydekker, R. 1887. Note on the Hordwell and other crocodilians. Geological Magazine 4(7): 307–312. doi:10.1017/S001675680019377X'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pholidosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pholidosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pholidosaurus”. English Wikipedia, revision 1354851412.
+  url: https://en.wikipedia.org/w/index.php?title=Pholidosaurus&oldid=1354851412
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

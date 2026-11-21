@@ -1,0 +1,115 @@
+name: Bergisuchus
+rank: genus
+parent: sebecidae
+incertae_sedis: false
+placement_note: ''
+authority: Kuhn 1968
+type_species: Bergisuchus dietrichbergi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Bergisuchus is a small sebecosuchian crocodyliform known mainly from the Eocene Messel Pit of Germany,
+  the first sebecosuchian found outside South America.
+size:
+  length_m: null
+  note: Described as small; no length is given in the sources consulted.
+age:
+  first_ma: 48.07
+  last_ma: 41.03
+  early_interval: Lutetian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Bergisuchus dietrichbergi
+  authority: Kuhn 1968
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Sachsen-Anhalt]
+  interval: Lutetian
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: unnamed-geiseltal-mittelkohle-zone-ii-germany
+- formation: Messel
+  group: ''
+  members: []
+  country: Germany
+  regions: [Hessen]
+  interval: MP 11
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: messel-germany
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; named by Kuhn in 1968 from material first collected
+    by Dietrich Berg in 1966.
+  material: A single incomplete snout, a few partial lower jaws and some teeth.
+  completeness: fragmentary
+  exceptional: ''
+biology: A short, deep, narrow snout with serrated teeth, unlike the broad flat snouts of many crocodyliforms.
+images:
+- kind: fossil
+  file: Bergisuchus dietrichbergi - mandibula fragment.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/22/Bergisuchus_dietrichbergi_-_mandibula_fragment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bergisuchus_dietrichbergi_-_mandibula_fragment.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-19'
+  caption: Lower jaw of Bergisuchus dietrichbergi.
+  width: 1242
+  height: 761
+  review: unreviewed
+  local: img/gallery/Bergisuchus_001.webp
+- kind: fossil
+  file: Bergisuchus - Geiseltal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Bergisuchus_-_Geiseltal.jpg/960px-Bergisuchus_-_Geiseltal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bergisuchus_-_Geiseltal.jpg
+  artist: DagdaMor
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 6.11.2026
+  caption: Bergisuchus specimen (Geiseltal).
+  width: 2586
+  height: 923
+  review: unreviewed
+  local: img/gallery/Bergisuchus_002.webp
+- kind: fossil
+  file: Bergisuchus2 - Geiseltal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Bergisuchus2_-_Geiseltal.jpg/960px-Bergisuchus2_-_Geiseltal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bergisuchus2_-_Geiseltal.jpg
+  artist: DagdaMor
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 6.11.2026
+  caption: Bergisuchus specimen (Geiseltal), second view.
+  width: 2268
+  height: 820
+  review: unreviewed
+  local: img/gallery/Bergisuchus_003.webp
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: literature
+  text: 'Martin, Jeremy 2016. New material of the ziphodont mesoeucrocodylian ''''Iberosuchus'''' from the Eocene
+    of Languedoc, southern France. Annales de Paléontologie 102(2): 135–144. doi:10.1016/j.annpal.2016.05.002'
+- kind: literature
+  text: 'Steinheimer, Frank D.; Hastings, Alexander K. 2018. HALLE: The Geiseltal Collection of Martin Luther University,
+    Halle-Wittenberg. Springer, Cham. doi:10.1007/978-3-319-77401-5_25'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bergisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bergisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bergisuchus”. English Wikipedia, revision 1377209733.
+  url: https://en.wikipedia.org/w/index.php?title=Bergisuchus&oldid=1377209733
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [PBDB places it in Sebecoidea; the backbone places it in Sebecidae.]
+  reviews: []

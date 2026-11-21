@@ -1,0 +1,109 @@
+name: Rauisuchus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1942
+type_species: Rauisuchus tiradentes
+type_species_note: Monotypic genus; the only species is the type.
+summary: Rauisuchus is a large loricatan archosaur from the Late Triassic Santa Maria Formation of Brazil.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Rauisuchus tiradentes
+  authority: Huene 1942
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: Rosário do Sul
+  members: [Alemoa]
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Carnian–Norian
+  occurrences: 6
+  ma: [205.7, 237.0]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: The lectotype is BSPG AS XXV 60-68, 71-100, 105-119 and 121 (including the right premaxilla and postorbital),
+    assigned in 1976; the material was found in 1928 or 1929 by Wilhelm Rau.
+  material: Bones from the Alemoa Member of the Santa Maria Formation, taken to Germany along with the holotype
+    of Prestosuchus chiniquensis.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe its discovery and osteology but give no direct evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Rauisuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Rauisuchus_skeletal.png/960px-Rauisuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rauisuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-01-30'
+  caption: Skeletal reconstruction of Rauisuchus tiradentes.
+  width: 7207
+  height: 3680
+  review: unreviewed
+  local: img/gallery/Rauisuchus_001.webp
+- kind: life
+  file: Rauisuchus tiradentes.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Rauisuchus_tiradentes.jpg/960px-Rauisuchus_tiradentes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rauisuchus_tiradentes.jpg
+  artist: Paleocolour
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-11-15'
+  caption: Life restoration of Rauisuchus tiradentes.
+  width: 1900
+  height: 530
+  review: unreviewed
+  local: img/gallery/Rauisuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Rauisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: F. v. Huene. 1942. Lieferungen 3/4. Pseudosuchia, Saurischia, Rhynchosauridae und Schlussabschnitt [Parts
+    3/4.  Pseudosuchia, Saurischia, Rhynchosauridae, and Conclusions]. Die Fossilen Reptilien des Südamerikanischen
+    Gondwanalandes.  Ergebnisse der Sauriergrabungen in Südbrasilien 1928/29 [The Fossil Reptiles of South American
+    Gondwanaland.  Results of the Dinosaur Expeditions in southern Brazil 1928/29].  C. H. Beck'sche Verlagsbuchhandlung,
+    München
+- kind: literature
+  text: 'Lautenschlager, Stephan; Rauhut, Oliver W. M. 2014. Osteology of ''''Rauisuchus tiradentes''''from the
+    Late Triassic (Carnian) Santa Maria Formation of Brazil, and its implications for rauisuchid anatomy and phylogeny.
+    Zoological Journal of the Linnean Society 173(1): 55–91. doi:10.1111/zoj.12196'
+- kind: literature
+  text: 'Brusatte, Stephen L.; Benton, Michael J.; Desojo, Julia B.; Langer, Max C. 2010. The higher-level phylogeny
+    of Archosauria (Tetrapoda: Diapsida). Journal of Systematic Palaeontology 8(1): 3–47. doi:10.1080/14772010903537732'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rauisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rauisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rauisuchus”. English Wikipedia, revision 1352206380.
+  url: https://en.wikipedia.org/w/index.php?title=Rauisuchus&oldid=1352206380
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original naming work (Huene 1942) to be added.
+  - The Zahnsanga site lies in the uppermost 2.5 m of an 8 m layer of the Alemoa Member.
+  reviews: []

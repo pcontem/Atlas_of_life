@@ -1,0 +1,191 @@
+name: Protosuchus
+rank: genus
+parent: protosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Brown 1934
+type_species: Protosuchus richardsoni
+type_species_note: Filled from general knowledge, not yet checked; the English Wikipedia lists P. richardsoni from
+  Arizona first.
+summary: Protosuchus is a small carnivorous crocodyliform of the Early Jurassic, among the earliest animals resembling
+  crocodilians.
+size:
+  length_m: [0.8, 0.8]
+  note: About 80 cm long (Wikipedia).
+age:
+  first_ma: 205.7
+  last_ma: 192.9
+  early_interval: Rhaetian
+  late_interval: Sinemurian
+  pbdb_occurrences: 16
+  note: ''
+species:
+- name: Protosuchus haughtoni
+  authority: (Busbey and Gow 1984)
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: ''
+- name: Protosuchus micmac
+  authority: Sues et al. 1996
+  first_ma: 201.4
+  last_ma: 199.5
+  interval: Hettangian
+  reference: ''
+- name: Protosuchus richardsoni
+  authority: (Brown 1933)
+  first_ma: 205.7
+  last_ma: 199.5
+  interval: Rhaetian–Hettangian
+  reference: original description
+formations:
+- formation: McCoy Brook
+  group: Meriden
+  members: []
+  country: Canada
+  regions: [Nova Scotia]
+  interval: Early Hettangian
+  occurrences: 6
+  ma: [199.5, 201.4]
+  id: mccoy-brook-canada
+- formation: Moenave
+  group: Glen Canyon
+  members: [Dinosaur Canyon]
+  country: United States
+  regions: [Arizona]
+  interval: Rhaetian–Hettangian
+  occurrences: 4
+  ma: [199.5, 205.7]
+  id: moenave-united-states
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 4
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: Lesotho
+  regions: [Mohale's Hoek]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: elliot-lesotho
+- formation: Przysucha
+  group: ''
+  members: []
+  country: Poland
+  regions: [Swietokrzyskie]
+  interval: Late Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: przysucha-poland
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the genus was named by Brown in 1934, with P. richardsoni
+    (AMNH 3024) from Arizona.
+  material: Specimens of three species from Arizona (P. richardsoni), Nova Scotia (P. micmac) and southern Africa
+    (P. haughtoni).
+  completeness: multiple
+  exceptional: ''
+biology: Short jaws, a powerful tail and a double row of osteoderms along the back, with osteoderms also covering
+  the belly and tail.
+images:
+- kind: life
+  file: Protosuchus richardsoni.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Protosuchus_richardsoni.JPG/960px-Protosuchus_richardsoni.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Protosuchus_richardsoni.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2008-04
+  caption: Life restoration of Protosuchus richardsoni.
+  width: 2560
+  height: 1920
+  review: unreviewed
+  local: img/gallery/Protosuchus_001.webp
+- kind: life
+  file: Protosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/50/Protosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Protosuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: Dec 27, 20
+  caption: Protosuchus restoration (Bogdanov).
+  width: 774
+  height: 420
+  review: unreviewed
+  local: img/gallery/Protosuchus_002.webp
+- kind: fossil
+  file: Protosuchus richardsoni AMNH 3024 cast pelvis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Protosuchus_richardsoni_AMNH_3024_cast_pelvis.jpg/960px-Protosuchus_richardsoni_AMNH_3024_cast_pelvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Protosuchus_richardsoni_AMNH_3024_cast_pelvis.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-08-19'
+  caption: Protosuchus richardsoni AMNH 3024.
+  width: 3664
+  height: 2748
+  review: unreviewed
+  local: img/gallery/Protosuchus_003.webp
+- kind: skeletal
+  file: Protosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Protosuchus_skeletal.png/960px-Protosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Protosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-27'
+  caption: Skeletal reconstruction of Protosuchus.
+  width: 7773
+  height: 3173
+  review: unreviewed
+  local: img/gallery/Protosuchus_004.webp
+- kind: fossil
+  file: Protosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Protosuchus.jpg/960px-Protosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Protosuchus.jpg
+  artist: Colbert, Edwin Harris, 1905-2001 Mook, Charles Craig, 1887-1966.
+  license: Public domain
+  license_url: ''
+  date: '1951'
+  caption: Protosuchus fossil.
+  width: 3012
+  height: 2132
+  review: unreviewed
+  local: img/gallery/Protosuchus_005.webp
+silhouette:
+  src: https://images.phylopic.org/images/73551b9c-870f-4117-b389-fefe8a1a9def/vector.svg
+  png: https://images.phylopic.org/images/73551b9c-870f-4117-b389-fefe8a1a9def/raster/512x257.png
+  page: https://www.phylopic.org/images/73551b9c-870f-4117-b389-fefe8a1a9def
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Protosuchus
+  matched: Protosuchus
+  genus_level: true
+  w: 512
+  h: 257
+sources:
+- kind: original
+  text: B. Brown. 1934. A change of names. Science 79(2039):80
+- kind: literature
+  text: 'Gow, C. E. 17 A. The Skull of Protosuchus haughtoni, an Early Jurassic Crocodyliform from Southern Africa.
+    Journal of Vertebrate Paleontology 20(1): 49–56. doi:10.1671/0272-4634(2000)020[0049:TSOPHA]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protosuchus”. English Wikipedia, revision 1371803584.
+  url: https://en.wikipedia.org/w/index.php?title=Protosuchus&oldid=1371803584
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original naming work (Brown 1934) to be added.]
+  reviews: []

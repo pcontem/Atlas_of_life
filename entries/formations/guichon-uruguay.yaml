@@ -1,0 +1,31 @@
+id: guichon-uruguay
+name: Guichón
+rank: formation
+group: Paysandú
+country: Uruguay
+regions: [Paysandú]
+location:
+  lat: -32.35
+  lng: -57.2
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [fluvial indet.]
+lithology: [sandstone]
+pbdb_collections: ['65322']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Guichón (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Guichón
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

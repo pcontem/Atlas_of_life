@@ -3,18 +3,18 @@ name: Bajo de la Carpa
 rank: formation
 group: Neuquén
 country: Argentina
-regions: [Neuquén]
+regions: [Neuquén, Río Negro]
 location:
-  lat: -38.841
-  lng: -68.841
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: -38.946
+  lng: -68.058
+  basis: median of 8 PBDB collections that yielded the atlas genera
 age:
   first_ma: 85.7
   last_ma: 83.6
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: [mudstone]
-pbdb_collections: ['197477']
+environment: [terrestrial indet., fluvial indet., fluvial-deltaic indet.]
+lithology: [sandstone, not reported, mudstone]
+pbdb_collections: ['47796', '47808', '84309', '114543', '114545', '114763', '114765', '197477']
 includes: []
 summary: ''
 paleoenvironment: ''

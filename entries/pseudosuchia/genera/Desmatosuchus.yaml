@@ -1,0 +1,196 @@
+name: Desmatosuchus
+rank: genus
+parent: desmatosuchinae
+incertae_sedis: false
+placement_note: ''
+authority: Case 1920
+type_species: Desmatosuchus spurensis
+type_species_note: ''
+summary: Desmatosuchus is a large, armoured desmatosuchin aetosaur of the Late Triassic of North America and possibly
+  India.
+size:
+  length_m: [4.5, 5.0]
+  mass_kg: [280, 300]
+  note: 4.5 m to over 5 m long and about 280-300 kg (Wikipedia); the skull averaged about 37 cm.
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 14
+  note: ''
+species:
+- name: Desmatosuchus haplocerus
+  authority: Cope 1892
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Desmatosuchus smalli
+  authority: Parker 2005
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: ''
+- name: Desmatosuchus spurensis
+  authority: Case 1920
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Blue Mesa, Mesa Redondo]
+  country: United States
+  regions: [Arizona]
+  interval: Norian
+  occurrences: 6
+  ma: [205.7, 227.3]
+  id: chinle-united-states
+- formation: Bluewater Creek
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 2
+  ma: [205.7, 227.3]
+  id: bluewater-creek-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+- formation: Tecovas
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 1
+  ma: [205.7, 237.0]
+  id: tecovas-united-states
+- formation: San Pedro Arroyo
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: san-pedro-arroyo-united-states
+- formation: Garita Creek
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: garita-creek-united-states
+- formation: Santa Rosa
+  group: Chinle
+  members: [Los Esteros]
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: santa-rosa-united-states
+- formation: Popo Agie
+  group: Chugwater
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: popo-agie-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; D. spurensis was named by Case in 1920.
+  material: Many specimens from the Chinle, Bluewater Creek, Cooper Canyon and Tecovas formations of the United
+    States.
+  completeness: multiple
+  exceptional: ''
+biology: A quadrupedal armoured reptile with a small skull, a firmly fused braincase and large heels from its crurotarsal
+  ankle.
+images:
+- kind: life
+  file: Desmatosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2e/Desmatosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Desmatosuchus_BW.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-04-25'
+  caption: Life restoration of Desmatosuchus.
+  width: 800
+  height: 361
+  review: unreviewed
+  local: img/gallery/Desmatosuchus_001.webp
+- kind: fossil
+  file: Desmatosuchus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Desmatosuchus_skull.jpg/960px-Desmatosuchus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Desmatosuchus_skull.jpg
+  artist: mark byzewski
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: 10 Decembe
+  caption: Skull of Desmatosuchus.
+  width: 6000
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Desmatosuchus_002.webp
+- kind: skeletal
+  file: HMNS Desmatosuchus cropped.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/62/HMNS_Desmatosuchus_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:HMNS_Desmatosuchus_cropped.jpg
+  artist: Evolutionnumber9
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-24'
+  caption: Mounted skeleton of Desmatosuchus (HMNS).
+  width: 1531
+  height: 1032
+  review: unreviewed
+  local: img/gallery/Desmatosuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/77736ac8-c667-4649-b2a9-fa9e701cdafb/vector.svg
+  png: https://images.phylopic.org/images/77736ac8-c667-4649-b2a9-fa9e701cdafb/raster/512x133.png
+  page: https://www.phylopic.org/images/77736ac8-c667-4649-b2a9-fa9e701cdafb
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Desmatosuchus
+  matched: Desmatosuchus
+  genus_level: true
+  w: 512
+  h: 133
+sources:
+- kind: original
+  text: E. C. Case. 1920. Preliminary description of a new suborder of phytosaurian reptiles with a description
+    of a new species of Phytosaurus. Journal of Geology 28(6):524-535
+- kind: literature
+  text: 'Parker, William G. June. A new species of the Late Triassic aetosaur ''''Desmatosuchus'''' (Archosauria:
+    Pseudosuchia). Comptes Rendus Palevol 4(4): 327–340. doi:10.1016/j.crpv.2005.03.002'
+- kind: literature
+  text: 'Parker, William G. Marc. Reassessment of the aetosaur ''''"Desmatosuchus" chamaensis'''' with a reanalysis
+    of the phylogeny of the Aetosauria (Archosauria: Pseudosuchia). Journal of Systematic Palaeontology 5(1): 41–68.
+    doi:10.1017/S1477201906001994'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Desmatosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Desmatosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Desmatosuchus”. English Wikipedia, revision 1368732578.
+  url: https://en.wikipedia.org/w/index.php?title=Desmatosuchus&oldid=1368732578
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original naming work (Case 1920) to be added.]
+  reviews: []

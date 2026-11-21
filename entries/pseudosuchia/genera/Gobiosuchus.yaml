@@ -1,0 +1,128 @@
+name: Gobiosuchus
+rank: genus
+parent: gobiosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Osmolska 1972
+type_species: Gobiosuchus kielanae
+type_species_note: ''
+summary: Gobiosuchus is a small, gracile, armoured crocodyliform from the Late Cretaceous of the Gobi Desert, Mongolia.
+size:
+  length_m: null
+  note: A small animal with long slender limbs; no length estimate is given in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Gobiosuchus kielanae
+  authority: Osmolska 1972
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Gobiosuchus parvus
+  authority: Efimov 1983
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Djadokhta
+  group: ''
+  members: [Bayn Dzak]
+  country: Mongolia
+  regions: [Omngov, Omnogov]
+  interval: Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; G. kielanae was described by Osmólska in 1972 from
+    Bayn Dzak, Djadokhta Formation.
+  material: Skulls and skeletons from the Djadokhta Formation of Mongolia; a second species G. parvus is listed
+    by PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Cervical and thoracic scutes had a thickened ridge that limited flexibility; the short, tall skull had
+  large orbits and pits in the palate to receive the sharp conical lower teeth.
+images:
+- kind: fossil
+  file: Gobiosuchus kielanae skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/54/Gobiosuchus_kielanae_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gobiosuchus_kielanae_skull.jpg
+  artist: Osmolska, H., Hua S., & Buffetaut E.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-01-11'
+  caption: Skull of Gobiosuchus kielanae.
+  width: 222
+  height: 107
+  review: unreviewed
+  local: img/gallery/Gobiosuchus_001.webp
+- kind: fossil
+  file: Gobiosuchus kielanae.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3f/Gobiosuchus_kielanae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gobiosuchus_kielanae.jpg
+  artist: Halszka Osmólska, Stephane Hua, and Eric Buffetaut
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '1997'
+  caption: Gobiosuchus kielanae fossil.
+  width: 539
+  height: 483
+  review: unreviewed
+  local: img/gallery/Gobiosuchus_002.webp
+- kind: life
+  file: Gobiosuchus restoration (2004).png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/52/Gobiosuchus_restoration_%282004%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gobiosuchus_restoration_(2004).png
+  artist: Halszka Osmólska, Stephane Hua & Eric Buffetaut
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '1997'
+  caption: Restoration of Gobiosuchus (2004).
+  width: 1218
+  height: 455
+  review: unreviewed
+  local: img/gallery/Gobiosuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/561a8ec9-90de-441c-850d-5391341eabf7/vector.svg
+  png: https://images.phylopic.org/images/561a8ec9-90de-441c-850d-5391341eabf7/raster/512x150.png
+  page: https://www.phylopic.org/images/561a8ec9-90de-441c-850d-5391341eabf7
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Gobiosuchus kielanae
+  matched: Gobiosuchidae
+  genus_level: false
+  w: 512
+  h: 150
+sources:
+- kind: original
+  text: H. Osmolska. 1972. Preliminary note on a crocodilian from the Upper Cretaceous of Mongolia. Palaeontologia
+    Polonica 27:43-47
+- kind: literature
+  text: 'Osmólska, Halszka; Hua, Stephane; Buffetaut, Eric 1997. ''''Gobiosuchus kielanae'''' (Protosuchia) from
+    the Late Cretaceous of Mongolia: anatomy and relationships. Acta Palaeontologica Polonica 42(1): 257–289.'
+- kind: literature
+  text: 'Osmólska, Halszka 1972. Preliminary note on a crocodilian from the Upper Cretaceous of Mongolia. Palaeontologia
+    Polonica 27: 43–47.'
+- kind: literature
+  text: 'Pol, Diego; Norell, Mark A. 2004. A new gobiosuchid crocodyliform taxon from the Cretaceous of Mongolia.
+    American Museum Novitates 3458: 1–31. doi:10.1206/0003-0082(2004)458<0001:ANGCTF>2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gobiosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gobiosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gobiosuchus”. English Wikipedia, revision 1330343313.
+  url: https://en.wikipedia.org/w/index.php?title=Gobiosuchus&oldid=1330343313
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: ['Original naming work (Osmólska 1972) is cited by Wikipedia as [2].']
+  reviews: []

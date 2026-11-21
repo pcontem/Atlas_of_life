@@ -1,0 +1,119 @@
+name: Arizonasaurus
+rank: genus
+parent: ctenosauriscidae
+incertae_sedis: false
+placement_note: ''
+authority: Welles 1947
+type_species: Arizonasaurus babbitti
+type_species_note: Monotypic genus; the only species is the type.
+summary: Arizonasaurus is a sail-backed ctenosauriscid pseudosuchian from the Middle Triassic Moenkopi Formation
+  of Arizona.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 247
+  last_ma: 244.4
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 6
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Arizonasaurus babbitti
+  authority: Welles 1947
+  first_ma: 247
+  last_ma: 244.4
+  interval: ''
+  reference: original description
+formations:
+- formation: Moenkopi
+  group: ''
+  members: [Anton Chico, Holbrook]
+  country: United States
+  regions: [Arizona, New Mexico]
+  interval: Aegean–Bithynian
+  occurrences: 6
+  ma: [244.4, 247.0]
+  id: moenkopi-united-states
+fossil_material:
+  holotype: A few teeth and a maxilla described by Welles in 1947; catalogue number not given in the sources consulted.
+  material: The type specimen plus more complete material, including two braincase specimens, described by Nesbitt
+    (2003, 2005).
+  completeness: partial
+  exceptional: ''
+biology: Its elongated neural spines formed a large sail on the back; the sources consulted give no direct evidence
+  of diet.
+images:
+- kind: life
+  file: Arizonasaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Arizonasaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Arizonasaurus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-30'
+  caption: Life restoration of Arizonasaurus babbitti.
+  width: 759
+  height: 261
+  review: unreviewed
+  local: img/gallery/Arizonasaurus_001.webp
+- kind: life
+  file: Arizonasaurus babbiti 2.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arizonasaurus_babbiti_2.png/960px-Arizonasaurus_babbiti_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Arizonasaurus_babbiti_2.png
+  artist: LiterallyMiguel
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-09-26'
+  caption: Arizonasaurus babbitti in life.
+  width: 3922
+  height: 2000
+  review: unreviewed
+  local: img/gallery/Arizonasaurus_002.webp
+- kind: skeletal
+  file: Arizonasaurus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Arizonasaurus_skeletal.png/960px-Arizonasaurus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Arizonasaurus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-13'
+  caption: Skeletal reconstruction of Arizonasaurus.
+  width: 8202
+  height: 2871
+  review: unreviewed
+  local: img/gallery/Arizonasaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/vector.svg
+  png: https://images.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b/raster/512x196.png
+  page: https://www.phylopic.org/images/18668a5a-e3d8-48bc-b141-c246507aeb5b
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Ctenosauriscus koeneni
+  matched: Ctenosauriscidae
+  genus_level: false
+  w: 512
+  h: 196
+sources:
+- kind: original
+  text: 'Welles, S.P. 1947. Vertebrates from the Upper Moenkopi Formation of northern Arizona. University of California
+    Publications in Geological Sciences 27(7): 241–294.'
+- kind: literature
+  text: 'Nesbitt, S.J. 2003. ''''Arizonasaurus'''' and its implications for archosaur divergence. Proceedings of
+    the Royal Society B 270: S234–S237. doi:10.1098/rsbl.2003.0066'
+- kind: literature
+  text: 'Nesbitt, S.J. 2005. Osteology of the Middle Triassic pseudosuchian archosaur ''''Arizonasaurus babbitti''''.
+    Historical Biology 8(1): 19–47. doi:10.1080/08912960500476499'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arizonasaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arizonasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Arizonasaurus”. English Wikipedia, revision 1372243404.
+  url: https://en.wikipedia.org/w/index.php?title=Arizonasaurus&oldid=1372243404
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

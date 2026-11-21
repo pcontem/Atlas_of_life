@@ -1,0 +1,113 @@
+name: Dynamosuchus
+rank: genus
+parent: ornithosuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Müller et al. 2020
+type_species: Dynamosuchus collisensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Dynamosuchus is an ornithosuchid pseudosuchian from the Late Triassic Santa Maria Formation of Brazil.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 237
+  last_ma: 205.7
+  early_interval: Carnian
+  late_interval: Norian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dynamosuchus collisensis
+  authority: Müller et al. 2020
+  first_ma: 237
+  last_ma: 205.7
+  interval: Carnian–Norian
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: Rosário do Sul
+  members: [Alemoa]
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Carnian–Norian
+  occurrences: 1
+  ma: [205.7, 237.0]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: CAPPA/UFSM 0248, a partial skeleton with parts of the skull, several cervical and dorsal vertebrae and
+    much of the limbs (Janner site).
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: A close relative of Venaticosuchus; ornithosuchids are generally taken as specialised scavengers, but the
+  sources consulted give no direct evidence for this species.
+images:
+- kind: life
+  file: Dynamosuchus Castro life restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Dynamosuchus_Castro_life_restoration.png/960px-Dynamosuchus_Castro_life_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dynamosuchus_Castro_life_restoration.png
+  artist: Márcio L. Castro
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-01-31'
+  caption: Life restoration of Dynamosuchus collisensis.
+  width: 1773
+  height: 888
+  review: unreviewed
+  local: img/gallery/Dynamosuchus_001.webp
+- kind: skeletal
+  file: Dynamosuchus material.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Dynamosuchus_material.png/960px-Dynamosuchus_material.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dynamosuchus_material.png
+  artist: Rodrigo T. Müller, M. Belén Von Baczko, Julia B. Desojo, and Sterling J. Nesbitt
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-01-31'
+  caption: Preserved material of Dynamosuchus.
+  width: 2481
+  height: 2884
+  review: unreviewed
+  local: img/gallery/Dynamosuchus_002.webp
+- kind: fossil
+  file: Dynamosuchus skull supplemental.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Dynamosuchus_skull_supplemental.png/960px-Dynamosuchus_skull_supplemental.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dynamosuchus_skull_supplemental.png
+  artist: Rodrigo T. Müller, M. Belén Von Baczko, Julia B. Desojo, and Sterling J. Nesbitt
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-01-31'
+  caption: Skull of Dynamosuchus.
+  width: 1778
+  height: 1368
+  review: unreviewed
+  local: img/gallery/Dynamosuchus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c/vector.svg
+  png: https://images.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c/raster/512x239.png
+  page: https://www.phylopic.org/images/381196af-9a42-44ba-ab69-503a0134f22c
+  attribution: Dmitry Bogdanov
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Ornithosuchus longidens
+  matched: Ornithosuchidae
+  genus_level: false
+  w: 512
+  h: 239
+sources:
+- kind: original
+  text: Müller, Rodrigo T.; Von Baczko, M. Belén; Desojo, Julia B.; Nesbitt, Sterling J. 31 J. The first ornithosuchid
+    from Brazil and its macroevolutionary and phylogenetic implications for Late Triassic faunas in Gondwana. Acta
+    Palaeontologica Polonica 65. doi:10.4202/app.00652.2019
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dynamosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dynamosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dynamosuchus”. English Wikipedia, revision 1342475630.
+  url: https://en.wikipedia.org/w/index.php?title=Dynamosuchus&oldid=1342475630
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

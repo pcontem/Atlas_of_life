@@ -1,0 +1,37 @@
+id: cooper-canyon-united-states
+name: Cooper Canyon
+rank: formation
+group: Dockum
+country: United States
+regions: [Texas]
+location:
+  lat: 33.452
+  lng: -101.379
+  basis: median of 9 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment:
+- terrestrial indet.
+- '"floodplain"'
+- lacustrine - small
+- '"channel"'
+- fluvial indet.
+lithology: [sandstone, not reported, mudstone, '"siliciclastic"']
+pbdb_collections: ['13273', '79947', '196354', '196537', '218126', '218143', '218144', '218145', '218149']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Cooper Canyon (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Cooper+Canyon
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

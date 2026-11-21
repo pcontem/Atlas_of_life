@@ -1,20 +1,20 @@
 id: klettgau-switzerland
 name: Klettgau
 rank: formation
-group: ''
+group: Keuper
 country: Switzerland
-regions: [Schaffhausen]
+regions: [Aargau, Schaffhausen]
 location:
   lat: 47.706
   lng: 8.452
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 227.3
   last_ma: 201.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet.]
+environment: [marine indet., '"floodplain"']
 lithology: [marl]
-pbdb_collections: ['47803', '51235']
+pbdb_collections: ['22680', '47803', '51235']
 includes: []
 summary: ''
 paleoenvironment: ''

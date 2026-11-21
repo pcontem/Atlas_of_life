@@ -3,18 +3,56 @@ name: Adamantina
 rank: formation
 group: Bauru
 country: Brazil
-regions: [São Paulo]
+regions: [Minas Gerais, São Paulo]
 location:
-  lat: -21.567
-  lng: -50.065
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lat: -21.221
+  lng: -49.946
+  basis: median of 31 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fine channel fill, fluvial indet., terrestrial indet.]
-lithology: [sandstone]
-pbdb_collections: ['51667', '114829', '194871']
+environment:
+- terrestrial indet.
+- fluvial indet.
+- alluvial fan
+- eolian indet.
+- fluvial-lacustrine indet.
+- loess
+- fine channel fill
+lithology: [sandstone, not reported, siltstone, mudstone]
+pbdb_collections:
+- '32345'
+- '51667'
+- '57000'
+- '67540'
+- '90094'
+- '92678'
+- '105127'
+- '112003'
+- '112695'
+- '112699'
+- '113110'
+- '113112'
+- '113146'
+- '113170'
+- '114203'
+- '114204'
+- '114205'
+- '114206'
+- '114458'
+- '114829'
+- '114969'
+- '114970'
+- '118193'
+- '120506'
+- '147698'
+- '156128'
+- '161609'
+- '194871'
+- '196356'
+- '204759'
+- '221362'
 includes: []
 summary: ''
 paleoenvironment: ''

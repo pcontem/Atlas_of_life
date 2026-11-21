@@ -1,0 +1,133 @@
+name: Heptasuchus
+rank: genus
+parent: paracrocodylomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Dawley et al. 1979
+type_species: Heptasuchus clarki
+type_species_note: Monotypic genus; the only species is the type.
+summary: Heptasuchus is a loricatan pseudosuchian from the Triassic of Wyoming, the first formally recognised rauisuchian
+  from North America.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Heptasuchus clarki
+  authority: Dawley et al. 1979
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Popo Agie
+  group: Chugwater
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: popo-agie-united-states
+fossil_material:
+  holotype: UW 11562, a partial skull and associated postcranial skeleton from the Clark locality north-west of
+    Casper, Wyoming (collected 1977).
+  material: The holotype and paratypes UW 11563-11565 (partial cranial and postcranial remains); the specimens were
+    thought lost until 1997 and mostly reside at the University of Wyoming.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe its discovery and anatomy but give no direct evidence of diet or habits.
+images:
+- kind: life
+  file: Heptasuchus clarki Life Reconstruction Gabriel Ugueto.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/92/Heptasuchus_clarki_Life_Reconstruction_Gabriel_Ugueto.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Heptasuchus_clarki_Life_Reconstruction_Gabriel_Ugueto.png
+  artist: Gabriel N. Ugueto
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-10'
+  caption: Life reconstruction of Heptasuchus clarki.
+  width: 765
+  height: 529
+  review: unreviewed
+  local: img/gallery/Heptasuchus_001.webp
+- kind: fossil
+  file: Heptasuchus clarki holotype skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Heptasuchus_clarki_holotype_skull.png/960px-Heptasuchus_clarki_holotype_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Heptasuchus_clarki_holotype_skull.png
+  artist: Sterling J. Nesbitt, John M. Zawiskie, Robert M. Dawley
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-10-27'
+  caption: Holotype skull of Heptasuchus clarki.
+  width: 2500
+  height: 1636
+  review: unreviewed
+  local: img/gallery/Heptasuchus_002.webp
+- kind: fossil
+  file: Heptasuchus clarki axial elements.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c9/Heptasuchus_clarki_axial_elements.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Heptasuchus_clarki_axial_elements.png
+  artist: Sterling J. Nesbitt, John M. Zawiskie, Robert M. Dawley
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-10-27'
+  caption: Axial elements of Heptasuchus clarki.
+  width: 1553
+  height: 4495
+  review: unreviewed
+  local: img/gallery/Heptasuchus_003.webp
+- kind: fossil
+  file: Heptasuchus clarki fragmentary skull elements.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Heptasuchus_clarki_fragmentary_skull_elements.png/960px-Heptasuchus_clarki_fragmentary_skull_elements.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Heptasuchus_clarki_fragmentary_skull_elements.png
+  artist: Sterling J. Nesbitt, John M. Zawiskie, Robert M. Dawley
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-10-27'
+  caption: Fragmentary skull of Heptasuchus clarki.
+  width: 2969
+  height: 4782
+  review: unreviewed
+  local: img/gallery/Heptasuchus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/694830cf-1e9d-4795-8165-ef7fce9c088d/vector.svg
+  png: https://images.phylopic.org/images/694830cf-1e9d-4795-8165-ef7fce9c088d/raster/512x95.png
+  page: https://www.phylopic.org/images/694830cf-1e9d-4795-8165-ef7fce9c088d
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Poposaurus gracilis
+  matched: Poposauridae
+  genus_level: false
+  w: 512
+  h: 95
+sources:
+- kind: original
+  text: 'Dawley, R.M.; Zawiskie, J.M.; Cosgriff, J.W. 1979. A rauisuchid thecodont from the Upper Triassic Popo
+    Agie Formation of Wyoming. Journal of Paleontology 53(6): 1428–1431.'
+- kind: literature
+  text: Zawiskie, J.M. 2011. The relationships and type locality of ''Heptasuchus clarki'', Popo Agie Formation
+    of the Chugwater Group (Middle to Upper Triassic), Southeastern Big Horn Mountains, Wyoming, USA. Journal of
+    Vertebrate Paleontology 31(Supp. 1). doi:10.1080/02724634.2011.10635174
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Heptasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Heptasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Heptasuchus”. English Wikipedia, revision 1370536566.
+  url: https://en.wikipedia.org/w/index.php?title=Heptasuchus&oldid=1370536566
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB places it in Poposauridae; the backbone places it in Paracrocodylomorpha.
+  - Wikipedia dates the strata to the Middle or Late Triassic (upper Chugwater Group); PBDB gives Carnian (Popo
+    Agie Formation).
+  reviews: []

@@ -1,0 +1,298 @@
+name: Allodaposuchus
+rank: genus
+parent: eusuchia
+incertae_sedis: false
+placement_note: ''
+authority: Nopcsa 1928
+type_species: Allodaposuchus precedens
+type_species_note: ''
+summary: Allodaposuchus is a short-snouted eusuchian crocodylomorph, one of the commonest Late Cretaceous crocodylomorphs
+  of Europe.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 85.7
+  last_ma: 66
+  early_interval: Santonian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 42
+  note: ''
+species:
+- name: Allodaposuchus fontisensis
+  authority: (Narváez et al. 2016)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Allodaposuchus hulki
+  authority: Blanco et al. 2015
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Allodaposuchus iberoarmoricanus
+  authority: Blanco 2021
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Allodaposuchus mechinorum
+  authority: (Narváez et al. 2015)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Allodaposuchus megadontos
+  authority: (Narváez et al. 2015)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Allodaposuchus palustris
+  authority: Blanco et al. 2014
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Allodaposuchus precedens
+  authority: Nopcsa 1928
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Allodaposuchus subjuniperus
+  authority: (Puértolas-Pascual et al. 2013)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 8
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Sînpetru
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 6
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+- formation: Villalba de la Sierra
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 83.6]
+  id: villalba-de-la-sierra-spain
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: sebes-romania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 83.6]
+  id:
+  - unnamed-fox-amphoux-france
+  - unnamed-fox-amphoux-la-bastide-neuve-france
+  - unnamed-velaux-la-bastide-neuve-france
+- formation: Conques
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Aragón, Cataluña, Lleida]
+  interval: Late Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: conques-spain
+- formation: Talarn
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: talarn-spain
+- formation: La Posa
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: la-posa-spain
+- formation: Vitoria
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: vitoria-spain
+- formation: Şard
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sard-romania
+- formation: Grès à Reptiles
+  group: ''
+  members: []
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: gres-a-reptiles-france
+- formation: Grey Garumnian
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: grey-garumnian-spain
+- formation: Ajka Coal
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Veszprém]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: ajka-coal-hungary
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; A. precedens was named by Nopcsa in 1928 from Romania.
+  material: Abundant remains from Romania, Spain and France, representing several species.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted describe its skull anatomy, notably a distinctive cranioquadrate passage, but give
+  no direct evidence of diet.
+images:
+- kind: life
+  file: Allodaposuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Allodaposuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Allodaposuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-21'
+  caption: Life restoration of Allodaposuchus.
+  width: 800
+  height: 338
+  review: unreviewed
+  local: img/gallery/Allodaposuchus_001.webp
+- kind: fossil
+  file: Allodaposuchus precedens.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/79/Allodaposuchus_precedens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Allodaposuchus_precedens.jpg
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2015'
+  caption: Allodaposuchus precedens fossil.
+  width: 775
+  height: 546
+  review: unreviewed
+  local: img/gallery/Allodaposuchus_002.webp
+- kind: life
+  file: Allodaposuchus palustris.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Allodaposuchus_palustris.png/960px-Allodaposuchus_palustris.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Allodaposuchus_palustris.png
+  artist: Alejandro Blanco, Eduardo Puértolas-Pascual, Josep Marmi, Bernat Vila, Albert G. Sellés
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Life restoration of Allodaposuchus palustris.
+  width: 2756
+  height: 2165
+  review: unreviewed
+  local: img/gallery/Allodaposuchus_003.webp
+- kind: fossil
+  file: Allodaposuchus subjuniperus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/78/Allodaposuchus_subjuniperus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Allodaposuchus_subjuniperus.jpg
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2015'
+  caption: Allodaposuchus subjuniperus fossil.
+  width: 884
+  height: 605
+  review: unreviewed
+  local: img/gallery/Allodaposuchus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/vector.svg
+  png: https://images.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2/raster/512x103.png
+  page: https://www.phylopic.org/images/a63a8ba2-6637-4424-8084-045c0be260b2
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Allodaposuchus precedens
+  matched: Allodaposuchus
+  genus_level: true
+  w: 512
+  h: 103
+sources:
+- kind: original
+  text: 'Nopcsa, F 1928. Paleontological notes on Reptilia. 7. Classification of the Crocodilia. Geologica Hungarica,
+    Series Palaeontologica 1: 75–84.'
+- kind: literature
+  text: 'Puértolas-Pascual, E.; Canudo, J.I.; Moreno-Azanza, M. 2014. The eusuchian crocodylomorph ''''Allodaposuchus
+    subjuniperus'''' sp. nov., a new species from the latest Cretaceous (upper Maastrichtian) of Spain. Historical
+    Biology 26(1): 91–109. doi:10.1080/08912963.2012.763034'
+- kind: literature
+  text: 'Martin, J.E. 2010. ''''Allodaposuchus'''' Nopsca, 1928 (Crocodylia, Eusuchia), from the Late Cretaceous
+    of southern France and its relationships to Alligatoroidea. Journal of Vertebrate Paleontology 30(3): 756–767.
+    doi:10.1080/02724631003758318'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Allodaposuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Allodaposuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Allodaposuchus”. English Wikipedia, revision 1384931425.
+  url: https://en.wikipedia.org/w/index.php?title=Allodaposuchus&oldid=1384931425
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Generally classified as a non-crocodylian eusuchian but sometimes placed among the earliest true crocodylians
+    - placement to be checked.
+  - PBDB places it in Allodaposuchidae.
+  reviews: []

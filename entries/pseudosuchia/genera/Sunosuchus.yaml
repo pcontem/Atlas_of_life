@@ -1,0 +1,156 @@
+name: Sunosuchus
+rank: genus
+parent: goniopholididae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1948
+type_species: Sunosuchus miaoi
+type_species_note: The English Wikipedia lead names S. miaoi as the type species.
+summary: Sunosuchus is a long-snouted goniopholidid crocodyliform of the Jurassic of China, Kyrgyzstan and Thailand.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 170.9
+  last_ma: 143.1
+  early_interval: Bajocian
+  late_interval: Tithonian
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Sunosuchus junggarensis
+  authority: Wu et al. 1996
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: ''
+- name: Sunosuchus miaoi
+  authority: Young 1948
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+- name: Sunosuchus shunanensis
+  authority: Fu et al. 2005
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: ''
+formations:
+- formation: Qigu
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Late Oxfordian–Kimmeridgian
+  occurrences: 3
+  ma: [149.2, 157.9]
+  id: qigu-china
+- formation: Balabansai
+  group: ''
+  members: []
+  country: Kyrgyzstan
+  regions: [Jalal-Abad]
+  interval: Callovian
+  occurrences: 2
+  ma: [161.5, 165.3]
+  id: balabansai-kyrgyzstan
+- formation: Xiangtang
+  group: ''
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Late Jurassic
+  occurrences: 2
+  ma: [143.1, 161.5]
+  id: xiangtang-china
+- formation: Shishugou
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: shishugou-china
+- formation: Shaximiao
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+- formation: Toutunhe
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Callovian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 165.3]
+  id: toutunhe-china
+- formation: Ulan Malgait
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Govi-Altay]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: ulan-malgait-mongolia
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; S. miaoi was named by Young in 1948.
+  material: Material of several species from China, plus unassigned remains from Kyrgyzstan collected in the 1980s
+    and Thai remains.
+  completeness: multiple
+  exceptional: ''
+biology: A long, narrow snout, a small skull table and a long mandibular symphysis are characteristic; the sources
+  consulted give no direct evidence of diet.
+images:
+- kind: fossil
+  file: Sunosuchus thailandicus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Sunosuchus_thailandicus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sunosuchus_thailandicus.jpg
+  artist: Thomas J.D. Halliday, Marco Brandalise De Andrade, Michael J. Benton, and Mikhail B. Efimov
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2013'
+  caption: Sunosuchus thailandicus fossil.
+  width: 1081
+  height: 653
+  review: unreviewed
+  local: img/gallery/Sunosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Goniopholididae
+  genus_level: false
+sources:
+- kind: original
+  text: C. -C. Young. 1948. Fossil crocodiles in China, with notes on dinosaurian remains associated with the Kansu
+    crocodiles. Bulletin of the Geological Society of China 28(3-4):255-288
+- kind: literature
+  text: 'Averianov, A.O. 2000. ''''Sunosuchus'''' sp. (Crocodylomorpha, Goniopholididae) from the Middle Jurassic
+    of Kirghisia. Journal of Vertebrate Paleontology 20(4): 776–779. doi:10.1671/0272-4634(2000)020[0776:SSCGFT]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sunosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sunosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sunosuchus”. English Wikipedia, revision 1367334449.
+  url: https://en.wikipedia.org/w/index.php?title=Sunosuchus&oldid=1367334449
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia counts four species (S. miaoi, S. junggarensis, S. shartegensis and S. thailandicus); PBDB lists miaoi,
+    junggarensis and shunanensis.
+  - Some material may be Early Cretaceous.
+  reviews: []

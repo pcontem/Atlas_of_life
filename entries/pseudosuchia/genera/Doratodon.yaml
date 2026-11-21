@@ -1,0 +1,230 @@
+name: Doratodon
+rank: genus
+parent: sebecosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Seeley 1881
+type_species: Doratodon carcharidens
+type_species_note: ''
+summary: Doratodon is a small ziphodont crocodylomorph of the Late Cretaceous of Europe, once classed as a sebecosuchian.
+size:
+  length_m: null
+  note: Described as relatively small; no length is given in the sources consulted.
+age:
+  first_ma: 85.7
+  last_ma: 56
+  early_interval: Santonian
+  late_interval: Thanetian
+  pbdb_occurrences: 21
+  note: ''
+species:
+- name: Doratodon carcharidens
+  authority: (Bunzel 1871)
+  first_ma: 85.7
+  last_ma: 66
+  interval: Santonian–Maastrichtian
+  reference: original description
+- name: Doratodon ibericus
+  authority: Company et al. 2005
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 7
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Jibou
+  group: ''
+  members: [Rona]
+  country: Romania
+  regions: []
+  interval: Thanetian
+  occurrences: 3
+  ma: [56.0, 59.24]
+  id: jibou-romania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: unnamed-nocea-coal-mine-dump-romania
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Sierra Perenchiza
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valencia]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: sierra-perenchiza-spain
+- formation: Csehbánya
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Veszprém]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: csehbanya-hungary
+- formation: Şard
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sard-romania
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sebes-romania
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+- formation: Sînpetru
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; the first remains were found by Eduard Suess in
+    a coal mine and named by Seeley in 1881.
+  material: D. carcharidens from Austria (Grünbach Formation), Italy and Hungary, and D. ibericus from Spain; many
+    teeth and jaws from Romania are recorded in PBDB.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its teeth were ziphodont, with flattened sides and serrated edges; it is an indicator of faunal exchange
+  between Europe and Africa in the Cretaceous.
+images:
+- kind: life
+  file: Doratodon carcharidens from Villaggio del Pescatore.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Doratodon_carcharidens_from_Villaggio_del_Pescatore.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Doratodon_carcharidens_from_Villaggio_del_Pescatore.png
+  artist: Simone Muscioni and Marco Muscioni
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-06'
+  caption: Life restoration of Doratodon carcharidens.
+  width: 1080
+  height: 955
+  review: unreviewed
+  local: img/gallery/Doratodon_001.webp
+- kind: fossil
+  file: Doratodon carcharidens mandible.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/08/Doratodon_carcharidens_mandible.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Doratodon_carcharidens_mandible.png
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-01-08'
+  caption: Mandible of Doratodon carcharidens.
+  width: 795
+  height: 416
+  review: unreviewed
+  local: img/gallery/Doratodon_002.webp
+- kind: fossil
+  file: Doratodon cf. carcharidens dentition.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/42/Doratodon_cf._carcharidens_dentition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Doratodon_cf._carcharidens_dentition.jpg
+  artist: Marco Muscioni, Alfio Alessandro Chiarenza, Cecily S C Nicholl, Tullio Perentin, Diego Dreossi, Federico
+    Fanti
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-05'
+  caption: Dentition of Doratodon cf. carcharidens.
+  width: 520
+  height: 501
+  review: unreviewed
+  local: img/gallery/Doratodon_003.webp
+- kind: fossil
+  file: Doratodon ibericus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Doratodon_ibericus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Doratodon_ibericus.png
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-01-08'
+  caption: Doratodon ibericus fossil.
+  width: 418
+  height: 180
+  review: unreviewed
+  local: img/gallery/Doratodon_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/vector.svg
+  png: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/raster/512x131.png
+  page: https://www.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Comahuesuchus brachybuccalis
+  matched: Sebecosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Seeley, H. G. 1881. The Reptile Fauna of the Gosau Formation preserved in the Geological Museum of the
+    University of Vienna. Quarterly Journal of the Geological Society 37(1–4): 620–706. doi:10.1144/GSL.JGS.1881.037.01-04.49'
+- kind: literature
+  text: Muscioni, Marco; Chiarenza, Alfio Alessandro; Nicholl, Cecily S C; Perentin, Tullio; Dreossi, Diego; Fanti,
+    Federico 2025. A ziphodont crocodylomorph from Villaggio del Pescatore Lagerstätte (Campanian, Italy). Zoological
+    Journal of the Linnean Society 205(4). doi:10.1093/zoolinnean/zlaf171
+- kind: literature
+  text: Szegszárdi, M.; Ősi, A.; Rabi, M. 2026. Cretaceous crocodyliform reconciles conflicting evidence on the
+    Mesozoic paleogeography of Europe during the Gondwana-Laurasia split. Scientific Reports 16. doi:10.1038/s41598-025-28504-6
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Doratodon (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Doratodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Doratodon”. English Wikipedia, revision 1371223001.
+  url: https://en.wikipedia.org/w/index.php?title=Doratodon&oldid=1371223001
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - A 2026 study (Szegszárdi et al.) suggests it may be a paralligatorid rather than a sebecosuchian - placement
+    to be checked.
+  reviews: []

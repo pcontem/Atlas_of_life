@@ -1,0 +1,153 @@
+name: Shuvosaurus
+rank: genus
+parent: shuvosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Chatterjee 1993
+type_species: Shuvosaurus inexpectatus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Shuvosaurus is a beaked, bipedal poposauroid pseudosuchian of the Late Triassic of western Texas that resembles
+  an ostrich-like dinosaur.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 22
+  note: ''
+species:
+- name: Shuvosaurus inexpectatus
+  authority: Chatterjee 1993
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Blue Mesa, Mesa Redondo, Owl Rock, Petrified Forest]
+  country: United States
+  regions: [Arizona]
+  interval: Norian–Rhaetian
+  occurrences: 14
+  ma: [201.4, 227.3]
+  id: chinle-united-states
+- formation: Bull Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 3
+  ma: [205.7, 227.3]
+  id: bull-canyon-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 3
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+- formation: Garita Creek
+  group: Chinle
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: garita-creek-united-states
+- formation: Colorado City
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 1
+  ma: [205.7, 237.0]
+  id: colorado-city-united-states
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; collected in 1984 and described by Chatterjee in
+    1993.
+  material: Abundant remains from the Chinle, Bull Canyon, Cooper Canyon and Garita Creek formations of the United
+    States.
+  completeness: multiple
+  exceptional: ''
+biology: It resembled an ornithomimid theropod but is more closely related to crocodilians; it was named for Chatterjee's
+  son Shuvo, who prepared it.
+images:
+- kind: life
+  file: Shuvosaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Shuvosaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Shuvosaurus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-16'
+  caption: Shuvosaurus restoration (Bogdanov).
+  width: 800
+  height: 355
+  review: unreviewed
+  local: img/gallery/Shuvosaurus_001.webp
+- kind: life
+  file: Shuvosaurus inexpectatus シュヴォサウルス・イネクスペクタートゥス.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Shuvosaurus_inexpectatus_%E3%82%B7%E3%83%A5%E3%83%B4%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9%E3%83%BB%E3%82%A4%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A5%E3%82%B9.jpg/960px-Shuvosaurus_inexpectatus_%E3%82%B7%E3%83%A5%E3%83%B4%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9%E3%83%BB%E3%82%A4%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A5%E3%82%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Shuvosaurus_inexpectatus_%E3%82%B7%E3%83%A5%E3%83%B4%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9%E3%83%BB%E3%82%A4%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A5%E3%82%B9.jpg
+  artist: Solanohikali
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-10'
+  caption: Shuvosaurus inexpectatus in life.
+  width: 7017
+  height: 3661
+  review: unreviewed
+  local: img/gallery/Shuvosaurus_002.webp
+- kind: fossil
+  file: Shuvosaurus head BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/60/Shuvosaurus_head_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Shuvosaurus_head_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-16'
+  caption: Head of Shuvosaurus.
+  width: 800
+  height: 472
+  review: unreviewed
+  local: img/gallery/Shuvosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9/vector.svg
+  png: https://images.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9/raster/512x127.png
+  page: https://www.phylopic.org/images/4bda6b83-3ff1-4cd8-846e-cb9b5572dac9
+  attribution: PaleoNeolitic
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Sillosuchus longicervix
+  matched: Shuvosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chatterjee, S. 1993. ''''Shuvosaurus'''', a new theropod: an unusual theropod dinosaur from the Triassic
+    of Texas. National Geographic Research and Exploration 9(3): 274–285.'
+- kind: literature
+  text: 'Rasmussen, C.; Mundil, R.; Irmis, R. B.; Geisler, D.; Gehrels, G. E.; Olsen, P. E.; Kent, D. V.; Lepre,
+    C.; Kinney, S. T.; Geissman, J. W.; Parker, W. G. 2020. U-Pb zircon geochronology and depositional age models
+    for the Upper Triassic Chinle Formation (Petrified Forest National Park, Arizona, USA): Implications for Late
+    Triassic paleoecological and paleoenvironmental change. GSA Bulletin 133(3–4): 539–558. doi:10.1130/B35485.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shuvosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shuvosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shuvosaurus”. English Wikipedia, revision 1361241061.
+  url: https://en.wikipedia.org/w/index.php?title=Shuvosaurus&oldid=1361241061
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Originally described as a theropod dinosaur (Chatterjee 1993).]
+  reviews: []

@@ -1,0 +1,104 @@
+name: Lotosaurus
+rank: genus
+parent: poposauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Zhang 1975
+type_species: Lotosaurus adentus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Lotosaurus is a heavily built, sail-backed poposauroid from the Middle Triassic of Hunan Province, China.
+size:
+  length_m: [1.5, 2.5]
+  note: 1.5-2.5 m long (Wikipedia).
+age:
+  first_ma: 247
+  last_ma: 241.464
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 2
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Lotosaurus adentus
+  authority: Zhang 1975
+  first_ma: 247
+  last_ma: 241.464
+  interval: ''
+  reference: original description
+formations:
+- formation: Xinlingzhen
+  group: Badong
+  members: []
+  country: China
+  regions: [Hubei, Hunan]
+  interval: Anisian
+  occurrences: 2
+  ma: [241.464, 247.0]
+  id: xinlingzhen-china
+fossil_material:
+  holotype: IVPP V 4881 (possibly V 4880), an articulated, well-preserved skeleton.
+  material: The holotype, a referred skull (IVPP V 48013) and many articulated and disarticulated remains from a
+    bonebed made almost entirely of Lotosaurus.
+  completeness: multiple
+  exceptional: ''
+biology: A heavily built quadruped with a back sail; the bonebed suggests many individuals died together (Hagen
+  et al. 2018 discuss its taphonomy).
+images:
+- kind: life
+  file: Lotosaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/31/Lotosaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lotosaurus_BW.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: Jan 7, 200
+  caption: Lotosaurus restoration.
+  width: 800
+  height: 437
+  review: unreviewed
+  local: img/gallery/Lotosaurus_001.webp
+- kind: skeletal
+  file: Lotosaurus-Beijing Museum of Natural History.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Lotosaurus-Beijing_Museum_of_Natural_History.jpg/960px-Lotosaurus-Beijing_Museum_of_Natural_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lotosaurus-Beijing_Museum_of_Natural_History.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-13'
+  caption: Mounted skeleton of Lotosaurus.
+  width: 2481
+  height: 1305
+  review: unreviewed
+  local: img/gallery/Lotosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/f36f1127-2a74-4d17-aa9a-ec73e63b80c2/vector.svg
+  png: https://images.phylopic.org/images/f36f1127-2a74-4d17-aa9a-ec73e63b80c2/raster/512x126.png
+  page: https://www.phylopic.org/images/f36f1127-2a74-4d17-aa9a-ec73e63b80c2
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mandasuchus tanyauchen
+  matched: Poposauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: F.-K. Zhang. 1975. A new thecodont Lotosaurus, from Middle Triassic of Hunan. Vertebrata PalAsiatica 13:144-147
+- kind: literature
+  text: 'Sterling J. Nesbitt 2011. The Early Evolution of Archosaurs: Relationships and the Origin of Major Clades.
+    Bulletin of the American Museum of Natural History 352: 1–292. doi:10.1206/352.1'
+- kind: literature
+  text: 'Hagen, Cedric J.; Roberts, Eric M.; Sullivan, Corwin; Liu, Jun; Wang, Yanyin; Agyemang, Prince C. Owusu;
+    Xu, Xing 2018. Taphonomy, geological age, and paleobiogeography of lotosaurus adentus (archosauria: poposauroidea)
+    from the middle-upper triassic badong formation, hunan, china. PALAIOS 33(3): 106–124. doi:10.2110/palo.2017.084'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lotosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lotosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lotosaurus”. English Wikipedia, revision 1364380303.
+  url: https://en.wikipedia.org/w/index.php?title=Lotosaurus&oldid=1364380303
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Originally placed in its own family Lotosauridae (Zhang 1975); original paper to be added.
+  reviews: []

@@ -1,0 +1,31 @@
+id: balabansai-kyrgyzstan
+name: Balabansai
+rank: formation
+group: ''
+country: Kyrgyzstan
+regions: [Jalal-Abad]
+location:
+  lat: 41.336
+  lng: 72.239
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [lagoonal, fluvial indet.]
+lithology: [claystone, sandstone]
+pbdb_collections: ['37596', '46545']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Balabansai (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Balabansai
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

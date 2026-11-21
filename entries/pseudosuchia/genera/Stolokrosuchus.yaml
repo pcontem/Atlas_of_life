@@ -1,0 +1,94 @@
+name: Stolokrosuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Larsson and Gado 2000
+type_species: Stolokrosuchus lapparenti
+type_species_note: Monotypic genus; the only species is the type.
+summary: Stolokrosuchus is a crocodyliform with a gharial-like tubular snout from the Early Cretaceous Elrhaz Formation
+  of Niger.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Stolokrosuchus lapparenti
+  authority: Larsson and Gado 2000
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 3
+  ma: [100.5, 121.4]
+  id: elrhaz-niger
+fossil_material:
+  holotype: MNN GDF600, an almost complete skull, with a right angular and a left mandible found nearby.
+  material: The holotype plus isolated teeth from the same site.
+  completeness: fragmentary
+  exceptional: ''
+biology: The narrow, highly elongated snout resembles that of living gharials; the sources consulted give no direct
+  evidence of diet.
+images:
+- kind: fossil
+  file: Stolokrosuchus lapparenti tooth.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Stolokrosuchus_lapparenti_tooth.jpg/960px-Stolokrosuchus_lapparenti_tooth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stolokrosuchus_lapparenti_tooth.jpg
+  artist: Harold9595959
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025-03-05'
+  caption: Tooth of Stolokrosuchus lapparenti.
+  width: 1880
+  height: 864
+  review: unreviewed
+  local: img/gallery/Stolokrosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: H. C. E. Larsson and B. Gado. 2000. A new Early Cretaceous crocodyliform from Niger. Neues Jahrbuch für
+    Geologie und Paläontologie - Abhandlungen 217(1):131-141
+- kind: literature
+  text: 'Larrson, Hans C. E. 2000. A new early Cretaceous crocodyliform from Niger. Neues Jahrbuch für Geologie
+    und Paläontologie, Abhandlungen 217(1): 131–141. doi:10.1127/njgpa/217/2000/131'
+- kind: literature
+  text: 'Turner, A.H.; Buckley, G.A. 2008. Mahajangasuchus insignis (Crocodyliformes:Mesoeucrocodylia) cranial anatomy
+    and new data on the origin of the eusuchian-style palate. Journal of Vertebrate Paleontology 28(2): 382–408.
+    doi:10.1671/0272-4634(2008)28[382:MICMCA]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stolokrosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stolokrosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stolokrosuchus”. English Wikipedia, revision 1368891065.
+  url: https://en.wikipedia.org/w/index.php?title=Stolokrosuchus&oldid=1368891065
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Originally placed in Peirosauridae; later studies recovered it as possibly closely related to other groups -
+    placement to be checked.
+  - Original naming work is Larsson and Gado 2000 (PBDB).
+  reviews: []

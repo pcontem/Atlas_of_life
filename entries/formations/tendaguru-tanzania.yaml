@@ -5,16 +5,16 @@ group: ''
 country: Tanzania
 regions: [Lindi]
 location:
-  lat: -9.705
+  lat: -9.704
   lng: 39.228
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 149.2
+  first_ma: 152.21
   last_ma: 143.1
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [estuary/bay]
-lithology: [sandstone, not reported, marl]
-pbdb_collections: ['47154', '47160', '89996']
+environment: [estuary/bay, channel lag]
+lithology: [not reported, marl, siltstone, sandstone]
+pbdb_collections: ['47146', '47154', '47160', '89996']
 includes: []
 summary: ''
 paleoenvironment: ''

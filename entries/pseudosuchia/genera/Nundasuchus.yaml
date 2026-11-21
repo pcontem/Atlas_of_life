@@ -1,0 +1,105 @@
+name: Nundasuchus
+rank: genus
+parent: pseudosuchia
+incertae_sedis: true
+placement_note: Analyses cited by the English Wikipedia (Nesbitt et al. 2014; Ezcurra 2016) place it variously as
+  a suchian related to Paracrocodylomorpha or near the base of Pseudosuchia, so it is placed in Pseudosuchia.
+authority: Nesbitt et al. 2014
+type_species: Nundasuchus songeaensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Nundasuchus is a crurotarsan archosaur from the Middle Triassic Manda beds of Tanzania, with an upright
+  limb posture.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 247
+  last_ma: 241.464
+  early_interval: Anisian
+  late_interval: Anisian
+  pbdb_occurrences: 1
+  note: Interval names taken from the ICS chart for the PBDB age bounds, which carry no named interval.
+species:
+- name: Nundasuchus songeaensis
+  authority: Nesbitt et al. 2014
+  first_ma: 247
+  last_ma: 241.464
+  interval: ''
+  reference: original description
+formations:
+- formation: Manda Beds
+  group: ''
+  members: [Lifua]
+  country: Tanzania
+  regions: [Ruvuma]
+  interval: Anisian
+  occurrences: 1
+  ma: [241.464, 247.0]
+  id: manda-beds-tanzania
+fossil_material:
+  holotype: A single partially complete skeleton (vertebrae, limb elements, osteoderms and skull fragments) from
+    the Manda beds; catalogue number not given in the sources consulted.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Its legs were held directly beneath the body, as in many early pseudosuchians but unlike living crocodilians.
+images:
+- kind: life
+  file: Nundasuchus Songeaensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/17/Nundasuchus_Songeaensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nundasuchus_Songeaensis.png
+  artist: Aquakeeper14
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-03-10'
+  caption: Life restoration of Nundasuchus songeaensis.
+  width: 962
+  height: 307
+  review: unreviewed
+  local: img/gallery/Nundasuchus_001.webp
+- kind: skeletal
+  file: Nundasuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Nundasuchus_skeletal.png/960px-Nundasuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nundasuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-10'
+  caption: Skeletal reconstruction of Nundasuchus.
+  width: 7786
+  height: 4683
+  review: unreviewed
+  local: img/gallery/Nundasuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/vector.svg
+  png: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/raster/512x126.png
+  page: https://www.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Nundasuchus songeaensis
+  matched: Pseudosuchia
+  genus_level: false
+  w: 512
+  h: 126
+sources:
+- kind: original
+  text: 'Nesbitt, Sterling J.; Sidor, Christian A.; Angielczyk, Kenneth D.; Smith, Roger M. H.; Tsuji, Linda A.
+    Nove. A new archosaur from the Manda beds (Anisian, Middle Triassic) of southern Tanzania and its implications
+    for character state optimizations at Archosauria and Pseudosuchia. Journal of Vertebrate Paleontology 34(6):
+    1357–1382. doi:10.1080/02724634.2014.859622'
+- kind: literature
+  text: Ezcurra, Martín D. 2016. The phylogenetic relationships of basal archosauromorphs, with an emphasis on the
+    systematics of proterosuchian archosauriforms. PeerJ 4. doi:10.7717/peerj.1778
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nundasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nundasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nundasuchus”. English Wikipedia, revision 1337090784.
+  url: https://en.wikipedia.org/w/index.php?title=Nundasuchus&oldid=1337090784
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

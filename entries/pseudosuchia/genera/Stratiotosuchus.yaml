@@ -1,0 +1,109 @@
+name: Stratiotosuchus
+rank: genus
+parent: baurusuchidae
+incertae_sedis: false
+placement_note: ''
+authority: Campos et al. 2001
+type_species: Stratiotosuchus maxhechti
+type_species_note: Monotypic genus; the only species is the type.
+summary: Stratiotosuchus is an extinct baurusuchid crocodyliform from the Late Cretaceous Adamantina Formation of
+  Brazil, with one of the largest known baurusuchid skulls.
+size:
+  length_m: null
+  note: The holotype skull is 47 cm long, among the largest of the group; no body length is given in the sources
+    consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Stratiotosuchus maxhechti
+  authority: Campos et al. 2001
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: A robust, laterally compressed skull 47 cm long from a mature individual; specimen number not given
+    in the sources consulted.
+  material: The holotype skull, found in the 1980s and named in 2001, plus later referred material including a juvenile.
+  completeness: partial
+  exceptional: ''
+biology: Its ziphodont teeth (curved, serrated, laterally compressed) and robust skull suggest a hyperpredator that,
+  like other baurusuchids, may have filled niches held by theropods elsewhere.
+images:
+- kind: life
+  file: Stratiotosuchus maxhechti.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Stratiotosuchus_maxhechti.jpg/960px-Stratiotosuchus_maxhechti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stratiotosuchus_maxhechti.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-02-23'
+  caption: Life restoration of Stratiotosuchus maxhechti.
+  width: 2160
+  height: 1696
+  review: unreviewed
+  local: img/gallery/Stratiotosuchus_001.webp
+- kind: skeletal
+  file: Stratiotosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Stratiotosuchus_skeletal.png/960px-Stratiotosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stratiotosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-28'
+  caption: Skeletal reconstruction of Stratiotosuchus beside a human silhouette.
+  width: 6468
+  height: 3753
+  review: unreviewed
+  local: img/gallery/Stratiotosuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3e436cff-6601-4629-a99e-ba0adeec3472/vector.svg
+  png: https://images.phylopic.org/images/3e436cff-6601-4629-a99e-ba0adeec3472/raster/512x164.png
+  page: https://www.phylopic.org/images/3e436cff-6601-4629-a99e-ba0adeec3472
+  attribution: Caio Bernardes, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Stratiotosuchus maxhechti
+  matched: Stratiotosuchus
+  genus_level: true
+  w: 512
+  h: 164
+sources:
+- kind: original
+  text: 'Campos, D.A. 2001. Short note on a new Baurusuchidae (Crocodyliformes, Metasuchia) from the Upper Cretaceous
+    of Brazil. Boletim do Museu Nacional (Rio de Janeiro), Geologia 57: 1–7.'
+- kind: literature
+  text: 'Piacentini Pinheiro, André Eduardo; Bertini, Reinaldo J.; Brandalise de Andrade, Marco; Martins Neto, Rafael
+    Gióia 2008. A new specimen of Stratiotosuchus maxhechti (Baurusuchidae, Crocodyliformes) from the Adamantina
+    Formation (Upper Cretaceous), southeastern Brazil. Revista Brasileira de Paleontologia 11(1): 37–50. doi:10.4072/rbp.2008.1.04'
+- kind: literature
+  text: 'Riff, D. 2011. Baurusuchid crocodyliforms as theropod mimics: clues from the skull and appendicular morphology
+    of Stratiotosuchus maxhechti (Upper Cretaceous of Brazil). Zoological Journal of the Linnean Society 163(s1):
+    s37–s56. doi:10.1111/j.1096-3642.2011.00713.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stratiotosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stratiotosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stratiotosuchus”. English Wikipedia, revision 1323878720.
+  url: https://en.wikipedia.org/w/index.php?title=Stratiotosuchus&oldid=1323878720
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Specimen number of the holotype to be added from Campos et al. 2001.]
+  reviews: []

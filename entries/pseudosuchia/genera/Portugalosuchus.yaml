@@ -1,0 +1,92 @@
+name: Portugalosuchus
+rank: genus
+parent: gavialoidea
+incertae_sedis: false
+placement_note: ''
+authority: Mateus et al. 2019
+type_species: Portugalosuchus azenhae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Portugalosuchus is a eusuchian crocodyliform from the Late Cretaceous Tentúgal Formation of Portugal, possibly
+  the oldest known crocodylian.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Portugalosuchus azenhae
+  authority: Mateus et al. 2019
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Tentúgal
+  group: ''
+  members: [Lower]
+  country: Portugal
+  regions: []
+  interval: Late Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: tentugal-portugal
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft; described by Mateus et al. in 2018-2019.
+  material: Not detailed in the sources consulted.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no information on its biology.
+images:
+- kind: life
+  file: Portugalosuchus azenhae.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/99/Portugalosuchus_azenhae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Portugalosuchus_azenhae.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-09'
+  caption: Life restoration of Portugalosuchus azenhae.
+  width: 739
+  height: 465
+  review: unreviewed
+  local: img/gallery/Portugalosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/vector.svg
+  png: https://images.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76/raster/512x78.png
+  page: https://www.phylopic.org/images/f1a14495-1852-4a81-bafb-a58fa9cc7f76
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: pan-Tomistoma
+  matched: Gavialidae
+  genus_level: false
+sources:
+- kind: original
+  text: O. Mateus, E. Puértolas-Pascual, and P. M. Callapez. 2019. A new eusuchian crocodylomorph from the Cenomanian
+    (Late Cretaceous) of Portugal reveals novel implications on the origin of Crocodylia. Zoological Journal of
+    the Linnean Society 186(2):501-528
+- kind: literature
+  text: 'Octávio Mateus 2018. A new eusuchian crocodylomorph from the Cenomanian (Late Cretaceous) of Portugal reveals
+    novel implications on the origin of Crocodylia. Zoological Journal of the Linnean Society 186(2): 501–528. doi:10.1093/zoolinnean/zly064'
+- kind: literature
+  text: Darlim, G.; Lee, M. S. Y.; Walter, J.; Rabi, M. 2022. The impact of molecular data on the phylogenetic position
+    of the putative oldest crown crocodilian and the age of the clade. Biology Letters 18(2). doi:10.1098/rsbl.2021.0603
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Portugalosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Portugalosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Portugalosuchus”. English Wikipedia, revision 1365539154.
+  url: https://en.wikipedia.org/w/index.php?title=Portugalosuchus&oldid=1365539154
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - A 2021 study recovered it in Gavialidae near the thoracosaurs; other analyses place it as a basal crocodylian.
+  - Holotype and material to be added from Mateus et al. 2019.
+  reviews: []

@@ -1,0 +1,31 @@
+id: chanares-argentina
+name: Chañares
+rank: formation
+group: Agua de la Peña
+country: Argentina
+regions: [La Rioja]
+location:
+  lat: -29.832
+  lng: -67.802
+  basis: median of 4 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 241.464
+  last_ma: 72.2
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [fluvial-lacustrine indet., terrestrial indet.]
+lithology: [not reported, claystone]
+pbdb_collections: ['13003', '26092', '60293', '60296']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Chañares (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Chañares
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

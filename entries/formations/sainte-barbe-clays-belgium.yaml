@@ -1,0 +1,32 @@
+id: sainte-barbe-clays-belgium
+name: Sainte-Barbe Clays
+rank: formation
+group: Wealden
+country: Belgium
+regions: [Hainaut]
+location:
+  lat: 50.476
+  lng: 3.65
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [lacustrine - small]
+lithology: [claystone]
+pbdb_collections: ['22645']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Sainte-Barbe Clays (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Sainte-Barbe+Clays
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

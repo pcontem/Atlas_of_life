@@ -1,0 +1,103 @@
+name: Sichuanosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Peng 1995
+type_species: Sichuanosuchus huidongensis
+type_species_note: Deduced - the first species, named together with the genus by Peng in 1995; PBDB gives no type
+  species.
+summary: Sichuanosuchus is an extinct crocodyliform from the Late Jurassic and possibly Early Cretaceous of China,
+  related to the shartegosuchids.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sichuanosuchus huidongensis
+  authority: Peng 1995
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+- name: Sichuanosuchus shuhanensis
+  authority: Wu et al. 1997
+  first_ma: 143.1
+  last_ma: 100.5
+  interval: Berriasian–Albian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Sichuan]
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: unnamed-sichuan-basin-china
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: shaximiao-china
+fossil_material:
+  holotype: Not stated in the sources consulted for this draft.
+  material: Not detailed in the sources consulted; two species (S. huidongensis and S. shuhanensis) are listed by
+    PBDB.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no information on its biology.
+images:
+- kind: life
+  file: Sichuanosuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/15/Sichuanosuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sichuanosuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-26'
+  caption: Life restoration of Sichuanosuchus.
+  width: 800
+  height: 232
+  review: unreviewed
+  local: img/gallery/Sichuanosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/vector.svg
+  png: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/raster/512x96.png
+  page: https://www.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8
+  attribution: Nobu Tamura
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Sichuanosuchus huidongensis
+  matched: Sichuanosuchus
+  genus_level: true
+  w: 512
+  h: 96
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sichuanosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sichuanosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sichuanosuchus”. English Wikipedia, revision 1282989763.
+  url: https://en.wikipedia.org/w/index.php?title=Sichuanosuchus&oldid=1282989763
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Placed in Crocodyliformes because the volume has no Shartegosuchoidea entry; analyses find it sister to Shantungosuchus
+    and Zosuchus (Pol and Norell 2004; Buscalioni 2017; Dollman et al. 2018).
+  - Material, holotype and original naming work (Peng 1995) to be added.
+  - PBDB reference is a different paper.
+  reviews: []

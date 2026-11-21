@@ -1,0 +1,247 @@
+name: Sebecus
+rank: genus
+parent: sebecidae
+incertae_sedis: false
+placement_note: ''
+authority: Stirton 1953
+type_species: Sebecus icaeorhinus
+type_species_note: ''
+summary: Sebecus is a terrestrial carnivorous sebecid crocodylomorph from the Paleogene of South America.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 66
+  last_ma: 3.6
+  early_interval: Danian
+  late_interval: Zanclean
+  pbdb_occurrences: 23
+  note: ''
+species:
+- name: Sebecus ayrampu
+  authority: Bravo et al. 2021
+  first_ma: 61.66
+  last_ma: 56
+  interval: Selandian–Thanetian
+  reference: ''
+- name: Sebecus carajazus
+  authority: Gasparini et al. 1993
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: ''
+- name: Sebecus huilensis
+  authority: (Langston 1965)
+  first_ma: 13.8
+  last_ma: 11
+  interval: Serravallian–Tortonian
+  reference: ''
+- name: Sebecus icaeorhinus
+  authority: Simpson 1937
+  first_ma: 56
+  last_ma: 37.71
+  interval: Ypresian–Bartonian
+  reference: original description
+- name: Sebecus querejazus
+  authority: (Buffetaut and Marshall 1991)
+  first_ma: 66
+  last_ma: 61.66
+  interval: Danian
+  reference: ''
+formations:
+- formation: Sarmiento
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Casamayoran–Middle Eocene
+  occurrences: 5
+  ma: [37.71, 56.0]
+  id: sarmiento-argentina
+- formation: Pozo
+  group: ''
+  members: [Gran Barranca, Pozo Shale, lower]
+  country: Peru
+  regions: [Loreto, San Martín]
+  interval: Middle Eocene–Rupelian
+  occurrences: 4
+  ma: [27.3, 48.07]
+  id: pozo-peru
+- formation: Lumbrera
+  group: Salta
+  members: [Lower, Upper]
+  country: Argentina
+  regions: [Salta]
+  interval: Ypresian–Middle Eocene
+  occurrences: 3
+  ma: [37.71, 56.0]
+  id: lumbrera-argentina
+- formation: Unnamed unit
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila, Tolima]
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: honda-group-colombia
+- formation: Villavieja
+  group: Honda
+  members: [Baraya]
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 2
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Chambira
+  group: ''
+  members: []
+  country: Peru
+  regions: [Loreto]
+  interval: Chattian
+  occurrences: 2
+  ma: [23.04, 27.3]
+  id: chambira-peru
+- formation: Santa Lucía
+  group: ''
+  members: []
+  country: Bolivia
+  regions: []
+  interval: Danian
+  occurrences: 1
+  ma: [61.66, 66.0]
+  id: santa-lucia-bolivia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Laventan
+  occurrences: 1
+  ma: [11.0, 13.8]
+  id: unnamed-dtc-32-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Lutetian–Bartonian
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: unnamed-rio-chico-oeste-argentina
+- formation: Mealla
+  group: Santa Bárbara
+  members: []
+  country: Argentina
+  regions: [Jujuy]
+  interval: Selandian–Thanetian
+  occurrences: 1
+  ma: [56.0, 61.66]
+  id: mealla-argentina
+- formation: Yanigüa-Los Haitises
+  group: ''
+  members: [Upper]
+  country: Dominican Republic
+  regions: []
+  interval: Messinian–Zanclean
+  occurrences: 1
+  ma: [3.6, 7.246]
+  id: yanigua-los-haitises-dominican-republic
+fossil_material:
+  holotype: Not confirmed here; casts of AMNH 3160 are shown on Commons; the genus was named in the 1930s-1950s
+    literature.
+  material: Relatively complete fossil material, used to define the Sebecidae and Sebecosuchia; remains from Argentina,
+    Peru, Colombia and elsewhere.
+  completeness: multiple
+  exceptional: ''
+biology: Like other sebecosuchians it was entirely terrestrial and carnivorous.
+images:
+- kind: life
+  file: Sebecus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Sebecus.jpg/960px-Sebecus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sebecus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011'
+  caption: Life restoration of Sebecus.
+  width: 2017
+  height: 672
+  review: unreviewed
+  local: img/gallery/Sebecus_001.webp
+- kind: skeletal
+  file: Sebecus composite skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Sebecus_composite_skeletal.png/960px-Sebecus_composite_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sebecus_composite_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-03'
+  caption: Composite skeletal reconstruction of Sebecus.
+  width: 4727
+  height: 1468
+  review: unreviewed
+  local: img/gallery/Sebecus_002.webp
+- kind: fossil
+  file: Sebecus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sebecus_skeleton.jpg/960px-Sebecus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sebecus_skeleton.jpg
+  artist: Rextron
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-11-30'
+  caption: Sebecus skeleton.
+  width: 5200
+  height: 1753
+  review: unreviewed
+  local: img/gallery/Sebecus_003.webp
+- kind: fossil
+  file: Sebecus icaeorhinus AMNH 3160 cast detail.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Sebecus_icaeorhinus_AMNH_3160_cast_detail.jpg/960px-Sebecus_icaeorhinus_AMNH_3160_cast_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sebecus_icaeorhinus_AMNH_3160_cast_detail.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-08-13'
+  caption: Cast of Sebecus icaeorhinus (AMNH 3160).
+  width: 2804
+  height: 1643
+  review: unreviewed
+  local: img/gallery/Sebecus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870/vector.svg
+  png: https://images.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870/raster/512x111.png
+  page: https://www.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870
+  attribution: Michael "FunkMonk" B. H. (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sebecus icaeorhinus
+  matched: Sebecus
+  genus_level: true
+sources:
+- kind: original
+  text: R. A. Stirton. 1953. Vertebrate paleontology and continental stratigraphy in Colombia. Geological Society
+    of America Bulletin 64:603-622
+- kind: literature
+  text: 'Viñola López, L. W.; Velez-Juarbe, J.; Münch, P.; Almonte Milan, J. N.; Antoine, P.-O.; Marivaux, L.; Jimenez-Vasquez,
+    O.; Bloch, J. 2025. A South American sebecid from the Miocene of Hispaniola documents the presence of apex predators
+    in early West Indies ecosystems. Proceedings of the Royal Society B: Biological Sciences 292(2045). doi:10.1098/rspb.2024.2891'
+- kind: literature
+  text: Bravo, G. G.; Pol, D.; García-López, D. A. 2021. A new sebecid mesoeucrocodylian from the Paleocene of northwestern
+    Argentina. Journal of Vertebrate Paleontology 41(3). doi:10.1080/02724634.2021.1979020
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sebecus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sebecus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sebecus”. English Wikipedia, revision 1384679476.
+  url: https://en.wikipedia.org/w/index.php?title=Sebecus&oldid=1384679476
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB gives the authority as Stirton 1953; Simpson 1937 named S. icaeorhinus - check.
+  - Wikipedia recognises two species (S. icaeorhinus and S. ayrampu); several others were moved to their own genera.
+  - Several recent analyses recover Sebecosuchia as polyphyletic.
+  reviews: []

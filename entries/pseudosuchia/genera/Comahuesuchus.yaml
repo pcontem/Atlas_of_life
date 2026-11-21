@@ -1,0 +1,126 @@
+name: Comahuesuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1991
+type_species: Comahuesuchus brachybuccalis
+type_species_note: ''
+summary: Comahuesuchus is a notosuchian crocodylomorph from the Late Cretaceous of Argentina, described by Bonaparte
+  in 1991.
+size:
+  length_m: null
+  note: No body-length estimate is given in the sources consulted.
+age:
+  first_ma: 93.9
+  last_ma: 83.6
+  early_interval: Turonian
+  late_interval: Santonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Comahuesuchus bonapartei
+  authority: Kellner et al. 2023
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: ''
+- name: Comahuesuchus brachybuccalis
+  authority: Bonaparte 1991
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén, Río Negro]
+  interval: Santonian
+  occurrences: 2
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+- formation: Portezuelo
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Late Turonian–Early Coniacian
+  occurrences: 1
+  ma: [85.7, 93.9]
+  id: portezuelo-argentina
+fossil_material:
+  holotype: MUCPv-202 (C. brachybuccalis), from the Santonian Bajo de la Carpa Formation.
+  material: The type species from the Bajo de la Carpa Formation and C. bonapartei (Kellner et al. 2023) from the
+    Sierra Barrosa and Portezuelo formations.
+  completeness: partial
+  exceptional: ''
+biology: The sources consulted describe its classification only; it appears closer to Mariliasuchus than to other
+  notosuchians, and they give no direct evidence of diet or habits.
+images:
+- kind: life
+  file: Comahuesuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Comahuesuchus.jpg/960px-Comahuesuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Comahuesuchus.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2010'
+  caption: Life restoration of Comahuesuchus.
+  width: 2368
+  height: 1672
+  review: unreviewed
+  local: img/gallery/Comahuesuchus_001.webp
+- kind: life
+  file: Comahuesuchus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/aa/Comahuesuchus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Comahuesuchus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-11'
+  caption: Comahuesuchus restoration (Bogdanov).
+  width: 800
+  height: 274
+  review: unreviewed
+  local: img/gallery/Comahuesuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/vector.svg
+  png: https://images.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e/raster/512x131.png
+  page: https://www.phylopic.org/images/6d120bfb-9eae-4d7d-820c-b0ac423df31e
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Comahuesuchus brachybuccalis
+  matched: Comahuesuchus
+  genus_level: true
+  w: 512
+  h: 131
+sources:
+- kind: original
+  text: 'J. F. Bonaparte. 1991. Los vertebrados fósiles de la Formación Rio Colorado, de la Ciudad de Neuquén y
+    Cercanías, Cretácico Superior, Argentina [The vertebrate fossils of the Rio Colorado Formation, from the city
+    of Neuquén and surrounding areas, Upper Cretaceous, Argentina]. Revista del Museo Argentino de Ciencias Naturales
+    "Bernardino Rivadavia" e Instituto Nacional de Investigación de las Ciencias Naturales: Paleontología 4(3):17-123'
+- kind: literature
+  text: 'Kellner, Alexander W. A.; Figueiredo, Rodrigo G.; Calvo, Jorge O. 14 A. A new species of ''''Comahuesuchus''''
+    Bonaparte, 1991 (Crocodyliformes: Notosuchia) from the Upper Cretaceous of Neuquén, Lake Barreales, Patagonia,
+    Argentina. Anais da Academia Brasileira de Ciências 95(suppl 1). doi:10.1590/0001-3765202320230179'
+- kind: literature
+  text: 'Sereno, P. C.; Sidor, C. A.; Larsson, H. C. E.; Gado, B. 2003. A new notosuchian from the Early Cretaceous
+    of Niger. Journal of Vertebrate Paleontology 23(2): 477–482. doi:10.1671/0272-4634(2003)023[0477:ANNFTE]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Comahuesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Comahuesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Comahuesuchus”. English Wikipedia, revision 1319191658.
+  url: https://en.wikipedia.org/w/index.php?title=Comahuesuchus&oldid=1319191658
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Completeness to be checked against Bonaparte 1991 and Kellner et al. 2023.
+  - PBDB places it in Baurusuchia; the backbone places it in Notosuchia.
+  reviews: []
