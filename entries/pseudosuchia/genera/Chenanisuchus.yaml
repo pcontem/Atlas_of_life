@@ -55,6 +55,7 @@ images:
   width: 800
   height: 317
   review: unreviewed
+  local: img/gallery/Chenanisuchus_001.webp
 - kind: life
   file: Chenanisuchus lateroculi.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Chenanisuchus_lateroculi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -67,6 +68,7 @@ images:
   width: 730
   height: 317
   review: unreviewed
+  local: img/gallery/Chenanisuchus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/bd9e2041-8d8f-4e7f-a6f2-eadac7dbeb3d/vector.svg
   png: https://images.phylopic.org/images/bd9e2041-8d8f-4e7f-a6f2-eadac7dbeb3d/raster/512x157.png
@@ -76,6 +78,8 @@ silhouette:
   depicts: Chenanisuchus lateroculi
   matched: Chenanisuchus
   genus_level: true
+  w: 512
+  h: 157
 sources:
 - kind: original
   text: S. Jouve, B. Bouya, and M. Amaghzaz. 2005. A short-snouted dyrosaurid (Crocodyliformes, Mesoeucrocodylia)

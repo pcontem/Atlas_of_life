@@ -154,6 +154,7 @@ images:
   width: 959
   height: 520
   review: unreviewed
+  local: img/gallery/Geosaurus_001.webp
 - kind: fossil
   file: Geosaurus giganteus skull.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/1/15/Geosaurus_giganteus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -166,6 +167,7 @@ images:
   width: 904
   height: 449
   review: unreviewed
+  local: img/gallery/Geosaurus_002.webp
 - kind: life
   file: Geosaurus giganteus.png
   url: https://upload.wikimedia.org/wikipedia/commons/e/ee/Geosaurus_giganteus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -179,6 +181,7 @@ images:
   width: 1256
   height: 344
   review: unreviewed
+  local: img/gallery/Geosaurus_003.webp
 silhouette:
   src: https://images.phylopic.org/images/80315bbf-e7e9-4f9a-b598-6a8a68f3b169/vector.svg
   png: https://images.phylopic.org/images/80315bbf-e7e9-4f9a-b598-6a8a68f3b169/raster/512x122.png
@@ -188,6 +191,8 @@ silhouette:
   depicts: Geosaurus giganteus
   matched: Geosaurus
   genus_level: true
+  w: 512
+  h: 122
 sources:
 - kind: literature
   text: 'Young, M.T.; Bell, M.A.; de Andrade, M.B.; Brusatte, S.L. 2011. Body size estimation and evolution in metriorhynchid
