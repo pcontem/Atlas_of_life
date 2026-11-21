@@ -1,0 +1,95 @@
+name: Notochampsa
+rank: genus
+parent: crocodyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Broom 1904
+type_species: Notochampsa istedana
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Notochampsa is a protosuchian crocodyliform from the Early Jurassic lower Clarens Formation of South Africa,
+  among the youngest of its grade.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 201.4
+  last_ma: 184.2
+  early_interval: Hettangian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Notochampsa istedana
+  authority: Broom 1904
+  first_ma: 192.9
+  last_ma: 184.2
+  interval: Pliensbachian
+  reference: original description
+formations:
+- formation: Clarens
+  group: Stormberg
+  members: []
+  country: South Africa
+  regions: [Eastern Cape]
+  interval: Pliensbachian
+  occurrences: 1
+  ma: [184.2, 192.9]
+  id: clarens-south-africa
+- formation: Forest Sandstone
+  group: ''
+  members: []
+  country: Zimbabwe
+  regions: [Matabeleland North]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: forest-sandstone-zimbabwe
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Fossils from the lower Clarens Formation; PBDB also lists the Elliot Formation and Zimbabwe's Forest
+    Sandstone.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d8abdb67-a99a-48c5-bc6f-dc917355c4ea/vector.svg
+  png: https://images.phylopic.org/images/d8abdb67-a99a-48c5-bc6f-dc917355c4ea/raster/512x105.png
+  page: https://www.phylopic.org/images/d8abdb67-a99a-48c5-bc6f-dc917355c4ea
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Orthosuchus stormbergi
+  matched: Notochampsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Broom, R. 1904. On a new crocodilian genus (''''Notochampsa'''') from the upper Stormberg beds of South
+    Africa. Geological Magazine 1(12): 582–584. doi:10.1017/S0016756800124367'
+- kind: literature
+  text: 'Dollman, Kathleen N.; Clark, James M.; Viglietti, Pia A.; Browning, Claire; Choiniere, Jonah N 2021. Revised
+    anatomy, taxonomy and biostratigraphy of Notochampsa istedana Broom, 1904, a Lower Jurassic crocodyliform from
+    the Clarens Formation (Stormberg Group), and its implications for early crocodyliform phylogeny. Journal of
+    Systematic Palaeontology 19(9): 651–675. doi:10.1080/14772019.2021.1948926'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Notochampsa (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Notochampsa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Notochampsa”. English Wikipedia, revision 1323348944.
+  url: https://en.wikipedia.org/w/index.php?title=Notochampsa&oldid=1323348944
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check that PBDB's Notochampsidae is the right clade; Dollman 2021 (citation 1) revises the anatomy and taxonomy.
+  reviews: []

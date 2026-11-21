@@ -1,0 +1,103 @@
+name: Hsisosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: PBDB places it in a shartegosuchid/shartegosuchoid group that has no clade entry in the atlas yet;
+  placed in the nearest atlas ancestor.
+authority: Young and Chow 1953
+type_species: Hsisosuchus chungkingensis
+type_species_note: 'Filled from general knowledge, not yet checked: the species named with the genus in 1953.'
+summary: Hsisosuchus is a crocodyliform from the Middle to Late Jurassic of China, likely a medium-sized predator
+  about 3 m long.
+size:
+  length_m: [3.0, 3.0]
+  note: About 3 m long, an estimate (English Wikipedia).
+age:
+  first_ma: 170.9
+  last_ma: 143.1
+  early_interval: Bajocian
+  late_interval: Tithonian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Hsisosuchus chowi
+  authority: Peng and Shu 2005
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+- name: Hsisosuchus chungkingensis
+  authority: Young and Chow 1953
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+- name: Hsisosuchus dashanpuensis
+  authority: Gao 2001
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: ''
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Lower, Upper]
+  country: China
+  regions: [Sichuan, Yunnan]
+  interval: Bajocian–Oxfordian
+  occurrences: 3
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Sichuan]
+  interval: Late Jurassic
+  occurrences: 2
+  ma: [143.1, 161.5]
+  id:
+  - unnamed-sangqiao-china
+  - unnamed-tatienwan-building-foundation-fotoukwan-china
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Specimens of three species (H. dashanpuensis, H. chungkingensis, H. chowi) from the Shaximiao Formation
+    and other Chinese units.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Hsisosuchus chungkingensis.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/6/63/Hsisosuchus_chungkingensis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hsisosuchus_chungkingensis.JPG
+  artist: Unknown (no author on the Commons page)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: 1-7-2007
+  caption: Hsisosuchus chungkingensis fossil.
+  width: 854
+  height: 339
+  review: unreviewed
+sources:
+- kind: original
+  text: C.-C. Young and M.-C. Chow. 1953. New fossil reptiles from Szechuan China. Acta Palaeontologica Sinica 1(3):87-109
+- kind: literature
+  text: 'Gao, Yuhui July. A new species of ''''Hsisosuchus'''' (Mesoeucrocodylia) from Dashanpu, Zigong Municipality,
+    Sichuan Province. Vertebrata PalAsiatica 39(3): 177–184.'
+- kind: literature
+  text: 'Peng, Guang-Zhao; Shu, Chun-Kang 2005. A new species of ''''Hsisosuchus'''' (Mesoeucrocodylia) from the
+    Late Jurassic of Zigong, Sichuan, China. Vertebrata PalAsiatica 43(4): 312–324.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hsisosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hsisosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hsisosuchus”. English Wikipedia, revision 1320125078.
+  url: https://en.wikipedia.org/w/index.php?title=Hsisosuchus&oldid=1320125078
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Verify the type species and holotype number (Young and Chow 1953).]
+  reviews: []

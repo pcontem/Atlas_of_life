@@ -1,0 +1,72 @@
+name: Karatausuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Efimov 1976
+type_species: Karatausuchus sharovi
+type_species_note: From the Wikipedia taxobox.
+summary: Karatausuchus is an atoposaurid crocodylomorph known from one specimen from the Late Jurassic of the Karatau
+  Mountains, Kazakhstan.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Karatausuchus sharovi
+  authority: Efimov 1976
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Karabastau
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: []
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: karabastau-kazakhstan
+fossil_material:
+  holotype: PIN 25858/1, a complete but poorly preserved specimen from the Karabastau Svita near Mikhailovka, Karatau
+    Mountains, Kazakhstan.
+  material: The holotype only.
+  completeness: near-complete
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
+  png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
+  page: https://www.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hoplosuchus kayi
+  matched: Crocodyliformes
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Karatausuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Karatausuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Karatausuchus”. English Wikipedia, revision 1159465590.
+  url: https://en.wikipedia.org/w/index.php?title=Karatausuchus&oldid=1159465590
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia calls it atoposaurid; the atlas parent is the nearest clade, check Atoposauridae.
+  - PBDB's reference is a textbook (Carroll 1988); add the naming work, Efimov 1976.
+  reviews: []

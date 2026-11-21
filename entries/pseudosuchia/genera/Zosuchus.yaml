@@ -1,0 +1,71 @@
+name: Zosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: PBDB places it in a shartegosuchid/shartegosuchoid group that has no clade entry in the atlas yet;
+  placed in the nearest atlas ancestor.
+authority: Pol and Norell 2004
+type_species: Zosuchus davidsoni
+type_species_note: From the Wikipedia lead; the epithet was amended to davidsonae in 2004.
+summary: Zosuchus is a basal crocodyliform from the Late Cretaceous Djadokhta Formation (Zos Canyon) of Mongolia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zosuchus davidsoni
+  authority: Pol and Norell 2004
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov Aimak]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Redbeds of Zos Canyon, Gobi Desert.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/vector.svg
+  png: https://images.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8/raster/512x96.png
+  page: https://www.phylopic.org/images/cae4880c-b859-47c1-8ffc-4d804778e0f8
+  attribution: Nobu Tamura
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Sichuanosuchus huidongensis
+  matched: Shartegosuchoidea
+  genus_level: false
+sources:
+- kind: original
+  text: D. Pol and M. A. Norell. 2004. A New Crocodyliform from Zos Canyon, Mongolia. American Museum Novitates
+    3445:1-36
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zosuchus”. English Wikipedia, revision 1364967345.
+  url: https://en.wikipedia.org/w/index.php?title=Zosuchus&oldid=1364967345
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Add holotype number from Pol and Norell 2004; check the epithet spelling.
+  reviews: []

@@ -3,18 +3,18 @@ name: Shaximiao
 rank: formation
 group: Chongqing
 country: China
-regions: [Sichuan]
+regions: [Sichuan, Yunnan]
 location:
-  lat: 29.373
-  lng: 104.806
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: 29.335
+  lng: 104.765
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
   first_ma: 170.9
   last_ma: 154.8
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., lacustrine indet.]
-lithology: [not reported, sandstone]
-pbdb_collections: ['24883', '131871']
+lithology: [sandstone, not reported, mudstone]
+pbdb_collections: ['24883', '131871', '131874', '230104']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,71 @@
+name: Entradasuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Hunt and Lockley 1995
+type_species: Entradasuchus spinosus
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Entradasuchus is an early crocodyliform known from a single specimen from the Middle Jurassic Entrada Sandstone
+  of Utah.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Entradasuchus spinosus
+  authority: Hunt and Lockley 1995
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Entrada Sandstone
+  group: San Rafael
+  members: [Moab Tongue]
+  country: United States
+  regions: [Utah]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: entrada-sandstone-united-states
+fossil_material:
+  holotype: The only known specimen, from the Entrada Ranch, Grand County, Utah.
+  material: One specimen.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
+  png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
+  page: https://www.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hoplosuchus kayi
+  matched: Crocodyliformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Hunt, Adrian P.; Lockley, Martin G. 1995. A nonmarine tetrapod from the Middle Jurassic of the United States:
+    a primitive crocodyliform from the Entrada Sandstone of eastern Utah. Journal of Vertebrate Paleontology 15(3):
+    554–560. doi:10.1080/02724634.1995.10011248'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Entradasuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Entradasuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Entradasuchus”. English Wikipedia, revision 1292589380.
+  url: https://en.wikipedia.org/w/index.php?title=Entradasuchus&oldid=1292589380
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add holotype number and description from Hunt and Lockley 1995.]
+  reviews: []

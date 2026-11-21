@@ -1,0 +1,113 @@
+name: Platyognathus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: false
+placement_note: ''
+authority: Young 1944
+type_species: Platyognathus hsui
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Platyognathus is a gobiosuchoid crocodyliform from the Early Jurassic Lower Lufeng Formation of Yunnan,
+  China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 199.5
+  last_ma: 145.06
+  early_interval: Sinemurian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Platyognathus hsui
+  authority: Young 1944
+  first_ma: 199.5
+  last_ma: 192.9
+  interval: Sinemurian
+  reference: original description
+formations:
+- formation: Lufeng
+  group: ''
+  members: [Zhangjia'ao]
+  country: China
+  regions: [Yunnan]
+  interval: Sinemurian
+  occurrences: 2
+  ma: [192.9, 199.5]
+  id: lufeng-china
+- formation: Morrison
+  group: ''
+  members: [Salt Wash]
+  country: United States
+  regions: [Colorado]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: morrison-united-states
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Fossils from the Zhangjiawa Member of the Lower Lufeng Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: fossil
+  file: Platyognathus hsui.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Platyognathus_hsui.jpg/960px-Platyognathus_hsui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Platyognathus_hsui.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-07-04'
+  caption: Platyognathus hsui fossil.
+  width: 2766
+  height: 1597
+  review: unreviewed
+- kind: fossil
+  file: Platyognathus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/04/Platyognathus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Platyognathus.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-11-22'
+  caption: Platyognathus fossil.
+  width: 969
+  height: 391
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/vector.svg
+  png: https://images.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89/raster/512x144.png
+  page: https://www.phylopic.org/images/cc9e17cb-4af6-4a46-93d5-04c72a7dad89
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hoplosuchus kayi
+  matched: Crocodyliformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Young, C. C. 1944. On a supposed new pseudosuchian from the Upper Triassic saurischian-bearing red beds
+    of Lufeng, Yunnan, China. American Museum Novitates(1264): 1–4.'
+- kind: literature
+  text: Wang, Lihua; Clark, James M; Li, Hongqing; Ruebenstahl, Alex; Bi, Shundong 2025. A new specimen of the early
+    branching crocodyliform ''Platyognathus hsui'' extends the record of gobiosuchids back 67 million years. Zoological
+    Journal of the Linnean Society 204(2). doi:10.1093/zoolinnean/zlaf032
+- kind: literature
+  text: 'Wu, X.-C. 1996. Reassessment of ''''Platyognathus'''' Hsui Young, 1944 (Archosauria: Crocodyliformes) from
+    the Lower Lufeng Formation (Lower Jurassic) of Yunnan, China. Journal of Vertebrate Paleontology 16(1): 42–48.
+    doi:10.1080/02724634.1996.10011282'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Platyognathus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Platyognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Platyognathus”. English Wikipedia, revision 1377465655.
+  url: https://en.wikipedia.org/w/index.php?title=Platyognathus&oldid=1377465655
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB also lists a Morrison Formation (Jurassic, USA) occurrence; check it.
+  - Add holotype number (Young 1944; Wang 2025 describes a new specimen).
+  reviews: []

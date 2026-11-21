@@ -1,0 +1,84 @@
+name: Nominosuchus
+rank: genus
+parent: crocodyliformes
+incertae_sedis: true
+placement_note: PBDB places it in a shartegosuchid/shartegosuchoid group that has no clade entry in the atlas yet;
+  placed in the nearest atlas ancestor.
+authority: Efimov 1996
+type_species: Nominosuchus matutinus
+type_species_note: 'Filled from general knowledge, not yet checked: Efimov named N. matutinus in 1996 with the genus;
+  N. arcanus came later (2003).'
+summary: Nominosuchus is a small protosuchian-grade crocodyliform from Late Jurassic lake deposits of Mongolia and
+  China.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 157.9
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: PBDB occurrences span the Late Oxfordian-Kimmeridgian Qigu Formation to the Tithonian Ulan Malgait Formation;
+    interval names set from the formation ages (PBDB gives none for the genus).
+species:
+- name: Nominosuchus arcanus
+  authority: Efimov and Abramov 2003
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: ''
+- name: Nominosuchus matutinus
+  authority: Efimov 1996
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Ulan Malgait
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Govi-Altay]
+  interval: Tithonian
+  occurrences: 2
+  ma: [143.1, 149.2]
+  id: ulan-malgait-mongolia
+- formation: Qigu
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Late Oxfordian–Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 157.9]
+  id: qigu-china
+fossil_material:
+  holotype: PIN 4174/4, a partial skull, from the Ulan Malgait Formation, Mongolia.
+  material: Several specimens from the Ulan Malgait Formation and one from the Qigu Formation, China.
+  completeness: multiple
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+sources:
+- kind: original
+  text: M. B. Efimov. 1996. The Jurassic crocodylomorphs of inner Asia. The Continental Jurassic. Museum of Northern
+    Arizona Bulletin 60:305-310
+- kind: literature
+  text: 'Dollman, Kathleen N.; Clark, James M.; Norell, Mark A.; Xing, Xu; Choiniere, Jonah N. 2018. Convergent
+    Evolution of a Eusuchian-Type Secondary Palate within Shartegosuchidae. American Museum Novitates 3901(3901):
+    1–23. doi:10.1206/3901.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nominosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nominosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nominosuchus”. English Wikipedia, revision 1354843774.
+  url: https://en.wikipedia.org/w/index.php?title=Nominosuchus&oldid=1354843774
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Verify the type species. Skull length is given in Wikipedia but not entered.
+  reviews: []
