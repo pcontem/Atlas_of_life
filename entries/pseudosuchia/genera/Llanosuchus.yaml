@@ -1,0 +1,70 @@
+name: Llanosuchus
+rank: genus
+parent: notosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Fiorelli et al. 2016
+type_species: Llanosuchus tamaensis
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Llanosuchus is a notosuchian mesoeucrocodylian from the Late Cretaceous Los Llanos Formation of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Llanosuchus tamaensis
+  authority: Fiorelli et al. 2016
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Los Llanos
+  group: ''
+  members: [Upper]
+  country: Argentina
+  regions: [La Rioja]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: los-llanos-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Los Llanos Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/vector.svg
+  png: https://images.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655/raster/512x124.png
+  page: https://www.phylopic.org/images/cd19379a-5a34-4585-8a76-9390a7f39655
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Araripesuchus aznarezi
+  matched: Notosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Fiorelli, Lucas E.; Leardi, Juan M.; Hechenleitner, E. Martín; Pol, Diego; Basilici, Giorgio; Grellet-Tinner,
+    Gerald 2016. A new Late Cretaceous crocodyliform from the western margin of Gondwana (La Rioja Province, Argentina).
+    Cretaceous Research 60: 194–209. doi:10.1016/j.cretres.2015.12.003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Llanosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Llanosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Llanosuchus”. English Wikipedia, revision 1328367632.
+  url: https://en.wikipedia.org/w/index.php?title=Llanosuchus&oldid=1328367632
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

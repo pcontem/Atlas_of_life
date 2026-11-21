@@ -1,0 +1,72 @@
+name: Khoratosuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Lauprasert et al. 2009
+type_species: Khoratosuchus jintasakuli
+type_species_note: From the Wikipedia taxobox.
+summary: Khoratosuchus is a neosuchian crocodylomorph from the Early Cretaceous Khok Kruat Formation of northeast
+  Thailand.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Khoratosuchus jintasakuli
+  authority: Lauprasert et al. 2009
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Khok Kruat
+  group: ''
+  members: []
+  country: Thailand
+  regions: [Nakhon Ratchasima]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: khok-kruat-thailand
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Khok Kruat Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Neosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: K. Lauprasert, G. Cuny, and K. Thirakhupt, V. Suteethorn. 2009. Khoratosuchus jintasakuli gen. et sp. nov.,
+    an advanced neosuchian crocodyliform from the Early Cretaceous (Aptian-Albian) of NE Thailand. Late Palaeozoic
+    and Mesozoic Ecosystems in SE Asia. The Geological Society of London, Special Publication 315:175-187
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Khoratosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Khoratosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Khoratosuchus”. English Wikipedia, revision 1282991090.
+  url: https://en.wikipedia.org/w/index.php?title=Khoratosuchus&oldid=1282991090
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No citations in the Wikipedia revision; add the original (Lauprasert et al. 2009).
+  reviews: []

@@ -1,0 +1,69 @@
+name: Gilchristosuchus
+rank: genus
+parent: neosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Wu and Brinkman 1993
+type_species: Gilchristosuchus palatinus
+type_species_note: From the Wikipedia taxobox.
+summary: Gilchristosuchus is a neosuchian crocodyliform from the upper Milk River Formation of Alberta, Canada.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gilchristosuchus palatinus
+  authority: Wu and Brinkman 1993
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Milk River
+  group: ''
+  members: [Deadhorse Coulee]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: milk-river-canada
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Milk River Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Neosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wu, Xiao-Chun 1993. A new crocodylomorph of "mesosuchian" grade from the Upper Cretaceous upper Milk River
+    Formation, southern Alberta. Journal of Vertebrate Paleontology 13(2): 153–160. doi:10.1080/02724634.1993.10011497'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gilchristosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gilchristosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gilchristosuchus”. English Wikipedia, revision 1282991071.
+  url: https://en.wikipedia.org/w/index.php?title=Gilchristosuchus&oldid=1282991071
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
