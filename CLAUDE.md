@@ -478,10 +478,10 @@ New project decisions (a rule changed, a licence policy, a UI convention) are ap
   Enter or "+ Add filter" to keep it as a chip, then add another; entries must match every chip
   (and the text being typed). Time = an ICS interval name or an age/range in Ma, matched when the
   stratigraphic range overlaps it. A type filter (Full entries / Clades / Genera / All) applies on top. Sidebar search with keyboard support.
-  **Genus spotlight** (owner, 2026-11-21): a side column of the Index (above the list on narrow screens) with three
+  **Genus spotlight** (owner, 2026-11-21): a side column of the Index (above the list on narrow screens) with 25
   random genera that have a full entry and a `life` image that is not `outdated`: 4:3 thumbnail (`thumbSrc`), genus
   name and parent clade; click opens the entry. It follows the stacked filters (re-drawn when a chip changes) and has a
-  ↻ Shuffle button. The column stays in view while the list scrolls (sticky, never taller than the window) down to 700 px wide; narrower than that it becomes a row above the list.
+  ↻ Shuffle button. The column is part of the page and scrolls together with the list (owner, 2026-11-21: not fixed on screen); 170 px wide below 1250 px, and narrower than 700 px it becomes a row above the list.
 - **Biota** (third mode in the top bar, `#biota`, deep link `#biota/<formation id>`): a **search
   box** (genera with formations on the map, and formations; arrows + Enter): a formation jumps to the
   middle of its record and opens its card; a genus becomes the selected entry (its formations get the

@@ -37,7 +37,7 @@ function mkFilter(f){const v=(f.v||"").trim();if(!v)return null;
   return{test:n=>{const a=ageOf(n);return a&&a[0]>t.top&&a[1]<t.base},label:`Lived in <b>${esc(t.label)}</b>`,time:true}}
 /* Genus spotlight: a side column of genera with a life reconstruction (thumbnail + name); click opens the entry.
    It follows the active filters of the Index and can be shuffled. */
-let SPOT=[],SPOTKEY=null;const SPOTN=3;
+let SPOT=[],SPOTKEY=null;const SPOTN=25;
 const spotImg=n=>(n.images||[]).find(i=>i.kind==="life"&&i.review!=="outdated");
 function spotPick(tests){const pool=ALL.filter(n=>n.type==="genus"&&n.ficha&&spotImg(n)&&tests.every(F=>F.test(n)));
   for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
