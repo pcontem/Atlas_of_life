@@ -275,3 +275,5 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - One unit = one conversation = one branch/PR (clade entries first, then one genus batch, `atlas-entries` skill).
 - Redundancy: genera with an entry in any volume are ticked automatically; backbone nodes for Caiman, Mecistops and
   Paleosuchus (entries exist, parents already in the Pseudosuchia volume) are still to be removed from `backbone.json`.
+- 2026-11-21 (follow-up): a production unit must also have at most `CLADE_MAX` (default 12) sub-clades, so very inclusive clades
+  with few known genera (Archaeplastida, Embryophyta) stay general until their subtree is filled in.
