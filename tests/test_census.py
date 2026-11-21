@@ -47,6 +47,7 @@ CATS = {
     "Category:Fossils of Brazil": [dict(ns=0, title="Brazilosaurus")],
 }
 calls = []
+queries = []
 
 
 def fake_mw(api, **p):
@@ -58,7 +59,11 @@ def fake_mw(api, **p):
         if p["cmtitle"] == "Category:Root":
             return dict(query=dict(categorymembers=mem[1:]))
         return dict(query=dict(categorymembers=mem))
+    if p.get("prop") == "categories":
+        assert p["clshow"] == "!hidden"
+        return dict(query=dict(pages=[dict(title=p["titles"], categories=[dict(title="Category:Foo"), dict(title="Category:Bar")])]))
     if p.get("list") == "search":
+        queries.append(p["srsearch"])
         assert p["srnamespace"] == 14
         if "genera" in p["srsearch"]:   # the full phrase finds nothing: the census must retry with the group word alone
             return dict(query=dict(search=[]))
@@ -85,8 +90,10 @@ assert layout["Category:Root"]["skipped"] == ["Category:Root stubs", "Category:F
 assert layout["Category:Child"]["pages"] == 2 and "Category:Grandchild" not in layout          # only two levels are recorded
 
 harvest.mw = fake_mw
+assert census.wiki_probe(["Tyrannosaurus"]) == {"Tyrannosaurus": ["Category:Foo", "Category:Bar"]}
 sug = census.wiki_suggest_categories(["Category:Prehistoric pseudosuchians", "Category:Prehistoric pseudosuchian genera"])
 harvest.mw = real_mw
+assert queries == ["pseudosuchians", "pseudosuchian genera", "pseudosuchian"], queries   # "Prehistoric" never reaches the search; fallback = group word
 assert sug == {"Category:Prehistoric pseudosuchians": ["Category:Real pseudosuchians", "Category:Aetosaurs of Brazil"],
                "Category:Prehistoric pseudosuchian genera": ["Category:Real pseudosuchians", "Category:Aetosaurs of Brazil"]}, sug
 
@@ -112,6 +119,7 @@ def fake_net():
                                                         "List of things": "Category:A", "Waitingosaurus": "Category:A"}, ["Category:Gone"], False,
                                                        {"Category:A": dict(pages=5, subcats=["Category:B"], skipped=[])})
     n.wiki_texts = lambda titles: {t: dict(wikitext=WIKI[t], ts="2026-01-01T00:00:00Z") for t in titles if t in WIKI}
+    n.wiki_probe = lambda titles: {t: ["Category:Probed"] for t in titles}
     n.wiki_suggest = lambda cats: {k: ["Category:Real"] for k in cats}
     n.wiki_redirects = lambda names: {g: dict(missing=False, redirect="Alphasaurus") for g in names}
     n.literature = lambda terms, since: [
@@ -121,7 +129,7 @@ def fake_net():
     return n
 
 
-cfg = dict(pbdb="Demo", wikipedia=dict(categories=["A"]), literature=["demo"])
+cfg = dict(pbdb="Demo", wikipedia=dict(categories=["A"], probe=["Tyrannosaurus"]), literature=["demo"])
 c = census.run_census("demo", cfg, 2023, atlas, fake_net())
 miss = {m["name"]: m for m in c["missing"]}
 assert set(miss) == {"Newsuchus", "Oldsaurus", "Foosuchus", "Aaasaurus"}, set(miss)       # known = entries, excluded, backbone; Deadname/Elsewhere/Waiting are known
@@ -141,6 +149,7 @@ assert set(leads) == {"Zedosuchus", "Newsuchus"} and not leads["Zedosuchus"]["kn
 assert c["literature_leads"][0]["name"] == "Zedosuchus"                        # leads absent from PBDB come first
 assert c["wikipedia_missing_categories"] == ["Category:Gone"] and c["counts"]["missing_recent"] == 2
 md = census.report(c)
+assert c["wikipedia_probe"] == {"Tyrannosaurus": ["Category:Probed"]} and "Tyrannosaurus: Category:Probed" in md
 assert "existing categories with these words: Category:Real" in md and "Trackus" in md and "form taxa" in md
 assert "Foosuchus" in md and "Zedosuchus" in md and "Category:Gone" in md and "Oldname" in md and "10.1/z" in md
 

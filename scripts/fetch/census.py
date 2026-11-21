@@ -138,12 +138,23 @@ def wiki_suggest_categories(missing_cats, limit=8):
     """-> {missing category title: [existing category titles found by searching its words]} (to fix sources.yaml)."""
     out = {}
     for t in missing_cats:
-        words = re.sub(r"^Category:|^Prehistoric ", "", t)
-        for q in (words, re.sub(r"\b(genera|genus)\b", "", words).split()[0] if words.split() else words):
+        words = re.sub(r"^Category:(?:Prehistoric )?", "", t)
+        group_word = next((w for w in words.split() if w.lower() not in ("genera", "genus")), words)
+        for q in dict.fromkeys((words, group_word)):  # the full phrase first, then the group word alone
             r = harvest.mw(harvest.WIKI, action="query", list="search", srsearch=q, srnamespace=14, srlimit=limit)
             out[t] = [x["title"] for x in r.get("query", {}).get("search", [])]
             if out[t]:
                 break
+    return out
+
+
+def wiki_probe(titles):
+    """-> {page title: [its visible categories]}: shows how Wikipedia files a group (for choosing `categories` in sources.yaml)."""
+    out = {}
+    for t in titles:
+        r = harvest.mw(harvest.WIKI, action="query", prop="categories", titles=t, cllimit=500, clshow="!hidden", redirects=1)
+        for p in r.get("query", {}).get("pages", []):
+            out[t] = [c["title"] for c in p.get("categories", [])]
     return out
 
 
@@ -202,7 +213,7 @@ def literature(terms, since):
     return list(papers.values())
 
 
-NET = types.SimpleNamespace(pbdb=pbdb_taxa, wiki_pages=wiki_category_pages, wiki_texts=wiki_texts, wiki_suggest=wiki_suggest_categories,
+NET = types.SimpleNamespace(pbdb=pbdb_taxa, wiki_pages=wiki_category_pages, wiki_texts=wiki_texts, wiki_suggest=wiki_suggest_categories, wiki_probe=wiki_probe,
                             wiki_redirects=wiki_redirects, literature=literature)
 
 
@@ -244,6 +255,7 @@ def run_census(group, cfg, since, atlas, net=NET):
             wiki_genera[n] = dict(title=t, year=year_of(tb.get("authority")))
 
     suggestions = net.wiki_suggest(missing_cats) if missing_cats else {}
+    probe = net.wiki_probe(w.get("probe", [])) if w.get("probe") else {}
 
     # genera missing from the atlas, newest first
     missing, form_taxa = [], []
@@ -285,7 +297,7 @@ def run_census(group, cfg, since, atlas, net=NET):
                             waiting_in_backbone=len(waiting), atlas_unconfirmed=len(atlas_unconfirmed), leads=len(leads),
                             leads_new=sum(not x["known"] and not x["in_pbdb"] for x in leads)),
                 missing=missing, form_taxa=form_taxa, waiting_in_backbone=waiting, atlas_unconfirmed=atlas_unconfirmed, atlas_pbdb_invalid=atlas_invalid,
-                literature_leads=leads, wikipedia_missing_categories=missing_cats, wikipedia_category_suggestions=suggestions, wikipedia_layout=layout,
+                literature_leads=leads, wikipedia_missing_categories=missing_cats, wikipedia_category_suggestions=suggestions, wikipedia_layout=layout, wikipedia_probe=probe,
                 wikipedia_truncated=truncated)
 
 
@@ -310,6 +322,10 @@ def report(c):
         for cat, v in c["wikipedia_layout"].items():
             L.append(f"- {cat}: {v['pages']} pages; sub-categories followed: {', '.join(v['subcats']) or 'none'}; "
                      f"skipped: {', '.join(v['skipped']) or 'none'}")
+        L.append("")
+    if c.get("wikipedia_probe"):
+        L += ["**Categories of example pages (how Wikipedia files this group):**", ""]
+        L += [f"- {t}: " + "; ".join(cats) for t, cats in c["wikipedia_probe"].items()]
         L.append("")
     if c["wikipedia_truncated"]:
         L += ["**The Wikipedia crawl hit its page cap**: narrow the categories or the depth.", ""]
