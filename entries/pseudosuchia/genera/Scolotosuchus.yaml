@@ -1,0 +1,76 @@
+name: Scolotosuchus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: true
+placement_note: PBDB places it in Rauisuchidae (a grade of 'rauisuchians'); the atlas keeps that parent.
+authority: Sennikov 2022
+type_species: Scolotosuchus basileus
+type_species_note: From the Wikipedia taxobox.
+summary: Scolotosuchus is a rauisuchid from the Early Triassic Donskaya Luka locality of Russia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 250.8
+  last_ma: 247
+  early_interval: Olenekian
+  late_interval: Olenekian
+  pbdb_occurrences: 1
+  note: PBDB gives no interval names; the age range matches the ICS Olenekian stage (Lipovskaya Formation, Olenekian
+    per PBDB).
+species:
+- name: Scolotosuchus basileus
+  authority: Sennikov 2022
+  first_ma: 250.8
+  last_ma: 247
+  interval: ''
+  reference: original description
+formations:
+- formation: Lipovskaya
+  group: ''
+  members: []
+  country: Russia
+  regions: [Volgograd]
+  interval: Olenekian
+  occurrences: 1
+  ma: [247.0, 250.8]
+  id: lipovskaya-russia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Lipovskaya Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Rauisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. G. Sennikov. 2022. A New Pseudosuchian from the Early Triassic of Eastern Europe. Paleontological Journal
+    56(11):1391-1418
+- kind: literature
+  text: 'Sennikov, A. G. 2023. A New Pseudosuchian from the Early Triassic of Eastern Europe. Paleontological Journal
+    56(11): 1391–1418. doi:10.1134/S0031030122110168'
+- kind: literature
+  text: 'Sennikov, A.G. 1999. The evolution of the postcranial skeleton in archosaurs in connection with new finds
+    of the Rauisuchidae in the Early Triassic of Russia. Paleontological Journal(6): 44–56.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scolotosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scolotosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scolotosuchus”. English Wikipedia, revision 1364505976.
+  url: https://en.wikipedia.org/w/index.php?title=Scolotosuchus&oldid=1364505976
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original (Sennikov 2022).]
+  reviews: []

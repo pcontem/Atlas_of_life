@@ -1,0 +1,84 @@
+name: Procerosuchus
+rank: genus
+parent: pseudosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1942
+type_species: Procerosuchus celer
+type_species_note: From the Wikipedia taxobox.
+summary: Procerosuchus is a loricatan archosaur from the Late Triassic Santa Maria Formation of Rio Grande do Sul,
+  Brazil.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 241.464
+  last_ma: 237
+  early_interval: Ladinian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Procerosuchus celer
+  authority: Huene 1942
+  first_ma: 241.464
+  last_ma: 237
+  interval: Ladinian
+  reference: original description
+formations:
+- formation: Santa Maria
+  group: Rosário do Sul
+  members: [Alemoa]
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Ladinian–Norian
+  occurrences: 2
+  ma: [205.7, 241.464]
+  id: santa-maria-brazil
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Santa Maria Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images:
+- kind: skeletal
+  file: Procerosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Procerosuchus_skeletal.png/960px-Procerosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Procerosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-02-03'
+  caption: Skeletal reconstruction of Procerosuchus.
+  width: 7786
+  height: 4683
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/vector.svg
+  png: https://images.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d/raster/512x126.png
+  page: https://www.phylopic.org/images/b5927c68-da04-47ba-80ba-616059a82b9d
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Nundasuchus songeaensis
+  matched: Pseudosuchia
+  genus_level: false
+sources:
+- kind: original
+  text: Huene, F. v. 1942. Die fossilen Reptilien des südamerikanischen Gondwanalandes. C. H. Beck.
+- kind: literature
+  text: 'Gower, D. J. 2000. Rauisuchian archosaurs (Reptilia:Diapsida): An overview. Neues Jahrbuch für Geologie
+    und Paläontologie, Abhandlungen 218(3): 447–488. doi:10.1127/njgpa/218/2000/447'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Procerosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Procerosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Procerosuchus”. English Wikipedia, revision 1336392776.
+  url: https://en.wikipedia.org/w/index.php?title=Procerosuchus&oldid=1336392776
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the skeletal reconstruction.]
+  reviews: []

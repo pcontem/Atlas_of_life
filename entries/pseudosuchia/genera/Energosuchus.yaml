@@ -1,0 +1,70 @@
+name: Energosuchus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: true
+placement_note: PBDB places it in Rauisuchidae (a grade of 'rauisuchians'); the atlas keeps that parent.
+authority: Ochev 1986
+type_species: Energosuchus garjainovi
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Energosuchus is a rauisuchian from the upper Karyomayol and lower Synya formations of Russia.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 241.464
+  last_ma: 237
+  early_interval: Ladinian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Energosuchus garjainovi
+  authority: Ochev 1986
+  first_ma: 241.464
+  last_ma: 237
+  interval: Ladinian
+  reference: original description
+formations:
+- formation: Bukobay
+  group: ''
+  members: []
+  country: Russia
+  regions: [Bashkortostan, Orenburg]
+  interval: Ladinian
+  occurrences: 2
+  ma: [237.0, 241.464]
+  id: bukobay-russia
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Bukobay Formation per PBDB.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Rauisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: V. G. Ochev. 1986. [On Middle Triassic reptiles of the southern Cis-Urals]. Ezhegodnik Vsesoyuznogo Paleontologicheskogo
+    Obshchesiva 29:171-180
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Energosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Energosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Energosuchus”. English Wikipedia, revision 1095573832.
+  url: https://en.wikipedia.org/w/index.php?title=Energosuchus&oldid=1095573832
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No citations in the Wikipedia revision; add the original (Ochev 1986).
+  reviews: []

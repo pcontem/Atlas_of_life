@@ -1,0 +1,31 @@
+id: donguz-russia
+name: Donguz
+rank: formation
+group: ''
+country: Russia
+regions: [Bashkortostan, Orenburg]
+location:
+  lat: 52.042
+  lng: 54.431
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 247.0
+  last_ma: 241.464
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [deltaic indet.]
+lithology: [sandstone]
+pbdb_collections: ['97409', '97415']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Donguz (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Donguz
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

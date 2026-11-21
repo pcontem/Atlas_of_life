@@ -1,0 +1,73 @@
+name: Tikisuchus
+rank: genus
+parent: rauisuchidae
+incertae_sedis: true
+placement_note: PBDB places it in Rauisuchidae (a grade of 'rauisuchians'); the atlas keeps that parent.
+authority: Chatterjee and Majumdar 1987
+type_species: Tikisuchus romeri
+type_species_note: Monotypic in PBDB; the only species is the type.
+summary: Tikisuchus is a rauisuchid from the Late Triassic Tiki Formation of India, the first rauisuchid described
+  from there.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tikisuchus romeri
+  authority: Chatterjee and Majumdar 1987
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Tiki
+  group: Gondwana
+  members: []
+  country: India
+  regions: [Madhya Pradesh]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: tiki-india
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: One occurrence in the Tiki Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/vector.svg
+  png: https://images.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4/raster/512x137.png
+  page: https://www.phylopic.org/images/e551c7e1-64e0-4ed0-ab36-d539ba988ac4
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Polonosuchus silesiacus
+  matched: Rauisuchidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chatterjee, S. 1987. ''''Tikisuchus romeri'''', a new rauisuchid reptile from the Late Triassic of India.
+    Journal of Paleontology 61(4): 787–793. doi:10.1017/S0022336000029139'
+- kind: literature
+  text: 'Brutasse, S.L. 2010. The origin and early radiation of dinosaurs. Earth-Science Reviews 101(1–2): 68–100.
+    doi:10.1016/j.earscirev.2010.04.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tikisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tikisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tikisuchus”. English Wikipedia, revision 1359656084.
+  url: https://en.wikipedia.org/w/index.php?title=Tikisuchus&oldid=1359656084
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

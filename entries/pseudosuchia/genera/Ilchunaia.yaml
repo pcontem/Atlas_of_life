@@ -1,0 +1,69 @@
+name: Ilchunaia
+rank: genus
+parent: sebecidae
+incertae_sedis: false
+placement_note: ''
+authority: Rusconi 1946
+type_species: Ilchunaia parva
+type_species_note: From the Wikipedia taxobox.
+summary: Ilchunaia is a sebecid mesoeucrocodylian from the Late Eocene Divisadero Largo Formation of Argentina.
+size:
+  length_m: null
+  note: The sources consulted do not give the body length.
+age:
+  first_ma: 42
+  last_ma: 36
+  early_interval: Lutetian
+  late_interval: Priabonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ilchunaia parva
+  authority: Rusconi 1946
+  first_ma: 42
+  last_ma: 36
+  interval: Lutetian–Priabonian
+  reference: original description
+formations:
+- formation: Divisadero Largo
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Mendoza]
+  interval: Divisaderan
+  occurrences: 1
+  ma: [36.0, 42.0]
+  id: divisadero-largo-argentina
+fossil_material:
+  holotype: Catalogue number not given in the sources consulted.
+  material: Remains from the Divisadero Largo Formation and a Mendoza locality.
+  completeness: fragmentary
+  exceptional: ''
+biology: The sources consulted give no evidence of diet or habits.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870/vector.svg
+  png: https://images.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870/raster/512x111.png
+  page: https://www.phylopic.org/images/b7089754-12a9-4cec-bfe2-215952e16870
+  attribution: Michael "FunkMonk" B. H. (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sebecus icaeorhinus
+  matched: Sebecidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ilchunaia (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ilchunaia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ilchunaia”. English Wikipedia, revision 1354845538.
+  url: https://en.wikipedia.org/w/index.php?title=Ilchunaia&oldid=1354845538
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No citations in the Wikipedia revision; add the original (Rusconi 1946).
+  reviews: []

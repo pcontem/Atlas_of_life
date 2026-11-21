@@ -1,0 +1,31 @@
+id: rottweil-germany
+name: Rottweil
+rank: formation
+group: Muschelkalk
+country: Germany
+regions: [Baden-Württemberg]
+location:
+  lat: 49.106
+  lng: 9.734
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 247.0
+  last_ma: 237.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [peritidal]
+lithology: [dolomite]
+pbdb_collections: ['77928']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Rottweil (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Rottweil
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
