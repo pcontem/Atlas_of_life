@@ -265,3 +265,13 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   when its file name or description names another genus of the volume and not the genus itself, one of its
   synonyms (PBDB, excluded.yaml) or one of its species epithets. About 55% of the Pseudosuchia candidates; nothing is
   deleted, a checkbox shows them.
+
+## 2026-11-21 — Queue split: general clades vs production units
+- Owner request: a queue where a less inclusive clade is written together with ALL its genera; very inclusive
+  clades stay "entry only".
+- `scripts/queue.py` now writes two files. `docs/QUEUE.md` = general clades (entry only). `docs/QUEUE_GENERA.md` =
+  production units: the most inclusive clades with at most `UNIT_MAX` (default 30) genera, plus blocks of genera
+  sitting directly in a general clade (chunked by 30), plus genera still waiting inside a volume (Pseudosuchia, 184).
+- One unit = one conversation = one branch/PR (clade entries first, then one genus batch, `atlas-entries` skill).
+- Redundancy: genera with an entry in any volume are ticked automatically; backbone nodes for Caiman, Mecistops and
+  Paleosuchus (entries exist, parents already in the Pseudosuchia volume) are still to be removed from `backbone.json`.
