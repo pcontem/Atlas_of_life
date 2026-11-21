@@ -1,0 +1,298 @@
+name: Cricosaurus
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagner 1858
+type_species: Cricosaurus elegans
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Small marine metriorhynchid crocodyliform of the Late Jurassic and earliest Cretaceous, first named in
+  1858 from skulls found in Bavaria.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 159
+  last_ma: 132.6
+  early_interval: Oxfordian
+  late_interval: Valanginian
+  pbdb_occurrences: 23
+  note: ''
+species:
+- name: Cricosaurus albersdoerferi
+  authority: Sachs et al. 2021
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Cricosaurus araucanensis
+  authority: (Gasparini and Dellape 1976)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: ''
+- name: Cricosaurus bambergensis
+  authority: Sachs et al. 2019
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Cricosaurus elegans
+  authority: (Wagner 1852)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: original description
+- name: Cricosaurus gracilis
+  authority: (Phillips 1871)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: ''
+- name: Cricosaurus lithographicus
+  authority: Herrera et al. 2013
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: ''
+- name: Cricosaurus macrospondylus
+  authority: (Koken 1883)
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: ''
+- name: Cricosaurus mexicanus
+  authority: (Wieland 1910)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Cricosaurus puelchorum
+  authority: Herrera et al. 2021
+  first_ma: 143.1
+  last_ma: 141
+  interval: Berriasian
+  reference: ''
+- name: Cricosaurus rauhuti
+  authority: Herrera et al. 2021
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: ''
+- name: Cricosaurus saltillensis
+  authority: (Buchy et al. 2006)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Cricosaurus schroderi
+  authority: (Kuhn 1936)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Cricosaurus suevicus
+  authority: (Fraas 1901)
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Cricosaurus vignaudi
+  authority: (Frey et al. 2002)
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: ''
+formations:
+- formation: Vaca Muerta
+  group: ''
+  members: [Los Catutos]
+  country: Argentina
+  regions: [Mendoza, Neuquén]
+  interval: Middle Tithonian–Early Berriasian
+  occurrences: 5
+  ma: [141.0, 149.2]
+  id: vaca-muerta-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg, Bavaria, Franconia, Lower Saxony]
+  interval: Late Kimmeridgian–Late Valanginian
+  occurrences: 4
+  ma: [132.6, 152.21]
+  id:
+  - mornsheim-germany
+  - nusplingen-limestone-germany
+  - unnamed-landkreis-hamelin-pyrmont-germany
+  - unnamed-solnhofen-germany
+- formation: Torleite
+  group: Weißjura
+  members: [Arnstorf, Wattendorf]
+  country: Germany
+  regions: [Bavaria, Bayern]
+  interval: Kimmeridgian–Late Kimmeridgian
+  occurrences: 3
+  ma: [149.2, 154.8]
+  id: torleite-germany
+- formation: Mörnsheim
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 2
+  ma: [145.06, 149.2]
+  id: mornsheim-germany
+- formation: La Pimienta
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Puebla]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: la-pimienta-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Early Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: unnamed-rabassier-near-barret-le-bas-france
+- formation: Nusplingen Limestone
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: nusplingen-limestone-germany
+- formation: La Caja
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: la-caja-mexico
+- formation: La Casita
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: la-casita-mexico
+- formation: Altmühltal
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: altmuhltal-germany
+- formation: Liegende Bankkalk
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: liegende-bankkalk-germany
+- formation: Jagua
+  group: ''
+  members: [Jagua Vieja]
+  country: Cuba
+  regions: [Pinar del Río]
+  interval: Middle Oxfordian–Late Oxfordian
+  occurrences: 1
+  ma: [154.8, 159.0]
+  id: jagua-cuba
+fossil_material:
+  holotype: Wagner (1858) named the genus from three skulls found in a quarry at Daiting, Bavaria; the type specimen
+    is not identified in the article consulted.
+  material: Fossils are known from the Late Jurassic of England, France, Switzerland, Germany, Argentina (Vaca Muerta),
+    Cuba and Mexico.
+  completeness: multiple
+  exceptional: ''
+biology: Known species were about three metres long or less. The genus has repeatedly been treated as a synonym
+  of Metriorhynchus, Geosaurus or Dakosaurus.
+images:
+- kind: skeletal
+  file: Cricosaurus albersdoerferi skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cricosaurus_albersdoerferi_skeletal.png/960px-Cricosaurus_albersdoerferi_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cricosaurus_albersdoerferi_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-09'
+  caption: Skeletal reconstruction (C. albersdoerferi)
+  width: 9215
+  height: 2993
+  review: unreviewed
+- kind: fossil
+  file: Cricosaurus albersdoerferi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cricosaurus_albersdoerferi.jpg/960px-Cricosaurus_albersdoerferi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cricosaurus_albersdoerferi.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 -
+  caption: Fossil slab (C. albersdoerferi)
+  width: 2430
+  height: 1169
+  review: unreviewed
+- kind: life
+  file: Cricosaurus albersdoeferi.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ee/Cricosaurus_albersdoeferi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cricosaurus_albersdoeferi.png
+  artist: Jackosaurs
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-06-16'
+  caption: Life restoration
+  width: 750
+  height: 273
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/91fffc17-03f7-45bc-8813-ee5de21d9edb/vector.svg
+  png: https://images.phylopic.org/images/91fffc17-03f7-45bc-8813-ee5de21d9edb/raster/512x216.png
+  page: https://www.phylopic.org/images/91fffc17-03f7-45bc-8813-ee5de21d9edb
+  attribution: Nix Illustration
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Cricosaurus
+  matched: Cricosaurus
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Yanina Herrera 2013. A new Patagonian species of ''''Cricosaurus'''' (Crocodyliformes, Thalattosuchia):
+    first evidence of ''''Cricosaurus'''' in Middle–Upper Tithonian lithographic limestone from Gondwana. Palaeontology
+    56(3): 663–678. doi:10.1111/pala.12010'
+- kind: literature
+  text: 'Sachs, S.; Young, M.T.; Abel, P.; Mallison, H. 2019. A new species of the metriorhynchid crocodylomorph
+    ''''Cricosaurus'''' from the Upper Jurassic of southern Germany. Acta Palaeontologica Polonica 64(X): xxx-xxx.
+    doi:10.4202/app.00541.2018'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cricosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cricosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cricosaurus”. English Wikipedia, revision 1384620276.
+  url: https://en.wikipedia.org/w/index.php?title=Cricosaurus&oldid=1384620276
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Type species not stated in the dossier; confirm Cricosaurus elegans.
+  - 'Species size: 2 m (C. araucanensis) and 3.2 m are quoted by Wikipedia for two species; no genus range given.'
+  reviews: []

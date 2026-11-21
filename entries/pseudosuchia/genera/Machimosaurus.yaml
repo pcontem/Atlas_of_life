@@ -1,0 +1,385 @@
+name: Machimosaurus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: von Meyer 1837
+type_species: Machimosaurus hugii
+type_species_note: ''
+summary: Late Jurassic marine crocodyliform; M. rex, up to 7.15 m long, is the largest named teleosauroid and the
+  largest Jurassic crocodyliform.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 113.2
+  early_interval: Callovian
+  late_interval: Aptian
+  pbdb_occurrences: 45
+  note: ''
+species:
+- name: Machimosaurus buffetauti
+  authority: Young et al. 2014
+  first_ma: 154.8
+  last_ma: 152.21
+  interval: Kimmeridgian
+  reference: ''
+- name: Machimosaurus ferox
+  authority: Sauvage 1874
+  first_ma: 165.3
+  last_ma: 143.1
+  interval: Callovian–Tithonian
+  reference: ''
+- name: Machimosaurus hugii
+  authority: (Meyer 1837)
+  first_ma: 165.3
+  last_ma: 143.1
+  interval: Callovian–Tithonian
+  reference: original description
+- name: Machimosaurus interruptus
+  authority: Sauvage 1874
+  first_ma: 165.3
+  last_ma: 143.1
+  interval: Callovian–Tithonian
+  reference: ''
+- name: Machimosaurus mosae
+  authority: Sauvage and Lienard 1879
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Machimosaurus rex
+  authority: Fanti et al. 2016
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Aquitaine, Lorraine, Nord-Pas-de-Calais, Normandy]
+  interval: Late Oxfordian–Tithonian
+  occurrences: 7
+  ma: [143.1, 157.9]
+  id:
+  - unnamed-chatillon-france
+  - unnamed-cricquebeuf-france
+  - unnamed-fumel-france
+  - unnamed-haudainville-france
+  - unnamed-la-rochette-france
+- formation: Douiret
+  group: Merbah el Asfer
+  members: [Douiret Sand]
+  country: Tunisia
+  regions: [Tataouine]
+  interval: Kimmeridgian–Albian
+  occurrences: 6
+  ma: [100.5, 154.8]
+  id: douiret-tunisia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Eastern Bavaria, Lower Saxony, Neuffen, Niedersachsen]
+  interval: Kimmeridgian
+  occurrences: 5
+  ma: [149.2, 154.8]
+  id:
+  - unnamed-am-hornle-quarry-germany
+  - unnamed-brunn-quarry-germany
+  - unnamed-kahlenberg-croc-locality-germany
+  - unnamed-rohstoffbetriebe-oker-quarry-langenberg-germany
+  - unnamed-tonniesberg-hannover-germany
+- formation: Lourinhã
+  group: ''
+  members: [Praia Azul]
+  country: Portugal
+  regions: [Centro, Lisboa, Lisbon]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 3
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: Argiles de Châtillon
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais, Pas de Calais]
+  interval: Late Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 152.21]
+  id: argiles-de-chatillon-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Algarve, Centro]
+  interval: Middle Oxfordian–Late Oxfordian
+  occurrences: 2
+  ma: [154.8, 159.0]
+  id: [unnamed-cesaredas-portugal, unnamed-malhao-portugal]
+- formation: Sables de Glos
+  group: ''
+  members: []
+  country: France
+  regions: [Basse-Normandie]
+  interval: Late Oxfordian
+  occurrences: 1
+  ma: [154.8, 157.9]
+  id: sables-de-glos-france
+- formation: Higueruelas
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valencia]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: higueruelas-spain
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+- formation: Raetschenbank
+  group: ''
+  members: []
+  country: Switzerland
+  regions: [Zug]
+  interval: Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 154.8]
+  id: raetschenbank-switzerland
+- formation: Marnes a Gryphées virgules d'Issoncourt
+  group: ''
+  members: []
+  country: France
+  regions: [Meuse]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: marnes-a-gryphees-virgules-d-issoncourt-france
+- formation: Mont-Lambert
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: mont-lambert-france
+- formation: Kimmeridge Clay
+  group: ''
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: kimmeridge-clay-united-kingdom
+- formation: Calcaires marneux à Ptérocères
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne-Rhône-Alpes]
+  interval: Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 154.8]
+  id: calcaires-marneux-a-pteroceres-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Switzerland
+  regions: []
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-soleure-solothorn-switzerland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valenciana]
+  interval: Neocomian
+  occurrences: 1
+  ma: [125.77, 143.1]
+  id: unnamed-benageber-spain
+- formation: Couches à Cidaris chofatti
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Late Oxfordian
+  occurrences: 1
+  ma: [154.8, 157.9]
+  id: couches-a-cidaris-chofatti-portugal
+- formation: Tereñes
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Asturias]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: terenes-portugal
+- formation: Calcaires Coquilliers
+  group: ''
+  members: []
+  country: France
+  regions: [Normandy]
+  interval: Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 154.8]
+  id: calcaires-coquilliers-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Poland
+  regions: [Zachodniopomorskie]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-fritzow-cammin-poland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ethiopia
+  regions: [Harari]
+  interval: Oxfordian–Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 161.5]
+  id: unnamed-harrar-near-feyambiro-ethiopia
+- formation: Süntel
+  group: ''
+  members: [Unterbank]
+  country: Germany
+  regions: [Nordrhein-Westfalen]
+  interval: Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 154.8]
+  id: suntel-germany
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Tataouine Governorate]
+  interval: Hauterivian–Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: unnamed-machimosaurus-rex-tunisia
+- formation: Lastres
+  group: ''
+  members: []
+  country: Spain
+  regions: [Asturias]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: lastres-spain
+fossil_material:
+  holotype: Von Meyer named it in 1837 from isolated, blunt, conical teeth from Switzerland.
+  material: Fossils are known from England, France, Germany, Portugal, Switzerland and Tunisia; an Early Cretaceous
+    species was proposed but contested.
+  completeness: multiple
+  exceptional: ''
+biology: Blunt teeth with many longitudinal lines; M. rex reached an estimated 7.15 m, with a 155 cm skull.
+images:
+- kind: fossil
+  file: Machimosaurus buffetauti.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Machimosaurus_buffetauti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Machimosaurus_buffetauti.jpg
+  artist: Young, Mark T.; Hua, Stéphane; Steel, Lorna; Foffa, Davide; Brusatte, Stephen L.; Thüring, Silvan; Mateus,
+    Octávio; Ruiz-Omeñaca, José Ignacio; Havlik, Philipe; Lepage, Yves; & de Andrade, Marco Brandalise
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-12-22'
+  caption: Skull (M. rex)
+  width: 866
+  height: 949
+  review: unreviewed
+- kind: life
+  file: Machimosaurus hugii(cropped).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Machimosaurus_hugii%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Machimosaurus_hugii(cropped).jpg
+  artist: M.T. Young et alii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-09-12'
+  caption: Life restoration (M. hugii)
+  width: 1040
+  height: 334
+  review: unreviewed
+- kind: fossil
+  file: Machimosaurus skulls.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2b/Machimosaurus_skulls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Machimosaurus_skulls.jpg
+  artist: Young, Mark T.; Hua, Stéphane; Steel, Lorna; Foffa, Davide; Brusatte, Stephen L.; Thüring, Silvan; Mateus,
+    Octávio; Ruiz-Omeñaca, José Ignacio; Havlik, Philipe; Lepage, Yves; & de Andrade, Marco Brandalise
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-12-22'
+  caption: Skull figures
+  width: 404
+  height: 446
+  review: unreviewed
+- kind: fossil
+  file: Machimosaurus sp.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Machimosaurus_sp.jpg/960px-Machimosaurus_sp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Machimosaurus_sp.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-11'
+  caption: Skeleton mount
+  width: 1922
+  height: 732
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Machimosauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Fanti, Federico; Miyashita, Tetsuto; Cantelli, Luigi; Mnasri, Fawsi; Dridi, Jihed; Contessi, Michela; Cau,
+    Andrea 2016. The largest thalattosuchian (Crocodylomorpha) supports teleosaurid survival across the Jurassic-Cretaceous
+    boundary. Cretaceous Research 61: 263–274. doi:10.1016/j.cretres.2015.11.011'
+- kind: literature
+  text: Martin, Jeremy E.; Suteethorn, Suravech; Lauprasert, Komsorn; Tong, Haiyan; Buffetaut, Eric; Liard, Romain;
+    Salaviale, Celine; Deesri, Uthumporn; Suteethorn, Varavudh; Claude, Julien 2018. A new freshwater teleosaurid
+    from the Jurassic of northeastern Thailand. Journal of Vertebrate Paleontology 38(6). doi:10.1080/02724634.2018.1549059
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Machimosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Machimosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Machimosaurus”. English Wikipedia, revision 1384523184.
+  url: https://en.wikipedia.org/w/index.php?title=Machimosaurus&oldid=1384523184
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Authority from the Wikipedia article (PBDB has none); name emended from Madrimosaurus in 1838.
+  - 'Size: up to 7.15 m for M. rex (Fanti et al. 2016); no genus-wide range.'
+  reviews: []

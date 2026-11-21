@@ -1,0 +1,123 @@
+name: Isisfordia
+rank: genus
+parent: neosuchia
+incertae_sedis: false
+placement_note: ''
+authority: Salisbury et al. 2006
+type_species: Isisfordia duncani
+type_species_note: ''
+summary: Basal eusuchian from the mid-Cretaceous of Queensland, Australia, over 1 m long, with the skull found in
+  a later expedition.
+size:
+  length_m: null
+  note: Estimated body length over 1 m (Wikipedia).
+age:
+  first_ma: 106.3
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Isisfordia duncani
+  authority: Salisbury et al. 2006
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+- name: Isisfordia molnari
+  authority: Hart et al. 2019
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: ''
+- name: Isisfordia selaslophensis
+  authority: (Etheridge 1917)
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: ''
+formations:
+- formation: Griman Creek
+  group: Rolling Downs
+  members: [Wallangulla Sandstone]
+  country: Australia
+  regions: [New South Wales]
+  interval: Early Cenomanian–Middle Cenomanian
+  occurrences: 8
+  ma: [93.9, 100.5]
+  id: griman-creek-australia
+- formation: Winton
+  group: Rolling Downs
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Late Albian
+  occurrences: 1
+  ma: [100.5, 106.3]
+  id: winton-australia
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Most of the animal was found except the front of the skull; a later expedition recovered a complete
+    skull of the same size class.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images:
+- kind: fossil
+  file: Isisfordia material.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Isisfordia_material.jpg/960px-Isisfordia_material.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Isisfordia_material.jpg
+  artist: Ristevski, J.; Willis, P.M.A.; Yates, A.M.; White, M.A.; Hart, L.J.; Stein, M.D.; Price, G.J.; Salisbury,
+    S.W.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-05-23'
+  caption: Material
+  width: 3850
+  height: 3151
+  review: unreviewed
+- kind: life
+  file: Isisfordia.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3a/Isisfordia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Isisfordia.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-05-31'
+  caption: Life restoration
+  width: 1452
+  height: 716
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4b49f3d3-8557-4af1-b286-cadf79527986/vector.svg
+  png: https://images.phylopic.org/images/4b49f3d3-8557-4af1-b286-cadf79527986/raster/512x224.png
+  page: https://www.phylopic.org/images/4b49f3d3-8557-4af1-b286-cadf79527986
+  attribution: Smokeybjb (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Isisfordia duncani
+  matched: Isisfordia
+  genus_level: true
+sources:
+- kind: original
+  text: 'Salisbury, Steven W; Molnar, Ralph E; Frey, Eberhard; Willis, Paul M.A 2006. The origin of modern crocodyliforms:
+    new evidence from the Cretaceous of Australia. Proceedings of the Royal Society B: Biological Sciences 273(1600):
+    2439–2448. doi:10.1098/rspb.2006.3613'
+- kind: literature
+  text: Hart, Lachlan J.; Bell, Phil R.; Smith, Elizabeth T.; Salisbury, Steven W. 2019. ''Isisfordia molnari''
+    sp. nov., a new basal eusuchian from the mid-Cretaceous of Lightning Ridge, Australia. PeerJ 7. doi:10.7717/peerj.7166
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Isisfordia (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Isisfordia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Isisfordia”. English Wikipedia, revision 1381744821.
+  url: https://en.wikipedia.org/w/index.php?title=Isisfordia&oldid=1381744821
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype not stated.
+  - PBDB parent is Eusuchia; the tree places it in Neosuchia.
+  reviews: []

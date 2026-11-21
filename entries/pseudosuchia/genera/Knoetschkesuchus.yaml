@@ -1,0 +1,135 @@
+name: Knoetschkesuchus
+rank: genus
+parent: atoposauridae
+incertae_sedis: false
+placement_note: ''
+authority: Schwarz et al. 2017
+type_species: Knoetschkesuchus langenbergensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Small, short-snouted atoposaurid about 55 cm long from the Late Jurassic of Germany and Portugal.
+size:
+  length_m: [0.55, 0.55]
+  note: About 55 cm (Wikipedia).
+age:
+  first_ma: 154.8
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Knoetschkesuchus guimarotae
+  authority: (Schwarz and Salisbury 2005)
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Knoetschkesuchus langenbergensis
+  authority: Schwarz et al. 2017
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Lourinhã
+  group: ''
+  members: [Praia Azul]
+  country: Portugal
+  regions: [Centro, Lisboa]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 2
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: Süntel
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: suntel-germany
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: K. guimarotae is known from over 400 specimens including partial skeletons; material is stored at the
+    Dinosaurier-Freilichtmuseum Münchehagen.
+  completeness: multiple
+  exceptional: ''
+biology: Fed mainly on small prey such as invertebrates, amphibians and mammals; the wide skull has antorbital and
+  mandibular fenestrae at all life stages.
+images:
+- kind: fossil
+  file: Knoetschke-3a.png
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Knoetschke-3a.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Knoetschke-3a.png
+  artist: Daniela Schwarz, Maik Raddatz, Oliver Wings
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-02-15'
+  caption: Specimen
+  width: 1094
+  height: 662
+  review: unreviewed
+- kind: fossil
+  file: Knoetschke-5.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Knoetschke-5.png/960px-Knoetschke-5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Knoetschke-5.png
+  artist: Daniela Schwarz, Maik Raddatz, Oliver Wings
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-02-15'
+  caption: Skull figure
+  width: 2000
+  height: 1979
+  review: unreviewed
+- kind: life
+  file: Knoetschkesuchus2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Knoetschkesuchus2.jpg/960px-Knoetschkesuchus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Knoetschkesuchus2.jpg
+  artist: Hyrotrioskjan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-09-10'
+  caption: Life restoration
+  width: 3720
+  height: 2880
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/vector.svg
+  png: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/raster/645x1024.png
+  page: https://www.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Theriosuchus
+  matched: Atoposauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Schwarz, D.; Raddatz, M.; Wings, O. 2017. ''Knoetschkesuchus langenbergensis'' gen. nov. sp. nov., a new
+    atoposaurid crocodyliform from the Upper Jurassic Langenberg Quarry (Lower Saxony, northwestern Germany), and
+    its relationships to ''Theriosuchus''. PLOS ONE 12(2). doi:10.1371/journal.pone.0160617
+- kind: literature
+  text: 'Schwarz, D.; Salisbury, S.W. 2005. A new species of ''''Theriosuchus'''' (Atoposauridae, Crocodylomorpha)
+    from the Late Jurassic (Kimmeridgian) of Guimarota, Portugal. Geobios 38(6): 779–802. doi:10.1016/j.geobios.2004.04.005'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Knoetschkesuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Knoetschkesuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Knoetschkesuchus”. English Wikipedia, revision 1314350337.
+  url: https://en.wikipedia.org/w/index.php?title=Knoetschkesuchus&oldid=1314350337
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype not stated; type species deduced.]
+  reviews: []

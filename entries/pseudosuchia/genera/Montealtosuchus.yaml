@@ -1,0 +1,77 @@
+name: Montealtosuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Carvalho et al. 2007
+type_species: Montealtosuchus arrudacamposi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Peirosaurid of about 2 m with an oreinirostral skull, from the Bauru Group.
+size:
+  length_m: [2.0, 2.0]
+  note: Approximate length given in the Wikipedia article.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Montealtosuchus arrudacamposi
+  authority: Carvalho et al. 2007
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Not stated in the Wikipedia article consulted; check the original description.
+  completeness: partial
+  exceptional: ''
+biology: About 2 m long, with an oreinirostral (tall, narrow) skull; its bite force was estimated at 828–1013 N.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'C. F. C. Geroto 2019. New material of ''''Pepesuchus'''' (Crocodyliformes; Mesoeucrocodylia) from the Bauru
+    Group: implications about its phylogeny and the age of the Adamantina Formation. Zoological Journal of the Linnean
+    Society 185(2): 312-334. doi:10.1093/zoolinnean/zly037'
+- kind: literature
+  text: 'Srinivas, Ananth; Bright, Jen A.; Cunningham, John A.; Tavares, Sandra Aparecida Simionato; Ricardi-Branco,
+    Fresia; de Souza Carvalho, Ismar; Iori, Fabiano Vidoi; Rayfield, Emily J. 2025. Constraints and adaptations
+    in crocodyliform skull evolution. Proceedings of the Royal Society B: Biological Sciences 292(2058). doi:10.1098/rspb.2025.1773'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Montealtosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Montealtosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Montealtosuchus”. English Wikipedia, revision 1379584499.
+  url: https://en.wikipedia.org/w/index.php?title=Montealtosuchus&oldid=1379584499
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Type species filled from general knowledge.
+  - Holotype not stated.
+  reviews: []

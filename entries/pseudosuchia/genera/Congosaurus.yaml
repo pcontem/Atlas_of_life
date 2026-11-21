@@ -1,0 +1,121 @@
+name: Congosaurus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Dollo 1914
+type_species: Congosaurus bequaerti
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Dyrosaurid from the Paleocene to Eocene of Central Africa and North Africa, first named by Dollo in 1914.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 66
+  last_ma: 48.07
+  early_interval: Danian
+  late_interval: Ypresian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Congosaurus bequaerti
+  authority: (Dollo 1914)
+  first_ma: 61.66
+  last_ma: 59.24
+  interval: Selandian
+  reference: original description
+- name: Congosaurus compressus
+  authority: (Buffetaut 1980)
+  first_ma: 66
+  last_ma: 56
+  interval: Danian–Thanetian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mali
+  regions: []
+  interval: Middle Paleocene–Late Paleocene
+  occurrences: 3
+  ma: [56.0, 61.66]
+  id: unnamed-cheit-keini-tilemsi-valley-mali
+- formation: Umm Himar
+  group: ''
+  members: [Middle]
+  country: Saudi Arabia
+  regions: [Makkah]
+  interval: Paleocene
+  occurrences: 2
+  ma: [56.0, 66.0]
+  id: umm-himar-saudi-arabia
+- formation: Landana
+  group: ''
+  members: []
+  country: Angola
+  regions: [Cabinda]
+  interval: Selandian
+  occurrences: 1
+  ma: [59.24, 61.66]
+  id: landana-angola
+- formation: Cambay Shale
+  group: ''
+  members: []
+  country: India
+  regions: [Gujarat]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: cambay-shale-india
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: PBDB lists two species, C. bequaerti and C. compressus.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images:
+- kind: skeletal
+  file: Congosaurus skeletal no osteoderms.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Congosaurus_skeletal_no_osteoderms.png/960px-Congosaurus_skeletal_no_osteoderms.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Congosaurus_skeletal_no_osteoderms.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-06'
+  caption: Skeletal reconstruction
+  width: 5235
+  height: 1951
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d6935940-9e80-4a0d-8e1b-9a258ebdadc8/vector.svg
+  png: https://images.phylopic.org/images/d6935940-9e80-4a0d-8e1b-9a258ebdadc8/raster/512x107.png
+  page: https://www.phylopic.org/images/d6935940-9e80-4a0d-8e1b-9a258ebdadc8
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Congosaurus bequaerti
+  matched: Congosaurus
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Jouve, S.; Schwarz, D. 2004. Congosaurus bequaerti, a Paleocene dyrosaurid (Crocodyliformes; Mesoeucrocodylia)
+    from Landana (Angola). Bulletin de l''Institut Royal des Sciences Naturelles de Belgique, Sciences de la Terre
+    74: 129–146.'
+- kind: literature
+  text: 'Jouve, S. 2007. Taxonomic revision of the Dyrosaurid assemblage (Crocodyliformes: Mesoeucrocodylia) from
+    the Paleocene of the Iullemmeden Basin, west Africa. Journal of Paleontology 81(1): 163–175. doi:10.1666/0022-3360(2007)81[163:TROTDA]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Congosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Congosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Congosaurus”. English Wikipedia, revision 1374701738.
+  url: https://en.wikipedia.org/w/index.php?title=Congosaurus&oldid=1374701738
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Holotype, material and completeness not stated; the Wikipedia text had no content for this genus.
+  - Add the original description (Dollo 1914).
+  reviews: []

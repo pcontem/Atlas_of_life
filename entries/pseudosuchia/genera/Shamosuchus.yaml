@@ -1,0 +1,193 @@
+name: Shamosuchus
+rank: genus
+parent: paralligatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Mook 1924
+type_species: Shamosuchus djadochtaensis
+type_species_note: ''
+summary: Mongolian Cretaceous neosuchian up to about 4 m long with a moderate rostrum, probably feeding on aquatic
+  invertebrates.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Shamosuchus ancestralis
+  authority: (Konzhukova 1954)
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: ''
+- name: Shamosuchus djadochtaensis
+  authority: Mook 1924
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Shamosuchus gradilifrons
+  authority: (Konzhukova 1954)
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: ''
+- name: Shamosuchus major
+  authority: (Efimov 1981)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Shamosuchus tersus
+  authority: Efimov 1983
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: ''
+- name: Shamosuchus ulanicus
+  authority: Efimov 1983
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: ''
+- name: Shamosuchus ulgicus
+  authority: (Efimov 1981)
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Djadokhta
+  group: ''
+  members: [Bayn Dzak]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Udurchukan
+  group: Tsagayan
+  members: []
+  country: Russia
+  regions: [Amur]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: udurchukan-russia
+- formation: Iren Dabasu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: iren-dabasu-china
+- formation: Beds of Nogon Tsav
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Bayankhongor]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: beds-of-nogon-tsav-mongolia
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Cenomanian–Santonian
+  occurrences: 1
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Species come from the Cretaceous of Mongolia and China.
+  completeness: partial
+  exceptional: ''
+biology: The moderate rostrum does not suit an ambush predator, which supports a diet of aquatic invertebrates.
+images:
+- kind: skeletal
+  file: Shamosuchus type skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Shamosuchus_type_skeletal.png/960px-Shamosuchus_type_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Shamosuchus_type_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-24'
+  caption: Skeletal reconstruction
+  width: 7123
+  height: 2168
+  review: unreviewed
+- kind: fossil
+  file: Shamosuchus djadochtaensis.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Shamosuchus_djadochtaensis.PNG/960px-Shamosuchus_djadochtaensis.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Shamosuchus_djadochtaensis.PNG
+  artist: Alan H. Turner
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2015'
+  caption: Skull of S. djadochtaensis
+  width: 4260
+  height: 1823
+  review: unreviewed
+- kind: life
+  file: Shamosuchus djadochtaensis illustration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Shamosuchus_djadochtaensis_illustration.jpg/960px-Shamosuchus_djadochtaensis_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Shamosuchus_djadochtaensis_illustration.jpg
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-25'
+  caption: Life illustration
+  width: 1683
+  height: 1295
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/vector.svg
+  png: https://images.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c/raster/701x1024.png
+  page: https://www.phylopic.org/images/cf13b6cb-0121-4ab9-9419-a47e7972495c
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Shamosuchus djadochtaensis
+  matched: Paralligatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mook, C. C. 1924. A new crocodilian from Mongolia. American Museum Novitates(117): 1–5.'
+- kind: literature
+  text: 'Pol, Diego; Turner, Alan H.; Norell, Mark A. 30 J. Morphology of the Late Cretaceous Crocodylomorph Shamosuchus
+    djadochtaensis and a Discussion of Neosuchian Phylogeny as Related to the Origin of Eusuchia. Bulletin of the
+    American Museum of Natural History 324: 1-103. doi:10.1206/0003-0090-324.1.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shamosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shamosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shamosuchus”. English Wikipedia, revision 1356056534.
+  url: https://en.wikipedia.org/w/index.php?title=Shamosuchus&oldid=1356056534
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Holotype not stated.
+  - 'Size: up to 4 m; no genus range.'
+  reviews: []

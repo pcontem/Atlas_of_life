@@ -1,0 +1,124 @@
+name: Plesiosuchus
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1884
+type_species: Plesiosuchus manselii
+type_species_note: ''
+summary: Large geosaurine metriorhynchid from the Late Jurassic of Dorset, England, and possibly Spain.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 152.21
+  last_ma: 141
+  early_interval: Kimmeridgian
+  late_interval: Berriasian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Plesiosuchus manselii
+  authority: (Hulke 1870)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Kimmeridge Clay
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 2
+  ma: [145.06, 152.21]
+  id: kimmeridge-clay-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Slovakia
+  regions: [Prešov]
+  interval: Tithonian–Early Berriasian
+  occurrences: 1
+  ma: [141.0, 149.2]
+  id: unnamed-kyjov-slovakia
+fossil_material:
+  holotype: NHMUK PV OR40103, an incomplete skull with mandible and isolated postcranial remains found in the 1860s
+    on the Dorset coast.
+  material: The type and referred specimens were found by John Clavell Mansel-Pleydell alongside remains of other
+    large marine reptiles.
+  completeness: partial
+  exceptional: ''
+biology: Fully marine like other metriorhynchids; the skull was at first thought to be pliosaur.
+images:
+- kind: skeletal
+  file: Plesiosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Plesiosuchus_skeletal.png/960px-Plesiosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plesiosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-09-07'
+  caption: Skeletal reconstruction
+  width: 7412
+  height: 2881
+  review: unreviewed
+- kind: fossil
+  file: Plesiosuchus holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Plesiosuchus_holotype.png/960px-Plesiosuchus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plesiosuchus_holotype.png
+  artist: Mark T. Young1*, Stephen L. Brusatte2,3, Marco Brandalise de Andrade4, Julia B. Desojo5, Brian L. Beatty6,
+    Lorna Steel7, Marta S. Fernández8, Manabu Sakamoto9, Jose Ignacio Ruiz-Omeñaca10,11, Rainer R. Schoch12
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012'
+  caption: Skull
+  width: 2455
+  height: 1737
+  review: unreviewed
+- kind: fossil
+  file: Plesiosuchus manselii.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Plesiosuchus_manselii.png/960px-Plesiosuchus_manselii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plesiosuchus_manselii.png
+  artist: Mark T. Young1*, Stephen L. Brusatte2,3, Marco Brandalise de Andrade4, Julia B. Desojo5, Brian L. Beatty6,
+    Lorna Steel7, Marta S. Fernández8, Manabu Sakamoto9, Jose Ignacio Ruiz-Omeñaca10,11, Rainer R. Schoch12
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012'
+  caption: Palate and mandible
+  width: 2436
+  height: 2991
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/vector.svg
+  png: https://images.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367/raster/512x323.png
+  page: https://www.phylopic.org/images/72123a62-d833-4d7c-a19d-abb17ae9f367
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Metriorhynchus brevirostris
+  matched: Metriorhynchidae
+  genus_level: false
+sources:
+- kind: literature
+  text: Young, M. T.; Brusatte, S. L.; De Andrade, M. B.; Desojo, J. B.; Beatty, B. L.; Steel, L.; Fernández, M.
+    S.; Sakamoto, M.; Ruiz-Omeñaca, J. I.; Schoch, R. R. 2012. The Cranial Osteology and Feeding Ecology of the
+    Metriorhynchid Crocodylomorph Genera ''Dakosaurus'' and ''Plesiosuchus'' from the Late Jurassic of Europe. PLOS
+    ONE 7(9). doi:10.1371/journal.pone.0044985
+- kind: literature
+  text: Girard, L. C.; De Sousa Oliveira, S.; Raselli, I.; Martin, J. E.; Anquetin, J. 2023. Description and phylogenetic
+    relationships of a new species of ''Torvoneustes'' (Crocodylomorpha, Thalattosuchia) from the Kimmeridgian of
+    Switzerland. PeerJ 11. doi:10.7717/peerj.15512
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plesiosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plesiosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plesiosuchus”. English Wikipedia, revision 1380320885.
+  url: https://en.wikipedia.org/w/index.php?title=Plesiosuchus&oldid=1380320885
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original description (Owen 1884).]
+  reviews: []

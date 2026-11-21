@@ -1,0 +1,96 @@
+name: Mycterosuchus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Andrews 1913
+type_species: Mycterosuchus nasutus
+type_species_note: ''
+summary: Teleosaurid crocodyliform from the Middle Jurassic (Callovian) of England, treated as distinct from Steneosaurus
+  in recent analysis.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mycterosuchus nasutus
+  authority: (Andrews 1909)
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Not stated in the Wikipedia article consulted; check the original description.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted gives no information on its biology; its long snout gave it the name 'long-nose crocodile'.
+images:
+- kind: fossil
+  file: Mycterosuchus nasutus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Mycterosuchus_nasutus.jpg/960px-Mycterosuchus_nasutus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mycterosuchus_nasutus.jpg
+  artist: G. M. Woodward
+  license: Public domain
+  license_url: ''
+  date: '1909'
+  caption: Skull
+  width: 2124
+  height: 744
+  review: unreviewed
+- kind: fossil
+  file: Mycterosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Mycterosuchus.png/960px-Mycterosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mycterosuchus.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Skull figure
+  width: 1868
+  height: 1874
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: Johnson, M.M.; Young, M.T.; Brusatte, S.L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha, Thalattosuchia)
+    and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mycterosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mycterosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mycterosuchus”. English Wikipedia, revision 1368543672.
+  url: https://en.wikipedia.org/w/index.php?title=Mycterosuchus&oldid=1368543672
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype, material and completeness not stated; fill from Andrews 1913 / Johnson et al. 2020.
+  - Add the original description (Andrews 1913).
+  reviews: []

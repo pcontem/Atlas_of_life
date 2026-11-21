@@ -1,0 +1,95 @@
+name: Aeolodon
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: von Meyer 1830
+type_species: Aeolodon priscus
+type_species_note: ''
+summary: Teleosaurid crocodyliform from the Late Jurassic (Tithonian) of Germany and France, first named as a Crocodylus
+  species in 1814.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 149.2
+  last_ma: 145.06
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aeolodon priscus
+  authority: (Soemmering 1815)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Mörnsheim
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: mornsheim-germany
+fossil_material:
+  holotype: The holotype of A. priscus was found in the Mörnsheim Formation at Daiting, Bavaria, in the same quarry
+    that yielded the Geosaurus giganteus holotype.
+  material: An assigned specimen comes from the Canjuers Lagerstätte, Var, France.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images:
+- kind: fossil
+  file: Aeolodon priscus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Aeolodon_priscus.png/960px-Aeolodon_priscus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aeolodon_priscus.png
+  artist: Drawing by Michael Long, published by Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Fossil specimen
+  width: 2314
+  height: 1497
+  review: unreviewed
+- kind: fossil
+  file: Aeolodon.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Aeolodon.png/960px-Aeolodon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aeolodon.png
+  artist: Davide Foffa​​1,2, Michela M. Johnson​2, Mark T. Young​2, Lorna Steel3, Stephen L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Fossil specimen
+  width: 3890
+  height: 2982
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aeolodon (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aeolodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aeolodon”. English Wikipedia, revision 1313744220.
+  url: https://en.wikipedia.org/w/index.php?title=Aeolodon&oldid=1313744220
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Add the original description (von Meyer 1830).]
+  reviews: []

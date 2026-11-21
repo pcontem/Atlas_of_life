@@ -1,0 +1,107 @@
+name: Plagiophthalmosuchus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Johnson et al. 2020
+type_species: Plagiophthalmosuchus gracilirostris
+type_species_note: ''
+summary: Small marine teleosauroid from the Early Jurassic, named in 2020 for a species long placed in Steneosaurus.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 184.2
+  last_ma: 174.7
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Plagiophthalmosuchus gracilirostris
+  authority: (Westphal 1961)
+  first_ma: 184.2
+  last_ma: 174.7
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Alum Shale
+  group: ''
+  members: [Main Alum Shales]
+  country: United Kingdom
+  regions: [England]
+  interval: Falciferum–Bifrons
+  occurrences: 3
+  ma: [174.7, 184.2]
+  id: whitby-mudstone-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Luxembourg
+  regions: [Luxembourg]
+  interval: Early Toarcian
+  occurrences: 1
+  ma: [182.9, 184.2]
+  id: unnamed-dudelange-luxembourg
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: The type species was named Teleosaurus gracilirostris in 1836 and moved to Steneosaurus in 1961.
+  completeness: partial
+  exceptional: ''
+biology: A small marine predator that fed on fish, judging from its skull features.
+images:
+- kind: fossil
+  file: Plagiophthalmosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Plagiophthalmosuchus.png/960px-Plagiophthalmosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plagiophthalmosuchus.png
+  artist: Michela M. Johnson​, Mark T. Young, Stephen L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Fossil specimen
+  width: 2428
+  height: 2001
+  review: unreviewed
+- kind: fossil
+  file: Plagiophthalmosuchus lithograph.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Plagiophthalmosuchus_lithograph.jpg/960px-Plagiophthalmosuchus_lithograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plagiophthalmosuchus_lithograph.jpg
+  artist: J. E. Girardot
+  license: Public domain
+  license_url: ''
+  date: '1881'
+  caption: Lithograph of a specimen
+  width: 1888
+  height: 2785
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: literature
+  text: 'Young, Mark T.; Wilberg, Eric W.; Johnson, Michela M.; Herrera, Yanina; De Andrade, Marco Brandalise; Brignon,
+    Arnaud; Sachs, Sven; Abel, Pascal; Foffa, Davide; Fernández, Marta S.; Vignaud, Patrick; Cowgill, Thomas; Brusatte,
+    Stephen L. 2024. The history, systematics, and nomenclature of Thalattosuchia (Archosauria: Crocodylomorpha).
+    Zoological Journal of the Linnean Society 200(2): 547–617. doi:10.1093/zoolinnean/zlad165'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plagiophthalmosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plagiophthalmosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plagiophthalmosuchus”. English Wikipedia, revision 1372391236.
+  url: https://en.wikipedia.org/w/index.php?title=Plagiophthalmosuchus&oldid=1372391236
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Completeness is provisional; add holotype data.]
+  reviews: []

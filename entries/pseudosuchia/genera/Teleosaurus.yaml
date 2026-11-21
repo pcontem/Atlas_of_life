@@ -1,0 +1,291 @@
+name: Teleosaurus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Geoffroy 1825
+type_species: Teleosaurus cadomensis
+type_species_note: ''
+summary: Teleosaurid crocodyliform about 3 m long, from the Early Jurassic to Early Cretaceous according to PBDB.
+size:
+  length_m: [3, 3]
+  note: About 3 m (Wikipedia).
+age:
+  first_ma: 184.2
+  last_ma: 119.57
+  early_interval: Toarcian
+  late_interval: Aptian
+  pbdb_occurrences: 20
+  note: ''
+species:
+- name: Teleosaurus asthenodeirus
+  authority: Owen 1842
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Teleosaurus brevior
+  authority: Owen 1884
+  first_ma: 184.2
+  last_ma: 174.7
+  interval: Toarcian
+  reference: ''
+- name: Teleosaurus cadomensis
+  authority: Lamouroux 1820
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: original description
+- name: Teleosaurus chapmanni
+  authority: Buckland 1836
+  first_ma: 184.2
+  last_ma: 174.7
+  interval: Toarcian
+  reference: ''
+- name: Teleosaurus eucephalus
+  authority: Seeley 1880
+  first_ma: 201.4
+  last_ma: 174.7
+  interval: Hettangian–Toarcian
+  reference: ''
+- name: Teleosaurus geoffroyi
+  authority: Deslongchamps 1868
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: ''
+- name: Teleosaurus lacunosae
+  authority: Quenstedt 1858
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Teleosaurus latifrons
+  authority: Owen 1884
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Teleosaurus minimus
+  authority: Quenstedt 1852
+  first_ma: 201.4
+  last_ma: 174.7
+  interval: Hettangian–Toarcian
+  reference: ''
+- name: Teleosaurus ornati
+  authority: Quenstedt 1852
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Teleosaurus soemmeringii
+  authority: Holl 1829
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Teleosaurus superciliosus
+  authority: Deslongchamps 1867
+  first_ma: 165.3
+  last_ma: 149.2
+  interval: Callovian–Kimmeridgian
+  reference: ''
+formations:
+- formation: Cotswold Slate
+  group: ''
+  members: [Eyford]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Bathonian
+  occurrences: 3
+  ma: [165.3, 168.2]
+  id: cotswold-slate-united-kingdom
+- formation: Pierre de Caen
+  group: Calcaires de Caen
+  members: []
+  country: France
+  regions: [Normandy]
+  interval: Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: pierre-de-caen-france
+- formation: Marnes à Deltoideum delta
+  group: ''
+  members: []
+  country: France
+  regions: [Haute-Normandie]
+  interval: Early Kimmeridgian
+  occurrences: 2
+  ma: [152.21, 154.8]
+  id: marnes-a-deltoideum-delta-france
+- formation: Taynton Limestone
+  group: Great Oolite
+  members: [Stonesfield Slates]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: taynton-limestone-united-kingdom
+- formation: Kimmeridge Clay
+  group: Ancholme
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 2
+  ma: [143.1, 154.8]
+  id: kimmeridge-clay-united-kingdom
+- formation: Chipping Norton Limestone
+  group: Great Oolite
+  members: [Hook Norton]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: chipping-norton-limestone-united-kingdom
+- formation: Great Oolite
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: great-oolite-united-kingdom
+- formation: Wadhurst Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+- formation: White Limestone
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: white-limestone-united-kingdom
+- formation: Sharp's Hill
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: sharp-s-hill-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Switzerland
+  regions: []
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-soleure-solothorn-switzerland
+- formation: Ziliujing
+  group: ''
+  members: []
+  country: China
+  regions: [Chongqing]
+  interval: Toarcian–Bajocian
+  occurrences: 1
+  ma: [168.2, 184.2]
+  id: ziliujing-china
+- formation: Woburn Sand
+  group: Lower Greensand
+  members: [Potton Nodule Bed]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: woburn-sand-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Toarcian
+  occurrences: 1
+  ma: [174.7, 184.2]
+  id: whitby-mudstone-united-kingdom
+fossil_material:
+  holotype: MNHN AC 8746, a quarter of a skull and associated postcranial remains found in the early 19th century.
+  material: Other specimens are fragmentary.
+  completeness: partial
+  exceptional: ''
+biology: The forelimbs were remarkably short and would have been held close to the body while swimming.
+images:
+- kind: fossil
+  file: Teleosaurus cadomensis 2.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/6/60/Teleosaurus_cadomensis_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Teleosaurus_cadomensis_2.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-05-18'
+  caption: Specimen
+  width: 1011
+  height: 1494
+  review: unreviewed
+- kind: fossil
+  file: Teleosaurus cadomensis skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Teleosaurus_cadomensis_skull.jpg/960px-Teleosaurus_cadomensis_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Teleosaurus_cadomensis_skull.jpg
+  artist: Eugene Deslonghamps
+  license: Public domain
+  license_url: ''
+  date: '1866'
+  caption: Skull
+  width: 2775
+  height: 1645
+  review: unreviewed
+- kind: life
+  file: Recreación manual de un Teleosaurus 2.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Recreaci%C3%B3n_manual_de_un_Teleosaurus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Recreaci%C3%B3n_manual_de_un_Teleosaurus_2.jpg
+  artist: JaviDex
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-04-16'
+  caption: Life restoration
+  width: 1224
+  height: 1180
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Teleosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Teleosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Teleosaurus”. English Wikipedia, revision 1350880746.
+  url: https://en.wikipedia.org/w/index.php?title=Teleosaurus&oldid=1350880746
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - PBDB range (Toarcian–Aptian) is far wider than the Bathonian type material; check which species are valid.
+  - Add the original description (Geoffroy 1825).
+  reviews: []

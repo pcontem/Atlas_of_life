@@ -1,0 +1,214 @@
+name: Geosaurus
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Cuvier 1824
+type_species: Geosaurus giganteus
+type_species_note: ''
+summary: Marine metriorhynchid with a short skull and slashing teeth, known from the Late Jurassic and Early Cretaceous.
+size:
+  length_m: [2.5, 3]
+  note: About 2.5–3 m for the type species (Wikipedia).
+age:
+  first_ma: 159
+  last_ma: 125.77
+  early_interval: Oxfordian
+  late_interval: Hauterivian
+  pbdb_occurrences: 17
+  note: ''
+species:
+- name: Geosaurus giganteus
+  authority: (Sömmerring 1816)
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+- name: Geosaurus grandis
+  authority: (Wagner 1858)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: ''
+- name: Geosaurus lapparenti
+  authority: (Debelmas and Strannoloubsky 1957)
+  first_ma: 137.05
+  last_ma: 125.77
+  interval: Valanginian–Hauterivian
+  reference: ''
+- name: Geosaurus medius
+  authority: (Wagner 1858)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: ''
+- name: Geosaurus sommerringi
+  authority: Meyer 1831
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Late Valanginian–Early Hauterivian
+  occurrences: 3
+  ma: [125.77, 137.05]
+  id:
+  - unnamed-departement-du-vaucluse-france
+  - unnamed-department-du-var-france
+  - unnamed-la-martre-france
+- formation: Vaca Muerta
+  group: ''
+  members: [Las Catutos]
+  country: Argentina
+  regions: [Neuquén]
+  interval: Early Tithonian–Berriasian
+  occurrences: 3
+  ma: [137.05, 149.2]
+  id: vaca-muerta-argentina
+- formation: Mörnsheim
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 3
+  ma: [145.06, 149.2]
+  id: mornsheim-germany
+- formation: Jagua
+  group: ''
+  members: [Jagua Vieja]
+  country: Cuba
+  regions: [Vinales]
+  interval: Middle Oxfordian–Late Oxfordian
+  occurrences: 2
+  ma: [154.8, 159.0]
+  id: jagua-cuba
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg, Franconia]
+  interval: Late Kimmeridgian–Tithonian
+  occurrences: 2
+  ma: [143.1, 152.21]
+  id: [nusplingen-limestone-germany, unnamed-solnhofen-germany]
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: []
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: altmuhltal-germany
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Late Tithonian
+  occurrences: 1
+  ma: [143.1, 145.06]
+  id: unnamed-cajon-de-almanza-argentina
+- formation: Kimmeridge Clay
+  group: ''
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: kimmeridge-clay-united-kingdom
+- formation: Mergelstetten
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: mergelstetten-germany
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: A nearly complete specimen from the Late Kimmeridgian of Germany, described by Fraas, was the basis
+    of many early restorations.
+  completeness: multiple
+  exceptional: ''
+biology: A carnivore that spent much of its life at sea; no eggs or nests are known. Its short skull and curved
+  teeth were designed for slashing at large prey.
+images:
+- kind: fossil
+  file: Geosaurus giganteus holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f4/Geosaurus_giganteus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Geosaurus_giganteus_holotype.jpg
+  artist: Mark T. Young
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2018-11-18'
+  caption: Holotype
+  width: 959
+  height: 520
+  review: unreviewed
+- kind: fossil
+  file: Geosaurus giganteus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/15/Geosaurus_giganteus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Geosaurus_giganteus_skull.jpg
+  artist: Mark T. Young
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-11-18'
+  caption: Skull
+  width: 904
+  height: 449
+  review: unreviewed
+- kind: life
+  file: Geosaurus giganteus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ee/Geosaurus_giganteus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Geosaurus_giganteus.png
+  artist: Mark T. Young, Stephen L. Brusatte, Marco Brandalise de Andrade, Julia B. Desojo, Brian L. Beatty, Lorna
+    Steel, Marta S. Fernández, Manabu Sakamoto, Jose Ignacio Ruiz-Omeñaca, Rainer R. Schoch.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012'
+  caption: Life restoration
+  width: 1256
+  height: 344
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/80315bbf-e7e9-4f9a-b598-6a8a68f3b169/vector.svg
+  png: https://images.phylopic.org/images/80315bbf-e7e9-4f9a-b598-6a8a68f3b169/raster/512x122.png
+  page: https://www.phylopic.org/images/80315bbf-e7e9-4f9a-b598-6a8a68f3b169
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Geosaurus giganteus
+  matched: Geosaurus
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Young, M.T.; Bell, M.A.; de Andrade, M.B.; Brusatte, S.L. 2011. Body size estimation and evolution in metriorhynchid
+    crocodylomorphs: implications for species diversification and niche partitioning. Zoological Journal of the
+    Linnean Society 163(4): 1199–1216. doi:10.1111/j.1096-3642.2011.00734.x'
+- kind: literature
+  text: 'Andrade, M.B.D. 2010. The evolution of extreme hypercarnivory in Metriorhynchidae (Mesoeucrocodylia: Thalattosuchia)
+    based on evidence from microscopic denticle morphology. Journal of Vertebrate Paleontology 30(5): 1451–1465.
+    doi:10.1080/02724634.2010.501442'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Geosaurus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Geosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Geosaurus”. English Wikipedia, revision 1385898330.
+  url: https://en.wikipedia.org/w/index.php?title=Geosaurus&oldid=1385898330
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Add the original description (Cuvier 1824) and the holotype data.
+  reviews: []

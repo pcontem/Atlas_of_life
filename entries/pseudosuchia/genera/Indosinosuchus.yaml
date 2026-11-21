@@ -1,0 +1,121 @@
+name: Indosinosuchus
+rank: genus
+parent: teleosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Martin et al. 2018
+type_species: Indosinosuchus potamosiamensis
+type_species_note: ''
+summary: Teleosaurid crocodyliform from Thailand; the type species is the only teleosauroid genus known from fresh
+  water.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 137.05
+  early_interval: Bathonian
+  late_interval: Berriasian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Indosinosuchus kalasinensis
+  authority: Johnson et al. 2020
+  first_ma: 149.2
+  last_ma: 137.05
+  interval: Tithonian–Berriasian
+  reference: ''
+- name: Indosinosuchus peninsularensis
+  authority: Lauprasert et al. 2026
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+- name: Indosinosuchus potamosiamensis
+  authority: Martin et al. 2018
+  first_ma: 149.2
+  last_ma: 137.05
+  interval: Tithonian–Berriasian
+  reference: original description
+formations:
+- formation: Phu Kradung
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Kalasin]
+  interval: Tithonian–Berriasian
+  occurrences: 2
+  ma: [137.05, 149.2]
+  id: phu-kradung-thailand
+- formation: Khlong Min
+  group: Thung Yai
+  members: [Lower]
+  country: Thailand
+  regions: [Nakhon Si Thammarat]
+  interval: Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: khlong-min-thailand
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Species come from the Phu Kradung and Khlong Min formations; a third species, I. kalasinensis, may be
+    a synonym (2026 study).
+  completeness: partial
+  exceptional: ''
+biology: The skull is relatively robust, like machimosaurids; biomechanical analysis of its mandible and teeth is
+  reported in the article.
+images:
+- kind: fossil
+  file: Indosinosuchus kalasinensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Indosinosuchus_kalasinensis.png/960px-Indosinosuchus_kalasinensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Indosinosuchus_kalasinensis.png
+  artist: Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Skull (I. kalasinensis)
+  width: 1868
+  height: 1668
+  review: unreviewed
+- kind: fossil
+  file: Indosinosuchus potamosiamensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Indosinosuchus_potamosiamensis.png/960px-Indosinosuchus_potamosiamensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Indosinosuchus_potamosiamensis.png
+  artist: Christine M. Janis, Borja Figueirido, Larisa DeSantis, Stephan Lautenschlager
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: ''
+  caption: Skull (I. potamosiamensis)
+  width: 1868
+  height: 1628
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/vector.svg
+  png: https://images.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23/raster/512x235.png
+  page: https://www.phylopic.org/images/b15e46eb-be9a-42b4-9a06-8b718249ab23
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Macrospondylus bollensis
+  matched: Teleosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. E. Martin, S. Suteethorn, and K. Lauprasert, H.-Y. Tong, E. Buffetaut, R. Liard, C. Salaviale, U. Deesri,
+    V. Suteethorn, J. Claude. 2018. A new freshwater teleosaurid from the Jurassic of northeastern Thailand. Journal
+    of Vertebrate Paleontology 38(6):e1549059
+- kind: literature
+  text: Johnson, Michela M.; Young, Mark T.; Brusatte, Stephen L. 2020. The phylogenetics of Teleosauroidea (Crocodylomorpha,
+    Thalattosuchia) and implications for their ecology and evolution. PeerJ 8. doi:10.7717/peerj.9808
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Indosinosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Indosinosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Indosinosuchus”. English Wikipedia, revision 1380714902.
+  url: https://en.wikipedia.org/w/index.php?title=Indosinosuchus&oldid=1380714902
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Completeness is provisional; add holotype data.]
+  reviews: []

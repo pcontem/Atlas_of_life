@@ -1,0 +1,87 @@
+name: Cerrejonisuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Hastings et al. 2010
+type_species: Cerrejonisuchus improcerus
+type_species_note: ''
+summary: Small short-snouted dyrosaurid from the Paleocene of Colombia, with the shortest estimated body length
+  of any known dyrosaur.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 61.66
+  last_ma: 56
+  early_interval: Selandian
+  late_interval: Thanetian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cerrejonisuchus improcerus
+  authority: Hastings et al. 2010
+  first_ma: 61.66
+  last_ma: 56
+  interval: Selandian–Thanetian
+  reference: original description
+formations:
+- formation: Cerrejón
+  group: ''
+  members: []
+  country: Colombia
+  regions: [Guajira]
+  interval: Middle Paleocene–Late Paleocene
+  occurrences: 1
+  ma: [56.0, 61.66]
+  id: cerrejon-colombia
+fossil_material:
+  holotype: UF/IGM 29, a complete skull from the Cerrejón Formation, Colombia.
+  material: Other specimens are UF/IGM 30 (lower jaw), UF/IGM 31 (skull and partial postcranial skeleton) and UF/IGM
+    32 (snout).
+  completeness: partial
+  exceptional: ''
+biology: The rostrum is only 54–59% of skull length, the shortest of all dyrosaurids; well-developed osteoderms
+  suggest the animals were mature.
+images:
+- kind: skeletal
+  file: Cerrejonisuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Cerrejonisuchus_skeletal.png/960px-Cerrejonisuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cerrejonisuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-06-05'
+  caption: Skeletal reconstruction
+  width: 6201
+  height: 2806
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Hastings, A. K 2010. A new small short-snouted dyrosaurid (Crocodylomorpha, Mesoeucrocodylia) from the
+    Paleocene of northeastern Colombia. Journal of Vertebrate Paleontology 30(1): 139–162. doi:10.1080/02724630903409204'
+- kind: literature
+  text: 'Scavezzoni, Isaure; Fischer, Valentin 2021. The postcranial skeleton of Cerrejonisuchus improcerus (Crocodyliformes:
+    Dyrosauridae) and the unusual anatomy of dyrosaurids. PeerJ 9. doi:10.7717/peerj.11222'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cerrejonisuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cerrejonisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cerrejonisuchus”. English Wikipedia, revision 1357869574.
+  url: https://en.wikipedia.org/w/index.php?title=Cerrejonisuchus&oldid=1357869574
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

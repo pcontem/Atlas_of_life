@@ -1,0 +1,123 @@
+name: Kostensuchus
+rank: genus
+parent: peirosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2025
+type_species: Kostensuchus atrox
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Large peirosaurid interpreted as an apex predator of its ecosystem.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kostensuchus atrox
+  authority: Novas et al. 2025
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Chorrillo
+  group: ''
+  members: [Middle]
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: chorrillo-argentina
+fossil_material:
+  holotype: MPM-PV 23554.
+  material: Not stated in the Wikipedia article consulted; check the original description.
+  completeness: partial
+  exceptional: ''
+biology: Interpreted as an apex predator.
+images:
+- kind: life
+  file: Kostensuchus Simple Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Kostensuchus_Simple_Restoration.png/960px-Kostensuchus_Simple_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kostensuchus_Simple_Restoration.png
+  artist: Driptosaurus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-08-27'
+  caption: Life restoration
+  width: 4000
+  height: 1223
+  review: unreviewed
+- kind: skeletal
+  file: Kostensuchus reconstructed skeleton.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Kostensuchus_reconstructed_skeleton.png/960px-Kostensuchus_reconstructed_skeleton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kostensuchus_reconstructed_skeleton.png
+  artist: Novas, F. E.; Pol, D.; Agnolín, F. L.; Carvalho, I. S.; Manane, M.; Tsuihiji, T.; Rozadilla, S.; Lio,
+    G. L.; Isasi, M. P.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-27'
+  caption: Skeletal reconstruction
+  width: 2200
+  height: 529
+  review: unreviewed
+- kind: fossil
+  file: Kostensuchus skull anterior and occipital.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kostensuchus_skull_anterior_and_occipital.png/960px-Kostensuchus_skull_anterior_and_occipital.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kostensuchus_skull_anterior_and_occipital.png
+  artist: Novas, F. E.; Pol, D.; Agnolín, F. L.; Carvalho, I. S.; Manane, M.; Tsuihiji, T.; Rozadilla, S.; Lio,
+    G. L.; Isasi, M. P.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-27'
+  caption: Skull figures
+  width: 3000
+  height: 2469
+  review: unreviewed
+- kind: fossil
+  file: Kostensuchus skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Kostensuchus_skull.png/960px-Kostensuchus_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kostensuchus_skull.png
+  artist: Novas, F. E.; Pol, D.; Agnolín, F. L.; Carvalho, I. S.; Manane, M.; Tsuihiji, T.; Rozadilla, S.; Lio,
+    G. L.; Isasi, M. P.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-27'
+  caption: Skull figures
+  width: 3750
+  height: 3513
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/vector.svg
+  png: https://images.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554/raster/512x138.png
+  page: https://www.phylopic.org/images/2766b436-7f2d-49a8-95bc-05219955f554
+  attribution: Jacob Schick
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Epoidesuchus tavaresae
+  matched: Peirosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Novas, F. E.; Pol, D.; Agnolín, F. L.; Carvalho, I. S.; Manane, M.; Tsuihiji, T.; Rozadilla, S.; Lio, G.
+    L.; Isasi, M. P. 2025. A new large hypercarnivorous crocodyliform from the Maastrichtian of Southern Patagonia,
+    Argentina. PLOS ONE 20(8). doi:10.1371/journal.pone.0328561
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kostensuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kostensuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kostensuchus”. English Wikipedia, revision 1378639690.
+  url: https://en.wikipedia.org/w/index.php?title=Kostensuchus&oldid=1378639690
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Type species filled from general knowledge.
+  reviews: []

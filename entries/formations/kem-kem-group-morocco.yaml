@@ -3,18 +3,18 @@ name: Kem Kem Group (beds not assigned to a formation)
 rank: formation
 group: Kem Kem
 country: Morocco
-regions: [Drâa-Tafilalet]
+regions: [Drâa-Tafilalet, Errachidia]
 location:
-  lat: 30.722
+  lat: 30.659
   lng: -4.349
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  basis: median of 10 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 100.5
+  first_ma: 106.3
   last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet.]
-lithology: [sandstone, '"siliciclastic"']
-pbdb_collections: ['90076', '90077', '96222', '96223']
+environment: [terrestrial indet., fluvial indet.]
+lithology: [sandstone, '"siliciclastic"', not reported, '"limestone"']
+pbdb_collections: ['13274', '60002', '87164', '90076', '90077', '96222', '96223', '114189', '114192', '230106']
 includes:
 - PBDB places these beds in the Kem Kem Group without naming the formation.
 summary: ''

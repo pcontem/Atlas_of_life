@@ -1,0 +1,139 @@
+name: Terminonaris
+rank: genus
+parent: pholidosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Osborn 1904
+type_species: Terminonaris browni
+type_species_note: ''
+summary: Long-snouted predator up to about 6 m long, known from seven Cretaceous specimens in North America and
+  Europe.
+size:
+  length_m: [6, 6]
+  note: Up to about 6 m (Wikipedia).
+age:
+  first_ma: 100.5
+  last_ma: 89.8
+  early_interval: Cenomanian
+  late_interval: Turonian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Terminonaris browni
+  authority: (Osborn 1904)
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: original description
+- name: Terminonaris robusta
+  authority: Wu et al. 2001
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: ''
+formations:
+- formation: Lewisville
+  group: Woodbine
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Middle Cenomanian
+  occurrences: 3
+  ma: [93.9, 100.5]
+  id: lewisville-united-states
+- formation: Benton Shale
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Cenomanian–Turonian
+  occurrences: 2
+  ma: [89.8, 100.5]
+  id: benton-shale-united-states
+- formation: Carlile Shale
+  group: Colorado
+  members: [Fairport]
+  country: United States
+  regions: [Kansas]
+  interval: Middle Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: carlile-shale-united-states
+- formation: Coleraine
+  group: ''
+  members: []
+  country: United States
+  regions: [Minnesota]
+  interval: Late Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: coleraine-united-states
+- formation: Favel
+  group: Colorado
+  members: [Keld]
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Early Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: favel-canada
+- formation: Regensburger Grünsandstein
+  group: ''
+  members: [Quadersandstein]
+  country: Germany
+  regions: [Bavaria]
+  interval: Middle Cenomanian–Late Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: regensburger-grunsandstein-germany
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Seven fossil specimens are known, six from North America and one from Europe; the largest has a skull
+    109.6 cm long.
+  completeness: partial
+  exceptional: ''
+biology: A predator once thought to be a teleosaurid; the Kansas specimen lived about 91 million years ago and those
+  from Saskatchewan and Montana about 93 million.
+images:
+- kind: skeletal
+  file: Terminonaris skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Terminonaris_skeletal.png/960px-Terminonaris_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Terminonaris_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-10-21'
+  caption: Skeletal reconstruction
+  width: 6703
+  height: 2229
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c6b270ae-3c79-459e-846c-939d489bdaf8/vector.svg
+  png: https://images.phylopic.org/images/c6b270ae-3c79-459e-846c-939d489bdaf8/raster/512x83.png
+  page: https://www.phylopic.org/images/c6b270ae-3c79-459e-846c-939d489bdaf8
+  attribution: Miguel Hernández
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Terminonaris robusta
+  matched: Terminonaris
+  genus_level: true
+sources:
+- kind: original
+  text: 'Osborn, Henry Fairfield 1904. ''''Teleorhinus'''' browni - A Teleosaur in the Fort Benton. Bulletin of
+    the American Museum of Natural History 20: 239-240.'
+- kind: literature
+  text: 'Adams, Thomas L.; Polcyn, Michael J.; Mateus, Octávio; Winkler, Dale A.; Jacobs, Louis L. 1 Ma. First occurrence
+    of the long-snouted crocodyliform Terminonaris (Pholidosauridae) from the Woodbine Formation (Cenomanian) of
+    Texas. Journal of Vertebrate Paleontology 31(3): 712–716. doi:10.1080/02724634.2011.572938'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Terminonaris (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Terminonaris
+- kind: encyclopedia
+  text: Wikipedia contributors. “Terminonaris”. English Wikipedia, revision 1375939205.
+  url: https://en.wikipedia.org/w/index.php?title=Terminonaris&oldid=1375939205
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype not stated.]
+  reviews: []

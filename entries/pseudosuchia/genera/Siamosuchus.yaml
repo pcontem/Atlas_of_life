@@ -1,0 +1,94 @@
+name: Siamosuchus
+rank: genus
+parent: goniopholididae
+incertae_sedis: false
+placement_note: ''
+authority: Lauprasert et al. 2007
+type_species: Siamosuchus phuphokensis
+type_species_note: ''
+summary: Goniopholidid from the Early Cretaceous of Thailand, known from a partial skull and half a postcranial
+  skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Siamosuchus phuphokensis
+  authority: Lauprasert et al. 2007
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Sao Khua
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Sakon Nakhon]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: sao-khua-thailand
+fossil_material:
+  holotype: A partial skull, most of the right half of the postcranial skeleton and some bony scutes.
+  material: The article consulted lists no further material.
+  completeness: partial
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images:
+- kind: skeletal
+  file: Siamosuchus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Siamosuchus_skeletal.png/960px-Siamosuchus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Siamosuchus_skeletal.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-06'
+  caption: Skeletal reconstruction
+  width: 7232
+  height: 3129
+  review: unreviewed
+- kind: life
+  file: Siamosuchus phuphokensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/04/Siamosuchus_phuphokensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Siamosuchus_phuphokensis.png
+  artist: SeismicShrimp
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-09'
+  caption: Life restoration
+  width: 1332
+  height: 694
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Goniopholididae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lauprasert, K. 2007. ''''Siamosuchus phuphokensis'''', a new goniopholidid from the Early Cretaceous (ante-Aptian)
+    of northeastern Thailand. Bulletin de la Société Géologique de France 178(3): 201–216. doi:10.2113/gssgfbull.178.3.201'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Siamosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Siamosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Siamosuchus”. English Wikipedia, revision 1362843587.
+  url: https://en.wikipedia.org/w/index.php?title=Siamosuchus&oldid=1362843587
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

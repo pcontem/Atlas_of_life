@@ -1,0 +1,327 @@
+name: Theriosuchus
+rank: genus
+parent: atoposauridae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1878
+type_species: Theriosuchus pusillus
+type_species_note: ''
+summary: Small atoposaurid known from the Middle Jurassic to the end of the Cretaceous, named by Owen in 1878.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.6
+  last_ma: 66
+  early_interval: Bajocian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 44
+  note: ''
+species:
+- name: Theriosuchus grandinaris
+  authority: Lauprasert et al. 2011
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: ''
+- name: Theriosuchus morrisonensis
+  authority: Foster 2018
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Theriosuchus pusillus
+  authority: Owen 1878
+  first_ma: 149.2
+  last_ma: 139.1
+  interval: Tithonian–Berriasian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: ['2']
+  country: France
+  regions: [Nord-Pas-de-Calais, Poitou-Charentes]
+  interval: Early Tithonian–Late Campanian
+  occurrences: 7
+  ma: [72.2, 149.2]
+  id:
+  - unnamed-angeac-charente-france
+  - unnamed-chassiron-ile-d-oleron-france
+  - unnamed-cherves-de-cognac-levels-3237-france
+  - unnamed-la-rochette-france
+  - unnamed-montagan-roadworks-mainxe-france
+  - unnamed-montrouge-2-france
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Lulworth
+  group: Purbeck
+  members: [Worbarrow Tout]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Berriasian–Middle Berriasian
+  occurrences: 4
+  ma: [139.1, 143.1]
+  id: lulworth-united-kingdom
+- formation: Lourinhã
+  group: ''
+  members: [Praia Azul, Praia da Amoreira-Porto Novo]
+  country: Portugal
+  regions: [Centro, Lisboa, Lourinha]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 3
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: El Castellar
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón, Teruel]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 2
+  ma: [121.4, 132.6]
+  id: el-castellar-spain
+- formation: Phu Kradung
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Mukdahan, Nong Bua Lum Phu]
+  interval: Tithonian–Berriasian
+  occurrences: 2
+  ma: [137.05, 149.2]
+  id: phu-kradung-thailand
+- formation: Arcillas de Morella
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valenciana]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: arcillas-de-morella-spain
+- formation: Camarillas
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: camarillas-spain
+- formation: Sao Khua
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Sakon Nakhon, Udon Thani]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: sao-khua-thailand
+- formation: Forest Marble
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: forest-marble-united-kingdom
+- formation: Blesa
+  group: ''
+  members: [Cabezo Gordo]
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: blesa-spain
+- formation: Artoles
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: artoles-spain
+- formation: Qigu
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Late Oxfordian–Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 157.9]
+  id: qigu-china
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+- formation: Wadhurst Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+- formation: Rabekke
+  group: Nyker
+  members: [Skyttegaard]
+  country: Denmark
+  regions: [Bornholm]
+  interval: Early Berriasian
+  occurrences: 1
+  ma: [141.0, 143.1]
+  id: rabekke-denmark
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-uppen-hildesheim-germany
+- formation: Lower Kimmeridge marls
+  group: ''
+  members: []
+  country: Germany
+  regions: []
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: lower-kimmeridge-marls-germany
+- formation: Saint-Chinian
+  group: ''
+  members: []
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: saint-chinian-france
+- formation: Anoual
+  group: ''
+  members: [Lower Anoual]
+  country: Morocco
+  regions: [Figuig]
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: anoual-morocco
+- formation: Valtos Sandstone
+  group: Great Estuarine
+  members: []
+  country: United Kingdom
+  regions: [Scotland]
+  interval: Late Bajocian–Bathonian
+  occurrences: 1
+  ma: [165.3, 168.6]
+  id: valtos-sandstone-united-kingdom
+- formation: Kilmaluag
+  group: Great Estuarine
+  members: []
+  country: United Kingdom
+  regions: [Scotland]
+  interval: Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: kilmaluag-united-kingdom
+- formation: Ksar Metlili
+  group: ''
+  members: []
+  country: Morocco
+  regions: [Figuig]
+  interval: Late Tithonian–Early Berriasian
+  occurrences: 1
+  ma: [141.0, 145.06]
+  id: ksar-metlili-morocco
+- formation: Morrison
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: PBDB records 44 occurrences across Europe and elsewhere.
+  completeness: multiple
+  exceptional: ''
+biology: The article consulted gives no information on its biology.
+images:
+- kind: fossil
+  file: Theriosuchus pusillus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Theriosuchus_pusillus.jpg/960px-Theriosuchus_pusillus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Theriosuchus_pusillus.jpg
+  artist: C. L. Griesbach
+  license: Public domain
+  license_url: ''
+  date: '1879'
+  caption: Skull figures
+  width: 2353
+  height: 2528
+  review: unreviewed
+- kind: fossil
+  file: Theriosuchus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Theriosuchus.jpg/960px-Theriosuchus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Theriosuchus.jpg
+  artist: C. L. Griesbach
+  license: Public domain
+  license_url: ''
+  date: '1879'
+  caption: Specimen drawing
+  width: 2364
+  height: 2700
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/vector.svg
+  png: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/raster/645x1024.png
+  page: https://www.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Theriosuchus
+  matched: Theriosuchus
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Young, Mark T.; Tennant, Jonathan P.; Brusatte, Stephen L.; Challands, Thomas J.; Fraser, Nicholas C.;
+    Clark, Neil D. L.; Ross, Dugald A. Febr. The first definitive Middle Jurassic atoposaurid (Crocodylomorpha,
+    Neosuchia), and a discussion on the genus T heriosuchus: Middle Jurassic T heriosuchus From Skye. Zoological
+    Journal of the Linnean Society 176(2): 443–462. doi:10.1111/zoj.12315'
+- kind: literature
+  text: 'Tennant Jonathan P., Mannion Philip D., Upchurch Paul 2016. Evolutionary relationships and systematics
+    of Atoposauridae (Crocodylomorpha: Neosuchia): implications for the rise of Eusuchia. Zoological Journal of
+    the Linnean Society 177(4): 854–936. doi:10.1111/zoj.12400'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Theriosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Theriosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Theriosuchus”. English Wikipedia, revision 1359906581.
+  url: https://en.wikipedia.org/w/index.php?title=Theriosuchus&oldid=1359906581
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Holotype not stated; Wikipedia text had no description.
+  - Add the original description (Owen 1878).
+  reviews: []

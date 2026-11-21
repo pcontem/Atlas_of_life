@@ -1,0 +1,103 @@
+name: Anthracosuchus
+rank: genus
+parent: dyrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Hastings et al. 2015
+type_species: Anthracosuchus balrogus
+type_species_note: ''
+summary: Dyrosaurid with an extremely short, stout snout, from the Paleocene Cerrejón Formation of Colombia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 61.66
+  last_ma: 56
+  early_interval: Selandian
+  late_interval: Thanetian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Anthracosuchus balrogus
+  authority: Hastings et al. 2015
+  first_ma: 61.66
+  last_ma: 56
+  interval: Selandian–Thanetian
+  reference: original description
+formations:
+- formation: Cerrejón
+  group: ''
+  members: []
+  country: Colombia
+  regions: [Guajira]
+  interval: Middle Paleocene–Late Paleocene
+  occurrences: 1
+  ma: [56.0, 61.66]
+  id: cerrejon-colombia
+fossil_material:
+  holotype: UF/IGM 67, a nearly complete, dorsoventrally compressed skull with 9 ribs, 7 vertebrae and unidentified
+    bones.
+  material: Four specimens with partial skulls come from the Cerrejón mine; referred specimens UF/IGM 69 and 70
+    are known only from cranial material.
+  completeness: partial
+  exceptional: ''
+biology: Differs from other dyrosaurids in its extremely short snout, widely spaced eye sockets with bony protuberances,
+  and smooth, thick osteoderms.
+images:
+- kind: skeletal
+  file: Anthracosuchus balrogus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Anthracosuchus_balrogus_skeletal.png/960px-Anthracosuchus_balrogus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Anthracosuchus_balrogus_skeletal.png
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-09-04'
+  caption: Skull reconstruction
+  width: 3307
+  height: 1974
+  review: unreviewed
+- kind: fossil
+  file: Anthracoverts.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Anthracoverts.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Anthracoverts.png
+  artist: Scavezzoni I, Fischer V.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-05-10'
+  caption: Fossil material
+  width: 904
+  height: 648
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/vector.svg
+  png: https://images.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7/raster/512x170.png
+  page: https://www.phylopic.org/images/3348bfd5-c5c2-4992-a8d9-67caee449bb7
+  attribution: Nobu Tamura, vectorized by Zimices
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Guarinisuchus munizi
+  matched: Dyrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. K. Hastings, J. I. Bloch, and C. A. Jaramillo. 2015. A new blunt-snouted dyrosaurid, Anthracosuchus balrogus
+    gen. et sp. nov. (Crocodylomorpha, Mesoeucrocodylia), from the Palaeocene of Colombia. Historical Biology 27(8):998-1020
+- kind: literature
+  text: 'Hastings, Alexander K.; Bloch, Jonathan I.; Jaramillo, Carlos A. 23 M. A new blunt-snouted dyrosaurid,
+    ''''Anthracosuchus balrogus'''' gen. et sp. nov. (Crocodylomorpha, Mesoeucrocodylia), from the Palaeocene of
+    Colombia. Historical Biology 27(8): 998–1020. doi:10.1080/08912963.2014.918968'
+- kind: literature
+  text: 'Schwarz, Daniela; Frey, Eberhard; Martin, Thomas 18 J. The postcranial skeleton of the Hyposaurinae (Dyrosauridae;
+    Crocodyliformes). Palaeontology 49(4): 695–718. doi:10.1111/j.1475-4983.2006.00563.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anthracosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anthracosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anthracosuchus”. English Wikipedia, revision 1360939125.
+  url: https://en.wikipedia.org/w/index.php?title=Anthracosuchus&oldid=1360939125
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

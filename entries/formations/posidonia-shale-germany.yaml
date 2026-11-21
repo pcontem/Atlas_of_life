@@ -3,16 +3,16 @@ name: Posidonia Shale
 rank: formation
 group: ''
 country: Germany
-regions: [Baden-Württenburg, Bayern, Niedersachsen]
+regions: [Baden-Würtemberg, Baden-Württenburg, Bayern, Niedersachsen, Württemberg]
 location:
   lat: 48.646
   lng: 9.526
-  basis: median of 35 PBDB collections that yielded the atlas genera
+  basis: median of 38 PBDB collections that yielded the atlas genera
 age:
   first_ma: 184.2
   last_ma: 182.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet.]
+environment: [marine indet., offshore]
 lithology: ['"shale"', not reported, '"limestone"', chalk]
 pbdb_collections:
 - '28506'
@@ -48,8 +48,11 @@ pbdb_collections:
 - '91690'
 - '91691'
 - '91692'
+- '91698'
 - '91704'
 - '91705'
+- '132802'
+- '133041'
 includes: [German name of the Posidonia Shale (both spellings are used in PBDB).]
 summary: ''
 paleoenvironment: ''

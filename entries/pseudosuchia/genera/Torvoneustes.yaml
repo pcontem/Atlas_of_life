@@ -1,0 +1,160 @@
+name: Torvoneustes
+rank: genus
+parent: metriorhynchidae
+incertae_sedis: false
+placement_note: ''
+authority: Andrade et al. 2010
+type_species: Torvoneustes carpenteri
+type_species_note: ''
+summary: Marine metriorhynchid from the Late Jurassic and earliest Cretaceous of England, Switzerland and Mexico,
+  3.7 to 4.7 m long.
+size:
+  length_m: [3.7, 4.7]
+  note: T. coryphaeus 3.7 m, T. jurensis about 4 m, T. carpenteri 4–4.7 m, some specimens larger (Wikipedia).
+age:
+  first_ma: 159
+  last_ma: 132.6
+  early_interval: Oxfordian
+  late_interval: Valanginian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Torvoneustes carpenteri
+  authority: (Wilkinson et al. 2008)
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+- name: Torvoneustes coryphaeus
+  authority: Young et al. 2013
+  first_ma: 154.8
+  last_ma: 152.21
+  interval: Kimmeridgian
+  reference: ''
+- name: Torvoneustes jurensis
+  authority: Girard et al. 2023
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Torvoneustes mexicanus
+  authority: Barrientos-Lara et al. 2016
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+formations:
+- formation: Kimmeridge Clay
+  group: Ancholme
+  members: [Lower]
+  country: United Kingdom
+  regions: [England, Wiltshire]
+  interval: Early Kimmeridgian–Tithonian
+  occurrences: 5
+  ma: [143.1, 154.8]
+  id: kimmeridge-clay-united-kingdom
+- formation: Sabinal
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Oaxaca]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: sabinal-mexico
+- formation: Kingston
+  group: Corallian
+  members: [Beckley Sands]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Oxfordian
+  occurrences: 1
+  ma: [157.9, 159.0]
+  id: kingston-united-kingdom
+- formation: Koprivnice
+  group: ''
+  members: []
+  country: Czech Republic
+  regions: [Novy Jičin District]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: koprivnice-czech-republic
+- formation: Reuchenette
+  group: ''
+  members: [Chevenez]
+  country: Switzerland
+  regions: [Jura]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: reuchenette-switzerland
+fossil_material:
+  holotype: A skull first assigned to Metriorhynchus superciliosus; postcranial remains were later found in the
+    same quarry and the type species was first named in Dakosaurus.
+  material: Skull and postcranial remains from the Kimmeridge Clay of Dorset and Wiltshire, the Virgula Marls of
+    Switzerland and Oaxaca, Mexico.
+  completeness: multiple
+  exceptional: ''
+biology: Seen as a transitional form between long-snouted, fish-eating metriorhynchids and short-snouted hypercarnivores
+  such as Dakosaurus.
+images:
+- kind: life
+  file: Torvoneustes-jurensis-life.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a7/Torvoneustes-jurensis-life.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Torvoneustes-jurensis-life.jpg
+  artist: Sophie De Sousa Oliveira
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-07-19'
+  caption: Life restoration (T. jurensis)
+  width: 1200
+  height: 856
+  review: unreviewed
+- kind: fossil
+  file: Torvoneustes-jurensis-holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Torvoneustes-jurensis-holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Torvoneustes-jurensis-holotype.jpg
+  artist: Léa C. Girard​, Sophie De Sousa Oliveira, Irena Raselli, Jeremy E. Martin, Jérémy Anquetin
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-07-19'
+  caption: Holotype (T. jurensis)
+  width: 1200
+  height: 715
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af891e05-e454-4077-a267-75d1e2d40989/vector.svg
+  png: https://images.phylopic.org/images/af891e05-e454-4077-a267-75d1e2d40989/raster/512x278.png
+  page: https://www.phylopic.org/images/af891e05-e454-4077-a267-75d1e2d40989
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Torvoneustes carpenteri
+  matched: Torvoneustes
+  genus_level: true
+sources:
+- kind: original
+  text: 'Andrade, M.B.D. 2010. The evolution of extreme hypercarnivory in Metriorhynchidae (Mesoeucrocodylia: Thalattosuchia)
+    based on evidence from microscopic denticle morphology. Journal of Vertebrate Paleontology 30(5): 1451–1465.
+    doi:10.1080/02724634.2010.501442'
+- kind: literature
+  text: 'Young, M. T.; Andrade, M. B.; Etches, S.; Beatty, B. L. 2013. A new metriorhynchid crocodylomorph from
+    the Lower Kimmeridge Clay Formation (Late Jurassic) of England, with implications for the evolution of dermatocranium
+    ornamentation in Geosaurini. Zoological Journal of the Linnean Society 169(4): 820. doi:10.1111/zoj.12082'
+- kind: literature
+  text: 'Mark T. Young 2019. Macroevolutionary trends in the genus ''''Torvoneustes'''' (Crocodylomorpha, Metriorhynchidae)
+    and discovery of a giant specimen from the Late Jurassic of Kimmeridge, UK. Zoological Journal of the Linnean
+    Society x(x): xx. doi:10.1093/zoolinnean/zlz101'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Torvoneustes (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Torvoneustes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Torvoneustes”. English Wikipedia, revision 1375985204.
+  url: https://en.wikipedia.org/w/index.php?title=Torvoneustes&oldid=1375985204
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

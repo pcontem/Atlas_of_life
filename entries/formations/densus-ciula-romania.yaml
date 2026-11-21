@@ -5,16 +5,21 @@ group: ''
 country: Romania
 regions: [Hunedoara]
 location:
-  lat: 45.61
-  lng: 22.814
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: 45.617
+  lng: 22.783
+  basis: median of 9 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: ['"channel"', dry floodplain]
-lithology: [siltstone, claystone]
-pbdb_collections: ['13334', '89991']
+environment:
+- wet floodplain
+- '"channel"'
+- dry floodplain
+- lacustrine - small
+- lacustrine indet.
+lithology: [mudstone, claystone, sandstone, siltstone]
+pbdb_collections: ['13334', '67817', '67818', '67819', '89991', '163322', '193942', '193944', '235665']
 includes: []
 summary: ''
 paleoenvironment: ''

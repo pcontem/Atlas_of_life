@@ -1,0 +1,443 @@
+name: Goniopholis
+rank: genus
+parent: goniopholididae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1842
+type_species: Goniopholis crassidens
+type_species_note: ''
+summary: Semi-aquatic ambush predator resembling living crocodilians, from the Middle Jurassic to the Late Cretaceous
+  of Europe, North America and Asia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 83.6
+  early_interval: Bathonian
+  late_interval: Santonian
+  pbdb_occurrences: 99
+  note: ''
+species:
+- name: Goniopholis affinis
+  authority: Lull 1911
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: ''
+- name: Goniopholis baryglyphaeus
+  authority: Schwarz 2002
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Goniopholis crassidens
+  authority: Owen 1842
+  first_ma: 143.1
+  last_ma: 119.57
+  interval: Berriasian–Aptian
+  reference: original description
+- name: Goniopholis felix
+  authority: (Marsh 1877)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Goniopholis gilmorei
+  authority: Holland 1905
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Goniopholis kiplingi
+  authority: Andrade et al. 2011
+  first_ma: 139.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: ''
+- name: Goniopholis simus
+  authority: Owen 1879
+  first_ma: 143.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: ''
+- name: Goniopholis undidens
+  authority: de la Moussaye 1884
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Indian Fort, Lake Como, Salt Wash, Talking Rocks]
+  country: United States
+  regions: [Colorado, Utah, Wyoming]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 36
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+- formation: Unnamed unit
+  group: ''
+  members: ['2']
+  country: France
+  regions: [Nord-Pas-de-Calais, Poitou-Charentes]
+  interval: Tithonian–Berriasian
+  occurrences: 6
+  ma: [137.05, 149.2]
+  id:
+  - unnamed-angeac-charente-france
+  - unnamed-chassiron-ile-d-oleron-france
+  - unnamed-cherves-de-cognac-levels-3237-france
+  - unnamed-la-rochette-france
+  - unnamed-montrouge-2-france
+- formation: Arcillas de Morella
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castellón, Valenciana]
+  interval: Late Barremian
+  occurrences: 5
+  ma: [121.4, 125.77]
+  id: arcillas-de-morella-spain
+- formation: Unnamed unit
+  group: Enciso
+  members: []
+  country: Spain
+  regions: [Castilla y Leon, Castilla y León, La Rioja, Valenciana]
+  interval: Kimmeridgian–Early Cretaceous
+  occurrences: 5
+  ma: [100.5, 154.8]
+  id:
+  - enciso-group-spain
+  - unnamed-benageber-spain
+  - unnamed-castrillo-de-la-reina-spain
+  - unnamed-los-canos-soria-spain
+  - urbion-group-spain
+- formation: Unnamed unit
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Bathonian–Valanginian
+  occurrences: 5
+  ma: [132.6, 168.2]
+  id:
+  - great-oolite-group-united-kingdom
+  - purbeck-group-united-kingdom
+  - wealden-group-united-kingdom
+- formation: Weald Clay
+  group: Wealden
+  members: [Lower, Upper]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 4
+  ma: [121.4, 132.6]
+  id: weald-clay-united-kingdom
+- formation: Durlston
+  group: Purbeck
+  members: [Intermarine, Stair Hole]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian
+  occurrences: 4
+  ma: [137.05, 139.1]
+  id: durlston-united-kingdom
+- formation: Lulworth
+  group: Purbeck
+  members: [Mupe, Worbarrow Tout]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Tithonian–Middle Berriasian
+  occurrences: 3
+  ma: [139.1, 145.06]
+  id: lulworth-united-kingdom
+- formation: Wadhurst Clay
+  group: Wealden
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Valanginian
+  occurrences: 3
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Lower Saxony, Nordrhein-Westphalen]
+  interval: Berriasian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 143.1]
+  id:
+  - unnamed-brilon-nehden-germany
+  - unnamed-obernkirchen-buckerberg-crocodiles-germany
+- formation: Mugher Mudstone
+  group: ''
+  members: []
+  country: Ethiopia
+  regions: [Shewa]
+  interval: Tithonian
+  occurrences: 2
+  ma: [143.1, 149.2]
+  id: mugher-mudstone-ethiopia
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: Lourinhã
+  group: ''
+  members: [Praia Azul]
+  country: Portugal
+  regions: [Centro, Lisbon]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 2
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: Arundel Clay
+  group: Potomac
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Late Aptian
+  occurrences: 2
+  ma: [113.2, 119.57]
+  id: arundel-clay-united-states
+- formation: Golmayo
+  group: Enciso
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 2
+  ma: [121.4, 132.6]
+  id: golmayo-spain
+- formation: Vectis
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: vectis-united-kingdom
+- formation: El Castellar
+  group: ''
+  members: []
+  country: Spain
+  regions: [Teruel]
+  interval: Late Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: el-castellar-spain
+- formation: Forest Marble
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: forest-marble-united-kingdom
+- formation: Artoles
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: artoles-spain
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+- formation: Cabaços
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Leiria]
+  interval: Middle Oxfordian
+  occurrences: 1
+  ma: [157.9, 159.0]
+  id: cabacos-portugal
+- formation: Nubian Sandstone
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Al Wadi Al Jadid]
+  interval: Cenomanian–Santonian
+  occurrences: 1
+  ma: [83.6, 100.5]
+  id: nubian-sandstone-egypt
+- formation: Rabekke
+  group: Nyker
+  members: [Skyttegaard]
+  country: Denmark
+  regions: [Bornholm]
+  interval: Early Berriasian
+  occurrences: 1
+  ma: [141.0, 143.1]
+  id: rabekke-denmark
+- formation: Bückeberg
+  group: ''
+  members: [Obernkirchen]
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: buckeberg-germany
+- formation: Mont-Lambert
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: mont-lambert-france
+- formation: Villanueva de Huerva
+  group: ''
+  members: []
+  country: Spain
+  regions: [Zaragoza]
+  interval: Valanginian–Hauterivian
+  occurrences: 1
+  ma: [125.77, 137.05]
+  id: villanueva-de-huerva-spain
+- formation: Woburn Sand
+  group: Lower Greensand
+  members: [Potton Nodule Bed]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: woburn-sand-united-kingdom
+- formation: Süntel
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: suntel-germany
+- formation: Tunbridge Wells Sand
+  group: Wealden
+  members: [Grinstead Clay]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: tunbridge-wells-sand-united-kingdom
+- formation: Draney Limestone
+  group: Gannett
+  members: []
+  country: United States
+  regions: [Idaho]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: draney-limestone-united-states
+- formation: Cloverly
+  group: ''
+  members: [Little Sheep Mudstone]
+  country: United States
+  regions: [Montana]
+  interval: Aptian–Early Albian
+  occurrences: 1
+  ma: [110.1, 121.4]
+  id: cloverly-united-states
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: PBDB records 99 occurrences; G. kiplingi had a skull 47.6 cm long.
+  completeness: multiple
+  exceptional: ''
+biology: Probably a semi-aquatic ambush predator; G. kiplingi is estimated at about 3.5 m in total length from its
+  skull.
+images:
+- kind: fossil
+  file: Goniopholis simus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Goniopholis_simus_skull.jpg/960px-Goniopholis_simus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Goniopholis_simus_skull.jpg
+  artist: J. Erxleben
+  license: Public domain
+  license_url: ''
+  date: '1879'
+  caption: Skull figure
+  width: 2305
+  height: 2763
+  review: unreviewed
+- kind: life
+  file: Goniopholis BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Goniopholis_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Goniopholis_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-09-18'
+  caption: Life restoration
+  width: 800
+  height: 226
+  review: unreviewed
+- kind: life
+  file: Goniopholis JWArtwork.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/64/Goniopholis_JWArtwork.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Goniopholis_JWArtwork.png
+  artist: Joerim
+  license: Public domain
+  license_url: ''
+  date: '2010-02-15'
+  caption: Life restoration
+  width: 718
+  height: 175
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/vector.svg
+  png: https://images.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463/raster/512x83.png
+  page: https://www.phylopic.org/images/41a608b4-78c5-4a08-a297-2004b987b463
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Goniopholis
+  matched: Goniopholis
+  genus_level: true
+sources:
+- kind: literature
+  text: 'De Andrade, M. B.; Edmonds, R.; Benton, M. J.; Schouten, R. 2011. A new Berriasian species of ''''Goniopholis''''
+    (Mesoeucrocodylia, Neosuchia) from England, and a review of the genus. Zoological Journal of the Linnean Society
+    163: S66–S108. doi:10.1111/j.1096-3642.2011.00709.x'
+- kind: literature
+  text: 'Buscalioni, A.D. 2013. European Goniopholididae from the Early Albian Escucha Formation in Ariño (Teruel,
+    Aragón, España). Spanish Journal of Palaeontology 28(1): 103–122. doi:10.7203/sjp.28.1.17835'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Goniopholis (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Goniopholis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Goniopholis”. English Wikipedia, revision 1381002963.
+  url: https://en.wikipedia.org/w/index.php?title=Goniopholis&oldid=1381002963
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list taken from PBDB and not yet checked against recent revisions.
+  - Holotype not stated; G. phuwiangensis is fragmentary.
+  - 'Size: G. kiplingi 3.47 m by skull length; no genus range.'
+  - Add the original description (Owen 1842).
+  - PBDB lists 'Goniopholis vebbianus' without an author or year (possibly a misspelling); left out until checked.
+  reviews: []

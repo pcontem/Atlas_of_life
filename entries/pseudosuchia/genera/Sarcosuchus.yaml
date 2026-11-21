@@ -1,0 +1,242 @@
+name: Sarcosuchus
+rank: genus
+parent: pholidosauridae
+incertae_sedis: false
+placement_note: ''
+authority: de Broin and Taquet 1966
+type_species: Sarcosuchus imperator
+type_species_note: ''
+summary: One of the largest known crocodylomorphs, up to 9–9.5 m long and 3.45–4.3 tonnes, from the Early Cretaceous
+  of Africa.
+size:
+  length_m: [9, 9.5]
+  mass_kg: [3450, 4300]
+  note: Fully grown S. imperator, 9–9.5 m and 3.45–4.3 t (Wikipedia).
+age:
+  first_ma: 137.05
+  last_ma: 93.9
+  early_interval: Valanginian
+  late_interval: Cenomanian
+  pbdb_occurrences: 17
+  note: ''
+species:
+- name: Sarcosuchus hartii
+  authority: Marsh 1869
+  first_ma: 137.05
+  last_ma: 121.4
+  interval: Valanginian–Barremian
+  reference: ''
+- name: Sarcosuchus hartti
+  authority: (Marsh 1869)
+  first_ma: 137.05
+  last_ma: 121.4
+  interval: Valanginian–Barremian
+  reference: ''
+- name: Sarcosuchus imperator
+  authority: de Broin and Taquet 1966
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Ilhas
+  members: []
+  country: Brazil
+  regions: [Bahia]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 4
+  ma: [121.4, 132.6]
+  id: ilhas-group-brazil
+- formation: Aïn el Guettar
+  group: ''
+  members: [Oum ed Diab]
+  country: Tunisia
+  regions: [Tataouine]
+  interval: Late Aptian–Albian
+  occurrences: 3
+  ma: [100.5, 119.57]
+  id: ain-el-guettar-tunisia
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+  id: elrhaz-niger
+- formation: Continental Intercalaire
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Adrar]
+  interval: Early Berriasian–Late Albian
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: continental-intercalaire-algeria
+- formation: Gara Sbaa
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: gara-sbaa-morocco
+- formation: Tagrezou Sandstone
+  group: Téfidet
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: tagrezou-sandstone-niger
+- formation: Marfim
+  group: Ilhas
+  members: []
+  country: Brazil
+  regions: [Bahia]
+  interval: Valanginian–Hauterivian
+  occurrences: 1
+  ma: [125.77, 137.05]
+  id: marfim-brazil
+- formation: Continental Intercalaire
+  group: ''
+  members: []
+  country: Mali
+  regions: []
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: continental-intercalaire-mali
+- formation: Ifezouane
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: ifezouane-morocco
+- formation: Pojuca
+  group: Ilhas
+  members: []
+  country: Brazil
+  regions: [Bahia]
+  interval: Hauterivian–Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: pojuca-brazil
+- formation: Upper Clay
+  group: ''
+  members: [Oued Taleh Sand]
+  country: Algeria
+  regions: [Adrar]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: upper-clay-algeria
+fossil_material:
+  holotype: An incomplete skull from Gadoufaoua, Niger, on which de Broin and Taquet based the genus in 1966.
+  material: The best remains, including skulls and postcrania, were collected by Paul Sereno's teams in 1997 and
+    2000; S. hartti is known from fragmentary material.
+  completeness: multiple
+  exceptional: ''
+biology: Telescoped eyes and a long snout making up 75% of skull length; the longest reported skull is 1.7 m.
+images:
+- kind: skeletal
+  file: Sarcosuchus imperator skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Sarcosuchus_imperator_skeletal.png/960px-Sarcosuchus_imperator_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sarcosuchus_imperator_skeletal.png
+  artist: LiterallyMiguel
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2026-05-17'
+  caption: Skeletal reconstruction
+  width: 10107
+  height: 3953
+  review: unreviewed
+- kind: fossil
+  file: Sarcosuchus imperator skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sarcosuchus_imperator_skull.png/960px-Sarcosuchus_imperator_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sarcosuchus_imperator_skull.png
+  artist: LiterallyMiguel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-14'
+  caption: Skull of S. imperator
+  width: 4199
+  height: 2869
+  review: unreviewed
+- kind: life
+  file: Sarcosuchus Illustration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Sarcosuchus_Illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sarcosuchus_Illustration.jpg
+  artist: Rhunevild
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-05-08'
+  caption: Life illustration
+  width: 1262
+  height: 1500
+  review: unreviewed
+- kind: fossil
+  file: Sarcosuchus hartii lectotype tooth YPM VP 000516.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Sarcosuchus_hartii_lectotype_tooth_YPM_VP_000516.jpg/960px-Sarcosuchus_hartii_lectotype_tooth_YPM_VP_000516.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sarcosuchus_hartii_lectotype_tooth_YPM_VP_000516.jpg
+  artist: 'Yale Peabody Museum: Vertebrate Paleontology collections'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Lectotype tooth of S. hartii
+  width: 2592
+  height: 1944
+  review: unreviewed
+- kind: fossil
+  file: Sarcosuchus rostrum UC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Sarcosuchus_rostrum_UC.jpg/960px-Sarcosuchus_rostrum_UC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sarcosuchus_rostrum_UC.jpg
+  artist: Augustios Paleo
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-03-28'
+  caption: Field specimen
+  width: 3024
+  height: 4032
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4ccc79d0-af44-40bd-b76b-7e355fc4e4ae/vector.svg
+  png: https://images.phylopic.org/images/4ccc79d0-af44-40bd-b76b-7e355fc4e4ae/raster/512x66.png
+  page: https://www.phylopic.org/images/4ccc79d0-af44-40bd-b76b-7e355fc4e4ae
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sarcosuchus imperator
+  matched: Sarcosuchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'De Broin, France; Taquet, Philippe 1966. Découverte d''un Crocodilien nouveau dans le Crétacé inférieur
+    du Sahara. Comptes Rendus de l''Académie des Sciences 262(D): 2326–2328.'
+- kind: literature
+  text: 'Amiot, Romain; Wang, Xu; Lécuyer, Christophe; Buffetaut, Eric; Boudad, Larbi; Cavin, Lionel; Ding, Zhongli;
+    Fluteau, Frédéric; Kellner, Alexander W.A.; Tong, Haiyan; Zhang, Fusong 2010. Oxygen and carbon isotope compositions
+    of middle Cretaceous vertebrates from North Africa and Brazil: Ecological and environmental significance. Palaeogeography,
+    Palaeoclimatology, Palaeoecology 297(2): 439–451. doi:10.1016/j.palaeo.2010.08.027'
+- kind: literature
+  text: Buffetaut, E. 1977. The Giant Crocodilian ''Sarcosuchus'' in the Early Cretaceous of Brazil and Niger. Palaeontology
+    20(1).
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sarcosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sarcosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sarcosuchus”. English Wikipedia, revision 1372318583.
+  url: https://en.wikipedia.org/w/index.php?title=Sarcosuchus&oldid=1372318583
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

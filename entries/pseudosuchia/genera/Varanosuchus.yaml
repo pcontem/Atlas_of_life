@@ -1,0 +1,71 @@
+name: Varanosuchus
+rank: genus
+parent: atoposauridae
+incertae_sedis: false
+placement_note: ''
+authority: Pochat-Cottilloux et al. 2024
+type_species: Varanosuchus sakonnakhonensis
+type_species_note: ''
+summary: Atoposaurid from the Early Cretaceous of Thailand, with a deep skull and slender limbs that looked monitor-lizard-like.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Varanosuchus sakonnakhonensis
+  authority: Pochat-Cottilloux et al. 2024
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Sao Khua
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Sakon Nakhon]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: sao-khua-thailand
+fossil_material:
+  holotype: Not stated in the Wikipedia article consulted; check the original description.
+  material: Known from three individuals preserving assorted postcranial material and a complete skull.
+  completeness: partial
+  exceptional: ''
+biology: Slender, erect limbs, a deep (altirostral) skull and ornamented osteoderms suggest a terrestrial animal
+  with some semi-aquatic affinities.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/vector.svg
+  png: https://images.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3/raster/645x1024.png
+  page: https://www.phylopic.org/images/811b8d6c-a793-494a-8c6a-bbf81b2c8fa3
+  attribution: Dan Folkes
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Theriosuchus
+  matched: Atoposauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Pochat-Cottilloux, Y.; Lauprasert, K.; Chanthasit, P.; Manitkoon, S.; Adrien, J.; Lachambre, J.; Amiot,
+    R.; Martin, J.E. 2024. New Cretaceous neosuchians (Crocodylomorpha) from Thailand bridge the evolutionary history
+    of atoposaurids and paralligatorids. Zoological Journal of the Linnean Society 202(2). doi:10.1093/zoolinnean/zlad195
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Varanosuchus (downloaded 2026-11-17).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Varanosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Varanosuchus”. English Wikipedia, revision 1331110698.
+  url: https://en.wikipedia.org/w/index.php?title=Varanosuchus&oldid=1331110698
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No images were found; holotype number not stated.]
+  reviews: []
