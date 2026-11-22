@@ -1,0 +1,138 @@
+name: Ampelosaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Le Loeuff 1995
+type_species: Ampelosaurus atacis
+type_species_note: Monotypic genus; named by Le Loeuff in 1995.
+summary: Ampelosaurus is an armoured titanosaur from the Maastrichtian of France, one of the best known dinosaurs
+  there.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Ampelosaurus atacis
+  authority: Le Loeuff 1995
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Marnes Rouges Inférieures
+  group: ''
+  members: [Marnes de la Maurine]
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: marnes-rouges-inferieures-france
+- formation: Grès à Reptiles
+  group: ''
+  members: []
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: gres-a-reptiles-france
+- formation: Villalba de la Sierra
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: villalba-de-la-sierra-spain
+- formation: Argiles rutilantes
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: argiles-rutilantes-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Cote d'Azur]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: unnamed-rousset-highway-3-france
+fossil_material:
+  holotype: Not read in the sources consulted; found in a level about 71.5 million years old.
+  material: Additional material includes a partially articulated skeleton with skull; part of the bones from the
+    type locality may belong to other animals.
+  completeness: multiple
+  exceptional: ''
+biology: It carried osteoderms.
+images:
+- kind: fossil
+  file: Ampelosaurus atacis holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ampelosaurus_atacis_holotype.jpg/960px-Ampelosaurus_atacis_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ampelosaurus_atacis_holotype.jpg
+  artist: Taxon34
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-31'
+  caption: Holotype bones of Ampelosaurus atacis.
+  width: 4556
+  height: 3136
+  review: unreviewed
+- kind: fossil
+  file: Ampelosaurus atacis skull.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ampelosaurus_atacis_skull.JPG/960px-Ampelosaurus_atacis_skull.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ampelosaurus_atacis_skull.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2009-06
+  caption: Skull of Ampelosaurus atacis.
+  width: 1664
+  height: 1382
+  review: unreviewed
+- kind: fossil
+  file: Ampelosaurus atacis osteoderm.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ampelosaurus_atacis_osteoderm.JPG/960px-Ampelosaurus_atacis_osteoderm.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ampelosaurus_atacis_osteoderm.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2009-06
+  caption: Osteoderm of Ampelosaurus atacis.
+  width: 2560
+  height: 1920
+  review: unreviewed
+sources:
+- kind: original
+  text: 'LeLoeuff, J. 1995. ''''Ampelosaurus atacis'''' (nov. gen., nov. sp.), un nouveau Titanosauridae (Dinosauria,
+    Sauropoda) du Crétacé supérieur de la Haute Vallée de l''Aude (France). Comptes Rendus de l''Académie des Sciences,
+    Série IIA 321: 693–699.'
+- kind: literature
+  text: 'Le Loeuff, J. 1994. An armoured titanosaurid sauropod from the late Cretaceous of southern France and the
+    occurrence of osteoderms in the Titanosauridae. GAIA 10: 155–159.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ampelosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ampelosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ampelosaurus”. English Wikipedia, revision 1382852548.
+  url: https://en.wikipedia.org/w/index.php?title=Ampelosaurus&oldid=1382852548
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

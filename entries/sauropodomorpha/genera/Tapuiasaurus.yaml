@@ -1,0 +1,100 @@
+name: Tapuiasaurus
+rank: genus
+parent: saltasauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Zaher et al. 2011
+type_species: Tapuiasaurus macedoi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Tapuiasaurus is a titanosaur from the Aptian Quirico Formation of Minas Gerais, Brazil, with a nearly complete
+  skull.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tapuiasaurus macedoi
+  authority: Zaher et al. 2011
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Quiricó
+  group: Areado
+  members: []
+  country: Brazil
+  regions: [Minas Gerais]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: quirico-brazil
+fossil_material:
+  holotype: Not read in the sources consulted; a partial skeleton with a nearly complete skull.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Tapuiasaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Tapuiasaurus.png/960px-Tapuiasaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tapuiasaurus.png
+  artist: Hussam Zaher1*, Diego Pol2, Alberto B. Carvalho1, Paulo M. Nascimento1, Claudio Riccomini3, Peter Larson4,5,
+    Rubén Juarez-Valieri6, Ricardo Pires-Domingues1,3, Nelson Jorge da Silva Jr.7, Diógenes de Almeida Campos8
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2011'
+  caption: Life restoration of Tapuiasaurus.
+  width: 2067
+  height: 1523
+  review: unreviewed
+- kind: skeletal
+  file: Tapuiasaurus skull reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/03/Tapuiasaurus_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tapuiasaurus_skull_reconstruction.png
+  artist: E. Martín Hechenleitner​, Gerald Grellet-Tinner, Lucas E. Fiorelli
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-10-20'
+  caption: Skull reconstruction of Tapuiasaurus.
+  width: 933
+  height: 672
+  review: unreviewed
+- kind: fossil
+  file: Tapuiasaurus vertebra.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tapuiasaurus_vertebra.jpg/960px-Tapuiasaurus_vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tapuiasaurus_vertebra.jpg
+  artist: Hussam Zaher1*, Diego Pol2, Alberto B. Carvalho1, Paulo M. Nascimento1, Claudio Riccomini3, Peter Larson4,5,
+    Rubén Juarez-Valieri6, Ricardo Pires-Domingues1,3, Nelson Jorge da Silva Jr.7, Diógenes de Almeida Campos8
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2011'
+  caption: Vertebra of Tapuiasaurus.
+  width: 1983
+  height: 848
+  review: unreviewed
+sources:
+- kind: literature
+  text: Hussam Zaher 2011. A Complete Skull of an Early Cretaceous Sauropod and the Evolution of Advanced Titanosaurians.
+    PLOS ONE 6(2). doi:10.1371/journal.pone.0016663
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tapuiasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tapuiasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tapuiasaurus”. English Wikipedia, revision 1351038831.
+  url: https://en.wikipedia.org/w/index.php?title=Tapuiasaurus&oldid=1351038831
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species epithet to be checked. Image 13 should be confirmed as a skull reconstruction.
+  reviews: []

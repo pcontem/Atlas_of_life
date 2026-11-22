@@ -5,9 +5,9 @@ group: Rolling Downs
 country: Australia
 regions: [Queensland]
 location:
-  lat: -22.348
-  lng: 142.841
-  basis: median of 10 PBDB collections that yielded the atlas genera
+  lat: -22.291
+  lng: 142.594
+  basis: median of 17 PBDB collections that yielded the atlas genera
 age:
   first_ma: 106.3
   last_ma: 89.8
@@ -15,12 +15,29 @@ age:
 environment:
 - fluvial-lacustrine indet.
 - '"floodplain"'
-- channel lag
-- terrestrial indet.
-- fluvial indet.
 - fine channel fill
-lithology: [siltstone, sandstone, '"siliciclastic"', mudstone]
-pbdb_collections: ['60792', '60799', '62553', '100224', '153780', '167927', '220530', '224316', '234752', '236853']
+- terrestrial indet.
+- channel lag
+- fluvial indet.
+lithology: [siltstone, sandstone, claystone, '"siliciclastic"']
+pbdb_collections:
+- '60792'
+- '60799'
+- '62553'
+- '90140'
+- '100224'
+- '153780'
+- '153781'
+- '167927'
+- '220530'
+- '224316'
+- '225325'
+- '229882'
+- '234749'
+- '234750'
+- '234751'
+- '234752'
+- '236853'
 includes: []
 summary: ''
 paleoenvironment: ''

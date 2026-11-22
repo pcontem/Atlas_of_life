@@ -3,18 +3,18 @@ name: Plottier
 rank: formation
 group: Neuquén
 country: Argentina
-regions: [Neuquén]
+regions: [Mendoza, Neuquén]
 location:
-  lat: -37.379
-  lng: -69.073
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: -37.061
+  lng: -69.376
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 89.8
   last_ma: 83.6
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [crevasse splay]
-lithology: [sandstone]
-pbdb_collections: ['117450']
+environment: [dry floodplain, crevasse splay]
+lithology: [mudstone, sandstone]
+pbdb_collections: ['117450', '175912', '175913']
 includes: []
 summary: ''
 paleoenvironment: ''
