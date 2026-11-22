@@ -1,0 +1,147 @@
+name: Brontosaurus
+rank: genus
+parent: apatosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1879
+type_species: Brontosaurus excelsus
+type_species_note: From the English Wikipedia taxobox; based on a partial skeleton without skull from Como Bluff,
+  Wyoming.
+summary: Brontosaurus is a large long-necked diplodocid sauropod of the Late Jurassic Morrison Formation, once sunk
+  into Apatosaurus and revalidated in 2015.
+size:
+  length_m: [19, 23]
+  mass_kg: [14000, 20000]
+  note: B. excelsus reached about 21–23 m and 15–20 t; the smaller B. parvus about 19 m and 14 t (Wikipedia revision
+    cited).
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 23
+  note: ''
+species:
+- name: Brontosaurus excelsus
+  authority: (Marsh 1879)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+- name: Brontosaurus parvus
+  authority: (Peterson and Gilmore 1902)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Brontosaurus yahnahpin
+  authority: (Filla and Redman 1994)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Kenton, Lake Como, Talking Rocks]
+  country: United States
+  regions: [Colorado, Oklahoma, Utah, Wyoming]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 23
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: Type species B. excelsus, based on a partial skeleton lacking a skull from Como Bluff, Wyoming; the
+    specimen number was not read in the sources consulted. B. parvus has the holotype CM 566, a partial juvenile
+    skeleton from Sheep Creek Quarry 4, Albany County, Wyoming.
+  material: Specimens assigned to the genus include BYU 1252-18531 (a nearly complete skeleton from Utah) and the
+    partial skeleton UW 15556.
+  completeness: multiple
+  exceptional: ''
+biology: A quadruped with a long neck, short stout forelimbs, longer hindlimbs and a whip-like tail tip.
+images:
+- kind: life
+  file: Brontosaurus NT small.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/89/Brontosaurus_NT_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Brontosaurus_NT_small.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-07-26'
+  caption: Life restoration of Brontosaurus.
+  width: 800
+  height: 600
+  review: unreviewed
+  local: img/gallery/Brontosaurus_001.webp
+- kind: fossil
+  file: Brontosaurus Yale Peabody cropped.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/45/Brontosaurus_Yale_Peabody_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Brontosaurus_Yale_Peabody_cropped.jpg
+  artist: Ad Meskens
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-04-02'
+  caption: Mounted skeleton of Brontosaurus.
+  width: 1205
+  height: 1488
+  review: unreviewed
+  local: img/gallery/Brontosaurus_002.webp
+- kind: fossil
+  file: Brontosaurus excelsus remount in the Peabody Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Brontosaurus_excelsus_remount_in_the_Peabody_Museum.jpg/960px-Brontosaurus_excelsus_remount_in_the_Peabody_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brontosaurus_excelsus_remount_in_the_Peabody_Museum.jpg
+  artist: Matthew Bellemare
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2024-09-20'
+  caption: Mounted skeleton of Brontosaurus excelsus.
+  width: 5400
+  height: 2610
+  review: unreviewed
+  local: img/gallery/Brontosaurus_003.webp
+- kind: fossil
+  file: Brontosaurus parvus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Brontosaurus_parvus.jpg/960px-Brontosaurus_parvus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brontosaurus_parvus.jpg
+  artist: Rob DiCaterino
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2015-10-26'
+  caption: Skeleton mount of Brontosaurus parvus.
+  width: 3911
+  height: 1944
+  review: unreviewed
+  local: img/gallery/Brontosaurus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/b130afca-cea5-4dd3-9993-85a80871296d/vector.svg
+  png: https://images.phylopic.org/images/b130afca-cea5-4dd3-9993-85a80871296d/raster/512x123.png
+  page: https://www.phylopic.org/images/b130afca-cea5-4dd3-9993-85a80871296d
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brontosaurus excelsus
+  matched: Brontosaurus
+  genus_level: true
+  w: 512
+  h: 123
+sources:
+- kind: original
+  text: O. C. Marsh. 1879. Notice of new Jurassic reptiles. The American Journal of Science and Arts, series 3 18:501–505
+- kind: literature
+  text: Tschopp, E.; Mateus, O.; Benson, R. B. 2015. A specimen-level phylogenetic analysis and taxonomic revision
+    of Diplodocidae (Dinosauria, Sauropoda). PeerJ 3. doi:10.7717/peerj.857
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brontosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brontosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brontosaurus”. English Wikipedia, revision 1386886614.
+  url: https://en.wikipedia.org/w/index.php?title=Brontosaurus&oldid=1386886614
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision for this name was flagged as not about the genus by the harvest; its text was still used.
+    Check it.
+  - Holotype number of B. excelsus not read.
+  reviews: []

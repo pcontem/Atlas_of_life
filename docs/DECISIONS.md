@@ -332,3 +332,12 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - `scripts/build.py` now also runs `scripts/triage_data.py` (every volume with a harvest), and `check.yml` fails when
   `data/triage/*.json` differs from the build — same rule as `site/data.json`. The Volume box lists the volumes found on the branch.
 - `tools/triage/index.html` renamed to `tools/triage/atlas-image-picker.html` (two `index.html` files in the repository were easy to mix up).
+
+## 2026-11-22 — Sauropodomorpha: first genus batch (Diplodocoidea) and size limits
+- Batch 1 of the Sauropodomorpha volume: 16 genus entries (ai-draft) — Apatosaurus, Brontosaurus, Kaatedocus, Ardetosaurus, Barosaurus,
+  Diplodocus, Galeamopus, Supersaurus, Tornieria, Haplocanthosaurus, Amargasaurus, Bajadasaurus, Brachytrachelopan, Dicraeosaurus,
+  Suuwassea, Lingwulong. Their backbone nodes were removed; nine PBDB junior synonyms went to `excluded.yaml`.
+- `scripts/validate.py` (G8): the upper limits of the size ranges were 25 m (any measure) and 20,000 kg, set for pterosaurs and
+  pseudosuchians. They rejected normal sauropod values (Barosaurus 25–27 m, Supersaurus 33–39 m, Apatosaurus 16–22 t). New limits:
+  length_m < 60 m (wingspan_m stays < 25 m) and mass_kg < 150,000 kg. Only a sanity bound; flagged for the owner to confirm.
+- Kaatedocus and Lingwulong sit in Diplodocoidea as `incertae_sedis` (analyses disagree, M2); Diplodocus has no usable image among the harvested candidates.

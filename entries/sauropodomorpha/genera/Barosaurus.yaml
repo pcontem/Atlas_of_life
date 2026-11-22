@@ -1,0 +1,137 @@
+name: Barosaurus
+rank: genus
+parent: diplodocinae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1890
+type_species: Barosaurus lentus
+type_species_note: Only valid species; the African B. africanus has been moved to Tornieria.
+summary: Barosaurus is a very large long-necked diplodocid sauropod of the Late Jurassic Morrison Formation of the
+  western United States.
+size:
+  length_m: [25, 27]
+  mass_kg: [12000, 20000]
+  note: Adult estimates given by the cited Wikipedia revision.
+age:
+  first_ma: 157.9
+  last_ma: 143.1
+  early_interval: Late Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 19
+  note: PBDB gives no named interval for the genus record; the interval is taken from the Morrison Formation occurrences
+    (Late Oxfordian–Tithonian).
+species:
+- name: Barosaurus lentus
+  authority: Marsh 1890
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Talking Rocks]
+  country: United States
+  regions: [Colorado, South Dakota, Utah, Wyoming]
+  interval: Late Oxfordian–Tithonian
+  occurrences: 18
+  ma: [143.1, 157.9]
+  id: morrison-united-states
+- formation: Kadzi
+  group: ''
+  members: []
+  country: Zimbabwe
+  regions: [Mashonaland North]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: kadzi-zimbabwe
+fossil_material:
+  holotype: Four caudal vertebrae found in 1889 in South Dakota; later excavations recovered vertebrae and limb
+    bones of the same individual. The specimen number was not read in the sources consulted.
+  material: Specimens from the Morrison Formation of Utah and Montana, plus possible remains from Colorado, Wyoming
+    and Oklahoma; a mounted skeleton of about 27.5 m is displayed at the Royal Ontario Museum.
+  completeness: multiple
+  exceptional: A skin impression is known (see the gallery).
+biology: Known from the Kimmeridgian of the Morrison Formation, about 152–150 Ma, where it lived alongside other
+  giant sauropods.
+images:
+- kind: life
+  file: Barosaurus lentus1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Barosaurus_lentus1.jpg/960px-Barosaurus_lentus1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Barosaurus_lentus1.jpg
+  artist: Fred Wierum
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-06-19'
+  caption: Life restoration of Barosaurus lentus.
+  width: 4061
+  height: 3413
+  review: unreviewed
+  local: img/gallery/Barosaurus_001.webp
+- kind: fossil
+  file: Barosaurus lentus skull salt lake city.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Barosaurus_lentus_skull_salt_lake_city.jpg/960px-Barosaurus_lentus_skull_salt_lake_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Barosaurus_lentus_skull_salt_lake_city.jpg
+  artist: Jens Lallensack
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2016-10
+  caption: Skull of Barosaurus lentus.
+  width: 5472
+  height: 3648
+  review: unreviewed
+  local: img/gallery/Barosaurus_002.webp
+- kind: fossil
+  file: Barosaurus mount 1.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c6/Barosaurus_mount_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Barosaurus_mount_1.jpg
+  artist: Greg from New York, NY, America
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2008-01-24'
+  caption: Mounted skeleton of Barosaurus.
+  width: 1361
+  height: 2048
+  review: unreviewed
+  local: img/gallery/Barosaurus_003.webp
+- kind: fossil
+  file: Barosaurus skin impression.gif
+  url: https://upload.wikimedia.org/wikipedia/commons/1/15/Barosaurus_skin_impression.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Barosaurus_skin_impression.gif
+  artist: U.S. National Park Service
+  license: Public domain
+  license_url: ''
+  date: '2011'
+  caption: Skin impression attributed to Barosaurus.
+  width: 302
+  height: 255
+  review: unreviewed
+  local: img/gallery/Barosaurus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/d18aee36-874b-4254-95a7-1d3198cd1dc0/vector.svg
+  png: https://images.phylopic.org/images/d18aee36-874b-4254-95a7-1d3198cd1dc0/raster/512x131.png
+  page: https://www.phylopic.org/images/d18aee36-874b-4254-95a7-1d3198cd1dc0
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Barosaurus lentus
+  matched: Barosaurus
+  genus_level: true
+  w: 512
+  h: 131
+sources:
+- kind: original
+  text: O. C. Marsh. 1890. Description of new dinosaurian reptiles. The American Journal of Science, series 3 39:81-86
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Barosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Barosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Barosaurus”. English Wikipedia, revision 1380215547.
+  url: https://en.wikipedia.org/w/index.php?title=Barosaurus&oldid=1380215547
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype specimen number not read; check Marsh 1890 and Lull 1919.]
+  reviews: []

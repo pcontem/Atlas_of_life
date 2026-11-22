@@ -1,0 +1,117 @@
+name: Tornieria
+rank: genus
+parent: diplodocinae
+incertae_sedis: false
+placement_note: ''
+authority: Sternfeld 1911
+type_species: Tornieria africana
+type_species_note: From the Wikipedia taxobox, which names Gigantosaurus africanus as type; the genus was erected
+  as a replacement name for Gigantosaurus Fraas.
+summary: Tornieria is a diplodocid sauropod from the Late Jurassic Tendaguru beds of Tanzania, sometimes placed
+  in Barosaurus.
+size:
+  length_m: [25, 25]
+  mass_kg: [10000, 10000]
+  note: A single estimate by G. S. Paul quoted by the cited Wikipedia revision.
+age:
+  first_ma: 152.21
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Tornieria africana
+  authority: (Fraas 1908)
+  first_ma: 152.21
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Tendaguru
+  group: ''
+  members: [Middle Dinosaur, Upper Dinosaur]
+  country: Tanzania
+  regions: [Lindi]
+  interval: Late Kimmeridgian–Tithonian
+  occurrences: 7
+  ma: [143.1, 152.21]
+  id: tendaguru-tanzania
+fossil_material:
+  holotype: Skeleton A of Gigantosaurus africanus, found by Eberhard Fraas in 1907 at Quarry A of the Tendaguru
+    beds; the museum number was not read.
+  material: Two partial skeletons from one quarry in 1907, the second of which turned out to be a titanosaur.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological data were read in the sources consulted; Janensch in 1922 treated the species as African
+  Barosaurus.
+images:
+- kind: fossil
+  file: Tornieria (Barosaurus) africana caudal vertebra.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Tornieria_%28Barosaurus%29_africana_caudal_vertebra.png/960px-Tornieria_%28Barosaurus%29_africana_caudal_vertebra.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tornieria_(Barosaurus)_africana_caudal_vertebra.png
+  artist: Werner Janensch
+  license: Public domain
+  license_url: ''
+  date: '1929'
+  caption: Caudal vertebra of Tornieria africana (historical figure).
+  width: 1770
+  height: 734
+  review: unreviewed
+  local: img/gallery/Tornieria_001.webp
+- kind: fossil
+  file: Tornieria (Barosaurus) africana dorsal vertebra 01.png
+  url: https://upload.wikimedia.org/wikipedia/commons/3/30/Tornieria_%28Barosaurus%29_africana_dorsal_vertebra_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tornieria_(Barosaurus)_africana_dorsal_vertebra_01.png
+  artist: Werner Janensch
+  license: Public domain
+  license_url: ''
+  date: '1929'
+  caption: Dorsal vertebra of Tornieria africana (historical figure).
+  width: 910
+  height: 802
+  review: unreviewed
+  local: img/gallery/Tornieria_002.webp
+- kind: fossil
+  file: Tornieria (Gigantosaurus) africanus femur and tibia plate 01.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/45/Tornieria_%28Gigantosaurus%29_africanus_femur_and_tibia_plate_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tornieria_(Gigantosaurus)_africanus_femur_and_tibia_plate_01.png
+  artist: Eberhard Fraas
+  license: Public domain
+  license_url: ''
+  date: '1908'
+  caption: Limb bones of Gigantosaurus africanus (historical plate).
+  width: 910
+  height: 1284
+  review: unreviewed
+  local: img/gallery/Tornieria_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/2760ebd2-de6d-4682-8ea9-9b60b168f993/vector.svg
+  png: https://images.phylopic.org/images/2760ebd2-de6d-4682-8ea9-9b60b168f993/raster/512x185.png
+  page: https://www.phylopic.org/images/2760ebd2-de6d-4682-8ea9-9b60b168f993
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Kaatedocus siberi
+  matched: Diplodocidae
+  genus_level: false
+  w: 512
+  h: 185
+sources:
+- kind: original
+  text: R. Sternfeld. 1911. Zur Nomenklatur der Gattung Gigantosaurus Fraas [On the nomenclature of the genus Gigantosaurus
+    Fraas]. Sitzungsberichte der Gesellschaft Naturforschender Freunde zu Berlin 8:398
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tornieria (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tornieria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tornieria”. English Wikipedia, revision 1329296385.
+  url: https://en.wikipedia.org/w/index.php?title=Tornieria&oldid=1329296385
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia says Skeleton B (T. robusta) is a titanosaur; check which material remains in Tornieria.
+  - Check the museum numbers of the holotype in Fraas 1908 or Remes 2006.
+  reviews: []

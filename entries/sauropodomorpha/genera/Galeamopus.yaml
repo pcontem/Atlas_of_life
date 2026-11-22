@@ -1,0 +1,108 @@
+name: Galeamopus
+rank: genus
+parent: diplodocinae
+incertae_sedis: false
+placement_note: ''
+authority: Tschopp et al. 2015
+type_species: Galeamopus hayi
+type_species_note: From the Wikipedia taxobox (new combination of Diplodocus hayi, Holland 1924).
+summary: Galeamopus is a diplodocine sauropod of the Kimmeridgian Morrison Formation, split from Diplodocus in 2015.
+size:
+  length_m: null
+  note: Only an estimate for a subadult is given (the G. pabsti holotype, about 18.2 m).
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Galeamopus hayi
+  authority: (Holland 1924)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+- name: Galeamopus pabsti
+  authority: Tschopp and Mateus 2017
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Lake Como]
+  country: United States
+  regions: [Colorado, Wyoming]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 6
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: HMNS 175 (previously CM 662), the original skeleton, which is also the holotype of G. hayi.
+  material: G. hayi is known from one of the best-preserved diplodocid skeletons; G. pabsti from Wyoming and Colorado.
+  completeness: near-complete
+  exceptional: ''
+biology: The genus was separated on seven skull and vertebral autapomorphies, such as paired wear facets on the
+  teeth.
+images:
+- kind: life
+  file: Galeamopus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Galeamopus.jpg/960px-Galeamopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Galeamopus.jpg
+  artist: Alamotitan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-01-31'
+  caption: Life restoration of Galeamopus.
+  width: 2600
+  height: 900
+  review: unreviewed
+  local: img/gallery/Galeamopus_001.webp
+- kind: fossil
+  file: Galeamopus pabsti skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Galeamopus_pabsti_skeleton.jpg/960px-Galeamopus_pabsti_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Galeamopus_pabsti_skeleton.jpg
+  artist: Fritzmann2002
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-15'
+  caption: Mounted skeleton of Galeamopus pabsti.
+  width: 4160
+  height: 2336
+  review: unreviewed
+  local: img/gallery/Galeamopus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/9b0d49d0-8a7f-4c19-b088-8c089208f4e3/vector.svg
+  png: https://images.phylopic.org/images/9b0d49d0-8a7f-4c19-b088-8c089208f4e3/raster/512x190.png
+  page: https://www.phylopic.org/images/9b0d49d0-8a7f-4c19-b088-8c089208f4e3
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Galeamopus hayi
+  matched: Galeamopus
+  genus_level: true
+  w: 512
+  h: 190
+sources:
+- kind: original
+  text: Tschopp, E.; Mateus, O. V.; Benson, R. B. J. 2015. A specimen-level phylogenetic analysis and taxonomic
+    revision of Diplodocidae (Dinosauria, Sauropoda). PeerJ 3. doi:10.7717/peerj.857
+- kind: literature
+  text: 'Emanuel Tschopp 2017. Osteology of ''''Galeamopus pabsti'''' sp. nov. (Sauropoda: Diplodocidae), with implications
+    for neurocentral closure timing, and the cervico-dorsal transition in diplodocids. PeerJ 5. doi:10.7717/peerj.3179'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Galeamopus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Galeamopus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Galeamopus”. English Wikipedia, revision 1362753589.
+  url: https://en.wikipedia.org/w/index.php?title=Galeamopus&oldid=1362753589
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Completeness of the G. hayi skeleton (skull included?) to be checked in Tschopp et al. 2015.
+  reviews: []

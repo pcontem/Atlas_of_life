@@ -1,0 +1,105 @@
+name: Diplodocus
+rank: genus
+parent: diplodocinae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1878
+type_species: Diplodocus longus
+type_species_note: From the English Wikipedia taxobox, which marks D. longus as a nomen dubium; the validity of
+  the type species should be checked.
+summary: Diplodocus is a well-known diplodocid sauropod with a very long neck and whip-like tail from the Late Jurassic
+  of North America.
+size:
+  length_m: [29, 33.5]
+  note: Revised length estimate for the largest species, D. hallorum, in the cited Wikipedia revision; smaller species
+    are shorter (for example a 29 m D. carnegii in one estimate).
+age:
+  first_ma: 157.9
+  last_ma: 143.1
+  early_interval: Late Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 66
+  note: ''
+species:
+- name: Diplodocus carnegii
+  authority: Hatcher 1901
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Diplodocus hallorum
+  authority: (Gillette 1991)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Diplodocus longus
+  authority: Marsh 1878
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members:
+  - Brushy Basin
+  - Indian Fort
+  - Jackpile Sandstone
+  - Kenton
+  - Lake Como
+  - Salt Wash
+  - Talking Rocks
+  country: United States
+  regions: [Colorado, Montana, New Mexico, Oklahoma, South Dakota, Utah, Wyoming]
+  interval: Late Oxfordian–Tithonian
+  occurrences: 66
+  ma: [143.1, 157.9]
+  id: morrison-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; the first fossils were found in 1877 by S. W. Williston and the genus
+    was named by Marsh in 1878.
+  material: One of the more common dinosaur fossils of the middle to upper Morrison Formation, mostly from rocks
+    about 151.9–149.1 Ma.
+  completeness: multiple
+  exceptional: ''
+biology: Named for its double-beamed chevron bones; in a tripodal posture it could perhaps raise its feeding height
+  to about 11 m.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3cb1d5bf-7db5-4db2-82a6-4c39f6a4441b/vector.svg
+  png: https://images.phylopic.org/images/3cb1d5bf-7db5-4db2-82a6-4c39f6a4441b/raster/512x100.png
+  page: https://www.phylopic.org/images/3cb1d5bf-7db5-4db2-82a6-4c39f6a4441b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Diplodocus carnegii
+  matched: Diplodocus
+  genus_level: true
+  w: 512
+  h: 100
+sources:
+- kind: original
+  text: O. C. Marsh. 1878. Principal characters of American Jurassic dinosaurs. Part I. American Journal of Science
+    and Arts 16:411-416
+- kind: literature
+  text: Maidment, Suzannah C.R. 2024. Diversity through time and space in the Upper Jurassic Morrison Formation,
+    western U.S.A. Journal of Vertebrate Paleontology 43(5). doi:10.1080/02724634.2024.2326027
+- kind: literature
+  text: Tschopp, E.; Mateus, O. V.; Benson, R. B. J. 2015. A specimen-level phylogenetic analysis and taxonomic
+    revision of Diplodocidae (Dinosauria, Sauropoda). PeerJ 3. doi:10.7717/peerj.857
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diplodocus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diplodocus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Diplodocus”. English Wikipedia, revision 1382171332.
+  url: https://en.wikipedia.org/w/index.php?title=Diplodocus&oldid=1382171332
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No usable image among the harvested Commons candidates (only size charts, a sculpture and a 1912 cartoon). Needs
+    images.
+  - Holotype specimen number and type-species status (D. longus nomen dubium per Wikipedia) to be checked.
+  reviews: []

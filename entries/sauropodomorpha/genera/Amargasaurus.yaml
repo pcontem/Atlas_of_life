@@ -1,0 +1,118 @@
+name: Amargasaurus
+rank: genus
+parent: dicraeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1984
+type_species: Amargasaurus cazaui
+type_species_note: Monotypic genus per the cited Wikipedia revision; PBDB also lists A. groeberi (Bonaparte 1984),
+  not kept here.
+summary: Amargasaurus is a small dicraeosaurid sauropod from the Early Cretaceous of Argentina with very long paired
+  neural spines on its neck.
+size:
+  length_m: [9, 13]
+  mass_kg: [2500, 4000]
+  note: Estimate given by the cited Wikipedia revision.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Amargasaurus cazaui
+  authority: Salgado and Bonaparte 1991
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Amarga
+  group: Bajada del Agrio
+  members: [Puesto Antigual]
+  country: Argentina
+  regions: [Neuquén]
+  interval: Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: la-amarga-argentina
+fossil_material:
+  holotype: The only known skeleton, found in 1984, is almost complete and includes a fragmentary skull; the catalogue
+    number was not read.
+  material: A single virtually complete skeleton from the La Amarga Formation, Argentina.
+  completeness: near-complete
+  exceptional: ''
+biology: The neck was shorter than in most sauropods and had 13 vertebrae; rib growth lines show the holotype was
+  at least ten years old.
+images:
+- kind: skeletal
+  file: Amargasaurus cazaui skeletal by Gunnar Bivens.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Amargasaurus_cazaui_skeletal_by_Gunnar_Bivens.png/960px-Amargasaurus_cazaui_skeletal_by_Gunnar_Bivens.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Amargasaurus_cazaui_skeletal_by_Gunnar_Bivens.png
+  artist: Gunnar Bivens
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2024-03-02'
+  caption: Skeletal reconstruction of Amargasaurus cazaui.
+  width: 2574
+  height: 848
+  review: unreviewed
+  local: img/gallery/Amargasaurus_001.webp
+- kind: fossil
+  file: Amargasaurus in Prague National Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Amargasaurus_in_Prague_National_Museum.jpg/960px-Amargasaurus_in_Prague_National_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Amargasaurus_in_Prague_National_Museum.jpg
+  artist: Jan Helebrant
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025-09-23'
+  caption: Mounted skeleton of Amargasaurus in the National Museum, Prague.
+  width: 3384
+  height: 1872
+  review: unreviewed
+  local: img/gallery/Amargasaurus_002.webp
+- kind: fossil
+  file: Amargasaurus neck vertebrae.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Amargasaurus_neck_vertebrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Amargasaurus_neck_vertebrae.jpg
+  artist: Daniela Schwarz, Eberhard Frey, and Christian A. Meyer
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2007'
+  caption: Neck vertebrae of Amargasaurus.
+  width: 1102
+  height: 1360
+  review: unreviewed
+  local: img/gallery/Amargasaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/2c6f539a-ff4e-4163-9ecd-2a44a4df3055/vector.svg
+  png: https://images.phylopic.org/images/2c6f539a-ff4e-4163-9ecd-2a44a4df3055/raster/512x125.png
+  page: https://www.phylopic.org/images/2c6f539a-ff4e-4163-9ecd-2a44a4df3055
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Amargasaurus cazaui
+  matched: Amargasaurus
+  genus_level: true
+  w: 512
+  h: 125
+sources:
+- kind: literature
+  text: Gallina, P.A.; Apesteguía, S.; Canale, J.I.; Haluza, A. 2019. A new long-spined dinosaur from Patagonia
+    sheds light on sauropod defense system. Scientific Reports 9(1). doi:10.1038/s41598-018-37943-3
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Amargasaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Amargasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Amargasaurus”. English Wikipedia, revision 1373737422.
+  url: https://en.wikipedia.org/w/index.php?title=Amargasaurus&oldid=1373737422
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB reference (Bonaparte 1984) is a book chapter; the formal description is Salgado and Bonaparte 1991. Add
+    it.
+  - Holotype catalogue number not read.
+  reviews: []

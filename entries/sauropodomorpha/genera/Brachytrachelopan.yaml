@@ -1,0 +1,115 @@
+name: Brachytrachelopan
+rank: genus
+parent: dicraeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Rauhut et al. 2005
+type_species: Brachytrachelopan mesai
+type_species_note: Monotypic genus; the only species is the type.
+summary: Brachytrachelopan is a dicraeosaurid with the shortest neck of any known sauropod, from the Late Jurassic
+  of Patagonia.
+size:
+  length_m: [10, 11]
+  mass_kg: [5000, 5000]
+  note: Estimate given by the cited Wikipedia revision; fusion of the vertebrae shows the holotype was not a juvenile.
+age:
+  first_ma: 154.8
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Brachytrachelopan mesai
+  authority: Rauhut et al. 2005
+  first_ma: 154.8
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Cañadón Calcáreo
+  group: Sierra de Olte
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 154.8]
+  id: canadon-calcareo-argentina
+fossil_material:
+  holotype: MPEF-PV 1716, collected from fluvial sandstone of the Cañadón Calcáreo Formation, north-northeast of
+    Cerro Cóndor, Chubut Province, Argentina.
+  material: The holotype is the only known specimen.
+  completeness: partial
+  exceptional: ''
+biology: The neck was about 40% shorter than in other dicraeosaurids, which the authors read as a specialisation
+  for a different feeding niche.
+images:
+- kind: life
+  file: Brachytrachelopan BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/00/Brachytrachelopan_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Brachytrachelopan_BW.jpg
+  artist: No machine-readable author provided. ArthurWeasley~commonswiki assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: 29 Decembe
+  caption: Life restoration of Brachytrachelopan.
+  width: 800
+  height: 450
+  review: unreviewed
+  local: img/gallery/Brachytrachelopan_001.webp
+- kind: fossil
+  file: Brachytrachelopan Mesai.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Brachytrachelopan_Mesai.jpg/960px-Brachytrachelopan_Mesai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brachytrachelopan_Mesai.jpg
+  artist: ScribblingGeek
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-10-11'
+  caption: Fossil material of Brachytrachelopan mesai on display.
+  width: 6048
+  height: 4032
+  review: unreviewed
+  local: img/gallery/Brachytrachelopan_002.webp
+- kind: life
+  file: Brachytrachelopan mesai.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Brachytrachelopan_mesai.png/960px-Brachytrachelopan_mesai.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brachytrachelopan_mesai.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-30'
+  caption: Life restoration of Brachytrachelopan mesai.
+  width: 4000
+  height: 1035
+  review: unreviewed
+  local: img/gallery/Brachytrachelopan_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/vector.svg
+  png: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/raster/512x147.png
+  page: https://www.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dicraeosaurus
+  matched: Dicraeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: O. W. M. Rauhut, K. Remes, and R. Fechner, G. Cladera, P. Puerta. 2005. Discovery of a short-necked sauropod
+    dinosaur from the Late Jurassic period of Patagonia. Nature 435:670-672
+- kind: literature
+  text: 'Tschopp, E.; Mateus, O.; Benson, R.B.J. 2015. A specimen-level phylogenetic analysis and taxonomic revision
+    of Diplodocidae (Dinosauria, Sauropoda). PeerJ 3: e857. doi:10.7717/peerj.857'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brachytrachelopan (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brachytrachelopan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brachytrachelopan”. English Wikipedia, revision 1386751463.
+  url: https://en.wikipedia.org/w/index.php?title=Brachytrachelopan&oldid=1386751463
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
