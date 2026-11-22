@@ -1,5 +1,5 @@
 name: triage-apply
-# Applies the image decisions made in the triage tool (tools/triage/index.html). The tool commits
+# Applies the image decisions made in the triage tool (tools/triage/atlas-image-picker.html). The tool commits
 # a batch file data/triage/<volume>_decisions/<time>.json to a new branch triage/...; this workflow then adds the chosen images to the
 # genus entries (scripts/apply_triage.py), downloads them into the media store (scripts/media.py fetch/push),
 # refreshes the tool's candidate list (scripts/triage_data.py), builds, validates, commits to the same branch and

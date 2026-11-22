@@ -325,3 +325,10 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   parents of the backbone genera were remapped. Tree structure unchanged. Authorities that PBDB and Wikipedia attribute differently
   (Rebbachisauridae, Dicraeosauridae, Saltasauroidea, Mamenchisauridae) are noted in `curation.notes`.
 - Clades seen only in Wikipedia categories (Massopoda, Saturnaliidae, Anchisauria) are not added yet (M6): they come with the genera that need them.
+
+## 2026-11-22 — Image picker: always current, and a name that cannot be confused with site/index.html
+- Bug: the triage page showed old entries and images. It reads `data/triage/<volume>.json`, which was regenerated only inside the
+  triage-apply workflow, so it stayed at 96 entries / 149 images / 583 genera while the atlas had 506 / 728 / 609.
+- `scripts/build.py` now also runs `scripts/triage_data.py` (every volume with a harvest), and `check.yml` fails when
+  `data/triage/*.json` differs from the build — same rule as `site/data.json`. The Volume box lists the volumes found on the branch.
+- `tools/triage/index.html` renamed to `tools/triage/atlas-image-picker.html` (two `index.html` files in the repository were easy to mix up).
