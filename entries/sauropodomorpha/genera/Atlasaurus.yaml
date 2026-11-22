@@ -53,6 +53,7 @@ images:
   width: 3125
   height: 2240
   review: unreviewed
+  local: img/gallery/Atlasaurus_001.webp
 - kind: fossil
   file: Atlasaurus imelakei.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Atlasaurus_imelakei.jpg/960px-Atlasaurus_imelakei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -65,6 +66,7 @@ images:
   width: 3072
   height: 4608
   review: unreviewed
+  local: img/gallery/Atlasaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/6f928fdc-a142-4aae-95d3-427672a2a12a/vector.svg
   png: https://images.phylopic.org/images/6f928fdc-a142-4aae-95d3-427672a2a12a/raster/512x324.png
@@ -74,6 +76,8 @@ silhouette:
   depicts: Atlasaurus imelakei
   matched: Atlasaurus
   genus_level: true
+  w: 512
+  h: 324
 sources:
 - kind: literature
   text: 'Xing, L.; Miyashita, T.; Currie, P. J.; You, H.; Zhang, J.; Dong, Z. 2015. A New Basal Eusauropod from
