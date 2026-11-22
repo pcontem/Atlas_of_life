@@ -1,0 +1,124 @@
+name: Ornithopsis
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Seeley 1870
+type_species: Ornithopsis hulkei
+type_species_note: The only species seen as valid (Wikipedia revision).
+summary: Ornithopsis is a sauropod from the Early Cretaceous of England and possibly Germany, known from fragmentary
+  remains.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 145.06
+  last_ma: 119.57
+  early_interval: Tithonian
+  late_interval: Aptian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Ornithopsis hulkei
+  authority: (Seeley 1870)
+  first_ma: 132.6
+  last_ma: 119.57
+  interval: Hauterivian–Aptian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 132.6]
+  id: wealden-group-united-kingdom
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian–Barremian
+  occurrences: 2
+  ma: [121.4, 132.6]
+  id: wessex-united-kingdom
+- formation: Portland Stone
+  group: Portland
+  members: [Portland Freestone]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Tithonian
+  occurrences: 1
+  ma: [143.1, 145.06]
+  id: portland-stone-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [North Rhine-Westphalia]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: unnamed-balve-beckum-limestone-quarry-germany
+fossil_material:
+  holotype: NHMUK PV R 28632, a vertebra bought from Mantell by the British Museum in 1853 and described by Seeley
+    in 1870.
+  material: Fragmentary remains from the Isle of Wight and the Tilgate Forest.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Ornithopsis hulkei lectotype.jpeg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Ornithopsis_hulkei_lectotype.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ornithopsis_hulkei_lectotype.jpeg
+  artist: Mike Taylor
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2007'
+  caption: Lectotype of Ornithopsis hulkei.
+  width: 500
+  height: 506
+  review: unreviewed
+  local: img/gallery/Ornithopsis_001.webp
+- kind: fossil
+  file: Ornithopsis vertebrae.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/00/Ornithopsis_vertebrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ornithopsis_vertebrae.jpg
+  artist: the paleobear
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2017-06-04'
+  caption: Vertebrae of Ornithopsis.
+  width: 1413
+  height: 1024
+  review: unreviewed
+  local: img/gallery/Ornithopsis_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/vector.svg
+  png: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/raster/512x239.png
+  page: https://www.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358
+  attribution: Francisco Gascó (modified by Michael P. Taylor)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Brontomerus mcintoshi
+  matched: Titanosauriformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Seeley, H.G. 1870. ''''Ornithopsis'''', a gigantic animal of the Pterodacyle kind from the Wealden. Annals
+    and Magazine of Natural History 5(4): 305–318.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ornithopsis (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ornithopsis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornithopsis”. English Wikipedia, revision 1374857941.
+  url: https://en.wikipedia.org/w/index.php?title=Ornithopsis&oldid=1374857941
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Lectotype status and type species to be checked.]
+  reviews: []

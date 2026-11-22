@@ -3,18 +3,34 @@ name: Sao Khua
 rank: formation
 group: Khorat
 country: Thailand
-regions: [Sakon Nakhon, Udon Thani]
+regions: [Kalasin, Khon Kaen, Nong Bua Lam Phu, Sakon Nakhon, Udon Thani]
 location:
-  lat: 16.894
-  lng: 104.084
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lat: 16.692
+  lng: 102.571
+  basis: median of 16 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 121.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet., '"floodplain"', wet floodplain]
-lithology: [sandstone, mudstone, siltstone]
-pbdb_collections: ['79489', '116559', '204916']
+environment: [terrestrial indet., '"floodplain"', marine indet., wet floodplain]
+lithology: [sandstone, claystone, siltstone, not reported]
+pbdb_collections:
+- '35973'
+- '36080'
+- '36081'
+- '36082'
+- '36083'
+- '36144'
+- '36146'
+- '36147'
+- '36149'
+- '36150'
+- '36156'
+- '54005'
+- '79489'
+- '116559'
+- '204916'
+- '237366'
 includes: []
 summary: ''
 paleoenvironment: ''

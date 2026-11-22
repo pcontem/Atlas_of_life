@@ -1,0 +1,114 @@
+name: Lusotitan
+rank: genus
+parent: brachiosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Antunes and Mateus 2003
+type_species: Lusotitan atalaiensis
+type_species_note: Filled from general knowledge, not yet checked against the revision.
+summary: Lusotitan is a brachiosaurid sauropod from the Late Jurassic Lourinha Formation of Portugal, first named
+  in 1957 and re-described in 2013.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lusotitan atalaiensis
+  authority: (Lapparent and Zbyszewski 1957)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Lourinhã
+  group: ''
+  members: [Praia da Amoreira-Porto Novo]
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+fossil_material:
+  holotype: Lectotype chosen by Mateus in 2003, a skeleton with 28 vertebrae and appendicular elements found in
+    1947.
+  material: Known from the lectotype skeleton.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Lusotitan TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Lusotitan_TD.png/960px-Lusotitan_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lusotitan_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-19'
+  caption: Life restoration of Lusotitan.
+  width: 2400
+  height: 1400
+  review: unreviewed
+  local: img/gallery/Lusotitan_001.webp
+- kind: fossil
+  file: Lusotitan holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/13/Lusotitan_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lusotitan_holotype.png
+  artist: Pedro Mocho, Rafael Royo-Torres, Fernando Escaso, Elisabete Malafaia, Carlos de Miguel Chaves, Iván Narváez,
+    Adán Pérez-García, Nuno Pimentel, Bruno C. Silva, & Francisco Ortega
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-06-01'
+  caption: Holotype bones of Lusotitan.
+  width: 1536
+  height: 1920
+  review: unreviewed
+  local: img/gallery/Lusotitan_002.webp
+- kind: fossil
+  file: Lusotitan humerus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Lusotitan_humerus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lusotitan_humerus.png
+  artist: Philip D. Mannion, Paul Upchurch, Rosie N. Barnes, Octávio Mateus
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2013-04-03'
+  caption: Humerus of Lusotitan.
+  width: 1000
+  height: 443
+  review: unreviewed
+  local: img/gallery/Lusotitan_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2/vector.svg
+  png: https://images.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2/raster/512x315.png
+  page: https://www.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachiosaurus altithorax
+  matched: Brachiosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Antunes, Miguel 2003. Dinosaurs of Portugal. Comptes Rendus Palevol 2(1): 77–95. doi:10.1016/S1631-0683(03)00003-4'
+- kind: literature
+  text: 'Mannion, Philip D.; Upchurch, Paul; Barnes, Rosie N.; Mateus, Octávio 2013. Osteology of the Late Jurassic
+    Portuguese sauropod dinosaur ''''Lusotitan atalaiensis'''' (Macronaria) and the evolutionary history of basal
+    titanosauriforms. Zoological Journal of the Linnean Society 168: 98–206. doi:10.1111/zoj.12029'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lusotitan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lusotitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lusotitan”. English Wikipedia, revision 1380051531.
+  url: https://en.wikipedia.org/w/index.php?title=Lusotitan&oldid=1380051531
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked.]
+  reviews: []

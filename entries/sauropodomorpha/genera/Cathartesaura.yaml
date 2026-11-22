@@ -1,0 +1,98 @@
+name: Cathartesaura
+rank: genus
+parent: rebbachisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Gallina and Apesteguía 2005
+type_species: Cathartesaura anaerobica
+type_species_note: Monotypic genus; the only species is the type.
+summary: Cathartesaura is a medium-sized rebbachisaurid sauropod from the Albian Huincul Formation of Rio Negro,
+  Argentina, known from vertebrae and limb bones.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cathartesaura anaerobica
+  authority: Gallina and Apesteguía 2005
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; a partial skeleton with vertebrae and limb bones from the base of
+    the formation (La Buitrera).
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: A herbivore with a long, lightly built, well-muscled neck with limited dorsoventral movement.
+images:
+- kind: fossil
+  file: Cathartesaura caudals.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Cathartesaura_caudals.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cathartesaura_caudals.png
+  artist: Gallina, Pablo A. & Apesteguía, Sebastián
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2005-01-24'
+  caption: Vertebral drawings of Cathartesaura anaerobica.
+  width: 698
+  height: 717
+  review: unreviewed
+  local: img/gallery/Cathartesaura_001.webp
+- kind: fossil
+  file: Cathartesaura posterior cervical.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Cathartesaura_posterior_cervical.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cathartesaura_posterior_cervical.png
+  artist: Gallina, Pablo A. & Apesteguía, Sebastián
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2005-01-24'
+  caption: Cervical vertebra drawings of Cathartesaura anaerobica.
+  width: 449
+  height: 564
+  review: unreviewed
+  local: img/gallery/Cathartesaura_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/vector.svg
+  png: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/raster/512x114.png
+  page: https://www.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Limaysaurus tessonei
+  matched: Rebbachisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Gallina, Pablo A.; Apesteguía, Sebastián 2005. ''''Cathartesaura anaerobica'''' gen. et sp. nov., a new
+    rebbachisaurid (Dinosauria, Sauropoda) from the Huincul Formation (Upper Cretaceous), Rio Negro, Argentina.
+    Revista del Museo Argentino de Ciencias Naturales 7(2): 153–166. doi:10.22179/REVMACN.7.332'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cathartesaura (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cathartesaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cathartesaura”. English Wikipedia, revision 1369529691.
+  url: https://en.wikipedia.org/w/index.php?title=Cathartesaura&oldid=1369529691
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

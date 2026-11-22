@@ -5,16 +5,21 @@ group: ''
 country: China
 regions: [Xinjiang]
 location:
-  lat: 45.162
-  lng: 88.935
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: 45.133
+  lng: 89.467
+  basis: median of 9 PBDB collections that yielded the atlas genera
 age:
   first_ma: 165.3
   last_ma: 154.8
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lacustrine indet., coarse channel fill, alluvial fan, terrestrial indet.]
-lithology: ['"siliciclastic"', sandstone, mudstone, not reported]
-pbdb_collections: ['36569', '46974', '92677', '93870']
+environment:
+- terrestrial indet.
+- alluvial fan
+- coarse channel fill
+- lacustrine indet.
+- fluvial-lacustrine indet.
+lithology: [not reported, mudstone, sandstone, '"siliciclastic"']
+pbdb_collections: ['36569', '46974', '53658', '57774', '70960', '92677', '93870', '140200', '205957']
 includes: []
 summary: ''
 paleoenvironment: ''

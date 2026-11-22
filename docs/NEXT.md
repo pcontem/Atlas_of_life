@@ -1,3 +1,24 @@
+# Next steps (Sauropodomorpha, second round)
+
+## Done (branch entry/sauropodomorpha-9)
+- Batches 9-13, 69 genus entries (ai-draft): Euhelopodidae (+ Quaesitosaurus), Mamenchisauridae, the remaining Rebbachisauridae, 18 Titanosauria,
+  Titanosauriformes and Brachiosauridae. All images `unreviewed`; media fetched (the fetch script now skips unreadable files).
+- `incertae_sedis` (M2): Quaesitosaurus, Volgatitan, Daanosaurus, Agustinia, Fushanosaurus (reasons in each `placement_note`).
+- Type species written from general knowledge and flagged in `type_species_note`: Tangvayosaurus, Daanosaurus, Choconsaurus, Pelorosaurus, Lusotitan.
+- Not written (no occurrence or no usable article): Zigongosaurus (no PBDB occurrence).
+
+## Still to write (valid PBDB genera with a Wikipedia article, by PBDB parent; 145 left)
+Aeolosaurini (5); Anchisauridae (2); Camarasauridae (1); Camarasauromorpha (1); Cetiosauridae (1); Colossosauria (4); Diamantinasauria (4); Dicraeosauridae (4); Diplodocinae (2); Diplodocoidea (1); Eusauropoda (10); Eutitanosauria (6); Flagellicaudata (1); Gravisauria (2); Guaibasauridae (1); Khebbashia (1); Lessemsauridae (2); Lirainosaurinae (3); Lithostrotia (14); Lognkosauria (4); Macronaria (4); Mamenchisauridae (1); Massopoda (4); Massospondylidae (2); Plateosauridae (3); Rinconsauria (12); Riojasauridae (1); Saltasauridae (4); Saltasaurinae (3); Saltasauroidea (3); Saturnaliidae (1); Sauropoda (5); Sauropodiformes (5); Sauropodomorpha (1); Somphospondyli (21); Turiasauria (4); Unaysauridae (2).
+Also left out by scope (ichnogenera and oogenera, PBDB flags I/F: Brontopodus, Parabrontopodus, Megaloolithus, Otozoum...) and 46 names whose article is
+missing or wrong in the harvest (Kholumolumo, Ammosaurus, Saturnalia, Qianlong, Wudingloong, Huayracursor, Ampelosaurus, Balochisaurus, Pakisaurus...).
+Those need a new harvest request listing the correct article titles.
+
+## Reminders
+- Image picks for several batches came from file names and a single mosaic per batch; the Commons "TD.png" files are life restorations, not fossils.
+- Check holotype numbers and sizes marked "not read"; check original naming papers where `pbdb_ref_is_literature` was used.
+
+---
+
 # Next steps (Sauropodomorpha)
 
 ## Done (this branch, entry/sauropodomorpha-4-8)

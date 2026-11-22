@@ -1,0 +1,72 @@
+name: Daanosaurus
+rank: genus
+parent: mamenchisauridae
+incertae_sedis: true
+placement_note: Described as a bellusaurine brachiosaurid; later work considers it a possible juvenile mamenchisaurid,
+  so its placement is debated.
+authority: Ye et al. 2005
+type_species: Daanosaurus zhangi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Daanosaurus is a sauropod known from a juvenile partial skeleton from the Late Jurassic of Sichuan, China,
+  similar to Bellusaurus.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted; the only specimen is a juvenile.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Daanosaurus zhangi
+  authority: Ye et al. 2005
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: shaximiao-china
+fossil_material:
+  holotype: ZDM 0193, a juvenile partial skeleton.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/vector.svg
+  png: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/raster/512x332.png
+  page: https://www.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Omeisaurus tianfuensis
+  matched: Mamenchisauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: Xing, Lida 2013. A new basal eusauropod from the Middle Jurassic of Yunnan, China, and faunal compositions
+    and transitions of Asian sauropodomorph dinosaurs. Acta Palaeontologica Polonica. doi:10.4202/app.2012.0151
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Daanosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Daanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Daanosaurus”. English Wikipedia, revision 1370517668.
+  url: https://en.wikipedia.org/w/index.php?title=Daanosaurus&oldid=1370517668
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image among the harvested candidates. Type species epithet and original paper to be checked.
+  reviews: []
