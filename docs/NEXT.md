@@ -114,7 +114,7 @@ Those need a new harvest request listing the correct article titles.
 - Batch 3 (2026-11-22): Argentinosaurus, Futalognkosaurus, Mendozasaurus, Patagotitan, Rinconsaurus, Analong, Mamenchisaurus, Omeisaurus, Qijianglong, Xinjiangtitan, Nemegtosaurus, Alamosaurus, Opisthocoelicaudia, Ibirania, Neuquensaurus, Saltasaurus. Jichuanlong (backbone node only) is not in the harvest and is still pending.
 
 - Batches 4-13 (2026-11-22, PR 47 and 48): 140 genera, plus 32 images on existing entries.
-- Batches 14-24 (2026-11-22): 168 more genera, covering every valid PBDB genus that has a usable English Wikipedia article (Lithostrotia, Eutitanosauria, Rinconsauria, Lognkosauria, Somphospondyli, Eusauropoda, Turiasauria, Dicraeosauridae, Diplodocinae, basal Sauropoda and Sauropodomorpha). Ichnogenera and oogenera stay out by scope.
+- Batches 14-24 (2026-11-22): 141 more genera, covering every valid PBDB genus that has a usable English Wikipedia article (Lithostrotia, Eutitanosauria, Rinconsauria, Lognkosauria, Somphospondyli, Eusauropoda, Turiasauria, Dicraeosauridae, Diplodocinae, basal Sauropoda and Sauropodomorpha). Ichnogenera and oogenera stay out by scope.
 
 ## Pending
 - Genera still without an entry: names with no usable Wikipedia article (Kholumolumo, Saturnalia, Qianlong, Wudingloong, Huayracursor and about 40 more; Zigongosaurus has no PBDB occurrence, Adamantisaurus has none either) need a new harvest. Actiosaurus (a Wikipedia page of doubtful group), Nopcsaspondylus (dubious per Wikipedia) and Coloradia (the Wikipedia page is a moth) were not written; owner to decide on excluded.yaml.

@@ -363,6 +363,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Ichnogenera and oogenera (PBDB flags I/F) stay out of the volume; names with no usable Wikipedia article wait for a new harvest.
 
 ## 2026-11-22 — Sauropodomorpha: batches 14-24
-- 168 genera written as ai-draft (all valid PBDB genera with an English Wikipedia article now have an entry). PBDB clades without an atlas entry map to the nearest atlas clade (Titanosauriformes and Somphospondyli to Macronaria, Rinconsauria and Lithostrotia to Titanosauria, Gravisauria and Eusauropoda to Sauropoda, Guaibasauridae, Anchisauridae and Massopoda to Sauropodomorpha).
+- 141 genera written as ai-draft (all valid PBDB genera with an English Wikipedia article now have an entry). PBDB clades without an atlas entry map to the nearest atlas clade (Titanosauriformes and Somphospondyli to Macronaria, Rinconsauria and Lithostrotia to Titanosauria, Gravisauria and Eusauropoda to Sauropoda, Guaibasauridae, Anchisauridae and Massopoda to Sauropodomorpha).
 - Licence case: Commons licences with a country port (CC BY 2.5 AR, CC BY-SA 3.0 PL) are rejected by the validator's I3 string check, so those two photos were left out and flagged in curation notes; the owner decides whether ported versions are allowed.
 - Genera whose Wikipedia article is not about the dinosaur (Coloradia is a moth) or whose group or validity is doubtful (Actiosaurus, Nopcsaspondylus) were not written.
