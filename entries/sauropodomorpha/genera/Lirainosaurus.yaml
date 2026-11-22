@@ -1,0 +1,118 @@
+name: Lirainosaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Sanz et al. 1999
+type_species: Lirainosaurus astibiae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Lirainosaurus is a small titanosaur from the Late Cretaceous of Spain, about 4-6 m long.
+size:
+  length_m: [4, 6]
+  note: Measuring 4 m, possibly up to 6 m (Wikipedia revision).
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Lirainosaurus astibiae
+  authority: Sanz et al. 1999
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Sierra Perenchiza
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valencia]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 83.6]
+  id: sierra-perenchiza-spain
+- formation: Vitoria
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: vitoria-spain
+- formation: Sedano
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: sedano-spain
+- formation: Grès à Reptiles
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: gres-a-reptiles-france
+- formation: Marnes Rouges Inférieures
+  group: ''
+  members: [Marnes de la Maurine]
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: marnes-rouges-inferieures-france
+- formation: Villalba de la Sierra
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: villalba-de-la-sierra-spain
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Remains from several sites; the appendicular skeleton and dermal armour were described in 2013.
+  completeness: multiple
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Lirainosaurus braincase line drawings.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lirainosaurus_braincase_line_drawings.jpg/960px-Lirainosaurus_braincase_line_drawings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lirainosaurus_braincase_line_drawings.jpg
+  artist: Verónica Díez Díaz, Xabier Pereda Suberbiola, and José Luis Sanz
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2011'
+  caption: Line drawing of the braincase of Lirainosaurus.
+  width: 1694
+  height: 659
+  review: unreviewed
+  local: img/gallery/Lirainosaurus_001.webp
+sources:
+- kind: literature
+  text: 'Verónica Díez Díaz 2013. Appendicular skeleton and dermal armour of the Late Cretaceous titanosaur Lirainosaurus
+    astibiae (Dinosauria: Sauropoda) from Spain. Palaeontologia Electronica 16(2). doi:10.26879/350'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lirainosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lirainosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lirainosaurus”. English Wikipedia, revision 1303432339.
+  url: https://en.wikipedia.org/w/index.php?title=Lirainosaurus&oldid=1303432339
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

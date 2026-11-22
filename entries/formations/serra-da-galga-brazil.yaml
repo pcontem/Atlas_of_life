@@ -7,14 +7,20 @@ regions: [Minas Gerais]
 location:
   lat: -19.72
   lng: -47.75
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  basis: median of 6 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial-lacustrine indet., crevasse splay, fluvial indet.]
-lithology: [sandstone]
-pbdb_collections: ['32346', '51628', '51629']
+environment:
+- alluvial fan
+- fluvial indet.
+- crevasse splay
+- '"channel"'
+- fluvial-lacustrine indet.
+- terrestrial indet.
+lithology: [sandstone, not reported]
+pbdb_collections: ['32346', '51628', '51629', '51960', '64133', '82786']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,89 @@
+name: Isanosaurus
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Buffetaut et al. 2000
+type_species: Isanosaurus attavipachi
+type_species_note: Only species (Wikipedia revision).
+summary: Isanosaurus is a sauropod from the Early Jurassic of Thailand, once thought to be Late Triassic.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 192.9
+  last_ma: 174.7
+  early_interval: Pliensbachian
+  late_interval: Toarcian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Isanosaurus attavipachi
+  authority: Buffetaut et al. 2000
+  first_ma: 192.9
+  last_ma: 174.7
+  interval: Pliensbachian–Toarcian
+  reference: original description
+formations:
+- formation: Nam Phong
+  group: ''
+  members: [upper]
+  country: Thailand
+  regions: [Chaiyaphum]
+  interval: Pliensbachian–Toarcian
+  occurrences: 1
+  ma: [174.7, 192.9]
+  id: nam-phong-thailand
+fossil_material:
+  holotype: A skeleton mostly eroded away when discovered in 1998.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Isanosaurus attavipachi femur.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Isanosaurus_attavipachi_femur.JPG/960px-Isanosaurus_attavipachi_femur.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Isanosaurus_attavipachi_femur.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2009-06
+  caption: Femur of Isanosaurus attavipachi.
+  width: 1920
+  height: 2560
+  review: unreviewed
+  local: img/gallery/Isanosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/vector.svg
+  png: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/raster/512x193.png
+  page: https://www.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f
+  attribution: Roberto Diaz Sibaja, based on Domser
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vulcanodon karibaensis
+  matched: Sauropoda
+  genus_level: false
+sources:
+- kind: original
+  text: 'Buffetaut, E. 2000. The earliest known sauropod dinosaur. Nature 407(6800): 72–74. doi:10.1038/35024060'
+- kind: literature
+  text: Licht, A.; Martin, J. E.; Chanthasit, P.; Guihou, A.; Deschamps, P.; Lauprasert, K.; Bhuttarach, S.; Ditbanjong,
+    P. 2026. A revised early Jurassic to Albian chronology for dinosaur evolution in tropical Asia. Communications
+    Earth & Environment. doi:10.1038/s43247-026-04096-5
+- kind: literature
+  text: 'Rauhut, O. W. M.; Holwerda, F. M.; Furrer, H. 2020. A derived sauropodiform dinosaur and other sauropodomorph
+    material from the Late Triassic of Canton Schaffhausen, Switzerland. Swiss Journal of Geosciences 113(1): 8.
+    doi:10.1186/s00015-020-00360-8'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Isanosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Isanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Isanosaurus”. English Wikipedia, revision 1377497084.
+  url: https://en.wikipedia.org/w/index.php?title=Isanosaurus&oldid=1377497084
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked.]
+  reviews: []

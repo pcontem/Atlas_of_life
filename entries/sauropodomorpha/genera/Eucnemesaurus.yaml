@@ -1,0 +1,90 @@
+name: Eucnemesaurus
+rank: genus
+parent: riojasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Van Hoepen 1920
+type_species: Eucnemesaurus fortis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Eucnemesaurus is a basal sauropodomorph from the Lower Elliot Formation of Late Triassic South Africa,
+  named for its robust tibiae.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Eucnemesaurus entaxonis
+  authority: McPhee et al. 2015
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: ''
+- name: Eucnemesaurus fortis
+  authority: Van Hoepen 1920
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Lower]
+  country: South Africa
+  regions: [Eastern Cape, Free State]
+  interval: Norian–Rhaetian
+  occurrences: 4
+  ma: [201.4, 227.3]
+  id: elliot-south-africa
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Partial remains; it was once synonymised with Euskelosaurus (van Heerden 1979).
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Eucnemesaurus tibia.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Eucnemesaurus_tibia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eucnemesaurus_tibia.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-17'
+  caption: Tibia of Eucnemesaurus.
+  width: 523
+  height: 1063
+  review: unreviewed
+  local: img/gallery/Eucnemesaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd/vector.svg
+  png: https://images.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd/raster/512x173.png
+  page: https://www.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Riojasaurus incertus
+  matched: Eucnemesaurus
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Hoepen, E. C. N. van 1920. Contributions to the knowledge of the reptiles of the Karroo Formation. 6. Further
+    dinosaurian material in the Transvaal Museum. Annals of the Transvaal Museum 7(2): 93-141.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eucnemesaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eucnemesaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eucnemesaurus”. English Wikipedia, revision 1383326529.
+  url: https://en.wikipedia.org/w/index.php?title=Eucnemesaurus&oldid=1383326529
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original paper (van Hoepen 1920) is cited as item 1; type species epithet to be checked.
+  reviews: []

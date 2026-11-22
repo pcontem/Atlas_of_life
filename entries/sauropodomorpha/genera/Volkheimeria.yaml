@@ -1,0 +1,77 @@
+name: Volkheimeria
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1979
+type_species: Volkheimeria chubutensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Volkheimeria is a sauropod from the Early Jurassic of Chubut, Argentina, living about 179-178 million years
+  ago.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 182.9
+  last_ma: 180.4
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Volkheimeria chubutensis
+  authority: Bonaparte 1979
+  first_ma: 182.9
+  last_ma: 180.4
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Cañadón Asfalto
+  group: Sierra de Olte
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Middle Toarcian
+  occurrences: 1
+  ma: [180.4, 182.9]
+  id: canadon-asfalto-argentina
+fossil_material:
+  holotype: A partial cervical vertebra, dorsals, sacrum part, caudals, ilia, pubis, ischium, femur and tibia.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/vector.svg
+  png: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/raster/512x193.png
+  page: https://www.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f
+  attribution: Roberto Diaz Sibaja, based on Domser
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vulcanodon karibaensis
+  matched: Gravisauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Bonaparte, J.F. 1979. Dinosaurs: A Jurassic Assemblage from Patagonia. Science 205(4413): 1377–1379. doi:10.1126/science.205.4413.1377'
+- kind: literature
+  text: 'Fantasia, A.; Föllmi, K. B.; Adatte, T.; Spangenberg, J. E.; Schoene, B.; Barker, R. T.; Scasso, R. A.
+    2021. Late Toarcian continental palaeoenvironmental conditions: An example from the Cañadón Asfalto Formation
+    in southern Argentina. Gondwana Research 89(1): 47–65. doi:10.1016/j.gr.2020.10.001'
+- kind: literature
+  text: 'Becerra, Marcos G.; Gomez, Kevin L.; Pol, Diego 2017. A sauropodomorph tooth increases the diversity of
+    dental morphotypes in the Cañadón Asfalto Formation (Early – Middle Jurassic) of Patagonia. Comptes Rendus Palevol
+    16(8): 832–840. doi:10.1016/j.crpv.2017.08.005'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Volkheimeria (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Volkheimeria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Volkheimeria”. English Wikipedia, revision 1378583170.
+  url: https://en.wikipedia.org/w/index.php?title=Volkheimeria&oldid=1378583170
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No image among the candidates.]
+  reviews: []

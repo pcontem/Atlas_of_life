@@ -3,18 +3,18 @@ name: Cerro Lisandro
 rank: formation
 group: Neuquén
 country: Argentina
-regions: [Neuquén]
+regions: [Mendoza, Neuquén]
 location:
-  lat: -39.07
-  lng: -69.151
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: -36.569
+  lng: -69.034
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 93.9
   last_ma: 89.8
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: ['"channel"']
-lithology: [siltstone]
-pbdb_collections: ['49097']
+environment: ['"channel"', wet floodplain]
+lithology: [siltstone, mudstone]
+pbdb_collections: ['49097', '153997']
 includes: []
 summary: ''
 paleoenvironment: ''

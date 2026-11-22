@@ -1,0 +1,87 @@
+name: Australodocus
+rank: genus
+parent: macronaria
+incertae_sedis: true
+placement_note: Named in 2007 as a diplodocid; later analyses (Whitlock 2011) and PBDB differ, PBDB placing it in
+  Somphospondyli.
+authority: Remes 2007
+type_species: Australodocus bohetii
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Australodocus is a Late Jurassic sauropod from the Tendaguru beds of Lindi, Tanzania, known from two vertebrae.
+size:
+  length_m: null
+  note: Known from two vertebrae; no size figure was read.
+age:
+  first_ma: 149.2
+  last_ma: 143.1
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Australodocus bohetii
+  authority: Remes 2007
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Tendaguru
+  group: ''
+  members: [Upper Dinosaur]
+  country: Tanzania
+  regions: [Lindi]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: tendaguru-tanzania
+fossil_material:
+  holotype: Vertebrae from a series of four collected in 1909 by Janensch's expedition; the other bones were destroyed
+    in World War II.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Australodocus.jpeg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Australodocus.jpeg/960px-Australodocus.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Australodocus.jpeg
+  artist: Matt Wedel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015'
+  caption: Vertebra of Australodocus.
+  width: 2272
+  height: 1704
+  review: unreviewed
+  local: img/gallery/Australodocus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Somphospondyli
+  genus_level: false
+sources:
+- kind: original
+  text: 'Remes, Kristian 2007. A second Gondwanan diplodocid dinosaur from the Upper Jurassic Tendaguru Beds of
+    Tanzania, East Africa. Palaeontology 50(3): 653–667. doi:10.1111/j.1475-4983.2007.00652.x'
+- kind: literature
+  text: 'Whitlock, John 2011. A phylogenetic analysis of Diplodocoidea (Saurischia: Sauropoda). Zoological Journal
+    of the Linnean Society 161(4): 872–915. doi:10.1111/j.1096-3642.2010.00665.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Australodocus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Australodocus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Australodocus”. English Wikipedia, revision 1367145486.
+  url: https://en.wikipedia.org/w/index.php?title=Australodocus&oldid=1367145486
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked.]
+  reviews: []

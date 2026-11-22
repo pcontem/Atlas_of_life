@@ -1,0 +1,89 @@
+name: Pilmatueia
+rank: genus
+parent: dicraeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Coria et al. 2019
+type_species: Pilmatueia faundezi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Pilmatueia is a dicraeosaurid sauropod from the Early Cretaceous of Neuquen, Argentina, named in 2019.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pilmatueia faundezi
+  authority: Coria et al. 2019
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Mulichinco
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: mulichinco-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; excavated at Pilmatue from 2009.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: skeletal
+  file: Pilmatueia skeletal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pilmatueia_skeletal.jpg/960px-Pilmatueia_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pilmatueia_skeletal.jpg
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-12-30'
+  caption: Skeletal reconstruction of Pilmatueia.
+  width: 5022
+  height: 2294
+  review: unreviewed
+  local: img/gallery/Pilmatueia_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/vector.svg
+  png: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/raster/512x147.png
+  page: https://www.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dicraeosaurus
+  matched: Dicraeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Coria, Rodolfo A.; Currie, Philip J.; Ortega, Francisco; Baiano, Mattia A. 2019. An Early Cretaceous, medium-sized
+    carcharodontosaurid theropod (Dinosauria, Saurischia) from the Mulichinco Formation (upper Valanginian), Neuquén
+    Province, Patagonia, Argentina. Cretaceous Research 111. doi:10.1016/j.cretres.2019.104319
+- kind: literature
+  text: 'Coria, R. A.; Ortega, F.; Succar, C.; Currie, P.; Koppelhus, E. 2012. First record of a dicraeosaurid sauropod
+    from the Lower Cretaceous (Valanginian) of Neuquén Basin. Ameghiniana 49(4R): R44.'
+- kind: literature
+  text: 'Rodolfo A. Coria 2018. A new dicraeosaurid sauropod from the Lower Cretaceous (Mulichinco Formation, Valanginian,
+    Neuquén Basin) of Argentina. Cretaceous Research 93: 33–48. doi:10.1016/j.cretres.2018.08.019'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pilmatueia (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pilmatueia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pilmatueia”. English Wikipedia, revision 1386026323.
+  url: https://en.wikipedia.org/w/index.php?title=Pilmatueia&oldid=1386026323
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -113,8 +113,12 @@ Those need a new harvest request listing the correct article titles.
 
 - Batch 3 (2026-11-22): Argentinosaurus, Futalognkosaurus, Mendozasaurus, Patagotitan, Rinconsaurus, Analong, Mamenchisaurus, Omeisaurus, Qijianglong, Xinjiangtitan, Nemegtosaurus, Alamosaurus, Opisthocoelicaudia, Ibirania, Neuquensaurus, Saltasaurus. Jichuanlong (backbone node only) is not in the harvest and is still pending.
 
+- Batches 4-13 (2026-11-22, PR 47 and 48): 140 genera, plus 32 images on existing entries.
+- Batches 14-24 (2026-11-22): 141 more genera, covering every valid PBDB genus that has a usable English Wikipedia article (Lithostrotia, Eutitanosauria, Rinconsauria, Lognkosauria, Somphospondyli, Eusauropoda, Turiasauria, Dicraeosauridae, Diplodocinae, basal Sauropoda and Sauropodomorpha). Ichnogenera and oogenera stay out by scope.
+
 ## Pending
-- Batch 4 onwards, following `docs/QUEUE_GENERA.md` (next units: brachiosauridae, euhelopodidae, lognkosauria, macronaria, mamenchisauridae, …).
+- Genera still without an entry: names with no usable Wikipedia article (Kholumolumo, Saturnalia, Qianlong, Wudingloong, Huayracursor and about 40 more; Zigongosaurus has no PBDB occurrence, Adamantisaurus has none either) need a new harvest. Actiosaurus (a Wikipedia page of doubtful group), Nopcsaspondylus (dubious per Wikipedia) and Coloradia (the Wikipedia page is a moth) were not written; owner to decide on excluded.yaml.
+- Many entries say "not read in the sources consulted" for holotype or size: the briefs came from the Wikipedia leads. Fill them from the naming papers when reviewing. Type species written from general knowledge are marked in `type_species_note`.
 - Harvest gap: the Wikipedia article pictures were not captured for about 200 of the 449 pages (empty `files`), and the Commons category step takes only the first 15 files, so some genera lack good candidates (Garumbatitan has none). Re-harvest with a fix or add images by hand.
 - Holotype numbers not read for Apatosaurus, Brontosaurus, Barosaurus, Diplodocus, Tornieria, Dicraeosaurus, Amargasaurus, Suuwassea, Bajadasaurus;
   Kaatedocus (SMA 004), Supersaurus (BYU 9025) and Haplocanthosaurus (CM 572) need confirmation against the naming papers.
@@ -123,5 +127,7 @@ Those need a new harvest request listing the correct article titles.
 - Formation entries for the new genera need summary and paleoenvironment text (F5).
 
 ## Open questions
+- Licence strings with a port (CC BY 2.5 AR for the Titanomachya holotype photo, CC BY-SA 3.0 PL for Opisthocoelicaudia) are rejected by the validator; those photos are left out. Allow ported versions, or keep them out?
+- Jobaria and Gongxianosaurus age conflicts; Tehuelchesaurus, Atlasaurus, Australodocus, Liubangosaurus and Cetiosauriscus placements are marked `incertae_sedis`.
 - Confirm the new G8 size limits (60 m, 150,000 kg) in `scripts/validate.py`.
 - Gigantosaurus Fraas 1908 is listed as a junior synonym of Barosaurus (PBDB), although its type species became Tornieria africana; check.

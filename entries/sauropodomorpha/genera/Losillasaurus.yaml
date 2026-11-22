@@ -1,0 +1,95 @@
+name: Losillasaurus
+rank: genus
+parent: turiasauria
+incertae_sedis: false
+placement_note: ''
+authority: Casanovas et al. 2001
+type_species: Losillasaurus giganteus
+type_species_note: Described by Casanovas et al. in 2001 (Wikipedia revision).
+summary: Losillasaurus is a turiasaurian sauropod from the Late Jurassic of southeastern Spain, also known from
+  Portugal.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Losillasaurus giganteus
+  authority: Casanovas et al. 2001
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Villar del Arzobispo
+  group: ''
+  members: []
+  country: Spain
+  regions: [Teruel, Valencia]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 2
+  ma: [143.1, 154.8]
+  id: villar-del-arzobispo-spain
+- formation: Praia da Amoreira-Porto Novo
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: lourinha-portugal
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Includes a partial skull with teeth and a partial skeleton, and a caudal vertebra, SHN 180.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Losillasaurus día.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Losillasaurus_d%C3%ADa.png/960px-Losillasaurus_d%C3%ADa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Losillasaurus_d%C3%ADa.png
+  artist: Ferrutxo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-12-26'
+  caption: Life restoration of Losillasaurus.
+  width: 3840
+  height: 2160
+  review: unreviewed
+  local: img/gallery/Losillasaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/d75467aa-b824-407f-9975-51ea201d701e/vector.svg
+  png: https://images.phylopic.org/images/d75467aa-b824-407f-9975-51ea201d701e/raster/996x1024.png
+  page: https://www.phylopic.org/images/d75467aa-b824-407f-9975-51ea201d701e
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Amanzia greppini
+  matched: Turiasauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Casanovas, Maria Lourdes 2001. ''''Losillasaurus giganteus'''', un nuevo saurópodo del tránsito Jurásico-Cretácico
+    e la Cuenca de "Los Serranos" (Valencia, España). Paleontologia i Evolució 32&ndash;33: 99&ndash;122.'
+- kind: literature
+  text: 'Rafael Royo-Torres 2020. Origin and evolution of turiasaur dinosaurs set by means of a new ''rosetta''
+    specimen from Spain. Zoological Journal of the Linnean Society 191: 201–227. doi:10.1093/zoolinnean/zlaa091'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Losillasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Losillasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Losillasaurus”. English Wikipedia, revision 1369775326.
+  url: https://en.wikipedia.org/w/index.php?title=Losillasaurus&oldid=1369775326
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

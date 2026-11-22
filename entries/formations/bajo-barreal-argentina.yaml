@@ -1,20 +1,20 @@
 id: bajo-barreal-argentina
 name: Bajo Barreal
 rank: formation
-group: ''
+group: Chubut
 country: Argentina
-regions: [Chubut]
+regions: [Chubut, Santa Cruz]
 location:
-  lat: -44.907
-  lng: -69.379
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: -45.305
+  lng: -69.604
+  basis: median of 6 PBDB collections that yielded the atlas genera
 age:
   first_ma: 100.5
   last_ma: 89.8
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet.]
+environment: [terrestrial indet., fluvial indet., crevasse splay]
 lithology: [sandstone]
-pbdb_collections: ['152253']
+pbdb_collections: ['38952', '49099', '70674', '109015', '115564', '152253']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,99 @@
+name: Gannansaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Lü et al. 2013
+type_species: Gannansaurus sinensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Gannansaurus is a somphospondylan sauropod from the Nanxiong Formation of Jiangxi, China, known from two
+  vertebrae.
+size:
+  length_m: null
+  note: Known from two vertebrae; no size figure was read.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gannansaurus sinensis
+  authority: Lü et al. 2013
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Nanxiong
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nanxiong-group-china
+fossil_material:
+  holotype: GMNH F10001, two caudal vertebrae.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: skeletal
+  file: Gannansaurus sinensis Skeletal.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3b/Gannansaurus_sinensis_Skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gannansaurus_sinensis_Skeletal.jpg
+  artist: Gunnar Bivens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-03-30'
+  caption: Skeletal reconstruction of Gannansaurus sinensis showing preserved bones.
+  width: 920
+  height: 868
+  review: unreviewed
+  local: img/gallery/Gannansaurus_001.webp
+- kind: skeletal
+  file: Gannansaurus left.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Gannansaurus_left.png/960px-Gannansaurus_left.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gannansaurus_left.png
+  artist: Skye M
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-02-17'
+  caption: Skeletal reconstruction of Gannansaurus.
+  width: 2412
+  height: 1719
+  review: unreviewed
+  local: img/gallery/Gannansaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Somphospondyli
+  genus_level: false
+sources:
+- kind: original
+  text: 'Junchang Lü 2013. A New Somphospondylan Sauropod (Dinosauria, Titanosauriformes) from the Late Cretaceous
+    of Ganzhou, Jiangxi Province of Southern China. Acta Geologica Sinica (English Edition) 87(3): 678–685. doi:10.1111/1755-6724.12079'
+- kind: literature
+  text: 'Lü, Junchang; Yi, Laiping; Brusatte, Stephen L.; Yang, Ling; Li, Hua; Chen, Liu 2014. A new clade of Asian
+    Late Cretaceous long-snouted tyrannosaurids. Nature Communications 5(1): 3788. doi:10.1038/ncomms4788'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gannansaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gannansaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gannansaurus”. English Wikipedia, revision 1369614655.
+  url: https://en.wikipedia.org/w/index.php?title=Gannansaurus&oldid=1369614655
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked.]
+  reviews: []

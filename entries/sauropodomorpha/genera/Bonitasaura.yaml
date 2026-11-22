@@ -1,0 +1,115 @@
+name: Bonitasaura
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Apesteguía 2004
+type_species: Bonitasaura salgadoi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Bonitasaura is a titanosaur from the Santonian Bajo de la Carpa Formation of Rio Negro, Argentina, with
+  a keratin beak sheath that sheared plants.
+size:
+  length_m: null
+  note: The skeleton is from a sub-adult; no size figure was read.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Bonitasaura salgadoi
+  authority: Apesteguía 2004
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Santonian
+  occurrences: 2
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; a partial sub-adult skeleton.
+  material: Known from a partial sub-adult skeleton and its skull.
+  completeness: partial
+  exceptional: ''
+biology: A keratin sheath on the jaw worked like a guillotine to crop vegetation raked in by peg-like front teeth;
+  the low long skull converges with diplodocids.
+images:
+- kind: skeletal
+  file: Bonitasaura salgadoi Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bonitasaura_salgadoi_Skeletal.png/960px-Bonitasaura_salgadoi_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bonitasaura_salgadoi_Skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-29'
+  caption: Skeletal reconstruction of Bonitasaura salgadoi.
+  width: 9728
+  height: 5952
+  review: unreviewed
+  local: img/gallery/Bonitasaura_001.webp
+- kind: skeletal
+  file: Bonitasaura salgadoi skull reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/49/Bonitasaura_salgadoi_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bonitasaura_salgadoi_skull_reconstruction.png
+  artist: Pablo A. Gallina and Sebastián Apesteguía
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2011-03-01'
+  caption: Skull reconstruction of Bonitasaura salgadoi.
+  width: 495
+  height: 526
+  review: unreviewed
+  local: img/gallery/Bonitasaura_002.webp
+- kind: life
+  file: Bonitasaura.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c8/Bonitasaura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bonitasaura.jpg
+  artist: Pablo A. Gallina and Sebastián Apesteguía
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2011'
+  caption: Life restoration of Bonitasaura.
+  width: 1127
+  height: 891
+  review: unreviewed
+  local: img/gallery/Bonitasaura_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556/vector.svg
+  png: https://images.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556/raster/512x252.png
+  page: https://www.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Alamosaurus sanjuanensis
+  matched: Eutitanosauria
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Gonzalez, Romina; Gallina, Pablo A.; Cerda, Ignacio A. Nove. Multiple paleopathologies in the dinosaur
+    Bonitasaura salgadoi (Sauropoda: Titanosauria) from the Upper Cretaceous of Patagonia, Argentina. Cretaceous
+    Research 79: 159–170. doi:10.1016/j.cretres.2017.07.013'
+- kind: literature
+  text: Agnolin, Federico L.; Gonzalez Riga, Bernardo J.; Aranciaga Rolando, Alexis M.; Rozadilla, Sebastián; Motta,
+    Matías J.; Chimento, Nicolás R.; Novas, Fernando E. 2023. A new giant titanosaur (Dinosauria, Sauropoda) from
+    the Upper Cretaceous of Northwestern Patagonia, Argentina. Cretaceous Research 146. doi:10.1016/j.cretres.2023.105487
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bonitasaura (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bonitasaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bonitasaura”. English Wikipedia, revision 1325379412.
+  url: https://en.wikipedia.org/w/index.php?title=Bonitasaura&oldid=1325379412
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original naming paper (Apesteguia 2004) to be added.]
+  reviews: []

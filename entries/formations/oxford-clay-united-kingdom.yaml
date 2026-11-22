@@ -7,7 +7,7 @@ regions: [Dorset, England, Wiltshire]
 location:
   lat: 52.552
   lng: -0.242
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 165.3
   last_ma: 154.8
@@ -18,9 +18,21 @@ environment:
 - offshore
 - shallow subtidal indet.
 - open shallow subtidal
-lithology: [mudstone, not reported, sandstone, claystone]
-pbdb_collections: ['47362', '77060', '92051', '100669', '109800', '119668', '133067', '133068', '142299', '162945',
-  '190125', '224072']
+lithology: [not reported, mudstone, sandstone, claystone]
+pbdb_collections:
+- '47362'
+- '53680'
+- '77060'
+- '92051'
+- '100669'
+- '109800'
+- '119668'
+- '133067'
+- '133068'
+- '142299'
+- '162945'
+- '190125'
+- '224072'
 includes: []
 summary: ''
 paleoenvironment: ''

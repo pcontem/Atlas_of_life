@@ -1,0 +1,99 @@
+name: Huanghetitan
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: You et al. 2006
+type_species: Huanghetitan liujiaxiaensis
+type_species_note: Described by You et al. in 2006 (Wikipedia revision).
+summary: Huanghetitan is a basal titanosauriform from the Early Cretaceous of Gansu, China, about 12 m long.
+size:
+  length_m: [12, 12]
+  note: About 12 m (Wikipedia revision); the later species H. ruyangensis is probably not closely related.
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Huanghetitan liujiaxiaensis
+  authority: You et al. 2006
+  first_ma: 125.77
+  last_ma: 113.2
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Upper
+  group: Hekou
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Barremian–Aptian
+  occurrences: 1
+  ma: [113.2, 125.77]
+  id: upper-china
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Known from the holotype and a second species from Henan.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Huanghetitan skeleton mount.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Huanghetitan_skeleton_mount.jpg/960px-Huanghetitan_skeleton_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Huanghetitan_skeleton_mount.jpg
+  artist: GKNOVA6
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-04-26'
+  caption: Mounted skeleton of Huanghetitan.
+  width: 2048
+  height: 1362
+  review: unreviewed
+  local: img/gallery/Huanghetitan_001.webp
+- kind: fossil
+  file: Huanghetitan ruyangensis vertebrae.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Huanghetitan_ruyangensis_vertebrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Huanghetitan_ruyangensis_vertebrae.jpg
+  artist: Extrapolaris
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-06-29'
+  caption: Vertebrae of Huanghetitan ruyangensis.
+  width: 480
+  height: 640
+  review: unreviewed
+  local: img/gallery/Huanghetitan_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Somphospondyli
+  genus_level: false
+sources:
+- kind: literature
+  text: 'You, H. 2006. ''''Huanghetitan liujiaxiaensis'''', a New Sauropod Dinosaur from the Lower Cretaceous Hekou
+    Group of Lanzhou Basin, Gansu Province, China. Geological Review 52(5): 668–674.'
+- kind: literature
+  text: 'Mannion, Philip D.; Upchurch, Paul; Barnes, Rosie N.; Mateus, Octávio 2013. Osteology of the Late Jurassic
+    Portuguese sauropod dinosaur ''''Lusotitan atalaiensis'''' (Macronaria) and the evolutionary history of basal
+    titanosauriforms. Zoological Journal of the Linnean Society 168: 98–206. doi:10.1111/zoj.12029'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Huanghetitan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Huanghetitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Huanghetitan”. English Wikipedia, revision 1354646529.
+  url: https://en.wikipedia.org/w/index.php?title=Huanghetitan&oldid=1354646529
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [H. ruyangensis may belong to another genus; check.]
+  reviews: []

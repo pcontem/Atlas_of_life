@@ -1,0 +1,73 @@
+name: Chucarosaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Agnolin et al. 2023
+type_species: Chucarosaurus diripienda
+type_species_note: Monotypic genus; the only species is the type.
+summary: Chucarosaurus is a large titanosaur from the Albian Huincul Formation of Argentina, known from limb and
+  pelvic bones.
+size:
+  length_m: null
+  note: The femur is about 1.9 m long, smaller than that of Argentinosaurus (Wikipedia revision).
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chucarosaurus diripienda
+  authority: Agnolin et al. 2023
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: MPCA PV 820.
+  material: Various limb and pelvic bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: The forelimb was shorter than the hindlimb, with a humerus 78% the length of the femur.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ed950594-a800-4ae8-980a-7dab4c063a71/vector.svg
+  png: https://images.phylopic.org/images/ed950594-a800-4ae8-980a-7dab4c063a71/raster/512x230.png
+  page: https://www.phylopic.org/images/ed950594-a800-4ae8-980a-7dab4c063a71
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Chucarosaurus diripienda
+  matched: Chucarosaurus
+  genus_level: true
+  w: 512
+  h: 230
+sources:
+- kind: original
+  text: Agnolin, Federico L.; Gonzalez Riga, Bernardo J.; Aranciaga Rolando, Alexis M.; Rozadilla, Sebastián; Motta,
+    Matías J.; Chimento, Nicolás R.; Novas, Fernando E. 2023. A new giant titanosaur (Dinosauria, Sauropoda) from
+    the Upper Cretaceous of Northwestern Patagonia, Argentina. Cretaceous Research 146. doi:10.1016/j.cretres.2023.105487
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chucarosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chucarosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chucarosaurus”. English Wikipedia, revision 1374824085.
+  url: https://en.wikipedia.org/w/index.php?title=Chucarosaurus&oldid=1374824085
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No image among the harvested candidates.]
+  reviews: []

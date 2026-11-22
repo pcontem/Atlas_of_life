@@ -1,0 +1,109 @@
+name: Tastavinsaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Canudo et al. 2008
+type_species: Tastavinsaurus sanzi
+type_species_note: Named in honour of the Rio Tastavins (Wikipedia revision).
+summary: Tastavinsaurus is a titanosauriform sauropod from the Xert Formation of Spain, based on a partial skeleton.
+size:
+  length_m: [16, 16]
+  mass_kg: [8000, 8000]
+  note: Estimated at 16 m and 8 t (Wikipedia revision).
+age:
+  first_ma: 121.4
+  last_ma: 119.57
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Tastavinsaurus sanzi
+  authority: Canudo et al. 2008
+  first_ma: 121.4
+  last_ma: 119.57
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xert
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: xert-spain
+- formation: Forcall
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: forcall-spain
+fossil_material:
+  holotype: Not read in the sources consulted; a partial skeleton.
+  material: Partial skeleton and a further specimen described in 2012.
+  completeness: partial
+  exceptional: ''
+biology: The shin was proportionally shorter than in other sauropods.
+images:
+- kind: life
+  file: Tastavinsaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ec/Tastavinsaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tastavinsaurus_BW.jpg
+  artist: Nobu Tamura
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-02-14'
+  caption: Life restoration of Tastavinsaurus.
+  width: 296
+  height: 126
+  review: unreviewed
+  local: img/gallery/Tastavinsaurus_001.webp
+- kind: fossil
+  file: Tastavinsaurus - El Castellar, Teruel, Spain - Left femur, tibia & fibula.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/2/27/Tastavinsaurus_-_El_Castellar%2C_Teruel%2C_Spain_-_Left_femur%2C_tibia_%26_fibula.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tastavinsaurus_-_El_Castellar,_Teruel,_Spain_-_Left_femur,_tibia_%26_fibula.JPG
+  artist: PePeEfe
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-10-19'
+  caption: Fossil of Tastavinsaurus at El Castellar.
+  width: 819
+  height: 1047
+  review: unreviewed
+  local: img/gallery/Tastavinsaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Somphospondyli
+  genus_level: false
+sources:
+- kind: original
+  text: 'Canudo, José I. 2008. A new sauropod: ''''Tastavinsaurus sanzi'''' gen. et sp. nov. from the Early Cretaceous
+    (Aptian) of Spain. Journal of Vertebrate Paleontology 28(3): 712–731. doi:10.1671/0272-4634(2008)28[712:ANSTSG]2.0.CO;2'
+- kind: literature
+  text: 'Royo-Torres, Rafael; Alcalá, Luis; Cobos, Alberto 2012. A new specimen of the Cretaceous sauropod Tastavinsaurus
+    sanzi from El Castellar (Teruel, Spain), and a phylogenetic analysis of the Laurasiformes. Cretaceous Research
+    34: 61–83. doi:10.1016/j.cretres.2011.10.005'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tastavinsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tastavinsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tastavinsaurus”. English Wikipedia, revision 1364479532.
+  url: https://en.wikipedia.org/w/index.php?title=Tastavinsaurus&oldid=1364479532
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

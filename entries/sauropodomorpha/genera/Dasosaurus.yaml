@@ -1,0 +1,99 @@
+name: Dasosaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Mayer et al. 2026
+type_species: Dasosaurus tocantinensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Dasosaurus is a somphospondylan sauropod from the Aptian Itapecuru Formation of Brazil, named in 2026 with
+  European affinities.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dasosaurus tocantinensis
+  authority: Mayer et al. 2026
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Itapecuru
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Northeast]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: itapecuru-brazil
+fossil_material:
+  holotype: Not read in the sources consulted; phalanges, ribs and other bones found at the base of a slope.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Dasosaurus tocantinensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Dasosaurus_tocantinensis.png/960px-Dasosaurus_tocantinensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dasosaurus_tocantinensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-02-12'
+  caption: Life restoration of Dasosaurus tocantinensis.
+  width: 4000
+  height: 2141
+  review: unreviewed
+  local: img/gallery/Dasosaurus_001.webp
+- kind: life
+  file: Reconstruction of dasosaurus tocantinensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Reconstruction_of_dasosaurus_tocantinensis.png/960px-Reconstruction_of_dasosaurus_tocantinensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Reconstruction_of_dasosaurus_tocantinensis.png
+  artist: Connor the wolf
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-11'
+  caption: Reconstruction of Dasosaurus tocantinensis.
+  width: 2048
+  height: 2048
+  review: unreviewed
+  local: img/gallery/Dasosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Somphospondyli
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mayer, E. L.; Silva Junior, J. C. G.; Kerber, L.; Navarro, B. A.; Bandeira, K. L. N.; Cisneros, J. C.;
+    Sousa, E. P.; Pereira, A. A.; Medeiros, M. A.; Lindoso, R. M.; Cavalcanti Neto, F. P.; Ghilardi, A. M.; Aureliano,
+    T.; Godoy, P. L.; Ferreira, G. S.; Langer, M. C. 2026. A new titanosauriform with European affinities in the
+    Early Cretaceous of Brazil: insights on Somphospondyli phylogeny, histology and biogeography. Journal of Systematic
+    Palaeontology 24. doi:10.1080/14772019.2025.2601579'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dasosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dasosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dasosaurus”. English Wikipedia, revision 1364893895.
+  url: https://en.wikipedia.org/w/index.php?title=Dasosaurus&oldid=1364893895
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

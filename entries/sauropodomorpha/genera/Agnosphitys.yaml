@@ -1,0 +1,70 @@
+name: Agnosphitys
+rank: genus
+parent: sauropodomorpha
+incertae_sedis: true
+placement_note: Wikipedia calls it a dinosauriform; PBDB lists it in Guaibasauridae, which has no atlas entry.
+authority: Fraser et al. 2002
+type_species: Agnosphitys cromhallensis
+type_species_note: Only species (Wikipedia revision).
+summary: Agnosphitys is a Late Triassic dinosauriform from Britain, known from an ilium and a partial skeleton.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Agnosphitys cromhallensis
+  authority: Fraser et al. 2002
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: unnamed-cromhall-quarry-site-2-united-kingdom
+fossil_material:
+  holotype: A single isolated left ilium.
+  material: A second specimen is a partial skeleton with a left maxilla, humerus and astragalus.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b35035a2-c9a9-4317-b089-8be984320eba/vector.svg
+  png: https://images.phylopic.org/images/b35035a2-c9a9-4317-b089-8be984320eba/raster/512x279.png
+  page: https://www.phylopic.org/images/b35035a2-c9a9-4317-b089-8be984320eba
+  attribution: Bruno Navarro
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Guaibasaurus candelariensis
+  matched: Guaibasauridae
+  genus_level: false
+sources:
+- kind: original
+  text: N. C. Fraser, K. Padian, and G. M. Walkden, A. L. M. Davis. 2002. Basal dinosauriform remains from Britain
+    and the diagnosis of the Dinosauria. Palaeontology 45(1):79-95
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Agnosphitys (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Agnosphitys
+- kind: encyclopedia
+  text: Wikipedia contributors. “Agnosphitys”. English Wikipedia, revision 1362749094.
+  url: https://en.wikipedia.org/w/index.php?title=Agnosphitys&oldid=1362749094
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No Wikipedia citations extracted; original paper (Fraser et al. 2002) to be added; no image.
+  reviews: []
