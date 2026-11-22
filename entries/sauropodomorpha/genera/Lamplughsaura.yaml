@@ -1,0 +1,86 @@
+name: Lamplughsaura
+rank: genus
+parent: sauropodomorpha
+incertae_sedis: true
+placement_note: The cited Wikipedia revision says it has been classified as either a basal sauropod or a more basal
+  sauropodomorph; PBDB places it in Sauropoda.
+authority: Kutty et al. 2007
+type_species: Lamplughsaura dharmaramensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Lamplughsaura is a large quadrupedal sauropodomorph from the Early Jurassic Dharmaram Formation of India,
+  known from several partial skeletons.
+size:
+  length_m: [10, 10]
+  note: Largest known specimen, up to about 10 m long; the skull is 27 cm long.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Lamplughsaura dharmaramensis
+  authority: Kutty et al. 2007
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Dharmaram
+  group: Gondwana
+  members: [Upper]
+  country: India
+  regions: [Andhra Pradesh]
+  interval: Hettangian–Sinemurian
+  occurrences: 4
+  ma: [192.9, 201.4]
+  id: dharmaram-india
+fossil_material:
+  holotype: Not read in the sources consulted; the holotype and two referred specimens were found in the Dharmaram
+    Formation.
+  material: Several partial skeletons, probably of subadults (fused tail neurocentral sutures but disarticulated
+    skull elements).
+  completeness: multiple
+  exceptional: ''
+biology: A large, heavily built quadrupedal sauropodomorph.
+images:
+- kind: life
+  file: Lamplughsaura BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/58/Lamplughsaura_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lamplughsaura_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-11-04'
+  caption: Life restoration of Lamplughsaura.
+  width: 800
+  height: 342
+  review: unreviewed
+  local: img/gallery/Lamplughsaura_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/vector.svg
+  png: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/raster/512x193.png
+  page: https://www.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f
+  attribution: Roberto Diaz Sibaja, based on Domser
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vulcanodon karibaensis
+  matched: Sauropoda
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kutty, T.S. 2007. Basal sauropodomorphs (Dinosauria: Saurischia) from the Lower Jurassic of India: their
+    anatomy and relationships. Journal of Paleontology 81(6): 1552–1574. doi:10.1666/04-074.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lamplughsaura (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lamplughsaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lamplughsaura”. English Wikipedia, revision 1355183158.
+  url: https://en.wikipedia.org/w/index.php?title=Lamplughsaura&oldid=1355183158
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

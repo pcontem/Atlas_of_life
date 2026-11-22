@@ -1,0 +1,112 @@
+name: Rebbachisaurus
+rank: genus
+parent: rebbachisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Lavocat 1954
+type_species: Rebbachisaurus garasbae
+type_species_note: The only valid species; R. tessonei is now Limaysaurus tessonei and R. tamesnensis is a nomen
+  dubium (Wikipedia revision).
+summary: Rebbachisaurus is a rebbachisaurid sauropod from the mid-Cretaceous Kem Kem Beds of Morocco, the genus
+  that gives its name to the family.
+size:
+  length_m: [14, 14]
+  mass_kg: [7000, 12000]
+  note: Once thought to reach 20 m; more recent estimates give about 14 m and 7-12 t (Wikipedia revision).
+age:
+  first_ma: 106.3
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Rebbachisaurus garasbae
+  authority: Lavocat 1954
+  first_ma: 106.3
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Béni Mellal-Khénifra, Drâa-Tafilalet]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 106.3]
+  id: kem-kem-group-morocco
+- formation: Gara Sbaa
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: gara-sbaa-morocco
+fossil_material:
+  holotype: Not read in the sources consulted; a skeleton found in 1948 in Errachidia Province, Morocco, with very
+    tall dorsal vertebrae (up to about 150 cm).
+  material: A partial skeleton from the Kem Kem Beds with associated and referred vertebrae and limb bones.
+  completeness: partial
+  exceptional: ''
+biology: Like other rebbachisaurids, a four-legged herbivore with a long neck ending in a relatively large head.
+images:
+- kind: fossil
+  file: Holotype material of Rebbachisaurus garasbae.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/94/Holotype_material_of_Rebbachisaurus_garasbae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Holotype_material_of_Rebbachisaurus_garasbae.jpg
+  artist: Nizar Ibrahim, Paul C. Sereno, David J. Varricchio, David M. Martill, Didier B. Dutheil, David M. Unwin,
+    Lahssen Baidder, Hans C. E. Larsson, Samir Zouhri, Abdelhadi Kaoukaya
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Holotype dorsal vertebra and other material of Rebbachisaurus garasbae.
+  width: 1512
+  height: 1081
+  review: unreviewed
+  local: img/gallery/Rebbachisaurus_001.webp
+- kind: fossil
+  file: Rebbachisaurus humerus Ibrahim.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/84/Rebbachisaurus_humerus_Ibrahim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rebbachisaurus_humerus_Ibrahim.jpg
+  artist: Nizar Ibrahim, Paul C. Sereno, David J. Varricchio, David M. Martill, Didier B. Dutheil, David M. Unwin,
+    Lahssen Baidder, Hans C. E. Larsson, Samir Zouhri, Abdelhadi Kaoukaya
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Humerus of Rebbachisaurus garasbae.
+  width: 1512
+  height: 794
+  review: unreviewed
+  local: img/gallery/Rebbachisaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/vector.svg
+  png: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/raster/512x114.png
+  page: https://www.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Limaysaurus tessonei
+  matched: Rebbachisauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: Wilson, Jeffrey A.; Allain, Ronan 2015. Osteology of ''Rebbachisaurus garasbae'' Lavocat, 1954, a diplodocoid
+    (Dinosauria, Sauropoda) from the early Late Cretaceous–aged Kem Kem beds of southeastern Morocco. Journal of
+    Vertebrate Paleontology 35(4). doi:10.1080/02724634.2014.1000701
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rebbachisaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rebbachisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rebbachisaurus”. English Wikipedia, revision 1375974390.
+  url: https://en.wikipedia.org/w/index.php?title=Rebbachisaurus&oldid=1375974390
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number and material to be read from Lavocat 1954 and Wilson and Allain 2015.
+  reviews: []

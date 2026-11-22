@@ -1,0 +1,126 @@
+name: Rapetosaurus
+rank: genus
+parent: saltasauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Curry Rogers and Forster 2001
+type_species: Rapetosaurus krausei
+type_species_note: Monotypic genus; the only species is the type.
+summary: Rapetosaurus is a titanosaurian sauropod from the Maastrichtian Maevarano Formation of Madagascar, known
+  from skulls and several skeletons.
+size:
+  length_m: [15, 16.5]
+  mass_kg: [10300, 10300]
+  note: About 15 m as an adult by the original estimate; 16.5 m and 10.3 t for the adult femur MAD 93-18 (Molina-Perez
+    and Larramendi 2020), as quoted by the Wikipedia revision. The juvenile was about 8 m.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Rapetosaurus krausei
+  authority: Curry Rogers and Forster 2001
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Maevarano
+  group: ''
+  members: [Anembalemba, Lac Kinkony]
+  country: Madagascar
+  regions: [Mahajanga]
+  interval: Late Cretaceous–Maastrichtian
+  occurrences: 5
+  ma: [66.0, 100.5]
+  id: maevarano-madagascar
+fossil_material:
+  holotype: Not read in the sources consulted; a well-preserved juvenile skeleton is the most complete specimen.
+  material: A juvenile skeleton with skull and an adult femur, among other remains.
+  completeness: multiple
+  exceptional: ''
+biology: A quadrupedal herbivore whose small, pencil-like teeth were good for stripping leaves but not for chewing;
+  its head resembles that of a diplodocid.
+images:
+- kind: life
+  file: Rapetosaurus BW (flipped).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Rapetosaurus_BW_%28flipped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rapetosaurus_BW_(flipped).jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-12'
+  caption: Life restoration of Rapetosaurus krausei.
+  width: 982
+  height: 634
+  review: unreviewed
+  local: img/gallery/Rapetosaurus_001.webp
+- kind: skeletal
+  file: Rapetosaurus krausei Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Rapetosaurus_krausei_Skeletal.png/960px-Rapetosaurus_krausei_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rapetosaurus_krausei_Skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-04-06'
+  caption: Skeletal reconstruction of Rapetosaurus krausei.
+  width: 10088
+  height: 6448
+  review: unreviewed
+  local: img/gallery/Rapetosaurus_002.webp
+- kind: fossil
+  file: FMNH Rapetosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/FMNH_Rapetosaurus.jpg/960px-FMNH_Rapetosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:FMNH_Rapetosaurus.jpg
+  artist: Zissoudisctrucker
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-12-11'
+  caption: Mounted skeleton of Rapetosaurus at the Field Museum.
+  width: 6016
+  height: 4016
+  review: unreviewed
+  local: img/gallery/Rapetosaurus_003.webp
+- kind: fossil
+  file: Rapetosaurus krausei, cast skull, ROM.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Rapetosaurus_krausei%2C_cast_skull%2C_ROM.jpg/960px-Rapetosaurus_krausei%2C_cast_skull%2C_ROM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rapetosaurus_krausei,_cast_skull,_ROM.jpg
+  artist: D. Gordon E. Robertson
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-11-03'
+  caption: Cast skull of Rapetosaurus krausei.
+  width: 4153
+  height: 2865
+  review: unreviewed
+  local: img/gallery/Rapetosaurus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/8aada2f4-0ec8-4a07-8b64-e07900653b1c/vector.svg
+  png: https://images.phylopic.org/images/8aada2f4-0ec8-4a07-8b64-e07900653b1c/raster/512x278.png
+  page: https://www.phylopic.org/images/8aada2f4-0ec8-4a07-8b64-e07900653b1c
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Rapetosaurus krausei
+  matched: Rapetosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Curry Rogers, K.; Forster, C.A. 2001. The last of the dinosaur titans: a new sauropod from Madagascar.
+    Nature 412(6846): 530–534. doi:10.1038/35087566'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rapetosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rapetosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rapetosaurus”. English Wikipedia, revision 1383221952.
+  url: https://en.wikipedia.org/w/index.php?title=Rapetosaurus&oldid=1383221952
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original citation index 15 taken from the brief; check that it is Curry Rogers and Forster 2001.
+  reviews: []

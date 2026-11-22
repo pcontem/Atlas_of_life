@@ -1,3 +1,36 @@
+# Next steps (Sauropodomorpha)
+
+## Done (this branch, entry/sauropodomorpha-4-8)
+- New image harvest (`data/raw/sauropodomorpha/`, from branch data/harvest-sauro-2) adopted. 32 extra images added to 48 existing genus entries
+  (all `unreviewed`). Clade entries have no image field, so "revise the clades with images" was done on the genera of those clades.
+- 71 new genus entries (ai-draft) in batches 4-8:
+  - 4 Plateosauria, 5 Sauropodiformes, 6 basal Sauropodomorpha (40 genera);
+  - 7 basal Sauropoda: Gongxianosaurus, Kotasaurus, Barapasaurus, Ohmdenosaurus, Rhoetosaurus, Spinophorosaurus, Tazoudasaurus, Vulcanodon,
+    Bagualia, Chebsaurus, Jobaria, Shunosaurus, Cetiosaurus, Patagosaurus, Amanzia;
+  - 8 Rebbachisauridae and titanosaurs: Rebbachisaurus, Nigersaurus, Limaysaurus, Demandasaurus, Tataouinea, Amazonsaurus, Comahuesaurus,
+    Zapalasaurus, Histriasaurus, Andesaurus, Argyrosaurus, Aegyptosaurus, Rapetosaurus, Dreadnoughtus, Isisaurus, Malawisaurus.
+- `incertae_sedis` (M2): Efraasia, Yimenosaurus, Anchisaurus, Lamplughsaura, Plateosauravus, Guaibasaurus (batches 4-6); Histriasaurus within
+  Rebbachisauridae (batch 8). Reasons are in each `placement_note`.
+- The "Unnamed beds, Castrillo de la Reina" formation entry was removed: Goniopholis now links to the named formation created for Demandasaurus.
+
+## Pending
+- Not written, wrong or missing Wikipedia article in the harvest: Qianlong (article is the Qing emperor), Saturnalia (Roman festival),
+  Wudingloong and Huayracursor (absent from the harvest).
+- No image among the candidates: Gongxianosaurus, Comahuesaurus, Mbiresaurus, Sefapanosaurus; Mendozasaurus, Qijianglong and Garumbatitan have gaps.
+- Opisthocoelicaudia: two photos are CC BY-SA 3.0 PL; `validate.py` rejects the string (see DECISIONS.md 2026-11-22); owner to decide.
+- About 300 PBDB genera of the volume still have no entry (see the census in `data/raw/census/sauropodomorpha/`), e.g. the remaining Somphospondyli,
+  Lithostrotia, Rinconsauria, Mamenchisauridae and the Pakistani/Indian titanosaurs.
+- Several holotype numbers, sizes and original naming works are marked "not read" in the entries; they need the primary papers.
+
+## Open questions
+- Jobaria: upper mass estimate was cut in the text read; the age differs between Wikipedia (Bathonian-Oxfordian) and PBDB (Oxfordian-Tithonian).
+- Gongxianosaurus: Sinemurian-Pliensbachian (Wikipedia) vs Toarcian (PBDB).
+- Dreadnoughtus: the original 48-49 t is kept in the range; later re-evaluations give lower masses.
+- Rapetosaurus: original-paper index 15 comes from the brief; check it is Curry Rogers and Forster 2001.
+- All new images are `unreviewed`; Euhelopus image 10 was added without being looked at.
+
+---
+
 # Next steps (Pseudosuchia)
 
 ## Done

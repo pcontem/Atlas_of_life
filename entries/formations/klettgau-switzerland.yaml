@@ -7,14 +7,14 @@ regions: [Aargau, Schaffhausen]
 location:
   lat: 47.706
   lng: 8.452
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 227.3
   last_ma: 201.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet., '"floodplain"']
-lithology: [marl]
-pbdb_collections: ['22680', '47803', '51235']
+environment: ['"floodplain"', marine indet., terrestrial indet.]
+lithology: [marl, conglomerate]
+pbdb_collections: ['22680', '47803', '47806', '51235', '227790']
 includes: []
 summary: ''
 paleoenvironment: ''

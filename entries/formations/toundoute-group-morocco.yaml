@@ -1,0 +1,33 @@
+id: toundoute-group-morocco
+name: Toundoute Group (beds not assigned to a formation)
+rank: formation
+group: Toundoute
+country: Morocco
+regions: [Ouarzazate]
+location:
+  lat: 31.265
+  lng: -6.591
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 192.9
+  last_ma: 174.7
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: ['"channel"', crevasse splay]
+lithology: [sandstone]
+pbdb_collections: ['56129', '56130']
+includes:
+- PBDB places these beds in the Toundoute Group without naming the formation.
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Toundoute Group (beds not assigned to a formation) (coordinates,
+    environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,33 @@
+id: tegama-group-niger
+name: Tegama Group (beds not assigned to a formation)
+rank: formation
+group: Tegama
+country: Niger
+regions: [Tahoua]
+location:
+  lat: 16.791
+  lng: 5.853
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 113.2
+  last_ma: 93.9
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet.]
+lithology: [sandstone]
+pbdb_collections: ['25219']
+includes:
+- PBDB places these beds in the Tegama Group without naming the formation.
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Tegama Group (beds not assigned to a formation) (coordinates,
+    environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

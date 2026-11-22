@@ -1,0 +1,33 @@
+id: castrillo-de-la-reina-spain
+name: Castrillo de la Reina
+rank: formation
+group: Enciso, Oliván
+country: Spain
+regions: [Burgos, Castilla y Leon, Castilla y León, La Rioja, Valenciana]
+location:
+  lat: 42.017
+  lng: -3.284
+  basis: median of 3 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [alluvial fan, terrestrial indet., dry floodplain]
+lithology: [claystone, mudstone, sandstone]
+pbdb_collections: ['51034', '164174', '232463']
+includes:
+- PBDB collection “Castrillo de la Reina” has no formation but is a locality of the Castrillo de la Reina.
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Castrillo de la Reina (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Castrillo+de+la+Reina
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

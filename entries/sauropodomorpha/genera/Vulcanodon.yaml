@@ -1,0 +1,125 @@
+name: Vulcanodon
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Raath 1972
+type_species: Vulcanodon karibaensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Vulcanodon is an early sauropod from the uppermost Forest Sandstone of Zimbabwe, known from a fragmentary
+  skeleton and once thought to be a prosauropod.
+size:
+  length_m: [11, 11]
+  mass_kg: [3500, 3500]
+  note: Estimate by G. S. Paul quoted by the cited Wikipedia revision.
+age:
+  first_ma: 199.5
+  last_ma: 184.2
+  early_interval: Sinemurian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Vulcanodon karibaensis
+  authority: Raath 1972
+  first_ma: 199.5
+  last_ma: 184.2
+  interval: Sinemurian–Pliensbachian
+  reference: original description
+formations:
+- formation: Forest Sandstone
+  group: Karoo
+  members: []
+  country: Zimbabwe
+  regions: [Mashonaland North]
+  interval: Sinemurian–Pliensbachian
+  occurrences: 1
+  ma: [184.2, 199.5]
+  id: forest-sandstone-zimbabwe
+fossil_material:
+  holotype: Not read in the sources consulted; a fragmentary skeleton with much of the pelvic girdle, hindlimbs,
+    forearms and tail but without trunk and neck vertebrae or skull.
+  material: Known from the fragmentary skeleton.
+  completeness: partial
+  exceptional: ''
+biology: A quadrupedal, ground-dwelling herbivore with the typical sauropod body plan of column-like legs and a
+  long neck and tail.
+images:
+- kind: life
+  file: Vulcanodon NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Vulcanodon_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Vulcanodon_NT.jpg
+  artist: NobuTamura email:nobu.tamura@yahoo.com
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-01-01'
+  caption: Life restoration of Vulcanodon.
+  width: 600
+  height: 224
+  review: unreviewed
+  local: img/gallery/Vulcanodon_001.webp
+- kind: life
+  file: Vulcanodon.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Vulcanodon.png/960px-Vulcanodon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vulcanodon.png
+  artist: J-H. Jang
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-08-03'
+  caption: Life restoration of Vulcanodon karibaensis.
+  width: 3508
+  height: 2480
+  review: unreviewed
+  local: img/gallery/Vulcanodon_002.webp
+- kind: skeletal
+  file: Vulcanodon skeleton.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Vulcanodon_skeleton.png/960px-Vulcanodon_skeleton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vulcanodon_skeleton.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-10-05'
+  caption: Skeletal reconstruction of Vulcanodon showing the preserved bones.
+  width: 9600
+  height: 3200
+  review: unreviewed
+  local: img/gallery/Vulcanodon_003.webp
+- kind: fossil
+  file: Vulcanodon pes.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/46/Vulcanodon_pes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Vulcanodon_pes.png
+  artist: Michael Raath, major modifications by I. Reid
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2014-08-31'
+  caption: Drawing of the foot of Vulcanodon.
+  width: 1063
+  height: 1500
+  review: unreviewed
+  local: img/gallery/Vulcanodon_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/vector.svg
+  png: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/raster/512x193.png
+  page: https://www.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f
+  attribution: Roberto Diaz Sibaja, based on Domser
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vulcanodon karibaensis
+  matched: Vulcanodon
+  genus_level: true
+sources:
+- kind: original
+  text: 'Raath, Michael A. 1972. Fossil vertebrate studies in Rhodesia: a new dinosaur (Reptilia, Saurischia) from
+    near the Triassic-Jurassic boundary. Arnoldia 5: 1–2, 4.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vulcanodon (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vulcanodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vulcanodon”. English Wikipedia, revision 1369481106.
+  url: https://en.wikipedia.org/w/index.php?title=Vulcanodon&oldid=1369481106
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

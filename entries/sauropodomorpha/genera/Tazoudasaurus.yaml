@@ -1,0 +1,86 @@
+name: Tazoudasaurus
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Allain et al. 2004
+type_species: Tazoudasaurus naimi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Tazoudasaurus is a basal sauropod from the late Early Jurassic (Toarcian) of Morocco, one of the most complete
+  basal sauropods known.
+size:
+  length_m: [11, 14]
+  note: Range quoted by the cited Wikipedia revision.
+age:
+  first_ma: 192.9
+  last_ma: 174.7
+  early_interval: Pliensbachian
+  late_interval: Toarcian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Tazoudasaurus naimi
+  authority: Allain et al. 2004
+  first_ma: 192.9
+  last_ma: 174.7
+  interval: Pliensbachian–Toarcian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Toundoute
+  members: []
+  country: Morocco
+  regions: [Ouarzazate]
+  interval: Pliensbachian–Toarcian
+  occurrences: 2
+  ma: [174.7, 192.9]
+  id: toundoute-group-morocco
+fossil_material:
+  holotype: Not read in the sources consulted; the holotype individual has a few disarticulated skull bones and
+    a nearly complete lower jaw.
+  material: Several specimens representing ten individuals from two localities near Toundoute.
+  completeness: multiple
+  exceptional: ''
+biology: A small sauropod with primitive features such as a prosauropod-like mandible with spatulate, denticle-bearing
+  teeth.
+images:
+- kind: fossil
+  file: Tazoudasaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Tazoudasaurus.jpg/960px-Tazoudasaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tazoudasaurus.jpg
+  artist: Jeffrey A. Wilson*, Michael D. D'Emic, Takehito Ikejiri, Emile M. Moacdieh, John A. Whitlock
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2011'
+  caption: Neck vertebrae of Tazoudasaurus.
+  width: 4127
+  height: 3876
+  review: unreviewed
+  local: img/gallery/Tazoudasaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/vector.svg
+  png: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/raster/512x193.png
+  page: https://www.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f
+  attribution: Roberto Diaz Sibaja, based on Domser
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vulcanodon karibaensis
+  matched: Gravisauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Allain, Ronan; Aquesbi, Najat; Dejax, Jean; Meyer, Christian; Monbaron, Michel; Montenat, Christian; Richir,
+    Philippe; Rochdy, Mohammed; Russell, Dale; Taquet, Philippe 2004. A basal sauropod dinosaur from the Early Jurassic
+    of Morocco. Comptes Rendus Palevol 3(3): 199–208. doi:10.1016/j.crpv.2004.03.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tazoudasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tazoudasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tazoudasaurus”. English Wikipedia, revision 1363108076.
+  url: https://en.wikipedia.org/w/index.php?title=Tazoudasaurus&oldid=1363108076
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

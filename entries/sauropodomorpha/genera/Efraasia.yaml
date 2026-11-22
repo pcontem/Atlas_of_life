@@ -1,0 +1,102 @@
+name: Efraasia
+rank: genus
+parent: sauropodomorpha
+incertae_sedis: true
+placement_note: The cited Wikipedia revision says modern analyses recover it as a basal sauropodomorph, a little
+  more derived than Thecodontosaurus but less than Plateosaurus; PBDB gives no family. The atlas queue had listed
+  it under Plateosauridae.
+authority: Galton 1973
+type_species: Efraasia minor
+type_species_note: The only valid species since 2003 (Wikipedia revision); the genus name was given in 1973 by Galton
+  for Efraasia diagnostica.
+summary: Efraasia is a lightly built basal sauropodomorph from the Late Triassic (Norian) of Germany, named from
+  material first assigned to three other genera.
+size:
+  length_m: [6, 7]
+  note: Adult length; Yates (2003) estimated 6.5 m. The most complete fossils are of juveniles 2-3 m long (Wikipedia
+    revision).
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Efraasia minor
+  authority: (Huene 1908)
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Löwenstein
+  group: Keuper
+  members: [Lower Stubensandstein]
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Norian
+  occurrences: 5
+  ma: [205.7, 227.3]
+  id: lowenstein-germany
+fossil_material:
+  holotype: Not read in the sources consulted; the original types, SMNS 11838 and SMNS 12667 and 12684, were assigned
+    to Teratosaurus minor and Thecodontosaurus diagnosticus.
+  material: Partial skeletons from the Löwenstein Formation near Stuttgart, among them the largest specimen SMNS
+    12843.
+  completeness: multiple
+  exceptional: ''
+biology: A herbivore.
+images:
+- kind: life
+  file: Efraasia minor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ee/Efraasia_minor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Efraasia_minor.jpg
+  artist: The Horus Heresy89
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-06-02'
+  caption: Life restoration of Efraasia minor.
+  width: 1080
+  height: 831
+  review: unreviewed
+  local: img/gallery/Efraasia_001.webp
+- kind: skeletal
+  file: Efraasia skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b6/Efraasia_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Efraasia_skull.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-11-10'
+  caption: Colour-coded skull reconstruction of Efraasia.
+  width: 618
+  height: 412
+  review: unreviewed
+  local: img/gallery/Efraasia_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/vector.svg
+  png: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/raster/512x334.png
+  page: https://www.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca
+  attribution: Marmelad
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Eoraptor lunensis
+  matched: Sauropodomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'P. M. Galton. 1973. On the anatomy and relationships of Efraasia diagnostica (Huene) n.gen., a prosauropod
+    dinosaur (Reptilia: Saurischia) from the Upper Triassic of Germany. Paläontologische Zeitschrift 47(3/4):229-255'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Efraasia (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Efraasia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Efraasia”. English Wikipedia, revision 1338289876.
+  url: https://en.wikipedia.org/w/index.php?title=Efraasia&oldid=1338289876
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,100 @@
+name: Asylosaurus
+rank: genus
+parent: sauropodomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Galton 2007
+type_species: Asylosaurus yalensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Asylosaurus is a basal sauropodomorph from the Late Triassic Avon fissure fill of England whose remains
+  escaped destruction in 1940.
+size:
+  length_m: [2, 2]
+  mass_kg: [250, 250]
+  note: Estimate by G. S. Paul quoted by the cited Wikipedia revision.
+age:
+  first_ma: 205.7
+  last_ma: 201.4
+  early_interval: Rhaetian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Asylosaurus yalensis
+  authority: Galton 2007
+  first_ma: 205.7
+  last_ma: 201.4
+  interval: Rhaetian
+  reference: original description
+formations:
+- formation: Magnesian Conglomerate
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+  id: magnesian-conglomerate-united-kingdom
+fossil_material:
+  holotype: Not read in the sources consulted; the remains survived the 1940 bombardment that destroyed the holotype
+    of Thecodontosaurus.
+  material: Not read in the sources consulted.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its humerus differs from those of Thecodontosaurus and Pantydraco; it may have had its own ecological niche
+  depending on how omnivorous or herbivorous it was.
+images:
+- kind: life
+  file: Asylosaurus NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Asylosaurus_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Asylosaurus_NT.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.ca )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-01-20'
+  caption: Life restoration of Asylosaurus.
+  width: 636
+  height: 495
+  review: unreviewed
+  local: img/gallery/Asylosaurus_001.webp
+- kind: life
+  file: Asylosaurus yalensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/67/Asylosaurus_yalensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Asylosaurus_yalensis.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.ca )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-01-20'
+  caption: Life restoration of Asylosaurus yalensis.
+  width: 609
+  height: 500
+  review: unreviewed
+  local: img/gallery/Asylosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/vector.svg
+  png: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/raster/512x334.png
+  page: https://www.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca
+  attribution: Marmelad
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Eoraptor lunensis
+  matched: Sauropodomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'Galton, Peter 2007. Notes on the remains of archosaurian reptiles, mostly basal sauropodomorph dinosaurs,
+    from the 1834 fissure fill (Rhaetian, Upper Triassic) at Clifton in Bristol, southwest England. Revue de Paléobiologie
+    26(2): 505–591.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Asylosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Asylosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Asylosaurus”. English Wikipedia, revision 1355061529.
+  url: https://en.wikipedia.org/w/index.php?title=Asylosaurus&oldid=1355061529
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -352,3 +352,8 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Cause 2: the Commons category step let the alphabetically first files of the main category fill the whole cap, so sub-categories (fossils, skulls, life restorations) were never reached. Each category now gets an equal share first, then the remaining slots are filled in order.
 - Noise names (size comparisons, cladograms, maps, sculptures, stamps, posters, models, silhouettes) are dropped before the cap is counted.
 - Existing raw data is not edited; a new harvest run regenerates `data/raw/sauropodomorpha/` and the contact sheets.
+
+## 2026-11-22 — Sauropodomorpha: batches 4-8 and image revision
+- New harvest adopted; extra images added to existing genus entries (clades have no image field, so they got none). 71 genera written in batches 4-8 as ai-draft, all images `unreviewed`.
+- PBDB clades that the atlas has no entry for (e.g. Eutitanosauria, Lithostrotia) are mapped to the nearest atlas clade (Titanosauria); Histriasaurus is `incertae_sedis` within Rebbachisauridae (M2).
+- Branch name: `entry/sauropodomorpha-1` already existed on GitHub with unrelated older history, so the work lives on `entry/sauropodomorpha-4-8`.

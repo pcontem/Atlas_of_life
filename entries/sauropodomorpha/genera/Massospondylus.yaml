@@ -1,0 +1,241 @@
+name: Massospondylus
+rank: genus
+parent: massospondylidae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1854
+type_species: Massospondylus carinatus
+type_species_note: Named by Owen in 1854; the original fossils were destroyed in London in the Blitz. Two species
+  are valid according to the cited Wikipedia revision; M. hislopi (PBDB) is left out.
+summary: Massospondylus is a bipedal sauropodomorph from the Early Jurassic of southern Africa, among the first
+  dinosaurs named and one of the best known early sauropodomorphs.
+size:
+  length_m: [4, 6]
+  note: Range quoted by the cited Wikipedia revision.
+age:
+  first_ma: 237.0
+  last_ma: 174.7
+  early_interval: Carnian
+  late_interval: Toarcian
+  pbdb_occurrences: 80
+  note: ''
+species:
+- name: Massospondylus carinatus
+  authority: Owen 1854
+  first_ma: 201.4
+  last_ma: 174.7
+  interval: Hettangian–Toarcian
+  reference: original description
+- name: Massospondylus kaalae
+  authority: Barrett 2009
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: ''
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Lower, Upper]
+  country: South Africa
+  regions: [Eastern Cape, Free State]
+  interval: Norian–Sinemurian
+  occurrences: 56
+  ma: [192.9, 227.3]
+  id: elliot-south-africa
+- formation: Mpandi
+  group: ''
+  members: []
+  country: Zimbabwe
+  regions: [Matabeleland South]
+  interval: Early Jurassic
+  occurrences: 8
+  ma: [174.7, 201.4]
+  id: mpandi-zimbabwe
+- formation: Forest Sandstone
+  group: Karoo
+  members: [Middle]
+  country: Zimbabwe
+  regions: [Matabeleland North, Matabeleland South]
+  interval: Hettangian–Sinemurian
+  occurrences: 4
+  ma: [192.9, 201.4]
+  id: forest-sandstone-zimbabwe
+- formation: Clarens
+  group: Stormberg
+  members: []
+  country: South Africa
+  regions: [Free State]
+  interval: Sinemurian–Pliensbachian
+  occurrences: 4
+  ma: [184.2, 199.5]
+  id: clarens-south-africa
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: Lesotho
+  regions: [Mafeteng, Qacha's Nek, Quthing]
+  interval: Hettangian–Sinemurian
+  occurrences: 4
+  ma: [192.9, 201.4]
+  id: elliot-lesotho
+- formation: Upper Karroo Sandstone
+  group: Karoo
+  members: []
+  country: Zimbabwe
+  regions: [Mashonaland West]
+  interval: Early Jurassic
+  occurrences: 1
+  ma: [174.7, 201.4]
+  id: upper-karroo-sandstone-zimbabwe
+- formation: Unnamed unit
+  group: Stormberg
+  members: []
+  country: South Africa
+  regions: [Eastern Cape]
+  interval: Norian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 227.3]
+  id: stormberg-group-south-africa
+- formation: Etjo
+  group: Etendeka
+  members: [Middle]
+  country: Namibia
+  regions: [Otjozondupa]
+  interval: Early Jurassic
+  occurrences: 1
+  ma: [174.7, 201.4]
+  id: etjo-namibia
+- formation: Pebbly Arkose
+  group: Karoo
+  members: []
+  country: Zimbabwe
+  regions: [Mashonaland West]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: pebbly-arkose-zimbabwe
+fossil_material:
+  holotype: Not read in the sources consulted; the original fossils described by Owen (1854) were destroyed in the
+    Blitz.
+  material: A plethora of specimens from southern Africa, including egg clutches with embryos.
+  completeness: multiple
+  exceptional: Clutches of eggs, some with embryos, among the oldest amniote eggs and embryos known.
+biology: Probably a herbivore, although some authors have speculated that basal sauropodomorphs were omnivores.
+  It is now considered bipedal at all ages; the embryos had proportionally longer arms and a very large head. The
+  eggshell was extremely thin, under 0.1 mm. Growth rate varied with environmental factors such as food availability.
+images:
+- kind: life
+  file: Massospondylus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/29/Massospondylus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Massospondylus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-11-10'
+  caption: Life restoration of Massospondylus.
+  width: 800
+  height: 814
+  review: unreviewed
+  local: img/gallery/Massospondylus_001.webp
+- kind: life
+  file: Massospondylus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Massospondylus_TD.png/960px-Massospondylus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Massospondylus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-05'
+  caption: Life restoration of Massospondylus.
+  width: 2600
+  height: 800
+  review: unreviewed
+  local: img/gallery/Massospondylus_002.webp
+- kind: life
+  file: Massospondylus baby BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/db/Massospondylus_baby_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Massospondylus_baby_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-11-10'
+  caption: Life restoration of a juvenile Massospondylus.
+  width: 800
+  height: 365
+  review: unreviewed
+  local: img/gallery/Massospondylus_003.webp
+- kind: skeletal
+  file: Massospondylus Skull Steveoc 86.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/72/Massospondylus_Skull_Steveoc_86.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Massospondylus_Skull_Steveoc_86.png
+  artist: Steveoc 86
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Skull reconstruction of Massospondylus.
+  width: 1280
+  height: 1024
+  review: unreviewed
+  local: img/gallery/Massospondylus_004.webp
+- kind: fossil
+  file: Massospondylus Ultimate Dinosaurs.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/68/Massospondylus_Ultimate_Dinosaurs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Massospondylus_Ultimate_Dinosaurs.jpg
+  artist: Dinalfos5 ( https://dinalfos5.deviantart.com/ )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-03-15'
+  caption: Mounted skeleton of Massospondylus.
+  width: 1419
+  height: 1016
+  review: unreviewed
+  local: img/gallery/Massospondylus_005.webp
+- kind: fossil
+  file: Massospondylus egg clutch with embryos (cast), Golden Gate National Park, South Africa, Early Jurassic -
+    Royal Ontario Museum - DSC00145.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Massospondylus_egg_clutch_with_embryos_%28cast%29%2C_Golden_Gate_National_Park%2C_South_Africa%2C_Early_Jurassic_-_Royal_Ontario_Museum_-_DSC00145.JPG/960px-Massospondylus_egg_clutch_with_embryos_%28cast%29%2C_Golden_Gate_National_Park%2C_South_Africa%2C_Early_Jurassic_-_Royal_Ontario_Museum_-_DSC00145.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Massospondylus_egg_clutch_with_embryos_(cast),_Golden_Gate_National_Park,_South_Africa,_Early_Jurassic_-_Royal_Ontario_Museum_-_DSC00145.JPG
+  artist: Daderot
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2011-11-21'
+  caption: Cast of a Massospondylus egg clutch with embryos.
+  width: 4320
+  height: 3240
+  review: unreviewed
+  local: img/gallery/Massospondylus_006.webp
+silhouette:
+  src: https://images.phylopic.org/images/2da08fc6-7dc0-4d20-813c-58069902a96b/vector.svg
+  png: https://images.phylopic.org/images/2da08fc6-7dc0-4d20-813c-58069902a96b/raster/512x145.png
+  page: https://www.phylopic.org/images/2da08fc6-7dc0-4d20-813c-58069902a96b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Massospondylus carinatus
+  matched: Massospondylus
+  genus_level: true
+  w: 512
+  h: 145
+sources:
+- kind: original
+  text: Owen, Richard 1854. Descriptive catalogue of the Fossil organic remains of Reptilia and Pisces contained
+    in the Museum of the Royal College of Surgeons of England. Taylor and Francis.
+- kind: literature
+  text: 'Yates, Adam M.; Barrett, Paul M. 2010. ''''Massospondylus carinatus'''' Owen 1854 (Dinosauria: Sauropodomorpha)
+    from the Lower Jurassic of South Africa: Proposed conservation of usage by designation of a neotype. Palaeontologia
+    Africana 45: 7–10.'
+- kind: literature
+  text: 'Sues, H.-D.; R. R. Reisz; S. Hinic; M. A. Raath 2004. On the skull of ''''Massospondylus carinatus''''
+    Owen, 1854 (Dinosauria: Sauropodomorpha) from the Elliot and Clarens formations (Lower Jurassic) of South Africa.
+    Annals of Carnegie Museum 73(4): 239–257. doi:10.5962/p.316084'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Massospondylus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Massospondylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Massospondylus”. English Wikipedia, revision 1386361933.
+  url: https://en.wikipedia.org/w/index.php?title=Massospondylus&oldid=1386361933
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

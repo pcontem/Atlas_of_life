@@ -1,0 +1,129 @@
+name: Eoraptor
+rank: genus
+parent: sauropodomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Sereno et al. 1993
+type_species: Eoraptor lunensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Eoraptor is a small, lightly built basal sauropodomorph, one of the oldest known dinosaurs, from the Late
+  Triassic Ischigualasto Formation of Argentina.
+size:
+  length_m: [1.2, 1.3]
+  note: Known specimens measure 1.2-1.3 m and weighed about 10 kg or less (Wikipedia revision).
+age:
+  first_ma: 233.6
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eoraptor lunensis
+  authority: Sereno et al. 1993
+  first_ma: 233.6
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Ischigualasto
+  group: ''
+  members: [Cancha de Bochas]
+  country: Argentina
+  regions: [San Juan]
+  interval: Tuvalian
+  occurrences: 1
+  ma: [227.3, 233.6]
+  id: ischigualasto-argentina
+fossil_material:
+  holotype: PVSJ 512, an almost complete skeleton from the Cancha de Bochas Member of the Ischigualasto Formation;
+    it took almost twelve months to collect.
+  material: The holotype and several fragmentary skeletons.
+  completeness: near-complete
+  exceptional: ''
+biology: The holotype femur is 152 mm and the tibia 157 mm, which suggests a fast runner.
+images:
+- kind: life
+  file: Eoraptor NT small.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/49/Eoraptor_NT_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eoraptor_NT_small.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/ http://paleoexhibit.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-07-19'
+  caption: Life restoration of Eoraptor with a human silhouette for scale.
+  width: 773
+  height: 532
+  review: unreviewed
+  local: img/gallery/Eoraptor_001.webp
+- kind: fossil
+  file: Eoraptor Lunensis 20250105.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Eoraptor_Lunensis_20250105.jpg/960px-Eoraptor_Lunensis_20250105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eoraptor_Lunensis_20250105.jpg
+  artist: Rjcastillo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-01-05'
+  caption: Mounted skeleton of Eoraptor lunensis.
+  width: 4963
+  height: 3691
+  review: unreviewed
+  local: img/gallery/Eoraptor_002.webp
+- kind: fossil
+  file: Dinosauria - Eoraptor lunensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Dinosauria_-_Eoraptor_lunensis.jpg/960px-Dinosauria_-_Eoraptor_lunensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dinosauria_-_Eoraptor_lunensis.jpg
+  artist: Tylwyth Eldar
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-08-17'
+  caption: Skull of Eoraptor lunensis.
+  width: 4390
+  height: 2350
+  review: unreviewed
+  local: img/gallery/Eoraptor_003.webp
+- kind: skeletal
+  file: Eoraptor skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Eoraptor_skeletal.png/960px-Eoraptor_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eoraptor_skeletal.png
+  artist: Maurissauro
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-06-15'
+  caption: Skeletal reconstruction of Eoraptor.
+  width: 1920
+  height: 642
+  review: unreviewed
+  local: img/gallery/Eoraptor_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/vector.svg
+  png: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/raster/512x334.png
+  page: https://www.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca
+  attribution: Marmelad
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Eoraptor lunensis
+  matched: Eoraptor
+  genus_level: true
+sources:
+- kind: original
+  text: P. C. Sereno, C. A. Forster, and R. R. Rogers, A. M. Monetta. 1993. Primitive dinosaur skeleton from Argentina
+    and the early evolution of Dinosauria. Nature 361:64-66
+- kind: literature
+  text: 'Sereno, Paul C.; Martínez, Ricardo N.; Alcober, Oscar A. 2013. Osteology of ''''Eoraptor lunensis'''' (Dinosauria,
+    Sauropodomorpha). Basal sauropodomorphs and the vertebrate fossil record of the Ischigualasto Formation (Late
+    Triassic: Carnian-Norian) of Argentina. Journal of Vertebrate Paleontology Memoir 12: 83–179. doi:10.1080/02724634.2013.820113'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoraptor (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eoraptor”. English Wikipedia, revision 1355645201.
+  url: https://en.wikipedia.org/w/index.php?title=Eoraptor&oldid=1355645201
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Placement as a sauropodomorph follows PBDB and the cited Wikipedia revision; check the analyses that place it
+    elsewhere before consolidation. Naming paper not matched in the citations.
+  reviews: []

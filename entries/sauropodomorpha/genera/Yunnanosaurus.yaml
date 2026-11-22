@@ -1,0 +1,138 @@
+name: Yunnanosaurus
+rank: genus
+parent: sauropodiformes
+incertae_sedis: false
+placement_note: ''
+authority: Young 1940
+type_species: Yunnanosaurus huangi
+type_species_note: Taken from the PBDB species list (first species, Young 1940); to be checked.
+summary: Yunnanosaurus is a quadrupedal sauropodiform herbivore from the Early Jurassic of Yunnan, China, with species
+  from 7 to 13 m long.
+size:
+  length_m: [7, 13]
+  note: Y. huangi reached about 7 m and Y. youngi about 13 m (Wikipedia revision).
+age:
+  first_ma: 201.4
+  last_ma: 184.2
+  early_interval: Hettangian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 17
+  note: ''
+species:
+- name: Yunnanosaurus huangi
+  authority: Young 1940
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+- name: Yunnanosaurus robustus
+  authority: Young 1951
+  first_ma: 199.5
+  last_ma: 192.9
+  interval: Sinemurian
+  reference: ''
+- name: Yunnanosaurus youngi
+  authority: Lü et al. 2007
+  first_ma: 192.9
+  last_ma: 184.2
+  interval: Pliensbachian
+  reference: ''
+formations:
+- formation: Lufeng
+  group: ''
+  members: [Shawan, Zhangjia'ao]
+  country: China
+  regions: [Yunnan]
+  interval: Hettangian–Sinemurian
+  occurrences: 16
+  ma: [192.9, 201.4]
+  id: lufeng-china
+- formation: Fengjiahe
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Yunnan]
+  interval: Pliensbachian
+  occurrences: 1
+  ma: [184.2, 192.9]
+  id: fengjiahe-china
+fossil_material:
+  holotype: Not read for the type species. The holotype of Y. youngi, CXMVZA 185, has ten neck, fourteen back and
+    seventeen tail vertebrae, three fused sacrals, both pubes, both ischia and the right ilium (Fengjiahe Formation,
+    Yuanmou County).
+  material: Skeletons from the Lufeng Formation and, for Y. youngi, the Fengjiahe Formation.
+  completeness: multiple
+  exceptional: ''
+biology: A moderately built, ground-dwelling quadrupedal herbivore that could also walk on two legs.
+images:
+- kind: life
+  file: Yunnanosaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Yunnanosaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yunnanosaurus_BW.jpg
+  artist: No machine-readable author provided. ArthurWeasley~commonswiki assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: 21 Decembe
+  caption: Life restoration of Yunnanosaurus.
+  width: 800
+  height: 474
+  review: unreviewed
+  local: img/gallery/Yunnanosaurus_001.webp
+- kind: fossil
+  file: Yunnanosaurus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Yunnanosaurus_skeleton.jpg/960px-Yunnanosaurus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yunnanosaurus_skeleton.jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2009-04-23'
+  caption: Mounted skeleton of Yunnanosaurus.
+  width: 3888
+  height: 2592
+  review: unreviewed
+  local: img/gallery/Yunnanosaurus_002.webp
+- kind: fossil
+  file: 玉溪市博物馆-侏罗纪早期-易门县十街乡脚家店-云南龙 Yunnanosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E7%8E%89%E6%BA%AA%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86-%E4%BE%8F%E7%BD%97%E7%BA%AA%E6%97%A9%E6%9C%9F-%E6%98%93%E9%97%A8%E5%8E%BF%E5%8D%81%E8%A1%97%E4%B9%A1%E8%84%9A%E5%AE%B6%E5%BA%97-%E4%BA%91%E5%8D%97%E9%BE%99_Yunnanosaurus.jpg/960px-%E7%8E%89%E6%BA%AA%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86-%E4%BE%8F%E7%BD%97%E7%BA%AA%E6%97%A9%E6%9C%9F-%E6%98%93%E9%97%A8%E5%8E%BF%E5%8D%81%E8%A1%97%E4%B9%A1%E8%84%9A%E5%AE%B6%E5%BA%97-%E4%BA%91%E5%8D%97%E9%BE%99_Yunnanosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:%E7%8E%89%E6%BA%AA%E5%B8%82%E5%8D%9A%E7%89%A9%E9%A6%86-%E4%BE%8F%E7%BD%97%E7%BA%AA%E6%97%A9%E6%9C%9F-%E6%98%93%E9%97%A8%E5%8E%BF%E5%8D%81%E8%A1%97%E4%B9%A1%E8%84%9A%E5%AE%B6%E5%BA%97-%E4%BA%91%E5%8D%97%E9%BE%99_Yunnanosaurus.jpg
+  artist: 瑞丽江的河水
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-10-22'
+  caption: Mounted skeleton of Yunnanosaurus in the Yuxi Museum.
+  width: 2428
+  height: 2916
+  review: unreviewed
+  local: img/gallery/Yunnanosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/d397ac74-0a62-4bd5-8562-eaa5a864200c/vector.svg
+  png: https://images.phylopic.org/images/d397ac74-0a62-4bd5-8562-eaa5a864200c/raster/512x171.png
+  page: https://www.phylopic.org/images/d397ac74-0a62-4bd5-8562-eaa5a864200c
+  attribution: SauropodomorphMonarch
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Yunnanosaurus huangi
+  matched: Yunnanosaurus
+  genus_level: true
+  w: 512
+  h: 171
+sources:
+- kind: original
+  text: C.-C. Young. 1940. Preliminary notes on the Lufeng vertebrate fossils. Bulletin of the Geological Society
+    of China 20(3-4):235-239
+- kind: literature
+  text: 'Barrett, Paul M.; Upchurch, P.; Zhou, X.-D.; Wang, X.-L. June. The skull of ''''Yunnanosaurus huangi''''
+    Young, 1942 (Dinosauria: Prosauropoda) from the Lower Lufeng Formation (Lower Jurassic) of Yunnan, China. Zoological
+    Journal of the Linnean Society 150(2): 319–341. doi:10.1111/j.1096-3642.2007.00290.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yunnanosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yunnanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yunnanosaurus”. English Wikipedia, revision 1382316120.
+  url: https://en.wikipedia.org/w/index.php?title=Yunnanosaurus&oldid=1382316120
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

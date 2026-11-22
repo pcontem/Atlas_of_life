@@ -1,0 +1,101 @@
+name: Pantydraco
+rank: genus
+parent: sauropodomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Galton et al. 2007
+type_species: Pantydraco caducus
+type_species_note: Monotypic genus; the only species is the type, named Thecodontosaurus caducus by Yates in 2003.
+summary: Pantydraco is a basal sauropodomorph from the Late Triassic or Early Jurassic of South Wales, named for
+  a quarry at Bonvilston.
+size:
+  length_m: null
+  note: Juveniles stood about 0.7-1 m high; no adult length was read.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pantydraco caducus
+  authority: (Yates 2003)
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Wales]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: unnamed-pant-y-ffynnon-quarry-bonvilston-united-kingdom
+fossil_material:
+  holotype: Not read in the sources consulted; the fossils come from the Pant-y-ffynnon quarry at Bonvilston, South
+    Wales, and include a juvenile skeleton once assigned to Thecodontosaurus.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Probably an omnivore, at the transition from carnivory to herbivory in the sauropodomorph lineage. It was
+  of moderate build, probably bipedal, with grasping forelimbs and well-developed claws.
+images:
+- kind: life
+  file: Pantydraco BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d4/Pantydraco_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pantydraco_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-22'
+  caption: Life restoration of Pantydraco.
+  width: 800
+  height: 364
+  review: unreviewed
+  local: img/gallery/Pantydraco_001.webp
+- kind: fossil
+  file: Pantydraco cervical vertebrae.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Pantydraco_cervical_vertebrae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pantydraco_cervical_vertebrae.png
+  artist: Alejandro Otero
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: 5 July 201
+  caption: Neck vertebrae of Pantydraco.
+  width: 879
+  height: 276
+  review: unreviewed
+  local: img/gallery/Pantydraco_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/aa9f6082-6b87-4f13-b6f5-9c4756289637/vector.svg
+  png: https://images.phylopic.org/images/aa9f6082-6b87-4f13-b6f5-9c4756289637/raster/512x170.png
+  page: https://www.phylopic.org/images/aa9f6082-6b87-4f13-b6f5-9c4756289637
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Thecodontosaurus antiquus
+  matched: Pantydraco
+  genus_level: true
+  w: 512
+  h: 170
+sources:
+- kind: original
+  text: 'Galton, Peter M. 2007. ''''Pantydraco'''' n. gen. for ''''Thecodontosaurus caducus'''' YATES, 2003, a basal
+    sauropodomorph dinosaur from the Upper Triassic or Lower Jurassic of South Wales, UK. Neues Jahrbuch für Geologie
+    und Paläontologie, Abhandlungen 243(1): 119–125. doi:10.1127/0077-7749/2007/0243-0119'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pantydraco (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pantydraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pantydraco”. English Wikipedia, revision 1366324541.
+  url: https://en.wikipedia.org/w/index.php?title=Pantydraco&oldid=1366324541
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

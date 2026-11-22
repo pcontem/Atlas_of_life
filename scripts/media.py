@@ -178,8 +178,13 @@ def fetch(vol=None):
                 k += 1
             name = pat.format(k)
             taken.add(name)
-            pic = Image.open(io.BytesIO(b))
-            pic = pic.convert("RGBA" if pic.mode in ("RGBA", "LA", "P") else "RGB")
+            try:
+                pic = Image.open(io.BytesIO(b))
+                pic = pic.convert("RGBA" if pic.mode in ("RGBA", "LA", "P") else "RGB")
+            except Exception as ex:  # not an image (error page, rate limit...): skip it, report it, keep going
+                taken.discard(name)
+                print(f"fetch: SKIPPED {e['name']}: not a readable image ({ex.__class__.__name__}): {im['url'][:150]}")
+                continue
             pic.thumbnail((1000, 1000) if oa else (800, 800))
             pic.save(SITE / "img/gallery" / name, "WEBP", quality=82)
             im["local"] = f"img/gallery/{name}"
@@ -192,7 +197,12 @@ def fetch(vol=None):
             if not dest.exists() and s.get("png"):
                 b = download(s["png"])
                 if b:
-                    pic = Image.open(io.BytesIO(b)).convert("RGBA")
+                    try:
+                        pic = Image.open(io.BytesIO(b)).convert("RGBA")
+                    except Exception as ex:
+                        print(f"fetch: SKIPPED silhouette of {e['name']}: not a readable image ({ex.__class__.__name__})")
+                        pic = None
+                if b and pic is not None:
                     pic.thumbnail((600, 600))
                     pic.save(dest, "WEBP", quality=85)
                     s["w"], s["h"] = pic.size

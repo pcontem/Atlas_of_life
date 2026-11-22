@@ -1,0 +1,125 @@
+name: Melanorosaurus
+rank: genus
+parent: sauropodiformes
+incertae_sedis: false
+placement_note: ''
+authority: Haughton 1924
+type_species: Melanorosaurus readi
+type_species_note: Monotypic in PBDB; M. thabanensis (Gauffre 1993) is not listed.
+summary: Melanorosaurus is a large quadrupedal sauropodomorph from the Late Triassic Elliot Formation of South Africa
+  and Lesotho.
+size:
+  length_m: [8, 8]
+  mass_kg: [1300, 1300]
+  note: Around 8 m long and 1.3 t (Wikipedia revision).
+age:
+  first_ma: 227.3
+  last_ma: 192.9
+  early_interval: Norian
+  late_interval: Sinemurian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Melanorosaurus readi
+  authority: Haughton 1924
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Lower, Upper]
+  country: Lesotho
+  regions: [Leribe, Mafeteng, Maseru, Mohale's Hoek]
+  interval: Norian–Sinemurian
+  occurrences: 5
+  ma: [192.9, 227.3]
+  id: elliot-lesotho
+- formation: Elliot
+  group: Stormberg
+  members: [Lower, Upper]
+  country: South Africa
+  regions: [Eastern Cape, Free State]
+  interval: Norian–Sinemurian
+  occurrences: 4
+  ma: [192.9, 227.3]
+  id: elliot-south-africa
+fossil_material:
+  holotype: Lectotype SAM-PK-3449, designated in 2024 from the syntypes SAM-PK-3449 and 3450, found on Thaba 'Nyama
+    (Black Mountain), Transkei.
+  material: Syntypes and referred postcranial remains such as NMQR 1551 (probable); a skull, NM QR3314, was described
+    in 2007 and referred to it.
+  completeness: partial
+  exceptional: ''
+biology: An omnivore with a large body and sturdy limbs, suggesting it moved on all fours.
+images:
+- kind: life
+  file: Melanorosaurus life restoration 2018.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Melanorosaurus_life_restoration_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Melanorosaurus_life_restoration_2018.jpg
+  artist: Mario Lanzas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-11-11'
+  caption: Life restoration of Melanorosaurus.
+  width: 1533
+  height: 777
+  review: unreviewed
+  local: img/gallery/Melanorosaurus_001.webp
+- kind: life
+  file: Melanorosaurus readi steveoc.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Melanorosaurus_readi_steveoc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Melanorosaurus_readi_steveoc.jpg
+  artist: Steveoc 86
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: ''
+  caption: Life restoration of Melanorosaurus readi.
+  width: 1280
+  height: 640
+  review: unreviewed
+  local: img/gallery/Melanorosaurus_002.webp
+- kind: fossil
+  file: Melanorosaurus femur.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Melanorosaurus_femur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Melanorosaurus_femur.png
+  artist: Claire Peyre de Fabrègues​, Ronan Allain
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Femur of Melanorosaurus.
+  width: 1568
+  height: 628
+  review: unreviewed
+  local: img/gallery/Melanorosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/vector.svg
+  png: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/raster/512x122.png
+  page: https://www.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Melanorosaurus readi
+  matched: Melanorosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: S. H. Haughton. 1924. The fauna and stratigraphy of the Stormberg Series. Annals of the South African Museum
+    12:323-497
+- kind: literature
+  text: 'Barrett, Paul M.; Choiniere, Jonah N. 2 Ja. Melanorosaurus readi Haughton, 1924 (Dinosauria, Sauropodomorpha)
+    from the Late Triassic of South Africa: osteology and designation of a lectotype. Journal of Vertebrate Paleontology
+    44(1). doi:10.1080/02724634.2024.2337802'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Melanorosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Melanorosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Melanorosaurus”. English Wikipedia, revision 1314489440.
+  url: https://en.wikipedia.org/w/index.php?title=Melanorosaurus&oldid=1314489440
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [The skull referral and the 2024 redescription to be checked.]
+  reviews: []
