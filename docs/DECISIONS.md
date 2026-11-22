@@ -357,3 +357,7 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - New harvest adopted; extra images added to existing genus entries (clades have no image field, so they got none). 71 genera written in batches 4-8 as ai-draft, all images `unreviewed`.
 - PBDB clades that the atlas has no entry for (e.g. Eutitanosauria, Lithostrotia) are mapped to the nearest atlas clade (Titanosauria); Histriasaurus is `incertae_sedis` within Rebbachisauridae (M2).
 - Branch name: `entry/sauropodomorpha-1` already existed on GitHub with unrelated older history, so the work lives on `entry/sauropodomorpha-4-8`.
+
+## 2026-11-22 — Sauropodomorpha: batches 9-13
+- 69 more genera (Euhelopodidae, Mamenchisauridae, Rebbachisauridae, Titanosauria, Titanosauriformes, Brachiosauridae). PBDB clades with no atlas entry (Titanosauriformes) map to the nearest atlas clade (Macronaria).
+- Ichnogenera and oogenera (PBDB flags I/F) stay out of the volume; names with no usable Wikipedia article wait for a new harvest.
