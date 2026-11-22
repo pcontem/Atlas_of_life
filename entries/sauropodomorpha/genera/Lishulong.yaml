@@ -70,18 +70,6 @@ images:
   height: 1075
   review: unreviewed
   local: img/gallery/Lishulong_002.webp
-- kind: skeletal
-  file: Lishulong Skeletal.svg
-  url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Lishulong_Skeletal.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  page: https://commons.wikimedia.org/wiki/File:Lishulong_Skeletal.svg
-  artist: Unknown (no author on the Commons page)
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  date: '2024-12-13'
-  caption: Skeletal reconstruction of Lishulong showing the preserved bones.
-  width: 512
-  height: 166
-  review: unreviewed
 - kind: fossil
   file: Lishulong (holotype cranium, left lateral).png
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lishulong_%28holotype_cranium%2C_left_lateral%29.png/960px-Lishulong_%28holotype_cranium%2C_left_lateral%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -121,5 +109,7 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: []
+  notes:
+  - Skeletal reconstruction on Commons (Lishulong Skeletal.svg) is an SVG that the media fetch cannot convert; add
+    it as a PNG render if wanted.
   reviews: []
