@@ -82,6 +82,7 @@ images:
   width: 2338
   height: 1700
   review: unreviewed
+  local: img/gallery/Aegyptosaurus_001.webp
 - kind: fossil
   file: Aegyptosaurus-holotype.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Aegyptosaurus-holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -94,6 +95,7 @@ images:
   width: 840
   height: 542
   review: unreviewed
+  local: img/gallery/Aegyptosaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/vector.svg
   png: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/raster/512x210.png
@@ -103,6 +105,8 @@ silhouette:
   depicts: Tiamat valdecii
   matched: Titanosauria
   genus_level: false
+  w: 512
+  h: 210
 sources:
 - kind: database
   text: Paleobiology Database — taxon and occurrence records for Aegyptosaurus (downloaded 2026-11-22).

@@ -56,6 +56,7 @@ images:
   width: 766
   height: 442
   review: unreviewed
+  local: img/gallery/Riojasaurus_001.webp
 - kind: life
   file: Riojasaurus.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Riojasaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -68,6 +69,7 @@ images:
   width: 1506
   height: 791
   review: unreviewed
+  local: img/gallery/Riojasaurus_002.webp
 - kind: fossil
   file: Riojasaurus skull.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Riojasaurus_skull.jpg/960px-Riojasaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -80,6 +82,7 @@ images:
   width: 1940
   height: 1336
   review: unreviewed
+  local: img/gallery/Riojasaurus_003.webp
 silhouette:
   src: https://images.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd/vector.svg
   png: https://images.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd/raster/512x173.png
@@ -89,6 +92,8 @@ silhouette:
   depicts: Riojasaurus incertus
   matched: Riojasaurus
   genus_level: true
+  w: 512
+  h: 173
 sources:
 - kind: original
   text: J. F. Bonaparte. 1969. Dos nuevas "faunas" de reptiles triasicos de Argentina [Two new reptilian "faunas"

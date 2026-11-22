@@ -58,6 +58,7 @@ images:
   width: 600
   height: 450
   review: unreviewed
+  local: img/gallery/Anchisaurus_001.webp
 - kind: fossil
   file: Anchisaurus skeleton Huene.png
   url: https://upload.wikimedia.org/wikipedia/commons/9/95/Anchisaurus_skeleton_Huene.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -70,6 +71,7 @@ images:
   width: 601
   height: 1295
   review: unreviewed
+  local: img/gallery/Anchisaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/d4b26894-62f8-4221-8dd7-a65c7337a4b3/vector.svg
   png: https://images.phylopic.org/images/d4b26894-62f8-4221-8dd7-a65c7337a4b3/raster/512x229.png
@@ -79,6 +81,8 @@ silhouette:
   depicts: Anchisaurus polyzelus
   matched: Anchisaurus
   genus_level: true
+  w: 512
+  h: 229
 sources:
 - kind: original
   text: O. C. Marsh. 1885. Names of extinct reptiles. American Journal of Science 29:169
