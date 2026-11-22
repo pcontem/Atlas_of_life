@@ -1,0 +1,83 @@
+name: Demandasaurus
+rank: genus
+parent: rebbachisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Torcida Fernández-Baldor et al. 2011
+type_species: Demandasaurus darwini
+type_species_note: Monotypic genus; the only species is the type.
+summary: Demandasaurus is a rebbachisaurid sauropod from the Early Cretaceous Castrillo de la Reina Formation of
+  Burgos, Spain.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Demandasaurus darwini
+  authority: Torcida Fernández-Baldor et al. 2011
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Castrillo de la Reina
+  group: Oliván
+  members: []
+  country: Spain
+  regions: [Burgos, Castilla y Leon]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: castrillo-de-la-reina-spain
+fossil_material:
+  holotype: MDS-RVII, an associated skeleton with premaxillae, left dentary, teeth, cervical, dorsal and caudal
+    vertebrae, ischia and a left femur (Tenadas de los Vallejos II).
+  material: About 810 fossils were collected at the site, most of them belonging to the type skeleton.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Demandasaurus día.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Demandasaurus_d%C3%ADa.png/960px-Demandasaurus_d%C3%ADa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Demandasaurus_d%C3%ADa.png
+  artist: Ferrutxo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-12-26'
+  caption: Life restoration of Demandasaurus darwini.
+  width: 3840
+  height: 2160
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/vector.svg
+  png: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/raster/512x114.png
+  page: https://www.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Limaysaurus tessonei
+  matched: Rebbachisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Fidel Torcida Fernández-Baldor 2011. ''''Demandasaurus darwini'''', a new rebbachisaurid sauropod from
+    the Early Cretaceous of the Iberian Peninsula. Acta Palaeontologica Polonica 56(3): 535–552. doi:10.4202/app.2010.0003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Demandasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Demandasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Demandasaurus”. English Wikipedia, revision 1320793187.
+  url: https://en.wikipedia.org/w/index.php?title=Demandasaurus&oldid=1320793187
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

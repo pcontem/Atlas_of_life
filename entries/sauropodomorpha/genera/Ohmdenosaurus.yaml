@@ -1,0 +1,107 @@
+name: Ohmdenosaurus
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Wild 1978
+type_species: Ohmdenosaurus liasicus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Ohmdenosaurus is a small sauropod from the Early Jurassic Posidonia Shale of Holzmaden, Germany, the only
+  dinosaur known from that shale.
+size:
+  length_m: [3, 4]
+  note: Estimated total length of Wild (1978), small for a sauropod.
+age:
+  first_ma: 182.9
+  last_ma: 180.4
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ohmdenosaurus liasicus
+  authority: Wild 1978
+  first_ma: 182.9
+  last_ma: 180.4
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Posidonia Shale
+  group: ''
+  members: [Lias Epsilon II/4]
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Middle Toarcian
+  occurrences: 1
+  ma: [180.4, 182.9]
+  id: posidonia-shale-germany
+fossil_material:
+  holotype: Not read in the sources consulted; the specimen preserves a tibia and astragalus, with a pyrite-rich
+    geode between them.
+  material: Known from a single specimen.
+  completeness: fragmentary
+  exceptional: A pyritic limestone geode with the snail Coelodiscus between tibia and astragalus.
+biology: Like all sauropods, a quadrupedal herbivore with a long neck and tail.
+images:
+- kind: life
+  file: Ohmdenosaurus Reconstruction.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/99/Ohmdenosaurus_Reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ohmdenosaurus_Reconstruction.jpg
+  artist: Lucas Attwell
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2018-11-14'
+  caption: Life restoration of Ohmdenosaurus in a forest.
+  width: 1120
+  height: 713
+  review: unreviewed
+- kind: fossil
+  file: Ohmdenosaurus-holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ohmdenosaurus-holotype.png/960px-Ohmdenosaurus-holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ohmdenosaurus-holotype.png
+  artist: Jens Lallensack
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-10-19'
+  caption: Holotype hindlimb bones of Ohmdenosaurus.
+  width: 3410
+  height: 5115
+  review: unreviewed
+- kind: fossil
+  file: Ohmdenosaurus.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/2/23/Ohmdenosaurus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ohmdenosaurus.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 -
+  caption: Ohmdenosaurus specimen in a museum display.
+  width: 939
+  height: 2125
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/vector.svg
+  png: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/raster/512x193.png
+  page: https://www.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f
+  attribution: Roberto Diaz Sibaja, based on Domser
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vulcanodon karibaensis
+  matched: Sauropoda
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wild, R. 1978. Ein Sauropoden-Rest (Reptilia, Saurischia) aus dem Posidonienschiefer (Lias, Toarcium) von
+    Holzmaden. Stuttgarter Beiträge zur Naturkunde, Serie B (Geologie und Paläontologie) 41: 1–15.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ohmdenosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ohmdenosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ohmdenosaurus”. English Wikipedia, revision 1354828703.
+  url: https://en.wikipedia.org/w/index.php?title=Ohmdenosaurus&oldid=1354828703
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Material and holotype number to be read from Wild 1978.]
+  reviews: []

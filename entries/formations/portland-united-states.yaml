@@ -1,0 +1,31 @@
+id: portland-united-states
+name: Portland
+rank: formation
+group: Agawam
+country: United States
+regions: [Connecticut, Massachusetts]
+location:
+  lat: 42.104
+  lng: -72.588
+  basis: median of 3 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., fluvial-lacustrine indet.]
+lithology: [sandstone]
+pbdb_collections: ['47197', '47199', '52965']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Portland (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Portland
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

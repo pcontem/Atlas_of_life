@@ -3,23 +3,26 @@ name: Elliot
 rank: formation
 group: Stormberg
 country: Lesotho
-regions: [Leribe, Mafeteng, Mohale's Hoek, Qacha's Nek, Quthing]
+regions: [Leribe, Mafeteng, Maseru, Mohale's Hoek, Qacha's Nek, Quthing]
 location:
-  lat: -28.967
-  lng: 27.567
-  basis: median of 71 PBDB collections that yielded the atlas genera
+  lat: -29.009
+  lng: 27.517
+  basis: median of 80 PBDB collections that yielded the atlas genera
 age:
   first_ma: 227.3
   last_ma: 192.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., '"floodplain"']
+environment: [terrestrial indet., '"floodplain"', dry floodplain]
 lithology: [not reported, sandstone, mudstone, '"siliciclastic"']
 pbdb_collections:
 - '13326'
 - '13359'
 - '14228'
+- '36609'
 - '36610'
+- '36704'
 - '36741'
+- '39659'
 - '45796'
 - '47032'
 - '47033'
@@ -38,12 +41,18 @@ pbdb_collections:
 - '98603'
 - '99624'
 - '101830'
+- '105770'
+- '106568'
+- '106571'
 - '107097'
 - '107152'
 - '107158'
+- '107167'
 - '107168'
+- '107170'
 - '107171'
 - '138322'
+- '149711'
 - '149752'
 - '149753'
 - '149754'

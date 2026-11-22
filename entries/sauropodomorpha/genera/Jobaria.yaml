@@ -1,0 +1,115 @@
+name: Jobaria
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Sereno et al. 1999
+type_species: Jobaria tiguidensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Jobaria is a primitive sauropod from the Middle to Late Jurassic Tiourarén Formation of Niger, discovered
+  in 1997.
+size:
+  length_m: [16, 18.2]
+  mass_kg: [16000, 22000]
+  note: About 18.2 m long and about 22 t, with a lower estimate by G. S. Paul of 16 m and 16 t (Wikipedia revision;
+    the upper mass figure is cut in the text read and to be checked).
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 2
+  note: The Wikipedia revision gives Bathonian to Oxfordian (167-161 Ma); PBDB gives Oxfordian-Tithonian. To be
+    reconciled.
+species:
+- name: Jobaria tiguidensis
+  authority: Sereno et al. 1999
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+formations:
+- formation: Tiourarén
+  group: Irhazer
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Late Jurassic
+  occurrences: 2
+  ma: [143.1, 161.5]
+  id: tiouraren-niger
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Not read in the sources consulted; found in 1997 during an expedition to the Sahara.
+  completeness: multiple
+  exceptional: ''
+biology: It is the only valid sauropod known from the Tiourarén Formation.
+images:
+- kind: fossil
+  file: Jobaria in the Australian Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Jobaria_in_the_Australian_Museum.jpg/960px-Jobaria_in_the_Australian_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jobaria_in_the_Australian_Museum.jpg
+  artist: Hugh Llewelyn
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2024-09-26'
+  caption: Mounted skeleton of Jobaria in the Australian Museum.
+  width: 3060
+  height: 3599
+  review: unreviewed
+- kind: fossil
+  file: Jobaria head.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Jobaria_head.jpg/960px-Jobaria_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jobaria_head.jpg
+  artist: Abigail Batchelder
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2009-12-30'
+  caption: Mounted skull of Jobaria.
+  width: 2336
+  height: 3504
+  review: unreviewed
+- kind: fossil
+  file: Iziko Jobaria Dinosaur Skeleton FishEye.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Iziko_Jobaria_Dinosaur_Skeleton_FishEye.jpg/960px-Iziko_Jobaria_Dinosaur_Skeleton_FishEye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Iziko_Jobaria_Dinosaur_Skeleton_FishEye.jpg
+  artist: Nkansahrexford
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2014-07-07'
+  caption: Mounted skeleton of Jobaria in the Iziko museum.
+  width: 4096
+  height: 4096
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/vector.svg
+  png: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/raster/512x157.png
+  page: https://www.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Patagosaurus fariasi
+  matched: Eusauropoda
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sereno, P. Nove. Cretaceous Sauropods from the Sahara and the Uneven Rate of Skeletal Evolution Among Dinosaurs.
+    Science 286(5443): 1342–1347. doi:10.1126/science.286.5443.1342'
+- kind: literature
+  text: 'Rauhut; Lopez-Arbarello 2009. Considerations on the age of the Tiouaren Formation (Iullemmeden Basin, Niger,
+    Africa): Implications for Gondwanan Mesozoic terrestrial vertebrate faunas. Palaeogeography, Palaeoclimatology,
+    Palaeoecology 271(3–4): 259–267. doi:10.1016/j.palaeo.2008.10.019'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jobaria (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jobaria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jobaria”. English Wikipedia, revision 1373205867.
+  url: https://en.wikipedia.org/w/index.php?title=Jobaria&oldid=1373205867
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Upper mass estimate read from a cut sentence; check the Wikipedia revision. Age conflict between the revision
+    and PBDB.
+  reviews: []

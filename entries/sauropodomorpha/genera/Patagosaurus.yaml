@@ -1,0 +1,106 @@
+name: Patagosaurus
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1979
+type_species: Patagosaurus fariasi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Patagosaurus is an eusauropod from the Toarcian Cañadón Asfalto Formation of Chubut, Argentina, known from
+  many specimens including a juvenile.
+size:
+  length_m: [15, 16.5]
+  mass_kg: [7880, 9440]
+  note: 16.5 m and 7.88 t (Holtz) to 15 m and 9.44 t (McIntosh et al. 1997), as quoted by the cited Wikipedia revision.
+age:
+  first_ma: 182.9
+  last_ma: 168.6
+  early_interval: Toarcian
+  late_interval: Bajocian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Patagosaurus fariasi
+  authority: Bonaparte 1979
+  first_ma: 182.9
+  last_ma: 180.4
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Cañadón Asfalto
+  group: Sierra de Olte
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Middle Toarcian–Early Bajocian
+  occurrences: 4
+  ma: [168.6, 182.9]
+  id: canadon-asfalto-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; first described by Bonaparte in 1979.
+  material: Twelve specimens were originally assigned to it, at least one of which may belong to another genus.
+  completeness: multiple
+  exceptional: ''
+biology: The many specimens, including a juvenile, make its anatomy and growth fairly well understood.
+images:
+- kind: life
+  file: Patagosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Patagosaurus.jpg/960px-Patagosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Patagosaurus.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-05-24'
+  caption: Life restoration of Patagosaurus.
+  width: 2257
+  height: 845
+  review: unreviewed
+- kind: fossil
+  file: Patagosaurus (1).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Patagosaurus_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Patagosaurus_(1).jpg
+  artist: ESPEJOS PROYECTO
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2011-12-20'
+  caption: Mounted skeleton of Patagosaurus.
+  width: 650
+  height: 492
+  review: unreviewed
+- kind: fossil
+  file: Patagosaurus skull.PNG
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Patagosaurus_skull.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Patagosaurus_skull.PNG
+  artist: Femke Holwerda, Diego Pol and Oliver Rauhut
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2015-02-18'
+  caption: Skull elements of Patagosaurus.
+  width: 734
+  height: 638
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/vector.svg
+  png: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/raster/512x157.png
+  page: https://www.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Patagosaurus fariasi
+  matched: Patagosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Bonaparte, J.F. 1979. Dinosaurs: A Jurassic assemblage from Patagonia. Science 205(4413): 1377–9. doi:10.1126/science.205.4413.1377'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Patagosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Patagosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Patagosaurus”. English Wikipedia, revision 1374391084.
+  url: https://en.wikipedia.org/w/index.php?title=Patagosaurus&oldid=1374391084
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

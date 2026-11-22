@@ -3,18 +3,18 @@ name: Reuchenette
 rank: formation
 group: ''
 country: Switzerland
-regions: [Jura, Solothurn]
+regions: [Bern, Jura, Solothurn]
 location:
-  lat: 47.394
-  lng: 7.029
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lat: 47.363
+  lng: 7.203
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 152.21
+  first_ma: 154.8
   last_ma: 149.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet., platform/shelf-margin reef]
-lithology: [marl, '"limestone"', not reported]
-pbdb_collections: ['133662', '180789', '232696']
+environment: [marine indet., lacustrine - small, platform/shelf-margin reef]
+lithology: [marl, not reported, '"limestone"']
+pbdb_collections: ['49653', '133662', '180789', '232696']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,85 @@
+name: Amazonsaurus
+rank: genus
+parent: rebbachisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Carvalho et al. 2003
+type_species: Amazonsaurus maranhensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Amazonsaurus is a basal rebbachisaurid sauropod from the Early Cretaceous Itapecuru Formation of Maranhao,
+  Brazil.
+size:
+  length_m: [12, 12]
+  mass_kg: [5000, 5000]
+  note: Probably not more than 12 m long; weight estimated by G. S. Paul in 2010 (Wikipedia revision).
+age:
+  first_ma: 119.57
+  last_ma: 106.3
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Amazonsaurus maranhensis
+  authority: Carvalho et al. 2003
+  first_ma: 119.57
+  last_ma: 106.3
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Itapecuru
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Maranhão]
+  interval: Late Aptian–Middle Albian
+  occurrences: 1
+  ma: [106.3, 119.57]
+  id: itapecuru-brazil
+fossil_material:
+  holotype: Not read in the sources consulted; a single associated skeleton.
+  material: Two dorsal neural spines, two dorsal centra, caudal vertebrae, eight chevrons, an ilium, an incomplete
+    pubis and three ribs.
+  completeness: fragmentary
+  exceptional: ''
+biology: A large quadrupedal herbivore with a long neck and a whiplash tail.
+images:
+- kind: life
+  file: Amazonsaurus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Amazonsaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Amazonsaurus.png
+  artist: DarkWerewolf
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-07-20'
+  caption: Life restoration of Amazonsaurus maranhensis.
+  width: 1000
+  height: 571
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/vector.svg
+  png: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/raster/512x114.png
+  page: https://www.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Limaysaurus tessonei
+  matched: Rebbachisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'de Souza Carvalho, Ismar; dos Santos Avilla, Leonardo; Salgado, Leonardo 2003. Amazonsaurus maranhensis
+    gen. et sp. nov. (Sauropoda, Diplodocoidea) from the Lower Cretaceous (Aptian–Albian) of Brazil. Cretaceous
+    Research 24(6): 697–713. doi:10.1016/j.cretres.2003.07.005'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Amazonsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Amazonsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Amazonsaurus”. English Wikipedia, revision 1357161246.
+  url: https://en.wikipedia.org/w/index.php?title=Amazonsaurus&oldid=1357161246
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
