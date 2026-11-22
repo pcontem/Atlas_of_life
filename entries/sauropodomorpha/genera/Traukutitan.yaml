@@ -1,0 +1,80 @@
+name: Traukutitan
+rank: genus
+parent: lognkosauria
+incertae_sedis: true
+placement_note: PBDB lists it under Lognkosauria; no analysis was read in the sources consulted.
+authority: Juárez Valieri and Calvo 2011
+type_species: Traukutitan eocaudata
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Traukutitan is a titanosaur from the Santonian Bajo de la Carpa Formation of Neuquen, Argentina.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Traukutitan eocaudata
+  authority: Juárez Valieri and Calvo 2011
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Known from the holotype from the lowest part of the formation.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Traukutitan Drawing.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Traukutitan_Drawing.jpg/960px-Traukutitan_Drawing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Traukutitan_Drawing.jpg
+  artist: JurassicClassic767
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-08-22'
+  caption: Drawing of Traukutitan.
+  width: 3264
+  height: 2448
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6bbf2f67-89f5-4f0c-a412-8446e4742591/vector.svg
+  png: https://images.phylopic.org/images/6bbf2f67-89f5-4f0c-a412-8446e4742591/raster/512x288.png
+  page: https://www.phylopic.org/images/6bbf2f67-89f5-4f0c-a412-8446e4742591
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Puertasaurus reuili
+  matched: Lognkosauria
+  genus_level: false
+sources:
+- kind: original
+  text: Rubén D. Juárez Valieri 2011. Paleontología y dinosarios desde América Latina.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Traukutitan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Traukutitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Traukutitan”. English Wikipedia, revision 1332659494.
+  url: https://en.wikipedia.org/w/index.php?title=Traukutitan&oldid=1332659494
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked; the article is short.]
+  reviews: []

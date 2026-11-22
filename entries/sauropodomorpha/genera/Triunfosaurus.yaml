@@ -1,0 +1,74 @@
+name: Triunfosaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Carvalho et al. 2017
+type_species: Triunfosaurus leonardii
+type_species_note: Described with the genus in 2017 (Wikipedia revision).
+summary: Triunfosaurus is a basal titanosaur from the Early Cretaceous of Brazil, named in 2017 from the Triunfo
+  Basin.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 143.1
+  last_ma: 125.77
+  early_interval: Berriasian
+  late_interval: Hauterivian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Triunfosaurus leonardii
+  authority: Carvalho et al. 2017
+  first_ma: 143.1
+  last_ma: 125.77
+  interval: Berriasian–Hauterivian
+  reference: original description
+formations:
+- formation: Rio Piranhas
+  group: Rio do Peixe
+  members: []
+  country: Brazil
+  regions: [Paraíba]
+  interval: Berriasian–Early Hauterivian
+  occurrences: 1
+  ma: [125.77, 143.1]
+  id: rio-piranhas-brazil
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Known from the holotype with ischium and vertebrae.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Somphospondyli
+  genus_level: false
+sources:
+- kind: original
+  text: 'Carvalho, I.S.; Salgado, L.; Lindoso, R.M.; de Araújo-Júnior, H.I.; Costa Nogueir, F.C.; Soares, J.A. 2017.
+    A new basal titanosaur (Dinosauria, Sauropoda) from the Lower Cretaceous of Brazil. Journal of South American
+    Earth Sciences 75: 74–84. doi:10.1016/j.jsames.2017.01.010'
+- kind: literature
+  text: 'Wilson, J.A.; Upchurch, P. 2003. A revision of ''''Titanosaurus'''' Lydekker (Dinosauria–Sauropoda), the
+    first dinosaur genus with a ''Gondwanan'' distribution. Journal of Systematic Palaeontology 1(3): 125–160. doi:10.1017/S1477201903001044'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Triunfosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Triunfosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Triunfosaurus”. English Wikipedia, revision 1314631166.
+  url: https://en.wikipedia.org/w/index.php?title=Triunfosaurus&oldid=1314631166
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No image among the harvested candidates.]
+  reviews: []

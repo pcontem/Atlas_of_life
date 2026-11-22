@@ -1,0 +1,95 @@
+name: Quetecsaurus
+rank: genus
+parent: lognkosauria
+incertae_sedis: false
+placement_note: ''
+authority: González Riga and Ortiz David 2014
+type_species: Quetecsaurus rusconii
+type_species_note: Monotypic genus; the only species is the type.
+summary: Quetecsaurus is a lognkosaur-like titanosaur from the Turonian of southern Mendoza, Argentina, with a uniquely
+  shaped humerus.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Quetecsaurus rusconii
+  authority: González Riga and Ortiz David 2014
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Cerro Lisandro
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Mendoza]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: cerro-lisandro-argentina
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: The first sauropod with well preserved remains from its formation.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Quetecsaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Quetecsaurus.jpg/960px-Quetecsaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Quetecsaurus.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014-01-24'
+  caption: Life restoration of Quetecsaurus.
+  width: 3370
+  height: 1378
+  review: unreviewed
+- kind: skeletal
+  file: Quetecsaurus rusconii Skeletal Me.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Quetecsaurus_rusconii_Skeletal_Me.jpg/960px-Quetecsaurus_rusconii_Skeletal_Me.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Quetecsaurus_rusconii_Skeletal_Me.jpg
+  artist: Bricksmashtv4
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-08-13'
+  caption: Skeletal reconstruction of Quetecsaurus rusconii showing preserved bones.
+  width: 6512
+  height: 4572
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6bbf2f67-89f5-4f0c-a412-8446e4742591/vector.svg
+  png: https://images.phylopic.org/images/6bbf2f67-89f5-4f0c-a412-8446e4742591/raster/512x288.png
+  page: https://www.phylopic.org/images/6bbf2f67-89f5-4f0c-a412-8446e4742591
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Puertasaurus reuili
+  matched: Lognkosauria
+  genus_level: false
+sources:
+- kind: literature
+  text: 'González Riga, Bernardo J.; Ortiz David, Leonardo 2013. A New Titanosaur (Dinosauria, Sauropoda) from the
+    Upper Cretaceous (Cerro Lisandro Formation) of Mendoza Province, Argentina. Ameghiniana 51(1): 3–25. doi:10.5710/AMGH.24.12.2013.1889'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Quetecsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Quetecsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Quetecsaurus”. English Wikipedia, revision 1289357376.
+  url: https://en.wikipedia.org/w/index.php?title=Quetecsaurus&oldid=1289357376
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original naming paper (Gonzalez Riga and Ortiz David 2014) to be added; item 1 is a 2013 paper.
+  reviews: []
