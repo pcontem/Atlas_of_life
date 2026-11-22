@@ -754,3 +754,6 @@ The backbone node "Euphorosuchus" had no source in PBDB or English Wikipedia. Th
 ## 2026-11-22 — Thyreophora volume (Ornithischia part A)
 - Clade nodes of Thyreophora (Stegosauria, Huayangosauridae, Stegosauridae, Ankylosauria, Ankylosauridae, Nodosauridae) moved from the backbone to `entries/thyreophora`; their ids lost the `parent__` prefix (e.g. `ankylosauria__nodosauridae` → `nodosauridae`) and the waiting genus nodes were re-parented to the new ids.
 - Polacanthidae removed as a node and its four genera (Gargoyleosaurus, Gastonia, Mymoorapelta, Polacanthus) placed directly in Ankylosauria until the family gets an entry (the Wikipedia revision could not be read); PBDB lists them as Polacanthidae. A 2023 review (Raven et al.) keeps Polacanthidae as a family within a split of the nodosaurids.
+
+## 2026-11-22 — Marginocephalia volume (Ornithischia part A)
+- Clade nodes of Marginocephalia (Ceratopsia, Pachycephalosauria, Psittacosauridae, Leptoceratopsidae, Protoceratopsidae, Ceratopsidae, Centrosaurinae, Chasmosaurinae) moved from the backbone to `entries/marginocephalia`; ids lost the `parent__` prefix (e.g. `ceratopsia__ceratopsidae__centrosaurinae` → `centrosaurinae`) and the waiting genus nodes were re-parented. The volume attaches to Neornithischia.
