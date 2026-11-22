@@ -346,3 +346,9 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - 16 Macronaria/Turiasauria genera (batch 2) and 16 titanosaur and mamenchisaurid genera (batch 3: Lognkosauria, Mamenchisauridae, Saltasauroidea) written as ai-draft; PBDB junior synonyms added to `excluded.yaml`.
 - Diplodocus images were taken from the contact sheet of its synonym Seismosaurus, because the harvest took only 15 loose Commons files for Diplodocus and missed the article pictures.
 - Licence note: two Opisthocoelicaudia photos are CC BY-SA 3.0 PL (Polish port); `validate.py` rejects the string although CLAUDE.md allows CC BY-SA in any version. The photos were left out pending the owner's decision.
+
+## 2026-11-22 — Harvest: image collection fixed
+- Cause 1: the Wikipedia query `prop=images` (40 titles, `imlimit=max`) was read without following the API's `continue` token, so about 200 of 449 pages came back with no images. `harvest.py` now merges every answer through `mw_pages`.
+- Cause 2: the Commons category step let the alphabetically first files of the main category fill the whole cap, so sub-categories (fossils, skulls, life restorations) were never reached. Each category now gets an equal share first, then the remaining slots are filled in order.
+- Noise names (size comparisons, cladograms, maps, sculptures, stamps, posters, models, silhouettes) are dropped before the cap is counted.
+- Existing raw data is not edited; a new harvest run regenerates `data/raw/sauropodomorpha/` and the contact sheets.
