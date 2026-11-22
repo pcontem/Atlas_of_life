@@ -60,6 +60,7 @@ images:
   width: 2600
   height: 900
   review: unreviewed
+  local: img/gallery/Galeamopus_001.webp
 - kind: fossil
   file: Galeamopus pabsti skeleton.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Galeamopus_pabsti_skeleton.jpg/960px-Galeamopus_pabsti_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -72,6 +73,7 @@ images:
   width: 4160
   height: 2336
   review: unreviewed
+  local: img/gallery/Galeamopus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/9b0d49d0-8a7f-4c19-b088-8c089208f4e3/vector.svg
   png: https://images.phylopic.org/images/9b0d49d0-8a7f-4c19-b088-8c089208f4e3/raster/512x190.png
@@ -81,6 +83,8 @@ silhouette:
   depicts: Galeamopus hayi
   matched: Galeamopus
   genus_level: true
+  w: 512
+  h: 190
 sources:
 - kind: original
   text: Tschopp, E.; Mateus, O. V.; Benson, R. B. J. 2015. A specimen-level phylogenetic analysis and taxonomic

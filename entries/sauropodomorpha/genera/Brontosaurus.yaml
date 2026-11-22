@@ -72,6 +72,7 @@ images:
   width: 800
   height: 600
   review: unreviewed
+  local: img/gallery/Brontosaurus_001.webp
 - kind: fossil
   file: Brontosaurus Yale Peabody cropped.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/4/45/Brontosaurus_Yale_Peabody_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -84,6 +85,7 @@ images:
   width: 1205
   height: 1488
   review: unreviewed
+  local: img/gallery/Brontosaurus_002.webp
 - kind: fossil
   file: Brontosaurus excelsus remount in the Peabody Museum.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Brontosaurus_excelsus_remount_in_the_Peabody_Museum.jpg/960px-Brontosaurus_excelsus_remount_in_the_Peabody_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -96,6 +98,7 @@ images:
   width: 5400
   height: 2610
   review: unreviewed
+  local: img/gallery/Brontosaurus_003.webp
 - kind: fossil
   file: Brontosaurus parvus.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Brontosaurus_parvus.jpg/960px-Brontosaurus_parvus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -108,6 +111,7 @@ images:
   width: 3911
   height: 1944
   review: unreviewed
+  local: img/gallery/Brontosaurus_004.webp
 silhouette:
   src: https://images.phylopic.org/images/b130afca-cea5-4dd3-9993-85a80871296d/vector.svg
   png: https://images.phylopic.org/images/b130afca-cea5-4dd3-9993-85a80871296d/raster/512x123.png
@@ -117,6 +121,8 @@ silhouette:
   depicts: Brontosaurus excelsus
   matched: Brontosaurus
   genus_level: true
+  w: 512
+  h: 123
 sources:
 - kind: original
   text: O. C. Marsh. 1879. Notice of new Jurassic reptiles. The American Journal of Science and Arts, series 3 18:501–505
