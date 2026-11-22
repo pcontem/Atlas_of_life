@@ -3,18 +3,18 @@ name: Huincul
 rank: formation
 group: Neuquén
 country: Argentina
-regions: [Neuquén]
+regions: [Neuquén, Río Negro]
 location:
-  lat: -39.114
-  lng: -68.928
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: -39.311
+  lng: -69.025
+  basis: median of 7 PBDB collections that yielded the atlas genera
 age:
   first_ma: 110.1
   last_ma: 106.3
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet., terrestrial indet.]
-lithology: [not reported]
-pbdb_collections: ['51981', '58981']
+environment: [terrestrial indet., fluvial indet., coarse channel fill, '"floodplain"']
+lithology: [sandstone, not reported]
+pbdb_collections: ['51946', '51981', '58981', '67296', '123202', '226993', '232882']
 includes: []
 summary: ''
 paleoenvironment: ''

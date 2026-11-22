@@ -3,18 +3,18 @@ name: Anacleto
 rank: formation
 group: Neuquén
 country: Argentina
-regions: [Mendoza, Río Negro]
+regions: [Mendoza, Neuquén, Río Negro]
 location:
   lat: -38.342
-  lng: -68.051
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lng: -68.454
+  basis: median of 6 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., '"floodplain"']
-lithology: [sandstone, siltstone, not reported]
-pbdb_collections: ['51573', '51579', '55740', '118212']
+environment: [terrestrial indet., fluvial indet., '"floodplain"', pond]
+lithology: [sandstone, not reported, siltstone]
+pbdb_collections: ['51573', '51579', '55740', '91171', '117447', '118212']
 includes: []
 summary: ''
 paleoenvironment: ''

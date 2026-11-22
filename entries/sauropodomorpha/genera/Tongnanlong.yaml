@@ -1,0 +1,84 @@
+name: Tongnanlong
+rank: genus
+parent: mamenchisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Wei et al. 2025
+type_species: Tongnanlong zhimingi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Tongnanlong is a mamenchisaurid sauropod from the Late Jurassic Suining Formation of Chongqing, China,
+  one of the largest of its family.
+size:
+  length_m: [25, 26]
+  note: Estimated at up to 25-26 m (Wikipedia revision).
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tongnanlong zhimingi
+  authority: Wei et al. 2025
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+formations:
+- formation: Suining
+  group: ''
+  members: []
+  country: China
+  regions: [Chongqing]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: suining-china
+fossil_material:
+  holotype: TNM 0254, with three dorsal and six caudal vertebrae, the left scapula and coracoid and hindlimb elements
+    including a partial tibia, fibula and three metatarsals.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Tongnanlong zhimingi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Tongnanlong_zhimingi.png/960px-Tongnanlong_zhimingi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tongnanlong_zhimingi.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-07-11'
+  caption: Life restoration of Tongnanlong zhimingi.
+  width: 4000
+  height: 2486
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/vector.svg
+  png: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/raster/512x332.png
+  page: https://www.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Omeisaurus tianfuensis
+  matched: Mamenchisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Wei, X.; Tan, Y.; Jiang, S.; Ding, J.; Li, L.; Wang, X.; Liu, Y.; Wei, G.; Li, D.; Liu, Y.; Peng, G.; Zhang,
+    S.; Lao, C. 2025. A new mamenchisaurid from the Upper Jurassic Suining Formation of the Sichuan Basin in China
+    and its implication on sauropod gigantism. Scientific Reports 15. doi:10.1038/s41598-025-09796-0
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tongnanlong (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tongnanlong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tongnanlong”. English Wikipedia, revision 1337381167.
+  url: https://en.wikipedia.org/w/index.php?title=Tongnanlong&oldid=1337381167
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

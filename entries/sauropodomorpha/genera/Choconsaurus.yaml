@@ -1,0 +1,71 @@
+name: Choconsaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Simón et al. 2018
+type_species: Choconsaurus baileywillisi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Choconsaurus is a basal titanosauriform from the Albian Huincul Formation of Neuquen, Argentina, known
+  from the most complete basal titanosaur skeleton of 2017.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Choconsaurus baileywillisi
+  authority: Simón et al. 2018
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: MMCh-PV 44/10, found at Villa El Chocon before 1996.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/vector.svg
+  png: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/raster/512x210.png
+  page: https://www.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Tiamat valdecii
+  matched: Titanosauria
+  genus_level: false
+sources:
+- kind: literature
+  text: Simón, M. E.; Salgado, L. 2023. A new gigantic titanosaurian sauropod from the early Late Cretaceous of
+    Patagonia (Neuquén Province, Argentina). Acta Palaeontologica Polonica. doi:10.4202/app.01086.2023
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Choconsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Choconsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Choconsaurus”. English Wikipedia, revision 1369529809.
+  url: https://en.wikipedia.org/w/index.php?title=Choconsaurus&oldid=1369529809
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image among the harvested candidates. Type species epithet to be checked.
+  reviews: []

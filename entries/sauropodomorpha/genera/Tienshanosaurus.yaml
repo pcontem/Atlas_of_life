@@ -1,0 +1,74 @@
+name: Tienshanosaurus
+rank: genus
+parent: mamenchisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1937
+type_species: Tienshanosaurus chitaiensis
+type_species_note: Monotypic genus; T. zdanskyi was moved here in 1991 by Molnar but belongs to Euhelopus (Wikipedia
+  revision).
+summary: Tienshanosaurus is a sauropod from the Oxfordian Shishugou Formation of Xinjiang, China, named in 1937.
+size:
+  length_m: [12, 12]
+  note: Body length estimated at twelve metres (Wikipedia revision).
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species: []
+formations:
+- formation: Shishugou
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 3
+  ma: [154.8, 161.5]
+  id: shishugou-china
+fossil_material:
+  holotype: IVPP AS 40002-3, from near Paikushan, Luanshantze.
+  material: The type locality yielded the remains of about thirty adult and three juvenile sauropods, of which only
+    a part was assigned to the genus.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Tienshanosaurus-Paleozoological Museum of China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tienshanosaurus-Paleozoological_Museum_of_China.jpg/960px-Tienshanosaurus-Paleozoological_Museum_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tienshanosaurus-Paleozoological_Museum_of_China.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04'
+  caption: Mounted skeleton of Tienshanosaurus in a museum.
+  width: 2447
+  height: 1452
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/50414999-21ad-45fe-bda1-e180bdce5c26/vector.svg
+  png: https://images.phylopic.org/images/50414999-21ad-45fe-bda1-e180bdce5c26/raster/512x276.png
+  page: https://www.phylopic.org/images/50414999-21ad-45fe-bda1-e180bdce5c26
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Mamenchisaurus youngi
+  matched: Tienshanosaurus
+  genus_level: true
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tienshanosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tienshanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tienshanosaurus”. English Wikipedia, revision 1350333431.
+  url: https://en.wikipedia.org/w/index.php?title=Tienshanosaurus&oldid=1350333431
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Material assigned to the genus to be read from Young 1937.]
+  reviews: []

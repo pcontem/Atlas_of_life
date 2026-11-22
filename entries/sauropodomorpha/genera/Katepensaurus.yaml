@@ -1,0 +1,84 @@
+name: Katepensaurus
+rank: genus
+parent: rebbachisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Ibiricu et al. 2013
+type_species: Katepensaurus goicoecheai
+type_species_note: Monotypic genus; the only species is the type.
+summary: Katepensaurus is a rebbachisaurid sauropod from the Late Cretaceous Bajo Barreal Formation of Chubut, Argentina,
+  known from a partial skeleton.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 100.5
+  last_ma: 89.8
+  early_interval: Cenomanian
+  late_interval: Turonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Katepensaurus goicoecheai
+  authority: Ibiricu et al. 2013
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: original description
+formations:
+- formation: Bajo Barreal
+  group: ''
+  members: [Lower]
+  country: Argentina
+  regions: [Chubut]
+  interval: Middle Cenomanian–Turonian
+  occurrences: 1
+  ma: [89.8, 100.5]
+  id: bajo-barreal-argentina
+fossil_material:
+  holotype: UNPSJB-PV 1007, a partial skeleton from the Lower Member of the Bajo Barreal Formation.
+  material: Known from the holotype; other rebbachisaurid specimens from the formation may belong to it.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Katepensaurus cervical vertebrae.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/61/Katepensaurus_cervical_vertebrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Katepensaurus_cervical_vertebrae.jpg
+  artist: Lucio M. Ibiricu, Matthew C. Lamanna, Rubén D.F. Martínez, Gabriel A. Casal, Ignacio A. Cerda, Gastón
+    Martínez, and Leonardo Salgado
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017'
+  caption: Cervical vertebrae of Katepensaurus goicoecheai.
+  width: 1183
+  height: 937
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/vector.svg
+  png: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/raster/512x114.png
+  page: https://www.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Limaysaurus tessonei
+  matched: Rebbachisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Ibiricu, L. M.; Casal, G. A.; Martínez, R. N. D.; Lamanna, M. C.; Luna, M.; Salgado, L. 2013. ''Katepensaurus
+    goicoecheai'', gen. et sp. nov., a Late Cretaceous rebbachisaurid (Sauropoda, Diplodocoidea) from central Patagonia,
+    Argentina. Journal of Vertebrate Paleontology 33(6). doi:10.1080/02724634.2013.776562
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Katepensaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Katepensaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Katepensaurus”. English Wikipedia, revision 1367255254.
+  url: https://en.wikipedia.org/w/index.php?title=Katepensaurus&oldid=1367255254
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

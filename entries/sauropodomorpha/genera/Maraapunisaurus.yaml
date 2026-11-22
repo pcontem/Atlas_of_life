@@ -1,0 +1,104 @@
+name: Maraapunisaurus
+rank: genus
+parent: rebbachisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Carpenter 2018
+type_species: Maraapunisaurus fragillimus
+type_species_note: Monotypic genus; originally named Amphicoelias fragillimus by Cope in 1878.
+summary: Maraapunisaurus is a sauropod from the Late Jurassic Morrison Formation of the United States, known from
+  one lost vertebra and sometimes estimated to be the largest dinosaur.
+size:
+  length_m: null
+  note: Size estimates vary widely because they rest on a 1878 description of a single lost bone; some analyses
+    suggest the figures are over-estimates (Wikipedia revision).
+age:
+  first_ma: 149.2
+  last_ma: 143.1
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Maraapunisaurus fragillimus
+  authority: (Cope 1878)
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin]
+  country: United States
+  regions: [Colorado]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: morrison-united-states
+fossil_material:
+  holotype: A single vertebral neural arch known only from Cope's description and drawing; the bone is lost.
+  material: Known from the lost holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Maraapunisaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Maraapunisaurus_TD.png/960px-Maraapunisaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Maraapunisaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-12'
+  caption: Life restoration of Maraapunisaurus fragillimus.
+  width: 2800
+  height: 800
+  review: unreviewed
+- kind: skeletal
+  file: Maraapunisaurus fragillimus Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Maraapunisaurus_fragillimus_Skeletal.png/960px-Maraapunisaurus_fragillimus_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Maraapunisaurus_fragillimus_Skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-09-15'
+  caption: Skeletal reconstruction of Maraapunisaurus fragillimus.
+  width: 11376
+  height: 6027
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/vector.svg
+  png: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/raster/512x114.png
+  page: https://www.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Limaysaurus tessonei
+  matched: Rebbachisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: K. Carpenter. 2018. Maraapunisaurus fragillimus, N.G. (Formerly Amphicoelias fragillimus), A Basal Rebbachisaurid
+    From the Morrison Formation (Upper Jurassic) of Colorado. Geology of the Intermountain West 5:227-244
+- kind: literature
+  text: 'Woodruff, D. C.; Foster, J. R. 2014. The fragile legacy of Amphicoelias fragillimus (Dinosauria: Sauropoda;
+    Morrison Formation – latest Jurassic). Volumina Jurassica 12(2): 211-220. doi:10.7287/peerj.preprints.838v1'
+- kind: literature
+  text: 'Carpenter, Kenneth 2018. ''''Maraapunisaurus fragillimus'''', N.G. (formerly ''''Amphicoelias fragillimus''''),
+    a basal Rebbachisaurid from the Morrison Formation (Upper Jurassic) of Colorado. Geology of the Intermountain
+    West 5: 227–244. doi:10.31711/giw.v5i0.28'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Maraapunisaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Maraapunisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maraapunisaurus”. English Wikipedia, revision 1382544950.
+  url: https://en.wikipedia.org/w/index.php?title=Maraapunisaurus&oldid=1382544950
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype description (the 1878 original as Amphicoelias fragillimus) and size estimates to be read from Woodruff
+    and Foster 2014 and Carpenter 2018; PBDB places Amphicoelias separately.
+  reviews: []

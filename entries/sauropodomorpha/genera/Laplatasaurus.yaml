@@ -1,0 +1,77 @@
+name: Laplatasaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1927
+type_species: Laplatasaurus araukanicus
+type_species_note: Named without a description by von Huene in 1927 (nomen nudum) and validated with its type species
+  in 1929 (Wikipedia revision).
+summary: Laplatasaurus is a titanosaur from the Campanian Anacleto Formation of Argentina, based on fragmentary
+  material found in three places.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Laplatasaurus araukanicus
+  authority: (Huene 1927)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Anacleto
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: anacleto-argentina
+fossil_material:
+  holotype: Fragmentary material from three localities in Argentina; specimen numbers not read.
+  material: Fragmentary material from the Anacleto Formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/vector.svg
+  png: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/raster/512x210.png
+  page: https://www.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Tiamat valdecii
+  matched: Titanosauria
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Wilson, Jeffrey A.; Upchurch, Paul Janu. A revision of ''''Titanosaurus'''' Lydekker (dinosauria - sauropoda),
+    the first dinosaur genus with a ''Gondwanan'' distribution. Journal of Systematic Palaeontology 1(3): 125–160.
+    doi:10.1017/s1477201903001044'
+- kind: literature
+  text: 'Gallina, Pablo Ariel; Otero, Alejandro 2015. Reassessment of ''''Laplatasaurus araukanicus'''' (Sauropoda:
+    Titanosauria) from the Upper Cretaceous of Patagonia, Argentina. Ameghiniana 52(5). doi:10.5710/amgh.08.06.2015.2911'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Laplatasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Laplatasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Laplatasaurus”. English Wikipedia, revision 1375083650.
+  url: https://en.wikipedia.org/w/index.php?title=Laplatasaurus&oldid=1375083650
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image among the harvested candidates. Type species name from the revision's account; check Gallina and Otero
+    2015.
+  reviews: []

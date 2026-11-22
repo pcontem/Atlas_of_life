@@ -1,0 +1,71 @@
+name: Rayososaurus
+rank: genus
+parent: rebbachisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1996
+type_species: Rayososaurus agrioensis
+type_species_note: Monotypic genus; Limaysaurus tessonei was once included as R. tessonei.
+summary: Rayososaurus is a rebbachisaurid sauropod from the Albian of Neuquen, Argentina, named by Bonaparte in
+  1996 and known from one specimen.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rayososaurus agrioensis
+  authority: Bonaparte 1996
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Candeleros
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: candeleros-argentina
+fossil_material:
+  holotype: The only known specimen, found near the Agrio River.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/vector.svg
+  png: https://images.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098/raster/512x114.png
+  page: https://www.phylopic.org/images/80596e4b-3b9f-4521-9d4a-a1b2ab2a0098
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Limaysaurus tessonei
+  matched: Rebbachisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Bonaparte, José F. 1996. Cretaceous tetrapods of Argentina. Münchner Geowissenschaftliche Abhandlungen
+    Reihe A: Geologie und Paläontologie 30: 76–130.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rayososaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rayososaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rayososaurus”. English Wikipedia, revision 1375297088.
+  url: https://en.wikipedia.org/w/index.php?title=Rayososaurus&oldid=1375297088
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image among the harvested candidates. Material and number to be read from Bonaparte 1996.
+  reviews: []

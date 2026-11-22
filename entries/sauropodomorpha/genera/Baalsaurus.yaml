@@ -1,0 +1,81 @@
+name: Baalsaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Calvo and Gonzalez Riga 2019
+type_species: Baalsaurus mansillai
+type_species_note: Monotypic genus; the only species is the type.
+summary: Baalsaurus is a titanosaur from the Late Cretaceous of Neuquen Province, Patagonia, Argentina.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 93.9
+  last_ma: 85.7
+  early_interval: Turonian
+  late_interval: Coniacian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Baalsaurus mansillai
+  authority: Calvo and Gonzalez Riga 2019
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: original description
+formations:
+- formation: Portezuelo
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Late Turonian–Early Coniacian
+  occurrences: 1
+  ma: [85.7, 93.9]
+  id: portezuelo-argentina
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Baalsaurus reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Baalsaurus_reconstruction.png/960px-Baalsaurus_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Baalsaurus_reconstruction.png
+  artist: Atlantis536
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-06-16'
+  caption: Life restoration of Baalsaurus mansillai.
+  width: 2302
+  height: 1078
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/vector.svg
+  png: https://images.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd/raster/512x210.png
+  page: https://www.phylopic.org/images/f7d45ad0-0d64-4871-a59b-1414a41487dd
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Tiamat valdecii
+  matched: Titanosauria
+  genus_level: false
+sources:
+- kind: literature
+  text: Jorge O. Calvo 2018. ''Baalsaurus mansillai'' gen. et sp. nov. a new titanosaurian sauropod (Late Cretaceous)
+    from Neuquén, Patagonia, Argentina. Anais da Academia Brasileira de Ciências 91(Suppl 2). doi:10.1590/0001-3765201820180661
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Baalsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Baalsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Baalsaurus”. English Wikipedia, revision 1314278953.
+  url: https://en.wikipedia.org/w/index.php?title=Baalsaurus&oldid=1314278953
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype and material to be read from Calvo and Gonzalez Riga 2018.]
+  reviews: []
