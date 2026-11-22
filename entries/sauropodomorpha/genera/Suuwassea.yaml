@@ -1,0 +1,128 @@
+name: Suuwassea
+rank: genus
+parent: dicraeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Harris and Dodson 2004
+type_species: Suuwassea emilieae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Suuwassea is a dicraeosaurid sauropod from the Morrison Formation of Montana with a mix of diplodocid and
+  dicraeosaurid features.
+size:
+  length_m: [15, 15]
+  mass_kg: [5000, 5000]
+  note: Estimate given by the cited Wikipedia revision.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Suuwassea emilieae
+  authority: (Harris and Dodson 2004)
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 2
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: A disarticulated but associated partial skeleton collected in Carbon County, Montana, in 1999 and 2000;
+    the number was not read.
+  material: Partial skeleton including skull and axial elements.
+  completeness: partial
+  exceptional: ''
+biology: Differs from dicraeosaurids in having unfused frontals; no behavioural data were read.
+images:
+- kind: fossil
+  file: Suuwassea.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Suuwassea.jpg/960px-Suuwassea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Suuwassea.jpg
+  artist: Sébastien Bertrand from Paris, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: Taken on 2
+  caption: Bones of Suuwassea emilieae (figure).
+  width: 4963
+  height: 1468
+  review: unreviewed
+- kind: fossil
+  file: Suuwassea cervicals.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Suuwassea_cervicals.jpg/960px-Suuwassea_cervicals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Suuwassea_cervicals.jpg
+  artist: Skye McDavid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-03-11'
+  caption: Cervical vertebrae of Suuwassea.
+  width: 3153
+  height: 590
+  review: unreviewed
+- kind: fossil
+  file: Suuwassea dorsal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Suuwassea_dorsal.jpg/960px-Suuwassea_dorsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Suuwassea_dorsal.jpg
+  artist: Skye McDavid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-03-11'
+  caption: Dorsal vertebra of Suuwassea.
+  width: 1738
+  height: 1592
+  review: unreviewed
+- kind: fossil
+  file: Suuwassea bones in the Academy of Natural Sciences of Philadelphia.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Suuwassea_bones_in_the_Academy_of_Natural_Sciences_of_Philadelphia.jpg/960px-Suuwassea_bones_in_the_Academy_of_Natural_Sciences_of_Philadelphia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Suuwassea_bones_in_the_Academy_of_Natural_Sciences_of_Philadelphia.jpg
+  artist: Laura Blanchard
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-09-25'
+  caption: Suuwassea bones in the Academy of Natural Sciences.
+  width: 5712
+  height: 4284
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/vector.svg
+  png: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/raster/512x147.png
+  page: https://www.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dicraeosaurus
+  matched: Dicraeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. D. Harris and P. Dodson. 2004. A new diplodocoid sauropod dinosaur from the Upper Jurassic Morrison Formation
+    of Montana, USA. Acta Palaeontologica Polonica 49(2):197-210
+- kind: literature
+  text: 'Whitlock, John A. 2011. A phylogenetic analysis of Diplodocoidea (Saurischia: Sauropoda). Zoological Journal
+    of the Linnean Society 161(4): 872–915. doi:10.1111/j.1096-3642.2010.00665.x'
+- kind: literature
+  text: 'Tschopp, Emanuel; Mateus, Octávio; Benson, Roger B.J. 2015. A specimen-level phylogenetic analysis and
+    taxonomic revision of Diplodocidae (Dinosauria, Sauropoda). PeerJ 3: e857. doi:10.7717/peerj.857'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Suuwassea (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Suuwassea
+- kind: encyclopedia
+  text: Wikipedia contributors. “Suuwassea”. English Wikipedia, revision 1382833977.
+  url: https://en.wikipedia.org/w/index.php?title=Suuwassea&oldid=1382833977
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original description placed it in Flagellicaudata incertae sedis; a later analysis put it in Apatosaurinae;
+    the 2015 study (cited) puts it in Dicraeosauridae, which is used here.
+  reviews: []

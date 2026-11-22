@@ -113,11 +113,11 @@ def check_genus(e, path, clade_ids, excluded_names, measure="wingspan"):
     rng = lambda v, top: isinstance(v, list) and len(v) == 2 and all(isinstance(x, (int, float)) for x in v) and 0 < v[0] <= v[1] < top
     sz = size.get(key)
     if sz is not None:
-        if not rng(sz, 25):
+        if not rng(sz, 25 if measure == "wingspan" else 60):
             err("G8", w, f"{key} must be [min, max] in metres, got {sz}")
     elif not (size.get("note") or "").strip():
         strict("G8", w, f"no {measure}: give one, or say in size.note why it is unknown")
-    if size.get("mass_kg") is not None and not rng(size["mass_kg"], 20000):
+    if size.get("mass_kg") is not None and not rng(size["mass_kg"], 150000):
         err("G8", w, f"mass_kg must be [min, max] in kilograms, got {size['mass_kg']}")
     if e.get("extant") not in (None, True, False):
         err("G1", w, "extant must be true or false")

@@ -50,3 +50,21 @@
   Ctenosuchus, Eosphorosuchus, Galahadosuchus, Herugavialis, Labrujasuchus, Mandrasuchus, Kuttysuchus, Olkasuchus. They cite only the naming paper
   (the Wikipedia revision ids could not be fetched), have no images, and each curation note gives the formation and locality. Euphorosuchus was
   replaced by Eosphorosuchus (TREE_REVIEW.md). Pages for 2024 and earlier were not checked; the 2025/2026 pages were read only in part (first 100,000 characters).
+
+# Next steps (Sauropodomorpha)
+
+## Done
+- 21 clade entries (2026-11-21) and batch 1 of genera (2026-11-22): the sixteen Diplodocoidea genera listed in DECISIONS.md.
+
+## Pending
+- Batch 2 onwards, following `docs/QUEUE_GENERA.md` (next units: brachiosauridae, euhelopodidae, lognkosauria, macronaria, mamenchisauridae, …).
+- Diplodocus has no image (only size charts, a sculpture and a 1912 cartoon among the candidates).
+- Holotype numbers not read for Apatosaurus, Brontosaurus, Barosaurus, Diplodocus, Tornieria, Dicraeosaurus, Amargasaurus, Suuwassea, Bajadasaurus;
+  Kaatedocus (SMA 004), Supersaurus (BYU 9025) and Haplocanthosaurus (CM 572) need confirmation against the naming papers.
+- Images were chosen from the contact sheets by file name and a look at one mosaic per half of the batch; all `unreviewed`. Use the image picker to confirm.
+- Lingwulong: age and formation (Yanan vs Zhiluo) and placement (Xu et al. 2018 vs Mannion and Moore 2025) unresolved.
+- Formation entries for the new genera need summary and paleoenvironment text (F5).
+
+## Open questions
+- Confirm the new G8 size limits (60 m, 150,000 kg) in `scripts/validate.py`.
+- Gigantosaurus Fraas 1908 is listed as a junior synonym of Barosaurus (PBDB), although its type species became Tornieria africana; check.

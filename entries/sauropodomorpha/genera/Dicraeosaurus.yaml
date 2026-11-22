@@ -1,0 +1,129 @@
+name: Dicraeosaurus
+rank: genus
+parent: dicraeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Janensch 1914
+type_species: Dicraeosaurus hansemanni
+type_species_note: From the English Wikipedia taxobox.
+summary: Dicraeosaurus is a medium-sized dicraeosaurid sauropod with a short neck and forked neural spines from
+  the Late Jurassic of Tanzania.
+size:
+  length_m: [14, 15]
+  mass_kg: [5000, 6000]
+  note: Estimate given by the cited Wikipedia revision.
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 19
+  note: ''
+species:
+- name: Dicraeosaurus hansemanni
+  authority: Janensch 1914
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+- name: Dicraeosaurus sattleri
+  authority: Janensch 1914
+  first_ma: 152.21
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+formations:
+- formation: Tendaguru
+  group: ''
+  members: [Lower Dinosaur, Middle Dinosaur, Upper Dinosaur]
+  country: Tanzania
+  regions: [Lindi]
+  interval: Oxfordian–Tithonian
+  occurrences: 18
+  ma: [143.1, 161.5]
+  id: tendaguru-tanzania
+- formation: Kadzi
+  group: ''
+  members: []
+  country: Zimbabwe
+  regions: [Mashonaland North]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: kadzi-zimbabwe
+fossil_material:
+  holotype: Not read in the sources consulted; named by Janensch in 1914.
+  material: Remains from the Tendaguru beds, Tanzania; PBDB also records one occurrence in the Kadzi Formation of
+    Zimbabwe.
+  completeness: multiple
+  exceptional: ''
+biology: Its 12 short neck vertebrae suggest low browsing below about 3 m; it lacked the whiplash tail tip of other
+  diplodocoids; modelled adult age was 11–22 years.
+images:
+- kind: fossil
+  file: Dicraeosaurus Berlin.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Dicraeosaurus_Berlin.jpg/960px-Dicraeosaurus_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dicraeosaurus_Berlin.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009'
+  caption: Mounted skeleton of Dicraeosaurus in Berlin.
+  width: 2552
+  height: 1525
+  review: unreviewed
+- kind: fossil
+  file: Dicraeosaurus hansemanni Eleventh Cervical Vertebra.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/62/Dicraeosaurus_hansemanni_Eleventh_Cervical_Vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dicraeosaurus_hansemanni_Eleventh_Cervical_Vertebra.jpg
+  artist: Amy Campbell
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-03-11'
+  caption: Eleventh cervical vertebra of Dicraeosaurus hansemanni.
+  width: 1548
+  height: 2502
+  review: unreviewed
+- kind: fossil
+  file: Dicraeosaurus hansemanni Sixth Cervical Vertebra.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Dicraeosaurus_hansemanni_Sixth_Cervical_Vertebra.jpg/960px-Dicraeosaurus_hansemanni_Sixth_Cervical_Vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dicraeosaurus_hansemanni_Sixth_Cervical_Vertebra.jpg
+  artist: Amy Campbell
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-01-28'
+  caption: Sixth cervical vertebra of Dicraeosaurus hansemanni.
+  width: 1824
+  height: 1902
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/vector.svg
+  png: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/raster/512x147.png
+  page: https://www.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dicraeosaurus
+  matched: Dicraeosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: W. Janensch. 1914. Übersicht über die Wirbeltierfauna der Tendaguru-Schichten [Overview of the vertebrate
+    fauna of the Tendaguru beds]. Archiv für Biontologie 3:81-110
+- kind: literature
+  text: 'Lehman, T.M.; Woodward, H.N. 2008. Modelling growth rates for sauropod dinosaurs. Paleobiology 34(2): 264–281.
+    doi:10.1666/0094-8373(2008)034[0264:MGRFSD]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dicraeosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dicraeosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dicraeosaurus”. English Wikipedia, revision 1318003696.
+  url: https://en.wikipedia.org/w/index.php?title=Dicraeosaurus&oldid=1318003696
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number and museum not read; check Janensch 1914.
+  - Wikipedia revision flagged as not about the genus by the harvest; check it.
+  reviews: []
