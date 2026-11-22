@@ -1,0 +1,165 @@
+name: Neuquensaurus
+rank: genus
+parent: saltasauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Powell 1992
+type_species: Neuquensaurus australis
+type_species_note: Originally Titanosaurus australis Lydekker 1893 (cited Wikipedia revision).
+summary: Neuquensaurus is a small saltasaurine titanosaur from the Late Cretaceous of Patagonia, among the best-known
+  Patagonian sauropods.
+size:
+  length_m: [7, 9]
+  mass_kg: [1800, 3500]
+  note: Estimate in the cited Wikipedia revision; the femur is only about 0.75 m long.
+age:
+  first_ma: 85.7
+  last_ma: 66
+  early_interval: Santonian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 15
+  note: ''
+species:
+- name: Neuquensaurus australis
+  authority: (Lydekker 1893)
+  first_ma: 85.7
+  last_ma: 66
+  interval: Santonian–Maastrichtian
+  reference: original description
+formations:
+- formation: Anacleto
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: anacleto-argentina
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén, Río Negro]
+  interval: Santonian
+  occurrences: 4
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+- formation: Allen
+  group: Malargüe
+  members: [Lower]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: allen-argentina
+- formation: Asencio
+  group: ''
+  members: [Del Palacio]
+  country: Uruguay
+  regions: [Soriano]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: asencio-uruguay
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+- formation: '?'
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Senonian
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: argentina
+- formation: Lecho
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lecho-argentina
+fossil_material:
+  holotype: Six caudal vertebrae, MLP Ly 1-6-V-28-1, are the holotype of the species; four lectotypes were chosen
+    in 1978.
+  material: Fossils described in 1893, early twentieth-century collections and a well preserved partially articulated
+    specimen described in 2005.
+  completeness: multiple
+  exceptional: ''
+biology: A derived saltasaurine; its closest relatives were Saltasaurus, Rocasaurus and Bonatitan.
+images:
+- kind: fossil
+  file: Neuquensaurus in Prague.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Neuquensaurus_in_Prague.jpg/960px-Neuquensaurus_in_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neuquensaurus_in_Prague.jpg
+  artist: Karelj
+  license: Public domain
+  license_url: ''
+  date: 2008-04
+  caption: Mounted skeleton of Neuquensaurus.
+  width: 2464
+  height: 2034
+  review: unreviewed
+- kind: fossil
+  file: Neuquensaurus skeleton mount.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Neuquensaurus_skeleton_mount.jpg/960px-Neuquensaurus_skeleton_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neuquensaurus_skeleton_mount.jpg
+  artist: PaleoNeolitic
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-09-20'
+  caption: Mounted skeleton of Neuquensaurus at a museum.
+  width: 4032
+  height: 3024
+  review: unreviewed
+- kind: fossil
+  file: Neuquensaurus australis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Neuquensaurus_australis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Neuquensaurus_australis.jpg
+  artist: Alejandro Otero
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2010'
+  caption: Skeleton mount of Neuquensaurus australis.
+  width: 468
+  height: 345
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3e760e91-893b-4def-88ac-492e0ab22319/vector.svg
+  png: https://images.phylopic.org/images/3e760e91-893b-4def-88ac-492e0ab22319/raster/512x154.png
+  page: https://www.phylopic.org/images/3e760e91-893b-4def-88ac-492e0ab22319
+  attribution: Ryan Santos Soledade
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Neuquensaurus australis
+  matched: Neuquensaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. E. Powell. 1992. Osteologia de Saltasaurus loricatus (Sauropoda - Titanosauridae) del Cretácico Superior
+    del noroeste Argentino [Osteology of Saltasaurus loricatus (Sauropoda - Titanosauridae) from the Upper Cretaceous
+    of northwest Argentina]. In J. L. Sanz & A. D. Buscalioni (eds.), Los Dinosaurios y Su Entorno Biotico: Actas
+    del Segundo Curso de Paleontologia in Cuenca. Institutio "Juan de Valdes", Cuenca, Argentina'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neuquensaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neuquensaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neuquensaurus”. English Wikipedia, revision 1375560777.
+  url: https://en.wikipedia.org/w/index.php?title=Neuquensaurus&oldid=1375560777
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

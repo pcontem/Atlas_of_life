@@ -1,0 +1,88 @@
+name: Opisthocoelicaudia
+rank: genus
+parent: saltasauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Borsuk-Bialynicka 1977
+type_species: Opisthocoelicaudia skarzynskii
+type_species_note: Monotypic genus; the only species is the type.
+summary: Opisthocoelicaudia is a small titanosaur from the Maastrichtian Nemegt Formation of Mongolia, known from
+  a skeleton lacking neck and skull.
+size:
+  length_m: [11.4, 13]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Opisthocoelicaudia skarzynskii
+  authority: Borsuk-Bialynicka 1977
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: A skeleton found in June 1965 by a Polish-Mongolian expedition, now in Ulaanbaatar (catalogue number
+    MPC-D100/...); the full number was not read.
+  material: The holotype lacks the neck and skull; two much less complete specimens are known, including a shoulder
+    blade and coracoid (ZPAL MgD-I/25c).
+  completeness: partial
+  exceptional: ''
+biology: Originally classified as a camarasaurid with Camarasaurus and Euhelopus.
+images:
+- kind: life
+  file: Opisthocoelicaudia flipped.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Opisthocoelicaudia_flipped.jpg/960px-Opisthocoelicaudia_flipped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Opisthocoelicaudia_flipped.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014'
+  caption: Life restoration of Opisthocoelicaudia.
+  width: 1647
+  height: 583
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca/vector.svg
+  png: https://images.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca/raster/512x273.png
+  page: https://www.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Opisthocoelicaudia skarzynskii
+  matched: Opisthocoelicaudia
+  genus_level: true
+sources:
+- kind: original
+  text: M. Borsuk-Bialynicka. 1977. A new camarasaurid sauropod Opisthocoelicaudia skarzynskii gen. n., sp. n. from
+    the Upper Cretaceous of Mongolia. Palaeontologia Polonica 37:5-64
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Opisthocoelicaudia (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Opisthocoelicaudia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Opisthocoelicaudia”. English Wikipedia, revision 1385849826.
+  url: https://en.wikipedia.org/w/index.php?title=Opisthocoelicaudia&oldid=1385849826
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Catalogue number of the holotype is truncated in the text read (MPC-D100/...). Check.
+  - Two mounted-skeleton photos (CC BY-SA 3.0 PL, Museum of Evolution, Warsaw) were left out because the validator
+    does not accept the Polish port of CC BY-SA; CC BY-SA is allowed in any version, so the owner may decide to
+    accept them.
+  reviews: []

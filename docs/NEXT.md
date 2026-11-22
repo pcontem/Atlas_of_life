@@ -57,8 +57,10 @@
 - 21 clade entries (2026-11-21) and batch 1 of genera (2026-11-22): the sixteen Diplodocoidea genera listed in DECISIONS.md (PR 44).
 - Batch 2 (2026-11-22): Brachiosaurus, Abydosaurus, Cedarosaurus, Europasaurus, Giraffatitan, Sauroposeidon, Euhelopus, Huabeisaurus, Abrosaurus, Camarasaurus, Liaoningotitan, Garumbatitan, Wintonotitan, Mierasaurus, Moabosaurus, Turiasaurus; Diplodocus images added from the Seismosaurus contact sheet.
 
+- Batch 3 (2026-11-22): Argentinosaurus, Futalognkosaurus, Mendozasaurus, Patagotitan, Rinconsaurus, Analong, Mamenchisaurus, Omeisaurus, Qijianglong, Xinjiangtitan, Nemegtosaurus, Alamosaurus, Opisthocoelicaudia, Ibirania, Neuquensaurus, Saltasaurus. Jichuanlong (backbone node only) is not in the harvest and is still pending.
+
 ## Pending
-- Batch 2 onwards, following `docs/QUEUE_GENERA.md` (next units: brachiosauridae, euhelopodidae, lognkosauria, macronaria, mamenchisauridae, …).
+- Batch 4 onwards, following `docs/QUEUE_GENERA.md` (next units: brachiosauridae, euhelopodidae, lognkosauria, macronaria, mamenchisauridae, …).
 - Harvest gap: the Wikipedia article pictures were not captured for about 200 of the 449 pages (empty `files`), and the Commons category step takes only the first 15 files, so some genera lack good candidates (Garumbatitan has none). Re-harvest with a fix or add images by hand.
 - Holotype numbers not read for Apatosaurus, Brontosaurus, Barosaurus, Diplodocus, Tornieria, Dicraeosaurus, Amargasaurus, Suuwassea, Bajadasaurus;
   Kaatedocus (SMA 004), Supersaurus (BYU 9025) and Haplocanthosaurus (CM 572) need confirmation against the naming papers.

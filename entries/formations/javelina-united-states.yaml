@@ -1,20 +1,41 @@
 id: javelina-united-states
 name: Javelina
 rank: formation
-group: ''
+group: Tornillo
 country: United States
 regions: [Texas]
 location:
-  lat: 29.346
-  lng: -103.227
-  basis: median of 8 PBDB collections that yielded the atlas genera
+  lat: 29.402
+  lng: -103.204
+  basis: median of 16 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet., '"channel"', '"floodplain"']
-lithology: [sandstone, siltstone, mudstone]
-pbdb_collections: ['52090', '85190', '85191', '92247', '92249', '92251', '230204', '230206']
+environment:
+- fluvial indet.
+- '"channel"'
+- terrestrial indet.
+- '"floodplain"'
+- lacustrine indet.
+lithology: [sandstone, mudstone, siltstone, claystone]
+pbdb_collections:
+- '52090'
+- '52091'
+- '61847'
+- '85189'
+- '85190'
+- '85191'
+- '92247'
+- '92249'
+- '92251'
+- '165562'
+- '226999'
+- '230204'
+- '230206'
+- '231098'
+- '231099'
+- '231100'
 includes: []
 summary: ''
 paleoenvironment: ''

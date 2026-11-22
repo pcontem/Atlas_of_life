@@ -1,0 +1,36 @@
+id: javelina-mexico
+name: Javelina
+rank: formation
+group: ''
+country: Mexico
+regions: [Chihuahua]
+location:
+  lat: 29.424
+  lng: -103.183
+  basis: median of 10 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment:
+- terrestrial indet.
+- '"channel"'
+- fluvial indet.
+- '"floodplain"'
+- lacustrine indet.
+lithology: [mudstone, sandstone, siltstone, claystone]
+pbdb_collections: ['52090', '52091', '61847', '85189', '85191', '165562', '226999', '231098', '231099', '231100']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Javelina (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Javelina
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

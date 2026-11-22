@@ -341,3 +341,8 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
   pseudosuchians. They rejected normal sauropod values (Barosaurus 25–27 m, Supersaurus 33–39 m, Apatosaurus 16–22 t). New limits:
   length_m < 60 m (wingspan_m stays < 25 m) and mass_kg < 150,000 kg. Only a sanity bound; flagged for the owner to confirm.
 - Kaatedocus and Lingwulong sit in Diplodocoidea as `incertae_sedis` (analyses disagree, M2); Diplodocus has no usable image among the harvested candidates.
+
+## 2026-11-22 — Sauropodomorpha: batches 2 and 3
+- 16 Macronaria/Turiasauria genera (batch 2) and 16 titanosaur and mamenchisaurid genera (batch 3: Lognkosauria, Mamenchisauridae, Saltasauroidea) written as ai-draft; PBDB junior synonyms added to `excluded.yaml`.
+- Diplodocus images were taken from the contact sheet of its synonym Seismosaurus, because the harvest took only 15 loose Commons files for Diplodocus and missed the article pictures.
+- Licence note: two Opisthocoelicaudia photos are CC BY-SA 3.0 PL (Polish port); `validate.py` rejects the string although CLAUDE.md allows CC BY-SA in any version. The photos were left out pending the owner's decision.

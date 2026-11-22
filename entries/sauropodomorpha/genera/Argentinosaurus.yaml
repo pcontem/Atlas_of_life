@@ -1,0 +1,124 @@
+name: Argentinosaurus
+rank: genus
+parent: lognkosauria
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte and Coria 1993
+type_species: Argentinosaurus huinculensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Argentinosaurus is a gigantic titanosaur from the Cretaceous of Argentina, among the largest land animals
+  known, though only fragmentary remains exist.
+size:
+  length_m: [30, 35]
+  mass_kg: [65000, 80000]
+  note: Estimates in the cited Wikipedia revision, based on fragmentary remains.
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Argentinosaurus huinculensis
+  authority: Bonaparte and Coria 1993
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: MCF-PVPH 1, the individual found near Plaza Huincul, Neuquén; further specimens are a complete femur
+    and the shaft of another, and a femur in La Plata (MLP-DP 46-VIII-21-3).
+  material: Fragmentary vertebrae, ribs and limb bones from one individual, plus two femora from other individuals
+    of similar size.
+  completeness: fragmentary
+  exceptional: ''
+biology: Relationships within Titanosauria are among the least understood of any dinosaur group, and no behavioural
+  data were read in the sources consulted.
+images:
+- kind: life
+  file: Argentinosaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Argentinosaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Argentinosaurus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-08-15'
+  caption: Life restoration of Argentinosaurus.
+  width: 1280
+  height: 533
+  review: unreviewed
+- kind: fossil
+  file: Argentinosaurus skeleton, PLoS ONE.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Argentinosaurus_skeleton%2C_PLoS_ONE.png/960px-Argentinosaurus_skeleton%2C_PLoS_ONE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Argentinosaurus_skeleton,_PLoS_ONE.png
+  artist: William Irvin Sellers, Lee Margetts, Rodolfo Aníbal Coria, Phillip Lars Manning
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013-10-30'
+  caption: Skeleton mount of Argentinosaurus.
+  width: 2816
+  height: 1736
+  review: unreviewed
+- kind: fossil
+  file: Argentinosaurus LACM.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Argentinosaurus_LACM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Argentinosaurus_LACM.jpg
+  artist: Matt J. Wedel
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2013-04-08'
+  caption: Dorsal vertebra of Argentinosaurus at the LA County Museum.
+  width: 1000
+  height: 1000
+  review: unreviewed
+- kind: fossil
+  file: Argentinosaurus dorsal LA County Museum 3.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Argentinosaurus_dorsal_LA_County_Museum_3.jpg/960px-Argentinosaurus_dorsal_LA_County_Museum_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Argentinosaurus_dorsal_LA_County_Museum_3.jpg
+  artist: Etemenanki3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-04-21'
+  caption: Dorsal vertebra of Argentinosaurus.
+  width: 3648
+  height: 5472
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556/vector.svg
+  png: https://images.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556/raster/512x252.png
+  page: https://www.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Alamosaurus sanjuanensis
+  matched: Eutitanosauria
+  genus_level: false
+sources:
+- kind: original
+  text: J. F. Bonaparte and R. A. Coria. 1993. Un nuevo y gigantesco saurópodo titanosaurio de la Formación Rio
+    Limay (Albanio-Cenomaniano) de la Provincia del Neuquén, Argentina [A new and huge titanosaur sauropod from
+    the Rio Limay Formation (Albian-Cenomanian) of Neuquén Province, Argentina]. Ameghiniana 30(3):271-282
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Argentinosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Argentinosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Argentinosaurus”. English Wikipedia, revision 1383583761.
+  url: https://en.wikipedia.org/w/index.php?title=Argentinosaurus&oldid=1383583761
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Mounted skeletons of Argentinosaurus are reconstructions from few bones; check the captions.
+  reviews: []

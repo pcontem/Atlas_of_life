@@ -1,0 +1,73 @@
+name: Qijianglong
+rank: genus
+parent: mamenchisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Xing et al. 2015
+type_species: Qijianglong guokr
+type_species_note: Monotypic genus; the only species is the type.
+summary: Qijianglong is a long-necked mamenchisaurid known from a partial skeleton with a skull from the Suining
+  Formation of China.
+size:
+  length_m: [15, 15]
+  note: The holotype was about 15 m long (cited Wikipedia revision).
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: The Suining Formation is of debated age, Late Jurassic or Early Cretaceous by different methods; PBDB gives
+    Oxfordian–Tithonian.
+species:
+- name: Qijianglong guokr
+  authority: Xing et al. 2015
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+formations:
+- formation: Suining
+  group: ''
+  members: []
+  country: China
+  regions: [Chongqing]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: suining-china
+fossil_material:
+  holotype: QJGPM 1001, a partial skeleton with the rear of the skull, a partial lower jaw, all seventeen neck vertebrae,
+    the first six back vertebrae, ribs, 28 rear tail vertebrae and part of the limbs.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: It had a long neck of seventeen vertebrae.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/vector.svg
+  png: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/raster/512x332.png
+  page: https://www.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Omeisaurus tianfuensis
+  matched: Mamenchisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: L. Xing, T. Miyashita, and J. Zhang, D. Li, Y. Te, T. Sekiya, F. Wang, P. J. Currie. 2015. A new sauropod
+    dinosaur from the Late Jurassic of China and the diversity, distribution, and relationships of mamenchisaurids.
+    Journal of Vertebrate Paleontology 35(1):e889701:1-17
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Qijianglong (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Qijianglong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Qijianglong”. English Wikipedia, revision 1355344791.
+  url: https://en.wikipedia.org/w/index.php?title=Qijianglong&oldid=1355344791
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No image among the harvested candidates. Age debated.]
+  reviews: []
