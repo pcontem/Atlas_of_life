@@ -1,0 +1,99 @@
+name: Xinjiangtitan
+rank: genus
+parent: mamenchisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 2013
+type_species: Xinjiangtitan shanshanesis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Xinjiangtitan is a giant Middle Jurassic sauropod from Xinjiang, China, with the longest complete neck
+  known for any animal.
+size:
+  length_m: [30, 32]
+  mass_kg: [40000, 40000]
+  note: Length and maximum mass as given by the cited Wikipedia revision.
+age:
+  first_ma: 168.2
+  last_ma: 143.1
+  early_interval: Bathonian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xinjiangtitan shanshanesis
+  authority: Wu et al. 2013
+  first_ma: 168.2
+  last_ma: 143.1
+  interval: Bathonian–Tithonian
+  reference: original description
+formations:
+- formation: Qiketai
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Bathonian–Late Jurassic
+  occurrences: 1
+  ma: [143.1, 168.2]
+  id: qiketai-china
+fossil_material:
+  holotype: A single incomplete skeleton found in 2012 at a quarry 8 km south of Qiketai, Xinjiang; the number was
+    not read.
+  material: One of the most complete vertebral columns of any Asian sauropod; the neck has all 18 vertebrae and
+    is nearly 15 m long.
+  completeness: partial
+  exceptional: ''
+biology: Its complete 18-vertebra neck is the longest known for any animal, as described in 2018.
+images:
+- kind: life
+  file: Xinjiangtitan (adjusted).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Xinjiangtitan_%28adjusted%29.jpg/960px-Xinjiangtitan_%28adjusted%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Xinjiangtitan_(adjusted).jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-11-15'
+  caption: Life restoration of Xinjiangtitan shanshanesis.
+  width: 2812
+  height: 929
+  review: unreviewed
+  local: img/gallery/Xinjiangtitan_001.webp
+- kind: skeletal
+  file: Xinjiangtitan shanshanesis Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Xinjiangtitan_shanshanesis_Skeletal.png/960px-Xinjiangtitan_shanshanesis_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Xinjiangtitan_shanshanesis_Skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-18'
+  caption: Skeletal reconstruction of Xinjiangtitan shanshanesis.
+  width: 9647
+  height: 8000
+  review: unreviewed
+  local: img/gallery/Xinjiangtitan_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/vector.svg
+  png: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/raster/512x332.png
+  page: https://www.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Omeisaurus tianfuensis
+  matched: Mamenchisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: W.-H. Wu, C.-F. Zhou, and O. Wings, T. Sekiya, Z.-M. Dong. 2013. A new gigantic sauropod dinosaur from the
+    Middle Jurassic of Shanshan, Xinjiang. Global Geology 32(3):437-446
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xinjiangtitan (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xinjiangtitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xinjiangtitan”. English Wikipedia, revision 1383038333.
+  url: https://en.wikipedia.org/w/index.php?title=Xinjiangtitan&oldid=1383038333
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number not read.]
+  reviews: []

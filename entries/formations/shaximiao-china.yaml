@@ -5,16 +5,40 @@ group: Chongqing
 country: China
 regions: [Sichuan, Yunnan]
 location:
-  lat: 29.335
+  lat: 29.483
   lng: 104.765
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  basis: median of 20 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 170.9
-  last_ma: 154.8
+  first_ma: 174.7
+  last_ma: 143.1
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., lacustrine indet.]
-lithology: [sandstone, not reported, mudstone]
-pbdb_collections: ['24883', '131871', '131874', '230104']
+environment:
+- terrestrial indet.
+- fluvial indet.
+- lacustrine indet.
+- fluvial-lacustrine indet.
+lithology: [not reported, sandstone, mudstone, '"shale"']
+pbdb_collections:
+- '24864'
+- '24883'
+- '28231'
+- '47071'
+- '47072'
+- '47134'
+- '51914'
+- '53662'
+- '53665'
+- '57771'
+- '58974'
+- '58975'
+- '60064'
+- '131866'
+- '131871'
+- '131874'
+- '205726'
+- '230104'
+- '232460'
+- '278588'
 includes: []
 summary: ''
 paleoenvironment: ''

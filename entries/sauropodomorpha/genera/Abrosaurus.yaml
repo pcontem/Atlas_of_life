@@ -1,0 +1,113 @@
+name: Abrosaurus
+rank: genus
+parent: macronaria
+incertae_sedis: true
+placement_note: Originally described as a camarasaurid and now seen as a basal macronarian (cited Wikipedia revision);
+  PBDB places it in Mamenchisauridae, so only Macronaria is used.
+authority: Ouyang 1989
+type_species: Abrosaurus dongpoensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Abrosaurus is a small macronarian sauropod known from a skull from the Middle Jurassic Dashanpu quarry
+  of Sichuan, China.
+size:
+  length_m: [9.1, 9.1]
+  note: Given as no more than about 9.1 m; an upper bound in the cited Wikipedia revision.
+age:
+  first_ma: 170.9
+  last_ma: 154.8
+  early_interval: Bajocian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Abrosaurus dongpoensis
+  authority: Ouyang 1989
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+fossil_material:
+  holotype: ZDM 5038, a nearly complete and very well preserved skull.
+  material: The skull; the remains have not been fully described.
+  completeness: fragmentary
+  exceptional: ''
+biology: One of at least five sauropod species known from the Lower Shaximiao Formation at Dashanpu.
+images:
+- kind: life
+  file: Abrosaurus2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Abrosaurus2.jpg/960px-Abrosaurus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Abrosaurus2.jpg
+  artist: Leví Martínez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014-03-30'
+  caption: Life restoration of Abrosaurus.
+  width: 4200
+  height: 3180
+  review: unreviewed
+  local: img/gallery/Abrosaurus_001.webp
+- kind: life
+  file: Abrosaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Abrosaurus_TD.png/960px-Abrosaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Abrosaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-07'
+  caption: Life restoration of Abrosaurus dongpoensis.
+  width: 2600
+  height: 1400
+  review: unreviewed
+  local: img/gallery/Abrosaurus_002.webp
+- kind: skeletal
+  file: Abrosaurus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Abrosaurus_skull.jpg/960px-Abrosaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Abrosaurus_skull.jpg
+  artist: Levi B. Martinez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2015-05-08'
+  caption: Skull reconstruction of Abrosaurus.
+  width: 2168
+  height: 1476
+  review: unreviewed
+  local: img/gallery/Abrosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/vector.svg
+  png: https://images.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef/raster/512x332.png
+  page: https://www.phylopic.org/images/7a260016-8958-445b-86da-1bb361b510ef
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Omeisaurus tianfuensis
+  matched: Mamenchisauridae
+  genus_level: false
+  w: 512
+  h: 332
+sources:
+- kind: original
+  text: H. Ouyang. 1989. [A new sauropod from Dashanpu, Zigong Co., Sichuan Province (Abrosaurus dongpoensis gen.
+    et sp. nov.)]. Zigong Dinosaur Museum Newsletter 2:10-14
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Abrosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Abrosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Abrosaurus”. English Wikipedia, revision 1310322620.
+  url: https://en.wikipedia.org/w/index.php?title=Abrosaurus&oldid=1310322620
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB reference is a Chinese museum newsletter; confirm the original description. Size is an upper bound only.
+  reviews: []

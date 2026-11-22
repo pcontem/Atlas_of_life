@@ -1,0 +1,112 @@
+name: Turiasaurus
+rank: genus
+parent: turiasauria
+incertae_sedis: false
+placement_note: ''
+authority: Royo-Torres et al. 2006
+type_species: Turiasaurus riodevensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Turiasaurus is a giant sauropod from the Late Jurassic of Teruel, Spain, believed to be the largest dinosaur
+  found in Europe.
+size:
+  length_m: [25, 30]
+  mass_kg: [40000, 51000]
+  note: Recent estimates in the cited Wikipedia revision; older estimates were 36–39 m. The femur is about 2.2 m
+    long.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Turiasaurus riodevensis
+  authority: Royo-Torres et al. 2006
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Villar del Arzobispo
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón, Teruel]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 5
+  ma: [143.1, 154.8]
+  id: villar-del-arzobispo-spain
+fossil_material:
+  holotype: An articulated left forelimb from the Villar del Arzobispo Formation at Riodeva; the number was not
+    read.
+  material: Skull fragments, teeth, vertebrae and ribs from the same formation.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological data were read in the sources consulted.
+images:
+- kind: fossil
+  file: Turiasaurus crane, Sur les traces des dinosaures, MNHN (34377).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Turiasaurus_crane%2C_Sur_les_traces_des_dinosaures%2C_MNHN_%2834377%29.jpg/960px-Turiasaurus_crane%2C_Sur_les_traces_des_dinosaures%2C_MNHN_%2834377%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Turiasaurus_crane,_Sur_les_traces_des_dinosaures,_MNHN_(34377).jpg
+  artist: Gustave en résidence
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2026-07-27'
+  caption: Skull of Turiasaurus riodevensis on display.
+  width: 3072
+  height: 4096
+  review: unreviewed
+  local: img/gallery/Turiasaurus_001.webp
+- kind: fossil
+  file: Turiasaurus crane, Sur les traces des dinosaures, MNHN.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Turiasaurus_crane%2C_Sur_les_traces_des_dinosaures%2C_MNHN.jpg/960px-Turiasaurus_crane%2C_Sur_les_traces_des_dinosaures%2C_MNHN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Turiasaurus_crane,_Sur_les_traces_des_dinosaures,_MNHN.jpg
+  artist: Gustave en résidence
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2026-07-27'
+  caption: Skull of Turiasaurus on display.
+  width: 3072
+  height: 4096
+  review: unreviewed
+  local: img/gallery/Turiasaurus_002.webp
+- kind: fossil
+  file: Turiasaurus neck vertebrae Angeac-Charente Musée Angoulême.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Turiasaurus_neck_vertebrae_Angeac-Charente_Mus%C3%A9e_Angoul%C3%AAme.jpg/960px-Turiasaurus_neck_vertebrae_Angeac-Charente_Mus%C3%A9e_Angoul%C3%AAme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Turiasaurus_neck_vertebrae_Angeac-Charente_Mus%C3%A9e_Angoul%C3%AAme.jpg
+  artist: Marie-Lan Taÿ Pamart
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Neck vertebrae of Turiasaurus.
+  width: 7408
+  height: 4167
+  review: unreviewed
+  local: img/gallery/Turiasaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/d75467aa-b824-407f-9975-51ea201d701e/vector.svg
+  png: https://images.phylopic.org/images/d75467aa-b824-407f-9975-51ea201d701e/raster/996x1024.png
+  page: https://www.phylopic.org/images/d75467aa-b824-407f-9975-51ea201d701e
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Amanzia greppini
+  matched: Turiasauria
+  genus_level: false
+sources:
+- kind: original
+  text: R. Royo-Torres, A. Cobos, and L. Alcalá. 2006. A giant European dinosaur and a new sauropod clade. Science
+    314:1925-1927
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Turiasaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Turiasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Turiasaurus”. English Wikipedia, revision 1380599408.
+  url: https://en.wikipedia.org/w/index.php?title=Turiasaurus&oldid=1380599408
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,243 @@
+name: Mamenchisaurus
+rank: genus
+parent: mamenchisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1954
+type_species: Mamenchisaurus constructus
+type_species_note: Named for the road construction during which the first fossil was found (cited Wikipedia revision).
+summary: Mamenchisaurus is a genus of long-necked sauropods of the Late Jurassic of China, with a taxonomy that
+  remains confused.
+size:
+  length_m: [15, 26]
+  note: Most species were 15–26 m long, possibly up to 35 m from two undescribed vertebrae (cited Wikipedia revision).
+age:
+  first_ma: 168.2
+  last_ma: 113.2
+  early_interval: Bathonian
+  late_interval: Aptian
+  pbdb_occurrences: 23
+  note: ''
+species:
+- name: Mamenchisaurus anyuensis
+  authority: He et al. 1996
+  first_ma: 161.5
+  last_ma: 113.2
+  interval: Oxfordian–Aptian
+  reference: ''
+- name: Mamenchisaurus constructus
+  authority: Young 1954
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+- name: Mamenchisaurus hochuanensis
+  authority: Chao 1965
+  first_ma: 168.2
+  last_ma: 143.1
+  interval: Bathonian–Tithonian
+  reference: ''
+- name: Mamenchisaurus jingyanensis
+  authority: Zhang et al. 1998
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+- name: Mamenchisaurus sinocanadorum
+  authority: Russell and Zheng 1994
+  first_ma: 161.5
+  last_ma: 159
+  interval: Oxfordian
+  reference: ''
+- name: Mamenchisaurus youngi
+  authority: Pi et al. 1996
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Tithonian
+  occurrences: 8
+  ma: [143.1, 168.2]
+  id: shaximiao-china
+- formation: Ulan Malgait
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Govi-Altay]
+  interval: Tithonian
+  occurrences: 6
+  ma: [143.1, 149.2]
+  id: ulan-malgait-mongolia
+- formation: Xiangtang
+  group: ''
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Late Jurassic
+  occurrences: 2
+  ma: [143.1, 161.5]
+  id: xiangtang-china
+- formation: Phu Kradung
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Kalasin, Mukdahan]
+  interval: Tithonian–Berriasian
+  occurrences: 2
+  ma: [137.05, 149.2]
+  id: phu-kradung-thailand
+- formation: Shishugou
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Xinjiang]
+  interval: Early Oxfordian
+  occurrences: 1
+  ma: [159.0, 161.5]
+  id: shishugou-china
+- formation: Dariv
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Govi-Altay]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: dariv-mongolia
+- formation: Unnamed unit
+  group: Chongqing
+  members: []
+  country: China
+  regions: [Sichuan]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: chongqing-group-china
+- formation: Penglaizhen
+  group: ''
+  members: []
+  country: China
+  regions: [Sichuan]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: penglaizhen-china
+- formation: Suining
+  group: ''
+  members: []
+  country: China
+  regions: [Sichuan]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: suining-china
+fossil_material:
+  holotype: Not read in the sources consulted; the type species M. constructus was named by Young in 1954 from remains
+    found during construction work near Yibin, Sichuan.
+  material: Many partial skeletons of several species from the Shaximiao Formation and other units of China, plus
+    Mongolia and Thailand.
+  completeness: multiple
+  exceptional: ''
+biology: Researchers question the number of referred species and fragments; the genus is sometimes called a wastebasket
+  taxon.
+images:
+- kind: life
+  file: Mamenchisaurus youngi steveoc 86.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/35/Mamenchisaurus_youngi_steveoc_86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mamenchisaurus_youngi_steveoc_86.jpg
+  artist: Steveoc 86
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  date: ''
+  caption: Life restoration of Mamenchisaurus youngi.
+  width: 1280
+  height: 960
+  review: unreviewed
+  local: img/gallery/Mamenchisaurus_001.webp
+- kind: life
+  file: Mamenchisaurus sanjiangensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Mamenchisaurus_sanjiangensis.png/960px-Mamenchisaurus_sanjiangensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mamenchisaurus_sanjiangensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-18'
+  caption: Life restoration of Mamenchisaurus sanjiangensis.
+  width: 4000
+  height: 2118
+  review: unreviewed
+  local: img/gallery/Mamenchisaurus_002.webp
+- kind: fossil
+  file: Mamenchisaurus jingyanensis BMNHC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Mamenchisaurus_jingyanensis_BMNHC.jpg/960px-Mamenchisaurus_jingyanensis_BMNHC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mamenchisaurus_jingyanensis_BMNHC.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-27'
+  caption: Mounted skeleton of Mamenchisaurus jingyanensis.
+  width: 2791
+  height: 3886
+  review: unreviewed
+  local: img/gallery/Mamenchisaurus_003.webp
+- kind: fossil
+  file: Mamenchisaurus hochuanensis Field Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mamenchisaurus_hochuanensis_Field_Museum.jpg/960px-Mamenchisaurus_hochuanensis_Field_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mamenchisaurus_hochuanensis_Field_Museum.jpg
+  artist: James St. John
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2005-11-11'
+  caption: Mounted skeleton of Mamenchisaurus hochuanensis at the Field Museum.
+  width: 1918
+  height: 551
+  review: unreviewed
+  local: img/gallery/Mamenchisaurus_004.webp
+- kind: fossil
+  file: Zigong Dinosaur Museum Mamenchisaurus hochuanensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg/960px-Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg
+  artist: Zhangzhugang
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-04-24'
+  caption: Mamenchisaurus mounts at the Zigong Dinosaur Museum.
+  width: 5472
+  height: 3648
+  review: unreviewed
+  local: img/gallery/Mamenchisaurus_005.webp
+silhouette:
+  src: https://images.phylopic.org/images/50414999-21ad-45fe-bda1-e180bdce5c26/vector.svg
+  png: https://images.phylopic.org/images/50414999-21ad-45fe-bda1-e180bdce5c26/raster/512x276.png
+  page: https://www.phylopic.org/images/50414999-21ad-45fe-bda1-e180bdce5c26
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Mamenchisaurus youngi
+  matched: Mamenchisaurus
+  genus_level: true
+  w: 512
+  h: 276
+sources:
+- kind: original
+  text: C.-C. Young. 1954. On a new sauropod from Yiping, Szechuan, China. Acta Paleontologica Sinica 2(4):355-369
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mamenchisaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mamenchisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mamenchisaurus”. English Wikipedia, revision 1383103572.
+  url: https://en.wikipedia.org/w/index.php?title=Mamenchisaurus&oldid=1383103572
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list limited to the species the Wikipedia revision treats as commonly recognised or the PBDB lists with
+    authority; PBDB also lists gongjianensis and sanjiangensis (2025). Check.
+  reviews: []

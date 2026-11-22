@@ -1,0 +1,115 @@
+name: Liaoningotitan
+rank: genus
+parent: macronaria
+incertae_sedis: true
+placement_note: Zhou et al. (2018) found it to be a somphospondylan titanosauriform more derived than Euhelopus,
+  Mo et al. (2022) found it unstable and perhaps close to Diamantinasaurus, and Shan (2025) found it a euhelopodid
+  (cited Wikipedia revision).
+authority: Zhou et al. 2018
+type_species: Liaoningotitan sinensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Liaoningotitan is a medium-sized titanosauriform sauropod from the Early Cretaceous Yixian Formation of
+  Liaoning, China.
+size:
+  length_m: [10, 10]
+  note: Estimate by comparison with Euhelopus in the cited Wikipedia revision (shoulder height about 2 m).
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Liaoningotitan sinensis
+  authority: Zhou et al. 2018
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not read in the sources consulted; a 2025 redescription restudied the holotype.
+  material: A partial skeleton from the Yixian Formation, displayed in the Liaoning Palaeontological Museum.
+  completeness: partial
+  exceptional: ''
+biology: No biological data were read in the sources consulted.
+images:
+- kind: fossil
+  file: Liaoningotitan sinensis Chaoyang.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Liaoningotitan_sinensis_Chaoyang.jpg/960px-Liaoningotitan_sinensis_Chaoyang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoningotitan_sinensis_Chaoyang.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-01'
+  caption: Liaoningotitan sinensis specimen in Chaoyang.
+  width: 5360
+  height: 3565
+  review: unreviewed
+  local: img/gallery/Liaoningotitan_001.webp
+- kind: fossil
+  file: Liaoning Palaeontological Museum 20250103 094045.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Liaoning_Palaeontological_Museum_20250103_094045.jpg/960px-Liaoning_Palaeontological_Museum_20250103_094045.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoning_Palaeontological_Museum_20250103_094045.jpg
+  artist: Dlyj0604
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-01-03'
+  caption: Skeleton mount in the Liaoning Palaeontological Museum.
+  width: 2938
+  height: 2651
+  review: unreviewed
+  local: img/gallery/Liaoningotitan_002.webp
+- kind: fossil
+  file: Liaoning Palaeontological Museum 20250103 094007.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Liaoning_Palaeontological_Museum_20250103_094007.jpg/960px-Liaoning_Palaeontological_Museum_20250103_094007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoning_Palaeontological_Museum_20250103_094007.jpg
+  artist: Dlyj0604
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-01-03'
+  caption: Fossil slab in the Liaoning Palaeontological Museum.
+  width: 3404
+  height: 2273
+  review: unreviewed
+  local: img/gallery/Liaoningotitan_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/vector.svg
+  png: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/raster/512x239.png
+  page: https://www.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358
+  attribution: Francisco Gascó (modified by Michael P. Taylor)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Brontomerus mcintoshi
+  matched: Titanosauriformes
+  genus_level: false
+  w: 512
+  h: 239
+sources:
+- kind: original
+  text: C.-f. Zhou, W.-h. Wu, and T. Sekiya, Z.-m. Dong. 2018. [A new titanosauriformes dinosaur from Jehol Biota
+    of western Liaoning, China]. Global Geology 37(2):327-333
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Liaoningotitan (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Liaoningotitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Liaoningotitan”. English Wikipedia, revision 1376240931.
+  url: https://en.wikipedia.org/w/index.php?title=Liaoningotitan&oldid=1376240931
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check that images 2 and 3 show Liaoningotitan (file names say only Liaoning Palaeontological Museum).
+  - Holotype number not read.
+  reviews: []

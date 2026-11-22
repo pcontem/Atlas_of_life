@@ -3,13 +3,13 @@ name: Morrison
 rank: formation
 group: ''
 country: United States
-regions: [Arizona, Colorado, Montana, New Mexico, Oklahoma, South Dakota, Utah, Wyoming]
+regions: [Arizona, Colorado, Montana, New Mexico, Oklahoma, South Dakota, Texas, Utah, Wyoming]
 location:
   lat: 41.893
-  lng: -106.079
-  basis: median of 167 PBDB collections that yielded the atlas genera
+  lng: -106.08
+  basis: median of 227 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 157.9
+  first_ma: 161.5
   last_ma: 143.1
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
@@ -17,22 +17,25 @@ environment:
 - wet floodplain
 - '"channel"'
 - crevasse splay
+- dry floodplain
 - pond
 - lacustrine indet.
-- dry floodplain
 - coarse channel fill
-- levee
-- fine channel fill
 - fluvial-lacustrine indet.
 - fluvial indet.
+- levee
+- fine channel fill
 - '"floodplain"'
-- delta plain
 - mire/swamp
-- alluvial fan
 - lacustrine - small
-lithology: [sandstone, mudstone, not reported, claystone]
+- alluvial fan
+- channel lag
+- delta plain
+lithology: [mudstone, sandstone, not reported, claystone]
 pbdb_collections:
 - '11611'
+- '11924'
+- '11925'
 - '12816'
 - '13212'
 - '13214'
@@ -40,19 +43,24 @@ pbdb_collections:
 - '13352'
 - '21852'
 - '22648'
+- '22650'
 - '22678'
 - '22708'
 - '22711'
+- '22717'
 - '25141'
 - '28366'
 - '28382'
+- '35293'
 - '36576'
 - '38866'
 - '38867'
 - '38872'
 - '38883'
 - '39253'
+- '39337'
 - '39339'
+- '39340'
 - '39342'
 - '39344'
 - '39345'
@@ -76,9 +84,19 @@ pbdb_collections:
 - '46468'
 - '46469'
 - '47065'
+- '47196'
 - '48124'
+- '48127'
 - '48128'
+- '48129'
+- '48146'
+- '48147'
+- '48148'
+- '48149'
+- '48153'
+- '48154'
 - '48155'
+- '48158'
 - '48160'
 - '48161'
 - '48162'
@@ -98,16 +116,21 @@ pbdb_collections:
 - '49598'
 - '49621'
 - '49622'
+- '49623'
 - '49624'
 - '49625'
+- '49626'
 - '49627'
 - '49628'
 - '49630'
 - '49631'
+- '49633'
 - '49634'
 - '49636'
 - '49637'
 - '50714'
+- '51990'
+- '51991'
 - '51992'
 - '52815'
 - '52816'
@@ -115,26 +138,36 @@ pbdb_collections:
 - '53022'
 - '53040'
 - '55320'
+- '55329'
 - '55482'
 - '55483'
 - '55486'
 - '55487'
 - '56422'
 - '56590'
+- '56596'
 - '56599'
 - '56654'
+- '56683'
+- '56684'
+- '57893'
 - '57894'
+- '57895'
 - '57896'
 - '57897'
 - '57898'
 - '57900'
+- '57901'
 - '57902'
 - '57903'
 - '57904'
 - '57905'
 - '57913'
+- '58507'
+- '58508'
 - '58509'
 - '58510'
+- '58511'
 - '58512'
 - '58513'
 - '58514'
@@ -142,29 +175,42 @@ pbdb_collections:
 - '58517'
 - '58518'
 - '58811'
+- '62561'
+- '66909'
 - '68097'
+- '68099'
 - '69890'
 - '70024'
+- '70029'
 - '70030'
+- '70031'
 - '70032'
 - '71476'
 - '74663'
 - '74664'
 - '75453'
 - '96826'
+- '104715'
 - '126540'
+- '132243'
 - '142334'
 - '142335'
 - '142336'
 - '142337'
 - '154924'
+- '154925'
 - '164787'
 - '168056'
 - '176983'
+- '176984'
+- '177496'
 - '177497'
 - '185607'
 - '188398'
 - '190894'
+- '192432'
+- '192455'
+- '192707'
 - '192748'
 - '207744'
 - '207747'
@@ -173,31 +219,46 @@ pbdb_collections:
 - '210654'
 - '220417'
 - '221673'
+- '224377'
 - '225118'
 - '225131'
 - '225925'
+- '226819'
 - '227262'
 - '230769'
 - '230770'
 - '230771'
 - '230774'
+- '231290'
 - '231532'
 - '231533'
 - '231545'
+- '231547'
 - '231548'
+- '231552'
 - '231553'
 - '231563'
 - '231564'
 - '231565'
 - '231567'
+- '231568'
 - '231569'
+- '231570'
 - '231572'
+- '231573'
+- '231579'
 - '231581'
 - '231582'
+- '231591'
 - '231617'
+- '231618'
+- '231620'
 - '231621'
+- '238774'
 - '238775'
 - '238787'
+- '240960'
+- '277753'
 - '277754'
 includes: []
 summary: ''

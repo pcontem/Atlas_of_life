@@ -1,0 +1,98 @@
+name: Wintonotitan
+rank: genus
+parent: macronaria
+incertae_sedis: true
+placement_note: Hocknull et al. (2009) found it to be a non-titanosaurian titanosauriform and several later analyses
+  agree (cited Wikipedia revision); the atlas has no clade for Titanosauriformes, so Macronaria is used.
+authority: Hocknull et al. 2009
+type_species: Wintonotitan wattsi
+type_species_note: Spelled wattsii in the cited Wikipedia revision; PBDB has wattsi.
+summary: Wintonotitan is a titanosauriform sauropod from the Cenomanian Winton Formation of Queensland, Australia,
+  known from partial postcranial remains.
+size:
+  length_m: null
+  note: No length estimate was read in the sources consulted.
+age:
+  first_ma: 100.5
+  last_ma: 89.8
+  early_interval: Cenomanian
+  late_interval: Turonian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Wintonotitan wattsi
+  authority: Hocknull et al. 2009
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: original description
+formations:
+- formation: Winton
+  group: Rolling Downs
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Late Cenomanian–Early Turonian
+  occurrences: 7
+  ma: [89.8, 100.5]
+  id: winton-australia
+fossil_material:
+  holotype: QMF 7292, partial postcranial remains first found in 1974 and originally assigned to Austrosaurus.
+  material: A second specimen, QMF 10916, of isolated tail vertebrae.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological data were read in the sources consulted.
+images:
+- kind: skeletal
+  file: Wintonotitan wattsi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Wintonotitan_wattsi.png/960px-Wintonotitan_wattsi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Wintonotitan_wattsi.png
+  artist: 'Artwork: T. Tischler, Australian Age of Dinosaurs Museum of Natural History (edited by Jaybear )'
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: 3 July 200
+  caption: Skeletal reconstruction of Wintonotitan wattsi.
+  width: 3840
+  height: 1240
+  review: unreviewed
+  local: img/gallery/Wintonotitan_001.webp
+- kind: fossil
+  file: Wintonotitan-caudals.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Wintonotitan-caudals.png/960px-Wintonotitan-caudals.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Wintonotitan-caudals.png
+  artist: Matt A. White
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2009'
+  caption: Caudal vertebrae of Wintonotitan.
+  width: 2249
+  height: 3201
+  review: unreviewed
+  local: img/gallery/Wintonotitan_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Wintonotitan
+  genus_level: true
+sources:
+- kind: original
+  text: 'S. A. Hocknull, M. A. White, and T. R. Tischler, A. G. Cook, N. D. Calleja, T. Sloan, D. A. Elliot. 2009.
+    New mid-Cretaceous (latest Albian) dinosaurs from Winton, Queensland, Australia. PLoS ONE 4(7):e6190: 1-51'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wintonotitan (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wintonotitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wintonotitan”. English Wikipedia, revision 1314939560.
+  url: https://en.wikipedia.org/w/index.php?title=Wintonotitan&oldid=1314939560
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Austrosaurus mckillopi may be a nomen dubium close to this genus (Hocknull et al. 2009); check before excluded.yaml.
+  reviews: []

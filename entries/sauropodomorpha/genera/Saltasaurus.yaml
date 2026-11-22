@@ -1,0 +1,99 @@
+name: Saltasaurus
+rank: genus
+parent: saltasauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte and Powell 1980
+type_species: Saltasaurus loricatus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Saltasaurus is a small armoured titanosaur from the Maastrichtian Lecho Formation of northwestern Argentina.
+size:
+  length_m: [8.5, 12.8]
+  mass_kg: [2500, 6870]
+  note: Estimates by G. S. Paul (8.5 m, 2.5 t) and D. Henderson (12.8 m, 6.87 t) in the cited Wikipedia revision.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Saltasaurus loricatus
+  authority: Bonaparte and Powell 1980
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lecho
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lecho-argentina
+fossil_material:
+  holotype: PVL 4017-92, found in the early Maastrichtian Lecho Formation.
+  material: Skeletons with osteoderms from the Lecho Formation; fossil eggshell has also been attributed to the
+    genus.
+  completeness: multiple
+  exceptional: Bony osteoderms in the skin.
+biology: Powell suggested that its barrel-like rump meant it was aquatic; like other sauropods it was herbivorous
+  and graviportal.
+images:
+- kind: life
+  file: Saltasaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Saltasaurus_TD.png/960px-Saltasaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saltasaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-11'
+  caption: Life restoration of Saltasaurus loricatus.
+  width: 2800
+  height: 1200
+  review: unreviewed
+  local: img/gallery/Saltasaurus_001.webp
+- kind: fossil
+  file: Saltasaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/64/Saltasaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Saltasaurus.jpg
+  artist: Ignacio A. Cerda and Jaime E. Powell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2010'
+  caption: Fossil eggshell associated with Saltasaurus.
+  width: 517
+  height: 859
+  review: unreviewed
+  local: img/gallery/Saltasaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca/vector.svg
+  png: https://images.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca/raster/512x273.png
+  page: https://www.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Opisthocoelicaudia skarzynskii
+  matched: Saltasauridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. F. Bonaparte and J. E. Powell. 1980. A continental assemblage of tetrapods from the Upper Cretaceous
+    beds of El Brete, northwestern Argentina (Sauropoda-Coelurosauria-Carnosauria-Aves). Mémoires de la Société
+    Géologique de France, Nouvelle Série 139:19-28
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saltasaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saltasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saltasaurus”. English Wikipedia, revision 1343197999.
+  url: https://en.wikipedia.org/w/index.php?title=Saltasaurus&oldid=1343197999
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the eggshell attribution before keeping the egg image.]
+  reviews: []

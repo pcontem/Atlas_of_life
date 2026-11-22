@@ -1,0 +1,214 @@
+name: Alamosaurus
+rank: genus
+parent: saltasauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Gilmore 1922
+type_species: Alamosaurus sanjuanensis
+type_species_note: Named by Gilmore in 1922 (cited Wikipedia revision).
+summary: Alamosaurus is a giant titanosaur of the latest Cretaceous of southwestern North America, the largest dinosaur
+  known from the continent.
+size:
+  length_m: [26, 26]
+  mass_kg: [30000, 35000]
+  note: Adults about 26 m and up to 30–35 t; some specimens suggest larger sizes (cited Wikipedia revision).
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 38
+  note: ''
+species:
+- name: Alamosaurus sanjuanensis
+  authority: Gilmore 1922
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Ojo Alamo
+  group: ''
+  members: [Naashoibito]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Maastrichtian
+  occurrences: 15
+  ma: [66.0, 72.2]
+  id: ojo-alamo-united-states
+- formation: Javelina
+  group: Tornillo
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Maastrichtian
+  occurrences: 9
+  ma: [66.0, 72.2]
+  id: javelina-united-states
+- formation: North Horn
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Late Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: north-horn-united-states
+- formation: Kirtland
+  group: ''
+  members: [De-na-zin, Naashoibito]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian–Lancian
+  occurrences: 4
+  ma: [66.0, 83.6]
+  id: kirtland-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico, Texas]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id:
+  - unnamed-3-miles-northeast-of-grapevine-ranch-united-states
+  - unnamed-nmmnh-l-1671-united-states
+- formation: Black Peaks
+  group: Tornillo
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: black-peaks-united-states
+- formation: McRae
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: mcrae-united-states
+- formation: Javelina
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chihuahua]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: javelina-mexico
+- formation: Hall Lake
+  group: McRae
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: hall-lake-united-states
+fossil_material:
+  holotype: USNM 10486, a left scapula found in 1921 in the Naashoibito Member of the Ojo Alamo Formation, New Mexico;
+    the paratype is the right ischium USNM 10487.
+  material: Many isolated vertebrae and limb bones from the Maastrichtian of New Mexico, Texas and Utah; some of
+    these may belong to a distinct genus.
+  completeness: fragmentary
+  exceptional: ''
+biology: One of the geologically youngest specimens is the holotype, in the latest Maastrichtian.
+images:
+- kind: life
+  file: Alamosaurus-sanjuanensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Alamosaurus-sanjuanensis.jpg/960px-Alamosaurus-sanjuanensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alamosaurus-sanjuanensis.jpg
+  artist: Alamotitan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-01-15'
+  caption: Life restoration of Alamosaurus sanjuanensis.
+  width: 3642
+  height: 2048
+  review: unreviewed
+  local: img/gallery/Alamosaurus_001.webp
+- kind: fossil
+  file: Alamosaurus-mount-in-Perot-museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Alamosaurus-mount-in-Perot-museum.jpg/960px-Alamosaurus-mount-in-Perot-museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alamosaurus-mount-in-Perot-museum.jpg
+  artist: Dr. Matt Wedel, https://svpow.com
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '1899-11-30'
+  caption: Mounted skeleton of Alamosaurus at the Perot Museum.
+  width: 2272
+  height: 1704
+  review: unreviewed
+  local: img/gallery/Alamosaurus_002.webp
+- kind: fossil
+  file: Alamosaurus vertebrae.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Alamosaurus_vertebrae.jpg/960px-Alamosaurus_vertebrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alamosaurus_vertebrae.jpg
+  artist: Geekgecko
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-07'
+  caption: Vertebrae of Alamosaurus.
+  width: 2048
+  height: 1536
+  review: unreviewed
+  local: img/gallery/Alamosaurus_003.webp
+- kind: fossil
+  file: Alamosaurus caudal vertebra by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Alamosaurus_caudal_vertebra_by_Nick_Longrich.jpg/960px-Alamosaurus_caudal_vertebra_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alamosaurus_caudal_vertebra_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-13'
+  caption: Caudal vertebra of Alamosaurus.
+  width: 2826
+  height: 2998
+  review: unreviewed
+  local: img/gallery/Alamosaurus_004.webp
+- kind: fossil
+  file: Alamosaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9f/Alamosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Alamosaurus.jpg
+  artist: Charles W. Gilmore
+  license: Public domain
+  license_url: ''
+  date: '1922'
+  caption: Bone of Alamosaurus (historical figure).
+  width: 1563
+  height: 2812
+  review: unreviewed
+  local: img/gallery/Alamosaurus_005.webp
+silhouette:
+  src: https://images.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca/vector.svg
+  png: https://images.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca/raster/512x273.png
+  page: https://www.phylopic.org/images/33ae8000-0046-41bb-b68a-189a0eed3eca
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Opisthocoelicaudia skarzynskii
+  matched: Saltasauridae
+  genus_level: false
+  w: 512
+  h: 273
+sources:
+- kind: original
+  text: C. W. Gilmore. 1922. A new sauropod dinosaur from the Ojo Alamo Formation of New Mexico. Smithsonian Miscellaneous
+    Collections 72(34):1-9
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alamosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alamosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alamosaurus”. English Wikipedia, revision 1385834058.
+  url: https://en.wikipedia.org/w/index.php?title=Alamosaurus&oldid=1385834058
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,171 @@
+name: Camarasaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Cope 1877
+type_species: Camarasaurus supremus
+type_species_note: Filled from general knowledge, not yet checked against a source; Cope named C. supremus in 1877.
+summary: Camarasaurus is the most common sauropod of the Late Jurassic Morrison Formation, known from over 530 specimens
+  and several nearly complete skeletons.
+size:
+  length_m: [15, 23]
+  note: C. lentus was about 15 m long; C. supremus, too incomplete for a precise figure, would reach almost 23 m
+    if proportioned like the smaller species (cited Wikipedia revision).
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Late Jurassic
+  late_interval: Tithonian
+  pbdb_occurrences: 137
+  note: ''
+species:
+- name: Camarasaurus grandis
+  authority: (Marsh 1877)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Camarasaurus lentus
+  authority: (Marsh 1889)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Camarasaurus lewisi
+  authority: (Jensen 1988)
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: ''
+- name: Camarasaurus supremus
+  authority: Cope 1877
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members:
+  - Brushy Basin
+  - Indian Fort
+  - Kenton
+  - Lake Como
+  - Recapture
+  - Salt Wash
+  - Talking Rocks
+  - Unit B
+  country: United States
+  regions: [Colorado, Montana, New Mexico, Oklahoma, South Dakota, Texas, Utah, Wyoming]
+  interval: Late Jurassic–Tithonian
+  occurrences: 134
+  ma: [143.1, 161.5]
+  id: morrison-united-states
+- formation: Kadzi
+  group: ''
+  members: []
+  country: Zimbabwe
+  regions: [Mashonaland North]
+  interval: Tithonian
+  occurrences: 2
+  ma: [143.1, 149.2]
+  id: kadzi-zimbabwe
+- formation: Süntel
+  group: ''
+  members: [Unterbank]
+  country: Germany
+  regions: [Nordrhein-Westfalen]
+  interval: Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 154.8]
+  id: suntel-germany
+fossil_material:
+  holotype: Not read in the sources consulted; named by Cope in 1877.
+  material: More than 530 specimens from the Morrison Formation, including nearly complete skeletons; several skeletons
+    from the Carnegie Quarry at Dinosaur National Monument.
+  completeness: multiple
+  exceptional: Skin impressions have been found on one specimen.
+biology: Probably a selective feeder that fed at heights of 2–5 m; several specimens show injuries or disease such
+  as bite marks and arthritis.
+images:
+- kind: skeletal
+  file: Camarasaurus skeletal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Camarasaurus_skeletal.jpg/960px-Camarasaurus_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Camarasaurus_skeletal.jpg
+  artist: Scott Hartman
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2011'
+  caption: Skeletal reconstruction of Camarasaurus.
+  width: 2300
+  height: 1137
+  review: unreviewed
+  local: img/gallery/Camarasaurus_001.webp
+- kind: fossil
+  file: Camarasaurus lentus Carnegie.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Camarasaurus_lentus_Carnegie.jpg/960px-Camarasaurus_lentus_Carnegie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Camarasaurus_lentus_Carnegie.jpg
+  artist: James St. John
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2012-11-17'
+  caption: Mounted skeleton of Camarasaurus lentus at the Carnegie Museum.
+  width: 3573
+  height: 2797
+  review: unreviewed
+  local: img/gallery/Camarasaurus_002.webp
+- kind: fossil
+  file: Camarasaurus lentus USNM.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Camarasaurus_lentus_USNM.jpg/960px-Camarasaurus_lentus_USNM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Camarasaurus_lentus_USNM.jpg
+  artist: Ben Miller
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2019'
+  caption: Camarasaurus lentus skeleton in the USNM.
+  width: 3000
+  height: 1643
+  review: unreviewed
+  local: img/gallery/Camarasaurus_003.webp
+- kind: fossil
+  file: Camarasaurus Royal Tyrrell 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Camarasaurus_Royal_Tyrrell_2.jpg/960px-Camarasaurus_Royal_Tyrrell_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Camarasaurus_Royal_Tyrrell_2.jpg
+  artist: Etemenanki3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-22'
+  caption: Camarasaurus skeleton at the Royal Tyrrell Museum.
+  width: 5472
+  height: 3648
+  review: unreviewed
+  local: img/gallery/Camarasaurus_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/bae62f3c-acac-410d-b5c6-b6d1d3e2ef59/vector.svg
+  png: https://images.phylopic.org/images/bae62f3c-acac-410d-b5c6-b6d1d3e2ef59/raster/512x247.png
+  page: https://www.phylopic.org/images/bae62f3c-acac-410d-b5c6-b6d1d3e2ef59
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Camarasaurus lentus
+  matched: Camarasaurus
+  genus_level: true
+  w: 512
+  h: 247
+sources:
+- kind: original
+  text: E. D. Cope. 1877. On a gigantic saurian from the Dakota epoch of Colorado. Paleontological Bulletin 25:5-10
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Camarasaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Camarasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Camarasaurus”. English Wikipedia, revision 1386793695.
+  url: https://en.wikipedia.org/w/index.php?title=Camarasaurus&oldid=1386793695
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species and holotype to be checked; PBDB also lists C. annae and C. leptodirus, not kept here.
+  reviews: []
