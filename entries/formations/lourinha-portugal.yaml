@@ -6,15 +6,28 @@ country: Portugal
 regions: [Centro, Lisboa, Lisbon, Lourinha]
 location:
   lat: 39.236
-  lng: -9.34
-  basis: median of 9 PBDB collections that yielded the atlas genera
+  lng: -9.339
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 152.21
   last_ma: 145.06
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., marine indet., '"floodplain"']
-lithology: [mudstone, sandstone, not reported, claystone]
-pbdb_collections: ['38680', '47430', '49245', '154213', '163143', '163144', '163145', '200458', '233187']
+environment: [terrestrial indet., fluvial indet., marine indet., '"floodplain"', delta plain]
+lithology: [mudstone, claystone, sandstone, not reported]
+pbdb_collections:
+- '38680'
+- '47430'
+- '49218'
+- '49219'
+- '49230'
+- '49245'
+- '49247'
+- '154213'
+- '163143'
+- '163144'
+- '163145'
+- '200458'
+- '233187'
 includes:
 - PBDB records the Praia da Amoreira-Porto Novo as a member of the Lourinhã Formation.
 summary: ''

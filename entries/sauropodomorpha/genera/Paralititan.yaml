@@ -1,0 +1,106 @@
+name: Paralititan
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Smith et al. 2001
+type_species: Paralititan stromeri
+type_species_note: Monotypic genus; the only species is the type.
+summary: Paralititan is a giant sauropod from the Cenomanian Bahariya Formation of Egypt, known from a fragmentary
+  skeleton.
+size:
+  length_m: [26, 26]
+  mass_kg: [30000, 55000]
+  note: More recent estimates give 26 m and 30-55 t (Wikipedia revision).
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Paralititan stromeri
+  authority: Smith et al. 2001
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Al Jizah]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Illizi]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: unnamed-oued-ameregh-algeria
+fossil_material:
+  holotype: Not read in the sources consulted; a fragmentary skeleton with vertebrae and limb bones. A dorsal vertebra
+    described by Stromer in 1932 was also assigned to it.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: A four-legged herbivore with a long neck ending in a small head.
+images:
+- kind: life
+  file: Paralititan BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/52/Paralititan_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Paralititan_BW.jpg
+  artist: user:ArthurWeasley
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2006-12-31'
+  caption: Life restoration of Paralititan stromeri.
+  width: 800
+  height: 310
+  review: unreviewed
+- kind: life
+  file: Paralititan 63844.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Paralititan_63844.jpg/960px-Paralititan_63844.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Paralititan_63844.jpg
+  artist: Conty
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2008-12-13'
+  caption: Life restoration of Paralititan.
+  width: 3108
+  height: 1650
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6a1bd3a4-f0f2-44dd-b6ea-e2cdf65b421a/vector.svg
+  png: https://images.phylopic.org/images/6a1bd3a4-f0f2-44dd-b6ea-e2cdf65b421a/raster/512x247.png
+  page: https://www.phylopic.org/images/6a1bd3a4-f0f2-44dd-b6ea-e2cdf65b421a
+  attribution: Dmitry Bogdanov (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Paralititan stromeri
+  matched: Paralititan
+  genus_level: true
+sources:
+- kind: original
+  text: 'Smith JB, Lamanna MC, Lacovara KJ, Dodson P, Smith JR, Poole JC, Giegengack R, Attia Y June. A giant sauropod
+    dinosaur from an Upper Cretaceous mangrove deposit in Egypt. Science 292(5522): 1704–6. doi:10.1126/science.1060561'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paralititan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paralititan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paralititan”. English Wikipedia, revision 1383467283.
+  url: https://en.wikipedia.org/w/index.php?title=Paralititan&oldid=1383467283
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Mass range quoted as 30-55 t in the revision; check the cited sources.
+  reviews: []

@@ -1,0 +1,147 @@
+name: Magyarosaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1932
+type_species: Magyarosaurus dacus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Magyarosaurus is a dwarf titanosaur from the Maastrichtian of Transylvania, one of the smallest known adult
+  sauropods.
+size:
+  length_m: [3, 3]
+  mass_kg: [1000, 1000]
+  note: Less than about 3 m long and under 1,000 kg (Wikipedia revision).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Magyarosaurus dacus
+  authority: (Nopcsa 1915)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+- name: Magyarosaurus transsylvanicus
+  authority: (Huene 1932)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: sebes-romania
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+- formation: Sînpetru
+  group: ''
+  members: [lower]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+fossil_material:
+  holotype: Not read in the sources consulted; the 1932 genus was based on material first named by Nopcsa.
+  material: Several specimens; some earlier referred material now belongs to Petrustitan and Uriash.
+  completeness: multiple
+  exceptional: ''
+biology: Interpreted as an island dwarf of the Hateg Island ecosystem.
+images:
+- kind: life
+  file: Magyarosaurus 04800.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Magyarosaurus_04800.JPG/960px-Magyarosaurus_04800.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Magyarosaurus_04800.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Life restoration of Magyarosaurus.
+  width: 3298
+  height: 1968
+  review: unreviewed
+- kind: life
+  file: Magyarosaurus dacus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Magyarosaurus_dacus.jpg/960px-Magyarosaurus_dacus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Magyarosaurus_dacus.jpg
+  artist: N.Cayla
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-04-14'
+  caption: Life restoration of Magyarosaurus dacus.
+  width: 5184
+  height: 3456
+  review: unreviewed
+- kind: fossil
+  file: Magyarosaurus sp - scapula.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Magyarosaurus_sp_-_scapula.jpg/960px-Magyarosaurus_sp_-_scapula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Magyarosaurus_sp_-_scapula.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-11'
+  caption: Scapula of Magyarosaurus.
+  width: 2048
+  height: 1024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556/vector.svg
+  png: https://images.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556/raster/512x252.png
+  page: https://www.phylopic.org/images/8d57a169-176d-448f-81ef-442adfed1556
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Alamosaurus sanjuanensis
+  matched: Eutitanosauria
+  genus_level: false
+sources:
+- kind: literature
+  text: Díez Díaz, V.; Mannion, P. D.; Csiki-Sava, Z.; Upchurch, P. 2025. Revision of Romanian sauropod dinosaurs
+    reveals high titanosaur diversity and body-size disparity on the latest Cretaceous Haţeg Island, with implications
+    for titanosaurian biogeography. Journal of Systematic Palaeontology 23(1). doi:10.1080/14772019.2024.2441516
+- kind: literature
+  text: 'B. Vila 2012. The diversity of sauropod dinosaurs and their first taxonomic succession from the latest
+    Cretaceous of southwestern Europe: Clues to demise and extinction. Palaeogeography, Palaeoclimatology, Palaeoecology
+    350-352(15): 19–38. doi:10.1016/j.palaeo.2012.06.008'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Magyarosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Magyarosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Magyarosaurus”. English Wikipedia, revision 1376620572.
+  url: https://en.wikipedia.org/w/index.php?title=Magyarosaurus&oldid=1376620572
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original naming work (Huene 1932) and type species to be checked; species M. transsylvanicus is a chimera per
+    the revision.
+  reviews: []

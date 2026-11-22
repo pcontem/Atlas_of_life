@@ -1,0 +1,106 @@
+name: Lourinhasaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Dantas et al. 1998
+type_species: Lourinhasaurus alenquerensis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Lourinhasaurus is a sauropod from the Late Jurassic of Estremadura, Portugal, based on a skeleton found
+  near Alenquer in 1949.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Lourinhasaurus alenquerensis
+  authority: (Lapparent and Zbyszewski 1957)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Lourinhã
+  group: ''
+  members: [Praia da Amoreira-Porto Novo]
+  country: Portugal
+  regions: [Centro, Lisboa]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 4
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: alcobaca-portugal
+fossil_material:
+  holotype: Partial skeleton of a large sauropod found by Harold Robbins in 1949 near Alenquer, Sobral Formation.
+  material: Known from the holotype and some further Portuguese material.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Lourinhasaurus tarde.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Lourinhasaurus_tarde.png/960px-Lourinhasaurus_tarde.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lourinhasaurus_tarde.png
+  artist: Ferrutxo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-12-26'
+  caption: Life restoration of Lourinhasaurus.
+  width: 3840
+  height: 2160
+  review: unreviewed
+- kind: skeletal
+  file: Lourinhasaurus LMR.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Lourinhasaurus_LMR.png/960px-Lourinhasaurus_LMR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lourinhasaurus_LMR.png
+  artist: Levi Martinez-Reza
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-12-31'
+  caption: Skeletal reconstruction of Lourinhasaurus.
+  width: 6486
+  height: 3174
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bae62f3c-acac-410d-b5c6-b6d1d3e2ef59/vector.svg
+  png: https://images.phylopic.org/images/bae62f3c-acac-410d-b5c6-b6d1d3e2ef59/raster/512x247.png
+  page: https://www.phylopic.org/images/bae62f3c-acac-410d-b5c6-b6d1d3e2ef59
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Camarasaurus lentus
+  matched: Camarasauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Dantas, P.; Sanz, J. L.; Marques da Silva, C.; Ortega, F.; dos Santos, V. F.; Cachão, M. 1998. ''''Lourinhasaurus''''
+    n. gen. Novo dinossáurio saurópode do Jurássico superior (Kimmeridgiano superior-Tithoniano inferior) de Portugal.
+    Comunicações do Instituto Geológico e Mineiro 84(1A): 91-94.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lourinhasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lourinhasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lourinhasaurus”. English Wikipedia, revision 1369459908.
+  url: https://en.wikipedia.org/w/index.php?title=Lourinhasaurus&oldid=1369459908
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB places it in Camarasauridae
+  - which has no atlas entry; macronaria used.
+  reviews: []

@@ -1,0 +1,92 @@
+name: Jainosaurus
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Hunt et al. 1995
+type_species: Jainosaurus septentrionalis
+type_species_note: First named Antarctosaurus septentrionalis by von Huene and Matley in 1933 (Wikipedia revision).
+summary: Jainosaurus is a titanosaur from the Maastrichtian of India, about the size of its contemporary Isisaurus.
+size:
+  length_m: [18, 18]
+  mass_kg: [15000, 15000]
+  note: About 18 m and 15 t (Wikipedia revision); the humerus of the type specimen is 134 cm long.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jainosaurus septentrionalis
+  authority: (Huene and Matley 1933)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lameta
+  group: ''
+  members: [Mottled Nodular Marl]
+  country: India
+  regions: [Madhya Pradesh]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lameta-india
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Known from the holotype and referred remains including a skull.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: skeletal
+  file: Jainosaurus Skeletal V3 updated.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Jainosaurus_Skeletal_V3_updated.png/960px-Jainosaurus_Skeletal_V3_updated.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jainosaurus_Skeletal_V3_updated.png
+  artist: DaDinoNerdBoi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-18'
+  caption: Skeletal reconstruction of Jainosaurus.
+  width: 5678
+  height: 2657
+  review: unreviewed
+- kind: skeletal
+  file: Jainosaurus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Jainosaurus_skeletal.png/960px-Jainosaurus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jainosaurus_skeletal.png
+  artist: DNB XD
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-18'
+  caption: Skeletal reconstruction of Jainosaurus septentrionalis.
+  width: 5678
+  height: 2657
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/aea1fe86-e7e8-4011-bf81-133cbb9c1f14/vector.svg
+  png: https://images.phylopic.org/images/aea1fe86-e7e8-4011-bf81-133cbb9c1f14/raster/512x140.png
+  page: https://www.phylopic.org/images/aea1fe86-e7e8-4011-bf81-133cbb9c1f14
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Diamantinasaurus matildae
+  matched: Lithostrotia
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jainosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jainosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jainosaurus”. English Wikipedia, revision 1386631344.
+  url: https://en.wikipedia.org/w/index.php?title=Jainosaurus&oldid=1386631344
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original naming paper (Hunt et al. 1995) to be added; no Wikipedia citations were extracted.
+  reviews: []

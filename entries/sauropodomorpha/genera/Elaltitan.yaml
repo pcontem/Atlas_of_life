@@ -1,0 +1,84 @@
+name: Elaltitan
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Mannion and Otero 2012
+type_species: Elaltitan lilloi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Elaltitan is a large lithostrotian titanosaur from the Late Cretaceous of Chubut, Argentina, known from
+  one partial postcranial skeleton.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 89.8
+  last_ma: 85.7
+  early_interval: Coniacian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Elaltitan lilloi
+  authority: Mannion and Otero 2012
+  first_ma: 89.8
+  last_ma: 85.7
+  interval: Coniacian
+  reference: original description
+formations:
+- formation: Lago Colhué Huapi
+  group: Chubut
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Coniacian
+  occurrences: 1
+  ma: [85.7, 89.8]
+  id: lago-colhue-huapi-argentina
+fossil_material:
+  holotype: PVL 4628 and MACN-CH 217, with three dorsal and two caudal vertebrae, left scapula, humerus and radius,
+    both ulnae, the right pubis and other bones.
+  material: Known from a single individual.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: skeletal
+  file: Elaltitan lilloi Skeletal Mk II Gunnar Bivens.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Elaltitan_lilloi_Skeletal_Mk_II_Gunnar_Bivens.jpg/960px-Elaltitan_lilloi_Skeletal_Mk_II_Gunnar_Bivens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Elaltitan_lilloi_Skeletal_Mk_II_Gunnar_Bivens.jpg
+  artist: Bricksmashtv4
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-08-03'
+  caption: Skeletal reconstruction of Elaltitan lilloi showing the preserved bones.
+  width: 5989
+  height: 4619
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/aea1fe86-e7e8-4011-bf81-133cbb9c1f14/vector.svg
+  png: https://images.phylopic.org/images/aea1fe86-e7e8-4011-bf81-133cbb9c1f14/raster/512x140.png
+  page: https://www.phylopic.org/images/aea1fe86-e7e8-4011-bf81-133cbb9c1f14
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Diamantinasaurus matildae
+  matched: Lithostrotia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mannion, P. D.; Otero, A. 2012. A reappraisal of the Late Cretaceous Argentinean sauropod dinosaur ''''Argyrosaurus
+    superbus'''', with a description of a new titanosaur genus. Journal of Vertebrate Paleontology 32(3): 614–638.
+    doi:10.1080/02724634.2012.660898'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elaltitan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elaltitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elaltitan”. English Wikipedia, revision 1314369550.
+  url: https://en.wikipedia.org/w/index.php?title=Elaltitan&oldid=1314369550
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,97 @@
+name: Aragosaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Sanz et al. 1987
+type_species: Aragosaurus ischiaticus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Aragosaurus is a large herbivorous sauropod from Galve, Teruel, Spain, found in the Villar del Arzobispo
+  Formation.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aragosaurus ischiaticus
+  authority: Sanz et al. 1987
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Villar del Arzobispo
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: villar-del-arzobispo-spain
+fossil_material:
+  holotype: Not read in the sources consulted; a partial skeleton named in 1987.
+  material: Known from a partial skeleton.
+  completeness: partial
+  exceptional: ''
+biology: Probably had a short skull and moderately long neck like Camarasaurus.
+images:
+- kind: life
+  file: Aragosaurus LM.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Aragosaurus_LM.png/960px-Aragosaurus_LM.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aragosaurus_LM.png
+  artist: Levi bernardo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-01-30'
+  caption: Life restoration of Aragosaurus.
+  width: 3078
+  height: 1635
+  review: unreviewed
+- kind: life
+  file: Aragosaurus tarde.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Aragosaurus_tarde.png/960px-Aragosaurus_tarde.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aragosaurus_tarde.png
+  artist: Ferrutxo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-12-26'
+  caption: Life restoration of Aragosaurus in the evening.
+  width: 3840
+  height: 2160
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/vector.svg
+  png: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/raster/512x239.png
+  page: https://www.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358
+  attribution: Francisco Gascó (modified by Michael P. Taylor)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Brontomerus mcintoshi
+  matched: Macronaria
+  genus_level: false
+sources:
+- kind: original
+  text: J. L. Sanz, A. D. Buscalioni, and M.-L. Casanovas, J.-V. Santafé. 1987. Dinosaurios del Cretácico inferior
+    de Galve (Teruel, España) [Dinosaurs from the Lower Cretaceous of Galve (Teruel, Spain)]. Estudios Geologicos,
+    Volumen Extraordinario Galve-Tremp
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aragosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aragosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aragosaurus”. English Wikipedia, revision 1343426549.
+  url: https://en.wikipedia.org/w/index.php?title=Aragosaurus&oldid=1343426549
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species epithet to be checked; Wikipedia gives the Early Cretaceous
+  - PBDB gives the latest Jurassic; no Wikipedia citations were extracted.
+  reviews: []
