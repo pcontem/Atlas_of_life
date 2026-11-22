@@ -297,3 +297,10 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 
 ## 2026-11-21 — Genus spotlight shows 25 cards
 - Owner: 25 cards instead of 3, still scrolling with the list and not stretched to the whole page height. Fewer when the filters match fewer genera.
+
+## 2026-11-22 — Image picker: always current, and a name that cannot be confused with site/index.html
+- Bug: the triage page showed old entries and images. It reads `data/triage/<volume>.json`, which was regenerated only inside the
+  triage-apply workflow, so it stayed at 96 entries / 149 images / 583 genera while the atlas had 506 / 728 / 609.
+- `scripts/build.py` now also runs `scripts/triage_data.py` (every volume with a harvest), and `check.yml` fails when
+  `data/triage/*.json` differs from the build — same rule as `site/data.json`. The Volume box lists the volumes found on the branch.
+- `tools/triage/index.html` renamed to `tools/triage/atlas-image-picker.html` (two `index.html` files in the repository were easy to mix up).

@@ -213,6 +213,10 @@ def main():
     data["genera"] = [genus_index(g, g["vol"]) for g in genera]
     (ROOT / "site/data.json").write_text(json.dumps(data, ensure_ascii=False))
     (ROOT / "site/life.json").write_text(json.dumps(tree, ensure_ascii=False))
+    # the image triage page reads its own snapshot of entries, images and candidates: keep it in step
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import triage_data
+    triage_data.main(quiet=True)
     print(f"built: {len(genera)} genera, {len(clades)} clades, {len(excluded)} excluded names, {len(formations)} formations, {len(tree)} tree nodes")
 
 

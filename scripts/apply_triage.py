@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the decisions made in the triage tool (tools/triage/index.html) to the genus entries.
+"""Apply the decisions made in the triage tool (tools/triage/atlas-image-picker.html) to the genus entries.
 
     python3 scripts/apply_triage.py <volume> [--dry-run] [--report FILE]
 
