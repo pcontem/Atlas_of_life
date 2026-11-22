@@ -78,6 +78,48 @@ images:
   height: 960
   review: unreviewed
   local: img/gallery/Aegyptosuchus_002.webp
+- kind: fossil
+  file: Aegisuchus and Aegyptosuchus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Aegisuchus_and_Aegyptosuchus.png/960px-Aegisuchus_and_Aegyptosuchus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aegisuchus_and_Aegyptosuchus.png
+  artist: Original artwork by Henry P. Tsai, University of Missouri.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012-01-31'
+  caption: Osteological correlates in Aegisuchus witmeri. A, dorsal view of Aegyptosuchus peyeri illustrating less-distinct
+    cranial boss. B, dorsal view of Aegisuchus witmeri with distinct integumentary boss surrounded by vascular…
+  width: 2519
+  height: 3374
+  review: unreviewed
+  local: img/gallery/Aegyptosuchus_003.webp
+- kind: fossil
+  file: PMC7188693 Figure 85.
+  url: https://europepmc.org/articles/PMC7188693/bin/zookeys-928-001-g085.jpg
+  page: https://doi.org/10.3897/zookeys.928.47517
+  artist: Ibrahim N, Sereno PC, Varricchio DJ, Martill DM, Dutheil DB, Unwin DM, Baidder L, Larsson HCE, Zouhri
+    S, Kaoukaya A (ZooKeys, 2020)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  date: '2020'
+  caption: 'Figure 85., Ibrahim et al. 2020: Holotypic specimen of Aegyptosuchus peyeri Stromer, 1933 from the Bahariya
+    Formation of Egypt in dorsal (A) and ventral (B) view. Scale bar equals 10 cm.'
+  width: null
+  height: null
+  review: unreviewed
+- kind: fossil
+  file: PMC3269432 Figure 3
+  url: https://europepmc.org/articles/PMC3269432/bin/pone.0030471.g003.jpg
+  page: https://doi.org/10.1371/journal.pone.0030471
+  artist: Holliday CM, Gardner NM (PloS one, 2012)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  date: '2012'
+  caption: 'Figure 3, Holliday 2012: Osteological correlates in Aegisuchus witmeri. A, dorsal view of Aegyptosuchus
+    peyeri illustrating less-distinct cranial boss. B, dorsal view of Aegisuchus witmeri with distinct integumentary
+    boss surrounded by vascular fossa. C, left lateral view of hypertrophied jaw muscle scar and adductor tuber…'
+  width: null
+  height: null
+  review: unreviewed
 sources:
 - kind: original
   text: E. Stromer. 1933. Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltierreste
@@ -85,6 +127,15 @@ sources:
     E. Stromer in the Egyptian deserts. II. Vertebrate animal remains from the Baharîje bed (lowest Cenomanian).
     12. The procoelous Crocodilia.]. Abhandlungen der Bayerischen Akademie der Wissenschaften Mathematisch-naturwissenschaftliche
     Abteilung, Neue Folge 15:1-31
+- kind: literature
+  text: Holliday CM, Gardner NM. 2012. A new eusuchian crocodyliform with novel cranial integument and its significance
+    for the origin and evolution of Crocodylia. PloS one. PMC3269432.
+  url: https://doi.org/10.1371/journal.pone.0030471
+- kind: literature
+  text: Ibrahim N, Sereno PC, Varricchio DJ, Martill DM, Dutheil DB, Unwin DM, Baidder L, Larsson HCE, Zouhri S,
+    Kaoukaya A. 2020. Geology and paleontology of the Upper Cretaceous Kem Kem Group of eastern Morocco. ZooKeys.
+    PMC7188693.
+  url: https://doi.org/10.3897/zookeys.928.47517
 - kind: literature
   text: Casey M. Holliday and Nicholas M. Gardner 2012. A New Eusuchian Crocodyliform with Novel Cranial Integument
     and Its Significance for the Origin and Evolution of Crocodylia. PLOS ONE 7(1). doi:10.1371/journal.pone.0030471
@@ -99,5 +150,8 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: [Add holotype details from Stromer 1933 and a recent source.]
+  notes:
+  - Add holotype details from Stromer 1933 and a recent source.
+  - Licence version of open-access figures recorded as CC BY 4.0 from Europe PMC's 'cc by'; check on the article
+    page.
   reviews: []
