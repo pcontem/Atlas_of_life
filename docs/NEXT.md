@@ -127,7 +127,6 @@ Those need a new harvest request listing the correct article titles.
 - Formation entries for the new genera need summary and paleoenvironment text (F5).
 
 ## Open questions
-- Licence strings with a port (CC BY 2.5 AR for the Titanomachya holotype photo, CC BY-SA 3.0 PL for Opisthocoelicaudia) are rejected by the validator; those photos are left out. Allow ported versions, or keep them out?
 - Jobaria and Gongxianosaurus age conflicts; Tehuelchesaurus, Atlasaurus, Australodocus, Liubangosaurus and Cetiosauriscus placements are marked `incertae_sedis`.
 - Confirm the new G8 size limits (60 m, 150,000 kg) in `scripts/validate.py`.
 - Gigantosaurus Fraas 1908 is listed as a junior synonym of Barosaurus (PBDB), although its type species became Tornieria africana; check.

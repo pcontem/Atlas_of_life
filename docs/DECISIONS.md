@@ -366,3 +366,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - 141 genera written as ai-draft (all valid PBDB genera with an English Wikipedia article now have an entry). PBDB clades without an atlas entry map to the nearest atlas clade (Titanosauriformes and Somphospondyli to Macronaria, Rinconsauria and Lithostrotia to Titanosauria, Gravisauria and Eusauropoda to Sauropoda, Guaibasauridae, Anchisauridae and Massopoda to Sauropodomorpha).
 - Licence case: Commons licences with a country port (CC BY 2.5 AR, CC BY-SA 3.0 PL) are rejected by the validator's I3 string check, so those two photos were left out and flagged in curation notes; the owner decides whether ported versions are allowed.
 - Genera whose Wikipedia article is not about the dinosaur (Coloradia is a moth) or whose group or validity is doubtful (Actiosaurus, Nopcsaspondylus) were not written.
+
+## 2026-11-22 — Ported Creative Commons licences accepted
+- Owner decision: CC BY and CC BY-SA licences with a country port (e.g. CC BY 2.5 AR, CC BY-SA 3.0 PL) are allowed like any other version. The validator's LICENSE_OK now accepts an optional two- or three-letter port code. The photos left out earlier for this reason were added back (Titanomachya holotype; two mounted-skeleton photos of Opisthocoelicaudia).
