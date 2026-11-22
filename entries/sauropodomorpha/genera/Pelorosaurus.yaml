@@ -1,0 +1,119 @@
+name: Pelorosaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Mantell 1850
+type_species: Pelorosaurus conybeari
+type_species_note: Filled from general knowledge, not yet checked against the revision.
+summary: Pelorosaurus is a titanosauriform sauropod named in 1850, with remains from the Early Cretaceous of England.
+size:
+  length_m: [24, 24]
+  note: Estimate by T. Holtz quoted by the Wikipedia revision.
+age:
+  first_ma: 145.06
+  last_ma: 110.1
+  early_interval: Tithonian
+  late_interval: Albian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Pelorosaurus conybeari
+  authority: (Melville 1849)
+  first_ma: 137.05
+  last_ma: 125.77
+  interval: Valanginian–Hauterivian
+  reference: original description
+- name: Pelorosaurus praecursor
+  authority: (Sauvage 1876)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais]
+  interval: Late Tithonian–Early Berriasian
+  occurrences: 1
+  ma: [141.0, 145.06]
+  id: unnamed-la-rochette-france
+- formation: Unnamed unit
+  group: Lower Greensand
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Aptian–Early Albian
+  occurrences: 1
+  ma: [110.1, 121.4]
+  id: lower-greensand-group-united-kingdom
+- formation: Tunbridge Wells Sand
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian–Early Hauterivian
+  occurrences: 1
+  ma: [125.77, 137.05]
+  id: tunbridge-wells-sand-united-kingdom
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Referred remains from England; many species have been assigned to the genus.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Mantell 1850 plate 21 Pelorosaurus conybeari.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/66/Mantell_1850_plate_21_Pelorosaurus_conybeari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mantell_1850_plate_21_Pelorosaurus_conybeari.jpg
+  artist: G. A. Mantell
+  license: Public domain
+  license_url: ''
+  date: '1850'
+  caption: Mantell 1850 plate showing the Pelorosaurus bones.
+  width: 687
+  height: 933
+  review: unreviewed
+- kind: fossil
+  file: Pelorosaurus holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Pelorosaurus_holotype.jpg/960px-Pelorosaurus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pelorosaurus_holotype.jpg
+  artist: Jos. Dinkel
+  license: Public domain
+  license_url: ''
+  date: 1800s date
+  caption: Holotype bones of Pelorosaurus.
+  width: 2118
+  height: 3090
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/vector.svg
+  png: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/raster/512x239.png
+  page: https://www.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358
+  attribution: Francisco Gascó (modified by Michael P. Taylor)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Brontomerus mcintoshi
+  matched: Titanosauriformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mantell, G.A. 1850. On the ''''Pelorosaurus'''': an undescribed gigantic terrestrial reptile, whose remains
+    are associated with those of the ''''Iguanodon'''' and other saurians in the strata of Tilgate Forest, in Sussex.
+    Philosophical Transactions of the Royal Society of London 140: 379–390. doi:10.1098/rstl.1850.0017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pelorosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pelorosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pelorosaurus”. English Wikipedia, revision 1384652586.
+  url: https://en.wikipedia.org/w/index.php?title=Pelorosaurus&oldid=1384652586
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species and valid species to be checked; the genus has a long and tangled history.
+  reviews: []

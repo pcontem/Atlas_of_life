@@ -1,0 +1,68 @@
+name: Venenosaurus
+rank: genus
+parent: brachiosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Tidwell et al. 2001
+type_species: Venenosaurus dicrocei
+type_species_note: Monotypic genus; the only species is the type.
+summary: Venenosaurus is a sauropod from the Poison Strip Member of the Cedar Mountain Formation in Utah, United
+  States, first found in 1998.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Venenosaurus dicrocei
+  authority: Tidwell et al. 2001
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Poison Strip Sandstone]
+  country: United States
+  regions: [Utah]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: DMNS 40932, a partial skeleton of an adult.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2/vector.svg
+  png: https://images.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2/raster/512x315.png
+  page: https://www.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachiosaurus altithorax
+  matched: Brachiosauridae
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Venenosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Venenosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Venenosaurus”. English Wikipedia, revision 1369335343.
+  url: https://en.wikipedia.org/w/index.php?title=Venenosaurus&oldid=1369335343
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image among the harvested candidates. Original description (Tidwell et al. 2001) to be added.
+  reviews: []

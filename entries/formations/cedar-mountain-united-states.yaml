@@ -5,23 +5,23 @@ group: Dakota
 country: United States
 regions: [Utah]
 location:
-  lat: 38.782
-  lng: -110.365
-  basis: median of 10 PBDB collections that yielded the atlas genera
+  lat: 38.829
+  lng: -109.692
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 139.1
   last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
-- fluvial indet.
+- lacustrine indet.
 - terrestrial indet.
+- fluvial indet.
 - crevasse splay
 - channel lag
 - '"floodplain"'
-- lacustrine indet.
 - fluvial-lacustrine indet.
-lithology: [mudstone, sandstone, chert, siltstone]
-pbdb_collections: ['22679', '27025', '48326', '73611', '73612', '94550', '97951', '97954', '185614', '200123']
+lithology: [mudstone, sandstone, claystone, chert]
+pbdb_collections: ['22679', '27025', '48326', '51919', '73611', '73612', '94550', '97951', '97954', '185614', '200123']
 includes: []
 summary: ''
 paleoenvironment: ''

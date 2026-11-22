@@ -1,0 +1,127 @@
+name: Duriatitan
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: Barrett et al. 2010
+type_species: Duriatitan humerocristatus
+type_species_note: Described in 1874 as a species of Cetiosaurus and given its own genus in 2010 (Wikipedia revision).
+summary: Duriatitan is a titanosauriform sauropod from the Kimmeridge Clay of Dorset, England, based on a partial
+  left humerus.
+size:
+  length_m: [25, 25]
+  note: Estimate by T. Holtz quoted by the Wikipedia revision.
+age:
+  first_ma: 154.8
+  last_ma: 137.05
+  early_interval: Kimmeridgian
+  late_interval: Berriasian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Duriatitan humerocristatus
+  authority: (Lydekker 1888)
+  first_ma: 154.8
+  last_ma: 137.05
+  interval: Kimmeridgian–Berriasian
+  reference: original description
+formations:
+- formation: Kimmeridge Clay
+  group: ''
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 2
+  ma: [143.1, 154.8]
+  id: kimmeridge-clay-united-kingdom
+- formation: Unnamed unit
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Tithonian–Berriasian
+  occurrences: 2
+  ma: [137.05, 149.2]
+  id: [purbeck-group-united-kingdom, unnamed-aylesbury-united-kingdom]
+- formation: Mont-Lambert
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais]
+  interval: Tithonian
+  occurrences: 2
+  ma: [143.1, 149.2]
+  id: mont-lambert-france
+- formation: Praia da Amoreira-Porto Novo
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: Rupelo
+  group: Oncala
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Tithonian–Berriasian
+  occurrences: 1
+  ma: [137.05, 149.2]
+  id: rupelo-spain
+fossil_material:
+  holotype: BMNH 44635, a partial left upper arm bone found near Sandsfoot, Weymouth.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Duriatitan.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a8/Duriatitan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Duriatitan.png
+  artist: Hulke, J.W.
+  license: Public domain
+  license_url: ''
+  date: '1873-11-05'
+  caption: Humerus of Duriatitan humerocristatus.
+  width: 1060
+  height: 788
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/vector.svg
+  png: https://images.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358/raster/512x239.png
+  page: https://www.phylopic.org/images/ea4d2a4d-3b4c-450a-bbdd-22520f7ef358
+  attribution: Francisco Gascó (modified by Michael P. Taylor)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Brontomerus mcintoshi
+  matched: Titanosauriformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'P. M. Barrett, R. B. J. Benson, and P. Upchurch. 2010. Dinosaurs of Dorset: Part II, the sauropod dinosaurs
+    (Saurischia, Sauropoda) with additional comments of the theropods. Proceedings of the Dorset Natural History
+    and Archaeological Society 131:113-126'
+- kind: literature
+  text: 'Hulke, J. W. 1874. Note on a very large saurian limb-bone adapted for progression upon land, from the Kimmeridge
+    clay of Weymouth, Dorset. Quarterly Journal of the Geological Society of London 30(1–4): 16–17. doi:10.1144/gsl.jgs.1874.030.01-04.17'
+- kind: literature
+  text: 'Paul M. Barrett, Roger B.J. Benson and Paul Upchurch 2010. Dinosaurs of Dorset: Part II, the sauropod dinosaurs
+    (Saurischia, Sauropoda) with additional comments on the theropods. Proceedings of the Dorset Natural History
+    and Archaeological Society 131: 113–126.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Duriatitan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Duriatitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Duriatitan”. English Wikipedia, revision 1320793996.
+  url: https://en.wikipedia.org/w/index.php?title=Duriatitan&oldid=1320793996
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original naming paper (Barrett et al. 2010) to be added; sources used are the 1874 note and a 2010 Dorset review.
+  reviews: []
