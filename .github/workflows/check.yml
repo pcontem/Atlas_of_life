@@ -13,5 +13,5 @@ jobs:
       - run: python3 tests/test_census.py
       - run: python3 scripts/fmt.py --check
       - run: python3 scripts/validate.py
-      - run: python3 scripts/build.py && git diff --exit-code site/data.json site/life.json site/g site/paleo
+      - run: python3 scripts/build.py && git diff --exit-code site/data.json site/life.json site/g site/paleo data/triage/*.json
       - run: python3 scripts/validate.py --strict || echo "::notice::consolidation not finished (see docs/CONSOLIDATION.md)"

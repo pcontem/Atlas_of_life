@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Atlas of Life — image triage</title>
+<title>Atlas of Life — image picker</title>
 <style>
 :root{--bg:#f6f5f2;--panel:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#dedcd6;--accent:#2f6f5e;
 --photo:#2b6cb0;--life:#b7791f;--fossil:#6b4f3a;--skeletal:#553c9a;--reject:#b42318;--ok:#2f855a}
@@ -65,10 +65,10 @@ kbd{font:11px monospace;border:1px solid var(--line);border-bottom-width:2px;bor
 </head>
 <body>
 <header>
-  <h1>Image triage</h1>
+  <h1>Atlas image picker</h1>
   <label>Repository<input id="repo" size="22"></label>
   <label>Branch<input id="base" size="8"></label>
-  <label>Volume<input id="vol" size="12"></label>
+  <label>Volume<input id="vol" size="12" list="vols"><datalist id="vols"></datalist></label>
   <label>GitHub token (only to send)<input id="token" type="password" size="22" placeholder="github_pat_…"></label>
   <button id="load" class="primary">Load</button>
   <span id="help"><kbd>←</kbd><kbd>→</kbd> image · <kbd>1</kbd> photo <kbd>2</kbd> life <kbd>3</kbd> fossil <kbd>4</kbd> skeletal <kbd>X</kbd> reject <kbd>0</kbd> clear · <kbd>[</kbd><kbd>]</kbd> genus · <kbd>Enter</kbd> enlarge</span>
@@ -161,6 +161,17 @@ function fold(batches) {
   return st;
 }
 
+// volumes that have a candidate list on the chosen branch (data/triage/<volume>.json) — offered in the Volume box
+async function listVolumes() {
+  try {
+    let names;
+    if (LOCAL) { const r = await fetch("../../data/triage/"); names = [...(await r.text()).matchAll(/href="([^"\/]+)\.json"/g)].map(m => m[1]); }
+    else names = ((await gh(`/repos/${cfg.repo}/contents/data/triage?ref=${encodeURIComponent(cfg.base)}`, { allow404: true })) || [])
+      .filter(f => f.name.endsWith(".json")).map(f => f.name.replace(/\.json$/, ""));
+    $("#vols").innerHTML = names.map(n => `<option value="${esc(n)}">`).join("");
+  } catch (e) { /* the box still accepts any name */ }
+}
+
 async function load() {
   for (const k of ["repo", "base", "vol", "token"]) { cfg[k] = $("#" + k).value.trim(); localStorage.setItem("triage." + k, cfg[k]); }
   status("Loading…");
@@ -173,8 +184,10 @@ async function load() {
     LOCALD = JSON.parse(localStorage.getItem(storeKey()) || "{}");
     cur = 0; focus = 0;
     renderList(); show(firstShown());
-    status(`${DATA.genera.length} genera loaded${LOCAL ? " (local files)" : ""}. Choices are kept in this browser until you send them.`);
+    const withEntry = DATA.genera.filter(g => g.has_entry).length;
+    status(`${DATA.genera.length} genera loaded, ${withEntry} with an entry${LOCAL ? " (local files)" : ""}. Choices are kept in this browser until you send them.`);
   } catch (e) { status("⚠ " + esc(e.message)); }
+  listVolumes();
 }
 
 // ---- decisions -------------------------------------------------------------------------------
@@ -409,6 +422,8 @@ $("#send").onclick = async () => {
 
 $("#load").onclick = load;
 counter();
+$("#base").addEventListener("change", listVolumes);
+listVolumes();
 if (LOCAL || params.has("autoload")) load();
 </script>
 </body>
