@@ -1,0 +1,142 @@
+name: Euhelopus
+rank: genus
+parent: euhelopodidae
+incertae_sedis: false
+placement_note: ''
+authority: Romer 1956
+type_species: Euhelopus zdanskyi
+type_species_note: From the English Wikipedia taxobox; originally Helopus zdanskyi Wiman 1929.
+summary: Euhelopus is a long-necked Early Cretaceous sauropod from Shandong, China, known from a relatively complete
+  skeleton with skull.
+size:
+  length_m: [11, 15]
+  mass_kg: [3500, 20000]
+  note: 'Estimates differ widely: 11 m and 3.5 t (Paul), 15 m and 15–20 t, with other authors giving 5.9 t and 3.6
+    t.'
+age:
+  first_ma: 143.1
+  last_ma: 100.5
+  early_interval: Berriasian
+  late_interval: Albian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Euhelopus zdanskyi
+  authority: (Wiman 1929)
+  first_ma: 143.1
+  last_ma: 132.6
+  interval: Berriasian–Valanginian
+  reference: original description
+formations:
+- formation: Mengyin
+  group: ''
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Berriasian–Valanginian
+  occurrences: 2
+  ma: [132.6, 143.1]
+  id: mengyin-china
+- formation: Shahai
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: shahai-china
+- formation: Unnamed unit
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian–Albian
+  occurrences: 1
+  ma: [100.5, 137.05]
+  id: tugulu-group-china
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: PMU 24705 (formerly PMU R233), a skeleton excavated by Otto Zdansky in 1923 in Shandong.
+  material: Two skeletons excavated in 1923 about three km apart; unlike most sauropods it has a relatively complete
+    skull.
+  completeness: near-complete
+  exceptional: ''
+biology: Like brachiosaurids and titanosaurs, it had longer forelimbs than hindlimbs.
+images:
+- kind: fossil
+  file: Euhelopus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Euhelopus_skeleton.jpg/960px-Euhelopus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Euhelopus_skeleton.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2015-07-27'
+  caption: Mounted skeleton of Euhelopus.
+  width: 4896
+  height: 3264
+  review: unreviewed
+- kind: fossil
+  file: Euhelopus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Euhelopus_skull.jpg/960px-Euhelopus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Euhelopus_skull.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2015-07-27'
+  caption: Skull of Euhelopus.
+  width: 2460
+  height: 1880
+  review: unreviewed
+- kind: fossil
+  file: Euhelopus postcrania 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Euhelopus_postcrania_2.jpg/960px-Euhelopus_postcrania_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Euhelopus_postcrania_2.jpg
+  artist: Carl Wiman
+  license: Public domain
+  license_url: ''
+  date: '1929'
+  caption: Postcranial bones of Euhelopus.
+  width: 2143
+  height: 990
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2d448563-aede-4a54-a061-7382551214dd/vector.svg
+  png: https://images.phylopic.org/images/2d448563-aede-4a54-a061-7382551214dd/raster/512x339.png
+  page: https://www.phylopic.org/images/2d448563-aede-4a54-a061-7382551214dd
+  attribution: DiBgd (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Euhelopus zdanskyi
+  matched: Euhelopus
+  genus_level: true
+sources:
+- kind: original
+  text: A. S. Romer. 1956. Osteology of the Reptiles, University of Chicago Press
+- kind: literature
+  text: Poropat, Stephen F. 2013. Photographic Atlas and Three-Dimensional Reconstruction of the Holotype Skull
+    of ''Euhelopus zdanskyi'' with Description of Additional Cranial Elements. PLOS ONE 8(11). doi:10.1371/journal.pone.0079932
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Euhelopus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Euhelopus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Euhelopus”. English Wikipedia, revision 1359607929.
+  url: https://en.wikipedia.org/w/index.php?title=Euhelopus&oldid=1359607929
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Euhelopodidae may not be monophyletic and Euhelopus has been placed near Mamenchisaurus or among Somphospondyli;
+    the group is kept per PBDB and the backbone.
+  - The PBDB reference (Romer 1956) is a textbook; the original naming of Helopus zdanskyi (Wiman 1929) should be
+    added.
+  reviews: []

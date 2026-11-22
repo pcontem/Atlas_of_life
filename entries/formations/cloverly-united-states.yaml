@@ -3,18 +3,18 @@ name: Cloverly
 rank: formation
 group: ''
 country: United States
-regions: [Montana]
+regions: [Montana, Wyoming]
 location:
-  lat: 45.487
-  lng: -108.73
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 44.978
+  lng: -108.322
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 121.4
-  last_ma: 110.1
+  last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet.]
+environment: [terrestrial indet., fluvial indet.]
 lithology: [claystone]
-pbdb_collections: ['227265']
+pbdb_collections: ['50496', '50498', '227265']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -54,11 +54,12 @@
 # Next steps (Sauropodomorpha)
 
 ## Done
-- 21 clade entries (2026-11-21) and batch 1 of genera (2026-11-22): the sixteen Diplodocoidea genera listed in DECISIONS.md.
+- 21 clade entries (2026-11-21) and batch 1 of genera (2026-11-22): the sixteen Diplodocoidea genera listed in DECISIONS.md (PR 44).
+- Batch 2 (2026-11-22): Brachiosaurus, Abydosaurus, Cedarosaurus, Europasaurus, Giraffatitan, Sauroposeidon, Euhelopus, Huabeisaurus, Abrosaurus, Camarasaurus, Liaoningotitan, Garumbatitan, Wintonotitan, Mierasaurus, Moabosaurus, Turiasaurus; Diplodocus images added from the Seismosaurus contact sheet.
 
 ## Pending
 - Batch 2 onwards, following `docs/QUEUE_GENERA.md` (next units: brachiosauridae, euhelopodidae, lognkosauria, macronaria, mamenchisauridae, …).
-- Diplodocus has no image (only size charts, a sculpture and a 1912 cartoon among the candidates).
+- Harvest gap: the Wikipedia article pictures were not captured for about 200 of the 449 pages (empty `files`), and the Commons category step takes only the first 15 files, so some genera lack good candidates (Garumbatitan has none). Re-harvest with a fix or add images by hand.
 - Holotype numbers not read for Apatosaurus, Brontosaurus, Barosaurus, Diplodocus, Tornieria, Dicraeosaurus, Amargasaurus, Suuwassea, Bajadasaurus;
   Kaatedocus (SMA 004), Supersaurus (BYU 9025) and Haplocanthosaurus (CM 572) need confirmation against the naming papers.
 - Images were chosen from the contact sheets by file name and a look at one mosaic per half of the batch; all `unreviewed`. Use the image picker to confirm.

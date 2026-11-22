@@ -1,0 +1,87 @@
+name: Abydosaurus
+rank: genus
+parent: brachiosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Chure et al. 2010
+type_species: Abydosaurus mcintoshi
+type_species_note: Monotypic genus; the only species is the type.
+summary: Abydosaurus is a brachiosaurid sauropod from the Early Cretaceous of Utah, known from complete skulls with
+  narrow teeth.
+size:
+  length_m: [18.3, 18.3]
+  note: Single estimate by T. Holtz (2012) quoted by the cited Wikipedia revision.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Abydosaurus mcintoshi
+  authority: Chure et al. 2010
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Mussentuchit]
+  country: United States
+  regions: [Utah]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: DINO 16488, a nearly complete skull with lower jaws and the first four neck vertebrae, from the base
+    of the Mussentuchit Member of the Cedar Mountain Formation near Dinosaur National Monument.
+  material: Skull and neck material; one of the few sauropods known from skulls and the first described complete
+    skull of a Cretaceous sauropod from the Americas.
+  completeness: partial
+  exceptional: ''
+biology: Its narrow teeth are notable, because earlier brachiosaurids were thought to have broader, spoon-shaped
+  ones.
+images:
+- kind: life
+  file: Abydosaurus NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Abydosaurus_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Abydosaurus_NT.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-10-10'
+  caption: Head of Abydosaurus in life.
+  width: 600
+  height: 415
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2/vector.svg
+  png: https://images.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2/raster/512x315.png
+  page: https://www.phylopic.org/images/f972f554-26cc-4c9c-93b0-0f58b6015de2
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachiosaurus altithorax
+  matched: Brachiosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chure, D.; Britt, B.; Whitlock, J.A.; Wilson, J.A. 2010. First complete sauropod dinosaur skull from the
+    Cretaceous of the Americas and the evolution of sauropod dentition. Naturwissenschaften 97(4): 379–391. doi:10.1007/s00114-010-0650-6'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Abydosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Abydosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Abydosaurus”. English Wikipedia, revision 1333390025.
+  url: https://en.wikipedia.org/w/index.php?title=Abydosaurus&oldid=1333390025
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia text does not state what the earlier teeth looked like in detail; the biology line paraphrases
+    it loosely. Check Chure et al. 2010.
+  reviews: []

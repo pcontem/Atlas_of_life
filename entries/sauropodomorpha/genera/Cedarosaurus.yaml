@@ -1,0 +1,99 @@
+name: Cedarosaurus
+rank: genus
+parent: brachiosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Tidwell et al. 1999
+type_species: Cedarosaurus weiskopfae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Cedarosaurus is a macronarian sauropod from the Early Cretaceous Cedar Mountain Formation of Utah, placed
+  in Brachiosauridae by PBDB.
+size:
+  length_m: [15, 15]
+  mass_kg: [10000, 10000]
+  note: Maximum estimates by G. S. Paul quoted by the cited Wikipedia revision.
+age:
+  first_ma: 137.05
+  last_ma: 110.1
+  early_interval: Valanginian
+  late_interval: Albian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Cedarosaurus weiskopfae
+  authority: Tidwell et al. 1999
+  first_ma: 137.05
+  last_ma: 110.1
+  interval: Valanginian–Albian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Yellow Cat]
+  country: United States
+  regions: [Utah]
+  interval: Valanginian
+  occurrences: 2
+  ma: [132.6, 137.05]
+  id: cedar-mountain-united-states
+- formation: Paluxy
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: paluxy-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; the fossils were found in 1996 in the Yellow Cat Member of the Cedar
+    Mountain Formation, eastern Utah.
+  material: Skeletal remains from the Yellow Cat Member; a study of 2001 described 115 gastroliths found with a
+    Cedarosaurus specimen.
+  completeness: partial
+  exceptional: Gastroliths (stomach stones) were found with a specimen.
+biology: Gastroliths found with a specimen were studied in 2001 by Sanders, Manley and Carpenter; they were mostly
+  rounded, the largest being the most irregular.
+images:
+- kind: life
+  file: Cedarosaurus SW.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Cedarosaurus_SW.png/960px-Cedarosaurus_SW.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cedarosaurus_SW.png
+  artist: User:Slate Weasel
+  license: Public domain
+  license_url: ''
+  date: '2018-08-16'
+  caption: Life restoration of Cedarosaurus.
+  width: 1763
+  height: 928
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ed7a4713-22db-475f-924d-294cd28fa0d9/vector.svg
+  png: https://images.phylopic.org/images/ed7a4713-22db-475f-924d-294cd28fa0d9/raster/512x330.png
+  page: https://www.phylopic.org/images/ed7a4713-22db-475f-924d-294cd28fa0d9
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Cedarosaurus weiskopfae
+  matched: Cedarosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: V. Tidwell, K. Carpenter, and W. Brooks. 1999. New sauropod from the Lower Cretaceous of Utah, USA. Oryctos
+    2:21-37
+- kind: literature
+  text: 'Paul, Gregory S. 2010. The Princeton Field Guide to Dinosaurs. Princeton: Princeton University Press. doi:10.1515/9781400836154.162'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cedarosaurus (downloaded 2026-11-21).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cedarosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cedarosaurus”. English Wikipedia, revision 1325187326.
+  url: https://en.wikipedia.org/w/index.php?title=Cedarosaurus&oldid=1325187326
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number, original naming-paper details and the placement in Brachiosauridae (PBDB) versus other macronarian
+    groups to be checked.
+  reviews: []
