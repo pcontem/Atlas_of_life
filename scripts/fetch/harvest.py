@@ -51,6 +51,29 @@ def mw(api, **p):
     return fetch_json(api, p) or {}
 
 
+def mw_pages(api, **p):
+    """Like mw, but follows the API's `continue` token and merges the pages of every answer. A query with
+    `imlimit=max` over 40 titles returns at most 500 images in all, so without this the pages that come last
+    in the alphabet lost all their pictures (2026-11-22: 200 of 449 Sauropodomorpha pages had none)."""
+    merged, norm, red, cont = {}, [], [], {}
+    for _ in range(60):
+        r = mw(api, **p, **cont)
+        q = r.get("query", {})
+        norm += q.get("normalized", [])
+        red += q.get("redirects", [])
+        for pg in q.get("pages", []):
+            m = merged.setdefault(pg["title"], {})
+            for k, v in pg.items():
+                if isinstance(v, list):
+                    m[k] = m.get(k, []) + v
+                else:
+                    m[k] = v
+        cont = r.get("continue")
+        if not cont:
+            break
+    return dict(query=dict(pages=list(merged.values()), normalized=norm, redirects=red))
+
+
 # ---------- PBDB ----------
 def pbdb(base):
     gen = pbdb_get("taxa/list.json", base_name=base, rank="genus", taxon_status="valid", show="attr,app,parent,class,ref", vocab="pbdb")
@@ -125,7 +148,7 @@ def wiki(names):
     res = {}
     for i in range(0, len(names), 40):
         chunk = names[i:i + 40]
-        r = mw(WIKI, action="query", redirects=1, prop="revisions|pageprops|images", rvprop="ids|timestamp|content",
+        r = mw_pages(WIKI, action="query", redirects=1, prop="revisions|pageprops|images", rvprop="ids|timestamp|content",
                rvslots="main", ppprop="disambiguation", imlimit="max", titles="|".join(chunk))
         q = r.get("query", {})
         norm = {n["from"]: n["to"] for n in q.get("normalized", [])}
@@ -165,6 +188,9 @@ META = ("Artist", "LicenseShortName", "LicenseUrl", "UsageTerms", "ImageDescript
 
 def strip_html(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
+
+
+NOISE = re.compile(r"(size comparison|size chart|scale|cladogram|distribution|\bmap\b|sculpture|statue|stamp|poster|cartoon|\bmodel\b|diplosil|silhouette)", re.I)
 
 
 def cap_for(n_species):
@@ -207,15 +233,25 @@ def commons(wikires, names, nsp, living=()):
         cats = [f"Category:{g}"]
         sub = mw(COMMONS, action="query", list="categorymembers", cmtitle=f"Category:{g}", cmtype="subcat", cmlimit=15)
         cats += [c["title"] for c in sub.get("query", {}).get("categorymembers", [])]
+        # Category:<Genus> alone could fill the whole cap with its first files in alphabetical order and leave the
+        # sub-categories (fossils, skulls, life restorations, mounts) unread; so each category gives a share first
+        # and the rest of the cap is filled afterwards. Charts, maps, models and the like are skipped.
+        share = max(3, -(-cap // max(1, len(cats))))
+        members = {}
         for c in cats if len(got) < cap else []:
-            if len(got) >= cap:
-                break
-            r = mw(COMMONS, action="query", list="categorymembers", cmtitle=c, cmtype="file", cmlimit=cap)
-            for m in r.get("query", {}).get("categorymembers", []):
-                t = "File:" + m["title"].split(":", 1)[1]
-                if len(got) < cap and t not in got:
-                    got.append(t)
-                    add(t, g, c)
+            r = mw(COMMONS, action="query", list="categorymembers", cmtitle=c, cmtype="file", cmlimit=max(cap, 50))
+            members[c] = ["File:" + m["title"].split(":", 1)[1] for m in r.get("query", {}).get("categorymembers", [])
+                          if not NOISE.search(m["title"])]
+        for limit in (share, cap):
+            for c, ts in members.items():
+                taken = 0
+                for t in ts:
+                    if len(got) >= cap or taken >= limit:
+                        break
+                    if t not in got:
+                        got.append(t)
+                        add(t, g, c)
+                        taken += 1
         for t in other:
             if len(got) < cap and t not in got:
                 got.append(t)
