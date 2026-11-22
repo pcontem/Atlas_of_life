@@ -5,16 +5,37 @@ group: ''
 country: China
 regions: [Yunnan]
 location:
-  lat: 25.171
-  lng: 102.102
-  basis: median of 10 PBDB collections that yielded the atlas genera
+  lat: 25.173
+  lng: 102.097
+  basis: median of 21 PBDB collections that yielded the atlas genera
 age:
   first_ma: 201.4
-  last_ma: 192.9
+  last_ma: 174.7
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: [not reported, sandstone, mudstone]
-pbdb_collections: ['49501', '49503', '49773', '49777', '55275', '72091', '78993', '137007', '137128', '137353']
+environment: [terrestrial indet., '"floodplain"', lacustrine - small]
+lithology: [not reported, mudstone, siltstone, sandstone]
+pbdb_collections:
+- '49501'
+- '49503'
+- '49773'
+- '49777'
+- '55275'
+- '59348'
+- '59352'
+- '66926'
+- '71802'
+- '71803'
+- '72091'
+- '78993'
+- '78994'
+- '94783'
+- '137007'
+- '137128'
+- '137353'
+- '173377'
+- '194385'
+- '206023'
+- '278620'
 includes: []
 summary: ''
 paleoenvironment: ''

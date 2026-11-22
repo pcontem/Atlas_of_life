@@ -1,0 +1,100 @@
+name: Ngwevu
+rank: genus
+parent: massospondylidae
+incertae_sedis: false
+placement_note: ''
+authority: Chapelle et al. 2019
+type_species: Ngwevu intloko
+type_species_note: Monotypic genus; the only species is the type.
+summary: Ngwevu is a massospondylid sauropodomorph from the Early Jurassic Elliot Formation of South Africa, known
+  from a single skull-bearing specimen once assigned to Massospondylus.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted; the holotype was an adult about 10 years old.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ngwevu intloko
+  authority: Chapelle et al. 2019
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+fossil_material:
+  holotype: BP/1/4779, found in 1978 by J. W. Kitching at Tevrede Farm, Fouriesburg district, South Africa; held
+    at the University of the Witwatersrand.
+  material: Known from the holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Histology shows that the holotype was an adult about 10 years old when it fossilised. A broad palate and
+  short snout may have given it a stronger bite than Massospondylus carinatus, which could suggest niche partitioning
+  between the two.
+images:
+- kind: fossil
+  file: Ngwevu intloko.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/25/Ngwevu_intloko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ngwevu_intloko.jpg
+  artist: Kimberley E.J. Chapelle​, Paul M. Barrett, Jennifer Botha, Jonah N. Choiniere
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-08-05'
+  caption: Skull of the holotype of Ngwevu intloko.
+  width: 761
+  height: 1200
+  review: unreviewed
+- kind: skeletal
+  file: Ngwevu reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/24/Ngwevu_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ngwevu_reconstruction.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-01-13'
+  caption: Skull reconstruction of Ngwevu intloko.
+  width: 1526
+  height: 1031
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/vector.svg
+  png: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/raster/512x165.png
+  page: https://www.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491
+  attribution: Joseph J. W. Sertich, Mark A. Loewen
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Seitaad ruessi
+  matched: Massospondylidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chapelle, Kimberley E. J.; Barrett, Paul M.; Botha, Jennifer; Choiniere, Jonah N. Augu. ''''Ngwevu intloko'''':
+    a new early sauropodomorph dinosaur from the Lower Jurassic Elliot Formation of South Africa and comments on
+    cranial ontogeny in ''''Massospondylus carinatus''''. PeerJ 7. doi:10.7717/peerj.7240'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ngwevu (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ngwevu
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ngwevu”. English Wikipedia, revision 1314494267.
+  url: https://en.wikipedia.org/w/index.php?title=Ngwevu&oldid=1314494267
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Whether the holotype is part of the Massospondylus growth series or a distinct genus is debated; to check against
+    later studies.
+  reviews: []

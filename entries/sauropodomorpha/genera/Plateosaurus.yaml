@@ -1,0 +1,265 @@
+name: Plateosaurus
+rank: genus
+parent: plateosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Meyer 1837
+type_species: Plateosaurus trossingensis
+type_species_note: The cited Wikipedia revision states P. trossingensis as the type species, with the change made
+  in 2019 (ICZN Opinion 2435); the type before that was P. engelhardti. To check against the Opinion.
+summary: Plateosaurus is a bipedal herbivorous sauropodomorph from the Late Triassic of central and northern Europe,
+  known from well over 100 individuals.
+size:
+  length_m: [4.8, 10]
+  mass_kg: [600, 4000]
+  note: Fully grown individuals varied widely in size (Wikipedia revision).
+age:
+  first_ma: 237.0
+  last_ma: 199.5
+  early_interval: Late Triassic
+  late_interval: Hettangian
+  pbdb_occurrences: 30
+  note: ''
+species:
+- name: Plateosaurus gracilis
+  authority: (Huene 1905)
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: ''
+- name: Plateosaurus longiceps
+  authority: Jaekel 1913
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: ''
+- name: Plateosaurus trossingensis
+  authority: Fraas 1913
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Löwenstein
+  group: Keuper
+  members: [Middle Stubensandstein, Mittlerer Stubensandstein]
+  country: Germany
+  regions: [Baden-Wurttemberg, Baden-Württemberg]
+  interval: Norian
+  occurrences: 10
+  ma: [205.7, 227.3]
+  id: lowenstein-germany
+- formation: Trossingen
+  group: Keuper
+  members: [Feuerletten, Knollenmergel]
+  country: Germany
+  regions: [Baden-Württemberg, Bayern, Sachsen-Anhalt]
+  interval: Norian–Rhaetian
+  occurrences: 5
+  ma: [201.4, 227.3]
+  id: trossingen-germany
+- formation: Klettgau
+  group: Keuper
+  members: [Gruhalde]
+  country: Switzerland
+  regions: [Aargau, Schaffhausen]
+  interval: Norian
+  occurrences: 3
+  ma: [205.7, 227.3]
+  id: klettgau-switzerland
+- formation: Ørsted Dal
+  group: Fleming Fjord
+  members: []
+  country: Greenland
+  regions: []
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: fleming-fjord-greenland
+- formation: Grès à Avicula contorta
+  group: ''
+  members: []
+  country: France
+  regions: [Lorraine]
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+  id: gres-a-avicula-contorta-france
+- formation: Marnes de Châlins
+  group: ''
+  members: []
+  country: France
+  regions: [Jura]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: marnes-de-chalins-france
+- formation: Westbury
+  group: Penarth
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+  id: westbury-united-kingdom
+- formation: Rhätkeuper
+  group: Keuper
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+  id: rhatkeuper-germany
+- formation: Lunde
+  group: ''
+  members: []
+  country: O2
+  regions: []
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+  id: lunde-o2
+- formation: Feuerletten
+  group: Keuper
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: feuerletten-germany
+- formation: Elliot
+  group: Stormberg
+  members: [Lower]
+  country: South Africa
+  regions: [Eastern Cape]
+  interval: Norian–Rhaetian
+  occurrences: 1
+  ma: [201.4, 227.3]
+  id: elliot-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Rhaetian
+  occurrences: 1
+  ma: [201.4, 205.7]
+  id: unnamed-violot-france
+- formation: Laguna Colorada
+  group: El Tranquilo
+  members: []
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: laguna-colorada-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Triassic
+  occurrences: 1
+  ma: [201.4, 237.0]
+  id: unnamed-bovenden-germany
+- formation: Bamberg
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: bamberg-germany
+fossil_material:
+  holotype: Not read in the sources consulted; the genus was named by H. von Meyer in 1837 from fossils found in
+    1834 by J. F. Engelhardt.
+  material: Remains of well over 100 individuals from sites across Europe, notably near Halberstadt and Trossingen
+    (Germany) and Frick (Switzerland).
+  completeness: multiple
+  exceptional: ''
+biology: A bipedal herbivore with a small skull, a long flexible neck, plump plant-crushing teeth, powerful hind
+  limbs and short muscular arms with grasping hands whose large claws may have served for defence and feeding. It
+  showed strong developmental plasticity, with adult size varying widely.
+images:
+- kind: life
+  file: Life restoration of Plateosaurus trossingensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Life_restoration_of_Plateosaurus_trossingensis.jpg/960px-Life_restoration_of_Plateosaurus_trossingensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_restoration_of_Plateosaurus_trossingensis.jpg
+  artist: Anonymous Dinonerd
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-09-25'
+  caption: Life restoration of Plateosaurus trossingensis.
+  width: 8104
+  height: 3402
+  review: unreviewed
+- kind: fossil
+  file: Plateosaurus MSF23.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Plateosaurus_MSF23.jpg/960px-Plateosaurus_MSF23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plateosaurus_MSF23.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009'
+  caption: Slab with Plateosaurus bones.
+  width: 2204
+  height: 2241
+  review: unreviewed
+- kind: fossil
+  file: Plateosaurus SMNS F33.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Plateosaurus_SMNS_F33.jpg/960px-Plateosaurus_SMNS_F33.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plateosaurus_SMNS_F33.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009'
+  caption: Mounted skeleton of Plateosaurus.
+  width: 2280
+  height: 1828
+  review: unreviewed
+- kind: fossil
+  file: Plateosaurus Skelett 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Plateosaurus_Skelett_1.jpg/960px-Plateosaurus_Skelett_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plateosaurus_Skelett_1.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-10-20'
+  caption: Mounted skeleton of Plateosaurus.
+  width: 3218
+  height: 1528
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a/vector.svg
+  png: https://images.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a/raster/512x126.png
+  page: https://www.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Plateosaurus
+  matched: Plateosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: H. v. Meyer. 1837. Mittheilungen, an Professor Bronn gerichtet [Communications, sent to Professor Bronn].
+    Neues Jahrbuch für Mineralogie, Geognosie, Geologie und Petrefaktenkunde 1837:314-317
+- kind: literature
+  text: '2019. Opinion 2435 (Case 3560) – Plateosaurus Meyer, 1837 (Dinosauria, Sauropodomorpha): new type species
+    designated. The Bulletin of Zoological Nomenclature 76(1): 144–145. doi:10.21805/bzn.v76.a042'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plateosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plateosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plateosaurus”. English Wikipedia, revision 1382848004.
+  url: https://en.wikipedia.org/w/index.php?title=Plateosaurus&oldid=1382848004
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Valid species and their ages to be checked; PBDB lists nine species.]
+  reviews: []

@@ -1,0 +1,103 @@
+name: Sarahsaurus
+rank: genus
+parent: massospondylidae
+incertae_sedis: false
+placement_note: ''
+authority: Rowe et al. 2011
+type_species: Sarahsaurus aurifontanalis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Sarahsaurus is a bipedal massospondylid sauropodomorph with powerful grasping hands from the Early Jurassic
+  Kayenta Formation of Arizona, United States.
+size:
+  length_m: [4, 4]
+  mass_kg: [200, 200]
+  note: Estimate by G. S. Paul (2016) quoted by the cited Wikipedia revision; the vertebral column alone is over
+    3.1 m.
+age:
+  first_ma: 199.5
+  last_ma: 184.2
+  early_interval: Sinemurian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sarahsaurus aurifontanalis
+  authority: Rowe et al. 2011
+  first_ma: 199.5
+  last_ma: 184.2
+  interval: Sinemurian–Pliensbachian
+  reference: original description
+formations:
+- formation: Kayenta
+  group: Glen Canyon
+  members: [Silty Facies]
+  country: United States
+  regions: [Arizona]
+  interval: Sinemurian–Pliensbachian
+  occurrences: 2
+  ma: [184.2, 199.5]
+  id: kayenta-united-states
+fossil_material:
+  holotype: TMM 43646-2, a nearly complete articulated skeleton with a fragmentary disarticulated skull (Gold Spring,
+    Kayenta Formation, Arizona).
+  material: A second skull of a less mature individual, and further specimens from the Kayenta Formation near Gold
+    Spring.
+  completeness: near-complete
+  exceptional: ''
+biology: The very large, powerful hands may suggest an omnivorous habit. It was bipedal, with forelimbs much shorter
+  than the hind limbs.
+images:
+- kind: fossil
+  file: Sarahsaurus holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1a/Sarahsaurus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sarahsaurus_holotype.jpg
+  artist: T.B. Rowe; H.-D. Sues; R.R. Reisz
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011-02-24'
+  caption: Holotype skeleton of Sarahsaurus.
+  width: 1280
+  height: 859
+  review: unreviewed
+- kind: life
+  file: Sarahsaurus restoration.PNG
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ef/Sarahsaurus_restoration.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sarahsaurus_restoration.PNG
+  artist: Brian Engh . Published by Adam D. Marsh, Timothy B. Rowe.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2018'
+  caption: Life restoration of Sarahsaurus.
+  width: 1455
+  height: 2400
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/vector.svg
+  png: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/raster/512x165.png
+  page: https://www.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491
+  attribution: Joseph J. W. Sertich, Mark A. Loewen
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Seitaad ruessi
+  matched: Massospondylidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Timothy B. Rowe, Hans-Dieter Sues and Robert R. Reisz 2011. Dispersal and diversity in the earliest North
+    American sauropodomorph dinosaurs, with a description of a new taxon. Proceedings of the Royal Society B: Biological
+    Sciences 278(1708): 1044–1053. doi:10.1098/rspb.2010.1867'
+- kind: literature
+  text: Marsh, Adam D. 2018. Anatomy and systematics of the sauropodomorph Sarahsaurus aurifontanalis from the Early
+    Jurassic Kayenta Formation. PLOS One 13(10). doi:10.1371/journal.pone.0204007
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sarahsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sarahsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sarahsaurus”. English Wikipedia, revision 1315095079.
+  url: https://en.wikipedia.org/w/index.php?title=Sarahsaurus&oldid=1315095079
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

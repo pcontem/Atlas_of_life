@@ -5,17 +5,18 @@ group: Scoresby Land
 country: Greenland
 regions: [East Greenland]
 location:
-  lat: 71.599
-  lng: -23.035
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: 71.384
+  lng: -22.569
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 227.3
   last_ma: 205.7
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [alluvial fan, lacustrine - small]
-lithology: ['"siliciclastic"', claystone]
-pbdb_collections: ['26995', '26998']
+environment: [lacustrine - large, alluvial fan, lacustrine - small]
+lithology: [mudstone, '"siliciclastic"', claystone]
+pbdb_collections: ['26995', '26996', '26998']
 includes:
+- PBDB records the Malmros Klint as a member of the Fleming Fjord Formation.
 - PBDB records the Ørsted Dal as a member of the Fleming Fjord Formation.
 summary: ''
 paleoenvironment: ''

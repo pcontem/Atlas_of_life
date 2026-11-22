@@ -1,0 +1,105 @@
+name: Mussaurus
+rank: genus
+parent: sauropodiformes
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte and Vince 1979
+type_species: Mussaurus patagonicus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Mussaurus is a herbivorous sauropodomorph from the Early Jurassic of southern Argentina, named for its
+  tiny juveniles and now known from adults up to 8 m long.
+size:
+  length_m: [8, 8]
+  mass_kg: [1200, 1600]
+  note: Adults up to 8 m and 1.2-1.6 t (Wikipedia revision).
+age:
+  first_ma: 199.5
+  last_ma: 192.9
+  early_interval: Sinemurian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Mussaurus patagonicus
+  authority: Bonaparte and Vince 1979
+  first_ma: 199.5
+  last_ma: 192.9
+  interval: Sinemurian
+  reference: original description
+formations:
+- formation: Laguna Colorada
+  group: El Tranquilo
+  members: []
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Sinemurian
+  occurrences: 2
+  ma: [192.9, 199.5]
+fossil_material:
+  holotype: Not read in the sources consulted; the first nest with juveniles was described by Bonaparte and Vince
+    in 1979.
+  material: Numerous specimens of varying age from one locality, juveniles to adults; adults were first described
+    in 2013.
+  completeness: multiple
+  exceptional: A nest with eggs and hatchlings; many ages together at one site.
+biology: Young were small quadrupeds and adults medium-sized bipeds. Many specimens of different ages at one locality
+  suggest it was one of the earliest dinosaurs to live in groups.
+images:
+- kind: life
+  file: Mussaurus patagonicus life restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Mussaurus_patagonicus_life_restoration.png/960px-Mussaurus_patagonicus_life_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mussaurus_patagonicus_life_restoration.png
+  artist: Sauropodomorph
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-06'
+  caption: Life restoration of Mussaurus patagonicus.
+  width: 4000
+  height: 1866
+  review: unreviewed
+- kind: life
+  file: Mussaurus2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Mussaurus2.jpg/960px-Mussaurus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mussaurus2.jpg
+  artist: Levi Martínez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014-04-24'
+  caption: Life restoration of Mussaurus.
+  width: 2612
+  height: 1464
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/vector.svg
+  png: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/raster/512x122.png
+  page: https://www.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Melanorosaurus readi
+  matched: Sauropodiformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Bonaparte, J. F.; Vince, M. 1979. El hallazgo del primer nido de dinosaurios triasicos, (Saurischia, Prosauropoda),
+    Triasico Superior de Patagonia, Argentina [The discovery of the first nest of Triassic dinosaurs (Saurischia,
+    Prosauropoda,) from the Upper Triassic of Patagonia, Argentina]. Ameghiniana 16(1–2): 173–182.'
+- kind: literature
+  text: 'Pol, Diego; Mancuso, Adriana C.; Smith, Roger M. H.; Marsicano, Claudia A.; Ramezani, Jahandar; Cerda,
+    Ignacio A.; Otero, Alejandro; Fernandez, Vincent 2021. Earliest evidence of herd-living and age segregation
+    amongst dinosaurs. Scientific Reports 11(1): 20023. doi:10.1038/s41598-021-99176-1'
+- kind: literature
+  text: 'Otero, A.; Pol, D. 2013. Postcranial anatomy and phylogenetic relationships of ''''Mussaurus patagonicus''''
+    (Dinosauria, Sauropodomorpha). Journal of Vertebrate Paleontology 33(5): 1138. doi:10.1080/02724634.2013.769444'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mussaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mussaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mussaurus”. English Wikipedia, revision 1383331164.
+  url: https://en.wikipedia.org/w/index.php?title=Mussaurus&oldid=1383331164
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

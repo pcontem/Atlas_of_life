@@ -1,0 +1,113 @@
+name: Aardonyx
+rank: genus
+parent: sauropodiformes
+incertae_sedis: false
+placement_note: ''
+authority: Yates et al. 2010
+type_species: Aardonyx celestae
+type_species_note: Monotypic genus; the only species is the type.
+summary: Aardonyx is a basal sauropodomorph from the Early Jurassic Elliot Formation of South Africa that shows
+  the transition from bipedal to quadrupedal habits.
+size:
+  length_m: null
+  note: No body length was read; an adult femur longer than 600 mm is cited in the description.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aardonyx celestae
+  authority: Yates et al. 2010
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Not read in the sources consulted; the cited Wikipedia revision says it is known from the Elliot Formation
+    of South Africa.
+  completeness: partial
+  exceptional: ''
+biology: The hind limbs and pelvic girdle suggest that it normally walked on two legs but could drop to all fours,
+  and its arms have features intermediate between basal sauropodomorphs and sauropods.
+images:
+- kind: life
+  file: Aardonyx NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8c/Aardonyx_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aardonyx_NT.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-11-12'
+  caption: Life restoration of Aardonyx.
+  width: 600
+  height: 397
+  review: unreviewed
+- kind: life
+  file: Fig 2 - Aardonyx life restoration by Matthew Bonnan.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Fig_2_-_Aardonyx_life_restoration_by_Matthew_Bonnan.jpg/960px-Fig_2_-_Aardonyx_life_restoration_by_Matthew_Bonnan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fig_2_-_Aardonyx_life_restoration_by_Matthew_Bonnan.jpg
+  artist: Mbonnan1
+  license: Public domain
+  license_url: ''
+  date: '2009-11-11'
+  caption: Life restoration of Aardonyx by Matthew Bonnan.
+  width: 2000
+  height: 646
+  review: unreviewed
+- kind: skeletal
+  file: Aardonyx skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Aardonyx_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aardonyx_skull.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-10-05'
+  caption: Skull reconstruction of Aardonyx.
+  width: 1378
+  height: 784
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/vector.svg
+  png: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/raster/512x122.png
+  page: https://www.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Melanorosaurus readi
+  matched: Sauropodiformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Yates, A. M.; Bonnan, M. F.; Neveling, J.; Chinsamy, A.; Blackbeard, M. G. 2010. A new transitional sauropodomorph
+    dinosaur from the Early Jurassic of South Africa and the evolution of sauropod feeding and quadrupedalism. Proceedings
+    of the Royal Society B 277(1682): 787–794. doi:10.1098/rspb.2009.1440'
+- kind: literature
+  text: 'Botha, Jennifer; Choiniere, Jonah N.; Benson, Roger B.J. 24 O. Rapid growth preceded gigantism in sauropodomorph
+    evolution. Current Biology 32(20): 4501–4507.e2. doi:10.1016/j.cub.2022.08.031'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aardonyx (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aardonyx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aardonyx”. English Wikipedia, revision 1325772546.
+  url: https://en.wikipedia.org/w/index.php?title=Aardonyx&oldid=1325772546
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype
+  - material and completeness not read; check against Yates et al. 2010.
+  reviews: []

@@ -1,0 +1,110 @@
+name: Riojasaurus
+rank: genus
+parent: riojasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1969
+type_species: Riojasaurus incertus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Riojasaurus is a large herbivorous sauropodomorph from the Late Triassic (Norian) Los Colorados Formation
+  of La Rioja Province, Argentina.
+size:
+  length_m: [6.6, 10]
+  mass_kg: [800, 3000]
+  note: 6.6 m and 800 kg (G. S. Paul); large individuals up to 10 m and 3 t (Wikipedia revision).
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Riojasaurus incertus
+  authority: Bonaparte 1969
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Los Colorados
+  group: Agua de la Peña
+  members: []
+  country: Argentina
+  regions: [La Rioja]
+  interval: Norian
+  occurrences: 2
+  ma: [205.7, 227.3]
+fossil_material:
+  holotype: PVL 3808, found in 1966 (Los Colorados Formation, Ischigualasto-Villa Unión Basin).
+  material: At least twenty specimens, the first cranial material found in 1987 and described in 1995.
+  completeness: multiple
+  exceptional: ''
+biology: Scleral rings suggest it may have been cathemeral, active at short intervals through the day. The near-equal
+  fore and hind limbs have been read as a quadrupedal gait, though the hand and shoulder have been read otherwise.
+images:
+- kind: life
+  file: Riojasaurus NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Riojasaurus_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Riojasaurus_NT.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/ http://paleoexhibit.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019'
+  caption: Life restoration of Riojasaurus.
+  width: 766
+  height: 442
+  review: unreviewed
+- kind: life
+  file: Riojasaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Riojasaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Riojasaurus.jpg
+  artist: Ornitholestes
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Life restoration of Riojasaurus.
+  width: 1506
+  height: 791
+  review: unreviewed
+- kind: fossil
+  file: Riojasaurus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Riojasaurus_skull.jpg/960px-Riojasaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Riojasaurus_skull.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2010'
+  caption: Skull of Riojasaurus.
+  width: 1940
+  height: 1336
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd/vector.svg
+  png: https://images.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd/raster/512x173.png
+  page: https://www.phylopic.org/images/4ac3103b-2649-4a1d-b58f-260ac8884dcd
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Riojasaurus incertus
+  matched: Riojasaurus
+  genus_level: true
+sources:
+- kind: original
+  text: J. F. Bonaparte. 1969. Dos nuevas "faunas" de reptiles triasicos de Argentina [Two new reptilian "faunas"
+    of the Argentine Triassic]. Gondwana Stratigraphy (IUGS Symposium, Buenos Aires) 2:283-306
+- kind: literature
+  text: 'Schmitz, L. 2011. Nocturnality in Dinosaurs Inferred from Scleral Ring and Orbit Morphology. Science 332(6030):
+    705–8. doi:10.1126/science.1200043'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Riojasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Riojasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Riojasaurus”. English Wikipedia, revision 1359412924.
+  url: https://en.wikipedia.org/w/index.php?title=Riojasaurus&oldid=1359412924
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

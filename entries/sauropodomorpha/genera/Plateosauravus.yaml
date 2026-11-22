@@ -1,0 +1,86 @@
+name: Plateosauravus
+rank: genus
+parent: plateosauridae
+incertae_sedis: true
+placement_note: PBDB places it in Plateosauridae but the cited Wikipedia revision calls it a basal plateosaurian
+  of uncertain affinities.
+authority: Huene 1932
+type_species: Plateosauravus cullingworthi
+type_species_note: Named as Plateosaurus cullingworthi by Haughton in 1924 and moved to this genus by von Huene
+  in 1932.
+summary: Plateosauravus is a basal plateosaurian of uncertain affinities from the Late Triassic Elliot Formation
+  of South Africa.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Plateosauravus cullingworthi
+  authority: (Haughton 1924)
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Lower]
+  country: South Africa
+  regions: [Eastern Cape]
+  interval: Norian–Rhaetian
+  occurrences: 2
+  ma: [201.4, 227.3]
+  id: elliot-south-africa
+fossil_material:
+  holotype: SAM 3341, 3345, 3347, 3350-51, 3603, 3607, a partial skeleton (Haughton 1924).
+  material: Known from the partial skeleton on which Haughton based his species.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Plateosauravus cullingworthi humerus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/59/Plateosauravus_cullingworthi_humerus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Plateosauravus_cullingworthi_humerus.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-17'
+  caption: Humerus of Plateosauravus cullingworthi.
+  width: 709
+  height: 1056
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a/vector.svg
+  png: https://images.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a/raster/512x126.png
+  page: https://www.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Plateosaurus
+  matched: Plateosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. v. Huene. 1932. Die fossile Reptil-Ordnung Saurischia, ihre Entwicklung und Geschichte [The fossil reptile
+    order Saurischia, their development and history]. Monographien zur Geologie und Palaeontologie, serie 1 4(1-2):1-361
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plateosauravus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plateosauravus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plateosauravus”. English Wikipedia, revision 1282646363.
+  url: https://en.wikipedia.org/w/index.php?title=Plateosauravus&oldid=1282646363
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Plateosauravus was suggested by A. Yates in place of Euskelosaurus
+  - now regarded as based on undiagnostic material.
+  reviews: []

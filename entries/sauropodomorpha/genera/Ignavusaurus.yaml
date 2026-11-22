@@ -1,0 +1,92 @@
+name: Ignavusaurus
+rank: genus
+parent: massospondylidae
+incertae_sedis: false
+placement_note: ''
+authority: Knoll 2010
+type_species: Ignavusaurus rachelis
+type_species_note: Monotypic genus; the only species is the type.
+summary: Ignavusaurus is a basal sauropodomorph from the Early Jurassic upper Elliot Formation of Lesotho, known
+  from a small articulated juvenile skeleton.
+size:
+  length_m: null
+  note: Known only from a juvenile; the holotype was about 1.5 m long and weighed about 22.5 kg (Wikipedia revision).
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Ignavusaurus rachelis
+  authority: Knoll 2010
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: Lesotho
+  regions: [Mafeteng, Qacha's Nek]
+  interval: Hettangian–Sinemurian
+  occurrences: 2
+  ma: [192.9, 201.4]
+  id: elliot-lesotho
+fossil_material:
+  holotype: Not read in the sources consulted; a partial, well preserved, mostly articulated skeleton with a badly
+    damaged skull in more than 120 fragments.
+  material: Known from the holotype only.
+  completeness: partial
+  exceptional: Histology of the humerus and femur indicates a fast-growing individual perhaps under a year old.
+biology: Like other early sauropodomorphs it had a long slender neck and tail.
+images:
+- kind: life
+  file: Ignavusaurus Restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ignavusaurus_Restoration.jpg/960px-Ignavusaurus_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ignavusaurus_Restoration.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-11-11'
+  caption: Life restoration of Ignavusaurus.
+  width: 3177
+  height: 1019
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/vector.svg
+  png: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/raster/512x165.png
+  page: https://www.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491
+  attribution: Joseph J. W. Sertich, Mark A. Loewen
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Seitaad ruessi
+  matched: Massospondylidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Knoll, Fabien 2010. A primitive sauropodomorph from the upper Elliot Formation of Lesotho. Geological Magazine
+    147(6): 814–829. doi:10.1017/S001675681000018X'
+- kind: literature
+  text: 'Yates, Adam M. 2011. A new basal sauropodomorph dinosaur from the Early Jurassic of South Africa. Journal
+    of Vertebrate Paleontology 31(3): 610–625. doi:10.1080/02724634.2011.560626'
+- kind: literature
+  text: 'Cecilia Apaldetti 2011. A New Basal Sauropodomorph (Dinosauria: Saurischia) from Quebrada del Barro Formation
+    (Marayes-El Carrizal Basin), Northwestern Argentina. PLOS ONE 6(11). doi:10.1371/journal.pone.0026964'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ignavusaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ignavusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ignavusaurus”. English Wikipedia, revision 1359606526.
+  url: https://en.wikipedia.org/w/index.php?title=Ignavusaurus&oldid=1359606526
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Placement - Knoll (2010) outside Massopoda; Yates et al. (2011) possibly a synonym of Massospondylus; Apaldetti
+    et al. (2011) near Sarahsaurus; Chapelle and Choiniere (2018) in Massospondylidae. Massospondylidae kept as
+    the most recent placement.
+  reviews: []
