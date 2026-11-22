@@ -1,0 +1,93 @@
+name: Brasilotitan
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Machado et al. 2013
+type_species: Brasilotitan nemophagus
+type_species_note: Monotypic genus; the only species is the type.
+summary: Brasilotitan is a small titanosaur with a squared-off snout from the early Maastrichtian Adamantina Formation
+  of Brazil.
+size:
+  length_m: null
+  note: Described as a small titanosaur; no figure was read.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Brasilotitan nemophagus
+  authority: Machado et al. 2013
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: The species name refers to a herbivorous diet.
+images:
+- kind: life
+  file: Brasilotitan reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Brasilotitan_reconstruction.png/960px-Brasilotitan_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brasilotitan_reconstruction.png
+  artist: Atlantis536
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-06-21'
+  caption: Life restoration of Brasilotitan.
+  width: 2352
+  height: 1126
+  review: unreviewed
+- kind: fossil
+  file: Brasilotitan nemophagus (holotype, MPM 125R).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Brasilotitan_nemophagus_%28holotype%2C_MPM_125R%29.jpg/960px-Brasilotitan_nemophagus_%28holotype%2C_MPM_125R%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brasilotitan_nemophagus_(holotype,_MPM_125R).jpg
+  artist: E. G. Nascimento, C. R. A. Candeiro, L. Vidal, E. F. Oliveira, T. C. Dias & S. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-12'
+  caption: Holotype of Brasilotitan nemophagus.
+  width: 1674
+  height: 1260
+  review: unreviewed
+sources:
+- kind: original
+  text: 'Elaine B. Machado 2013. A new titanosaur sauropod from the Late Cretaceous of Brazil. Zootaxa 3701(3):
+    301–321. doi:10.11646/zootaxa.3701.3.1'
+- kind: literature
+  text: 'Brusatte, Stephen L.; Candeiro, Carlos R.A.; Simbras, Felipe M. 2017. The last dinosaurs of Brazil: The
+    Bauru Group and its implications for the end-Cretaceous mass extinction. Anais da Academia Brasileira de Ciências
+    89(3): 1465–1485. doi:10.1590/0001-3765201720160918'
+- kind: literature
+  text: Filippi, Leonardo S.; Juárez Valieri, Rubén D.; Gallina, Pablo A.; Méndez, Ariel H.; Gianechini, Federico
+    A.; Garrido, Alberto C. 2023. A rebbachisaurid-mimicking titanosaur and evidence of a Late Cretaceous faunal
+    disturbance event in South-West Gondwana. Cretaceous Research 154. doi:10.1016/j.cretres.2023.105754
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brasilotitan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brasilotitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brasilotitan”. English Wikipedia, revision 1365113223.
+  url: https://en.wikipedia.org/w/index.php?title=Brasilotitan&oldid=1365113223
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,76 @@
+name: Oplosaurus
+rank: genus
+parent: sauropoda
+incertae_sedis: true
+placement_note: Based on a single tooth; PBDB places it in Sauropoda.
+authority: Gervais 1852
+type_species: Oplosaurus armatus
+type_species_note: Named by Gervais in 1852 (Wikipedia revision).
+summary: Oplosaurus is a sauropod from the Lower Cretaceous Wessex Formation of the Isle of Wight, England, named
+  in 1852 from a tooth.
+size:
+  length_m: null
+  note: Known from a tooth; no size figure.
+age:
+  first_ma: 137.05
+  last_ma: 121.4
+  early_interval: Valanginian
+  late_interval: Barremian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Oplosaurus armatus
+  authority: (Gervais 1859)
+  first_ma: 137.05
+  last_ma: 121.4
+  interval: Valanginian–Barremian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Valanginian–Barremian
+  occurrences: 1
+  ma: [121.4, 137.05]
+  id: wealden-group-united-kingdom
+fossil_material:
+  holotype: A large, well-preserved tooth.
+  material: Known from the tooth.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/vector.svg
+  png: https://images.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f/raster/512x193.png
+  page: https://www.phylopic.org/images/8f7c165f-3561-4dad-afe7-0af5faa5a66f
+  attribution: Roberto Diaz Sibaja, based on Domser
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vulcanodon karibaensis
+  matched: Sauropoda
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Lydekker, R. 1888. Note on a new Wealden Iguanodont and other Dinosaurs. Quarterly Journal of the Geological
+    Society 44(1–4): 46–61. doi:10.1144/GSL.JGS.1888.044.01-04.08'
+- kind: literature
+  text: 'Sánchez-Hernández, B; Benton, M; Naish, D 2007. Dinosaurs and other fossil vertebrates from the Late Jurassic
+    and Early Cretaceous of the Galve area, NE Spain. Palaeogeography, Palaeoclimatology, Palaeoecology 249(1–2):
+    180–215. doi:10.1016/j.palaeo.2007.01.009'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Oplosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Oplosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Oplosaurus”. English Wikipedia, revision 1363222524.
+  url: https://en.wikipedia.org/w/index.php?title=Oplosaurus&oldid=1363222524
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia calls the genus "was" and its validity is doubtful; owner to decide whether it belongs in excluded.yaml.
+    Original paper (Gervais 1852) to be added.
+  reviews: []

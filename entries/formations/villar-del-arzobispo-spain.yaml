@@ -3,18 +3,23 @@ name: Villar del Arzobispo
 rank: formation
 group: ''
 country: Spain
-regions: [Aragón, Teruel]
+regions: [Aragón, Teruel, Valencia]
 location:
-  lat: 40.127
+  lat: 40.117
   lng: -1.15
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  basis: median of 9 PBDB collections that yielded the atlas genera
 age:
   first_ma: 154.8
   last_ma: 143.1
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fine channel fill, fluvial-deltaic indet., estuary/bay]
-lithology: [not reported, claystone, '"limestone"', lime mudstone]
-pbdb_collections: ['36366', '53890', '68019', '85291', '91396', '94221', '213535']
+environment:
+- terrestrial indet.
+- fine channel fill
+- fluvial-deltaic indet.
+- channel lag
+- estuary/bay
+lithology: [not reported, claystone, sandstone, lime mudstone]
+pbdb_collections: ['36366', '39423', '53890', '68019', '85291', '91396', '94221', '213533', '213535']
 includes: []
 summary: ''
 paleoenvironment: ''

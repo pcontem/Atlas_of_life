@@ -1,0 +1,93 @@
+name: Smitanosaurus
+rank: genus
+parent: dicraeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Whitlock and Wilson Mantilla 2020
+type_species: Smitanosaurus agilis
+type_species_note: Originally assigned to the defunct genus Morosaurus (Wikipedia revision).
+summary: Smitanosaurus is a dicraeosaurid sauropod from the Late Jurassic of Colorado, named in 2020 for August
+  Smith.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Smitanosaurus agilis
+  authority: (Marsh 1889)
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin]
+  country: United States
+  regions: [Colorado]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: morrison-united-states
+fossil_material:
+  holotype: USNM 5384, excavated and sketched by August Smith.
+  material: Known from the holotype with skull and neck.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Smitanosaurus agilis skull and neck.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Smitanosaurus_agilis_skull_and_neck.jpg/960px-Smitanosaurus_agilis_skull_and_neck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Smitanosaurus_agilis_skull_and_neck.jpg
+  artist: Charles C. Gilmore
+  license: Public domain
+  license_url: ''
+  date: '1907'
+  caption: Skull and neck of Smitanosaurus agilis.
+  width: 2281
+  height: 1683
+  review: unreviewed
+- kind: fossil
+  file: Smitanosaurus skull from the back.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Smitanosaurus_skull_from_the_back.jpg/960px-Smitanosaurus_skull_from_the_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Smitanosaurus_skull_from_the_back.jpg
+  artist: Charles C. Gilmore
+  license: Public domain
+  license_url: ''
+  date: '1907'
+  caption: Skull of Smitanosaurus agilis from behind.
+  width: 1988
+  height: 926
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/vector.svg
+  png: https://images.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306/raster/512x147.png
+  page: https://www.phylopic.org/images/3f22e916-0cfc-4e9d-922b-7f47f72b8306
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Dicraeosaurus
+  matched: Dicraeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: John A. Whitlock 2020. The Late Jurassic sauropod dinosaur ''{{'.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Smitanosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Smitanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Smitanosaurus”. English Wikipedia, revision 1362754943.
+  url: https://en.wikipedia.org/w/index.php?title=Smitanosaurus&oldid=1362754943
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

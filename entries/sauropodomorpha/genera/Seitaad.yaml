@@ -1,0 +1,109 @@
+name: Seitaad
+rank: genus
+parent: sauropodiformes
+incertae_sedis: false
+placement_note: ''
+authority: Sertich and Loewen 2010
+type_species: Seitaad ruessi
+type_species_note: The species name honours Everett Ruess (Wikipedia revision).
+summary: Seitaad is a sauropodomorph from the Early Jurassic of southern Utah, USA, known from an articulated partial
+  postcranial skeleton.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 192.9
+  last_ma: 174.7
+  early_interval: Pliensbachian
+  late_interval: Toarcian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Seitaad ruessi
+  authority: Sertich and Loewen 2010
+  first_ma: 192.9
+  last_ma: 174.7
+  interval: Pliensbachian–Toarcian
+  reference: original description
+formations:
+- formation: Navajo Sandstone
+  group: Glen Canyon
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Pliensbachian–Toarcian
+  occurrences: 1
+  ma: [174.7, 192.9]
+  id: navajo-sandstone-united-states
+fossil_material:
+  holotype: An articulated partial postcranial skeleton preserved in a collapsed dune.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Seitaad.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Seitaad.jpg/960px-Seitaad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Seitaad.jpg
+  artist: ケラトプスユウタ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-05-22'
+  caption: Seitaad ruessi holotype.
+  width: 3024
+  height: 4032
+  review: unreviewed
+- kind: fossil
+  file: Seitaad ruessi holotype foot detail salt lake city.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Seitaad_ruessi_holotype_foot_detail_salt_lake_city.jpg/960px-Seitaad_ruessi_holotype_foot_detail_salt_lake_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Seitaad_ruessi_holotype_foot_detail_salt_lake_city.jpg
+  artist: Jens Lallensack
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2016-10
+  caption: Seitaad ruessi holotype foot.
+  width: 2814
+  height: 5460
+  review: unreviewed
+- kind: skeletal
+  file: Skeletal reconstruction of Seitaad ruessi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Skeletal_reconstruction_of_Seitaad_ruessi.jpg/960px-Skeletal_reconstruction_of_Seitaad_ruessi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skeletal_reconstruction_of_Seitaad_ruessi.jpg
+  artist: Joseph J. W. Sertich, Mark A. Loewen
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-03-24'
+  caption: Skeletal reconstruction of Seitaad.
+  width: 4078
+  height: 1475
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/vector.svg
+  png: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/raster/512x165.png
+  page: https://www.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491
+  attribution: Joseph J. W. Sertich, Mark A. Loewen
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Seitaad ruessi
+  matched: Seitaad
+  genus_level: true
+sources:
+- kind: literature
+  text: Joseph J. W. Sertich 2010. A New Basal Sauropodomorph Dinosaur from the Lower Jurassic Navajo Sandstone
+    of Southern Utah. PLOS ONE 5(3). doi:10.1371/journal.pone.0009789
+- kind: literature
+  text: 'Cecilia Apaldetti 2011. A New Basal Sauropodomorph (Dinosauria: Saurischia) from Quebrada del Barro Formation
+    (Marayes-El Carrizal Basin), Northwestern Argentina. PLOS ONE 6(11). doi:10.1371/journal.pone.0026964'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Seitaad (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Seitaad
+- kind: encyclopedia
+  text: Wikipedia contributors. “Seitaad”. English Wikipedia, revision 1314538003.
+  url: https://en.wikipedia.org/w/index.php?title=Seitaad&oldid=1314538003
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original paper (Sertich and Loewen 2010) is cited as item 1; check.]
+  reviews: []

@@ -1,0 +1,70 @@
+name: Nambalia
+rank: genus
+parent: sauropodomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2011
+type_species: Nambalia roychowdhurii
+type_species_note: Named for Roy Chowdhuri (Wikipedia revision).
+summary: Nambalia is a basal sauropodomorph from the Late Triassic of Telangana, India, named in 2011.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nambalia roychowdhurii
+  authority: Novas et al. 2011
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Maleri
+  group: Gondwana
+  members: [Upper]
+  country: India
+  regions: [Andhra Pradesh]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: maleri-india
+fossil_material:
+  holotype: ISI R273, several parts.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/vector.svg
+  png: https://images.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca/raster/512x334.png
+  page: https://www.phylopic.org/images/8f3e5723-986f-4f1d-9292-ff041ce176ca
+  attribution: Marmelad
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Eoraptor lunensis
+  matched: Sauropodomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'Fernando E. Novas 2011. New dinosaur species from the Upper Triassic Upper Maleri and Lower Dharmaram formations
+    of central India. Earth and Environmental Science Transactions of the Royal Society of Edinburgh 101(3–4): 333–349.
+    doi:10.1017/S1755691011020093'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nambalia (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nambalia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nambalia”. English Wikipedia, revision 1349755302.
+  url: https://en.wikipedia.org/w/index.php?title=Nambalia&oldid=1349755302
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No image among the candidates.]
+  reviews: []

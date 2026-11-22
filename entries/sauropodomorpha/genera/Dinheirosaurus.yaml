@@ -1,0 +1,109 @@
+name: Dinheirosaurus
+rank: genus
+parent: diplodocinae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte and Mateus 1999
+type_species: Dinheirosaurus lourinhanensis
+type_species_note: Only species (Wikipedia revision).
+summary: Dinheirosaurus is a diplodocid sauropod from the Late Jurassic of Portugal, perhaps a species of Supersaurus.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dinheirosaurus lourinhanensis
+  authority: (Bonaparte and Mateus 1999)
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Lourinhã
+  group: ''
+  members: [Praia da Amoreira-Porto Novo]
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: lourinha-portugal
+fossil_material:
+  holotype: Material first described as Lourinhasaurus and redescribed in 1999 under a new name.
+  material: Known from the holotype and another specimen, ML 418.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Dinheirosaurus lourinhanensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dinheirosaurus_lourinhanensis.jpg/960px-Dinheirosaurus_lourinhanensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dinheirosaurus_lourinhanensis.jpg
+  artist: Alamotitan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-02-09'
+  caption: Life restoration of Dinheirosaurus lourinhanensis.
+  width: 2800
+  height: 1900
+  review: unreviewed
+- kind: life
+  file: Dinheirosaurus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5c/Dinheirosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dinheirosaurus.png
+  artist: I. Reid
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2014-01-28'
+  caption: Life restoration of Dinheirosaurus.
+  width: 1500
+  height: 718
+  review: unreviewed
+- kind: fossil
+  file: Dinheirosaurus holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Dinheirosaurus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dinheirosaurus_holotype.png
+  artist: Pedro Mocho, Rafael Royo-Torres, Fernando Escaso, Elisabete Malafaia, Carlos de Miguel Chaves, Iván Narváez,
+    Adán Pérez-García, Nuno Pimentel, Bruno C. Silva, & Francisco Ortega
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-06-01'
+  caption: Holotype of Dinheirosaurus.
+  width: 1440
+  height: 1039
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b1e5b1c3-9154-4458-b6fd-e24db6ef8425/vector.svg
+  png: https://images.phylopic.org/images/b1e5b1c3-9154-4458-b6fd-e24db6ef8425/raster/512x130.png
+  page: https://www.phylopic.org/images/b1e5b1c3-9154-4458-b6fd-e24db6ef8425
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Supersaurus vivianae
+  matched: Dinheirosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Bonaparte, J.; Mateus, O. 1999. A New Diplodocid, ''''Dinheirosaurus lourinhanensis'''' gen. et sp. nov.,
+    from the Late Jurassic Beds of Portugal. Revista del Museo Argentino de Ciencias Naturales 5(2): 13–29.'
+- kind: literature
+  text: Tschopp, E.; Mateus, O.; Benson, R. B. J. 2015. A specimen-level phylogenetic analysis and taxonomic revision
+    of Diplodocidae (Dinosauria, Sauropoda). PeerJ 3. doi:10.7717/peerj.857
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dinheirosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dinheirosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dinheirosaurus”. English Wikipedia, revision 1366506842.
+  url: https://en.wikipedia.org/w/index.php?title=Dinheirosaurus&oldid=1366506842
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [May be a species of Supersaurus per Tschopp 2015.]
+  reviews: []

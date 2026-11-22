@@ -1,0 +1,81 @@
+name: Pradhania
+rank: genus
+parent: massospondylidae
+incertae_sedis: false
+placement_note: ''
+authority: Kutty et al. 2007
+type_species: Pradhania gracilis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Pradhania is a massospondylid sauropodomorph from the Sinemurian Upper Dharmaram Formation of India.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pradhania gracilis
+  authority: Kutty et al. 2007
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Dharmaram
+  group: Gondwana
+  members: [Upper]
+  country: India
+  regions: [Andhra Pradesh]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: dharmaram-india
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Pradhania.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pradhania.png/960px-Pradhania.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pradhania.png
+  artist: Miracusaurs
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-06'
+  caption: Life restoration of Pradhania.
+  width: 3793
+  height: 1222
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/vector.svg
+  png: https://images.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491/raster/512x165.png
+  page: https://www.phylopic.org/images/5d86d3a5-5813-4dea-b28f-14e99a912491
+  attribution: Joseph J. W. Sertich, Mark A. Loewen
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Seitaad ruessi
+  matched: Massospondylidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kutty, T.S. 2007. Basal sauropodomorphs (Dinosauria: Saurischia) from the Lower Jurassic of India: their
+    anatomy and relationships. Journal of Paleontology 81(6): 1552–1574. doi:10.1666/04-074.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pradhania (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pradhania
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pradhania”. English Wikipedia, revision 1292590884.
+  url: https://en.wikipedia.org/w/index.php?title=Pradhania&oldid=1292590884
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked.]
+  reviews: []

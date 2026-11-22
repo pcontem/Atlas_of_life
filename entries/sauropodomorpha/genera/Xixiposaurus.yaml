@@ -1,0 +1,70 @@
+name: Xixiposaurus
+rank: genus
+parent: plateosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Sekiya 2010
+type_species: Xixiposaurus suni
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Xixiposaurus is a sauropodomorph from the Lower Lufeng Formation of China, named by Sekiya in 2010.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xixiposaurus suni
+  authority: Sekiya 2010
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Lufeng
+  group: ''
+  members: []
+  country: China
+  regions: [Yunnan]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: lufeng-china
+fossil_material:
+  holotype: Not read in the sources consulted.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a/vector.svg
+  png: https://images.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a/raster/512x126.png
+  page: https://www.phylopic.org/images/27634607-f389-4895-822f-88164ae2d77a
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Plateosaurus
+  matched: Plateosauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'SEKIYA Toru 2010. A new prosauropod dinosaur from Lower Jurassic in Lufeng of Yunnan. Global Geology 29(1):
+    6–15. doi:10.3969/j.issn.1004-5589.2010.01.002'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xixiposaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xixiposaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xixiposaurus”. English Wikipedia, revision 1385685683.
+  url: https://en.wikipedia.org/w/index.php?title=Xixiposaurus&oldid=1385685683
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species epithet to be checked; sister taxon of Mussaurus in one analysis; no image.
+  reviews: []

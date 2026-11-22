@@ -1,0 +1,113 @@
+name: Chubutisaurus
+rank: genus
+parent: macronaria
+incertae_sedis: false
+placement_note: ''
+authority: del Corro 1975
+type_species: Chubutisaurus insignis
+type_species_note: Described by del Corro in 1975 (Wikipedia revision).
+summary: Chubutisaurus is a somphospondylan sauropod from the Cerro Barcino Formation of Chubut, Argentina, described
+  in 1975.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 119.57
+  last_ma: 110.1
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Chubutisaurus insignis
+  authority: del Corro 1975
+  first_ma: 119.57
+  last_ma: 110.1
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Cerro Barcino
+  group: Chubut
+  members: [Puesto La Paloma/Cerro Castaño]
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Aptian–Early Albian
+  occurrences: 2
+  ma: [110.1, 119.57]
+  id: cerro-barcino-argentina
+fossil_material:
+  holotype: Found in 1961 and collected by Guillermo del Corro in 1965, kept at the Museo Argentino de Ciencias
+    Naturales.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Chubutisaurus insignis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Chubutisaurus_insignis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chubutisaurus_insignis.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-14'
+  caption: Life restoration of Chubutisaurus insignis.
+  width: 1004
+  height: 1542
+  review: unreviewed
+- kind: life
+  file: Chubutisaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Chubutisaurus.jpg/960px-Chubutisaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chubutisaurus.jpg
+  artist: Levi Martinez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2015-11-21'
+  caption: Life restoration of Chubutisaurus.
+  width: 6200
+  height: 3200
+  review: unreviewed
+- kind: fossil
+  file: Chubutisaurus vertebra.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/98/Chubutisaurus_vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chubutisaurus_vertebra.jpg
+  artist: Augustios Paleo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-07-25'
+  caption: Vertebra of Chubutisaurus.
+  width: 1378
+  height: 973
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/vector.svg
+  png: https://images.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7/raster/512x150.png
+  page: https://www.phylopic.org/images/cfdb4a18-90d1-4d50-8e70-55753d8026c7
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wintonotitan wattsi
+  matched: Somphospondyli
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Carballido, José L.; Pol, Diego; Cerda, Ignacio; Salgado, Leonardo 2011. The osteology of ''''Chubutisaurus
+    insignis'''' del Corro, 1975 (Dinosauria: Neosauropoda) from the ''middle'' Cretaceous of central Patagonia,
+    Argentina. Journal of Vertebrate Paleontology 31(1): 93–110. doi:10.1080/02724634.2011.539651'
+- kind: literature
+  text: 'Salgado, Leonardo 1993. COMMENTS ON CHUBUTISAURUS INSIGNIS DEL CORRO (SAURISCHIA, SAUROPODA). Ameghiniana
+    30(3): 265–270.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chubutisaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chubutisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chubutisaurus”. English Wikipedia, revision 1380610434.
+  url: https://en.wikipedia.org/w/index.php?title=Chubutisaurus&oldid=1380610434
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB gives Aptian-Albian
+  - Wikipedia gives Cenomanian; age sources disagree. Original paper (del Corro 1975) to be added.
+  reviews: []

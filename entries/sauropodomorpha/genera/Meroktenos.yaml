@@ -1,0 +1,105 @@
+name: Meroktenos
+rank: genus
+parent: sauropodiformes
+incertae_sedis: false
+placement_note: ''
+authority: Peyre de Fabrègues and Allain 2016
+type_species: Meroktenos thabanensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Meroktenos is a basal sauropodomorph from the Late Triassic of Lesotho, based on material found in 1959.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Meroktenos thabanensis
+  authority: (Gauffre 1993)
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Lower]
+  country: Lesotho
+  regions: [Mafeteng]
+  interval: Norian–Rhaetian
+  occurrences: 1
+  ma: [201.4, 227.3]
+  id: elliot-lesotho
+fossil_material:
+  holotype: Material found in 1959 and first described provisionally.
+  material: Forelimb bones, ilium and caudal vertebra.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Forelimb bones of Meroktenos.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Forelimb_bones_of_Meroktenos.png/960px-Forelimb_bones_of_Meroktenos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Forelimb_bones_of_Meroktenos.png
+  artist: Claire Peyre de Fabrègues​, Ronan Allain
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Forelimb bones of Meroktenos.
+  width: 1667
+  height: 2686
+  review: unreviewed
+- kind: fossil
+  file: Meroktenos caudal vertebra.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Meroktenos_caudal_vertebra.png/960px-Meroktenos_caudal_vertebra.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Meroktenos_caudal_vertebra.png
+  artist: Claire Peyre de Fabrègues​, Ronan Allain
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Caudal vertebra of Meroktenos.
+  width: 2356
+  height: 1419
+  review: unreviewed
+- kind: fossil
+  file: Ilium of Meroktenos.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Ilium_of_Meroktenos.png/960px-Ilium_of_Meroktenos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ilium_of_Meroktenos.png
+  artist: Claire Peyre de Fabrègues​, Ronan Allain
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Ilium of Meroktenos.
+  width: 2379
+  height: 1738
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/vector.svg
+  png: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/raster/512x122.png
+  page: https://www.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Melanorosaurus readi
+  matched: Sauropodiformes
+  genus_level: false
+sources:
+- kind: original
+  text: Peyre de Fabrègues, C; Allain, R 2016. New material and revision of ''Melanorosaurus thabanensis'', a basal
+    sauropodomorph from the Upper Triassic of Lesotho. PeerJ 4. doi:10.7717/peerj.1639
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Meroktenos (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Meroktenos
+- kind: encyclopedia
+  text: Wikipedia contributors. “Meroktenos”. English Wikipedia, revision 1348559330.
+  url: https://en.wikipedia.org/w/index.php?title=Meroktenos&oldid=1348559330
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked.]
+  reviews: []

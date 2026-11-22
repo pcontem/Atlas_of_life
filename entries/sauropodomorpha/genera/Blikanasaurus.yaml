@@ -1,0 +1,86 @@
+name: Blikanasaurus
+rank: genus
+parent: sauropodiformes
+incertae_sedis: false
+placement_note: ''
+authority: Galton and Van Heerden 1985
+type_species: Blikanasaurus cromptoni
+type_species_note: The species name honours Crompton (Wikipedia revision).
+summary: Blikanasaurus is a sauropodomorph from the Late Triassic of South Africa, known from a hindfoot and a metatarsal.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Blikanasaurus cromptoni
+  authority: Galton and Van Heerden 1985
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Lower]
+  country: South Africa
+  regions: [Eastern Cape, Free State]
+  interval: Norian–Rhaetian
+  occurrences: 2
+  ma: [201.4, 227.3]
+  id: elliot-south-africa
+fossil_material:
+  holotype: A partial hindlimb with foot.
+  material: A second specimen, a right metatarsal, was found in the early 2000s at Damplaats.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: fossil
+  file: Blikanasaurus pes.png
+  url: https://upload.wikimedia.org/wikipedia/commons/3/37/Blikanasaurus_pes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Blikanasaurus_pes.png
+  artist: L. Sciscio, E. M. Bordy, M. G. Lockley, M. Abrahams
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '1985'
+  caption: Foot of Blikanasaurus.
+  width: 300
+  height: 459
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/vector.svg
+  png: https://images.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff/raster/512x122.png
+  page: https://www.phylopic.org/images/3d97dd93-8302-48f3-9da9-be0891dd46ff
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Melanorosaurus readi
+  matched: Sauropodiformes
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Knoll, Fabien 2004. Review of the tetrapod fauna of the ''Lower Stormberg Group'' of the main Karoo Basin
+    (southern Africa): Implication for the age of the Lower Elliot Formation. Bulletin de la Société Géologique
+    de France 175: 73–83. doi:10.2113/175.1.73'
+- kind: literature
+  text: 'Galton, Peter M.; Van Heerden, Jacques 1985. Partial hindlimb of ''''Blikanasaurus cromptoni'''' n. gen.
+    And n. Sp., representing a new family of prosauropod dinosaurs from the upper triassic of South Africa. Geobios
+    18(4): 509–516. doi:10.1016/S0016-6995(85)80003-6'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Blikanasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Blikanasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Blikanasaurus”. English Wikipedia, revision 1354644316.
+  url: https://en.wikipedia.org/w/index.php?title=Blikanasaurus&oldid=1354644316
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original paper (Galton and van Heerden 1985) to be added.]
+  reviews: []

@@ -1,0 +1,89 @@
+name: Arrudatitan
+rank: genus
+parent: titanosauria
+incertae_sedis: false
+placement_note: ''
+authority: Silva Junior et al. 2022
+type_species: Arrudatitan maximus
+type_species_note: First named Aeolosaurus maximus in 2011 and moved to its own genus in 2022.
+summary: Arrudatitan is a titanosaur from the Adamantina Formation of Brazil, named in 2011 as a species of Aeolosaurus.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Arrudatitan maximus
+  authority: (Santucci and Arruda-Campos 2011)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Adamantina
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: adamantina-brazil
+fossil_material:
+  holotype: MPMA 12-0001-97.
+  material: Known from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Arrudatitan maximus profile reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Arrudatitan_maximus_profile_reconstruction.jpg/960px-Arrudatitan_maximus_profile_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Arrudatitan_maximus_profile_reconstruction.jpg
+  artist: LancianIdolatry
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2022-08-17'
+  caption: Life restoration of Arrudatitan maximus.
+  width: 3894
+  height: 2265
+  review: unreviewed
+- kind: fossil
+  file: Arrudatitan maximus (holotype, MPMA 12-0001-97).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Arrudatitan_maximus_%28holotype%2C_MPMA_12-0001-97%29.jpg/960px-Arrudatitan_maximus_%28holotype%2C_MPMA_12-0001-97%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Arrudatitan_maximus_(holotype,_MPMA_12-0001-97).jpg
+  artist: E. G. Nascimento, C. R. A. Candeiro, L. Vidal, E. F. Oliveira, T. C. Dias & S. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-12'
+  caption: Holotype of Arrudatitan maximus.
+  width: 2040
+  height: 1922
+  review: unreviewed
+sources:
+- kind: literature
+  text: Santucci, R.M.; De Arruda-Campos, A.C. 2011. A new sauropod (Macronaria, Titanosauria) from the Adamantina
+    Formation, Bauru Group, Upper Cretaceous of Brazil and the phylogenetic relationships of Aeolosaurini. Zootaxa
+    3085(1). doi:10.11646/zootaxa.3085.1.1
+- kind: literature
+  text: 'Silva, J.C. Jr.; Martinelli, A.G.; Iori, F.V.; Marinho, T.S.; Hechenleitner, E.M.; Langer, M.C. 2021. Reassessment
+    of ''''Aeolosaurus maximus'''', a titanosaur dinosaur from the Late Cretaceous of Southeastern Brazil. Historical
+    Biology: An International Journal of Paleobiology 34(3): 403–411. doi:10.1080/08912963.2021.1920016'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arrudatitan (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arrudatitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Arrudatitan”. English Wikipedia, revision 1368822887.
+  url: https://en.wikipedia.org/w/index.php?title=Arrudatitan&oldid=1368822887
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Original naming paper (Silva Junior et al. 2022) to be added.]
+  reviews: []

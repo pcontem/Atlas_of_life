@@ -1,0 +1,86 @@
+name: Perijasaurus
+rank: genus
+parent: sauropoda
+incertae_sedis: false
+placement_note: ''
+authority: Rincón et al. 2022
+type_species: Perijasaurus lapaz
+type_species_note: Monotypic genus; the only species is the type.
+summary: Perijasaurus is a basal eusauropod from the La Quinta Formation of Cesar, northeastern Colombia, named
+  in 2022.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 180.4
+  last_ma: 170.9
+  early_interval: Toarcian
+  late_interval: Aalenian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Perijasaurus lapaz
+  authority: Rincón et al. 2022
+  first_ma: 180.4
+  last_ma: 170.9
+  interval: Toarcian–Aalenian
+  reference: original description
+formations:
+- formation: La Quinta
+  group: ''
+  members: []
+  country: Colombia
+  regions: []
+  interval: Late Toarcian–Early Aalenian
+  occurrences: 1
+  ma: [170.9, 180.4]
+  id: la-quinta-colombia
+fossil_material:
+  holotype: A bone found long before, whose site was rediscovered before it was prepared and named.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images:
+- kind: life
+  file: Perijasaurus lapaz.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Perijasaurus_lapaz.jpg/960px-Perijasaurus_lapaz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Perijasaurus_lapaz.jpg
+  artist: Путаниум
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-02-28'
+  caption: Life restoration of Perijasaurus lapaz.
+  width: 3684
+  height: 2755
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/vector.svg
+  png: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/raster/512x157.png
+  page: https://www.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Patagosaurus fariasi
+  matched: Eusauropoda
+  genus_level: false
+sources:
+- kind: original
+  text: Rincón, Aldo F.; Raad Pájaro, Daniel A.; Jiménez Velandia, Harold F.; Ezcurra, Martín D.; Wilson Mantilla,
+    Jeffrey A. 2022. A sauropod from the Lower Jurassic La Quinta Formation (Dept. Cesar, Colombia) and the initial
+    diversification of eusauropods at low latitudes. Journal of Vertebrate Paleontology 42(1). doi:10.1080/02724634.2021.2077112
+- kind: literature
+  text: 'Langston Jr., W.; Durham, J.W. 1955. A sauropod dinosaur from Colombia. Journal of Paleontology 29(6):
+    1047–1051.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Perijasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Perijasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Perijasaurus”. English Wikipedia, revision 1314985314.
+  url: https://en.wikipedia.org/w/index.php?title=Perijasaurus&oldid=1314985314
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

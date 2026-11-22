@@ -3,18 +3,18 @@ name: Itapecuru
 rank: formation
 group: ''
 country: Brazil
-regions: [Maranhão]
+regions: [Maranhão, Northeast]
 location:
-  lat: -3.398
-  lng: -44.36
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: -3.403
+  lng: -44.361
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 119.57
   last_ma: 106.3
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial-deltaic indet., fluvial indet.]
-lithology: [sandstone, siltstone]
-pbdb_collections: ['67219', '118187']
+environment: [fluvial-deltaic indet., fluvial indet., fluvial-lacustrine indet.]
+lithology: [siltstone, sandstone]
+pbdb_collections: ['67219', '118187', '278852']
 includes: []
 summary: ''
 paleoenvironment: ''

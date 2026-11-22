@@ -1,0 +1,72 @@
+name: Protognathosaurus
+rank: genus
+parent: sauropoda
+incertae_sedis: true
+placement_note: Known only from a lower jaw fragment; PBDB places it in Cetiosauridae, which has no atlas entry.
+authority: Olshevsky 1991
+type_species: Protognathosaurus oxyodon
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Protognathosaurus is a sauropod from the Middle Jurassic Lower Shaximiao Formation of Sichuan, China, known
+  from one lower jaw fragment.
+size:
+  length_m: null
+  note: Known from a jaw fragment; no size figure.
+age:
+  first_ma: 170.9
+  last_ma: 154.8
+  early_interval: Bajocian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Protognathosaurus oxyodon
+  authority: (Zhang 1988)
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+fossil_material:
+  holotype: CV 00732 (ChM V732), the front left dentary, found in beds of Bathonian-Callovian age.
+  material: Known from the holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: No biological statement was read in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/vector.svg
+  png: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/raster/512x157.png
+  page: https://www.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Patagosaurus fariasi
+  matched: Cetiosauridae
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Kataev, Boris; Wrase, David 2016. A new species of the genus Pseudognathaphanus from Nepal, with a short
+    review of the Oriental species (Coleoptera, Carabidae, Harpalini). Entomologische Blätter und Coleoptera 112:
+    223–236.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protognathosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protognathosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protognathosaurus”. English Wikipedia, revision 1343427349.
+  url: https://en.wikipedia.org/w/index.php?title=Protognathosaurus&oldid=1343427349
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species epithet to be checked; Wikipedia credits the name to Olshevsky 1991 for Zhang's 1988 material.
+  reviews: []

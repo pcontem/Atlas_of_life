@@ -7,14 +7,14 @@ regions: [Mendoza, Neuquén, Río Negro]
 location:
   lat: -38.817
   lng: -68.067
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  basis: median of 9 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., pond, '"floodplain"']
-lithology: [sandstone, not reported, siltstone]
-pbdb_collections: ['51573', '51579', '51580', '55740', '91171', '117447', '118212']
+environment: [fluvial indet., terrestrial indet., '"floodplain"', pond, wet floodplain]
+lithology: [sandstone, mudstone, siltstone, not reported]
+pbdb_collections: ['51573', '51579', '51580', '55740', '86439', '91171', '117447', '118212', '239490']
 includes: []
 summary: ''
 paleoenvironment: ''

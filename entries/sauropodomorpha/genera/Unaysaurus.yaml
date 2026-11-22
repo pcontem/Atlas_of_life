@@ -1,0 +1,97 @@
+name: Unaysaurus
+rank: genus
+parent: unaysauridae
+incertae_sedis: false
+placement_note: ''
+authority: Leal et al. 2004
+type_species: Unaysaurus tolentinoi
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Unaysaurus is an herbivorous unaysaurid sauropodomorph from southern Brazil, announced in 2004.
+size:
+  length_m: null
+  note: No body-size figure was read in the sources consulted.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Unaysaurus tolentinoi
+  authority: Leal et al. 2004
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Caturrita
+  group: Rosário do Sul
+  members: []
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: caturrita-brazil
+fossil_material:
+  holotype: Not read in the sources consulted; found in 1998 near Santa Maria, Rio Grande do Sul.
+  material: Known from the holotype and a skeletally immature specimen.
+  completeness: near-complete
+  exceptional: ''
+biology: An herbivore.
+images:
+- kind: life
+  file: Unaysaurus 01.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Unaysaurus_01.JPG/960px-Unaysaurus_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Unaysaurus_01.JPG
+  artist: Conty
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: Unknown da
+  caption: Life restoration of Unaysaurus.
+  width: 2018
+  height: 1181
+  review: unreviewed
+- kind: skeletal
+  file: Skeletal reconstruction of Unaysaurus tolentinoi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Skeletal_reconstruction_of_Unaysaurus_tolentinoi.png/960px-Skeletal_reconstruction_of_Unaysaurus_tolentinoi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skeletal_reconstruction_of_Unaysaurus_tolentinoi.png
+  artist: Maurissauro
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-10-20'
+  caption: Skeletal reconstruction of Unaysaurus.
+  width: 1920
+  height: 634
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bc880efa-d4cb-4211-8715-7d620b6eac2b/vector.svg
+  png: https://images.phylopic.org/images/bc880efa-d4cb-4211-8715-7d620b6eac2b/raster/512x407.png
+  page: https://www.phylopic.org/images/bc880efa-d4cb-4211-8715-7d620b6eac2b
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Unaysaurus tolentinoi
+  matched: Unaysaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Leal, L.A.; Azevodo, S.A.K.; Kellner, A.A.W.; da Rosa, A.A.S. 2004. A new early dinosaur (Sauropodomorpha)
+    from the Caturrita Formation (Late Triassic), Paraná Basin, Brazil. Zootaxa 690: 1–24. doi:10.11646/zootaxa.690.1.1'
+- kind: literature
+  text: 'Müller, Rodrigo T.; Garcia, Maurício S.; Bem, Fabiula P.; Damke, Lísie V. S.; Fonseca, André O.; Da-Rosa,
+    Átila A. S. 2023. On a skeletally immature individual of ''''Unaysaurus tolentinoi'''' (Dinosauria: Sauropodomorpha)
+    from the upper Triassic of southern Brazil. The Anatomical Record 307(4): 1071–1083. doi:10.1002/ar.25285'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Unaysaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Unaysaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Unaysaurus”. English Wikipedia, revision 1315010953.
+  url: https://en.wikipedia.org/w/index.php?title=Unaysaurus&oldid=1315010953
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Type species epithet to be checked.]
+  reviews: []

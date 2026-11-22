@@ -1,0 +1,84 @@
+name: Cardiodon
+rank: genus
+parent: sauropoda
+incertae_sedis: true
+placement_note: Based on a single tooth; no analysis places it more precisely.
+authority: Owen 1841
+type_species: Cardiodon rugulosus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: Cardiodon is a sauropod known from a heart-shaped tooth from the late Bathonian Forest Marble Formation
+  of Wiltshire, England.
+size:
+  length_m: null
+  note: Known from a tooth; no size figure.
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cardiodon rugulosus
+  authority: (Owen 1844)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: Forest Marble
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: forest-marble-united-kingdom
+fossil_material:
+  holotype: A tooth named by Owen in 1841.
+  material: Known from the tooth; other teeth were later assigned to it.
+  completeness: fragmentary
+  exceptional: ''
+biology: A herbivore.
+images:
+- kind: fossil
+  file: Cardiodon.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Cardiodon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cardiodon.jpg
+  artist: C. L. Griesbach
+  license: Public domain
+  license_url: ''
+  date: '1875'
+  caption: Tooth of Cardiodon.
+  width: 1070
+  height: 606
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/vector.svg
+  png: https://images.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11/raster/512x157.png
+  page: https://www.phylopic.org/images/326f4e1a-6c4b-4165-90e2-9b68d144fe11
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Patagosaurus fariasi
+  matched: Eusauropoda
+  genus_level: false
+sources:
+- kind: original
+  text: R. Owen. 1841. Odontography; or, a Treatise on the Comparative Anatomy of the Teeth; Their Physiological
+    Relations, Mode of Development, and Microscopic Structure, in the Vertebrate Animals. Part II. Dental System
+    of Reptiles
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cardiodon (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cardiodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cardiodon”. English Wikipedia, revision 1352788076.
+  url: https://en.wikipedia.org/w/index.php?title=Cardiodon&oldid=1352788076
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species epithet to be checked; no Wikipedia citations were extracted.
+  reviews: []
