@@ -200,6 +200,7 @@ images:
   width: 792
   height: 828
   review: unreviewed
+  local: img/gallery/Triceratops_001.webp
 - kind: fossil
   file: LA-Triceratops mount-2.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/LA-Triceratops_mount-2.jpg/960px-LA-Triceratops_mount-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -212,6 +213,7 @@ images:
   width: 4560
   height: 3460
   review: unreviewed
+  local: img/gallery/Triceratops_002.webp
 - kind: fossil
   file: Laramie Triceratops skull.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Laramie_Triceratops_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -224,6 +226,7 @@ images:
   width: 407
   height: 264
   review: unreviewed
+  local: img/gallery/Triceratops_003.webp
 silhouette:
   src: https://images.phylopic.org/images/d36ccf73-05b9-4b16-83a1-cfe231ef7166/vector.svg
   png: https://images.phylopic.org/images/d36ccf73-05b9-4b16-83a1-cfe231ef7166/raster/512x209.png
@@ -233,6 +236,8 @@ silhouette:
   depicts: Triceratops horridus
   matched: Triceratops
   genus_level: true
+  w: 512
+  h: 209
 sources:
 - kind: original
   text: O. C. Marsh. 1889. Notice of gigantic horned Dinosauria from the Cretaceous. American Journal of Science

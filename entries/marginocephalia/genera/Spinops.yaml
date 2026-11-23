@@ -56,6 +56,7 @@ images:
   width: 1183
   height: 1109
   review: unreviewed
+  local: img/gallery/Spinops_001.webp
 - kind: life
   file: Spinops.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/f/f8/Spinops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -69,6 +70,7 @@ images:
   width: 598
   height: 424
   review: unreviewed
+  local: img/gallery/Spinops_002.webp
 silhouette:
   src: https://images.phylopic.org/images/778ff5cf-a1ad-408a-a88c-3db94b3fc99b/vector.svg
   png: https://images.phylopic.org/images/778ff5cf-a1ad-408a-a88c-3db94b3fc99b/raster/512x256.png
@@ -78,6 +80,8 @@ silhouette:
   depicts: Spinops sternbergorum
   matched: Spinops
   genus_level: true
+  w: 512
+  h: 256
 sources:
 - kind: original
   text: 'Farke, Andrew A. 2011. A new centrosaurine from the Late Cretaceous of Alberta, Canada, and the evolution

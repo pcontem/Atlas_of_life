@@ -56,6 +56,7 @@ images:
   width: 1928
   height: 1600
   review: unreviewed
+  local: img/gallery/Rubeosaurus_001.webp
 - kind: fossil
   file: Rubeosaurus ovatus.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Rubeosaurus_ovatus.jpg/960px-Rubeosaurus_ovatus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -68,6 +69,7 @@ images:
   width: 2036
   height: 1346
   review: unreviewed
+  local: img/gallery/Rubeosaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/b5131da6-f158-46bd-812d-5cda4a0a2254/vector.svg
   png: https://images.phylopic.org/images/b5131da6-f158-46bd-812d-5cda4a0a2254/raster/512x268.png
@@ -77,6 +79,8 @@ silhouette:
   depicts: Styracosaurus albertensis
   matched: Rubeosaurus
   genus_level: true
+  w: 512
+  h: 268
 sources:
 - kind: original
   text: 'A. T. McDonald and J. R. Horner. 2010. New material of "Styracosaurus" ovatus from the Two Medicine Formation

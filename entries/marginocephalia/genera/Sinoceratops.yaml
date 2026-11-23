@@ -55,6 +55,7 @@ images:
   width: 4000
   height: 1675
   review: unreviewed
+  local: img/gallery/Sinoceratops_001.webp
 - kind: fossil
   file: Sinoceratops skeleton.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Sinoceratops_skeleton.jpg/960px-Sinoceratops_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -67,6 +68,7 @@ images:
   width: 2604
   height: 2576
   review: unreviewed
+  local: img/gallery/Sinoceratops_002.webp
 silhouette:
   src: https://images.phylopic.org/images/cc582628-b4c5-45fd-bb6a-c3935d4e677b/vector.svg
   png: https://images.phylopic.org/images/cc582628-b4c5-45fd-bb6a-c3935d4e677b/raster/512x239.png
@@ -76,6 +78,8 @@ silhouette:
   depicts: Sinoceratops zhuchengensis
   matched: Sinoceratops
   genus_level: true
+  w: 512
+  h: 239
 sources:
 - kind: original
   text: X. Xu, K.-B. Wang, and X.-J. Zhao, D.-J. Li. 2010. First ceratopsid dinosaur from China and its biogeographical

@@ -113,6 +113,7 @@ images:
   width: 3000
   height: 2644
   review: unreviewed
+  local: img/gallery/Pachycephalosaurus_001.webp
 - kind: fossil
   file: Pachycephalosaurus endocast AMNH.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Pachycephalosaurus_endocast_AMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -125,6 +126,7 @@ images:
   width: 1347
   height: 853
   review: unreviewed
+  local: img/gallery/Pachycephalosaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/6105ff49-0bd0-477c-8bef-41b0c39fdca9/vector.svg
   png: https://images.phylopic.org/images/6105ff49-0bd0-477c-8bef-41b0c39fdca9/raster/512x254.png
@@ -134,6 +136,8 @@ silhouette:
   depicts: Pachycephalosaurus wyomingensis
   matched: Pachycephalosaurus
   genus_level: true
+  w: 512
+  h: 254
 sources:
 - kind: original
   text: B. Brown and E. M. Schlaikjer. 1943. A study of the troödont dinosaurs with the description of a new genus
