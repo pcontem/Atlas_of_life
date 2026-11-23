@@ -1,0 +1,119 @@
+name: Silvisaurus
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Eaton 1960
+type_species: Silvisaurus condrayi
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Silvisaurus is a relatively primitive nodosaurid with teeth at the front of the jaw, from the Dakota Formation
+  of Kansas.
+size:
+  length_m: [4, 4]
+  note: Length estimated in the cited Wikipedia revision; skull 33 cm long.
+age:
+  first_ma: 106.3
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Silvisaurus condrayi
+  authority: Eaton 1960
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Dakota
+  group: ''
+  members: [Terra Cotta Clay]
+  country: United States
+  regions: [Kansas]
+  interval: Late Albian
+  occurrences: 1
+  ma: [100.5, 106.3]
+  id: dakota-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Kansas]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: unnamed-wilson-lake-dinosaur-site-united-states
+fossil_material:
+  holotype: KU 10296, an incomplete skeleton with skull, mandible, neck, back and sacral vertebrae — Terra Cotta
+    Clay Member of the Dakota Formation, Kansas.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: A nodosaurid with teeth in the front of the jaw, which suggests a relatively primitive form.
+images:
+- kind: fossil
+  file: Silvisaurus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Silvisaurus_skeleton.jpg/960px-Silvisaurus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Silvisaurus_skeleton.jpg
+  artist: NGPezz
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-07-18'
+  caption: Mounted skeleton of Silvisaurus.
+  width: 4032
+  height: 1784
+  review: unreviewed
+- kind: fossil
+  file: Silvisaurus skull fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Silvisaurus_skull_fossil.jpg/960px-Silvisaurus_skull_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Silvisaurus_skull_fossil.jpg
+  artist: NGPezz
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-07-18'
+  caption: Skull of Silvisaurus.
+  width: 4032
+  height: 3024
+  review: unreviewed
+- kind: skeletal
+  file: Silvisaurus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Silvisaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Silvisaurus_skull.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-17'
+  caption: Skull reconstruction of Silvisaurus.
+  width: 1032
+  height: 472
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'T. H. Eaton, Jr. 1960. A new armored dinosaur from the Cretaceous of Kansas. The University of Kansas Paleontological
+    Contributions: Vertebrata 8:1-24'
+- kind: literature
+  text: 'Liggett, Gregory A. 2005. A review of the dinosaurs from Kansas. Transactions of the Kansas Academy of
+    Science 108(1): 1–14. doi:10.1660/0022-8443(2005)108[0001:AROTDF]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Silvisaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Silvisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Silvisaurus”. English Wikipedia, revision 1343590303.
+  url: https://en.wikipedia.org/w/index.php?title=Silvisaurus&oldid=1343590303
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

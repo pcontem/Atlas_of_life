@@ -1,0 +1,104 @@
+name: Gargoyleosaurus
+rank: genus
+parent: ankylosauria
+incertae_sedis: true
+placement_note: Treated as an early nodosaurid in the cited revision; polacanthid placement is disputed, so it is
+  placed in Ankylosauria.
+authority: Carpenter et al. 1998
+type_species: Gargoyleosaurus parkpinorum
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Gargoyleosaurus is an early armoured ankylosaur from the Late Jurassic Morrison Formation of Wyoming, known
+  from a skull and partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gargoyleosaurus parkpinorum
+  authority: Carpenter et al. 1998
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: morrison-united-states
+fossil_material:
+  holotype: Most of the skull and a partial postcranial skeleton, found in 1995 at Bone Cabin Quarry West — Morrison
+    Formation, Albany County, Wyoming; held by the Denver Museum of Nature and Science.
+  material: Two other partial skeletons are known but undescribed.
+  completeness: partial
+  exceptional: ''
+biology: Early ankylosaur with armour including plates; the sources used give no behavioural data.
+images:
+- kind: fossil
+  file: Gargoyleosaurus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gargoyleosaurus_skull.jpg/960px-Gargoyleosaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gargoyleosaurus_skull.jpg
+  artist: Carpenter, Kenneth
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2003-10-09'
+  caption: Skull of Gargoyleosaurus (Denver Museum cast).
+  width: 1764
+  height: 2068
+  review: unreviewed
+- kind: fossil
+  file: Gargoyleosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gargoyleosaurus.png/960px-Gargoyleosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gargoyleosaurus.png
+  artist: Firsfron
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: ''
+  caption: Skull and skeletal elements of Gargoyleosaurus (Kilbourne and Carpenter 2005 figure).
+  width: 2752
+  height: 1872
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4dce0a55-264e-46d9-9404-d79260da57c4/vector.svg
+  png: https://images.phylopic.org/images/4dce0a55-264e-46d9-9404-d79260da57c4/raster/512x125.png
+  page: https://www.phylopic.org/images/4dce0a55-264e-46d9-9404-d79260da57c4
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Gargoyleosaurus parkpinorum
+  matched: Gargoyleosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Carpenter, Kenneth; Miles, Clifford; Cloward, Karen June. Skull of a Jurassic ankylosaur (Dinosauria).
+    Nature 393(6687): 782–783. doi:10.1038/31684'
+- kind: literature
+  text: 'Kilbourne, Brandon; Carpenter, Kenneth 13 J. Redescription of Gargoyleosaurus parkpinorum, a polacanthid
+    ankylosaur from the Upper Jurassic of Albany County, Wyoming. Neues Jahrbuch für Geologie und Paläontologie
+    - Abhandlungen 235(1): 111–160. doi:10.1127/njgpa/235/2005/111'
+- kind: literature
+  text: 'Soto-Acuña, Sergio; Vargas, Alexander O.; Kaluza, Jonatan; Leppe, Marcelo A.; Botelho, Joao F.; Palma-Liberona,
+    José; Simon-Gutstein, Carolina; Fernández, Roy A.; Ortiz, Héctor; Milla, Verónica; Aravena, Bárbara 2021. Bizarre
+    tail weaponry in a transitional ankylosaur from subantarctic Chile. Nature 600(7888): 259–263. doi:10.1038/s41586-021-04147-1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gargoyleosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gargoyleosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gargoyleosaurus”. English Wikipedia, revision 1368730296.
+  url: https://en.wikipedia.org/w/index.php?title=Gargoyleosaurus&oldid=1368730296
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

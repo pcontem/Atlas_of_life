@@ -1,0 +1,97 @@
+name: Invictarx
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: McDonald and Wolfe 2018
+type_species: Invictarx zephyri
+type_species_note: Type and only species (cited Wikipedia revision).
+summary: Invictarx is a nodosaurid from the lower Campanian Menefee Formation of New Mexico, known from three partial
+  skeletons.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Invictarx zephyri
+  authority: McDonald and Wolfe 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Menefee
+  group: Mesaverde
+  members: [Allison]
+  country: United States
+  regions: [New Mexico]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: menefee-united-states
+fossil_material:
+  holotype: WSC 16505, with rib fragments and osteoderms — upper Allison Member, Menefee Formation, New Mexico.
+  material: Two further skeletons (UMNH VP 28350 with dorsal vertebrae and others).
+  completeness: fragmentary
+  exceptional: ''
+biology: Known mainly from armour and postcranial bones; no behavioural data in the sources used.
+images:
+- kind: fossil
+  file: Invictarx zephyri dorsal vertebrae PeerJ e5435 fig 5.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Invictarx_zephyri_dorsal_vertebrae_PeerJ_e5435_fig_5.png/960px-Invictarx_zephyri_dorsal_vertebrae_PeerJ_e5435_fig_5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Invictarx_zephyri_dorsal_vertebrae_PeerJ_e5435_fig_5.png
+  artist: Andrew T. McDonald, Douglas G. Wolfe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-08-24'
+  caption: Dorsal vertebrae of Invictarx zephyri (McDonald and Wolfe 2018).
+  width: 2428
+  height: 2314
+  review: unreviewed
+- kind: fossil
+  file: Invictarx zephyri holotype PeerJ e5435 fig 3.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Invictarx_zephyri_holotype_PeerJ_e5435_fig_3.png/960px-Invictarx_zephyri_holotype_PeerJ_e5435_fig_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Invictarx_zephyri_holotype_PeerJ_e5435_fig_3.png
+  artist: Andrew T. McDonald, Douglas G. Wolfe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-08-24'
+  caption: Holotype elements of Invictarx zephyri (McDonald and Wolfe 2018).
+  width: 2214
+  height: 2593
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'McDonald, A.T.; Wolfe, D.G. 2018. A new nodosaurid ankylosaur (Dinosauria: Thyreophora) from the Upper
+    Cretaceous Menefee Formation of New Mexico. PeerJ 6. doi:10.7717/peerj.5435'
+- kind: literature
+  text: 'McDonald, A.T.; Wolfe, D.G.; Dooley Jr, A.C. 2018. A new tyrannosaurid (Dinosauria: Theropoda) from the
+    Upper Cretaceous Menefee Formation of New Mexico. PeerJ 6. doi:10.7717/peerj.5749'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Invictarx (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Invictarx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Invictarx”. English Wikipedia, revision 1355939773.
+  url: https://en.wikipedia.org/w/index.php?title=Invictarx&oldid=1355939773
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

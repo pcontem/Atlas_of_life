@@ -1,0 +1,120 @@
+name: Glyptodontopelta
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Ford 2000
+type_species: Glyptodontopelta mimus
+type_species_note: Type and only species (cited Wikipedia revision).
+summary: Glyptodontopelta is a Late Cretaceous nodosaurid known from armour and skull fragments from New Mexico.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Glyptodontopelta mimus
+  authority: Ford 2000
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Ojo Alamo
+  group: ''
+  members: [Naashoibito]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Maastrichtian
+  occurrences: 7
+  ma: [66.0, 72.2]
+  id: ojo-alamo-united-states
+- formation: Kirtland
+  group: ''
+  members: [De-na-zin, Naashoibito]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+fossil_material:
+  holotype: USNM 8610, three fused flat osteoderms — Ojo Alamo Formation, New Mexico.
+  material: Numerous specimens of osteoderms, a dentary and a supraorbital.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known mainly from armour; the sources give no behavioural data.
+images:
+- kind: life
+  file: Glyptodontopelta mima profile reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Glyptodontopelta_mima_profile_reconstruction.jpg/960px-Glyptodontopelta_mima_profile_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Glyptodontopelta_mima_profile_reconstruction.jpg
+  artist: LancianIdolatry
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-17'
+  caption: Life restoration of Glyptodontopelta mimus.
+  width: 3990
+  height: 1319
+  review: unreviewed
+- kind: fossil
+  file: Glyptodontopelta neck osteoderm.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Glyptodontopelta_neck_osteoderm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Glyptodontopelta_neck_osteoderm.jpg
+  artist: Df9465 (Denver Fowler)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2004-08-27'
+  caption: Neck osteoderm of Glyptodontopelta.
+  width: 1296
+  height: 1660
+  review: unreviewed
+- kind: fossil
+  file: Medium osteodems of Glyptodontopelta.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Medium_osteodems_of_Glyptodontopelta.jpg/960px-Medium_osteodems_of_Glyptodontopelta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Medium_osteodems_of_Glyptodontopelta.jpg
+  artist: Df9465 (Denver Fowler)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2004-08-27'
+  caption: Osteoderms of Glyptodontopelta.
+  width: 2272
+  height: 1704
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: T. L. Ford. 2000. A review of ankylosaur osteoderms from New Mexico and a preliminary review of ankylosaur
+    armor. Dinosaurs of New Mexico. New Mexico Museum of Natural History and Science Bulletin 17:157-176
+- kind: literature
+  text: 'Burns, Michael E. 2008. Taxonomic utility of ankylosaur (Dinosauria, Ornithischia) osteoderms: ''''Glyptodontopelta
+    mimus'''' Ford, 2000: a test case. Journal of Vertebrate Paleontology 28(4): 1102–1109. doi:10.1671/0272-4634-28.4.1102'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Glyptodontopelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Glyptodontopelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Glyptodontopelta”. English Wikipedia, revision 1383590280.
+  url: https://en.wikipedia.org/w/index.php?title=Glyptodontopelta&oldid=1383590280
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Treated as a nomen dubium by a 2004 review but accepted as valid by Burns 2008; Edmontonia australis is a junior
+    synonym.
+  - Size not given in the cited revision.
+  reviews: []

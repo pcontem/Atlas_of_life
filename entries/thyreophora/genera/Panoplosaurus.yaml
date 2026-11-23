@@ -1,0 +1,175 @@
+name: Panoplosaurus
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Lambe 1919
+type_species: Panoplosaurus mirus
+type_species_note: Named by Lambe in 1919 (cited Wikipedia revision).
+summary: Panoplosaurus is a nodosaurid from the middle Campanian of Alberta with a lumpy skull armour and a fully
+  fused shoulder blade.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 15
+  note: ''
+species:
+- name: Panoplosaurus mirus
+  authority: Lambe 1919
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Panoplosaurus rugosidens
+  authority: (Gilmore 1930)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Ferris
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: ferris-united-states
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+- formation: Bearpaw Shale
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: bearpaw-shale-united-states
+- formation: Judith River
+  group: Montana
+  members: [Coal Ridge]
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-canada
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: CMN 2759, a skull and skeleton — upper Dinosaur Park Formation, Alberta.
+  material: Few specimens, including ROM 1215 and RTMP 83.25.2 from the Dinosaur Park Formation.
+  completeness: partial
+  exceptional: ''
+biology: Quadrupedal armoured herbivore with a short snout; plates were regular and lacked prominent spines.
+images:
+- kind: fossil
+  file: PanoplosaurCMNSkull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/PanoplosaurCMNSkull.jpg/960px-PanoplosaurCMNSkull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:PanoplosaurCMNSkull.jpg
+  artist: LittleLazyLass
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-31'
+  caption: Skull of Panoplosaurus (Canadian Museum of Nature).
+  width: 2048
+  height: 1536
+  review: unreviewed
+- kind: fossil
+  file: Panoplosaurus 3D skull ROM 1215.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Panoplosaurus_3D_skull_ROM_1215.png/960px-Panoplosaurus_3D_skull_ROM_1215.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Panoplosaurus_3D_skull_ROM_1215.png
+  artist: Jason M. Bourke, WM. Ruger Porter, Lawrence M. Witmer
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2018-12-19'
+  caption: Skull of Panoplosaurus ROM 1215 (3D figure).
+  width: 2000
+  height: 1818
+  review: unreviewed
+- kind: fossil
+  file: Panoplosaurus osteoderms.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Panoplosaurus_osteoderms.png/960px-Panoplosaurus_osteoderms.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Panoplosaurus_osteoderms.png
+  artist: Lawrence M. Lambe
+  license: Public domain
+  license_url: ''
+  date: '1919-05-01'
+  caption: Osteoderms of Panoplosaurus.
+  width: 3280
+  height: 2136
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lambe, L.M. 1919. Description of a new genus and species (''''Panoplosaurus mirus'''') of an armoured dinosaur
+    from the Belly River Beds of Alberta. Transactions of the Royal Society of Canada 3(3): 39–50.'
+- kind: literature
+  text: 'Arbour, V.M.; Burns, M.E.; Sissons, R.L. 2009. A redescription of the ankylosaurid dinosaur ''''Dyoplosaurus
+    acutosquameus'''' Parks, 1924 (Ornithischia: Ankylosauria) and a revision of the genus. Journal of Vertebrate
+    Paleontology 29(4): 1117–1135. doi:10.1671/039.029.0405'
+- kind: literature
+  text: 'Arbour, V.M.; Currie, P.J. 2016. Systematics, phylogeny and palaeobiogeography of the ankylosaurid dinosaurs.
+    Journal of Systematic Palaeontology 14(5): 385–444. doi:10.1080/14772019.2015.1059985'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Panoplosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Panoplosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Panoplosaurus”. English Wikipedia, revision 1368886955.
+  url: https://en.wikipedia.org/w/index.php?title=Panoplosaurus&oldid=1368886955
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Edmontonia was for a time considered the same genus; keep them apart.
+  - PBDB reaches the Maastrichtian (Ferris Formation); the cited revision lists only Campanian specimens.
+  reviews: []

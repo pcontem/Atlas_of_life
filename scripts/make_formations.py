@@ -58,6 +58,8 @@ ALIASES = {
     "Calcari di Zorzino": ("Zorzino Limestone", "Italian name of the Zorzino Limestone."),
     "Solnhofen": ("Altmühltal", "The Solnhofen limestones are the Solnhofen Member of the Altmühltal Formation "
                   "(Niebuhr & Pürner 2014; Rauhut et al. 2017, Zitteliana 89: 305–329)."),
+    "5": ("Hekou", "PBDB records the unit of this collection only as '5'; the beds belong to the Lower Cretaceous Hekou "
+          "Group of the Lanzhou-Minhe Basin, Gansu (English Wikipedia revision of Taohelong)."),
 }
 MERGE_SOURCES = {"Altmühltal": dict(kind="literature", text=(
     "Rauhut, O. W. M., López-Arbarello, A., Röper, M. & Rothgaenger, M. 2017. Vertebrate fossils from the Kimmeridgian "

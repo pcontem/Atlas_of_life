@@ -1,0 +1,75 @@
+name: Tatankacephalus
+rank: genus
+parent: nodosauridae
+incertae_sedis: true
+placement_note: Early analyses put it at the base of Ankylosauridae near Gastonia; Thompson et al. 2011 found it
+  a basal nodosaurid (cited revision).
+authority: Parsons and Parsons 2009
+type_species: Tatankacephalus cooneyorum
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Tatankacephalus is a basal ankylosaur from the Early Cretaceous Cloverly Formation, known from a partial
+  skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tatankacephalus cooneyorum
+  authority: Parsons and Parsons 2009
+  first_ma: 113.2
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Cloverly
+  group: ''
+  members: [Himes]
+  country: United States
+  regions: [Montana]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: cloverly-united-states
+fossil_material:
+  holotype: MOR 1073, a partial skull about 32 cm long without lower jaws — Cloverly Formation.
+  material: Skull, some ribs, a tooth and two osteoderms of an adult.
+  completeness: fragmentary
+  exceptional: ''
+biology: Retained premaxillary teeth and an open lateral temporal fenestra, both primitive features.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Parsons, William L.; Parsons, Kristen M. 2009. A new ankylosaur (Dinosauria: Ankylosauria) from the Lower
+    Cretaceous Cloverly Formation of central Montana. Canadian Journal of Earth Sciences 46(10): 721–738. doi:10.1139/E09-045'
+- kind: literature
+  text: 'Richard S. Thompson 2012. Phylogeny of the ankylosaurian dinosaurs (Ornithischia: Thyreophora). Journal
+    of Systematic Palaeontology 10(2): 301–312. doi:10.1080/14772019.2011.569091'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tatankacephalus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tatankacephalus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tatankacephalus”. English Wikipedia, revision 1348132468.
+  url: https://en.wikipedia.org/w/index.php?title=Tatankacephalus&oldid=1348132468
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No usable Commons image found; look for a figure from Parsons and Parsons 2009.
+  reviews: []

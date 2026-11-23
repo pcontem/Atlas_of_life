@@ -1,0 +1,94 @@
+name: Hoplitosaurus
+rank: genus
+parent: ankylosauria
+incertae_sedis: true
+placement_note: Related to Polacanthus and once synonymised with it (Blows, Pereda-Suberbiola); now accepted as
+  valid; polacanthid placement disputed.
+authority: Lucas 1902
+type_species: Hoplitosaurus marshi
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Hoplitosaurus is an armoured dinosaur related to Polacanthus, known from a partial skeleton from the Lakota
+  Formation of South Dakota.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Hoplitosaurus marshi
+  authority: (Lucas 1901)
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Lakota
+  group: ''
+  members: [Chilson]
+  country: United States
+  regions: [South Dakota]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: lakota-united-states
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Poison Strip Sandstone]
+  country: United States
+  regions: [Utah]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: USNM 4752, ribs, caudal vertebrae, scapulocoracoid, humeri, a femur and armour including tall spines
+    — Lakota Formation, Custer County, South Dakota.
+  material: A single partial skeleton; later referrals are poorly known.
+  completeness: fragmentary
+  exceptional: ''
+biology: A quadrupedal herbivore that fed low to the ground; armour was its main defence.
+images:
+- kind: fossil
+  file: Hoplitosaurus spined plate.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Hoplitosaurus_spined_plate.jpg/960px-Hoplitosaurus_spined_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hoplitosaurus_spined_plate.jpg
+  artist: Frederic Augustus Lucas
+  license: Public domain
+  license_url: ''
+  date: '1901'
+  caption: Spined plate of Hoplitosaurus (historic illustration).
+  width: 1839
+  height: 2492
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. A. Lucas. 1902. Paleontological notes. The generic name Omosaurus. A new generic name for Stegosaurus
+    marshi. Science, new series 16(402):435
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hoplitosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hoplitosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hoplitosaurus”. English Wikipedia, revision 1352787895.
+  url: https://en.wikipedia.org/w/index.php?title=Hoplitosaurus&oldid=1352787895
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original naming paper (Lucas 1901/1902) not in the cited revision; add it.
+  reviews: []

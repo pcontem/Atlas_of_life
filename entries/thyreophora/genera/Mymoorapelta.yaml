@@ -1,0 +1,116 @@
+name: Mymoorapelta
+rank: genus
+parent: ankylosauria
+incertae_sedis: true
+placement_note: Called a nodosaurid in the cited revision, but polacanthid placement is disputed; placed in Ankylosauria.
+authority: Kirkland and Carpenter 1994
+type_species: Mymoorapelta maysi
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Mymoorapelta is a small Late Jurassic armoured dinosaur from the Mygatt-Moore Quarry of Colorado, with
+  five armour types including a sacral shield.
+size:
+  length_m: [3, 3]
+  note: Estimated length of the largest specimen (cited Wikipedia revision).
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Mymoorapelta maysi
+  authority: Kirkland and Carpenter 1994
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin]
+  country: United States
+  regions: [Colorado, Utah]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 3
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: The holotype from the Mygatt-Moore Quarry, with osteoderms, a partial skull, vertebrae and other bones
+    — Morrison Formation, Colorado.
+  material: Few specimens are known; more than 160 bones have been collected at the quarry.
+  completeness: partial
+  exceptional: ''
+biology: Armoured herbivore with a narrow, almost triangular skull and large horns pointing backwards from the brow.
+images:
+- kind: life
+  file: Mymoorapelta maysi.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/83/Mymoorapelta_maysi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mymoorapelta_maysi.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-05-30'
+  caption: Life restoration of Mymoorapelta maysi.
+  width: 1578
+  height: 525
+  review: unreviewed
+- kind: fossil
+  file: Mymoorapelta plates fruita.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mymoorapelta_plates_fruita.jpg/960px-Mymoorapelta_plates_fruita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mymoorapelta_plates_fruita.jpg
+  artist: Jens Lallensack
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2016-10
+  caption: Plates of Mymoorapelta.
+  width: 3282
+  height: 4458
+  review: unreviewed
+- kind: fossil
+  file: Holotype left ilium of Mymoorapelta maysii (MWC 1815).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Holotype_left_ilium_of_Mymoorapelta_maysii_%28MWC_1815%29.png/960px-Holotype_left_ilium_of_Mymoorapelta_maysii_%28MWC_1815%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Holotype_left_ilium_of_Mymoorapelta_maysii_(MWC_1815).png
+  artist: Kenneth Carpenter, Tony DiCroce, Billy Kinneer, Robert Simon
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-03-09'
+  caption: Holotype left ilium of Mymoorapelta.
+  width: 2322
+  height: 1806
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/16119d33-89ee-4c7a-ab16-9841ff1bda67/vector.svg
+  png: https://images.phylopic.org/images/16119d33-89ee-4c7a-ab16-9841ff1bda67/raster/512x158.png
+  page: https://www.phylopic.org/images/16119d33-89ee-4c7a-ab16-9841ff1bda67
+  attribution: Robert Gay
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Mymoorapelta maysi
+  matched: Mymoorapelta
+  genus_level: true
+sources:
+- kind: original
+  text: J. I. Kirkland and K. Carpenter. 1994. North America's first pre-Cretaceous ankylosaur (Dinosauria) from
+    the Upper Jurassic Morrison Formation of western Colorado. Brigham Young University Geology Studies 40:25-42
+- kind: literature
+  text: 'Farlow, James O.; Coroian, Dan; Currie, Philip J.; Foster, John R.; Mallon, Jordan C.; Therrien, François
+    2022. "Dragons" on the landscape: Modeling the abundance of large carnivorous dinosaurs of the Upper Jurassic
+    Morrison Formation (USA) and the Upper Cretaceous Dinosaur Park Formation (Canada). The Anatomical Record 306(7):
+    1669–1696. doi:10.1002/ar.25024'
+- kind: literature
+  text: 'Ősi, Attila; Prondvai, Edina; Mallon, Jordan; Bodor, Emese Réka 2016. Diversity and convergences in the
+    evolution of feeding adaptations in ankylosaurs (Dinosauria: Ornithischia). Historical Biology 29(4): 539–570.
+    doi:10.1080/08912963.2016.1208194'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mymoorapelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mymoorapelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mymoorapelta”. English Wikipedia, revision 1385963101.
+  url: https://en.wikipedia.org/w/index.php?title=Mymoorapelta&oldid=1385963101
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

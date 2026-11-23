@@ -6,16 +6,28 @@ country: United States
 regions: [Texas]
 location:
   lat: 29.105
-  lng: -103.318
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  lng: -103.337
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [channel lag, terrestrial indet., delta plain, estuary/bay]
-lithology: [conglomerate, not reported, claystone, sandstone]
-pbdb_collections: ['14489', '68001', '68002', '68003', '68004', '68006', '99139', '113768', '150883', '200397',
-  '212185', '222815']
+environment: [terrestrial indet., channel lag, delta plain, estuary/bay]
+lithology: [conglomerate, not reported, claystone, siltstone]
+pbdb_collections:
+- '14489'
+- '68001'
+- '68002'
+- '68003'
+- '68004'
+- '68006'
+- '99139'
+- '113768'
+- '150883'
+- '189815'
+- '200397'
+- '212185'
+- '222815'
 includes: []
 summary: ''
 paleoenvironment: ''
