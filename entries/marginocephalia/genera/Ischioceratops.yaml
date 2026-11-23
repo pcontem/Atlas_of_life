@@ -1,0 +1,97 @@
+name: Ischioceratops
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: He et al. 2015
+type_species: Ischioceratops zhuchengensis
+type_species_note: Only species of the genus (PBDB).
+summary: Ischioceratops is a small leptoceratopsid from the late Campanian of Shandong, China.
+size:
+  length_m: [2, 2]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ischioceratops zhuchengensis
+  authority: He et al. 2015
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Hongtuya
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: hongtuya-china
+fossil_material:
+  holotype: ZCDM V0016, a partial skeleton — Wangshi Group, Kugou, Shandong, China (late Campanian or earliest Maastrichtian).
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Small, moderately built, ground-dwelling quadrupedal herbivore.
+images:
+- kind: fossil
+  file: Ischioceratops skeleton.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/67/Ischioceratops_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ischioceratops_skeleton.jpg
+  artist: Crizz30
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-12-29'
+  caption: Skeleton of Ischioceratops.
+  width: 1410
+  height: 706
+  review: unreviewed
+- kind: fossil
+  file: Ischioceratops pelvic girdle.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Ischioceratops_pelvic_girdle.png/960px-Ischioceratops_pelvic_girdle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ischioceratops_pelvic_girdle.png
+  artist: Yiming He, Peter J. Makovicky, Kebai Wang, Shuqing Chen, Corwin Sullivan, Fenglu Han & Xing Xu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-12-23'
+  caption: Pelvic girdle of Ischioceratops.
+  width: 2250
+  height: 1451
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: Yiming He 2015. A New Leptoceratopsid (Ornithischia, Ceratopsia) with a Unique Ischium from the Upper Cretaceous
+    of Shandong Province, China. PLOS ONE 10(12). doi:10.1371/journal.pone.0144148
+- kind: literature
+  text: 'An, W. 2016. Detrital zircon dating and tracing the provenance of dinosaur bone beds from the Late Cretaceous
+    Wangshi Group in Zhucheng, Shandong, East China. Journal of Palaeogeography 5(1): 72–99. doi:10.1016/j.jop.2015.11.002'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ischioceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ischioceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ischioceratops”. English Wikipedia, revision 1313760080.
+  url: https://en.wikipedia.org/w/index.php?title=Ischioceratops&oldid=1313760080
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number is written ZCDM V0O016 in the Wikipedia revision; check the original paper.
+  reviews: []

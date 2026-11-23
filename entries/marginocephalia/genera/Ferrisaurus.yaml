@@ -1,0 +1,98 @@
+name: Ferrisaurus
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Arbour and Evans 2019
+type_species: Ferrisaurus sustutensis
+type_species_note: Only species of the genus (PBDB).
+summary: Ferrisaurus is a leptoceratopsid from the Maastrichtian Tango Creek Formation of British Columbia, known
+  from a partial skeleton.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ferrisaurus sustutensis
+  authority: Arbour and Evans 2019
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Tango Creek
+  group: Sustut
+  members: [Tatlatui]
+  country: Canada
+  regions: [British Columbia]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: tango-creek-canada
+fossil_material:
+  holotype: RBCM P900, a partial skeleton with forelimb, hindlimb and foot elements — Tatlatui Member, Tango Creek
+    Formation, Sustut Basin, British Columbia (about 68–67 Ma).
+  material: Holotype only; the only vertebrate fossil described from the Sustut Basin.
+  completeness: fragmentary
+  exceptional: ''
+biology: Originally interpreted as an ornithischian of uncertain taxonomy.
+images:
+- kind: life
+  file: Ferrisaurus life restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Ferrisaurus_life_restoration.jpg/960px-Ferrisaurus_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ferrisaurus_life_restoration.jpg
+  artist: Titanichamster
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-05-05'
+  caption: Life restoration of Ferrisaurus.
+  width: 4000
+  height: 2032
+  review: unreviewed
+- kind: fossil
+  file: Ferrisaurus holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Ferrisaurus_holotype.jpg/960px-Ferrisaurus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ferrisaurus_holotype.jpg
+  artist: IJReid
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-06-08'
+  caption: Holotype of Ferrisaurus.
+  width: 3024
+  height: 4032
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: Arbour, V.M.; Evans, D.C. 2019. A new leptoceratopsid dinosaur from Maastrichtian-aged deposits of the Sustut
+    Basin, northern British Columbia, Canada. PeerJ 7. doi:10.7717/peerj.7926
+- kind: literature
+  text: 'Arbour, V.M.; Graves, M.C. 2008. An ornithischian dinosaur from the Sustut Basin, north-central British
+    Columbia, Canada. Canadian Journal of Earth Sciences 45(4): 457–463. doi:10.1139/E08-009'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ferrisaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ferrisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ferrisaurus”. English Wikipedia, revision 1328571181.
+  url: https://en.wikipedia.org/w/index.php?title=Ferrisaurus&oldid=1328571181
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

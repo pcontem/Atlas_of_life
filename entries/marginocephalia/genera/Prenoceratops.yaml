@@ -1,0 +1,96 @@
+name: Prenoceratops
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Chinnery 2004
+type_species: Prenoceratops pieganensis
+type_species_note: Only species of the genus (PBDB).
+summary: Prenoceratops is a small leptoceratopsid from the Late Cretaceous of Montana and Alberta, known from a
+  bonebed of juvenile and young individuals.
+size:
+  length_m: [1.3, 1.3]
+  mass_kg: [20, 20]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Prenoceratops pieganensis
+  authority: Chinnery 2004
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: TCM 2003.1.1, one of the few associated specimens of the bonebed — Two Medicine Formation, Montana.
+  material: Many disarticulated elements of many individuals; only skull material described.
+  completeness: multiple
+  exceptional: ''
+biology: Small herbivore; the bonebed records many individuals together.
+images:
+- kind: life
+  file: Prenoceratops BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/da/Prenoceratops_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Prenoceratops_BW.jpg
+  artist: Nobu Tamura
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-02-14'
+  caption: Life restoration of Prenoceratops.
+  width: 508
+  height: 290
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chinnery, Brenda 2004. Description of Prenoceratops pieganensis gen. et sp. nov. (Dinosauria: Neoceratopsia)
+    from the Two Medicine Formation of Montana. Journal of Vertebrate Paleontology 24(3): 572–590. doi:10.1671/0272-4634(2004)024[0572:DOPPGE]2.0.CO;2'
+- kind: literature
+  text: 'Arbour, Victoria M.; Burns, Michael E.; Sissons, Robin L. 2009. A redescription of the ankylosaurid dinosaur
+    Dyoplosaurus acutosquameus Parks, 1924 (Ornithischia: Ankylosauria) and a revision of the genus. Journal of
+    Vertebrate Paleontology 29(4): 1117–1135. doi:10.1671/039.029.0405'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Prenoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Prenoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Prenoceratops”. English Wikipedia, revision 1292435469.
+  url: https://en.wikipedia.org/w/index.php?title=Prenoceratops&oldid=1292435469
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

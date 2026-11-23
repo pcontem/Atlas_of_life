@@ -1,0 +1,102 @@
+name: Udanoceratops
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Kurzanov 1992
+type_species: Udanoceratops tschizhovi
+type_species_note: Only species of the genus (PBDB).
+summary: Udanoceratops is the largest known leptoceratopsid, a robust-jawed ceratopsian from the Djadokhta Formation
+  of Mongolia.
+size:
+  length_m: [4, 4]
+  mass_kg: [700, 700]
+  note: Some estimates, as stated in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Udanoceratops tschizhovi
+  authority: Kurzanov 1992
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Partial skeleton of an adult encased in calcium carbonate, found in the 1980s by the Joint Soviet-Mongolian
+    expedition (collection number not given in the sources used) — Djadokhta Formation, Udan-Bayr locality, Mongolia.
+  material: Holotype only; the incomplete skull was probably 60–70 cm long.
+  completeness: partial
+  exceptional: ''
+biology: Very deep and robust lower jaw, possibly strong enough to cleave bone; the holotype bears damage to its
+  mandible that may have been caused by such a bite.
+images:
+- kind: life
+  file: Udanoceratops Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Udanoceratops_Restoration.png/960px-Udanoceratops_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Udanoceratops_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-06-20'
+  caption: Life restoration of Udanoceratops.
+  width: 4650
+  height: 2146
+  review: unreviewed
+- kind: skeletal
+  file: Udanoceratops Skeleton Reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Udanoceratops_Skeleton_Reconstruction.png/960px-Udanoceratops_Skeleton_Reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Udanoceratops_Skeleton_Reconstruction.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-06-20'
+  caption: Skeletal reconstruction of Udanoceratops.
+  width: 7597
+  height: 4168
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0daeae6c-da24-42ae-9f3f-0bb0e48002d5/vector.svg
+  png: https://images.phylopic.org/images/0daeae6c-da24-42ae-9f3f-0bb0e48002d5/raster/512x194.png
+  page: https://www.phylopic.org/images/0daeae6c-da24-42ae-9f3f-0bb0e48002d5
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Udanoceratops tschizhovi
+  matched: Udanoceratops
+  genus_level: true
+sources:
+- kind: original
+  text: 'Kurzanov, S. M. 1992. Новый род протоцератопсид из позднего мела Монголии. Paleontological Journal: 81−93.'
+- kind: literature
+  text: 'Tereschenko, V. S. 2008. Adaptive features of protoceratopoids (Ornithischia: Neoceratopsia). Paleontological
+    Journal 42(3): 273–286. doi:10.1134/S003103010803009X'
+- kind: literature
+  text: 'Czepiński, Ł. 2020. New protoceratopsid specimens improve the age correlation of the Upper Cretaceous Gobi
+    Desert strata. Acta Palaeontologica Polonica 65(3): 481–497. doi:10.4202/app.00701.2019'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Udanoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Udanoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Udanoceratops”. English Wikipedia, revision 1376798607.
+  url: https://en.wikipedia.org/w/index.php?title=Udanoceratops&oldid=1376798607
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

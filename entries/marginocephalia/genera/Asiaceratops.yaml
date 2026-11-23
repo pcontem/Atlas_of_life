@@ -1,0 +1,102 @@
+name: Asiaceratops
+rank: genus
+parent: ceratopsia
+incertae_sedis: true
+placement_note: Neoceratopsian of uncertain position; the cited Wikipedia revision notes that the genus has often
+  been considered a nomen dubium because of its limited holotype material.
+authority: Nessov et al. 1989
+type_species: Asiaceratops salsopaludalis
+type_species_note: Only species of the genus (PBDB).
+summary: Asiaceratops is a ceratopsian from the Cenomanian Khodzhakul Formation of Uzbekistan, known from fragmentary
+  material.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Asiaceratops salsopaludalis
+  authority: Nessov et al. 1989
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Khodzhakul
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Karakalpakstan, Navoi]
+  interval: Early Cenomanian
+  occurrences: 7
+  ma: [93.9, 100.5]
+  id: khodzhakul-uzbekistan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Karakalpakistan]
+  interval: Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: khodzhakul-uzbekistan
+fossil_material:
+  holotype: CCMGE 9/12457 — Khodzhakul Formation, Uzbekistan (early Cenomanian, about 99 Ma).
+  material: Teeth and a phalanx referred in 1989; more skull elements and a partial humerus of individuals of different
+    ages referred in 1995.
+  completeness: fragmentary
+  exceptional: ''
+biology: Herbivore known from fragments; no behavioural data.
+images:
+- kind: life
+  file: Asiaceratops reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Asiaceratops_reconstruction.png/960px-Asiaceratops_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Asiaceratops_reconstruction.png
+  artist: Atlantis536
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-06-13'
+  caption: Life restoration of Asiaceratops.
+  width: 2245
+  height: 912
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/vector.svg
+  png: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/raster/512x201.png
+  page: https://www.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Archaeoceratops oshimai
+  matched: Neoceratopsia
+  genus_level: false
+sources:
+- kind: original
+  text: L. A. Nessov, L. F. Kaznyshkina, and G. O. Cherepanov. 1989. [Mesozoic ceratopsian dinosaurs and crocodiles
+    of central Asia]. In Bogdanova and Khozatskii (eds.), Theoretical and Applied Aspects of Modern Palaeontology
+- kind: literature
+  text: 'Makovicky, Peter J. 2006. ''''Yamaceratops dorngobiensis'''', a new primitive ceratopsian (Dinosauria:
+    Ornithischia) from the Cretaceous of Mongolia. American Museum Novitates(3530): 1–42. doi:10.1206/0003-0082(2006)3530[1:YDANPC]2.0.CO;2'
+- kind: literature
+  text: 'Morschhauser, E.M.; You, H.; Li, D.; Dodson, P. 2019. Phylogenetic history of Auroraceratops rugosus (Ceratopsia:
+    Ornithischia) from the Lower Cretaceous of Gansu Province, China. Journal of Vertebrate Paleontology 38(Supplement):
+    117–147. doi:10.1080/02724634.2018.1509866'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Asiaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Asiaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Asiaceratops”. English Wikipedia, revision 1313983794.
+  url: https://en.wikipedia.org/w/index.php?title=Asiaceratops&oldid=1313983794
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Validity (nomen dubium?) to be checked against Makovicky 2006 and later work (M1).
+  - PBDB gives no named original paper; Nessov et al. 1989 named the genus.
+  reviews: []
