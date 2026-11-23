@@ -1,0 +1,113 @@
+name: Liaoningosaurus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2001
+type_species: Liaoningosaurus paradoxus
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Liaoningosaurus is a small ankylosaur from the Yixian Formation of Liaoning, China, known from more than
+  twenty juveniles and perhaps partly aquatic.
+size:
+  length_m: [0.34, 0.34]
+  note: Estimated length of the type specimen, a juvenile (cited Wikipedia revision); adult size unknown.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Liaoningosaurus paradoxus
+  authority: Xu et al. 2001
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dakangpu]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: IVPP V12560, a nearly complete articulated skeleton about 34 cm long on a slab — Yixian Formation, Liaoning.
+  material: More than 20 specimens, all juveniles, including XHPM-1206.
+  completeness: near-complete
+  exceptional: ''
+biology: Some skeletal features may suggest a partly aquatic life; later work (Ji et al. 2016) reports fish-hunting
+  from gut contents (cited revision).
+images:
+- kind: life
+  file: Liaoningosaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Liaoningosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Liaoningosaurus.jpg
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-03-17'
+  caption: Life restoration of Liaoningosaurus paradoxus.
+  width: 984
+  height: 1176
+  review: unreviewed
+- kind: fossil
+  file: Liaoningosaurus-Beijing Museum of Natural History.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Liaoningosaurus-Beijing_Museum_of_Natural_History.jpg/960px-Liaoningosaurus-Beijing_Museum_of_Natural_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoningosaurus-Beijing_Museum_of_Natural_History.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-14'
+  caption: Liaoningosaurus specimen in the Beijing Museum of Natural History.
+  width: 2592
+  height: 1728
+  review: unreviewed
+- kind: fossil
+  file: Liaoningosaurus paradoxus - early cretaceous Liaoning IMG 5223 Beijing Museum of Natural History.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Liaoningosaurus_paradoxus_-_early_cretaceous_Liaoning_IMG_5223_Beijing_Museum_of_Natural_History.jpg/960px-Liaoningosaurus_paradoxus_-_early_cretaceous_Liaoning_IMG_5223_Beijing_Museum_of_Natural_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoningosaurus_paradoxus_-_early_cretaceous_Liaoning_IMG_5223_Beijing_Museum_of_Natural_History.jpg
+  artist: Bjoertvedt
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-07-13'
+  caption: Liaoningosaurus paradoxus specimen.
+  width: 2087
+  height: 3523
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Liaoningosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Xu, X.; Wang, X.-L.; You, H.-L. 2001. A juvenile ankylosaur from China. Naturwissenschaften 88(7): 297–300.
+    doi:10.1007/s001140100233'
+- kind: literature
+  text: 'Zheng, Wenjie; Zhao, Qi; Barrett, Paul M.; Xu, Xing 27 O. Bone histology of Liaoningosaurus paradoxus (Ornithischia:
+    Ankylosauria) from the Lower Cretaceous of Liaoning Province, China. Journal of Vertebrate Paleontology. doi:10.1080/02724634.2025.2566325'
+- kind: literature
+  text: 'Ji, Q.; Wu, X.; Cheng, Y.; Ten, F.; Ji, Y. 2016. Fish-hunting ankylosaurs (Dinosauria, Ornithischia) from
+    the Cretaceous of China. Journal of Geology 40(2): 183–190. doi:10.3969/j.issn.1674-3636.2016.02.183'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Liaoningosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Liaoningosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Liaoningosaurus”. English Wikipedia, revision 1379791139.
+  url: https://en.wikipedia.org/w/index.php?title=Liaoningosaurus&oldid=1379791139
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the fish-hunting claim (Ji et al. 2016) before relying on it.]
+  reviews: []

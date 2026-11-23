@@ -3,18 +3,18 @@ name: Baruungoyot
 rank: formation
 group: ''
 country: Mongolia
-regions: [Omnogov]
+regions: [Dornogov, Omnogov]
 location:
   lat: 43.566
-  lng: 103.524
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lng: 105.25
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: [marl]
-pbdb_collections: ['51971']
+environment: [terrestrial indet., wet floodplain]
+lithology: [sandstone, not reported, marl]
+pbdb_collections: ['51971', '65334', '65338']
 includes: []
 summary: ''
 paleoenvironment: ''

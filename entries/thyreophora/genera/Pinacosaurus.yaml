@@ -1,0 +1,212 @@
+name: Pinacosaurus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Gilmore 1933
+type_species: Pinacosaurus grangeri
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Pinacosaurus is a medium-sized ankylosaurine from the Late Cretaceous of Mongolia and China, known from
+  at least 24 skeletons, many juvenile.
+size:
+  length_m: [5, 5]
+  mass_kg: [1900, 1900]
+  note: About 5 m and up to 1.9 tonnes (cited Wikipedia revision).
+age:
+  first_ma: 89.8
+  last_ma: 72.2
+  early_interval: Coniacian
+  late_interval: Campanian
+  pbdb_occurrences: 24
+  note: ''
+species:
+- name: Pinacosaurus grangeri
+  authority: Gilmore 1933
+  first_ma: 89.8
+  last_ma: 72.2
+  interval: Coniacian–Campanian
+  reference: original description
+- name: Pinacosaurus hilwitnorum
+  authority: Penkalski 2026
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Pinacosaurus mephistocephalus
+  authority: Godefroit et al. 1999
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Pinacosaurus ninghsiensis
+  authority: Young 1935
+  first_ma: 89.8
+  last_ma: 72.2
+  interval: Coniacian–Campanian
+  reference: ''
+formations:
+- formation: Djadokhta
+  group: ''
+  members: [Bayn Dzak, Tugrugyin]
+  country: Mongolia
+  regions: [Omngov, Omnogov, Ömnögovi Aimag]
+  interval: Late Campanian
+  occurrences: 12
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+- formation: Bayan Mandahu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: bayan-mandahu-china
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov, Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+- formation: Jiangjunding
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: jiangjunding-china
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Ningxia]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: unnamed-north-alashan-desert-ninghsia-china
+- formation: Öösh
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorkhangai]
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: oosh-mongolia
+- formation: Alagteeg
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Santonian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: alagteeg-mongolia
+- formation: Wulansuhai
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wulansuhai-china
+fossil_material:
+  holotype: AMNH 6523, found in the Djadokhta Formation (Flaming Cliffs, Shabarakh Usu), Mongolia.
+  material: At least 24 skeletons, possibly the most of any ankylosaur, including groups of juveniles.
+  completeness: multiple
+  exceptional: ''
+biology: Neck, back and tail were protected by keeled osteoderms; juvenile groups are known.
+images:
+- kind: life
+  file: Pinacosaurus hilwitnorum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Pinacosaurus_hilwitnorum.png/960px-Pinacosaurus_hilwitnorum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pinacosaurus_hilwitnorum.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-12'
+  caption: Life restoration of Pinacosaurus hilwitnorum.
+  width: 4000
+  height: 1015
+  review: unreviewed
+- kind: fossil
+  file: Pinacosaurus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Pinacosaurus_skeleton.jpg/960px-Pinacosaurus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pinacosaurus_skeleton.jpg
+  artist: Talented Traveller
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2006-07-29'
+  caption: Mounted skeleton of Pinacosaurus.
+  width: 1725
+  height: 1099
+  review: unreviewed
+- kind: fossil
+  file: Pinacosaurus.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c5/Pinacosaurus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pinacosaurus.JPG
+  artist: Laikayiu
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: ''
+  caption: Pinacosaurus specimen.
+  width: 1024
+  height: 271
+  review: unreviewed
+- kind: fossil
+  file: Pinacosaurus juveniles.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/85/Pinacosaurus_juveniles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pinacosaurus_juveniles.jpg
+  artist: Philip J. Currie, Demchig Badamgarav, Eva B. Koppelhus, Robin Sissons, and Matthew K. Vickaryous
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2011'
+  caption: Juvenile Pinacosaurus specimens.
+  width: 1292
+  height: 827
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Gilmore, C. W. 1933. Two new dinosaurian reptiles from Mongolia with notes on some fragmentary specimens.
+    American Museum Novitates(679): 1–20.'
+- kind: literature
+  text: 'Hill, R. V.; Witmer, L. W.; Norell, M. A. 2003. A New Specimen of Pinacosaurus grangeri (Dinosauria: Ornithischia)
+    from the Late Cretaceous of Mongolia: Ontogeny and Phylogeny of Ankylosaurs. American Museum Novitates(3395):
+    1–29. doi:10.1206/0003-0082(2003)395<0001:ANSOPG>2.0.CO;2'
+- kind: literature
+  text: 'Currie, P. J.; Badamgarav, D.; Koppelhus, E. B.; Sissons, R.; Vickaryous, M. K. 2011. Hands, feet and behaviour
+    in Pinacosaurus (Dinosauria: Ankylosauridae). Acta Palaeontologica Polonica 56(3): 489–504. doi:10.4202/app.2010.0055'
+- kind: literature
+  text: 'Burns, Michael; Arbour, Victoria; Sissons, Robin; Currie, Philip 2011. Juvenile specimens of Pinacosaurus
+    grangeri Gilmore, 1933 (Ornithischia: Ankylosauria) from the Late Cretaceous of China, with comments on the
+    specific taxonomy of ''''Pinacosaurus''''. Cretaceous Research 32(2011): 174–186. doi:10.1016/j.cretres.2010.11.007'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pinacosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pinacosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pinacosaurus”. English Wikipedia, revision 1386962571.
+  url: https://en.wikipedia.org/w/index.php?title=Pinacosaurus&oldid=1386962571
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Four species in PBDB (P. grangeri, hilwitnorum, mephistocephalus, ninghsiensis); check their status.
+  reviews: []

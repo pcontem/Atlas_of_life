@@ -3,18 +3,18 @@ name: Alagteeg
 rank: formation
 group: ''
 country: Mongolia
-regions: [Omngov]
+regions: [Omngov, Omnogov]
 location:
-  lat: 44.523
-  lng: 103.155
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 44.39
+  lng: 103.227
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 85.7
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet.]
-lithology: [sandstone]
-pbdb_collections: ['207803']
+environment: [fluvial indet., pond]
+lithology: [sandstone, mudstone]
+pbdb_collections: ['167657', '207803']
 includes: []
 summary: ''
 paleoenvironment: ''

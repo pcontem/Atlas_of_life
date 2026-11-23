@@ -1,0 +1,114 @@
+name: Chuanqilong
+rank: genus
+parent: ankylosauridae
+incertae_sedis: true
+placement_note: Described as a basal ankylosaurid (Han et al. 2014); it shows many similarities with Liaoningosaurus
+  and may be a later growth stage of it (cited revision).
+authority: Han et al. 2014
+type_species: Chuanqilong chaoyangensis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Chuanqilong is a medium-sized ankylosaur from the Jiufotang Formation of Liaoning, China, described from
+  a nearly complete juvenile skeleton.
+size:
+  length_m: [4.5, 4.5]
+  note: Estimate for the immature holotype; it may have been larger (cited Wikipedia revision).
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chuanqilong chaoyangensis
+  authority: Han et al. 2014
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: CJPM V001, a nearly complete skull and skeleton of a juvenile lacking the distal tail — Jiufotang Formation,
+    Liaoning.
+  material: Holotype only.
+  completeness: near-complete
+  exceptional: ''
+biology: Triangular skull with neck armour; known from a juvenile.
+images:
+- kind: life
+  file: Chuanqilong chaoyangensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Chuanqilong_chaoyangensis.png/960px-Chuanqilong_chaoyangensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chuanqilong_chaoyangensis.png
+  artist: Fenglu Han, Wenjie Zheng, Dongyu Hu, Xing Xu, Paul M. Barrett
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Life restoration of Chuanqilong chaoyangensis.
+  width: 2721
+  height: 2597
+  review: unreviewed
+- kind: fossil
+  file: Chuanqilong skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Chuanqilong_skull.png/960px-Chuanqilong_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chuanqilong_skull.png
+  artist: Fenglu Han, Wenjie Zheng, Dongyu Hu, Xing Xu, Paul M. Barrett
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Skull of Chuanqilong (Han et al. 2014 figure).
+  width: 2734
+  height: 2218
+  review: unreviewed
+- kind: fossil
+  file: Chuanqilong postcrania.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Chuanqilong_postcrania.png/960px-Chuanqilong_postcrania.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chuanqilong_postcrania.png
+  artist: Fenglu Han, Wenjie Zheng, Dongyu Hu, Xing Xu, Paul M. Barrett
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014-08-13'
+  caption: Postcranial remains of Chuanqilong (Han et al. 2014 figure).
+  width: 2713
+  height: 2538
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Han, F. 2014. A New Basal Ankylosaurid (Dinosauria: Ornithischia) from the Lower Cretaceous Jiufotang Formation
+    of Liaoning Province, China. PLOS ONE 9(8). doi:10.1371/journal.pone.0104551'
+- kind: literature
+  text: 'Arbour, Victoria M.; Currie, Philip J. 2015. Ankylosaurid dinosaur tail clubs evolved through stepwise
+    acquisition of key features. Journal of Anatomy 227(4): 514–523. doi:10.1111/joa.12363'
+- kind: literature
+  text: 'Arbour, V. M. 2015. Systematics, phylogeny and palaeobiogeography of the ankylosaurid dinosaurs. Journal
+    of Systematic Palaeontology 14(5): 1–60. doi:10.1080/14772019.2015.1059985'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chuanqilong (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chuanqilong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chuanqilong”. English Wikipedia, revision 1369637202.
+  url: https://en.wikipedia.org/w/index.php?title=Chuanqilong&oldid=1369637202
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
