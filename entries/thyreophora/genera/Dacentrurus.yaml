@@ -1,0 +1,219 @@
+name: Dacentrurus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Lucas 1902
+type_species: Dacentrurus armatus
+type_species_note: Named by Owen in 1875 as Omosaurus armatus, the type species of Omosaurus; Lucas 1902 replaced
+  the preoccupied genus name (cited Wikipedia revision).
+summary: Dacentrurus is one of the largest stegosaurs, known from the Late Jurassic of England, France, Portugal
+  and Spain, with possible Early Cretaceous remains.
+size:
+  length_m: [8, 9]
+  mass_kg: [5000, 7400]
+  note: Range given in the cited Wikipedia revision for the genus.
+age:
+  first_ma: 154.8
+  last_ma: 121.4
+  early_interval: Kimmeridgian
+  late_interval: Barremian
+  pbdb_occurrences: 31
+  note: ''
+species:
+- name: Dacentrurus armatus
+  authority: (Marsh 1877)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Villar del Arzobispo
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragon, Aragón, Teruel, Valencia]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 11
+  ma: [143.1, 154.8]
+  id: villar-del-arzobispo-spain
+- formation: Lourinhã
+  group: ''
+  members: [Praia da Amoreira-Porto Novo, Santa Rita-Assenta]
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian–Tithonian
+  occurrences: 6
+  ma: [143.1, 152.21]
+  id: lourinha-portugal
+- formation: Argiles d'Octeville
+  group: ''
+  members: []
+  country: France
+  regions: [Haute-Normandie]
+  interval: Late Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 152.21]
+  id: argiles-d-octeville-france
+- formation: Freixial
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Middle Tithonian
+  occurrences: 2
+  ma: [143.1, 149.2]
+  id: freixial-portugal
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian–Late Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Nord-Pas-de-Calais, Poitou-Charentes]
+  interval: Late Kimmeridgian–Berriasian
+  occurrences: 2
+  ma: [137.05, 152.21]
+  id: [unnamed-angeac-charente-france, unnamed-chatillon-france]
+- formation: Kimmeridge Clay
+  group: ''
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: kimmeridge-clay-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Early Kimmeridgian–Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-alfeizerao-portugal
+- formation: Praia da Amoreira-Porto Novo
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: lourinha-portugal
+- formation: Piedrahita de Muñó
+  group: Tera
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: piedrahita-de-muno-spain
+fossil_material:
+  holotype: NHMUK PV OR 46013, a skeleton from a clay nodule in the Swindon Great Quarry — Kimmeridge Clay Formation,
+    Swindon, England.
+  material: Remains from Spain, Portugal and France referred to the genus, including a new specimen described in
+    2024.
+  completeness: partial
+  exceptional: ''
+biology: Quadrupedal herbivorous stegosaur with plates and spikes; the cited sources focus on anatomy and taxonomy
+  rather than behaviour.
+images:
+- kind: skeletal
+  file: Dacentrurus armatus skeleton.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Dacentrurus_armatus_skeleton.png/960px-Dacentrurus_armatus_skeleton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dacentrurus_armatus_skeleton.png
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013'
+  caption: Skeletal reconstruction of Dacentrurus armatus.
+  width: 10600
+  height: 4463
+  review: unreviewed
+- kind: life
+  file: Dacentrurus armatus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Dacentrurus_armatus.png/960px-Dacentrurus_armatus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dacentrurus_armatus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-13'
+  caption: Life restoration of Dacentrurus armatus.
+  width: 2264
+  height: 880
+  review: unreviewed
+- kind: fossil
+  file: Dacentrurus dorsal vertebra.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Dacentrurus_dorsal_vertebra.jpg/960px-Dacentrurus_dorsal_vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dacentrurus_dorsal_vertebra.jpg
+  artist: C. L. Griesbach
+  license: Public domain
+  license_url: ''
+  date: 1870s date
+  caption: Dorsal vertebra of Dacentrurus (historic plate).
+  width: 2634
+  height: 2604
+  review: unreviewed
+- kind: fossil
+  file: Dacentrurus holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Dacentrurus_holotype.jpg/960px-Dacentrurus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dacentrurus_holotype.jpg
+  artist: C. L. Griesbach
+  license: Public domain
+  license_url: ''
+  date: '1875'
+  caption: Holotype of Dacentrurus (historic plate).
+  width: 2940
+  height: 2556
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0b56513a-bcc2-4f96-bf8b-92ac61d3c51e/vector.svg
+  png: https://images.phylopic.org/images/0b56513a-bcc2-4f96-bf8b-92ac61d3c51e/raster/512x187.png
+  page: https://www.phylopic.org/images/0b56513a-bcc2-4f96-bf8b-92ac61d3c51e
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dacentrurus armatus
+  matched: Dacentrurus
+  genus_level: true
+sources:
+- kind: original
+  text: F. A. Lucas. 1902. Paleontological notes. The generic name Omosaurus. A new generic name for Stegosaurus
+    marshi. Science, new series 16(402):435
+- kind: literature
+  text: 'Sánchez-Fenollosa, S.; Escaso, F.; Cobos, A. 2024. A new specimen of ''''Dacentrurus armatus'''' Owen,
+    1875 (Ornithischia: Thyreophora) from the Upper Jurassic of Spain and its taxonomic relevance in the European
+    stegosaurian diversity. Zoological Journal of the Linnean Society 203(3). doi:10.1093/zoolinnean/zlae074'
+- kind: literature
+  text: 'Costa, Francisco; Mateus, Octávio 2019. Dacentrurine stegosaurs (Dinosauria): A new specimen of ''''Miragaia
+    longicollum'''' from the Late Jurassic of Portugal resolves taxonomical validity and shows the occurrence of
+    the clade in North America. PLOS ONE 14(11). doi:10.1371/journal.pone.0224263'
+- kind: literature
+  text: 'Costa, F. 2025. ''''Miragaia longicollum'''' MG 4863: New fossil and historical evidence from the most
+    complete stegosaur from Europe. Comunicações Geológicas 112(1): 35–58. doi:10.34637/xs1n-3d27'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dacentrurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dacentrurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dacentrurus”. English Wikipedia, revision 1371438498.
+  url: https://en.wikipedia.org/w/index.php?title=Dacentrurus&oldid=1371438498
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Miragaia longicollum is regarded by some researchers as a junior synonym of this taxon; follow up (Costa et
+    al. 2025).
+  - PBDB ages extend to the Barremian through genus-level records; the Early Cretaceous French material (Angeac-Charente)
+    is attributed to Dacentrurus sensu lato.
+  reviews: []

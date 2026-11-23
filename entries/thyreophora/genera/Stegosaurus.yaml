@@ -1,0 +1,197 @@
+name: Stegosaurus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1877
+type_species: Stegosaurus stenops
+type_species_note: Marsh named S. armatus first (1877); the ICZN (Opinion 2320, 2013) replaced the dubious type
+  species with S. stenops (cited Wikipedia revision).
+summary: Stegosaurus is the best-known stegosaur, a large Late Jurassic armoured herbivore from the Morrison Formation
+  with kite-shaped back plates and tail spikes.
+size:
+  length_m: [9, 9]
+  mass_kg: [6900, 6900]
+  note: Largest known specimens of S. ungulatus, about 9 m and over 6.9 tonnes (cited Wikipedia revision); other
+    species were smaller.
+age:
+  first_ma: 161.5
+  last_ma: 93.9
+  early_interval: Oxfordian
+  late_interval: Cenomanian
+  pbdb_occurrences: 86
+  note: ''
+species:
+- name: Stegosaurus armatus
+  authority: (Marsh 1877)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Stegosaurus duplex
+  authority: Marsh 1887
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Stegosaurus stenops
+  authority: (Marsh 1887)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+- name: Stegosaurus sulcatus
+  authority: Marsh 1887
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Stegosaurus ungulatus
+  authority: (Marsh 1879)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Kenton, Lake Como, Salt Wash, Talking Rocks]
+  country: United States
+  regions: [Colorado, Montana, New Mexico, Oklahoma, Utah, Wyoming]
+  interval: Late Jurassic–Tithonian
+  occurrences: 80
+  ma: [143.1, 161.5]
+  id: morrison-united-states
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: Cedar Mountain
+  group: ''
+  members: [Mussentuchit]
+  country: United States
+  regions: [Utah]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: cedar-mountain-united-states
+- formation: Praia da Amoreira-Porto Novo
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: lourinha-portugal
+- formation: Upper
+  group: Hekou
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Barremian–Aptian
+  occurrences: 1
+  ma: [113.2, 125.77]
+  id: upper-china
+fossil_material:
+  holotype: Holotype of the type species S. stenops not named in the sources used; the genus is based on Marsh's
+    1877 material from the Morrison Formation, western United States.
+  material: Many specimens from the Morrison Formation; mounted skeletons are often composites of several individuals.
+  completeness: multiple
+  exceptional: ''
+biology: Heavily built herbivorous quadruped with short forelimbs, a low head and a low brain-to-body mass ratio.
+images:
+- kind: life
+  file: Stegosaurus stenops Life Reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Stegosaurus_stenops_Life_Reconstruction.png/960px-Stegosaurus_stenops_Life_Reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stegosaurus_stenops_Life_Reconstruction.png
+  artist: Fred Wierum
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-06-06'
+  caption: Life restoration of Stegosaurus.
+  width: 3500
+  height: 1690
+  review: unreviewed
+- kind: fossil
+  file: HMNS Stegosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/HMNS_Stegosaurus.jpg/960px-HMNS_Stegosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:HMNS_Stegosaurus.jpg
+  artist: Evolutionnumber9
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-23'
+  caption: Mounted skeleton of Stegosaurus at the Houston Museum of Natural Science.
+  width: 4469
+  height: 3815
+  review: unreviewed
+- kind: fossil
+  file: Stegosaurus dorsal plate - Museum of the Rockies - 2013-07-08.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/22/Stegosaurus_dorsal_plate_-_Museum_of_the_Rockies_-_2013-07-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Stegosaurus_dorsal_plate_-_Museum_of_the_Rockies_-_2013-07-08.jpg
+  artist: Tim Evanson
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2013-07-08'
+  caption: Dorsal plate of Stegosaurus in a museum.
+  width: 1590
+  height: 2003
+  review: unreviewed
+- kind: fossil
+  file: Stegosaurus plates.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Stegosaurus_plates.jpg/960px-Stegosaurus_plates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stegosaurus_plates.jpg
+  artist: Christophe Hendrickx
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-04-12'
+  caption: Plates of a mounted Stegosaurus skeleton.
+  width: 2000
+  height: 1500
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/173f44e3-2db7-4c98-b41f-6ab58093a145/vector.svg
+  png: https://images.phylopic.org/images/173f44e3-2db7-4c98-b41f-6ab58093a145/raster/512x221.png
+  page: https://www.phylopic.org/images/173f44e3-2db7-4c98-b41f-6ab58093a145
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stegosaurus
+  matched: Stegosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Marsh, O. C. 1877. A new order of extinct Reptilia (''''Stegosauria'''') from the Jurassic of the Rocky
+    Mountains. American Journal of Science 3(14): 513–514. doi:10.2475/ajs.s3-14.84.513'
+- kind: literature
+  text: 'Galton, P.M. 2010. Species of plated dinosaur ''''Stegosaurus'''' (Morrison Formation, Late Jurassic) of
+    western USA: new type species designation needed. Swiss Journal of Geosciences 103(2): 187–198. doi:10.1007/s00015-010-0022-4'
+- kind: literature
+  text: 'International Commission on Zoological Nomenclature 2013. Opinion 2320 (Case 3536): ''''Stegosaurus''''
+    Marsh, 1877 (Dinosauria, Ornithischia): type species replaced with ''''Stegosaurus stenops'''' Marsh, 1887.
+    Bulletin of Zoological Nomenclature 70(2): 129–130. doi:10.21805/bzn.v70i2.a4'
+- kind: literature
+  text: 'Carpenter, Kenneth 1998. Vertebrate biostratigraphy of the Morrison Formation near Cañon City, Colorado.
+    Modern Geology 23: 407–426.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stegosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stegosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stegosaurus”. English Wikipedia, revision 1386252387.
+  url: https://en.wikipedia.org/w/index.php?title=Stegosaurus&oldid=1386252387
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype specimen number of S. stenops (and of Marsh's original S. armatus type) still to be filled from Opinion
+    2320 or Galton and Carpenter 2016.
+  - PBDB range reaches the Cenomanian through genus-level records (Cedar Mountain); the cited revision treats the
+    genus as Late Jurassic.
+  - Validity of S. armatus, duplex, sulcatus and ungulatus is debated (Galton and Carpenter 2016); check each.
+  reviews: []

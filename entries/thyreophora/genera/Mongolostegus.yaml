@@ -1,0 +1,105 @@
+name: Mongolostegus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Tumanova and Alifanov 2018
+type_species: Mongolostegus exspectabilis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Mongolostegus is an Early Cretaceous stegosaur from Mongolia, the first stegosaur named from that country,
+  known from a fragmentary specimen.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mongolostegus exspectabilis
+  authority: Tumanova and Alifanov 2018
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Dzunbain
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: dzunbain-mongolia
+fossil_material:
+  holotype: PIN 3779-15, a caudosacral vertebra with the first five caudal vertebrae, a sacral rib and pelvic bones
+    — Dzunbain Formation, Chamrin-Us, Mongolia.
+  material: Holotype only; first included in a phylogeny in 2025 (Sánchez-Fenollosa and Cobos).
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from the pelvic region; no biology is documented in the sources used.
+images:
+- kind: life
+  file: Mongolostegus exspectabilis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Mongolostegus_exspectabilis.png/960px-Mongolostegus_exspectabilis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mongolostegus_exspectabilis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-13'
+  caption: Life restoration of Mongolostegus exspectabilis.
+  width: 2039
+  height: 750
+  review: unreviewed
+- kind: life
+  file: Mongolostegus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Mongolostegus.png/960px-Mongolostegus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mongolostegus.png
+  artist: Miracusaurs
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-05'
+  caption: Life restoration of Mongolostegus.
+  width: 3930
+  height: 1497
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/vector.svg
+  png: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/raster/512x192.png
+  page: https://www.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Tuojiangosaurus multispinus
+  matched: Stegosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Tumanova, T. A.; Alifanov, V. R. Dece. First Record of Stegosaur (Ornithischia, Dinosauria) from the Aptian–Albian
+    of Mongolia. Paleontological Journal 52(14): 1771–1779. doi:10.1134/S0031030118140186'
+- kind: literature
+  text: 'Jia, Lei; Li, Ning; Dong, Liyang; Shi, Jianru; Kang, Zhishuai; Wang, Suozhu; Xu, Shichao; You, Hailu 2024.
+    A new stegosaur from the late Early Cretaceous of Zuoyun, Shanxi Province, China. Historical Biology 37(2):
+    420–429. doi:10.1080/08912963.2024.2308214'
+- kind: literature
+  text: 'Sánchez-Fenollosa, Sergio; Cobos, Alberto 2025. New insights into the phylogeny and skull evolution of
+    stegosaurian dinosaurs: An extraordinary cranium from the European Late Jurassic (Dinosauria: Stegosauria).
+    Vertebrate Zoology 75: 147–171. doi:10.3897/vz.75.e146618'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mongolostegus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mongolostegus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mongolostegus”. English Wikipedia, revision 1325613057.
+  url: https://en.wikipedia.org/w/index.php?title=Mongolostegus&oldid=1325613057
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Size not given in the cited revision.
+  - Informally called Wuerhosaurus 'mongoliensis' by Ulansky 2014 (nomen nudum).
+  reviews: []

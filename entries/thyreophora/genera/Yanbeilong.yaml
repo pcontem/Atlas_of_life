@@ -1,0 +1,104 @@
+name: Yanbeilong
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Jia et al. 2024
+type_species: Yanbeilong ultimus
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Yanbeilong is a late Early Cretaceous stegosaur from the Zuoyun Formation of Shanxi, China, known from
+  a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yanbeilong ultimus
+  authority: Jia et al. 2024
+  first_ma: 113.2
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Zuoyun
+  group: ''
+  members: []
+  country: China
+  regions: [Shanxi]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: zuoyun-china
+fossil_material:
+  holotype: SXMG V 00006, with sacrum, both ilia, left ischium, right pubis, seven dorsal vertebrae and a caudal
+    vertebra — Zuoyun Formation, Zuoyun County, Shanxi.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from vertebrae and pelvis only; no direct evidence on diet or behaviour is given beyond its stegosaurian
+  affinities.
+images:
+- kind: life
+  file: Yanbeilong TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Yanbeilong_TD.png/960px-Yanbeilong_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yanbeilong_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-03-13'
+  caption: Life restoration of Yanbeilong ultimus.
+  width: 2800
+  height: 1200
+  review: unreviewed
+- kind: life
+  file: Yanbeilong ultimus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Yanbeilong_ultimus.png/960px-Yanbeilong_ultimus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yanbeilong_ultimus.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-01'
+  caption: Life restoration of Yanbeilong ultimus.
+  width: 2445
+  height: 1051
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/dea338c3-f5d2-4de9-9361-dbd75ddf7287/vector.svg
+  png: https://images.phylopic.org/images/dea338c3-f5d2-4de9-9361-dbd75ddf7287/raster/512x231.png
+  page: https://www.phylopic.org/images/dea338c3-f5d2-4de9-9361-dbd75ddf7287
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Wuerhosaurus ultimus
+  matched: Yanbeilong
+  genus_level: true
+sources:
+- kind: original
+  text: 'Jia, Lei; Li, Ning; Dong, Liyang; Shi, Jianru; Kang, Zhishuai; Wang, Suozhu; Xu, Shichao; You, Hailu 2024.
+    A new stegosaur from the late Early Cretaceous of Zuoyun, Shanxi Province, China. Historical Biology 37(2):
+    420–429. doi:10.1080/08912963.2024.2308214'
+- kind: literature
+  text: 'Tumanova, T. A.; Alifanov, V. R. 2018. First Record of Stegosaur (Ornithischia, Dinosauria) from the Aptian–Albian
+    of Mongolia. Paleontological Journal 52(14): 1771–1779. doi:10.1134/S0031030118140186'
+- kind: literature
+  text: 'Sánchez-Fenollosa, Sergio; Cobos, Alberto 2025. New insights into the phylogeny and skull evolution of
+    stegosaurian dinosaurs: An extraordinary cranium from the European Late Jurassic (Dinosauria: Stegosauria).
+    Vertebrate Zoology 75: 147–171. doi:10.3897/vz.75.e146618'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yanbeilong (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yanbeilong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yanbeilong”. English Wikipedia, revision 1292800976.
+  url: https://en.wikipedia.org/w/index.php?title=Yanbeilong&oldid=1292800976
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []
