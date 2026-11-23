@@ -1,0 +1,119 @@
+name: Ziapelta
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Arbour et al. 2014
+type_species: Ziapelta sanjuanensis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Ziapelta is an ankylosaurid from the Late Campanian Kirtland Formation of New Mexico, with deep, curved
+  squamosal horns.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ziapelta sanjuanensis
+  authority: Arbour et al. 2014
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Kirtland
+  group: ''
+  members: [De-na-zin]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+fossil_material:
+  holotype: NMMNH P-64484, a complete skull without the lower jaws and cervical half-ring parts — De-na-zin Member,
+    Kirtland Formation, New Mexico.
+  material: A referred specimen NMMNH P-66930 from an older member.
+  completeness: fragmentary
+  exceptional: ''
+biology: Mostly skulls and anterior bones; no behavioural data.
+images:
+- kind: life
+  file: Ziapelta.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ziapelta.png/960px-Ziapelta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ziapelta.png
+  artist: Illustration by Sydney Mohr
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Life restoration of Ziapelta.
+  width: 2049
+  height: 1251
+  review: unreviewed
+- kind: fossil
+  file: Ziapelta sanjuanensis 0108804 g002.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ziapelta_sanjuanensis.png/960px-Ziapelta_sanjuanensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ziapelta_sanjuanensis.png
+  artist: Victoria M. Arbour, Michael E. Burns, Robert M. Sullivan, Spencer G. Lucas, Amanda K. Cantrell, Joshua
+    Fry, Thomas L. Suazo
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Skull of Ziapelta sanjuanensis (Arbour et al. 2014).
+  width: 2183
+  height: 2536
+  review: unreviewed
+- kind: fossil
+  file: Ziapelta sanjuanensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ziapelta_sanjuanensis.png/960px-Ziapelta_sanjuanensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ziapelta_sanjuanensis.png
+  artist: Victoria M. Arbour, Michael E. Burns, Robert M. Sullivan, Spencer G. Lucas, Amanda K. Cantrell, Joshua
+    Fry, Thomas L. Suazo
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Skull of Ziapelta sanjuanensis.
+  width: 2183
+  height: 2536
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Arbour, Victoria M.; Burns, Michael E.; Sullivan, Robert M.; Lucas, Spencer G.; Cantrell, Amanda K.; Fry,
+    Joshua; Suazo, Thomas L. 24 S. A New Ankylosaurid Dinosaur from the Upper Cretaceous (Kirtlandian) of New Mexico
+    with Implications for Ankylosaurid Diversity in the Upper Cretaceous of Western North America. PLOS ONE 9(9).
+    doi:10.1371/journal.pone.0108804
+- kind: literature
+  text: 'Sullivan, Robert M.; Robinson, Robert F. 2015. A complete first cervical half ring (Ankylosauridae, Dinosauria)
+    from the Upper Cretaceous Kirtland Formation (Hunter Wash Member) San Juan Basin, New Mexico. New Mexico Museum
+    of Natural History and Science Bulletin 67: 289–296.'
+- kind: literature
+  text: 'Arbour, V. M. 2015. Systematics, phylogeny and palaeobiogeography of the ankylosaurid dinosaurs. Journal
+    of Systematic Palaeontology 14(5): 1–60. doi:10.1080/14772019.2015.1059985'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ziapelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ziapelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ziapelta”. English Wikipedia, revision 1341427145.
+  url: https://en.wikipedia.org/w/index.php?title=Ziapelta&oldid=1341427145
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Size not given in the cited revision. Atlas clade Ankylosaurini is not created; placed in Ankylosauridae.
+  reviews: []

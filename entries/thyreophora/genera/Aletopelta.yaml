@@ -1,0 +1,105 @@
+name: Aletopelta
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Ford and Kirkland 2001
+type_species: Aletopelta coombsi
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Aletopelta is an ankylosaur from the Late Cretaceous Point Loma Formation of California, found in a sewage-pipe
+  ditch.
+size:
+  length_m: [5, 5]
+  mass_kg: [2000, 2000]
+  note: Estimates given in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aletopelta coombsi
+  authority: Ford and Kirkland 2001
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Point Loma
+  group: Rosario
+  members: []
+  country: United States
+  regions: [California]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: point-loma-united-states
+fossil_material:
+  holotype: SDNHM 33909, with teeth, scapulae, limb bones, vertebrae, ribs and osteoderms — Point Loma Formation,
+    California.
+  material: Holotype only; it was scavenged by invertebrates and sharks after death.
+  completeness: partial
+  exceptional: ''
+biology: Quadrupedal armoured herbivore; the carcass formed a small reef.
+images:
+- kind: life
+  file: Aletopelta NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3b/Aletopelta_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aletopelta_NT.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.ca )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-06-11'
+  caption: Life restoration of Aletopelta coombsi.
+  width: 1000
+  height: 750
+  review: unreviewed
+- kind: life
+  file: AletopeltaColorFinal1.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/AletopeltaColorFinal1.png/960px-AletopeltaColorFinal1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:AletopeltaColorFinal1.png
+  artist: Definitely NOT Dilophosaurus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-07-21'
+  caption: Life restoration of Aletopelta coombsi.
+  width: 4320
+  height: 2160
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'T. L. Ford and J. I. Kirkland. 2001. Carlsbad ankylosaur (Ornithischia, Ankylosauria): an ankylosaurid
+    and not a nodosaurid. The Armored Dinosaurs. Indiana University Press, Bloomington'
+- kind: literature
+  text: Arbour, Victoria M.; Evans, David C. 2017. A new ankylosaurine dinosaur from the Judith River Formation
+    of Montana, USA, based on an exceptional skeleton with soft tissue preservation. Royal Society Open Science
+    4(5). doi:10.1098/rsos.161086
+- kind: literature
+  text: 'G. Frauenfelder, Timothy; R. Bell, Phil; Brougham, Tom; J. Bevitt, Joseph; D. C. Bicknell, Russell; P.
+    Kear, Benjamin; Wroe, Stephen; E. Campione, Nicolás 2022. New Ankylosaurian Cranial Remains From the Lower Cretaceous
+    (Upper Albian) Toolebuc Formation of Queensland, Australia. Frontiers in Earth Science 10: 1–17. doi:10.3389/feart.2022.803505'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aletopelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aletopelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aletopelta”. English Wikipedia, revision 1343277780.
+  url: https://en.wikipedia.org/w/index.php?title=Aletopelta&oldid=1343277780
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Family-level placement of Aletopelta varies (Ankylosauridae or Nodosauridae); check the cited analyses.
+  reviews: []

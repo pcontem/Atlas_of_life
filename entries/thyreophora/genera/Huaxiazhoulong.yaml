@@ -1,0 +1,104 @@
+name: Huaxiazhoulong
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Zhu et al. 2024
+type_species: Huaxiazhoulong shouwen
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Huaxiazhoulong is a large ankylosaurid from the Campanian Tangbian Formation of Jiangxi, China, with a
+  fused tail handle and club.
+size:
+  length_m: [6, 6]
+  note: Estimated body length (cited Wikipedia revision).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Huaxiazhoulong shouwen
+  authority: Zhu et al. 2024
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Tangbian
+  group: Guifeng
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: tangbian-china
+fossil_material:
+  holotype: JPM-N000, a largely complete skeleton found in 1986 — Tangbian Formation, Guangchang County, Jiangxi.
+  material: Holotype only; a mature individual.
+  completeness: near-complete
+  exceptional: ''
+biology: Large ankylosaurid with a co-ossified tail handle and club.
+images:
+- kind: life
+  file: Huaxiazhoulong shouwen.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Huaxiazhoulong_shouwen.png/960px-Huaxiazhoulong_shouwen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Huaxiazhoulong_shouwen.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-08'
+  caption: Life restoration of Huaxiazhoulong shouwen.
+  width: 4500
+  height: 1284
+  review: unreviewed
+- kind: life
+  file: Huaxiazhoulong TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Huaxiazhoulong_TD.png/960px-Huaxiazhoulong_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Huaxiazhoulong_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-10'
+  caption: Life restoration of Huaxiazhoulong.
+  width: 2600
+  height: 800
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f0fe411f-d99c-4de5-b9bd-9f9e43add6b6/vector.svg
+  png: https://images.phylopic.org/images/f0fe411f-d99c-4de5-b9bd-9f9e43add6b6/raster/512x129.png
+  page: https://www.phylopic.org/images/f0fe411f-d99c-4de5-b9bd-9f9e43add6b6
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Huaxiazhoulong shouwen
+  matched: Huaxiazhoulong
+  genus_level: true
+sources:
+- kind: original
+  text: 'Zhu, Ziheng; Wu, Jie; You, Yue; Jia, Yingli; Chen, Chujiao; Yao, Xi; Zheng, Wenjie; Xu, Xing 2024. A new
+    ankylosaurid dinosaur from the Upper Cretaceous of Jiangxi Province, southern China. Historical Biology 37(12):
+    2783–2799. doi:10.1080/08912963.2024.2417208'
+- kind: literature
+  text: Zheng, Wenjie; Jin, Xingsheng; Azuma, Yoichi; Wang, Qiongying; Miyata, Kazunori; Xu, Xing 2018. The most
+    basal ankylosaurine dinosaur from the Albian–Cenomanian of China, with implications for the evolution of the
+    tail club. Scientific Reports 8(1). doi:10.1038/s41598-018-21924-7
+- kind: literature
+  text: 'Raven, T. J.; Barrett, P. M.; Joyce, C. B.; Maidment, S. C. R. 2023. The phylogenetic relationships and
+    evolutionary history of the armoured dinosaurs (Ornithischia: Thyreophora). Journal of Systematic Palaeontology
+    21(1). doi:10.1080/14772019.2023.2205433'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Huaxiazhoulong (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Huaxiazhoulong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Huaxiazhoulong”. English Wikipedia, revision 1369652591.
+  url: https://en.wikipedia.org/w/index.php?title=Huaxiazhoulong&oldid=1369652591
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Genus name spelled 'Huaxiazhoulong' by its authors; the backbone used 'Huaxiazhulong'.
+  reviews: []

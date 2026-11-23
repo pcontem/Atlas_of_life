@@ -1,0 +1,156 @@
+name: Scelidosaurus
+rank: genus
+parent: thyreophora
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1859
+type_species: Scelidosaurus harrisonii
+type_species_note: Only species considered valid, named by Owen in 1861 (cited Wikipedia revision).
+summary: Scelidosaurus is an early armoured dinosaur from the Early Jurassic of England and a basal thyreophoran
+  outside Eurypoda.
+size:
+  length_m: [3.8, 4]
+  mass_kg: [270, 270]
+  note: About 4 m in general; Paul gave 3.8 m and 270 kg (cited Wikipedia revision).
+age:
+  first_ma: 205.7
+  last_ma: 174.7
+  early_interval: Rhaetian
+  late_interval: Toarcian
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Scelidosaurus harrisonii
+  authority: Owen 1861
+  first_ma: 199.5
+  last_ma: 192.9
+  interval: Sinemurian
+  reference: original description
+formations:
+- formation: Charmouth Mudstone
+  group: Lias
+  members: [Belemnite Marl, Black Ven Marl]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Sinemurian–Early Pliensbachian
+  occurrences: 10
+  ma: [184.2, 199.5]
+  id: charmouth-mudstone-united-kingdom
+- formation: Unnamed unit
+  group: Lias
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Rhaetian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 205.7]
+  id: charmouth-mudstone-united-kingdom
+- formation: Waterloo Mudstone
+  group: Lias
+  members: []
+  country: United Kingdom
+  regions: [Northern Ireland]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: waterloo-mudstone-united-kingdom
+- formation: Unnamed unit
+  group: Daye
+  members: [Duogaila]
+  country: China
+  regions: [Xizang]
+  interval: Early Jurassic
+  occurrences: 1
+  ma: [174.7, 201.4]
+  id: daye-group-china
+fossil_material:
+  holotype: Specimen described by Owen in 1861 from the Charmouth Mudstone, Dorset (collection number not given
+    in the sources used).
+  material: Several specimens including juveniles, one with preserved skin impressions.
+  completeness: multiple
+  exceptional: ''
+biology: A herbivorous armoured ornithischian with a small elongated head about 20 cm long.
+images:
+- kind: life
+  file: Scelidosaurus harrisonii.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Scelidosaurus_harrisonii.png/960px-Scelidosaurus_harrisonii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Scelidosaurus_harrisonii.png
+  artist: Jack Mayer Wood
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-02-22'
+  caption: Life restoration of Scelidosaurus harrisonii.
+  width: 3497
+  height: 1291
+  review: unreviewed
+- kind: life
+  file: Scelidosaurus harrisonii (1).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Scelidosaurus_harrisonii_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Scelidosaurus_harrisonii_(1).jpg
+  artist: 5of7
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2012-03-31'
+  caption: Life restoration of Scelidosaurus harrisonii.
+  width: 1000
+  height: 611
+  review: unreviewed
+- kind: fossil
+  file: Scelidosaurus harrisonii skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Scelidosaurus_harrisonii_skull.jpg/960px-Scelidosaurus_harrisonii_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Scelidosaurus_harrisonii_skull.jpg
+  artist: Jos. Dinkel
+  license: Public domain
+  license_url: ''
+  date: 1850s date
+  caption: Skull of Scelidosaurus harrisonii.
+  width: 3066
+  height: 2250
+  review: unreviewed
+- kind: fossil
+  file: Juvenile Scelidosaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Juvenile_Scelidosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Juvenile_Scelidosaurus.jpg
+  artist: F. Robinson
+  license: Public domain
+  license_url: ''
+  date: '1847'
+  caption: Juvenile Scelidosaurus specimen.
+  width: 625
+  height: 715
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb/vector.svg
+  png: https://images.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb/raster/512x161.png
+  page: https://www.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Scelidosaurus harrisonii
+  matched: Scelidosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: R. Owen. 1859. Palaeontology. The Encyclopaedia Brittanica, or Dictionary of Arts, Sciences, and General
+    Literature (8th Edition) 17:91-176
+- kind: literature
+  text: 'Norman, David B 2019. Scelidosaurus harrisonii from the Early Jurassic of Dorset, England: postcranial
+    skeleton. Zoological Journal of the Linnean Society 189(1): 47–157. doi:10.1093/zoolinnean/zlz078'
+- kind: literature
+  text: 'Norman, David B 2020. ''''Scelidosaurus harrisonii'''' from the Early Jurassic of Dorset, England: the
+    dermal skeleton. Zoological Journal of the Linnean Society 190(1): 1–53. doi:10.1093/zoolinnean/zlz085'
+- kind: literature
+  text: 'Norman, David B. 2007. Reconsidering the status and affinities of the ornithischian dinosaur ''''Tatisaurus
+    oehleri'''' Simmons, 1965. Zoological Journal of the Linnean Society 150(4): 865–874. doi:10.1111/j.1096-3642.2007.00301.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scelidosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scelidosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scelidosaurus”. English Wikipedia, revision 1371060699.
+  url: https://en.wikipedia.org/w/index.php?title=Scelidosaurus&oldid=1371060699
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number to be filled (Norman 2020 monograph).]
+  reviews: []

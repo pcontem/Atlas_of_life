@@ -5,17 +5,22 @@ group: Neuquén
 country: Argentina
 regions: [Neuquén, Río Negro]
 location:
-  lat: -39.32
+  lat: -39.33
   lng: -68.717
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  basis: median of 12 PBDB collections that yielded the atlas genera
 age:
   first_ma: 113.2
   last_ma: 110.1
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., crevasse splay, '"floodplain"']
+environment:
+- terrestrial indet.
+- fluvial indet.
+- crevasse splay
+- '"floodplain"'
+- eolian indet.
 lithology: [sandstone, not reported, siltstone]
-pbdb_collections: ['45409', '51947', '51948', '51949', '51950', '55364', '58572', '114528', '179480', '225915',
-  '235806']
+pbdb_collections: ['45409', '51947', '51948', '51949', '51950', '55364', '58572', '114528', '179480', '206599',
+  '225915', '235806']
 includes: []
 summary: ''
 paleoenvironment: ''

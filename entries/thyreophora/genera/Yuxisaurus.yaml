@@ -1,0 +1,104 @@
+name: Yuxisaurus
+rank: genus
+parent: thyreophora
+incertae_sedis: true
+placement_note: Recovered as the sister of Emausaurus or of Scelidosaurus plus Eurypoda (Yao et al. 2022); placed
+  in Thyreophora.
+authority: Yao et al. 2022
+type_species: Yuxisaurus kopchicki
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Yuxisaurus is an early armoured dinosaur from the Early Jurassic of Yunnan, China, proof that thyreophorans
+  lived in Asia then.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 192.9
+  last_ma: 184.2
+  early_interval: Pliensbachian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yuxisaurus kopchicki
+  authority: Yao et al. 2022
+  first_ma: 192.9
+  last_ma: 184.2
+  interval: Pliensbachian
+  reference: original description
+formations:
+- formation: Fengjiahe
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Yunnan]
+  interval: Pliensbachian
+  occurrences: 1
+  ma: [184.2, 192.9]
+  id: fengjiahe-china
+fossil_material:
+  holotype: CVEB 21701, a partial skeleton with parts of the skull, vertebrae, limb bones and at least 120 osteoderms
+    — Fengjiahe Formation, Yunnan.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Known from armour and partial bones; the sources used give no behavioural data.
+images:
+- kind: life
+  file: Yuxisaurus life restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Yuxisaurus_life_restoration.jpg/960px-Yuxisaurus_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yuxisaurus_life_restoration.jpg
+  artist: Xi Yao, Paul M Barrett, Lei Yang, Xing Xu, Shundong Bi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Life restoration of Yuxisaurus kopchicki.
+  width: 4198
+  height: 1274
+  review: unreviewed
+- kind: skeletal
+  file: Yuxisaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/39/Yuxisaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yuxisaurus.jpg
+  artist: Xi Yao, Paul M Barrett, Lei Yang, Xing Xu, Shundong Bi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022'
+  caption: Skeletal reconstruction of Yuxisaurus.
+  width: 1500
+  height: 894
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb/vector.svg
+  png: https://images.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb/raster/512x161.png
+  page: https://www.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Scelidosaurus harrisonii
+  matched: Thyreophoroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Yao, X.; Barrett, P. M.; Lei, Y.; Xu, X.; Bi, S. 2022. A new early-branching armoured dinosaur from the
+    Lower Jurassic of southwestern China. eLife 11. doi:10.7554/eLife.75248
+- kind: literature
+  text: Riguetti, Facundo; Pereda-Suberbiola, Xabier; Ponce, Denis; Salgado, Leonardo; Apesteguía, Sebastián; Rozadilla,
+    Sebastián; Arbour, Victoria 2022. A new small-bodied ankylosaurian dinosaur from the Upper Cretaceous of North
+    Patagonia (Río Negro Province, Argentina). Journal of Systematic Palaeontology 20(1). doi:10.1080/14772019.2022.2137441
+- kind: literature
+  text: 'Raven, T. J.; Barrett, P. M.; Joyce, C. B.; Maidment, S. C. R. 2023. The phylogenetic relationships and
+    evolutionary history of the armoured dinosaurs (Ornithischia: Thyreophora). Journal of Systematic Palaeontology
+    21(1). doi:10.1080/14772019.2023.2205433'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yuxisaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yuxisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yuxisaurus”. English Wikipedia, revision 1348659416.
+  url: https://en.wikipedia.org/w/index.php?title=Yuxisaurus&oldid=1348659416
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

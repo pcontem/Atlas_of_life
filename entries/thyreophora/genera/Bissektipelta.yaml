@@ -1,0 +1,92 @@
+name: Bissektipelta
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Parish and Barrett 2004
+type_species: Bissektipelta archibaldi
+type_species_note: Species Amtosaurus archibaldi (Averianov 2002) moved to Bissektipelta by Parish and Barrett 2004
+  (cited revision).
+summary: Bissektipelta is an ankylosaurid from the Turonian Bissekty Formation of Uzbekistan, known from a braincase.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bissektipelta archibaldi
+  authority: (Averianov 2002)
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: ZIN PH 1/6, a fully ossified braincase with a partial skull roof, teeth and osteoderms — Bissekty Formation,
+    Dzharakuduk, Uzbekistan.
+  material: Two additional specimens referred.
+  completeness: fragmentary
+  exceptional: ''
+biology: The braincase has been studied for brain morphology (Alifanov and Saveliev 2019; Kuzmin et al. 2020).
+images:
+- kind: life
+  file: Bissektipelta reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Bissektipelta_reconstruction.png/960px-Bissektipelta_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bissektipelta_reconstruction.png
+  artist: Atlantis536
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-06-19'
+  caption: Life restoration of Bissektipelta.
+  width: 2237
+  height: 547
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bf68e21e-fa8d-4f26-be72-03c52ce4d047/vector.svg
+  png: https://images.phylopic.org/images/bf68e21e-fa8d-4f26-be72-03c52ce4d047/raster/512x286.png
+  page: https://www.phylopic.org/images/bf68e21e-fa8d-4f26-be72-03c52ce4d047
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Bissektipelta archibaldi
+  matched: Bissektipelta
+  genus_level: true
+sources:
+- kind: original
+  text: 'Parish, J. C.; Barrett, P. M. 2004. A reappraisal of the ornithischian dinosaur ''''Amtosaurus magnus''''
+    Kurzanov and Tumanova 1978, with comments on the status of ''''A. archibaldi'''' Averianov 2002. Canadian Journal
+    of Earth Sciences 41(3): 299–306. doi:10.1139/e03-101'
+- kind: literature
+  text: 'Averianov, A. O. 2002. An ankylosaurid (Ornithischia: Ankylosauria) braincase from the Upper Cretaceous
+    Bissekty Formation of Uzbekistan. Bulletin of the Royal Belgian Institute of Natural Sciences - Earth Sciences
+    72: 97–110.'
+- kind: literature
+  text: 'Alifanov, V. R.; Saveliev, S. V. 2019. The Brain Morphology and Neurobiology in Armored Dinosaur Bissekipelta
+    archibaldi (Ankylosauridae) from the Late Cretaceous of Uzbekistan. Paleontological Journal 53(3): 315−321.
+    doi:10.1134/S003103011903002X'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bissektipelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bissektipelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bissektipelta”. English Wikipedia, revision 1355652542.
+  url: https://en.wikipedia.org/w/index.php?title=Bissektipelta&oldid=1355652542
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

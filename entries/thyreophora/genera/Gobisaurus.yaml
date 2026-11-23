@@ -1,0 +1,99 @@
+name: Gobisaurus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Vickaryous et al. 2001
+type_species: Gobisaurus domoculus
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Gobisaurus is a basal ankylosaurid from the Early Cretaceous of Inner Mongolia, known from a large skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Gobisaurus domoculus
+  authority: Vickaryous et al. 2001
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Miaogou
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: miaogou-china
+- formation: Haoling
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: haoling-china
+fossil_material:
+  holotype: IVPP V12563, a skull 46 cm long — Miaogou Formation, Maortu locality, Inner Mongolia.
+  material: A skull; the postcranial skeleton found with it was lost.
+  completeness: fragmentary
+  exceptional: ''
+biology: A herbivorous basal ankylosaurid; the sources used give no behavioural data.
+images:
+- kind: fossil
+  file: Gobisaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9f/Gobisaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gobisaurus.jpg
+  artist: Original uploader was Greygirlbeast at en.wikipedia
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: 12 March 2
+  caption: Skull of Gobisaurus.
+  width: 150
+  height: 76
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'M. K. Vickaryous, A. P. Russell, and P. J. Currie, X.-J. Zhao. 2001. A new ankylosaurid (Dinosauria: Ankylosauria)
+    from the Lower Cretaceous of China, with comments on ankylosaurian relationships. Canadian Journal of Earth
+    Sciences 38:1767-1780'
+- kind: literature
+  text: Wenjie Zheng 2018. The most basal ankylosaurine dinosaur from the Albian–Cenomanian of China, with implications
+    for the evolution of the tail club. Scientific Reports 8(1). doi:10.1038/s41598-018-21924-7
+- kind: literature
+  text: Xing, Lida; Niu, Kecheng; Mallon, Jordan; Miyashita, Tetsuto 2023. A new armored dinosaur with double cheek
+    horns from the early Late Cretaceous of southeastern China. Vertebrate Anatomy Morphology Palaeontology 11.
+    doi:10.18435/vamp29396
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gobisaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gobisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gobisaurus”. English Wikipedia, revision 1379318070.
+  url: https://en.wikipedia.org/w/index.php?title=Gobisaurus&oldid=1379318070
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Size not given; Zhongyuansaurus (HGM 41HIII-0002) is a possible junior synonym discussed in the revision — check.
+  reviews: []

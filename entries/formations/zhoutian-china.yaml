@@ -3,18 +3,18 @@ name: Zhoutian
 rank: formation
 group: Ganzhou
 country: China
-regions: [Jiangxi]
+regions: [Jiangxi, 'Jiangxi ']
 location:
-  lat: 25.798
-  lng: 114.898
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 25.652
+  lng: 115.337
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 100.5
-  last_ma: 89.8
+  last_ma: 85.7
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
+environment: [terrestrial indet., lacustrine indet.]
 lithology: [sandstone]
-pbdb_collections: ['233182']
+pbdb_collections: ['233182', '233580']
 includes: []
 summary: ''
 paleoenvironment: ''
