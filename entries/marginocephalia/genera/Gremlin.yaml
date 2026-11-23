@@ -1,0 +1,85 @@
+name: Gremlin
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Ryan et al. 2023
+type_species: Gremlin slobodorum
+type_species_note: Only species of the genus (PBDB; Ryan et al. 2023).
+summary: Gremlin is a small leptoceratopsid from the Campanian Oldman Formation of Alberta, known from one frontal
+  bone.
+size:
+  length_m: [2, 2]
+  note: Approximately 2 m long according to the authors (Carleton University news story, 2023; see sources).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Gremlin slobodorum
+  authority: Ryan et al. 2023
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: TMP 2011.053.0027, an isolated right frontal bone — Oldman Formation, southern Alberta (about 77 Ma).
+  material: Holotype only; PBDB also records a Two Medicine Formation occurrence (a frontal described alongside).
+  completeness: fragmentary
+  exceptional: ''
+biology: Small four-footed plant-eater that browsed low vegetation with a beak-like snout; lacked facial horns and
+  had only a small frill (Carleton University news story).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ryan, M. J., Micucci, L., Rizo, H., et al. 2023. A new Late Cretaceous leptoceratopsid (Dinosauria: Ceratopsia)
+    from the Oldman Formation (Campanian) of Alberta, Canada. In: Windows into sauropsid and synapsid evolution:
+    essays in honor of Louis L. Jacobs, pp. 151–165.'
+  url: https://www.paleolab.snu.ac.kr/_files/ugd/ed6e15_ce41b1eea0474934b1c8fcb5ebf33813.pdf
+- kind: literature
+  text: Carleton University, Department of Earth Sciences. 2023. New Late Cretaceous horned-dinosaur discovered
+    in southern Alberta (news story, accessed 2026-11-23).
+  url: https://earthsci.carleton.ca/node/858
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gremlin (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gremlin
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - English Wikipedia's Gremlin title is the mythical creature page; the genus article is Gremlin slobodorum, not
+    yet in the harvest. Replace the sources with a fixed revision when the harvest is refreshed.
+  reviews: []
