@@ -95,16 +95,6 @@ images:
   height: 1621
   review: unreviewed
   local: img/gallery/Europelta_004.webp
-silhouette:
-  src: https://images.phylopic.org/images/cd970ad1-0efd-4b26-8595-99ef104f96ef/vector.svg
-  png: null
-  page: https://www.phylopic.org/images/cd970ad1-0efd-4b26-8595-99ef104f96ef
-  attribution: James I. Kirkland, Luis Alcalá, Mark A. Loewen, Eduardo Espílez, Luis Mampel, and Jelle P. Wiersma
-    (vectorized by T. Michael Keesey)
-  license: https://creativecommons.org/licenses/by/3.0/
-  depicts: Europelta carbonensis
-  matched: Europelta
-  genus_level: true
 sources:
 - kind: original
   text: Kirkland, J. I.; Alcalá, L.; Loewen, M. A.; Espílez, E.; Mampel, L.; Wiersma, J. P. 2013. The Basal Nodosaurid
@@ -128,5 +118,7 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: []
+  notes:
+  - PhyloPic silhouette (Europelta carbonensis, uuid cd970ad1-0efd-4b26-8595-99ef104f96ef) could not be fetched;
+    add it again once the file is readable.
   reviews: []

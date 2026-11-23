@@ -7,52 +7,249 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 
 | Rule | Open |
 |---|---|
-| F5 | 186 |
-| G5 | 17 |
-| G6 | 2 |
-| G7 | 2 |
-| G8 | 29 |
-| I3 | 7 |
-| I4 | 130 |
-| I6 | 17 |
-| Q1 | 240 |
-| S2 | 122 |
+| F5 | 2180 |
+| G10 | 30 |
+| G5 | 98 |
+| G6 | 5 |
+| G7 | 7 |
+| G8 | 119 |
+| I3 | 207 |
+| I4 | 730 |
+| I6 | 287 |
+| Q1 | 2404 |
+| S2 | 1265 |
 
 ## Open issues by entry
 
+- **clade aetosauria**
+  - Q1 draft: not yet checked
+- **clade aetosauridae**
+  - Q1 draft: Wikipedia has no separate article; the cited revision is "Aetosauria". Check whether Aetosauridae should be a separate node from Aetosauria.
+- **clade aetosaurinae**
+  - Q1 draft: not yet checked
+- **clade alligatoridae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade alligatorinae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade alligatoroidea**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade amniota**
+  - Q1 draft: not yet checked
+- **clade amorphea**
+  - Q1 draft: not yet checked
 - **clade anhangueria**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade ankylosauria**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; Polacanthidae is not yet a clade entry (its Wikipedia revision could not be read); its four backbone genera sit directly in Ankylosauria for now.
+- **clade ankylosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
 - **clade anurognathidae**
   - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **clade apatosaurinae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade archaea**
+  - Q1 draft: not yet checked
+- **clade archaeplastida**
+  - Q1 draft: No original naming publication was found in the Wikipedia citations; the PBDB record has no attribution. Add the authority when confirmed.; The position of Picozoa and Rhodelphidia (inside or outside Archaeplastida, and sister to Rhodophyta) is disputed; check against recent phylogenomic studies before consolidation.
+- **clade archelosauria**
+  - Q1 draft: not yet checked
+- **clade archosauria**
+  - Q1 draft: not yet checked
+- **clade archosauriformes**
+  - Q1 draft: not yet checked
+- **clade archosauromorpha**
+  - Q1 draft: not yet checked
+- **clade asgard**
+  - Q1 draft: not yet checked
+- **clade atoposauridae**
+  - Q1 draft: not yet checked
+- **clade avemetatarsalia**
   - Q1 draft: not yet checked
 - **clade azhdarchidae**
   - Q1 draft: not yet checked
 - **clade azhdarchoidea**
   - Q1 draft: not yet checked
+- **clade bacteria**
+  - Q1 draft: The PBDB record places Bacteria under Prokaryota; the tree places it directly under Life, as in the backbone. Check the PBDB parent chain when the prokaryote nodes are reviewed.; Bacteria is a domain in the Wikipedia revision; the PBDB record gives it as unranked clade. The taxon_rank here follows the Wikipedia revision.
+- **clade baurusuchidae**
+  - Q1 draft: not yet checked
+- **clade bernissartiidae**
+  - Q1 draft: not yet checked
+- **clade bilateria**
+  - Q1 draft: not yet checked
 - **clade boreopteridae**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade brachiosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade briofitas**
+  - Q1 draft: Content was read on the current Wikipedia page (2026-11-21), not on the recorded revision, which could not be fetched; verify against the cited revision.; Monophyly is disputed; check against recent studies before consolidation.
+- **clade caimaninae**
+  - Q1 draft: not yet checked
+- **clade candidodontidae**
+  - Q1 draft: not yet checked
+- **clade centrosaurinae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade ceratopsia**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade ceratopsidae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
 - **clade chaoyangopteridae**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade chasmosaurinae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade chlorophyta**
+  - Q1 draft: The original naming publication (Reichenbach 1834) is not in the Wikipedia citations; add it as original once checked.; PBDB ranks Chlorophyta as phylum, while the tree places it inside Viridiplantae with no intermediate rank; check against the Wikipedia classification before consolidation.
+- **clade chordata**
+  - Q1 draft: not yet checked
+- **clade crocodylia**
+  - Q1 draft: not yet checked
+- **clade crocodylidae**
+  - Q1 draft: not yet checked
+- **clade crocodyliformes**
+  - Q1 draft: not yet checked
+- **clade crocodyloidea**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade crocodylomorpha**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
 - **clade ctenochasmatidae**
   - Q1 draft: not yet checked
 - **clade ctenochasmatoidea**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade ctenosauriscidae**
+  - Q1 draft: not yet checked
 - **clade darwinoptera**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade desmatosuchia**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade desmatosuchinae**
+  - Q1 draft: not yet checked
+- **clade deuterostomia**
+  - Q1 draft: not yet checked
+- **clade diapsida**
+  - Q1 draft: not yet checked
+- **clade dicraeosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; PBDB gives Huene 1927 as the authority; Wikipedia credits the first description to Janensch 1914. The naming work was not checked.
 - **clade dimorphodontidae**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade diplodocidae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade diplodocinae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; Only definitional information was available for the diagnosis (DEF); the article text is very short. PBDB credits the name to Janensch 1929 but its reference is Tschopp et al. 2015.
+- **clade diplodocoidea**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
 - **clade dsungaripteridae**
+  - Q1 draft: not yet checked
+- **clade dyrosauridae**
+  - Q1 draft: not yet checked
+- **clade embryophyta**
+  - Q1 draft: Content was read on the current Wikipedia page (2026-11-21), not on the recorded revision, which could not be fetched; verify against the cited revision.; The original naming work for the clade is not in the citations.
+- **clade erpetosuchidae**
+  - Q1 draft: not yet checked
+- **clade euhelopodidae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade eukaryota**
+  - Q1 draft: not yet checked
+- **clade eumetazoa**
+  - Q1 draft: not yet checked
+- **clade eureptilia**
+  - Q1 draft: The two diagnostic features are one skull character complex from the cited source; confirm against the primary literature and check whether Eureptilia is still recovered as a clade.
+- **clade eusuchia**
+  - Q1 draft: not yet checked
+- **clade gavialidae**
+  - Q1 draft: not yet checked
+- **clade gavialoidea**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade gnathostomata**
+  - Q1 draft: not yet checked
+- **clade gobiosuchidae**
+  - Q1 draft: not yet checked
+- **clade goniopholididae**
+  - Q1 draft: not yet checked
+- **clade gracilisuchidae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade holozoa**
+  - Q1 draft: not yet checked
+- **clade huayangosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; Wikipedia has no separate article for this family; the text used is its section in the Stegosauria article.; The PBDB reference is Galton 1990; the naming work (Dong et al. 1982, as Huayangosaurinae) has not been read. Add it as an original source when checked.
+- **clade hylaeochampsidae**
   - Q1 draft: not yet checked
 - **clade istiodactyliformes**
   - Q1 draft: not yet checked
+- **clade leptoceratopsidae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade lognkosauria**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade longirostres**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade loricata**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade macronaria**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade mahajangasuchidae**
+  - Q1 draft: Only two of the defining characters were in the cited text; check the full list in Sereno & Larsson (2009).
+- **clade mamenchisauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; PBDB credits the name to Chao 1965, while Wikipedia says Young and Zhao erected the family in 1972. The naming work was not checked.
+- **clade marginocephalia**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade massospondylidae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade mekosuchinae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade mesoeucrocodylia**
+  - Q1 draft: not yet checked
+- **clade metazoa**
+  - Q1 draft: not yet checked
+- **clade metriorhynchidae**
+  - Q1 draft: not yet checked
+- **clade metriorhynchoidea**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
 - **clade monofenestrata**
   - Q1 draft: not yet checked
+- **clade neosuchia**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade nodosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade notosuchia**
+  - Q1 draft: not yet checked
+- **clade olfactores**
+  - Q1 draft: not yet checked
+- **clade opisthokonta**
+  - Q1 draft: not yet checked
+- **clade ornithosuchidae**
+  - Q1 draft: not yet checked
+- **clade osteichthyes**
+  - Q1 draft: not yet checked
+- **clade pachycephalosauria**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade paracrocodylomorpha**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade paralligatoridae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade peirosauridae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade pholidosauridae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade planocraniidae**
+  - Q1 draft: not yet checked
+- **clade plateosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade poposauroidea**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade protoceratopsidae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade protosuchidae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade pseudosuchia**
+  - Q1 draft: not yet checked
+- **clade psittacosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; Wikipedia has no separate article for this family; the text used is the article on Psittacosaurus.
 - **clade pteranodontia**
   - Q1 draft: not yet checked
 - **clade pteranodontoidea**
@@ -61,18 +258,169 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: not yet checked
 - **clade pterosauria**
   - Q1 draft: not yet checked
+- **clade rauisuchidae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade rebbachisauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; PBDB credits the name to Bonaparte 1997 and its reference is a short paper on Rayososaurus; Wikipedia says Bonaparte described the family in 1999. The naming work was not checked.
+- **clade revueltosauridae**
+  - Q1 draft: not yet checked
 - **clade rhamphorhynchidae**
+  - Q1 draft: not yet checked
+- **clade rhodophyta**
+  - Q1 draft: Content was read on the current Wikipedia page (2026-11-21), not on the recorded revision, which could not be fetched; verify against the cited revision.; The original naming work (Wettstein 1922) and a phylogenetic study are not in the citations; add them.
+- **clade riojasauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade saltasauroidea**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; PBDB credits the authority to Powell 1992 and its reference is Carballido et al. 2022, while Wikipedia says França et al. 2016 named it. The naming work was not checked.
+- **clade sarcopterygii**
+  - Q1 draft: not yet checked
+- **clade sauropoda**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade sauropodiformes**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; The cladogram in the Wikipedia article is credited there to a 2025 study; the authors were not checked.
+- **clade sauropodomorpha**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; Original naming work (Huene 1932) not read; the PBDB reference is a textbook. Add the naming paper as an original source when checked.
+- **clade sauropsida**
   - Q1 draft: not yet checked
 - **clade scaphognathidae**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade sebecidae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade sebecosuchia**
+  - Q1 draft: not yet checked
+- **clade shuvosauridae**
+  - Q1 draft: not yet checked
+- **clade solidocrania**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade sphagesauridae**
+  - Q1 draft: Add specific dental and jaw characters from Ruiz et al. (2021).
+- **clade stegosauria**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade stegosauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.; Wikipedia has no separate article for this family; the text used is its section in the Stegosauria article.
+- **clade stomatosuchidae**
+  - Q1 draft: not yet checked
+- **clade streptophyta**
+  - Q1 draft: The original naming publication (Jeffrey 1971) is not in the Wikipedia citations; add it as original once checked.; Composition differs between classifications (whether the land plants and some charophyte groups are included); the tree follows the Wikipedia definition used in the revision cited above.; The Liang et al. (2020) study on Mesostigma in the Wikipedia citations has a malformed DOI in the raw record and is not used here.
+- **clade suchia**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
 - **clade tapejaridae**
   - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **clade teleosauroidea**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade tetrapoda**
+  - Q1 draft: not yet checked
+- **clade tetrapodomorpha**
   - Q1 draft: not yet checked
 - **clade thalassodromidae**
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **clade thalattosuchia**
+  - Q1 draft: not yet checked
+- **clade thyreophora**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade titanosauria**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade tracheophyta**
+  - Q1 draft: Content was read on the current Wikipedia page (2026-11-21), not on the recorded revision, which could not be fetched; verify against the cited revision.; The original naming work (Sinnott 1935) is not in the citations.
+- **clade turiasauria**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade typothoracinae**
+  - Q1 draft: No separate article; features are those of Aetosaurinae. Add typothoracine synapomorphies from Parker (2007).
+- **clade unaysauridae**
+  - Q1 draft: The Wikipedia revision and PBDB record are those downloaded on 2026-11-16 for the tree clades; the page may have changed since.
+- **clade uruguaysuchidae**
+  - Q1 draft: The diagnosis gives the phylogenetic definition and traits named in the cited sources; anatomical synapomorphies should be added from the primary literature.
+- **clade vertebrata**
+  - Q1 draft: not yet checked
+- **clade vida**
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: DEF: the root has no phylogenetic diagnosis and no literature source in the Wikipedia citations; add a primary source for the Last universal common ancestor and replace the definition-based diagnosis.; The PBDB record Life is recorded with the tree backbone label "Life (LUCA)"; the site keeps that display name.
+- **clade viridiplantae**
+  - Q1 draft: The original naming publication (Cavalier-Smith 1981) is not in the Wikipedia citations; add it as original once its record is checked.; The Wikipedia species count (about 450,000 to 500,000) and the lead's half a million differ slightly; both are cited from the same revision.; PBDB ranks Viridiplantae as subkingdom while the Wikipedia lead treats it as a clade; the taxon_rank here follows PBDB.
+- **formation 2-djibouti**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation adamantina-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation agreda-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aguja-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aguja-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ain-el-guettar-tunisia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aissa-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ait-kandoula-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ajka-coal-hungary**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation alachua-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation alagteeg-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation alcantara-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation alcobaca-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aldabra-limestone-seychelles**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aldearrubia-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation allen-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation allingham-australia**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -81,7 +429,82 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - Q1 draft: not yet checked
+- **formation anacleto-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation andaikhudag-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation angostura-colorada-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation anoual-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation antlers-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aquia-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aracatuba-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation arcillas-de-morella-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aren-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation areniscas-de-cabrerizos-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation argiles-d-lignite-du-soissonnais-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation argiles-d-octeville-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation argiles-de-chatillon-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation argiles-de-montaubert-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation argiles-rutilantes-france**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -91,7 +514,62 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation arroyo-feliciano-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation arshanto-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation artoles-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation arundel-clay-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation asencio-uruguay**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ash-hollow-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ashdown-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ashley-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation atherfield-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation aurisina-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation austin-group-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation baharije-egypt**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -101,7 +579,137 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation bajada-colorada-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bajo-barreal-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bajo-de-la-carpa-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bakate-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation balabansai-kyrgyzstan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bamberg-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation baruungoyot-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bauru-group-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bayan-mandahu-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bayangobi-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation baynshire-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation baynunah-united-arab-emirates**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation beacon-limstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bearpaw-shale-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bearpaw-shale-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation beds-of-nogon-tsav-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation beglia-tunisia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation belly-river-group-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation benton-shale-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bermont-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation besano-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bissekty-uzbekistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation black-creek-group-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation black-peaks-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation blackleaf-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bladen-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation blesa-spain**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -111,7 +719,87 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation bluewater-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation blufftown-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bohlen-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation borgloon-belgium**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bostobe-kazakhstan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation brackwater-molasse-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bridger-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bromsgrove-sandstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation brussel-sand-belgium**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation buchak-ukraine**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation buckeberg-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bukobay-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bull-canyon-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation bullion-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation burgeschleinitz-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation cabacos-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cabrerizos-spain**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -121,7 +809,367 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation cajones-bolivia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcaire-d-ecouche-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcaires-coquilliers-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcaires-de-caen-group-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcaires-de-clerval-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcaires-marneux-a-pteroceres-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation calcaires-tachetes-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcare-di-sogno-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calcaries-de-tarrega-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation calvert-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation camarillas-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cambambe-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cambay-shale-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation camfield-beds-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation canadon-asfalto-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation canadon-calcareo-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation candeleros-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation canoe-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation canon-del-colorado-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation carl-creek-limestone-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation carlile-shale-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation castilletes-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation castillo-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation castrillo-de-la-reina-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation caturrita-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation caujarao-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cedar-mountain-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cerrejon-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cerro-barcino-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cerro-carnerero-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cerro-fortaleza-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cerro-lisandro-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chaco-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chadron-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chambira-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chanares-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chandler-bridge-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chaochuan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chapelton-jamaica**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation charmouth-mudstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chemoigut-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chilcatay-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chinchilla-sand-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chinle-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chipping-norton-limestone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chitarwata-pakistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chongqing-group-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation choptank-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chorrillo-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation chuanjie-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cienaga-del-rio-huaco-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation clarens-south-africa**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation clarno-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation clearwater-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cloverly-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cluj-limestone-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation coachman-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation coal-bearing-complex-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation coffee-sand-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cokedale-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation coleraine-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation colorado-city-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation comblanchien-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation conglomerat-de-cernay-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation conques-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation continental-intercalaire-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation continental-intercalaire-mali**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cooper-canyon-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cornbrash-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation corrales-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cotswold-slate-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation couche-i-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation couche-ii-morocco**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -131,7 +1179,87 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation couches-a-cidaris-chofatti-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation crato-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation csehbanya-hungary**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cucaracha-panama**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation culebra-panama**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation cumnock-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation curre-costa-rica**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dabrazhin-kazakhstan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dakota-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dalle-nacree-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dam-saudi-arabia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dancu-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dange-nigeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dariv-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation daye-group-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation debeque-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation demopolis-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -141,7 +1269,52 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation denver-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation detritic-carbonated-unit-of-subirats-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation devil-s-graveyard-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dharmaram-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation difunta-group-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dinosaur-beds-malawi**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation dinosaur-park-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation divisadero-largo-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation djadokhta-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dockum-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -151,7 +1324,372 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation dongjun-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation donguz-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dongxing-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation donoho-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dorotea-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation doshuul-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation douira-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation douiret-tunisia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation doushan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation draney-limestone-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation drawno-beds-poland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation drazinda-pakistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dukamaje-nigeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation durlston-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dushihin-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation duwi-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation dzunbain-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation echkar-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation edmonton-group-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation eibiswald-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ejinhoro-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation el-bordo-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation el-castellar-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation el-gallo-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation el-horcajo-unit-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation el-mers-iii-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation el-mers-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation el-molino-bolivia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation elliot-lesotho**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation elliot-south-africa**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation elrhaz-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation enciso-group-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation enspel-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation entrada-sandstone-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation entrala-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation entre-rios-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation erfurt-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation escanilla-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation escondido-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation escucha-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation etadunna-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation etjo-namibia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation evanston-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation faringdon-sand-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation favel-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation favret-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation feligueira-grande-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fengjiahe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ferris-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ferruginous-sands-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation feuerletten-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation fleming-fjord-greenland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fleming-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation forcall-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation foremost-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation forest-marble-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation forest-sandstone-zimbabwe**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fort-crittenden-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fort-thompson-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fort-union-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fox-hills-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation freixial-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation frenchman-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation freshwater-molasse-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation frontier-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation fruitland-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gafsa-phosphates-tunisia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation galula-tanzania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gara-samani-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gara-sbaa-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation garita-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gehannam-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation glen-rose-limestone-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation globigerina-limestone-malta**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -161,7 +1699,62 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation golden-valley-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation goliad-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation golmayo-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation goru-pakistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation grabowa-poland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation gramame-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation graneros-shale-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation great-oolite-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation great-oolite-group-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation great-oolite-group-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation great-oolite-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation green-river-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -171,7 +1764,182 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation gres-a-reptiles-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gres-rouges-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation gres-superieurs-laos**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation grey-garumnian-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation griman-creek-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation grunbach-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation guanling-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation guettioua-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation guichon-uruguay**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hall-lake-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hampen-marly-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hannut-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hanson-antarctica**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation haoling-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hasandong-south-korea**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hassberge-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hastings-beds-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation headon-beds-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hekou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hell-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation heshanggou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation higueruelas-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hikagenosawa-japan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hiwegi-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hohwa-beds-uganda**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation holic-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation holly-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation honda-group-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hongqin-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hongtuya-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hornerstown-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation hornitos-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation horseshoe-canyon-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation huachi-huanhe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation huincul-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation huiquanpu-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -181,7 +1949,107 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation ibaraki-japan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation ifezouane-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation iguatu-group-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ilek-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ilhas-group-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation inbeceten-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation incigez-turkey**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation inferior-oolite-group-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ipururo-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation iren-dabasu-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation irhazer-ii-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation irhazer-shales-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation irrawaddy-myanmar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation isalo-iii-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation isalo-iiib-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ischigualasto-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation itaborai-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation itapecuru-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation itombe-angola**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ituzaingo-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jackson-group-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -191,7 +2059,47 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation jasna-gora-poland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation javelina-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation javelina-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation javkhlant-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jebel-qatrani-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jiangjunding-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jibou-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jingchuan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation jinhua-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -201,7 +2109,67 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation judith-river-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation judith-river-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kababish-sudan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kadzi-zimbabwe**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kaiparowits-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kaiso-village-uganda**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kalazha-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kallamedu-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kanapoi-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation karabastau-kazakhstan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kayenta-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kbenhavn-limestone-sweden**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kelamayi-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -211,7 +2179,62 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation khlong-min-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation khodzhakul-uzbekistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation khok-kruat-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation khuren-dukh-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kilmaluag-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation kimmeridge-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kingston-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kirkwood-south-africa**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kirkwood-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kirtland-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kisgerecse-marl-hungary**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kitadani-japan**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -221,12 +2244,77 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation koobi-fora-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation koprivnice-czech-republic**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation kossen-switzerland**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation kota-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation koum-cameroon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation krabi-basin-b2-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kressenberg-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kromdraai-south-africa**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ksar-metlili-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation kuwajima-japan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-amarga-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation la-boca-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-caja-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-casita-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-colonia-argentina**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -241,7 +2329,87 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation la-pedrera-de-rubies-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-pimienta-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-posa-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-quinta-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation la-victoria-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation laa-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation lagarcito-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lago-colhue-huapi-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation laguna-colorada-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lakota-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lameta-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lance-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation landana-angola**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation laramie-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation laredo-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation las-leoneras-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lastres-spain**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -251,7 +2419,22 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation lecho-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lewisville-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation leza-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation liangtoutang-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -266,7 +2449,102 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation liburnian-slovenia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation liegende-bankkalk-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation limuping-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lingcha-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lipovskaya-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lisangou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lissauer-breccia-poland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation litra-pakistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lohan-cura-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lokone-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation london-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation longjing-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation los-bastos-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation los-colorados-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation los-llanos-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation los-molles-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lossiemouth-sandstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lothagam-1-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lothagam-3-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lothidok-kenya**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -276,7 +2554,137 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation lowenstein-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lower-freshwater-molasse-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lower-greensand-group-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation lower-kimmeridge-marls-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lufeng-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lulworth-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lumbrera-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lunde-o2**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation luohandong-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation lusso-beds-dr-congo**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maastrichter-tuffkreide-netherlands**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maboko-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maevarano-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation magnesian-conglomerate-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maiz-gordo-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maleri-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation manasquan-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation manda-beds-tanzania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marada-libya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maradah-libya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marayes-group-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marfim-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation margaret-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maria-farinha-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marilia-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation maritsa-bulgaria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marks-head-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -286,7 +2694,107 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation marnes-a-belemnopsis-latesulcatus-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marnes-a-deltoideum-delta-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marnes-a-gryphees-virgules-d-issoncourt-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marnes-d-auzas-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marnes-de-bleville-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marnes-de-chalins-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marnes-de-dives-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marnes-rouges-inferieures-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation marshalltown-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation matanuska-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation matawan-group-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation matawan-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mazateron-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mccoy-brook-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mcrae-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mealla-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation medicine-bow-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation melker-sand-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation menat-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation menefee-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mengyin-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -296,7 +2804,147 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation mercia-mudstone-group-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mergelstetten-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mesa-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mesaverde-group-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mesaverde-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation messel-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation miaogou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation milk-river-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mina-chica-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation minhe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mns-klint-denmark**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation moenave-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation moenkopi-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation moghara-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation molasse-de-carcassonne-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation monmouth-group-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mont-lambert-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mooreville-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation moreno-hill-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation mornsheim-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation morrison-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation most-czech-republic**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mount-laurel-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mpandi-zimbabwe**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mugher-mudstone-ethiopia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation mulichinco-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation murtoi-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation muschelkalk-group-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation muschelkalk-group-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -306,7 +2954,122 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation na-duong-vietnam**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation na-khaem-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nachukui-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nacimiento-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nam-phong-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation namba-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nanjemoy-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nanxiong-group-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation naran-bulak-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation navajo-sandstone-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation navesink-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nawata-and-nachukui-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nawata-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nawata-or-nachukui-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nemegt-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nenjiang-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation new-egypt-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation new-haven-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation new-oxford-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation niobrara-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nkondo-uganda**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nongshan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation north-horn-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation nubian-sandstone-egypt**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -321,7 +3084,187 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation ohio-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ohyamashimo-japan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ojo-alamo-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation olcott-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation oldman-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation olduvai-tanzania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation omingonde-namibia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation on-gong-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation oolite-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation oolithe-miliaire-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation oosh-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation opalinuston-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation orizzonte-di-ronca-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ornatenton-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation otibanda-papua-new-guinea**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation oxford-clay-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation oxford-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation painten-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation paja-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation palo-pintado-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation paluxy-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation panchet-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation papo-seco-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation parangula-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pastos-bons-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation patuxent-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation paw-paw-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pawpaw-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation peace-river-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pebas-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pebbly-arkose-zimbabwe**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation peedee-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pekin-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pen-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation penas-coloradas-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation penglaizhen-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation petrified-forest-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -331,12 +3274,127 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation phu-kradung-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation piedrahita-de-muno-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pierre-de-caen-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation pierre-shale-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation pinilla-de-los-moros-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pinjor-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pinjor-pakistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pinyon-conglomerate-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation piquete-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation piram-conglomerate-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pisco-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation plottier-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation point-loma-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pojuca-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation popo-agie-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation portezuelo-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation portland-stone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation portland-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation posidonia-shale-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation poudingue-ferrugineux-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pozo-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation presidente-prudente-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation prince-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation przysucha-poland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation pui-beds-romania**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -351,7 +3409,127 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation qasr-el-sagha-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation qigu-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation qiketai-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation quantou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation quebrada-de-los-fosiles-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation quebrada-del-barro-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation quehuita-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation quirico-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation quseir-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rabekke-denmark**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation raetschenbank-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation raul-mare-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ravenscrag-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rayoso-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation real-group-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation redonda-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation regensburger-grunsandstein-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation reuchenette-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rhatkeuper-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rhems-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rio-loro-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rio-piranhas-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rio-playas-ecuador**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rio-yuca-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ripley-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -366,7 +3544,157 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation rosso-ammonitico-veronese-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rottweil-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rundle-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation runningwater-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rupelo-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rush-creek-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation rutland-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sabinal-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sables-de-bracheux-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sables-de-glos-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sables-du-castrais-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sahabi-libya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation saint-chinian-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sainte-barbe-clays-belgium**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation saketi-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation salamanca-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation san-gregorio-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation san-pedro-arroyo-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation san-salvatore-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation san-sebastian-puerto-rico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation sannine-limestone-lebanon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation santa-lucia-bolivia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation santa-maria-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation santa-rosa-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation santibanez-del-val-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation santo-anastacio-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sao-jose-do-rio-preto-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sao-khua-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sard-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sarmiento-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation scollard-canada**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -376,7 +3704,47 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation sedano-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation seefelder-schichten-austria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation segui-tunisia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation senpoku-japan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation serra-da-galga-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation severn-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation shahai-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation shanwang-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sharp-s-hill-united-kingdom**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -396,7 +3764,132 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation shuler-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sierra-barrosa-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sierra-el-cobre-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sierra-perenchiza-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation silveirinha-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation silver-bluff-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sinda-beds-dr-congo**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sinpetru-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation siwalik-group-nepal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation siwaliks-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation slim-buttes-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sloan-canyon-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation snow-hill-island-antarctica**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation snowshoe-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation socorro-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation solimoes-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation solling-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation st-mary-river-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation st-mary-river-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation statenville-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation steinmergel-group-luxembourg**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation stormberg-group-south-africa**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation subashi-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation suining-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation summit-creek-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation sunjiawan-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -406,7 +3899,62 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation tacuarembo-uruguay**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tagrezou-sandstone-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation talarn-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tamaguelelt-mali**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tamayama-japan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tamiami-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tando-beds-south-korea**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tangbian-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tango-creek-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation tangshang-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tar-heel-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tatrot-india**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -416,7 +3964,32 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation tecovas-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tegama-group-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation tendaguru-tanzania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tentugal-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation terenes-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation terenes-spain**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -426,7 +3999,42 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation tienen-belgium**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tiki-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation timezgadiouine-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tiouraren-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tirari-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation tlayua-mexico**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tolar-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tongchuan-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -436,7 +4044,52 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation toqui-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation torleite-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation torokbalint-hungary**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation torreya-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation toundoute-group-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation toutunhe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation trossingen-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation trujillo-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation tsagaantsav-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tsubusagawa-japan**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -446,7 +4099,262 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation tudela-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tugulu-group-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tullock-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tunbridge-wells-sand-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation turabi-turkey**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation turbuta-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation turkana-grit-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation turney-ranch-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation twin-mountains-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation two-medicine-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation tzeliuching-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation uberaba-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation udurchukan-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation uinta-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ulaanoosh-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ulan-argalant-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ulan-malgait-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ulansuhai-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation umm-himar-saudi-arabia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-3-miles-northeast-of-grapevine-ranch-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-300-br-riversleigh-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-9-6-km-south-of-jales-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-alfeizerao-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-altdorf-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-alto-urubamba-sites-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-am-hornle-quarry-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ambolisatra-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ampoza-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation unnamed-andreas-schorr-gmbh-co-kg-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-angeac-charente-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-anjar-pit-bg1-kachchh-india**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-appertshofen-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-arapus-archaeological-site-efate-island-vanuatu**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-as-pontes-coal-seam-package-h-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-asler-village-mali**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-atlantosuchus-coupatezi-type-locality-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-aumelas-1-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-aylesbury-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-babouri-village-cameroon**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-balneario-hermenegildo-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-balve-beckum-limestone-quarry-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bang-mark-lignite-mine-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bang-pu-dam-coal-pit-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bavant-calvados-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-benageber-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-between-cereste-and-apt-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-between-neiva-and-the-river-bache-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bezian-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bor-tolgoi-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-boro-khovil-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-bovenden-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-brilon-nehden-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -456,7 +4364,282 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation unnamed-burlington-county-greensand-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cajon-de-almanza-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-calvados-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cazurra-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation unnamed-cerin-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cesaredas-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-chassiron-ile-d-oleron-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-chatillon-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cheit-keini-tilemsi-valley-mali**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cherves-de-cognac-levels-3237-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-chianda-uyoma-peninsula-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-chiang-muan-mine-thailand**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-chronister-site-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-chungchai-sauropod-site-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-civita-di-pietraroja-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cobija-bolivia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-condamine-river-12-km-east-of-warra-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cricquebeuf-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cromhall-quarry-site-2-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-cuddie-springs-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-dalin-brigade-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-darling-downs-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-departement-du-vaucluse-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-department-du-var-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-domerat-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-dozule-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-dromicosuchus-quarry-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-dtc-32-peru**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-dudelange-luxembourg**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-dzungarisuchus-manacensis-type-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-edisto-beach-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ekora-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-el-kohol-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ernie-s-croc-jaw-site-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-etrochey-oxfordian-vertebrate-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-eygalayes-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-fakse-limestone-quarry-denmark**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-fazenda-sao-jose-poco-redondo-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-fox-amphoux-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-fox-amphoux-la-bastide-neuve-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-fritzow-cammin-poland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-fumel-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-gadamata-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-gafsa-tunisia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-gebel-rascal-libya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-geiseltal-mittelkohle-zone-ii-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-grandpre-ardennes-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-grimmen-clay-pit-lehmhagen-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-gruta-do-curupira-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-gruta-do-ioio-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-gumba-red-beds-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-haile-v-xixa-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-harrar-near-feyambiro-ethiopia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-haudainville-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-hedang-beiqiu-neolithic-site-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-heidenheim-germany**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -466,7 +4649,272 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation unnamed-holwell-near-frome-somerset-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-hongwei-nongchang-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-inkerman-crimea-ukraine**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ivo-klack-sweden**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-jiangsu-crocodiles-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-kahlenberg-croc-locality-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-kamienny-dol-gorge-poland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-kanumera-new-caledonia-new-caledonia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-kb3-kossom-bougoudi-chad**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-kelheim-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-khamaryn-ar-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-king-creek-pilton-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-koro-toro-kt-13-chad**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-kulkuduk-2-uzbekistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-kyjov-slovakia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-l-olivet-quarry-villeveyrac-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-la-boece-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-la-borie-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-la-caine-curcy-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-la-liviniere-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-la-martre-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-la-neuve-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-la-rochette-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-lambs-phosphate-mine-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-landkreis-hamelin-pyrmont-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-lansdowne-station-tambo-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-les-cases-de-valenciana-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-les-lourdines-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-les-saleres-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ligniti-di-monteviale-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-lingwu-geopark-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-locherangan-west-of-lake-turkana-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-los-canos-soria-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-machimosaurus-rex-tunisia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-malhao-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-mantass-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-marnes-des-dives-summit-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-mercey-cheilly-dheune-valley-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-microlestes-quarry-frome-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-migne-les-lourdines-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-mont-aime-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-montagan-roadworks-mainxe-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-monte-purga-vestenanova-di-bolca-italy**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-montrouge-2-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-mrah-iaresh-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-muirancourt-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation unnamed-mulheim-am-main-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-naigani-lapita-site-vl21-5-fiji**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-near-antsirabe-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-neumuhle-bei-weinheim-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ngira-site-gully-13-karungu-kenya**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-nmmnh-l-1671-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-nocea-coal-mine-dump-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-north-alashan-desert-ninghsia-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -476,7 +4924,387 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation unnamed-oberleichtersbach-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-obernkirchen-buckerberg-crocodiles-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-oued-ameregh-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-oulad-abdoun-basin-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-pant-y-ffynnon-quarry-bonvilston-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-paricao-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-petit-patis-rivecourt-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-pindai-cave-nepoui-peninsula-new-caledonia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-pioneer-valley-area-mackay-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-pishi-nala-pakistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation unnamed-place-thiers-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-polastron-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-posto-de-gasolina-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-poti-malal-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-premontre-level-2-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-price-is-right-site-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-pwerte-marnte-marnte-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-quebrada-sajasa-chile**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-quinta-da-farinheira-portugal**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-rabassier-near-barret-le-bas-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-rainbow-valley-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-red-dog-buttes-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-rhinopolis-collection-phosphate-1-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ringtail-site-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-rio-chico-oeste-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-robiac-nord-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-rohstoffbetriebe-oker-quarry-langenberg-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-rott-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-rousset-highway-3-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ruthin-quarry-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-saint-dezery-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-saint-martin-de-londres-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-sainte-neboule-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-san-morales-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-sangqiao-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-sannerville-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-santa-clara-de-avedillo-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-sao-jose-farm-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-seraitu-mille-logya-ethiopia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-shurguul-sevrei-sum-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-sichuan-basin-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-sidi-daoui-morocco**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-siji-brigade-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-siwa-oasis-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-slantsevy-rudnik-ulyanovsk-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-soleure-solothorn-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-solnhofen-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-sos-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-south-table-mountain-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-south-walker-creek-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-southern-district-of-anhui-province-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-stein-schaffhausen-switzerland**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-subpiatra-2-1r-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tanout-damergou-niger**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tara-creek-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tat-ang-maoming-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tatienwan-building-foundation-fotoukwan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tea-tree-cave-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tebessa-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tel-ulan-chaltsai-iii-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-terrace-site-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-teso-de-la-flecha-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-the-joint-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tingamarra-local-fauna-boat-mountain-deposit-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-titem-suwraga-mongolia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-toca-da-janela-da-barra-do-antoniao-brazil**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tongrube-sachsenhagen-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tonniesberg-hannover-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-toros-menalla-chad**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-torrejon-arroyo-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tosalet-del-morral-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-tsaramody-village-l3-madagascar**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-unterneul-1a-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-uppen-hildesheim-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-uraitele-mille-logya-ethiopia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-vaches-noires-near-honfleur-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-valle-croatia**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -486,7 +5314,122 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation unnamed-vauban-cliff-fouras-peninsula-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation unnamed-velaux-la-bastide-neuve-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-venelles-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-villebois-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-violot-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-voli-voli-cave-site-1-viti-levu-fiji**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-wadi-el-natrun-egypt**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-wainibuku-cave-viti-levu-fiji**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-walbeck-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-wilson-lake-dinosaur-site-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-zambrana-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation unnamed-ziemetshausen-1b-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation upper-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation upper-clay-algeria**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation upper-freshwater-molasse-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation upper-greensand-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation upper-headon-beds-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation upper-karroo-sandstone-zimbabwe**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation urbion-group-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation urumaco-venezuela**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation vaca-muerta-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation valea-nadasului-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation valtos-sandstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation vaugirard-france**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -496,7 +5439,127 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation viens-marl-france**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation villalba-de-la-sierra-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation villanueva-de-huerva-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation villar-del-arzobispo-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation villavieja-colombia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ville-germany**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation vincentown-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation vistea-limestone-romania**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation vitakri-pakistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation vitoria-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation wadhurst-clay-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wahweap-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation waite-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation walloon-coal-measures-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wanghudun-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wangjiashan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wangmen-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wangshi-group-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wapiti-canada**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation warwire-uganda**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wasatch-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation washakie-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation waterloo-mudstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wayan-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation weald-clay-united-kingdom**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -516,7 +5579,42 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation westbury-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation whitby-mudstone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation white-limestone-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wicomico-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation williams-fork-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation williamsburg-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation willwood-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wind-river-united-states**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -526,7 +5624,157 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation wipajiri-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation woburn-sand-united-kingdom**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wonthaggi-australia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wulansuhai-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation wulong-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xert-spain**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xiagou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xiaguan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xiangtang-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xiaoyan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xinhe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xinlingzhen-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation xinlong-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yacoraite-argentina**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yalovach-tajikistan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yanigua-los-haitises-dominican-republic**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yarenskian-russia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yecua-bolivia**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yimen-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
 - **formation yixian-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yorktown-united-states**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation youganwo-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation yuwentao-taiwan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zhanghe-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zhenzhuchong-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zhidan-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zhidan-group-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zhirkindek-kazakhstan**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zhonggou-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation zhoutian-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **formation ziliujing-china**
   - F5 summary is empty (one sentence on what the formation is)
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
@@ -536,8 +5784,191 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - F5 paleoenvironment is empty
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: not yet checked
+- **formation zuoyun-china**
+  - F5 summary is empty (one sentence on what the formation is)
+  - F5 paleoenvironment is empty
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **genus Aardonyx**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype; material and completeness not read; check against Yates et al. 2010.
+- **genus Abdarainurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype number taken from the image label; check the paper.
+- **genus Abditosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Abrosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: PBDB reference is a Chinese museum newsletter; confirm the original description. Size is an upper bound only.
+- **genus Abydosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The Wikipedia text does not state what the earlier teeth looked like in detail; the biology line paraphrases it loosely. Check Chure et al. 2010.
+- **genus Acaenasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Images 9 and 10 are restorations of Funcusvermis and are not used.; Check the life restorations.
+- **genus Acantholipan**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Size not given in the cited revision.
+- **genus Achelousaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Acherontisuchus**
+  - I6 no image
+  - Q1 draft: Add holotype number and size from Hastings et al. 2011.
+- **genus Acresuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Acrotholus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Evans et al. 2013 is the naming paper (PBDB).
+- **genus Acynodon**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Holotype not stated; type species deduced.
+- **genus Adamanasuchus**
+  - Q1 draft: Check the reconstruction.; No citations in the Wikipedia revision; add the original (Lucas et al. 2007).
+- **genus Adamantinasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia lists no citations in this revision; add literature sources.; Original naming work is Nobre and Carvalho 2006 (PBDB).
+- **genus Adeopapposaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not read; the original description (Martínez 2009) and the placement within Massospondylidae to be checked.
+- **genus Adratiklit**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Referred bones are assigned only on being stegosaurian; the exact find site is unknown.
+- **genus Adzhosuchus**
+  - I6 no image
+  - Q1 draft: Original: Efimov, Gubin and Kurzanov 2000 (PBDB reference).; Create a Shartegosuchidae clade entry and move this genus into it.
+- **genus Aegisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restoration.; Size estimates are debated (Gayford et al. 2024, citation 3); add figures from the sources.
+- **genus Aegyptosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Holotype fate and referred material to be checked in the revision and Stromer 1932.
+- **genus Aegyptosuchus**
+  - Q1 draft: Add holotype details from Stromer 1933 and a recent source.
+- **genus Aenigmaspina**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Aeolodon**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Add the original description (von Meyer 1830).
+- **genus Aeolosaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species; species list and holotype to be checked against Powell 1987.
+- **genus Aetobarbakinoides**
+  - I6 no image
+  - Q1 draft: Catalogue number of the holotype to be added from Desojo et al. 2012.; No images found among the automatic candidates.
+- **genus Aetosauroides**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype and original-description details to be added from Casamiquela 1960.; Three species are listed on Wikipedia; PBDB lists three (inhamandensis and subsulcatus were named by Zacarias 1982).
+- **genus Aetosaurus**
+  - Q1 draft: PBDB gives the authority as Fraas 1887; the Wikipedia citation names Fraas 1877 as the naming work - check.; A third species A. arcuatus (eastern North America) is listed on Wikipedia but not by PBDB.
+- **genus Agnosphitys**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No Wikipedia citations extracted; original paper (Fraser et al. 2002) to be added; no image.
+- **genus Agujaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Agustinia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Placement to be checked, PBDB rebbachisaurid vs titanosaur reading in the Wikipedia citations.
+- **genus Ahdeskatanka**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Ahshislepelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Size not given in the cited revision; holotype number to be added.
+- **genus Aigialosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Ajkaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives Ősi et al. 2010 as the naming paper (citation 1 of the Wikipedia revision).
+- **genus Akainacephalus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Akanthosuchus**
+  - Q1 draft: not yet checked
+- **genus Aktiogavialis**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Alamosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Alanqa**
   - Q1 draft: not yet checked
+- **genus Alaskacephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Named by Sullivan in 2006 (PBDB). PBDB parent was Pachycephalosaurini; atlas parent is Pachycephalosauria.
+- **genus Albalophosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Albertaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Albertochampsa**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Albertosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Alcovasaurus**
+  - G6 no species listed (every valid genus has at least its type species)
+  - G8 no length: give one, or say in size.note why it is unknown
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives no occurrences; age from the Morrison Formation — fill age note from the sources.
+- **genus Aldabrachampsus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Aletopelta**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Family-level placement of Aletopelta varies (Ankylosauridae or Nodosauridae); check the cited analyses.
+- **genus Alligator**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Authority differs between PBDB (Daudin 1809) and Wikipedia (Cuvier 1807); check the original publication.; No original description among the sources yet (S2 is met only by literature).; Species list = the two living species plus the fossil species the cited Wikipedia revision lists; PBDB also lists A. darwini, A. gaudryi, A. hantoniensis, A. ameghinoi and A. lutescens.
+- **genus Alligatorellus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype not stated.; Add the original description (Gervais 1871).
+- **genus Alligatorium**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Naming work: Gervais 1871; PBDB's reference is Martin et al. 2010 (a Theriosuchus paper); add the original.; Alligatorium depereti was moved to Montsecosuchus in 1988.
+- **genus Allodaposuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Generally classified as a non-crocodylian eusuchian but sometimes placed among the earliest true crocodylians - placement to be checked.; PBDB places it in Allodaposuchidae.
+- **genus Allognathosuchus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Brochu (2004) recommends conservative use of the genus; several PBDB species may belong elsewhere (A. woutersi possibly Diplocynodon).
+- **genus Almadasuchus**
+  - Q1 draft: Check the reconstruction.
 - **genus Altmuehlopterus**
   - G7 summary must be one sentence ending in '.', ≤170 characters (now 185)
   - G8 no wingspan: give one, or say in size.note why it is unknown
@@ -547,6 +5978,70 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Amanzia**
+  - Q1 draft: not yet checked
+- **genus Amargasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: PBDB reference (Bonaparte 1984) is a book chapter; the formal description is Salgado and Bonaparte 1991. Add it.; Holotype catalogue number not read.
+- **genus Amargasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Amargatitanis**
+  - G5 type species not verified against a source
+  - Q1 draft: Type species epithet to be checked.
+- **genus Amazonsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ampelosaurus**
+  - Q1 draft: not yet checked
+- **genus Amphicoelias**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Cope's sketch and the 1892 restoration were not used (pre-1950).
+- **genus Amphicotylus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Add the original description (Cope 1878).
+- **genus Amtocephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Amygdalodon**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Cabrera 1947) to be added.
+- **genus Analong**
+  - G5 type species 'Analong chuanjiensis' is not in the species list
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Anatosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The Wikipedia text was flagged as possibly not about the genus; its lead does describe Anatosuchus.; Completeness to be checked against Sereno et al. 2003.
+- **genus Anchiceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives no named original paper (Brown 1914).
+- **genus Anchisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list reduced to A. polyzelus from the Wikipedia revision; check whether colurus and solus are junior synonyms.
+- **genus Andesaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Andrianavoay**
+  - Q1 draft: Age conflict: English Wikipedia says Bathonian while PBDB gives Oxfordian; the atlas age follows PBDB; resolve (M5).; Check the image.
+- **genus Anglosuchus**
+  - G5 type species not verified against a source
+  - Q1 draft: Check the image.; Verify the type species; no citations in the Wikipedia revision.
+- **genus Angolatitan**
+  - Q1 draft: not yet checked
 - **genus Angustinaripterus**
   - Q1 draft: not yet checked
 - **genus Anhanguera**
@@ -555,19 +6050,212 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Anhuilong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Animantarx**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives no named original paper; Carpenter et al. 1999 is the naming work.
+- **genus Ankylosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not taken here (estimates differ); add from Arbour and Mallon 2017.; PBDB gives no named original paper; Brown 1908 is the naming work.
+- **genus Anodontosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Sternberg named the genus in 1928; PBDB lists 1929 — check.; Size not given in the cited revision.
+- **genus Anoplosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check validity (several authors treat Anoplosaurus as doubtful).
+- **genus Antaeusuchus**
+  - Q1 draft: Check the image.
+- **genus Antarctopelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Antarctosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Valid species and original paper (Huene 1927) to be checked.
+- **genus Antecrocodylus**
+  - I6 no image
+  - Q1 draft: PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px or more in the harvest; add it with a smaller raster.
+- **genus Anteophthalmosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check the images.
+- **genus Antetonitrus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Anthracosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: not yet checked
+- **genus Antusuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Candeleros Formation, La Buitrera Paleontological Area, Río Negro Province, Argentina (Albian or Cenomanian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
 - **genus Anurognathus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Apachesuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Spielmann and Lucas 2012).
+- **genus Apatosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Holotype number not read; check Marsh 1877 or Tschopp et al. 2015.; PBDB lists A. laticollis; the Wikipedia revision names only A. ajax and A. louisae, which is what is listed here. Check the status of laticollis.
+- **genus Apatosuchus**
+  - Q1 draft: Check the image.
+- **genus Aphaurosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The second species A. kaiju is dated 2023 on Wikipedia and 2024 in PBDB - check.
+- **genus Aplestosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Aprosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Aquilops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Arackar**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Aragosaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species epithet to be checked; Wikipedia gives the Early Cretaceous; PBDB gives the latest Jurassic; no Wikipedia citations were extracted.
+- **genus Arambourgia**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrences and the sources consulted name no formation; karstic deposits in Europe.; Named Arambourgia in 1940, synonymised with Allognathosuchus haupti in 1990 and reinstated in 2004 (English Wikipedia).; Check the life restoration.
 - **genus Arambourgiania**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Arambourgisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restoration.; Wikipedia lead says the page is partly not about the genus; verify the revision text.
+- **genus Araripesuchus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Seven species are referred to the genus, though the phylogeny of some has been argued over.; Type species to be confirmed from Price 1959.
+- **genus Archaeoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Archaeodontosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Buffetaut 2005) to be added.
 - **genus Arcticodactylus**
   - I6 no image
   - Q1 draft: not yet checked
+- **genus Arcusaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Ardeadactylus**
+  - Q1 draft: not yet checked
+- **genus Ardetosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Arenysuchus**
+  - Q1 draft: Check the images (image 3 is a site photo and is not used).
+- **genus Arganasuchus**
+  - Q1 draft: Check the image.
+- **genus Argentinosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Mounted skeletons of Argentinosaurus are reconstructions from few bones; check the captions.
+- **genus Argochampsa**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Argyrosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Arizonasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Armadillosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: A 2026 review (Kitayama and Bertini) proposes that A. arrudai is a junior synonym of Sphagesaurus huenei - consider M1 and excluded.yaml if accepted.; Holotype and completeness to be checked against Marinho and Carvalho 2009.
+- **genus Arrhinoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The Wikipedia revision names both ROM 796 and USNM 15583 as holotype; confirm against Parks 1925.
+- **genus Arrudatitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming paper (Silva Junior et al. 2022) to be added.
+- **genus Artzosuchus**
+  - I6 no image
+  - Q1 draft: Naming work: Efimov 1983 (Russian); add the original.
+- **genus Asiaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Validity (nomen dubium?) to be checked against Makovicky 2006 and later work (M1).; PBDB gives no named original paper; Nessov et al. 1989 named the genus.
+- **genus Asiatosuchus**
+  - Q1 draft: Most species listed by PBDB are regarded as nomina dubia or belong elsewhere (Wikipedia); the species list needs revision.; PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px or more in the harvest; add it with a smaller raster.
+- **genus Asifcroco**
+  - I6 no image
+  - Q1 draft: No Wikipedia page; PBDB record only.; Malkani's 2015 taxa come from a Geological Survey of Pakistan information release; check validity (M1) and add formation details.
+- **genus Astigmasaura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Astorgosuchus**
+  - Q1 draft: PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px or more in the harvest; add it with a smaller raster.
+- **genus Astrophocaudia**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Type species epithet and holotype number to be checked.
+- **genus Asylosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Atacamatitan**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species epithet to be checked.
+- **genus Athenar**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Atlantosuchus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Buffetaut and Wouters 1979).
+- **genus Atlasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Monbaron et al. 1999) to be added.
+- **genus Atoposaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Naming work (von Meyer 1850) is not in the citations consulted; PBDB's reference is a textbook (Carroll 1988). Add the original.; Verify the type species.
+- **genus Atsinganosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Auroraceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: not yet checked
 - **genus Aurorazhdarcho**
   - G8 no wingspan: give one, or say in size.note why it is unknown
+  - Q1 draft: not yet checked
+- **genus Australodocus**
+  - G5 type species not verified against a source
+  - Q1 draft: Type species epithet to be checked.
+- **genus Australosuchus**
   - Q1 draft: not yet checked
 - **genus Austriadactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
@@ -577,46 +6265,310 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I6 no image
   - Q1 draft: not yet checked
+- **genus Austroposeidon**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Avaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives Dodson 1986 as naming paper (citation 2 of the Wikipedia revision).
+- **genus Ayllusuchus**
+  - Q1 draft: Holotype and original naming work (Gasparini 1984) to be added.
+- **genus Baalsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Holotype and material to be read from Calvo and Gonzalez Riga 2018.
+- **genus Bagaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Bagualia**
+  - Q1 draft: not yet checked
+- **genus Bagualosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB places it in Bagualosauria; which is not a clade of the atlas. The PBDB reference is Pretto et al. 2019.
+- **genus Baharijodon**
+  - G6 no species listed (every valid genus has at least its type species)
+  - I6 no image
+  - Q1 draft: Naming work (Kuhn 1936) not in the citations consulted; PBDB's reference is a textbook (Carroll 1988). Add the original.; Validity of a genus based on one tooth to be checked (M1).
+- **genus Baiyinosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Bajadasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Balaenognathus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Baotianmansaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Barapasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Barbaridactylus**
   - Q1 draft: not yet checked
 - **genus Barbosania**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - Q1 draft: not yet checked
+- **genus Barcinosuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Leardi and Pol 2009).
+- **genus Barinasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Body-length estimate to be added from the Wikipedia citation.; Lived between about 42 and 11.6 Ma according to Wikipedia.
+- **genus Barosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Holotype specimen number not read; check Marsh 1890 and Lull 1919.
+- **genus Barreirosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Barrosasaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Source citations absent in the revision; original description (Salgado and Coria 2009) to be read.
+- **genus Barrosasuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Type species filled from general knowledge.; Add the original naming work.
+- **genus Baru**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: "Baru" huberi is now referred to Ultrastenos (Yates 2024).
+- **genus Bashanosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check placement against Huayangosauridae in Dai et al. 2022 and later analyses.; Size not given in the cited revision.
+- **genus Basutodon**
+  - I6 no image
+  - Q1 draft: Add the original (Huene 1932).
+- **genus Bathysuchus**
+  - Q1 draft: Check the images.
 - **genus Batrachognathus**
   - Q1 draft: not yet checked
+- **genus Batrachomimus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Commons candidate image looked like a gharial and was not used; look for a better one.
+- **genus Batrachotomus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The length range is a placeholder - replace with a sourced estimate or set to null.; Described 22 years after its discovery.
+- **genus Baurusuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Baurutitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype number taken from an image label; check Kellner et al. 2005.
+- **genus Bayomesasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Beg**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: English Wikipedia's Beg title is not the genus page; the species article is Beg tse. Replace the sources with a fixed revision when the harvest is refreshed.
 - **genus Bellubrunnus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Benggwigwishingasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Bergisuchus**
+  - Q1 draft: PBDB places it in Sebecoidea; the backbone places it in Sebecidae.
+- **genus Bernissartia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The Sainte-Barbe Clays Formation (Wikipedia) is not among the PBDB formations of this entry.
+- **genus Bissektipelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Bisticeratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Blikanasaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Galton and van Heerden 1985) to be added.
+- **genus Bonatitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Bonitasaura**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming paper (Apesteguia 2004) to be added.
+- **genus Borealopelta**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Borealosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Borealosuchus**
+  - I6 no image
+  - Q1 draft: Contact-sheet tiles did not render for this genus; select images later.; Placement within Crocodylia to be checked.
 - **genus Boreopterus**
   - G5 type species not verified against a source
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: Verify type species against the original description.
+- **genus Bottosaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Boverisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: B. rollinati was found to be based on insufficient material (nomen dubium), and the genus was reinstated as valid.; Material from Italy and Texas may represent another species (Brochu 2013).; Original naming work (Kuhn 1938) to be added.
+- **genus Brachiosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check that the mounted skeleton of image 4 is a cast of the Brachiosaurus holotype and not of Giraffatitan.
+- **genus Brachiosuchus**
+  - Q1 draft: not yet checked
+- **genus Brachychampsa**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: B. sealeyi may be an immature B. montana.
+- **genus Brachygnathosuchus**
+  - G5 type species 'Brachygnathosuchus braziliensis' is not in the species list
+  - I6 no image
+  - Q1 draft: The original specimen has no lithified context, so its age is uncertain; the age here is from PBDB (Solimões Formation, Tortonian) — check.; PBDB lists a species B. neivensis (Mook 1941); Wikipedia's lead names only B. braziliensis.
+- **genus Brachytrachelopan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Brachyuranochampsa**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: PBDB gives the authority as Zangerl 1910, but its type species is B. eversolei Zangerl 1944; check the original description.; PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px or more in the harvest; add it with a smaller raster.
 - **genus Brasileodactylus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Brasilosuchus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px or more in the harvest; add it with a smaller raster.
+- **genus Brasilotitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Bravasaurus**
+  - G5 type species 'Bravasaurus arreirosorum' is not in the species list
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Bravoceratops**
+  - Q1 draft: Naming paper Wick and Lehman 2013 (PBDB); not in Wikipedia citations extracted.
+- **genus Bretesuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Breviceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Brillanceausuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Michard et al. 1990).
+- **genus Brochuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Bromsgroveia**
+  - Q1 draft: Check the images; image 2 shows two taxa.
+- **genus Brontomerus**
+  - Q1 draft: not yet checked
+- **genus Brontosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The Wikipedia revision for this name was flagged as not about the genus by the harvest; its text was still used. Check it.; Holotype number of B. excelsus not read.
+- **genus Brontotholus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Named in 2025 (Woodruff et al.); check against the original paper.
+- **genus Buriolestes**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Burkesuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check the skeletal reconstruction.
+- **genus Bustingorrytitan**
+  - Q1 draft: not yet checked
+- **genus Bystrowisuchus**
+  - I6 no image
+  - Q1 draft: Add holotype from Sennikov 2012.
 - **genus Cacibupteryx**
   - I6 no image
   - Q1 draft: not yet checked
 - **genus Caelestiventus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Caieiria**
+  - Q1 draft: not yet checked
+- **genus Caiman**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: The English Wikipedia article "Caiman" covers the caimans as a group (Caimaninae), not the genus alone; biology and size text is written at that level. Replace with genus- or species-level sources (C. crocodilus, C. latirostris, C. yacare).; PBDB lists C. sclerops (Schneider 1801) as a species without ages; check whether it is a valid species or a synonym of C. crocodilus.; Size (length) of the living species is missing; source it from species-level articles (G8).; Type species rests on a Wikipedia taxobox with conflicting versions; confirm it and cite the original description (Spix 1825) — PBDB's primary reference (Mook 1921) is not the naming work.; Images were chosen from Commons captions and licences, not visually checked (the shell cannot download them); the media-fetch workflow stores the files. Check them against the contact sheet.
+- **genus Caipirasuchus**
+  - Q1 draft: C. montealtensis was first named in Sphagesaurus (2008) and referred here in 2013; the six species are paulistanus, montealtensis, stenognathus, mineirus, attenboroughi and catanduvensis.
 - **genus Caiuajara**
   - Q1 draft: not yet checked
+- **genus Calsoyasuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Wikipedia revision text is partly not about the genus; verify.
+- **genus Calyptosuchus**
+  - I6 no image
+  - Q1 draft: No candidate image on the contact sheet.; Holotype and original naming work (Long and Ballew 1985) to be added.
+- **genus Camarasaurus**
+  - G5 type species not verified against a source
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Type species and holotype to be checked; PBDB also lists C. annae and C. leptodirus, not kept here.
+- **genus Campananeyen**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Campinasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Candidodon**
+  - I6 no image
+  - Q1 draft: The naming paper by Carvalho and Campos (1988) is titled as a triconodont mammal from Maranhão, so the genus was first described as a mammal; check.
+- **genus Cardiodon**
+  - G5 type species not verified against a source
+  - Q1 draft: Type species epithet to be checked; no Wikipedia citations were extracted.
+- **genus Carinthiasuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Partnach Formation, Carinthia (Gailtal Alps), Austria (Ladinian to early Carnian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Caririsuchus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype not stated; check the original description.; Type species filled from general knowledge.
 - **genus Carniadactylus**
   - G6 no species listed (every valid genus has at least its type species)
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Carnufex**
+  - Q1 draft: not yet checked
+- **genus Caryonosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
 - **genus Cascocauda**
   - I6 no image
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).
+- **genus Cassissuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Cathartesaura**
+  - Q1 draft: not yet checked
 - **genus Cathayopterus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I6 no image
@@ -624,21 +6576,203 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Caupedactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Cedarosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Holotype number, original naming-paper details and the placement in Brachiosauridae (PBDB) versus other macronarian groups to be checked.
+- **genus Cedarpelta**
+  - Q1 draft: PBDB gives no named original paper; Carpenter et al. 2001 is the naming work.
+- **genus Centenariosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Centrosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives no named original paper (Lambe 1904/1905 — check the year).
+- **genus Cerasinops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ceratosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Cerrejonisuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: not yet checked
+- **genus Cetiosauriscus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species to be checked; the type specimen of C. leedsi was found too different from Cetiosaurus.
+- **genus Cetiosaurus**
+  - Q1 draft: Valid species and the Moroccan material to be checked; the 2014 type species change (ICZN case 3472).
+- **genus Chadititan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Chalawan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The Wikipedia page for 'Chalawan' is a folktale; no genus revision is cited: PBDB record only.; Check the images and the life restoration; the skull reconstruction may be a model rather than a fossil.; Add the original (Martin et al. 2013).
 - **genus Changchengopterus**
   - Q1 draft: not yet checked
 - **genus Chaoyangopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
+- **genus Chaoyangsaurus**
+  - Q1 draft: Check the holotype number against Zhao et al. 1999.
+- **genus Charactosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Charitomenosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Holotype number not stated.
+- **genus Chasmosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check species list (C. russelli, C. irvinensis moved to Vagaceratops).
+- **genus Chebsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Material and completeness to be read; the Wikipedia revision calls it the most complete Algerian sauropod.
+- **genus Chenanisuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Chiayusuchus**
+  - I6 no image
+  - Q1 draft: Age conflict: English Wikipedia says Barremian-Aptian while PBDB gives Campanian-Maastrichtian (Minhe Formation); the atlas age follows PBDB; resolve (M5).; Add the original (Bohlin 1953).
+- **genus Chilenosuchus**
+  - I6 no image
+  - Q1 draft: Age of the El Bordo beds conflicts with the aetosaur identification; check the literature.; PBDB's reference is Desojo et al. 2013 (a review); the naming work used here is Casamiquela 1980.; No images found among the automatic candidates.
+- **genus Chimaerasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Wu et al. 1995) to be added.
+- **genus Chinatichampsus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Chinshakiangosaurus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Yeh 1975) to be added; no image among the candidates.
+- **genus Choconsaurus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates. Type species epithet to be checked.
+- **genus Chromogisaurus**
+  - G5 type species not verified against a source
+  - Q1 draft: Original paper (Ezcurra 2010) to be added; type species epithet to be checked.
+- **genus Chrysochampsa**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No geological formation is recorded in the atlas yet: the PBDB occurrence has no formation; Golden Valley Formation, North Dakota (Wasatchian) per English Wikipedia.
+- **genus Chuanjiesaurus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Material and completeness to be read from Fang et al. 2000.
+- **genus Chuanqilong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Chubutisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: PBDB gives Aptian-Albian; Wikipedia gives Cenomanian; age sources disagree. Original paper (del Corro 1975) to be added.
+- **genus Chucarosaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Chungkingosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Species C. giganticus and C. magnus (Ulansky 2014) are listed by PBDB; check their status.
+- **genus Cienciargentina**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Recovered as the basalmost rebbachisaurid by its describers (2025); holotype number to be read.
+- **genus Clovesuurdameredeor**
+  - Q1 draft: Check the images.
+- **genus Coahomasuchus**
+  - I6 no image
+  - Q1 draft: Catalogue numbers of the holotypes to be added.; No images found among the automatic candidates.
+- **genus Coahuilaceratops**
+  - Q1 draft: Formation recorded by PBDB as an unnamed unit; the Wikipedia revision has no citation list extracted.
+- **genus Coelosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Williston 1906).
+- **genus Colepiocephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Colhuehuapisuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
 - **genus Coloborhynchus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Coloradisaurus**
+  - Q1 draft: Authorship is disputed in the sources - Lambert 1983 is the traditional attribution; but Greenfield et al. 2020 judged Lambert's use of the name a nomen nudum; PBDB authority kept.
+- **genus Coloradisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restoration.
+- **genus Comahuesaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Comahuesuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Completeness to be checked against Bonaparte 1991 and Kellner et al. 2023.; PBDB places it in Baurusuchia; the backbone places it in Notosuchia.
+- **genus Confractosuchus**
+  - Q1 draft: not yet checked
+- **genus Congosaurus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype, material and completeness not stated; the Wikipedia text had no content for this genus.; Add the original description (Dollo 1914).
+- **genus Coringasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Coronelsuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Coronosaurus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Crichtonpelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - Q1 draft: No image candidates; size not given (holotype larger than Crichtonsaurus, 3–4 m).; PBDB gives no named original paper; Arbour and Currie 2016 erected the genus.
+- **genus Cricosaurus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Type species not stated in the dossier; confirm Cricosaurus elegans.; Species size: 2 m (C. araucanensis) and 3.2 m are quoted by Wikipedia for two species; no genus range given.
+- **genus Crittendenceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia article gives no holotype data; fill from Dalman et al. 2018.
+- **genus Crocodylus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list = PBDB valid species that are living or that the cited Wikipedia revision lists as fossil Crocodylus (C. sudani and C. lucivenator are in Wikipedia but not in PBDB); check against a current checklist.; Old Eocene "Crocodylus" species (C. affinis, C. acer, C. aptus…) left out as no longer belonging to the genus; they are not in excluded.yaml because they have not been formally reassigned.
 - **genus Cryodrakon**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Ctenochasma**
   - G5 type species not verified against a source
   - Q1 draft: Verify type species against the original description.
+- **genus Ctenosauriscus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Nature and completeness of the holotype to be checked against Butler et al. 2011.
+- **genus Ctenosuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Anoual Formation, eastern Morocco (Bathonian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Culebrasuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Cuspicephalus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
@@ -646,31 +6780,161 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: not yet checked
+- **genus Cynodontosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Daanosaurus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates. Type species epithet and original paper to be checked.
+- **genus Dacentrurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Miragaia longicollum is regarded by some researchers as a junior synonym of this taxon; follow up (Costa et al. 2025).; PBDB ages extend to the Barremian through genus-level records; the Early Cretaceous French material (Angeac-Charente) is attributed to Dacentrurus sensu lato.
+- **genus Dadagavialis**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Proposed as a gryposuchine; Gryposuchinae may be a grade towards the living gharial, so it is kept in Gavialidae.
+- **genus Dagasuchus**
+  - Q1 draft: Check the images.
+- **genus Dakosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Add the original description (Quenstedt 1856).
+- **genus Dakotasuchus**
+  - Q1 draft: Check the image; Mehl named it 'Dakotosuchus' in the title of the naming work (spelling), check.
 - **genus Darwinopterus**
   - G5 type species not verified against a source
   - G7 summary must be one sentence ending in '.', ≤170 characters (now 172)
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Dashanpusaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Dasosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Datai**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision; authority year (PBDB 2024) versus the 2023 Xing et al. citation to be checked.
 - **genus Dawndraco**
   - G8 no wingspan: give one, or say in size.note why it is unknown
+  - Q1 draft: not yet checked
+- **genus Daxiatitan**
   - Q1 draft: not yet checked
 - **genus Dearc**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Decuriasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB places it in Suchia; Wikipedia calls it a loricatan. Original naming work is França et al. 2011.
+- **genus Deinosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Holotype specimen number not in the sources read; take it from Holland (1909).
+- **genus Deltasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Demandasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Denazinosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Dendrorhynchoides**
   - G5 type species not verified against a source
   - Q1 draft: Verify type species against the original description.
+- **genus Dentaneosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the images and the life restoration.; Images 7 and 8 show several taxa and were not used.
+- **genus Deslongchampsina**
+  - Q1 draft: Check the images.
+- **genus Desmatosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Case 1920) to be added.
+- **genus Diabloceratops**
+  - Q1 draft: not yet checked
+- **genus Diamantinasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Dianchungosaurus**
+  - I6 no image
+  - Q1 draft: Add the original (Young 1982) and holotype.
+- **genus Dianosuchus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Young 1982).
+- **genus Dibothrosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Second species D. xingsuensis (Wu 1986) is listed by PBDB; Wu and Chatterjee re-examined the holotype of D. xingsuensis - check its status.; Holotype number to be added from Simmons 1965.
+- **genus Dicraeosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype number and museum not read; check Janensch 1914.; Wikipedia revision flagged as not about the genus by the harvest; check it.
 - **genus Dimorphodon**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Dinheirosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: May be a species of Supersaurus per Tschopp 2015.
+- **genus Dinosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The name Dinosuchus was also used in 1936 by Broom for a dinocephalian therapsid; not to be confused with Deinosuchus.; Validity of a genus based on one vertebra should be checked (M1).; English Wikipedia dates the genus to the Late Miocene-Late Pliocene; PBDB gives Tortonian-Messinian, used here.
 - **genus Diopecephalus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - S2 no 'original' source (the publication that named the taxon)
   - Q1 draft: not yet checked
+- **genus Diplocynodon**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No original description among the sources yet; type species deduced from the authority.; Species list from PBDB; check against Massonne et al. (2022).
+- **genus Diplodocus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype specimen number and type-species status (D. longus nomen dubium per Wikipedia) to be checked.; Images taken from the contact sheet of the synonym Seismosaurus (the harvest's own Diplodocus sheet held only size charts and cladograms); the Wikipedia article's pictures were not captured by the harvest. Check them in the image picker.
+- **genus Dolichochampsa**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Dollosuchoides**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Dongbeititan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming paper (Wang et al. 2007) is cited as item 1 of the revision; check whether it is the naming work.
+- **genus Dongnanosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Dongyangopelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image candidates; holotype number to be added.; Size not given in the cited revision.
+- **genus Dongyangosaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: A 2013 analysis found it to be a saltasaurid close to Opisthocoelicaudia; placement kept in Titanosauria.
+- **genus Doratodon**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: A 2026 study (Szegszárdi et al.) suggests it may be a paralligatorid rather than a sebecosuchian - placement to be checked.
+- **genus Dorbignysuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Jouve et al. 2021).
 - **genus Dorygnathus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
@@ -679,72 +6943,507 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Douzhanopterus**
   - Q1 draft: not yet checked
+- **genus Dracopelta**
+  - I6 no image
+  - Q1 draft: No image candidates.
+- **genus Dreadnoughtus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check the revised mass estimates (Bates 2015; Campione 2020; Paul 2019) before fixing the range.
+- **genus Dromicosuchus**
+  - Q1 draft: The block was first thought to hold a single large poposaurid; the larger animal was later named Postosuchus alisonae (2008).
+- **genus Drusilasaura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming paper (Navarrete et al. 2011) to be added.
 - **genus Dsungaripterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Duerosuchus**
+  - Q1 draft: Related to short-snouted crocodilians such as alligatoroids per Wikipedia; PBDB places it in Planocraniidae - placement to be checked.; Image kind to be confirmed.
+- **genus Duriatitan**
+  - Q1 draft: Original naming paper (Barrett et al. 2010) to be added; sources used are the 1874 note and a 2010 Dorset review.
+- **genus Dynamosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Dyoplax**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia and the literature give the locality: Upper Schilfsandstein (also called the Stuttgart Formation), Stuttgart, Germany (early Carnian). No coordinates or PBDB collection yet.; Completeness rated from the description 'nearly complete skeleton'; whether the skull is present was not checked.; The title of the Maisch et al. 2013 paper was truncated in the source; complete it.; No Wikipedia revision recorded; no images yet.
+- **genus Dyoplosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Size not given in the cited revision.
+- **genus Dyrosaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Type species deduced; confirm it is D. phosphaticus.
+- **genus Dystrophaeus**
+  - Q1 draft: not yet checked
+- **genus Dzharatitanis**
+  - Q1 draft: not yet checked
+- **genus Dzungarisuchus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **genus Edentosuchus**
+  - I6 no image
+  - Q1 draft: PBDB also lists a Kayenta Formation (Early Jurassic, USA) occurrence, which conflicts with the Cretaceous Chinese age on Wikipedia; check.; Add the original (Young 1973).
+- **genus Edmontonia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Panoplosaurus was long confused with this genus; check which specimens belong where.; PBDB lists E. australis, which belongs to Glyptodontopelta (Burns 2008).
+- **genus Effigia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Completeness to be checked against Nesbitt and Norell 2006.
+- **genus Efraasia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Einiosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives Sampson 1994 as naming paper (citation 9 of the Wikipedia revision lists Sampson 1995).
+- **genus Elaltitan**
+  - Q1 draft: not yet checked
+- **genus Elosuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype not stated; type species deduced (E. cherifiensis).; Size: up to 7.7 m from skull length; no genus range.
+- **genus Emausaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Enalioetes**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Size not given in the article consulted.
+- **genus Energosuchus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Ochev 1986).
+- **genus Entradasuchus**
+  - I6 no image
+  - Q1 draft: Add holotype number and description from Hunt and Lockley 1995.
+- **genus Eoalligator**
+  - Q1 draft: English Wikipedia says remains come from Late Cretaceous to Paleocene beds of Nanxiong (Zhenshui and Shanghu formations); PBDB dates the occurrences to the Selandian-Thanetian.; A 2016 study suggested it may be the same animal as Asiatosuchus nanlingensis; a 2018 study argued they differ.
+- **genus Eocaiman**
+  - Q1 draft: not yet checked
+- **genus Eogavialis**
+  - G5 type species not verified against a source
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Eomamenchisaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates.
+- **genus Eoneustes**
+  - I6 no image
+  - Q1 draft: Age conflict: Wikipedia says late Bajocian to early Bathonian; PBDB gives Bathonian; atlas age follows PBDB.
+- **genus Eopinacosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Genus is very recent (Penkalski 2026); check against the original paper. PBDB also lists the species under Pinacosaurus (P. mephistocephalus); keep it only here.; Size not given in the cited revision.
+- **genus Eopneumatosuchus**
+  - I6 no image
+  - Q1 draft: Add holotype and the original (Crompton and Smith 1980).
 - **genus Eopteranodon**
   - Q1 draft: not yet checked
+- **genus Eoraptor**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Placement as a sauropodomorph follows PBDB and the cited Wikipedia revision; check the analyses that place it elsewhere before consolidation. Naming paper not matched in the citations.
+- **genus Eosphorosuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Chinle Formation, Ghost Ranch, New Mexico, USA (Rhaetian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.; The backbone node 'Euphorosuchus' (no source found earlier) is probably a misspelling of this genus; it was removed from the backbone, see TREE_REVIEW.md.
+- **genus Eosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Possibly among the most basal gavialoids, lying crownward of Thoracosaurus.
+- **genus Eothoracosaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Eotriceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Epachthosaurus**
+  - Q1 draft: not yet checked
+- **genus Epoidesuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The Wikipedia article calls it an itasuchid; PBDB places it in Pepesuchinae within Peirosauridae.; Holotype number and material to be added from Ruiz et al. 2024.
+- **genus Eptalofosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Eremosuchus**
+  - Q1 draft: Holotype catalogue number to be confirmed from Buffetaut 1989.; Phylogenetic analyses using its material have yielded results different from a sebecosuchian placement - check (Nicholl et al. 2021).
+- **genus Erketu**
+  - Q1 draft: not yet checked
+- **genus Erpetosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Considered close to Crocodylomorpha in 2000 and 2002, but a 2012 analysis found its placement very uncertain.; Original naming work (Newton 1894) to be added.
+- **genus Etjosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Eucnemesaurus**
+  - G5 type species not verified against a source
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (van Hoepen 1920) is cited as item 1; type species epithet to be checked.
 - **genus Eudimorphodon**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Euhelopus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Euhelopodidae may not be monophyletic and Euhelopus has been placed near Mamenchisaurus or among Somphospondyli; the group is kept per PBDB and the backbone.; The PBDB reference (Romer 1956) is a textbook; the original naming of Helopus zdanskyi (Wiman 1929) should be added.
+- **genus Euoplocephalus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB lists specimens from the Judith River and Two Medicine Formations of Montana, now referred to other genera (e.g. Oohkotokia); check.; PBDB gives no named original paper; Lambe 1910 named the genus.
+- **genus Europasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia revision flagged as not about the genus by the harvest; check it. Size figures to be taken from Sander et al. 2006.
+- **genus Europatitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming paper (Torcida Fernandez-Baldor et al. 2017) is cited as item 1 of the revision; check.
 - **genus Europejara**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Europelta**
+  - Q1 draft: PhyloPic silhouette (Europelta carbonensis, uuid cd970ad1-0efd-4b26-8595-99ef104f96ef) could not be fetched; add it again once the file is readable.
+- **genus Eurycephalosuchus**
+  - I6 no image
+  - Q1 draft: No images found among the automatic candidates.
+- **genus Euthecodon**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Eutretauranosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Fasolasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Feilongus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Fenghuangopterus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - Q1 draft: not yet checked
+- **genus Ferenceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Genus very recent (2026); check the original paper.
+- **genus Ferganasaurus**
+  - I6 no image
+  - Q1 draft: No image among the candidates.
+- **genus Ferrisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Ferrodraco**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Foraminacephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Forfexopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Fortignathus**
+  - Q1 draft: Check the image.
+- **genus Fruitachampsa**
+  - Q1 draft: Filed under the spelling Fruitachampsa; the backbone had the misspelling Fruitachampsia (removed). It was a nomen nudum (the Fruita form) until Clark 2011.
+- **genus Fukuititan**
+  - Q1 draft: not yet checked
+- **genus Furcatoceratops**
+  - Q1 draft: not yet checked
+- **genus Fushanosaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Fusuisaurus**
+  - Q1 draft: not yet checked
+- **genus Futalognkosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Holotype number not read.
+- **genus Galahadosuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Fissure deposits, Cromhall Quarry, Gloucestershire, England; no formation is named on the page. No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Galeamopus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Completeness of the G. hayi skeleton (skull included?) to be checked in Tschopp et al. 2015.
+- **genus Galvesaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Possible junior synonym of Lusotitan (Mocho et al. 2017); the 2019 study keeps them as sister taxa. Check before final.
+- **genus Gandititan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Gannansaurus**
+  - G5 type species not verified against a source
+  - Q1 draft: Type species epithet to be checked.
+- **genus Gargoyleosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Size not given in the cited revision.
+- **genus Garrigatitan**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Garumbatitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: No image among the harvested candidates.
+- **genus Garzapelta**
+  - Q1 draft: Verify the placement against Reyes et al. 2024; the Wikipedia lead is truncated at the phylogenetic result.
+- **genus Gasparinisuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Gastonia**
+  - I6 no image
+  - Q1 draft: Facts from web search (Kinneer et al. 2016 abstract; NHM Dino Directory; Wikipedia article text, no fixed revision harvested). Replace with a fixed English Wikipedia revision (S3) when the harvest is refreshed, and add the Kirkland 1998 citation.; PBDB gives age Valanginian–Albian; the Yellow Cat Member has been dated to Valanginian–Barremian, so check the age.
+- **genus Gavialinum**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check the life restoration.; No citations in the Wikipedia revision; add the original (Jourdan 1892) and a thalattosuchian reference.; Thalattosuchian placement: consider a Thalattosuchia clade entry.
+- **genus Gavialis**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Martin (2018) keeps only G. gangeticus and G. bengawanicus in the genus (G. hysudricus a junior synonym); G. browni and G. lewisi need revision and are left out.
+- **genus Gavialosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check the images.; PBDB lists G. antiquus, now Thecachampsa antiqua (citation 2).
 - **genus Gegepterus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I6 no image
   - Q1 draft: not yet checked
+- **genus Geosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Add the original description (Cuvier 1824) and the holotype data.
 - **genus Germanodactylus**
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Gigantspinosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Name was long treated as a nomen nudum in the West; Maidment and Wei 2006 showed the abstract was sufficient.; Check Bathonian-Callovian age in PBDB against the Oxfordian age of the Upper Shaximiao in the text.
+- **genus Gilchristosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Giraffatitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Glacialisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Gladocephaloideus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Globidentosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Glyptodontopelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Treated as a nomen dubium by a 2004 review but accepted as valid by Burns 2008; Edmontonia australis is a junior synonym.; Size not given in the cited revision.
 - **genus Gnathosaurus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).; Oldest date comes from one PBDB occurrence in the Taynton Limestone (Middle Bathonian, UK); check whether this referral to Gnathosaurus is secure.
+- **genus Gnatusuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Gobiosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Osmólska 1972) is cited by Wikipedia as [2].
+- **genus Gobisaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Size not given; Zhongyuansaurus (HGM 41HIII-0002) is a possible junior synonym discussed in the revision — check.
+- **genus Gobititan**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates.
+- **genus Gondwanatitan**
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **genus Gongxianosaurus**
+  - I6 no image
+  - Q1 draft: No usable image among the harvested candidates. The age (Wikipedia Sinemurian-Pliensbachian vs PBDB Toarcian) to be checked.
+- **genus Goniopholis**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype not stated; G. phuwiangensis is fragmentary.; Size: G. kiplingi 3.47 m by skull length; no genus range.; Add the original description (Owen 1842).; PBDB lists 'Goniopholis vebbianus' without an author or year (possibly a misspelling); left out until checked.
+- **genus Gorgetosuchus**
+  - I6 no image
+  - Q1 draft: PBDB places it in Desmatosuchini; the parent here is the subfamily.
+- **genus Goyocephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Fill holotype number and formation from Perle et al. 1982.
+- **genus Graciliceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Gracilineustes**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Filed under the spelling Gracilineustes; the backbone had the misspelling Gracilineusteus (removed).; Authority Young et al. 2010 is taken from PBDB; confirm the naming paper and that it is the original description.
+- **genus Gracilisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Gremlin**
+  - I6 no image
+  - Q1 draft: English Wikipedia's Gremlin title is the mythical creature page; the genus article is Gremlin slobodorum, not yet in the harvest. Replace the sources with a fixed revision when the harvest is refreshed.
+- **genus Gryphoceratops**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Gryposuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Guaibasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Guarinisuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia and the literature give the locality: Maria Farinha Formation, Brazil (Danian). No coordinates or PBDB collection yet.; Validity (M1): PBDB treats Guarinisuchus as a subjective synonym of Hyposaurus; English Wikipedia and a 2026 histology paper treat it as valid. Kept as valid; check recent revisions.; Completeness not verified (the sources consulted do not say); no images yet.
 - **genus Guidraco**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - Q1 draft: not yet checked
+- **genus Gunggamarandu**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Add the holotype number and length estimate from the original.
+- **genus Gyposaurus**
+  - G5 type species 'Gyposaurus capensis' is not in the species list
+  - G5 type species not verified against a source
+  - Q1 draft: Type species epithet and validity to be checked.
+- **genus Hadongsuchus**
+  - I6 no image
+  - Q1 draft: No Wikipedia page for the genus (the matching page is a list of informally named reptiles): PBDB record only.; Validity and placement to be checked (M1).
+- **genus Haematosaurus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Sauvage 1874).
+- **genus Haestasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Upchurch et al. 2015) to be added.
 - **genus Haliskia**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Hallopus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The skeletal image is a combined Hallopus/Macelognathus reconstruction; check that it suits the genus.; Add holotype number from Ruebenstahl 2022.
+- **genus Hamadasuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; No Wikipedia text or citations available; country and type species filled from general knowledge.; Add the original naming work and a holotype.
 - **genus Hamipterus**
   - Q1 draft: not yet checked
+- **genus Hamititan**
+  - Q1 draft: not yet checked
+- **genus Hanyusuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Haopterus**
+  - Q1 draft: not yet checked
+- **genus Haplocanthosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype of H. priscus (CM 572) to be confirmed; skull in the Cleveland mount is a replica.; Placement below Diplodocoidea is that of the backbone and PBDB; check recent phylogenies.
+- **genus Harpacochampsa**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The Wikipedia lead says Early Miocene while PBDB gives Middle Miocene (Camfield Beds vs Bullock Creek); check.
+- **genus Hassiacosuchus**
   - Q1 draft: not yet checked
 - **genus Hatzegopteryx**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Helioceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Hemiprotosuchus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Bonaparte 1969).
+- **genus Heptasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB places it in Poposauridae; the backbone places it in Paracrocodylomorpha.; Wikipedia dates the strata to the Middle or Late Triassic (upper Chugwater Group); PBDB gives Carnian (Popo Agie Formation).
+- **genus Herugavialis**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Mokattam Formation, near Cairo, Egypt (Lutetian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Hesperogavialis**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Hesperosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Hesperosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work is Colbert 1952; confirm holotype details.; Wikipedia dates the strata to the Carnian while PBDB gives Norian-Rhaetian - check.
+- **genus Histriasaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Homalocephale**
+  - Q1 draft: not yet checked
 - **genus Hongshanopterus**
   - I6 no image
   - Q1 draft: not yet checked
+- **genus Hoplitosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Original naming paper (Lucas 1901/1902) not in the cited revision; add it.
+- **genus Hoplitosuchus**
+  - I6 no image
+  - Q1 draft: Validity: the English Wikipedia lead says the holotype consists of unidentifiable osteoderms; check whether it should be treated as a nomen dubium (M1).; Replacement name for Hoplitosaurus Huene 1938, which was preoccupied by an ankylosaurian name of 1902.; No images found among the automatic candidates.
+- **genus Hoplosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Gilmore (1926) first described it as an aetosaur.; Completeness of the single specimen to be checked.; Original naming work (Gilmore 1926) to be added.
+- **genus Hsisosuchus**
+  - G5 type species not verified against a source
+  - Q1 draft: Verify the type species and holotype number (Young and Chow 1953).
+- **genus Huabeisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Euhelopodidae may have to be split among Somphospondyli; the family is kept per PBDB and the backbone.
+- **genus Hualianceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Huanghetitan**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: H. ruyangensis may belong to another genus; check.
+- **genus Huangshanlong**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Huanhepterus**
   - I6 no image
+  - Q1 draft: not yet checked
+- **genus Huashanosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Huaxiadraco**
   - G8 no wingspan: give one, or say in size.note why it is unknown
@@ -752,17 +7451,139 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - S2 no 'original' source (the publication that named the taxon)
   - Q1 draft: Only secondary sources: add the original description (primary literature).; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Huaxiazhoulong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Genus name spelled 'Huaxiazhoulong' by its authors; the backbone used 'Huaxiazhulong'.
+- **genus Huayangosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Hudiesaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates. Holotype number to be read from Dong 1997.
+- **genus Hulkepholis**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The image shows two taxa; check it.; PBDB lists a third species, H. rori.
+- **genus Hungarosaurus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Hylaeochampsa**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No images found.; Add the original description (Owen 1874).
+- **genus Hylaeosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Four species were named; only H. armatus is valid in the cited revision (PBDB also lists H. oweni).; Holotype specimen number to be filled from the Natural History Museum record.
+- **genus Hyposaurus**
+  - G5 type species 'Hyposaurus rogersii' is not in the species list
+  - Q1 draft: Image 9 may be a map; check it and drop it if it is not a fossil photo.; PBDB lists H. derbianus, H. fraterculus and H. natator.
+- **genus Hypselorhachis**
+  - Q1 draft: Check the image.
+- **genus Iberosuchus**
+  - Q1 draft: Check the images.
+- **genus Ibirania**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Browsing is only hypothesised; check Navarro et al. 2022.
+- **genus Ibirasuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: São José do Rio Preto Formation, Bauru Group, Brazil (Santonian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Ieldraan**
+  - I6 no image
+  - Q1 draft: Add the original (Foffa et al. 2018) and holotype.
+- **genus Igai**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ignavusaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Placement - Knoll (2010) outside Massopoda; Yates et al. (2011) possibly a synonym of Massospondylus; Apaldetti et al. (2011) near Sarahsaurus; Chapelle and Choiniere (2018) in Massospondylidae. Massospondylidae kept as the most recent placement.
+- **genus Iharkutosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ikanogavialis**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Ikrandraco**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - Q1 draft: not yet checked
+- **genus Ilchunaia**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Rusconi 1946).
 - **genus Inabtanin**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Inawentu**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Indosinosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Completeness is provisional; add holotype data.
+- **genus Induszalim**
+  - I6 no image
+  - Q1 draft: No Wikipedia page for the genus (the matching page is a list of informally named reptiles): PBDB record only.; Malkani's taxa need a validity check (M1).
+- **genus Ingentia**
+  - Q1 draft: not yet checked
+- **genus Invictarx**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Size not given in the cited revision.
+- **genus Irisosaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species epithet to be checked.
+- **genus Isaberrysaura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Image 12 is an open-access article figure under CC BY; check the licence on the Commons file page.
+- **genus Isanosaurus**
+  - Q1 draft: Type species epithet to be checked.
+- **genus Ischioceratops**
+  - Q1 draft: Holotype number is written ZCDM V0O016 in the Wikipedia revision; check the original paper.
+- **genus Isisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Isisfordia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype not stated.; PBDB parent is Eusuchia; the tree places it in Neosuchia.
+- **genus Issi**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Istiodactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Itapeuasaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Itasuchus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; PBDB places Itasuchus in Itasuchidae; the backbone placed it in Peirosauridae. Check which is current.; Holotype not stated.; Type species filled from general knowledge.
+- **genus Jainosaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Original naming paper (Hunt et al. 1995) to be added; no Wikipedia citations were extracted.
+- **genus Jakapil**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Jaklapallisaurus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Type species epithet to be checked; the one candidate image shows a faunal scene.
+- **genus Janenschia**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Wild 1991) to be added.
 - **genus Jeholopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
@@ -772,35 +7593,242 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Jianchangopterus**
   - I6 no image
   - Q1 draft: not yet checked
+- **genus Jiangjunosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Jiangshanosaurus**
+  - G5 type species not verified against a source
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Type species epithet to be checked.
+- **genus Jiangxisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Jiangxititan**
+  - I6 no image
+  - Q1 draft: Analyses differ; a titanosaur in Mo et al. 2023 and a non-titanosaurian somphospondylan in Han et al. 2024; no image among the candidates.
 - **genus Jidapterus**
   - Q1 draft: not yet checked
+- **genus Jinchuanloong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Jingiella**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Jingshanosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Dong Zhiming considered it possibly a large specimen of Yunnanosaurus; which would make it a junior synonym; PBDB treats it as valid. Holotype; material and completeness not read.
+- **genus Jinyunpelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Jobaria**
+  - Q1 draft: Upper mass estimate read from a cut sentence; check the Wikipedia revision. Age conflict between the revision and PBDB.
+- **genus Judiceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Junggarsuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Completeness to be checked against Ruebenstahl et al. 2022.
+- **genus Kaatedocus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Confirm the holotype number (SMA 004) and the authority year (PBDB 2013; Wikipedia says described in 2012).
+- **genus Kaijutitan**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Kalthifrons**
+  - Q1 draft: not yet checked
+- **genus Kambara**
+  - Q1 draft: not yet checked
+- **genus Kansajsuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the images.; Kuzmin et al. 2019 (citation 3) revises the genus; check validity of the referred material.
+- **genus Kaprosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Karatausuchus**
+  - I6 no image
+  - Q1 draft: Wikipedia calls it atoposaurid; the atlas parent is the nearest clade, check Atoposauridae.; PBDB's reference is a textbook (Carroll 1988); add the naming work, Efimov 1976.
 - **genus Kariridraco**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Karongasaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Original description (Gomani 2005) to be read.
+- **genus Katepensaurus**
+  - Q1 draft: not yet checked
+- **genus Kayentasuchus**
+  - Q1 draft: not yet checked
+- **genus Kentisuchus**
+  - G5 type species not verified against a source
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Wikipedia says it was erected by Mook (1955) for a species described by Owen; type species to be confirmed.; Original naming work to be added.
+- **genus Kentrosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type is a syntype series; a lectotype question is raised in Mallison 2011 (cited by the revision); verify.
 - **genus Keresdrakon**
   - G8 no wingspan: give one, or say in size.note why it is unknown
+  - Q1 draft: not yet checked
+- **genus Khoratosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Lauprasert et al. 2009).
+- **genus Khuzdarcroco**
+  - I6 no image
+  - Q1 draft: No Wikipedia page for the genus (the matching page is a list of informally named reptiles): PBDB record only.; Malkani's 2015 taxa need a validity check (M1).
+- **genus Kinesuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Kinyang**
+  - G5 type species not verified against a source
+  - Q1 draft: The Wikipedia page titled Kinyang is about a Kenyan settlement, not the genus; no revision is cited.; Verify the type species, holotype, size (the paper's title mentions giant crocodylians) and the placement in Euthecodontini.
+- **genus Klamelisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Knoetschkesuchus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype not stated; type species deduced.
+- **genus Kocurypelta**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Koilamasuchus**
+  - Q1 draft: Check the skeletal reconstruction.
+- **genus Koreaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Placement within Neoceratopsia unstable (no skull); PBDB puts it in Leptoceratopsidae.; PBDB gives no named original paper; Lee et al. 2010 named the genus.
+- **genus Kosmoceratops**
+  - Q1 draft: not yet checked
+- **genus Kostensuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Type species filled from general knowledge.
+- **genus Kotasaurus**
+  - Q1 draft: not yet checked
+- **genus Koumpiodontosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restoration.
+- **genus Krabisuchus**
+  - I6 no image
+  - Q1 draft: Holotype and material to be added from Martin and Lauprasert 2010.; No images found among the automatic candidates.
+- **genus Kunbarrasaurus**
   - Q1 draft: not yet checked
 - **genus Kunpengopterus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Kuttanacaiman**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Kuttysuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Lower Dharmaram Formation, Pranhita-Godavari Basin, India (mid-late Norian to Rhaetian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.; The infobox gives 2025 as the naming year while the reference list dates the paper to 2024; 2024 is used.
+- **genus Kyasuchus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; PBDB reference (Efimov and Leshchinskiy 2000) is in Russian.
+- **genus Labidiosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Labrujasuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Petrified Forest Member, Chinle Formation, Hayden Quarry, Ghost Ranch, New Mexico, USA (middle Norian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
 - **genus Lacusovagus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Laganosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Lamplughsaura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Laplatasaurus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates. Type species name from the revision's account; check Gallina and Otero 2015.
+- **genus Lapparentosaurus**
+  - Q1 draft: Images show the earlier name Bothriospondylus.
 - **genus Laueropterus**
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).
+- **genus Lavocatchampsa**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Lavocatisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ledumahadi**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Lessemsauridae is not a clade of the atlas; so the genus sits in Sauropodiformes.
+- **genus Leidyosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Leinkupal**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Lemmysuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: not yet checked
+- **genus Leonerasaurus**
+  - G7 summary must be one sentence ending in '.', ≤170 characters (now 172)
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Leptoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Leptostomia**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Lessemsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Lessemsauridae is not a clade of the atlas; the cladogram in the Wikipedia revision places it outside Sauropoda. Material and completeness to be read.
+- **genus Leyesaurus**
+  - Q1 draft: not yet checked
+- **genus Lianghusuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Completeness to check; placed in Alligatoridae by Brochu (1999).
+- **genus Liaoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Liaodactylus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - Q1 draft: not yet checked
 - **genus Liaoningopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Liaoningosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the fish-hunting claim (Ji et al. 2016) before relying on it.
+- **genus Liaoningotitan**
+  - Q1 draft: Check that images 2 and 3 show Liaoningotitan (file names say only Liaoning Palaeontological Museum).; Holotype number not read.
+- **genus Libycosuchus**
+  - Q1 draft: Sole member of Libycosuchidae and Libycosuchinae; possibly related to Notosuchus.; Original naming work (Stromer 1914) to be added.
+- **genus Ligabuesaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Limaysaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Revision cites a 2026 zircon study on the age; read it before fixing the age.
+- **genus Lingwulong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Age and formation unresolved (Yanan vs Zhiluo); check before consolidation.; Placement uncertain between 2018 and 2025 analyses; check whether Mannion and Moore 2025 put it inside Diplodocoidea.
 - **genus Lingyuanopterus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
@@ -811,51 +7839,448 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I6 no image
   - S2 no 'original' source (the publication that named the taxon)
   - Q1 draft: not yet checked
+- **genus Lirainosaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Lishulong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Skeletal reconstruction on Commons (Lishulong Skeletal.svg) is an SVG that the media fetch cannot convert; add it as a PNG render if wanted.
+- **genus Listrognathosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **genus Litargosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The skull of the holotype is lost; check what remains of the skeleton.; The tool flagged the Wikipedia article as possibly not about the genus; its text does describe Litargosuchus.
+- **genus Liubangosaurus**
+  - G5 type species not verified against a source
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Type species epithet to be checked.
+- **genus Llanosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Lohuecotitan**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image among the harvested candidates.
+- **genus Lokiceratops**
+  - Q1 draft: not yet checked
+- **genus Lomasuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Type species and country filled from general knowledge; check the original description.
+- **genus Longosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Hunt and Lucas (1990) separated it from Typothorax and named it for Robert Long.
+- **genus Loricatosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Lorosuchus**
+  - I6 no image
+  - Q1 draft: No candidate image on the contact sheet.; PBDB places it in Sebecidae; the backbone places it in Notosuchia - check.; Original naming work is Pol and Powell 2011.
+- **genus Losillasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Lotosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Originally placed in its own family Lotosauridae (Zhang 1975); original paper to be added.
+- **genus Lourinhasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: PBDB places it in Camarasauridae; which has no atlas entry; macronaria used.
+- **genus Lucasuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Long and Murry 1995).
+- **genus Luciasuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Jouve et al. 2021).
 - **genus Ludodactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Lufengosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check valid species - L. magnus and L. changduensis; Gyposaurus sinensis has been referred to this genus by some authors.
+- **genus Lukousaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the images and the life restoration.; Placement is debated (dinosaur, sauropodomorph, crocodylomorph); review the sources (M2).
 - **genus Luopterus**
   - G6 no species listed (every valid genus has at least its type species)
   - Q1 draft: not yet checked
+- **genus Luperosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: No candidate image on the contact sheet.
+- **genus Lusitanisuchus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; add the original (Schwarz and Fechner 2004).
+- **genus Lusotitan**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Type species epithet to be checked.
 - **genus Maaradactylus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Macelognathus**
+  - Q1 draft: Check the images.; No citations in the Wikipedia revision; add the original (Marsh 1884).
+- **genus Machairoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Machimosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Authority from the Wikipedia article (PBDB has none); name emended from Madrimosaurus in 1838.; Size: up to 7.15 m for M. rex (Fanti et al. 2016); no genus-wide range.
+- **genus Macrocollum**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Maehary**
+  - Q1 draft: Check the images.; Kellner et al. 2022 also reassessed Faxinalipterus; check whether that affects this genus.
+- **genus Magyarosaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming work (Huene 1932) and type species to be checked; species M. transsylvanicus is a chimera per the revision.
+- **genus Magyarosuchus**
+  - Q1 draft: Check the skeletal reconstruction.; Add size from Ősi et al. 2018 (the paper title mentions a large body).
+- **genus Mahajangasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Makrodactylus**
   - I6 no image
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).
+- **genus Malarguesaurus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates. Holotype number to be read.
+- **genus Malawisaurus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Malawisuchus**
+  - I6 no image
+  - Q1 draft: No candidate image on the contact sheet; look for a source.; Classified as Notosuchidae by Gomani and as Itasuchidae by Carvalho et al. 2004.
+- **genus Maledictosuchus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restorations.; Verify the type species.
+- **genus Mambawakale**
+  - Q1 draft: Check the images; the Manda Beds 1963 photograph (image 11) is not used.; Pallisteria Charig 1967 is the informal name; consider an excluded.yaml entry (nomen nudum) after checking the sources.
+- **genus Mamenchisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list limited to the species the Wikipedia revision treats as commonly recognised or the PBDB lists with authority; PBDB also lists gongjianensis and sanjiangensis (2025). Check.
+- **genus Mandasuchus**
+  - Q1 draft: The name was first used in a 1956 thesis by Charig and formally published only in 2018 (Butler et al.); PBDB gives Charig 1967 - check authority.; Placed by Romer (1967) in Prestosuchidae.
+- **genus Mandrasuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Denver Formation, Corral Bluffs, Denver Basin, Colorado, USA (Danian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Mansourasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Maomingosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Maraapunisaurus**
+  - G7 summary must be one sentence ending in '.', ≤170 characters (now 174)
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype description (the 1878 original as Amphicoelias fragillimus) and size estimates to be read from Woodruff and Foster 2014 and Carpenter 2018; PBDB places Amphicoelias separately.
+- **genus Mariliasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: First remains collected in 1995 by William Nava and described in 1999 by Carvalho and Bertini; original paper to be added.
+- **genus Maroccosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Wikipedia's lead for this revision is a cladogram note; check the genus description.
+- **genus Massaliasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Massospondylus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Maxakalisaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species epithet to be checked.
+- **genus Mbiresaurus**
+  - I6 no image
+  - Q1 draft: No usable image among the harvested candidates.
+- **genus Mecistops**
+  - Q1 draft: Position inside Crocodylidae is debated — molecular and combined analyses put it basal to Crocodylus, some morphological analyses basal to Crocodylinae (see the cladograms in the cited Wikipedia revision); the atlas has no Crocodylinae clade, so it sits in Crocodylidae like Crocodylus.; Conservation status (IUCN) quoted in the source predates the split into two species; do not use it without a current source.; Check the bibliographic details of Gray 1844 and decide between M. cataphractus and M. leptorhynchus (via M. bennettii) as type species.; Images were chosen from Commons captions and licences, not visually checked (the shell cannot download them); the media-fetch workflow stores the files. Check them against the contact sheet.
+- **genus Medusaceratops**
+  - Q1 draft: PBDB gives Ryan et al. 2010 as authority; not in the Wikipedia citations.
+- **genus Megadontosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
 - **genus Meilifeilong**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - S2 no 'original' source (the publication that named the taxon)
   - Q1 draft: Only secondary sources: add the original description (primary literature).; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Mekosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Melanorosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The skull referral and the 2024 redescription to be checked.
+- **genus Melanosuchus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: M. fisheri (Medina 1976, Urumaco Formation, Venezuela) is sometimes treated as a nomen dubium or a synonym of M. niger (Bona et al. 2017; Foth et al. 2018); left out of the species list.
+- **genus Melitosaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Menatalligator**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Age conflict — PBDB Selandian (Paleocene), Wikipedia Ypresian (early Eocene); age kept from PBDB.; Completeness and holotype to check in Piton (1940).
+- **genus Mendozasaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image among the harvested candidates. Holotype, material and biology to be read from González-Riga 2003.
+- **genus Menefeeceratops**
+  - Q1 draft: not yet checked
+- **genus Menucocelsior**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates.
+- **genus Meridiosaurus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Meroktenos**
+  - G5 type species not verified against a source
+  - Q1 draft: Type species epithet to be checked.
+- **genus Metriorhynchus**
+  - G5 type species 'Metriorhynchus brevirostris' is not in the species list
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; PBDB's primary reference is a compendium, not the naming work; add the original description.; Several former species moved to Thalattosuchus in 2020/2021 (Young et al.); recheck the species list.
+- **genus Miadanasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Micropachycephalosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives no named original paper; Dong 1978 named the genus.
+- **genus Microsuchus**
+  - I6 no image
+  - Q1 draft: Check the redescription of Leardi et al. 2015 (citation 4).
+- **genus Mierasaurus**
+  - Q1 draft: not yet checked
 - **genus Mimodactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Minotaurasaurus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - Q1 draft: Ethical/provenance flag: the holotype was probably exported illegally; the Djadokhta Formation locality is not confirmed.; PBDB lists no occurrence and no formation.
 - **genus Mistralazhdarcho**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Mnyamawamtuka**
+  - I6 no image
+  - Q1 draft: Auto-suggested image 10 looked unreliable and was left out.
+- **genus Moabosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The 2017 describing paper found it a basal titanosauriform macronarian (Wikipedia); PBDB and the backbone put it in Turiasauria, which is kept. Check.
 - **genus Moganopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Mongolosaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Mongolostegus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Size not given in the cited revision.; Informally called Wuerhosaurus 'mongoliensis' by Ulansky 2014 (nomen nudum).
+- **genus Monoclonius**
+  - Q1 draft: Validity (nomen dubium?) and species list need review (M1); several species were moved to other genera.
+- **genus Montanoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Genus named by Sternberg 1951 (PBDB); the Wikipedia revision cites Brown and Schlaikjer 1942 for the species.
+- **genus Montealtosuchus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Type species filled from general knowledge.; Holotype not stated.
+- **genus Montsecosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Add the original description (Buscalioni & Sanz 1988).
+- **genus Morrinhosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Named for Morrinho de Santa Luzia, a hill near the collection site, and the nearby chapel of Santa Luzia.
+- **genus Mosaiceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Wikipedia revision lists no citations; PBDB authority Zheng et al. 2015.
+- **genus Mourasuchus**
+  - Q1 draft: not yet checked
+- **genus Musankwa**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Barrett et al. 2024) is cited as item 1; check.
+- **genus Mussaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Musturzabalsuchus**
+  - Q1 draft: Check the images.
+- **genus Muyelensaurus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Type species epithet to be checked; no image among the candidates.
 - **genus Muzquizopteryx**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Mycterosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Holotype, material and completeness not stated; fill from Andrews 1913 / Johnson et al. 2020.; Add the original description (Andrews 1913).
+- **genus Mymoorapelta**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Mystriosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Wikipedia says the only known species is M. laurillardi; PBDB lists many obsolete names.; Holotype and completeness not stated; add the original description (Münster 1834).
+- **genus Nambalia**
+  - I6 no image
+  - Q1 draft: No image among the candidates.
+- **genus Nannosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check the images.
+- **genus Narambuenatitan**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates.
+- **genus Narindasaurus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Royo-Torres et al. 2021) to be added; no image among the candidates.
+- **genus Nasutoceratops**
+  - Q1 draft: not yet checked
+- **genus Navajoceratops**
+  - I6 no image
+  - Q1 draft: Wikipedia revision has no citation list extracted; the naming paper is Fowler and Freedman Fowler 2020 (PBDB).
+- **genus Navajosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Nebulasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Necrosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Nemegtosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: PBDB puts it in Nemegtosauridae; the backbone placement in Saltasauroidea (cladogram of Franca et al. 2016 in the Wikipedia revision) is kept. Check.
+- **genus Neoaetosauroides**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Neosteneosaurus**
+  - Q1 draft: Check the images.
+- **genus Neptunidraco**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Age: late Bajocian to earliest Bathonian per Wikipedia; PBDB range is wider.
+- **genus Neuquensaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Neuquensuchus**
+  - Q1 draft: Check the skeletal reconstruction.; Add holotype number from Fiorelli and Calvo 2007.
+- **genus Ngwevu**
+  - G7 summary must be one sentence ending in '.', ≤170 characters (now 175)
+  - Q1 draft: Whether the holotype is part of the Massospondylus growth series or a distinct genus is debated; to check against later studies.
+- **genus Nigersaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Ningchengopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Ninjatitan**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Niobrarasaurus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Nipponopelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Authority year: PBDB says 2027, but the cited Wikipedia revision and its citation give Oyabu et al. 2026; the entry uses 2026. Check the publication record (owner asked for this check).; Size not given in the cited revision.
+- **genus Nodocephalosaurus**
+  - I6 no image
+  - Q1 draft: No usable image candidates.
+- **genus Nodosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: PBDB also has Campanian and Maastrichtian records; the cited revision says the fossils come exclusively from the Frontier Formation.
+- **genus Nominosuchus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Verify the type species. Skull length is given in Wikipedia but not entered.
 - **genus Noripterus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Normanniasaurus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Type species epithet to be checked.
 - **genus Normannognathus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I6 no image
+  - Q1 draft: not yet checked
+- **genus Notoceratops**
+  - Q1 draft: Has been considered a nomen dubium; validity to be reviewed (M1) — PBDB still lists it as valid.
+- **genus Notochampsa**
+  - I6 no image
+  - Q1 draft: Check that PBDB's Notochampsidae is the right clade; Dollman 2021 (citation 1) revises the anatomy and taxonomy.
+- **genus Notocolossus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Notosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Nullotitan**
+  - Q1 draft: not yet checked
+- **genus Nundasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Nurhachius**
   - G5 type species not verified against a source
@@ -867,32 +8292,382 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Oceanosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Oceanotitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ocepesuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Ogresuchus**
+  - Q1 draft: Check the reconstruction.
+- **genus Ohmdenosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Material and holotype number to be read from Wild 1978.
+- **genus Olkasuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Los Colorados Formation, La Esquina locality, Talampaya National Park, La Rioja, Argentina (Norian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Omeisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Species list needs checking (PBDB also lists luoquanensis, jiaoi, puxiani).
+- **genus Oohkotokia**
+  - Q1 draft: PBDB gives no named original paper; Penkalski 2013 described it.
+- **genus Ophiussasuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Check the image.
+- **genus Opisthocoelicaudia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Catalogue number of the holotype is truncated in the text read (MPC-D100/...). Check.; Two mounted-skeleton photos (CC BY-SA 3.0 PL, Museum of Evolution, Warsaw) were left out because the validator does not accept the Polish port of CC BY-SA; CC BY-SA is allowed in any version, so the owner may decide to accept them.
+- **genus Opisuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Oplosaurus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Wikipedia calls the genus "was" and its validity is doubtful; owner to decide whether it belongs in excluded.yaml. Original paper (Gervais 1852) to be added.
+- **genus Orientalosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restoration.
 - **genus Orientognathus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I6 no image
   - Q1 draft: not yet checked
+- **genus Ornithopsis**
+  - Q1 draft: Lectotype status and type species to be checked.
+- **genus Ornithosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Dasygnathus longidens (Huxley 1877), renamed Dasygnathoides, was synonymised with Ornithosuchus by Walker 1964 but a 2016 study found it indeterminate beyond Pseudosuchia.; Wikipedia lists no citations in this revision; add literature sources.; Second species O. taylori (Broom 1913) is listed by PBDB.
+- **genus Orthogenysuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Orthosuchus**
+  - Q1 draft: PBDB places it in Notochampsidae; the backbone places it in Protosuchidae.; Completeness to be checked against Dollman et al. 2021.
+- **genus Osteolaemus**
+  - G5 type species 'Osteolaemus tetraspis' is not in the species list
+  - Q1 draft: Molecular data suggest O. tetraspis contains two lineages that may deserve species rank (Eaton et al. 2009).; Authority year differs between PBDB (Cope 1860) and Wikipedia (Cope 1861).
+- **genus Overosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Paarthurnax**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Holly Creek Formation (Trinity Group), southwest Arkansas, USA (Aptian-Albian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Pabwehshi**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Pachycephalosaurus**
+  - Q1 draft: Type species given as P. wyomingensis by PBDB's first-named species and P. grangeri by the Wikipedia taxobox; confirm.
+- **genus Pachycheilosuchus**
+  - I6 no image
+  - Q1 draft: Add body-length estimate from Iijima and Kubo 2020 if applicable.
+- **genus Pachyrhinosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Padillasaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The only candidate image is a laboratory sheet; not used.
+- **genus Pagosvenator**
+  - I6 no image
+  - Q1 draft: Add holotype from Lacerda et al. 2018.
+- **genus Pakasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Completeness to be checked against O'Connor et al. 2010.; The age was first given as about 105 Ma and later revised to Cenomanian-Campanian.
+- **genus Paleosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Body length of the living species is not in the sources used; find a species-level source (G8).; The fossil record is thin (4 PBDB occurrences); check the Miocene Pebas material against Salas-Gismondi et al. 2015.; Check the exact title of Gray 1862 and the catalogue number of Magnusson 1992 before this entry is reviewed.; Images were chosen from Commons captions and licences, not visually checked (the shell cannot download them); the media-fetch workflow stores the files. Check them against the contact sheet.
+- **genus Paludirex**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Paludititan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Paluxysuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Pampadromaeus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Naming paper (Cabreira et al. 2011) is the PBDB reference; check the citation list of the Wikipedia revision.
+- **genus Panamericansaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Panoplosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Edmontonia was for a time considered the same genus; keep them apart.; PBDB reaches the Maastrichtian (Ferris Formation); the cited revision lists only Campanian specimens.
+- **genus Panphagia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Pantydraco**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Paralititan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Mass range quoted as 30-55 t in the revision; check the cited sources.
+- **genus Paralligator**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype and type species not stated; deduced.; Size: up to 4 m for P. gradilifrons; no genus range.; Add the original description (Konjukova 1954).
+- **genus Paranacaiman**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Paranasuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Paranthodon**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB authority credits Nopcsa 1929 but the PBDB reference is Carroll 1988; confirm the naming paper.; Size not given in the cited revision.
 - **genus Parapsicephalus**
+  - Q1 draft: not yet checked
+- **genus Paratomistoma**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Paratypothorax**
+  - Q1 draft: not yet checked
+- **genus Parringtonia**
+  - Q1 draft: Check the skeletal reconstruction.
+- **genus Parvosuchus**
+  - Q1 draft: not yet checked
+- **genus Patagopelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - Q1 draft: No image candidates found.
+- **genus Patagosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Patagosuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Type species filled from general knowledge; check the original description.; Add the original naming work.
+- **genus Patagotitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The life-sized replica among the candidates was left out (model). Needs a life restoration and more images.
+- **genus Pattisaura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Named in 2025 and its relationship to other early crocodylomorphs is only weakly supported.
+- **genus Pawpawsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: May be a junior synonym of Texasetes (cited revision).
+- **genus Pedeticosaurus**
+  - G7 summary must be one sentence ending in '.', ≤170 characters (now 176)
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Clark and Sues (2002) proposed that the name is a nomen dubium - consider moving to excluded.yaml (M1).; Original naming work (Van Hoepen 1915) to be added; PBDB cites a textbook.
+- **genus Pehuenchesuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Peipehsuchus**
+  - Q1 draft: Age conflict: Wikipedia says Early Jurassic (Toarcian) while PBDB gives Callovian; atlas age follows PBDB; resolve (M5).; The image is captioned as a 'Chinese teleosauroid'; check.
+- **genus Peirosaurus**
+  - Q1 draft: Check the image.
+- **genus Pelagosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Usually placed as a teleosauroid; Buffetaut (1980) suggested an early-diverging metriorhynchid and the placement has been disputed - kept in Thalattosuchia.; Original naming work (Bronn 1841) to be added.
+- **genus Pellegrinisaurus**
+  - Q1 draft: not yet checked
+- **genus Peloroplites**
+  - Q1 draft: not yet checked
+- **genus Pelorosaurus**
+  - G5 type species not verified against a source
+  - Q1 draft: Type species and valid species to be checked; the genus has a long and tangled history.
+- **genus Penghusuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Pentaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB lists three species; Longrich 2014 named P. aquilonius — check which are valid.
+- **genus Pepesuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; No image kept: the only candidate was a lower jaw drawing on black.; Type species filled from general knowledge.; Add the original naming work.
+- **genus Perijasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Peteinosaurus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Petrobrasaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Pholidosaurus**
+  - Q1 draft: not yet checked
+- **genus Phosphatosaurus**
+  - I6 no image
+  - Q1 draft: Filed under the spelling Phosphatosaurus; the backbone had the misspelling Phosphatosuchus (removed).; No images found among the automatic candidates.; PBDB also lists an Egyptian record (Duwi Formation, Campanian-Maastrichtian) that Wikipedia does not mention; check.
+- **genus Phuwiangosaurus**
+  - Q1 draft: not yet checked
+- **genus Phyllodontosuchus**
+  - I6 no image
+  - Q1 draft: Add holotype number from Harris et al. 2000.
+- **genus Pietraroiasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Pilmatueia**
+  - Q1 draft: not yet checked
+- **genus Pinacosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Four species in PBDB (P. grangeri, hilwitnorum, mephistocephalus, ninghsiensis); check their status.
+- **genus Pinacosuchus**
+  - I6 no image
+  - Q1 draft: Wikipedia's citations include O'Neill 1981 on Akanthosuchus; check whether it concerns the same specimens.
+- **genus Piscogavialis**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Pissarrachampsa**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype number to be added from Montefeltro et al. 2011.
+- **genus Pitekunsaurus**
+  - I6 no image
+  - Q1 draft: No image among the candidates.
+- **genus Plagiophthalmosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Completeness is provisional; add holotype data.
+- **genus Planocrania**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: A 2013 analysis grouped the two Asian species with Boverisuchus and reinstated Planocraniidae.; Holotype and material to be added from Li 1976 and 1984.
 - **genus Plataleorhynchus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Plateosauravus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Plateosauravus was suggested by A. Yates in place of Euskelosaurus; now regarded as based on undiagnostic material.
+- **genus Plateosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Valid species and their ages to be checked; PBDB lists nine species.
+- **genus Platyognathus**
+  - Q1 draft: PBDB also lists a Morrison Formation (Jurassic, USA) occurrence; check it.; Add holotype number (Young 1944; Wang 2025 describes a new specimen).
+- **genus Platypelta**
+  - Q1 draft: not yet checked
+- **genus Platysuchus**
+  - G5 type species 'Platysuchus multiscrobiculatus' is not in the species list
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Originally Mystriosaurus multiscrobiculatus; renamed by Westphal 1961.; Holotype, material and completeness not stated; no literature source in the dossier.
+- **genus Platytholus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Named in 2023 (Horner et al., PBDB).
+- **genus Plesiosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Add the original description (Owen 1884).
+- **genus Polacanthus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species P. becklesi, P. foxii and P. rudgwickensis are listed in PBDB; the cited revision accepts only P. foxii.; PBDB gives no named original paper (Fox 1866); add the naming source if needed.
+- **genus Polesinesuchus**
+  - Q1 draft: Validity (M1): the English Wikipedia lead says anatomical evidence suggests the holotype is a juvenile of the contemporary Aetosauroides; check the 2021 papers (Paes-Neto et al.).; The image file name suggests a possible-synonym reconstruction; check it.
+- **genus Polonosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Poposaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Remains once assigned to Poposaurus have been reassigned to other taxa such as Paleorhinus (Lees 1907 discusses a skull).
+- **genus Portugalosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: A 2021 study recovered it in Gavialidae near the thoracosaurs; other analyses place it as a basal crocodylian.; Holotype and material to be added from Mateus et al. 2019.
+- **genus Postosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Pradhania**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species epithet to be checked.
 - **genus Prejanopterus**
   - I6 no image
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Prenocephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the holotype number and the Kirtland Formation record.
+- **genus Prenoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Preondactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Prestosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia says von Huene named the genus in 1938; PBDB gives Huene 1942 - check.; Size to be added from Desojo et al. 2020.
+- **genus Procaimanoidea**
+  - Q1 draft: not yet checked
+- **genus Procerosuchus**
+  - Q1 draft: Check the skeletal reconstruction.
+- **genus Prodiplocynodon**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Proexochokefalos**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia and the literature give the locality: Marnes de Dives, near Villers-sur-Mer, Calvados, Normandy, France (Callovian); also Calcaire de Caen and Reuchenette Formation for P. cf. bouchardi. No coordinates or PBDB collection yet.; English Wikipedia places it in the Machimosauridae (subfamily Machimosaurinae); the atlas has no clade for that family, so the genus sits in Teleosauroidea.; No Wikipedia revision recorded; no images yet.
+- **genus Propanoplosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Size of the hatchling not given in the cited revision; adult size unknown.
 - **genus Propterodactylus**
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).
+- **genus Protoalligator**
+  - Q1 draft: not yet checked
+- **genus Protocaiman**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: PBDB also lists a Hell Creek occurrence; check that referral.
+- **genus Protoceratops**
+  - Q1 draft: Check the holotype number against Granger and Gregory 1923.
+- **genus Protognathosaurus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Type species epithet to be checked; Wikipedia credits the name to Olshevsky 1991 for Zhang's 1988 material.
+- **genus Protosuchus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Brown 1934) to be added.
+- **genus Pseudhesperosuchus**
+  - Q1 draft: Filed under the spelling Pseudhesperosuchus; the backbone had the misspelling Pseudohesperosuchus (removed).; PBDB cites a textbook (Carroll 1988); the naming work used here is Bonaparte 1969 from the Wikipedia citation list. Check the details.
+- **genus Pseudogavialis**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Chitarwata Formation (and probably the Chinji Formation), Laki Hills (Sindh) and Bugti Hills, Pakistan. No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Psittacosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Several species (about nine) in PBDB; check which are still valid.
 - **genus Pteranodon**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
@@ -914,8 +8689,47 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
 - **genus Pterorhynchus**
   - I6 no image
   - Q1 draft: not yet checked
+- **genus Puertasaurus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Original description (Novas et al. 2005) to be added as source.
+- **genus Pulanesaura**
+  - Q1 draft: not yet checked
+- **genus Punatitan**
+  - I6 no image
+  - Q1 draft: No image among the candidates.
+- **genus Purranisaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The automatic image suggestion shows another taxon (Suchodus) and was not used.
+- **genus Purussaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Qianosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Qianshanosuchus**
+  - I6 no image
+  - Q1 draft: PhyloPic silhouette https://www.phylopic.org/images/90610e00-953b-4bd1-8b20-66832b1417e1 has no PNG of 512 px or more in the harvest; add it with a smaller raster.
+- **genus Qiaowanlong**
+  - Q1 draft: Holotype number and material to be read from You and Li 2009.
+- **genus Qijianglong**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image among the harvested candidates. Age debated.
 - **genus Qinglongopterus**
   - Q1 draft: not yet checked
+- **genus Quaesitosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Quetecsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming paper (Gonzalez Riga and Ortiz David 2014) to be added; item 1 is a 2013 paper.
 - **genus Quetzalcoatlus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
@@ -923,24 +8737,303 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Quinkana**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Qunkasaura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Raeticodactylus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Rapetosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Original citation index 15 taken from the brief; check that it is Curry Rogers and Forster 2001.
+- **genus Rauisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Huene 1942) to be added.; The Zahnsanga site lies in the uppermost 2.5 m of an 8 m layer of the Alemoa Member.
+- **genus Rayososaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates. Material and number to be read from Bonaparte 1996.
+- **genus Razanandrongobe**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restorations.
+- **genus Rebbachisaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Holotype number and material to be read from Lavocat 1954 and Wilson and Allain 2015.
+- **genus Redondasuchus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Verify the type species; validity is disputed (possible synonym of Typothorax coccinarum, M1).
+- **genus Redondavenator**
+  - I6 no image
+  - Q1 draft: Size not stated in the brief; the naming paper title says 'giant'. Add figures from it.
+- **genus Regaliceratops**
+  - Q1 draft: not yet checked
+- **genus Revueltosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Hunt 1989) to be added.
+- **genus Rhabdognathus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Verify the type species (Swinton 1930 named it).; Check the life restoration.
+- **genus Rhacheosaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Filed under the spelling Rhacheosaurus; the backbone had the misspelling Racheosaurus (removed).; Naming paper: von Meyer 1831, Nova Acta Academiae Leopoldino-Carolinae 15(2):173-184 (from an older Wikipedia text, not in the fixed revision); PBDB's reference is Meyer 1845. Verify and add as original.
 - **genus Rhamphorhynchus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Rhamphostomopsis**
+  - G5 type species not verified against a source
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No Wikipedia page; PBDB record only. Verify the type species and add literature.
+- **genus Rhamphosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: R. pachyrhynchus (with G. breviceps) is accepted by Courville et al. (2025) but not yet in PBDB.
+- **genus Rhoetosaurus**
+  - Q1 draft: Material; holotype and completeness to be read from Longman 1926 and Nair 2012.
+- **genus Rhomaleopakhus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Rimasuchus**
+  - I6 no image
+  - Q1 draft: PBDB's range (to the Late Pleistocene) includes material from East Africa once referred to "Crocodylus" lloydi; Wikipedia limits the genus to the early Miocene of Egypt and possibly Libya.
+- **genus Rinconsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Moved from Lognkosauria in the backbone to Titanosauria (see docs/TREE_REVIEW.md). No image among the harvested candidates.
+- **genus Rioarribasuchus**
+  - I6 no image
+  - Q1 draft: Suggested to be closer to Paratypothorax; Parker gave it the name Heliocanthus, which stayed a nomen nudum until 2007, while Lucas et al. published Rioarribasuchus in 2006 - a naming priority dispute.; PBDB lists an Early Aptian occurrence in the Atherfield Clay (United Kingdom) that looks erroneous - check.; No candidate image on the contact sheet.; Wikipedia lists no citations in this revision; add literature sources.; Original naming work is Lucas et al. 2006 (PBDB).
+- **genus Riojasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Riojasuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Rocasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Rodeosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restoration.; Add the original (Jouve et al. 2021).
+- **genus Roxochampsa**
+  - Q1 draft: Check the images; the CT scan figure (image 10) was left out.; Verify the type species.
+- **genus Rubeosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: English Wikipedia has no article on this genus; entry rests on PBDB and the literature cited in the Styracosaurus revision. Fill holotype and size from McDonald and Horner 2010.
+- **genus Ruehleia**
+  - Q1 draft: Wikipedia revision cites no sources for this genus; Galton (2001) is the PBDB reference. Holotype number to be read.
+- **genus Rugosuchus**
+  - I6 no image
+  - Q1 draft: Add holotype number from Wu et al. 2001.
+- **genus Ruixinia**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates. Original naming paper (Mo et al. 2023) to be checked.
+- **genus Rukwasuchus**
+  - I6 no image
+  - Q1 draft: No candidate image on the contact sheet.; Phylogenetic analyses generally place it in Peirosauria.
+- **genus Rukwatitan**
+  - G5 type species not verified against a source
+  - Q1 draft: Type species epithet to be checked.
+- **genus Ruyangosaurus**
+  - Q1 draft: Mass figure belongs to the 24.8 m estimate; holotype number to be read from Lu et al. 2009.
+- **genus Sabinosuchus**
+  - I6 no image
+  - Q1 draft: Placement conflict between PBDB (Pholidosauridae) and the paper title (dyrosaur); resolve (M2).; Add the original (Schiller et al. 2016).
+- **genus Sabresuchus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Verify the type species.
+- **genus Sacacosuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Sahitisuchus**
+  - Q1 draft: Check the images.
+- **genus Saichania**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Sakhibaghoon**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No Wikipedia page; PBDB record only. Malkani's taxa need a validity check (M1).
+- **genus Saltasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the eggshell attribution before keeping the egg image.
+- **genus Saltoposuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Material and completeness to be checked against Spiekman et al. 2023.; Terrestrisuchus is kept as a separate genus here (PBDB).
+- **genus Sarahsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Sarcolestes**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - Q1 draft: Size not given in the cited revision.
+- **genus Sarcosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Sarmientosaurus**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Images are figures from the open-access description; check captions and kinds.
+- **genus Sasayamagnomus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Sauropelta**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype specimen number still to be filled from Ostrom 1970.
+- **genus Sauroplites**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No usable image candidates.; Size not given in the cited revision.
+- **genus Sauroposeidon**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia revision flagged as not about the genus by the harvest; check it. The PBDB reference misspells the genus as Sauropseidon.
+- **genus Saurosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Savannasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
 - **genus Scaphognathus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Scelidosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype number to be filled (Norman 2020 monograph).
+- **genus Schleitheimia**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Type species epithet to be checked; no image among the candidates.
+- **genus Scolomastax**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Scolosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Oohkotokia has been considered a synonym by some researchers.
+- **genus Scolotosuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Sennikov 2022).
+- **genus Scutarx**
+  - Q1 draft: Holotype number to be added from Parker 2016.
+- **genus Scutellosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Scythosuchus**
+  - I6 no image
+  - Q1 draft: Check whether Paracrocodylomorpha is the best atlas ancestor.
+- **genus Sebecus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives the authority as Stirton 1953; Simpson 1937 named S. icaeorhinus - check.; Wikipedia recognises two species (S. icaeorhinus and S. ayrampu); several others were moved to their own genera.; Several recent analyses recover Sebecosuchia as polyphyletic.
+- **genus Sefapanosaurus**
+  - G7 summary must be one sentence ending in '.', ≤170 characters (now 174)
+  - I6 no image
+  - Q1 draft: No usable image among the harvested candidates.
+- **genus Seitaad**
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Sertich and Loewen 2010) is cited as item 1; check.
+- **genus Seldsienean**
+  - Q1 draft: Check the images.
+- **genus Serendipaceratops**
+  - I6 no image
+  - Q1 draft: Placement within Ceratopsia doubtful (M2); PBDB gives no named original paper (Rich and Vickers-Rich 2003).
 - **genus Sericipterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Shakajlura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restoration (Japanese file name; confirm credit and licence).; Very recent genus (2026); add holotype and size from the naming paper.
+- **genus Shamosaurus**
+  - I6 no image
+  - Q1 draft: No image candidates; PBDB gives no named original paper (Tumanova 1983).
+- **genus Shamosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype not stated.; Size: up to 4 m; no genus range.
+- **genus Shantungosuchus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Verify the type species and holotype (Young 1961).
+- **genus Shartegosuchus**
+  - I6 no image
+  - Q1 draft: PBDB's listed reference is a Notosuchus paper; add the naming work, Efimov 1988.
 - **genus Shenzhoupterus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Shingopana**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Shunosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Shuvosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Originally described as a theropod dinosaur (Chatterjee 1993).
+- **genus Siamosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Sibirotitan**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
+- **genus Sichuanosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Placed in Crocodyliformes because the volume has no Shartegosuchoidea entry; analyses find it sister to Shantungosuchus and Zosuchus (Pol and Norell 2004; Buscalioni 2017; Dollman et al. 2018).; Material, holotype and original naming work (Peng 1995) to be added.; PBDB reference is a different paper.
+- **genus Sidersaura**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Sierraceratops**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Wikipedia revision text is brief; check size and holotype contents against Dalman et al. 2022.
+- **genus Sierritasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Sillosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Silutitan**
+  - Q1 draft: not yet checked
+- **genus Silvisaurus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Simosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Sinankylosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - Q1 draft: Validity in doubt: later research notes the lack of characters uniting it with ankylosaurs; consider M1 (move to excluded.yaml if recent literature treats it as indeterminate).; No image candidates; size not given.
+- **genus Sinocephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Genus erected by Evans et al. 2021 (PBDB).
+- **genus Sinoceratops**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Sinomacrops**
@@ -952,32 +9045,375 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Verify type species against the original description.; Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Siquisiquesuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Sissokosuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Informal 'Continental intercalaire' beds, locality Mali 12, Mali (about Aptian-Albian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
 - **genus Skiphosoura**
   - I6 no image
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).
+- **genus Smitanosaurus**
+  - Q1 draft: not yet checked
+- **genus Smok**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia and the literature give the locality: Lipie Śląskie clay pit, Lisowice, Silesian Voivodeship, Poland (latest Norian to early Rhaetian). No coordinates or PBDB collection yet.; No Wikipedia revision recorded: the revision id could not be fetched; add it when the page is harvested.; No images yet.
+- **genus Sokotosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Sonidosaurus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates.
+- **genus Sonorasaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image among the harvested candidates.
+- **genus Sonselasuchus**
+  - Q1 draft: Described in 2026 (Armour Smith and Sidor); holotype number to be added.; Original naming work is the 2026 paper (PBDB).
 - **genus Sordes**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Soriatitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Sphaerotholus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: PBDB lists five species (including S. lyonsi and S. triregnum, named in 2023); check which are valid.
+- **genus Sphagesaurus**
+  - Q1 draft: A 2026 review (Kitayama and Bertini) provisionally proposes that Armadillosuchus arrudai and Caryonosuchus pricei are junior synonyms of S. huenei; see the Armadillosuchus entry.
+- **genus Sphenosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype number to be added from Haughton 1915 and Walker 1990.
+- **genus Spiclypeus**
+  - Q1 draft: not yet checked
+- **genus Spicomellus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Spinophorosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Spinops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Stagonolepis**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original description (Agassiz 1844) and holotype to be added.; South American material formerly assigned to the genus belongs to Aetosauroides.
+- **genus Stagonosuchus**
+  - G5 type species not verified against a source
+  - Q1 draft: Verify the type species and the validity of the genus (M1).; Check the skeletal reconstruction.
+- **genus Stangerochampsa**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Stegoceras**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: PBDB lists S. browni, S. novomexicanum and S. validum; S. bexelli became Sinocephale.
+- **genus Stegomosuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia and the literature give the locality: Portland Formation, Hoover Quarry, East Longmeadow, Massachusetts, USA (late Hettangian). No coordinates or PBDB collection yet.; Validity: kept as valid; Whetstone and Whybrow (1983) found the specimen too poorly preserved to classify it further. Check recent literature (M1).; No Wikipedia revision recorded; no images yet.
+- **genus Stegopelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Size not given in the cited revision.
+- **genus Stegosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Holotype specimen number of S. stenops (and of Marsh's original S. armatus type) still to be filled from Opinion 2320 or Galton and Carpenter 2016.; PBDB range reaches the Cenomanian through genus-level records (Cedar Mountain); the cited revision treats the genus as Late Jurassic.; Validity of S. armatus, duplex, sulcatus and ungulatus is debated (Galton and Carpenter 2016); check each.
+- **genus Stegouros**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Parankylosauria is the earliest branch of Ankylosauria in Soto-Acuña et al. 2021; the atlas has no Parankylosauria clade.
+- **genus Stellasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Stenomyti**
+  - I6 no image
+  - Q1 draft: Catalogue number to be added from Small and Martz 2013.; No images found among the automatic candidates.
+- **genus Stenopelix**
+  - Q1 draft: not yet checked
+- **genus Stolokrosuchus**
+  - Q1 draft: Originally placed in Peirosauridae; later studies recovered it as possibly closely related to other groups - placement to be checked.; Original naming work is Larsson and Gado 2000 (PBDB).
+- **genus Stomatosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: The Wikipedia text was flagged as possibly not about the genus; its lead does describe Stomatosuchus.; Wikipedia lists no citations in this revision; add literature sources.; Original naming work is Stromer 1925 (PBDB).
+- **genus Stratiotosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Specimen number of the holotype to be added from Campos et al. 2001.
+- **genus Stromerosuchus**
+  - I6 no image
+  - Q1 draft: English Wikipedia calls the genus dubious: decide whether it belongs in excluded.yaml (M1).; Wikipedia's citation 2 appears to be the naming work (Kuhn 1936).
+- **genus Struthiosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Many species were referred to the genus; check which of S. austriacus, S. transylvanicus and S. languedocensis are accepted in the latest review.; Size not given in the snippets read; add from the revision.
+- **genus Styracosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Citation 39 of the Wikipedia revision looks like the naming paper; confirm.
+- **genus Suchodus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Completeness is provisional; add holotype data.; Add the original description (Lydekker 1890).
+- **genus Sulaimanisuchus**
+  - I6 no image
+  - Q1 draft: No Wikipedia page for the genus (the matching page is a list of informally named reptiles): PBDB record only.; Malkani's taxa need a validity check (M1).
+- **genus Sunosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Wikipedia counts four species (S. miaoi, S. junggarensis, S. shartegensis and S. thailandicus); PBDB lists miaoi, junggarensis and shunanensis.; Some material may be Early Cretaceous.
+- **genus Supersaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Holotype number BYU 9025 taken from an image file name on Commons; confirm in Jensen 1985.
+- **genus Susisuchus**
+  - Q1 draft: Sole member of Susisuchidae.
+- **genus Sutekhsuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Suuwassea**
+  - Q1 draft: Original description placed it in Flagellicaudata incertae sedis; a later analysis put it in Apatosaurinae; the 2015 study (cited) puts it in Dicraeosauridae, which is used here.
+- **genus Tadzhikosuchus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Tagarosuchus**
+  - Q1 draft: Check the image.
+- **genus Taihangosuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Ermaying Formation, Shanxi Province, China (Anisian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Tainrakuasuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Pinheiros-Chiniquá Sequence, Santa Maria Supersequence (Dinodontosaurus Assemblage Zone), Brazil; no formation is named on the page. No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Talarurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Tambatitanis**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Placement within Euhelopodidae follows PBDB; analyses differ between Titanosauriformes and Titanosauria.
+- **genus Tangvayosaurus**
+  - G5 type species not verified against a source
+  - Q1 draft: not yet checked
+- **genus Taohelong**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Size not given in the cited revision.; PBDB lists the formation of this record only as '5'; the Hekou Group comes from the cited Wikipedia revision.
 - **genus Tapejara**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
+- **genus Tapuiasaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Type species epithet to be checked. Image 13 should be confirmed as a skull reconstruction.
+- **genus Tarchia**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Validity of Minotaurasaurus (junior synonym?) and of T. teresae/T. tumanovae to be checked.; PBDB gives no named original paper; Maryańska 1977 named the genus.; Size not given in the cited revision.
+- **genus Tarsomordeo**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Tastavinsaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Tatankacephalus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No usable Commons image found; look for a figure from Parsons and Parsons 2009.
+- **genus Tataouinea**
+  - Q1 draft: not yet checked
+- **genus Tazoudasaurus**
+  - Q1 draft: not yet checked
+- **genus Tecovasuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Tehuelchesaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original naming paper (Rich et al. 1999) to be added.
+- **genus Teleidosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Add the original description (Eudes-Deslongchamps).
+- **genus Teleosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; PBDB range (Toarcian–Aptian) is far wider than the Bathonian type material; check which species are valid.; Add the original description (Geoffroy 1825).
+- **genus Telkaralura**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: Chañares Formation (lower part, Massetognathus-Chanaresuchus Assemblage Zone), Argentina (Carnian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Tendaguria**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Original paper (Bonaparte et al. 2000) to be added.
+- **genus Tengrisaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image among the harvested candidates.
+- **genus Teratosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the life restorations.; PBDB lists T. bengalensis, T. lloydi and T. schuetzii; the Indian and Polish material may belong elsewhere.
+- **genus Terminocavus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia revision has no citation list extracted; the naming paper is Fowler and Freedman Fowler 2020 (PBDB).
+- **genus Terminonaris**
+  - Q1 draft: Holotype not stated.
+- **genus Terrestrisuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia dates it to the Rhaetian; PBDB gives Carnian - check.; Proposed to be a juvenile of Saltoposuchus.
+- **genus Tewkensuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the images; image 5 is labelled as a life image of the holotype and was left out.; Very recent genus (2025); add holotype and size from the naming paper.
+- **genus Texasetes**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Size not given in the cited revision.
 - **genus Thalassodromeus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Thalattosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Thecachampsa**
+  - G5 type species not verified against a source
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Weems (2018) accepts three species, T. sericodon, T. antiquus and T. carolinensis; the validity and spelling of species are disputed.; PBDB lists seven species.
+- **genus Thecodontosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB lists T. hermannianus and T. minimus; the Wikipedia revision regards the genus as having one valid species. The Bristol fossils also come from several fissure-fill sites; check age and formations (PBDB gives unnamed units).
+- **genus Theriosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; Holotype not stated; Wikipedia text had no description.; Add the original description (Owen 1878).
+- **genus Thikarisuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia and the literature give the locality: Blackleaf Formation, Vaughn Member, near Lima, southwest Montana, USA (Cenomanian). No coordinates or PBDB collection yet.; Biology line is minimal: only the abstract's topic is known; read the paper.; No Wikipedia revision recorded; no images yet.
+- **genus Thilastikosuchus**
+  - Q1 draft: not yet checked
+- **genus Thoracosaurus**
+  - G5 type species not verified against a source
+  - Q1 draft: Traditionally related to the false gharial; later work supports affinities within Gavialoidea, though a 2018 tip-dating study differed.; Original naming work (Leidy 1852) to be added.
+- **genus Thyreosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ticinosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Krebs 1965) to be added.
+- **genus Tienosuchus**
+  - I6 no image
+  - Q1 draft: Wikipedia calls the genus dubious; decide whether it belongs in excluded.yaml (M1).; Naming work: Young 1948; add as original with text from the PBDB record.
+- **genus Tienshanosaurus**
+  - G6 no species listed (every valid genus has at least its type species)
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Material assigned to the genus to be read from Young 1937.
+- **genus Tikisuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Tilemsisuchus**
+  - I6 no image
+  - Q1 draft: No citations in the Wikipedia revision; Wikipedia gives the naming year as 1979 while PBDB gives 1980 — check.
+- **genus Titanoceratops**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Validity debated (some treat it as Pentaceratops); formation not recorded in PBDB; add Fruitland/Kirtland formation after checking Longrich 2011.
+- **genus Titanochampsa**
+  - I6 no image
+  - Q1 draft: Add the length estimate from Fachini et al. 2022.
+- **genus Titanomachya**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Commons photo of the holotype (CC BY 2.5 AR) left out: the validator rejects the licence string; owner to decide.
+- **genus Tomistoma**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Only T. lusitanicum and T. coppensi are kept as possible fossil species (Wikipedia); PBDB lists ten more, most reassigned to other genera (Herugavialis, Eogavialis, Toyotamaphimeia, Sutekhsuchus).
+- **genus Tonganosaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image among the harvested candidates. Size estimate to be read from the revision.
+- **genus Tongnanlong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Tornieria**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia says Skeleton B (T. robusta) is a titanosaur; check which material remains in Tornieria.; Check the museum numbers of the holotype in Fraas 1908 or Remes 2006.
+- **genus Torosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Debate about Torosaurus being a mature Triceratops (Scannella and Horner 2010) is not yet resolved in this entry; check with recent literature.; PBDB gives Marsh 1891 as naming paper.
 - **genus Torukjara**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - S2 no 'original' source (the publication that named the taxon)
   - S2 only secondary sources (database/encyclopedia); add primary literature
   - Q1 draft: Only secondary sources: add the original description (primary literature).
+- **genus Torvoneustes**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Toyotamaphimeia**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: The status of "Tomistoma" taiwanicus is revised by Cho et al. (2023); PBDB also lists the spelling variant machikanense.
+- **genus Traukutitan**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Type species epithet to be checked; the article is short.
+- **genus Trialestes**
+  - Q1 draft: Check the images.; Add holotype and the genus-naming work (Bonaparte 1982).
+- **genus Triceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Only T. horridus and T. prorsus are widely regarded as valid; the species list from PBDB includes names the Wikipedia revision calls nomina dubia. Check species.
+- **genus Trilophosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Triunfosaurus**
+  - I6 no image
+  - Q1 draft: No image among the harvested candidates.
 - **genus Tropeognathus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Tsagantegia**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - Q1 draft: No image candidates; size not given.
+- **genus Tsoabichi**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Tuebingosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Tuojiangosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
 - **genus Tupandactylus**
   - G5 type species not verified against a source
   - I4 life restoration is 'unreviewed': review it for accuracy
@@ -988,28 +9424,337 @@ A volume is consolidated when `python3 scripts/validate.py --strict` passes.
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Turanoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Peter Dodson (2004) considered the genus a nomen dubium; Sues and Averianov (2009) found it valid.
+- **genus Turcosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Turfanosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: A 2014 study grouped it with Gracilisuchus and Yonghesuchus in Gracilisuchidae.; Original naming work (Young 1973) to be added.
+- **genus Turiasaurus**
+  - Q1 draft: not yet checked
+- **genus Turnersuchus**
+  - Q1 draft: Situated outside both Metriorhynchoidea and Teleosauroidea (Wilberg et al. 2023).
+- **genus Tylocephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Typothorax**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Two species are recognised on Wikipedia (T. coccinarum and T. antiquum); PBDB lists coccinarum, antiquum and meadei.; Original naming work (Cope 1875) to be added.
+- **genus Tyrannoneustes**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Tzaganosuchus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Uberabasuchus**
+  - G5 type species not verified against a source
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species list taken from PBDB and not yet checked against recent revisions.; No citations available in the Wikipedia text.; Type species filled from general knowledge.; Add the original naming work and a holotype.
+- **genus Uberabatitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Udanoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Udelartitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Ultrastenos**
+  - Q1 draft: Yates (2024) unites U. willisi with "Baru" huberi; check which species name is now valid.
+- **genus Unasuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Brinkmann 1992).
+- **genus Unaysaurus**
+  - G5 type species not verified against a source
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Type species epithet to be checked.
+- **genus Unescoceratops**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Uriash**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: not yet checked
+- **genus Uruguaysuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Original naming work (Rusconi 1933) to be added.
+- **genus Utahceratops**
+  - Q1 draft: not yet checked
+- **genus Vagaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Wikipedia revision has no citation list extracted; check holotype number (CMN 41357?) against Sampson et al. 2010.
+- **genus Vahiny**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates.
+- **genus Varanosuchus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - Q1 draft: No images were found; holotype number not stated.
+- **genus Vectipelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Vectisuchus**
+  - I6 no image
+  - Q1 draft: Add holotype number from Buffetaut and Hutt 1980.
+- **genus Venaticosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Venenosaurus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: No image among the harvested candidates. Original description (Tidwell et al. 2001) to be added.
+- **genus Venkatasuchus**
+  - Q1 draft: Check the reconstruction.
 - **genus Vesperopterylus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I4 life restoration is 'unreviewed': review it for accuracy
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Vivaron**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Check the images (image 10 is a premaxilla, listed as fossil).
+- **genus Vjushkovisaurus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Voay**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Volgatitan**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: No image among the harvested candidates. Placement conflict, 2018 titanosaur vs 2026 mamenchisaurid.
+- **genus Volia**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Volkheimeria**
+  - I6 no image
+  - Q1 draft: No image among the candidates.
+- **genus Vouivria**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: Source citations absent in the revision; original description (Mannion et al. 2017) to be read.
+- **genus Vulcanodon**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Vytshegdosuchus**
+  - I6 no image
+  - Q1 draft: Add the original (Sennikov 1988).
+- **genus Wadisuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No formation entry yet: El Hindaw Member, Quseir Formation, Egypt (Middle Campanian). No coordinates or PBDB collection; PBDB has no occurrence for this genus (not in the 2026-11-17 download).; No Wikipedia revision recorded (the revision id could not be fetched from this session); the entry cites the naming paper only. Add the revision and PBDB data when available.; No images yet; no silhouette.
+- **genus Wahasuchus**
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Wannaganosuchus**
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Wannanosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Wannchampsus**
+  - Q1 draft: Check the images.
+- **genus Wanosuchus**
+  - I6 no image
+  - Q1 draft: Placement conflicts between Wikipedia and PBDB; review (M2).
+- **genus Wargosuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
 - **genus Wellnhopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Wendiceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Wintonotitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Austrosaurus mckillopi may be a nomen dubium close to this genus (Hocknull et al. 2009); check before excluded.yaml.
+- **genus Woodbinesuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Wuerhosaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.; Check the validity of W. ordosensis, which Tumanova and Alifanov (2018) and later authors discuss.
 - **genus Wukongopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
+- **genus Xenoceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Xenoposeidon**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Species epithet from general knowledge; check against Taylor and Naish 2007. Placement among rebbachisaurids was questioned in later work.
 - **genus Xericeps**
   - Q1 draft: not yet checked
+- **genus Xiangyunloong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Xianshanosaurus**
+  - Q1 draft: not yet checked
+- **genus Xilousuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Filed under the spelling Xilousuchus; the tree backbone had the misspelling Xilosuchus (removed).; Named by Wu 1981 in Vertebrata PalAsiatica 19:122-132 (the PBDB reference); first assigned to Proterosuchia, later a poposauroid (Nesbitt 2011).
+- **genus Xingxiulong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB parent is Sauropodiformes; the Wikipedia revision calls it a massopodan. The holotype number of X. chengi was not read.
+- **genus Xinjiangtitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Holotype number not read.
+- **genus Xixiposaurus**
+  - G5 type species not verified against a source
+  - I6 no image
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: Type species epithet to be checked; sister taxon of Mussaurus in one analysis; no image.
+- **genus Xuanhuaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives Zhao et al. 2006 as authority; the Wikipedia revision has no citation list for this genus.
+- **genus Yacarerani**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Yamaceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Yamanasaurus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - Q1 draft: No image among the harvested candidates.
+- **genus Yanbeilong**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Yanjisuchus**
+  - I6 no image
+  - Q1 draft: not yet checked
+- **genus Yehuecauhceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Yeneen**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Yimenosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Yingshanosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: Original naming paper is Zhou 1984 (Chinese)? PBDB lists Zhou 1986; check authority year.
+- **genus Yinlong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: PBDB gives no named original paper; Xu et al. 2006 named the genus.
 - **genus Yixianopterus**
   - G8 no wingspan: give one, or say in size.note why it is unknown
   - I6 no image
+  - Q1 draft: not yet checked
+- **genus Yizhousaurus**
+  - Q1 draft: not yet checked
+- **genus Yonghesuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Yongjinglong**
+  - Q1 draft: not yet checked
+- **genus Youngosuchus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Described by Young in 1973 as Vjushkovia sinensis and reassigned by Sennikov in 1985; a 1992 study kept it as an erythrosuchid while more recent studies place it among loricatans.; PBDB gives a different paper as the reference - original naming work to be added.
+- **genus Yunmenglong**
+  - G5 type species not verified against a source
+  - I6 no image
+  - Q1 draft: Type species epithet to be checked; no image among the candidates.
+- **genus Yunnanosaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Yuxisaurus**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision.
+- **genus Yuzhoulong**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Yvridiosuchus**
+  - Q1 draft: Check the images.
+- **genus Zapalasaurus**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Zaraapelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I6 no image
+  - Q1 draft: No image candidates; size not given.
+- **genus Zaraasuchus**
+  - I6 no image
+  - Q1 draft: No candidate image on the contact sheet.; The Wikipedia text was flagged as possibly not about the genus; its lead does describe Zaraasuchus.; Original naming work is Pol and Norell 2004 (PBDB).
+- **genus Zatomus**
+  - I6 no image
+  - Q1 draft: Age conflict between Wikipedia (Late Triassic) and PBDB (Campanian): the atlas age follows PBDB; resolve (M5).
+- **genus Zavacephale**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Named in 2025; check with the original paper.
+- **genus Zby**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **genus Zhejiangopterus**
   - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: Life restoration not yet reviewed for accuracy (see CLAUDE.md, images).
 - **genus Zhenyuanopterus**
   - I3 silhouette is non-commercial only (https://creativecommons.org/licenses/by-nc-sa/3.0/); replace with a CC0/BY/BY-SA one if available
+  - Q1 draft: not yet checked
+- **genus Zholsuchus**
+  - I6 no image
+  - Q1 draft: Check the epithet spelling (procerus vs procevus).; Check validity after Storrs and Efimov 2000 (M1).
+- **genus Zhuchengceratops**
+  - Q1 draft: not yet checked
+- **genus Zhuchengtitan**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Zhyrasuchus**
+  - I6 no image
+  - S2 no 'original' source (the publication that named the taxon)
+  - S2 only secondary sources (database/encyclopedia); add primary literature
+  - Q1 draft: not yet checked
+- **genus Ziapelta**
+  - G8 no length: give one, or say in size.note why it is unknown
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: Size not given in the cited revision. Atlas clade Ankylosaurini is not created; placed in Ankylosauridae.
+- **genus Zoneait**
+  - Q1 draft: Check the images.
+- **genus Zosuchus**
+  - I6 no image
+  - Q1 draft: Add holotype number from Pol and Norell 2004; check the epithet spelling.
+- **genus Zulmasuchus**
+  - G10 no geological formation recorded yet (needs one for consolidation)
+  - I6 no image
+  - Q1 draft: No geological formation is recorded in the atlas yet: PBDB has no occurrence for this genus. English Wikipedia and the literature give the locality: Santa Lucía Formation, Vila Vila, southern Bolivia (Danian). No coordinates or PBDB collection yet.; Completeness not verified (the sources consulted do not say); no images yet.
+- **genus Zuniceratops**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - Q1 draft: not yet checked
+- **genus Zuul**
+  - I4 life restoration is 'unreviewed': review it for accuracy
+  - I4 life restoration is 'unreviewed': review it for accuracy
   - Q1 draft: not yet checked
 - **home**
   - S2 only secondary sources (database/encyclopedia); add primary literature
