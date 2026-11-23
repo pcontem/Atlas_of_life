@@ -1,0 +1,120 @@
+name: Scolosaurus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Nopcsa 1928
+type_species: Scolosaurus cutleri
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Scolosaurus is an ankylosaurid from the Dinosaur Park Formation of Alberta, known from a nearly complete
+  skeleton and now accepted as distinct from Euoplocephalus.
+size:
+  length_m: [5.6, 5.6]
+  mass_kg: [2200, 2200]
+  note: Maximum estimates given in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Scolosaurus cutleri
+  authority: Nopcsa 1928
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Scolosaurus thronus
+  authority: Penkalski 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+fossil_material:
+  holotype: NHMUK PV R.5161, a nearly complete skeleton lacking the skull and parts of the tail and limbs — Dinosaur
+    Park Formation, Alberta; held by the Natural History Museum, London.
+  material: Holotype and referred specimens.
+  completeness: near-complete
+  exceptional: ''
+biology: Large armoured herbivore with a tail club.
+images:
+- kind: life
+  file: Scolosaurus SW.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Scolosaurus_SW.png/960px-Scolosaurus_SW.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Scolosaurus_SW.png
+  artist: Slate Weasel
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2018-09-16'
+  caption: Life restoration of Scolosaurus.
+  width: 3699
+  height: 1120
+  review: unreviewed
+- kind: life
+  file: Scolosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Scolosaurus.png/960px-Scolosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Scolosaurus.png
+  artist: Benwrops
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-15'
+  caption: Life restoration of Scolosaurus.
+  width: 2107
+  height: 685
+  review: unreviewed
+- kind: fossil
+  file: Scolosaurus cutleri.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Scolosaurus_cutleri.tif/lossy-page1-960px-Scolosaurus_cutleri.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Scolosaurus_cutleri.tif
+  artist: Victoria M. Arbour, Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Scolosaurus cutleri specimen.
+  width: 3324
+  height: 1679
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Nopcsa, B. F. 1928. Palaeontological notes on reptiles. V. On the skull of the Upper Cretaceous dinosaur
+    ''''Euoplocephalus''''. Geologica Hungarica, Series Palaeontologica 1(1): 1–84.'
+- kind: literature
+  text: 'Paul Penkalski 2018. Revised systematics of the armoured dinosaur ''''Euoplocephalus'''' and its allies.
+    Neues Jahrbuch für Geologie und Paläontologie - Abhandlungen 287(3): 261–306. doi:10.1127/njgpa/2018/0717'
+- kind: literature
+  text: Penkalski, P. 2013. A new ankylosaurid from the late Cretaceous Two Medicine Formation of Montana, USA.
+    Acta Palaeontologica Polonica. doi:10.4202/app.2012.0125
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scolosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scolosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scolosaurus”. English Wikipedia, revision 1380479773.
+  url: https://en.wikipedia.org/w/index.php?title=Scolosaurus&oldid=1380479773
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Oohkotokia has been considered a synonym by some researchers.]
+  reviews: []

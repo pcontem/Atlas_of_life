@@ -1,0 +1,104 @@
+name: Eopinacosaurus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Penkalski 2026
+type_species: Eopinacosaurus mephistocephalus
+type_species_note: Species originally named Pinacosaurus mephistocephalus (Godefroit et al. 1999) and moved to Eopinacosaurus
+  (cited Wikipedia revision and PBDB).
+summary: Eopinacosaurus is an ankylosaurine from the Campanian of Mongolia and China, erected in 2026 for Pinacosaurus
+  mephistocephalus.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Eopinacosaurus mephistocephalus
+  authority: Penkalski 2026
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Bayan Mandahu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: bayan-mandahu-china
+- formation: Djadokhta
+  group: ''
+  members: [Tugrugyin]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: IMM 96BM3/1, a large articulated skeleton found in 1996 by a Belgian-Chinese expedition — Bayan Mandahu
+    Formation, China.
+  material: A second record from the Djadokhta Formation of Mongolia is listed by PBDB.
+  completeness: near-complete
+  exceptional: ''
+biology: Known from skeletons; the sources used give no behavioural data.
+images:
+- kind: life
+  file: Eopinacosaurus mephistocephalus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Eopinacosaurus_mephistocephalus.png/960px-Eopinacosaurus_mephistocephalus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eopinacosaurus_mephistocephalus.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-12'
+  caption: Life restoration of Eopinacosaurus mephistocephalus.
+  width: 4000
+  height: 1004
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Penkalski, Paul 2026. The morphology and systematics of ''''Pinacosaurus''''. Historical Biology 38(10):
+    4141–4182. doi:10.1080/08912963.2026.2633178'
+- kind: literature
+  text: 'Godefroit, P.; Pereda-Suberbiola, X.; Li, H.; Dong, Z. M. 1999. A new species of the ankylosaurid dinosaur
+    Pinacosaurus from the Late Cretaceous of Inner Mongolia (P.R. China). Bulletin de l''Institut Royal des Sciences
+    Naturelles de Belgique, Sciences de la Terre 69(supp. B): 17–36.'
+- kind: literature
+  text: 'Raven, T. J.; Barrett, P. M.; Joyce, C. B.; Maidment, S. C. R. 2023. The phylogenetic relationships and
+    evolutionary history of the armoured dinosaurs (Ornithischia: Thyreophora). Journal of Systematic Palaeontology
+    21(1). doi:10.1080/14772019.2023.2205433'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eopinacosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eopinacosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eopinacosaurus”. English Wikipedia, revision 1380385445.
+  url: https://en.wikipedia.org/w/index.php?title=Eopinacosaurus&oldid=1380385445
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Genus is very recent (Penkalski 2026); check against the original paper. PBDB also lists the species under Pinacosaurus
+    (P. mephistocephalus); keep it only here.
+  - Size not given in the cited revision.
+  reviews: []

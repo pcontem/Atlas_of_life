@@ -1,0 +1,195 @@
+name: Euoplocephalus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Lambe 1910
+type_species: Euoplocephalus tutus
+type_species_note: Species named Stegosaurus tutus by Lambe in 1902 and made the type of Euoplocephalus in 1910
+  (cited Wikipedia revision).
+summary: Euoplocephalus is a large Late Cretaceous ankylosaurid from Canada, known from about a dozen specimens
+  after recent revisions narrowed the genus.
+size:
+  length_m: [5.3, 5.3]
+  mass_kg: [2000, 2000]
+  note: Length and body mass given in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 18
+  note: ''
+species:
+- name: Euoplocephalus tutus
+  authority: (Lambe 1902)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 8
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: horseshoe-canyon-canada
+- formation: St. Mary River
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: st-mary-river-united-states
+- formation: Bearpaw Shale
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: bearpaw-shale-canada
+- formation: Subashi
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: subashi-china
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: Specimen of E. tutus described by Lambe (collection number not given in the sources used) — Dinosaur
+    Park Formation, Alberta.
+  material: A dozen or so specimens, including almost complete skeletons; the largest skull is AMNH 5403.
+  completeness: multiple
+  exceptional: ''
+biology: Large herbivore with a tail club, a bony eyelid and very small teeth (maximum 7.5 mm).
+images:
+- kind: life
+  file: Euoplocephalus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Euoplocephalus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Euoplocephalus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-11'
+  caption: Life restoration of Euoplocephalus tutus.
+  width: 750
+  height: 261
+  review: unreviewed
+- kind: life
+  file: Euoplocephalus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Euoplocephalus_TD.png/960px-Euoplocephalus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Euoplocephalus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-05'
+  caption: Life restoration of Euoplocephalus tutus.
+  width: 2600
+  height: 800
+  review: unreviewed
+- kind: fossil
+  file: Euoplocephalus TMP 1991.127.1.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Euoplocephalus_TMP_1991.127.1.tif/lossy-page1-960px-Euoplocephalus_TMP_1991.127.1.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Euoplocephalus_TMP_1991.127.1.tif
+  artist: Victoria M. Arbour, Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Euoplocephalus TMP 1991.127.1 specimen.
+  width: 2454
+  height: 2038
+  review: unreviewed
+- kind: fossil
+  file: Euoplocephalus mandibles.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Euoplocephalus_mandibles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Euoplocephalus_mandibles.png
+  artist: Victoria M. Arbour, Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Mandibles of Euoplocephalus.
+  width: 1325
+  height: 669
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5b062105-b6a2-4405-bd75-3d0399102b9a/vector.svg
+  png: https://images.phylopic.org/images/5b062105-b6a2-4405-bd75-3d0399102b9a/raster/512x166.png
+  page: https://www.phylopic.org/images/5b062105-b6a2-4405-bd75-3d0399102b9a
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Euoplocephalus tutus
+  matched: Euoplocephalus
+  genus_level: true
+sources:
+- kind: original
+  text: L. M. Lambe. 1910. Note on the parietal crest of Centrosaurus apertus and a proposed new generic name for
+    Stereocephalus tutus. The Ottawa Naturalist 24:149-151
+- kind: literature
+  text: 'M. K. Vickaryous 2003. A redescription of the skull of ''''Euoplocephalus tutus'''' (Archosauria: Ornithischia):
+    a foundation for comparative and systematic studies of ankylosaurian dinosaurs. Zoological Journal of the Linnean
+    Society 137(1): 157–86. doi:10.1046/j.1096-3642.2003.00045.x'
+- kind: literature
+  text: 'Arbour, V. M.; Burns, M. E.; Sissons, R. L. 2009. A redescription of the ankylosaurid dinosaur ''''Dyoplosaurus
+    acutosquameus'''' Parks, 1924 (Ornithischia: Ankylosauria) and a revision of the genus. Journal of Vertebrate
+    Paleontology 29(4): 1117–1135. doi:10.1671/039.029.0405'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Euoplocephalus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Euoplocephalus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Euoplocephalus”. English Wikipedia, revision 1377846331.
+  url: https://en.wikipedia.org/w/index.php?title=Euoplocephalus&oldid=1377846331
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB lists specimens from the Judith River and Two Medicine Formations of Montana, now referred to other genera
+    (e.g. Oohkotokia); check.
+  - PBDB gives no named original paper; Lambe 1910 named the genus.
+  reviews: []

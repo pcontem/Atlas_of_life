@@ -1,0 +1,123 @@
+name: Saichania
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Maryanska 1977
+type_species: Saichania chulsanensis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Saichania is a robustly built ankylosaurid from the Late Cretaceous of Mongolia and China, with keeled
+  osteoderms on the torso.
+size:
+  length_m: [5, 7]
+  mass_kg: [1400, 2000]
+  note: Ranges given in the cited Wikipedia revision.
+age:
+  first_ma: 100.5
+  last_ma: 72.2
+  early_interval: Cenomanian
+  late_interval: Campanian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Saichania chulsanensis
+  authority: Maryanska 1977
+  first_ma: 100.5
+  last_ma: 72.2
+  interval: Cenomanian–Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+- formation: Huiquanpu
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Shanxi]
+  interval: Cenomanian–Campanian
+  occurrences: 2
+  ma: [72.2, 100.5]
+  id: huiquanpu-china
+fossil_material:
+  holotype: GI SPS 100/151, a largely articulated skeleton — Barun Goyot Formation, Mongolia (late Campanian, about
+    73 Ma).
+  material: Additional specimens from Mongolia and China.
+  completeness: multiple
+  exceptional: ''
+biology: More robustly built than other ankylosaurids, with keeled osteoderms on the torso.
+images:
+- kind: life
+  file: Saichania 1 001.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/72/Saichania_1_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Saichania_1_001.jpg
+  artist: JaviDex
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-04-17'
+  caption: Life restoration of Saichania.
+  width: 840
+  height: 571
+  review: unreviewed
+- kind: fossil
+  file: Saichania Skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Saichania_Skull.jpg/960px-Saichania_Skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saichania_Skull.jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2017-07-01'
+  caption: Skull of Saichania.
+  width: 5184
+  height: 3456
+  review: unreviewed
+- kind: fossil
+  file: Saichania (Ankylosaur) Skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Saichania_%28Ankylosaur%29_Skeleton.jpg/960px-Saichania_%28Ankylosaur%29_Skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saichania_(Ankylosaur)_Skeleton.jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2017-07-01'
+  caption: Mounted skeleton of Saichania.
+  width: 5184
+  height: 3456
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Maryańska, T. 1977. Ankylosauridae (Dinosauria) from Mongolia. Palaeontologia Polonica 37: 85–151.'
+- kind: literature
+  text: 'Paul Penkalski 2016. The cranial morphology and taxonomic status of ''''Tarchia'''' (Dinosauria: Ankylosauridae)
+    from the Upper Cretaceous of Mongolia. Cretaceous Research 70: 117–127. doi:10.1016/j.cretres.2016.10.004'
+- kind: literature
+  text: Arbour, Victoria M.; Evans, David C. 2017. A new ankylosaurine dinosaur from the Judith River Formation
+    of Montana, USA, based on an exceptional skeleton with soft tissue preservation. Royal Society Open Science
+    4(5). doi:10.1098/rsos.161086
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saichania (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saichania
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saichania”. English Wikipedia, revision 1350755647.
+  url: https://en.wikipedia.org/w/index.php?title=Saichania&oldid=1350755647
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,95 @@
+name: Platypelta
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Penkalski 2018
+type_species: Platypelta coombsi
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Platypelta is an ankylosaurine from the Dinosaur Park Formation of Alberta, erected in 2018 for a skeleton
+  once placed in Euoplocephalus.
+size:
+  length_m: [6, 6]
+  note: Length estimated in 2018 (cited Wikipedia revision).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Platypelta coombsi
+  authority: Penkalski 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: AMNH 5337, a skeleton found in 1914 by Barnum Brown and Peter Kaisen at Sand Creek near the Red Deer
+    River — Dinosaur Park Formation, Alberta.
+  material: Large rump plates exceeding 25 cm in length with a sharp keel.
+  completeness: partial
+  exceptional: ''
+biology: Armoured herbivore with large keeled plates on the rump.
+images:
+- kind: fossil
+  file: Platypelta AMNH 5337.tiff
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Platypelta_AMNH_5337.tiff/lossy-page1-960px-Platypelta_AMNH_5337.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Platypelta_AMNH_5337.tiff
+  artist: Victoria M. Arbour, Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Holotype specimen AMNH 5337 of Platypelta.
+  width: 2355
+  height: 1866
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Penkalski, Paul 2018. Revised systematics of the armoured dinosaur ''''Euoplocephalus'''' and its allies.
+    Neues Jahrbuch für Geologie und Paläontologie - Abhandlungen 287(3): 261–306. doi:10.1127/njgpa/2018/0717'
+- kind: literature
+  text: Arbour, Victoria M.; Currie, Philip J. 2013. ''Euoplocephalus tutus'' and the Diversity of Ankylosaurid
+    Dinosaurs in the Late Cretaceous of Alberta, Canada, and Montana, USA. PLOS ONE 8(5). doi:10.1371/journal.pone.0062421
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Platypelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Platypelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Platypelta”. English Wikipedia, revision 1316770039.
+  url: https://en.wikipedia.org/w/index.php?title=Platypelta&oldid=1316770039
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
