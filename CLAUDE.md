@@ -381,9 +381,11 @@ curation: {...}           # Q1
   `data/raw/tree/cladograms_<date>.json`, with their source study) checked against PBDB; clades are added
   only when needed to place genera (M6), and paraphyletic grades ("Rauisuchia", "Protosuchia") are removed.
   Done group by group, together with the clade-entry batches.
-- **Placement** follows PBDB and recent literature: check a node's PBDB parent chain
-  (`data/raw/tree/pbdb_lineage_<date>.json`); change the tree only when PBDB agrees with recent studies, and
-  record every change and every case kept against PBDB in `docs/TREE_REVIEW.md`.
+- **Placement** follows the recent literature (owner, 2026-11-23): when the backbone (built from PBDB) and the
+  literature diverge, the literature wins. Check a node's PBDB parent chain
+  (`data/raw/tree/pbdb_lineage_<date>.json`) as a first guide, then change the tree to match recent studies; where
+  analyses disagree among themselves, M2 applies (deepest shared clade, *incertae sedis*). Record every change,
+  with the study that justifies it, in `docs/TREE_REVIEW.md`.
 
 ### 4.9 Start page (`entries/home.yaml`)
 

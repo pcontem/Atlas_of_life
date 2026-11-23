@@ -372,3 +372,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - Silesauridae (8 PBDB genera in the group) stay out: most analyses treat them as dinosauriforms outside Ornithischia. Ichnogenera and oogenera (57) stay out, as in Sauropodomorpha.
 - A volume has one root clade (`_volume.yaml`), and Thyreophora and Marginocephalia sit in different parts of the tree, so part A is two directories prepared and delivered together: `entries/thyreophora` (attaches to Ornithischia) and `entries/marginocephalia` (attaches to Neornithischia). Their clade ids drop the backbone's `parent__` prefix.
 - Polacanthidae has no clade entry yet (source not read); its four backbone genera sit in Ankylosauria meanwhile. PBDB nomina dubia that still wait in the backbone as valid genera (Minmi, Chialingosaurus) are not in `excluded.yaml` until their entries settle validity (M1).
+
+## 2026-11-23 — Literature over backbone
+- Owner: whenever the tree backbone (which follows PBDB) and the recent literature diverge, choose the literature. This replaces the earlier rule of changing the tree only when PBDB agreed with recent studies (CLAUDE.md §4.8, Placement). Every change is recorded in `docs/TREE_REVIEW.md` with its source; disagreement among recent analyses still goes through M2.
