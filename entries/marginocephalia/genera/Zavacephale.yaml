@@ -1,0 +1,95 @@
+name: Zavacephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Chinzorig et al. 2025
+type_species: Zavacephale rinpoche
+type_species_note: Only species of the genus (PBDB).
+summary: Zavacephale is the earliest known pachycephalosaur, an immature individual with an early domed skull from
+  the Aptian–Albian of Mongolia.
+size:
+  length_m: [1, 1]
+  mass_kg: [5.85, 5.85]
+  note: Estimates for the immature holotype in the cited Wikipedia revision.
+age:
+  first_ma: 119.57
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zavacephale rinpoche
+  authority: Chinzorig et al. 2025
+  first_ma: 119.57
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Khuren Dukh
+  group: ''
+  members: [Lower]
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Late Aptian–Late Albian
+  occurrences: 1
+  ma: [100.5, 119.57]
+  id: khuren-dukh-mongolia
+fossil_material:
+  holotype: MPC-D 100/1209, discovered in 2019 — Khuren Dukh Formation, Eastern Gobi Basin, Dundgobi Province, Mongolia.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Immature individual that was still growing when it died.
+images:
+- kind: life
+  file: Zavacephale rinpoche.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Zavacephale_rinpoche.png/960px-Zavacephale_rinpoche.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zavacephale_rinpoche.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-09-17'
+  caption: Life restoration of Zavacephale rinpoche.
+  width: 4000
+  height: 1841
+  review: unreviewed
+- kind: fossil
+  file: Zavacephale skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Zavacephale_skull.jpg/960px-Zavacephale_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zavacephale_skull.jpg
+  artist: Eight heads serpent
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-09-18'
+  caption: Skull of Zavacephale.
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5/vector.svg
+  png: https://images.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5/raster/512x194.png
+  page: https://www.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5
+  attribution: Jack Mayer Wood
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wannanosaurus yansiensis
+  matched: Pachycephalosauria
+  genus_level: false
+sources:
+- kind: original
+  text: T. Chinzorig, R. Takasaki, and J. Yoshida, R. T. Tucker, B. Buyantegsh, B. Mainbayar, K. Tsogtbaatar, L.
+    E. Zanno. 2025. A domed pachycephalosaur from the early Cretaceous of Mongolia. Nature 646(8087):1138-1145
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zavacephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zavacephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zavacephale”. English Wikipedia, revision 1330350849.
+  url: https://en.wikipedia.org/w/index.php?title=Zavacephale&oldid=1330350849
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Named in 2025; check with the original paper.]
+  reviews: []

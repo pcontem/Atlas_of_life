@@ -1,0 +1,84 @@
+name: Goyocephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Perle et al. 1982
+type_species: Goyocephale lattimorei
+type_species_note: Only species of the genus (PBDB).
+summary: Goyocephale is a flat-headed pachycephalosaur from the Late Cretaceous of Mongolia, known from a partial
+  skeleton.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 66
+  early_interval: Santonian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Goyocephale lattimorei
+  authority: Perle et al. 1982
+  first_ma: 85.7
+  last_ma: 66
+  interval: Santonian–Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Santonian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 85.7]
+  id: unnamed-boro-khovil-mongolia
+fossil_material:
+  holotype: Partial skeleton with skull (catalogue number not given in the sources used) — Mongolia, formation unrecorded
+    in PBDB (unnamed unit).
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Flat skull roof; no behavioural data.
+images:
+- kind: life
+  file: Goyocephale restoration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Goyocephale_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Goyocephale_restoration.jpg
+  artist: ABelov2014 ( https://abelov2014.deviantart.com/ )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020'
+  caption: Life restoration of Goyocephale.
+  width: 534
+  height: 220
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5/vector.svg
+  png: https://images.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5/raster/512x194.png
+  page: https://www.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5
+  attribution: Jack Mayer Wood
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wannanosaurus yansiensis
+  matched: Pachycephalosauria
+  genus_level: false
+sources:
+- kind: original
+  text: A. Perle, T. Maryanska, and H. Osmólska. 1982. Goyocephale lattimorei gen. et sp. n., a new flat-headed
+    pachycephalosaur (Ornithischia, Dinosauria) from the Upper Cretaceous of Mongolia. Acta Palaeontologica Polonica
+    27(1-4):115-127
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Goyocephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Goyocephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Goyocephale”. English Wikipedia, revision 1369296756.
+  url: https://en.wikipedia.org/w/index.php?title=Goyocephale&oldid=1369296756
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Fill holotype number and formation from Perle et al. 1982.]
+  reviews: []

@@ -1,0 +1,115 @@
+name: Prenocephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Maryańska and Osmólska 1974
+type_species: Prenocephale prenes
+type_species_note: Only species of the genus (PBDB).
+summary: Prenocephale is a domed pachycephalosaurid from the Late Cretaceous of Mongolia, with a dome ringed by
+  nodes.
+size:
+  length_m: [2.2, 2.4]
+  mass_kg: [40, 40]
+  note: Adult size in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Prenocephale prenes
+  authority: Maryańska and Osmólska 1974
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Kirtland
+  group: ''
+  members: [De-na-zin]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: Specimen from the Nemegt Formation, Mongolia (catalogue number truncated in the sources used; check
+    Maryańska and Osmólska 1974).
+  material: Skulls and a juvenile specimen; PBDB also lists a Kirtland Formation record.
+  completeness: partial
+  exceptional: ''
+biology: High, domed skull, probably used in head-butting by some pachycephalosaurs; Homalocephale was once viewed
+  as its juvenile.
+images:
+- kind: fossil
+  file: Prenocephale 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Prenocephale_1.jpg/960px-Prenocephale_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Prenocephale_1.jpg
+  artist: Scottaylor ( talk ) Taylor Made Fossils
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 14 Septemb
+  caption: Skull of Prenocephale prenes.
+  width: 2048
+  height: 1014
+  review: unreviewed
+- kind: life
+  file: PrenocephaleNV.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/PrenocephaleNV.jpg/960px-PrenocephaleNV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:PrenocephaleNV.jpg
+  artist: Foolp
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-03'
+  caption: Life restoration of Prenocephale.
+  width: 4197
+  height: 1280
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/30598d11-2df5-4d8c-8c0a-c63c51834b8e/vector.svg
+  png: https://images.phylopic.org/images/30598d11-2df5-4d8c-8c0a-c63c51834b8e/raster/512x166.png
+  page: https://www.phylopic.org/images/30598d11-2df5-4d8c-8c0a-c63c51834b8e
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Prenocephale prenes
+  matched: Prenocephale
+  genus_level: true
+sources:
+- kind: original
+  text: T. Maryańska and H. Osmólska. 1974. Pachycephalosauria, a new suborder of ornithischian dinosaurs. Palaeontologia
+    Polonica 30:45-102
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Prenocephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Prenocephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Prenocephale”. English Wikipedia, revision 1376837184.
+  url: https://en.wikipedia.org/w/index.php?title=Prenocephale&oldid=1376837184
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the holotype number and the Kirtland Formation record.]
+  reviews: []

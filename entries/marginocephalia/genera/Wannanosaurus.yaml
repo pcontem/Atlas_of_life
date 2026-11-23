@@ -1,0 +1,93 @@
+name: Wannanosaurus
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Hou 1977
+type_species: Wannanosaurus yansiensis
+type_species_note: Only species of the genus (PBDB).
+summary: Wannanosaurus is a very small flat-headed pachycephalosaur from the Maastrichtian of Anhui, China.
+size:
+  length_m: [0.6, 0.6]
+  note: Overall length about 60 cm; adult by skull fusion (cited Wikipedia revision).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Wannanosaurus yansiensis
+  authority: Hou 1977
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Xiaoyan
+  group: ''
+  members: []
+  country: China
+  regions: [Anhui]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: xiaoyan-china
+fossil_material:
+  holotype: Specimen described by Hou in 1977 (catalogue number not given in the sources used) — Xiaoyan Formation,
+    Anhui.
+  material: Partial skull and skeleton.
+  completeness: partial
+  exceptional: ''
+biology: Very small adult; skull roof flat.
+images:
+- kind: life
+  file: Wannanosaurus yansiensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Wannanosaurus_yansiensis.png/960px-Wannanosaurus_yansiensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Wannanosaurus_yansiensis.png
+  artist: Cesar Diaz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-21'
+  caption: Life restoration of Wannanosaurus yansiensis.
+  width: 3031
+  height: 2204
+  review: unreviewed
+- kind: fossil
+  file: Wannanosaurus-Paleozoological Museum of China.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Wannanosaurus-Paleozoological_Museum_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Wannanosaurus-Paleozoological_Museum_of_China.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04'
+  caption: Wannanosaurus at the Paleozoological Museum of China.
+  width: 1487
+  height: 739
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5/vector.svg
+  png: https://images.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5/raster/512x194.png
+  page: https://www.phylopic.org/images/8de864d5-7133-4173-b914-1f9680af7fb5
+  attribution: Jack Mayer Wood
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Wannanosaurus yansiensis
+  matched: Wannanosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: L.-H. Hou. 1977. A new primitive Pachycephalosauria from Anhui, China. Vertebrata PalAsiatica 15(3):198-202
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wannanosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wannanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wannanosaurus”. English Wikipedia, revision 1320068357.
+  url: https://en.wikipedia.org/w/index.php?title=Wannanosaurus&oldid=1320068357
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

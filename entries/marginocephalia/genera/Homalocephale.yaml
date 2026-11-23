@@ -1,0 +1,94 @@
+name: Homalocephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Maryańska and Osmólska 1974
+type_species: Homalocephale calathocercos
+type_species_note: Only species of the genus (PBDB).
+summary: Homalocephale is a flat-headed pachycephalosaur from the Maastrichtian Nemegt Formation of Mongolia.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Homalocephale calathocercos
+  authority: Maryańska and Osmólska 1974
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: MPC-D 100/1201, an incomplete skull and postcranial material — Nemegt locality, Nemegt Formation, Mongolia.
+  material: Holotype and a few more specimens.
+  completeness: partial
+  exceptional: ''
+biology: Flat skull roof without a dome; possibly a juvenile of Prenocephale, though new specimens suggest it is
+  distinct.
+images:
+- kind: fossil
+  file: Homalocephale skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Homalocephale_skull.jpg/960px-Homalocephale_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Homalocephale_skull.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2018'
+  caption: Skull of Homalocephale.
+  width: 1637
+  height: 1551
+  review: unreviewed
+- kind: fossil
+  file: Homalocephale Warsaw.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Homalocephale_Warsaw.jpg/960px-Homalocephale_Warsaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Homalocephale_Warsaw.jpg
+  artist: Shalom
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2015-12-29'
+  caption: Homalocephale on display in Warsaw.
+  width: 2496
+  height: 1664
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/55447a9d-b19a-4037-b6b5-68084b62aa10/vector.svg
+  png: https://images.phylopic.org/images/55447a9d-b19a-4037-b6b5-68084b62aa10/raster/512x202.png
+  page: https://www.phylopic.org/images/55447a9d-b19a-4037-b6b5-68084b62aa10
+  attribution: Michael B. H. (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Homalocephale calathocercos
+  matched: Homalocephale
+  genus_level: true
+sources:
+- kind: original
+  text: T. Maryańska and H. Osmólska. 1974. Pachycephalosauria, a new suborder of ornithischian dinosaurs. Palaeontologia
+    Polonica 30:45-102
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Homalocephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Homalocephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Homalocephale”. English Wikipedia, revision 1382375691.
+  url: https://en.wikipedia.org/w/index.php?title=Homalocephale&oldid=1382375691
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
