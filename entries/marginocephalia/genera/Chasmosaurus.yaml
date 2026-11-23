@@ -1,0 +1,143 @@
+name: Chasmosaurus
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Lambe 1914
+type_species: Chasmosaurus belli
+type_species_note: Taxobox of the cited Wikipedia revision (named by Lambe in 1914).
+summary: Chasmosaurus is a medium-sized chasmosaurine with a broad frill, abundant in the Dinosaur Park Formation
+  of Alberta.
+size:
+  length_m: [4.3, 4.8]
+  mass_kg: [1500, 2000]
+  note: Ranges in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 21
+  note: ''
+species:
+- name: Chasmosaurus belli
+  authority: (Lambe 1902)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Chasmosaurus russelli
+  authority: Sternberg 1940
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 18
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Judith River
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Unnamed unit
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: belly-river-group-canada
+fossil_material:
+  holotype: NMC 491, a parietal bone from a neck frill found in 1898 at Berry Creek, Alberta — Dinosaur Park Formation
+    (C. belli).
+  material: Many skulls and skeletons; Mojoceratops (TMP 1983.25.1) was sunk into this genus.
+  completeness: multiple
+  exceptional: ''
+biology: Broad, rectangular frill with large openings; no behavioural data.
+images:
+- kind: life
+  file: Chasmosaurus Museo Semilla, Chihuahua.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Chasmosaurus_Museo_Semilla%2C_Chihuahua.jpg/960px-Chasmosaurus_Museo_Semilla%2C_Chihuahua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chasmosaurus_Museo_Semilla,_Chihuahua.jpg
+  artist: Levi bernardo original drawing by Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2017-06-08'
+  caption: Life reconstruction of Chasmosaurus.
+  width: 4608
+  height: 3456
+  review: unreviewed
+- kind: fossil
+  file: Chasmosaurus kaiseni.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2b/Chasmosaurus_kaiseni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chasmosaurus_kaiseni.jpg
+  artist: Ryan Somma
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: Unknown da
+  caption: Chasmosaurus kaiseni.
+  width: 1132
+  height: 1008
+  review: unreviewed
+- kind: fossil
+  file: '"Chasmosaurus russelli" skull.jpg'
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%22Chasmosaurus_russelli%22_skull.jpg/960px-%22Chasmosaurus_russelli%22_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:%22Chasmosaurus_russelli%22_skull.jpg
+  artist: Bloopityboop
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-08-14'
+  caption: Skull of Chasmosaurus russelli.
+  width: 3298
+  height: 1845
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5a0d1103-11e3-4478-a1f5-af7923b4b4df/vector.svg
+  png: https://images.phylopic.org/images/5a0d1103-11e3-4478-a1f5-af7923b4b4df/raster/512x242.png
+  page: https://www.phylopic.org/images/5a0d1103-11e3-4478-a1f5-af7923b4b4df
+  attribution: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua
+    A. Smith, Alan L. Titus
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Chasmosaurus russelli
+  matched: Chasmosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: L. M. Lambe. 1914. On Gryposaurus notabilis, a new genus and species of trachodont dinosaur from the Belly
+    River Formation of Alberta, with a description of the skull of Chasmosaurus belli. The Ottawa Naturalist 27(11):145-155
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chasmosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chasmosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chasmosaurus”. English Wikipedia, revision 1374377095.
+  url: https://en.wikipedia.org/w/index.php?title=Chasmosaurus&oldid=1374377095
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check species list (C. russelli, C. irvinensis moved to Vagaceratops).
+  reviews: []
