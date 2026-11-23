@@ -1,0 +1,114 @@
+name: Thyreosaurus
+rank: genus
+parent: stegosauria
+incertae_sedis: true
+placement_note: Described as a stegosaur from the El Mers III Formation (Zafaty et al. 2024); position within Stegosauria
+  not resolved in the sources used.
+authority: Zafaty et al. 2024
+type_species: Thyreosaurus atlasicus
+type_species_note: Named as the type in the cited sources (the PBDB species list gives this species).
+summary: Thyreosaurus is a Middle Jurassic stegosaur from Morocco with unusual oblong osteoderms possibly lying
+  flat on the back.
+size:
+  length_m: [6, 6]
+  note: Estimated body length of the not fully grown adult holotype (cited Wikipedia revision).
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Thyreosaurus atlasicus
+  authority: Zafaty et al. 2024
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+formations:
+- formation: El Mers III
+  group: El Mers
+  members: []
+  country: Morocco
+  regions: [Fès-Meknes]
+  interval: Late Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: el-mers-iii-morocco
+fossil_material:
+  holotype: HIIUC-BN00, an associated but disarticulated partial skeleton with nine dorsal vertebrae, 21 ribs, a
+    limb bone and six osteoderms — El Mers III Formation, Boulahfa North, Morocco.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its asymmetrical oblong osteoderms resemble those of nodosaurid ankylosaurs and may have lain recumbent
+  instead of upright.
+images:
+- kind: life
+  file: Thyreosaurus atlasicus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Thyreosaurus_atlasicus.png/960px-Thyreosaurus_atlasicus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Thyreosaurus_atlasicus.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-16'
+  caption: Life restoration of Thyreosaurus atlasicus.
+  width: 4000
+  height: 1382
+  review: unreviewed
+- kind: fossil
+  file: Thyreosaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Thyreosaurus_TD.png/960px-Thyreosaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Thyreosaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-01'
+  caption: Holotype elements of Thyreosaurus.
+  width: 2800
+  height: 1000
+  review: unreviewed
+- kind: fossil
+  file: Thyreosaurus osteoderms.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Thyreosaurus_osteoderms.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Thyreosaurus_osteoderms.png
+  artist: SlvrHwk
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-03-29'
+  caption: Osteoderms of Thyreosaurus.
+  width: 532
+  height: 175
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/df8a982b-c9a2-4846-82e9-5864725a1306/vector.svg
+  png: https://images.phylopic.org/images/df8a982b-c9a2-4846-82e9-5864725a1306/raster/512x162.png
+  page: https://www.phylopic.org/images/df8a982b-c9a2-4846-82e9-5864725a1306
+  attribution: Ddinodan
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Thyreosaurus atlasicus
+  matched: Thyreosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Zafaty, O.; Oukassou, M.; Riguetti, F.; ((Company)), J.; Bendrioua, S.; Tabuce, R.; Charrière, A.; Pereda-Suberbiola,
+    X. 2024. A new stegosaurian dinosaur (Ornithischia: Thyreophora) with a remarkable dermal armour from the Middle
+    Jurassic of North Africa. Gondwana Research 131: 344–362. doi:10.1016/j.gr.2024.03.009'
+- kind: literature
+  text: 'Maidment, Susannah C. R.; Ouarhache, Driss; Ech-charay, Kawtar; Oussou, Ahmed; Boumir, Khadija; El Khanchoufi,
+    Abdessalam; Park, Alison; Meade, Luke E.; Woodruff, D. Cary; Wills, Simon; Smith, Mike; Barrett, Paul M.; Butler,
+    Richard J. 2025. Extreme armour in the world’s oldest ankylosaur. [[Nature (journal): 1–6. doi:10.1038/s41586-025-09453-6'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thyreosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thyreosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Thyreosaurus”. English Wikipedia, revision 1350119794.
+  url: https://en.wikipedia.org/w/index.php?title=Thyreosaurus&oldid=1350119794
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

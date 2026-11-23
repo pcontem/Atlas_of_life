@@ -1,0 +1,105 @@
+name: Yingshanosaurus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Zhou 1986
+type_species: Yingshanosaurus jichuanensis
+type_species_note: Named as the type in the cited sources (the PBDB species list gives this species).
+summary: Yingshanosaurus is a medium-sized stegosaur from the Middle Jurassic Upper Shaximiao Formation of Sichuan,
+  China, known from a partial skeleton.
+size:
+  length_m: [4, 5]
+  note: Range given in the cited Wikipedia revision.
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yingshanosaurus jichuanensis
+  authority: Zhu 1994
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: shaximiao-china
+fossil_material:
+  holotype: A partially articulated skeleton from Yingshan County, Sichuan, including dorsal vertebrae, pelvis,
+    tail, left forelimb and hindlimb, and five osteoderms (plates and a shoulder spine).
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Like other stegosaurs it was a slow-moving quadrupedal herbivore.
+images:
+- kind: fossil
+  file: Yingshanosaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Yingshanosaurus_TD.png/960px-Yingshanosaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yingshanosaurus_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-06'
+  caption: Restored skeleton of Yingshanosaurus.
+  width: 2600
+  height: 1000
+  review: unreviewed
+- kind: life
+  file: Yingshanosaurus jichuanensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Yingshanosaurus_jichuanensis.png/960px-Yingshanosaurus_jichuanensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yingshanosaurus_jichuanensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-13'
+  caption: Life restoration of Yingshanosaurus jichuanensis.
+  width: 2550
+  height: 997
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/vector.svg
+  png: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/raster/512x192.png
+  page: https://www.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Tuojiangosaurus multispinus
+  matched: Stegosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: S. Zhou. 1986. De l'origine et de l'évolution systématique des Stegosauria à la lumière des fossiles connus
+    [On the origin and systematic evolution of the Stegosauria in light of the known fossils]. Les Dinosaures de
+    La Chine à La France, Colloque International de Paléontologie, Toulouse, France, 2-6 Septembre 1985; Muséum
+    d'Histoire Naturelle de Toulouse, Toulouse
+- kind: literature
+  text: 'Maidment, Susannah C.R.; Wei, Guangbiao 2006. A review of the Late Jurassic stegosaurs (Dinosauria, Stegosauria)
+    from the People''s Republic of China. Geological Magazine 143(5): 621–634. doi:10.1017/S0016756806002500'
+- kind: literature
+  text: 'Hao, Baoqiao; Zhang, Qiannan; Peng, Guangzhao; Ye, Yong; You, Hailu 2018. Redescription of ''''Gigantspinosaurus
+    sichuanensis'''' (Dinosauria, Stegosauria) from the Late Jurassic of Sichuan, Southwestern China. Acta Geologica
+    Sinica (English Edition) 92(2): 431–441. doi:10.1111/1755-6724.13535'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yingshanosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yingshanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yingshanosaurus”. English Wikipedia, revision 1383530003.
+  url: https://en.wikipedia.org/w/index.php?title=Yingshanosaurus&oldid=1383530003
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Original naming paper is Zhou 1984 (Chinese)? PBDB lists Zhou 1986; check authority year.
+  reviews: []

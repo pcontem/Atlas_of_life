@@ -1,0 +1,133 @@
+name: Kentrosaurus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Hennig 1915
+type_species: Kentrosaurus aethiopicus
+type_species_note: Named as the type in the cited sources (the PBDB species list gives this species).
+summary: Kentrosaurus is a small stegosaurid from the Late Jurassic Tendaguru Formation of Tanzania, known from
+  hundreds of bones.
+size:
+  length_m: [4, 4.5]
+  mass_kg: [700, 1600]
+  note: Adult ranges given in the cited Wikipedia revision.
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 27
+  note: ''
+species:
+- name: Kentrosaurus aethiopicus
+  authority: (Hennig 1915)
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+formations:
+- formation: Tendaguru
+  group: ''
+  members: [Lower Dinosaur, Middle Dinosaur, Upper Dinosaur]
+  country: Tanzania
+  regions: [Lindi]
+  interval: Oxfordian–Tithonian
+  occurrences: 27
+  ma: [143.1, 161.5]
+  id: tendaguru-tanzania
+fossil_material:
+  holotype: Syntype series from the German Tendaguru expeditions of 1909–1912, now mostly in the Museum für Naturkunde
+    Berlin.
+  material: Hundreds of bones, roughly 350 remaining specimens in Berlin; no complete skeleton is known.
+  completeness: multiple
+  exceptional: ''
+biology: Small elongated head with a beak for biting plants, a large gut, and a probably double row of small plates
+  on neck and back merging into spikes at hip and tail.
+images:
+- kind: life
+  file: Kentrosaurus aethiopicus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Kentrosaurus_aethiopicus.png/960px-Kentrosaurus_aethiopicus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kentrosaurus_aethiopicus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-13'
+  caption: Life restoration of Kentrosaurus aethiopicus.
+  width: 2113
+  height: 800
+  review: unreviewed
+- kind: fossil
+  file: Fossil Kentrosaurus aethiopicus in Museum für Naturkunde Berlin 001.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Fossil_Kentrosaurus_aethiopicus_in_Museum_f%C3%BCr_Naturkunde_Berlin_001.JPG/960px-Fossil_Kentrosaurus_aethiopicus_in_Museum_f%C3%BCr_Naturkunde_Berlin_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fossil_Kentrosaurus_aethiopicus_in_Museum_f%C3%BCr_Naturkunde_Berlin_001.JPG
+  artist: Sebastian Wallroth
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Fossil Kentrosaurus aethiopicus in the Museum für Naturkunde Berlin.
+  width: 2491
+  height: 1164
+  review: unreviewed
+- kind: fossil
+  file: Kentrosaurus thagomizer.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Kentrosaurus_thagomizer.JPG/960px-Kentrosaurus_thagomizer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kentrosaurus_thagomizer.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-08-28'
+  caption: Tail spikes (thagomizer) of Kentrosaurus.
+  width: 3736
+  height: 1516
+  review: unreviewed
+- kind: fossil
+  file: KentrosaurusBraincase(HMN St 460).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/KentrosaurusBraincase%28HMN_St_460%29.jpg/960px-KentrosaurusBraincase%28HMN_St_460%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:KentrosaurusBraincase(HMN_St_460).jpg
+  artist: Edwin Hennig
+  license: Public domain
+  license_url: ''
+  date: '1925'
+  caption: Braincase of Kentrosaurus.
+  width: 1696
+  height: 1062
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3afa2880-fa0a-4df0-8a84-87670ca9bab4/vector.svg
+  png: https://images.phylopic.org/images/3afa2880-fa0a-4df0-8a84-87670ca9bab4/raster/512x235.png
+  page: https://www.phylopic.org/images/3afa2880-fa0a-4df0-8a84-87670ca9bab4
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Kentrosaurus aethiopicus
+  matched: Kentrosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: E. Hennig. 1915. Kentrosaurus aethiopicus der Stegosauride des Tendaguru [Kentrosaurus aethiopicus the stegosaurid
+    from Tendaguru]. Sitzungsberichte der Gesellschaft Naturforschender Freunde zu Berlin 1915:219-247
+- kind: literature
+  text: Benson, Roger B. J.; Campione, Nicolás E.; Carrano, Matthew T.; Mannion, Philip D.; Sullivan, Corwin; Upchurch,
+    Paul; Evans, David C. 2014. Rates of Dinosaur Body Mass Evolution Indicate 170 Million Years of Sustained Ecological
+    Innovation on the Avian Stem Lineage. PLOS Biology 12(5). doi:10.1371/journal.pbio.1001853
+- kind: literature
+  text: 'Woodruff, D.C.; Trexler, D.; Maidment, S.C.R. 2019. Two New Stegosaur Specimens from the Upper Jurassic
+    Morrison Formation of Montana, USA. Acta Palaeontologica Polonica 64(3): 461–480. doi:10.4202/app.00585.2018'
+- kind: literature
+  text: 'Maidment, Susannah Catherine Rose; Brassey, Charlotte; Barrett, Paul Michael 2015. The Postcranial Skeleton
+    of an Exceptionally Complete Individual of the Plated Dinosaur Stegosaurus stenops (Dinosauria: Thyreophora)
+    from the Upper Jurassic Morrison Formation of Wyoming, U.S.A. PLOS ONE 10(10). doi:10.1371/journal.pone.0138352'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kentrosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kentrosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kentrosaurus”. English Wikipedia, revision 1380979988.
+  url: https://en.wikipedia.org/w/index.php?title=Kentrosaurus&oldid=1380979988
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type is a syntype series; a lectotype question is raised in Mallison 2011 (cited by the revision); verify.
+  reviews: []
