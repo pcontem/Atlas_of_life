@@ -1,0 +1,73 @@
+name: Stegopelta
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Williston 1905
+type_species: Stegopelta landerensis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Stegopelta is a struthiosaurin nodosaurid from the Frontier Formation of Wyoming, based on a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Stegopelta landerensis
+  authority: Williston 1905
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Frontier
+  group: ''
+  members: [Belle Fourche]
+  country: United States
+  regions: [Wyoming]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: frontier-united-states
+fossil_material:
+  holotype: FMNH UR88, with a maxilla fragment, cervical, dorsal and caudal vertebrae, sacrum and ilia, scapulae,
+    forelimb bones and armour — Belle Fourche Member, Frontier Formation, Wyoming.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Known from a partial skeleton and armour; the sources give no behavioural data.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Williston, S.W. 1905. A new armored dinosaur from the Upper Cretaceous of Wyoming. Science 22(564): 503–504.
+    doi:10.1126/science.22.564.503-a'
+- kind: literature
+  text: 'Coombs, W. P. Jr. 1978. The families of the ornithischian dinosaur order Ankylosauria. Palaeontology 21(1):
+    143–170.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stegopelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stegopelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stegopelta”. English Wikipedia, revision 1318760141.
+  url: https://en.wikipedia.org/w/index.php?title=Stegopelta&oldid=1318760141
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

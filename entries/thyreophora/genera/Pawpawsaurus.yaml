@@ -1,0 +1,113 @@
+name: Pawpawsaurus
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Lee 1996
+type_species: Pawpawsaurus campbelli
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Pawpawsaurus is a medium-sized nodosaurid from the Albian Paw Paw Formation of Texas, known from a complete
+  skull.
+size:
+  length_m: [4.5, 4.5]
+  note: Length given in the cited Wikipedia revision.
+age:
+  first_ma: 106.3
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pawpawsaurus campbelli
+  authority: Lee 1996
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Paw Paw
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Albian
+  occurrences: 1
+  ma: [100.5, 106.3]
+  id: paw-paw-united-states
+fossil_material:
+  holotype: SMU 73203, a complete skull without the mandibles — Paw Paw Formation, Tarrant County, Texas, found
+    in 1992.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Teeth in the premaxilla and a secondary palate restricted to the front, as in Silvisaurus.
+images:
+- kind: life
+  file: Pawpawsaurus reconstuction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Pawpawsaurus_reconstuction.png/960px-Pawpawsaurus_reconstuction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pawpawsaurus_reconstuction.png
+  artist: Void Lampshade
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-25'
+  caption: Life restoration of Pawpawsaurus campbelli.
+  width: 2048
+  height: 781
+  review: unreviewed
+- kind: fossil
+  file: Pawpawsaurus.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pawpawsaurus.PNG/960px-Pawpawsaurus.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pawpawsaurus.PNG
+  artist: Paulina-Carabajal A, Lee Y-N, Jacobs LL
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-03-23'
+  caption: Skull of Pawpawsaurus.
+  width: 4419
+  height: 3207
+  review: unreviewed
+- kind: fossil
+  file: PawpawsaurusMM1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/PawpawsaurusMM1.jpg/960px-PawpawsaurusMM1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:PawpawsaurusMM1.jpg
+  artist: Levi B. Martinez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2016-05-18'
+  caption: Skull of Pawpawsaurus.
+  width: 1637
+  height: 2051
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lee, Y.N. 1996. A new nodosaurid ankylosaur (Dinosauria: Ornithischia) from the Paw Paw Formation (Late
+    Albian) of Texas. Journal of Vertebrate Paleontology 16(2): 232–245. doi:10.1080/02724634.1996.10011311'
+- kind: literature
+  text: Madzia, D.; Arbour, V.M.; Boyd, C.A.; Farke, A.A.; Cruzado-Caballero, P.; Evans, D.C. 2021. The phylogenetic
+    nomenclature of ornithischian dinosaurs. PeerJ 9. doi:10.7717/peerj.12362
+- kind: literature
+  text: Paulina-Carabajal, A.; Lee, Y.N.; Jacobs, L.L. 2016. Endocranial Morphology of the Primitive Nodosaurid
+    Dinosaur ''Pawpawsaurus campbelli'' from the Early Cretaceous of North America. PLOS ONE 11(3). doi:10.1371/journal.pone.0150845
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pawpawsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pawpawsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pawpawsaurus”. English Wikipedia, revision 1365928162.
+  url: https://en.wikipedia.org/w/index.php?title=Pawpawsaurus&oldid=1365928162
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [May be a junior synonym of Texasetes (cited revision).]
+  reviews: []

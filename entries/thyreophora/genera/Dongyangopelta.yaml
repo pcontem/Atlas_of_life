@@ -1,0 +1,79 @@
+name: Dongyangopelta
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Chen et al. 2013
+type_species: Dongyangopelta yangyanensis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Dongyangopelta is a nodosaurid from the Chaochuan Formation of Zhejiang, China, described from a partial
+  postcranial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dongyangopelta yangyanensis
+  authority: Chen et al. 2013
+  first_ma: 113.2
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Chaochuan
+  group: ''
+  members: []
+  country: China
+  regions: [Zhejiang]
+  interval: Albian–Cenomanian
+  occurrences: 1
+  ma: [93.9, 113.2]
+  id: chaochuan-china
+fossil_material:
+  holotype: Partial postcranial skeleton with osteoderms and ossified tendons — Chaochuan Formation, Yangyan Village,
+    Dongyang, Zhejiang.
+  material: Holotype only; found in 2009 and excavated in 2010.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from armour and ossified tendons; no behavioural data.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Rongjun Chen 2013. A New Nodosaurid Ankylosaur from the Chaochuan Formation of Dongyang, Zhejiang Province,
+    China. Acta Geologica Sinica (English Edition) 87(3): 658–671. doi:10.1111/1755-6724.12077'
+- kind: literature
+  text: 'Arbour, V. M. 2015. Systematics, phylogeny and palaeobiogeography of the ankylosaurid dinosaurs. Journal
+    of Systematic Palaeontology 14(5): 1–60. doi:10.1080/14772019.2015.1059985'
+- kind: literature
+  text: Wenjie Zheng 2018. The most basal ankylosaurine dinosaur from the Albian–Cenomanian of China, with implications
+    for the evolution of the tail club. Scientific Reports 8(1). doi:10.1038/s41598-018-21924-7
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dongyangopelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dongyangopelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dongyangopelta”. English Wikipedia, revision 1368876998.
+  url: https://en.wikipedia.org/w/index.php?title=Dongyangopelta&oldid=1368876998
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image candidates; holotype number to be added.
+  - Size not given in the cited revision.
+  reviews: []

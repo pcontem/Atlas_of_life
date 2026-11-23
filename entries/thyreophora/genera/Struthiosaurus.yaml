@@ -1,0 +1,212 @@
+name: Struthiosaurus
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bunzel 1870
+type_species: Struthiosaurus austriacus
+type_species_note: Type species named by Bunzel in 1871 (cited Wikipedia revision).
+summary: Struthiosaurus is a small European nodosaurid from the Late Cretaceous of Austria, Romania, France and
+  Spain, with three valid species.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 23
+  note: ''
+species:
+- name: Struthiosaurus austriacus
+  authority: Bunzel 1871
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Struthiosaurus languedocensis
+  authority: Garcia and Pereda-Suberbiola 2003
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Struthiosaurus transylvanicus
+  authority: Nopcsa 1915
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Grünbach
+  group: Gosau
+  members: []
+  country: Austria
+  regions: [Niederosterreich]
+  interval: Early Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: grunbach-austria
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: sebes-romania
+- formation: Râul Mare
+  group: ''
+  members: [upper]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: raul-mare-romania
+- formation: Vitoria
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: vitoria-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Languedoc-Roussillon, Provence-Alpes-Côte d'Azur]
+  interval: Early Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: [unnamed-l-olivet-quarry-villeveyrac-france, unnamed-la-neuve-france]
+- formation: Coal-Bearing Complex
+  group: Gosau
+  members: []
+  country: Austria
+  regions: []
+  interval: Early Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: coal-bearing-complex-austria
+- formation: Sînpetru
+  group: ''
+  members: [lower]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: Sedano
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: sedano-spain
+- formation: Sierra Perenchiza
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valencia]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: sierra-perenchiza-spain
+- formation: Marnes Rouges Inférieures
+  group: ''
+  members: [Marnes de la Maurine]
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: marnes-rouges-inferieures-france
+- formation: Şard
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sard-romania
+fossil_material:
+  holotype: PIWU 2349/6 (S. austriacus), the rear of a skull largely consisting of the braincase — Grünbach Formation,
+    Austria.
+  material: 'Three valid species: S. austriacus, S. transylvanicus (BMNH R4966, a skull) and S. languedocensis.'
+  completeness: fragmentary
+  exceptional: ''
+biology: Small island-dwelling nodosaurid known from fragmentary bones and armour; the cited revision also covers
+  the neuroanatomy.
+images:
+- kind: fossil
+  file: Struthiosaurus (8062141412).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Struthiosaurus_%288062141412%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Struthiosaurus_(8062141412).jpg
+  artist: Gyik Toma (Tommy the paleobear) from Romania
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2012-09-01'
+  caption: Skull of Struthiosaurus.
+  width: 1373
+  height: 1024
+  review: unreviewed
+- kind: fossil
+  file: Struthiosaurus occitanicus humerus.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Struthiosaurus_occitanicus_humerus.JPG/960px-Struthiosaurus_occitanicus_humerus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Struthiosaurus_occitanicus_humerus.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: ''
+  caption: Humerus of Struthiosaurus occitanicus.
+  width: 1931
+  height: 1558
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: E. Bunzel. 1870. Notice of a fragment of a reptilian skull from the Upper Cretaceous of Grünbach. Quarterly
+    Review of the Geological Society of London 26:394
+- kind: literature
+  text: 'Pereda-Suberbiola, Javier 1992. A revised census of European Late Cretaceous nodosaurids(Ornithischia:
+    Ankylosauria): last occurrence and possible extinction scenarios. Terra Nova 4(6): 641–648. doi:10.1111/j.1365-3121.1992.tb00613.x'
+- kind: literature
+  text: 'Schade, Marco; Stumpf, Sebastian; Kriwet, Jürgen; Kettler, Christoph; Pfaff, Cathrin 7 Ja. Neuroanatomy
+    of the nodosaurid Struthiosaurus austriacus (Dinosauria: Thyreophora) supports potential ecological differentiations
+    within Ankylosauria. Scientific Reports 12(1). doi:10.1038/s41598-021-03599-9'
+- kind: literature
+  text: Kirkland, James I.; Alcalá, Luis; Loewen, Mark A.; Espílez, Eduardo; Mampel, Luis; Wiersma, Jelle P. 2 De.
+    The Basal Nodosaurid Ankylosaur Europelta carbonensis n. gen., n. sp. from the Lower Cretaceous (Lower Albian)
+    Escucha Formation of Northeastern Spain. PLOS ONE 8(12). doi:10.1371/journal.pone.0080405
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Struthiosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Struthiosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Struthiosaurus”. English Wikipedia, revision 1373140786.
+  url: https://en.wikipedia.org/w/index.php?title=Struthiosaurus&oldid=1373140786
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Many species were referred to the genus; check which of S. austriacus, S. transylvanicus and S. languedocensis
+    are accepted in the latest review.
+  - Size not given in the snippets read; add from the revision.
+  reviews: []

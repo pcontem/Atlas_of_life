@@ -1,0 +1,128 @@
+name: Europelta
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Kirkland et al. 2013
+type_species: Europelta carbonensis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Europelta is the most complete ankylosaur known from Europe, a large struthiosaurin nodosaurid from the
+  Albian of Teruel, Spain.
+size:
+  length_m: [5, 5]
+  mass_kg: [1300, 1300]
+  note: Estimates given in the cited Wikipedia revision.
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Europelta carbonensis
+  authority: Kirkland et al. 2013
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Escucha
+  group: ''
+  members: [Lower Sedimentary Succession]
+  country: Spain
+  regions: [Aragón]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: escucha-spain
+fossil_material:
+  holotype: A partial skeleton — Escucha Formation, locality AR-1 near Ariño, Teruel Province, Spain.
+  material: Two associated partial skeletons (holotype and paratype).
+  completeness: partial
+  exceptional: ''
+biology: A large nodosaurid; its mandible, osteoderms and limbs are described in the original paper.
+images:
+- kind: fossil
+  file: Europelta carbonensis Dinopolis Teruel 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Europelta_carbonensis_Dinopolis_Teruel_2.jpg/960px-Europelta_carbonensis_Dinopolis_Teruel_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Europelta_carbonensis_Dinopolis_Teruel_2.jpg
+  artist: Turol Jones
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-28'
+  caption: Skeleton of Europelta at Dinópolis, Teruel.
+  width: 5471
+  height: 3647
+  review: unreviewed
+- kind: fossil
+  file: Europelta carbonensis en Dinópolis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Europelta_carbonensis_en_Din%C3%B3polis.jpg/960px-Europelta_carbonensis_en_Din%C3%B3polis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Europelta_carbonensis_en_Din%C3%B3polis.jpg
+  artist: Willtron
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 4 June 202
+  caption: Skeleton of Europelta carbonensis at Dinópolis.
+  width: 4624
+  height: 3468
+  review: unreviewed
+- kind: fossil
+  file: Europelta cervical vertebrae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Europelta_cervical_vertebrae.png/960px-Europelta_cervical_vertebrae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Europelta_cervical_vertebrae.png
+  artist: James I. Kirkland, Luis Alcalá, Mark A. Loewen, Eduardo Espílez, Luis Mampel, Jelle P. Wiersma
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2013-12-03'
+  caption: Cervical vertebrae of Europelta (Kirkland et al. 2013).
+  width: 2015
+  height: 1959
+  review: unreviewed
+- kind: fossil
+  file: Europelta large osteoderms.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Europelta_large_osteoderms.png/960px-Europelta_large_osteoderms.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Europelta_large_osteoderms.png
+  artist: James I. Kirkland, Luis Alcalá, Mark A. Loewen, Eduardo Espílez, Luis Mampel, Jelle P. Wiersma
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2013-12-03'
+  caption: Large osteoderms of Europelta (Kirkland et al. 2013).
+  width: 1959
+  height: 1621
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cd970ad1-0efd-4b26-8595-99ef104f96ef/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/cd970ad1-0efd-4b26-8595-99ef104f96ef
+  attribution: James I. Kirkland, Luis Alcalá, Mark A. Loewen, Eduardo Espílez, Luis Mampel, and Jelle P. Wiersma
+    (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Europelta carbonensis
+  matched: Europelta
+  genus_level: true
+sources:
+- kind: original
+  text: Kirkland, J. I.; Alcalá, L.; Loewen, M. A.; Espílez, E.; Mampel, L.; Wiersma, J. P. 2013. The Basal Nodosaurid
+    Ankylosaur ''Europelta carbonensis'' n. gen., n. sp. From the Lower Cretaceous (Lower Albian) Escucha Formation
+    of Northeastern Spain. PLOS ONE 8(12). doi:10.1371/journal.pone.0080405
+- kind: literature
+  text: 'Arbour, V.M.; Zanno, L.E.; Gates, T. 2016. Ankylosaurian dinosaur palaeoenvironmental associations were
+    influenced by extirpation, sea-level fluctuation, and geodispersal. Palaeogeography, Palaeoclimatology, Palaeoecology
+    449: 289–299. doi:10.1016/j.palaeo.2016.02.033'
+- kind: literature
+  text: Wenjie Zheng 2018. The most basal ankylosaurine dinosaur from the Albian–Cenomanian of China, with implications
+    for the evolution of the tail club. Scientific Reports 8(1). doi:10.1038/s41598-018-21924-7
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Europelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Europelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Europelta”. English Wikipedia, revision 1368878518.
+  url: https://en.wikipedia.org/w/index.php?title=Europelta&oldid=1368878518
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

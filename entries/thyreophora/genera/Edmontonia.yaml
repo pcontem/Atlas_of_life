@@ -1,0 +1,217 @@
+name: Edmontonia
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Sternberg 1928
+type_species: Edmontonia longiceps
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Edmontonia is a large nodosaurid from the Late Cretaceous of North America, named for the Edmonton Formation
+  of Alberta.
+size:
+  length_m: [6, 6]
+  mass_kg: [3000, 3000]
+  note: Six metres and three tonnes for E. rugosidens (cited Wikipedia revision).
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 16
+  note: ''
+species:
+- name: Edmontonia australis
+  authority: Ford 2000
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Edmontonia longiceps
+  authority: (Sternberg 1928)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Judith River
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Hell Creek
+  group: Montana
+  members: [Upper]
+  country: United States
+  regions: [Montana, South Dakota]
+  interval: Lancian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Denver
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: denver-united-states
+- formation: St. Mary River
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: st-mary-river-canada
+- formation: Matanuska
+  group: ''
+  members: ['3']
+  country: United States
+  regions: [Alaska]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: matanuska-united-states
+- formation: Judith River
+  group: Montana
+  members: [Coal Ridge]
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-canada
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: horseshoe-canyon-canada
+- formation: Bearpaw Shale
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: bearpaw-shale-canada
+fossil_material:
+  holotype: Complete skull of E. longiceps — Horseshoe Canyon Formation, Alberta.
+  material: Several species and specimens across the western interior.
+  completeness: multiple
+  exceptional: ''
+biology: Heavy quadrupedal herbivore with an elongated, pear-shaped skull and shorter lateral spikes in E. rugosidens.
+images:
+- kind: fossil
+  file: Edmontonia Royal Tyrrell 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Edmontonia_Royal_Tyrrell_1.jpg/960px-Edmontonia_Royal_Tyrrell_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Edmontonia_Royal_Tyrrell_1.jpg
+  artist: Etemenanki3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-22'
+  caption: Mounted skeleton of Edmontonia at the Royal Tyrrell Museum.
+  width: 5472
+  height: 3648
+  review: unreviewed
+- kind: fossil
+  file: Edmontonia mount.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/19/Edmontonia_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Edmontonia_mount.jpg
+  artist: Kabacchi
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2009-12-26'
+  caption: Mounted skeleton of Edmontonia.
+  width: 784
+  height: 704
+  review: unreviewed
+- kind: life
+  file: Edmontonia restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Edmontonia_restoration.jpg/960px-Edmontonia_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Edmontonia_restoration.jpg
+  artist: E.M. Fulda
+  license: Public domain
+  license_url: ''
+  date: '1922'
+  caption: Life restoration of Edmontonia.
+  width: 2274
+  height: 1655
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Edmontonia
+  genus_level: true
+sources:
+- kind: original
+  text: 'Sternberg, C.M. 1928. A new armored dinosaur from the Edmonton Formation of Alberta. Transactions of the
+    Royal Society of Canada 22: 93–106.'
+- kind: literature
+  text: 'Vickaryous, Matthew K. 2006. New information on the cranial anatomy of ''''Edmontonia rugosidens'''' Gilmore,
+    a Late Cretaceous nodosaurid dinosaur from Dinosaur Provincial Park, Alberta. Journal of Vertebrate Paleontology
+    26(4): 1011–1013. doi:10.1671/0272-4634(2006)26[1011:niotca]2.0.co;2'
+- kind: literature
+  text: 'Arbour, V.M. 2009. A redescription of the ankylosaurid dinosaur ''''Dyoplosaurus acutosquameus'''' Parks,
+    1924 (Ornithischia: Ankylosauria) and a revision of the genus. Journal of Vertebrate Paleontology 29(4): 1117–1135.
+    doi:10.1671/039.029.0405'
+- kind: literature
+  text: 'Raven, T. J.; Barrett, P. M.; Joyce, C. B.; Maidment, S. C. R. 2023. The phylogenetic relationships and
+    evolutionary history of the armoured dinosaurs (Ornithischia: Thyreophora). Journal of Systematic Palaeontology
+    21(1). doi:10.1080/14772019.2023.2205433'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Edmontonia (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Edmontonia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Edmontonia”. English Wikipedia, revision 1380128835.
+  url: https://en.wikipedia.org/w/index.php?title=Edmontonia&oldid=1380128835
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Panoplosaurus was long confused with this genus; check which specimens belong where.
+  - PBDB lists E. australis, which belongs to Glyptodontopelta (Burns 2008).
+  reviews: []

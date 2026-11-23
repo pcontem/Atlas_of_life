@@ -7,15 +7,27 @@ regions: [Colorado]
 location:
   lat: 38.914
   lng: -104.531
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 66.0
+  first_ma: 72.2
   last_ma: 63.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: ['"channel"', terrestrial indet., '"floodplain"']
-lithology: [sandstone, not reported, '"shale"', mudstone]
-pbdb_collections: ['14658', '176750', '176868', '209936', '209976', '209987', '210027', '238106', '238108', '238109',
-  '238110']
+lithology: [sandstone, not reported, mudstone, '"shale"']
+pbdb_collections:
+- '14658'
+- '49528'
+- '49539'
+- '176750'
+- '176868'
+- '209936'
+- '209976'
+- '209987'
+- '210027'
+- '238106'
+- '238108'
+- '238109'
+- '238110'
 includes: []
 summary: ''
 paleoenvironment: ''
