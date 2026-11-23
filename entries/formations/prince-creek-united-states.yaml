@@ -1,0 +1,32 @@
+id: prince-creek-united-states
+name: Prince Creek
+rank: formation
+group: Colville
+country: United States
+regions: [Alaska]
+location:
+  lat: 69.919
+  lng: -151.53
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [delta plain, '"channel"']
+lithology: [siltstone, sandstone]
+pbdb_collections: ['47787', '51889']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Prince Creek (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Prince+Creek
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

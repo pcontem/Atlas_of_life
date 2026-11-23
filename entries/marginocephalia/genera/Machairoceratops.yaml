@@ -1,0 +1,91 @@
+name: Machairoceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Lund et al. 2016
+type_species: Machairoceratops cronusi
+type_species_note: Only species of the genus (PBDB).
+summary: Machairoceratops is a centrosaurine with forward-sweeping frill spikes from the Campanian Wahweap Formation
+  of Utah.
+size:
+  length_m: null
+  note: About the size of Diabloceratops (cited Wikipedia revision); no length given.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Machairoceratops cronusi
+  authority: Lund et al. 2016
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Wahweap
+  group: ''
+  members: [Coyote Point]
+  country: United States
+  regions: [Utah]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wahweap-united-states
+fossil_material:
+  holotype: UMNH VP 20550, found in 2006 — Wahweap Formation, Grand Staircase–Escalante National Monument, Utah;
+    held at the Natural History Museum of Utah.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from the holotype; no behavioural data.
+images:
+- kind: life
+  file: Machairoceratops.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Machairoceratops.PNG/960px-Machairoceratops.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Machairoceratops.PNG
+  artist: Eric K. Lund, Patrick M. O’Connor, Mark A. Loewen, Zubair A. Jinnah
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2016'
+  caption: Life restoration of Machairoceratops.
+  width: 2000
+  height: 2291
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: Eric K. Lund 2016. A New Centrosaurine Ceratopsid, ''Machairoceratops cronusi'' gen et sp. nov., from the
+    Upper Sand Member of the Wahweap Formation (Middle Campanian), Southern Utah. PLOS ONE 11(5). doi:10.1371/journal.pone.0154403
+- kind: literature
+  text: 'Loewen, Mark A.; Sertich, Joseph J. W.; Sampson, Scott; O''Connor, Jingmai K.; Carpenter, Savhannah; Sisson,
+    Brock; Øhlenschlæger, Anna; Farke, Andrew A.; Makovicky, Peter J.; Longrich, Nick; Evans, David C. 20 J. ''''Lokiceratops
+    rangiformis'''' gen. et sp. nov. (Ceratopsidae: Centrosaurinae) from the Campanian Judith River Formation of
+    Montana reveals rapid regional radiations and extreme endemism within centrosaurine dinosaurs. PeerJ 12. doi:10.7717/peerj.17224'
+- kind: literature
+  text: Gates, T. A.; Horner, J. R.; Hanna, R. R.; Nelson, C. R. 2011. New unadorned hadrosaurine hadrosaurid (Dinosauria,
+    Ornithopoda) from the Campanian of North America. Journal of Vertebrate Paleontology 31(4). doi:10.1080/02724634.2011.577854
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Machairoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Machairoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Machairoceratops”. English Wikipedia, revision 1356088968.
+  url: https://en.wikipedia.org/w/index.php?title=Machairoceratops&oldid=1356088968
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

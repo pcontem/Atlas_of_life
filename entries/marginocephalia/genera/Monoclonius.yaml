@@ -1,0 +1,175 @@
+name: Monoclonius
+rank: genus
+parent: centrosaurinae
+incertae_sedis: true
+placement_note: Most specimens once placed in Monoclonius are now thought to be juveniles or subadults of Centrosaurus
+  and other genera; those left under the name are too incomplete to place (cited Wikipedia revision).
+authority: Cope 1876
+type_species: Monoclonius crassus
+type_species_note: Named by Cope in 1876 (cited Wikipedia revision).
+summary: Monoclonius is a historic centrosaurine genus of Montana and Alberta whose many referred specimens are
+  now mostly assigned to other genera.
+size:
+  length_m: null
+  note: Size is not defined because the type material is too incomplete.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Monoclonius crassus
+  authority: Cope 1876
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Monoclonius cutleri
+  authority: (Brown 1917)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Monoclonius dawsoni
+  authority: (Lambe 1902)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Monoclonius flexus
+  authority: (Brown 1914)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Monoclonius lowei
+  authority: Sternberg 1940
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Monoclonius nasicornus
+  authority: (Brown 1917)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Kirtland
+  group: ''
+  members: [De-na-zin]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: Fruitland
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Unnamed unit
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: belly-river-group-canada
+- formation: Cokedale
+  group: Livingston
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: cokedale-united-states
+fossil_material:
+  holotype: Specimen of M. crassus described by Cope in 1876 (collection number not given in the sources used) —
+    Judith River Formation, Montana.
+  material: Fragmentary type material; the second named species had a lost tooth that is probably hadrosaurian.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not inferable from the type material.
+images:
+- kind: fossil
+  file: Monoclonius crassus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Monoclonius_crassus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Monoclonius_crassus.jpg
+  artist: Hatcher, J. B. , O. C. Marsh , and R. S. Lull
+  license: Public domain
+  license_url: ''
+  date: '1907'
+  caption: Monoclonius crassus.
+  width: 782
+  height: 472
+  review: unreviewed
+- kind: fossil
+  file: Monoclonius recurvicornis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Monoclonius_recurvicornis.jpg/960px-Monoclonius_recurvicornis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Monoclonius_recurvicornis.jpg
+  artist: E. D. Cope
+  license: Public domain
+  license_url: ''
+  date: '1899'
+  caption: Monoclonius recurvicornis.
+  width: 2104
+  height: 3255
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Cope, E.D. 1876. Descriptions of some vertebrate remains from the Fort Union Beds of Montana. Proceedings
+    of the Academy of Natural Sciences of Philadelphia 28: 248–261.'
+- kind: literature
+  text: 'Ryan, M.J. 2006. The status of the problematic taxon ''''Monoclonius'''' (Ornithischia: Ceratopsidae) and
+    the recognition of adult-sized dinosaur taxa. Geological Society of America Abstracts with Programs 38(4).'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Monoclonius (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Monoclonius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Monoclonius”. English Wikipedia, revision 1369594263.
+  url: https://en.wikipedia.org/w/index.php?title=Monoclonius&oldid=1369594263
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Validity (nomen dubium?) and species list need review (M1); several species were moved to other genera.
+  reviews: []

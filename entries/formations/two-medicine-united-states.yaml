@@ -5,17 +5,32 @@ group: Montana
 country: United States
 regions: [Montana]
 location:
-  lat: 48.572
-  lng: -112.583
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  lat: 48.779
+  lng: -112.642
+  basis: median of 16 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., lacustrine - small]
-lithology: [not reported, siltstone]
-pbdb_collections: ['22694', '45680', '45681', '53999', '54000', '62541', '69931', '100851', '138980', '142497',
-  '196407', '232277']
+environment: [terrestrial indet., lacustrine - small, crevasse splay]
+lithology: [not reported, siltstone, mudstone]
+pbdb_collections:
+- '22652'
+- '22693'
+- '22694'
+- '45680'
+- '45681'
+- '53999'
+- '54000'
+- '59373'
+- '62541'
+- '69931'
+- '100851'
+- '138980'
+- '142497'
+- '196407'
+- '232277'
+- '236765'
 includes: []
 summary: ''
 paleoenvironment: ''

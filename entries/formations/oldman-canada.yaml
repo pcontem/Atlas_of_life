@@ -5,16 +5,31 @@ group: Belly River
 country: Canada
 regions: [Alberta]
 location:
-  lat: 50.691
-  lng: -111.528
-  basis: median of 8 PBDB collections that yielded the atlas genera
+  lat: 50.688
+  lng: -111.524
+  basis: median of 15 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., crevasse splay, '"channel"']
-lithology: [sandstone, not reported, mudstone]
-pbdb_collections: ['35379', '45240', '47794', '47795', '47809', '52476', '52991', '116538']
+lithology: [not reported, sandstone, mudstone]
+pbdb_collections:
+- '35379'
+- '45240'
+- '47794'
+- '47795'
+- '47809'
+- '52476'
+- '52483'
+- '52485'
+- '52991'
+- '64399'
+- '70055'
+- '116538'
+- '123351'
+- '188846'
+- '206061'
 includes: []
 summary: ''
 paleoenvironment: ''

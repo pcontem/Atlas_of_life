@@ -1,0 +1,113 @@
+name: Achelousaurus
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Sampson 1994
+type_species: Achelousaurus horneri
+type_species_note: Only species of the genus (PBDB).
+summary: Achelousaurus is a large centrosaurine with rough bosses instead of horns above the nose and eyes, from
+  the Two Medicine Formation of Montana.
+size:
+  length_m: [6, 6]
+  mass_kg: [3000, 3000]
+  note: Estimates in the cited Wikipedia revision; holotype skull about 1.62 m long.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Achelousaurus horneri
+  authority: Sampson 1994
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+fossil_material:
+  holotype: MOR 485, the skull of an adult — Two Medicine Formation, Montana.
+  material: Further skulls and postcrania.
+  completeness: multiple
+  exceptional: ''
+biology: Bosses above the nose and eyes instead of horns.
+images:
+- kind: life
+  file: Achelousaurus dinosaur.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Achelousaurus_dinosaur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Achelousaurus_dinosaur.png
+  artist: Mariana Ruiz ( LadyofHats )
+  license: Public domain
+  license_url: ''
+  date: '2006-07-28'
+  caption: Life restoration of Achelousaurus.
+  width: 1284
+  height: 1280
+  review: unreviewed
+- kind: fossil
+  file: Achelousaurus holotype (1).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Achelousaurus_holotype_%281%29.jpg/960px-Achelousaurus_holotype_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Achelousaurus_holotype_(1).jpg
+  artist: Tim Evanson from Washington, D.C., United States of America
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2013-07-08'
+  caption: Holotype of Achelousaurus.
+  width: 2539
+  height: 2706
+  review: unreviewed
+- kind: fossil
+  file: Achelousaurus skull right side.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Achelousaurus_skull_right_side.jpg/960px-Achelousaurus_skull_right_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Achelousaurus_skull_right_side.jpg
+  artist: James St. John
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2010-08-08'
+  caption: Skull of Achelousaurus.
+  width: 2139
+  height: 2587
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/58bce2d1-ae19-4560-924d-74b825512070/vector.svg
+  png: https://images.phylopic.org/images/58bce2d1-ae19-4560-924d-74b825512070/raster/928x1024.png
+  page: https://www.phylopic.org/images/58bce2d1-ae19-4560-924d-74b825512070
+  attribution: Mariana Ruiz (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Achelousaurus horneri
+  matched: Achelousaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Sampson, S. D. 1994. Two new horned dinosaurs (Ornithischia: Ceratopsidae) from the Upper Cretaceous Two
+    Medicine Formation, Montana, USA. Journal of Vertebrate Paleontology 14(Suppl. 3). doi:10.1080/02724634.1994.10011592'
+- kind: literature
+  text: 'Gilmore, C.W. 1930. On dinosaurian reptiles from the Two Medicine of Montana. Proceedings of the United
+    States National Museum 77(2839): 1–39. doi:10.5479/si.00963801.77-2839.1'
+- kind: literature
+  text: Wilson, J.P.; Scannella, J.B. 2016. Comparative cranial osteology of subadult centrosaurine dinosaurs from
+    the Two Medicine Formation, Montana. Journal of Vertebrate Paleontology, SVP Program and Abstracts Book, 2016.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Achelousaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Achelousaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Achelousaurus”. English Wikipedia, revision 1371163666.
+  url: https://en.wikipedia.org/w/index.php?title=Achelousaurus&oldid=1371163666
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
