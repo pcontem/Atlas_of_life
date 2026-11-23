@@ -1,0 +1,76 @@
+name: Coronosaurus
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Ryan et al. 2012
+type_species: Coronosaurus brinkmani
+type_species_note: Species originally named Centrosaurus brinkmani by Ryan and Russell in 2005 (cited Wikipedia
+  revision).
+summary: Coronosaurus is a mid-sized centrosaurine from the Campanian Oldman Formation of Alberta, once placed in
+  Centrosaurus.
+size:
+  length_m: [5, 5]
+  mass_kg: [2000, 2000]
+  note: Estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Coronosaurus brinkmani
+  authority: (Ryan and Russell 2005)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: TMP 2002.68.1 — Oldman Formation, Alberta.
+  material: Bonebeds BB 138 and MRR BB, both in the Oldman Formation.
+  completeness: multiple
+  exceptional: ''
+biology: Known from bonebeds that record many individuals.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/606b9bf1-159a-4eeb-9c2e-5c9b4536dc56/vector.svg
+  png: https://images.phylopic.org/images/606b9bf1-159a-4eeb-9c2e-5c9b4536dc56/raster/512x224.png
+  page: https://www.phylopic.org/images/606b9bf1-159a-4eeb-9c2e-5c9b4536dc56
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Centrosaurus apertus
+  matched: Coronosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Ryan, M. J.; Evans, D. C.; Shepherd, K. M.; Sues, H. 2012. A new ceratopsid from the Foremost Formation
+    (middle Campanian) of Alberta. Canadian Journal of Earth Sciences 49(10): 1251. doi:10.1139/e2012-056'
+- kind: literature
+  text: 'Ryan, M. J.; Russell, A. P. 2005. A new centrosaurine ceratopsid from the Oldman Formation of Alberta and
+    its implications for centrosaurine taxonomy and systematics. Canadian Journal of Earth Sciences 42(7): 1369.
+    doi:10.1139/e05-029'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coronosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coronosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coronosaurus”. English Wikipedia, revision 1365354779.
+  url: https://en.wikipedia.org/w/index.php?title=Coronosaurus&oldid=1365354779
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

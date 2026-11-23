@@ -1,0 +1,95 @@
+name: Albertaceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Ryan 2007
+type_species: Albertaceratops nesmoi
+type_species_note: Only species of the genus (PBDB).
+summary: Albertaceratops is a basal centrosaurine with long brow horns from the Oldman Formation of Alberta.
+size:
+  length_m: [5.8, 5.8]
+  mass_kg: [3500, 3500]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Albertaceratops nesmoi
+  authority: Ryan 2007
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+fossil_material:
+  holotype: Skull and partial skeleton (catalogue number not given in the sources used) — Oldman Formation, Alberta.
+  material: Holotype plus a Judith River Formation specimen listed in PBDB.
+  completeness: partial
+  exceptional: ''
+biology: Long brow horns on a basal centrosaurine.
+images:
+- kind: life
+  file: Albertaceratops BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Albertaceratops_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Albertaceratops_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-07-29'
+  caption: Life restoration of Albertaceratops.
+  width: 748
+  height: 457
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4b12a77a-0a16-4b93-baf5-7d4d01d0d9bd/vector.svg
+  png: https://images.phylopic.org/images/4b12a77a-0a16-4b93-baf5-7d4d01d0d9bd/raster/512x203.png
+  page: https://www.phylopic.org/images/4b12a77a-0a16-4b93-baf5-7d4d01d0d9bd
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Albertaceratops nesmoi
+  matched: Albertaceratops
+  genus_level: true
+sources:
+- kind: original
+  text: 'Ryan, Michael J. 2007. A New Basal Centrosaurine Ceratopsid from the Oldman Formation, Southeastern Alberta.
+    Journal of Paleontology 81(2): 376–396. doi:10.1666/0022-3360(2007)81[376:ANBCCF]2.0.CO;2'
+- kind: literature
+  text: 'Kentaro Chiba 2018. New material and systematic re-evaluation of ''''Medusaceratops lokii'''' (Dinosauria,
+    Ceratopsidae) from the Judith River Formation (Campanian, Montana). Journal of Paleontology 92(2): 272–288.
+    doi:10.1017/jpa.2017.62'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Albertaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Albertaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Albertaceratops”. English Wikipedia, revision 1381859381.
+  url: https://en.wikipedia.org/w/index.php?title=Albertaceratops&oldid=1381859381
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

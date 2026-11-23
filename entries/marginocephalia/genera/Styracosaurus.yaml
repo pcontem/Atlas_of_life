@@ -1,0 +1,127 @@
+name: Styracosaurus
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Lambe 1913
+type_species: Styracosaurus albertensis
+type_species_note: Named by Lambe in 1913 (PBDB; cited Wikipedia revision).
+summary: Styracosaurus is a spiked-frill centrosaurine from the Dinosaur Park Formation of Alberta.
+size:
+  length_m: [5, 5.8]
+  mass_kg: [1800, 2700]
+  note: Ranges in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Styracosaurus albertensis
+  authority: Lambe 1913
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Styracosaurus makeli
+  authority: Czerkas and Czerkas 1990
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Styracosaurus parksi
+  authority: Brown and Schlaikjer 1937
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 10
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+fossil_material:
+  holotype: A mostly complete skull described by Lambe in 1913 (collection number not given in the sources used)
+    — Dinosaur Park Formation, Alberta.
+  material: A nearly complete skull and skeleton (TMP 1989.97.1) from Sage Creek, about 130 km from the holotype
+    site.
+  completeness: multiple
+  exceptional: ''
+biology: Long frill spikes and a nasal horn.
+images:
+- kind: life
+  file: Styracosaurus albertensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Styracosaurus_albertensis.png/960px-Styracosaurus_albertensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Styracosaurus_albertensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-22'
+  caption: Life restoration of Styracosaurus albertensis.
+  width: 4000
+  height: 2069
+  review: unreviewed
+- kind: fossil
+  file: Styracosaurus albertensis skull 02.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a8/Styracosaurus_albertensis_skull_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Styracosaurus_albertensis_skull_02.jpg
+  artist: Claire Houck from New York City, USA
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2008-03-10'
+  caption: Skull of Styracosaurus albertensis.
+  width: 1200
+  height: 1600
+  review: unreviewed
+- kind: fossil
+  file: Styracosaurus body.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Styracosaurus_body.jpg/960px-Styracosaurus_body.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Styracosaurus_body.jpg
+  artist: D. Gordon E. Robertson
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-02-17'
+  caption: Styracosaurus body.
+  width: 3356
+  height: 2059
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b5131da6-f158-46bd-812d-5cda4a0a2254/vector.svg
+  png: https://images.phylopic.org/images/b5131da6-f158-46bd-812d-5cda4a0a2254/raster/512x268.png
+  page: https://www.phylopic.org/images/b5131da6-f158-46bd-812d-5cda4a0a2254
+  attribution: Craig Dylke
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Styracosaurus albertensis
+  matched: Styracosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Lambe, L.M. 1913. A new genus and species from the Belly River Formation of Alberta. Ottawa Naturalist
+    27: 109–116.'
+- kind: literature
+  text: Brown, Barnum; Schlaikjer, Erich Maren 1937. The skeleton of ''Styracosaurus'' with the description of a
+    new species. American Museum Novitates(955).
+- kind: literature
+  text: 'McDonald, A. T. 2011. A Subadult Specimen of ''''Rubeosaurus ovatus'''' (Dinosauria: Ceratopsidae), with
+    Observations on Other Ceratopsids from the Two Medicine Formation. PLOS ONE 6(8). doi:10.1371/journal.pone.0022710'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Styracosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Styracosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Styracosaurus”. English Wikipedia, revision 1383322592.
+  url: https://en.wikipedia.org/w/index.php?title=Styracosaurus&oldid=1383322592
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Citation 39 of the Wikipedia revision looks like the naming paper; confirm.
+  reviews: []

@@ -1,0 +1,91 @@
+name: Medusaceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Ryan et al. 2010
+type_species: Medusaceratops lokii
+type_species_note: Only species of the genus (PBDB).
+summary: Medusaceratops is a centrosaurine from the middle Campanian Judith River Formation of Montana, based on
+  frill remains.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Medusaceratops lokii
+  authority: Ryan et al. 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+fossil_material:
+  holotype: WDC DJR 001, a partial parietal (frill); paratype WDC DJR 002 — Judith River Formation, Montana; Wyoming
+    Dinosaur Center.
+  material: Bonebed material (about 77.5 Ma).
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from frills; no behavioural data.
+images:
+- kind: fossil
+  file: WDC - Medusaceratops lokii.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/WDC_-_Medusaceratops_lokii.jpg/960px-WDC_-_Medusaceratops_lokii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:WDC_-_Medusaceratops_lokii.jpg
+  artist: CryolophosaurusEllioti
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-06-12'
+  caption: Medusaceratops lokii at the Wyoming Dinosaur Center.
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/dd76c334-dc6c-4fa6-b50b-3743f319767f/vector.svg
+  png: https://images.phylopic.org/images/dd76c334-dc6c-4fa6-b50b-3743f319767f/raster/512x222.png
+  page: https://www.phylopic.org/images/dd76c334-dc6c-4fa6-b50b-3743f319767f
+  attribution: Montana Rosslyn
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Medusaceratops lokii
+  matched: Medusaceratops
+  genus_level: true
+sources:
+- kind: original
+  text: 'M. J. Ryan, A. P. Russell, and S. Hartman. 2010. A new chasmosaurine ceratopsid from the Judith River Formation,
+    Montana. New Perspectives on Horned Dinosaurs: The Royal Tyrrell Museum Ceratopsian Symposium. Indiana University
+    Press, Bloomington'
+- kind: literature
+  text: 'Longrich, N. R. 2013. ''''Judiceratops tigris'''', a New Horned Dinosaur from the Middle Campanian Judith
+    River Formation of Montana. Bulletin of the Peabody Museum of Natural History 54(1): 51–65. doi:10.3374/014.054.0103'
+- kind: literature
+  text: 'Ryan, M. J.; Evans, D. C.; Currie, P. J.; Loewen, M. A. 2014. A new chasmosaurine from northern Laramidia
+    expands frill disparity in ceratopsid dinosaurs. Naturwissenschaften 101(6): 505–512. doi:10.1007/s00114-014-1183-1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Medusaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Medusaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Medusaceratops”. English Wikipedia, revision 1351491689.
+  url: https://en.wikipedia.org/w/index.php?title=Medusaceratops&oldid=1351491689
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB gives Ryan et al. 2010 as authority; not in the Wikipedia citations.
+  reviews: []

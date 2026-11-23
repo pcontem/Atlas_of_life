@@ -1,0 +1,103 @@
+name: Diabloceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Kirkland and Deblieux 2010
+type_species: Diabloceratops eatoni
+type_species_note: Only species of the genus (PBDB).
+summary: Diabloceratops is a medium-sized centrosaurine with long frill spikes from the Wahweap Formation of Utah.
+size:
+  length_m: [4.5, 4.5]
+  mass_kg: [1300, 1300]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Diabloceratops eatoni
+  authority: Kirkland and Deblieux 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Wahweap
+  group: ''
+  members: [Reynolds Point]
+  country: United States
+  regions: [Utah]
+  interval: Early Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: wahweap-united-states
+fossil_material:
+  holotype: Specimen at the Natural History Museum of Utah (catalogue number not given in the sources used) — Wahweap
+    Formation, Utah.
+  material: Skull and skeletal material.
+  completeness: partial
+  exceptional: ''
+biology: Medium-sized, ground-dwelling quadrupedal herbivore.
+images:
+- kind: fossil
+  file: Diabloceratops skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Diabloceratops_skull.jpg/960px-Diabloceratops_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diabloceratops_skull.jpg
+  artist: Perry Quan from Oakville, Canada
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2013-05-18'
+  caption: Skull of Diabloceratops.
+  width: 2631
+  height: 3408
+  review: unreviewed
+- kind: fossil
+  file: Diabloceratops eatoni by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Diabloceratops_eatoni_by_Nick_Longrich.jpg/960px-Diabloceratops_eatoni_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diabloceratops_eatoni_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-02'
+  caption: Diabloceratops eatoni specimen.
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kirkland, J.I. 2010. New Perspectives on Horned Dinosaurs: The Royal Tyrrell Museum Ceratopsian Symposium.
+    Indiana University Press.'
+- kind: literature
+  text: Beveridge, Tegan L.; Roberts, Eric M.; Ramezani, Jahandar; Titus, Alan L.; Eaton, Jeffrey G.; Irmis, Randall
+    B.; Sertich, Joseph J.W. Apri. Refined geochronology and revised stratigraphic nomenclature of the Upper Cretaceous
+    Wahweap Formation, Utah, U.S.A. and the age of early Campanian vertebrates from southern Laramidia. Palaeogeography,
+    Palaeoclimatology, Palaeoecology 591. doi:10.1016/j.palaeo.2022.110876
+- kind: literature
+  text: Eric K. Lund 2016. A New Centrosaurine Ceratopsid, ''Machairoceratops cronusi'' gen et sp. nov., from the
+    Upper Sand Member of the Wahweap Formation (Middle Campanian), Southern Utah. PLOS ONE 11(5). doi:10.1371/journal.pone.0154403
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diabloceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diabloceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Diabloceratops”. English Wikipedia, revision 1368131444.
+  url: https://en.wikipedia.org/w/index.php?title=Diabloceratops&oldid=1368131444
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

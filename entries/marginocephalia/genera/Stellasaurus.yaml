@@ -1,0 +1,98 @@
+name: Stellasaurus
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Wilson et al. 2020
+type_species: Stellasaurus ancellae
+type_species_note: Only species of the genus (PBDB).
+summary: Stellasaurus is a small centrosaurine from the Two Medicine Formation of Montana, described in 2020.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Stellasaurus ancellae
+  authority: Wilson et al. 2020
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+fossil_material:
+  holotype: Specimen in the Museum of the Rockies (catalogue number not given in the sources used) — Two Medicine
+    Formation, Montana.
+  material: Skull parts including nasal horncore and parietal.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from skull material; no behavioural data.
+images:
+- kind: life
+  file: Stellasaurus Paleoarte.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Stellasaurus_Paleoarte.png/960px-Stellasaurus_Paleoarte.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stellasaurus_Paleoarte.png
+  artist: DarkWerewolf
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-07'
+  caption: Life restoration of Stellasaurus.
+  width: 4091
+  height: 2975
+  review: unreviewed
+- kind: fossil
+  file: Nasal horncore of Stellasaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/56/Nasal_horncore_of_Stellasaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nasal_horncore_of_Stellasaurus.jpg
+  artist: John P. Wilson, Michael J. Ryanand David C. Evans
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020'
+  caption: Nasal horncore of Stellasaurus.
+  width: 1290
+  height: 989
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: Wilson, John P.; Ryan, Michael J.; Evans, David C. 2020. A new, transitional centrosaurine ceratopsid from
+    the Upper Cretaceous Two Medicine Formation of Montana and the evolution of the ''Styracosaurus''-line' dinosaurs.
+    Royal Society Open Science 7(4). doi:10.1098/rsos.200284
+- kind: literature
+  text: 'Horner, John R.; Varricchio, David J.; Goodwin, Mark B. July. Marine transgressions and the evolution of
+    Cretaceous dinosaurs. Nature 358(6381): 59–61. doi:10.1038/358059a0'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stellasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stellasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stellasaurus”. English Wikipedia, revision 1314813511.
+  url: https://en.wikipedia.org/w/index.php?title=Stellasaurus&oldid=1314813511
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
