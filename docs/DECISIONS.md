@@ -366,3 +366,12 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - 141 genera written as ai-draft (all valid PBDB genera with an English Wikipedia article now have an entry). PBDB clades without an atlas entry map to the nearest atlas clade (Titanosauriformes and Somphospondyli to Macronaria, Rinconsauria and Lithostrotia to Titanosauria, Gravisauria and Eusauropoda to Sauropoda, Guaibasauridae, Anchisauridae and Massopoda to Sauropodomorpha).
 - Licence case: Commons licences with a country port (CC BY 2.5 AR, CC BY-SA 3.0 PL) are rejected by the validator's I3 string check, so those two photos were left out and flagged in curation notes; the owner decides whether ported versions are allowed.
 - Genera whose Wikipedia article is not about the dinosaur (Coloradia is a moth) or whose group or validity is doubtful (Actiosaurus, Nopcsaspondylus) were not written.
+
+## 2026-11-22 — Ornithischia: census, split and setup of part A
+- Census of 2026-11-22 (`data/raw/census/ornithischia`): PBDB 596 valid genera, 378 missing from the atlas and 216 waiting in the backbone, about 590 to write. Too large for one volume, so owner (2026-11-22) split it in two parts: **A** = Thyreophora + Marginocephalia (about 260 genera), **B** = Ornithopoda (with Hadrosauridae), Heterodontosauria and basal ornithischians (about 330).
+- Silesauridae (8 PBDB genera in the group) stay out: most analyses treat them as dinosauriforms outside Ornithischia. Ichnogenera and oogenera (57) stay out, as in Sauropodomorpha.
+- A volume has one root clade (`_volume.yaml`), and Thyreophora and Marginocephalia sit in different parts of the tree, so part A is two directories prepared and delivered together: `entries/thyreophora` (attaches to Ornithischia) and `entries/marginocephalia` (attaches to Neornithischia). Their clade ids drop the backbone's `parent__` prefix.
+- Polacanthidae has no clade entry yet (source not read); its four backbone genera sit in Ankylosauria meanwhile. PBDB nomina dubia that still wait in the backbone as valid genera (Minmi, Chialingosaurus) are not in `excluded.yaml` until their entries settle validity (M1).
+
+## 2026-11-23 — Literature over backbone
+- Owner: whenever the tree backbone (which follows PBDB) and the recent literature diverge, choose the literature. This replaces the earlier rule of changing the tree only when PBDB agreed with recent studies (CLAUDE.md §4.8, Placement). Every change is recorded in `docs/TREE_REVIEW.md` with its source; disagreement among recent analyses still goes through M2.

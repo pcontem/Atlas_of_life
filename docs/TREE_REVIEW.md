@@ -750,3 +750,17 @@ The backbone node "Euphorosuchus" had no source in PBDB or English Wikipedia. Th
 
 ## 2026-11-22 — Sauropodomorpha, batch 3
 - Rinconsaurus moved from Lognkosauria to Titanosauria (incertae sedis): the cited sources call it a titanosaurid related to Aeolosaurus (Rinconsauria / Aeolosauridae), none links it to Lognkosauria. PBDB parent is Rinconsauria.
+
+## 2026-11-22 — Thyreophora volume (Ornithischia part A)
+- Clade nodes of Thyreophora (Stegosauria, Huayangosauridae, Stegosauridae, Ankylosauria, Ankylosauridae, Nodosauridae) moved from the backbone to `entries/thyreophora`; their ids lost the `parent__` prefix (e.g. `ankylosauria__nodosauridae` → `nodosauridae`) and the waiting genus nodes were re-parented to the new ids.
+- Polacanthidae removed as a node and its four genera (Gargoyleosaurus, Gastonia, Mymoorapelta, Polacanthus) placed directly in Ankylosauria until the family gets an entry (the Wikipedia revision could not be read); PBDB lists them as Polacanthidae. A 2023 review (Raven et al.) keeps Polacanthidae as a family within a split of the nodosaurids.
+
+## 2026-11-22 — Marginocephalia volume (Ornithischia part A)
+- Clade nodes of Marginocephalia (Ceratopsia, Pachycephalosauria, Psittacosauridae, Leptoceratopsidae, Protoceratopsidae, Ceratopsidae, Centrosaurinae, Chasmosaurinae) moved from the backbone to `entries/marginocephalia`; ids lost the `parent__` prefix (e.g. `ceratopsia__ceratopsidae__centrosaurinae` → `centrosaurinae`) and the waiting genus nodes were re-parented. The volume attaches to Neornithischia.
+
+## 2026-11-23 — Basal thyreophorans out of Ankylosauria (literature over backbone)
+Rule of 2026-11-23 (owner): where the backbone and the literature diverge, the literature wins.
+- *Scutellosaurus*, *Scelidosaurus*: Ankylosauria → Thyreophora. Both are basal thyreophorans outside Eurypoda in recent analyses (Madzia et al. 2021 and the Thyreophora article cited in `entries/thyreophora/clades/thyreophora.yaml`).
+- *Jakapil*: Ankylosauria → Thyreophora, *incertae sedis within Thyreophora*. Riguetti et al. 2022 (Scientific Reports 12:11621, doi:10.1038/s41598-022-15535-6) recover it as a basal thyreophoran outside Eurypoda or as a stem ankylosaur, depending on the data matrix; Fonseca et al. 2024 recover it as a basal ankylosaur. The deepest clade they share is Thyreophora (M2).
+- *Laquintasaura*: Ankylosauria → Ornithischia, *incertae sedis within Ornithischia*. Barrett et al. 2014 described it as an early ornithischian, and later work (Baron et al. 2016, cited by Raven & Maidment) treats it as a probable basal thyreophoran; the deepest clade they share is Ornithischia (M2). It belongs to part B (basal ornithischians).
+- Kept in Ankylosauria after checking: *Stegouros*, *Kunbarrasaurus*, *Minmi* (Parankylosauria, the earliest branch of Ankylosauria in Soto-Acuña et al. 2021, replicated in later analyses). The doubt noted on 2026-11-22 about Stegouros being outside Ankylosauria is withdrawn.
