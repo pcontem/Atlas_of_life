@@ -5,16 +5,17 @@ group: ''
 country: United States
 regions: [New Mexico]
 location:
-  lat: 36.486
-  lng: -108.475
-  basis: median of 6 PBDB collections that yielded the atlas genera
+  lat: 36.278
+  lng: -108.218
+  basis: median of 12 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., marine indet.]
-lithology: [mudstone, coal, '"shale"', not reported]
-pbdb_collections: ['36449', '36541', '36542', '52052', '61858', '62528']
+environment: [terrestrial indet., marine indet., channel lag]
+lithology: [not reported, '"shale"', sandstone, mudstone]
+pbdb_collections: ['34826', '34827', '36449', '36541', '36542', '39229', '52052', '52058', '61858', '62528', '64096',
+  '196511']
 includes: []
 summary: ''
 paleoenvironment: ''

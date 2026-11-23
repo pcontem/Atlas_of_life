@@ -1,0 +1,83 @@
+name: Eotriceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 2007
+type_species: Eotriceratops xerinsularis
+type_species_note: Only species of the genus (PBDB).
+summary: Eotriceratops is a very large chasmosaurine from the uppermost Horseshoe Canyon Formation of Alberta.
+size:
+  length_m: [8.5, 9]
+  mass_kg: [11000, 11000]
+  note: Estimates in the cited Wikipedia revision; holotype skull about 3 m long.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eotriceratops xerinsularis
+  authority: Wu et al. 2007
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Carbon]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: horseshoe-canyon-canada
+fossil_material:
+  holotype: RTMP 2002.57.5, a skull — uppermost Horseshoe Canyon Formation, Alberta (about 68.8 Ma).
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from one skull; no behavioural data.
+images:
+- kind: life
+  file: Eotriceratops BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Eotriceratops_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eotriceratops_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-12-01'
+  caption: Life restoration of Eotriceratops.
+  width: 800
+  height: 425
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b4705472-581f-4c8e-8d1e-be1d6d4f0f38/vector.svg
+  png: https://images.phylopic.org/images/b4705472-581f-4c8e-8d1e-be1d6d4f0f38/raster/512x261.png
+  page: https://www.phylopic.org/images/b4705472-581f-4c8e-8d1e-be1d6d4f0f38
+  attribution: Nobu Tamura (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eotriceratops xerinsularis
+  matched: Eotriceratops
+  genus_level: true
+sources:
+- kind: original
+  text: X.-C. Wu, D. B. Brinkman, and D. A. Ebert, D. R. Braman. 2007. A new ceratopsid dinosaur (Ornithischia)
+    from the uppermost Horseshoe Canyon Formation (upper Maastrichtian), Alberta, Canada. Canadian Journal of Earth
+    Sciences 44:1243-1265
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eotriceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eotriceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eotriceratops”. English Wikipedia, revision 1342493299.
+  url: https://en.wikipedia.org/w/index.php?title=Eotriceratops&oldid=1342493299
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

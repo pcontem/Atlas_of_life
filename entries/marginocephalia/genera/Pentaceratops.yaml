@@ -1,0 +1,151 @@
+name: Pentaceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Osborn 1923
+type_species: Pentaceratops sternbergii
+type_species_note: Named by Osborn in 1923 (PBDB; cited Wikipedia revision).
+summary: Pentaceratops is a large chasmosaurine with a very long frill, from the Campanian Fruitland and Kirtland
+  formations of New Mexico.
+size:
+  length_m: null
+  note: No size figure extracted from the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 14
+  note: ''
+species:
+- name: Pentaceratops aquilonius
+  authority: Longrich 2014
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Pentaceratops fenestratus
+  authority: Wiman 1930
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Pentaceratops sternbergii
+  authority: Osborn 1923
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Fruitland
+  group: ''
+  members: [Fossil Forest]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Kirtland
+  group: ''
+  members: [Hunter Wash]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: Williams Fork
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: williams-fork-united-states
+- formation: Aguja
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+fossil_material:
+  holotype: AMNH 6325, a skull discovered by Sternberg in 1922 — Fruitland Formation, New Mexico.
+  material: Several skulls and skeletons of P. sternbergii, plus P. fenestratus and P. aquilonius referred by other
+    authors.
+  completeness: multiple
+  exceptional: ''
+biology: Very long frill with large openings; no behavioural data.
+images:
+- kind: life
+  file: Pentaceratops BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Pentaceratops_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pentaceratops_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-01-28'
+  caption: Life restoration of Pentaceratops.
+  width: 800
+  height: 504
+  review: unreviewed
+- kind: fossil
+  file: Pentaceratops skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Pentaceratops_sternbergii_holotype_AMNH6325.jpg/960px-Pentaceratops_sternbergii_holotype_AMNH6325.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pentaceratops_sternbergii_holotype_AMNH6325.jpg
+  artist: Osborn, Henry Fairfield, 1857-1935. Sternberg, Charles H. (Charles Hazelius), b. 1850.
+  license: Public domain
+  license_url: ''
+  date: '1923'
+  caption: Skull of Pentaceratops.
+  width: 1843
+  height: 1191
+  review: unreviewed
+- kind: fossil
+  file: Pentaceratops aquilonius paratype.PNG
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Pentaceratops_aquilonius_paratype.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pentaceratops_aquilonius_paratype.PNG
+  artist: Jordan C. Mallon, Christopher J. Ott, Peter L. Larson, Edward M. Iuliano, David C. Evans
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2016'
+  caption: Paratype of Pentaceratops aquilonius.
+  width: 1000
+  height: 914
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4cde990d-89fb-4307-83e7-7139a30e23d1/vector.svg
+  png: https://images.phylopic.org/images/4cde990d-89fb-4307-83e7-7139a30e23d1/raster/512x301.png
+  page: https://www.phylopic.org/images/4cde990d-89fb-4307-83e7-7139a30e23d1
+  attribution: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua
+    A. Smith, Alan L. Titus
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Pentaceratops gettyi
+  matched: Pentaceratops
+  genus_level: true
+sources:
+- kind: original
+  text: H. F. Osborn. 1923. A new genus and species of Ceratopsia from New Mexico, Pentaceratops sternbergii. American
+    Museum Novitates 93:1-3
+- kind: literature
+  text: 'Wick, S. L.; Lehman, T. M. 2013. A new ceratopsian dinosaur from the Javelina Formation (Maastrichtian)
+    of West Texas and implications for chasmosaurine phylogeny. Naturwissenschaften 100(7): 667–82. doi:10.1007/s00114-013-1063-0'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pentaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pentaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pentaceratops”. English Wikipedia, revision 1335313617.
+  url: https://en.wikipedia.org/w/index.php?title=Pentaceratops&oldid=1335313617
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB lists three species; Longrich 2014 named P. aquilonius — check which are valid.
+  reviews: []

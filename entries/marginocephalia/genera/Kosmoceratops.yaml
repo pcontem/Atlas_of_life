@@ -1,0 +1,98 @@
+name: Kosmoceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Sampson et al. 2010
+type_species: Kosmoceratops richardsoni
+type_species_note: Only species of the genus (PBDB).
+summary: Kosmoceratops is a chasmosaurine with an ornate frill bearing many small horns, from the Kaiparowits Formation
+  of Utah.
+size:
+  length_m: [4.5, 4.5]
+  mass_kg: [1200, 1200]
+  note: Estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Kosmoceratops richardsoni
+  authority: Sampson et al. 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Kaiparowits
+  group: ''
+  members: [Middle]
+  country: United States
+  regions: [Utah]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: kaiparowits-united-states
+fossil_material:
+  holotype: UMNH VP 17000, a nearly complete adult skull — locality VP 890, Kaiparowits Formation, Grand Staircase–Escalante
+    National Monument, Utah.
+  material: Further specimens from the same monument.
+  completeness: partial
+  exceptional: ''
+biology: Elaborate horns on the frill; no behavioural data.
+images:
+- kind: fossil
+  file: Kosmoceratops skull horizontal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Kosmoceratops_skull_horizontal.png/960px-Kosmoceratops_skull_horizontal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kosmoceratops_skull_horizontal.png
+  artist: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua A. Smith,
+    Alan L. Titus
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-09-22'
+  caption: Skull of Kosmoceratops.
+  width: 3145
+  height: 1582
+  review: unreviewed
+- kind: fossil
+  file: Skull reconstruction of Kosmoceratops richardsoni.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Skull_reconstruction_of_Kosmoceratops_richardsoni.jpg/960px-Skull_reconstruction_of_Kosmoceratops_richardsoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skull_reconstruction_of_Kosmoceratops_richardsoni.jpg
+  artist: Illustration by Lukas Panzarin, published by Sampson SD, Loewen MA, Farke AA, Roberts EM, Forster CA,
+    et al.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010'
+  caption: Skull reconstruction of Kosmoceratops.
+  width: 4103
+  height: 5255
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d0df60c7-4fd3-418e-9521-00a8296a8a14/vector.svg
+  png: https://images.phylopic.org/images/d0df60c7-4fd3-418e-9521-00a8296a8a14/raster/512x255.png
+  page: https://www.phylopic.org/images/d0df60c7-4fd3-418e-9521-00a8296a8a14
+  attribution: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua
+    A. Smith, Alan L. Titus
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Kosmoceratops richardsoni
+  matched: Kosmoceratops
+  genus_level: true
+sources:
+- kind: original
+  text: 2010. Amazing horned dinosaurs unearthed on "lost continent".
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kosmoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kosmoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kosmoceratops”. English Wikipedia, revision 1369917337.
+  url: https://en.wikipedia.org/w/index.php?title=Kosmoceratops&oldid=1369917337
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

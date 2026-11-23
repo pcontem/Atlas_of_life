@@ -3,11 +3,11 @@ name: Hell Creek
 rank: formation
 group: Montana
 country: United States
-regions: [Montana, North Dakota, South Dakota]
+regions: [Montana, North Dakota, South Dakota, Wyoming]
 location:
-  lat: 46.443
-  lng: -103.963
-  basis: median of 64 PBDB collections that yielded the atlas genera
+  lat: 46.464
+  lng: -104.571
+  basis: median of 134 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
@@ -15,18 +15,22 @@ age:
 environment:
 - terrestrial indet.
 - '"channel"'
-- '"floodplain"'
-- coarse channel fill
-- fluvial indet.
 - crevasse splay
+- '"floodplain"'
+- fluvial indet.
+- coarse channel fill
 - channel lag
-lithology: [sandstone, mudstone, '"shale"', siltstone]
+- pond
+- lacustrine - small
+lithology: [sandstone, not reported, mudstone, claystone]
 pbdb_collections:
+- '11931'
 - '13142'
 - '14508'
 - '14512'
 - '14513'
 - '14515'
+- '14516'
 - '14525'
 - '14533'
 - '14534'
@@ -36,6 +40,7 @@ pbdb_collections:
 - '14546'
 - '14548'
 - '14549'
+- '14550'
 - '14552'
 - '14559'
 - '14560'
@@ -48,23 +53,34 @@ pbdb_collections:
 - '14620'
 - '14621'
 - '14639'
+- '14649'
 - '14653'
 - '14654'
+- '14674'
+- '24851'
+- '38544'
 - '45098'
 - '45099'
 - '45102'
+- '45103'
 - '45109'
 - '45110'
 - '45111'
 - '45112'
+- '45113'
 - '45114'
+- '45117'
 - '45118'
 - '45119'
 - '45120'
 - '45122'
+- '45123'
+- '45124'
 - '45128'
+- '45130'
 - '45134'
 - '45136'
+- '45137'
 - '45143'
 - '45144'
 - '45145'
@@ -73,9 +89,35 @@ pbdb_collections:
 - '45313'
 - '45381'
 - '45382'
+- '45386'
+- '45388'
 - '45390'
+- '45879'
 - '47034'
+- '49016'
+- '53128'
+- '55353'
+- '55354'
+- '55355'
+- '57919'
+- '64428'
+- '64429'
+- '67129'
+- '72143'
+- '73947'
+- '73948'
+- '74175'
+- '81041'
+- '81042'
+- '88990'
+- '99441'
+- '99881'
 - '100110'
+- '100852'
+- '109659'
+- '109660'
+- '109661'
+- '124934'
 - '137601'
 - '137710'
 - '137711'
@@ -83,9 +125,39 @@ pbdb_collections:
 - '137722'
 - '137724'
 - '137727'
+- '137728'
+- '142376'
+- '144502'
+- '157187'
+- '162855'
+- '173841'
+- '173842'
 - '183109'
+- '183110'
+- '189003'
+- '189572'
+- '191374'
 - '192251'
+- '216603'
+- '217183'
+- '221004'
+- '221005'
+- '221007'
 - '224484'
+- '224486'
+- '224488'
+- '224489'
+- '224490'
+- '224492'
+- '224667'
+- '225317'
+- '225318'
+- '225319'
+- '225924'
+- '227182'
+- '227283'
+- '228491'
+- '238642'
 includes: []
 summary: ''
 paleoenvironment: ''
