@@ -1,3 +1,36 @@
+# Next steps (Ornithischia, part A: Thyreophora + Marginocephalia)
+
+## Done (branch entry/ornithischia-a)
+- 97 Thyreophora and 102 Marginocephalia genus entries (ai-draft, `unreviewed` images) in two directories, written in 19 batches. Every placement follows the
+  literature where it diverged from the backbone/PBDB (owner rule); disputed cases are `incertae_sedis: true` with a `placement_note` (M2): e.g. Paranthodon,
+  Taohelong, Jakapil, Yuxisaurus, Patagopelta, Spicomellus, Sinankylosaurus, Tatankacephalus, Texasetes (Thyreophora); Asiaceratops, Serendipaceratops,
+  Notoceratops, Albalophosaurus, Micropachycephalosaurus, Stenopelix, Monoclonius (Marginocephalia).
+- Names added to `excluded.yaml`: Xuanhuasaurus (nomen nudum, Marginocephalia); Hoplosaurus (junior synonym of Struthiosaurus) and Changdusaurus (nomen nudum) (Thyreophora).
+- Lesothosaurus and Laquintasaura are reserved for Part B (basal ornithischians; see `docs/TREE_REVIEW.md`).
+
+## Not written yet (decide or harvest)
+- Marginocephalia: Eucentrosaurus (PBDB only, no occurrences; probably a synonym or a replacement name, check Chure and McIntosh 1989 and later work) and
+  Hanssuesia (Sullivan 2003; spelling corrected from "Hanssuessia"; status relative to Stegoceras sternbergi to be checked before an entry or an exclusion).
+- Thyreophora: Euskelesaurus (a sauropodomorph name in the literature; PBDB parent is wrong), Priodontosaurus (no article, no occurrence), Hylosaurus
+  (Mantell's original spelling of Hylaeosaurus, so a spelling issue not a genus), Sauraechmodon (Falconer's emendation proposal for Echinodon, so not a genus).
+  Miragaia, Chialingosaurus, Minmi, Zhongyuansaurus, Denversaurus, Cryptarcus are backbone nodes without entry: need a harvest with the right article titles.
+- Eopinacosaurus (new in 2026 for Pinacosaurus mephistocephalus): entry written; check the original paper and whether the species should be left under Pinacosaurus.
+
+## Open questions for the owner
+- Nipponopelta authority: 2026 in the Wikipedia revision, 2027 in PBDB.
+- Tarchia vs Minotaurasaurus (junior synonym according to the Tarchia article): both entries kept until reviewed.
+- Gremlin, Beg and Gastonia use literature sources instead of a fixed Wikipedia revision (their harvested article is the wrong page): refresh the harvest with the
+  titles "Gremlin slobodorum", "Beg tse" and "Gastonia (dinosaur)" and re-draft the sources.
+- Polacanthidae has no clade entry (Gastonia and Hylaeosaurus sit in Nodosauridae; Polacanthus is incertae sedis within Ankylosauria).
+- `data/census/sources.yaml` has three categories that do not exist on Wikipedia (Stegosauridae, Iguanodontia, Hypsilophodontidae).
+- Part B (Ornithopoda, Hadrosauridae, Heterodontosauria, basal ornithischians) not started.
+
+## Reminders
+- Many images were chosen by file name from contact-sheet titles only; all are `review: unreviewed`, no life restoration is `accepted`.
+- Holotype numbers marked "not given in the sources used" need checking against the naming papers.
+
+---
+
 # Next steps (Sauropodomorpha, second round)
 
 ## Done (branch entry/sauropodomorpha-9)
