@@ -3,18 +3,18 @@ name: Jibou
 rank: formation
 group: ''
 country: Romania
-regions: []
+regions: [Salaj]
 location:
   lat: 47.285
-  lng: 23.299
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lng: 23.28
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 59.24
+  first_ma: 72.2
   last_ma: 56.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial-lacustrine indet.]
-lithology: ['"limestone"']
-pbdb_collections: ['83307', '138240', '138241']
+environment: [fluvial-lacustrine indet., fluvial indet.]
+lithology: ['"limestone"', claystone]
+pbdb_collections: ['83307', '115075', '138240', '138241']
 includes: []
 summary: ''
 paleoenvironment: ''

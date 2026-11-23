@@ -7,7 +7,7 @@ regions: [Hunedoara]
 location:
   lat: 45.617
   lng: 22.783
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
@@ -16,11 +16,24 @@ environment:
 - wet floodplain
 - '"channel"'
 - lacustrine indet.
-- lacustrine - small
 - dry floodplain
+- lacustrine - small
+- terrestrial indet.
 lithology: [mudstone, claystone, sandstone, siltstone]
-pbdb_collections: ['13334', '67817', '67818', '67819', '89991', '163320', '163322', '163328', '193942', '193944',
-  '235665', '239464']
+pbdb_collections:
+- '13334'
+- '67817'
+- '67818'
+- '67819'
+- '89991'
+- '115102'
+- '163320'
+- '163322'
+- '163328'
+- '193942'
+- '193944'
+- '235665'
+- '239464'
 includes: []
 summary: ''
 paleoenvironment: ''

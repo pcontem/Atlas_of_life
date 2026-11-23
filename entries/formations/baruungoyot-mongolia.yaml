@@ -5,16 +5,34 @@ group: ''
 country: Mongolia
 regions: [Dornogov, Omnogov]
 location:
-  lat: 43.5
-  lng: 101.13
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  lat: 43.496
+  lng: 101.127
+  basis: median of 18 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., wet floodplain]
+environment: [terrestrial indet., eolian indet., interdune, wet floodplain]
 lithology: [sandstone, not reported, marl]
-pbdb_collections: ['11582', '28243', '51971', '65334', '65338', '181420', '181421']
+pbdb_collections:
+- '11582'
+- '13776'
+- '13777'
+- '28243'
+- '37022'
+- '51971'
+- '58105'
+- '65334'
+- '65338'
+- '118256'
+- '130803'
+- '154402'
+- '181414'
+- '181417'
+- '181418'
+- '181420'
+- '181421'
+- '204919'
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,97 @@
+name: Mosaiceratops
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Zheng et al. 2015
+type_species: Mosaiceratops azumai
+type_species_note: Only species of the genus (PBDB).
+summary: Mosaiceratops is a small ceratopsian from the Xiaguan Formation of Henan, China, with a mosaic of basal
+  neoceratopsian and psittacosaurid features.
+size:
+  length_m: [1, 1]
+  mass_kg: [10, 10]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 93.9
+  last_ma: 72.2
+  early_interval: Turonian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mosaiceratops azumai
+  authority: Zheng et al. 2015
+  first_ma: 93.9
+  last_ma: 72.2
+  interval: Turonian–Campanian
+  reference: original description
+formations:
+- formation: Xiaguan
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Early Turonian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 93.9]
+  id: xiaguan-china
+fossil_material:
+  holotype: ZMNH M8856, an incomplete disarticulated skeleton with skull — Xiaguan Formation, west bank of the Tuanhe
+    river, Neixiang, Henan.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Small herbivore; some premaxillary and nasal features shared with Psittacosaurus.
+images:
+- kind: life
+  file: Mosaiceratops restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Mosaiceratops_restoration.jpg/960px-Mosaiceratops_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mosaiceratops_restoration.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-10-09'
+  caption: Life restoration of Mosaiceratops.
+  width: 6128
+  height: 3528
+  review: unreviewed
+- kind: skeletal
+  file: Mosaiceratops.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Mosaiceratops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mosaiceratops.jpg
+  artist: Wenjie Zheng, Xingsheng Jin & Xing Xu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-09-21'
+  caption: Skeletal reconstruction of Mosaiceratops.
+  width: 926
+  height: 1150
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/vector.svg
+  png: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/raster/512x201.png
+  page: https://www.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Archaeoceratops oshimai
+  matched: Neoceratopsia
+  genus_level: false
+sources:
+- kind: original
+  text: W. Zheng, X. Jin, and X. Xu. 2015. A psittacosaurid-like basal neoceratopsian from the Upper Cretaceous
+    of central China and its implications for basal ceratopsian evolution. Scientific Reports 5:14190:1-9
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mosaiceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mosaiceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mosaiceratops”. English Wikipedia, revision 1304396129.
+  url: https://en.wikipedia.org/w/index.php?title=Mosaiceratops&oldid=1304396129
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia revision lists no citations; PBDB authority Zheng et al. 2015.
+  reviews: []
