@@ -1,0 +1,94 @@
+name: Acrotholus
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Evans et al. 2013
+type_species: Acrotholus audeti
+type_species_note: Only species of the genus (PBDB).
+summary: Acrotholus is a small domed pachycephalosaur from the Santonian Milk River Formation of Alberta, among
+  the oldest known domed forms.
+size:
+  length_m: null
+  note: Pachycephalosaurs were mostly 40 kg or less; no body size given for this genus.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Acrotholus audeti
+  authority: Evans et al. 2013
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Milk River
+  group: ''
+  members: [Deadhorse Coulee]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: milk-river-canada
+fossil_material:
+  holotype: Dome found in 2008 in the Deadhorse Coulee Member — Milk River Formation, Alberta; dome 55 mm thick.
+  material: Holotype dome and a few more domes.
+  completeness: fragmentary
+  exceptional: ''
+biology: Holotype was an adult or near adult.
+images:
+- kind: life
+  file: Acrotholus NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Acrotholus_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Acrotholus_NT.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/ http://paleoexhibit.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2013'
+  caption: Life restoration of Acrotholus audeti.
+  width: 546
+  height: 352
+  review: unreviewed
+- kind: fossil
+  file: Acrotholus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Acrotholus.jpg/960px-Acrotholus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Acrotholus.jpg
+  artist: LittleLazyLass
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-05-28'
+  caption: Dome of Acrotholus.
+  width: 3016
+  height: 2320
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/14d3a680-60e4-4b9a-a6c4-4c85fb6527cc/vector.svg
+  png: https://images.phylopic.org/images/14d3a680-60e4-4b9a-a6c4-4c85fb6527cc/raster/512x192.png
+  page: https://www.phylopic.org/images/14d3a680-60e4-4b9a-a6c4-4c85fb6527cc
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Acrotholus audeti
+  matched: Acrotholus
+  genus_level: true
+sources:
+- kind: original
+  text: D. C. Evans, R. K. Schott, and D. W. Larson, C. M. Brown, M. J. Ryan. 2013. The oldest North American pachycephalosaurid
+    and the hidden diversity of small-bodied ornithischian dinosaurs. Nature Communications 4:1828
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Acrotholus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Acrotholus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Acrotholus”. English Wikipedia, revision 1345132977.
+  url: https://en.wikipedia.org/w/index.php?title=Acrotholus&oldid=1345132977
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Evans et al. 2013 is the naming paper (PBDB).]
+  reviews: []

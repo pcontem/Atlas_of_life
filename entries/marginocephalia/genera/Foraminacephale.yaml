@@ -1,0 +1,105 @@
+name: Foraminacephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Schott and Evans 2017
+type_species: Foraminacephale brevis
+type_species_note: Species originally named Troodon brevis by Lambe in 1918 (PBDB).
+summary: Foraminacephale is a small domed pachycephalosaurid from the Campanian Dinosaur Park Formation of Alberta.
+size:
+  length_m: [1.5, 1.5]
+  mass_kg: [10, 10]
+  note: Estimates by Paul in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Foraminacephale brevis
+  authority: (Lambe 1918)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: belly-river-group-canada
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+fossil_material:
+  holotype: CMN 1423, a nearly complete frontoparietal dome collected in 1902 — Dinosaur Provincial Park, Alberta.
+  material: Further domes.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from domes; no behavioural data.
+images:
+- kind: life
+  file: Foraminacephale.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/51/Foraminacephale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Foraminacephale.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-11-27'
+  caption: Life restoration of Foraminacephale.
+  width: 990
+  height: 388
+  review: unreviewed
+- kind: fossil
+  file: Prenocephale brevis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Prenocephale_brevis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Prenocephale_brevis.jpg
+  artist: Hatcher, J. B. (John Bell), 1861-1904, Lull, Richard Swann, 1867-1957, Marsh, Othniel Charles, 1831-1899,
+    Osborn, Henry Fairfield, 1857-1935, Biodiversity Heritage Library
+  license: Public domain
+  license_url: ''
+  date: '1907'
+  caption: Dome of Foraminacephale brevis.
+  width: 963
+  height: 580
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/vector.svg
+  png: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/raster/512x170.png
+  page: https://www.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Stegoceras validum
+  matched: Pachycephalosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'R. L. Schott and D. C. Evans. 2017. Cranial variation and systematics of Foraminacephale brevis gen. nov.
+    and the diversity of pachycephalosaurid dinosaurs (Ornithischia: Cerapoda) in the Belly River Group of Alberta,
+    Canada. Zoological Journal of the Linnean Sociietty 179(4):865-906'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Foraminacephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Foraminacephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Foraminacephale”. English Wikipedia, revision 1362354556.
+  url: https://en.wikipedia.org/w/index.php?title=Foraminacephale&oldid=1362354556
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

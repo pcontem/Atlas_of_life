@@ -1,0 +1,93 @@
+name: Platytholus
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Horner et al. 2023
+type_species: Platytholus clemensi
+type_species_note: Only species of the genus (PBDB).
+summary: Platytholus is a large pachycephalosaurid from the latest Maastrichtian Hell Creek Formation of Montana.
+size:
+  length_m: null
+  note: Described as the second largest North American pachycephalosaurid; dome about 21 cm long and 7.8 cm thick.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Platytholus clemensi
+  authority: Horner et al. 2023
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+fossil_material:
+  holotype: MOR 2915, found by Jack Horner in the early 2000s — Hell Creek Formation, Garfield County, Montana.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from a dome; no behavioural data.
+images:
+- kind: life
+  file: Platytholus clemensi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Platytholus_clemensi.png/960px-Platytholus_clemensi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Platytholus_clemensi.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-20'
+  caption: Life restoration of Platytholus clemensi.
+  width: 2956
+  height: 1173
+  review: unreviewed
+- kind: fossil
+  file: Platytholus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Platytholus_TD.png/960px-Platytholus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Platytholus_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-06-08'
+  caption: Holotype dome of Platytholus.
+  width: 3000
+  height: 1000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/vector.svg
+  png: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/raster/512x170.png
+  page: https://www.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Stegoceras validum
+  matched: Pachycephalosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. R. Horner, M. B. Goodwin, and D. C. Evans. 2023. A new pachycephalosaurid from the Hell Creek Formation,
+    Garfield County, Montana, U.S.A. Journal of Vertebrate Paleontology 42(4):e2190369:1-14
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Platytholus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Platytholus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Platytholus”. English Wikipedia, revision 1371988312.
+  url: https://en.wikipedia.org/w/index.php?title=Platytholus&oldid=1371988312
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: ['Named in 2023 (Horner et al., PBDB).']
+  reviews: []
