@@ -1,0 +1,83 @@
+name: Xuanhuaceratops
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Zhao et al. 2006
+type_species: Xuanhuaceratops niei
+type_species_note: Only species of the genus (PBDB).
+summary: Xuanhuaceratops is a small basal ceratopsian from the Houcheng (Tuchengzi) Formation of Hebei, China, known
+  from four fragmentary skeletons.
+size:
+  length_m: [1, 1]
+  note: Total length estimated at one metre in 2006 (cited Wikipedia revision).
+age:
+  first_ma: 152.21
+  last_ma: 132.6
+  early_interval: Kimmeridgian
+  late_interval: Valanginian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xuanhuaceratops niei
+  authority: Zhao et al. 2006
+  first_ma: 152.21
+  last_ma: 132.6
+  interval: Kimmeridgian–Valanginian
+  reference: original description
+formations:
+- formation: Tuchengzi
+  group: ''
+  members: []
+  country: China
+  regions: [Hebei]
+  interval: Late Kimmeridgian–Valanginian
+  occurrences: 1
+  ma: [132.6, 152.21]
+  id: tuchengzi-china
+fossil_material:
+  holotype: Fragmentary skeleton found in the 1970s by Nie Rongzhen near Yanjiagou — Houcheng Formation, Hebei.
+  material: Four fragmentary skeletons; three more found in 2003.
+  completeness: fragmentary
+  exceptional: ''
+biology: Considered facultatively bipedal on the basis of its slender upper arm bones.
+images:
+- kind: life
+  file: Xuanhuaceratops.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/53/Xuanhuaceratops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Xuanhuaceratops.jpg
+  artist: Eduard Solà Vázquez
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: ''
+  caption: Life restoration of Xuanhuaceratops.
+  width: 824
+  height: 802
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/vector.svg
+  png: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/raster/512x187.png
+  page: https://www.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Yinlong downsi
+  matched: Chaoyangsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: X. Zhao, Z. Cheng, and X. Xu, P. J. Makovicky. 2006. A new ceratopsian from the Upper Jurassic Houcheng
+    Formation of Hebei, China. Acta Geologica Sinica 80(4):467-473
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xuanhuaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xuanhuaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xuanhuaceratops”. English Wikipedia, revision 1282633509.
+  url: https://en.wikipedia.org/w/index.php?title=Xuanhuaceratops&oldid=1282633509
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB gives Zhao et al. 2006 as authority; the Wikipedia revision has no citation list for this genus.
+  reviews: []

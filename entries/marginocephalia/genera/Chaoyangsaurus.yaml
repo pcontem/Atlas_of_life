@@ -1,0 +1,84 @@
+name: Chaoyangsaurus
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Zhao et al. 1999
+type_species: Chaoyangsaurus youngi
+type_species_note: Only species of the genus (PBDB).
+summary: Chaoyangsaurus is a small basal ceratopsian from the Jurassic–Cretaceous Tuchengzi Formation of Liaoning,
+  China.
+size:
+  length_m: [1, 1]
+  mass_kg: [6, 6]
+  note: Estimate by Paul cited in the Wikipedia revision.
+age:
+  first_ma: 152.21
+  last_ma: 132.6
+  early_interval: Kimmeridgian
+  late_interval: Valanginian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chaoyangsaurus youngi
+  authority: Zhao et al. 1999
+  first_ma: 152.21
+  last_ma: 132.6
+  interval: Kimmeridgian–Valanginian
+  reference: original description
+formations:
+- formation: Tuchengzi
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Kimmeridgian–Valanginian
+  occurrences: 1
+  ma: [132.6, 152.21]
+  id: tuchengzi-china
+fossil_material:
+  holotype: Specimen described by Zhao et al. 1999 (number not given in the sources used) — Tuchengzi Formation,
+    Chaoyang, Liaoning.
+  material: Partial skull; skull length 14 cm.
+  completeness: fragmentary
+  exceptional: ''
+biology: Herbivore; the cheek teeth are imbricated.
+images:
+- kind: skeletal
+  file: Chaoyangsaurus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Chaoyangsaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chaoyangsaurus.png
+  artist: Jaime A. Headden
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2010-06-19'
+  caption: Skeletal reconstruction of Chaoyangsaurus.
+  width: 302
+  height: 167
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/vector.svg
+  png: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/raster/512x187.png
+  page: https://www.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Yinlong downsi
+  matched: Chaoyangsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Zhao Xijin 1999. The earliest ceratopsian from the Tuchengzi Formation of Liaoning, China. Journal of Vertebrate
+    Paleontology 19(4): 681–691. doi:10.1080/02724634.1999.10011181'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chaoyangsaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chaoyangsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chaoyangsaurus”. English Wikipedia, revision 1376190140.
+  url: https://en.wikipedia.org/w/index.php?title=Chaoyangsaurus&oldid=1376190140
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the holotype number against Zhao et al. 1999.]
+  reviews: []

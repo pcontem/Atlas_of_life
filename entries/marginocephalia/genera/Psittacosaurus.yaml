@@ -1,0 +1,422 @@
+name: Psittacosaurus
+rank: genus
+parent: psittacosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Osborn 1923
+type_species: Psittacosaurus mongoliensis
+type_species_note: Taxobox of the cited Wikipedia revision (Osborn 1923).
+summary: Psittacosaurus is a parrot-beaked Early Cretaceous ceratopsian from Asia, one of the best-known dinosaurs
+  thanks to hundreds of specimens.
+size:
+  length_m: [2, 2]
+  note: Adults reached nearly 2 m; hatchlings were under 13 cm (cited Wikipedia revision).
+age:
+  first_ma: 137.05
+  last_ma: 100.5
+  early_interval: Valanginian
+  late_interval: Albian
+  pbdb_occurrences: 70
+  note: ''
+species:
+- name: Psittacosaurus amitabha
+  authority: Napoli et al. 2019
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: ''
+- name: Psittacosaurus gobiensis
+  authority: Sereno et al. 2010
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: ''
+- name: Psittacosaurus guyangensis
+  authority: Cheng 1982
+  first_ma: 121.4
+  last_ma: 110.1
+  interval: Aptian–Albian
+  reference: ''
+- name: Psittacosaurus houi
+  authority: (You et al. 2003)
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: ''
+- name: Psittacosaurus lujiatunensis
+  authority: Zhou et al. 2006
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: ''
+- name: Psittacosaurus major
+  authority: Sereno et al. 2007
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: ''
+- name: Psittacosaurus meileyingensis
+  authority: Sereno et al. 1988
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: ''
+- name: Psittacosaurus mongoliensis
+  authority: Osborn 1923
+  first_ma: 121.4
+  last_ma: 110.1
+  interval: Aptian–Albian
+  reference: original description
+- name: Psittacosaurus neimongoliensis
+  authority: Russell and Zhao 1996
+  first_ma: 143.1
+  last_ma: 100.5
+  interval: Berriasian–Albian
+  reference: ''
+- name: Psittacosaurus osborni
+  authority: Young 1932
+  first_ma: 121.4
+  last_ma: 110.1
+  interval: Aptian–Albian
+  reference: ''
+- name: Psittacosaurus protiguanodonensis
+  authority: Young 1958
+  first_ma: 121.4
+  last_ma: 110.1
+  interval: Aptian–Albian
+  reference: ''
+- name: Psittacosaurus sibiricus
+  authority: Voronkevich and Averianov 2000
+  first_ma: 125.77
+  last_ma: 113.2
+  interval: Barremian–Aptian
+  reference: ''
+- name: Psittacosaurus sinensis
+  authority: Young 1958
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: ''
+- name: Psittacosaurus tingi
+  authority: Young 1932
+  first_ma: 121.4
+  last_ma: 110.1
+  interval: Aptian–Albian
+  reference: ''
+- name: Psittacosaurus xinjiangensis
+  authority: Sereno and Chao 1988
+  first_ma: 137.05
+  last_ma: 100.5
+  interval: Valanginian–Albian
+  reference: ''
+- name: Psittacosaurus youngi
+  authority: Chao 1962
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: ''
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou, Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 12
+  ma: [119.57, 125.77]
+  id: yixian-china
+- formation: Ilek
+  group: ''
+  members: []
+  country: Russia
+  regions: [Kemerovo, Krasnoyarsk]
+  interval: Barremian–Aptian
+  occurrences: 7
+  ma: [113.2, 125.77]
+  id: ilek-russia
+- formation: Öösh
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorkhangai]
+  interval: Early Cretaceous
+  occurrences: 7
+  ma: [100.5, 143.1]
+  id: oosh-mongolia
+- formation: Unnamed unit
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Nei Mongol, Ningxia, Xinjiang]
+  interval: Valanginian–Late Cretaceous
+  occurrences: 6
+  ma: [66.0, 137.05]
+  id:
+  - tugulu-group-china
+  - unnamed-north-alashan-desert-ninghsia-china
+  - zhidan-group-china
+- formation: Ejinhoro
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Valanginian–Albian
+  occurrences: 6
+  ma: [100.5, 137.05]
+  id: ejinhoro-china
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 4
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+- formation: Doushan
+  group: Qingshan
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Aptian–Albian
+  occurrences: 3
+  ma: [100.5, 121.4]
+  id: doushan-china
+- formation: Khuren Dukh
+  group: ''
+  members: [Lower]
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Middle Albian–Late Albian
+  occurrences: 3
+  ma: [100.5, 110.1]
+  id: khuren-dukh-mongolia
+- formation: Zhonggou
+  group: Xinminbao
+  members: [Upper Gray Beds]
+  country: China
+  regions: [Gansu]
+  interval: Early Albian
+  occurrences: 2
+  ma: [110.1, 113.2]
+  id: zhonggou-china
+- formation: Bayangobi
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+  id: bayangobi-china
+- formation: Lisangou
+  group: Guyang
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Early Cretaceous
+  occurrences: 2
+  ma: [100.5, 143.1]
+  id: lisangou-china
+- formation: Khok Kruat
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Khon Kaen]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: khok-kruat-thailand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov, Ovorkhangai]
+  interval: Early Cretaceous
+  occurrences: 2
+  ma: [100.5, 143.1]
+  id: [unnamed-khamaryn-ar-mongolia, unnamed-titem-suwraga-mongolia]
+- formation: Tsagaantsav
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov, Ovorhangai]
+  interval: Valanginian–Barremian
+  occurrences: 2
+  ma: [121.4, 137.05]
+  id: tsagaantsav-mongolia
+- formation: Luohandong
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Valanginian–Early Hauterivian
+  occurrences: 1
+  ma: [125.77, 137.05]
+  id: luohandong-china
+- formation: Döshuul
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorhangai]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: doshuul-mongolia
+- formation: Lianmuqin
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian–Albian
+  occurrences: 1
+  ma: [100.5, 137.05]
+  id: lianmuqin-china
+- formation: Ulan Argalant
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Bayankhongor]
+  interval: Late Jurassic–Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 161.5]
+  id: ulan-argalant-mongolia
+- formation: Dushihin
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorhangai]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: dushihin-mongolia
+- formation: Dzunbain
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Övörkhangai]
+  interval: Late Aptian–Early Albian
+  occurrences: 1
+  ma: [110.1, 119.57]
+  id: dzunbain-mongolia
+- formation: Jingchuan
+  group: Zhidan
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: jingchuan-china
+- formation: On Gong
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: on-gong-china
+- formation: Zhidan
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: zhidan-china
+- formation: Andaikhudag
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorkhangai]
+  interval: Hauterivian–Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: andaikhudag-mongolia
+fossil_material:
+  holotype: AMNH 6254, a nearly complete skull, jaws and skeleton ("Red Mesa skeleton") — Öösh (Oshih) Formation,
+    Artsa Bogdo Basin, Mongolia.
+  material: Hundreds of individuals of all ages, many complete skeletons, from China, Mongolia, Russia and Thailand
+    records in PBDB.
+  completeness: multiple
+  exceptional: One individual preserves long filaments on the tail.
+biology: Obligate biped as an adult, with a high skull and a robust beak.
+images:
+- kind: life
+  file: Psittacosaurus (Vinther et al. 2016, cropped).png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/42/Psittacosaurus_%28Vinther_et_al._2016%2C_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Psittacosaurus_(Vinther_et_al._2016,_cropped).png
+  artist: Vinther et al.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Life restoration of Psittacosaurus (Vinther et al. 2016).
+  width: 1561
+  height: 685
+  review: unreviewed
+- kind: fossil
+  file: Psittacosaurus juveniles.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0f/Psittacosaurus_juveniles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Psittacosaurus_juveniles.jpg
+  artist: Qi Zhao, Michael J. Benton, Xing Xu, and Martin J. Sander
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2013'
+  caption: Psittacosaurus juveniles.
+  width: 1346
+  height: 901
+  review: unreviewed
+- kind: fossil
+  file: Psittacosaurus major.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/32/Psittacosaurus_major.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Psittacosaurus_major.jpg
+  artist: Paul C. Sereno, Zhao Xijin, Lorin Brown, and Tan Lin
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2007'
+  caption: Skeleton of Psittacosaurus major.
+  width: 1000
+  height: 450
+  review: unreviewed
+- kind: fossil
+  file: Psittacosaurus mongoliensis - AMNH - DSC06310.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Psittacosaurus_mongoliensis_-_AMNH_-_DSC06310.JPG/960px-Psittacosaurus_mongoliensis_-_AMNH_-_DSC06310.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Psittacosaurus_mongoliensis_-_AMNH_-_DSC06310.JPG
+  artist: Daderot
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2012-04-02'
+  caption: Psittacosaurus mongoliensis at the AMNH.
+  width: 4288
+  height: 2434
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137/vector.svg
+  png: https://images.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137/raster/512x185.png
+  page: https://www.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137
+  attribution: Matt Martyniuk (modified by Serenchia)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Psittacosaurus mongoliensis
+  matched: Psittacosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Osborn, Henry F. 1923. Two Lower Cretaceous dinosaurs of Mongolia. American Museum Novitates(13): 1–10.'
+- kind: literature
+  text: 'Sereno, P.C. 1987. The ornithischian dinosaur ''''Psittacosaurus'''' from the Lower Cretaceous of Asia
+    and the relationships of the Ceratopsia. PhD Thesis, Columbia University: 1–554.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Psittacosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Psittacosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Psittacosaurus”. English Wikipedia, revision 1386611688.
+  url: https://en.wikipedia.org/w/index.php?title=Psittacosaurus&oldid=1386611688
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Several species (about nine) in PBDB; check which are still valid.]
+  reviews: []

@@ -1,0 +1,114 @@
+name: Aquilops
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Farke et al. 2014
+type_species: Aquilops americanus
+type_species_note: Only species of the genus (PBDB).
+summary: Aquilops is a small basal neoceratopsian from the Albian Cloverly Formation of Montana, the oldest known
+  North American ceratopsian.
+size:
+  length_m: [0.6, 0.6]
+  mass_kg: [1.6, 1.6]
+  note: Extrapolated from an 84.2 mm skull (cited Wikipedia revision).
+age:
+  first_ma: 110.1
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aquilops americanus
+  authority: Farke et al. 2014
+  first_ma: 110.1
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Cloverly
+  group: ''
+  members: [Himes]
+  country: United States
+  regions: [Montana]
+  interval: Middle Albian–Late Albian
+  occurrences: 1
+  ma: [100.5, 110.1]
+  id: cloverly-united-states
+fossil_material:
+  holotype: Partial skull and lower jaws of a probable subadult, found 1997 — Cloverly Formation, Carbon County,
+    Montana; held by the Sam Noble Oklahoma Museum of Natural History.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Small herbivore.
+images:
+- kind: life
+  file: Aquilops americanus restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Aquilops_americanus_restoration.jpg/960px-Aquilops_americanus_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aquilops_americanus_restoration.jpg
+  artist: Brian Engh
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014-12-10'
+  caption: Life restoration of Aquilops americanus.
+  width: 2381
+  height: 1428
+  review: unreviewed
+- kind: life
+  file: Aquilops americanus skull illustration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Aquilops_americanus_skull_illustration.png/960px-Aquilops_americanus_skull_illustration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aquilops_americanus_skull_illustration.png
+  artist: Andrew A. Farke, W. Desmond Maxwell, Richard L. Cifelli, Mathew J. Wedel
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014-12-10'
+  caption: Skull illustration of Aquilops americanus.
+  width: 4131
+  height: 5527
+  review: unreviewed
+- kind: fossil
+  file: Aquilops americanus jaw alt.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Aquilops_americanus_jaw_alt.png/960px-Aquilops_americanus_jaw_alt.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aquilops_americanus_jaw_alt.png
+  artist: Andrew A. Farke, W. Desmond Maxwell, Richard L. Cifelli, Mathew J. Wedel
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014-12-10'
+  caption: Jaw of Aquilops americanus.
+  width: 1993
+  height: 3149
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/fd22540d-29a4-4b95-8a7e-ec9ab81f031d/vector.svg
+  png: https://images.phylopic.org/images/fd22540d-29a4-4b95-8a7e-ec9ab81f031d/raster/512x182.png
+  page: https://www.phylopic.org/images/fd22540d-29a4-4b95-8a7e-ec9ab81f031d
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Aquilops americanus
+  matched: Aquilops
+  genus_level: true
+sources:
+- kind: original
+  text: Farke, Andrew A.; Maxwell, W. Desmond; Cifelli, Richard L.; Wedel, Mathew J. 2014. A ceratopsian dinosaur
+    from the Lower Cretaceous of Western North America, and the biogeography of Neoceratopsia. PLoS ONE 9(12). doi:10.1371/journal.pone.0112055
+- kind: literature
+  text: Han, Fenglu; Forster, Catherine A.; Clark, James M.; Xu, Xing 2015. A new taxon of basal ceratopsian from
+    China and the early evolution of Ceratopsia. PLOS ONE 10(12). doi:10.1371/journal.pone.0143369
+- kind: literature
+  text: 'Brownstein, Chase 2018. The biogeography and ecology of the Cretaceous non-avian dinosaurs of Appalachia.
+    Palaeontologia Electronica: 1–56. doi:10.26879/801'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aquilops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aquilops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aquilops”. English Wikipedia, revision 1387012178.
+  url: https://en.wikipedia.org/w/index.php?title=Aquilops&oldid=1387012178
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

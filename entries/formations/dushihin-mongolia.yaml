@@ -1,0 +1,31 @@
+id: dushihin-mongolia
+name: Dushihin
+rank: formation
+group: ''
+country: Mongolia
+regions: [Ovorhangai]
+location:
+  lat: 45.395
+  lng: 101.734
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet.]
+lithology: [conglomerate]
+pbdb_collections: ['88097']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Dushihin (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Dushihin
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,93 @@
+name: Stenopelix
+rank: genus
+parent: ceratopsia
+incertae_sedis: true
+placement_note: Long classified as a pachycephalosaur or basal marginocephalian; later analyses (2011, 2020) place
+  it as a basal ceratopsian near Yinlong (cited Wikipedia revision).
+authority: Meyer 1857
+type_species: Stenopelix valdensis
+type_species_note: Only species of the genus; named by Meyer in 1857 (cited Wikipedia revision).
+summary: Stenopelix is a small Early Cretaceous marginocephalian from Germany known from the impression of a skeleton
+  lacking skull and neck.
+size:
+  length_m: [1.4, 1.4]
+  mass_kg: [10, 10]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 139.1
+  last_ma: 137.05
+  early_interval: Berriasian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Stenopelix valdensis
+  authority: Meyer 1857
+  first_ma: 139.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: original description
+formations:
+- formation: Bückeberg
+  group: ''
+  members: [Obernkirchen]
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: buckeberg-germany
+fossil_material:
+  holotype: GZG 741/2, impressions of an almost complete skeleton lacking the skull and neck — Obernkirchen Sandstein
+    Formation (Bückeberg Fm), Germany.
+  material: Holotype only; casts exist in gypsum and latex.
+  completeness: partial
+  exceptional: ''
+biology: Small herbivore.
+images:
+- kind: fossil
+  file: Stenopelix pelvis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/66/Stenopelix_pelvis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Stenopelix_pelvis.jpg
+  artist: Richard J. Butler and Robert M. Sullivan
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2009'
+  caption: Pelvis of Stenopelix.
+  width: 842
+  height: 652
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/vector.svg
+  png: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/raster/512x187.png
+  page: https://www.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Yinlong downsi
+  matched: Chaoyangsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: H. v. Meyer. 1857. Beiträge zur näheren Kenntniss fossiler Reptilien [Contributions to the detailed knowledge
+    of fossil reptiles]. Neues Jahrbuch für Mineralogie, Geognosie, Geologie und Petrefakten-Kunde 1857:532-543
+- kind: literature
+  text: 'Richard J. Butler 2011. The postcranial osteology and phylogenetic position of the small ornithischian
+    dinosaur ''''Changchunsaurus parvus'''' from the Quantou Formation (Cretaceous: Aptian–Cenomanian) of Jilin
+    Province, north-eastern China. Palaeontology 54(3): 667–683. doi:10.1111/j.1475-4983.2011.01046.x'
+- kind: literature
+  text: Yu, Congyu; Prieto-Marquez, Albert; Chinzorig, Tsogtbaatar; Badamkhatan, Zorigt; Norell, Mark 2020. A neoceratopsian
+    dinosaur from the early Cretaceous of Mongolia and the early evolution of ceratopsia. Communications Biology
+    3(1). doi:10.1038/s42003-020-01222-7
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stenopelix (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stenopelix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stenopelix”. English Wikipedia, revision 1371031861.
+  url: https://en.wikipedia.org/w/index.php?title=Stenopelix&oldid=1371031861
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
