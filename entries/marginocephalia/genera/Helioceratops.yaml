@@ -1,0 +1,83 @@
+name: Helioceratops
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Jin et al. 2009
+type_species: Helioceratops brachygnathus
+type_species_note: Only species of the genus (PBDB).
+summary: Helioceratops is a small neoceratopsian from the Aptian–Albian Quantou Formation of Jilin, China, known
+  from jaw bones.
+size:
+  length_m: [1.3, 1.3]
+  mass_kg: [20, 20]
+  note: Estimate by Paul in the cited Wikipedia revision.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Helioceratops brachygnathus
+  authority: Jin et al. 2009
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Quantou
+  group: ''
+  members: []
+  country: China
+  regions: [Jilin]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: quantou-china
+fossil_material:
+  holotype: JLUM L0204-Y-3, a right dentary — Quantou Formation, China; paratype JLUM L0204-Y-4, a left maxilla.
+  material: Holotype and paratype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Herbivore known from jaws.
+images:
+- kind: life
+  file: Helioceratops.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Helioceratops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Helioceratops.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2016'
+  caption: Life restoration of Helioceratops.
+  width: 1500
+  height: 1117
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Jin Liyong 2009. A New Basal Neoceratopsian Dinosaur from the Middle Cretaceous of Jilin Province, China.
+    Acta Geologica Sinica 83(2): 200. doi:10.1111/j.1755-6724.2009.00023.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Helioceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Helioceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Helioceratops”. English Wikipedia, revision 1373679619.
+  url: https://en.wikipedia.org/w/index.php?title=Helioceratops&oldid=1373679619
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
