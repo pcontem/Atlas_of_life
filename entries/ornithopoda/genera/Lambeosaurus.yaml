@@ -1,0 +1,130 @@
+name: Lambeosaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Parks 1923
+type_species: Lambeosaurus lambei
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A crested hadrosaurid of the Late Cretaceous of western North America, the namesake of the subfamily Lambeosaurinae.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 19
+  note: ''
+species:
+- name: Lambeosaurus clavinitialis
+  authority: Sternberg 1935
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Lambeosaurus lambei
+  authority: Parks 1923
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Lambeosaurus magnicristatus
+  authority: Sternberg 1935
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 15
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Unnamed unit
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: belly-river-group-canada
+fossil_material:
+  holotype: Not read in the sources consulted; named by Parks in 1923.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: AMNH Lambeosaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1c/AMNH_Lambeosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:AMNH_Lambeosaurus.jpg
+  artist: Ryan Somma
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: Unknown da
+  caption: Skeleton of Lambeosaurus at the AMNH
+  width: 992
+  height: 985
+  review: unreviewed
+- kind: fossil
+  file: Lambeosaurus Pacific Museum of Earth.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Lambeosaurus_Pacific_Museum_of_Earth.jpg/960px-Lambeosaurus_Pacific_Museum_of_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lambeosaurus_Pacific_Museum_of_Earth.jpg
+  artist: IJReid
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-17'
+  caption: Lambeosaurus at the Pacific Museum
+  width: 3453
+  height: 2105
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/49beea1d-6604-4ab1-b159-ed0fd9155c52/vector.svg
+  png: https://images.phylopic.org/images/49beea1d-6604-4ab1-b159-ed0fd9155c52/raster/512x316.png
+  page: https://www.phylopic.org/images/49beea1d-6604-4ab1-b159-ed0fd9155c52
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Lambeosaurus
+  matched: Lambeosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Parks, W.A. 1923. ''''Corythosaurus intermedius'''', a new species of trachodont dinosaur. University of
+    Toronto. Geological Studies 15: 5–57.'
+- kind: literature
+  text: 'Lambe, L.M. 1902. New genera and species from the Belly River Series (Mid-Cretaceous). Geological Survey
+    of Canada. Contributions to Canadian Palaeontology. Part II. On Vertebrata of the Mid-Cretaceous of the North
+    West Territory 3(2): 25–81.'
+- kind: literature
+  text: 'Osborn, H.F. 1902. Distinctive characters of the Mid-Cretaceous fauna. Geological Survey of Canada. Contributions
+    to Canadian Palaeontology. Part II. On Vertebrata of the Mid-Cretaceous of the North West Territory 3(2): 5–21.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lambeosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lambeosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lambeosaurus”. English Wikipedia, revision 1385825727.
+  url: https://en.wikipedia.org/w/index.php?title=Lambeosaurus&oldid=1385825727
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

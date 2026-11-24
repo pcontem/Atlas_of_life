@@ -1,0 +1,110 @@
+name: Magnapaulia
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Prieto-Marquez et al. 2012
+type_species: Magnapaulia laticaudus
+type_species_note: ''
+summary: A lambeosaurine hadrosaurid of the Campanian El Gallo Formation of Baja California, Mexico.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Magnapaulia laticaudus
+  authority: (Morris 1981)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: El Gallo
+  group: ''
+  members: [El Diesacado]
+  country: Mexico
+  regions: [Baja California]
+  interval: Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: el-gallo-mexico
+fossil_material:
+  holotype: Not read in the sources consulted; first named by Morris in 1981 as Lambeosaurus laticaudus.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Magnapaulia skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Magnapaulia_skeleton.jpg/960px-Magnapaulia_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Magnapaulia_skeleton.jpg
+  artist: Carpenter, Kenneth
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2012-11-29'
+  caption: Skeleton of Magnapaulia laticaudus
+  width: 3199
+  height: 1451
+  review: unreviewed
+- kind: life
+  file: Life reconstruction of Magnapaulia laticaudus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Life_reconstruction_of_Magnapaulia_laticaudus.png/960px-Life_reconstruction_of_Magnapaulia_laticaudus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Magnapaulia_laticaudus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Magnapaulia laticaudus
+  width: 1889
+  height: 815
+  review: unreviewed
+- kind: fossil
+  file: Magnapaulia skin impression.jpeg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Magnapaulia_skin_impression.jpeg/960px-Magnapaulia_skin_impression.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Magnapaulia_skin_impression.jpeg
+  artist: Peter D. Tillman
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2019-08-21'
+  caption: Skin impression of Magnapaulia laticaudus
+  width: 2149
+  height: 3486
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/71ba73cf-10aa-405c-ae92-082c15b1ed75/vector.svg
+  png: https://images.phylopic.org/images/71ba73cf-10aa-405c-ae92-082c15b1ed75/raster/512x204.png
+  page: https://www.phylopic.org/images/71ba73cf-10aa-405c-ae92-082c15b1ed75
+  attribution: Dmitry Bogdanov and FunkMonk (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Magnapaulia laticaudus
+  matched: Magnapaulia
+  genus_level: true
+sources:
+- kind: original
+  text: Prieto-Márquez, A.; Chiappe, L. M.; Joshi, S. H. 2012. The lambeosaurine dinosaur ''Magnapaulia laticaudus''
+    from the Late Cretaceous of Baja California, Northwestern Mexico. PLOS ONE 7(6). doi:10.1371/journal.pone.0038207
+- kind: literature
+  text: 'Morris, William J. 1981. A new species of hadrosaurian dinosaur from the Upper Cretaceous of Baja California:
+    ?''''Lambeosaurus laticaudus''''. Journal of Paleontology 55(2): 453–462.'
+- kind: literature
+  text: 'Morris, William J. 1967. Baja California: Late Cretaceous Dinosaurs. Science 155(3769): 1539–1541. doi:10.1126/science.155.3769.1539'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Magnapaulia (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Magnapaulia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Magnapaulia”. English Wikipedia, revision 1320577758.
+  url: https://en.wikipedia.org/w/index.php?title=Magnapaulia&oldid=1320577758
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

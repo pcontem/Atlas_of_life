@@ -1,0 +1,101 @@
+name: Nipponosaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Nagao 1936
+type_species: Nipponosaurus sachalinensis
+type_species_note: ''
+summary: A lambeosaurine hadrosaur from the Yezo Group of Sakhalin, which was part of Japan when it was named in
+  1936.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nipponosaurus sachalinensis
+  authority: Nagao 1936
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Ryugase
+  members: []
+  country: Russia
+  regions: [Sakhalin]
+  interval: Late Santonian–Early Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: ryugase-group-russia
+fossil_material:
+  holotype: Not read in the sources consulted; described by Nagao in 1936.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Life reconstruction of Nipponosaurus sachalinensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a9/Life_reconstruction_of_Nipponosaurus_sachalinensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Nipponosaurus_sachalinensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Nipponosaurus sachalinensis
+  width: 1039
+  height: 421
+  review: unreviewed
+- kind: fossil
+  file: Nipponosaurus dinosaur.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/27/Nipponosaurus_dinosaur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nipponosaurus_dinosaur.png
+  artist: Mariana Ruiz Villarreal LadyofHats
+  license: Public domain
+  license_url: ''
+  date: '2007-01-02'
+  caption: Specimen of Nipponosaurus sachalinensis
+  width: 1255
+  height: 884
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'T. Nagao. 1936. Nipponosaurus sachalinensis: a new genus and species of trachodont dinosaur from Japanese
+    Saghalien. Journal of the Faculty of Science, Hokkaido Imperial University, series 4, Geology and Mineralogy
+    3(2):185-220'
+- kind: literature
+  text: 'Takasaki, Ryuji 2017. Reanalysis of the phylogenetic status of ''''Nipponosaurus sachalinensis'''' (Ornithopoda:
+    Dinosauria) from the Late Cretaceous of Southern Sakhalin. Historical Biology 30(5): 1–18. doi:10.1080/08912963.2017.1317766'
+- kind: literature
+  text: 'Suzuki D. 2004. ''''Nippponosaurus sachalinensis'''' (Dinosauria; Ornithopoda): anatomy and systematic
+    position within Hadrosauridae. Journal of Vertebrate Paleontology 24(1): 145–164. doi:10.1671/A1034-11'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nipponosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nipponosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nipponosaurus”. English Wikipedia, revision 1315782738.
+  url: https://en.wikipedia.org/w/index.php?title=Nipponosaurus&oldid=1315782738
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

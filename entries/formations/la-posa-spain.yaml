@@ -5,20 +5,20 @@ group: Tremp
 country: Spain
 regions: [Aragón, Cataluña]
 location:
-  lat: 42.171
-  lng: 0.9
-  basis: median of 5 PBDB collections that yielded the atlas genera
+  lat: 42.169
+  lng: 0.851
+  basis: median of 6 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
 - terrestrial indet.
-- '"channel"'
 - lagoonal/restricted shallow subtidal
 - lagoonal
+- '"channel"'
 lithology: [marl, sandstone, '"limestone"']
-pbdb_collections: ['36381', '45437', '45438', '141185', '183157']
+pbdb_collections: ['36381', '45437', '45438', '60474', '141185', '183157']
 includes: []
 summary: ''
 paleoenvironment: ''

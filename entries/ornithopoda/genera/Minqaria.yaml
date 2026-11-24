@@ -1,0 +1,98 @@
+name: Minqaria
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Longrich et al. 2024
+type_species: Minqaria bata
+type_species_note: ''
+summary: A lambeosaurine hadrosaur from the Maastrichtian Ouled Abdoun Basin of Morocco, whose name means "beak".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Minqaria bata
+  authority: Longrich et al. 2024
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Couche III
+  group: ''
+  members: [Upper]
+  country: Morocco
+  regions: [Khouribga]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: couche-iii-morocco
+fossil_material:
+  holotype: Not read in the sources consulted; named by Longrich and colleagues in 2024.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Minqaria (braincase).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Minqaria_%28braincase%29.png/960px-Minqaria_%28braincase%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Minqaria_(braincase).png
+  artist: N. R. Longrich, X. Pereda-Suberbiola, N. Bardet & N-E Jalil
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-13'
+  caption: Braincase of Minqaria bata
+  width: 1730
+  height: 2362
+  review: unreviewed
+- kind: fossil
+  file: Minqaria (left dentary).png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Minqaria_%28left_dentary%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Minqaria_(left_dentary).png
+  artist: N. R. Longrich, X. Pereda-Suberbiola, N. Bardet & N-E Jalil
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-13'
+  caption: Left dentary of Minqaria bata
+  width: 1003
+  height: 1370
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/887658b5-ea16-4408-8077-126d3dbb7286/vector.svg
+  png: https://images.phylopic.org/images/887658b5-ea16-4408-8077-126d3dbb7286/raster/512x264.png
+  page: https://www.phylopic.org/images/887658b5-ea16-4408-8077-126d3dbb7286
+  attribution: Nix Illustration
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Minqaria bata
+  matched: Minqaria
+  genus_level: true
+sources:
+- kind: original
+  text: 'Longrich, N. R.; Pereda-Suberbiola, X.; Bardet, N.; Jalil, N.-E. 2024. A new small duckbilled dinosaur
+    (Hadrosauridae: Lambeosaurinae) from Morocco and dinosaur diversity in the late Maastrichtian of North Africa.
+    Scientific Reports 14(1). doi:10.1038/s41598-024-53447-9'
+- kind: literature
+  text: Longrich, Nicholas R.; Pereda-Suberbiola, Xabier; Bardet, Nathalie; Jalil, Nour-Eddine 2025. A new hadrosaurid
+    dinosaur from the late Maastrichtian Phosphates of Morocco provides evidence for an African radiation of lambeosaurines.
+    Gondwana Research(in press). doi:10.1016/j.gr.2025.05.006
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Minqaria (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Minqaria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Minqaria”. English Wikipedia, revision 1387579715.
+  url: https://en.wikipedia.org/w/index.php?title=Minqaria&oldid=1387579715
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

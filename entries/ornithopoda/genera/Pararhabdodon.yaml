@@ -1,0 +1,123 @@
+name: Pararhabdodon
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Casanovas Cladellas 1992
+type_species: Pararhabdodon isonensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A lambeosaurine hadrosaurid of the Maastrichtian Tremp Group of Spain, named for its resemblance to Rhabdodon.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Pararhabdodon isonensis
+  authority: Casanovas Cladellas 1992
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Conques
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña, Lleida]
+  interval: Late Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: conques-spain
+- formation: Talarn
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: talarn-spain
+- formation: La Posa
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: la-posa-spain
+fossil_material:
+  holotype: Not read in the sources consulted; named by Casanovas Cladellas and colleagues in 1993.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Pararhabdodon MCD 4919.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pararhabdodon_MCD_4919.png/960px-Pararhabdodon_MCD_4919.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pararhabdodon_MCD_4919.png
+  artist: Albert Prieto-Márquez , Fabio M. Dalla Vecchia, Rodrigo Gaete, Àngel Galobart
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Specimen MCD 4919 of Pararhabdodon
+  width: 2066
+  height: 2775
+  review: unreviewed
+- kind: life
+  file: Life reconstruction of Pararhabdodon isonensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/d/de/Life_reconstruction_of_Pararhabdodon_isonensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Pararhabdodon_isonensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Pararhabdodon
+  width: 1084
+  height: 426
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: M. L. Casanovas Cladellas. 1992. Novedades en el registro fósil de dinosaurios del levante español [Developments
+    in the fossil record of dinosaurs from the Spanish Levant]. Zubía 10:139-151
+- kind: literature
+  text: Serranoa, Jesús F.; Sellés, Albert G.; Vila, Bernat; Galobart, Àngel; Prieto-Márquez, Albert Febr. The osteohistology
+    of new remains of ''Pararhabdodon isonensis'' sheds light into the life history and paleoecology of this enigmatic
+    European lambeosaurine dinosaur Author links open overlay panel. Cretaceous Research 118. doi:10.1016/j.cretres.2020.104677
+- kind: literature
+  text: 'Conti, Simone; Vila, Bernat; Sellés, Albert G.; Galobart, Àngel; Benton, Michael J.; Prieto-Márquez, Albert
+    2019. The oldest lambeosaurine dinosaur from Europe: insights into the arrival of Tsintaosaurini. Cretaceous
+    Research 107. doi:10.1016/j.cretres.2019.104286'
+- kind: literature
+  text: Fondevilla, V.; Dalla Vecchia, F. M.; Gaete, R.; Galobart, À.; Moncunill-Solé, B.; Köhler, M. 2018. Ontogeny
+    and taxonomy of the hadrosaur (Dinosauria, Ornithopoda) remains from Basturs Poble bonebed (late early Maastrichtian,
+    Tremp Syncline, Spain). PLOS ONE 13(10). doi:10.1371/journal.pone.0206287
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pararhabdodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pararhabdodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pararhabdodon”. English Wikipedia, revision 1368568661.
+  url: https://en.wikipedia.org/w/index.php?title=Pararhabdodon&oldid=1368568661
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
