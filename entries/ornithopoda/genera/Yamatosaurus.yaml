@@ -1,0 +1,94 @@
+name: Yamatosaurus
+rank: genus
+parent: hadrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Kobayashi et al. 2021
+type_species: Yamatosaurus izanagii
+type_species_note: ''
+summary: A basal hadrosaurid of the Maastrichtian Kita-Ama Formation of Awaji Island, Japan.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yamatosaurus izanagii
+  authority: Kobayashi et al. 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Kita-ama
+  group: Izumi
+  members: []
+  country: Japan
+  regions: [Hyogo]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: kita-ama-japan
+fossil_material:
+  holotype: Not read in the sources consulted; named by Kobayashi and colleagues in 2021.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Yamatosaurus izanagii restoration.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ac/Yamatosaurus_izanagii_restoration.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yamatosaurus_izanagii_restoration.webp
+  artist: Masato Hattori
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-04-27'
+  caption: Life restoration of Yamatosaurus izanagii
+  width: 851
+  height: 565
+  review: unreviewed
+- kind: fossil
+  file: Yamatosaurus Dentary.webp
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Yamatosaurus_Dentary.webp/960px-Yamatosaurus_Dentary.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yamatosaurus_Dentary.webp
+  artist: Yoshitsugu Kobayashi, Ryuji Takasaki, Katsuhiro Kubota & Anthony R. Fiorillo
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-04-27'
+  caption: Dentary of Yamatosaurus izanagii
+  width: 1774
+  height: 2350
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kobayashi, Y.; Takasaki, R.; Kubota, K.; Fiorillo, A. R. 2021. A new basal hadrosaurid (Dinosauria: Ornithischia)
+    from the latest Cretaceous Kita-ama Formation in Japan implies the origin of hadrosaurids. Scientific Reports
+    11(1). doi:10.1038/s41598-021-87719-5'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yamatosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yamatosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yamatosaurus”. English Wikipedia, revision 1362624939.
+  url: https://en.wikipedia.org/w/index.php?title=Yamatosaurus&oldid=1362624939
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

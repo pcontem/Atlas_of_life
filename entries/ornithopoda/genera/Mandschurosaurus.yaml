@@ -1,0 +1,110 @@
+name: Mandschurosaurus
+rank: genus
+parent: hadrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Riabinin 1930
+type_species: Mandschurosaurus amurensis
+type_species_note: ''
+summary: A hadrosaurid based on Late Cretaceous material from China, possibly with Early Cretaceous remains from
+  Laos.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 66
+  early_interval: Aptian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Mandschurosaurus amurensis
+  authority: (Riabinin 1925)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Grès supérieurs
+  group: ''
+  members: []
+  country: Laos
+  regions: [Savannakhet]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: gres-superieurs-laos
+- formation: Yuliangzi
+  group: Jiayin
+  members: []
+  country: China
+  regions: [Heilongjiang]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: yuliangzi-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Riabinin in 1930.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Mandschurosaurus amurensis holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/88/Mandschurosaurus_amurensis_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mandschurosaurus_amurensis_holotype.png
+  artist: Anatoliy Riabinin
+  license: Public domain
+  license_url: ''
+  date: '1925'
+  caption: Holotype of Mandschurosaurus amurensis
+  width: 413
+  height: 556
+  review: unreviewed
+- kind: fossil
+  file: Mandschurosaurus Amurensis..2H1A0401WI.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Mandschurosaurus_Amurensis..2H1A0401WI.jpg/960px-Mandschurosaurus_Amurensis..2H1A0401WI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mandschurosaurus_Amurensis..2H1A0401WI.jpg
+  artist: Kora27
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-02-10'
+  caption: Remains of Mandschurosaurus amurensis
+  width: 3217
+  height: 4182
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. N. Riabinin. 1930. Mandschurosaurus amurensis nov. gen. nov. sp., verkhnemelovoy dinozavr s. r. Amura
+    [Mandschurosaurus amurensis nov. gen, nov. sp., a hadrosaurian dinosaur from the Upper Cretaceous of the Amur
+    River]. Monografii Russkogo Paleontologicheskogo Obshchestva 2:1-36
+- kind: literature
+  text: 'Dashan Yang and Zhengyi Wei 1986. Preliminary note on some hadrosaurs from the Cretaceous of Jiayin County,
+    Heilongjiang Province (Manchuria). Nature Research of Heilongjiang Province: 1–10.'
+- kind: literature
+  text: 'Brett-Surman M. K. 1979. Phylogeny and palaeobiogeography of hadrosaurian dinosaurs. Nature 277(5697):
+    560–562. doi:10.1038/277560a0'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mandschurosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mandschurosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mandschurosaurus”. English Wikipedia, revision 1356119949.
+  url: https://en.wikipedia.org/w/index.php?title=Mandschurosaurus&oldid=1356119949
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

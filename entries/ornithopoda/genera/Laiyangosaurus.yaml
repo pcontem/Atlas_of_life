@@ -1,0 +1,97 @@
+name: Laiyangosaurus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Zhang et al. 2019
+type_species: Laiyangosaurus youngi
+type_species_note: ''
+summary: A saurolophine hadrosaurid of the Late Cretaceous Jingangkou Formation of China, found in the Laiyang Basin.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Laiyangosaurus youngi
+  authority: Zhang et al. 2019
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Jingangkou
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: jingangkou-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Zhang and colleagues in 2019.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Laiyangosaurus skull resonstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Laiyangosaurus_skull_resonstruction.jpg/960px-Laiyangosaurus_skull_resonstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Laiyangosaurus_skull_resonstruction.jpg
+  artist: Olof Moleman
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-04'
+  caption: Skull reconstruction of Laiyangosaurus youngi
+  width: 2500
+  height: 2006
+  review: unreviewed
+- kind: life
+  file: Laiyangosaurus youngi.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Laiyangosaurus_youngi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Laiyangosaurus_youngi.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Laiyangosaurus youngi
+  width: 1224
+  height: 468
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f704bcd3-09c1-433f-8ce7-ec0c98fe0a3b/vector.svg
+  png: https://images.phylopic.org/images/f704bcd3-09c1-433f-8ce7-ec0c98fe0a3b/raster/512x406.png
+  page: https://www.phylopic.org/images/f704bcd3-09c1-433f-8ce7-ec0c98fe0a3b
+  attribution: Olof Moleman
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Laiyangosaurus youngi
+  matched: Laiyangosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'J.-L. Zhang, X.-L. Wang, and Q. Wang, S.-X. Jiang, X. Cheng, N. Li, R. Qiu. 2019. A new saurolophine hadrosaurid
+    (Dinosauria: Ornithopoda) from the Upper Cretaceous of Shandong, China. Anais da Academia Brasileira de Ciências
+    91(2):e20160920'
+- kind: literature
+  text: 'Zhang, J.L.; Wang, X.; Wang, Q.; Jiang, S.; Cheng, X.; Ning, L.; Qiu, R. 2017. A new saurolophine hadrosaurid
+    (Dinosauria: Ornithopoda) from the Upper Cretaceous of Shandong, China. Annals of the Brazilian Academy of Sciences.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Laiyangosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Laiyangosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Laiyangosaurus”. English Wikipedia, revision 1304701227.
+  url: https://en.wikipedia.org/w/index.php?title=Laiyangosaurus&oldid=1304701227
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

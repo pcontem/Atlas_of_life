@@ -1,0 +1,94 @@
+name: Ornatops
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: McDonald et al. 2021
+type_species: Ornatops incantatus
+type_species_note: ''
+summary: A brachylophosaurin saurolophine hadrosaur of the Menefee Formation of New Mexico, whose name means "ornate
+  face".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ornatops incantatus
+  authority: McDonald et al. 2021
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Menefee
+  group: Mesaverde
+  members: [Allison]
+  country: United States
+  regions: [New Mexico]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: menefee-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by McDonald and colleagues in 2021.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Ornatops Braincase.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/23/Ornatops_Braincase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ornatops_Braincase.jpg
+  artist: Kingmeatballs
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-04-03'
+  caption: Braincase of Ornatops incantatus
+  width: 1200
+  height: 909
+  review: unreviewed
+- kind: life
+  file: Ornatops incantatus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/54/Ornatops_incantatus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ornatops_incantatus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Ornatops incantatus
+  width: 1206
+  height: 433
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'McDonald, A. T.; Wolfe, D. G.; Freedman Fowler, E. A.; Gates, T. A. 2021. A new brachylophosaurin (Dinosauria:
+    Hadrosauridae) from the Upper Cretaceous Menefee Formation of New Mexico. PeerJ 9. doi:10.7717/peerj.11084'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ornatops (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ornatops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornatops”. English Wikipedia, revision 1367789626.
+  url: https://en.wikipedia.org/w/index.php?title=Ornatops&oldid=1367789626
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

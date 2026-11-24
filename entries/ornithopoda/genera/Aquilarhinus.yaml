@@ -1,0 +1,82 @@
+name: Aquilarhinus
+rank: genus
+parent: hadrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Prieto-Márquez et al. 2020
+type_species: Aquilarhinus palimentus
+type_species_note: ''
+summary: A hadrosaurid of the Aguja Formation of Texas, named for its unusual shovel-like beak ("eagle snout").
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aquilarhinus palimentus
+  authority: Prieto-Márquez et al. 2020
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Aguja
+  group: ''
+  members: [Abajo Shale]
+  country: United States
+  regions: [Texas]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Prieto-Marquez and colleagues in 2020.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Aquilarhinus palimentus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Aquilarhinus_palimentus.png/960px-Aquilarhinus_palimentus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aquilarhinus_palimentus.png
+  artist: David Breguet
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-03-08'
+  caption: Life restoration of Aquilarhinus palimentus
+  width: 1920
+  height: 1280
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Prieto-Márquez, Albert; Wagner, Jonathan R.; Lehman, Thomas 2020. An unusual ''shovel-billed'' dinosaur
+    with trophic specializations from the early Campanian of Trans-Pecos Texas, and the ancestral hadrosaurian crest.
+    Journal of Systematic Palaeontology 18(6): 461–498. doi:10.1080/14772019.2019.1625078'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aquilarhinus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aquilarhinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aquilarhinus”. English Wikipedia, revision 1384647612.
+  url: https://en.wikipedia.org/w/index.php?title=Aquilarhinus&oldid=1384647612
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

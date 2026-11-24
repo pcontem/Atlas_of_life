@@ -3,32 +3,35 @@ name: Frenchman
 rank: formation
 group: ''
 country: Canada
-regions: [Saskatchewan]
+regions: [Alberta, Saskatchewan]
 location:
   lat: 49.341
-  lng: -108.116
-  basis: median of 14 PBDB collections that yielded the atlas genera
+  lng: -108.332
+  basis: median of 17 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., coastal indet., '"channel"', '"floodplain"']
-lithology: [not reported, sandstone, siltstone, claystone]
+environment: [terrestrial indet., '"channel"', coastal indet., '"floodplain"']
+lithology: [not reported, sandstone, claystone, siltstone]
 pbdb_collections:
 - '14555'
 - '14558'
 - '45675'
 - '54105'
+- '58157'
 - '128461'
 - '152399'
 - '152400'
 - '152401'
 - '152402'
+- '170675'
 - '206819'
 - '225845'
 - '228825'
 - '228826'
 - '228827'
+- '229474'
 includes: []
 summary: ''
 paleoenvironment: ''

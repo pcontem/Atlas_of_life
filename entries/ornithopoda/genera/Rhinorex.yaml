@@ -1,0 +1,93 @@
+name: Rhinorex
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Gates and Scheetz 2014
+type_species: Rhinorex condrupus
+type_species_note: ''
+summary: A kritosaurin hadrosaur from the Neslen Formation of central Utah, dated about 75 million years ago.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rhinorex condrupus
+  authority: Gates and Scheetz 2014
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Nelsen
+  group: Mesaverde
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: nelsen-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Gates and Scheetz in 2014.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Rhinorex condrupus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Rhinorex_condrupus_skull.jpg/960px-Rhinorex_condrupus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rhinorex_condrupus_skull.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-06-12'
+  caption: Skull of Rhinorex condrupus
+  width: 4032
+  height: 3024
+  review: unreviewed
+- kind: life
+  file: Rhinorex condrupus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8e/Rhinorex_condrupus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rhinorex_condrupus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Rhinorex condrupus
+  width: 1171
+  height: 463
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4ae90b8f-bbb4-47cd-a914-98e1c845cf1e/vector.svg
+  png: https://images.phylopic.org/images/4ae90b8f-bbb4-47cd-a914-98e1c845cf1e/raster/512x179.png
+  page: https://www.phylopic.org/images/4ae90b8f-bbb4-47cd-a914-98e1c845cf1e
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Gryposaurus monumentensis
+  matched: Rhinorex
+  genus_level: true
+sources:
+- kind: original
+  text: 'T. A. Gates and R. Scheetz. 2014. A new saurolophine hadrosaurid (Dinosauria: Ornithopoda) from the Campanian
+    of Utah, North America. Journal of Systematic Palaeontology'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rhinorex (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rhinorex
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rhinorex”. English Wikipedia, revision 1366679705.
+  url: https://en.wikipedia.org/w/index.php?title=Rhinorex&oldid=1366679705
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

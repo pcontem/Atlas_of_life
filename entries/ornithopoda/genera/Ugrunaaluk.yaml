@@ -1,0 +1,83 @@
+name: Ugrunaaluk
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Mori et al. 2016
+type_species: Ugrunaaluk kuukpikensis
+type_species_note: ''
+summary: A hadrosaurid from the Maastrichtian of the North Slope of Alaska, named in 2016 from a bonebed.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ugrunaaluk kuukpikensis
+  authority: Mori et al. 2016
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Prince Creek
+  group: Colville
+  members: [Kogosukruk Tongue]
+  country: United States
+  regions: [Alaska]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: prince-creek-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Mori and colleagues in 2016.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Ugrunaaluk.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/17/Ugrunaaluk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ugrunaaluk.jpg
+  artist: Hirotsugu Mori, Patrick S. Druckenmiller, and Gregory M. Erickson
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2015'
+  caption: Life restoration of Ugrunaaluk
+  width: 579
+  height: 737
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: H. Mori, P. S. Druckenmiller, and G. M. Erickson. 2016. A new Arctic hadrosaurid from the Prince Creek Formation
+    (lower Maastrichtian) of northern Alaska. Acta Palaeontologica Polonica 60(1):15-32
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ugrunaaluk (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ugrunaaluk
+- kind: encyclopedia
+  text: Wikipedia contributors. “Edmontosaurus”. English Wikipedia, revision 1385383683.
+  url: https://en.wikipedia.org/w/index.php?title=Edmontosaurus&oldid=1385383683
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is that of Edmontosaurus, which treats Ugrunaaluk as a possible synonym; check
+    recent assessments before consolidating.
+  reviews: []
