@@ -1,0 +1,104 @@
+name: Kangnasaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Haughton 1915
+type_species: Kangnasaurus coetzeei
+type_species_note: ''
+summary: An elasmarian ornithopod from the Late Cretaceous of South Africa, known from a tooth and possibly limb
+  bones.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: Once dated to the Early Cretaceous when treated as a dryosaurid; sedimentology favours the Campanian to
+    Maastrichtian.
+species:
+- name: Kangnasaurus coetzeei
+  authority: Haughton 1915
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: [Western Cape]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: unnamed-well-farm-kangnas-portion-goebees-south-africa
+fossil_material:
+  holotype: SAM 2732, a tooth found at 34 m depth in a well at Farm Kangnas, Orange River valley, northern Cape
+    Province.
+  material: Other postcranial bones described as if they belonged to it by Cooper in 1985.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from a tooth and possibly limb bones; the sources consulted do not describe its biology.
+images:
+- kind: fossil
+  file: Iziko Thigh bone kangnasaurus.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Iziko_Thigh_bone_kangnasaurus.JPG/960px-Iziko_Thigh_bone_kangnasaurus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Iziko_Thigh_bone_kangnasaurus.JPG
+  artist: Nkansahrexford
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2014-07-09'
+  caption: Thigh bone referred to Kangnasaurus
+  width: 2630
+  height: 5242
+  review: unreviewed
+- kind: fossil
+  file: Kangnasaurus holotype tooth.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/91/Kangnasaurus_holotype_tooth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kangnasaurus_holotype_tooth.png
+  artist: Sidney H. Haughton
+  license: Public domain
+  license_url: ''
+  date: '1915-01-01'
+  caption: Holotype tooth of Kangnasaurus coetzeei
+  width: 528
+  height: 715
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: S. H. Haughton. 1915. On some dinosaur remains from Bushmanland. Transactions of the Royal Society of South
+    Africa 5(1):259-264
+- kind: literature
+  text: 'Cooper, Michael R. 1985. A revision of the ornithischian dinosaur ''''Kangnasaurus coetzeei'''' Haughton,
+    with a classification of the Ornithischia. Annals of the South African Museum 95(8): 281–317.'
+- kind: literature
+  text: 'Dieudonné PE, Cruzado-Caballero P, Godefroit P, Tortosa T 2020. A new phylogeny of cerapodan dinosaurs.
+    Historical Biology 33(10): 2335–2355. doi:10.1080/08912963.2020.1793979'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kangnasaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kangnasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kangnasaurus”. English Wikipedia, revision 1384616365.
+  url: https://en.wikipedia.org/w/index.php?title=Kangnasaurus&oldid=1384616365
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Originally regarded as dubious; kept as valid following the recent treatment as an elasmarian in the English
+    Wikipedia revision cited.
+  reviews: []

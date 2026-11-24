@@ -1,0 +1,91 @@
+name: Macrogryphosaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Calvo et al. 2007
+type_species: Macrogryphosaurus gondwanicus
+type_species_note: ''
+summary: A large elasmarian ornithopod from the Coniacian Sierra Barrosa Formation of Neuquén, Argentina, with mineralized
+  plates on its ribs.
+size:
+  length_m: null
+  note: Described as a large ornithopod; no numbers in the sources used.
+age:
+  first_ma: 89.8
+  last_ma: 85.7
+  early_interval: Coniacian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Macrogryphosaurus gondwanicus
+  authority: Calvo et al. 2007
+  first_ma: 89.8
+  last_ma: 85.7
+  interval: Coniacian
+  reference: original description
+formations:
+- formation: Sierra Barrosa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Coniacian–Late Coniacian
+  occurrences: 1
+  ma: [85.7, 89.8]
+  id: sierra-barrosa-argentina
+fossil_material:
+  holotype: MUCPv-32, an essentially complete set of vertebrae, ribs, four mineralized thoracic plates, both sides
+    of the shoulder girdle and a sternum.
+  material: The holotype only.
+  completeness: partial
+  exceptional: Four mineralized thoracic (intercostal) plates.
+biology: Noted for the mineralized thoracic plates; function is unknown.
+images:
+- kind: life
+  file: Macrogryphosaurus life reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/21/Macrogryphosaurus_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Macrogryphosaurus_life_reconstruction.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-07'
+  caption: Life restoration of Macrogryphosaurus gondwanicus
+  width: 946
+  height: 348
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: J. O. Calvo, J. D. Porfiri, and F. E. Novas. 2007. Discovery of a new ornithopod dinosaur from the Portezuelo
+    Formation (Upper Cretaceous), Neuquén, Patagonia, Argentina. Arquivos do Museu Nacional, Rio de Janeiro 65(4):471-483
+- kind: literature
+  text: 'Cruzado-Caballero, Penélope; Filippi, Leonardo S.; Méndez, Ariel H.; Garrido, Alberto C.; Valieri, Rubén
+    D.Juárez 2016. New record of ornithopod dinosaur from the Plottier Formation (Upper Cretaceous), Patagonia,
+    Argentina. Annales de Paléontologie 102(2): 145–150. doi:10.1016/j.annpal.2016.02.003'
+- kind: literature
+  text: Rozadilla, Sebastián; Cruzado-Caballero, Penélope; Calvo, Jorge O. 2020. Osteology of Ornithopod Macrogryphosaurus
+    gondwanicus (Dinosauria, Ornithischia) from the Upper Cretaceous of Patagonia, Argentina. Cretaceous Research
+    108. doi:10.1016/j.cretres.2019.104311
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Macrogryphosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Macrogryphosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Macrogryphosaurus”. English Wikipedia, revision 1387599726.
+  url: https://en.wikipedia.org/w/index.php?title=Macrogryphosaurus&oldid=1387599726
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

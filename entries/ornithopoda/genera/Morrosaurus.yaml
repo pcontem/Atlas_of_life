@@ -1,0 +1,75 @@
+name: Morrosaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Rozadilla et al. 2016
+type_species: Morrosaurus antarcticus
+type_species_note: ''
+summary: An elasmarian ornithopod of about 4.5 to 5 m from the Maastrichtian Snow Hill Island Formation of Antarctica.
+size:
+  length_m: [4.5, 5]
+  note: Estimated from the only specimen, an adult, at 4.5 to 5 m (English Wikipedia revision cited).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Morrosaurus antarcticus
+  authority: Rozadilla et al. 2016
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Snow Hill Island
+  group: ''
+  members: [Cape Lamb]
+  country: Antarctica
+  regions: []
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: snow-hill-island-antarctica
+fossil_material:
+  holotype: MACN Pv 197, a partial skeleton from Cape Lamb, Snow Hill Island Formation, Antarctica.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Larger and more robust than the other Antarctic ornithopod Trinisaura; the fragmentary material says little
+  more.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: S. Rozadilla, F. L. Agnolin, and F. E. Novas, A. M. Aranciaga Rolando, M. J. Motta, J. M. Lirio, M. P. Isasi.
+    2016. A new ornithopod (Dinosauria, Ornithischia) from the Upper Cretaceous of Antarctica and its palaeobiogeographical
+    implications. Cretaceous Research 57:311-324
+- kind: literature
+  text: Garcia-Marsà, Jordi A.; Cerroni, Mauricio A.; Rozadilla, Sebastián; Cerda, Ignacio A.; Reguero, Marcelo
+    A.; Coria, Rodolfo A.; Novas, Fernando E. 2020. Biological implications of the bone microstructure of the Antarctic
+    ornithopods Trinisaura and Morrosaurus (Dinosauria, Ornithischia). Cretaceous Research 116. doi:10.1016/j.cretres.2020.104605
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Morrosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Morrosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Morrosaurus”. English Wikipedia, revision 1384683878.
+  url: https://en.wikipedia.org/w/index.php?title=Morrosaurus&oldid=1384683878
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,100 @@
+name: Qantassaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Rich and Vickers-Rich 1999
+type_species: Qantassaurus intrepidus
+type_species_note: ''
+summary: A two-legged plant-eating ornithopod with a short, stocky face from the Early Cretaceous of Victoria, Australia,
+  then partly south of the Antarctic Circle.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Qantassaurus intrepidus
+  authority: Rich and Vickers-Rich 1999
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: '"Wonthaggi"'
+  group: Strzelecki
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: wonthaggi-australia
+fossil_material:
+  holotype: A dentary from Flat Rocks, near Inverloch, Wonthaggi Formation, Victoria (specimen number not read).
+  material: Jaw material only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Probably had a beak and leaf-shaped cheek teeth with eight ridges, replaced as they wore; like its close
+  relative Leaellynasaura it ate ferns and horsetails.
+images:
+- kind: fossil
+  file: Qantassaurus holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/69/Qantassaurus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Qantassaurus_holotype.jpg
+  artist: Matthew C. Herne, Jay P. Nair, Alistair R. Evans and Alan M. Tait
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: Mon, 11 Ma
+  caption: Holotype of Qantassaurus intrepidus
+  width: 1400
+  height: 917
+  review: unreviewed
+- kind: fossil
+  file: Qantassaurus intrepidus jaw.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Qantassaurus_intrepidus_jaw.jpg/960px-Qantassaurus_intrepidus_jaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qantassaurus_intrepidus_jaw.jpg
+  artist: Paleocolour
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2019-04-21'
+  caption: Jaw of Qantassaurus intrepidus
+  width: 2016
+  height: 1480
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: T. H. Rich and P. Vickers-Rich. 1999. The Hypsilophodontidae from southeastern Australia. Proceedings of
+    the Second Gondwanan Dinosaur Symposium, National Science Museum Monographs 15:167-180
+- kind: literature
+  text: 'Herne, Matthew C.; Nair, Jay P.; Evans, Alistair R.; Tait, Alan M. 2019. New small-bodied ornithopods (Dinosauria,
+    Neornithischia) from the Early Cretaceous Wonthaggi Formation (Strzelecki Group) of the Australian-Antarctic
+    rift system, with revision of ''''Qantassaurus intrepidus'''' Rich and Vickers-Rich, 1999. Journal of Paleontology
+    93(3): 543–584. doi:10.1017/jpa.2018.95'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Qantassaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Qantassaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Qantassaurus”. English Wikipedia, revision 1384691523.
+  url: https://en.wikipedia.org/w/index.php?title=Qantassaurus&oldid=1384691523
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

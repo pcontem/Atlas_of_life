@@ -1,0 +1,110 @@
+name: Weewarrasaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Bell et al. 2018
+type_species: Weewarrasaurus pobeni
+type_species_note: ''
+summary: An ornithopod from the Griman Creek Formation near Lightning Ridge, Australia, known from a dentary preserved
+  in opal.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Weewarrasaurus pobeni
+  authority: Bell et al. 2018
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Griman Creek
+  group: Rolling Downs
+  members: [Wallangulla Sandstone]
+  country: Australia
+  regions: [New South Wales]
+  interval: Early Cenomanian–Middle Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: griman-creek-australia
+fossil_material:
+  holotype: An isolated dentary preserved in green-blue opal, found in a mine at the Wee Warra locality and donated
+    to the Australian Opal Centre.
+  material: A second referred dentary.
+  completeness: fragmentary
+  exceptional: Preserved in opal.
+biology: Lived with several other ornithopods of different sizes.
+images:
+- kind: life
+  file: Weewarrasaurus reconstruction.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/09/Weewarrasaurus_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Weewarrasaurus_reconstruction.jpg
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-05'
+  caption: Life restoration of Weewarrasaurus pobeni
+  width: 1349
+  height: 1533
+  review: unreviewed
+- kind: fossil
+  file: WeewarrasaurusLRF766.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3d/WeewarrasaurusLRF766.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:WeewarrasaurusLRF766.jpg
+  artist: Phil R. Bell​, Matthew C. Herne, Tom Brougham, Elizabeth T. Smith
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-04'
+  caption: Dentary of Weewarrasaurus pobeni
+  width: 1200
+  height: 965
+  review: unreviewed
+- kind: fossil
+  file: Weewarrasaurusholotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/61/Weewarrasaurusholotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Weewarrasaurusholotype.jpg
+  artist: Phil R. Bell​, Matthew C. Herne, Tom Brougham, Elizabeth T. Smith
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-12-04'
+  caption: Holotype of Weewarrasaurus pobeni
+  width: 1008
+  height: 1200
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: P. R. Bell, M. C. Herne, and T. Brougham, E. T. Smith. 2018. Ornithopod diversity in the Griman Creek Formation
+    (Cenomanian), New South Wales, Australia. PeerJ 6:e6008:1-40
+- kind: literature
+  text: Bell, Phil R.; Herne, Matthew C.; Brougham, Tom; Smith, Elizabeth T. 2018. Ornithopod diversity in the Griman
+    Creek Formation (Cenomanian), New South Wales, Australia. PeerJ 6. doi:10.7717/peerj.6008
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Weewarrasaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Weewarrasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Weewarrasaurus”. English Wikipedia, revision 1376293962.
+  url: https://en.wikipedia.org/w/index.php?title=Weewarrasaurus&oldid=1376293962
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
