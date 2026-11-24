@@ -3,23 +3,25 @@ name: Camarillas
 rank: formation
 group: ''
 country: Spain
-regions: [Aragón, Cuenca, Teruel]
+regions: [Aragon, Aragón, Cuenca, Teruel]
 location:
-  lat: 40.651
-  lng: -0.871
-  basis: median of 6 PBDB collections that yielded the atlas genera
+  lat: 40.647
+  lng: -0.862
+  basis: median of 12 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 121.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
-- deltaic indet.
 - terrestrial indet.
+- deltaic indet.
+- fluvial indet.
+- '"channel"'
 - fluvial-deltaic indet.
 - '"floodplain"'
-- '"channel"'
-lithology: [mudstone, not reported, claystone]
-pbdb_collections: ['36368', '36369', '68489', '89262', '122078', '206094']
+lithology: [not reported, mudstone, claystone, sandstone]
+pbdb_collections: ['36368', '36369', '36375', '59075', '68489', '89262', '122078', '170003', '206094', '218995',
+  '219662', '219663']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,168 @@
+name: Camptosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1885
+type_species: Camptosaurus dispar
+type_species_note: ''
+summary: A plant-eating, beaked ornithischian of the Late Jurassic of western North America and possibly Europe,
+  whose name means "flexible lizard".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 157.9
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 42
+  note: PBDB gave no interval names for the occurrence range; the Morrison Formation records span Oxfordian to Tithonian
+    (PBDB formation list).
+species:
+- name: Camptosaurus aphanoecetes
+  authority: (Carpenter and Wilson 2008)
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: ''
+- name: Camptosaurus browni
+  authority: Gilmore 1909
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Camptosaurus dispar
+  authority: (Marsh 1879)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+- name: Camptosaurus inkeyi
+  authority: Nopcsa 1900
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Camptosaurus medius
+  authority: Marsh 1894
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Camptosaurus nanus
+  authority: Marsh 1894
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Kenton, Lake Como, Talking Rocks]
+  country: United States
+  regions: [Colorado, Montana, Oklahoma, South Dakota, Utah, Wyoming]
+  interval: Late Oxfordian–Tithonian
+  occurrences: 40
+  ma: [143.1, 157.9]
+  id: morrison-united-states
+- formation: Süntel
+  group: ''
+  members: [Unterbank]
+  country: Germany
+  regions: [Nordrhein-Westfalen]
+  interval: Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 154.8]
+  id: suntel-germany
+- formation: Villar del Arzobispo
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valencia]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: villar-del-arzobispo-spain
+fossil_material:
+  holotype: Not read in the sources consulted; Marsh named Camptonotus dispar in 1879 and the genus Camptosaurus
+    in 1885.
+  material: Many specimens, chiefly from the Morrison Formation.
+  completeness: multiple
+  exceptional: ''
+biology: A beaked herbivore; further habits are not given in the sources consulted.
+images:
+- kind: skeletal
+  file: Camptosaurus dispar skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Camptosaurus_dispar_skeleton.jpg/960px-Camptosaurus_dispar_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Camptosaurus_dispar_skeleton.jpg
+  artist: ★Kumiko★
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2015-08-08'
+  caption: Mounted skeleton of Camptosaurus dispar
+  width: 3152
+  height: 2140
+  review: unreviewed
+- kind: fossil
+  file: Camptosaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Camptosaurus_TD.png/960px-Camptosaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Camptosaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-06-09'
+  caption: Skeletal drawing of Camptosaurus
+  width: 2600
+  height: 1000
+  review: unreviewed
+- kind: fossil
+  file: Camptosaurus skull fragments (39843138311).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Camptosaurus_skull_fragments_%2839843138311%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Camptosaurus_skull_fragments_(39843138311).jpg
+  artist: the paleobear from Lontananza, Loreto, Peru
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2017-05-31'
+  caption: Skull fragments of Camptosaurus
+  width: 1392
+  height: 1024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c2ed454e-1b4f-47f3-9e6c-4f227c3ba924/vector.svg
+  png: https://images.phylopic.org/images/c2ed454e-1b4f-47f3-9e6c-4f227c3ba924/raster/512x242.png
+  page: https://www.phylopic.org/images/c2ed454e-1b4f-47f3-9e6c-4f227c3ba924
+  attribution: Michael B. H. (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Camptosaurus dispar
+  matched: Camptosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: Marsh, O.C. 1885. Names of extinct reptiles. American Journal of Science 29.
+- kind: literature
+  text: 'Cubells-Alarcó, M.; Verdú, F. J.; Suñer, M.; de Santisteban, C. 2022. Tracing Late Jurassic ornithopod
+    diversity in the eastern Iberian Peninsula: Camptosaurus-like postcranial remains from Alpuente (Valencia, Spain).
+    Journal of Iberian Geology 48(1): 65–78. doi:10.1007/s41513-021-00182-z'
+- kind: literature
+  text: 'Marsh, O.C. 1879. Notice of new Jurassic reptiles. American Journal of Science and Arts 18(108): 501–505.
+    doi:10.2475/ajs.s3-18.108.501'
+- kind: literature
+  text: 'Galton, P.M. 1980. The ornithischian dinosaur Camptosaurus prestwichii from the Upper Jurassic of England.
+    Palaeontology 23: 411–443.'
+- kind: literature
+  text: 'Marsh, O.C. 1894. The typical Ornithopoda of the American Jurassic. American Journal of Science 48(283):
+    85–90. doi:10.2475/ajs.s3-48.283.85'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Camptosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Camptosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Camptosaurus”. English Wikipedia, revision 1378452098.
+  url: https://en.wikipedia.org/w/index.php?title=Camptosaurus&oldid=1378452098
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

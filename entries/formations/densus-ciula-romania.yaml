@@ -3,23 +3,23 @@ name: Densuș-Ciula
 rank: formation
 group: ''
 country: Romania
-regions: [Hunedoara]
+regions: [Hunedoara, Transylvania]
 location:
   lat: 45.617
   lng: 22.783
-  basis: median of 13 PBDB collections that yielded the atlas genera
+  basis: median of 18 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
-- wet floodplain
-- '"channel"'
 - lacustrine indet.
-- dry floodplain
-- lacustrine - small
+- '"channel"'
+- wet floodplain
 - terrestrial indet.
-lithology: [mudstone, claystone, sandstone, siltstone]
+- lacustrine - small
+- dry floodplain
+lithology: [sandstone, mudstone, claystone, not reported]
 pbdb_collections:
 - '13334'
 - '67817'
@@ -29,11 +29,16 @@ pbdb_collections:
 - '115102'
 - '163320'
 - '163322'
+- '163323'
+- '163326'
 - '163328'
 - '193942'
 - '193944'
+- '219171'
+- '219173'
 - '235665'
 - '239464'
+- '278586'
 includes: []
 summary: ''
 paleoenvironment: ''

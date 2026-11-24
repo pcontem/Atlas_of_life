@@ -1,21 +1,22 @@
 id: atherfield-clay-united-kingdom
 name: Atherfield Clay
 rank: formation
-group: ''
+group: Wealden
 country: United Kingdom
 regions: [England]
 location:
-  lat: 50.611
-  lng: -1.36
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 50.615
+  lng: -1.356
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 121.4
+  first_ma: 132.6
   last_ma: 119.57
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [shoreface]
-lithology: [sandstone]
-pbdb_collections: ['235315']
-includes: []
+environment: [shoreface, terrestrial indet.]
+lithology: [sandstone, lignite]
+pbdb_collections: ['222383', '235315']
+includes:
+- PBDB collection “Atherfield” has no formation but is a locality of the Atherfield Clay.
 summary: ''
 paleoenvironment: ''
 sources:

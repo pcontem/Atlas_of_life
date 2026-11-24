@@ -1,0 +1,84 @@
+name: Bayannurosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2018
+type_species: Bayannurosaurus perfectus
+type_species_note: ''
+summary: A large non-hadrosauriform ankylopollexian from the Early Cretaceous Bayingebi Formation of Inner Mongolia,
+  China.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 119.57
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bayannurosaurus perfectus
+  authority: Xu et al. 2018
+  first_ma: 121.4
+  last_ma: 119.57
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Bayingebi
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Monggol]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: bayingebi-china
+fossil_material:
+  holotype: Not read in the sources consulted; described by Xu Xing and colleagues in 2018.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Bayannurosaurus reconstruction raingerr.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Bayannurosaurus_reconstruction_raingerr.png/960px-Bayannurosaurus_reconstruction_raingerr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bayannurosaurus_reconstruction_raingerr.png
+  artist: Raingerr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-04'
+  caption: Life restoration of Bayannurosaurus perfectus
+  width: 2160
+  height: 880
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c2ed454e-1b4f-47f3-9e6c-4f227c3ba924/vector.svg
+  png: https://images.phylopic.org/images/c2ed454e-1b4f-47f3-9e6c-4f227c3ba924/raster/512x242.png
+  page: https://www.phylopic.org/images/c2ed454e-1b4f-47f3-9e6c-4f227c3ba924
+  attribution: Michael B. H. (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Camptosaurus dispar
+  matched: Ankylopollexia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Xu, X.; Tan, Q.; Gao, Y.; Bao, Z.; Yin, Z.; Guo, B.; Wang, J.; Tan, L.; Zhang, Y.; Xing, H. 2018. A large-sized
+    basal ankylopollexian from East Asia, shedding light on early biogeographic history of Iguanodontia. Science
+    Bulletin 63(9): 556–563. doi:10.1016/j.scib.2018.03.016'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bayannurosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bayannurosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bayannurosaurus”. English Wikipedia, revision 1387577487.
+  url: https://en.wikipedia.org/w/index.php?title=Bayannurosaurus&oldid=1387577487
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is flagged as not about the genus; check the revision.
+  reviews: []

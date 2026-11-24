@@ -7,14 +7,15 @@ regions: [Agadez]
 location:
   lat: 16.467
   lng: 9.167
-  basis: median of 10 PBDB collections that yielded the atlas genera
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 121.4
   last_ma: 100.5
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., fluvial indet.]
-lithology: [not reported, sandstone]
-pbdb_collections: ['28569', '37200', '59640', '77189', '92629', '92630', '114110', '118039', '228823', '228824']
+lithology: [not reported, sandstone, '"siliciclastic"']
+pbdb_collections: ['28569', '37200', '59640', '77189', '92629', '92630', '114110', '118039', '182953', '228823',
+  '228824']
 includes: []
 summary: ''
 paleoenvironment: ''

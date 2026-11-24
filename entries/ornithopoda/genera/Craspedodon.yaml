@@ -1,0 +1,87 @@
+name: Craspedodon
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Dollo 1883
+type_species: Craspedodon lonzeensis
+type_species_note: ''
+summary: An ornithischian from the Late Cretaceous Lonzee Member of Belgium, known only from isolated teeth.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 89.8
+  last_ma: 83.6
+  early_interval: Coniacian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Craspedodon lonzeensis
+  authority: Dollo 1883
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: original description
+formations:
+- formation: Glauconie de Lonzée
+  group: ''
+  members: []
+  country: Belgium
+  regions: [Namur]
+  interval: Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: glauconie-de-lonzee-belgium
+fossil_material:
+  holotype: Teeth described by Louis Dollo in 1883 from the Lonzee Member, Belgium.
+  material: Teeth only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Craspedodon lonzeensis 1.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a2/Craspedodon_lonzeensis_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Craspedodon_lonzeensis_1.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Took the p
+  caption: Teeth of Craspedodon lonzeensis
+  width: 1213
+  height: 833
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98/vector.svg
+  png: https://images.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98/raster/512x163.png
+  page: https://www.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Jinzhousaurus yangi
+  matched: Iguanodontoidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Dollo, L. 1883. Note sur les restes de dinosauriens rencontrées dans le Crétacé supérieure de la Belgique.
+    Bulletin du Musée royale d'' Histoire naturelle de Belgique 2: 205–221.'
+- kind: literature
+  text: 'Godefroit, P.; Lambert, O. 2007. A re-appraisal of ''''Craspedodon lonzeensis'''' Dollo, 1883 from the
+    Upper Cretaceous of Belgium: the first record of a neoceratopsian dinosaur in Europe?. Bulletin de l''Institut
+    Royal des Sciences Naturelles de Belgique, Sciences de la Terre 77: 83–93.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Craspedodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Craspedodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Craspedodon”. English Wikipedia, revision 1335017359.
+  url: https://en.wikipedia.org/w/index.php?title=Craspedodon&oldid=1335017359
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Possible ceratopsian identity is discussed in the literature (Osi et al. 2010 is cited in the Wikipedia revision);
+    check recent assessments.
+  reviews: []

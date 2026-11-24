@@ -5,16 +5,45 @@ group: ''
 country: Spain
 regions: [Castellón, Valenciana]
 location:
-  lat: 40.51
-  lng: 0.163
-  basis: median of 8 PBDB collections that yielded the atlas genera
+  lat: 40.493
+  lng: 0.424
+  basis: median of 20 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 119.57
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., pond, estuary/bay, fine channel fill, coarse channel fill]
-lithology: [not reported, claystone, marl, conglomerate]
-pbdb_collections: ['61324', '61326', '61327', '64408', '89293', '168887', '169469', '195209']
+environment:
+- terrestrial indet.
+- fine channel fill
+- pond
+- '"channel"'
+- estuary/bay
+- coarse channel fill
+- mire/swamp
+- lagoonal
+- delta plain
+lithology: [claystone, not reported, sandstone, conglomerate]
+pbdb_collections:
+- '45148'
+- '45149'
+- '45151'
+- '61324'
+- '61325'
+- '61326'
+- '61327'
+- '61375'
+- '64408'
+- '89291'
+- '89293'
+- '152639'
+- '168887'
+- '169162'
+- '169443'
+- '169445'
+- '169446'
+- '169447'
+- '169469'
+- '195209'
 includes: []
 summary: ''
 paleoenvironment: ''

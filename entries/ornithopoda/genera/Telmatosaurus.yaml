@@ -1,0 +1,144 @@
+name: Telmatosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Nopcsa 1903
+type_species: Telmatosaurus transsylvanicus
+type_species_note: ''
+summary: A small basal hadrosauromorph from the Late Cretaceous of Romania, probably dwarfed by island life.
+size:
+  length_m: [5, 5]
+  mass_kg: [600, 600]
+  note: About 5 m long and 600 kg in the Wikipedia revision used, explained there as insular dwarfism.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 23
+  note: ''
+species:
+- name: Telmatosaurus transsylvanicus
+  authority: (Nopcsa 1900)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Sînpetru
+  group: ''
+  members: [lower]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 10
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: sebes-romania
+- formation: Râul Mare
+  group: ''
+  members: [upper]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: raul-mare-romania
+- formation: Şard
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sard-romania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: unnamed-fox-amphoux-france
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+fossil_material:
+  holotype: Not read in the sources consulted; named by Nopcsa in 1903 from Transylvania.
+  material: Many specimens from the Sinpetru, Densus-Ciula and other formations.
+  completeness: multiple
+  exceptional: ''
+biology: Small for its group, a size attributed to insular dwarfism.
+images:
+- kind: life
+  file: Telmatosaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Telmatosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Telmatosaurus.jpg
+  artist: Franz Nopcsa
+  license: Public domain
+  license_url: ''
+  date: '1900'
+  caption: Life restoration of Telmatosaurus transsylvanicus
+  width: 1560
+  height: 947
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Telmatosaurus
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Grigorescu, Dan 2016. The ''Tuştea puzzle'' revisited: Late Cretaceous (Maastrichtian)''''Megaloolithus''''eggs
+    associated with''''Telmatosaurus''''hatchlings in the Haţeg Basin. Historical Biology 29(5): 627–640. doi:10.1080/08912963.2016.1227327'
+- kind: literature
+  text: 'Bojar, Ana-Voica; Csiki, Zoltan; Grigorescu, Dan July. Stable isotope distribution in Maastrichtian vertebrates
+    and paleosols from the Haţeg Basin, South Carpathians. Palaeogeography, Palaeoclimatology, Palaeoecology 293(3–4):
+    329–342. doi:10.1016/j.palaeo.2009.08.027'
+- kind: literature
+  text: 'Botfalvai, Gábor; Csiki-Sava, Zoltán; Grigorescu, Dan; Vasile, Ştefan Febr. Taphonomical and palaeoecological
+    investigation of the Late Cretaceous (Maastrichtian) Tuştea vertebrate assemblage (Romania; Haţeg Basin) - insights
+    into a unique dinosaur nesting locality. Palaeogeography, Palaeoclimatology, Palaeoecology 468: 228–262. doi:10.1016/j.palaeo.2016.12.003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Telmatosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Telmatosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Telmatosaurus”. English Wikipedia, revision 1343760446.
+  url: https://en.wikipedia.org/w/index.php?title=Telmatosaurus&oldid=1343760446
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

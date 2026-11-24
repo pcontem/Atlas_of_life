@@ -1,0 +1,90 @@
+name: Altirhinus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Norman 1998
+type_species: Altirhinus kurzanovi
+type_species_note: ''
+summary: A hadrosauroid ornithopod from the Early Cretaceous of Mongolia, named for its high, arched nose.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 110.1
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Altirhinus kurzanovi
+  authority: Norman 1998
+  first_ma: 110.1
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Khuren Dukh
+  group: ''
+  members: [Lower]
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Middle Albian–Late Albian
+  occurrences: 1
+  ma: [100.5, 110.1]
+  id: khuren-dukh-mongolia
+fossil_material:
+  holotype: Not read in the sources consulted; all specimens were collected in 1981 by joint Soviet-Mongolian expeditions.
+  material: Several specimens recovered in 1981.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted beyond its high snout (the name means "high nose").
+images:
+- kind: life
+  file: Altirhinus 01.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Altirhinus_01.JPG/960px-Altirhinus_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Altirhinus_01.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Life restoration of Altirhinus kurzanovi
+  width: 3144
+  height: 2001
+  review: unreviewed
+- kind: fossil
+  file: Altirhinus kurzanovi skull.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Altirhinus_kurzanovi_skull.JPG/960px-Altirhinus_kurzanovi_skull.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Altirhinus_kurzanovi_skull.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-06-21'
+  caption: Skull of Altirhinus kurzanovi
+  width: 2752
+  height: 2462
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/440d6fb5-98bc-49d2-b8f6-1cb3b8bb14ea/vector.svg
+  png: https://images.phylopic.org/images/440d6fb5-98bc-49d2-b8f6-1cb3b8bb14ea/raster/512x161.png
+  page: https://www.phylopic.org/images/440d6fb5-98bc-49d2-b8f6-1cb3b8bb14ea
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Altirhinus kurzanovi
+  matched: Altirhinus
+  genus_level: true
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Altirhinus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Altirhinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Altirhinus”. English Wikipedia, revision 1291249249.
+  url: https://en.wikipedia.org/w/index.php?title=Altirhinus&oldid=1291249249
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

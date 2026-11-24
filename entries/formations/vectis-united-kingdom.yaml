@@ -5,21 +5,21 @@ group: Wealden
 country: United Kingdom
 regions: [England]
 location:
-  lat: 50.622
-  lng: -1.377
-  basis: median of 10 PBDB collections that yielded the atlas genera
+  lat: 50.619
+  lng: -1.372
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 139.1
   last_ma: 119.57
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
 - terrestrial indet.
+- marine indet.
 - fluvial-lacustrine indet.
 - coastal indet.
-- marine indet.
 - lagoonal
 lithology: ['"shale"', not reported, claystone, mudstone]
-pbdb_collections: ['13267', '13268', '13270', '24906', '25428', '26781', '90306', '118045', '122888', '227658']
+pbdb_collections: ['13267', '13268', '13270', '24897', '24906', '25428', '26781', '90306', '118045', '122888', '227658']
 includes:
 - Beds recorded without a formation in PBDB (300 yards west of Cowleaze Chine) belong to the Cowleaze Chine, a member
   of the Vectis Formation.
