@@ -1,0 +1,82 @@
+name: Gongbusaurus
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: A basal neornithischian; no clade below Ornithischia is defined in this volume yet, and analyses
+  (e.g. Fonseca et al. 2024) disagree on how basal neornithischians are related.
+authority: Dong et al. 1983
+type_species: Gongbusaurus shiyii
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A small ornithischian, perhaps an ornithopod, of the Late Jurassic of China; it is very poorly known.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 168.2
+  last_ma: 154.8
+  early_interval: Bathonian
+  late_interval: Oxfordian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Gongbusaurus shiyii
+  authority: Dong et al. 1983
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+- name: Gongbusaurus wucaiwanensis
+  authority: (Dong 1989)
+  first_ma: 165.3
+  last_ma: 154.8
+  interval: Callovian–Oxfordian
+  reference: ''
+formations:
+- formation: Shishugou
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Callovian–Oxfordian
+  occurrences: 4
+  ma: [154.8, 165.3]
+  id: shishugou-china
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: shaximiao-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Dong and colleagues in 1983.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+sources:
+- kind: original
+  text: Z. Dong, S. Zhou, and H. Zhang. 1983. [Dinosaurs from the Jurassic of Sichuan]. Palaeontologica Sinica,
+    New Series C, Whole Number 162(23):1-136
+- kind: literature
+  text: 'Dong Zhiming 1989. On a small ornithopod (''''Gongbusaurus wucaiwanensis'''' sp. nov.) from Kelamaili,
+    Junggar Basin, Xinjiang, China. Vertebrata PalAsiatica 27(2): 140–146.'
+- kind: literature
+  text: 'Dong Zhiming 1983. Dinosaurs from the Jurassic of Sichuan. Palaeontologia Sinica, New Series C 162(23):
+    1–145.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gongbusaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gongbusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gongbusaurus”. English Wikipedia, revision 1352875343.
+  url: https://en.wikipedia.org/w/index.php?title=Gongbusaurus&oldid=1352875343
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

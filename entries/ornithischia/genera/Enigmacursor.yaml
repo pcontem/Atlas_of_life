@@ -1,0 +1,97 @@
+name: Enigmacursor
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: A basal neornithischian; no clade below Ornithischia is defined in this volume yet, and analyses
+  (e.g. Fonseca et al. 2024) disagree on how basal neornithischians are related.
+authority: Maidment and Barrett 2025
+type_species: Enigmacursor mollyborthwickae
+type_species_note: ''
+summary: A neornithischian from the Late Jurassic Morrison Formation of Colorado, whose name means "puzzle runner".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Enigmacursor mollyborthwickae
+  authority: Maidment and Barrett 2025
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Maidment and Barrett in 2025.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Enigmacursor NHMUK lateral.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Enigmacursor_NHMUK_lateral.jpg/960px-Enigmacursor_NHMUK_lateral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Enigmacursor_NHMUK_lateral.jpg
+  artist: A Cynical Idealist
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-11-02'
+  caption: Skeleton of Enigmacursor mollyborthwickae
+  width: 5697
+  height: 3159
+  review: unreviewed
+- kind: life
+  file: Enigmacursor mollyborthwickae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Enigmacursor_mollyborthwickae.png/960px-Enigmacursor_mollyborthwickae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Enigmacursor_mollyborthwickae.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-06-27'
+  caption: Life restoration of Enigmacursor mollyborthwickae
+  width: 4000
+  height: 1483
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0/vector.svg
+  png: https://images.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0/raster/512x121.png
+  page: https://www.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0
+  attribution: Dann Pigdon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leaellynasaura amicagraphica
+  matched: Neornithischia
+  genus_level: false
+sources:
+- kind: original
+  text: Maidment, S. C. R.; Barrett, P. M. 2025. ''Enigmacursor mollyborthwickae'', a neornithischian dinosaur from
+    the Upper Jurassic Morrison Formation of the western USA. Royal Society Open Science 12(6). doi:10.1098/rsos.242195
+- kind: literature
+  text: 'Barrett, P. M.; Maidment, S. C. R. 2025. A Review of ''''Nanosaurus agilis'''' Marsh and Other Small-Bodied
+    Morrison Formation "Ornithopods". Bulletin of the Peabody Museum of Natural History 66(1): 25–50. doi:10.3374/014.066.0102'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Enigmacursor (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Enigmacursor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Enigmacursor”. English Wikipedia, revision 1383480785.
+  url: https://en.wikipedia.org/w/index.php?title=Enigmacursor&oldid=1383480785
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
