@@ -1,0 +1,112 @@
+name: Echinodon
+rank: genus
+parent: heterodontosauria
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1861
+type_species: Echinodon becklesii
+type_species_note: ''
+summary: A tiny heterodontosaurid known only from jaws and teeth from the earliest Cretaceous Purbeck Group of Dorset,
+  England.
+size:
+  length_m: null
+  note: No total length in the sources used; the skull is estimated at about 62 mm from the proportions of Heterodontosaurus,
+    which would make it the smallest presumably adult heterodontosaurid.
+age:
+  first_ma: 152.21
+  last_ma: 137.05
+  early_interval: Kimmeridgian
+  late_interval: Berriasian
+  pbdb_occurrences: 6
+  note: The Purbeck Group has been dated either to the latest Jurassic or the earliest Cretaceous; PBDB gives Kimmeridgian
+    to Berriasian.
+species:
+- name: Echinodon becklesii
+  authority: (Owen 1861)
+  first_ma: 143.1
+  last_ma: 139.1
+  interval: Berriasian
+  reference: original description
+formations:
+- formation: Lulworth
+  group: Purbeck
+  members: [Worbarrow Tout]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Berriasian–Middle Berriasian
+  occurrences: 4
+  ma: [139.1, 143.1]
+  id: lulworth-united-kingdom
+- formation: Morrison
+  group: ''
+  members: [Salt Wash]
+  country: United States
+  regions: [Colorado]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: morrison-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Poitou-Charentes]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+  id: unnamed-angeac-charente-france
+fossil_material:
+  holotype: Syntype series NHMUK 48209 to 48215, jaw bones with teeth from Durdlestone Bay, Isle of Purbeck, collected
+    by Samuel Beckles and bought by the British Museum in 1876; the sources consulted also mention a lectotype.
+  material: Premaxilla, maxilla, lacrimal, jugal, palatine, ectopterygoid and dentary pieces with most upper and
+    lower teeth, plus a referred dentary (NHMUK 48229) and isolated teeth from the Purbeck beds.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from skull bones, with an enlarged lower caniniform and a small peg-like first dentary tooth;
+  the sources consulted do not describe its habits.
+images:
+- kind: fossil
+  file: Echinodon becklesii dentary.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/42/Echinodon_becklesii_dentary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Echinodon_becklesii_dentary.jpg
+  artist: Paul Sereno
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012-10-03'
+  caption: Jaw of Echinodon becklesii, photograph and line drawing
+  width: 1512
+  height: 1216
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/vector.svg
+  png: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/raster/512x157.png
+  page: https://www.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tianyulong confuciusi
+  matched: Heterodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Owen, R. 1861. Monograph on the Fossil Reptilia of the Wealden and Purbeck Formations. Part V. Order Lacertilia.
+    Palaeontographical Society.
+- kind: literature
+  text: 'Thulborn, R.A. 1971. Origins and Evolution of Ornithischian Dinosaurs. Nature 234(5324): 75–78. doi:10.1038/234075a0'
+- kind: literature
+  text: 'Galton, P.M. 1978. Fabrosauridae, the basal family of ornithischian dinosaurs (Reptilia: Ornithopoda).
+    Paläontologische Zeitschrift 52(1–2): 138–159. doi:10.1007/BF03006735'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Echinodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Echinodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Echinodon”. English Wikipedia, revision 1348527877.
+  url: https://en.wikipedia.org/w/index.php?title=Echinodon&oldid=1348527877
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia says all specimens come from the Purbeck Group of Dorset and possibly France; PBDB also lists a Morrison
+    Formation occurrence. Check that occurrence.
+  reviews: []

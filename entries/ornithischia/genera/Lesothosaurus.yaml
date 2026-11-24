@@ -1,0 +1,112 @@
+name: Lesothosaurus
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: Recent analyses recover Lesothosaurus either as the basalmost neornithischian or as an early thyreophoran;
+  it is therefore placed directly in Ornithischia (English Wikipedia revision cited, summarising the cladistic studies
+  of basal Ornithischia).
+authority: Galton 1978
+type_species: Lesothosaurus diagnosticus
+type_species_note: ''
+summary: A lightly built, bipedal Early Jurassic ornithischian from Lesotho and South Africa, among the best known
+  early members of the group.
+size:
+  length_m: [1, 2]
+  note: Between 1 and 2 m long, according to the English Wikipedia revision cited.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Lesothosaurus diagnosticus
+  authority: Galton 1978
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: Lesotho
+  regions: [Mafeteng, Quthing]
+  interval: Hettangian–Sinemurian
+  occurrences: 6
+  ma: [192.9, 201.4]
+  id: elliot-lesotho
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Eastern Cape, Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 3
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+fossil_material:
+  holotype: Syntypes NHMUK PV RU B17 (partial skeleton with skull) and NHMUK PV RU B23 (partial skull), collected
+    in Lesotho in 1963-1964.
+  material: Scores of specimens from the Upper Elliot Formation, including well-preserved skulls collected in 1967-68,
+    and a bonebed described in 2016 with three large individuals.
+  completeness: multiple
+  exceptional: ''
+biology: Lightly built and bipedal, with simpler teeth and jaws than later ornithischians. Low tooth wear suggests
+  an opportunistic omnivore that ate mainly small animals when soft plants were scarce; the bonebed may show life
+  in groups.
+images:
+- kind: life
+  file: Lesothosaurus diagnosticus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Lesothosaurus_diagnosticus.png/960px-Lesothosaurus_diagnosticus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lesothosaurus_diagnosticus.png
+  artist: Jack Wood
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-05-10'
+  caption: Life restoration of Lesothosaurus diagnosticus
+  width: 2377
+  height: 785
+  review: unreviewed
+- kind: fossil
+  file: Lesothosaurus sp skull 3894.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lesothosaurus_sp_skull_3894.jpg/960px-Lesothosaurus_sp_skull_3894.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lesothosaurus_sp_skull_3894.jpg
+  artist: Ghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-20'
+  caption: Skull of Lesothosaurus on display
+  width: 2670
+  height: 2000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c7f10ac9-bff4-4e88-b8f3-ccfb9f351240/vector.svg
+  png: https://images.phylopic.org/images/c7f10ac9-bff4-4e88-b8f3-ccfb9f351240/raster/512x147.png
+  page: https://www.phylopic.org/images/c7f10ac9-bff4-4e88-b8f3-ccfb9f351240
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Lesothosaurus diagnosticus
+  matched: Lesothosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'P. M. Galton. 1978. Fabrosauridae, the basal family of ornithischian dinosaurs (Reptilia: Ornithischia).
+    Paläontologische Zeitschrift 52(1/2):138-159'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lesothosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lesothosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lesothosaurus”. English Wikipedia, revision 1369993104.
+  url: https://en.wikipedia.org/w/index.php?title=Lesothosaurus&oldid=1369993104
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Fabrosaurus australis Ginsburg 1964, based on a dentary probably from Lesothosaurus, is a nomen dubium (English
+    Wikipedia revision cited); it is in excluded.yaml.
+  - Stormbergia is a junior subjective synonym (Baron, Norman and Barrett 2017); it is in excluded.yaml.
+  reviews: []

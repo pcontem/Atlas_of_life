@@ -1,0 +1,98 @@
+name: Pegomastax
+rank: genus
+parent: heterodontosauria
+incertae_sedis: false
+placement_note: ''
+authority: Sereno 2012
+type_species: Pegomastax africanus
+type_species_note: PBDB spelling; the species epithet was corrected to africana to agree with the gender of the
+  genus name (English Wikipedia revision).
+summary: A small Early Jurassic heterodontosaurid from South Africa known from one partial skull, with a straight
+  canine-like tooth and a keratinous bill.
+size:
+  length_m: null
+  note: Only the skull length, about 73 mm, is given in the sources used; no body length.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pegomastax africanus
+  authority: Sereno 2012
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Eastern Cape]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+fossil_material:
+  holotype: SAM-PK-K10488, a partial disarticulated skull in a small sandstone block from the Voyizane locality,
+    upper Elliot Formation, Transkei, South Africa.
+  material: The holotype only; a Patagonian postcranial specimen (MPEF-PV 3826) was scored with it in one analysis
+    but is treated as Manidens.
+  completeness: fragmentary
+  exceptional: ''
+biology: A keratinous bill at the front of the jaws, and tooth wear that suggests a herbivorous diet, possibly of
+  tougher plants than relatives without the canine.
+images:
+- kind: life
+  file: Pegomastax africana reconstruction transparent.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/68/Pegomastax_africana_reconstruction_transparent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pegomastax_africana_reconstruction_transparent.png
+  artist: Todd Marshall
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-05-26'
+  caption: Life restoration of the head of Pegomastax africanus
+  width: 447
+  height: 558
+  review: unreviewed
+- kind: fossil
+  file: Pegomastax africana holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/17/Pegomastax_africana_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pegomastax_africana_holotype.jpg
+  artist: Paul Sereno
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012-10-03'
+  caption: Holotype skull of Pegomastax africanus, photograph and line drawing
+  width: 1512
+  height: 1971
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/vector.svg
+  png: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/raster/512x157.png
+  page: https://www.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tianyulong confuciusi
+  matched: Heterodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sereno, P.C. 2012. Taxonomy, morphology, masticatory function and phylogeny of heterodontosaurid dinosaurs.
+    ZooKeys(226): 1–225. doi:10.3897/zookeys.226.2840'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pegomastax (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pegomastax
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pegomastax”. English Wikipedia, revision 1354793839.
+  url: https://en.wikipedia.org/w/index.php?title=Pegomastax&oldid=1354793839
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: ['Check the holotype and size against Sereno 2012 (Zookeys 226:1-225).']
+  reviews: []

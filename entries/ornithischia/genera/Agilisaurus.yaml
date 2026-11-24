@@ -1,0 +1,122 @@
+name: Agilisaurus
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: Basal neornithischian in most analyses, but some recover related taxa as basal ornithopods or elsewhere
+  (English Wikipedia revision of Lesothosaurus); placed directly in Ornithischia.
+authority: Peng 1990
+type_species: Agilisaurus louderbacki
+type_species_note: ''
+summary: A small, agile Middle Jurassic ornithischian from Sichuan, China, about 1.2 to 1.7 m long with leaf-shaped
+  teeth.
+size:
+  length_m: [1.2, 1.7]
+  mass_kg: [40, 40]
+  note: 1.2 to 1.7 m long, 60 cm high at the hip and about 40 kg, according to the English Wikipedia revision cited.
+age:
+  first_ma: 170.9
+  last_ma: 154.8
+  early_interval: Bajocian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Agilisaurus louderbacki
+  authority: Peng 1990
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+fossil_material:
+  holotype: The only specimen, found in 1984 during construction of the Zigong Dinosaur Museum; the specimen number
+    was not read in the sources consulted.
+  material: A single specimen from the Lower Shaximiao Formation, Sichuan.
+  completeness: near-complete
+  exceptional: ''
+biology: A fast bipedal runner with a long tail for balance and leaf-shaped teeth suited to plant food; it may have
+  walked on all fours while browsing.
+images:
+- kind: life
+  file: Agilisaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Agilisaurus.png/960px-Agilisaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Agilisaurus.png
+  artist: D2Hills
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-01-31'
+  caption: Life restoration of Agilisaurus louderbacki
+  width: 12346
+  height: 3777
+  review: unreviewed
+- kind: skeletal
+  file: Agilisaurus louderbacki.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/09/Agilisaurus_louderbacki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Agilisaurus_louderbacki.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-01-09'
+  caption: Skeletal reconstruction of Agilisaurus louderbacki
+  width: 800
+  height: 239
+  review: unreviewed
+- kind: fossil
+  file: Agilisaurus fossil Bishop01.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Agilisaurus_fossil_Bishop01.png/960px-Agilisaurus_fossil_Bishop01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Agilisaurus_fossil_Bishop01.png
+  artist: Phlox
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Own work
+  caption: Skeleton of Agilisaurus louderbacki
+  width: 4498
+  height: 2392
+  review: unreviewed
+- kind: fossil
+  file: Zigong Dinosaur Museum Agilisaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Zigong_Dinosaur_Museum_Agilisaurus.jpg/960px-Zigong_Dinosaur_Museum_Agilisaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zigong_Dinosaur_Museum_Agilisaurus.jpg
+  artist: Zhangzhugang
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014-04-24'
+  caption: Agilisaurus louderbacki at the Zigong Dinosaur Museum
+  width: 3900
+  height: 2600
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0/vector.svg
+  png: https://images.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0/raster/512x121.png
+  page: https://www.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0
+  attribution: Dann Pigdon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leaellynasaura amicagraphica
+  matched: Neornithischia
+  genus_level: false
+sources:
+- kind: original
+  text: 'G. Peng. 1992. Jurassic ornithopod Agilisaurus louderbacki (Ornithopoda: Fabrosauridae) from Zigong, Sichuan,
+    China. Vertebrata PalAsiatica 30(1):39-53'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Agilisaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Agilisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Agilisaurus”. English Wikipedia, revision 1341987074.
+  url: https://en.wikipedia.org/w/index.php?title=Agilisaurus&oldid=1341987074
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number to be read from Peng 1992.]
+  reviews: []

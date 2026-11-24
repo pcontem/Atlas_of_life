@@ -1,0 +1,110 @@
+name: Hexinlusaurus
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: Basal ornithischian related to Agilisaurus; neornithischian or ornithopod placements vary between
+  analyses (English Wikipedia revisions cited); placed directly in Ornithischia.
+authority: Barrett et al. 2005
+type_species: Hexinlusaurus multidens
+type_species_note: ''
+summary: A small, anatomically conservative Middle Jurassic ornithischian from the Lower Shaximiao Formation of
+  Sichuan, China.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 170.9
+  last_ma: 154.8
+  early_interval: Bajocian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hexinlusaurus multidens
+  authority: (He and Cai 1983)
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+fossil_material:
+  holotype: ZDM T6001, an almost complete articulated skull with some postcranial material, from the Lower Shaximiao
+    Formation at Dashanpu, Zigong.
+  material: A paratype, ZDM T6002, with a partial skull and postcranial remains.
+  completeness: partial
+  exceptional: ''
+biology: A small basal ornithischian; its habits are not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Hexinlusaurus multidens.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/54/Hexinlusaurus_multidens.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hexinlusaurus_multidens.png
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012'
+  caption: Skeletal reconstruction of Hexinlusaurus multidens
+  width: 1500
+  height: 408
+  review: unreviewed
+- kind: life
+  file: Hexinlusaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hexinlusaurus.jpg/960px-Hexinlusaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hexinlusaurus.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-25'
+  caption: Life restoration of Hexinlusaurus multidens
+  width: 2887
+  height: 951
+  review: unreviewed
+- kind: fossil
+  file: Zigong Dinosaur Museum Hexinlusaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Zigong_Dinosaur_Museum_Hexinlusaurus.jpg/960px-Zigong_Dinosaur_Museum_Hexinlusaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zigong_Dinosaur_Museum_Hexinlusaurus.jpg
+  artist: Zhangzhugang
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014-04-24'
+  caption: Hexinlusaurus multidens on display
+  width: 5242
+  height: 3495
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9c8f49db-36db-424c-80e6-9bcbbce25876/vector.svg
+  png: https://images.phylopic.org/images/9c8f49db-36db-424c-80e6-9bcbbce25876/raster/512x131.png
+  page: https://www.phylopic.org/images/9c8f49db-36db-424c-80e6-9bcbbce25876
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hexinlusaurus multidens
+  matched: Hexinlusaurus
+  genus_level: true
+sources:
+- kind: original
+  text: P. M. Barrett, R. J. Butler, and F. Knoll. 2005. Small-bodied ornithischian dinosaurs from the Middle Jurassic
+    of Sichuan, China. Journal of Vertebrate Paleontology 25(4):823-834
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hexinlusaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hexinlusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hexinlusaurus”. English Wikipedia, revision 1311586048.
+  url: https://en.wikipedia.org/w/index.php?title=Hexinlusaurus&oldid=1311586048
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Previously described as Yandusaurus multidens (He and Cai 1983); the genus was named by Barrett, Butler and
+    Knoll 2005.
+  reviews: []

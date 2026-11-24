@@ -1,0 +1,108 @@
+name: Manidens
+rank: genus
+parent: heterodontosauria
+incertae_sedis: false
+placement_note: ''
+authority: Pol et al. 2011
+type_species: Manidens condorensis
+type_species_note: ''
+summary: A small Early to Middle Jurassic heterodontosaurid from Patagonia, about 60 cm long, with high-crowned
+  herbivorous teeth.
+size:
+  length_m: [0.6, 0.6]
+  mass_kg: [0.5, 0.5]
+  note: About 60 cm and 500 g, according to the English Wikipedia revision cited.
+age:
+  first_ma: 184.2
+  last_ma: 170.9
+  early_interval: Toarcian
+  late_interval: Aalenian
+  pbdb_occurrences: 2
+  note: First dated to the Aalenian–Bathonian, then constrained to about 179–178 Ma (Toarcian) in the cited text;
+    PBDB gives Toarcian to Aalenian.
+species:
+- name: Manidens condorensis
+  authority: Pol et al. 2011
+  first_ma: 184.2
+  last_ma: 170.9
+  interval: Toarcian–Aalenian
+  reference: original description
+formations:
+- formation: Cañadón Asfalto
+  group: Sierra de Olte
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Toarcian–Aalenian
+  occurrences: 2
+  ma: [170.9, 184.2]
+  id: canadon-asfalto-argentina
+fossil_material:
+  holotype: MPEF-PV 3211, a partial skeleton from the Queso Rallado locality, Cañadón Asfalto Formation, Chubut,
+    Argentina, with skull, lower jaw, most of the axial column except the tail, left shoulder girdle and pelvis.
+  material: Isolated teeth and partial articulated specimens from the same locality, such as MPEF-PV 3809 and MPEF-PV
+    1719.
+  completeness: partial
+  exceptional: ''
+biology: High-crowned teeth suggest adaptation to a herbivorous diet, but without the wear facets of more advanced
+  forms like Heterodontosaurus. Filaments are known in the related Tianyulong, so they may also have been present,
+  but none are preserved.
+images:
+- kind: fossil
+  file: Manidens skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/20/Manidens_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Manidens_skull.jpg
+  artist: Paul C. Sereno
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012-10-03'
+  caption: Skull of Manidens condorensis, scientific figure
+  width: 756
+  height: 589
+  review: unreviewed
+- kind: life
+  file: Manidens.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Manidens.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Manidens.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-07-29'
+  caption: Life restoration of Manidens condorensis
+  width: 1378
+  height: 1096
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/vector.svg
+  png: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/raster/512x157.png
+  page: https://www.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tianyulong confuciusi
+  matched: Heterodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Pol, D. 2011. A Middle Jurassic heterodontosaurid dinosaur from Patagonia and the evolution of heterodontosaurids.
+    Naturwissenschaften 98(5): 369–379. doi:10.1007/s00114-011-0780-5'
+- kind: literature
+  text: 'Sereno, Paul C. 3 Oc. Taxonomy, morphology, masticatory function and phylogeny of heterodontosaurid dinosaurs.
+    ZooKeys(223): 1–225. doi:10.3897/zookeys.223.2840'
+- kind: literature
+  text: 'Becerra, Marcos G.; Pol, Diego; Porro, Laura B.; Paulina-Carabajal, Ariana; Rauhut, Oliver W. M. 2022.
+    Craniomandibular osteology of <i>Manidens condorensis</i> (Ornithischia: Heterodontosauridae) from the upper
+    Lower Jurassic of Argentina. Journal of Vertebrate Paleontology 42(3). doi:10.1080/02724634.2023.2181087'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Manidens (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Manidens
+- kind: encyclopedia
+  text: Wikipedia contributors. “Manidens”. English Wikipedia, revision 1385826511.
+  url: https://en.wikipedia.org/w/index.php?title=Manidens&oldid=1385826511
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the 2022 craniomandibular and later redescriptions for revised holotype data.
+  reviews: []
