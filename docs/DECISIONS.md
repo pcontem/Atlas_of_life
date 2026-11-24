@@ -375,3 +375,9 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 
 ## 2026-11-23 — Literature over backbone
 - Owner: whenever the tree backbone (which follows PBDB) and the recent literature diverge, choose the literature. This replaces the earlier rule of changing the tree only when PBDB agreed with recent studies (CLAUDE.md §4.8, Placement). Every change is recorded in `docs/TREE_REVIEW.md` with its source; disagreement among recent analyses still goes through M2.
+
+## 2026-11-24 — Ornithischia part B: structure and set-up
+- Part B (Ornithopoda with Hadrosauridae, Heterodontosauria, basal ornithischians) is three directories prepared and delivered together, like part A: `entries/ornithopoda` (root Ornithopoda, attaches to Neornithischia), `entries/heterodontosauria` (root Heterodontosauria, attaches to Ornithischia) and `entries/ornithischia` (root Ornithischia, attaches to Dinosauria; it holds the basal ornithischians that sit directly in the root clade).
+- `scripts/build.py` and `scripts/validate.py` now accept an `attach_to` that is the root clade of another volume, so Thyreophora, Marginocephalia and Heterodontosauria hang from the Ornithischia volume clade; the backbone node `ornithischia` was dropped for it.
+- Early forms whose group is disputed (Lesothosaurus, Laquintasaura, Pisanosaurus, Agilisaurus, Hexinlusaurus) are `incertae_sedis` directly in Ornithischia (M2). Silesauridae stay out of scope, so Technosaurus (a silesaurid in the English Wikipedia revision cited) has no entry.
+- Lanasaurus and Stormbergia (junior synonyms of Lycorhinus and Lesothosaurus) and Fabrosaurus (nomen dubium) are in the excluded names of their volumes, following the English Wikipedia revisions cited.
