@@ -131,11 +131,18 @@ def main():
         raw = ROOT / "data/raw" / vol.name
         if not (raw / "pbdb_colls.json").exists():
             continue
-        cols = json.loads((raw / "pbdb_colls.json").read_text())["cols"]
-        occ = collections.defaultdict(list)
-        for r in json.loads((raw / "pbdb_occs.json").read_text()):
-            p = r.split("|")
-            occ[p[0]].append(dict(form=p[3], cc=p[6], state=p[7], col=p[12].split(":")[1]))
+        # a genus may have been harvested with another volume (e.g. thescelosaurids written with the Ornithischia harvest
+        # but placed in Ornithopoda): read the occurrences and collections of every volume; this volume's occurrences win
+        cols, occ = {}, collections.defaultdict(list)
+        for rd in sorted((ROOT / "data/raw").glob("*/pbdb_colls.json"), key=lambda q: q.parent.name != vol.name):
+            for k, v in json.loads(rd.read_text())["cols"].items():
+                cols.setdefault(k, v)
+            seen = collections.defaultdict(list)
+            for r in json.loads((rd.parent / "pbdb_occs.json").read_text()):
+                p = r.split("|")
+                seen[p[0]].append(dict(form=p[3], cc=p[6], state=p[7], col=p[12].split(":")[1]))
+            for g, lst in seen.items():
+                occ.setdefault(g, lst) if g not in occ else None
         for gp in sorted((vol / "genera").glob("*.yaml")):
             e = yaml.safe_load(gp.read_text())
             changed = False

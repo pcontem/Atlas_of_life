@@ -1,0 +1,113 @@
+name: Doolysaurus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Jung et al. 2026
+type_species: Doolysaurus huhmini
+type_species_note: ''
+summary: A thescelosaurid ornithischian of the Ilseongsan Formation of South Korea, of Albian to early Cenomanian
+  age.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 113.2
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Doolysaurus huhmini
+  authority: Jung et al. 2026
+  first_ma: 113.2
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Ilseongsan
+  group: ''
+  members: []
+  country: South Korea
+  regions: [Jeollanam-Do]
+  interval: Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 113.2]
+  id: ilseongsan-south-korea
+fossil_material:
+  holotype: Not read in the sources consulted; named by Jung and colleagues in 2026.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Doolysaurus huhmini (holotype, KDRC-SA-V001).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Doolysaurus_huhmini_%28holotype%2C_KDRC-SA-V001%29.jpg/960px-Doolysaurus_huhmini_%28holotype%2C_KDRC-SA-V001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Doolysaurus_huhmini_(holotype,_KDRC-SA-V001).jpg
+  artist: J. Jung, K. Kim, H. Jo & J. A. Clarke
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-19'
+  caption: Holotype of Doolysaurus huhmini
+  width: 1961
+  height: 1734
+  review: unreviewed
+- kind: skeletal
+  file: Doolysaurus huhmini (skeletal reconstruction).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Doolysaurus_huhmini_%28skeletal_reconstruction%29.jpg/960px-Doolysaurus_huhmini_%28skeletal_reconstruction%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Doolysaurus_huhmini_(skeletal_reconstruction).jpg
+  artist: J. Jung, K. Kim, H. Jo & J. A. Clarke
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-19'
+  caption: Skeletal reconstruction of Doolysaurus huhmini
+  width: 1961
+  height: 1079
+  review: unreviewed
+- kind: life
+  file: Doolysaurus huhmini.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Doolysaurus_huhmini.png/960px-Doolysaurus_huhmini.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Doolysaurus_huhmini.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-19'
+  caption: Life restoration of Doolysaurus huhmini
+  width: 4000
+  height: 1351
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/vector.svg
+  png: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/raster/512x277.png
+  page: https://www.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Oryctodromeus cubicularis
+  matched: Thescelosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Jung, M. Kim, and H. Jo, J. A. Clarke. 2026. A new dinosaur species from Korea and its implications for
+    early-diverging neornithischian diversity. Fossil Record 29(1):87-113
+- kind: literature
+  text: Fonseca, A. O.; Reid, I. J.; Venner, A.; Duncan, R. J.; Garcia, M. S.; Müller, R. T. 2024. A comprehensive
+    phylogenetic analysis on early ornithischian evolution. Journal of Systematic Palaeontology 22(1). doi:10.1080/14772019.2024.2346577
+- kind: literature
+  text: 'Avrahami, Haviv M.; Makovicky, Peter J.; Tucker, Ryan T.; Zanno, Lindsay E. 2024. A new semi-fossorial
+    thescelosaurine dinosaur from the Cenomanian-age Mussentuchit Member of the Cedar Mountain Formation, Utah.
+    The Anatomical Record 307(12): 3717–3781. doi:10.1002/ar.25505'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Doolysaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Doolysaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Doolysaurus”. English Wikipedia, revision 1382312744.
+  url: https://en.wikipedia.org/w/index.php?title=Doolysaurus&oldid=1382312744
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

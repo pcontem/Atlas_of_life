@@ -1,0 +1,112 @@
+name: Jeholosaurus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2000
+type_species: Jeholosaurus shangyuanensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A small neornithischian of the Early Cretaceous Yixian Formation of China.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Jeholosaurus shangyuanensis
+  authority: Xu et al. 2000
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Xu and colleagues in 2000.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Jeholosaurus skeleton.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/63/Jeholosaurus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Jeholosaurus_skeleton.jpg
+  artist: Carpenter, Kenneth
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2016/09/04
+  caption: Skeleton of Jeholosaurus shangyuanensis
+  width: 1416
+  height: 1249
+  review: unreviewed
+- kind: fossil
+  file: Jeholosaurus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Jeholosaurus_skull.jpg/960px-Jeholosaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jeholosaurus_skull.jpg
+  artist: Carpenter, Kenneth
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2016/09/04
+  caption: Skull of Jeholosaurus shangyuanensis
+  width: 1974
+  height: 1355
+  review: unreviewed
+- kind: life
+  file: Jeholosaurus shangyuanensis reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Jeholosaurus_shangyuanensis_reconstruction.png/960px-Jeholosaurus_shangyuanensis_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jeholosaurus_shangyuanensis_reconstruction.png
+  artist: Jeez Luiz art
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2025-06-25'
+  caption: Life restoration of Jeholosaurus shangyuanensis
+  width: 4752
+  height: 3168
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4a834441-0c79-4fd4-ba71-c743b4ff3ebd/vector.svg
+  png: https://images.phylopic.org/images/4a834441-0c79-4fd4-ba71-c743b4ff3ebd/raster/512x169.png
+  page: https://www.phylopic.org/images/4a834441-0c79-4fd4-ba71-c743b4ff3ebd
+  attribution: Ville-Veikko Sinkkonen
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Jeholosaurus shangyuanensis
+  matched: Jeholosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: X. Xu, X.-L. Wang, and H.-L. You. 2000. A primitive ornithopod from the Early Cretaceous Yixian Formation
+    of Liaoning. Vertebrata PalAsiatica 38(4):318-325
+- kind: literature
+  text: 'BARRETT, PAUL M.; HAN, FENG-LU 2009. Cranial anatomy of Jeholosaurus shangyuanensis (Dinosauria: Ornithischia)
+    from the Early Cretaceous of China. Zootaxa 2072(1). doi:10.11646/zootaxa.2072.1.2'
+- kind: literature
+  text: 'Han, Feng-Lu; Barrett, Paul M.; Butler, Richard J.; Xu, Xing Nove. Postcranial anatomy of ''''Jeholosaurus
+    shangyuanensis'''' (Dinosauria, Ornithischia) from the Lower Cretaceous Yixian Formation of China. Journal of
+    Vertebrate Paleontology 32(6): 1370–1395. doi:10.1080/02724634.2012.694385'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jeholosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jeholosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jeholosaurus”. English Wikipedia, revision 1354886228.
+  url: https://en.wikipedia.org/w/index.php?title=Jeholosaurus&oldid=1354886228
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,84 @@
+name: Nevadadromeus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bonde et al. 2022
+type_species: Nevadadromeus schmitti
+type_species_note: ''
+summary: A small thescelosaurine ornithischian from the Willow Tank Formation of Nevada, whose name means "Nevada
+  runner".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nevadadromeus schmitti
+  authority: Bonde et al. 2022
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Willow Tank
+  group: ''
+  members: [upper]
+  country: United States
+  regions: [Nevada]
+  interval: Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: willow-tank-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Bonde and colleagues in 2022.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Nevadadromeus reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Nevadadromeus_reconstruction.jpg/960px-Nevadadromeus_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nevadadromeus_reconstruction.jpg
+  artist: Raingerr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-03'
+  caption: Life restoration of Nevadadromeus schmitti
+  width: 2160
+  height: 880
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/vector.svg
+  png: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/raster/512x277.png
+  page: https://www.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Oryctodromeus cubicularis
+  matched: Thescelosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Bonde, Joshua W.; Hall, Rebecca L.; Krumenacker, L. J.; Varricchio, David J. 2022. ''''Nevadadromeus schmitti''''
+    (gen. et sp. nov.), a New Basal Neornithischian with Affinities to the Thescelosaurinae, from the Upper Cretaceous
+    (Cenomanian) Willow Tank Formation of Southern Nevada. Journal of the Arizona-Nevada Academy of Science 50(1):
+    1–8. doi:10.2181/036.050.0101'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nevadadromeus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nevadadromeus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nevadadromeus”. English Wikipedia, revision 1292455331.
+  url: https://en.wikipedia.org/w/index.php?title=Nevadadromeus&oldid=1292455331
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,130 @@
+name: Orodromeus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Horner and Weishampel 1988
+type_species: Orodromeus makelai
+type_species_note: ''
+summary: A herbivorous orodromine thescelosaurid of the Late Cretaceous of North America, whose name means "mountain
+  runner".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Orodromeus makelai
+  authority: Horner and Weishampel 1988
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte, Hagans Crossing]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 7
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+- formation: Hell Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Judith River
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Horner and Weishampel in 1988.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Orodromeus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Orodromeus_skeleton.jpg/960px-Orodromeus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Orodromeus_skeleton.jpg
+  artist: Carpenter, Kenneth
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '1988'
+  caption: Skeleton of Orodromeus makelai
+  width: 4990
+  height: 3336
+  review: unreviewed
+- kind: fossil
+  file: Orodromeus fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Orodromeus_fossil.jpg/960px-Orodromeus_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Orodromeus_fossil.jpg
+  artist: Carpenter, Kenneth
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '1988'
+  caption: Fossil of Orodromeus makelai
+  width: 5201
+  height: 2351
+  review: unreviewed
+- kind: life
+  file: Orodromeus (pencil 2013).png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Orodromeus_%28pencil_2013%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Orodromeus_(pencil_2013).png
+  artist: Tomopteryx
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-09-29'
+  caption: Life restoration of Orodromeus
+  width: 1482
+  height: 577
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a2d67964-3dac-49ae-b9ca-a1185d4883ee/vector.svg
+  png: https://images.phylopic.org/images/a2d67964-3dac-49ae-b9ca-a1185d4883ee/raster/512x159.png
+  page: https://www.phylopic.org/images/a2d67964-3dac-49ae-b9ca-a1185d4883ee
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Orodromeus makelai
+  matched: Orodromeus
+  genus_level: true
+sources:
+- kind: original
+  text: J. R. Horner and D. B. Weishampel. 1988. A comparative embryological study of two ornithischian dinosaurs.
+    Nature 332:256-257
+- kind: literature
+  text: 'Varricchio, D.J.; Jackson, F.; Borkowski, J.J.; Horner, J.R. 1997. Nest and egg clutches of the dinosaur
+    ''''Troodon formosus'''' and the evolution of avian reproductive traits. Nature 385(6613): 247–250. doi:10.1038/385247a0'
+- kind: literature
+  text: 'Brown 2013. New data on the diversity and abundance of small-bodied ornithopods (Dinosauria, Ornithischia)
+    from the Belly River Group (Campanian) of Alberta. Journal of Vertebrate Paleontology 33(3): 495–520. doi:10.1080/02724634.2013.746229'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Orodromeus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Orodromeus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Orodromeus”. English Wikipedia, revision 1365127483.
+  url: https://en.wikipedia.org/w/index.php?title=Orodromeus&oldid=1365127483
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
