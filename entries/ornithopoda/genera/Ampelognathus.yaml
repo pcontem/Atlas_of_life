@@ -54,6 +54,7 @@ images:
   width: 2800
   height: 1000
   review: unreviewed
+  local: img/gallery/Ampelognathus_001.webp
 - kind: fossil
   file: Ampelognathus holotype.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Ampelognathus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -66,6 +67,7 @@ images:
   width: 1500
   height: 1650
   review: unreviewed
+  local: img/gallery/Ampelognathus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/vector.svg
   png: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/raster/512x118.png
@@ -75,6 +77,8 @@ silhouette:
   depicts: Tenontosaurus tilletti
   matched: Rhabdodontomorpha
   genus_level: false
+  w: 512
+  h: 118
 sources:
 - kind: original
   text: R. S. Tykoski, D. L. Contreras, and C. Noto. 2023. The first small-bodied ornithopod dinosaur fromthe Lewisville
