@@ -1,0 +1,86 @@
+name: Sinocephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Evans et al. 2021
+type_species: Sinocephale bexelli
+type_species_note: Species originally named Troodon bexelli by Bohlin in 1953 and moved to Sinocephale in 2021 (PBDB;
+  cited Wikipedia revision).
+summary: Sinocephale is a domed pachycephalosaurid from the Upper Cretaceous of Inner Mongolia, China, known from
+  a lost holotype and casts.
+size:
+  length_m: null
+  note: Only the dome is known; no size given.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sinocephale bexelli
+  authority: (Bohlin 1953)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Ulansuhai
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: ulansuhai-china
+fossil_material:
+  holotype: Lost holotype (never given a specimen number); two plaster casts serve as plastotypes — Ulansuhai Formation,
+    Inner Mongolia.
+  material: Plaster casts of a dome with maximum thickness about 7.5 cm.
+  completeness: fragmentary
+  exceptional: ''
+biology: Domed skull; no behavioural data.
+images:
+- kind: life
+  file: Sinocephale bexelli.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Sinocephale_bexelli.png/960px-Sinocephale_bexelli.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinocephale_bexelli.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-04-17'
+  caption: Life restoration of Sinocephale bexelli.
+  width: 4000
+  height: 1397
+  review: unreviewed
+  local: img/gallery/Sinocephale_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/vector.svg
+  png: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/raster/512x170.png
+  page: https://www.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Stegoceras validum
+  matched: Pachycephalosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: D. C. Evans, C. M. Brown, and H. You, N. E. Campione. 2021. Description and revised diagnosis of Asia's
+    first recorded pachycephalosaurid, Sinocephale bexelli gen. nov., from the Upper Cretaceous of Inner Mongolia,
+    China. Canadian Journal of Earth Sciences 58(10)
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinocephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinocephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinocephale”. English Wikipedia, revision 1384963416.
+  url: https://en.wikipedia.org/w/index.php?title=Sinocephale&oldid=1384963416
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Genus erected by Evans et al. 2021 (PBDB).]
+  reviews: []

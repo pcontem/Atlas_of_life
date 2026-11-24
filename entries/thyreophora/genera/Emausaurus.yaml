@@ -1,0 +1,94 @@
+name: Emausaurus
+rank: genus
+parent: thyreophora
+incertae_sedis: false
+placement_note: ''
+authority: Haubold 1990
+type_species: Emausaurus ernsti
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Emausaurus is an early armoured dinosaur from the Early Jurassic of northern Germany, known from a juvenile
+  or subadult skeleton.
+size:
+  length_m: [2, 2.5]
+  mass_kg: [50, 90]
+  note: Estimated for the juvenile holotype (cited Wikipedia revision).
+age:
+  first_ma: 184.2
+  last_ma: 182.9
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Emausaurus ernsti
+  authority: Haubold 1990
+  first_ma: 184.2
+  last_ma: 182.9
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Mecklenburg-Vorpommern]
+  interval: Tenuicostatum
+  occurrences: 1
+  ma: [182.9, 184.2]
+  id: unnamed-grimmen-clay-pit-lehmhagen-germany
+fossil_material:
+  holotype: SGWG 85, with the right side of the skull, right lower jaw, tail vertebrae, limb bones, ribs and armour
+    — Toarcian clay pit near Grimmen, Germany.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Probably semi-bipedal to quadrupedal and covered in osteoderms.
+images:
+- kind: life
+  file: Emausaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Emausaurus_TD.png/960px-Emausaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Emausaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-20'
+  caption: Life restoration of Emausaurus ernsti.
+  width: 2600
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Emausaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb/vector.svg
+  png: https://images.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb/raster/512x161.png
+  page: https://www.phylopic.org/images/8beb09fe-06ba-4be1-8b1b-18e5222a40eb
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Scelidosaurus harrisonii
+  matched: Scelidosauridae
+  genus_level: false
+  w: 512
+  h: 161
+sources:
+- kind: original
+  text: 'Haubold, H. 1990. Ein neuer Dinosaurier (Ornithischia, Thyreophora) aus dem Unteren Jura des nördlichen
+    Mitteleuropa. Revue de Paléobiologie 9(1): 149–177.'
+- kind: literature
+  text: 'Breeden III, B. T; Raven, T. J; Butler, R. J.; Rowe, T. B.; Maidment, S. C. 2021. The anatomy and palaeobiology
+    of the early armoured dinosaur ''''Scutellosaurus lawleri'''' (Ornithischia: Thyreophora) from the Kayenta Formation
+    (Lower Jurassic) of Arizona. Royal Society Open Science 8(7). doi:10.1098/rsos.201676'
+- kind: literature
+  text: 'Norman, D. B. 2019. ''''Scelidosaurus harrisonii'''' from the Early Jurassic of Dorset, England: cranial
+    anatomy. Zoological Journal of the Linnean Society 188(1): 1–81. doi:10.1093/zoolinnean/zlz074'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Emausaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Emausaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Emausaurus”. English Wikipedia, revision 1373649795.
+  url: https://en.wikipedia.org/w/index.php?title=Emausaurus&oldid=1373649795
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

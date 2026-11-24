@@ -3,18 +3,45 @@ name: Djadokhta
 rank: formation
 group: ''
 country: Mongolia
-regions: [Omngov, Omnogov, Omnogov Aimak]
+regions: [Omngov, Omnogov, Omnogov Aimag, Omnogov Aimak, Ömnögovi Aimag]
 location:
-  lat: 43.832
-  lng: 102.929
-  basis: median of 6 PBDB collections that yielded the atlas genera
+  lat: 44.157
+  lng: 103.289
+  basis: median of 27 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [eolian indet., fluvial indet., terrestrial indet.]
-lithology: [sandstone]
-pbdb_collections: ['37184', '46152', '48927', '65344', '68517', '114241']
+environment: [terrestrial indet., eolian indet., dune, fluvial indet.]
+lithology: [sandstone, not reported]
+pbdb_collections:
+- '22685'
+- '37009'
+- '37013'
+- '37016'
+- '37184'
+- '45329'
+- '46152'
+- '48927'
+- '53229'
+- '55256'
+- '59372'
+- '62927'
+- '65344'
+- '68517'
+- '100261'
+- '114241'
+- '117932'
+- '118259'
+- '127668'
+- '127678'
+- '129749'
+- '130798'
+- '163255'
+- '168808'
+- '168986'
+- '168987'
+- '222595'
 includes: []
 summary: ''
 paleoenvironment: ''

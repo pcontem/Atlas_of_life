@@ -1,0 +1,95 @@
+name: Judiceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Longrich 2013
+type_species: Judiceratops tigris
+type_species_note: Only species of the genus (PBDB).
+summary: Judiceratops is a chasmosaurine from the middle Campanian Judith River Formation of Montana, named in 2013.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Judiceratops tigris
+  authority: Longrich 2013
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Judith River
+  group: Montana
+  members: [McLelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+fossil_material:
+  holotype: YPM VPPU 022404, an incomplete skull with horns and frill parts — Judith River Formation, Montana.
+  material: A referred specimen, YPM VPPU 023262, overlapping the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Unusual horn shape; no behavioural data.
+images:
+- kind: fossil
+  file: Judiceratops frill by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Judiceratops_frill_by_Nick_Longrich.jpg/960px-Judiceratops_frill_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Judiceratops_frill_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-12-05'
+  caption: Frill of Judiceratops.
+  width: 7601
+  height: 7690
+  review: unreviewed
+  local: img/gallery/Judiceratops_001.webp
+- kind: life
+  file: Judiceratops tigris by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Judiceratops_tigris_by_Nick_Longrich.jpg/960px-Judiceratops_tigris_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Judiceratops_tigris_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2013-05-26'
+  caption: Judiceratops tigris restoration.
+  width: 3062
+  height: 2449
+  review: unreviewed
+  local: img/gallery/Judiceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: N. R. Longrich. 2013. Judiceratops tigris, a new horned dinosaur from the middle Campanian Judith River
+    Formation of Montana. Bulletin of the Peabody Museum of Natural History 54(1):51-65
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Judiceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Judiceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Judiceratops”. English Wikipedia, revision 1290332329.
+  url: https://en.wikipedia.org/w/index.php?title=Judiceratops&oldid=1290332329
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

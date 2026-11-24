@@ -1,0 +1,169 @@
+name: Torosaurus
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1891
+type_species: Torosaurus latus
+type_species_note: Taxobox of the cited Wikipedia revision (named by Marsh in 1891).
+summary: Torosaurus is a huge chasmosaurine with the longest skull of any known land animal, from the latest Cretaceous
+  of western North America.
+size:
+  length_m: [7.5, 9]
+  mass_kg: [8000, 8000]
+  note: Range in the cited Wikipedia revision; skull up to 2.77 m.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Torosaurus gladius
+  authority: Marsh 1891
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Torosaurus latus
+  authority: Marsh 1891
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+- name: Torosaurus utahensis
+  authority: (Gilmore 1946)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [North Dakota, South Dakota]
+  interval: Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Javelina
+  group: Tornillo
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: javelina-united-states
+- formation: North Horn
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: north-horn-united-states
+- formation: Scollard
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: scollard-canada
+- formation: Laramie
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: laramie-united-states
+- formation: Frenchman
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: frenchman-canada
+- formation: Kirtland
+  group: ''
+  members: [Naashoibito]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+fossil_material:
+  holotype: YPM 1830, a partial skull (T. latus) — Lance Formation.
+  material: Several skulls of T. latus and T. utahensis.
+  completeness: fragmentary
+  exceptional: ''
+biology: Frilled skull with large openings; some authors argue Torosaurus is the mature form of Triceratops.
+images:
+- kind: life
+  file: Torosaurus life restoration.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Torosaurus_life_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Torosaurus_life_restoration.png
+  artist: Jaime A. Headden
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2014-02-26'
+  caption: Life restoration of Torosaurus.
+  width: 844
+  height: 514
+  review: unreviewed
+  local: img/gallery/Torosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/5bdc480d-d775-4313-9b7f-e573de205f61/vector.svg
+  png: https://images.phylopic.org/images/5bdc480d-d775-4313-9b7f-e573de205f61/raster/986x1024.png
+  page: https://www.phylopic.org/images/5bdc480d-d775-4313-9b7f-e573de205f61
+  attribution: Jun-Hyeok Jang
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Torosaurus latus
+  matched: Torosaurus
+  genus_level: true
+  w: 578
+  h: 600
+sources:
+- kind: original
+  text: O. C. Marsh. 1891. Notice of new vertebrate fossils. The American Journal of Science, series 3 42:265-269
+- kind: literature
+  text: 'Paul, G.S. 2000. Forelimb posture in neoceratopsian dinosaurs: implications for gait and locomotion. Paleobiology
+    26(3): 450–465. doi:10.1666/0094-8373(2000)026<0450:FPINDI>2.0.CO;2'
+- kind: literature
+  text: 'Holtz, Thomas R. Jr. 2012. Dinosaurs: The Most Complete, Up-to-Date Encyclopedia for Dinosaur Lovers of
+    All Ages.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Torosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Torosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Torosaurus”. English Wikipedia, revision 1375992171.
+  url: https://en.wikipedia.org/w/index.php?title=Torosaurus&oldid=1375992171
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Debate about Torosaurus being a mature Triceratops (Scannella and Horner 2010) is not yet resolved in this entry;
+    check with recent literature.
+  - PBDB gives Marsh 1891 as naming paper.
+  reviews: []

@@ -1,0 +1,97 @@
+name: Colepiocephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Sullivan 2003
+type_species: Colepiocephale lambei
+type_species_note: Species originally named Stegoceras lambei by Sternberg in 1945 (PBDB; cited Wikipedia revision).
+summary: Colepiocephale is a domed pachycephalosaurid from the Foremost Formation of Alberta, once placed in Stegoceras.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Colepiocephale lambei
+  authority: (Sternberg 1945)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Foremost
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: foremost-canada
+fossil_material:
+  holotype: CMN 8818 (earlier GSC 8818), a frontoparietal dome — Foremost Formation, Alberta.
+  material: Thirteen further specimens referred to the species.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from domes; no behavioural data.
+images:
+- kind: fossil
+  file: Colepiocephale skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Colepiocephale_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Colepiocephale_skull.jpg
+  artist: C. M. Sternberg
+  license: Public domain
+  license_url: ''
+  date: '1945'
+  caption: Skull of Colepiocephale.
+  width: 1383
+  height: 772
+  review: unreviewed
+  local: img/gallery/Colepiocephale_001.webp
+- kind: life
+  file: Colepiocephale.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Colepiocephale.png/960px-Colepiocephale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Colepiocephale.png
+  artist: Cesar Diaz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-08'
+  caption: Life restoration of Colepiocephale.
+  width: 6000
+  height: 3000
+  review: unreviewed
+  local: img/gallery/Colepiocephale_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3990242b-4205-4e0d-81cf-c6ce00ac5c57/vector.svg
+  png: https://images.phylopic.org/images/3990242b-4205-4e0d-81cf-c6ce00ac5c57/raster/512x344.png
+  page: https://www.phylopic.org/images/3990242b-4205-4e0d-81cf-c6ce00ac5c57
+  attribution: Cesar Diaz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Colepiocephale lambei
+  matched: Colepiocephale
+  genus_level: true
+  w: 512
+  h: 344
+sources:
+- kind: original
+  text: R. M. Sullivan. 2003. Revision of the dinosaur Stegoceras Lambe (Ornithischia, Pachycephalosauridae). Journal
+    of Vertebrate Paleontology 23(1):181-207
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Colepiocephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Colepiocephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Colepiocephale”. English Wikipedia, revision 1362354733.
+  url: https://en.wikipedia.org/w/index.php?title=Colepiocephale&oldid=1362354733
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

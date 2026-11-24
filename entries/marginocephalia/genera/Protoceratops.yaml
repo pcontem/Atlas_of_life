@@ -1,0 +1,181 @@
+name: Protoceratops
+rank: genus
+parent: protoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Granger and Gregory 1923
+type_species: Protoceratops andrewsi
+type_species_note: Named by Granger and Gregory 1923 (PBDB; cited Wikipedia revision).
+summary: Protoceratops is a sheep-sized, frilled ceratopsian from the Late Cretaceous of Mongolia and China, known
+  from hundreds of specimens.
+size:
+  length_m: [2, 2.5]
+  mass_kg: [62, 104]
+  note: Ranges in the cited Wikipedia revision.
+age:
+  first_ma: 121.4
+  last_ma: 72.2
+  early_interval: Aptian
+  late_interval: Campanian
+  pbdb_occurrences: 38
+  note: ''
+species:
+- name: Protoceratops andrewsi
+  authority: Granger and Gregory 1923
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+- name: Protoceratops hellenikorhinus
+  authority: Lambert et al. 2001
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Djadokhta
+  group: ''
+  members: [Bayn Dzak, Tugrugyin]
+  country: Mongolia
+  regions: [Omngov, Omnogov, Ömnögovi Aimag]
+  interval: Late Campanian
+  occurrences: 23
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+- formation: Bayan Mandahu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: bayan-mandahu-china
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov, Omnogov]
+  interval: Late Cretaceous
+  occurrences: 3
+  ma: [66.0, 100.5]
+  id:
+  - unnamed-bor-tolgoi-mongolia
+  - unnamed-shurguul-sevrei-sum-mongolia
+  - unnamed-tel-ulan-chaltsai-iii-mongolia
+- formation: Miaogou
+  group: Eribugai
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: miaogou-china
+- formation: Alagteeg
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Santonian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: alagteeg-mongolia
+- formation: Wulansuhai
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wulansuhai-china
+fossil_material:
+  holotype: Specimen from the Djadokhta Formation described by Granger and Gregory in 1923 (catalogue number not
+    given in the sources used).
+  material: Hundreds of specimens, including growth series and the "Fighting Dinosaurs" pair with a Velociraptor.
+  completeness: multiple
+  exceptional: The "Fighting Dinosaurs" specimen preserves a Protoceratops and a Velociraptor locked in combat.
+biology: Herbivore with prominent jaws and teeth suited to chopping plants; skull and frill grew rapidly during
+  maturation.
+images:
+- kind: fossil
+  file: Protoceratops AMNH 6466 skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Protoceratops_AMNH_6466_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Protoceratops_AMNH_6466_skull.jpg
+  artist: Ryan Somma
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: Unknown da
+  caption: Skull of Protoceratops AMNH 6466.
+  width: 788
+  height: 624
+  review: unreviewed
+  local: img/gallery/Protoceratops_001.webp
+- kind: fossil
+  file: Protoceratops MPC-D 100 505 skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Protoceratops_MPC-D_100_505_skull.png/960px-Protoceratops_MPC-D_100_505_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Protoceratops_MPC-D_100_505_skull.png
+  artist: Łukasz Czepiński
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Skull of Protoceratops MPC-D 100/505.
+  width: 3261
+  height: 1483
+  review: unreviewed
+  local: img/gallery/Protoceratops_002.webp
+- kind: fossil
+  file: Fox site Protoceratops (5).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Fox_site_Protoceratops_%285%29.jpg/960px-Fox_site_Protoceratops_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fox_site_Protoceratops_(5).jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2017-07-01'
+  caption: Protoceratops specimen at the Fox site.
+  width: 5184
+  height: 3456
+  review: unreviewed
+  local: img/gallery/Protoceratops_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/39ecd5a5-5adf-4da7-972d-d0db9910f99b/vector.svg
+  png: https://images.phylopic.org/images/39ecd5a5-5adf-4da7-972d-d0db9910f99b/raster/512x265.png
+  page: https://www.phylopic.org/images/39ecd5a5-5adf-4da7-972d-d0db9910f99b
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Protoceratops andrewsi
+  matched: Protoceratops
+  genus_level: true
+  w: 512
+  h: 265
+sources:
+- kind: original
+  text: Granger, W. W.; Gregory, W. K. 1923. Protoceratops andrewsi, a pre-ceratopsian dinosaur from Mongolia. American
+    Museum of Natural History Novitates.
+- kind: literature
+  text: 'Gregory, W. K. 1927. Gaps in the Mongolian Life Record. The Scientific Monthly 24(2): 169–181.'
+- kind: literature
+  text: Maryańska, T.; Osmólska, H. 1975. Protoceratopsidae (Dinosauria) of Asia. Palaeontologia Polonica 33.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protoceratops”. English Wikipedia, revision 1384562875.
+  url: https://en.wikipedia.org/w/index.php?title=Protoceratops&oldid=1384562875
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Check the holotype number against Granger and Gregory 1923.]
+  reviews: []

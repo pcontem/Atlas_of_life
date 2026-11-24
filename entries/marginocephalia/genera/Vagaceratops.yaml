@@ -1,0 +1,133 @@
+name: Vagaceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Sampson 2010
+type_species: Vagaceratops irvinensis
+type_species_note: Species originally named Chasmosaurus irvinensis by Holmes et al. in 2001 (PBDB).
+summary: Vagaceratops is a medium-sized chasmosaurine from the Dinosaur Park Formation of Alberta, once placed in
+  Chasmosaurus.
+size:
+  length_m: [4.5, 4.5]
+  mass_kg: [1200, 1200]
+  note: Estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Vagaceratops irvinensis
+  authority: (Holmes et al. 2001)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Judith River
+  group: Montana
+  members: [Coal Ridge]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+fossil_material:
+  holotype: Specimen in the Canadian Museum of Nature (collection number not given in the sources used) — Dinosaur
+    Park Formation, Alberta.
+  material: Skull and frill material.
+  completeness: partial
+  exceptional: ''
+biology: Medium-sized ceratopsian; no behavioural data.
+images:
+- kind: life
+  file: VagaceratopsCMNLife.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/VagaceratopsCMNLife.jpg/960px-VagaceratopsCMNLife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:VagaceratopsCMNLife.jpg
+  artist: LittleLazyLass
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-31'
+  caption: Life restoration of Vagaceratops.
+  width: 2048
+  height: 1536
+  review: unreviewed
+  local: img/gallery/Vagaceratops_001.webp
+- kind: fossil
+  file: VagaceratopsCMNSkull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/VagaceratopsCMNSkull.jpg/960px-VagaceratopsCMNSkull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:VagaceratopsCMNSkull.jpg
+  artist: LittleLazyLass
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-31'
+  caption: Skull of Vagaceratops.
+  width: 2048
+  height: 1536
+  review: unreviewed
+  local: img/gallery/Vagaceratops_002.webp
+- kind: fossil
+  file: VagaceratopsCMN.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/VagaceratopsCMN.jpg/960px-VagaceratopsCMN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:VagaceratopsCMN.jpg
+  artist: LittleLazyLass
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-31'
+  caption: Vagaceratops at the Canadian Museum of Nature.
+  width: 2048
+  height: 1536
+  review: unreviewed
+  local: img/gallery/Vagaceratops_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/d0df60c7-4fd3-418e-9521-00a8296a8a14/vector.svg
+  png: https://images.phylopic.org/images/d0df60c7-4fd3-418e-9521-00a8296a8a14/raster/512x255.png
+  page: https://www.phylopic.org/images/d0df60c7-4fd3-418e-9521-00a8296a8a14
+  attribution: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua
+    A. Smith, Alan L. Titus
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Kosmoceratops richardsoni
+  matched: Vagaceratops
+  genus_level: true
+sources:
+- kind: original
+  text: A. A. Farke, M. J. Ryan, and P. M. Barrett, D. H. Tanke, D. R. Braman, M. A. Loewen, M. R. Graham. 2011.
+    A new centrosaurine from the Late Cretaceous of Alberta, Canada, and the evolution of parietal ornamentation
+    in horned dinosaurs. Acta Palaeontologica Polonica 56(4):691-702
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vagaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vagaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vagaceratops”. English Wikipedia, revision 1319064817.
+  url: https://en.wikipedia.org/w/index.php?title=Vagaceratops&oldid=1319064817
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia revision has no citation list extracted; check holotype number (CMN 41357?) against Sampson et al.
+    2010.
+  reviews: []

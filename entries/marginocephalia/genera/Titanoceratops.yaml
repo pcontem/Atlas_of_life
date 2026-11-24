@@ -1,0 +1,93 @@
+name: Titanoceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Longrich 2011
+type_species: Titanoceratops ouranos
+type_species_note: Only species of the genus (PBDB).
+summary: Titanoceratops is a controversial, very large chasmosaurine from the Campanian of New Mexico, once Pentaceratops.
+size:
+  length_m: [6.8, 6.8]
+  mass_kg: [6550, 6550]
+  note: Estimates in the cited Wikipedia revision; reconstructed skull length 2.65 m.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: PBDB has no occurrences with age data; Campanian (about 75 Ma in the cited Wikipedia revision), ICS bounds
+    of the stage used.
+species:
+- name: Titanoceratops ouranos
+  authority: Longrich 2011
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: OMNH 10165, a partial skeleton with a mostly complete skull and jaws — New Mexico (Kirtland/Fruitland
+    deposits).
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Possibly the largest animal of its ecosystem; no behavioural data.
+images:
+- kind: life
+  file: Titanoceratops dinosaur.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Titanoceratops_dinosaur.png/960px-Titanoceratops_dinosaur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Titanoceratops_dinosaur.png
+  artist: LadyofHats
+  license: Public domain
+  license_url: ''
+  date: '2007-07-17'
+  caption: Life restoration of Titanoceratops.
+  width: 1750
+  height: 1285
+  review: unreviewed
+  local: img/gallery/Titanoceratops_001.webp
+- kind: fossil
+  file: Titanoceratops SNOMNH.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Titanoceratops_SNOMNH.JPG/960px-Titanoceratops_SNOMNH.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Titanoceratops_SNOMNH.JPG
+  artist: Julie Patricia
+  license: Public domain
+  license_url: ''
+  date: '2009-03-17'
+  caption: Titanoceratops specimen at the Sam Noble Museum.
+  width: 2304
+  height: 3072
+  review: unreviewed
+  local: img/gallery/Titanoceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/a2a5e9a6-2fd5-4f98-8c2a-79d8aecda9dc/vector.svg
+  png: https://images.phylopic.org/images/a2a5e9a6-2fd5-4f98-8c2a-79d8aecda9dc/raster/512x296.png
+  page: https://www.phylopic.org/images/a2a5e9a6-2fd5-4f98-8c2a-79d8aecda9dc
+  attribution: Nobu Tamura (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Titanoceratops ouranos
+  matched: Titanoceratops
+  genus_level: true
+  w: 512
+  h: 296
+sources:
+- kind: original
+  text: N. R. Longrich. 2011. Titanoceratops ouranos, a giant horned dinosaur from the late Campanian of New Mexico.
+    Cretaceous Research 32:264-276
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Titanoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Titanoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Titanoceratops”. English Wikipedia, revision 1328022676.
+  url: https://en.wikipedia.org/w/index.php?title=Titanoceratops&oldid=1328022676
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Validity debated (some treat it as Pentaceratops); formation not recorded in PBDB; add Fruitland/Kirtland formation
+    after checking Longrich 2011.
+  reviews: []

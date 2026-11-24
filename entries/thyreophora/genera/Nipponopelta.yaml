@@ -1,0 +1,121 @@
+name: Nipponopelta
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Oyabu et al. 2026
+type_species: Nipponopelta yezoensis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Nipponopelta is a nodosaurid from the Cenomanian Hikagenosawa Formation of Hokkaido, Japan, known from
+  a partial skull in a concretion.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nipponopelta yezoensis
+  authority: Oyabu et al. 2027
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Hikagenosawa
+  group: Yezo
+  members: []
+  country: Japan
+  regions: [Hokkaido]
+  interval: Late Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: hikagenosawa-japan
+fossil_material:
+  holotype: MCM A522, a partial skull in a calcareous concretion with disarticulated teeth — Hikagenosawa Formation,
+    Hokkaido, Japan; held by the Mikasa City Museum.
+  material: Skull and fragmentary associated remains.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from a partial skull; the sources give no behavioural data.
+images:
+- kind: life
+  file: Nipponopelta TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Nipponopelta_TD.png/960px-Nipponopelta_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nipponopelta_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-21'
+  caption: Life restoration of Nipponopelta yezoensis.
+  width: 2600
+  height: 800
+  review: unreviewed
+  local: img/gallery/Nipponopelta_001.webp
+- kind: life
+  file: Nipponopelta yezoensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Nipponopelta_yezoensis.png/960px-Nipponopelta_yezoensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nipponopelta_yezoensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-23'
+  caption: Life restoration of Nipponopelta yezoensis.
+  width: 4000
+  height: 1151
+  review: unreviewed
+  local: img/gallery/Nipponopelta_002.webp
+- kind: fossil
+  file: Nipponopelta holotype FPDM.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/4c/Nipponopelta_holotype_FPDM.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nipponopelta_holotype_FPDM.png
+  artist: Ta-tea-two-te-to
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-17'
+  caption: Holotype skull of Nipponopelta in its concretion.
+  width: 1096
+  height: 1018
+  review: unreviewed
+  local: img/gallery/Nipponopelta_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Oyabu, Shumpei; Kobayashi, Yoshitsugu; Zelenitsky, Darla K.; Fiorillo, Anthony R.; Kano, Manabu 2026. A
+    new nodosaurid ankylosaur (Dinosauria: Ornithischia) from the Upper Cretaceous Hikagenosawa Formation in Japan
+    reveals dispersal pattern of Asian nodosaurid ankylosaurs. Cretaceous Research(in press). doi:10.1016/j.cretres.2026.106477'
+- kind: literature
+  text: Xing, Lida; Niu, Kecheng; Mallon, Jordan; Miyashita, Tetsuto 2024. A new armored dinosaur with double cheek
+    horns from the early Late Cretaceous of southeastern China. Vertebrate Anatomy Morphology Palaeontology 11.
+    doi:10.18435/vamp29396
+- kind: literature
+  text: Madzia, Daniel; Arbour, Victoria M.; Boyd, Clint A.; Farke, Andrew A.; Cruzado-Caballero, Penélope; Evans,
+    David C. 2021. The phylogenetic nomenclature of ornithischian dinosaurs. PeerJ 9. doi:10.7717/peerj.12362
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nipponopelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nipponopelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nipponopelta”. English Wikipedia, revision 1373112041.
+  url: https://en.wikipedia.org/w/index.php?title=Nipponopelta&oldid=1373112041
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Authority year: PBDB says 2027, but the cited Wikipedia revision and its citation give Oyabu et al. 2026; the
+    entry uses 2026. Check the publication record (owner asked for this check).'
+  - Size not given in the cited revision.
+  reviews: []

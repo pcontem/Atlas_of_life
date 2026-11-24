@@ -1,0 +1,104 @@
+name: Yinlong
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2006
+type_species: Yinlong downsi
+type_species_note: Only species of the genus (PBDB).
+summary: Yinlong is a small bipedal ceratopsian from the Late Jurassic Shishugou Formation of Xinjiang, the earliest
+  well-known member of the group.
+size:
+  length_m: null
+  note: No length figure in the sources used.
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yinlong downsi
+  authority: Xu et al. 2006
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Shishugou
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: shishugou-china
+fossil_material:
+  holotype: Well-preserved skeleton with skull of a nearly adult animal found in 2004 — Shishugou Formation, Xinjiang,
+    China.
+  material: Many skeletons and skulls.
+  completeness: multiple
+  exceptional: ''
+biology: Small, primarily bipedal herbivore; skull deep and wide, without frill or horns, with a rostral bone.
+images:
+- kind: life
+  file: Yinlong BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e9/Yinlong_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yinlong_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-11-07'
+  caption: Life restoration of Yinlong.
+  width: 800
+  height: 444
+  review: unreviewed
+  local: img/gallery/Yinlong_001.webp
+- kind: fossil
+  file: Yinlong skull 8745.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/d/da/Yinlong_skull_8745.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yinlong_skull_8745.JPG
+  artist: Conty
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Skull of Yinlong.
+  width: 648
+  height: 454
+  review: unreviewed
+  local: img/gallery/Yinlong_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/vector.svg
+  png: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/raster/512x187.png
+  page: https://www.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Yinlong downsi
+  matched: Yinlong
+  genus_level: true
+sources:
+- kind: original
+  text: X. Xu, C. A. Forster, and J. M. Clark, J. Mo. 2006. A basal ceratopsian with transitional features from
+    the Late Jurassic of northwestern China. Proceedings of the Royal Society of London B 273:2135-2140
+- kind: literature
+  text: 'Fenglu Han 2017. Postcranial anatomy of ''''Yinlong downsi'''' (Dinosauria: Ceratopsia) from the Upper
+    Jurassic Shishugou Formation of China and the phylogeny of basal ornithischians. Journal of Systematic Palaeontology
+    16(14): 1159–1187. doi:10.1080/14772019.2017.1369185'
+- kind: literature
+  text: Han, F.; Zhao, Q.; Hu, J.; Xu, X. 2024. Bone histology and growth curve of the earliest ceratopsian ''Yinlong
+    downsi'' from the Upper Jurassic of Junggar Basin, Northwest China. PeerJ 12. doi:10.7717/peerj.18761
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yinlong (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yinlong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yinlong”. English Wikipedia, revision 1317603533.
+  url: https://en.wikipedia.org/w/index.php?title=Yinlong&oldid=1317603533
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [PBDB gives no named original paper; Xu et al. 2006 named the genus.]
+  reviews: []

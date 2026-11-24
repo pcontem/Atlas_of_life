@@ -1,0 +1,118 @@
+name: Peloroplites
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Carpenter et al. 2008
+type_species: Peloroplites cedrimontanus
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Peloroplites is one of the largest nodosaurids, from the Cedar Mountain Formation of Utah, with a partial
+  skull and skeleton.
+size:
+  length_m: [6, 6]
+  mass_kg: [2000, 2000]
+  note: Estimates given in the cited Wikipedia revision.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Peloroplites cedrimontanus
+  authority: Carpenter et al. 2008
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Ruby Ranch]
+  country: United States
+  regions: [Utah]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: A partial skull and postcranial skeleton — Cedar Mountain Formation, Price River II quarry, Utah.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Large herbivore from a time when ankylosaurids and nodosaurids were reaching large sizes.
+images:
+- kind: fossil
+  file: Peloroplites display medium-shot.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Peloroplites_display_medium-shot.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Peloroplites_display_medium-shot.webp
+  artist: A Cynical Idealist
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-06'
+  caption: Display of Peloroplites in a museum.
+  width: 1494
+  height: 1120
+  review: unreviewed
+  local: img/gallery/Peloroplites_001.webp
+- kind: fossil
+  file: Peloroplites head.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Peloroplites_head.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Peloroplites_head.webp
+  artist: A Cynical Idealist
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-05'
+  caption: Head of Peloroplites.
+  width: 1494
+  height: 1120
+  review: unreviewed
+  local: img/gallery/Peloroplites_002.webp
+- kind: fossil
+  file: Peloroplites price 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Peloroplites_price_2.jpg/960px-Peloroplites_price_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Peloroplites_price_2.jpg
+  artist: Jens Lallensack
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-10-15'
+  caption: Peloroplites material.
+  width: 5472
+  height: 3648
+  review: unreviewed
+  local: img/gallery/Peloroplites_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/ea1c4b52-f962-4599-acc3-6cac02e3e659/vector.svg
+  png: https://images.phylopic.org/images/ea1c4b52-f962-4599-acc3-6cac02e3e659/raster/512x143.png
+  page: https://www.phylopic.org/images/ea1c4b52-f962-4599-acc3-6cac02e3e659
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Peloroplites cedrimontanus
+  matched: Peloroplites
+  genus_level: true
+  w: 512
+  h: 143
+sources:
+- kind: original
+  text: 'Carpenter, Kenneth 2008. Ankylosaurs from the Price River Quarries, Cedar Mountain Formation (Lower Cretaceous),
+    east-central Utah. Journal of Vertebrate Paleontology 28(4): 1089–1101. doi:10.1671/0272-4634-28.4.1089'
+- kind: literature
+  text: 'Senter, Phil 2011. Evidence for a Sauropod-Like Metacarpal Configuration in Ankylosaurian Dinosaurs. Acta
+    Palaeontologica Polonica 56(1): 221–224. doi:10.4202/app.2010.0041'
+- kind: literature
+  text: Kirkland, J.I.; Burge, D. 1994. A large primitive hadrosaur from the Lower Cretaceous of Utah. Journal of
+    Vertebrate Paleontology 14(3).
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Peloroplites (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Peloroplites
+- kind: encyclopedia
+  text: Wikipedia contributors. “Peloroplites”. English Wikipedia, revision 1368825170.
+  url: https://en.wikipedia.org/w/index.php?title=Peloroplites&oldid=1368825170
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

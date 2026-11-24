@@ -1,0 +1,31 @@
+id: wapiti-canada
+name: Wapiti
+rank: formation
+group: ''
+country: Canada
+regions: [Alberta]
+location:
+  lat: 55.041
+  lng: -119.49
+  basis: median of 4 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 83.6
+  last_ma: 66.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., crevasse splay]
+lithology: [not reported, siltstone]
+pbdb_collections: ['22699', '87125', '161248', '220129']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Wapiti (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Wapiti
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

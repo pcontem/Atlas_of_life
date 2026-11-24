@@ -1,0 +1,87 @@
+name: Sierraceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Dalman et al. 2022
+type_species: Sierraceratops turneri
+type_species_note: Only species of the genus (PBDB).
+summary: Sierraceratops is a chasmosaurine from the Hall Lake Formation of New Mexico, the southernmost known ceratopsid
+  of its time.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sierraceratops turneri
+  authority: Dalman et al. 2022
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Hall Lake
+  group: McRae
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: hall-lake-united-states
+fossil_material:
+  holotype: NMMNH P-76870 — Hall Lake Formation, New Mexico (about 72 Ma).
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from a partial skeleton; no behavioural data.
+images:
+- kind: fossil
+  file: Sierraceratops turneri dorsal vertebra by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Sierraceratops_turneri_dorsal_vertebra_by_Nick_Longrich.jpg/960px-Sierraceratops_turneri_dorsal_vertebra_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sierraceratops_turneri_dorsal_vertebra_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-13'
+  caption: Dorsal vertebra of Sierraceratops turneri.
+  width: 3024
+  height: 3768
+  review: unreviewed
+  local: img/gallery/Sierraceratops_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/19bea272-bdf3-4e91-9506-d335415d04a1/vector.svg
+  png: https://images.phylopic.org/images/19bea272-bdf3-4e91-9506-d335415d04a1/raster/512x432.png
+  page: https://www.phylopic.org/images/19bea272-bdf3-4e91-9506-d335415d04a1
+  attribution: Nix Illustration
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Sierraceratops turneri
+  matched: Sierraceratops
+  genus_level: true
+  w: 512
+  h: 432
+sources:
+- kind: original
+  text: S. G. Dalman, S. G. Lucas, and S. E. Jasinski, N. R. Longrich. 2022. Sierraceratops turneri, a new chasmosaurine
+    ceratopsid from the Hall Lake Formation (Upper Cretaceous) of south-central New Mexico. Cretaceous Research
+    130:105034
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sierraceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sierraceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sierraceratops”. English Wikipedia, revision 1385708984.
+  url: https://en.wikipedia.org/w/index.php?title=Sierraceratops&oldid=1385708984
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia revision text is brief; check size and holotype contents against Dalman et al. 2022.
+  reviews: []

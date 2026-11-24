@@ -1,0 +1,78 @@
+name: Tsagantegia
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Tumanova 1993
+type_species: Tsagantegia longicranialis
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Tsagantegia is an ankylosaurid from the Bayan Shireh Formation of Mongolia, known only from a skull with
+  an elongated snout.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Tsagantegia longicranialis
+  authority: Tumanova 1993
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Cenomanian–Santonian
+  occurrences: 2
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: MPC 700/17, a skull without postcranial remains found in 1983 by the Joint Soviet-Mongolian expedition
+    — Bayan Shireh Formation, Tsagan Teg, Mongolia.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Characterised by an elongated snout and flattened facial osteoderms.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Tumanova, T. A. 1993. O novom pantsirnov dinozavre iz iugo-vostochnoy Gobi. Paleontologicheskii Zhurnal
+    27(2): 92–98.'
+- kind: literature
+  text: 'Park, Jin-Young 2022. Cretaceous ankylosaurs of Mongolia: implications for paleobiogeography, paleoecology,
+    and evolution, with a taxonomic review of Mongolian armored dinosaurs. Seoul National University Graduate School
+    Department of Earth and Environmental Sciences: 170-174.'
+- kind: literature
+  text: 'Raven, Thomas 2021. The taxonomic, phylogenetic, biogeographic and macroevolutionary history of the armoured
+    dinosaurs (Ornithischia: Thyreophora). University of Brighton for the degree of Doctor of Philosophy.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tsagantegia (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tsagantegia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tsagantegia”. English Wikipedia, revision 1314643731.
+  url: https://en.wikipedia.org/w/index.php?title=Tsagantegia&oldid=1314643731
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No image candidates; size not given.]
+  reviews: []

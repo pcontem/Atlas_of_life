@@ -1,0 +1,99 @@
+name: Xenoceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Ryan et al. 2012
+type_species: Xenoceratops foremostensis
+type_species_note: Only species of the genus (PBDB).
+summary: Xenoceratops is a centrosaurine with large brow horns from the Foremost Formation of Alberta, the oldest
+  known ceratopsid in Canada when named.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xenoceratops foremostensis
+  authority: Ryan et al. 2012
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Foremost
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: foremost-canada
+fossil_material:
+  holotype: Skull fragments excavated by Wann Langston Jr. in 1958 near Foremost, Alberta (catalogue number not
+    given in the sources used) — Foremost Formation.
+  material: Further skull material at the Royal Tyrrell Museum.
+  completeness: fragmentary
+  exceptional: ''
+biology: The Royal Tyrrell skull shows large brow horns.
+images:
+- kind: life
+  file: XENOCERATOPS2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/XENOCERATOPS2.jpg/960px-XENOCERATOPS2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:XENOCERATOPS2.jpg
+  artist: Luca Mendieta
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-03-31'
+  caption: Life restoration of Xenoceratops.
+  width: 5906
+  height: 4626
+  review: unreviewed
+  local: img/gallery/Xenoceratops_001.webp
+- kind: fossil
+  file: Xenoceratops skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Xenoceratops_skull.jpg/960px-Xenoceratops_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Xenoceratops_skull.jpg
+  artist: eileenmak
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2018-06-11'
+  caption: Skull of Xenoceratops.
+  width: 3888
+  height: 5184
+  review: unreviewed
+  local: img/gallery/Xenoceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/e2611edc-59cc-4cfc-bae2-a2ed46e32763/vector.svg
+  png: https://images.phylopic.org/images/e2611edc-59cc-4cfc-bae2-a2ed46e32763/raster/512x245.png
+  page: https://www.phylopic.org/images/e2611edc-59cc-4cfc-bae2-a2ed46e32763
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xenoceratops foremostensis
+  matched: Xenoceratops
+  genus_level: true
+  w: 512
+  h: 245
+sources:
+- kind: original
+  text: 'Ryan, Michael J.; Evans, David C.; Shepherd, Kieran M. 2012. A new ceratopsid from the Foremost Formation
+    (middle Campanian) of Alberta. Canadian Journal of Earth Sciences 49(11): 1251&ndash;1262. doi:10.1139/e2012-056'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xenoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xenoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xenoceratops”. English Wikipedia, revision 1351712455.
+  url: https://en.wikipedia.org/w/index.php?title=Xenoceratops&oldid=1351712455
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

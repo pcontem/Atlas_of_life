@@ -1,0 +1,117 @@
+name: Tuojiangosaurus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Dong et al. 1977
+type_species: Tuojiangosaurus multispinus
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Tuojiangosaurus is a large Late Jurassic stegosaur from the Upper Shaximiao Formation of Sichuan, China,
+  known from a fairly complete skeleton.
+size:
+  length_m: [6.5, 7]
+  mass_kg: [2800, 2800]
+  note: Estimates given in the cited Wikipedia revision.
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tuojiangosaurus multispinus
+  authority: Dong et al. 1977
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: shaximiao-china
+fossil_material:
+  holotype: CV 209, a rather complete skeleton lacking parts of the skull, lower jaws, tail and limbs — Upper Shaximiao
+    Formation, Sichuan.
+  material: Paratype CV 210 (a sacrum) and further specimens including CV 00208.
+  completeness: near-complete
+  exceptional: ''
+biology: A herbivorous stegosaur; its tail spikes have been reconstructed as a "pin-cushion" array of paired spikes.
+images:
+- kind: life
+  file: Tuojiangosaurus multispinus life restoration flipped transparent.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Tuojiangosaurus_multispinus_life_restoration_flipped_transparent.png/960px-Tuojiangosaurus_multispinus_life_restoration_flipped_transparent.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tuojiangosaurus_multispinus_life_restoration_flipped_transparent.png
+  artist: Paleocolour
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-05-26'
+  caption: Life restoration of Tuojiangosaurus multispinus.
+  width: 2000
+  height: 775
+  review: unreviewed
+  local: img/gallery/Tuojiangosaurus_001.webp
+- kind: life
+  file: Tuojiangosaurus multispinus life restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Tuojiangosaurus_multispinus_life_restoration.jpg/960px-Tuojiangosaurus_multispinus_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tuojiangosaurus_multispinus_life_restoration.jpg
+  artist: Paleocolour
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-01-21'
+  caption: Life restoration of Tuojiangosaurus multispinus.
+  width: 2000
+  height: 776
+  review: unreviewed
+  local: img/gallery/Tuojiangosaurus_002.webp
+- kind: fossil
+  file: FieldMuseum5 Chicago.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/FieldMuseum5_Chicago.jpg/960px-FieldMuseum5_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:FieldMuseum5_Chicago.jpg
+  artist: hibino
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2005-09-25'
+  caption: Mounted skeleton of Tuojiangosaurus at the Field Museum.
+  width: 2048
+  height: 1536
+  review: unreviewed
+  local: img/gallery/Tuojiangosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/vector.svg
+  png: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/raster/512x192.png
+  page: https://www.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Tuojiangosaurus multispinus
+  matched: Tuojiangosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Dong, Z.; Li, X.; Zhou, S.; Zhang, Y. 1977. On the stegosaurian remains from Zigong (Tzekung), Szechuan
+    province. Vertebrata PalAsiatica 15(4): 307–312.'
+- kind: literature
+  text: 'Maidment, Susannah C.R.; Wei, Guangbiao 2006. A review of the Late Jurassic stegosaurs (Dinosauria, Stegosauria)
+    from the People''s Republic of China. Geological Magazine 143(5): 621–634. doi:10.1017/S0016756806002500'
+- kind: literature
+  text: 'Dong, Zhiming; Zhou, Shiwu; Zhang, Yihong 1983. Dinosaurs from the Jurassic of Sichuan. Palaeontologica
+    Sinica 162(23): 1–136.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tuojiangosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tuojiangosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tuojiangosaurus”. English Wikipedia, revision 1377313384.
+  url: https://en.wikipedia.org/w/index.php?title=Tuojiangosaurus&oldid=1377313384
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

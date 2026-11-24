@@ -1,0 +1,143 @@
+name: Montanoceratops
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Sternberg 1951
+type_species: Montanoceratops cerorhynchus
+type_species_note: Only valid species; first named Leptoceratops cerorhynchus by Brown and Schlaikjer 1942 (cited
+  Wikipedia revision).
+summary: Montanoceratops is a bipedal-to-quadrupedal leptoceratopsid from the latest Cretaceous of Montana and Alberta.
+size:
+  length_m: [2.5, 2.5]
+  mass_kg: [170, 170]
+  note: Maximum estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Montanoceratops cerorhynchus
+  authority: (Brown and Schlaikjer 1942)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: St. Mary River
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: st-mary-river-united-states
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: horseshoe-canyon-canada
+fossil_material:
+  holotype: Original type material discovered by Barnum Brown in Montana (catalogue number not given in the sources
+    used) — St. Mary River Formation, Montana.
+  material: Several skeletons including juveniles (e.g. MOR 542).
+  completeness: multiple
+  exceptional: ''
+biology: Small to moderate sized, moderately built, ground-dwelling quadrupedal herbivore.
+images:
+- kind: life
+  file: Montanoceratops BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Montanoceratops_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Montanoceratops_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-12-13'
+  caption: Life restoration of Montanoceratops.
+  width: 800
+  height: 351
+  review: unreviewed
+  local: img/gallery/Montanoceratops_001.webp
+- kind: fossil
+  file: Montanoceratops MOR 542.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Montanoceratops_MOR_542.jpg/960px-Montanoceratops_MOR_542.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Montanoceratops_MOR_542.jpg
+  artist: James St. John
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2008-09-01'
+  caption: Montanoceratops MOR 542.
+  width: 2788
+  height: 1563
+  review: unreviewed
+  local: img/gallery/Montanoceratops_002.webp
+- kind: fossil
+  file: Montanoceratops skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Montanoceratops_skeleton.jpg/960px-Montanoceratops_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Montanoceratops_skeleton.jpg
+  artist: Barnum Brown
+  license: Public domain
+  license_url: ''
+  date: '1942'
+  caption: Montanoceratops skeleton.
+  width: 2672
+  height: 1091
+  review: unreviewed
+  local: img/gallery/Montanoceratops_003.webp
+- kind: fossil
+  file: Juvenile Montanoceratops.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Juvenile_Montanoceratops.jpg/960px-Juvenile_Montanoceratops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Juvenile_Montanoceratops.jpg
+  artist: Tim Evanson from Washington, D.C., United States of America
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2013-07-08'
+  caption: Juvenile Montanoceratops.
+  width: 3000
+  height: 1987
+  review: unreviewed
+  local: img/gallery/Montanoceratops_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. M. Sternberg. 1951. Complete skeleton of Leptoceratops gracilis Brown from the Upper Edmonton Member
+    on Red Deer River, Alberta. National Museum of Canada Bulletin 123:225-255
+- kind: literature
+  text: 'Brown, B.; Schlaikjer, E. M. 1942. The skeleton of ''''Leptoceratops'''' with the description of a new
+    species. American Museum Novitates(1169): 1–15.'
+- kind: literature
+  text: 'Chinnery, B. J.; Weishampel, D. B. 1998. Montanoceratops cerorhynchus (Dinosauria: Ceratopsia) and relationships
+    among basal neoceratopsians. Journal of Vertebrate Paleontology 18(3): 569–585. doi:10.1080/02724634.1998.10011085'
+- kind: literature
+  text: 'Ryan, Michael J.; Evans, David C.; Currie, Philip J.; Brown, Caleb M.; Brinkman, Don 2012. New leptoceratopsids
+    from the Upper Cretaceous of Alberta, Canada. Cretaceous Research 35: 69–80. doi:10.1016/j.cretres.2011.11.018'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Montanoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Montanoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Montanoceratops”. English Wikipedia, revision 1313795937.
+  url: https://en.wikipedia.org/w/index.php?title=Montanoceratops&oldid=1313795937
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Genus named by Sternberg 1951 (PBDB); the Wikipedia revision cites Brown and Schlaikjer 1942 for the species.
+  reviews: []

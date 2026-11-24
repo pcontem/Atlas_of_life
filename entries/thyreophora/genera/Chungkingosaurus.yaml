@@ -1,0 +1,113 @@
+name: Chungkingosaurus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Dong et al. 1983
+type_species: Chungkingosaurus jiangbeiensis
+type_species_note: Named as the type in the cited sources (the PBDB species list gives this species).
+summary: Chungkingosaurus is a small Late Jurassic stegosaur from the Upper Shaximiao Formation of Chongqing, China,
+  closely resembling Tuojiangosaurus.
+size:
+  length_m: [4, 4]
+  note: Holotype estimated at less than four metres (Dong et al. 1983, via the cited revision); other specimens
+    were estimated at five metres or more.
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Chungkingosaurus giganticus
+  authority: Ulansky 2014
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+- name: Chungkingosaurus jiangbeiensis
+  authority: Dong et al. 1983
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+- name: Chungkingosaurus magnus
+  authority: Ulansky 2014
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Callovian
+  occurrences: 4
+  ma: [161.5, 168.2]
+  id: shaximiao-china
+fossil_material:
+  holotype: CV 00206, a partial skeleton with snout, lower jaw front, dorsal vertebrae, pelvis, tail, limb bones
+    and five plates — Upper Shaximiao Formation, Chongqing.
+  material: Additional specimens including CV 00207 and CV 00208 (the latter showing the tail spikes).
+  completeness: partial
+  exceptional: ''
+biology: Probably carried two rows of paired plates and tail spikes; no other behaviour is documented in the sources.
+images:
+- kind: fossil
+  file: Chungkingosaurus jiangbeiensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Chungkingosaurus_jiangbeiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chungkingosaurus_jiangbeiensis.jpg
+  artist: laikayiu
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: '2007-06-21'
+  caption: Skeleton of Chungkingosaurus jiangbeiensis.
+  width: 708
+  height: 619
+  review: unreviewed
+  local: img/gallery/Chungkingosaurus_001.webp
+- kind: life
+  file: Chungkingosaurus jiangbeiensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/73/Chungkingosaurus_jiangbeiensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chungkingosaurus_jiangbeiensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-13'
+  caption: Life restoration of Chungkingosaurus jiangbeiensis.
+  width: 1075
+  height: 440
+  review: unreviewed
+  local: img/gallery/Chungkingosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/vector.svg
+  png: https://images.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a/raster/512x192.png
+  page: https://www.phylopic.org/images/616a32f5-d1d1-4a93-bbfc-965b959e673a
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Tuojiangosaurus multispinus
+  matched: Stegosauridae
+  genus_level: false
+  w: 512
+  h: 192
+sources:
+- kind: original
+  text: Z. Dong, S. Zhou, and H. Zhang. 1983. [Dinosaurs from the Jurassic of Sichuan]. Palaeontologica Sinica,
+    New Series C, Whole Number 162(23):1-136
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chungkingosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chungkingosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chungkingosaurus”. English Wikipedia, revision 1386668581.
+  url: https://en.wikipedia.org/w/index.php?title=Chungkingosaurus&oldid=1386668581
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species C. giganticus and C. magnus (Ulansky 2014) are listed by PBDB; check their status.
+  reviews: []

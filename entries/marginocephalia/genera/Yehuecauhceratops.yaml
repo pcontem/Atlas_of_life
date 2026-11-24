@@ -1,0 +1,105 @@
+name: Yehuecauhceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Rivera-Sylva et al. 2017
+type_species: Yehuecauhceratops mudei
+type_species_note: Only species of the genus (PBDB).
+summary: Yehuecauhceratops is a small centrosaurine from the Aguja Formation of Coahuila, Mexico, known from a partial
+  skeleton.
+size:
+  length_m: [3, 3]
+  note: About 3 m long (cited Wikipedia revision).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yehuecauhceratops mudei
+  authority: Rivera-Sylva et al. 2017
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Aguja
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: aguja-mexico
+fossil_material:
+  holotype: Partial skeleton excavated in 2007–2011 near La Salada, Ocampo, Coahuila (catalogue number not given
+    in the sources used) — Aguja Formation, Mexico.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Smaller than the other two ceratopsids of its environment, Agujaceratops and Coahuilaceratops, so the three
+  may have been ecologically segregated.
+images:
+- kind: life
+  file: Yehuecauhceratops.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Yehuecauhceratops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yehuecauhceratops.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020'
+  caption: Life restoration of Yehuecauhceratops.
+  width: 1000
+  height: 786
+  review: unreviewed
+  local: img/gallery/Yehuecauhceratops_001.webp
+- kind: fossil
+  file: Yehuecauhceratops skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Yehuecauhceratops_skeleton.jpg/960px-Yehuecauhceratops_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yehuecauhceratops_skeleton.jpg
+  artist: RogelioReyna
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-02-26'
+  caption: Skeleton of Yehuecauhceratops.
+  width: 4160
+  height: 3120
+  review: unreviewed
+  local: img/gallery/Yehuecauhceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Rivera-Sylva, H.E.; Frey, E.; Stinnesbeck, W.; Guzman-Gutirrez, J.R.; Gonzalez-Gonzalez 2017. Mexican ceratopsids:
+    Considerations on their diversity and evolution. Journal of South American Earth Sciences 75: 66–73. doi:10.1016/j.jsames.2017.01.008'
+- kind: literature
+  text: 'Rivera-Sylva, H.E.; Hendrick, B.P.; Dodson, P. 2016. A Centrosaurine (Dinosauria: Ceratopsia) from the
+    Aguja Formation (Late Campanian) of Northern Coahuila, Mexico. PLOS ONE 11(4). doi:10.1371/journal.pone.0150529'
+- kind: literature
+  text: Sampson, S.D.; Lund, E.K.; Loewen, M.A.; Farke, A.A.; Clayton, K.E. 2013. A remarkable short-snouted horned
+    dinosaur from the Late Cretaceous (late Campanian) of southern Laramidia. Proceedings of the Royal Society B
+    280(1766). doi:10.1098/rspb.2013.1186
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yehuecauhceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yehuecauhceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yehuecauhceratops”. English Wikipedia, revision 1358668843.
+  url: https://en.wikipedia.org/w/index.php?title=Yehuecauhceratops&oldid=1358668843
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

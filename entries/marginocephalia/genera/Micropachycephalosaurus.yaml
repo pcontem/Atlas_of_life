@@ -1,0 +1,91 @@
+name: Micropachycephalosaurus
+rank: genus
+parent: marginocephalia
+incertae_sedis: true
+placement_note: Originally described as a pachycephalosaur; later considered a basal marginocephalian or a ceratopsian,
+  the cited analyses disagreeing (Butler and Zhao 2009; Fonseca 2024).
+authority: Dong 1978
+type_species: Micropachycephalosaurus hongtuyanensis
+type_species_note: Only species of the genus (PBDB).
+summary: Micropachycephalosaurus is a small, doubtfully placed marginocephalian from the Late Cretaceous of Shandong,
+  China.
+size:
+  length_m: [1, 1]
+  note: Likely up to 1 m when fully grown (cited Wikipedia revision).
+age:
+  first_ma: 89.8
+  last_ma: 83.6
+  early_interval: Coniacian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Micropachycephalosaurus hongtuyanensis
+  authority: Dong 1978
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: original description
+formations:
+- formation: Jiangjunding
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: jiangjunding-china
+fossil_material:
+  holotype: IVPP V5542, found on a cliff southwest of Laiyang, Shandong, near Hongtuyan station — Jiangjunding Formation.
+  material: Holotype only; the parietal and squamosal supposedly belonging to it could not be located by Butler
+    and Zhao in 2009.
+  completeness: fragmentary
+  exceptional: ''
+biology: Bipedal herbivore.
+images:
+- kind: life
+  file: Micropachycephalosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Micropachycephalosaurus.jpg/960px-Micropachycephalosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Micropachycephalosaurus.jpg
+  artist: IJReid
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-08-02'
+  caption: Life restoration of Micropachycephalosaurus.
+  width: 2482
+  height: 1044
+  review: unreviewed
+  local: img/gallery/Micropachycephalosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137/vector.svg
+  png: https://images.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137/raster/512x185.png
+  page: https://www.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137
+  attribution: Matt Martyniuk (modified by Serenchia)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Psittacosaurus mongoliensis
+  matched: Ceratopsia
+  genus_level: false
+sources:
+- kind: original
+  text: Z. Dong. 1978. [A new genus of Pachycephalosauria from Laiyang, Shantung]. Vertebrata PalAsiatica 16(4):225-228
+- kind: literature
+  text: 'Butler, R.J. 2009. The small-bodied ornithischian dinosaurs ''''Micropachycephalosaurus hongtuyanensis''''
+    and ''''Wannanosaurus yansiensis'''' from the Late Cretaceous of China. Cretaceous Research 30(1): 63–77. doi:10.1016/j.cretres.2008.03.002'
+- kind: literature
+  text: 'Richard J. Butler 2011. The postcranial osteology and phylogenetic position of the small ornithischian
+    dinosaur ''''Changchunsaurus parvus'''' from the Quantou Formation (Cretaceous: Aptian–Cenomanian) of Jilin
+    Province, north-eastern China. Palaeontology 55(3): 667–683. doi:10.1111/j.1475-4983.2011.01046.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Micropachycephalosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Micropachycephalosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Micropachycephalosaurus”. English Wikipedia, revision 1377744798.
+  url: https://en.wikipedia.org/w/index.php?title=Micropachycephalosaurus&oldid=1377744798
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [PBDB gives no named original paper; Dong 1978 named the genus.]
+  reviews: []

@@ -1,0 +1,179 @@
+name: Hylaeosaurus
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Mantell 1833
+type_species: Hylaeosaurus armatus
+type_species_note: Named by Mantell in 1833; the only species considered valid in the cited Wikipedia revision.
+summary: Hylaeosaurus is an Early Cretaceous armoured dinosaur from southern England, among the first dinosaurs
+  named and about five metres long.
+size:
+  length_m: [5, 5]
+  note: Length given in the cited Wikipedia revision.
+age:
+  first_ma: 139.1
+  last_ma: 110.1
+  early_interval: Berriasian
+  late_interval: Albian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Hylaeosaurus armatus
+  authority: Mantell 1833
+  first_ma: 137.05
+  last_ma: 110.1
+  interval: Valanginian–Albian
+  reference: original description
+- name: Hylaeosaurus oweni
+  authority: Mantell 1844
+  first_ma: 137.05
+  last_ma: 110.1
+  interval: Valanginian–Albian
+  reference: ''
+formations:
+- formation: Tunbridge Wells Sand
+  group: Wealden
+  members: [Grinstead Clay]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 3
+  ma: [132.6, 137.05]
+  id: tunbridge-wells-sand-united-kingdom
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 139.1]
+  id: [vectis-united-kingdom, wealden-group-united-kingdom]
+- formation: Bückeberg
+  group: ''
+  members: []
+  country: Germany
+  regions: [Nordrhein-Westfalen]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: buckeberg-germany
+- formation: Weald Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: weald-clay-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: unnamed-grandpre-ardennes-france
+- formation: Ashdown
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: ashdown-united-kingdom
+- formation: Wadhurst Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+fossil_material:
+  holotype: Partial skeleton in a block from the Tilgate Forest, found in 1832 and described by Mantell (collection
+    number not given in the sources used).
+  material: The holotype, plus isolated armour referred to the genus from England, Germany and Spain.
+  completeness: partial
+  exceptional: ''
+biology: Armoured herbivore; the cited sources focus on history and taxonomy.
+images:
+- kind: life
+  file: Hylaeosaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Hylaeosaurus_TD.png/960px-Hylaeosaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hylaeosaurus_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-20'
+  caption: Life restoration of Hylaeosaurus.
+  width: 2600
+  height: 800
+  review: unreviewed
+  local: img/gallery/Hylaeosaurus_001.webp
+- kind: fossil
+  file: Hylaeosaurus fossil illustration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Hylaeosaurus_fossil_illustration.jpg/960px-Hylaeosaurus_fossil_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hylaeosaurus_fossil_illustration.jpg
+  artist: J. Erxleben
+  license: Public domain
+  license_url: ''
+  date: '1858'
+  caption: Hylaeosaurus slab (historic illustration).
+  width: 3752
+  height: 2264
+  review: unreviewed
+  local: img/gallery/Hylaeosaurus_002.webp
+- kind: fossil
+  file: Hylaeosaurus scutes.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Hylaeosaurus_scutes.jpg/960px-Hylaeosaurus_scutes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hylaeosaurus_scutes.jpg
+  artist: Harold9595959
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-08-28'
+  caption: Scutes of Hylaeosaurus in a museum.
+  width: 2301
+  height: 1307
+  review: unreviewed
+  local: img/gallery/Hylaeosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mantell, Gideon Algernon 1833. Observations on the remains of the Iguanodon, and other fossil reptiles,
+    of the strata of Tilgate Forest in Sussex. Proceedings of the Geological Society of London 1: 410–411.'
+- kind: literature
+  text: 'Arbour, Victoria M; Zanno, Lindsay E; Gates, Terry 2016. Ankylosaurian dinosaur palaeoenvironmental associations
+    were influenced by extirpation, sea-level fluctuation, and geodispersal. Palaeogeography, Palaeoclimatology,
+    Palaeoecology 449: 289–299. doi:10.1016/j.palaeo.2016.02.033'
+- kind: literature
+  text: 'Naish, D.; Martill, D.M. 2008. Dinosaurs of Great Britain and the role of the Geological Society of London
+    in their discovery: Ornithischia. Journal of the Geological Society, London 165(3): 613–623. doi:10.1144/0016-76492007-154'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hylaeosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hylaeosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hylaeosaurus”. English Wikipedia, revision 1368881463.
+  url: https://en.wikipedia.org/w/index.php?title=Hylaeosaurus&oldid=1368881463
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Four species were named; only H. armatus is valid in the cited revision (PBDB also lists H. oweni).
+  - Holotype specimen number to be filled from the Natural History Museum record.
+  reviews: []

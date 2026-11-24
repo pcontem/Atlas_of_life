@@ -1,0 +1,105 @@
+name: Sinoceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2010
+type_species: Sinoceratops zhuchengensis
+type_species_note: Only species of the genus (PBDB).
+summary: Sinoceratops is a large centrosaurine from the Campanian of Shandong, the first ceratopsid found in China.
+size:
+  length_m: [5, 5]
+  mass_kg: [2000, 2000]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sinoceratops zhuchengensis
+  authority: Xu et al. 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Hongtuya
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: hongtuya-china
+fossil_material:
+  holotype: ZCDM V0010, a partial skull with most of the skull roof and partial braincase found in 2008 — Hongtuya
+    Formation, Wangshi Group, Shandong.
+  material: Holotype and additional specimens.
+  completeness: partial
+  exceptional: ''
+biology: Large herbivore; no behavioural data.
+images:
+- kind: life
+  file: Sinoceratops zhuchengensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Sinoceratops_zhuchengensis.png/960px-Sinoceratops_zhuchengensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinoceratops_zhuchengensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-19'
+  caption: Life restoration of Sinoceratops zhuchengensis.
+  width: 4000
+  height: 1675
+  review: unreviewed
+  local: img/gallery/Sinoceratops_001.webp
+- kind: fossil
+  file: Sinoceratops skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Sinoceratops_skeleton.jpg/960px-Sinoceratops_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinoceratops_skeleton.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2012-09-15'
+  caption: Skeleton of Sinoceratops.
+  width: 2604
+  height: 2576
+  review: unreviewed
+  local: img/gallery/Sinoceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cc582628-b4c5-45fd-bb6a-c3935d4e677b/vector.svg
+  png: https://images.phylopic.org/images/cc582628-b4c5-45fd-bb6a-c3935d4e677b/raster/512x239.png
+  page: https://www.phylopic.org/images/cc582628-b4c5-45fd-bb6a-c3935d4e677b
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Sinoceratops zhuchengensis
+  matched: Sinoceratops
+  genus_level: true
+  w: 512
+  h: 239
+sources:
+- kind: original
+  text: X. Xu, K.-B. Wang, and X.-J. Zhao, D.-J. Li. 2010. First ceratopsid dinosaur from China and its biogeographical
+    implications. Chinese Science Bulletin 55(16):1631-1635
+- kind: literature
+  text: 'An, W. 2016. Detrital zircon dating and tracing the provenance of dinosaur bone beds from the Late Cretaceous
+    Wangshi Group in Zhucheng, Shandong, East China. Journal of Palaeogeography 5(1): 72–99. doi:10.1016/j.jop.2015.11.002'
+- kind: literature
+  text: 'Xu, X., Wang, K., Zhao, X. & Li, D. 2010. First ceratopsid dinosaur from China and its biogeographical
+    implications. Chinese Science Bulletin 55(16): 1631–1635. doi:10.1007/s11434-009-3614-5'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinoceratops”. English Wikipedia, revision 1344640596.
+  url: https://en.wikipedia.org/w/index.php?title=Sinoceratops&oldid=1344640596
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,141 @@
+name: Tarchia
+rank: genus
+parent: ankylosauridae
+incertae_sedis: true
+placement_note: Arbour concluded that Minotaurasaurus is a junior synonym of Tarchia (cited revision of Tarchia),
+  while the revision of Minotaurasaurus treats it as distinct; both entries are kept until reviewed.
+authority: Maryanska 1977
+type_species: Tarchia kielanae
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Tarchia is a large ankylosaurid from the Late Cretaceous of Mongolia, based on a skull from the Barun Goyot
+  Formation.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Tarchia kielanae
+  authority: Maryanska 1977
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Tarchia teresae
+  authority: Penkalski and Tumanova 2017
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Tarchia tumanovae
+  authority: Park et al. 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: ZPal MgD-I/111, a skull found in 1970 — Barun Goyot Formation, Nemegt Basin, near Khulsan, Mongolia.
+  material: Further species include T. tumanovae (MPC-D 100/1353, a partial skeleton with skull).
+  completeness: multiple
+  exceptional: ''
+biology: Known from skulls and some postcrania; no behavioural data in the sources used.
+images:
+- kind: life
+  file: Tarchia 02.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Tarchia_02.png/960px-Tarchia_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tarchia_02.png
+  artist: Conty
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-02-05'
+  caption: Life restoration of Tarchia.
+  width: 2806
+  height: 1282
+  review: unreviewed
+  local: img/gallery/Tarchia_001.webp
+- kind: fossil
+  file: Tarchia gigantea skull front 4.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Tarchia_gigantea_skull_front_4.JPG/960px-Tarchia_gigantea_skull_front_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tarchia_gigantea_skull_front_4.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-06-21'
+  caption: Skull of Tarchia gigantea.
+  width: 2959
+  height: 3060
+  review: unreviewed
+  local: img/gallery/Tarchia_002.webp
+- kind: fossil
+  file: Tarchia tumanovae holotype skull (cropped 2).png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/85/Tarchia_tumanovae_holotype_skull_%28cropped_2%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tarchia_tumanovae_holotype_skull_(cropped_2).png
+  artist: Jin-Young Park, Yuong-Nam Lee, Yoshitsugu Kobayashi, Louis L. Jacobs, Rinchen Barsbold, Hang-Jae Lee,
+    Namsoo Kim, Kyo-Young Song & Michael J. Polcyn
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-11-25'
+  caption: Holotype skull of Tarchia tumanovae.
+  width: 700
+  height: 400
+  review: unreviewed
+  local: img/gallery/Tarchia_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: T. Maryanska. 1977. Ankylosauridae (Dinosauria) from Mongolia. Palaeontologia Polonica 37:85-151
+- kind: literature
+  text: 'Paul Penkalski 2016. The cranial morphology and taxonomic status of ''''Tarchia'''' (Dinosauria: Ankylosauridae)
+    from the Upper Cretaceous of Mongolia. Cretaceous Research 70: 117–127. doi:10.1016/j.cretres.2016.10.004'
+- kind: literature
+  text: Park JY, Lee YN, Kobayashi Y, Jacobs LL, Barsbold R, Lee HJ, Kim N, Song KY, Polcyn MJ 2021. A new ankylosaurid
+    from the Upper Cretaceous Nemegt Formation of Mongolia and implications for paleoecology of armoured dinosaurs.
+    Scientific Reports 11(1). doi:10.1038/s41598-021-02273-4
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tarchia (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tarchia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tarchia”. English Wikipedia, revision 1366904283.
+  url: https://en.wikipedia.org/w/index.php?title=Tarchia&oldid=1366904283
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Validity of Minotaurasaurus (junior synonym?) and of T. teresae/T. tumanovae to be checked.
+  - PBDB gives no named original paper; Maryańska 1977 named the genus.
+  - Size not given in the cited revision.
+  reviews: []

@@ -1,0 +1,101 @@
+name: Zhuchengceratops
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2010
+type_species: Zhuchengceratops inexpectus
+type_species_note: Only species of the genus (PBDB).
+summary: Zhuchengceratops is a small leptoceratopsid from the Campanian of Shandong, China, found among Shantungosaurus
+  bones.
+size:
+  length_m: [2.5, 2.5]
+  mass_kg: [175, 175]
+  note: Estimate for the adult specimen in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhuchengceratops inexpectus
+  authority: Xu et al. 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Hongtuya
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: hongtuya-china
+fossil_material:
+  holotype: Partial articulated skeleton with vertebrae, ribs, teeth and parts of the skull and mandibles (number
+    not given in the sources used) — Wangshi Group, Zhucheng, Shandong.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Herbivore; no behavioural data.
+images:
+- kind: fossil
+  file: Zhuchengceratops inexpectus holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Zhuchengceratops_inexpectus_holotype.png/960px-Zhuchengceratops_inexpectus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zhuchengceratops_inexpectus_holotype.png
+  artist: Xing Xu, Kebai Wang, Xijin Zhao, Corwin Sullivan, Shuqing Chen
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-11-04'
+  caption: Holotype of Zhuchengceratops inexpectus.
+  width: 1817
+  height: 1498
+  review: unreviewed
+  local: img/gallery/Zhuchengceratops_001.webp
+- kind: fossil
+  file: Zhuchengoceratops skull and mandible.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Zhuchengoceratops_skull_and_mandible.png/960px-Zhuchengoceratops_skull_and_mandible.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zhuchengoceratops_skull_and_mandible.png
+  artist: Xing Xu, Kebai Wang, Xijin Zhao, Corwin Sullivan, Shuqing Chen
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-11-04'
+  caption: Skull and mandible of Zhuchengoceratops.
+  width: 1894
+  height: 2000
+  review: unreviewed
+  local: img/gallery/Zhuchengceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Xing Xu 2010. A New Leptoceratopsid (Ornithischia: Ceratopsia) from the Upper Cretaceous of Shandong, China
+    and Its Implications for Neoceratopsian Evolution. PLOS ONE 5(11). doi:10.1371/journal.pone.0013835'
+- kind: literature
+  text: 'An, W. 2016. Detrital zircon dating and tracing the provenance of dinosaur bone beds from the Late Cretaceous
+    Wangshi Group in Zhucheng, Shandong, East China. Journal of Palaeogeography 5(1): 72–99. doi:10.1016/j.jop.2015.11.002'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhuchengceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhuchengceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhuchengceratops”. English Wikipedia, revision 1315093912.
+  url: https://en.wikipedia.org/w/index.php?title=Zhuchengceratops&oldid=1315093912
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

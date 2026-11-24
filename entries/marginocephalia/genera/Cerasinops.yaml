@@ -1,0 +1,93 @@
+name: Cerasinops
+rank: genus
+parent: leptoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Chinnery and Horner 2007
+type_species: Cerasinops hodgskissi
+type_species_note: Only species of the genus (PBDB).
+summary: Cerasinops is a small ceratopsian from the Campanian Two Medicine Formation of Montana, known from a nearly
+  80% complete skeleton.
+size:
+  length_m: [2.5, 2.5]
+  mass_kg: [175, 175]
+  note: Estimate from the nearly complete holotype (cited Wikipedia revision).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Cerasinops hodgskissi
+  authority: Chinnery and Horner 2007
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte, Hagans Crossing]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+fossil_material:
+  holotype: MOR 300, a skeleton almost 80% complete — Two Medicine Formation, Montana.
+  material: Holotype plus a specimen collected by Gilmore in 1930s from the same formation.
+  completeness: near-complete
+  exceptional: ''
+biology: Herbivore with a beak; no behavioural data.
+images:
+- kind: life
+  file: Cerasinops BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d5/Cerasinops_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cerasinops_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-01'
+  caption: Life restoration of Cerasinops.
+  width: 800
+  height: 466
+  review: unreviewed
+  local: img/gallery/Cerasinops_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/vector.svg
+  png: https://images.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12/raster/512x182.png
+  page: https://www.phylopic.org/images/a2eb8d99-65d3-4434-be20-49f3a8269c12
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Leptoceratops gracilis
+  matched: Leptoceratopsidae
+  genus_level: false
+  w: 512
+  h: 182
+sources:
+- kind: original
+  text: 'Chinnery, B.J.; Horner, J.R. 2007. A new neoceratopsian dinosaur linking North American and Asian taxa.
+    Journal of Vertebrate Paleontology 27(3): 625–641. doi:10.1671/0272-4634(2007)27[625:ANNDLN]2.0.CO;2'
+- kind: literature
+  text: 'Rogers, Raymond R.; Horner, John R.; Ramezani, Jahandar; Roberts, Eric M.; Varricchio, David J. 2024. Updating
+    the Upper Cretaceous (Campanian) Two Medicine Formation of Montana: Lithostratigraphic revisions, new CA-ID-TIMS
+    U-Pb ages, and a calibrated framework for dinosaur occurrences. Geological Society of America Bulletin. doi:10.1130/B37498.1'
+- kind: literature
+  text: 'Gilmore, C.W. 1939. Ceratopsian dinosaurs from the Two Medicine Formation, Upper Cretaceous of Montana.
+    Proceedings of the United States National Museum 87(3066): 1–18. doi:10.5479/si.00963801.87-3066.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cerasinops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cerasinops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cerasinops”. English Wikipedia, revision 1351057680.
+  url: https://en.wikipedia.org/w/index.php?title=Cerasinops&oldid=1351057680
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

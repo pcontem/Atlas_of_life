@@ -1,0 +1,93 @@
+name: Sarcolestes
+rank: genus
+parent: ankylosauria
+incertae_sedis: true
+placement_note: Known only from a partial mandible; one of few Middle Jurassic ankylosaurians (cited Wikipedia revision);
+  position inside Ankylosauria not resolved.
+authority: Lydekker 1893
+type_species: Sarcolestes leedsi
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Sarcolestes is an early ankylosaur from the Middle Jurassic Oxford Clay of England, known only from a partial
+  lower jaw.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sarcolestes leedsi
+  authority: Lydekker 1893
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 2
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: NHMUK PV R 2682, a partial left mandible and fused scute damaged during excavation — Oxford Clay Formation,
+    England.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Nopcsa (1901) showed it was herbivorous.
+images:
+- kind: fossil
+  file: Sarcolestes.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b4/Sarcolestes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sarcolestes.jpg
+  artist: Richard Lydekker (July 25, 1849 - April 16, 1915)
+  license: Public domain
+  license_url: ''
+  date: 1893-08
+  caption: Holotype mandible of Sarcolestes leedsi.
+  width: 836
+  height: 1376
+  review: unreviewed
+  local: img/gallery/Sarcolestes_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/4ee1a15e-f275-4dc6-be7a-6669274c1e1e/vector.svg
+  png: https://images.phylopic.org/images/4ee1a15e-f275-4dc6-be7a-6669274c1e1e/raster/512x174.png
+  page: https://www.phylopic.org/images/4ee1a15e-f275-4dc6-be7a-6669274c1e1e
+  attribution: Alexander Vargas
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Stegouros elengassen
+  matched: Ankylosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Lydekker, R. 1893. On the Jaw of a New Carnivorous dinosaur from the Oxford Clay of Peterborough. Quarterly
+    Journal of the Geological Society 49(1–4): 284–287. doi:10.1144/gsl.jgs.1893.049.01-04.46'
+- kind: literature
+  text: 'Maidment, Susannah C. R.; Strachan, Sarah J.; Ouarhache, Driss; Scheyer, Torsten M.; Brown, Emily E.; Fernandez,
+    Vincent; Johanson, Zerina; Raven, Thomas J.; Barrett, Paul M. 2021. Bizarre dermal armour suggests the first
+    African ankylosaur. Nature Ecology & Evolution 5(12): 1576–1581. doi:10.1038/s41559-021-01553-6'
+- kind: literature
+  text: 'Pereda-Suberbiola, X.; Fuentes, C.; Meijide, M.; Meijide-Fuentes, F.; Meijide-Fuentes, M. Jr. 2007. New
+    remains of the ankylosaurian dinosaur ''''Polacanthus'''' from the Lower Cretaceous of Soria, Spain. Cretaceous
+    Research 28(4): 583–596. doi:10.1016/j.cretres.2006.09.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sarcolestes (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sarcolestes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sarcolestes”. English Wikipedia, revision 1374874407.
+  url: https://en.wikipedia.org/w/index.php?title=Sarcolestes&oldid=1374874407
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

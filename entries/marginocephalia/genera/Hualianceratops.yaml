@@ -1,0 +1,96 @@
+name: Hualianceratops
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Han et al. 2015
+type_species: Hualianceratops wucaiwanensis
+type_species_note: Only species of the genus (PBDB).
+summary: Hualianceratops is a small basal ceratopsian from the Late Jurassic Shishugou Formation of Xinjiang, China.
+size:
+  length_m: [1.2, 1.2]
+  note: Estimate in the cited Wikipedia revision.
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hualianceratops wucaiwanensis
+  authority: Han et al. 2015
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Shishugou
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: shishugou-china
+fossil_material:
+  holotype: IVPP V18641, a partial skeleton with skull and lower jaws — upper Shishugou Formation (Oxfordian), Wucaiwan,
+    Xinjiang.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Small herbivore; skull length estimated at 25 cm.
+images:
+- kind: fossil
+  file: IVVP V18641.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9f/IVVP_V18641.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:IVVP_V18641.jpg
+  artist: Crizz30
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-12-11'
+  caption: Holotype IVPP V18641 of Hualianceratops.
+  width: 1188
+  height: 1366
+  review: unreviewed
+  local: img/gallery/Hualianceratops_001.webp
+- kind: life
+  file: Hualianceratops wucaiwanensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hualianceratops_wucaiwanensis.png/960px-Hualianceratops_wucaiwanensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hualianceratops_wucaiwanensis.png
+  artist: Levi bernardo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2017-01-25'
+  caption: Life restoration of Hualianceratops wucaiwanensis.
+  width: 3106
+  height: 2450
+  review: unreviewed
+  local: img/gallery/Hualianceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/vector.svg
+  png: https://images.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed/raster/512x187.png
+  page: https://www.phylopic.org/images/580db433-c610-40df-b7d8-a3434ad158ed
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Yinlong downsi
+  matched: Chaoyangsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Han, Fenglu; Forster, Catherine A.; Clark, James M.; Xu, Xing 9 De. A New Taxon of Basal Ceratopsian from
+    China and the Early Evolution of Ceratopsia. PLOS One 10(12). doi:10.1371/journal.pone.0143369
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hualianceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hualianceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hualianceratops”. English Wikipedia, revision 1378328644.
+  url: https://en.wikipedia.org/w/index.php?title=Hualianceratops&oldid=1378328644
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

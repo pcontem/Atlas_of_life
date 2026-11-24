@@ -5,16 +5,42 @@ group: ''
 country: United States
 regions: [Utah]
 location:
-  lat: 37.452
-  lng: -111.532
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lat: 37.511
+  lng: -111.728
+  basis: median of 16 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [coarse channel fill, '"floodplain"', fluvial indet.]
-lithology: [sandstone, mudstone]
-pbdb_collections: ['176982', '219712', '231039']
+environment:
+- terrestrial indet.
+- fine channel fill
+- '"channel"'
+- coarse channel fill
+- fluvial indet.
+- pond
+- crevasse splay
+- dry floodplain
+- channel lag
+- '"floodplain"'
+lithology: [sandstone, mudstone, siltstone, conglomerate]
+pbdb_collections:
+- '69799'
+- '97800'
+- '97801'
+- '97802'
+- '97803'
+- '97804'
+- '97805'
+- '97808'
+- '97809'
+- '97810'
+- '97811'
+- '131868'
+- '176982'
+- '196592'
+- '219712'
+- '231039'
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,103 @@
+name: Turanoceratops
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Nessov et al. 1989
+type_species: Turanoceratops tardabilis
+type_species_note: Only species of the genus (PBDB).
+summary: Turanoceratops is a ceratopsian from the Turonian Bissekty Formation of Uzbekistan, transitional between
+  early ceratopsians and ceratopsids.
+size:
+  length_m: [2, 2]
+  mass_kg: [175, 175]
+  note: Estimate by Paul cited in the Wikipedia revision.
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Turanoceratops tardabilis
+  authority: Nessov et al. 1989
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 6
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Fragmentary fossils collected from the 1920s onwards near Dzharakuduk, Navoi Viloyat; the type material
+    is not detailed in the sources used.
+  material: Fragmentary remains; PBDB lists six occurrences.
+  completeness: fragmentary
+  exceptional: ''
+biology: Skull bore a pair of long brow horns like those of ceratopsids.
+images:
+- kind: life
+  file: Turanoceratops tardabilis life restoration (flipped).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Turanoceratops_tardabilis_life_restoration_%28flipped%29.jpg/960px-Turanoceratops_tardabilis_life_restoration_%28flipped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Turanoceratops_tardabilis_life_restoration_(flipped).jpg
+  artist: Lineart by Teratophoneus of Deviant Art ( https://teratophoneus.deviantart.com ), colour by User:Paleocolour
+    ( https://paleocolour.deviantart.com )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2017-11-05'
+  caption: Life restoration of Turanoceratops tardabilis.
+  width: 1800
+  height: 904
+  review: unreviewed
+  local: img/gallery/Turanoceratops_001.webp
+- kind: fossil
+  file: Turanoceratops tooth.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/71/Turanoceratops_tooth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Turanoceratops_tooth.jpg
+  artist: User:Utahraptor
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: ''
+  caption: Tooth of Turanoceratops.
+  width: 713
+  height: 993
+  review: unreviewed
+  local: img/gallery/Turanoceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/4c6655c4-68e1-4ab2-a829-100ac8107722/vector.svg
+  png: https://images.phylopic.org/images/4c6655c4-68e1-4ab2-a829-100ac8107722/raster/512x188.png
+  page: https://www.phylopic.org/images/4c6655c4-68e1-4ab2-a829-100ac8107722
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ajkaceratops kozmai
+  matched: Ceratopsoidea
+  genus_level: false
+sources:
+- kind: original
+  text: L. A. Nessov, L. F. Kaznyshkina, and G. O. Cherepanov. 1989. [Mesozoic ceratopsian dinosaurs and crocodiles
+    of central Asia]. In Bogdanova and Khozatskii (eds.), Theoretical and Applied Aspects of Modern Palaeontology
+- kind: literature
+  text: 'Xu, X., Wang, K., Zhao, X. & Li, D. 2010. First ceratopsid dinosaur from China and its biogeographical
+    implications. Chinese Science Bulletin 55(16): 1631–1635. doi:10.1007/s11434-009-3614-5'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Turanoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Turanoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Turanoceratops”. English Wikipedia, revision 1295423393.
+  url: https://en.wikipedia.org/w/index.php?title=Turanoceratops&oldid=1295423393
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Peter Dodson (2004) considered the genus a nomen dubium; Sues and Averianov (2009) found it valid.
+  reviews: []

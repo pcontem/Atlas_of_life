@@ -1,0 +1,89 @@
+name: Niobrarasaurus
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Carpenter et al. 1995
+type_species: Niobrarasaurus coleii
+type_species_note: Species Hierosaurus coleii of Mehl 1936, moved to Niobrarasaurus by Carpenter et al. 1995 (cited
+  Wikipedia revision).
+summary: Niobrarasaurus is a nodosaurid from the Late Cretaceous Niobrara Formation of Kansas, probably close to
+  Nodosaurus.
+size:
+  length_m: [5, 6.5]
+  mass_kg: [227, 4000]
+  note: 5 m and 227–453 kg after Holtz; 6.5 m and 4 t after Paul (cited Wikipedia revision).
+age:
+  first_ma: 89.8
+  last_ma: 83.6
+  early_interval: Coniacian
+  late_interval: Santonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Niobrarasaurus coleii
+  authority: (Mehl 1936)
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: original description
+formations:
+- formation: Niobrara
+  group: Colorado
+  members: [Smoky Hill Chalk]
+  country: United States
+  regions: [Kansas]
+  interval: Late Coniacian–Middle Santonian
+  occurrences: 2
+  ma: [83.6, 89.8]
+  id: niobrara-united-states
+fossil_material:
+  holotype: MU 650 VP, many articulated but broken bones collected by Cole — Niobrara Formation, Kansas; now in
+    the Sternberg Museum of Natural History.
+  material: A single partial skeleton.
+  completeness: partial
+  exceptional: ''
+biology: Armoured quadrupedal herbivore related to Nodosaurus; no behavioural data in the sources used.
+images:
+- kind: fossil
+  file: Niobrarasaurus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Niobrarasaurus_skeleton.jpg/960px-Niobrarasaurus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Niobrarasaurus_skeleton.jpg
+  artist: Neil G. Pezzoni
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-07-10'
+  caption: Mounted skeleton of Niobrarasaurus.
+  width: 4032
+  height: 3024
+  review: unreviewed
+  local: img/gallery/Niobrarasaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Carpenter, K.; Dilkes, D.; Weishampel, D.B. 1995. The dinosaurs of the Niobrara Chalk Formation (upper
+    Cretaceous, Kansas). Journal of Vertebrate Paleontology 15(2): 275–297. doi:10.1080/02724634.1995.10011230'
+- kind: literature
+  text: 'Mehl, M.G. 1936. ''''Hierosaurus coleii'''': a new aquatic dinosaur from the Niobrara Cretaceous of Kansas.
+    Journal of the Scientific Laboratories of Denison University 31(1–2): 1–20.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Niobrarasaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Niobrarasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Niobrarasaurus”. English Wikipedia, revision 1316301175.
+  url: https://en.wikipedia.org/w/index.php?title=Niobrarasaurus&oldid=1316301175
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

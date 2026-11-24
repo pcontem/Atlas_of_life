@@ -1,0 +1,101 @@
+name: Coahuilaceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Loewen et al. 2010
+type_species: Coahuilaceratops magnacuerna
+type_species_note: Only species of the genus (PBDB).
+summary: Coahuilaceratops is a large chasmosaurine with very long brow horns from the Maastrichtian of Coahuila,
+  Mexico.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Coahuilaceratops magnacuerna
+  authority: Loewen et al. 2010
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Difunta
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: difunta-group-mexico
+fossil_material:
+  holotype: 'CPC 276, unarticulated skull bones of an adult (rostral, premaxilla, maxilla, nasals, horncores, frill,
+    predentary, dentaries) with unprepared postcrania — Cerro del Pueblo Formation (PBDB: unnamed unit), Coahuila,
+    Mexico.'
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Very long supraorbital horncores; no behavioural data.
+images:
+- kind: fossil
+  file: Coahuilaceratops magnacuerna skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Coahuilaceratops_magnacuerna_skull.jpg/960px-Coahuilaceratops_magnacuerna_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Coahuilaceratops_magnacuerna_skull.jpg
+  artist: ケラトプスユウタ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-07'
+  caption: Skull of Coahuilaceratops magnacuerna.
+  width: 3024
+  height: 4032
+  review: unreviewed
+  local: img/gallery/Coahuilaceratops_001.webp
+- kind: fossil
+  file: Coahuilaceratops Mounted.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/05/Coahuilaceratops_Mounted.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Coahuilaceratops_Mounted.png
+  artist: Levi bernardo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014-11-19'
+  caption: Mounted Coahuilaceratops.
+  width: 477
+  height: 651
+  review: unreviewed
+  local: img/gallery/Coahuilaceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'M. A. Loewen, S. D. Sampson, and E. K. Lund, A. A. Farke, M. C. Aguillón-Martínez, C. A. de Leon, R. A.
+    Rodríguez-de la Rosa, M. A. Getty, D. A. Eberth. 2010. Horned dinosaurs (Ornithischia: Ceratopsia) from the
+    Upper Cretaceous (Campanian) Cerro del Pueblo Formation, Coahuila, Mexico. New Perspectives on Horned Dinosaurs:
+    The Royal Tyrrell Museum Ceratopsian Symposium. Indiana University Press, Bloomington'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coahuilaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coahuilaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coahuilaceratops”. English Wikipedia, revision 1372856618.
+  url: https://en.wikipedia.org/w/index.php?title=Coahuilaceratops&oldid=1372856618
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Formation recorded by PBDB as an unnamed unit; the Wikipedia revision has no citation list extracted.
+  reviews: []

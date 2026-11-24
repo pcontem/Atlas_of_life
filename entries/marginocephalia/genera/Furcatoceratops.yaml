@@ -1,0 +1,98 @@
+name: Furcatoceratops
+rank: genus
+parent: centrosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Ishikawa et al. 2023
+type_species: Furcatoceratops elucidans
+type_species_note: Only species of the genus (PBDB).
+summary: Furcatoceratops is a nasutoceratopsin centrosaurine from the Judith River Formation of Montana, named in
+  2023.
+size:
+  length_m: null
+  note: Holotype is a moderately sized subadult; no length given.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Furcatoceratops elucidans
+  authority: Ishikawa et al. 2023
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Judith River
+  group: Montana
+  members: [Coal Ridge]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+fossil_material:
+  holotype: NSM PV 24660, a nearly complete disarticulated skeleton of a subadult — "12-020" quarry, Judith River
+    Formation, Fergus County, Montana (about 75.6 Ma); held at the National Museum of Nature and Science, Tsukuba,
+    Japan.
+  material: Holotype only.
+  completeness: near-complete
+  exceptional: ''
+biology: Known from one subadult; no behavioural data.
+images:
+- kind: fossil
+  file: Furcatoceratops skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Furcatoceratops_skull.jpg/960px-Furcatoceratops_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Furcatoceratops_skull.jpg
+  artist: ケラトプスユウタ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-21'
+  caption: Skull of Furcatoceratops.
+  width: 3343
+  height: 2478
+  review: unreviewed
+  local: img/gallery/Furcatoceratops_001.webp
+- kind: fossil
+  file: Furcatoceratops mount.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Furcatoceratops_mount.jpg/960px-Furcatoceratops_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Furcatoceratops_mount.jpg
+  artist: ケラトプスユウタ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-21'
+  caption: Mounted skeleton of Furcatoceratops.
+  width: 4032
+  height: 3024
+  review: unreviewed
+  local: img/gallery/Furcatoceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ishikawa, H.; Tsuihiji, T.; Manabe, M. 2023. ''''Furcatoceratops elucidans'''', a new centrosaurine (Ornithischia:
+    Ceratopsidae) from the upper Campanian Judith River Formation, Montana, USA. Cretaceous Research 151. doi:10.1016/j.cretres.2023.105660'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Furcatoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Furcatoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Furcatoceratops”. English Wikipedia, revision 1369380863.
+  url: https://en.wikipedia.org/w/index.php?title=Furcatoceratops&oldid=1369380863
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

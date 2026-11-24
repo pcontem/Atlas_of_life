@@ -1,0 +1,263 @@
+name: Triceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1889
+type_species: Triceratops horridus
+type_species_note: Marsh named the holotype first as Ceratops horridus (cited Wikipedia revision); PBDB lists T.
+  horridus.
+summary: Triceratops is the best-known ceratopsid, a three-horned giant from the latest Cretaceous of western North
+  America.
+size:
+  length_m: [8, 9]
+  mass_kg: [6000, 10000]
+  note: Ranges in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 166
+  note: ''
+species:
+- name: Triceratops albertensis
+  authority: Sternberg 1949
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Triceratops brevicornus
+  authority: Hatcher and Lull 1905
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Triceratops calicornis
+  authority: Marsh 1898
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Triceratops elatus
+  authority: Marsh 1891
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Triceratops eurycephalus
+  authority: Schlaikjer 1935
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Triceratops flabellatus
+  authority: (Marsh 1889)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Triceratops horridus
+  authority: (Marsh 1889)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Triceratops obtusus
+  authority: Marsh 1898
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Triceratops prorsus
+  authority: (Marsh 1890)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Triceratops serratus
+  authority: Marsh 1890
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Lance
+  group: ''
+  members: [Chiule, Torrington]
+  country: United States
+  regions: [Montana, South Dakota, Utah, Wyoming]
+  interval: Lancian
+  occurrences: 68
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Hell Creek
+  group: Montana
+  members: [Lower, Pretty Butte, Upper]
+  country: United States
+  regions: [Montana, North Dakota, South Dakota, Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 64
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Frenchman
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Late Maastrichtian
+  occurrences: 14
+  ma: [66.0, 72.2]
+  id: frenchman-canada
+- formation: Laramie
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Lancian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: laramie-united-states
+- formation: Scollard
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: scollard-canada
+- formation: Denver
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: denver-united-states
+- formation: Ferris
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: ferris-united-states
+- formation: Hall Lake
+  group: McRae
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: hall-lake-united-states
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Evanston
+  group: ''
+  members: [Hams Fork Conglomerate]
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: evanston-united-states
+- formation: Medicine Bow
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: medicine-bow-united-states
+fossil_material:
+  holotype: YPM 1820, a skull collected in 1888 by John Bell Hatcher — Lance Formation, Wyoming.
+  material: More than a hundred skulls and many skeletons, from Lance, Hell Creek and Frenchman formations.
+  completeness: multiple
+  exceptional: Skin impressions with large basement scales are known.
+biology: Large herbivore with a beak and shearing teeth; basement scales up to 9 cm across.
+images:
+- kind: life
+  file: Juvenile reconstruction of Triceratops.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/65/Juvenile_reconstruction_of_Triceratops.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Juvenile_reconstruction_of_Triceratops.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-24'
+  caption: Juvenile reconstruction of Triceratops.
+  width: 792
+  height: 828
+  review: unreviewed
+  local: img/gallery/Triceratops_001.webp
+- kind: fossil
+  file: LA-Triceratops mount-2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/LA-Triceratops_mount-2.jpg/960px-LA-Triceratops_mount-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:LA-Triceratops_mount-2.jpg
+  artist: 'Source: Allie_Caulfield Derivative: User:MathKnight'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-12-27'
+  caption: Mounted Triceratops at the Natural History Museum of Los Angeles.
+  width: 4560
+  height: 3460
+  review: unreviewed
+  local: img/gallery/Triceratops_002.webp
+- kind: fossil
+  file: Laramie Triceratops skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Laramie_Triceratops_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Laramie_Triceratops_skull.jpg
+  artist: Anky-man at English Wikipedia
+  license: Public domain
+  license_url: ''
+  date: 20 June 20
+  caption: Skull of Triceratops.
+  width: 407
+  height: 264
+  review: unreviewed
+  local: img/gallery/Triceratops_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/d36ccf73-05b9-4b16-83a1-cfe231ef7166/vector.svg
+  png: https://images.phylopic.org/images/d36ccf73-05b9-4b16-83a1-cfe231ef7166/raster/512x209.png
+  page: https://www.phylopic.org/images/d36ccf73-05b9-4b16-83a1-cfe231ef7166
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Triceratops horridus
+  matched: Triceratops
+  genus_level: true
+  w: 512
+  h: 209
+sources:
+- kind: original
+  text: O. C. Marsh. 1889. Notice of gigantic horned Dinosauria from the Cretaceous. American Journal of Science
+    38:173-175
+- kind: literature
+  text: 'Lehman, Thomas M.; Mcdowell, Fred W.; Connelly, James N. 2006. First Isotopic (U-Pb) Age for the Late Cretaceous
+    Alamosaurus Vertebrate Fauna of West Texas, and Its Significance as a Link between Two Faunal Provinces. Journal
+    of Vertebrate Paleontology 26(4): 922–928. doi:10.1671/0272-4634(2006)26[922:FIUAFT]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Triceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Triceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Triceratops”. English Wikipedia, revision 1386183657.
+  url: https://en.wikipedia.org/w/index.php?title=Triceratops&oldid=1386183657
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Only T. horridus and T. prorsus are widely regarded as valid; the species list from PBDB includes names the
+    Wikipedia revision calls nomina dubia. Check species.
+  reviews: []

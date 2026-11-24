@@ -1,0 +1,97 @@
+name: Sasayamagnomus
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Tanaka et al. 2024
+type_species: Sasayamagnomus saegusai
+type_species_note: Only species of the genus (PBDB).
+summary: Sasayamagnomus is a small neoceratopsian from the Albian Ohyamashimo Formation of Hyōgo, Japan, named in
+  2024.
+size:
+  length_m: [0.8, 0.8]
+  note: Estimated length of the not fully grown holotype (cited Wikipedia revision).
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sasayamagnomus saegusai
+  authority: Tanaka et al. 2024
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Ohyamashimo
+  group: Sasayama
+  members: []
+  country: Japan
+  regions: [Hyogo]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: ohyamashimo-japan
+fossil_material:
+  holotype: MNHAH D1-060516 — Ohyamashimo Formation, Hyōgo Prefecture, Japan.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Placed as sister to Aquilops in a basal neoceratopsian clade with Auroraceratops.
+images:
+- kind: life
+  file: Sasayamagnomus saegusai.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Sasayamagnomus_saegusai.png/960px-Sasayamagnomus_saegusai.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sasayamagnomus_saegusai.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-09-03'
+  caption: Life restoration of Sasayamagnomus saegusai.
+  width: 3000
+  height: 1303
+  review: unreviewed
+  local: img/gallery/Sasayamagnomus_001.webp
+- kind: fossil
+  file: Sasayamagnomus HolotypeJH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sasayamagnomus_HolotypeJH.jpg/960px-Sasayamagnomus_HolotypeJH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sasayamagnomus_HolotypeJH.jpg
+  artist: Palaeotaku
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-09-30'
+  caption: Holotype of Sasayamagnomus.
+  width: 3368
+  height: 2240
+  review: unreviewed
+  local: img/gallery/Sasayamagnomus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/vector.svg
+  png: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/raster/512x201.png
+  page: https://www.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Archaeoceratops oshimai
+  matched: Neoceratopsia
+  genus_level: false
+sources:
+- kind: original
+  text: Tanaka, Tomonori; Chiba, Kentaro; Ikeda, Tadahiro; Ryan, Michael J. Sept. A new neoceratopsian (Ornithischia,
+    Ceratopsia) from the Lower Cretaceous Ohyamashimo Formation (Albian), southwestern Japan. Papers in Palaeontology
+    10(5). doi:10.1002/spp2.1587
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sasayamagnomus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sasayamagnomus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sasayamagnomus”. English Wikipedia, revision 1320476277.
+  url: https://en.wikipedia.org/w/index.php?title=Sasayamagnomus&oldid=1320476277
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

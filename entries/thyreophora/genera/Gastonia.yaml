@@ -1,0 +1,94 @@
+name: Gastonia
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Kirkland 1998
+type_species: Gastonia burgei
+type_species_note: Named by Kirkland in 1998 (PBDB; Kinneer et al. 2016 abstract).
+summary: Gastonia is a heavily armoured polacanthid ankylosaur from the Lower Cretaceous Cedar Mountain Formation
+  of Utah, known from many individuals.
+size:
+  length_m: [4.6, 6]
+  note: 4.6 m in the Natural History Museum (London) Dino Directory; 6 m was Kirkland's 1998 estimate as reported
+    by a secondary source.
+age:
+  first_ma: 137.05
+  last_ma: 100.5
+  early_interval: Valanginian
+  late_interval: Albian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Gastonia burgei
+  authority: Kirkland 1998
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+- name: Gastonia lorriemcwhinneyae
+  authority: Kineer et al. 2016
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: ''
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Poison Strip Sandstone, Yellow Cat]
+  country: United States
+  regions: [Utah]
+  interval: Valanginian–Albian
+  occurrences: 3
+  ma: [100.5, 137.05]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: CEUM 1307, an adult skull about 295 mm long and 283 mm wide — Yellow Cat Quarry, Yellow Cat Member,
+    Cedar Mountain Formation, Grand County, Utah.
+  material: Hundreds of disarticulated bones and several partial skeletons from Gaston and Dalton Wells quarries;
+    G. lorriemcwhinneyae comes from a bonebed in a higher member (Ruby Ranch Member).
+  completeness: multiple
+  exceptional: ''
+biology: Sacral shield with paired keeled "quarter rings" and large shoulder spikes; bonebeds of several individuals
+  may reflect group death by drought or drowning (G. lorriemcwhinneyae).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90f82bde-e976-4acd-8f75-954d44f5e236/vector.svg
+  png: https://images.phylopic.org/images/90f82bde-e976-4acd-8f75-954d44f5e236/raster/512x148.png
+  page: https://www.phylopic.org/images/90f82bde-e976-4acd-8f75-954d44f5e236
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Gastonia burgei
+  matched: Gastonia
+  genus_level: true
+  w: 512
+  h: 148
+sources:
+- kind: original
+  text: 'Kirkland, J. I. 1998. A polacanthine ankylosaur (Ornithischia: Dinosauria) from the Early Cretaceous (Barremian)
+    of eastern Utah. In: Lucas, S. G., Kirkland, J. I., Estep, J. W. (eds), Lower and Middle Cretaceous Terrestrial
+    Ecosystems. New Mexico Museum of Natural History and Science Bulletin 14: 271–281 (as cited in English Wikipedia;
+    accessed 2026-11-23).'
+- kind: literature
+  text: 'Kinneer, B., Carpenter, K., Shaw, A. 2016. Redescription of Gastonia burgei (Dinosauria: Ankylosauria,
+    Polacanthidae), and description of a new species. Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen
+    282: 37–80.'
+  url: https://www.schweizerbart.de/papers/njgpa/detail/282/86954/Redescription_of_Gastonia_burgei_Dinosauria_Ankylo
+- kind: literature
+  text: 'Natural History Museum, London. Dino Directory: Gastonia (accessed 2026-11-23).'
+  url: https://www.nhm.ac.uk/discover/dino-directory/Gastonia.html
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gastonia (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gastonia
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Facts from web search (Kinneer et al. 2016 abstract; NHM Dino Directory; Wikipedia article text, no fixed revision
+    harvested). Replace with a fixed English Wikipedia revision (S3) when the harvest is refreshed, and add the
+    Kirkland 1998 citation.
+  - PBDB gives age Valanginian–Albian; the Yellow Cat Member has been dated to Valanginian–Barremian, so check the
+    age.
+  reviews: []

@@ -5,16 +5,46 @@ group: ''
 country: United States
 regions: [Montana, Wyoming]
 location:
-  lat: 44.978
-  lng: -108.322
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lat: 45.373
+  lng: -108.251
+  basis: median of 30 PBDB collections that yielded the atlas genera
 age:
   first_ma: 121.4
   last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet.]
-lithology: [claystone]
-pbdb_collections: ['50496', '50498', '227265']
+environment: [terrestrial indet., '"channel"', lacustrine indet., fluvial indet.]
+lithology: [claystone, sandstone, not reported, mudstone]
+pbdb_collections:
+- '25076'
+- '50349'
+- '50353'
+- '50471'
+- '50472'
+- '50476'
+- '50481'
+- '50488'
+- '50493'
+- '50496'
+- '50497'
+- '50498'
+- '50499'
+- '50501'
+- '50502'
+- '50528'
+- '50530'
+- '50532'
+- '50535'
+- '50536'
+- '50689'
+- '50693'
+- '50712'
+- '50715'
+- '50721'
+- '55246'
+- '91904'
+- '137567'
+- '137577'
+- '227265'
 includes: []
 summary: ''
 paleoenvironment: ''

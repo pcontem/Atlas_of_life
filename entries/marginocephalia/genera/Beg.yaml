@@ -1,0 +1,73 @@
+name: Beg
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Yu et al. 2020
+type_species: Beg tse
+type_species_note: Only species of the genus (PBDB; Yu et al. 2020).
+summary: Beg is the most basal known neoceratopsian, from the Ulaanoosh Formation of Mongolia, known from a partial
+  skull.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 106.3
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Beg tse
+  authority: Yu et al. 2020
+  first_ma: 106.3
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Ulaanoosh
+  group: ''
+  members: [Upper]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Albian–Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: ulaanoosh-mongolia
+fossil_material:
+  holotype: IGM 100/3652, a partial skull with fragmentary postcrania (a rib, partial left scapula, partial right
+    ischium) — Ulaanoosh Formation, near Tsogt-Ovoo, Ömnögovi, Mongolia.
+  material: Holotype only; discovered in 2015.
+  completeness: fragmentary
+  exceptional: ''
+biology: Shows transitional features between basal ceratopsians and other neoceratopsians; rugose structures on
+  the jugal.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/vector.svg
+  png: https://images.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca/raster/512x201.png
+  page: https://www.phylopic.org/images/d6953dde-8268-48b5-b689-097a6bae7fca
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Archaeoceratops oshimai
+  matched: Neoceratopsia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Yu, C., Prieto-Márquez, A., Chinzorig, T., Badamkhatan, Z., Norell, M. 2020. A neoceratopsian dinosaur
+    from the early Cretaceous of Mongolia and the early evolution of Ceratopsia. Communications Biology 3: 499.
+    doi:10.1038/s42003-020-01222-7.'
+  url: https://doi.org/10.1038/s42003-020-01222-7
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Beg (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Beg
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - English Wikipedia's Beg title is not the genus page; the species article is Beg tse. Replace the sources with
+    a fixed revision when the harvest is refreshed.
+  reviews: []

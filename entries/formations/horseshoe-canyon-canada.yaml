@@ -1,20 +1,36 @@
 id: horseshoe-canyon-canada
 name: Horseshoe Canyon
 rank: formation
-group: ''
+group: Edmonton
 country: Canada
 regions: [Alberta]
 location:
-  lat: 51.544
-  lng: -112.889
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 51.659
+  lng: -112.911
+  basis: median of 16 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 72.2
+  first_ma: 83.6
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: [not reported]
-pbdb_collections: ['114017']
+environment: [terrestrial indet., wet floodplain, crevasse splay]
+lithology: [not reported, sandstone, siltstone, claystone]
+pbdb_collections:
+- '11899'
+- '45733'
+- '51966'
+- '61628'
+- '64630'
+- '79692'
+- '94370'
+- '114017'
+- '144561'
+- '155222'
+- '155223'
+- '155224'
+- '155225'
+- '155226'
+- '155227'
+- '229870'
 includes: []
 summary: ''
 paleoenvironment: ''

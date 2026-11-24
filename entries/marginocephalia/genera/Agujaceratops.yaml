@@ -1,0 +1,131 @@
+name: Agujaceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Lucas et al. 2006
+type_species: Agujaceratops mariscalensis
+type_species_note: Species originally named Chasmosaurus mariscalensis by Lehman in 1989 (PBDB; cited Wikipedia
+  revision).
+summary: Agujaceratops is a large chasmosaurine from the Aguja Formation of Texas and Mexico.
+size:
+  length_m: [4.3, 4.3]
+  mass_kg: [1500, 1500]
+  note: Estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 16
+  note: ''
+species:
+- name: Agujaceratops mariscalensis
+  authority: (Lehman 1989)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Agujaceratops mavericus
+  authority: Lehman et al. 2017
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 14
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Aguja
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chihuahua]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: aguja-mexico
+fossil_material:
+  holotype: UTEP P.37.7.086, a partial adult skull with braincase, left supraorbital horncore, left maxilla and
+    right dentary — Aguja Formation, Texas.
+  material: Additional material associated with the holotype but not part of it.
+  completeness: fragmentary
+  exceptional: ''
+biology: Relatively large horned dinosaur; no behavioural data.
+images:
+- kind: life
+  file: Agujaceratops BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/52/Agujaceratops_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Agujaceratops_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-05-11'
+  caption: Life restoration of Agujaceratops.
+  width: 800
+  height: 450
+  review: unreviewed
+  local: img/gallery/Agujaceratops_001.webp
+- kind: life
+  file: Agujaceratops life restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Agujaceratops_life_restoration.jpg/960px-Agujaceratops_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Agujaceratops_life_restoration.jpg
+  artist: Lineart by Robinson Kunz ( https://teratophoneus.deviantart.com/ ) Color by Rebecca Slater ( https://paleocolour.deviantart.com/
+    )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2017-11-05'
+  caption: Life restoration of Agujaceratops.
+  width: 1800
+  height: 973
+  review: unreviewed
+  local: img/gallery/Agujaceratops_002.webp
+- kind: fossil
+  file: Agujaceratops skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/69/Agujaceratops_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Agujaceratops_skull.jpg
+  artist: RABaker96
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014'
+  caption: Skull of Agujaceratops.
+  width: 800
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Agujaceratops_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/0e68ffc0-58fb-450b-a74c-4446129eb8c1/vector.svg
+  png: https://images.phylopic.org/images/0e68ffc0-58fb-450b-a74c-4446129eb8c1/raster/512x252.png
+  page: https://www.phylopic.org/images/0e68ffc0-58fb-450b-a74c-4446129eb8c1
+  attribution: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua
+    A. Smith, Alan L. Titus (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Agujaceratops mariscalensis
+  matched: Agujaceratops
+  genus_level: true
+  w: 512
+  h: 252
+sources:
+- kind: original
+  text: 'S. G. Lucas, R. M. Sullivan, and A. P. Hunt. 2006. Re-evaluation of Pentaceratops and Chasmosaurus (Ornithischia:
+    Ceratopsidae) in the Upper Cretaceous of the Western Interior. Late Cretaceous Vertebrates from the Western
+    Interior. New Mexico Museum of Natural History and Science Bulletin 35:367-370'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Agujaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Agujaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Agujaceratops”. English Wikipedia, revision 1366259035.
+  url: https://en.wikipedia.org/w/index.php?title=Agujaceratops&oldid=1366259035
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

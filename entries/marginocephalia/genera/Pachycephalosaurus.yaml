@@ -1,0 +1,159 @@
+name: Pachycephalosaurus
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Brown and Schlaikjer 1943
+type_species: Pachycephalosaurus wyomingensis
+type_species_note: Species originally named Troodon wyomingensis by Gilmore in 1931 (PBDB lists it among species;
+  taxobox of the cited Wikipedia revision names P. grangeri as the type species of the genus).
+summary: Pachycephalosaurus is the largest known pachycephalosaur, with a skull roof up to 22 cm thick, from the
+  latest Cretaceous of western North America.
+size:
+  length_m: [4.5, 4.5]
+  mass_kg: [370, 450]
+  note: Estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 34
+  note: ''
+species:
+- name: Pachycephalosaurus grangeri
+  authority: Brown and Schlaikjer 1943
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Pachycephalosaurus reinheimeri
+  authority: Brown and Schlaikjer 1943
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Pachycephalosaurus wyomingensis
+  authority: (Gilmore 1931)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana, North Dakota, South Dakota]
+  interval: Maastrichtian
+  occurrences: 19
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana, South Dakota, Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 9
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Ferris
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: ferris-united-states
+- formation: Denver
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: denver-united-states
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Scollard
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: scollard-canada
+fossil_material:
+  holotype: USNM 12031, a skull (P. wyomingensis) described by Gilmore — Lance Formation, Wyoming.
+  material: Mostly known from skull roofs; Tylosteus (ANSP 8568) was recognised as a squamosal of this genus.
+  completeness: fragmentary
+  exceptional: ''
+biology: Mainly known from a single skull and a few thick skull roofs; no behavioural data.
+images:
+- kind: fossil
+  file: Pachycephalosaurus ontogeny skulls - Museum of the Rockies - 2013-07-08.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Pachycephalosaurus_ontogeny_skulls_-_Museum_of_the_Rockies_-_2013-07-08.jpg/960px-Pachycephalosaurus_ontogeny_skulls_-_Museum_of_the_Rockies_-_2013-07-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pachycephalosaurus_ontogeny_skulls_-_Museum_of_the_Rockies_-_2013-07-08.jpg
+  artist: Tim Evanson
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2013-07-08'
+  caption: Ontogeny skulls of Pachycephalosaurus.
+  width: 3000
+  height: 2644
+  review: unreviewed
+  local: img/gallery/Pachycephalosaurus_001.webp
+- kind: fossil
+  file: Pachycephalosaurus endocast AMNH.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Pachycephalosaurus_endocast_AMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pachycephalosaurus_endocast_AMNH.jpg
+  artist: Ryan Somma
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '1980-01-01'
+  caption: Endocast of Pachycephalosaurus.
+  width: 1347
+  height: 853
+  review: unreviewed
+  local: img/gallery/Pachycephalosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/6105ff49-0bd0-477c-8bef-41b0c39fdca9/vector.svg
+  png: https://images.phylopic.org/images/6105ff49-0bd0-477c-8bef-41b0c39fdca9/raster/512x254.png
+  page: https://www.phylopic.org/images/6105ff49-0bd0-477c-8bef-41b0c39fdca9
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Pachycephalosaurus wyomingensis
+  matched: Pachycephalosaurus
+  genus_level: true
+  w: 512
+  h: 254
+sources:
+- kind: original
+  text: B. Brown and E. M. Schlaikjer. 1943. A study of the troödont dinosaurs with the description of a new genus
+    and four new species. Bulletin of the American Museum of Natural History 82(5):115-150
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pachycephalosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pachycephalosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pachycephalosaurus”. English Wikipedia, revision 1385673721.
+  url: https://en.wikipedia.org/w/index.php?title=Pachycephalosaurus&oldid=1385673721
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species given as P. wyomingensis by PBDB's first-named species and P. grangeri by the Wikipedia taxobox;
+    confirm.
+  reviews: []

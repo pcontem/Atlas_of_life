@@ -1,0 +1,93 @@
+name: Vectipelta
+rank: genus
+parent: ankylosauria
+incertae_sedis: true
+placement_note: Described as an ankylosaur from the Wessex Formation (Pond et al. 2023); relations inside Ankylosauria
+  are not settled in the sources used.
+authority: Pond et al. 2023
+type_species: Vectipelta barretti
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Vectipelta is an Early Cretaceous ankylosaur from the Wessex Formation of the Isle of Wight, England, known
+  from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 139.1
+  last_ma: 137.05
+  early_interval: Berriasian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Vectipelta barretti
+  authority: Pond et al. 2023
+  first_ma: 139.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: IWCMS 1996.153 and IWCMS 2021.75, with many vertebrae, girdle parts, limb elements and osteoderms —
+    Wessex Formation, Chilton Chine, Isle of Wight.
+  material: Holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Armoured herbivore; no behavioural data in the sources used.
+images:
+- kind: life
+  file: Vectipelta TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Vectipelta_TD.png/960px-Vectipelta_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vectipelta_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-06-18'
+  caption: Life restoration of Vectipelta barretti.
+  width: 2600
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Vectipelta_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/4ee1a15e-f275-4dc6-be7a-6669274c1e1e/vector.svg
+  png: https://images.phylopic.org/images/4ee1a15e-f275-4dc6-be7a-6669274c1e1e/raster/512x174.png
+  page: https://www.phylopic.org/images/4ee1a15e-f275-4dc6-be7a-6669274c1e1e
+  attribution: Alexander Vargas
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Stegouros elengassen
+  matched: Ankylosauria
+  genus_level: false
+sources:
+- kind: original
+  text: Pond, Stuart; Strachan, Sarah-Jane; Raven, Thomas J.; Simpson, Martin I.; Morgan, Kirsty; Maidment, Susannah
+    C. R. 2023. ''Vectipelta barretti'', a new ankylosaurian dinosaur from the Lower Cretaceous Wessex Formation
+    of the Isle of Wight, UK. Journal of Systematic Palaeontology 21(1). doi:10.1080/14772019.2023.2210577
+- kind: literature
+  text: Stuart Pond, Sarah Strachan, Darren Naish & Martin Simpson Sept. A critical new ankylosaur specimen from
+    the Wessex Formation of the Isle of Wight. PeerJ PrePrints 3(e1399v1). doi:10.7287/PEERJ.PREPRINTS.1399V1
+- kind: literature
+  text: 'Raven, T. J.; Barrett, P. M.; Joyce, C. B.; Maidment, S. C. R. 2023. The phylogenetic relationships and
+    evolutionary history of the armoured dinosaurs (Ornithischia: Thyreophora). Journal of Systematic Palaeontology
+    21(1). doi:10.1080/14772019.2023.2205433'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vectipelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vectipelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vectipelta”. English Wikipedia, revision 1341642343.
+  url: https://en.wikipedia.org/w/index.php?title=Vectipelta&oldid=1341642343
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

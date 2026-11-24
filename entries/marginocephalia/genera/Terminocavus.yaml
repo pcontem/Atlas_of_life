@@ -1,0 +1,86 @@
+name: Terminocavus
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Fowler and Freedman Fowler 2020
+type_species: Terminocavus sealeyi
+type_species_note: Only species of the genus (PBDB).
+summary: Terminocavus is a chasmosaurine from the late Campanian Kirtland Formation of New Mexico, named in 2020.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Terminocavus sealeyi
+  authority: Fowler and Freedman Fowler 2020
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Kirtland
+  group: ''
+  members: [Hunter Wash]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+fossil_material:
+  holotype: NMMNH P-27468, collected in 1997 — parietal, other skull fragments, partial sacrum and vertebral fragments
+    — Kirtland Formation, New Mexico.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from fragments; no behavioural data.
+images:
+- kind: life
+  file: Terminocavus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Terminocavus.jpg/960px-Terminocavus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Terminocavus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013'
+  caption: Life restoration of Terminocavus.
+  width: 2000
+  height: 1344
+  review: unreviewed
+  local: img/gallery/Terminocavus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/84d7b9cf-75ec-4144-b090-fec5f5448886/vector.svg
+  png: https://images.phylopic.org/images/84d7b9cf-75ec-4144-b090-fec5f5448886/raster/512x323.png
+  page: https://www.phylopic.org/images/84d7b9cf-75ec-4144-b090-fec5f5448886
+  attribution: Itai Fein
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Terminocavus sealeyi
+  matched: Terminocavus
+  genus_level: true
+  w: 512
+  h: 323
+sources:
+- kind: original
+  text: 'D. W. Fowler and E. A. Freedman Fowler. 2020. Transitional evolutionary forms in chasmosaurine ceratopsid
+    dinosaurs: evidence from the Campanian of New Mexico. PeerJ 8:e9251:1-49'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Terminocavus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Terminocavus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Terminocavus”. English Wikipedia, revision 1314594508.
+  url: https://en.wikipedia.org/w/index.php?title=Terminocavus&oldid=1314594508
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia revision has no citation list extracted; the naming paper is Fowler and Freedman Fowler 2020 (PBDB).
+  reviews: []

@@ -1,0 +1,124 @@
+name: Nodosaurus
+rank: genus
+parent: nodosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1889
+type_species: Nodosaurus textilis
+type_species_note: Named by Marsh in 1889 (cited Wikipedia revision).
+summary: Nodosaurus is the genus that gives its name to the Nodosauridae, an armoured dinosaur from the Cenomanian
+  Frontier Formation of Wyoming.
+size:
+  length_m: [4, 6]
+  note: Range given in the cited Wikipedia revision.
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Nodosaurus textilis
+  authority: Marsh 1889
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Frontier
+  group: ''
+  members: [Belle Fourche]
+  country: United States
+  regions: [Wyoming]
+  interval: Middle Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: frontier-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: YPM VP 1815, with 3 dorsal and 13 caudal vertebrae, ribs, fragmentary forelimbs, partial pelvis, femora,
+    tibiae, partial left foot and osteoderms — Frontier Formation, Wyoming.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Bony dermal plates covered the top of the body; it may have had spikes along its side.
+images:
+- kind: life
+  file: Nodosaurus 500 TWA.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Nodosaurus_500_TWA.JPG/960px-Nodosaurus_500_TWA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nodosaurus_500_TWA.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Life restoration of Nodosaurus.
+  width: 4869
+  height: 1848
+  review: unreviewed
+  local: img/gallery/Nodosaurus_001.webp
+- kind: skeletal
+  file: Nodosaurus textilis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Nodosaurus_textilis.jpg/960px-Nodosaurus_textilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nodosaurus_textilis.jpg
+  artist: R. Lull
+  license: Public domain
+  license_url: ''
+  date: '1921'
+  caption: Skeletal reconstruction of Nodosaurus.
+  width: 2180
+  height: 794
+  review: unreviewed
+  local: img/gallery/Nodosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Marsh, Othniel Charles 1889. Notice of gigantic horned Dinosauria from the Cretaceous. American Journal
+    of Science s3-38(224): 173–176. doi:10.2475/ajs.s3-38.224.173'
+- kind: literature
+  text: 'Lull, Richard Swann 1921. The Cretaceous armored dinosaur, Nodosaurus textilis Marsh. American Journal
+    of Science s5-1(2): 97–126. doi:10.2475/ajs.s5-1.2.97'
+- kind: literature
+  text: Kirkland, James I.; Alcalá, Luis; Loewen, Mark A.; Espílez, Eduardo; Mampel, Luis; Wiersma, Jelle P. 2013.
+    The Basal Nodosaurid Ankylosaur Europelta carbonensis n. gen., n. sp. from the Lower Cretaceous (Lower Albian)
+    Escucha Formation of Northeastern Spain. PLOS ONE 8(12). doi:10.1371/journal.pone.0080405
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nodosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nodosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nodosaurus”. English Wikipedia, revision 1374689716.
+  url: https://en.wikipedia.org/w/index.php?title=Nodosaurus&oldid=1374689716
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB also has Campanian and Maastrichtian records; the cited revision says the fossils come exclusively from
+    the Frontier Formation.
+  reviews: []

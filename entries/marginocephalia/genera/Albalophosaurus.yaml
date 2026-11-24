@@ -1,0 +1,93 @@
+name: Albalophosaurus
+rank: genus
+parent: marginocephalia
+incertae_sedis: true
+placement_note: Original authors placed it in Cerapoda incertae sedis; later analyses recover it as a basal ceratopsian,
+  a basal pachycephalosaur or another position (Han et al. 2012; Fonseca et al. 2024, in the cited Wikipedia revision).
+authority: Ohashi and Barrett 2009
+type_species: Albalophosaurus yamaguchiorum
+type_species_note: Only species of the genus (PBDB).
+summary: Albalophosaurus is a small ornithischian from the Barremian Kuwajima Formation of Japan with uncertain
+  ceratopsian affinities.
+size:
+  length_m: null
+  note: Juvenile holotype; no size given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Albalophosaurus yamaguchiorum
+  authority: Ohashi and Barrett 2009
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Kuwajima
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Ishikawa]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: kuwajima-japan
+fossil_material:
+  holotype: SBEI 176, cranial bones of an incomplete disarticulated skull and left lower jaw of a juvenile — Kuwajima
+    Formation, Japan.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not inferable from a juvenile skull.
+images:
+- kind: life
+  file: Albalophosaurus LM.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Albalophosaurus_LM.png/960px-Albalophosaurus_LM.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Albalophosaurus_LM.png
+  artist: Levi Martinez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-01-09'
+  caption: Life restoration of Albalophosaurus.
+  width: 5592
+  height: 4008
+  review: unreviewed
+  local: img/gallery/Albalophosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137/vector.svg
+  png: https://images.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137/raster/512x185.png
+  page: https://www.phylopic.org/images/ed1981b1-43ad-412e-ac4b-0af0717b9137
+  attribution: Matt Martyniuk (modified by Serenchia)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Psittacosaurus mongoliensis
+  matched: Ceratopsia
+  genus_level: false
+  w: 512
+  h: 185
+sources:
+- kind: original
+  text: 'Ohashi, T. 2009. A new ornithischian dinosaur from the Lower Cretaceous Kuwajima Formation of Japan. Journal
+    of Vertebrate Paleontology 29(3): 748–757. doi:10.1671/039.029.0306'
+- kind: literature
+  text: 'Han, Feng-Lu 2012. Postcranial anatomy of ''''Jeholosaurus shangyuanensis'''' (Dinosauria, Ornithischia)
+    from the Lower Cretaceous Yixian Formation of China. Journal of Vertebrate Paleontology 32(6): 1370–1395. doi:10.1080/02724634.2012.694385'
+- kind: literature
+  text: Fonseca, A. O.; Reid, I. J.; Venner, A.; Duncan, R. J.; Garcia, M. S.; Müller, R. T. 2024. A comprehensive
+    phylogenetic analysis on early ornithischian evolution. Journal of Systematic Palaeontology 22(1). doi:10.1080/14772019.2024.2346577
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Albalophosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Albalophosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Albalophosaurus”. English Wikipedia, revision 1366579666.
+  url: https://en.wikipedia.org/w/index.php?title=Albalophosaurus&oldid=1366579666
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

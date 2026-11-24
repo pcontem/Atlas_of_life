@@ -1,0 +1,91 @@
+name: Dyoplosaurus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Parks 1924
+type_species: Dyoplosaurus acutosquameus
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Dyoplosaurus is an ankylosaurid from the Dinosaur Park Formation of Alberta, known from a skeleton with
+  a tail club and skin impressions.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dyoplosaurus acutosquameus
+  authority: Parks 1924
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+fossil_material:
+  holotype: ROM 784, with a partial skull roof, mandible fragments, osteoderms, skin impressions, vertebrae, ribs,
+    pelvis, tail club and limb bones, obtained in 1919 by Levi Sternberg — Dinosaur Park Formation, Alberta.
+  material: Holotype only.
+  completeness: partial
+  exceptional: Skin impressions preserved with the osteoderms.
+biology: Armoured herbivore with a tail club.
+images:
+- kind: fossil
+  file: Dyoplosaurus.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Dyoplosaurus.tif/lossy-page1-960px-Dyoplosaurus.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dyoplosaurus.tif
+  artist: Victoria M. Arbour, Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Holotype of Dyoplosaurus acutosquameus.
+  width: 1884
+  height: 2757
+  review: unreviewed
+  local: img/gallery/Dyoplosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Parks, W. A. 1924. ''''Dyoplosaurus acutosquameus'''', a new genus and species of armored dinosaur; and
+    notes on a skeleton of ''''Prosaurolophus maximus''''. University of Toronto Studies Geological Series 18: 1–35.'
+- kind: literature
+  text: 'Arbour, V. M.; Burns, M. E.; Sissons, R. L. 2009. A redescription of the ankylosaurid dinosaur ''''Dyoplosaurus
+    acutosquameus'''' Parks, 1924 (Ornithischia: Ankylosauria) and a revision of the genus. Journal of Vertebrate
+    Paleontology 29(4). doi:10.1671/039.029.0405'
+- kind: literature
+  text: 'Paul Penkalski 2018. Revised systematics of the armoured dinosaur ''''Euoplocephalus'''' and its allies.
+    Neues Jahrbuch für Geologie und Paläontologie - Abhandlungen 287(3): 261–306. doi:10.1127/njgpa/2018/0717'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dyoplosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dyoplosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dyoplosaurus”. English Wikipedia, revision 1332561236.
+  url: https://en.wikipedia.org/w/index.php?title=Dyoplosaurus&oldid=1332561236
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

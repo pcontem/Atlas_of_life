@@ -1,0 +1,195 @@
+name: Stegoceras
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Lambe 1902
+type_species: Stegoceras validum
+type_species_note: Named by Lambe in 1902 (PBDB; cited Wikipedia revision).
+summary: Stegoceras is a small, domed pachycephalosaur from the Campanian of Alberta and Montana.
+size:
+  length_m: [2, 2.5]
+  mass_kg: [10, 40]
+  note: Ranges in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 46
+  note: ''
+species:
+- name: Stegoceras browni
+  authority: (Wall and Galton 1979)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Stegoceras novomexicanum
+  authority: Jasinski and Sullivan 2011
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Stegoceras validum
+  authority: (Lambe 1902)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 14
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Unnamed unit
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 13
+  ma: [72.2, 83.6]
+  id: belly-river-group-canada
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 7
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Fruitland
+  group: ''
+  members: [Fossil Forest]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Kirtland
+  group: ''
+  members: [Hunter Wash]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Judith River
+  group: Montana
+  members: [Coal Ridge]
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-canada
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Judithian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+fossil_material:
+  holotype: A skull of S. validum described by Lambe in 1902 (catalogue number not given in the sources used) —
+    Alberta; the species name of S. browni honours Brown, who found AMNH 5450.
+  material: Skulls, growth series and postcranial bones.
+  completeness: multiple
+  exceptional: ''
+biology: Small bipedal herbivore with a domed skull roof.
+images:
+- kind: fossil
+  file: Growth series of Stegoceras validum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Growth_series_of_Stegoceras_validum.png/960px-Growth_series_of_Stegoceras_validum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Growth_series_of_Stegoceras_validum.png
+  artist: Ryan K. Schott, David C. Evans, Mark B. Goodwin, John R. Horner, Caleb Marshall Brown, Nicholas R. Longrich
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2011'
+  caption: Growth series of Stegoceras validum.
+  width: 3927
+  height: 1301
+  review: unreviewed
+  local: img/gallery/Stegoceras_001.webp
+- kind: fossil
+  file: Hind limb bones of Stegoceras.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b4/Hind_limb_bones_of_Stegoceras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hind_limb_bones_of_Stegoceras.jpg
+  artist: Charles Gilmore, tooth by Joseph Leidy
+  license: Public domain
+  license_url: ''
+  date: '1924'
+  caption: Hind limb bones of Stegoceras.
+  width: 1341
+  height: 2208
+  review: unreviewed
+  local: img/gallery/Stegoceras_002.webp
+- kind: fossil
+  file: Dorsal and caudal vertebrae of Stegoceras.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/57/Dorsal_and_caudal_vertebrae_of_Stegoceras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dorsal_and_caudal_vertebrae_of_Stegoceras.jpg
+  artist: Charles Gilmore, tooth by Joseph Leidy
+  license: Public domain
+  license_url: ''
+  date: '1924'
+  caption: Vertebrae of Stegoceras.
+  width: 1434
+  height: 2182
+  review: unreviewed
+  local: img/gallery/Stegoceras_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/vector.svg
+  png: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/raster/512x170.png
+  page: https://www.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Stegoceras validum
+  matched: Stegoceras
+  genus_level: true
+sources:
+- kind: original
+  text: L. M. Lambe. 1902. New genera and species from the Belly River Series (mid-Cretaceous). Geological Survey
+    of Canada Contributions to Canadian Palaeontology 3(2):25-81
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stegoceras (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stegoceras
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stegoceras”. English Wikipedia, revision 1372733957.
+  url: https://en.wikipedia.org/w/index.php?title=Stegoceras&oldid=1372733957
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB lists S. browni, S. novomexicanum and S. validum; S. bexelli became Sinocephale.
+  reviews: []

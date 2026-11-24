@@ -1,0 +1,101 @@
+name: Utahceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Sampson et al. 2010
+type_species: Utahceratops gettyi
+type_species_note: Only species of the genus (PBDB).
+summary: Utahceratops is a large chasmosaurine with a wide, short-horned frill from the Kaiparowits Formation of
+  Utah.
+size:
+  length_m: [4.5, 5]
+  mass_kg: [2000, 2000]
+  note: Estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Utahceratops gettyi
+  authority: Sampson et al. 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Kaiparowits
+  group: ''
+  members: [Lower, Middle]
+  country: United States
+  regions: [Utah]
+  interval: Late Campanian
+  occurrences: 9
+  ma: [72.2, 83.6]
+  id: kaiparowits-united-states
+fossil_material:
+  holotype: UMNH VP 16784, a partial skull — Kaiparowits Formation, Grand Staircase–Escalante National Monument,
+    Utah.
+  material: Further specimens from the same monument.
+  completeness: partial
+  exceptional: ''
+biology: Large herbivore; no behavioural data.
+images:
+- kind: skeletal
+  file: Utahceratops gettyi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Utahceratops_gettyi.png/960px-Utahceratops_gettyi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Utahceratops_gettyi.png
+  artist: 'Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua A. Smith,
+    Alan L. Titus derivative work: Haplochromis ( talk )'
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-09-24'
+  caption: Skeletal reconstruction of Utahceratops gettyi.
+  width: 2090
+  height: 1230
+  review: unreviewed
+  local: img/gallery/Utahceratops_001.webp
+- kind: fossil
+  file: Utahceratops.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Utahceratops.png/960px-Utahceratops.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Utahceratops.png
+  artist: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua A. Smith,
+    Alan L. Titus
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-09-22'
+  caption: Utahceratops.
+  width: 2041
+  height: 2760
+  review: unreviewed
+  local: img/gallery/Utahceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/4cde990d-89fb-4307-83e7-7139a30e23d1/vector.svg
+  png: https://images.phylopic.org/images/4cde990d-89fb-4307-83e7-7139a30e23d1/raster/512x301.png
+  page: https://www.phylopic.org/images/4cde990d-89fb-4307-83e7-7139a30e23d1
+  attribution: Scott D. Sampson, Mark A. Loewen, Andrew A. Farke, Eric M. Roberts, Catherine A. Forster, Joshua
+    A. Smith, Alan L. Titus
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Pentaceratops gettyi
+  matched: Utahceratops
+  genus_level: true
+sources:
+- kind: original
+  text: S. D. Sampson, M. A. Loewen, and A. A. Farke, E. M. Roberts, C. A. Forster, J. A. Smith, A. L. Titus. 2010.
+    New horned dinosaurs from Utah provide evidence for intracontinental dinosaur endemism. PLoS One 5(9):e12292:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Utahceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Utahceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Utahceratops”. English Wikipedia, revision 1381301496.
+  url: https://en.wikipedia.org/w/index.php?title=Utahceratops&oldid=1381301496
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

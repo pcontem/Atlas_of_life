@@ -1,0 +1,102 @@
+name: Loricatosaurus
+rank: genus
+parent: stegosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Maidment et al. 2008
+type_species: Loricatosaurus priscus
+type_species_note: Named for Lexovisaurus priscus (Nopcsa 1911) when Maidment et al. 2008 judged Lexovisaurus nondiagnostic
+  (cited Wikipedia revision).
+summary: Loricatosaurus is a Middle Jurassic stegosaur from the Oxford Clay of England, erected in 2008 for remains
+  once assigned to Lexovisaurus.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Loricatosaurus priscus
+  authority: (Nopcsa 1911)
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Marnes à Belemnopsis latesulcatus
+  group: ''
+  members: []
+  country: France
+  regions: [Basse-Normandie]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: marnes-a-belemnopsis-latesulcatus-france
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: NHMUK R3167, a partial skeleton with cervical, dorsal and caudal vertebrae, forelimb and hindlimb bones,
+    pelvic parts and armour plates — Oxford Clay Formation, Peterborough, England.
+  material: Known from two partial skeletons; the second, from Normandy, France, was referred in 1985 and later
+    reassigned.
+  completeness: partial
+  exceptional: ''
+biology: Stegosaur with armour plates and spines; the sources give no behavioural data.
+images:
+- kind: life
+  file: Loricatosaurus priscus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Loricatosaurus_priscus.png/960px-Loricatosaurus_priscus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Loricatosaurus_priscus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-13'
+  caption: Life restoration of Loricatosaurus priscus.
+  width: 1693
+  height: 735
+  review: unreviewed
+  local: img/gallery/Loricatosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/173f44e3-2db7-4c98-b41f-6ab58093a145/vector.svg
+  png: https://images.phylopic.org/images/173f44e3-2db7-4c98-b41f-6ab58093a145/raster/512x221.png
+  page: https://www.phylopic.org/images/173f44e3-2db7-4c98-b41f-6ab58093a145
+  attribution: Andrew A. Farke
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Stegosaurus
+  matched: Loricatosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Maidment, Susannah C.R. 2008. Systematics and phylogeny of Stegosauria (Dinosauria: Ornithischia). Journal
+    of Systematic Palaeontology 6(4): 1. doi:10.1017/S1477201908002459'
+- kind: literature
+  text: 'Octávio, Mateus; Maidment, Susannah C. R.; Nicolai A., Christiansen 2009. A new long-necked ''sauropod-mimic''
+    stegosaur and the evolution of the plated dinosaurs. Proceedings of the Royal Society of London B: Biological
+    Sciences 276: 1815–1821. doi:10.1098/rspb.2008.1909'
+- kind: literature
+  text: 'Susannah C. R., Maidment 2010. Stegosauria: a historical review of the body fossil record and phylogenetic
+    relationships. Swiss Journal of Geosciences 103: 199–210. doi:10.1007/s00015-010-0023-3'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Loricatosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Loricatosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Loricatosaurus”. English Wikipedia, revision 1364905367.
+  url: https://en.wikipedia.org/w/index.php?title=Loricatosaurus&oldid=1364905367
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Size not given in the cited revision.]
+  reviews: []

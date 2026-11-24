@@ -1,0 +1,82 @@
+name: Crichtonpelta
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Arbour and Currie 2016
+type_species: Crichtonpelta benxiensis
+type_species_note: Species originally named Crichtonsaurus benxiensis (Lü et al. 2007) and moved to Crichtonpelta
+  by Arbour and Currie 2016 (cited Wikipedia revision).
+summary: Crichtonpelta is an ankylosaurid from the Cenomanian Sunjiawan Formation of Liaoning, China, known from
+  skulls and skeletons.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 106.3
+  last_ma: 89.8
+  early_interval: Albian
+  late_interval: Turonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Crichtonpelta benxiensis
+  authority: (Lü et al. 2007)
+  first_ma: 106.3
+  last_ma: 89.8
+  interval: Albian–Turonian
+  reference: original description
+formations:
+- formation: Sunjiawan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Albian–Turonian
+  occurrences: 2
+  ma: [89.8, 106.3]
+  id: sunjiawan-china
+fossil_material:
+  holotype: BXGMV0012, a skull — Sunjiawan Formation, near Beipiao, Liaoning, probably early Cenomanian (about 99–95
+    Ma).
+  material: A referred skeleton without skull (BXGMV0012-1), a skull-less specimen and a fourth specimen (G20090034)
+    from the same quarry.
+  completeness: multiple
+  exceptional: ''
+biology: Known from skulls and postcrania; the sources used give no behavioural data.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: V. M. Arbour and P. J. Currie. 2016. Systematics, phylogeny and palaeobiogeography of the ankylosaurid dinosaurs.
+    Journal of Systematic Palaeontology 14(5):385-444
+- kind: literature
+  text: 'Arbour, Victoria M.; Currie, Philip J. 2015. Systematics, phylogeny and palaeobiogeography of the ankylosaurid
+    dinosaurs. Journal of Systematic Palaeontology 14(5): 385–444. doi:10.1080/14772019.2015.1059985'
+- kind: literature
+  text: 'Junchang, Lü; Qiang, JI; Yubo, GAO; Zhixin, LI 2007. A New Species of the Ankylosaurid Dinosaur Crichtonsaurus
+    (Ankylosauridae: Ankylosauria) from the Cretaceous of Liaoning Province, China. Acta Geologica Sinica - English
+    Edition 81(6): 883–897. doi:10.1111/j.1755-6724.2007.tb01010.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Crichtonpelta (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Crichtonpelta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Crichtonpelta”. English Wikipedia, revision 1325544547.
+  url: https://en.wikipedia.org/w/index.php?title=Crichtonpelta&oldid=1325544547
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image candidates; size not given (holotype larger than Crichtonsaurus, 3–4 m).
+  - PBDB gives no named original paper; Arbour and Currie 2016 erected the genus.
+  reviews: []

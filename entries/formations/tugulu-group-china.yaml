@@ -3,18 +3,18 @@ name: Tugulu Group (beds not assigned to a formation)
 rank: formation
 group: Tugulu
 country: China
-regions: [Xinjiang]
+regions: [Nei Mongol, Ningxia, Xinjiang]
 location:
-  lat: 45.572
-  lng: 87.4
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: 46.055
+  lng: 86.083
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
   first_ma: 137.05
   last_ma: 100.5
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., fluvial-lacustrine indet.]
-lithology: [not reported, mudstone]
-pbdb_collections: ['68401', '116313']
+lithology: [mudstone, sandstone, not reported]
+pbdb_collections: ['28919', '52158', '68401', '116313']
 includes:
 - PBDB places these beds in the Tugulu Group without naming the formation.
 summary: ''

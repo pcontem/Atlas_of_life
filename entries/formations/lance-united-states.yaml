@@ -3,17 +3,22 @@ name: Lance
 rank: formation
 group: ''
 country: United States
-regions: [South Dakota, Wyoming]
+regions: [Montana, South Dakota, Utah, Wyoming]
 location:
-  lat: 43.175
-  lng: -104.5
-  basis: median of 24 PBDB collections that yielded the atlas genera
+  lat: 43.205
+  lng: -104.532
+  basis: median of 86 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., '"floodplain"']
-lithology: [sandstone, not reported, claystone, mudstone]
+environment:
+- terrestrial indet.
+- fluvial indet.
+- '"floodplain"'
+- channel lag
+- fluvial-lacustrine indet.
+lithology: [not reported, sandstone, '"shale"', mudstone]
 pbdb_collections:
 - '14505'
 - '14514'
@@ -23,22 +28,84 @@ pbdb_collections:
 - '14538'
 - '14557'
 - '14566'
+- '14570'
 - '14578'
 - '14579'
 - '14585'
 - '14596'
 - '14601'
+- '14609'
 - '14625'
 - '14643'
 - '14644'
 - '26760'
+- '34494'
+- '34747'
+- '45844'
+- '45878'
+- '46119'
+- '46126'
+- '46127'
+- '46129'
+- '46130'
+- '46131'
+- '46132'
+- '46133'
+- '46134'
+- '46135'
+- '46136'
+- '46138'
 - '47628'
+- '48549'
+- '50082'
+- '50086'
+- '50087'
+- '50931'
+- '52089'
+- '52107'
+- '52681'
+- '52682'
+- '52683'
+- '52684'
+- '52685'
+- '52686'
+- '52687'
+- '52688'
+- '52689'
+- '52690'
+- '52691'
+- '52692'
+- '52693'
+- '52694'
+- '52695'
+- '54177'
+- '54179'
 - '57158'
+- '57159'
+- '57161'
+- '57162'
 - '57163'
 - '57166'
 - '57168'
+- '99864'
+- '142325'
+- '142326'
+- '150890'
 - '150892'
 - '150893'
+- '164991'
+- '164992'
+- '164993'
+- '179968'
+- '179969'
+- '179970'
+- '179991'
+- '189513'
+- '191271'
+- '225939'
+- '226054'
+- '226055'
+- '239131'
 includes: []
 summary: ''
 paleoenvironment: ''

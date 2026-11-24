@@ -1,0 +1,85 @@
+name: Bravoceratops
+rank: genus
+parent: chasmosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Wick and Lehman 2013
+type_species: Bravoceratops polyphemus
+type_species_note: Only species of the genus (PBDB).
+summary: Bravoceratops is a chasmosaurine from the Maastrichtian Javelina Formation of Texas, known from a single
+  bone scatter.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bravoceratops polyphemus
+  authority: Wick and Lehman 2013
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Javelina
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: javelina-united-states
+fossil_material:
+  holotype: TxVP 46015-1, disorganised bone fragments over ten square metres in a river lag deposit — Javelina Formation,
+    Big Bend, Texas; Texas Vertebrate Paleontology Collections.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from a river lag deposit; no behavioural data.
+images:
+- kind: skeletal
+  file: Bravoceratops skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Bravoceratops_skeletal.png/960px-Bravoceratops_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bravoceratops_skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2023-07-03'
+  caption: Skeletal reconstruction of Bravoceratops.
+  width: 2301
+  height: 1073
+  review: unreviewed
+  local: img/gallery/Bravoceratops_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/vector.svg
+  png: https://images.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b/raster/512x211.png
+  page: https://www.phylopic.org/images/030d53b7-5625-478e-9971-ef07a117f23b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Avaceratops lammersi
+  matched: Ceratopsidae
+  genus_level: false
+sources:
+- kind: original
+  text: S. L. Wick and T. M. Lehman. 2013. A new ceratopsian dinosaur from the Javelina Formation (Maastrichtian)
+    of West Texas and implications for chasmosaurine phylogeny. Naturwissenschaften
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bravoceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bravoceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bravoceratops”. English Wikipedia, revision 1382259548.
+  url: https://en.wikipedia.org/w/index.php?title=Bravoceratops&oldid=1382259548
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Naming paper Wick and Lehman 2013 (PBDB); not in Wikipedia citations extracted.
+  reviews: []

@@ -1,0 +1,89 @@
+name: Breviceratops
+rank: genus
+parent: protoceratopsidae
+incertae_sedis: false
+placement_note: ''
+authority: Kurzanov 1990
+type_species: Breviceratops kozlowskii
+type_species_note: First named Protoceratops kozlowskii by Maryańska and Osmólska 1975; moved to Breviceratops by
+  Kurzanov 1990 (cited Wikipedia revision).
+summary: Breviceratops is a small protoceratopsid from the Campanian Barun Goyot Formation of Mongolia, based on
+  a juvenile skeleton with skull.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Breviceratops kozlowskii
+  authority: (Maryanska and Osmólska 1975)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: ZPAL MgD-I/117, a partial juvenile postcranial skeleton with skull — Khulsan locality, Barun Goyot Formation,
+    Mongolia.
+  material: Other specimens from Hermiin Tsav and Khulsan, such as MgD-I/116.
+  completeness: partial
+  exceptional: ''
+biology: Skull ended in a moderately pronounced neck frill.
+images:
+- kind: life
+  file: Breviceratops Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Breviceratops_Restoration.png/960px-Breviceratops_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Breviceratops_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-07-25'
+  caption: Life restoration of Breviceratops.
+  width: 4676
+  height: 2300
+  review: unreviewed
+  local: img/gallery/Breviceratops_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1350c217-c56d-45d6-a101-aa5bdf5ad3b4/vector.svg
+  png: https://images.phylopic.org/images/1350c217-c56d-45d6-a101-aa5bdf5ad3b4/raster/512x200.png
+  page: https://www.phylopic.org/images/1350c217-c56d-45d6-a101-aa5bdf5ad3b4
+  attribution: Nobu Tamura (modified by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Bagaceratops rozhdestvenskyi
+  matched: Breviceratops
+  genus_level: true
+sources:
+- kind: original
+  text: 'Kurzanov, S. M. 1990. Новый род протоцератопсид из позднего мела Монголии. Paleontological Journal: 91−97.'
+- kind: literature
+  text: Maryańska, T.; Osmólska, H. 1975. Protoceratopsidae (Dinosauria) of Asia. Palaeontologia Polonica 33.
+- kind: literature
+  text: 'Czepiński, Ł. 2019. Ontogeny and variation of a protoceratopsid dinosaur Bagaceratops rozhdestvenskyi from
+    the Late Cretaceous of the Gobi Desert. Historical Biology 32(10): 1394–1421. doi:10.1080/08912963.2019.1593404'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Breviceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Breviceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Breviceratops”. English Wikipedia, revision 1290283294.
+  url: https://en.wikipedia.org/w/index.php?title=Breviceratops&oldid=1290283294
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

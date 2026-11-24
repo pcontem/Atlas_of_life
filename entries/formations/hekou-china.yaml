@@ -3,19 +3,21 @@ name: Hekou
 rank: formation
 group: Guifeng
 country: China
-regions: [Jiangxi]
+regions: [Gansu, Jiangxi]
 location:
-  lat: 25.819
-  lng: 114.967
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 30.815
+  lng: 109.37
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 72.2
+  first_ma: 125.77
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: [not reported]
-pbdb_collections: ['228656']
-includes: []
+environment: [lacustrine indet., terrestrial indet.]
+lithology: [siltstone, not reported]
+pbdb_collections: ['155994', '228656']
+includes:
+- PBDB records the unit of this collection only as '5'; the beds belong to the Lower Cretaceous Hekou Group of the
+  Lanzhou-Minhe Basin, Gansu (English Wikipedia revision of Taohelong).
 summary: ''
 paleoenvironment: ''
 sources:

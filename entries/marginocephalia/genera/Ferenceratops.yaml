@@ -1,0 +1,141 @@
+name: Ferenceratops
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Maidment et al. 2026
+type_species: Ferenceratops shqiperorum
+type_species_note: Species originally named Zalmoxes shqiperorum and moved to a new genus in 2026 (cited Wikipedia
+  revision and PBDB).
+summary: Ferenceratops is a ceratopsian from the Maastrichtian of Romania, split in 2026 from the rhabdodontid Zalmoxes.
+size:
+  length_m: null
+  note: No size given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Ferenceratops shqiperorum
+  authority: Maidment et al. 2026
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: sebes-romania
+- formation: Sînpetru
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: Jibou
+  group: ''
+  members: []
+  country: Romania
+  regions: [Salaj]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: jibou-romania
+- formation: Râul Mare
+  group: ''
+  members: [upper]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: raul-mare-romania
+fossil_material:
+  holotype: NHMUK PV R 4900, a partial skeleton with incomplete right dentary and dorsal vertebra, left scapula
+    and coracoid, part of an ilium and more — Romania; held by the Natural History Museum, London.
+  material: Many other isolated or associated remains from the Densuș-Ciula and Sânpetru formations, formerly referred
+    to Zalmoxes.
+  completeness: partial
+  exceptional: ''
+biology: Close relative of Ajkaceratops in a distinct lineage of European ceratopsians.
+images:
+- kind: life
+  file: Ferenceratops liferestoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ferenceratops_liferestoration.jpg/960px-Ferenceratops_liferestoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ferenceratops_liferestoration.jpg
+  artist: MakairodonX
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-01-09'
+  caption: Life restoration of Ferenceratops.
+  width: 2409
+  height: 1123
+  review: unreviewed
+  local: img/gallery/Ferenceratops_001.webp
+- kind: fossil
+  file: Ferenceratops dentary.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/af/Ferenceratops_dentary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ferenceratops_dentary.jpg
+  artist: Ł. Czepiński & D. Madzia
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-30'
+  caption: Dentary of Ferenceratops.
+  width: 954
+  height: 602
+  review: unreviewed
+  local: img/gallery/Ferenceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/6c012213-1474-426e-bbf3-bb2584a24418/vector.svg
+  png: https://images.phylopic.org/images/6c012213-1474-426e-bbf3-bb2584a24418/raster/512x187.png
+  page: https://www.phylopic.org/images/6c012213-1474-426e-bbf3-bb2584a24418
+  attribution: Connor Ashbridge
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ferenceratops shqiperorum
+  matched: Ferenceratops
+  genus_level: true
+  w: 512
+  h: 187
+sources:
+- kind: original
+  text: 'Maidment, Susannah C. R.; Butler, Richard J.; Brusatte, Stephen L.; Meade, Luke E.; Augustin, Felix J.;
+    Csiki-Sava, Zoltán; Ősi, Attila 2026. A hidden diversity of ceratopsian dinosaurs in Late Cretaceous Europe.
+    [[Nature (journal): 1–7. doi:10.1038/s41586-025-09897-w'
+- kind: literature
+  text: Fonseca, André O.; Reid, Iain J.; Venner, Alexander; Duncan, Ruairidh J.; Garcia, Mauricio S.; Müller, Rodrigo
+    T. 2024. A comprehensive phylogenetic analysis on early ornithischian evolution. Journal of Systematic Palaeontology
+    22(1). doi:10.1080/14772019.2024.2346577
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ferenceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ferenceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ferenceratops”. English Wikipedia, revision 1367469870.
+  url: https://en.wikipedia.org/w/index.php?title=Ferenceratops&oldid=1367469870
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Genus very recent (2026); check the original paper.]
+  reviews: []

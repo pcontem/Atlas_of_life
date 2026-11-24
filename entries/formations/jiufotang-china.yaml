@@ -5,17 +5,32 @@ group: Jehol
 country: China
 regions: [Liaoning]
 location:
-  lat: 41.424
-  lng: 120.158
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  lat: 41.25
+  lng: 120.033
+  basis: median of 16 PBDB collections that yielded the atlas genera
 age:
   first_ma: 121.4
   last_ma: 113.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [lacustrine indet., terrestrial indet., lacustrine - large]
-lithology: [mudstone, not reported, sandstone, siltstone]
-pbdb_collections: ['55536', '79523', '79941', '90046', '92652', '92898', '105772', '118207', '129475', '135798',
-  '207051']
+lithology: [not reported, mudstone, sandstone, siltstone]
+pbdb_collections:
+- '52458'
+- '52459'
+- '52460'
+- '52461'
+- '55536'
+- '79523'
+- '79941'
+- '90046'
+- '92652'
+- '92898'
+- '105772'
+- '118207'
+- '129475'
+- '135798'
+- '160135'
+- '207051'
 includes: []
 summary: ''
 paleoenvironment: ''

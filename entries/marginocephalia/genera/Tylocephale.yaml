@@ -1,0 +1,96 @@
+name: Tylocephale
+rank: genus
+parent: pachycephalosauria
+incertae_sedis: false
+placement_note: ''
+authority: Maryańska and Osmólska 1974
+type_species: Tylocephale gilmorei
+type_species_note: Only species of the genus (PBDB).
+summary: Tylocephale is a medium-sized pachycephalosaur with a tall dome from the Barun Goyot Formation of Mongolia.
+size:
+  length_m: [2, 2]
+  mass_kg: [40, 40]
+  note: Estimates in the cited Wikipedia revision.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tylocephale gilmorei
+  authority: Maryańska and Osmólska 1974
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: Skull specimen (catalogue number not given in the sources used) — Barun Goyot Formation, Mongolia.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Average-sized pachycephalosaur with a high dome.
+images:
+- kind: life
+  file: Tylocephale.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Tylocephale.jpg/960px-Tylocephale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tylocephale.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-11-16'
+  caption: Life restoration of Tylocephale.
+  width: 2015
+  height: 1926
+  review: unreviewed
+  local: img/gallery/Tylocephale_001.webp
+- kind: life
+  file: Tylocephale skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/33/Tylocephale_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tylocephale_skull.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-17'
+  caption: Skull of Tylocephale.
+  width: 709
+  height: 623
+  review: unreviewed
+  local: img/gallery/Tylocephale_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/vector.svg
+  png: https://images.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6/raster/512x170.png
+  page: https://www.phylopic.org/images/e9863a6d-b128-4d8a-9d2e-e92cf77e92e6
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Stegoceras validum
+  matched: Pachycephalosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: T. Maryańska and H. Osmólska. 1974. Pachycephalosauria, a new suborder of ornithischian dinosaurs. Palaeontologia
+    Polonica 30:45-102
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tylocephale (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tylocephale
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tylocephale”. English Wikipedia, revision 1370049371.
+  url: https://en.wikipedia.org/w/index.php?title=Tylocephale&oldid=1370049371
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,76 @@
+name: Sauroplites
+rank: genus
+parent: ankylosauria
+incertae_sedis: true
+placement_note: Bohlin placed it in Ankylosauridae; Arbour 2014 recovered it as a nodosaurid, Rivera-Sylva et al.
+  2018 in a clade of basal nodosaurids; placed in Ankylosauria.
+authority: Bohlin 1953
+type_species: Sauroplites scutiger
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Sauroplites is an Early Cretaceous armoured dinosaur from China with a sacral shield of rosettes, known
+  from specimens now lost.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sauroplites scutiger
+  authority: Bohlin 1953
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Zhidan
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: zhidan-group-china
+fossil_material:
+  holotype: Specimens without inventory numbers, now lost although casts are preserved (cited revision).
+  material: Fragmentary remains with a sacral shield of rosettes.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from armour and fragments; no behavioural data.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/vector.svg
+  png: https://images.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae/raster/512x145.png
+  page: https://www.phylopic.org/images/af64af4c-5a03-4218-b9fe-440253fd51ae
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Edmontonia rugosidens
+  matched: Nodosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: B. Bohlin. 1953. VI. Vertebrate Palaeontology 6. Fossil reptiles from Mongolia and Kansu. Reports from the
+    Scientific Expedition to the North-western Provinces of China under Leadership of Dr. Sven Hedin. The Sino-Swedish
+    Expedition Publication 37:1-113
+- kind: literature
+  text: 'Rivera-Sylva, H.E.; Frey, E.; Stinnesbeck, W.; Carbot-Chanona, G.; Sanchez-Uribe, I.E.; Guzmán-Gutiérrez,
+    J.R. 2018. Paleodiversity of Late Cretaceous Ankylosauria from Mexico and their phylogenetic significance. Swiss
+    Journal of Palaeontology 137(1): 83–93. doi:10.1007/s13358-018-0153-1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sauroplites (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sauroplites
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sauroplites”. English Wikipedia, revision 1289206835.
+  url: https://en.wikipedia.org/w/index.php?title=Sauroplites&oldid=1289206835
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [No usable image candidates., Size not given in the cited revision.]
+  reviews: []

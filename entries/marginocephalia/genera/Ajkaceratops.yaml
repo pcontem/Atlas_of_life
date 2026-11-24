@@ -1,0 +1,107 @@
+name: Ajkaceratops
+rank: genus
+parent: ceratopsia
+incertae_sedis: false
+placement_note: ''
+authority: Osi et al. 2010
+type_species: Ajkaceratops kozmai
+type_species_note: Only species of the genus (PBDB).
+summary: Ajkaceratops is a small ceratopsian from the Santonian Csehbánya Formation of Hungary, one of the few from
+  Europe.
+size:
+  length_m: [1, 1]
+  note: Estimate in the original description (cited Wikipedia revision).
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ajkaceratops kozmai
+  authority: Osi et al. 2010
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Csehbánya
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Veszprém]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: csehbanya-hungary
+fossil_material:
+  holotype: MTM V2009.192.1, skull fragments including snout with a rostral bone, premaxillae and maxillae fragments
+    — Csehbánya Formation, Hungary.
+  material: A more complete skull described in 2026.
+  completeness: fragmentary
+  exceptional: ''
+biology: Rostral bone fused with the premaxilla.
+images:
+- kind: life
+  file: Ajkaceratops.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ajkaceratops.png/960px-Ajkaceratops.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ajkaceratops.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-02-16'
+  caption: Life restoration of Ajkaceratops.
+  width: 1791
+  height: 1343
+  review: unreviewed
+  local: img/gallery/Ajkaceratops_001.webp
+- kind: fossil
+  file: Ajkaceratops.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Ajkaceratops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ajkaceratops.jpg
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2015'
+  caption: Fossil of Ajkaceratops.
+  width: 393
+  height: 315
+  review: unreviewed
+  local: img/gallery/Ajkaceratops_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/4c6655c4-68e1-4ab2-a829-100ac8107722/vector.svg
+  png: https://images.phylopic.org/images/4c6655c4-68e1-4ab2-a829-100ac8107722/raster/512x188.png
+  page: https://www.phylopic.org/images/4c6655c4-68e1-4ab2-a829-100ac8107722
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ajkaceratops kozmai
+  matched: Ajkaceratops
+  genus_level: true
+  w: 512
+  h: 188
+sources:
+- kind: original
+  text: A. Osi, R. J. Butler, and D. B. Weishampel. 2010. A Late Cretaceous ceratopsian dinosaur from Europe with
+    Asian affinities. Nature 465:466-468
+- kind: literature
+  text: 'Ősi, Attila 2010. A Late Cretaceous ceratopsian dinosaur from Europe with Asian affinities. [[Nature (journal)
+    465(7297): 466–468. doi:10.1038/nature09019'
+- kind: literature
+  text: 'Maidment, Susannah C. R.; Butler, Richard J.; Brusatte, Stephen L.; Meade, Luke E.; Augustin, Felix J.;
+    Csiki-Sava, Zoltán; Ősi, Attila 7 Ja. A hidden diversity of ceratopsian dinosaurs in Late Cretaceous Europe.
+    [[Nature (journal): 1–7. doi:10.1038/s41586-025-09897-w'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ajkaceratops (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ajkaceratops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ajkaceratops”. English Wikipedia, revision 1376189471.
+  url: https://en.wikipedia.org/w/index.php?title=Ajkaceratops&oldid=1376189471
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB gives Ősi et al. 2010 as the naming paper (citation 1 of the Wikipedia revision).
+  reviews: []

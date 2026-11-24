@@ -1,0 +1,108 @@
+name: Adratiklit
+rank: genus
+parent: stegosauria
+incertae_sedis: true
+placement_note: Described as a stegosaur close to dacentrurines (Maidment et al. 2020); the atlas has no Dacentrurinae
+  clade.
+authority: Maidment et al. 2020
+type_species: Adratiklit boulahfa
+type_species_note: Named as the type in the cited sources (the PBDB species list gives this species).
+summary: Adratiklit is a Middle Jurassic stegosaur from Morocco, one of the oldest known stegosaurs and the first
+  from North Africa.
+size:
+  length_m: [7, 7]
+  note: Estimated body length of up to 7 m in the cited Wikipedia revision.
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Adratiklit boulahfa
+  authority: Maidment et al. 2020
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+formations:
+- formation: El Mers III
+  group: El Mers
+  members: []
+  country: Morocco
+  regions: [Fès-Meknes]
+  interval: Late Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: el-mers-iii-morocco
+fossil_material:
+  holotype: NHMUK PV R37366, a dorsal vertebra — El Mers III Formation, near Boulemane, Morocco.
+  material: Referred cervical and dorsal vertebrae and a left humerus, bought from fossil traders.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known from a few bones; the sources give no direct evidence of behaviour.
+images:
+- kind: life
+  file: Adratiklit boulahfa.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Adratiklit_boulahfa.png/960px-Adratiklit_boulahfa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Adratiklit_boulahfa.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-04-13'
+  caption: Life restoration of Adratiklit boulahfa.
+  width: 1984
+  height: 849
+  review: unreviewed
+  local: img/gallery/Adratiklit_001.webp
+- kind: fossil
+  file: Adratiklit holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/82/Adratiklit_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Adratiklit_holotype.png
+  artist: The Trustees of the Natural History Museum, London
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2019-03-22'
+  caption: Holotype dorsal vertebra of Adratiklit.
+  width: 1494
+  height: 1440
+  review: unreviewed
+  local: img/gallery/Adratiklit_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/014513a4-e812-44fb-ba46-ceb95e788fe3/vector.svg
+  png: https://images.phylopic.org/images/014513a4-e812-44fb-ba46-ceb95e788fe3/raster/512x187.png
+  page: https://www.phylopic.org/images/014513a4-e812-44fb-ba46-ceb95e788fe3
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Adratiklit boulahfa
+  matched: Adratiklit
+  genus_level: true
+  w: 512
+  h: 187
+sources:
+- kind: original
+  text: 'Maidment, Susannah C. R.; Raven, Thomas J.; Ouarhache, Driss; Barrett, Paul M. 2020. North Africa''s first
+    stegosaur: Implications for Gondwanan thyreophoran dinosaur diversity. Gondwana Research 77: 82–97. doi:10.1016/j.gr.2019.07.007'
+- kind: literature
+  text: Dai, H.; Li, N.; Maidment, S. C. R.; Wei, G.; Zhou, Y. X.; Hu, X. F.; Ma, Q. Y.; Wang, X. Q.; Hu, H. Q.;
+    Peng, G. Z. 2022. New Stegosaurs from the Middle Jurassic Lower Member of the Shaximiao Formation of Chongqing,
+    China. Journal of Vertebrate Paleontology 41(5). doi:10.1080/02724634.2021.1995737
+- kind: literature
+  text: 'Zafaty, O.; Oukassou, M.; Riguetti, F.; ((Company)), J.; Bendrioua, S.; Tabuce, R.; Charrière, A.; Pereda-Suberbiola,
+    X. 2024. A new stegosaurian dinosaur (Ornithischia: Thyreophora) with a remarkable dermal armour from the Middle
+    Jurassic of North Africa. Gondwana Research 131: 344–362. doi:10.1016/j.gr.2024.03.009'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Adratiklit (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Adratiklit
+- kind: encyclopedia
+  text: Wikipedia contributors. “Adratiklit”. English Wikipedia, revision 1369635626.
+  url: https://en.wikipedia.org/w/index.php?title=Adratiklit&oldid=1369635626
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Referred bones are assigned only on being stegosaurian; the exact find site is unknown.
+  reviews: []

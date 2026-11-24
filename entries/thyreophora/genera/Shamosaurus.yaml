@@ -1,0 +1,81 @@
+name: Shamosaurus
+rank: genus
+parent: ankylosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Tumanova 1983
+type_species: Shamosaurus scutatus
+type_species_note: Only species of the genus (PBDB; cited Wikipedia revision).
+summary: Shamosaurus is a basal ankylosaurid from the Early Cretaceous of Mongolia, known from a skull and cervical
+  half rings.
+size:
+  length_m: [5, 5]
+  mass_kg: [2000, 2000]
+  note: Estimates by Paul (cited Wikipedia revision).
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Shamosaurus scutatus
+  authority: Tumanova 1983
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Dzunbain
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov, Övörkhangai]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: dzunbain-mongolia
+fossil_material:
+  holotype: PIN N 3779/2, a skull and two cervical half rings — Dzunbain Formation, Hamrin-Us, Dornogovi, Mongolia.
+  material: Holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Basal ankylosaurid; the sources used give no behavioural data.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/vector.svg
+  png: https://images.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e/raster/512x314.png
+  page: https://www.phylopic.org/images/294aa46e-d5a8-4c48-b3ba-f1f3f4fd0c1e
+  attribution: Brad McFeeters (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Liaoningosaurus paradoxus
+  matched: Ankylosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: T. A. Tumanova. 1983. Pervyy ankilozavr iz nizhnego mela Mongolii [The first ankylosaurs from the Lower
+    Cretaceous of Mongolia]. In L. P. Tatarinov, R. Barsbold, E. Vorobyeva, B. Luvsandanzan, B. A. Trofimov, Yu.
+    A. Reshetov, & M. A. Shishkin (eds.), Iskopayemyye reptilii mongolii [Fossil Reptiles of Mongolia].  Trudy Sovmestnaya
+    Sovetsko-Mongol'skaya Paleontologicheskaya Ekspeditsiya 24:110-118
+- kind: literature
+  text: Wenjie Zheng 2018. The most basal ankylosaurine dinosaur from the Albian–Cenomanian of China, with implications
+    for the evolution of the tail club. Scientific Reports 8(1). doi:10.1038/s41598-018-21924-7
+- kind: literature
+  text: Xing, Lida; Niu, Kecheng; Mallon, Jordan; Miyashita, Tetsuto 2023. A new armored dinosaur with double cheek
+    horns from the early Late Cretaceous of southeastern China. Vertebrate Anatomy Morphology Palaeontology 11.
+    doi:10.18435/vamp29396
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shamosaurus (downloaded 2026-11-22).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shamosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shamosaurus”. English Wikipedia, revision 1368889985.
+  url: https://en.wikipedia.org/w/index.php?title=Shamosaurus&oldid=1368889985
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - No image candidates; PBDB gives no named original paper (Tumanova 1983).
+  reviews: []
