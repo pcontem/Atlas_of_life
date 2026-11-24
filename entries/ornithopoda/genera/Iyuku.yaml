@@ -1,0 +1,76 @@
+name: Iyuku
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Forster et al. 2022
+type_species: Iyuku raathi
+type_species_note: ''
+summary: An iguanodontian from the Early Cretaceous Kirkwood Formation of South Africa, known from a bonebed of
+  juveniles and hatchlings.
+size:
+  length_m: null
+  note: The material is juvenile, so no adult size is given.
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Iyuku raathi
+  authority: Forster et al. 2022
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Kirkwood
+  group: Uitenhage
+  members: []
+  country: South Africa
+  regions: [Eastern Cape]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: kirkwood-south-africa
+fossil_material:
+  holotype: Not read in the sources consulted; from a bonebed in the Kirkwood Formation.
+  material: At least 27 juvenile and hatchling individuals, counted from non-overlapping left femora.
+  completeness: multiple
+  exceptional: A bonebed of hatchlings and juveniles, unusual for the group.
+biology: The name means "hatchling" in Xhosa; the early growth stage of the specimens makes phylogenetic placement
+  hard, so the authors assigned it only to Iguanodontia.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Iyuku
+  genus_level: true
+sources:
+- kind: original
+  text: 'Forster CA, de Klerk WJ, Poole KE, Chinsamy-Turan A, Roberts EM, Ross CF 2022. ''''Iyuku raathi'''', a
+    new iguanodontian dinosaur from the Early Cretaceous Kirkwood Formation, South Africa. The Anatomical Record
+    306(7): 1762–1803. doi:10.1002/ar.25038'
+- kind: literature
+  text: 'Poole, K 2022. Placing juvenile specimens in phylogenies: An ontogenetically sensitive phylogenetic assessment
+    of a new genus of iguanodontian dinosaur from the Early Cretaceous Kirkwood Formation, South Africa. The Anatomical
+    Record 306(7): 1939–1950. doi:10.1002/ar.25095'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Iyuku (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Iyuku
+- kind: encyclopedia
+  text: Wikipedia contributors. “Iyuku”. English Wikipedia, revision 1290786018.
+  url: https://en.wikipedia.org/w/index.php?title=Iyuku&oldid=1290786018
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

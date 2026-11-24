@@ -1,0 +1,83 @@
+name: Osmakasaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: McDonald 2011
+type_species: Osmakasaurus depressus
+type_species_note: ''
+summary: An iguanodontian from the Early Cretaceous Lakota Formation of South Dakota, named in 2011 for material
+  once called Camptosaurus depressus.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 154.8
+  last_ma: 121.4
+  early_interval: Kimmeridgian
+  late_interval: Barremian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Osmakasaurus depressus
+  authority: (Gilmore 1909)
+  first_ma: 154.8
+  last_ma: 121.4
+  interval: Kimmeridgian–Barremian
+  reference: original description
+formations:
+- formation: Lakota
+  group: ''
+  members: [Chilson]
+  country: United States
+  regions: [South Dakota]
+  interval: Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: lakota-united-states
+- formation: Morrison
+  group: ''
+  members: [Lake Como]
+  country: United States
+  regions: [Wyoming]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: USNM 4753, found by Nelson Horatio Darton in 1896 in the Lakota Formation.
+  material: The holotype only in the sources consulted.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/vector.svg
+  png: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/raster/512x118.png
+  page: https://www.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Tenontosaurus tilletti
+  matched: Iguanodontia
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Andrew T. McDonald 2011. The taxonomy of species assigned to ''''Camptosaurus'''' (Dinosauria: Ornithopoda).
+    Zootaxa 2783: 52–68. doi:10.11646/zootaxa.2783.1.4'
+- kind: literature
+  text: 'Carpenter, K.; Wilson, Y. 2008. A New Species of ''''Camptosaurus'''' (Ornithopoda: Dinosauria) from the
+    Morrison Formation (Upper Jurassic) of Dinosaur National Monument, Utah, and a Biomechanical Analysis of Its
+    Forelimb. Annals of Carnegie Museum 76(4): 227. doi:10.2992/0097-4463(2008)76[227:ANSOCO]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Osmakasaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Osmakasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Osmakasaurus”. English Wikipedia, revision 1319899867.
+  url: https://en.wikipedia.org/w/index.php?title=Osmakasaurus&oldid=1319899867
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

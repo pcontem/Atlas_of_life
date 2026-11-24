@@ -1,0 +1,82 @@
+name: Choyrodon
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Gates et al. 2018
+type_species: Choyrodon barsboldi
+type_species_note: ''
+summary: A hadrosauroid from the Albian Khuren Dukh Formation of Mongolia, the sister taxon of Eolambia in its naming
+  analysis.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 110.1
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Choyrodon barsboldi
+  authority: Gates et al. 2018
+  first_ma: 110.1
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Khuren Dukh
+  group: ''
+  members: [Lower]
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Middle Albian–Late Albian
+  occurrences: 2
+  ma: [100.5, 110.1]
+  id: khuren-dukh-mongolia
+fossil_material:
+  holotype: MPC-D 100/801, a partial skull with cervical ribs.
+  material: Two other partial skulls with associated postcranial bones, from different localities of the lower member.
+  completeness: partial
+  exceptional: ''
+biology: Found in the same beds as Altirhinus but distinct from it.
+images:
+- kind: fossil
+  file: Choyrodon skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Choyrodon_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Choyrodon_skull.jpg
+  artist: Terry A. Gates
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-08-03'
+  caption: Skull of Choyrodon barsboldi
+  width: 491
+  height: 600
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/vector.svg
+  png: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/raster/512x118.png
+  page: https://www.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Tenontosaurus tilletti
+  matched: Iguanodontia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Gates, T.A.; Tsogtbaatar, K.; Zanno, L.E.; Chinzorig, C.; Watabe, M. 2018. A new iguanodontian (Dinosauria:
+    Ornithopoda) from the Early Cretaceous of Mongolia. PeerJ 6. doi:10.7717/peerj.5300'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Choyrodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Choyrodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Choyrodon”. English Wikipedia, revision 1319900771.
+  url: https://en.wikipedia.org/w/index.php?title=Choyrodon&oldid=1319900771
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

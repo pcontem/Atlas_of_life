@@ -1,0 +1,113 @@
+name: Owenodon
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Galton 2009
+type_species: Owenodon hoggii
+type_species_note: ''
+summary: An iguanodontian known from a partial lower jaw from the Early Cretaceous Purbeck Limestone of Dorset,
+  England.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 149.2
+  last_ma: 137.05
+  early_interval: Tithonian
+  late_interval: Berriasian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Owenodon hoggii
+  authority: (Owen 1874)
+  first_ma: 149.2
+  last_ma: 139.1
+  interval: Tithonian–Berriasian
+  reference: original description
+formations:
+- formation: Lower Bauxite
+  group: ''
+  members: []
+  country: Romania
+  regions: [Judetul Bihor]
+  interval: Berriasian
+  occurrences: 3
+  ma: [137.05, 143.1]
+  id: lower-bauxite-romania
+- formation: Lulworth
+  group: Purbeck
+  members: [Worbarrow Tout]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Berriasian
+  occurrences: 2
+  ma: [139.1, 141.0]
+  id: lulworth-united-kingdom
+- formation: Unnamed unit
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: purbeck-group-united-kingdom
+fossil_material:
+  holotype: A partial lower jaw from the Lulworth Formation, Purbeck Limestone Group, found by A. J. Hogg and described
+    by Owen in 1874 as Iguanodon hoggii.
+  material: Possibly material from Romania and Spain; Galton removed other Purbeck fossils from it in 2009.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Owenodon.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/89/Owenodon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Owenodon.jpg
+  artist: C. L. Griesbach
+  license: Public domain
+  license_url: ''
+  date: '1874'
+  caption: Jaw of Owenodon hoggii
+  width: 1424
+  height: 570
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6cc4b756-fa65-471b-9c04-dbc9d27fcc4a/vector.svg
+  png: https://images.phylopic.org/images/6cc4b756-fa65-471b-9c04-dbc9d27fcc4a/raster/512x306.png
+  page: https://www.phylopic.org/images/6cc4b756-fa65-471b-9c04-dbc9d27fcc4a
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Cumnoria prestwichii
+  matched: Dryomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'Galton, P.M. 2009. Notes on Neocomian (Late Cretaceous) ornithopod dinosaurs from England – ''''Hypsilophodon'''',
+    ''''Valdosaurus'''', "Camptosaurus", "Iguanodon" – and referred specimens from Romania and elsewhere. Revue
+    de Paléobiologie 28(1): 211–273.'
+- kind: literature
+  text: 'Owen, R. 1874. Monograph on the Fossil Reptilia of the Wealden and Purbeck Formations. Supplement No. V.
+    Dinosauria (''''Iguanodon''''). [Wealden and Purbeck]. Monographs of the Palaeontological Society 27(124): 1–18.
+    doi:10.1080/02693445.1874.12113258'
+- kind: literature
+  text: 'Norman, D.B.; Barrett, P.M. 2002. Ornithischian dinosaurs from the Lower Cretaceous (Berriasian) of England.
+    Special Papers in Palaeontology 68: 161–189.'
+- kind: literature
+  text: 'Carpenter, K.; Wilson, Y. 2008. A new species of ''''Camptosaurus'''' (Ornithopoda: Dinosauria) from the
+    Morrison Formation (Upper Jurassic) of Dinosaur National Monument, Utah, and a biomechanical analysis of its
+    forelimb. Annals of the Carnegie Museum 76(4): 227–263. doi:10.2992/0097-4463(2008)76[227:ansoco]2.0.co;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Owenodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Owenodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Owenodon”. English Wikipedia, revision 1384634470.
+  url: https://en.wikipedia.org/w/index.php?title=Owenodon&oldid=1384634470
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

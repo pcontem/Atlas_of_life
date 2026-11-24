@@ -1,0 +1,194 @@
+name: Tenontosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Ostrom 1970
+type_species: Tenontosaurus tilletti
+type_species_note: ''
+summary: A medium-sized iguanodontian of the Early Cretaceous of western North America with a very long, broad tail
+  stiffened by bony tendons.
+size:
+  length_m: null
+  note: Body-mass estimates exist (Campione 2020) but no length is read in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 93.9
+  early_interval: Aptian
+  late_interval: Cenomanian
+  pbdb_occurrences: 83
+  note: ''
+species:
+- name: Tenontosaurus dossi
+  authority: Winkler et al. 1997
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: ''
+- name: Tenontosaurus tilletti
+  authority: Ostrom 1970
+  first_ma: 121.4
+  last_ma: 93.9
+  interval: Aptian–Cenomanian
+  reference: original description
+formations:
+- formation: Cloverly
+  group: ''
+  members: [Himes, Little Sheep Mudstone]
+  country: United States
+  regions: [Montana, Wyoming]
+  interval: Aptian–Early Cenomanian
+  occurrences: 63
+  ma: [93.9, 121.4]
+  id: cloverly-united-states
+- formation: Antlers
+  group: Trinity
+  members: [Middle, middle]
+  country: United States
+  regions: [Oklahoma, Texas]
+  interval: Aptian–Albian
+  occurrences: 9
+  ma: [100.5, 121.4]
+  id: antlers-united-states
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Ruby Ranch]
+  country: United States
+  regions: [Utah]
+  interval: Aptian–Albian
+  occurrences: 4
+  ma: [100.5, 121.4]
+  id: cedar-mountain-united-states
+- formation: Shellenberger Canyon
+  group: Bisbee
+  members: []
+  country: United States
+  regions: [Arizona]
+  interval: Albian
+  occurrences: 2
+  ma: [100.5, 113.2]
+  id: shellenberger-canyon-united-states
+- formation: Arundel Clay
+  group: Potomac
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Late Aptian
+  occurrences: 2
+  ma: [113.2, 119.57]
+  id: arundel-clay-united-states
+- formation: Twin Mountains
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: twin-mountains-united-states
+- formation: Wayan
+  group: ''
+  members: []
+  country: United States
+  regions: [Idaho]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: wayan-united-states
+- formation: Paluxy
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: paluxy-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; first fossils found in Big Horn County, Montana, in 1903, and the
+    species named by John Ostrom in 1970.
+  material: Dozens of specimens from the Cloverly Formation and other units, plus a second species, T. dossi (Winkler
+    et al. 1997), known from a few specimens in Texas.
+  completeness: multiple
+  exceptional: ''
+biology: The back and tail were stiffened by a network of bony tendons; its abundant remains have been used to study
+  ontogeny, predator-prey relations and the Cloverly ecosystem.
+images:
+- kind: skeletal
+  file: Kostra tenontosaura.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Kostra_tenontosaura.jpg/960px-Kostra_tenontosaura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kostra_tenontosaura.jpg
+  artist: Meridas (Vladimír Socha)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2009-07-13'
+  caption: Skeleton of Tenontosaurus
+  width: 2560
+  height: 1920
+  review: unreviewed
+- kind: fossil
+  file: MOR 682 Tenontosaurus 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/MOR_682_Tenontosaurus_01.jpg/960px-MOR_682_Tenontosaurus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:MOR_682_Tenontosaurus_01.jpg
+  artist: NGPezz
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-07-01'
+  caption: Specimen MOR 682 of Tenontosaurus tilletti
+  width: 4000
+  height: 3000
+  review: unreviewed
+- kind: fossil
+  file: Tenontosaurus skull front view.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c6/Tenontosaurus_skull_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tenontosaurus_skull_front_view.jpg
+  artist: Andrew Thomas
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-04-17'
+  caption: Skull of Tenontosaurus tilletti in front view
+  width: 800
+  height: 1305
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e1c46712-d801-421a-b8fd-61cb9573f248/vector.svg
+  png: https://images.phylopic.org/images/e1c46712-d801-421a-b8fd-61cb9573f248/raster/512x151.png
+  page: https://www.phylopic.org/images/e1c46712-d801-421a-b8fd-61cb9573f248
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tenontosaurus dossi
+  matched: Tenontosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Ostrom, J. H. 1970. Stratigraphy and paleontology of the Cloverly Formation (Lower Cretaceous) of the Bighorn
+    Basin area, Wyoming and Montana. Bulletin of the Peabody Museum of Natural History 35: 1–234.'
+- kind: literature
+  text: 'Winkler, Dale A.; Murry, Phillip A.; Jacobs, Louis L. 1997. A new species of Tenontosaurus (Dinosauria:
+    Ornithopoda) from the Early Cretaceous of Texas. Journal of Vertebrate Paleontology 17(2): 330–348. doi:10.1080/02724634.1997.10010978'
+- kind: literature
+  text: 'Forster, C. A. 1984. The paleoecology of the ornithopod dinosaur Tenontosaurus tilletti from the Cloverly
+    Formation, Big Horn Basin of Wyoming and Montana. The Mosasaur 2: 151–163.'
+- kind: literature
+  text: 'Thomas, Andrew 2015. The cranial anatomy of Tenontosaurus tilletti Ostrom, 1970 (Dinosauria, Ornithopoda).
+    Palaeontologia Electronica 18.2.37A: 1–99.'
+- kind: literature
+  text: 'Nabavizadeh, Ali; Weishampel, David B. 2016. The Predentary Bone and Its Significance in the Evolution
+    of Feeding Mechanisms in Ornithischian Dinosaurs. The Anatomical Record 299(10): 1358–1388. doi:10.1002/ar.23455'
+- kind: literature
+  text: Fonseca, A.O.; Reid, I.J.; Venner, A.; Duncan, R.J.; Garcia, M.S.; Müller, R.T. 2024. A comprehensive phylogenetic
+    analysis on early ornithischian evolution. Journal of Systematic Palaeontology 22(1). doi:10.1080/14772019.2024.2346577
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tenontosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tenontosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tenontosaurus”. English Wikipedia, revision 1380244645.
+  url: https://en.wikipedia.org/w/index.php?title=Tenontosaurus&oldid=1380244645
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is flagged as possibly not about the genus although its lead is; check the revision.
+  reviews: []
