@@ -1,0 +1,108 @@
+name: Ahshislesaurus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Dalman et al. 2025
+type_species: Ahshislesaurus wimani
+type_species_note: ''
+summary: A saurolophine hadrosaurid of the Late Cretaceous of New Mexico, known from a partial skull and three neck
+  vertebrae.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Ahshislesaurus wimani
+  authority: Dalman et al. 2025
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Kirtland
+  group: ''
+  members: [Hunter Wash]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+fossil_material:
+  holotype: A partial skull and three neck vertebrae.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Ahshislesaurus Skeletal Main.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Ahshislesaurus_Skeletal_Main.png/960px-Ahshislesaurus_Skeletal_Main.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ahshislesaurus_Skeletal_Main.png
+  artist: Definitely NOT Dilophosaurus
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-10-11'
+  caption: Skeletal reconstruction of Ahshislesaurus wimani
+  width: 5820
+  height: 2360
+  review: unreviewed
+- kind: life
+  file: Ahshislesaurus wimani.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ahshislesaurus_wimani.png/960px-Ahshislesaurus_wimani.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ahshislesaurus_wimani.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-10-01'
+  caption: Life restoration of Ahshislesaurus wimani
+  width: 4000
+  height: 1646
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Dalman, Sebastian G.; Jasinski, Steven E.; Malinzak, D. Edward; Lucas, Spencer G.; Kundrát, Martin; Fiorillo,
+    Anthony R. Sept. A new saurolophine hadrosaurid (Ornithischia: Hadrosauridae) from the Upper Cretaceous (Campanian)
+    Hunter Wash Member, Kirtland Formation, San Juan Basin, New Mexico. New Mexico Museum of Natural History and
+    Science Bulletin Fossil Record 11: 73–114.'
+- kind: literature
+  text: 'Brown, Barnum 1910. The Cretaceous Ojo Alamo beds of New Mexico with description of the new dinosaur genus
+    ''''Kritosaurus''''. Bulletin of the American Museum of Natural History 28(24): 267–274.'
+- kind: literature
+  text: 'Prieto-Márquez, Albert 2014. Skeletal morphology of ''''Kritosaurus navajovius'''' (Dinosauria: Hadrosauridae)
+    from the Late Cretaceous of the North American south-west, with an evaluation of the phylogenetic systematics
+    and biogeography of Kritosaurini. Journal of Systematic Palaeontology 12(2): 133–175. doi:10.1080/14772019.2013.770417'
+- kind: literature
+  text: 'Gilmore, Charles W. 1935. On the Reptilia of the Kirtland Formation of New Mexico, with the descriptions
+    of new species of fossil turtles. Proceedings of the United States National Museum 83(2978): 159–188. doi:10.5479/si.00963801.83-2978.159'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ahshislesaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ahshislesaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ahshislesaurus”. English Wikipedia, revision 1367448250.
+  url: https://en.wikipedia.org/w/index.php?title=Ahshislesaurus&oldid=1367448250
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Named in 2025 for material formerly referred to Kritosaurus navajovi; check the genus's position against Prieto-Marquez
+    2014.
+  reviews: []

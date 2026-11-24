@@ -1,0 +1,95 @@
+name: Huallasaurus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Rozadilla et al. 2021
+type_species: Huallasaurus australis
+type_species_note: ''
+summary: A saurolophine hadrosaur of the Late Cretaceous Los Alamitos Formation of Patagonia, Argentina.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Huallasaurus australis
+  authority: (Bonaparte et al. 1984)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Los Alamitos
+  group: ''
+  members: [Lower, Middle]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian–Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: los-alamitos-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; named by Rozadilla and colleagues in 2021.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Huallasaurus australis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/19/Huallasaurus_australis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Huallasaurus_australis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Huallasaurus australis
+  width: 837
+  height: 321
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'S. Rozadilla, F. Brissón-Egli, and F. L. Agnolín, A. M. Aranciaga-Rolando, F. E. Novas. 2021. A new hadrosaurid
+    (Dinosauria: Ornithischia) from the Late Cretaceous of northern Patagonia and the radiation of South American
+    hadrosaurids. Journal of Systematic Palaeontology 19(17):1207-1235'
+- kind: literature
+  text: 'Bonaparte, José 1984. La Formación Los Alamitos (Campaniano-Maastrichtiano) del sudeste de Rio Negro, con
+    descripcion de ''''Kritosaurus australis'''' n. sp. (Hadrosauridae). Significado paleogeografico de los vertebrados.
+    Revista de la Asociación Geológica Argentina 39(3–4): 284–299.'
+- kind: literature
+  text: 'Prieto–Marquez, Alberto 2010. A re–evaluation of ''''Secernosaurus koerneri'''' and ''''Kritosaurus australis''''
+    (Dinosauria, Hadrosauridae) from the Late Cretaceous of Argentina. Journal of Vertebrate Paleontology 30(3):
+    813–837. doi:10.1080/02724631003763508'
+- kind: literature
+  text: 'Rozadilla, Sebastián; Brissón-Egli, Federico; Lisandro Agnolín, Federico; Aranciaga-Rolando, Alexis Mauro;
+    Novas, Fernando Emilio 2022. A new hadrosaurid (Dinosauria: Ornithischia) from the Late Cretaceous of northern
+    Patagonia and the radiation of South American hadrosaurids. Journal of Systematic Palaeontology 19(17): 1207–1235.
+    doi:10.1080/14772019.2021.2020917'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Huallasaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Huallasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Huallasaurus”. English Wikipedia, revision 1385824640.
+  url: https://en.wikipedia.org/w/index.php?title=Huallasaurus&oldid=1385824640
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
