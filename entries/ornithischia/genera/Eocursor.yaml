@@ -57,6 +57,7 @@ images:
   width: 1842
   height: 639
   review: unreviewed
+  local: img/gallery/Eocursor_001.webp
 - kind: life
   file: Eocursor BW.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/7/71/Eocursor_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -69,6 +70,7 @@ images:
   width: 800
   height: 400
   review: unreviewed
+  local: img/gallery/Eocursor_002.webp
 silhouette:
   src: https://images.phylopic.org/images/63cc3161-ac45-4b32-8fbe-fcc720a3c87c/vector.svg
   png: https://images.phylopic.org/images/63cc3161-ac45-4b32-8fbe-fcc720a3c87c/raster/512x174.png
@@ -78,6 +80,8 @@ silhouette:
   depicts: Eocursor parvus
   matched: Eocursor
   genus_level: true
+  w: 512
+  h: 174
 sources:
 - kind: original
   text: R. J. Butler, R. M. H. Smith, and D. B. Norman. 2007. A primitive ornithischian dinosaur from the Late Triassic
