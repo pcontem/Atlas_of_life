@@ -1,3 +1,26 @@
+# Next steps (Ornithischia, part B: Ornithopoda, Heterodontosauria and basal ornithischians)
+
+## Done (branch entry/ornithischia-b)
+- Three new volumes attached to the tree: Ornithischia (root; 17 genera), Heterodontosauria (8) and Ornithopoda (197); `build.py` and `validate.py` now accept a volume attached to another volume's root (Thyreophora already hangs from Ornithischia).
+- Ornithopoda clades with entries: Ornithopoda, Elasmaria, Rhabdodontomorpha, Dryosauridae, Thescelosauridae, Hadrosauridae, Lambeosaurinae, Saurolophinae. Other groups (Iguanodontia, Ankylopollexia, Hadrossauroidea, Styracosterna, Tenontosauridae…) have no clade entry yet: their genera sit directly in Ornithopoda (M6).
+- Thescelosaurids and basal neornithischians were written with the Ornithischia harvest; the thescelosaurids were then moved to `entries/ornithopoda/genera`. `scripts/make_formations.py` now reads the occurrences and collections of every volume so they get their formations.
+- Almost all texts are short and cautious: many holotype/material lines say "not read in the sources consulted". Entries are `ai-draft`.
+
+## Not written yet
+- Koutalisaurus, Nectosaurus, Paulodon, Proiguanodon, Proyandusaurus (no PBDB occurrences or the Wikipedia page is another taxon); Krzyzanowskisaurus (Late Triassic tooth taxon, position unclear); Technosaurus (silesaurid, out of scope).
+- Silesauridae, Chilesaurus, Eucentrosaurus/Hanssuesia (part A), Hylosaurus, Priodontosaurus, Sauraechmodon, Euskelesaurus: decide scope.
+- Thyreophora/Marginocephalia remain as in part A.
+
+## Open questions for the owner
+- Should Iguanodontia, Ankylopollexia, Hadrosauroidea, Styracosterna and Tenontosauridae get clade entries (and the genera be moved below them)?
+- Placement of Barsboldia, Aralosaurus, Latirhinus, Hypsilophodon, Daurosaurus, Vectidromeus and the basal neornithischians (all marked or noted in `curation.notes`).
+- Ugrunaaluk (possible synonym of Edmontosaurus) and Callovosaurus (sometimes dubious) validity.
+- Type species for several genera were filled from general knowledge (marked in `type_species_note`): check before consolidation.
+
+## Reminders
+- Run the media fetch (`media/fetch_request.json`) after merging and `scripts/media.py pull` before building.
+- Foskeia: the only free-licence image was `CC BY 2.5 AR` (rejected by the validator); it was dropped.
+
 # Next steps (Ornithischia, part A: Thyreophora + Marginocephalia)
 
 ## Done (branch entry/ornithischia-a)
