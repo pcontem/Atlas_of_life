@@ -1,0 +1,187 @@
+name: Zalmoxes
+rank: genus
+parent: rhabdodontomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Weishampel et al. 2003
+type_species: Zalmoxes robustus
+type_species_note: ''
+summary: A probable rhabdodontid ornithopod from the Maastrichtian of Romania, known from many specimens.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 44
+  note: ''
+species:
+- name: Zalmoxes robustus
+  authority: (Nopcsa 1900)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba, Sebeş]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 12
+  ma: [66.0, 83.6]
+  id: sebes-romania
+- formation: Sînpetru
+  group: ''
+  members: [lower]
+  country: Romania
+  regions: [Alba, Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 11
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: Densuș-Ciula
+  group: ''
+  members: [Lower, Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 8
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+- formation: Grünbach
+  group: Gosau
+  members: []
+  country: Austria
+  regions: [Niederosterreich]
+  interval: Early Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: grunbach-austria
+- formation: Şard
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: sard-romania
+- formation: Râul Mare
+  group: ''
+  members: [upper]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: raul-mare-romania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: unnamed-la-boucharde-france
+- formation: Bozeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: bozes-romania
+fossil_material:
+  holotype: Not read in the sources consulted; Nopcsa named the species Mochlodon robustus in 1899 from Transylvanian
+    fossils.
+  material: Numerous fossils from Transylvania, catalogued by Brusatte and others.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Zalmoxes robustus dentary.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2b/Zalmoxes_robustus_dentary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Zalmoxes_robustus_dentary.jpg
+  artist: Ł. Czepiński & D. Madzia
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-04-30'
+  caption: Dentary of Zalmoxes robustus
+  width: 474
+  height: 348
+  review: unreviewed
+- kind: fossil
+  file: Zalmoxes vertebra.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c4/Zalmoxes_vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Zalmoxes_vertebra.jpg
+  artist: Gyik Toma (Tommy the paleobear) from Romania
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2013-09-13'
+  caption: Vertebra of Zalmoxes
+  width: 1338
+  height: 1024
+  review: unreviewed
+- kind: fossil
+  file: Zalmoxes TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Zalmoxes_TD.png/960px-Zalmoxes_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zalmoxes_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-05-07'
+  caption: Skeletal drawing of Zalmoxes
+  width: 3000
+  height: 1000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a5903b8c-609b-4a54-a70c-d153aa5fef0e/vector.svg
+  png: https://images.phylopic.org/images/a5903b8c-609b-4a54-a70c-d153aa5fef0e/raster/512x164.png
+  page: https://www.phylopic.org/images/a5903b8c-609b-4a54-a70c-d153aa5fef0e
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Zalmoxes robustus
+  matched: Zalmoxes
+  genus_level: true
+sources:
+- kind: original
+  text: D. B. Weishampel, C.-M. Jianu, and Z. Csiki, D. B. Norman. 2003. Osteology and phylogeny of Zalmoxes (n.
+    g.), an unusual euornithopod dinosaur from the latest Cretaceous of Romania. Journal of Systematic Palaeontology
+    1(2):65-123
+- kind: literature
+  text: 'Brusatte, Stephen L.; Dumbravă, Mihai; Vremir, Mátyás; Csiki-Sava, Zoltán; Totoianu, Radu; Norell, Mark
+    A. Octo. A Catalog of ''''Zalmoxes'''' (Dinosauria: Ornithopoda) Specimens from the Upper Cretaceous Nălaţ-Vad
+    Locality, Haţeg Basin, Romania. American Museum Novitates(3884): 1–36. doi:10.1206/3884.1'
+- kind: literature
+  text: 'Augustin, F.J. 2022. Reappraisal of the braincase anatomy of the ornithopod dinosaurs ''''Telmatosaurus''''
+    and ''''Zalmoxes'''' from the Upper Cretaceous of the Haţeg Basin (Romania) and the taxonomic reassessment of
+    some previously referred specimens. PalZ 97: 129–145. doi:10.1007/s12542-022-00621-x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zalmoxes (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zalmoxes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zalmoxes”. English Wikipedia, revision 1370566954.
+  url: https://en.wikipedia.org/w/index.php?title=Zalmoxes&oldid=1370566954
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

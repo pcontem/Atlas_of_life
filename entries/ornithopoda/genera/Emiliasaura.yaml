@@ -1,0 +1,107 @@
+name: Emiliasaura
+rank: genus
+parent: rhabdodontomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Coria et al. 2025
+type_species: Emiliasaura alessandrii
+type_species_note: ''
+summary: An iguanodontian ornithopod from the Early Cretaceous Mulichinco Formation of Neuquén, Argentina, known
+  from three specimens.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Emiliasaura alessandrii
+  authority: Coria et al. 2025
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Mulichinco
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: mulichinco-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; a partial ornithopod skeleton from the Mulichinco Formation, Pilmatué
+    Creek, Neuquén.
+  material: Two further partial skeletons, one with much of the right hindlimb, parts of both pelvic girdles, sacral
+    and caudal vertebrae and ossified tendons, and an isolated dorsal vertebra.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Emiliasaura TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Emiliasaura_TD.png/960px-Emiliasaura_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Emiliasaura_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-16'
+  caption: Skeletal drawing of Emiliasaura alessandrii
+  width: 2600
+  height: 1000
+  review: unreviewed
+- kind: life
+  file: Emiliasaura alessandrii.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Emiliasaura_alessandrii.png/960px-Emiliasaura_alessandrii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Emiliasaura_alessandrii.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-16'
+  caption: Life restoration of Emiliasaura alessandrii
+  width: 3600
+  height: 1271
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/vector.svg
+  png: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/raster/512x118.png
+  page: https://www.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Tenontosaurus tilletti
+  matched: Rhabdodontomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: R. A. Coria, I. A. Cerda, and F. Escaso, M. A. Baiano, F. Bellardini, A. Braun, L. M. Coria, J. M. Gutierrez,
+    D. Pino, G. Windholz, P. J. Currie, F. Ortega. 2025. First Valanginian (Early Cretaceous) ornithopod (Dinosauria,
+    Ornithischia) from Patagonia. Cretaceous Research 166:106027
+- kind: literature
+  text: Poole, Karen E. 2022. Phylogeny of iguanodontian dinosaurs and the evolution of quadrupedality. Palaeontologia
+    Electronica. doi:10.26879/702
+- kind: literature
+  text: Fonseca, André O.; Reid, Iain J.; Venner, Alexander; Duncan, Ruairidh J.; Garcia, Mauricio S.; Müller, Rodrigo
+    T. 2024. A comprehensive phylogenetic analysis on early ornithischian evolution. Journal of Systematic Palaeontology
+    22(1). doi:10.1080/14772019.2024.2346577
+- kind: literature
+  text: Czepiński, Łukasz; Madzia, Daniel 2025. Exploring the diversity and disparity of rhabdodontomorph ornithopods
+    from the Late Cretaceous European archipelago. Scientific Reports 15(1). doi:10.1038/s41598-025-98083-z
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Emiliasaura (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Emiliasaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Emiliasaura”. English Wikipedia, revision 1387521814.
+  url: https://en.wikipedia.org/w/index.php?title=Emiliasaura&oldid=1387521814
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
