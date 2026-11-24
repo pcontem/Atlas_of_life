@@ -1,0 +1,99 @@
+name: Barsboldia
+rank: genus
+parent: hadrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Maryanska and Osmólska 1981
+type_species: Barsboldia sicinskii
+type_species_note: ''
+summary: A large hadrosaurid from the Maastrichtian Nemegt Formation of Mongolia, known from a partial vertebral
+  column and hip bones.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Barsboldia sicinskii
+  authority: Maryanska and Osmólska 1981
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: A partial vertebral column with pelvic elements.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Barsboldia dorsal vertebrae.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ee/Barsboldia_dorsal_vertebrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Barsboldia_dorsal_vertebrae.jpg
+  artist: Teresa Maryańska & Halszka Osmólska
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '1981'
+  caption: Dorsal vertebrae of Barsboldia sicinskii
+  width: 822
+  height: 993
+  review: unreviewed
+- kind: fossil
+  file: Barsboldia left ilium & rib.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/00/Barsboldia_left_ilium_%26_rib.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Barsboldia_left_ilium_%26_rib.jpg
+  artist: Teresa Maryańska & Halszka Osmólska
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '1981'
+  caption: Left ilium and rib of Barsboldia sicinskii
+  width: 1527
+  height: 953
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Maryańska, Teresa 1981. First lambeosaurine dinosaur from the Nemegt Formation, Upper Cretaceous, Mongolia.
+    Acta Palaeontologica Polonica 26: 243–255.'
+- kind: literature
+  text: 'Prieto-Márquez, A. 2011. A Reappraisal of ''''Barsboldia sicinskii'''' (Dinosauria: Hadrosauridae) from
+    the Late Cretaceous of Mongolia. Journal of Paleontology 83(3): 468–477. doi:10.1666/10-106.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Barsboldia (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Barsboldia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Barsboldia”. English Wikipedia, revision 1385890573.
+  url: https://en.wikipedia.org/w/index.php?title=Barsboldia&oldid=1385890573
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB lists it as Saurolophinae; the naming paper called it lambeosaurine and the Wikipedia revision calls it
+    a large hadrosaurid. Parent kept at Hadrosauridae.
+  reviews: []

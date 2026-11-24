@@ -1,0 +1,99 @@
+name: Adynomosaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Prieto-Márquez et al. 2019
+type_species: Adynomosaurus arcanus
+type_species_note: ''
+summary: A lambeosaurine hadrosaurid from the Late Cretaceous of Catalonia, Spain, discovered in 2012 and named
+  in 2019.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Adynomosaurus arcanus
+  authority: Prieto-Márquez et al. 2019
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Conques
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: conques-spain
+fossil_material:
+  holotype: Not read in the sources consulted; from Catalonia, Spain.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Adynomosaurus LM.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Adynomosaurus_LM.png/960px-Adynomosaurus_LM.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Adynomosaurus_LM.png
+  artist: Levi Martinez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-01-05'
+  caption: Skeletal reconstruction of Adynomosaurus arcanus
+  width: 6684
+  height: 2958
+  review: unreviewed
+- kind: life
+  file: Life reconstruction of Adynomosaurus arcanus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Life_reconstruction_of_Adynomosaurus_arcanus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Adynomosaurus_arcanus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Adynomosaurus arcanus
+  width: 968
+  height: 382
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Prieto-Márquez, Albert; Fondevilla, Víctor; Sellés, Albert G.; Wagner, Jonathan R.; Galobart, Àngel 2019.
+    ''''Adynomosaurus arcanus'''', a new lambeosaurine dinosaur from the Late Cretaceous Ibero-Armorican Island
+    of the European Archipelago. Cretaceous Research 96: 19–37. doi:10.1016/j.cretres.2018.12.002'
+- kind: literature
+  text: Prieto-Márquez, A.; Dalla Vecchia, F. M.; Gaete, R.; Galobart, À. 2013. Diversity, Relationships, and Biogeography
+    of the Lambeosaurine Dinosaurs from the European Archipelago, with Description of the New Aralosaurin Canardia
+    garonnensis. PLOS ONE 8(7). doi:10.1371/journal.pone.0069835
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Adynomosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Adynomosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Adynomosaurus”. English Wikipedia, revision 1377209329.
+  url: https://en.wikipedia.org/w/index.php?title=Adynomosaurus&oldid=1377209329
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

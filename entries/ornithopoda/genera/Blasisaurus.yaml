@@ -1,0 +1,103 @@
+name: Blasisaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Cruzado-Caballero et al. 2010
+type_species: Blasisaurus canudoi
+type_species_note: ''
+summary: A lambeosaurine hadrosaurid of the Late Cretaceous of Spain, known from a partial skull and skeleton from
+  late Maastrichtian rocks.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Blasisaurus canudoi
+  authority: Cruzado-Caballero et al. 2010
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Arén
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: aren-spain
+fossil_material:
+  holotype: A partial skull and skeleton from late Maastrichtian rocks of Spain.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Blasisaurus skull reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Blasisaurus_skull_reconstruction.jpg/960px-Blasisaurus_skull_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Blasisaurus_skull_reconstruction.jpg
+  artist: Olof Moleman
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-05-02'
+  caption: Skull reconstruction of Blasisaurus canudoi
+  width: 2500
+  height: 2386
+  review: unreviewed
+- kind: life
+  file: Life reconstruction of Blasisaurus canudoi.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/04/Life_reconstruction_of_Blasisaurus_canudoi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Blasisaurus_canudoi.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Blasisaurus canudoi
+  width: 814
+  height: 307
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Cruzado-Caballero, Penélope 2010. ''''Blasisaurus canudoi'''' gen. et sp. nov., a new lambeosaurine dinosaur
+    (Hadrosauridae) from the Latest Cretaceous of Arén (Huesca, Spain). Canadian Journal of Earth Sciences 47(12):
+    1507–1517. doi:10.1139/E10-081'
+- kind: literature
+  text: Prieto-Márquez, A.; Dalla Vecchia, F. M.; Gaete, R.; Galobart, À. 2013. Diversity, Relationships, and Biogeography
+    of the Lambeosaurine Dinosaurs from the European Archipelago, with Description of the New Aralosaurin ''Canardia
+    garonnensis''. PLOS ONE 8(7). doi:10.1371/journal.pone.0069835
+- kind: literature
+  text: 'Cruzado-Caballero, P. L.; Canudo, J. I.; Moreno-Azanza, M.; Ruiz-Omeñaca, J. I. 2013. New material and
+    phylogenetic position of ''''Arenysaurus'''' ardevoli, a lambeosaurine dinosaur from the late Maastrichtian
+    of Arén (northern Spain). Journal of Vertebrate Paleontology 33(6): 1367–1384. doi:10.1080/02724634.2013.772061'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Blasisaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Blasisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Blasisaurus”. English Wikipedia, revision 1313041284.
+  url: https://en.wikipedia.org/w/index.php?title=Blasisaurus&oldid=1313041284
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

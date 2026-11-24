@@ -1,0 +1,128 @@
+name: Amurosaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Bolotsky and Kurzanov 1991
+type_species: Amurosaurus riabinini
+type_species_note: ''
+summary: A lambeosaurine hadrosaurid from the latest Cretaceous of eastern Asia (Amur region), known from many bones.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Amurosaurus riabinini
+  authority: Bolotsky and Kurzanov 1991
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Udurchukan
+  group: Tsagayan
+  members: []
+  country: Russia
+  regions: [Amur]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: udurchukan-russia
+- formation: Yuliangzi
+  group: ''
+  members: []
+  country: China
+  regions: [Heilongjiang]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: yuliangzi-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Bolotsky and Kurzanov in 1991.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Amurosaurus skull 56.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Amurosaurus_skull_56.JPG/960px-Amurosaurus_skull_56.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Amurosaurus_skull_56.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-11'
+  caption: Skull of Amurosaurus riabinini
+  width: 2818
+  height: 2470
+  review: unreviewed
+- kind: skeletal
+  file: Amurosaurus skeletal.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/88/Amurosaurus_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Amurosaurus_skeletal.jpg
+  artist: Pascal Godefroit, Yuri L. Bolotsky, and Jimmy Van Itterbeeck
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2004'
+  caption: Skeletal reconstruction of Amurosaurus riabinini
+  width: 1446
+  height: 549
+  review: unreviewed
+- kind: fossil
+  file: Amurosaurus riabinini BMNHC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Amurosaurus_riabinini_BMNHC.jpg/960px-Amurosaurus_riabinini_BMNHC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Amurosaurus_riabinini_BMNHC.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-27'
+  caption: Specimen of Amurosaurus riabinini
+  width: 2820
+  height: 3747
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/77875bce-9986-4865-afe3-fb3a085643a4/vector.svg
+  png: https://images.phylopic.org/images/77875bce-9986-4865-afe3-fb3a085643a4/raster/512x476.png
+  page: https://www.phylopic.org/images/77875bce-9986-4865-afe3-fb3a085643a4
+  attribution: Olof Moleman
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Amurosaurus riabinini
+  matched: Amurosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: Y. L. Bolotsky and S. M. Kurzanov. 1991. Gadrosavry Priamuriy [The hadrosaurs of the pre-Amur Region]. Geology
+    of the Pacific Ocean Border
+- kind: literature
+  text: 'Lauters, P.; Bolotsky, Y. L.; Van Itterbeeck, J.; Godefroit, P. 2008. Taphonomy and Age Profile of a Latest
+    Cretaceous Dinosaur Bone Bed in Far Eastern Russia. PALAIOS 23(3): 153–162. doi:10.2110/palo.2006.p06-031r'
+- kind: literature
+  text: 'Bertozzo F, Bolotsky I, Bolotsky YL, Poberezhskiy A, Ruffell A, Godefroit P, Murphy E 2023. A pathological
+    ulna of ''''Amurosaurus riabinini'''' from the Upper Cretaceous of Far Eastern Russia. Historical Biology: An
+    International Journal of Paleobiology 35(2): 268–275. doi:10.1080/08912963.2022.2034805'
+- kind: literature
+  text: 'Godefroit, Pascal 2008. New hadrosaurid dinosaurs from the uppermost Cretaceous of north−eastern China.
+    Acta Palaeontologica Polonica 53(1): 47–74. doi:10.4202/app.2008.0103'
+- kind: literature
+  text: Xing, Hai; Gu, Wei; Hai, Shulin; Yu, Tingxiang; Han, Dong; Zhang, Yuguang; Zhang, Shujun 2022. Osteological
+    and taxonomic reassessments of Sahaliyania elunchunorum (Dinosauria, Hadrosauridae) from the Upper Cretaceous
+    Yuliangzi Formation, northeast China. Journal of Vertebrate Paleontology 41(6). doi:10.1080/02724634.2021.2085111
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Amurosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Amurosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Amurosaurus”. English Wikipedia, revision 1376123081.
+  url: https://en.wikipedia.org/w/index.php?title=Amurosaurus&oldid=1376123081
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

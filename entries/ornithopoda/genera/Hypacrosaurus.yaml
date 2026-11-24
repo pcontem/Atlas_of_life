@@ -1,0 +1,163 @@
+name: Hypacrosaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Brown 1913
+type_species: Hypacrosaurus altispinus
+type_species_note: ''
+summary: A crested duckbill of the latest Cretaceous of North America, named for being almost as large as Tyrannosaurus.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Late Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 37
+  note: ''
+species:
+- name: Hypacrosaurus altispinus
+  authority: Brown 1913
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Hypacrosaurus stebingeri
+  authority: Horner and Currie 1994
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 15
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Morrin, Morrin/Tolman, Tolman]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 11
+  ma: [66.0, 83.6]
+  id: horseshoe-canyon-canada
+- formation: Unnamed unit
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian–Maastrichtian
+  occurrences: 7
+  ma: [66.0, 83.6]
+  id: [edmonton-group-canada, scollard-canada]
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-canada
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+fossil_material:
+  holotype: Not read in the sources consulted; named by Barnum Brown in 1913.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Hypacrosaurus Royal Tyrrell.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Hypacrosaurus_Royal_Tyrrell.jpg/960px-Hypacrosaurus_Royal_Tyrrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hypacrosaurus_Royal_Tyrrell.jpg
+  artist: Etemenanki3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-22'
+  caption: Skeleton of Hypacrosaurus at the Royal Tyrrell Museum
+  width: 5472
+  height: 3648
+  review: unreviewed
+- kind: fossil
+  file: Hypacrosaurus altispinus - AMNH - DSC06304.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hypacrosaurus_altispinus_-_AMNH_-_DSC06304.JPG/960px-Hypacrosaurus_altispinus_-_AMNH_-_DSC06304.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hypacrosaurus_altispinus_-_AMNH_-_DSC06304.JPG
+  artist: Daderot
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2012-04-02'
+  caption: Specimen of Hypacrosaurus altispinus at the AMNH
+  width: 3064
+  height: 3081
+  review: unreviewed
+- kind: fossil
+  file: Hypacrosaurus stebingeri holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Hypacrosaurus_stebingeri_holotype.jpg/960px-Hypacrosaurus_stebingeri_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hypacrosaurus_stebingeri_holotype.jpg
+  artist: Tim Evanson from Washington, D.C., United States of America
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2013-07-08'
+  caption: Holotype of Hypacrosaurus stebingeri
+  width: 3000
+  height: 1987
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brown, Barnum 1913. A new trachodont dinosaur, ''''Hypacrosaurus'''', from the Edmonton Cretaceous of Alberta.
+    Bulletin of the American Museum of Natural History 32(20): 395–406.'
+- kind: literature
+  text: 'Brown, Barnum 1913. A new trachodont dinosaur, ''''Hypacrosaurus'''', from the Edmonton Cretaceous of Alberta.
+    Bulletin of the American Museum of Natural History 32(20): 395–406.'
+- kind: literature
+  text: 'Eberth, D.A.; Evans, D.C.; Brinkman, D.M.; Therrien, F.; Tanke, D.H.; Russell, L.S. 2013. Dinosaur biostratigraphy
+    of the Edmonton Group (Upper Cretaceous), Alberta, Canada: evidence for climate influence. Canadian Journal
+    of Earth Sciences 50(7): 701–726. doi:10.1139/cjes-2012-0185'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hypacrosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hypacrosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hypacrosaurus”. English Wikipedia, revision 1385864348.
+  url: https://en.wikipedia.org/w/index.php?title=Hypacrosaurus&oldid=1385864348
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

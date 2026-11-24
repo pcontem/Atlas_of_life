@@ -1,0 +1,114 @@
+name: Ajnabia
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Longrich et al. 2021
+type_species: Ajnabia odysseus
+type_species_note: ''
+summary: A lambeosaurine hadrosaur from the Maastrichtian of Morocco, the first definitive hadrosaur from Africa.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ajnabia odysseus
+  authority: Longrich et al. 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Couche III
+  group: ''
+  members: [Upper]
+  country: Morocco
+  regions: [Khouribga]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: couche-iii-morocco
+fossil_material:
+  holotype: Not read in the sources consulted; from the Maastrichtian of the Ouled Abdoun Basin, Morocco.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Ajnabia odysseus maxilla by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ajnabia_odysseus_maxilla_by_Nick_Longrich.jpg/960px-Ajnabia_odysseus_maxilla_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ajnabia_odysseus_maxilla_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-10-21'
+  caption: Maxilla of Ajnabia odysseus
+  width: 2240
+  height: 2615
+  review: unreviewed
+- kind: fossil
+  file: Ajnabia skull reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ajnabia_skull_reconstruction.jpg/960px-Ajnabia_skull_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ajnabia_skull_reconstruction.jpg
+  artist: Olof Moleman
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-03'
+  caption: Skull reconstruction of Ajnabia odysseus
+  width: 2500
+  height: 2400
+  review: unreviewed
+- kind: life
+  file: Life reconstruction of Ajnabia odysseus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Life_reconstruction_of_Ajnabia_odysseus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Ajnabia_odysseus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Ajnabia odysseus
+  width: 673
+  height: 284
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a7e6e9a2-48d9-4ae8-90c8-35382c728fd7/vector.svg
+  png: https://images.phylopic.org/images/a7e6e9a2-48d9-4ae8-90c8-35382c728fd7/raster/512x328.png
+  page: https://www.phylopic.org/images/a7e6e9a2-48d9-4ae8-90c8-35382c728fd7
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Ajnabia odysseus
+  matched: Ajnabia
+  genus_level: true
+sources:
+- kind: original
+  text: 'Longrich, Nicholas R.; Suberbiola, Xabier Pereda; Pyron, R. Alexander; Jalil, Nour-Eddine 2021. The first
+    duckbill dinosaur (Hadrosauridae: Lambeosaurinae) from Africa and the role of oceanic dispersal in dinosaur
+    biogeography. Cretaceous Research 120. doi:10.1016/j.cretres.2020.104678'
+- kind: literature
+  text: 'Longrich, N. R.; Pereda-Suberbiola, X.; Bardet, N.; Jalil, N.-E. 2024. A new small duckbilled dinosaur
+    (Hadrosauridae: Lambeosaurinae) from Morocco and dinosaur diversity in the late Maastrichtian of North Africa.
+    Scientific Reports 14(1). doi:10.1038/s41598-024-53447-9'
+- kind: literature
+  text: 'Cruzado-Caballero, Penelope; Pereda-Suberbiola, Xabier; Ruiz-Omeñaca, J. Ignacio 2010. ''''Blasisaurus
+    canudoi'''' gen. et sp. nov., a new lambeosaurine dinosaur (Hadrosauridae) from the Latest Cretaceous of Arén
+    (Huesca, Spain). Canadian Journal of Earth Sciences 47(12): 1507–1517. doi:10.1139/E10-081'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ajnabia (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ajnabia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ajnabia”. English Wikipedia, revision 1387579625.
+  url: https://en.wikipedia.org/w/index.php?title=Ajnabia&oldid=1387579625
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
