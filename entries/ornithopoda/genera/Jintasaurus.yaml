@@ -1,0 +1,69 @@
+name: Jintasaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: You and Li 2009
+type_species: Jintasaurus meniscus
+type_species_note: ''
+summary: A basal hadrosauriform of the Early Cretaceous of Jiuquan, Gansu, China, named in 2009.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jintasaurus meniscus
+  authority: You and Li 2009
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  group: Xinminbao
+  members: [Upper Gray Beds]
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: xiagou-china
+fossil_material:
+  holotype: Not read in the sources consulted; from Jinta County, Gansu.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Hai-Lu You 2009. A new basal hadrosauriform dinosaur (Ornithischia: Iguanodontia) from the Early Cretaceous
+    of northwestern China. Canadian Journal of Earth Sciences 46(12): 949–957. doi:10.1139/E09-067'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jintasaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jintasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jintasaurus”. English Wikipedia, revision 1320099241.
+  url: https://en.wikipedia.org/w/index.php?title=Jintasaurus&oldid=1320099241
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

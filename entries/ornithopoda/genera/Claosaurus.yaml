@@ -1,0 +1,95 @@
+name: Claosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1890
+type_species: Claosaurus agilis
+type_species_note: Marsh named Hadrosaurus agilis in 1872; Claosaurus was erected for it in 1890.
+summary: A hadrosauroid of the Late Cretaceous of North America, whose name means "broken lizard" for the odd position
+  of the fossils when found.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 89.8
+  last_ma: 72.2
+  early_interval: Coniacian
+  late_interval: Campanian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Claosaurus agilis
+  authority: (Marsh 1872)
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: original description
+formations:
+- formation: Pierre Shale
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana, South Dakota]
+  interval: Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: pierre-shale-united-states
+- formation: Niobrara
+  group: Colorado
+  members: [Smoky Hill Chalk]
+  country: United States
+  regions: [Kansas]
+  interval: Late Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: niobrara-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; the original fossils were found in an odd, broken posture.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Claosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Claosaurus.png/960px-Claosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Claosaurus.png
+  artist: Albert Prieto-Márquez​1, Gregory M. Erickson2, Jun A. Ebersole3
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Skeleton of Claosaurus
+  width: 3415
+  height: 3930
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Prieto-Márquez, A. 2011. Revised diagnoses of ''''Hadrosaurus foulkii'''' Leidy, 1858 (the type genus and
+    species of Hadrosauridae Cope, 1869) and ''''Claosaurus agilis'''' Marsh, 1872 (Dinosauria: Ornithopoda) from
+    the Late Cretaceous of North America. Zootaxa 2765: 61–68. doi:10.11646/zootaxa.2765.1.6'
+- kind: literature
+  text: 'Paul, Gregory S. 2010. The Princeton Field Guide to Dinosaurs. Princeton: Princeton University Press. doi:10.1515/9781400836154.214'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Claosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Claosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Claosaurus”. English Wikipedia, revision 1330237877.
+  url: https://en.wikipedia.org/w/index.php?title=Claosaurus&oldid=1330237877
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is flagged as possibly not about the genus although its lead is; check the revision.
+  reviews: []

@@ -1,0 +1,69 @@
+name: Datonglong
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2016
+type_species: Datonglong tianzhenensis
+type_species_note: ''
+summary: A hadrosauroid of the Late Cretaceous of China, described in 2016 from fossils found in 2008.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 72.2
+  early_interval: Cenomanian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Datonglong tianzhenensis
+  authority: Xu et al. 2016
+  first_ma: 100.5
+  last_ma: 72.2
+  interval: Cenomanian–Campanian
+  reference: original description
+formations:
+- formation: Huiquanpu
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Shanxi]
+  interval: Cenomanian–Campanian
+  occurrences: 1
+  ma: [72.2, 100.5]
+  id: huiquanpu-china
+fossil_material:
+  holotype: Not read in the sources consulted; from fossils excavated from 2008 near Tianzhen, China.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Shi-Chao Xu 2016. A new hadrosauroid dinosaur from the Late Cretaceous of Tianzhen, Shanxi Province, China.
+    Vertebrata PalAsiatica 54(1): 67–78. doi:10.19615/j.cnki.1000-3118.2016.01.005'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Datonglong (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Datonglong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Datonglong”. English Wikipedia, revision 1315398355.
+  url: https://en.wikipedia.org/w/index.php?title=Datonglong&oldid=1315398355
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

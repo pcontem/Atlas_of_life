@@ -3,18 +3,19 @@ name: Pierre Shale
 rank: formation
 group: Montana, Pierre Shale
 country: United States
-regions: [South Dakota, Wyoming]
+regions: [Montana, South Dakota, Wyoming]
 location:
   lat: 43.217
   lng: -103.45
-  basis: median of 15 PBDB collections that yielded the atlas genera
+  basis: median of 17 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [deep-water indet., marine indet.]
-lithology: ['"shale"']
+lithology: ['"shale"', not reported]
 pbdb_collections:
+- '52084'
 - '94635'
 - '94636'
 - '94637'
@@ -29,6 +30,7 @@ pbdb_collections:
 - '94647'
 - '94648'
 - '94650'
+- '107426'
 - '235710'
 includes:
 - PBDB records the Sharon Springs as a member of the Pierre Shale Formation.

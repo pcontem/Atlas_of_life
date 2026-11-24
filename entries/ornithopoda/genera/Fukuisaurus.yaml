@@ -1,0 +1,85 @@
+name: Fukuisaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Kobayashi and Azuma 2003
+type_species: Fukuisaurus tetoriensis
+type_species_note: ''
+summary: A herbivorous ornithopod of the Early Cretaceous of Japan, named in 2003.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fukuisaurus tetoriensis
+  authority: Kobayashi and Azuma 2003
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Kitadani
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Fukui]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: kitadani-japan
+fossil_material:
+  holotype: Not read in the sources consulted; from the Tetori Group of Fukui Prefecture.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Fukuisaurus skeletal mount.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Fukuisaurus_skeletal_mount.jpg/960px-Fukuisaurus_skeletal_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fukuisaurus_skeletal_mount.jpg
+  artist: ★Kumiko★
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2017-08-31'
+  caption: Mounted skeleton of Fukuisaurus tetoriensis
+  width: 4098
+  height: 2432
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Angel Alejandro Ramírez-Velasco 2012. ''''Huehuecanauhtlus tiquichensis'''', a new hadrosauroid dinosaur
+    (Ornithischia: Ornithopoda) from the Santonian (Late Cretaceous) of Michoacán, Mexico. Canadian Journal of Earth
+    Sciences 49(2): 379–395. doi:10.1139/e11-062'
+- kind: literature
+  text: Bertozzo, Filippo; Dalla Vecchia, Fabio Marco; Fabbri, Matteo 2017. The Venice specimen of Ouranosaurus
+    nigeriensis (Dinosauria, Ornithopoda). PeerJ 5. doi:10.7717/peerj.3403
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fukuisaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fukuisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fukuisaurus”. English Wikipedia, revision 1364656640.
+  url: https://en.wikipedia.org/w/index.php?title=Fukuisaurus&oldid=1364656640
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
