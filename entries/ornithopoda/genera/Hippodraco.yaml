@@ -1,0 +1,117 @@
+name: Hippodraco
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: McDonald et al. 2010
+type_species: Hippodraco scutodens
+type_species_note: ''
+summary: A small iguanodontian from the Early Cretaceous Cedar Mountain Formation of Utah, known from an immature
+  individual.
+size:
+  length_m: null
+  note: The holotype is immature; no adult size is given.
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hippodraco scutodens
+  authority: McDonald et al. 2010
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Yellow Cat]
+  country: United States
+  regions: [Utah]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: UMNH VP 20208, a partial skeleton of an immature individual from the Cedar Mountain Formation, Utah.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Hippodraco restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Hippodraco_restoration.png/960px-Hippodraco_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hippodraco_restoration.png
+  artist: Lukas Panzarin
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-11-22'
+  caption: Life restoration of Hippodraco scutodens
+  width: 1992
+  height: 741
+  review: unreviewed
+- kind: skeletal
+  file: Reconstruction of Hippodraco.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Reconstruction_of_Hippodraco.jpg/960px-Reconstruction_of_Hippodraco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Reconstruction_of_Hippodraco.jpg
+  artist: Andrew T. McDonald, James I. Kirkland, Donald D. DeBlieux, Scott K. Madsen, Jennifer Cavin, Andrew R.
+    C. Milner, Lukas Panzarin
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-11-22'
+  caption: Reconstruction of Hippodraco scutodens
+  width: 2066
+  height: 822
+  review: unreviewed
+- kind: fossil
+  file: Skull of Hippodraco.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Skull_of_Hippodraco.png/960px-Skull_of_Hippodraco.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skull_of_Hippodraco.png
+  artist: Andrew T. McDonald, James I. Kirkland, Donald D. DeBlieux, Scott K. Madsen, Jennifer Cavin, Andrew R.
+    C. Milner, Lukas Panzarin
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-11-22'
+  caption: Skull of Hippodraco scutodens
+  width: 2034
+  height: 1634
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Hippodraco
+  genus_level: true
+sources:
+- kind: original
+  text: McDonald AT, Kirkland JI, DeBlieux DD, Madsen SK, Cavin J, etal 2010. New Basal Iguanodonts from the Cedar
+    Mountain Formation of Utah and the Evolution of Thumb-Spiked Dinosaurs. PLOS ONE 5(11). doi:10.1371/journal.pone.0014075
+- kind: literature
+  text: 'Andrew T. McDonald 2011. The taxonomy of species assigned to ''''Camptosaurus'''' (Dinosauria: Ornithopoda).
+    Zootaxa 2783: 52–68. doi:10.11646/zootaxa.2783.1.4'
+- kind: literature
+  text: 'McDonald, A. T. 2012. Phylogeny of Basal Iguanodonts (Dinosauria: Ornithischia): An Update. PLOS ONE 7(5).
+    doi:10.1371/journal.pone.0036745'
+- kind: literature
+  text: Boyd, Clint A.; Pagnac, Darrin C. 2015. Insight on the anatomy, systematic relationships, and age of the
+    Early Cretaceous ankylopollexian dinosaur Dakotadon lakotaensis. PeerJ 3. doi:10.7717/peerj.1263
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hippodraco (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hippodraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hippodraco”. English Wikipedia, revision 1370053777.
+  url: https://en.wikipedia.org/w/index.php?title=Hippodraco&oldid=1370053777
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,103 @@
+name: Comptonatus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Lockwood et al. 2024
+type_species: Comptonatus chasei
+type_species_note: ''
+summary: An iguanodontian from the Early Cretaceous Wessex Formation of the Isle of Wight, excavated in 2013.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Comptonatus chasei
+  authority: Lockwood et al. 2024
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: IWCMS 2014.80, excavated in September-October 2013.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Comptonatus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Comptonatus_TD.png/960px-Comptonatus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Comptonatus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-07-20'
+  caption: Skeletal drawing of Comptonatus chasei
+  width: 2600
+  height: 800
+  review: unreviewed
+- kind: life
+  file: Comptonatus chasei.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Comptonatus_chasei.png/960px-Comptonatus_chasei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Comptonatus_chasei.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-07-10'
+  caption: Life restoration of Comptonatus chasei
+  width: 2484
+  height: 754
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98/vector.svg
+  png: https://images.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98/raster/512x163.png
+  page: https://www.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Jinzhousaurus yangi
+  matched: Hadrosauriformes
+  genus_level: false
+sources:
+- kind: original
+  text: Lockwood, Jeremy A. F.; Martill, David M.; Maidment, Susannah C. R. 2024. ''Comptonatus chasei'', a new
+    iguanodontian dinosaur from the Lower Cretaceous Wessex Formation of the Isle of Wight, southern England. Journal
+    of Systematic Palaeontology 22(1). doi:10.1080/14772019.2024.2346573
+- kind: literature
+  text: 'Lockwood, Jeremy A. F.; Martill, David M.; Maidment, Susannah C. R. 2021. A new hadrosauriform dinosaur
+    from the Wessex Formation, Wealden Group (Early Cretaceous), of the Isle of Wight, southern England. Journal
+    of Systematic Palaeontology 19(12): 847–888. doi:10.1080/14772019.2021.1978005'
+- kind: literature
+  text: Bertozzo, Filippo; Camilo, Bruno; Araújo, Ricardo; Manucci, Fabio; Kullberg, José Carlos; Cerio, Donald
+    G.; Carvalho, Victor Feijó de; Marrecas, Pedro; Figueiredo, Silvério D.; Godefroit, Pascal 2025. ''Cariocecus
+    bocagei'', a new basal hadrosauroid from the Lower Cretaceous of Portugal. Journal of Systematic Palaeontology
+    23(1). doi:10.1080/14772019.2025.2536347
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Comptonatus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Comptonatus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Comptonatus”. English Wikipedia, revision 1336984948.
+  url: https://en.wikipedia.org/w/index.php?title=Comptonatus&oldid=1336984948
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

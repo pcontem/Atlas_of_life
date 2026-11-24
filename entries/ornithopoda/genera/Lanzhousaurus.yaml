@@ -1,0 +1,109 @@
+name: Lanzhousaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: You et al. 2005
+type_species: Lanzhousaurus magnidens
+type_species_note: ''
+summary: A large-toothed iguanodontian from the Early Cretaceous of Gansu, China, known from a partial skeleton.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lanzhousaurus magnidens
+  authority: You et al. 2005
+  first_ma: 125.77
+  last_ma: 113.2
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Hekou
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Late Barremian–Aptian
+  occurrences: 1
+  ma: [113.2, 125.77]
+  id: hekou-group-china
+fossil_material:
+  holotype: A partial skeleton from the Hekou Group, Gansu, described in 2005.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted beyond its very large teeth, which give the species name magnidens.
+images:
+- kind: fossil
+  file: Skeleton of Lanzhousaurus magnidens.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Skeleton_of_Lanzhousaurus_magnidens.jpg/960px-Skeleton_of_Lanzhousaurus_magnidens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skeleton_of_Lanzhousaurus_magnidens.jpg
+  artist: SSR2000
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-05-31'
+  caption: Skeleton of Lanzhousaurus magnidens
+  width: 4000
+  height: 3000
+  review: unreviewed
+- kind: fossil
+  file: Lanzhousaurus (jaw and teeth).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lanzhousaurus_%28jaw_and_teeth%29.png/960px-Lanzhousaurus_%28jaw_and_teeth%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lanzhousaurus_(jaw_and_teeth).png
+  artist: C. A. Suarez, H-L You, M. B. Suarez, D-Q Li & J. B. Trieschmann
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-11-10'
+  caption: Jaw and teeth of Lanzhousaurus magnidens
+  width: 1650
+  height: 947
+  review: unreviewed
+- kind: life
+  file: Lanzhousaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Lanzhousaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lanzhousaurus_BW.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-03-10'
+  caption: Life restoration of Lanzhousaurus magnidens
+  width: 800
+  height: 419
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Styracosterna
+  genus_level: false
+sources:
+- kind: original
+  text: 'You, Hailu; Ji, Qiang; Li, Daqing 2005. ''''Lanzhousaurus magnidens'''' gen. et sp. nov. from Gansu Province,
+    China: the largest-toothed herbivorous dinosaur in the world. Geological Bulletin of China 24(9): 785–794.'
+- kind: literature
+  text: Madzia, Daniel; Jagt, John W. M.; Mulder, Eric W. A. 2020. Osteology, phylogenetic affinities and taxonomic
+    status of the enigmatic late Maastrichtian ornithopod taxon ''Orthomerus dolloi'' (Dinosauria, Ornithischia).
+    Cretaceous Research 108. doi:10.1016/j.cretres.2019.104334
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lanzhousaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lanzhousaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lanzhousaurus”. English Wikipedia, revision 1319899387.
+  url: https://en.wikipedia.org/w/index.php?title=Lanzhousaurus&oldid=1319899387
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
