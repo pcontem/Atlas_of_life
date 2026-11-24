@@ -1,0 +1,69 @@
+name: Nanyangosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2000
+type_species: Nanyangosaurus zhugeii
+type_species_note: ''
+summary: A herbivorous hadrosauromorph of the Late Cretaceous of Henan, China, found in 1994.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 93.9
+  last_ma: 72.2
+  early_interval: Turonian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nanyangosaurus zhugeii
+  authority: Xu et al. 2000
+  first_ma: 93.9
+  last_ma: 72.2
+  interval: Turonian–Campanian
+  reference: original description
+formations:
+- formation: Majiacun
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Early Turonian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 93.9]
+  id: majiacun-china
+fossil_material:
+  holotype: Remains found in 1994 near a village in Henan Province.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu, X.-J. Zhao, and J.-C. Lü, W.-B. Huang, Z.-Y. Li, Z.-M. Dong. 2000. A new iguanodontian from Sangping
+    Formation of Neixiang, Henan and its stratigraphical implication. Vertebrata PalAsiatica 38(3):176-191
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nanyangosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nanyangosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nanyangosaurus”. English Wikipedia, revision 1320103018.
+  url: https://en.wikipedia.org/w/index.php?title=Nanyangosaurus&oldid=1320103018
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

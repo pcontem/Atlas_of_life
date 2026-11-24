@@ -1,0 +1,123 @@
+name: Probactrosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Rozhdestvensky 1966
+type_species: Probactrosaurus gobiensis
+type_species_note: ''
+summary: A basal hadrosauroid iguanodontian of the Early Cretaceous of China, whose name means "before Bactrosaurus".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Probactrosaurus alashanicus
+  authority: Rozhdestvensky 1966
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: ''
+- name: Probactrosaurus gobiensis
+  authority: Rozhdestvensky 1966
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Miaogou
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Monggol]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: miaogou-china
+fossil_material:
+  holotype: Not read in the sources consulted; found by a Soviet-Chinese expedition in 1959-1960.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Probactrosaurus skull mandible.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Probactrosaurus_skull_mandible.JPG/960px-Probactrosaurus_skull_mandible.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Probactrosaurus_skull_mandible.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-11'
+  caption: Skull and mandible of Probactrosaurus gobiensis
+  width: 2121
+  height: 1248
+  review: unreviewed
+- kind: fossil
+  file: Probactrosaurus gobiensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/90/Probactrosaurus_gobiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Probactrosaurus_gobiensis.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-11'
+  caption: Specimen of Probactrosaurus gobiensis
+  width: 1522
+  height: 1118
+  review: unreviewed
+- kind: fossil
+  file: Probactrosaurus hand.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Probactrosaurus_hand.jpg/960px-Probactrosaurus_hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Probactrosaurus_hand.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-04-16'
+  caption: Hand of Probactrosaurus gobiensis
+  width: 1745
+  height: 1964
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: A. K. Rozhdestvensky. 1966. Novye igyanodonti ie tsentrallinoy Asii. Phillogeneticheskye y taksonomicheskye
+    veaimoothoshenia poednich Iguanodontidae y rannich Hadrosauridae [New iguanodonts from central Asia. Phylogenetic
+    and taxonomic relationships of late Iguanodontidae and early Hadrosauridae]. Paleontologicheskii Zhurnal 1966(3):103-116
+- kind: literature
+  text: 'A.K. Rozhdestvensky 1966. Novyye iguanodonty iz Tsentral''noy Azii. Filogeneticheskiye i taksonomicheskiye
+    v zaimootnosheniya pozdnikh Iguanodontidae i rannikh Hadrosauridae. [New iguanodonts from Central Asia. Phylogenetic
+    and taxonomic interrelationships of late Iguanodontidae and early Hadrosauridae]. Paleontologicheskii Zhurnal
+    3: 103–116.'
+- kind: literature
+  text: 'David Norman 2002. On Asian ornithopods (Dinosauria: Ornithischia). 4. Probactrosaurus Rozhdestvensky,
+    1966. Zoological Journal of the Linnean Society 136(1): 113–144. doi:10.1046/j.1096-3642.2002.00027.x'
+- kind: literature
+  text: 'J. Lü 1997. A new Iguanodontidae (Probactrosaurus mazongshanensis sp. nov.) from Mazongshan area, Gansu
+    Province, China. Sino-Japanese Silk Road Dinosaur Expedition. China Ocean Press, Beijing: 27–47.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Probactrosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Probactrosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Probactrosaurus”. English Wikipedia, revision 1375974199.
+  url: https://en.wikipedia.org/w/index.php?title=Probactrosaurus&oldid=1375974199
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

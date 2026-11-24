@@ -1,0 +1,94 @@
+name: Ratchasimasaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Shibata et al. 2011
+type_species: Ratchasimasaurus suranareae
+type_species_note: ''
+summary: An iguanodontian from the Aptian Khok Kruat Formation of Nakhon Ratchasima, Thailand.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ratchasimasaurus suranareae
+  authority: Shibata et al. 2011
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Khok Kruat
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Nakhon Ratchasima]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: khok-kruat-thailand
+fossil_material:
+  holotype: Not read in the sources consulted; named by Shibata and colleagues in 2011.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Ratchasimasaurus suranareae 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ratchasimasaurus_suranareae_01.jpg/960px-Ratchasimasaurus_suranareae_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ratchasimasaurus_suranareae_01.jpg
+  artist: Pescov
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-05-30'
+  caption: Bones of Ratchasimasaurus suranareae
+  width: 4160
+  height: 3120
+  review: unreviewed
+- kind: fossil
+  file: Ratchasimasaurus suranareae 02.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ratchasimasaurus_suranareae_02.jpg/960px-Ratchasimasaurus_suranareae_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ratchasimasaurus_suranareae_02.jpg
+  artist: Pescov
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-05-30'
+  caption: Bones of Ratchasimasaurus suranareae
+  width: 4160
+  height: 3120
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Shibata, M.; Jintasakul, P.; Azuma, Y. 2011. A new iguanodontian dinosaur from the Lower Cretaceous Khok
+    Kruat Formation, Nakhon Ratchasima in northeastern Thailand. Acta Geologica Sinica (English Edition) 85(5):
+    969–976. doi:10.1111/j.1755-6724.2011.00530.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ratchasimasaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ratchasimasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ratchasimasaurus”. English Wikipedia, revision 1334058074.
+  url: https://en.wikipedia.org/w/index.php?title=Ratchasimasaurus&oldid=1334058074
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

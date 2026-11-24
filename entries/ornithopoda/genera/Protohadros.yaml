@@ -1,0 +1,69 @@
+name: Protohadros
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Head 1998
+type_species: Protohadros byrdi
+type_species_note: ''
+summary: A basal hadrosauroid of the early Late Cretaceous of Texas, whose name means "first hadrosaur".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Protohadros byrdi
+  authority: Head 1998
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Lewisville
+  group: Woodbine
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Middle Cenomanian
+  occurrences: 4
+  ma: [93.9, 100.5]
+  id: lewisville-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Head in 1998 from the Woodbine Formation.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/62019adc-cdd7-4b2d-993f-184a9a61d9a9/vector.svg
+  png: https://images.phylopic.org/images/62019adc-cdd7-4b2d-993f-184a9a61d9a9/raster/512x191.png
+  page: https://www.phylopic.org/images/62019adc-cdd7-4b2d-993f-184a9a61d9a9
+  attribution: Iain Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eolambia caroljonesa
+  matched: Protohadros
+  genus_level: true
+sources:
+- kind: original
+  text: 'Head, Jason J. 28 D. A new species of basal hadrosaurid (Dinosauria, Ornithischia) from the Cenomanian
+    of Texas. Journal of Vertebrate Paleontology 18(4): 718–738. doi:10.1080/02724634.1998.10011101'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protohadros (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protohadros
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protohadros”. English Wikipedia, revision 1378742896.
+  url: https://en.wikipedia.org/w/index.php?title=Protohadros&oldid=1378742896
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

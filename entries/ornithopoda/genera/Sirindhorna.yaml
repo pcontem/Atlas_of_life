@@ -1,0 +1,96 @@
+name: Sirindhorna
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Shibata et al. 2015
+type_species: Sirindhorna khoratensis
+type_species_note: ''
+summary: A basal hadrosauroid of the Early Cretaceous of northeastern Thailand, excavated from 2007.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sirindhorna khoratensis
+  authority: Shibata et al. 2015
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Khok Kruat
+  group: ''
+  members: []
+  country: Thailand
+  regions: [Nakhon Ratchasima]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: khok-kruat-thailand
+fossil_material:
+  holotype: Not read in the sources consulted; from Khorat, Thailand.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Sirindhorna skull and head.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Sirindhorna_skull_and_head.PNG/960px-Sirindhorna_skull_and_head.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sirindhorna_skull_and_head.PNG
+  artist: Shibata M, Jintasakul P, Azuma Y, You H-L
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  date: '2016-01-01'
+  caption: Skull of Sirindhorna khoratensis
+  width: 2731
+  height: 3256
+  review: unreviewed
+- kind: skeletal
+  file: Sirindhorna khoratensis FukuiJH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Sirindhorna_khoratensis_FukuiJH.jpg/960px-Sirindhorna_khoratensis_FukuiJH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sirindhorna_khoratensis_FukuiJH.jpg
+  artist: Palaeotaku
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-09-28'
+  caption: Skeletal reconstruction of Sirindhorna khoratensis
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Masateru Shibata 2015. A New Basal Hadrosauroid Dinosaur from the Lower Cretaceous Khok Kruat Formation
+    in Nakhon Ratchasima Province, Northeastern Thailand. PLOS ONE 10(12). doi:10.1371/journal.pone.0145904
+- kind: literature
+  text: 'Manitkoon, S.; Deesri, U.; Warapeang, P.; Nonsrirach, T.; Chanthasit, P. 2023. Ornithischian dinosaurs
+    in Southeast Asia: a review with palaeobiogeographic implications. Fossil Record 26(1): 1–25. doi:10.3897/fr.26.e93456'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sirindhorna (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sirindhorna
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sirindhorna”. English Wikipedia, revision 1362602203.
+  url: https://en.wikipedia.org/w/index.php?title=Sirindhorna&oldid=1362602203
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,69 @@
+name: Shuangmiaosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: You et al. 2003
+type_species: Shuangmiaosaurus gilmorei
+type_species_note: ''
+summary: An iguanodontian of the Late Cretaceous of Liaoning, China, about 100 million years ago.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 106.3
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Shuangmiaosaurus gilmorei
+  authority: You et al. 2003
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Sunjiawan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Albian
+  occurrences: 1
+  ma: [100.5, 106.3]
+  id: sunjiawan-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by You Hailu and colleagues in 2003.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: H. You, Q. Ji, and J. Li, Y. Li. 2003. A new hadrosauroid dinosaur from the mid-Cretaceous of Liaoning,
+    China. Acta Geologica Sinica 77(2):148-154
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shuangmiaosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shuangmiaosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shuangmiaosaurus”. English Wikipedia, revision 1359765888.
+  url: https://en.wikipedia.org/w/index.php?title=Shuangmiaosaurus&oldid=1359765888
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
