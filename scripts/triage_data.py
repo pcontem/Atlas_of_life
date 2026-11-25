@@ -13,7 +13,7 @@ import html, json, pathlib, re, sys
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-LICENSE_OK = re.compile(r"^(CC0|CC BY(?:-SA)? \d\.\d)")
+LICENSE_OK = re.compile(r"^(CC0|CC BY(?:-SA)? \d\.\d(?: [A-Za-z]{2,3})?)")
 
 
 def clean_license(name):

@@ -19,7 +19,7 @@
 
 ## Reminders
 - Run the media fetch (`media/fetch_request.json`) after merging and `scripts/media.py pull` before building.
-- Foskeia: the only free-licence image was `CC BY 2.5 AR` (rejected by the validator); it was dropped.
+- Licences with a country suffix (CC BY 2.5 AR, CC BY-SA 3.0 PL…) are now accepted (owner, 2026-11-25); Foskeia, Titanomachya and Opisthocoelicaudia images were added back. Run the media fetch to download them.
 
 # Next steps (Ornithischia, part A: Thyreophora + Marginocephalia)
 

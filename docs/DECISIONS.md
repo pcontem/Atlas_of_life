@@ -381,3 +381,6 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 - `scripts/build.py` and `scripts/validate.py` now accept an `attach_to` that is the root clade of another volume, so Thyreophora, Marginocephalia and Heterodontosauria hang from the Ornithischia volume clade; the backbone node `ornithischia` was dropped for it.
 - Early forms whose group is disputed (Lesothosaurus, Laquintasaura, Pisanosaurus, Agilisaurus, Hexinlusaurus) are `incertae_sedis` directly in Ornithischia (M2). Silesauridae stay out of scope, so Technosaurus (a silesaurid in the English Wikipedia revision cited) has no entry.
 - Lanasaurus and Stormbergia (junior synonyms of Lycorhinus and Lesothosaurus) and Fabrosaurus (nomen dubium) are in the excluded names of their volumes, following the English Wikipedia revisions cited.
+
+## 2026-11-25 — Creative Commons licences with a country suffix are accepted
+- Owner: images under CC BY or CC BY-SA with a national port (e.g. CC BY 2.5 AR, CC BY-SA 3.0 PL) may be included. `validate.py` and `triage_data.py` now accept an optional two- or three-letter port after the version (I3). Images left out earlier for this reason were added (Foskeia, Titanomachya, Opisthocoelicaudia); their curation notes were removed.
