@@ -384,3 +384,10 @@ Append-only log. Newest at the bottom. Each line: date — decision — why.
 
 ## 2026-11-25 — Creative Commons licences with a country suffix are accepted
 - Owner: images under CC BY or CC BY-SA with a national port (e.g. CC BY 2.5 AR, CC BY-SA 3.0 PL) may be included. `validate.py` and `triage_data.py` now accept an optional two- or three-letter port after the version (I3). Images left out earlier for this reason were added (Foskeia, Titanomachya, Opisthocoelicaudia); their curation notes were removed.
+
+## 2026-11-25 — Tree nodes must have an existing parent (T2)
+
+The site showed "Could not load the data file" because one backbone genus node (*Changchunsaurus*) still pointed to
+a clade node removed when Thescelosauridae got its entry (`ornithopoda__thescelosauridae`, now `thescelosauridae`):
+`init()` in `core.js` fails on a missing parent. The node was fixed and the validator got rule **T2 (E)**: the parent of
+every backbone node is a backbone node or a clade entry.

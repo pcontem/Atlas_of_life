@@ -353,6 +353,11 @@ def check_volume(vdir, backbone, all_names):
         if node[5] == "c" and (node[4].startswith(("Informal grouping", "Provisional grouping"))
                                or grouping.search(re.sub(r"\s*\(.*?\)", "", node[1]))):
             err("T1", f"tree node {node[0]}", f"'{node[1]}' is a grouping, not a taxon: place its members in the real clade")
+    # T2: every backbone node's parent exists (in the backbone, or as a clade entry that replaced a node)
+    known = set(backbone) | {f.stem for f in (ROOT / "entries").glob("*/clades/*.yaml")}
+    for node in backbone.values():
+        if node[2] and node[2] not in known:
+            err("T2", f"tree node {node[0]}", f"parent '{node[2]}' is not a node of the tree (renamed or removed?)")
     return clades, genera
 
 
