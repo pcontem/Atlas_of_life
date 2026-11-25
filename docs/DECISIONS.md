@@ -398,3 +398,6 @@ Eight clade entries were added below Ornithopoda (see `docs/TREE_REVIEW.md`). Pl
 checked against the lead of its Wikipedia article; if they differ, the deepest shared clade with `incertae_sedis` (M2).
 New tool: `scripts/fetch/clades.py` + `.github/workflows/clades.yml` download Wikipedia revisions and PBDB records of clades
 (request in `data/raw/clade_request.json` on a non-main branch), because the shell cannot reach those sites.
+
+## 2026-11-25 — Volume plan: Theropoda and birds
+- Owner: the next five volumes (about 300 genera each) are, in order: Theropoda I (Ceratosauria, basal Tetanurae, Tyrannosauroidea, Compsognathidae, Ornithomimosauria; ~280), Theropoda II (non-avian Maniraptora; ~230), Mesozoic Avialae (~220), Aves I (Palaeognathae and Galloanserae; ~300) and Aves II (waterbirds and shorebirds; ~350). Birds get volumes of their own; Aves goes on in further volumes after these. Ichnogenera and oogenera stay out. Details and the group contents are in `docs/NEXT.md`; sizes are census estimates and are replaced by each volume's own census.
