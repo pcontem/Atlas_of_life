@@ -1,0 +1,116 @@
+name: Qianjiangsaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Dai et al. 2025
+type_species: Qianjiangsaurus changshengi
+type_species_note: ''
+summary: A hadrosauroid from the Late Cretaceous Zhengyang Formation of China, named in 2025 from a skull and other
+  remains.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Qianjiangsaurus changshengi
+  authority: Dai et al. 2025
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Zhengyang
+  group: ''
+  members: []
+  country: China
+  regions: ['Chongqing ']
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: zhengyang-china
+fossil_material:
+  holotype: Not read in the sources consulted; skull elements from the Zhengyang Formation, Chongqing.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Qianjiangsaurus changshengi (holotype, CLGRP V00016).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Qianjiangsaurus_changshengi_%28holotype%2C_CLGRP_V00016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Qianjiangsaurus_changshengi_(holotype,_CLGRP_V00016).jpg
+  artist: H. Dai, J. Wang, Y.-J. Yuan, L.-D. Luo, Q.-R. Wen, Y. Lin, M. Xiao & H. Xing
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-14'
+  caption: Holotype of Qianjiangsaurus changshengi
+  width: 550
+  height: 311
+  review: unreviewed
+  local: img/gallery/Qianjiangsaurus_001.webp
+- kind: fossil
+  file: Qianjiangsaurus changshengi, skull reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/3/3b/Qianjiangsaurus_changshengi%2C_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Qianjiangsaurus_changshengi,_skull_reconstruction.png
+  artist: Q. Ma et al.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-04-13'
+  caption: Skull of Qianjiangsaurus changshengi
+  width: 1409
+  height: 1631
+  review: unreviewed
+  local: img/gallery/Qianjiangsaurus_002.webp
+- kind: life
+  file: Qianjiangsaurus changshengi (nasal, CIP V0002).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Qianjiangsaurus_changshengi_%28nasal%2C_CIP_V0002%29.png/960px-Qianjiangsaurus_changshengi_%28nasal%2C_CIP_V0002%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qianjiangsaurus_changshengi_(nasal,_CIP_V0002).png
+  artist: Q. Ma et al.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-04-13'
+  caption: Nasal of Qianjiangsaurus changshengi
+  width: 3495
+  height: 2475
+  review: unreviewed
+  local: img/gallery/Qianjiangsaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Dai, Hui; Ma, Qingyu; Xiong, Can; Lin, Yu; Zeng, Hui; Tan, Chao; Wang, Jun; Zhang, Yuguang; Xing, Hai Febr.
+    A new late-diverging non-hadrosaurid hadrosauroid (Dinosauria: Ornithopoda) from southwest China: support for
+    interchange of dinosaur faunas across East Asia during the Late Cretaceous. Cretaceous Research 166(in press).
+    doi:10.1016/j.cretres.2024.105995'
+- kind: literature
+  text: 'Ma, Qingyu; Ma, Yubo; Tan, Chao; Chen, Jian; Lin, Yu; Xiao, Ming; Dai, Hui; Wei, Guangbiao; Mallon, Jordan
+    C.; Wang, Jun; Yao, Han; Zou, Zhengting; Xing, Hai Apri. First report of a hollow cranial crest in an early-diverging
+    duck-billed dinosaur, with implications for convergent evolution of acoustic signaling. Biology 15(8): 615.
+    doi:10.3390/biology15080615'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Qianjiangsaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Qianjiangsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Qianjiangsaurus”. English Wikipedia, revision 1387370729.
+  url: https://en.wikipedia.org/w/index.php?title=Qianjiangsaurus&oldid=1387370729
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

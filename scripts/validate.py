@@ -20,7 +20,7 @@ IMAGE_KINDS = {"photo", "life", "fossil", "skeletal"}
 IMAGE_REVIEW = {"unreviewed", "accepted", "outdated"}
 MAX_PER_KIND = 8
 SOURCE_KINDS = {"original", "literature", "database", "encyclopedia"}
-LICENSE_OK = re.compile(r"^(CC0|Public domain|CC BY(-SA)? \d\.\d)$")
+LICENSE_OK = re.compile(r"^(CC0|Public domain|CC BY(-SA)? \d\.\d( [A-Za-z]{2,3})?)$")  # national ports allowed (owner, 2026-11-25)
 SIL_LICENSE_OK = re.compile(r"creativecommons\.org/(publicdomain|licenses/by(-sa)?/)")
 CURATION = {"draft", "checked"}
 ORIGINS = {"ai-draft", "human"}
@@ -302,7 +302,8 @@ def check_volume(vdir, backbone, all_names):
     clade_ids = {c["id"] for c in clades.values()}
     if v["root"] not in clade_ids:
         err("V1", vdir.name, f"root '{v['root']}' has no clade file")
-    if v["attach_to"] not in backbone:
+    other_roots = {yaml.safe_load(q.read_text())["id"] for q in vdir.parent.glob("*/clades/*.yaml") if q.parts[-3] not in ("tree", vdir.name)}
+    if v["attach_to"] not in backbone and v["attach_to"] not in other_roots:  # a volume may attach to a clade of another volume
         err("V1", vdir.name, f"attach_to '{v['attach_to']}' is not in data/tree/backbone.json")
     ex_names = set()
     for x in excluded:

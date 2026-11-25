@@ -1,0 +1,118 @@
+name: Dakotadon
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Paul 2008
+type_species: Dakotadon lakotaensis
+type_species_note: ''
+summary: An iguanodont from the Early Cretaceous Lakota Formation of South Dakota, known from a partial skull, first
+  named as a species of Iguanodon.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dakotadon lakotaensis
+  authority: (Weishampel and Bjork 1989)
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Lakota
+  group: ''
+  members: [Chilson]
+  country: United States
+  regions: [South Dakota]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: lakota-united-states
+fossil_material:
+  holotype: SDSM 8656, a partial skull from the Lakota Formation, South Dakota.
+  material: A partial skull with mandible and some caudal vertebrae.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Dakotadon SDSM 8656 skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Dakotadon_SDSM_8656_skull.png/960px-Dakotadon_SDSM_8656_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dakotadon_SDSM_8656_skull.png
+  artist: Clint A. Boyd, Darrin C. Pagnac
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 22-09-2015
+  caption: Skull of Dakotadon lakotaensis (SDSM 8656)
+  width: 2623
+  height: 3133
+  review: unreviewed
+  local: img/gallery/Dakotadon_001.webp
+- kind: fossil
+  file: Dakotadon SDSM 8656 mandible.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Dakotadon_SDSM_8656_mandible.png/960px-Dakotadon_SDSM_8656_mandible.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dakotadon_SDSM_8656_mandible.png
+  artist: Clint A. Boyd, Darrin C. Pagnac
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 22-09-2015
+  caption: Mandible of Dakotadon lakotaensis (SDSM 8656)
+  width: 3835
+  height: 5324
+  review: unreviewed
+  local: img/gallery/Dakotadon_002.webp
+- kind: life
+  file: Dakotadon restoration.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Dakotadon_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dakotadon_restoration.png
+  artist: Bubblesorg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-09-19'
+  caption: Life restoration of Dakotadon lakotaensis
+  width: 576
+  height: 384
+  review: unreviewed
+  local: img/gallery/Dakotadon_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Styracosterna
+  genus_level: false
+sources:
+- kind: original
+  text: 'Paul, G.S. 2008. A revised taxonomy of the iguanodont dinosaur genera and species. Cretaceous Research
+    29(2): 192–216. doi:10.1016/j.cretres.2007.04.009'
+- kind: literature
+  text: 'Weishampel, D.B.; Bjork, P.R. 1989. The first indisputable remains of ''''Iguanodon'''' (Ornithischia:
+    Ornithopoda) from North America: ''''Iguanodon lakotaensis'''', sp. nov. Journal of Vertebrate Paleontology
+    9(1): 56–66. doi:10.1080/02724634.1989.10011738'
+- kind: literature
+  text: Boyd, C.A.; Pagnac, D.C. 2015. Insight on the anatomy, systematic relationships, and age of the Early Cretaceous
+    ankylopollexian dinosaur ''Dakotadon lakotaensis''. PeerJ 3. doi:10.7717/peerj.1263
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dakotadon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dakotadon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dakotadon”. English Wikipedia, revision 1372007576.
+  url: https://en.wikipedia.org/w/index.php?title=Dakotadon&oldid=1372007576
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Its assignment has been controversial; the species was first named Iguanodon lakotaensis (Weishampel and Bjork
+    1989). Check recent revisions.
+  reviews: []

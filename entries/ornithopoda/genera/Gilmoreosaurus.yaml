@@ -1,0 +1,100 @@
+name: Gilmoreosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Brett-Surman 1979
+type_species: Gilmoreosaurus mongoliensis
+type_species_note: ''
+summary: A hadrosauromorph of the Late Cretaceous of Asia, known from the Iren Dabasu Formation of Inner Mongolia.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Gilmoreosaurus mongoliensis
+  authority: (Gilmore 1933)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Iren Dabasu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: iren-dabasu-china
+fossil_material:
+  holotype: Not read in the sources consulted; first described by Gilmore in 1933 as Mandschurosaurus mongoliensis.
+  material: Vertebrae, teeth and other bones from Iren Dabasu.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Gilmoreosaurus dorsal vertebrae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Gilmoreosaurus_dorsal_vertebrae.png/960px-Gilmoreosaurus_dorsal_vertebrae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gilmoreosaurus_dorsal_vertebrae.png
+  artist: Charles W. Gilmore
+  license: Public domain
+  license_url: ''
+  date: '1933-11-06'
+  caption: Dorsal vertebrae of Gilmoreosaurus mongoliensis
+  width: 1676
+  height: 1043
+  review: unreviewed
+  local: img/gallery/Gilmoreosaurus_001.webp
+- kind: fossil
+  file: Gilmoreosaurus maxillary tooth.png
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Gilmoreosaurus_maxillary_tooth.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gilmoreosaurus_maxillary_tooth.png
+  artist: Charles Whitney Gilmore
+  license: Public domain
+  license_url: ''
+  date: '1933-11-06'
+  caption: Maxillary tooth of Gilmoreosaurus mongoliensis
+  width: 280
+  height: 554
+  review: unreviewed
+  local: img/gallery/Gilmoreosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: literature
+  text: Gilmore, Charles W. 1933. On the dinosaurian fauna of the Iren Dabasu Formation. Bulletin of the AMNH 67.
+- kind: literature
+  text: 'Norman, David B. 2002. On Asian ornithopods (Dinosauria: Ornithischia). 4. ''''Probactrosaurus'''' Rozhdestvensky,
+    1966. Zoological Journal of the Linnean Society 136(1): 113–144. doi:10.1046/j.1096-3642.2002.00027.x'
+- kind: literature
+  text: 'Weishampel, D. B.; Horner, J. R. 1985. The Hadrosaurid dinosaurs from the Iren Dabasu Fauna (People''s
+    Republic of China, Late Cretaceou. Journal of Vertebrate Paleontology 6(1): 38–45. doi:10.1080/02724634.1986.10011597'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gilmoreosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gilmoreosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gilmoreosaurus”. English Wikipedia, revision 1375904213.
+  url: https://en.wikipedia.org/w/index.php?title=Gilmoreosaurus&oldid=1375904213
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

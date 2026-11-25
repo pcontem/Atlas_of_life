@@ -1,0 +1,101 @@
+name: Taleta
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Longrich et al. 2025
+type_species: Taleta taleta
+type_species_note: ''
+summary: A lambeosaurine ornithopod from the Maastrichtian Oulad Abdoun Basin of Morocco, named in 2025; its name
+  means "three".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Taleta taleta
+  authority: Longrich et al. 2025
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Couche III
+  group: ''
+  members: []
+  country: Morocco
+  regions: [Béni Mellal-Khénifra]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: couche-iii-morocco
+fossil_material:
+  holotype: Not read in the sources consulted; named by Longrich and colleagues in 2025.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Taleta jaw lateral by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Taleta_jaw_lateral_by_Nick_Longrich.jpg/960px-Taleta_jaw_lateral_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Taleta_jaw_lateral_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-06-04'
+  caption: Jaw of Taleta taleta
+  width: 5248
+  height: 3985
+  review: unreviewed
+  local: img/gallery/Taleta_001.webp
+- kind: life
+  file: Taleta taleta.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Taleta_taleta.png/960px-Taleta_taleta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Taleta_taleta.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-05-30'
+  caption: Life reconstruction of Taleta taleta
+  width: 1857
+  height: 799
+  review: unreviewed
+  local: img/gallery/Taleta_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Longrich, Nicholas R.; Pereda-Suberbiola, Xabier; Bardet, Nathalie; Jalil, Nour-Eddine 2025. A new hadrosaurid
+    dinosaur from the late Maastrichtian Phosphates of Morocco provides evidence for an African radiation of lambeosaurines.
+    Gondwana Research 145: 142–151. doi:10.1016/j.gr.2025.05.006'
+- kind: literature
+  text: 'Longrich, Nicholas R.; Pereda-Suberbiola, Xabier; Bardet, Nathalie; Jalil, Nour-Eddine 2024. A new small
+    duckbilled dinosaur (Hadrosauridae: Lambeosaurinae) from Morocco and dinosaur diversity in the late Maastrichtian
+    of North Africa. Scientific Reports 14(1). doi:10.1038/s41598-024-53447-9'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Taleta (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Taleta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Taleta”. English Wikipedia, revision 1387579769.
+  url: https://en.wikipedia.org/w/index.php?title=Taleta&oldid=1387579769
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

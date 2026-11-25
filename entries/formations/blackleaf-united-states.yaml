@@ -7,14 +7,14 @@ regions: [Montana]
 location:
   lat: 44.537
   lng: -112.599
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 106.3
   last_ma: 100.5
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial-deltaic indet.]
-lithology: [siltstone]
-pbdb_collections: ['137590']
+environment: ['"floodplain"', fluvial-deltaic indet.]
+lithology: [mudstone, siltstone]
+pbdb_collections: ['73373', '137590']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,69 @@
+name: Magnamanus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Fuentes Vidarte et al. 2016
+type_species: Magnamanus soriaensis
+type_species_note: ''
+summary: A large iguanodontian from the Early Cretaceous Golmayo Formation of Soria, Spain.
+size:
+  length_m: [9, 10]
+  note: Estimated at 9-10 m long in the Wikipedia revision used; the weight estimate is not read.
+age:
+  first_ma: 132.6
+  last_ma: 121.4
+  early_interval: Hauterivian
+  late_interval: Barremian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Magnamanus soriaensis
+  authority: Fuentes Vidarte et al. 2016
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: original description
+formations:
+- formation: Golmayo
+  group: Enciso
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: golmayo-spain
+fossil_material:
+  holotype: Not read in the sources consulted; from the Golmayo Formation, Soria, Spain.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: A herbivore; no further biology in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Styracosterna
+  genus_level: false
+sources:
+- kind: original
+  text: 'Carolina Fuentes Vidarte 2016. Un nuevo dinosaurio estiracosterno (Ornithopoda: Ankylopollexia) del Cretácico
+    Inferior de España. Spanish Journal of Palaeontology 31(2): 407–446.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Magnamanus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Magnamanus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Magnamanus”. English Wikipedia, revision 1351279892.
+  url: https://en.wikipedia.org/w/index.php?title=Magnamanus&oldid=1351279892
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,106 @@
+name: Koreanosaurus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Huh et al. 2011
+type_species: Koreanosaurus boseongensis
+type_species_note: ''
+summary: An orodromine neornithischian of the Campanian of South Korea, whose name means "Korean lizard".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Koreanosaurus boseongensis
+  authority: Huh et al. 2011
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Seonso Conglomerate
+  group: ''
+  members: []
+  country: South Korea
+  regions: [Jeollanam-do]
+  interval: Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: seonso-conglomerate-south-korea
+fossil_material:
+  holotype: Not read in the sources consulted; named by Huh and colleagues in 2011.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Koreanosaurus boseongensis holotype.tif
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Koreanosaurus_boseongensis_holotype.tif/lossy-page1-960px-Koreanosaurus_boseongensis_holotype.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Koreanosaurus_boseongensis_holotype.tif
+  artist: Jung-Kyun Kim, Yong-Eun Kwon, Sang-Gil Lee, Chang-Yeon Kim, Jin-Gyu Kim, Min Huh,Eunji Lee, Youn-Joong
+    Kim
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2017'
+  caption: Holotype of Koreanosaurus boseongensis
+  width: 2006
+  height: 1134
+  review: unreviewed
+  local: img/gallery/Koreanosaurus_001.webp
+- kind: life
+  file: Koreanosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Koreanosaurus.png/960px-Koreanosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Koreanosaurus.png
+  artist: Jun-Hyeok Jang
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-12-27'
+  caption: Life restoration of Koreanosaurus
+  width: 2480
+  height: 3508
+  review: unreviewed
+  local: img/gallery/Koreanosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d7cdf9ba-b770-4416-9011-b7e4a14afee6/vector.svg
+  png: https://images.phylopic.org/images/d7cdf9ba-b770-4416-9011-b7e4a14afee6/raster/512x147.png
+  page: https://www.phylopic.org/images/d7cdf9ba-b770-4416-9011-b7e4a14afee6
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Koreanosaurus boseongensis
+  matched: Koreanosaurus
+  genus_level: true
+  w: 512
+  h: 147
+sources:
+- kind: original
+  text: 'Min Huh 2011. A new basal ornithopod dinosaur from the Upper Cretaceous of South Korea. Neues Jahrbuch
+    für Geologie und Paläontologie - Abhandlungen 259(1): 1–24. doi:10.1127/0077-7749/2010/0102'
+- kind: literature
+  text: 'Kim, J.K.; Kwon, Y.E.; Lee, S.G.; Kim, C.Y.; Kim, J.G.; Huh, M.; Lee, E.; Kim, Y.J. 2017. Correlative microscopy
+    of the constituents of a dinosaur rib fossil and hosting mudstone: Implications on diagenesis and fossil preservation.
+    PLOS ONE 13(3): e0195421. doi:10.1371/journal.pone.0186600'
+- kind: literature
+  text: Fearon, J.L.; Varricchio, D.J. 2015. Morphometric analysis of the forelimb and pectoral girdle of the Cretaceous
+    ornithopod dinosaur ''Oryctodromeus cubicularis'' and implications for digging. Journal of Vertebrate Paleontology
+    35(4). doi:10.1080/02724634.2014.936555
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Koreanosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Koreanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Koreanosaurus”. English Wikipedia, revision 1367633402.
+  url: https://en.wikipedia.org/w/index.php?title=Koreanosaurus&oldid=1367633402
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

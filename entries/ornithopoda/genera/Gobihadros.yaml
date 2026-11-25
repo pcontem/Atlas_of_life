@@ -1,0 +1,115 @@
+name: Gobihadros
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Tsogtbaatar et al. 2019
+type_species: Gobihadros mongoliensis
+type_species_note: ''
+summary: A basal hadrosauroid of the Late Cretaceous Bayanshiree Formation of Mongolia, known from many bones of
+  different growth stages.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Gobihadros mongoliensis
+  authority: Tsogtbaatar et al. 2019
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Cenomanian–Late Santonian
+  occurrences: 6
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: Not read in the sources consulted; from the Bayanshiree Formation, Mongolia.
+  material: Multiple individuals, studied for growth and senescence by Slowiak and colleagues.
+  completeness: multiple
+  exceptional: ''
+biology: Bone studies point to uninterrupted growth in a non-polar hadrosaur and to age-related changes in old individuals.
+images:
+- kind: life
+  file: Gobihadros ZPAL MgD-III 3 life reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Gobihadros_ZPAL_MgD-III_3_life_reconstruction.png/960px-Gobihadros_ZPAL_MgD-III_3_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gobihadros_ZPAL_MgD-III_3_life_reconstruction.png
+  artist: Justyna Słowiak, Tomasz Szczygielski, Bruce M. Rothschild & Dawid Surmik
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-06-11'
+  caption: Life restoration of Gobihadros mongoliensis
+  width: 1776
+  height: 1468
+  review: unreviewed
+  local: img/gallery/Gobihadros_001.webp
+- kind: fossil
+  file: Gobihadros caudal vertebrae & chevrons.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Gobihadros_caudal_vertebrae_%26_chevrons.png/960px-Gobihadros_caudal_vertebrae_%26_chevrons.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gobihadros_caudal_vertebrae_%26_chevrons.png
+  artist: Khishigjav Tsogtbaatar, David B. Weishampel, David C. Evans & Mahito Watabe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-04-17'
+  caption: Caudal vertebrae of Gobihadros mongoliensis
+  width: 3800
+  height: 4454
+  review: unreviewed
+  local: img/gallery/Gobihadros_002.webp
+- kind: fossil
+  file: Gobihadros cervical vertebrae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Gobihadros_cervical_vertebrae.png/960px-Gobihadros_cervical_vertebrae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gobihadros_cervical_vertebrae.png
+  artist: Khishigjav Tsogtbaatar, David B. Weishampel, David C. Evans & Mahito Watabe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-04-17'
+  caption: Cervical vertebrae of Gobihadros mongoliensis
+  width: 3800
+  height: 3348
+  review: unreviewed
+  local: img/gallery/Gobihadros_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Khishigjav Tsogtbaatar 2019. A new hadrosauroid (Dinosauria: Ornithopoda) from the Late Cretaceous Baynshire
+    Formation of the Gobi Desert (Mongolia). PLOS ONE 14(4). doi:10.1371/journal.pone.0208480'
+- kind: literature
+  text: 'Slowiak, J.; Szczygielski, T.; Ginter, M.; Fostowicz-Frelik, L. 2020. Uninterrupted growth in a non-polar
+    hadrosaur explains the gigantism among duck-billed dinosaurs. Palaeontology 63(4): 579–599. doi:10.1111/pala.12473'
+- kind: literature
+  text: 'Słowiak, J.; Szczygielski, T.; Rothschild, B. M.; Surmik, D. 2021. Dinosaur senescence: a hadrosauroid
+    with age-related diseases brings a new perspective of old dinosaurs. Scientific Reports 11. doi:10.1038/s41598-021-91366-1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gobihadros (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gobihadros
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gobihadros”. English Wikipedia, revision 1320097908.
+  url: https://en.wikipedia.org/w/index.php?title=Gobihadros&oldid=1320097908
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,95 @@
+name: Changmiania
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Yang et al. 2020
+type_species: Changmiania liaoningensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A basal ornithopod-like dinosaur of the Early Cretaceous of China, whose name means "eternal sleep".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Changmiania liaoningensis
+  authority: Yang et al. 2020
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Yang and colleagues in 2020.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Changmiania holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Changmiania_holotype.png/960px-Changmiania_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Changmiania_holotype.png
+  artist: Yuqing Yang, Wenhao Wu, Paul-Emile Dieudonné & Pascal Godefroit​
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-09-08'
+  caption: Holotype of Changmiania liaoningensis
+  width: 1677
+  height: 1869
+  review: unreviewed
+  local: img/gallery/Changmiania_001.webp
+- kind: fossil
+  file: Changmiania holotype pelvic girdle & hindlimbs.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Changmiania_holotype_pelvic_girdle_%26_hindlimbs.png/960px-Changmiania_holotype_pelvic_girdle_%26_hindlimbs.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Changmiania_holotype_pelvic_girdle_%26_hindlimbs.png
+  artist: Yuqing Yang, Wenhao Wu, Paul-Emile Dieudonné & Pascal Godefroit​
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-09-08'
+  caption: Pelvic girdle of the holotype of Changmiania
+  width: 3250
+  height: 3127
+  review: unreviewed
+  local: img/gallery/Changmiania_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/vector.svg
+  png: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/raster/512x277.png
+  page: https://www.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Oryctodromeus cubicularis
+  matched: Thescelosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Yang, Y.; Wu, W.; Dieudonné, P.; Godefroit, P. 2020. A new basal ornithopod dinosaur from the Lower Cretaceous
+    of China. PeerJ 8. doi:10.7717/peerj.9832
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Changmiania (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Changmiania
+- kind: encyclopedia
+  text: Wikipedia contributors. “Changmiania”. English Wikipedia, revision 1358992976.
+  url: https://en.wikipedia.org/w/index.php?title=Changmiania&oldid=1358992976
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

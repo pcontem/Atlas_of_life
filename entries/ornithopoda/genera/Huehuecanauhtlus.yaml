@@ -1,0 +1,100 @@
+name: Huehuecanauhtlus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Ramírez-Velasco et al. 2012
+type_species: Huehuecanauhtlus tiquichensis
+type_species_note: ''
+summary: A hadrosauroid of the Santonian of Michoacan, western Mexico, known from two localities.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Huehuecanauhtlus tiquichensis
+  authority: Ramírez-Velasco et al. 2012
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Cutzamala
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Michoacán]
+  interval: Santonian
+  occurrences: 2
+  ma: [83.6, 85.7]
+  id: cutzamala-mexico
+fossil_material:
+  holotype: IGM 6253 (from the figure captions) and other remains from Michoacan.
+  material: Remains from two sites, including a pathological bone.
+  completeness: fragmentary
+  exceptional: ''
+biology: A population analysis of the genus was published in 2025 (Jimenez-Moreno et al.).
+images:
+- kind: fossil
+  file: Huehuecanauhtlus IGM 6253.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Huehuecanauhtlus_IGM_6253.png/960px-Huehuecanauhtlus_IGM_6253.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Huehuecanauhtlus_IGM_6253.png
+  artist: Levi Martinez-Reza
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-09-26'
+  caption: Specimen IGM 6253 of Huehuecanauhtlus tiquichensis
+  width: 4608
+  height: 4608
+  review: unreviewed
+  local: img/gallery/Huehuecanauhtlus_001.webp
+- kind: life
+  file: Huehuecanauhtlus tiquichensis Roman Garcia.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Huehuecanauhtlus_tiquichensis_Roman_Garcia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Huehuecanauhtlus_tiquichensis_Roman_Garcia.png
+  artist: Román García Moran
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-05-25'
+  caption: Life restoration of Huehuecanauhtlus tiquichensis
+  width: 1047
+  height: 691
+  review: unreviewed
+  local: img/gallery/Huehuecanauhtlus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Angel Alejandro Ramírez-Velasco 2012. ''''Huehuecanauhtlus tiquichensis'''', a new hadrosauroid dinosaur
+    (Ornithischia: Ornithopoda) from the Santonian (Late Cretaceous) of Michoacán, Mexico. Canadian Journal of Earth
+    Sciences 49(2): 379–395. doi:10.1139/e11-062'
+- kind: literature
+  text: 'Jiménez-Moreno, Francisco Javier; Ramírez-Velasco, Ángel Alejandro; Ocampo-Cornejo, Patricio; Velázquez-Castro,
+    Jorge; Palomino-Merino, Rodolfo 2025. First Population Analysis in Hadrosauroid dinosaurs (Ornithopoda: Iguanodontia:
+    Hadrosauroidea). Evolving Earth(in press). doi:10.1016/j.eve.2025.100072'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Huehuecanauhtlus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Huehuecanauhtlus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Huehuecanauhtlus”. English Wikipedia, revision 1375972601.
+  url: https://en.wikipedia.org/w/index.php?title=Huehuecanauhtlus&oldid=1375972601
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,89 @@
+name: Planicoxa
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: DiCroce and Carpenter 2001
+type_species: Planicoxa venenica
+type_species_note: ''
+summary: An advanced iguanodontian from the Early Cretaceous Cedar Mountain Formation of Utah, known from partial
+  skeletons.
+size:
+  length_m: [4.5, 4.5]
+  mass_kg: [450, 450]
+  note: Estimated at 4.5 m and 450 kg in the Wikipedia revision used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Planicoxa venenica
+  authority: DiCroce and Carpenter 2001
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Poison Strip Sandstone]
+  country: United States
+  regions: [Utah]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; from the Poison Strip Sandstone Member of the Cedar Mountain Formation.
+  material: Several partial skeletons, with a well-preserved ilium, femora, tibiae and vertebrae.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Planicoxa reconstruction raingerr.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Planicoxa_reconstruction_raingerr.png/960px-Planicoxa_reconstruction_raingerr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Planicoxa_reconstruction_raingerr.png
+  artist: Raingerr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-04'
+  caption: Life restoration of Planicoxa venenica
+  width: 2160
+  height: 880
+  review: unreviewed
+  local: img/gallery/Planicoxa_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/6c470e2b-51ff-4d99-a916-c0e19e90bbdf/vector.svg
+  png: https://images.phylopic.org/images/6c470e2b-51ff-4d99-a916-c0e19e90bbdf/raster/512x181.png
+  page: https://www.phylopic.org/images/6c470e2b-51ff-4d99-a916-c0e19e90bbdf
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Planicoxa venenica
+  matched: Planicoxa
+  genus_level: true
+  w: 512
+  h: 181
+sources:
+- kind: original
+  text: 'T. DiCroce and K. Carpenter. 2001. A new ornithopod from the Cedar Mountain Formation (Lower Cretaceous)
+    of eastern Utah. Mesozoic Vertebrate Life: New Research Inspired by the Paleontology of Philip J. Currie'
+- kind: literature
+  text: 'Andrew T. McDonald 2011. The taxonomy of species assigned to ''''Camptosaurus'''' (Dinosauria: Ornithopoda).
+    Zootaxa 2783: 52–68. doi:10.11646/zootaxa.2783.1.4'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Planicoxa (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Planicoxa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Planicoxa”. English Wikipedia, revision 1329412615.
+  url: https://en.wikipedia.org/w/index.php?title=Planicoxa&oldid=1329412615
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,124 @@
+name: Lycorhinus
+rank: genus
+parent: heterodontosauria
+incertae_sedis: false
+placement_note: ''
+authority: Haughton 1924
+type_species: Lycorhinus angustidens
+type_species_note: ''
+summary: A heterodontosaurid known from fragmentary Early Jurassic jaw material from South Africa and Lesotho, first
+  named as a cynodont.
+size:
+  length_m: null
+  note: Not given in the sources used; the remains may indicate an individual larger than Heterodontosaurus.
+age:
+  first_ma: 201.4
+  last_ma: 184.2
+  early_interval: Hettangian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Lycorhinus angustidens
+  authority: Haughton 1924
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Eastern Cape, Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 3
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+- formation: Clarens
+  group: Stormberg
+  members: []
+  country: Lesotho
+  regions: [Mafeteng]
+  interval: Pliensbachian
+  occurrences: 1
+  ma: [184.2, 192.9]
+  id: clarens-lesotho
+- formation: Unnamed unit
+  group: Stormberg
+  members: []
+  country: South Africa
+  regions: [Eastern Cape]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: stormberg-group-south-africa
+fossil_material:
+  holotype: SAM 3606, a partial jaw from Paballong, Mount Fletcher district, South Africa, now only an original
+    canine and an impression of the rest of the jaw and teeth.
+  material: Lanasaurus scalpridens (a maxilla, BPI 4244, from Golden Gate Highlands National Park) is treated as
+    a junior synonym, and a partial skull from the original locality has been referred to it.
+  completeness: fragmentary
+  exceptional: ''
+biology: A heterodontosaurid with a large canine-like tusk; the sources consulted do not describe its habits.
+images:
+- kind: fossil
+  file: Lycorhinus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/37/Lycorhinus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lycorhinus.jpg
+  artist: Paul C. Sereno
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012'
+  caption: Cast of the jaw block of Lycorhinus angustidens
+  width: 692
+  height: 583
+  review: unreviewed
+  local: img/gallery/Lycorhinus_001.webp
+- kind: fossil
+  file: LycorhinusDentary.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/25/LycorhinusDentary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:LycorhinusDentary.jpg
+  artist: Paul C. Sereno
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012-10-03'
+  caption: Jaw of Lycorhinus angustidens, photograph and line drawing
+  width: 756
+  height: 893
+  review: unreviewed
+  local: img/gallery/Lycorhinus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/vector.svg
+  png: https://images.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7/raster/512x157.png
+  page: https://www.phylopic.org/images/a25a1c20-972a-46f4-ac18-6b463a7d53c7
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tianyulong confuciusi
+  matched: Heterodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Haughton, S.H. 1924. The fauna and stratigraphy of the Stormberg Series. Annals of the South African Museum
+    12: 323-497.'
+- kind: literature
+  text: 'Crompton, A.W.; Charig, A.J. 1962. A new ornithischian from the Upper Triassic of South Africa. Nature
+    196(4859): 1074–1077. doi:10.1038/1961074a0'
+- kind: literature
+  text: 'Charig, A.J.; Crompton, A.W. 1974. The alleged synonymy of ''''Lycorhinus'''' and ''''Heterodontosaurus''''.
+    Annals of the South African Museum 64: 167-189.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lycorhinus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lycorhinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lycorhinus”. English Wikipedia, revision 1378860535.
+  url: https://en.wikipedia.org/w/index.php?title=Lycorhinus&oldid=1378860535
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Lycorhinus parvidens (Broom) is in PBDB but is not treated as valid in the English Wikipedia revision; check.
+  - Lanasaurus is listed in excluded.yaml as a junior synonym following the English Wikipedia revision of Lycorhinus.
+  reviews: []

@@ -1,0 +1,107 @@
+name: Callovosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Galton 1980
+type_species: Callovosaurus leedsi
+type_species_note: ''
+summary: A basal iguanodontian from the Middle Jurassic Oxford Clay of England, known from most of a left thigh
+  bone.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Callovosaurus leedsi
+  authority: (Lydekker 1889)
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: NHMUK PV R 1993, a nearly complete left femur described by Lydekker in 1889 as Camptosaurus leedsi.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Callovosaurus leedsi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Callovosaurus_leedsi.jpg/960px-Callovosaurus_leedsi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Callovosaurus_leedsi.jpg
+  artist: The Trustees of the Natural History Museum, London
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-11-11'
+  caption: Femur of Callovosaurus leedsi
+  width: 5184
+  height: 3456
+  review: unreviewed
+  local: img/gallery/Callovosaurus_001.webp
+- kind: life
+  file: Callovosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Callovosaurus.jpg/960px-Callovosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Callovosaurus.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-10-20'
+  caption: Life restoration of Callovosaurus
+  width: 3492
+  height: 1108
+  review: unreviewed
+  local: img/gallery/Callovosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Euiguanodontia
+  genus_level: false
+sources:
+- kind: original
+  text: 'Galton, Peter M. 1980. European Jurassic ornithopod dinosaurs of the families Hypsilophodontidae and Camptosauridae.
+    Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen 160(1): 73–95. doi:10.1127/njgpa/160/1980/73'
+- kind: literature
+  text: 'Lydekker, Richard 1889. On the remains and affinities of five genera of Mesozoic reptiles. Quarterly Journal
+    of the Geological Society of London 45(1–4): 41–59. doi:10.1144/GSL.JGS.1889.045.01-04.04'
+- kind: literature
+  text: 'Gilmore, Charles W. 1909. Osteology of the Jurassic reptile ''''Camptosaurus'''', with a revision of the
+    genus, and description of two new species. Proceedings of the United States National Museum 36(1666): 197–332.
+    doi:10.5479/si.00963801.36-1666.197'
+- kind: literature
+  text: 'Czepiński, Łukasz; Madzia, Daniel 2025. Exploring the diversity and disparity of rhabdodontomorph ornithopods
+    from the Late Cretaceous European archipelago. Scientific Reports 15(1): 15209. doi:10.1038/s41598-025-98083-z'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Callovosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Callovosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Callovosaurus”. English Wikipedia, revision 1368874570.
+  url: https://en.wikipedia.org/w/index.php?title=Callovosaurus&oldid=1368874570
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Sometimes treated as dubious; check recent assessments (Czepiński 2025).
+  reviews: []

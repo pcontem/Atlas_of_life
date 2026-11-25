@@ -1,0 +1,83 @@
+name: Cedrorestes
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Gilpin et al. 2007
+type_species: Cedrorestes crichtoni
+type_species_note: ''
+summary: An iguanodontian from the Yellow Cat Member of the Cedar Mountain Formation, Utah, known from an incomplete
+  skeleton.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cedrorestes crichtoni
+  authority: Gilpin et al. 2007
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Yellow Cat]
+  country: United States
+  regions: [Utah]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: An incomplete skeleton from the Valanginian Yellow Cat Member, Cedar Mountain Formation, Utah.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Left ilium of Cedrorestes.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Left_ilium_of_Cedrorestes.png/960px-Left_ilium_of_Cedrorestes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Left_ilium_of_Cedrorestes.png
+  artist: Andrew T. McDonald, James I. Kirkland, Donald D. DeBlieux, Scott K. Madsen, Jennifer Cavin, Andrew R.
+    C. Milner, Lukas Panzarin
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010-11-22'
+  caption: Left ilium of Cedrorestes crichtoni
+  width: 2049
+  height: 2518
+  review: unreviewed
+  local: img/gallery/Cedrorestes_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Gilpin, David 2007. Horns and Beaks: Ceratopsian and Ornithopod Dinosaurs. Indiana University Press. doi:10.2307/j.ctt1zxz1md.10'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cedrorestes (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cedrorestes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cedrorestes”. English Wikipedia, revision 1291095936.
+  url: https://en.wikipedia.org/w/index.php?title=Cedrorestes&oldid=1291095936
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

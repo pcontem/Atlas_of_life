@@ -1,0 +1,107 @@
+name: Tsintaosaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Young 1958
+type_species: Tsintaosaurus spinorhinus
+type_species_note: ''
+summary: A hadrosaurid of the Late Cretaceous of China, about 8.3 m long, whose supposed nasal horn has been reinterpreted.
+size:
+  length_m: [8.3, 8.3]
+  note: About 8.3 m long in the Wikipedia revision used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Tsintaosaurus spinorhinus
+  authority: Young 1958
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Jingangkou
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: jingangkou-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Young in 1958 from Laiyang, Shandong.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: A life reconstruction of Tsintaosaurus spinorhinus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f3/A_life_reconstruction_of_Tsintaosaurus_spinorhinus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:A_life_reconstruction_of_Tsintaosaurus_spinorhinus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Tsintaosaurus spinorhinus
+  width: 1158
+  height: 468
+  review: unreviewed
+  local: img/gallery/Tsintaosaurus_001.webp
+- kind: life
+  file: Life reconstruction of Tsintaosaurus spinorhinus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a2/Life_reconstruction_of_Tsintaosaurus_spinorhinus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Tsintaosaurus_spinorhinus.png
+  artist: Jonathan R. Wagner
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2001-01-01'
+  caption: Life reconstruction of Tsintaosaurus spinorhinus
+  width: 369
+  height: 555
+  review: unreviewed
+  local: img/gallery/Tsintaosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/a72a82c7-d2a2-41da-bb14-cdf717c7b665/vector.svg
+  png: https://images.phylopic.org/images/a72a82c7-d2a2-41da-bb14-cdf717c7b665/raster/512x229.png
+  page: https://www.phylopic.org/images/a72a82c7-d2a2-41da-bb14-cdf717c7b665
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Tsintaosaurus spinorhinus
+  matched: Tsintaosaurus
+  genus_level: true
+  w: 512
+  h: 229
+sources:
+- kind: original
+  text: 'Young, C.-C. 1958. The dinosaurian remains of Laiyang, Shantung. Palaeontologia Sinica, New Series C 42(16):
+    1–138.'
+- kind: literature
+  text: 'Buffetaut, E.; Tong, H. 1993. ''''Tsintaosaurus spinorhinus'''' Young and ''''Tanius sinensis'''' Wiman:
+    a preliminary comparative study of two hadrosaurs (Dinosauria) from the Upper Cretaceous of China. C.R. Academy
+    of Science Paris 317: 1255–1261.'
+- kind: literature
+  text: 'Prieto-Márquez, A.; Wagner, J. R. 2013. The ''Unicorn'' Dinosaur That Wasn''t: A New Reconstruction of
+    the Crest of ''''Tsintaosaurus'''' and the Early Evolution of the Lambeosaurine Crest and Rostrum. PLOS ONE
+    8(11). doi:10.1371/journal.pone.0082268'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tsintaosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tsintaosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tsintaosaurus”. English Wikipedia, revision 1336428992.
+  url: https://en.wikipedia.org/w/index.php?title=Tsintaosaurus&oldid=1336428992
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Its crest was long thought to be a unicorn-like spike; Prieto-Marquez and Wagner 2013 reinterpreted it. Check
+    the details.
+  reviews: []

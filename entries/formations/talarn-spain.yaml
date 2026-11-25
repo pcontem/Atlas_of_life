@@ -3,18 +3,18 @@ name: Talarn
 rank: formation
 group: Tremp
 country: Spain
-regions: [Cataluña]
+regions: [Cataluña, Lleida]
 location:
-  lat: 42.144
-  lng: 1.043
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 42.148
+  lng: 1.049
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lacustrine - small]
-lithology: [claystone]
-pbdb_collections: ['148950']
+environment: [crevasse splay, lacustrine - small, terrestrial indet., fluvial indet.]
+lithology: [sandstone, claystone, not reported]
+pbdb_collections: ['38893', '148950', '171102', '230459']
 includes: []
 summary: ''
 paleoenvironment: ''

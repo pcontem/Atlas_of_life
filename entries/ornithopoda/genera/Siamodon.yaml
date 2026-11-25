@@ -1,0 +1,96 @@
+name: Siamodon
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Buffetaut and Suteethorn 2011
+type_species: Siamodon nimngami
+type_species_note: ''
+summary: An iguanodontian from the Early Cretaceous Khok Kruat Formation of northeastern Thailand, known from a
+  maxilla and a braincase.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Siamodon nimngami
+  authority: Buffetaut and Suteethorn 2011
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Khok Kruat
+  group: ''
+  members: []
+  country: Thailand
+  regions: [Nakhon Ratchasima]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: khok-kruat-thailand
+fossil_material:
+  holotype: PRC-4, a well-preserved left maxilla.
+  material: An isolated maxillary tooth (PRC-5) and a braincase (PRC-6).
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Siamodon nimngami Tooth root.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Siamodon_nimngami_Tooth_root.jpg/960px-Siamodon_nimngami_Tooth_root.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Siamodon_nimngami_Tooth_root.jpg
+  artist: Witaya nimngam
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-04-03'
+  caption: Tooth root of Siamodon nimngami
+  width: 1986
+  height: 1071
+  review: unreviewed
+  local: img/gallery/Siamodon_001.webp
+- kind: fossil
+  file: Siamodon tooth1.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Siamodon_tooth1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Siamodon_tooth1.JPG
+  artist: Witaya nimngam
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2009-07-25'
+  caption: Tooth of Siamodon nimngami
+  width: 1348
+  height: 1560
+  review: unreviewed
+  local: img/gallery/Siamodon_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98/vector.svg
+  png: https://images.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98/raster/512x163.png
+  page: https://www.phylopic.org/images/145eb76f-4122-4e11-9ec2-c7448a088a98
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Jinzhousaurus yangi
+  matched: Hadrosauriformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Eric Buffetaut 2011. A new iguanodontian dinosaur from the Khok Kruat Formation (Early Cretaceous, Aptian)
+    of northeastern Thailand. Annales de Paléontologie 97(1–2): 51–62. doi:10.1016/j.annpal.2011.08.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Siamodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Siamodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Siamodon”. English Wikipedia, revision 1352375083.
+  url: https://en.wikipedia.org/w/index.php?title=Siamodon&oldid=1352375083
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

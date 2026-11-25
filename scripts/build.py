@@ -150,6 +150,10 @@ def main():
     known = {n[0] for n in backbone}
     clades, genera, excluded, metas, tree = [], [], [], [], [list(n) for n in backbone]
     vol_clades = set()
+    # a volume may attach to a clade that is itself part of another volume (e.g. Thyreophora to Ornithischia)
+    for vp in ENTRIES.glob("*/clades/*.yaml"):
+        if vp.parts[-3] != "tree":
+            known.add(load(vp)["id"])
     # clade entries for groups of the tree backbone (entries/tree/clades): the node keeps its place and name
     # in backbone.json and is marked as having an entry
     node_at = {n[0]: n for n in tree}

@@ -1,0 +1,100 @@
+name: Eotrachodon
+rank: genus
+parent: hadrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Prieto-Márquez et al. 2016
+type_species: Eotrachodon orientalis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A basal hadrosaurid of the Late Cretaceous of eastern North America, from the Mooreville Chalk of Alabama.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eotrachodon orientalis
+  authority: Prieto-Márquez et al. 2016
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Mooreville Chalk
+  group: Selma
+  members: []
+  country: United States
+  regions: [Alabama]
+  interval: Late Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: mooreville-chalk-united-states
+fossil_material:
+  holotype: Found in the Mooreville Chalk Formation.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Eotrachodon maxilla.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Eotrachodon_maxilla.png/960px-Eotrachodon_maxilla.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eotrachodon_maxilla.png
+  artist: Albert Prieto-Márquez​1, Gregory M. Erickson2, Jun A. Ebersole3
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Maxilla of Eotrachodon orientalis
+  width: 2732
+  height: 3677
+  review: unreviewed
+  local: img/gallery/Eotrachodon_001.webp
+- kind: life
+  file: Eotrachodon NT small.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a1/Eotrachodon_NT_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eotrachodon_NT_small.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/ http://paleoexhibit.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-06-21'
+  caption: Life restoration of Eotrachodon
+  width: 879
+  height: 520
+  review: unreviewed
+  local: img/gallery/Eotrachodon_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Prieto-Marquez, Albert; Erickson, Gregory M.; Ebersole, Jun A. 2016. A primitive hadrosaurid from southeastern
+    North America and the origin and early evolution of 'duck-billed' dinosaurs. Journal of Vertebrate Paleontology
+    36(2). doi:10.1080/02724634.2015.1054495
+- kind: literature
+  text: Prieto-Márquez, Albert; Erickson, Gregory M.; Ebersole, Jun A. 14 A. Anatomy and osteohistology of the basal
+    hadrosaurid dinosaur ''Eotrachodon'' from the uppermost Santonian (Cretaceous) of southern Appalachia. PeerJ
+    4. doi:10.7717/peerj.1872
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eotrachodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eotrachodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eotrachodon”. English Wikipedia, revision 1363220505.
+  url: https://en.wikipedia.org/w/index.php?title=Eotrachodon&oldid=1363220505
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

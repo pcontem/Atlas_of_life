@@ -1,0 +1,103 @@
+name: Eocursor
+rank: genus
+parent: ornithischia
+incertae_sedis: false
+placement_note: ''
+authority: Butler et al. 2007
+type_species: Eocursor parvus
+type_species_note: ''
+summary: A lightly built, bipedal Early Jurassic ornithischian of about 1 m from South Africa, one of the most completely
+  known early members of the group.
+size:
+  length_m: [1, 1]
+  note: Estimated length of about 1 m (English Wikipedia revision cited).
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 1
+  note: Originally given as Late Triassic (Norian); later work found no independent dating, so an Early Jurassic
+    age cannot be excluded.
+species:
+- name: Eocursor parvus
+  authority: Butler et al. 2007
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+fossil_material:
+  holotype: SAM-PK-K8025, partial skeleton collected in 1993 from the Upper Elliot Formation, Free State, South
+    Africa.
+  material: Partial skeletal elements including skull fragments, vertebrae, pelvis, long leg bones and unusually
+    large grasping hands.
+  completeness: partial
+  exceptional: ''
+biology: A lightly built biped; its triangular, iguana-like teeth suggest partial herbivory.
+images:
+- kind: skeletal
+  file: Eocursor (skeletal reconstruction).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Eocursor_%28skeletal_reconstruction%29.png/960px-Eocursor_%28skeletal_reconstruction%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eocursor_(skeletal_reconstruction).png
+  artist: D. B. Norman, M. G. Baron, M. S. Garcia & R. T. Müller
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-28'
+  caption: Skeletal reconstruction of Eocursor parvus
+  width: 1842
+  height: 639
+  review: unreviewed
+  local: img/gallery/Eocursor_001.webp
+- kind: life
+  file: Eocursor BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/71/Eocursor_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eocursor_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-06-13'
+  caption: Life restoration of Eocursor parvus
+  width: 800
+  height: 400
+  review: unreviewed
+  local: img/gallery/Eocursor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/63cc3161-ac45-4b32-8fbe-fcc720a3c87c/vector.svg
+  png: https://images.phylopic.org/images/63cc3161-ac45-4b32-8fbe-fcc720a3c87c/raster/512x174.png
+  page: https://www.phylopic.org/images/63cc3161-ac45-4b32-8fbe-fcc720a3c87c
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eocursor parvus
+  matched: Eocursor
+  genus_level: true
+  w: 512
+  h: 174
+sources:
+- kind: original
+  text: R. J. Butler, R. M. H. Smith, and D. B. Norman. 2007. A primitive ornithischian dinosaur from the Late Triassic
+    of South Africa, and the early evolution and diversification of Ornithischia. Proceedings of the Royal Society
+    of London B 274:2041-2046
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eocursor (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eocursor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eocursor”. English Wikipedia, revision 1379852071.
+  url: https://en.wikipedia.org/w/index.php?title=Eocursor&oldid=1379852071
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The age of the Upper Elliot Formation is disputed (Late Triassic or Early Jurassic); check.
+  reviews: []

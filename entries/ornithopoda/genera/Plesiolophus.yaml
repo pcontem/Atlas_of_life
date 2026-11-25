@@ -1,0 +1,99 @@
+name: Plesiolophus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: McFeeters et al. 2026
+type_species: Plesiolophus warnerensis
+type_species_note: ''
+summary: A lambeosaurine hadrosaurid of the Campanian Oldman Formation of Canada, named in 2026.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Plesiolophus warnerensis
+  authority: McFeeters et al. 2026
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: Not read in the sources consulted; named by McFeeters and colleagues in 2026.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Plesiolophus skull reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Plesiolophus_skull_reconstruction.jpg/960px-Plesiolophus_skull_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plesiolophus_skull_reconstruction.jpg
+  artist: Olof Moleman
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-07-10'
+  caption: Skull reconstruction of Plesiolophus warnerensis
+  width: 2180
+  height: 2099
+  review: unreviewed
+  local: img/gallery/Plesiolophus_001.webp
+- kind: life
+  file: Plesiolophus warnerensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Plesiolophus_warnerensis.png/960px-Plesiolophus_warnerensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Plesiolophus_warnerensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-10'
+  caption: Life reconstruction of Plesiolophus warnerensis
+  width: 4000
+  height: 1466
+  review: unreviewed
+  local: img/gallery/Plesiolophus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'McFeeters, Bradley D.; Evans, David C.; Ryan, Michael J.; Maddin, Hillary C. July. A new parasaurolophin
+    dinosaur (Hadrosauridae: Lambeosaurinae) from the Oldman Formation of southern Alberta. Canadian Journal of
+    Earth Sciences 63: 1–23. doi:10.1139/cjes-2026-0013'
+- kind: literature
+  text: Ramírez-Velasco, Angel Alejandro Octo. Phylogenetic and biogeography analysis of Mexican hadrosauroids.
+    Cretaceous Research 138. doi:10.1016/j.cretres.2022.105267
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plesiolophus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plesiolophus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plesiolophus”. English Wikipedia, revision 1379381031.
+  url: https://en.wikipedia.org/w/index.php?title=Plesiolophus&oldid=1379381031
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

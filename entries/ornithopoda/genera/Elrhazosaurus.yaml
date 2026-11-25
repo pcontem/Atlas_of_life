@@ -1,0 +1,102 @@
+name: Elrhazosaurus
+rank: genus
+parent: dryosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Galton 2009
+type_species: Elrhazosaurus nigeriensis
+type_species_note: ''
+summary: A basal iguanodontian from the Early Cretaceous Elrhaz Formation of Niger, first described as a species
+  of Valdosaurus.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Elrhazosaurus nigeriensis
+  authority: (Galton and Taquet 1982)
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: elrhaz-niger
+fossil_material:
+  holotype: Not read in the sources consulted; isolated bones from the Elrhaz Formation of Niger, first named Valdosaurus
+    nigeriensis by Galton and Taquet in 1982.
+  material: Isolated bones only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived in a rich Early Cretaceous community with crocodylomorphs such as Sarcosuchus; its own biology is
+  not described in the sources consulted.
+images:
+- kind: life
+  file: Elrhazosaurus NT.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fa/Elrhazosaurus_NT.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Elrhazosaurus_NT.png
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2013-02-23'
+  caption: Life restoration of Elrhazosaurus nigeriensis
+  width: 574
+  height: 243
+  review: unreviewed
+  local: img/gallery/Elrhazosaurus_001.webp
+- kind: skeletal
+  file: Elrhazosaurus skeletal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Elrhazosaurus_skeletal.jpg/960px-Elrhazosaurus_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Elrhazosaurus_skeletal.jpg
+  artist: Augustios Paleo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-12-05'
+  caption: Skeletal reconstruction of Elrhazosaurus nigeriensis
+  width: 2048
+  height: 1023
+  review: unreviewed
+  local: img/gallery/Elrhazosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/14184e4e-0777-4d0b-8cb4-00dedd216af4/vector.svg
+  png: https://images.phylopic.org/images/14184e4e-0777-4d0b-8cb4-00dedd216af4/raster/512x227.png
+  page: https://www.phylopic.org/images/14184e4e-0777-4d0b-8cb4-00dedd216af4
+  attribution: Gareth Monger
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dryosaurus altus
+  matched: Dryosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: P. M. Galton. 2009. Notes on Neocomian (Lower Cretaceous) ornithopod dinosaurs from England - Hypsilophodon,
+    Valdosaurus, "Camptosaurus", "Iguanodon" - and referred specimens from Romania and elsewhere. Revue de Paléobiologie,
+    Genève 28(1):211-273
+- kind: literature
+  text: 'Galton, Peter M. 1982. ''''Valdosaurus'''', a hypsilophodontid dinosaur from the Lower Cretaceous of Europe
+    and Africa. Géobios 15(2): 147–159. doi:10.1016/s0016-6995(82)80017-x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elrhazosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elrhazosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elrhazosaurus”. English Wikipedia, revision 1333489126.
+  url: https://en.wikipedia.org/w/index.php?title=Elrhazosaurus&oldid=1333489126
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

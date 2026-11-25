@@ -1,0 +1,98 @@
+name: Lurdusaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Taquet and Russell 1999
+type_species: Lurdusaurus arenatus
+type_species_note: ''
+summary: A massive, unusually shaped iguanodont from the Early Cretaceous Elrhaz Formation of Niger, whose name
+  means "heavy lizard".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 113.2
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lurdusaurus arenatus
+  authority: Taquet and Russell 1999
+  first_ma: 113.2
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: elrhaz-niger
+fossil_material:
+  holotype: Not read in the sources consulted; described by Taquet and Russell in 1999 from Niger.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Its body plan is highly atypical for an iguanodont.
+images:
+- kind: fossil
+  file: Lurdusaurus arenatus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lurdusaurus_arenatus.jpg/960px-Lurdusaurus_arenatus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lurdusaurus_arenatus.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-11'
+  caption: Skeleton of Lurdusaurus arenatus
+  width: 1778
+  height: 851
+  review: unreviewed
+  local: img/gallery/Lurdusaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/2fb01e37-b598-4b88-b14b-70d77b1d0d7e/vector.svg
+  png: https://images.phylopic.org/images/2fb01e37-b598-4b88-b14b-70d77b1d0d7e/raster/512x141.png
+  page: https://www.phylopic.org/images/2fb01e37-b598-4b88-b14b-70d77b1d0d7e
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Lurdusaurus arenatus
+  matched: Lurdusaurus
+  genus_level: true
+  w: 512
+  h: 141
+sources:
+- kind: original
+  text: 'Taquet, P.; Russell, D. A. 1999. A massively-constructed iguanodont from Gadoufaoua, Lower Cretaceous of
+    Niger. Annales de Paléontologie 85(1): 85–96. doi:10.1016/s0753-3969(99)80009-3'
+- kind: literature
+  text: 'You, H.-L.; Li, D.-Q.; Ji, Q. 2005. ''''Lanzhousaurus magnidens'''' gen. et sp. nov. from Gansu Province,
+    China: The largest-toothed herbivorous dinosaur in the world. Geological Bulletin of China 24(9).'
+- kind: literature
+  text: 'Paul, G. S. 2008. A revised taxonomy of the iguanodont dinosaur genera and species. Cretaceous Research
+    29(2): 192–216. doi:10.1016/j.cretres.2007.04.009'
+- kind: literature
+  text: Galton, P. M. 2009. Notes on Neocomian (Lower Cretaceous) ornithopod dinosaurs from England - ''Hypsilophodon'',
+    ''Valdosaurus'', "''Camptosaurus''", "''Iguanodon''" - and referred specimens from Romania and elsewhere. Revue
+    de Paléobiologie, Genève 28(1).
+- kind: literature
+  text: 'Poole, K.E. 2022. Phylogeny of iguanodontian dinosaurs and the evolution of quadrupedality. Palaeontologia
+    Electronica 25(3): a30. doi:10.26879/702'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lurdusaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lurdusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lurdusaurus”. English Wikipedia, revision 1365741065.
+  url: https://en.wikipedia.org/w/index.php?title=Lurdusaurus&oldid=1365741065
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

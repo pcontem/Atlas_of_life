@@ -1,0 +1,84 @@
+name: Transylvanosaurus
+rank: genus
+parent: rhabdodontomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Augustin et al. 2022
+type_species: Transylvanosaurus platycephalus
+type_species_note: ''
+summary: A rhabdodontid ornithopod from the Maastrichtian Hațeg Basin of Romania, known from a fragmentary skull
+  that is unusually wide.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Transylvanosaurus platycephalus
+  authority: Augustin et al. 2022
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Pui Beds
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: pui-beds-romania
+fossil_material:
+  holotype: A fragmentary skull from the Pui Beds, Hațeg Basin, Romania (LPB (FGGUB) specimen number not read).
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Holotype of Transylvanosaurus platycephalus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Holotype_of_Transylvanosaurus_platycephalus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Holotype_of_Transylvanosaurus_platycephalus.jpg
+  artist: Felix J. Augustin, Attila Ősi, Zoltán Csiki-Sava
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-08-28'
+  caption: Holotype of Transylvanosaurus platycephalus
+  width: 922
+  height: 922
+  review: unreviewed
+  local: img/gallery/Transylvanosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/vector.svg
+  png: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/raster/512x118.png
+  page: https://www.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Tenontosaurus tilletti
+  matched: Rhabdodontomorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'F. J. Augustin, D. Bastiaans, and M. D. Dumbravă, Z. Csiki-Sava. 2022. A new ornithopod dinosaur, Transylvanosaurus
+    platycephalus gen. et sp. nov. (Dinosauria: Ornithischia), from the Upper Cretaceous of the Haţeg Basin, Romania.
+    Journal of Vertebrate Paleontology 42(2):e2133610:1-23'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Transylvanosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Transylvanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Transylvanosaurus”. English Wikipedia, revision 1343424599.
+  url: https://en.wikipedia.org/w/index.php?title=Transylvanosaurus&oldid=1343424599
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

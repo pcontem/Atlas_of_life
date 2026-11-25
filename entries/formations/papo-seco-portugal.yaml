@@ -3,18 +3,18 @@ name: Papo Seco
 rank: formation
 group: ''
 country: Portugal
-regions: [Lisboa]
+regions: [Centro, Lisboa]
 location:
   lat: 38.414
-  lng: -9.222
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lng: -9.217
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 121.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lagoonal/restricted shallow subtidal]
-lithology: [siltstone]
-pbdb_collections: ['189306']
+environment: [coastal indet., lagoonal, lagoonal/restricted shallow subtidal]
+lithology: [sandstone, siltstone]
+pbdb_collections: ['49255', '73351', '189306']
 includes: []
 summary: ''
 paleoenvironment: ''

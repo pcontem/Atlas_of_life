@@ -1,0 +1,110 @@
+name: Fylax
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Prieto-Márquez and Carrera Farias 2021
+type_species: Fylax thyrakolasus
+type_species_note: ''
+summary: A late-surviving hadrosauroid from the Maastrichtian Figuerola Formation of Spain, known from a nearly
+  complete left dentary.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fylax thyrakolasus
+  authority: Prieto-Márquez and Carrera Farias 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Figuerola
+  group: Fontllonga
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: figuerola-spain
+fossil_material:
+  holotype: A nearly complete left dentary from the Figuerola Formation, Spain.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: The name means "keeper"; no habits are described in the sources consulted.
+images:
+- kind: fossil
+  file: Fylax dentary.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Fylax_dentary.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Fylax_dentary.png
+  artist: ALBERT PRIETO-MÁRQUEZ and MIGUEL ÁNGEL CARRERA FARIAS
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021'
+  caption: Dentary of Fylax thyrakolasus
+  width: 1047
+  height: 1372
+  review: unreviewed
+  local: img/gallery/Fylax_001.webp
+- kind: life
+  file: Fylax thyrakolasus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Fylax_thyrakolasus.png/960px-Fylax_thyrakolasus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fylax_thyrakolasus.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-07'
+  caption: Life restoration of Fylax thyrakolasus
+  width: 2756
+  height: 2067
+  review: unreviewed
+  local: img/gallery/Fylax_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Prieto-Márquez, Albert; Carrera Farias, Miguel 2021. A new late-surviving early diverging Ibero-Armorican
+    duck-billed dinosaur and the role of the Late Cretaceous European Archipelago in hadrosauroid biogeography.
+    Acta Palaeontologica Polonica 66. doi:10.4202/app.00821.2020
+- kind: literature
+  text: Magyar, J.; Ősi, A.; Csiki-Sava, Z.; Budai, S.; Botfalvai, G. 2026. New early Maastrichtian 'duck-billed'
+    dinosaur from Hațeg Basin (Densuș-Ciula Formation, Romania) documents an endemic clade of non-hadrosaurid hadrosauroids
+    in the south-eastern Late Cretaceous European Archipelago. Journal of Systematic Palaeontology 24(1). doi:10.1080/14772019.2025.2607800
+- kind: literature
+  text: 'Dai, Hui; Ma, Qingyu; Xiong, Can; Lin, Yu; Zeng, Hui; Tan, Chao; Wang, Jun; Zhang, Yuguang; Xing, Hai Febr.
+    A new late-diverging non-hadrosaurid hadrosauroid (Dinosauria: Ornithopoda) from southwest China: support for
+    interchange of dinosaur faunas across East Asia during the Late Cretaceous. Cretaceous Research 166(in press).
+    doi:10.1016/j.cretres.2024.105995'
+- kind: literature
+  text: 'Longrich, N. R.; Pereda-Suberbiola, X.; Bardet, N.; Jalil, N.-E. 2024. A new small duckbilled dinosaur
+    (Hadrosauridae: Lambeosaurinae) from Morocco and dinosaur diversity in the late Maastrichtian of North Africa.
+    Scientific Reports 14(1). doi:10.1038/s41598-024-53447-9'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fylax (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fylax
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fylax”. English Wikipedia, revision 1343737352.
+  url: https://en.wikipedia.org/w/index.php?title=Fylax&oldid=1343737352
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,96 @@
+name: Lophorhothon
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Langston 1960
+type_species: Lophorhothon atopus
+type_species_note: ''
+summary: A hadrosauroid from the Late Cretaceous of Alabama, the first dinosaur genus found in the state.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Lophorhothon atopus
+  authority: Langston 1960
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: Mooreville Chalk
+  group: Selma
+  members: []
+  country: United States
+  regions: [Alabama]
+  interval: Late Santonian–Early Campanian
+  occurrences: 2
+  ma: [72.2, 85.7]
+  id: mooreville-chalk-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Langston in 1960 from the Mooreville Chalk of Alabama.
+  material: Remains possibly also from Georgia and North Carolina.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Lophorhothon atopus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/78/Lophorhothon_atopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lophorhothon_atopus.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-17'
+  caption: Life restoration of Lophorhothon atopus
+  width: 945
+  height: 601
+  review: unreviewed
+  local: img/gallery/Lophorhothon_001.webp
+- kind: fossil
+  file: Lophorhothon TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Lophorhothon_TD.png/960px-Lophorhothon_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lophorhothon_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-11-03'
+  caption: Skeletal drawing of Lophorhothon
+  width: 2600
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Lophorhothon_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/62019adc-cdd7-4b2d-993f-184a9a61d9a9/vector.svg
+  png: https://images.phylopic.org/images/62019adc-cdd7-4b2d-993f-184a9a61d9a9/raster/512x191.png
+  page: https://www.phylopic.org/images/62019adc-cdd7-4b2d-993f-184a9a61d9a9
+  attribution: Iain Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eolambia caroljonesa
+  matched: Hadrosauromorpha
+  genus_level: false
+sources:
+- kind: literature
+  text: 'Gates, Terry; Lamb, James Janu. Redescription of ''''Lophorhothon atopus'''' (Ornithopoda: Dinosauria)
+    from the Late Cretaceous of Alabama based on new material. Canadian Journal of Earth Sciences 58(9): 918–935.
+    doi:10.1139/cjes-2020-0173'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lophorhothon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lophorhothon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lophorhothon”. English Wikipedia, revision 1351858527.
+  url: https://en.wikipedia.org/w/index.php?title=Lophorhothon&oldid=1351858527
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

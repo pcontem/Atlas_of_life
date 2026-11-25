@@ -1,0 +1,73 @@
+name: Napaisaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Ji and Zhang 2022
+type_species: Napaisaurus guangxiensis
+type_species_note: ''
+summary: A basal iguanodontian from the Early Cretaceous Xinlong Formation of Guangxi, China, known from a right
+  ilium and ischium.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Napaisaurus guangxiensis
+  authority: Ji and Zhang 2022
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xinlong
+  group: ''
+  members: []
+  country: China
+  regions: [Guangxi]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: xinlong-china
+fossil_material:
+  holotype: FS-20-007-008, a right ilium and ischium found in 2020.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Styracosterna
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ji S, Zhang P 2022. First new genus and species of basal iguanodontian dinosaur (Ornithischia: Ornithopoda)
+    from southern China. Acta Geoscientica Sinica 43(1): 1–10. doi:10.3975/cagsb.2021.090701'
+- kind: literature
+  text: 'Manitkoon, S.; Deesri, U.; Warapeang, P.; Nonsrirach, T.; Chanthasit, P. 2023. Ornithischian dinosaurs
+    in Southeast Asia: a review with palaeobiogeographic implications. Fossil Record 26(1): 1–25. doi:10.3897/fr.26.e93456'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Napaisaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Napaisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Napaisaurus”. English Wikipedia, revision 1289664549.
+  url: https://en.wikipedia.org/w/index.php?title=Napaisaurus&oldid=1289664549
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

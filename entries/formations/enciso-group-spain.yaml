@@ -3,18 +3,24 @@ name: Enciso Group (beds not assigned to a formation)
 rank: formation
 group: Enciso
 country: Spain
-regions: [Castilla y Leon, Castilla y León, La Rioja, Valenciana]
+regions:
+- Aragón
+- Castilla y Leon
+- Castilla y León
+- Castilla-La Mancha
+- La Rioja
+- Valenciana
 location:
   lat: 42.201
   lng: -2.419
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 113.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: [claystone]
-pbdb_collections: ['131493']
+environment: [delta plain, terrestrial indet.]
+lithology: [sandstone, claystone, siltstone]
+pbdb_collections: ['131493', '173547', '227105']
 includes:
 - PBDB places these beds in the Enciso Group without naming the formation.
 summary: ''

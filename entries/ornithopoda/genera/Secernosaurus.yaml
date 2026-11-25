@@ -1,0 +1,90 @@
+name: Secernosaurus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Brett-Surman 1979
+type_species: Secernosaurus koerneri
+type_species_note: ''
+summary: A herbivorous hadrosaurid of the Late Cretaceous of Argentina, whose name means "severed lizard".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Secernosaurus koerneri
+  authority: Brett-Surman 1979
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lago Colhué Huapi
+  group: Chubut
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lago-colhue-huapi-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; named by Brett-Surman in 1979.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Secernosaurus koerneri.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/96/Secernosaurus_koerneri.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Secernosaurus_koerneri.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Secernosaurus koerneri
+  width: 901
+  height: 373
+  review: unreviewed
+  local: img/gallery/Secernosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brett-Surman, M. K. 1979. Phylogeny and palaeobiogeography of hadrosaurian dinosaurs. Nature 277(5697):
+    560–562. doi:10.1038/277560a0'
+- kind: literature
+  text: 'Becerra, Marcos; Paulina-Carabajal, Ariana; Cruzado-Caballero, Penélope; Taborda, Jeremías 2018. First
+    endocranial description of a South American hadrosaurid: The neuroanatomy of Secernosaurus koerneri from the
+    Late Cretaceous of Argentina. Acta Palaeontologica Polonica 63. doi:10.4202/app.00526.2018'
+- kind: literature
+  text: 'Casal, Gabriel A.; Martínez, Rubén D.; Luna, Marcelo; Ibiricu, Lucio M. 2016. Ordenamiento y caracterización
+    faunística del Cretácico Superior del Grupo Chubut, Cuenca del Golfo San Jorge, Argentina. Revista Brasileira
+    de Paleontologia 19(1): 53–70. doi:10.4072/rbp.2016.1.05'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Secernosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Secernosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Secernosaurus”. English Wikipedia, revision 1385829524.
+  url: https://en.wikipedia.org/w/index.php?title=Secernosaurus&oldid=1385829524
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,65 @@
+name: Cariocecus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Bertozzo et al. 2025
+type_species: Cariocecus bocagei
+type_species_note: ''
+summary: A basal hadrosauroid from the Barremian of Spain, named in 2025.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cariocecus bocagei
+  authority: Bertozzo et al. 2025
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Papo Seco
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Lisboa]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: papo-seco-portugal
+fossil_material:
+  holotype: Not read in the sources consulted; named by Bertozzo and colleagues in 2025.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cariocecus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cariocecus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is about the Iberian god of war, not the genus; no encyclopedia source. Details
+    to be filled from Bertozzo et al. 2025.
+  reviews: []

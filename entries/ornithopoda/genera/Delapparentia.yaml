@@ -1,0 +1,104 @@
+name: Delapparentia
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Ruiz-Omeñaca 2011
+type_species: Delapparentia turolensis
+type_species_note: ''
+summary: An iguanodont from the Early Cretaceous of Galve, Teruel, Spain, based on a skeleton found in 1958.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Delapparentia turolensis
+  authority: Ruiz-Omeñaca 2011
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Camarillas
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: camarillas-spain
+- formation: Blesa
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: blesa-spain
+fossil_material:
+  holotype: MPT/I.G, found in 1958 by José María Herrero Marzo near Galve, Teruel.
+  material: The holotype skeleton; later material is discussed in the references.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Delapparentia by durbed.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Delapparentia_by_durbed.jpg/960px-Delapparentia_by_durbed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Delapparentia_by_durbed.jpg
+  artist: Durbed
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-04-13'
+  caption: Life restoration of Delapparentia turolensis
+  width: 3456
+  height: 1440
+  review: unreviewed
+  local: img/gallery/Delapparentia_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Styracosterna
+  genus_level: false
+sources:
+- kind: literature
+  text: 'José Ignacio Ruiz-Omeñaca 2011. ''''Delapparentia turolensis'''' nov. gen et sp., un nuevo dinosaurio iguanodontoideo
+    (Ornithischia: Ornithopoda) en el Cretácico Inferior de Galve [''''Delapparentia turolensis'''' nov. gen et
+    sp., a new iguanodontoid dinosaur (Ornithischia: Ornithopoda) from the Lower Cretaceous of Galve (Spain)]. Estudios
+    Geológicos 67(1): 83–110. doi:10.3989/egeol.40276.124'
+- kind: literature
+  text: Gasca, J.M.; Moreno-Azanza, M.; Ruiz-Omeñaca, J.I.; Canudo, J.I. 2015. New material and phylogenetic position
+    of the basal iguanodont dinosaur ''Delapparentia turolensis'' from the Barremian (Early Cretaceous) of Spain.
+    Journal of Iberian Geology 41(1).
+- kind: literature
+  text: 'Verdú, F.J.; Godefroit, P.; Royo-Torres, R.; Cobos, A.; Alcalá, L. 2017. Individual variation in the postcranial
+    skeleton of the Early Cretaceous ''''Iguanodon bernissartensis'''' (Dinosauria: Ornithopoda). Cretaceous Research
+    74: 65–86. doi:10.1016/j.cretres.2017.02.006'
+- kind: literature
+  text: 'Rotatori, F. M.; Chiarenza, A. A.; Fanti, F.; Moreno-Azanza, M. 2026. The early origin of Iguanodontia:
+    new insights into the macroevolution, diversity and biogeography of the clade. Palaeontology 69(2). doi:10.1111/pala.70057'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Delapparentia (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Delapparentia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Delapparentia”. English Wikipedia, revision 1359423811.
+  url: https://en.wikipedia.org/w/index.php?title=Delapparentia&oldid=1359423811
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

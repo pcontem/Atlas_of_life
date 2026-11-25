@@ -1,0 +1,75 @@
+name: Sektensaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: true
+placement_note: Described as 'possibly an elasmarian' (English Wikipedia revision cited); placed directly in Ornithopoda.
+authority: Ibiricu et al. 2019
+type_species: Sektensaurus sanjuanboscoi
+type_species_note: ''
+summary: A small non-hadrosaurid ornithopod from the Maastrichtian Lago Colhué Huapi Formation of Patagonia, Argentina.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sektensaurus sanjuanboscoi
+  authority: Ibiricu et al. 2019
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Lago Colhué Huapi
+  group: Chubut
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Campanian–Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 83.6]
+  id: lago-colhue-huapi-argentina
+fossil_material:
+  holotype: UNPSJB-PV 960, multiple postcranial elements of one individual collected in 1993 and first described
+    as from the Bajo Barreal Formation.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: A small ornithopod; not described further in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: 'L. M. Ibiricu, G. A. Casal, and R. D. Martínez, M. Luna, J. I. Canale, B. N. Alvarez, B. González Riga.
+    2019. A new ornithopod dinosaur (Dinosauria: Ornithischia) from the Late Cretaceous of central Patagonia. Cretaceous
+    Research 98:276-291'
+- kind: literature
+  text: 'Ibiricu, L.M.; Martínez, R.D.; Lamanna, M.C.; Casal, G.A.; Luna, M.; Harris, J.D.; Lacovara, K.D. 2010.
+    A Medium-Sized Ornithopod (Dinosauria: Ornithischia) from the Upper Cretaceous Bajo Barreal Formation of Lago
+    Colhué Huapi, Southern Chubut Province, Argentina. Annals of the Carnegie Museum 79(1): 39–50. doi:10.2992/007.079.0103'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sektensaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sektensaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sektensaurus”. English Wikipedia, revision 1348524158.
+  url: https://en.wikipedia.org/w/index.php?title=Sektensaurus&oldid=1348524158
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

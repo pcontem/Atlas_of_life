@@ -1,0 +1,92 @@
+name: Tietasaura
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Bandeira et al. 2024
+type_species: Tietasaura derbyiana
+type_species_note: ''
+summary: An elasmarian ornithopod from the Early Cretaceous Marfim Formation of Brazil, known from a single incomplete
+  femur and the first ornithischian named from Brazil.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 137.05
+  last_ma: 125.77
+  early_interval: Valanginian
+  late_interval: Hauterivian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tietasaura derbyiana
+  authority: Bandeira et al. 2024
+  first_ma: 137.05
+  last_ma: 125.77
+  interval: Valanginian–Hauterivian
+  reference: original description
+formations:
+- formation: Marfim
+  group: Ilhas
+  members: []
+  country: Brazil
+  regions: [Bahia]
+  interval: Valanginian–Hauterivian
+  occurrences: 1
+  ma: [125.77, 137.05]
+  id: marfim-brazil
+fossil_material:
+  holotype: The distal end of a left femur, collected near Salvador, Bahia, in the 19th century (specimen number
+    not read).
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from one bone; no biology is described in the sources consulted.
+images:
+- kind: life
+  file: Tietasaura derbyiana.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Tietasaura_derbyiana.png/960px-Tietasaura_derbyiana.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tietasaura_derbyiana.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-05'
+  caption: Life restoration of Tietasaura derbyiana
+  width: 4500
+  height: 1531
+  review: unreviewed
+  local: img/gallery/Tietasaura_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/47ce62de-b975-4ab8-a017-b9f952d8a7ac/vector.svg
+  png: https://images.phylopic.org/images/47ce62de-b975-4ab8-a017-b9f952d8a7ac/raster/512x159.png
+  page: https://www.phylopic.org/images/47ce62de-b975-4ab8-a017-b9f952d8a7ac
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Tietasaura derbyiana
+  matched: Tietasaura
+  genus_level: true
+  w: 512
+  h: 159
+sources:
+- kind: original
+  text: K. L. N. Bandeira, B. A. Navarro, and R. V. Pêgas, N. S. Brilhante, A. S. Brum, L. G. de Souza, R. C. da
+    Silva, V. Gallo. 2024. A reassessment of the historical fossil findings from Bahia State (Northeast Brazil)
+    reveals a diversified dinosaur fauna in the Lower Cretaceous of South America. Historical Biology
+- kind: literature
+  text: 'Bandeira, Kamila L. N.; Navarro, Bruno A.; Pêgas, Rodrigo V.; Brilhante, Natan S.; Brum, Arthur S.; de
+    Souza, Lucy G.; de Silva, Rafael C.; Gallo, Valéria 2024. A reassessment of the historical fossil findings from
+    Bahia State (Northeast Brazil) reveals a diversified dinosaur fauna in the Lower Cretaceous of South America.
+    Historical Biology 37(3): 548–589. doi:10.1080/08912963.2024.2318406'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tietasaura (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tietasaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tietasaura”. English Wikipedia, revision 1290274125.
+  url: https://en.wikipedia.org/w/index.php?title=Tietasaura&oldid=1290274125
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

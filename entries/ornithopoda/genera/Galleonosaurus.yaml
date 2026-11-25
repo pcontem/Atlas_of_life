@@ -1,0 +1,110 @@
+name: Galleonosaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Herne et al. 2019
+type_species: Galleonosaurus dorisae
+type_species_note: ''
+summary: A small basal ornithopod from the Early Cretaceous Wonthaggi Formation of Victoria, Australia, named for
+  the galleon shape of its upper jaw.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 110.1
+  early_interval: Barremian
+  late_interval: Albian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Galleonosaurus dorisae
+  authority: Herne et al. 2019
+  first_ma: 125.77
+  last_ma: 110.1
+  interval: Barremian–Albian
+  reference: original description
+formations:
+- formation: '"Wonthaggi"'
+  group: Strzelecki
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: wonthaggi-australia
+- formation: Eumeralla
+  group: Otway
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: eumeralla-australia
+fossil_material:
+  holotype: NMV P229196, a complete left maxilla with partial dentition, from Flat Rocks, Wonthaggi Formation, Victoria.
+  material: Several other Flat Rocks specimens, collected from 2008 on.
+  completeness: fragmentary
+  exceptional: ''
+biology: A small herbivorous ornithopod; its biology is not described in the sources consulted.
+images:
+- kind: fossil
+  file: Galleonosaurus left maxilla2.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/55/Galleonosaurus_left_maxilla2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Galleonosaurus_left_maxilla2.jpg
+  artist: Matthew C. Herne, Jay P. Nair, Alistair R. Evans and Alan M. Tait
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: Mon, 11 Ma
+  caption: Left maxilla of Galleonosaurus dorisae
+  width: 1400
+  height: 1138
+  review: unreviewed
+  local: img/gallery/Galleonosaurus_001.webp
+- kind: fossil
+  file: Galleonosaurus specimens.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/64/Galleonosaurus_specimens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Galleonosaurus_specimens.jpg
+  artist: Matthew C. Herne, Jay P. Nair, Alistair R. Evans and Alan M. Tait
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: Mon, 11 Ma
+  caption: Specimens of Galleonosaurus dorisae
+  width: 1400
+  height: 1555
+  review: unreviewed
+  local: img/gallery/Galleonosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: M. C. Herne, J. P. Nair, and A. R. Evans, A. M. Tait. 2019. New small-bodied ornithopods (Dinosauria, Neornithischia)
+    from the Early Cretaceous Wonthaggi Formation (Strzelecki Group) of the Australian-Antarctic rift system, with
+    revision of Qantassaurus intrepidus Rich and Vickers-Rich, 1999. Journal of Paleontology 93(3):543-584
+- kind: literature
+  text: Duncan, Ruairidh J.; Evans, Alistair R.; Vickers-Rich, Patricia; Rich, Thomas H.; Poropat, Stephen. 2024.
+    Ornithopod jaws from the Lower Cretaceous Eumeralla Formation, Victoria, Australia, and their implications for
+    polar neornithischian dinosaur diversity. Journal of Vertebrate Paleontology 41(3). doi:10.1080/02724634.2021.1946551
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Galleonosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Galleonosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Galleonosaurus”. English Wikipedia, revision 1387273781.
+  url: https://en.wikipedia.org/w/index.php?title=Galleonosaurus&oldid=1387273781
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

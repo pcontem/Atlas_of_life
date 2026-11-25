@@ -1,0 +1,119 @@
+name: Cumnoria
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Seeley 1888
+type_species: Cumnoria prestwichii
+type_species_note: ''
+summary: A slender basal iguanodontian from the Late Jurassic Kimmeridge Clay of Oxfordshire, England, based on
+  a juvenile specimen.
+size:
+  length_m: [3.5, 5]
+  note: Estimated at 3.5-5 m; the holotype is a juvenile.
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cumnoria prestwichii
+  authority: (Hulke 1880)
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Kimmeridge Clay
+  group: ''
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: kimmeridge-clay-united-kingdom
+fossil_material:
+  holotype: An incomplete juvenile skeleton found near Cumnor, Oxfordshire, first named Iguanodon prestwichii by
+    Hulke in 1880 and made the type of Cumnoria by Seeley in 1888.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: A small, slender, bipedal animal.
+images:
+- kind: life
+  file: Cumnoria NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Cumnoria_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cumnoria_NT.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2011-07-19'
+  caption: Life restoration of Cumnoria prestwichii
+  width: 500
+  height: 258
+  review: unreviewed
+  local: img/gallery/Cumnoria_001.webp
+- kind: skeletal
+  file: Cumnoria Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Cumnoria_Skeletal.png/960px-Cumnoria_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cumnoria_Skeletal.png
+  artist: Definitely NOT Dilophosaurus
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-13'
+  caption: Skeletal reconstruction of Cumnoria prestwichii
+  width: 5196
+  height: 1957
+  review: unreviewed
+  local: img/gallery/Cumnoria_002.webp
+- kind: fossil
+  file: Cumnoria incomplete skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Cumnoria_incomplete_skeleton.jpg/960px-Cumnoria_incomplete_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cumnoria_incomplete_skeleton.jpg
+  artist: Ballista at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: 9 July 200
+  caption: Incomplete skeleton of Cumnoria prestwichii
+  width: 2088
+  height: 1532
+  review: unreviewed
+  local: img/gallery/Cumnoria_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Styracosterna
+  genus_level: false
+sources:
+- kind: original
+  text: Seeley, H.G. 1888. On ''Cumnoria'', an iguanodont genus founded upon the ''Iguanodon prestwichi'', Hulke.
+    Report of the British Association for the Advancement of Science 57.
+- kind: literature
+  text: 'Hulke, J.W. 1880. ''''Iguanodon prestwichii'''', a new species from the Kimmeridge Clay, distinguished
+    from ''''I. mantelli'''' of the Wealden Formation in the S.E. of England and Isle of Wight by differences in
+    the shape of the vertebral centra, by fewer than five sacral vertebrae, by the simpler character of its tooth-serrature,
+    etc., founded on numerous fossil remains lately discovered at Cumnor, near Oxford. Quarterly Journal of the
+    Geological Society of London 36(143): 433–456. doi:10.1144/GSL.JGS.1880.036.01-04.36'
+- kind: literature
+  text: 'Lydekker, R. 1889. On the remains and affinities of five genera of Mesozoic reptiles. Quarterly Journal
+    of the Geological Society 45(1–4): 41–59. doi:10.1144/GSL.JGS.1889.045.01-04.04'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cumnoria (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cumnoria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cumnoria”. English Wikipedia, revision 1370933710.
+  url: https://en.wikipedia.org/w/index.php?title=Cumnoria&oldid=1370933710
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

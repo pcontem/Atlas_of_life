@@ -1,0 +1,103 @@
+name: Tanius
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Wiman 1929
+type_species: Tanius sinensis
+type_species_note: ''
+summary: A hadrosauroid of the Late Cretaceous of China, named by Carl Wiman in 1929.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 89.8
+  last_ma: 72.2
+  early_interval: Coniacian
+  late_interval: Campanian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Tanius chingkankouensis
+  authority: Young 1958
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Tanius sinensis
+  authority: Wiman 1929
+  first_ma: 89.8
+  last_ma: 72.2
+  interval: Coniacian–Campanian
+  reference: original description
+formations:
+- formation: Jingangkou
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: jingangkou-china
+- formation: Jiangjunding
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Coniacian–Santonian
+  occurrences: 2
+  ma: [83.6, 89.8]
+  id: jiangjunding-china
+fossil_material:
+  holotype: Not read in the sources consulted; from Shandong.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Tanius.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Tanius.jpg/960px-Tanius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tanius.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010'
+  caption: Life restoration of Tanius
+  width: 2580
+  height: 2577
+  review: unreviewed
+  local: img/gallery/Tanius_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wiman, C 1929. Die Kreide-Dinosaurier aus Shantung. Palaeontologia Sinica 6(1): 1–67.'
+- kind: literature
+  text: 'Riabinin, A.N. 1939. "[in Russian] "The Upper Cretaceous vertebrate fauna of South Kazakhstan, Reptilia;
+    Part 1, the Ornithischia. Transactions of the Central Geological and Prospecting Institute 118: 1–38.'
+- kind: literature
+  text: 'Young, C.C. 1958. The dinosaurian remains of Laiyang, Shantung. Palaeontologica Sinica 16: 53–138.'
+- kind: literature
+  text: 'Zhen, S. 1976. A new species of hadrosaur from Shandong. Vertebrata PalAsiatica 14(3): 166–169.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tanius (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tanius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tanius”. English Wikipedia, revision 1303269140.
+  url: https://en.wikipedia.org/w/index.php?title=Tanius&oldid=1303269140
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

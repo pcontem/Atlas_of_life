@@ -1,0 +1,31 @@
+id: hythe-united-kingdom
+name: Hythe
+rank: formation
+group: Lower Greensand
+country: United Kingdom
+regions: [England]
+location:
+  lat: 51.19
+  lng: 0.732
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 121.4
+  last_ma: 119.57
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [marine indet.]
+lithology: ['"limestone"']
+pbdb_collections: ['52568']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Hythe (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Hythe
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

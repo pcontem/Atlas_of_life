@@ -1,0 +1,109 @@
+name: Pulaosaurus
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: A basal neornithischian; no clade below Ornithischia is defined in this volume yet, and analyses
+  (e.g. Fonseca et al. 2024) disagree on how basal neornithischians are related.
+authority: Yang et al. 2025
+type_species: Pulaosaurus qinglong
+type_species_note: ''
+summary: A neornithischian from the Callovian-Oxfordian Tiaojishan Formation of Hebei, China, named in 2025.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 165.3
+  last_ma: 154.8
+  early_interval: Callovian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pulaosaurus qinglong
+  authority: Yang et al. 2025
+  first_ma: 165.3
+  last_ma: 154.8
+  interval: Callovian–Oxfordian
+  reference: original description
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Hebei]
+  interval: Callovian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 165.3]
+  id: tiaojishan-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Yang and colleagues in 2025.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Pulaosaurus Skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pulaosaurus_Skull.png/960px-Pulaosaurus_Skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pulaosaurus_Skull.png
+  artist: Yang, King and Xu (2025)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-07-11'
+  caption: Skull of Pulaosaurus qinglong
+  width: 3200
+  height: 4523
+  review: unreviewed
+  local: img/gallery/Pulaosaurus_001.webp
+- kind: fossil
+  file: Pulaosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pulaosaurus.jpg/960px-Pulaosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pulaosaurus.jpg
+  artist: 'Yang, King and Xu (2025) - Photo credit: Hailong Zhang'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-07-11'
+  caption: Specimen of Pulaosaurus qinglong
+  width: 3243
+  height: 2034
+  review: unreviewed
+  local: img/gallery/Pulaosaurus_002.webp
+- kind: life
+  file: Pulaosaurus qinglong.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Pulaosaurus_qinglong.png/960px-Pulaosaurus_qinglong.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pulaosaurus_qinglong.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-07-11'
+  caption: Life restoration of Pulaosaurus qinglong
+  width: 4000
+  height: 1430
+  review: unreviewed
+  local: img/gallery/Pulaosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0/vector.svg
+  png: https://images.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0/raster/512x121.png
+  page: https://www.phylopic.org/images/5e82608f-3de6-4ad3-9ff7-3394b92c48d0
+  attribution: Dann Pigdon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leaellynasaura amicagraphica
+  matched: Neornithischia
+  genus_level: false
+sources:
+- kind: original
+  text: Yang, Y.; King, J. L.; Xu, X. 2025. A new neornithischian dinosaur from the Upper Jurassic Tiaojishan Formation
+    of northern China. PeerJ 13. doi:10.7717/peerj.19664
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pulaosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pulaosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pulaosaurus”. English Wikipedia, revision 1368825315.
+  url: https://en.wikipedia.org/w/index.php?title=Pulaosaurus&oldid=1368825315
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,90 @@
+name: Bonapartesaurus
+rank: genus
+parent: hadrosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Cruzado-Caballero and Powell 2017
+type_species: Bonapartesaurus rionegrensis
+type_species_note: ''
+summary: A herbivorous hadrosaurid of the latest Cretaceous of Rio Negro, Argentina, named after Jose Bonaparte.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bonapartesaurus rionegrensis
+  authority: Cruzado-Caballero and Powell 2017
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Allen
+  group: Malargüe
+  members: [Lower]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: allen-argentina
+fossil_material:
+  holotype: Excavated by Jaime Powell and colleagues in 1984 and described by him in 1987.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Bonapartesaurus rionegrensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Bonapartesaurus_rionegrensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bonapartesaurus_rionegrensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Bonapartesaurus rionegrensis
+  width: 912
+  height: 354
+  review: unreviewed
+  local: img/gallery/Bonapartesaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Cruzado-Caballero, P.; Powell, J. E. 2017. ''''Bonapartesaurus rionegrensis'''', a new hadrosaurine dinosaur
+    from South America: implications for phylogenetic and biogeographic relations with North America. Journal of
+    Vertebrate Paleontology 37(2): 1–16. doi:10.1080/02724634.2017.1289381'
+- kind: literature
+  text: 'Powell, J. E. 1987. Hallazgo De Un Dinosaurio Hadrosáurido (Ornithischia, Ornithopoda) En La Formación
+    Allen (Cretácico Superior) De Salitral Moreno, Provincia De Río Negro, Argentina. Décimo Congreso Geológico
+    Argentino Actas 3: 149–152.'
+- kind: literature
+  text: 'Coria, R. A.; González-Riga, B.; Casadío, S. 2012. Un Nuevo Hadrosáurido (Dinosauria, Ornithopoda) De La
+    Formación Allen, Provincia De La Pampa, Argentina. Ameghiniana Tomo 49(4): 552–572. doi:10.5710/AMGH.9.4.2012.487'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bonapartesaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bonapartesaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bonapartesaurus”. English Wikipedia, revision 1386087719.
+  url: https://en.wikipedia.org/w/index.php?title=Bonapartesaurus&oldid=1386087719
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

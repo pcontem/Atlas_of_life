@@ -1,0 +1,92 @@
+name: Haya
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Makovicky et al. 2011
+type_species: Haya griva
+type_species_note: ''
+summary: A basal neornithischian of the Late Cretaceous of Mongolia, named by Makovicky and colleagues in 2011.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Haya griva
+  authority: Makovicky et al. 2011
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: Javkhlant
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Santonian–Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: javkhlant-mongolia
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov Aimak]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Not read in the sources consulted; named by Makovicky and colleagues in 2011.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Haya griva NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Haya_griva_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Haya_griva_NT.jpg
+  artist: Nobu Tamura
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-11-05'
+  caption: Life restoration of Haya griva
+  width: 929
+  height: 505
+  review: unreviewed
+  local: img/gallery/Haya_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/9bbcc4fb-fda8-4455-a9ab-092f13fedffd/vector.svg
+  png: https://images.phylopic.org/images/9bbcc4fb-fda8-4455-a9ab-092f13fedffd/raster/512x273.png
+  page: https://www.phylopic.org/images/9bbcc4fb-fda8-4455-a9ab-092f13fedffd
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Haya griva
+  matched: Haya
+  genus_level: true
+  w: 512
+  h: 273
+sources:
+- kind: original
+  text: P. J. Makovicky, B. M. Kilbourne, and R. W. Sadleir, M. A. Norell. 2011. A new basal ornithopod (Dinosauria,
+    Ornithischia) from the Late Cretaceous of Mongolia. Journal of Vertebrate Paleontology 31(3):626-640
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Haya (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Haya
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page for Haya is a disambiguation page; no encyclopedia source. Fill details from Makovicky
+    et al. 2011.
+  reviews: []

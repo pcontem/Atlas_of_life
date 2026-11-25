@@ -1,0 +1,449 @@
+name: Iguanodon
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Mantell 1825
+type_species: Iguanodon bernissartensis
+type_species_note: Mantell named Iguanodon anglicum in 1825; the type species was later changed to I. bernissartensis
+  (Boulenger 1881) by revision, as the PBDB and Wikipedia use it.
+summary: A large iguanodontian named in 1825, the second dinosaur genus ever named, known from Europe and abundant
+  in the Early Cretaceous.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 154.8
+  last_ma: 66
+  early_interval: Kimmeridgian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 133
+  note: ''
+species:
+- name: Iguanodon bernissartensis
+  authority: Boulenger 1881
+  first_ma: 145.06
+  last_ma: 119.57
+  interval: Tithonian–Aptian
+  reference: original description
+- name: Iguanodon galvensis
+  authority: (Verdú et al. 2015)
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: ''
+- name: Iguanodon major
+  authority: (Owen 1842)
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: ''
+- name: Iguanodon seelyi
+  authority: (Hulke 1882)
+  first_ma: 145.06
+  last_ma: 119.57
+  interval: Tithonian–Aptian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Berriasian–Early Cretaceous
+  occurrences: 18
+  ma: [100.5, 143.1]
+  id:
+  - atherfield-clay-united-kingdom
+  - hastings-beds-united-kingdom
+  - lower-greensand-group-united-kingdom
+  - purbeck-group-united-kingdom
+  - wealden-group-united-kingdom
+- formation: Arcillas de Morella
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castellón, Valenciana]
+  interval: Late Barremian–Early Aptian
+  occurrences: 16
+  ma: [119.57, 125.77]
+  id: arcillas-de-morella-spain
+- formation: Weald Clay
+  group: Wealden
+  members: [Lower, Upper]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 14
+  ma: [121.4, 132.6]
+  id: weald-clay-united-kingdom
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian–Aptian
+  occurrences: 13
+  ma: [113.2, 139.1]
+  id: wessex-united-kingdom
+- formation: Tunbridge Wells Sand
+  group: Wealden
+  members: [Ardingly Sandstone, Grinstead Clay, Pebble Bed]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian–Early Hauterivian
+  occurrences: 9
+  ma: [125.77, 137.05]
+  id: tunbridge-wells-sand-united-kingdom
+- formation: Camarillas
+  group: ''
+  members: [Unit 5]
+  country: Spain
+  regions: [Aragon, Aragón, Teruel]
+  interval: Early Barremian
+  occurrences: 9
+  ma: [121.4, 125.77]
+  id: camarillas-spain
+- formation: Unnamed unit
+  group: Urbión
+  members: []
+  country: Spain
+  regions: [Aragón, Castilla y Leon, Castilla-La Mancha, La Rioja, Valenciana]
+  interval: Kimmeridgian–Aptian
+  occurrences: 8
+  ma: [113.2, 154.8]
+  id:
+  - enciso-group-spain
+  - unnamed-benageber-spain
+  - unnamed-cantavieja-spain
+  - unnamed-castellote-sw-spain
+  - unnamed-cinctorresmorella-road-rio-bergantes-spain
+  - unnamed-rubielos-de-mora-1-spain
+  - urbion-group-spain
+- formation: Ashdown
+  group: Wealden
+  members: [Fairlight Clays, Lee Ness Sandstone, Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian–Early Valanginian
+  occurrences: 6
+  ma: [132.6, 139.1]
+  id: ashdown-united-kingdom
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: Germany
+  regions: [Niedersachsen, Nordrhein-Westphalen]
+  interval: Early Cretaceous
+  occurrences: 4
+  ma: [100.5, 143.1]
+  id:
+  - unnamed-brilon-nehden-germany
+  - unnamed-korssen-pit-marienschacht-germany
+  - wealden-group-germany
+- formation: Wadhurst Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Valanginian
+  occurrences: 4
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+- formation: Huérteles
+  group: Oncala
+  members: []
+  country: Spain
+  regions: [Castilla y León]
+  interval: Early Berriasian
+  occurrences: 3
+  ma: [141.0, 143.1]
+  id: huerteles-spain
+- formation: Capas Rojas
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valenciana]
+  interval: Early Aptian
+  occurrences: 2
+  ma: [119.57, 121.4]
+  id: capas-rojas-spain
+- formation: Papo Seco
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Early Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: papo-seco-portugal
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Hauts-de-France, Nord-Pas-de-Calais]
+  interval: Kimmeridgian–Early Berriasian
+  occurrences: 2
+  ma: [141.0, 154.8]
+  id:
+  - unnamed-la-rochette-pointe-aux-oies-france
+  - unnamed-moulin-wibert-france
+- formation: El Collado
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: el-collado-spain
+- formation: Woburn Sand
+  group: Lower Greensand
+  members: [Potton Nodule Bed]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Aptian
+  occurrences: 2
+  ma: [119.57, 121.4]
+  id: woburn-sand-united-kingdom
+- formation: Bückeberg
+  group: ''
+  members: [Obernkirchen]
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Berriasian
+  occurrences: 2
+  ma: [137.05, 139.1]
+  id: buckeberg-germany
+- formation: Sainte-Barbe Clays
+  group: Wealden
+  members: []
+  country: Belgium
+  regions: [Hainaut]
+  interval: Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: sainte-barbe-clays-belgium
+- formation: Vectis
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: vectis-united-kingdom
+- formation: Camadas de Almargem
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Lisboa]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: camadas-de-almargem-portugal
+- formation: Wadi Milk
+  group: ''
+  members: []
+  country: Sudan
+  regions: [Ash Shamaliyah]
+  interval: Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: wadi-milk-sudan
+- formation: Calcaires à Spatangues
+  group: ''
+  members: []
+  country: France
+  regions: [Alsace]
+  interval: Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: calcaires-a-spatangues-france
+- formation: Argile Ostréenne
+  group: ''
+  members: []
+  country: France
+  regions: [Grand Est]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: argile-ostreenne-france
+- formation: Grès et Sables Piquetés
+  group: ''
+  members: []
+  country: France
+  regions: [Grand Est]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: gres-et-sables-piquetes-france
+- formation: Lulworth
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Berriasian
+  occurrences: 1
+  ma: [139.1, 141.0]
+  id: lulworth-united-kingdom
+- formation: Durlston
+  group: Purbeck
+  members: [Stair Hole]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: durlston-united-kingdom
+- formation: Sandgate
+  group: Lower Greensand
+  members: [Bargate Sandstone]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: sandgate-united-kingdom
+- formation: Pinilla de los Moros
+  group: Urbión
+  members: []
+  country: Spain
+  regions: [Castilla y León]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: pinilla-de-los-moros-spain
+- formation: Bissett Conglomerate
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Berriasian–Early Albian
+  occurrences: 1
+  ma: [110.1, 143.1]
+  id: bissett-conglomerate-united-states
+- formation: Unnamed unit
+  group: Trichinopoly
+  members: []
+  country: India
+  regions: [Tamil Nadu]
+  interval: Turonian–Santonian
+  occurrences: 1
+  ma: [83.6, 93.9]
+  id: trichinopoly-group-india
+- formation: Ladeiras
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Setúbal]
+  interval: Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: ladeiras-portugal
+- formation: El Castellar
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: el-castellar-spain
+- formation: Haoling
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: haoling-china
+fossil_material:
+  holotype: Not read in the sources consulted; the genus is defined on I. bernissartensis after the early 21st-century
+    revision.
+  material: Many specimens, among them the Bernissart skeletons of Belgium.
+  completeness: multiple
+  exceptional: ''
+biology: Many species once assigned to the genus have been moved elsewhere in revisions such as McDonald 2012.
+images:
+- kind: fossil
+  file: Bernissart Iguanodon mounted skeleton.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/41/Bernissart_Iguanodon_mounted_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bernissart_Iguanodon_mounted_skeleton.jpg
+  artist: Aimé Rutot (museum curator in 1882, geologist)
+  license: Public domain
+  license_url: ''
+  date: '1882'
+  caption: Mounted skeletons of Iguanodon bernissartensis at Bernissart
+  width: 956
+  height: 1288
+  review: unreviewed
+  local: img/gallery/Iguanodon_001.webp
+- kind: life
+  file: Iguanodon feeding.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Iguanodon_feeding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Iguanodon_feeding.jpg
+  artist: Joseph Smit
+  license: Public domain
+  license_url: ''
+  date: 1800s date
+  caption: Life restoration of Iguanodon feeding
+  width: 1492
+  height: 2196
+  review: unreviewed
+  local: img/gallery/Iguanodon_002.webp
+- kind: fossil
+  file: Iguanodon bernissartensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Iguanodon_bernissartensis.jpg/960px-Iguanodon_bernissartensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Iguanodon_bernissartensis.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-04-16'
+  caption: Specimen of Iguanodon bernissartensis
+  width: 2658
+  height: 1891
+  review: unreviewed
+  local: img/gallery/Iguanodon_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/32c6591b-e7c8-4cc4-8f7b-be70776d7299/vector.svg
+  png: https://images.phylopic.org/images/32c6591b-e7c8-4cc4-8f7b-be70776d7299/raster/512x174.png
+  page: https://www.phylopic.org/images/32c6591b-e7c8-4cc4-8f7b-be70776d7299
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Iguanodon bernissartensis
+  matched: Iguanodon
+  genus_level: true
+sources:
+- kind: original
+  text: 'Mantell, Gideon A. 1825. Notice on the Iguanodon, a newly discovered fossil reptile, from the sandstone
+    of Tilgate forest, in Sussex. Philosophical Transactions of the Royal Society 115: 179–186. doi:10.1098/rstl.1825.0010'
+- kind: literature
+  text: 'Lucas, Spencer G.; Dean, Dennis R. Dece. Book review: Gideon Mantell and the discovery of dinosaurs. PALAIOS
+    14(6): 601–602. doi:10.2307/3515316'
+- kind: literature
+  text: 'Simpson, M.I. 2015. Iguanodon is older than you think: the public and private announcements of Gideon Mantell''s
+    giant prehistoric herbivorous reptile. Deposits Magazine 44.'
+- kind: literature
+  text: 'Mantell, Gideon A. 1834. Discovery of the bones of the ''''Iguanodon'''' in a quarry of Kentish Rag (a
+    limestone belonging to the Lower Greensand Formation) near Maidstone, Kent. Edinburgh New Philosophical Journal
+    17: 200–201.'
+- kind: literature
+  text: 'McDonald, Andrew T. 2012. The status of ''''Dollodon'''' and other basal iguanodonts (Dinosauria: Ornithischia)
+    from the upper Wealden beds (Lower Cretaceous) of Europe. Cretaceous Research 33(1): 1–6. doi:10.1016/j.cretres.2011.03.002'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Iguanodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Iguanodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Iguanodon”. English Wikipedia, revision 1383267898.
+  url: https://en.wikipedia.org/w/index.php?title=Iguanodon&oldid=1383267898
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the type-species statement; the harvested note says the type species was set after revision, source not
+    read.
+  reviews: []

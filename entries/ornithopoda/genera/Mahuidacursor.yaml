@@ -1,0 +1,71 @@
+name: Mahuidacursor
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Cruzado-Caballero et al. 2019
+type_species: Mahuidacursor lipanglef
+type_species_note: ''
+summary: A basal ornithopod from the Santonian Bajo de la Carpa Formation of Neuquén, northern Patagonia, Argentina.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mahuidacursor lipanglef
+  authority: Cruzado-Caballero et al. 2019
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; named by Cruzado-Caballero et al. 2019 from the Neuquén Basin.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: P. Cruzado-Caballero, J. M. Gasca, and L. S. Filippi, I. A. Cerda, A. C. Garrido. 2019. A new ornithopod
+    dinosaur from the Santonian of northern Patagonia (Rincón de los Sauces, Argentina). Cretaceous Research 98:211-229
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mahuidacursor (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mahuidacursor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mahuidacursor”. English Wikipedia, revision 1367404752.
+  url: https://en.wikipedia.org/w/index.php?title=Mahuidacursor&oldid=1367404752
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is a stub; read the naming paper (Cruzado-Caballero et al. 2019) for holotype,
+    size and biology.
+  reviews: []

@@ -1,0 +1,93 @@
+name: Sanxiasaurus
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: A basal neornithischian; no clade below Ornithischia is defined in this volume yet, and analyses
+  (e.g. Fonseca et al. 2024) disagree on how basal neornithischians are related.
+authority: Hu Dai et al. 2019
+type_species: Sanxiasaurus modaoxiensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A neornithischian of the Middle Jurassic Xintiangou Formation of the Three Gorges area, China.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 184.2
+  last_ma: 170.9
+  early_interval: Toarcian
+  late_interval: Aalenian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sanxiasaurus modaoxiensis
+  authority: Hu Dai et al. 2019
+  first_ma: 184.2
+  last_ma: 170.9
+  interval: Toarcian–Aalenian
+  reference: original description
+formations:
+- formation: Xintiangou
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Chongqing]
+  interval: Toarcian–Aalenian
+  occurrences: 1
+  ma: [170.9, 184.2]
+  id: xintiangou-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Li and colleagues in 2019.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Sanxiasaurus reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Sanxiasaurus_reconstruction.png/960px-Sanxiasaurus_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sanxiasaurus_reconstruction.png
+  artist: Raingerr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-02'
+  caption: Life restoration of Sanxiasaurus
+  width: 2160
+  height: 880
+  review: unreviewed
+  local: img/gallery/Sanxiasaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/c327a3e6-250f-4bea-b631-d0ad4f360bc2/vector.svg
+  png: https://images.phylopic.org/images/c327a3e6-250f-4bea-b631-d0ad4f360bc2/raster/512x362.png
+  page: https://www.phylopic.org/images/c327a3e6-250f-4bea-b631-d0ad4f360bc2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Sanxiasaurus modaoxiensis
+  matched: Sanxiasaurus
+  genus_level: true
+  w: 512
+  h: 362
+sources:
+- kind: original
+  text: 'N. L. Hu Dai, C. Tan, and X. Hu, Z. Wei, Y. Lin, G. Wei, D. Li, L. Meng, B. Hao, H. You, G. Peng. 2019.
+    A neornithischian dinosaur from the Middle Jurassic Xintiangou Formation of Yunyang, Chongqing, China: the earliest
+    record in Asia. Historical Biology'
+- kind: literature
+  text: 'Li, Ning; Dai, Hui; Tan, Chao; Hu, Xufeng; Wei, Zhaoying; Lin, Yu; Wei, Guangbiao; Li, Deliang; Meng, Li;
+    Hao, Baoqiao; You, Hailu; Peng, Guangzhou 2019. A neornithischian dinosaur from the Middle Jurassic Xintiangou
+    Formation of Yunyang, Chongqing, China: the earliest record in Asia. Historical Biology 33(7): 1–14. doi:10.1080/08912963.2019.1679129'
+- kind: literature
+  text: Fonseca, A.O.; Reid, I.J.; Venner, A.; Duncan, R.J.; Garcia, M.S.; Müller, R.T. 2024. A comprehensive phylogenetic
+    analysis on early ornithischian evolution. Journal of Systematic Palaeontology 22(1). doi:10.1080/14772019.2024.2346577
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sanxiasaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sanxiasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sanxiasaurus”. English Wikipedia, revision 1314555910.
+  url: https://en.wikipedia.org/w/index.php?title=Sanxiasaurus&oldid=1314555910
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

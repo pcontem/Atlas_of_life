@@ -1,0 +1,186 @@
+name: Hypsilophodon
+rank: genus
+parent: ornithopoda
+incertae_sedis: true
+placement_note: Traditionally an early ornithopod, but recent research questions this; the Wikipedia revision used
+  calls it a neornithischian only.
+authority: Huxley 1870
+type_species: Hypsilophodon foxii
+type_species_note: ''
+summary: A small, agile bipedal neornithischian of the Early Cretaceous Isle of Wight, long taken as the model of
+  a basal ornithopod.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 154.8
+  last_ma: 119.57
+  early_interval: Kimmeridgian
+  late_interval: Aptian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Hypsilophodon foxii
+  authority: (Huxley 1870)
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+- formation: Vectis
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: vectis-united-kingdom
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wealden-group-united-kingdom
+- formation: Artoles
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: artoles-spain
+- formation: Villar del Arzobispo
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 1
+  ma: [143.1, 154.8]
+  id: villar-del-arzobispo-spain
+- formation: Lower Bauxite
+  group: ''
+  members: []
+  country: Romania
+  regions: [Judetul Bihor]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+  id: lower-bauxite-romania
+- formation: Castrillo de la Reina
+  group: Oliván
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: castrillo-de-la-reina-spain
+- formation: Unnamed unit
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Gifu]
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: tetori-group-japan
+- formation: Lourinhã
+  group: ''
+  members: [Santa Rita-Assenta]
+  country: Portugal
+  regions: [Centro]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: lourinha-portugal
+fossil_material:
+  holotype: Not read in the sources consulted; first remains found in 1849 (the Mantell-Bowerbank block) and the
+    species named in 1869.
+  material: Abundant fossils from the Isle of Wight give a good picture of the whole skeleton.
+  completeness: multiple
+  exceptional: ''
+biology: Earlier ideas that it was armoured or tree-climbing are outdated.
+images:
+- kind: fossil
+  file: Hypsilophodon foxi.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Hypsilophodon_foxi.JPG/960px-Hypsilophodon_foxi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hypsilophodon_foxi.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-02-25'
+  caption: Skeleton of Hypsilophodon foxii
+  width: 1628
+  height: 951
+  review: unreviewed
+  local: img/gallery/Hypsilophodon_001.webp
+- kind: life
+  file: Hypsilophodon.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Hypsilophodon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hypsilophodon.jpg
+  artist: User:ArthurWeasley
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2006'
+  caption: Life restoration of Hypsilophodon
+  width: 877
+  height: 369
+  review: unreviewed
+  local: img/gallery/Hypsilophodon_002.webp
+- kind: fossil
+  file: Mantell-Bowerbank block.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Mantell-Bowerbank_block.jpg/960px-Mantell-Bowerbank_block.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mantell-Bowerbank_block.jpg
+  artist: Jos. Dinkel
+  license: Public domain
+  license_url: ''
+  date: 1850s date
+  caption: Mantell-Bowerbank block with Hypsilophodon
+  width: 6049
+  height: 2513
+  review: unreviewed
+  local: img/gallery/Hypsilophodon_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/eefa929b-1859-4366-9778-5d262651a5ef/vector.svg
+  png: https://images.phylopic.org/images/eefa929b-1859-4366-9778-5d262651a5ef/raster/512x230.png
+  page: https://www.phylopic.org/images/eefa929b-1859-4366-9778-5d262651a5ef
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Hypsilophodon foxii
+  matched: Hypsilophodon
+  genus_level: true
+sources:
+- kind: literature
+  text: 'Huxley, Thomas H. 1869. On ''''Hypsilophodon'''', a new genus of Dinosauria. Geological Society of London,
+    Abstracts of Proceedings 204: 3–4.'
+- kind: literature
+  text: Galton, Peter M.; Jensen, James 1975. Hypsilophodon and Iguanodon from the Lower Cretaceous of North America.
+    Nature 257(5528). doi:10.1038/257668a0
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hypsilophodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hypsilophodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hypsilophodon”. English Wikipedia, revision 1368026040.
+  url: https://en.wikipedia.org/w/index.php?title=Hypsilophodon&oldid=1368026040
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

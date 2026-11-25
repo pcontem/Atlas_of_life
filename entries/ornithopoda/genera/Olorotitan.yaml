@@ -1,0 +1,101 @@
+name: Olorotitan
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Godefroit et al. 2003
+type_species: Olorotitan arharensis
+type_species_note: ''
+summary: A lambeosaurine duck-billed dinosaur from the latest Cretaceous of Russia, among the last non-avian dinosaurs.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Olorotitan arharensis
+  authority: Godefroit et al. 2003
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Udurchukan
+  group: Tsagayan
+  members: []
+  country: Russia
+  regions: [Amur]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: udurchukan-russia
+fossil_material:
+  holotype: Not read in the sources consulted; named by Godefroit and colleagues in 2003.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Holotype Olorotitan arharensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/30/Holotype_Olorotitan_arharensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Holotype_Olorotitan_arharensis.jpg
+  artist: Scientific paper on paleontology by PASCAL GODEFROIT, YURI L. BOLOTSKY, and IVAN Y. BOLOTSKY
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: Received A
+  caption: Holotype of Olorotitan arharensis
+  width: 863
+  height: 446
+  review: unreviewed
+  local: img/gallery/Olorotitan_001.webp
+- kind: life
+  file: Life reconstruction of Olorotitan arharensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/3/32/Life_reconstruction_of_Olorotitan_arharensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Olorotitan_arharensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Olorotitan arharensis
+  width: 1267
+  height: 563
+  review: unreviewed
+  local: img/gallery/Olorotitan_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/9161bbeb-fa38-48f6-bb20-c68c255dd9b6/vector.svg
+  png: https://images.phylopic.org/images/9161bbeb-fa38-48f6-bb20-c68c255dd9b6/raster/512x200.png
+  page: https://www.phylopic.org/images/9161bbeb-fa38-48f6-bb20-c68c255dd9b6
+  attribution: ДиБгд (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Olorotitan arharensis
+  matched: Olorotitan
+  genus_level: true
+  w: 512
+  h: 200
+sources:
+- kind: original
+  text: 'Godefroit, Pascal 2003. A remarkable hollow-crested hadrosaur from Russia: an Asian origin for lambeosaurines.
+    Comptes Rendus Palevol 2(2): 143–151. doi:10.1016/S1631-0683(03)00017-4'
+- kind: literature
+  text: 'Godefroit, P.; Bolotsky, Y. L.; Bolotsky, I. Y. 2012. Osteology and Relationships of ''''Olorotitan arharensis'''',
+    A Hollow-Crested Hadrosaurid Dinosaur from the Latest Cretaceous of Far Eastern Russia. Acta Palaeontologica
+    Polonica 57(3): 527–560. doi:10.4202/app.2011.0051'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Olorotitan (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Olorotitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Olorotitan”. English Wikipedia, revision 1352343980.
+  url: https://en.wikipedia.org/w/index.php?title=Olorotitan&oldid=1352343980
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

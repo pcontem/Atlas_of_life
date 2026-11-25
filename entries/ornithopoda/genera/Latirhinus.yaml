@@ -1,0 +1,95 @@
+name: Latirhinus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Prieto-Márquez and Serrano Brañas 2012
+type_species: Latirhinus uitstlani
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A lambeosaurine hadrosaurid of the Late Cretaceous of Mexico, named for its broad nose.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Latirhinus uitstlani
+  authority: Prieto-Márquez and Serrano Brañas 2012
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Cerro del Pueblo
+  group: Difunta
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: cerro-del-pueblo-mexico
+fossil_material:
+  holotype: Not read in the sources consulted; named by Prieto-Marquez and Serrano Branas in 2012.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Life reconstruction of Latirhinus uitstlani.png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Life_reconstruction_of_Latirhinus_uitstlani.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Latirhinus_uitstlani.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Latirhinus uitstlani
+  width: 1056
+  height: 445
+  review: unreviewed
+  local: img/gallery/Latirhinus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Prieto-Márquez, Albert; Serrano Brañas, Claudia Inés 2012. ''''Latirhinus uitstlani'''', a ''broad-nosed''
+    saurolophine hadrosaurid (Dinosauria, Ornithopoda) from the late Campanian (Cretaceous) of northern Mexico.
+    Historical Biology 24(6): 607–619. doi:10.1080/08912963.2012.671311'
+- kind: literature
+  text: Ángel Alejandro Ramírez-Velasco 2021. Review of the taxonomic affinities of Latirhinus uitstlani, an emblematic
+    Mexican hadrosaurid. Journal of South American Earth Sciences 110. doi:10.1016/j.jsames.2021.103391
+- kind: literature
+  text: 'Prieto-Márquez, A. 2010. Global phylogeny of Hadrosauridae (Dinosauria: Ornithopoda) using parsimony and
+    Bayesian methods. Zoological Journal of the Linnean Society 159(2): 435–502. doi:10.1111/j.1096-3642.2009.00617.x'
+- kind: literature
+  text: 'Jiménez-Moreno, Francisco Javier; Ramírez-Velasco, Ángel Alejandro; Ocampo-Cornejo, Patricio; Velázquez-Castro,
+    Jorge; Palomino-Merino, Rodolfo 2025. First Population Analysis in Hadrosauroid dinosaurs (Ornithopoda: Iguanodontia:
+    Hadrosauroidea). Evolving Earth(in press). doi:10.1016/j.eve.2025.100072'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Latirhinus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Latirhinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Latirhinus”. English Wikipedia, revision 1314530551.
+  url: https://en.wikipedia.org/w/index.php?title=Latirhinus&oldid=1314530551
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Its relationships were reviewed in 2021 (Alejandro Ramirez-Velasco et al.); the Wikipedia revision calls it
+    lambeosaurine, check recent analyses.
+  reviews: []

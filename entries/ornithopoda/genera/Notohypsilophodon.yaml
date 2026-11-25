@@ -1,0 +1,83 @@
+name: Notohypsilophodon
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Martínez 1998
+type_species: Notohypsilophodon comodorensis
+type_species_note: ''
+summary: A small ornithopod from the Late Cretaceous of Chubut, Argentina, once the only 'hypsilophodont' known
+  from South America.
+size:
+  length_m: [1.3, 1.3]
+  note: 1.3 m, an estimate by Gregory S. Paul (2010) given in the English Wikipedia revision cited; the naming paper
+    gave no size.
+age:
+  first_ma: 100.5
+  last_ma: 89.8
+  early_interval: Cenomanian
+  late_interval: Turonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Notohypsilophodon comodorensis
+  authority: Martínez 1998
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: original description
+formations:
+- formation: Bajo Barreal
+  group: Chubut
+  members: [Lower]
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Cenomanian–Early Turonian
+  occurrences: 1
+  ma: [89.8, 100.5]
+  id: bajo-barreal-argentina
+fossil_material:
+  holotype: UNPSJB-PV 942, a partial skeleton with neck, back, hip and tail vertebrae, a scapula, humerus, both
+    ulnae and most of a left leg.
+  material: The holotype only.
+  completeness: partial
+  exceptional: ''
+biology: Small bipedal herbivore; not described further in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: 'R. D. Martínez. 1998. Notohypsilophodon comodorensis gen. et sp. nov. un Hypsilophodontidae (Ornitischia:
+    Ornithopoda) del Cretácico Superior de Chubut, Patagonia central, Argentina [Notohypsilophodon comodorensis
+    gen. et sp. nov., a Hypsilophodontidae (Ornithischia: Ornithopoda) from the Upper Cretaceous of Chubut, central
+    Patagonia, Argentina]. Acta Geologica Leopoldensia 21(46/47):119-135'
+- kind: literature
+  text: Rozadilla, Sebastián; Agnolin, Federico L.; Novas, Fernando E.; Aranciaga Rolando, Alexis M.; Motta, Matías
+    J.; Lirio, Juan M.; Isasi, Marcelo P. 2016. A new ornithopod (Dinosauria, Ornithischia) from the Upper Cretaceous
+    of Antarctica and its palaeobiogeographical implications. Cretaceous Research 57. doi:10.1016/j.cretres.2015.09.009
+- kind: literature
+  text: 'Ibiricu, Lucio M.; Martínez, Rubén D.; Luna, Marcelo; Casal, Gabriel A. 2014. A reappraisal of ''''Notohypsilophodon
+    comodorensis'''' (Ornithischia: Ornithopoda) from the Late Cretaceous of Patagonia, Argentina. Zootaxa 3786(4):
+    401–422. doi:10.11646/zootaxa.3786.4.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Notohypsilophodon (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Notohypsilophodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Notohypsilophodon”. English Wikipedia, revision 1289657513.
+  url: https://en.wikipedia.org/w/index.php?title=Notohypsilophodon&oldid=1289657513
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Placement in Elasmaria rests on PBDB; Rozadilla et al. 2016 and Ibiricu et al. 2014 should be checked.
+  reviews: []

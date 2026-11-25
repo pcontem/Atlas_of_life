@@ -226,7 +226,7 @@ comparison charts, AI-generated images, and photos of other taxa.
   `file` = `<PMCID> <figure label>`, `artist` = the article's authors with journal and year, the
   caption starts with the figure label and short citation, and the article is also listed in the
   genus `sources` as `literature`). If Commons names no author, write `Unknown (...)` and why.
-- **I3 E** Allowed licences: CC0, public domain, CC BY, CC BY-SA (any version).
+- **I3 E** Allowed licences: CC0, public domain, CC BY, CC BY-SA (any version, including national ports such as CC BY 2.5 AR).
   Non-commercial (CC BY-NC*) is tolerated only for PhyloPic silhouettes and is an **S** issue to
   replace. No-derivatives (ND) and "all rights reserved" are never allowed.
 - **I4** `review`: `unreviewed | accepted | outdated`. **S:** every `life` image must be `accepted`.

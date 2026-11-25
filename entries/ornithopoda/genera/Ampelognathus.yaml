@@ -1,0 +1,107 @@
+name: Ampelognathus
+rank: genus
+parent: rhabdodontomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Tykoski et al. 2023
+type_species: Ampelognathus coheni
+type_species_note: ''
+summary: A small-bodied, possibly rhabdodontomorph ornithopod from the Cenomanian Lewisville Formation of Texas.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ampelognathus coheni
+  authority: Tykoski et al. 2023
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Lewisville
+  group: Woodbine
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Middle Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: lewisville-united-states
+fossil_material:
+  holotype: DMNH 2021-05-02, from sediments of the Lewisville Formation, Texas.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Probably more closely related to iguanodontians than to the older 'hypsilophodonts'; its habits are not
+  described in the sources consulted.
+images:
+- kind: fossil
+  file: Ampelognathus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ampelognathus_TD.png/960px-Ampelognathus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ampelognathus_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-10-27'
+  caption: Skeletal drawing of Ampelognathus coheni
+  width: 2800
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Ampelognathus_001.webp
+- kind: fossil
+  file: Ampelognathus holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Ampelognathus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ampelognathus_holotype.jpg
+  artist: R. S. Tykoski, D. L. Contreras & C. Noto
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-10-13'
+  caption: Holotype of Ampelognathus coheni
+  width: 1500
+  height: 1650
+  review: unreviewed
+  local: img/gallery/Ampelognathus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/vector.svg
+  png: https://images.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212/raster/512x118.png
+  page: https://www.phylopic.org/images/5f4c760e-f6f7-4b9b-9199-db12bcfbf212
+  attribution: Matt Dempsey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Tenontosaurus tilletti
+  matched: Rhabdodontomorpha
+  genus_level: false
+  w: 512
+  h: 118
+sources:
+- kind: original
+  text: R. S. Tykoski, D. L. Contreras, and C. Noto. 2023. The first small-bodied ornithopod dinosaur fromthe Lewisville
+    Formation (middle Cenomanian) of Texas. Journal of Vertebrate Paleontology 43(2):e2257238:1-10
+- kind: literature
+  text: Fonseca, André O.; Reid, Iain J.; Venner, Alexander; Duncan, Ruairidh J.; Garcia, Mauricio S.; Müller, Rodrigo
+    T. 2024. A comprehensive phylogenetic analysis on early ornithischian evolution. Journal of Systematic Palaeontology
+    22(1). doi:10.1080/14772019.2024.2346577
+- kind: literature
+  text: 'Czepiński, Łukasz; Madzia, Daniel 2025. Exploring the diversity and disparity of rhabdodontomorph ornithopods
+    from the Late Cretaceous European archipelago. Scientific Reports 15(1): 15209. doi:10.1038/s41598-025-98083-z'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ampelognathus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ampelognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ampelognathus”. English Wikipedia, revision 1369652161.
+  url: https://en.wikipedia.org/w/index.php?title=Ampelognathus&oldid=1369652161
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Placement in Rhabdodontomorpha was first suggested by Fonseca et al. 2024 and supported by Czepiński and Madzia
+    2025; the original analysis (Tykoski et al. 2023) gave a different position.
+  reviews: []

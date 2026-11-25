@@ -1,0 +1,121 @@
+name: Barilium
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Norman 2010
+type_species: Barilium dawsoni
+type_species_note: ''
+summary: An iguanodontian of the Early Cretaceous of southern England, once Iguanodon dawsoni and made a separate
+  genus in 2010.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 137.05
+  last_ma: 121.4
+  early_interval: Valanginian
+  late_interval: Barremian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Barilium dawsoni
+  authority: (Lydekker 1888)
+  first_ma: 137.05
+  last_ma: 121.4
+  interval: Valanginian–Barremian
+  reference: original description
+formations:
+- formation: Wadhurst Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 2
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+- formation: Weald Clay
+  group: Wealden
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: weald-clay-united-kingdom
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: wealden-group-united-kingdom
+- formation: Tunbridge Wells Sand
+  group: Wealden
+  members: [Grinstead Clay]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: tunbridge-wells-sand-united-kingdom
+fossil_material:
+  holotype: Not read in the sources consulted; collected by Charles Dawson in the 1880s.
+  material: Specimens from the Wadhurst Clay, Weald Clay and Tunbridge Wells Sand.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Barilium vertebra.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/33/Barilium_vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Barilium_vertebra.jpg
+  artist: Lydekker
+  license: Public domain
+  license_url: ''
+  date: '1888'
+  caption: Vertebra of Barilium dawsoni
+  width: 1476
+  height: 1968
+  review: unreviewed
+  local: img/gallery/Barilium_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/aaa46c90-37f2-4bb4-9813-321add3d1c57/vector.svg
+  png: https://images.phylopic.org/images/aaa46c90-37f2-4bb4-9813-321add3d1c57/raster/512x174.png
+  page: https://www.phylopic.org/images/aaa46c90-37f2-4bb4-9813-321add3d1c57
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Barilium dawsoni
+  matched: Barilium
+  genus_level: true
+  w: 512
+  h: 174
+sources:
+- kind: literature
+  text: 'Lydekker, Richard 1888. Note on a new Wealden iguanodont and other dinosaurs. Quarterly Journal of the
+    Geological Society of London 44(1–4): 46–61. doi:10.1144/GSL.JGS.1888.044.01-04.08'
+- kind: literature
+  text: 'Norman, David B. 2010. A taxonomy of iguanodontians (Dinosauria: Ornithopoda) from the lower Wealden Group
+    (Cretaceous: Valanginian) of southern England. Zootaxa 2489: 47–66. doi:10.11646/zootaxa.2489.1.3'
+- kind: literature
+  text: 'Paul, Gregory S. 2008. A revised taxonomy of the iguanodont dinosaur genera and species. Cretaceous Research
+    29(2): 192–216. doi:10.1016/j.cretres.2007.04.009'
+- kind: literature
+  text: 'Naish, Darren 2008. Dinosaurs of Great Britain and the role of the Geological Society of London in their
+    discovery: Ornithischia. Journal of the Geological Society, London 165(3): 613–623. doi:10.1144/0016-76492007-154'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Barilium (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Barilium
+- kind: encyclopedia
+  text: Wikipedia contributors. “Barilium”. English Wikipedia, revision 1383331633.
+  url: https://en.wikipedia.org/w/index.php?title=Barilium&oldid=1383331633
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

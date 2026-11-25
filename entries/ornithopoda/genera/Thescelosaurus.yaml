@@ -1,0 +1,217 @@
+name: Thescelosaurus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Gilmore 1913
+type_species: Thescelosaurus neglectus
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A neornithischian of the Late Cretaceous of western North America, named in 1913 by Charles Gilmore.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 93.9
+  last_ma: 66
+  early_interval: Turonian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 55
+  note: ''
+species:
+- name: Thescelosaurus assiniboiensis
+  authority: Brown et al. 2011
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Thescelosaurus edmontonensis
+  authority: Sternberg 1940
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Thescelosaurus garbanii
+  authority: Morris 1976
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Thescelosaurus neglectus
+  authority: Gilmore 1913
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: [Upper]
+  country: United States
+  regions: [Montana, North Dakota, South Dakota]
+  interval: Late Maastrichtian
+  occurrences: 29
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana, South Dakota, Wyoming]
+  interval: Lancian
+  occurrences: 10
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Frenchman
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: frenchman-canada
+- formation: Scollard
+  group: Edmonton
+  members: [Lower]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: scollard-canada
+- formation: Laramie
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: laramie-united-states
+- formation: Unnamed unit
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: edmonton-group-canada
+- formation: Fruitland
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Straight Cliffs
+  group: ''
+  members: [Smoky Hollow]
+  country: United States
+  regions: [Utah]
+  interval: Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: straight-cliffs-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Gilmore in 1913 from the Lance Formation of Wyoming.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Left Thescelosaurus holotype forelimb.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/be/Left_Thescelosaurus_holotype_forelimb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Left_Thescelosaurus_holotype_forelimb.jpg
+  artist: Published by Charles W. Gilmore
+  license: Public domain
+  license_url: ''
+  date: '1915'
+  caption: Left forelimb of the Thescelosaurus holotype
+  width: 984
+  height: 2727
+  review: unreviewed
+  local: img/gallery/Thescelosaurus_001.webp
+- kind: fossil
+  file: Anterior portion of the left dentary dentition of Thescelosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Anterior_portion_of_the_left_dentary_dentition_of_Thescelosaurus.png/960px-Anterior_portion_of_the_left_dentary_dentition_of_Thescelosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Anterior_portion_of_the_left_dentary_dentition_of_Thescelosaurus.png
+  artist: Clint A. Boyd
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014'
+  caption: Dentary of Thescelosaurus
+  width: 2666
+  height: 1603
+  review: unreviewed
+  local: img/gallery/Thescelosaurus_002.webp
+- kind: fossil
+  file: Predentary and dentary of Thescelosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Predentary_and_dentary_of_Thescelosaurus.png/960px-Predentary_and_dentary_of_Thescelosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Predentary_and_dentary_of_Thescelosaurus.png
+  artist: Clint A. Boyd
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014'
+  caption: Predentary and dentary of Thescelosaurus
+  width: 2666
+  height: 2587
+  review: unreviewed
+  local: img/gallery/Thescelosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/b7879e57-baca-4cd2-83c5-e85e8971a85f/vector.svg
+  png: https://images.phylopic.org/images/b7879e57-baca-4cd2-83c5-e85e8971a85f/raster/512x148.png
+  page: https://www.phylopic.org/images/b7879e57-baca-4cd2-83c5-e85e8971a85f
+  attribution: Caleb M. Brown
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Thescelosaurus neglectus
+  matched: Thescelosaurus
+  genus_level: true
+  w: 512
+  h: 148
+sources:
+- kind: original
+  text: 'Gilmore, C.W. 1913. A new dinosaur from the Lance Formation of Wyoming. Smithsonian Miscellaneous Collections
+    61(5): 1–5.'
+- kind: literature
+  text: 'Romer, Alfred S. 1927. The pelvic musculature of ornithischian dinosaurs. Acta Zoologica 8(2–3): 225–275.
+    doi:10.1111/j.1463-6395.1927.tb00653.x'
+- kind: literature
+  text: 'Galton, Peter M. 1970. The posture of hadrosaurian dinosaurs. Journal of Paleontology 44(3): 464–473.'
+- kind: literature
+  text: 'Gilmore, C.W. 1915. Osteology of ''''Thescelosaurus'''', an orthopodous dinosaur from the Lance Formation
+    of Wyoming. Proceedings of the United States National Museum 49(2127): 591–616. doi:10.5479/si.00963801.49-2127.591'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thescelosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thescelosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Thescelosaurus”. English Wikipedia, revision 1383136667.
+  url: https://en.wikipedia.org/w/index.php?title=Thescelosaurus&oldid=1383136667
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

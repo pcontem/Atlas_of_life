@@ -1,0 +1,103 @@
+name: Haolong
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Huang et al. 2026
+type_species: Haolong dongi
+type_species_note: ''
+summary: A hadrosauroid of the Early Cretaceous Yixian Formation of Liaoning, China, with spine-like skin structures
+  preserved on a nearly complete skeleton.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Haolong dongi
+  authority: Huang et al. 2026
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A nearly complete skeleton with preserved integument from the Yixian Formation, Liaoning.
+  material: The holotype only.
+  completeness: near-complete
+  exceptional: Cellular-level preservation of cutaneous spikes (Huang et al. 2026).
+biology: The name means "spiny dragon", after its skin spikes.
+images:
+- kind: skeletal
+  file: Haolong TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Haolong_TD.png/960px-Haolong_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Haolong_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-03-01'
+  caption: Skeletal drawing of Haolong dongi
+  width: 2600
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Haolong_001.webp
+- kind: life
+  file: Haolong dongi illustration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/96/Haolong_dongi_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Haolong_dongi_illustration.jpg
+  artist: MakairodonX
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-02-10'
+  caption: Life restoration of Haolong dongi
+  width: 1172
+  height: 682
+  review: unreviewed
+  local: img/gallery/Haolong_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Huang, J.; Wu, W.; Mao, L.; Bertozzo, F.; Dhouailly, D.; Robin, N.; Pittman, M.; Kaye, T. G.; Manucci,
+    F.; He, X.; Wang, X.; Godefroit, P. 2026. Cellular-level preservation of cutaneous spikes in an Early Cretaceous
+    iguanodontian dinosaur. Nature Ecology & Evolution: 1–8. doi:10.1038/s41559-025-02960-9'
+- kind: literature
+  text: Bertozzo, Filippo; Camilo, Bruno; Araújo, Ricardo; Manucci, Fabio; Kullberg, José Carlos; Cerio, Donald
+    G.; Carvalho, Victor Feijó de; Marrecas, Pedro; Figueiredo, Silvério D.; Godefroit, Pascal 2025. ''Cariocecus
+    bocagei'', a new basal hadrosauroid from the Lower Cretaceous of Portugal. Journal of Systematic Palaeontology
+    23(1). doi:10.1080/14772019.2025.2536347
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Haolong (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Haolong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Haolong”. English Wikipedia, revision 1373492070.
+  url: https://en.wikipedia.org/w/index.php?title=Haolong&oldid=1373492070
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is flagged as possibly not about the genus although its lead is; check the revision.
+  reviews: []

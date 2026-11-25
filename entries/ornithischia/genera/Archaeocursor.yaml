@@ -1,0 +1,101 @@
+name: Archaeocursor
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: A basal neornithischian; no clade below Ornithischia is defined in this volume yet, and analyses
+  (e.g. Fonseca et al. 2024) disagree on how basal neornithischians are related.
+authority: Yao et al. 2025
+type_species: Archaeocursor asiaticus
+type_species_note: ''
+summary: A basal ornithischian from the Early Jurassic Ziliujing Formation of China, whose name means "old runner".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 199.5
+  last_ma: 184.2
+  early_interval: Sinemurian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Archaeocursor asiaticus
+  authority: Yao et al. 2025
+  first_ma: 199.5
+  last_ma: 184.2
+  interval: Sinemurian–Pliensbachian
+  reference: original description
+formations:
+- formation: Ziliujing
+  group: ''
+  members: [Dongyuemiao]
+  country: China
+  regions: [Chongqing]
+  interval: Late Sinemurian–Pliensbachian
+  occurrences: 1
+  ma: [184.2, 199.5]
+  id: ziliujing-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Yao and colleagues in 2025.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Archaeocursor (holotype).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Archaeocursor_%28holotype%29.png/960px-Archaeocursor_%28holotype%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Archaeocursor_(holotype).png
+  artist: X. Yao, Q. Zhao, T. Ren, G. Wei & X. Xing
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-19'
+  caption: Holotype of Archaeocursor asiaticus
+  width: 1951
+  height: 1167
+  review: unreviewed
+  local: img/gallery/Archaeocursor_001.webp
+- kind: life
+  file: Archaeocursor asiaticus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Archaeocursor_asiaticus.png/960px-Archaeocursor_asiaticus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Archaeocursor_asiaticus.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-19'
+  caption: Life restoration of Archaeocursor asiaticus
+  width: 4000
+  height: 1325
+  review: unreviewed
+  local: img/gallery/Archaeocursor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/02abd35a-b06c-49a8-80ce-4787f5c608cd/vector.svg
+  png: https://images.phylopic.org/images/02abd35a-b06c-49a8-80ce-4787f5c608cd/raster/512x156.png
+  page: https://www.phylopic.org/images/02abd35a-b06c-49a8-80ce-4787f5c608cd
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Archaeocursor asiaticus
+  matched: Archaeocursor
+  genus_level: true
+  w: 512
+  h: 156
+sources:
+- kind: original
+  text: X. Yao, Q. Zhao, and T. Ren, G. Wei, X. Xu. 2025. New evidence for the earliest ornithischian dinosaurs
+    from Asia. iScience 28(1):111641
+- kind: literature
+  text: Xi, Yao; Zhao, Qi; Ren, Tingcong; Wei, Guangbiao; Xu, Xing 2025. New evidence for the earliest ornithischian
+    dinosaurs from Asia. iScience 28(1). doi:10.1016/j.isci.2024.111641
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Archaeocursor (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Archaeocursor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Archaeocursor”. English Wikipedia, revision 1379827772.
+  url: https://en.wikipedia.org/w/index.php?title=Archaeocursor&oldid=1379827772
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

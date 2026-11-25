@@ -1,0 +1,69 @@
+name: Plesiohadros
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Tsogtbaatar et al. 2014
+type_species: Plesiohadros djadokhtaensis
+type_species_note: ''
+summary: A hadrosauroid whose name means "near to hadrosaurids", known from a partial skeleton with skull from the
+  Campanian Alagteeg Formation of Mongolia.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Plesiohadros djadokhtaensis
+  authority: Tsogtbaatar et al. 2014
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: Alagteeg
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Santonian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: alagteeg-mongolia
+fossil_material:
+  holotype: A partial skeleton including the skull from the Alag Teg locality, southern Mongolia.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Tsogtbaatar, K.; Weishampel, D.; Evans, D. C.; Watabe, M. 2014. Hadrosaurs. Indiana University Press.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plesiohadros (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plesiohadros
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plesiohadros”. English Wikipedia, revision 1289051091.
+  url: https://en.wikipedia.org/w/index.php?title=Plesiohadros&oldid=1289051091
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

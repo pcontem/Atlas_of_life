@@ -1,0 +1,115 @@
+name: Fona
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Avrahami et al. 2024
+type_species: Fona herzogae
+type_species_note: ''
+summary: A semi-fossorial thescelosaurine of the Mussentuchit Member of the Cedar Mountain Formation of Utah, whose
+  name means "the origin".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Fona herzogae
+  authority: Avrahami et al. 2024
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Mussentuchit]
+  country: United States
+  regions: [Utah]
+  interval: Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 100.5]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Avrahami and colleagues in 2024.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Fona holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fona_holotype.jpg/960px-Fona_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fona_holotype.jpg
+  artist: Skye McDavid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-23'
+  caption: Holotype of Fona herzogae
+  width: 3525
+  height: 1563
+  review: unreviewed
+  local: img/gallery/Fona_001.webp
+- kind: fossil
+  file: Fona herzogae (skull details).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Fona_herzogae_%28skull_details%29.png/960px-Fona_herzogae_%28skull_details%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fona_herzogae_(skull_details).png
+  artist: H. M. Avrahami & L. E. Zanno
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2026-08-12'
+  caption: Skull details of Fona herzogae
+  width: 3251
+  height: 3917
+  review: unreviewed
+  local: img/gallery/Fona_002.webp
+- kind: life
+  file: Fona herzogae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Fona_herzogae.png/960px-Fona_herzogae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fona_herzogae.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-07-10'
+  caption: Life restoration of Fona herzogae
+  width: 2192
+  height: 720
+  review: unreviewed
+  local: img/gallery/Fona_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/ac1fdb0a-df44-4f5f-b568-e4a57be73a0e/vector.svg
+  png: https://images.phylopic.org/images/ac1fdb0a-df44-4f5f-b568-e4a57be73a0e/raster/512x119.png
+  page: https://www.phylopic.org/images/ac1fdb0a-df44-4f5f-b568-e4a57be73a0e
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Fona herzogae
+  matched: Fona
+  genus_level: true
+  w: 512
+  h: 119
+sources:
+- kind: original
+  text: 'Avrahami, Haviv M.; Makovicky, Peter J.; Tucker, Ryan T.; Zanno, Lindsay E. 2024. A new semi-fossorial
+    thescelosaurine dinosaur from the Cenomanian-age Mussentuchit Member of the Cedar Mountain Formation, Utah.
+    The Anatomical Record 307(12): 3717–3781. doi:10.1002/ar.25505'
+- kind: literature
+  text: Avrahami, Haviv M.; Makovicky, Peter J.; Zanno, Lindsay E. 2023. An exceptional assemblage of new orodromine
+    dinosaurs from the poorly-characterized mid-Cretaceous of North America. doi:10.1002/ar.25219
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fona (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fona
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fona”. English Wikipedia, revision 1377312292.
+  url: https://en.wikipedia.org/w/index.php?title=Fona&oldid=1377312292
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

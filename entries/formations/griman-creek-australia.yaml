@@ -5,16 +5,17 @@ group: Rolling Downs
 country: Australia
 regions: [New South Wales]
 location:
-  lat: -29.456
-  lng: 147.764
-  basis: median of 8 PBDB collections that yielded the atlas genera
+  lat: -29.461
+  lng: 147.763
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 100.5
   last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: ['"floodplain"', estuary/bay, terrestrial indet.]
+environment: [estuary/bay, '"floodplain"', terrestrial indet.]
 lithology: [claystone, not reported, '"mixed carbonate-siliciclastic"']
-pbdb_collections: ['38543', '68558', '99240', '133649', '189036', '204927', '216629', '216630']
+pbdb_collections: ['38543', '68558', '99240', '133649', '189036', '204925', '204927', '204929', '206228', '216629',
+  '216630']
 includes: []
 summary: ''
 paleoenvironment: ''

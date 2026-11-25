@@ -1,0 +1,144 @@
+name: Bactrosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Gilmore 1933
+type_species: Bactrosaurus johnsoni
+type_species_note: ''
+summary: A herbivorous hadrosauroid of the Late Cretaceous of Asia, known from the Iren Dabasu Formation of Inner
+  Mongolia.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 93.9
+  last_ma: 72.2
+  early_interval: Turonian
+  late_interval: Campanian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Bactrosaurus johnsoni
+  authority: Gilmore 1933
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Iren Dabasu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: iren-dabasu-china
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Turonian–Late Santonian
+  occurrences: 2
+  ma: [83.6, 93.9]
+  id: baynshire-mongolia
+- formation: Dabrazhin
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Turkistan]
+  interval: Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: dabrazhin-kazakhstan
+- formation: Zouyun
+  group: ''
+  members: []
+  country: China
+  regions: [Shanxi]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: zouyun-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Gilmore in 1933 from the Iren Dabasu fauna.
+  material: Many specimens, including growth stages studied by Prieto-Marquez and Norell in 2011.
+  completeness: multiple
+  exceptional: ''
+biology: The name means "club lizard", from its club-shaped neural spines (baktron = club).
+images:
+- kind: skeletal
+  file: Bactrosaurus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Bactrosaurus_skeleton.jpg/960px-Bactrosaurus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bactrosaurus_skeleton.jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2015-07-14'
+  caption: Skeleton of Bactrosaurus johnsoni
+  width: 5184
+  height: 3456
+  review: unreviewed
+  local: img/gallery/Bactrosaurus_001.webp
+- kind: fossil
+  file: Bactrosaurus johnsoni 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Bactrosaurus_johnsoni_1.jpg/960px-Bactrosaurus_johnsoni_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bactrosaurus_johnsoni_1.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-11'
+  caption: Specimen of Bactrosaurus johnsoni
+  width: 1984
+  height: 1178
+  review: unreviewed
+  local: img/gallery/Bactrosaurus_002.webp
+- kind: life
+  file: Bactrosaurus LM.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Bactrosaurus_LM.png/960px-Bactrosaurus_LM.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bactrosaurus_LM.png
+  artist: Levi Martinez-Reza
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-02-18'
+  caption: Life restoration of Bactrosaurus
+  width: 6065
+  height: 2401
+  review: unreviewed
+  local: img/gallery/Bactrosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/770003e8-9c6c-4e93-a868-961c5bd9dcbf/vector.svg
+  png: https://images.phylopic.org/images/770003e8-9c6c-4e93-a868-961c5bd9dcbf/raster/512x335.png
+  page: https://www.phylopic.org/images/770003e8-9c6c-4e93-a868-961c5bd9dcbf
+  attribution: Olof Moleman
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Bactrosaurus johnsoni
+  matched: Bactrosaurus
+  genus_level: true
+  w: 512
+  h: 335
+sources:
+- kind: original
+  text: 'Gilmore, C. W. 1933. On the dinosaurian fauna of the Iren Dabasu Formation. Bulletin of the American Museum
+    of Natural History 67(2): 23–78.'
+- kind: literature
+  text: 'Li, Z. 2001. Distribution, burying and classification of dinosaur fossils in Upper Cretaceous strata at
+    Meipu Town, Yunxian County of Hubei Province. Hubei Geology & Mineral Resources 15(4): 25–31.'
+- kind: literature
+  text: 'Prieto-Marquez, A. 2011. Cranial and appendicular ontogeny of ''''Bactrosaurus johnsoni'''', a hadrosauroid
+    dinosaur from the Late Cretaceous of northern China. Palaeontology 54(4): 773−792. doi:10.1111/j.1475-4983.2011.01053.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bactrosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bactrosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bactrosaurus”. English Wikipedia, revision 1365487743.
+  url: https://en.wikipedia.org/w/index.php?title=Bactrosaurus&oldid=1365487743
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

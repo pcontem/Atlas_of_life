@@ -1,0 +1,128 @@
+name: Atlascopcosaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Rich and Vickers-Rich 1989
+type_species: Atlascopcosaurus loadsi
+type_species_note: ''
+summary: A herbivorous basal ornithopod of about 2 to 3 m from the Early Cretaceous Eumeralla Formation of Victoria,
+  Australia.
+size:
+  length_m: [2, 3]
+  mass_kg: [125, 125]
+  note: About 2 to 3 m long and roughly 125 kg, extrapolated from the material (English Wikipedia revision cited).
+age:
+  first_ma: 125.77
+  last_ma: 110.1
+  early_interval: Barremian
+  late_interval: Albian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Atlascopcosaurus loadsi
+  authority: Rich and Vickers-Rich 1989
+  first_ma: 125.77
+  last_ma: 110.1
+  interval: Barremian–Albian
+  reference: original description
+formations:
+- formation: Eumeralla
+  group: Otway
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Early Albian
+  occurrences: 6
+  ma: [110.1, 113.2]
+  id: eumeralla-australia
+- formation: '"Wonthaggi"'
+  group: Strzelecki
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wonthaggi-australia
+fossil_material:
+  holotype: NMV P166409, a partial maxilla with teeth, found in 1984 at Dinosaur Cove East, Victoria.
+  material: Referred teeth, another maxilla and dentaries.
+  completeness: fragmentary
+  exceptional: ''
+biology: A herbivore with leaf-shaped cheek teeth; the sources consulted give little more.
+images:
+- kind: life
+  file: Atlascopcosaurus LM.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Atlascopcosaurus_LM.jpg/960px-Atlascopcosaurus_LM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Atlascopcosaurus_LM.jpg
+  artist: Levi bernardo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020-02-06'
+  caption: Life restoration of Atlascopcosaurus loadsi
+  width: 6372
+  height: 2298
+  review: unreviewed
+  local: img/gallery/Atlascopcosaurus_001.webp
+- kind: fossil
+  file: Atlascopcosaurus VOM4.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/89/Atlascopcosaurus_VOM4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Atlascopcosaurus_VOM4.jpg
+  artist: Matthew C. Herne, Jay P. Nair, Alistair R. Evans and Alan M. Tait
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-03-11'
+  caption: Maxillae of Atlascopcosaurus loadsi
+  width: 1400
+  height: 695
+  review: unreviewed
+  local: img/gallery/Atlascopcosaurus_002.webp
+- kind: fossil
+  file: Atlascopcosaurus maxillae.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/eb/Atlascopcosaurus_maxillae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Atlascopcosaurus_maxillae.png
+  artist: Matthew C. Herne, Jay P. Nair, Alistair R. Evans and Alan M. Tait
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-03-11'
+  caption: Upper jaw material of Atlascopcosaurus loadsi
+  width: 520
+  height: 691
+  review: unreviewed
+  local: img/gallery/Atlascopcosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: T. H. Rich and P. Vickers-Rich. 1989. Polar dinosaurs and biotas of the Early Cretaceous of southeastern
+    Australia. National Geographic Research 5(1):15–53
+- kind: literature
+  text: 'Agnolin, Federico L.; Ezcurra, Martín D.; Pais, Diego F.; Salisbury, Steven W. 2010. A reappraisal of the
+    Cretaceous non-avian dinosaur faunas from Australia and New Zealand: evidence for their Gondwanan affinities.
+    Journal of Systematic Palaeontology 8(2): 257–300. doi:10.1080/14772011003594870'
+- kind: literature
+  text: Boyd, Clint A. 2015. The systematic relationships and biogeographic history of ornithischian dinosaurs.
+    PeerJ 3. doi:10.7717/peerj.1523
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Atlascopcosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Atlascopcosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Atlascopcosaurus”. English Wikipedia, revision 1314080198.
+  url: https://en.wikipedia.org/w/index.php?title=Atlascopcosaurus&oldid=1314080198
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Originally assigned to the Hypsilophodontidae, a paraphyletic grade, so its position within Ornithopoda follows
+    recent analyses (Boyd 2015; Fonseca et al. 2024) and should be checked.
+  reviews: []

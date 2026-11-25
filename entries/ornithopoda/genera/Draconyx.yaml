@@ -1,0 +1,97 @@
+name: Draconyx
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Mateus and Antunes 2001
+type_species: Draconyx loureiroi
+type_species_note: ''
+summary: A camptosaur-like ornithopod from the Late Jurassic Lourinhã Formation of Portugal, known from partial
+  remains of an adult.
+size:
+  length_m: [3.5, 3.5]
+  mass_kg: [150, 150]
+  note: Estimate by Paul in 2010 of 3.5 m and 150 kg.
+age:
+  first_ma: 149.2
+  last_ma: 145.06
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Draconyx loureiroi
+  authority: Mateus and Antunes 2001
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Lourinhã
+  group: ''
+  members: [Santa Rita]
+  country: Portugal
+  regions: [Lisboa]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: lourinha-portugal
+fossil_material:
+  holotype: Partial remains from Vale de Frades, Lourinhã Formation, found in 1991 by Carlos Anunciação.
+  material: A left femur (ML 434) from Praia do Caniçal has been referred to the genus.
+  completeness: fragmentary
+  exceptional: ''
+biology: Histology of the holotype shows it was skeletally mature at 27 to 31 years old.
+images:
+- kind: life
+  file: Draconyx.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Draconyx.png/960px-Draconyx.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Draconyx.png
+  artist: Miracusaurs
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-01'
+  caption: Life restoration of Draconyx loureiroi
+  width: 3914
+  height: 1272
+  review: unreviewed
+  local: img/gallery/Draconyx_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/713df818-d3e1-4904-89aa-371d70044da8/vector.svg
+  png: https://images.phylopic.org/images/713df818-d3e1-4904-89aa-371d70044da8/raster/512x146.png
+  page: https://www.phylopic.org/images/713df818-d3e1-4904-89aa-371d70044da8
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Draconyx loureiroi
+  matched: Draconyx
+  genus_level: true
+  w: 512
+  h: 146
+sources:
+- kind: original
+  text: 'Mateus, Octávio; Telles Antunes, Miguel 2001. ''''Draconyx loureiroi'''', a new Camptosauridae (Dinosauria,
+    Ornithopoda) from the Late Jurassic of Lourinhã, Portugal. Annales de Paléontologie 87(1): 61–73. doi:10.1016/S0753-3969(01)88003-4'
+- kind: literature
+  text: 'Waskow, Katja; Mateus, Octavio 2017. Dorsal rib histology of dinosaurs and a crocodylomorph from western
+    Portugal: Skeletochronological implications on age determination and life history traits. Comptes Rendus Palevol
+    16(4): 425–439. doi:10.1016/j.crpv.2017.01.003'
+- kind: literature
+  text: 'Rotatori, Filippo Maria; Moreno-Azanza, Miguel; Mateus, Octávio 24 F. Reappraisal and new material of the
+    holotype of ''''Draconyx loureiroi'''' (Ornithischia: Iguanodontia) provide insights on the ''''tempo'''' and
+    ''''modo'''' of evolution of thumb-spiked dinosaurs. Zoological Journal of the Linnean Society 195(1): 125–156.
+    doi:10.1093/zoolinnean/zlab113'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Draconyx (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Draconyx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Draconyx”. English Wikipedia, revision 1384264370.
+  url: https://en.wikipedia.org/w/index.php?title=Draconyx&oldid=1384264370
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Placed in Dryomorpha by PBDB; Rotatori et al. 2024 revisited the holotype; check whether the parent should be
+    a deeper clade.
+  reviews: []

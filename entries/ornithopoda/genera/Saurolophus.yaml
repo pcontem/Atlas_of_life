@@ -1,0 +1,154 @@
+name: Saurolophus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Brown 1912
+type_species: Saurolophus osborni
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A large crested hadrosaurid of the Late Cretaceous of North America and Asia, whose name means "lizard
+  crest".
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 38
+  note: ''
+species:
+- name: Saurolophus angustirostris
+  authority: Rozhdestvensky 1952
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Saurolophus osborni
+  authority: Brown 1912
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: [Upper]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 23
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Tolman]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 10
+  ma: [66.0, 83.6]
+  id: horseshoe-canyon-canada
+- formation: Unnamed unit
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: edmonton-group-canada
+- formation: Almond
+  group: Mesaverde
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: almond-united-states
+- formation: Kirtland
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: Not read in the sources consulted; named by Brown in 1912 from the Horseshoe Canyon Formation of Alberta.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Crane de Saurolophus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Crane_de_Saurolophus.jpg/960px-Crane_de_Saurolophus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Crane_de_Saurolophus.jpg
+  artist: Didier Descouens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: Taken on 1
+  caption: Skull of Saurolophus
+  width: 6500
+  height: 4500
+  review: unreviewed
+  local: img/gallery/Saurolophus_001.webp
+- kind: skeletal
+  file: Saurolophus MPC-D 100 764 disarticulated bones 2.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Saurolophus_MPC-D_100_764_disarticulated_bones_2.png/960px-Saurolophus_MPC-D_100_764_disarticulated_bones_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saurolophus_MPC-D_100_764_disarticulated_bones_2.png
+  artist: Leonard Dewaele, Khishigjav Tsogtbaatar, Rinchen Barsbold, Géraldine Garcia, Koen Stein, François Escuillié
+    & Pascal Godefroit
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-10-14'
+  caption: Disarticulated skeleton of Saurolophus (MPC-D 100/764)
+  width: 1738
+  height: 2400
+  review: unreviewed
+  local: img/gallery/Saurolophus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Brown, Barnum 1912. A crested dinosaur from the Edmonton Cretaceous. Bulletin of the American Museum of
+    Natural History 31(14): 131–136.'
+- kind: literature
+  text: 'Brown, Barnum 1912. A crested dinosaur from the Edmonton Cretaceous. Bulletin of the American Museum of
+    Natural History 31(14): 131–136.'
+- kind: literature
+  text: 'Brown, Barnum 1913. The skeleton of ''''Saurolophus'''', a crested duck-billed dinosaur from the Edmonton
+    Cretaceous. Bulletin of the American Museum of Natural History 32(19): 387–393.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saurolophus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saurolophus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saurolophus”. English Wikipedia, revision 1378428788.
+  url: https://en.wikipedia.org/w/index.php?title=Saurolophus&oldid=1378428788
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

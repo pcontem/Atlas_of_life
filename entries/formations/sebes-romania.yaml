@@ -3,18 +3,31 @@ name: Sebeş
 rank: formation
 group: ''
 country: Romania
-regions: [Alba]
+regions: [Alba, Sebeş]
 location:
-  lat: 46.001
-  lng: 23.562
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  lat: 46.017
+  lng: 23.561
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 72.2
+  first_ma: 83.6
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [coarse channel fill, '"floodplain"', mire/swamp, fluvial indet., dry floodplain]
-lithology: [sandstone, mudstone, gravel, claystone]
-pbdb_collections: ['80858', '85496', '93729', '97813', '115000', '115001', '153475']
+environment: ['"floodplain"', coarse channel fill, dry floodplain, mire/swamp, fluvial indet.]
+lithology: [sandstone, not reported, claystone, mudstone]
+pbdb_collections:
+- '80858'
+- '85496'
+- '85497'
+- '93729'
+- '97813'
+- '115000'
+- '115001'
+- '153475'
+- '156124'
+- '156125'
+- '219188'
+- '219190'
+- '219191'
 includes: []
 summary: ''
 paleoenvironment: ''

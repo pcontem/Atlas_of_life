@@ -1,0 +1,85 @@
+name: Nanningosaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Mo et al. 2007
+type_species: Nanningosaurus dashiensis
+type_species_note: ''
+summary: A hadrosauromorph of the late Late Cretaceous of the Nalong Basin, Guangxi, China.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nanningosaurus dashiensis
+  authority: Mo et al. 2007
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Guangxi]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: unnamed-dashi-site-nanning-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Mo Jinyou and colleagues in 2007.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Nanningosaurus dashiensis BMNHC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Nanningosaurus_dashiensis_BMNHC.jpg/960px-Nanningosaurus_dashiensis_BMNHC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nanningosaurus_dashiensis_BMNHC.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-01-11'
+  caption: Skeletal elements of Nanningosaurus dashiensis
+  width: 4528
+  height: 3016
+  review: unreviewed
+  local: img/gallery/Nanningosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: J. Mo, Z. Zhao, and W. Wang, X. Xu. 2007. The first hadrosaurid dinosaur from southern China. Acta Geologica
+    Sinica 81(4):550-554
+- kind: literature
+  text: 'Mo J. 2007. The first hadrosaurid dinosaur from southern China. Acta Geologica Sinica (English Edition)
+    81(4): 550–554. doi:10.1111/j.1755-6724.2007.tb00978.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nanningosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nanningosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nanningosaurus”. English Wikipedia, revision 1369348864.
+  url: https://en.wikipedia.org/w/index.php?title=Nanningosaurus&oldid=1369348864
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

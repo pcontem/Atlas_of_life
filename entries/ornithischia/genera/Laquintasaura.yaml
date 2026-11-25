@@ -1,0 +1,104 @@
+name: Laquintasaura
+rank: genus
+parent: ornithischia
+incertae_sedis: true
+placement_note: Conflicting hypotheses make it either an early-diverging ornithischian or a member of Thyreophora
+  (English Wikipedia revision cited); it is placed directly in Ornithischia.
+authority: Barrett et al. 2014
+type_species: Laquintasaura venezuelae
+type_species_note: ''
+summary: A lightly built Early Jurassic ornithischian from the La Quinta Formation of Venezuela, known from a single
+  bonebed.
+size:
+  length_m: [1, 1]
+  note: About 1 m, estimated from the largest femur (90 mm) by comparison with Hypsilophodon, Heterodontosaurus
+    and Hexinlusaurus.
+age:
+  first_ma: 201.4
+  last_ma: 199.5
+  early_interval: Hettangian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Laquintasaura venezuelae
+  authority: Barrett et al. 2014
+  first_ma: 201.4
+  last_ma: 199.5
+  interval: Hettangian
+  reference: original description
+formations:
+- formation: La Quinta
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Táchira]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: la-quinta-venezuela
+fossil_material:
+  holotype: Not given in the sources used; the material comes from one bonebed in the La Quinta Formation, near
+    La Grita and Seboruco, Táchira, Venezuela.
+  material: Hundreds of fossil elements representing at least four individuals, all from a single bonebed.
+  completeness: multiple
+  exceptional: ''
+biology: Triangular teeth with striations and sharp denticles may have supported an omnivorous diet, and the animals
+  probably lived in groups on a seasonal alluvial plain where the theropod Tachiraptor also lived.
+images:
+- kind: skeletal
+  file: Laquintasaura (skeletal reconstruction).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Laquintasaura_%28skeletal_reconstruction%29.png/960px-Laquintasaura_%28skeletal_reconstruction%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Laquintasaura_(skeletal_reconstruction).png
+  artist: D. B. Norman, M. G. Baron, M. S. Garcia & R. T. Müller
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-28'
+  caption: Skeletal reconstruction of Laquintasaura venezuelae
+  width: 1789
+  height: 607
+  review: unreviewed
+  local: img/gallery/Laquintasaura_001.webp
+- kind: life
+  file: Laquintasaura fixed by Tom Parker.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Laquintasaura_fixed_by_Tom_Parker.png/960px-Laquintasaura_fixed_by_Tom_Parker.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Laquintasaura_fixed_by_Tom_Parker.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-08-09'
+  caption: Life restoration of Laquintasaura venezuelae
+  width: 1694
+  height: 622
+  review: unreviewed
+  local: img/gallery/Laquintasaura_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/be776840-35e4-45a8-87be-b0a39d22bd56/vector.svg
+  png: https://images.phylopic.org/images/be776840-35e4-45a8-87be-b0a39d22bd56/raster/512x432.png
+  page: https://www.phylopic.org/images/be776840-35e4-45a8-87be-b0a39d22bd56
+  attribution: Kamil S. Jaron
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Urophora cardui
+  matched: Thyreophora
+  genus_level: false
+  w: 512
+  h: 432
+sources:
+- kind: original
+  text: P. M. Barrett, R. J. Butler, and R. Mundil, T. M. Scheyer, R. B. Irmis, M. R. Sánchez-Villagra. 2014. A
+    palaeoequatorial ornithischian and new constraints on early dinosaur diversification. Proceedings of the Royal
+    Society B 281:20141147:1-6
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Laquintasaura (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Laquintasaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Laquintasaura”. English Wikipedia, revision 1337677097.
+  url: https://en.wikipedia.org/w/index.php?title=Laquintasaura&oldid=1337677097
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number not read; check Barrett et al. 2014 (Proc. R. Soc. B).
+  reviews: []

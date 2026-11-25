@@ -1,0 +1,96 @@
+name: Koshisaurus
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Shibata and Azuma 2015
+type_species: Koshisaurus katsuyama
+type_species_note: ''
+summary: A basal hadrosauroid from the Early Cretaceous Kitadani Formation of Japan, one of several hadrosauroids
+  on the eastern edge of Asia.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Koshisaurus katsuyama
+  authority: Shibata and Azuma 2015
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Kitadani
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Fukui]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: kitadani-japan
+fossil_material:
+  holotype: Not read in the sources consulted; named by Shibata and Azuma in 2015.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Koshisaurus NT small.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1d/Koshisaurus_NT_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Koshisaurus_NT_small.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-08-18'
+  caption: Life restoration of Koshisaurus katsuyama
+  width: 570
+  height: 304
+  review: unreviewed
+  local: img/gallery/Koshisaurus_001.webp
+- kind: fossil
+  file: Koshisaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Koshisaurus_TD.png/960px-Koshisaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Koshisaurus_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-09-07'
+  caption: Skeletal drawing of Koshisaurus katsuyama
+  width: 2600
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Koshisaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Shibaba, Masateru; Azuma, Yoichi 2015. New basal hadrosauroid (Dinosauria: Ornithopoda) from the Lower
+    Cretaceous Kitadani Formation, Fukui, central Japan. Zootaxa 3914(4): 421–440. doi:10.11646/zootaxa.3914.4.3'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Koshisaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Koshisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Koshisaurus”. English Wikipedia, revision 1300060221.
+  url: https://en.wikipedia.org/w/index.php?title=Koshisaurus&oldid=1300060221
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

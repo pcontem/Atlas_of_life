@@ -1,0 +1,118 @@
+name: Gonkoken
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Alarcón-Muñoz et al. 2023
+type_species: Gonkoken nanoi
+type_species_note: ''
+summary: A hadrosauroid of the Late Cretaceous Dorotea Formation of Chilean Patagonia, a relict duck-billed dinosaur
+  known from disarticulated bones.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gonkoken nanoi
+  authority: Alarcón-Muñoz et al. 2023
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Dorotea
+  group: ''
+  members: []
+  country: Chile
+  regions: [Última Esperanza]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: dorotea-chile
+fossil_material:
+  holotype: Disarticulated remains from the Dorotea Formation, Magallanes, Chile.
+  material: The holotype and associated bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: Reported as a relict form that survived into the latest Cretaceous of Patagonia (Alarcon-Munoz et al. 2023).
+images:
+- kind: life
+  file: Gonkoken nanoi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Gonkoken_nanoi.png/960px-Gonkoken_nanoi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gonkoken_nanoi.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-06-17'
+  caption: Life restoration of Gonkoken nanoi
+  width: 2259
+  height: 834
+  review: unreviewed
+  local: img/gallery/Gonkoken_001.webp
+- kind: skeletal
+  file: Gonkoken.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Gonkoken.jpg/960px-Gonkoken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gonkoken.jpg
+  artist: Jhonatan Alarcón-Muñoz* https://orcid.org/0000-0001-7275-087X Alexander O. Vargas* https://orcid.org/0000-0002-2009-7116
+    Hans P. Püschel https://orcid.org/0000-0002-6130-9322 Sergio Soto-Acuña https://orcid.org/0000-0002-9311-9355
+    Leslie Manríquez https://orcid.org/0000-0002-0797-0355 Marcelo Leppe https://orcid.org/0000-0002-1545-8167 Jonatan
+    Kaluza https://orcid.org/0000-0002-5945-0044 Verónica Milla https://orcid.org/0000-0002-9849-0428 Carolina S.
+    Gutstein https://orcid.org/0000-0002-0823-24
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023'
+  caption: Skeletal reconstruction of Gonkoken nanoi
+  width: 4320
+  height: 3962
+  review: unreviewed
+  local: img/gallery/Gonkoken_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: Alarcón-Muñoz, Jhonatan; Vargas, Alexander O.; Püschel, Hans P.; Soto-Acuña, Sergio; Manríquez, Leslie;
+    Leppe, Marcelo; Kaluza, Jonatan; Milla, Verónica; Gutstein, Carolina S.; Palma-Liberona, José; Stinnesbeck,
+    Wolfgang; Frey, Eberhard; Pino, Juan Pablo; Bajor, Dániel; Núñez, Elaine; Ortiz, Héctor; Rubilar-Rogers, David;
+    Cruzado-Caballero, Penélope 2023. Relict duck-billed dinosaurs survived into the last age of the dinosaurs in
+    subantarctic Chile. Science Advances 9(24). doi:10.1126/sciadv.adg2456
+- kind: literature
+  text: 'Manríquez, Leslie M.E.; Krahl, Guilherme; Carvalho, Marcelo A.; Lavina, Ernesto L.C.; Santiago, Gustavo;
+    Bom, Marlone H.H.; Fauth, Gerson; Leppe, Marcelo Octo. The K/Pg event at high southern latitudes: New evidence
+    from continental deposits in the Magallanes/Austral Basin, Patagonia, South America. Cretaceous Research 162.
+    doi:10.1016/j.cretres.2024.105931'
+- kind: literature
+  text: 'Soto-Acuña, Sergio; Vargas, Alexander O.; Kaluza, Jonatan; Leppe, Marcelo A.; Botelho, Joao F.; Palma-Liberona,
+    José; Simon-Gutstein, Carolina; Fernández, Roy A.; Ortiz, Héctor; Milla, Verónica; Aravena, Bárbara; Manríquez,
+    Leslie M. E.; Alarcón-Muñoz, Jhonatan; Pino, Juan Pablo; Trevisan, Cristine; Mansilla, Héctor; Hinojosa, Luis
+    Felipe; Muñoz-Walther, Vicente; Rubilar-Rogers, David 9 De. Bizarre tail weaponry in a transitional ankylosaur
+    from subantarctic Chile. Nature 600(7888): 259–263. doi:10.1038/s41586-021-04147-1'
+- kind: literature
+  text: 'Alarcón-Muñoz, Jhonatan; Soto-Acuña, Sergio; Manríquez, Leslie M.E.; Fernández, Roy A.; Bajor, Dániel;
+    Guevara, Juan Pablo; Suazo Lara, Felipe; Leppe, Marcelo A.; Vargas, Alexander O. Octo. Freshwater turtles (Testudines:
+    Pleurodira) in the Upper Cretaceous of Chilean Patagonia. Journal of South American Earth Sciences 102. doi:10.1016/j.jsames.2020.102652'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gonkoken (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gonkoken
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gonkoken”. English Wikipedia, revision 1387235722.
+  url: https://en.wikipedia.org/w/index.php?title=Gonkoken&oldid=1387235722
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

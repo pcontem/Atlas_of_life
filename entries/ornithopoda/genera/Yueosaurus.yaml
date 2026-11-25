@@ -1,0 +1,98 @@
+name: Yueosaurus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Zheng et al. 2012
+type_species: Yueosaurus tiantaiensis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A basal neornithischian from Zhejiang Province, China, of Albian-Cenomanian age.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 113.2
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yueosaurus tiantaiensis
+  authority: Zheng et al. 2012
+  first_ma: 113.2
+  last_ma: 93.9
+  interval: Albian–Cenomanian
+  reference: original description
+formations:
+- formation: Liangtoutang
+  group: Qujiang
+  members: []
+  country: China
+  regions: [Zhejiang]
+  interval: Albian–Cenomanian
+  occurrences: 1
+  ma: [93.9, 113.2]
+  id: liangtoutang-china
+fossil_material:
+  holotype: Not read in the sources consulted; named by Zheng and colleagues in 2012.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Yueosaurus reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Yueosaurus_reconstruction.jpg/960px-Yueosaurus_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yueosaurus_reconstruction.jpg
+  artist: Raingerr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-07-03'
+  caption: Life restoration of Yueosaurus tiantaiensis
+  width: 2160
+  height: 880
+  review: unreviewed
+  local: img/gallery/Yueosaurus_001.webp
+- kind: fossil
+  file: Zhejiang Geological Museum 20240804 133044.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Zhejiang_Geological_Museum_20240804_133044.jpg/960px-Zhejiang_Geological_Museum_20240804_133044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zhejiang_Geological_Museum_20240804_133044.jpg
+  artist: Dlyj0604
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-08-04'
+  caption: Yueosaurus at the Zhejiang Geological Museum
+  width: 3101
+  height: 2339
+  review: unreviewed
+  local: img/gallery/Yueosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/vector.svg
+  png: https://images.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011/raster/512x277.png
+  page: https://www.phylopic.org/images/c5b2e117-0973-4a0d-840a-de15f0296011
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Oryctodromeus cubicularis
+  matched: Thescelosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Zheng, Wenjie 2012. A new ornithischian dinosaur from the Cretaceous Liangtoutang Formation of Tiantai,
+    Zhejiang Province, China. Cretaceous Research 34: 208–219. doi:10.1016/j.cretres.2011.11.001'
+- kind: literature
+  text: 'Han, Feng-Lu 2012. Postcranial anatomy of ''''Jeholosaurus shangyuanensis'''' (Dinosauria, Ornithischia)
+    from the Lower Cretaceous Yixian Formation of China. Journal of Vertebrate Paleontology 32(6): 1370–1395. doi:10.1080/02724634.2012.694385'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yueosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yueosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yueosaurus”. English Wikipedia, revision 1349350599.
+  url: https://en.wikipedia.org/w/index.php?title=Yueosaurus&oldid=1349350599
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

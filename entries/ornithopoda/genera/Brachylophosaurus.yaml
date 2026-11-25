@@ -1,0 +1,142 @@
+name: Brachylophosaurus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Sternberg 1953
+type_species: Brachylophosaurus canadensis
+type_species_note: ''
+summary: A hadrosaurid of the Late Cretaceous of western North America, first named in 1953 by Sternberg and known
+  from exceptional mummified specimens.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Brachylophosaurus canadensis
+  authority: Sternberg 1953
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Brachylophosaurus goodwini
+  authority: Horner 1988
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Claggett
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: claggett-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Sternberg in 1953 from the Oldman Formation, Alberta.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: life
+  file: Brachylophosaurus canadensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Brachylophosaurus_canadensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Brachylophosaurus_canadensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Brachylophosaurus canadensis
+  width: 1215
+  height: 503
+  review: unreviewed
+  local: img/gallery/Brachylophosaurus_001.webp
+- kind: fossil
+  file: Leonardo mummified brachylophosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Leonardo_mummified_brachylophosaurus.jpg/960px-Leonardo_mummified_brachylophosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Leonardo_mummified_brachylophosaurus.jpg
+  artist: Unknown (no author on the Commons page)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Late Creta
+  caption: Mummified brachylophosaur Leonardo
+  width: 4896
+  height: 3264
+  review: unreviewed
+  local: img/gallery/Brachylophosaurus_002.webp
+- kind: life
+  file: Brachylophosaurus NT.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/01/Brachylophosaurus_NT.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Brachylophosaurus_NT.png
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-02-16'
+  caption: Life restoration of Brachylophosaurus
+  width: 857
+  height: 354
+  review: unreviewed
+  local: img/gallery/Brachylophosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/7a96e7d9-93a2-4254-9868-c872a4003f39/vector.svg
+  png: https://images.phylopic.org/images/7a96e7d9-93a2-4254-9868-c872a4003f39/raster/512x182.png
+  page: https://www.phylopic.org/images/7a96e7d9-93a2-4254-9868-c872a4003f39
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Brachylophosaurus canadensis
+  matched: Brachylophosaurus
+  genus_level: true
+  w: 512
+  h: 182
+sources:
+- kind: original
+  text: 'Sternberg, C.M. 1953. A new hadrosaur from the Oldman Formation of Alberta: Discussion of nomenclature.
+    National Museum of Canada Bulletin 128: 275–286.'
+- kind: literature
+  text: 'Horner, J.R. 1988. A new hadrosaur (Reptilia, Ornithischia) from the Upper Cretaceous Judith River Formation
+    of Montana. Journal of Vertebrate Paleontology 8(3): 314–321. doi:10.1080/02724634.1988.10011714'
+- kind: literature
+  text: 'Cuthbertson, R.S.; Holmes, R.B. 2010. The first complete description of the holotype of ''''Brachylophosaurus
+    canadensis'''' Sternberg, 1953 (Dinosauria: Hadrosauridae) with comments on intraspecific variation. Zoological
+    Journal of the Linnean Society 159(2): 373–397. doi:10.1111/j.1096-3642.2009.00612.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brachylophosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brachylophosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brachylophosaurus”. English Wikipedia, revision 1356718728.
+  url: https://en.wikipedia.org/w/index.php?title=Brachylophosaurus&oldid=1356718728
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

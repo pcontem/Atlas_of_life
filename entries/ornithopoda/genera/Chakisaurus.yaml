@@ -1,0 +1,115 @@
+name: Chakisaurus
+rank: genus
+parent: elasmaria
+incertae_sedis: false
+placement_note: ''
+authority: Nogueira et al. 2024
+type_species: Chakisaurus nekul
+type_species_note: ''
+summary: An elasmarian ornithopod from the Early Cretaceous Huincul Formation of Neuquén, Argentina, known from
+  several partial skeletons of different ages.
+size:
+  length_m: null
+  note: No total length in the sources used.
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chakisaurus nekul
+  authority: Nogueira et al. 2024
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not read in the sources consulted; a partial skeleton from the Huincul Formation at Pueblo Blanco, Neuquén
+    (specimen number to be checked in the naming paper).
+  material: Three paratypes in a group about 500 m away (MPCA Pv 822, 823 and 813, two of them juveniles) and a
+    cervical vertebra (MPCN Pv 846).
+  completeness: multiple
+  exceptional: ''
+biology: Known from partial skeletons of individuals of different ages; the first ornithischian named from the Huincul
+  Formation.
+images:
+- kind: life
+  file: Chakisaurus LMR.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Chakisaurus_LMR.png/960px-Chakisaurus_LMR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chakisaurus_LMR.png
+  artist: Levi B. Martinez-Reza
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-03-13'
+  caption: Life restoration of Chakisaurus nekul
+  width: 5319
+  height: 3547
+  review: unreviewed
+  local: img/gallery/Chakisaurus_001.webp
+- kind: life
+  file: Chakisaurus nekul.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Chakisaurus_nekul.png/960px-Chakisaurus_nekul.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chakisaurus_nekul.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-11-05'
+  caption: Life restoration of Chakisaurus nekul
+  width: 4500
+  height: 1620
+  review: unreviewed
+  local: img/gallery/Chakisaurus_002.webp
+- kind: fossil
+  file: Chakisaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Chakisaurus_TD.png/960px-Chakisaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chakisaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-03-11'
+  caption: Skeletal drawing of Chakisaurus nekul
+  width: 2800
+  height: 1100
+  review: unreviewed
+  local: img/gallery/Chakisaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/vector.svg
+  png: https://images.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093/raster/966x1024.png
+  page: https://www.phylopic.org/images/1de723b9-f8d2-4a66-8651-4fb36a816093
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Iyuku raathi
+  matched: Elasmaria
+  genus_level: false
+sources:
+- kind: original
+  text: 'R. A. Nogueira, S. Rozadilla, and F. L. Agnolín, J. A. Garcia Marsà, M. J. Motta, F. E. Novas. 2024. A
+    new ornithopod from the Upper Cretaceous (Huincul Formation) of northwestern Patagonia, Argentina: Implications
+    on elasmarian postcranial anatomy. Cretaceous Research 159'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chakisaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chakisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chakisaurus”. English Wikipedia, revision 1383336032.
+  url: https://en.wikipedia.org/w/index.php?title=Chakisaurus&oldid=1383336032
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Age: PBDB gives Albian; the Wikipedia article calls the unit Early Cretaceous although the formation is often
+    dated to the Cenomanian. Check.'
+  reviews: []

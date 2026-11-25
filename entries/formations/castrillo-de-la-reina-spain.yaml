@@ -5,16 +5,16 @@ group: Enciso, Oliván
 country: Spain
 regions: [Burgos, Castilla y Leon, Castilla y León, La Rioja, Valenciana]
 location:
-  lat: 42.018
-  lng: -3.295
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: 42.013
+  lng: -3.306
+  basis: median of 7 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 113.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [dry floodplain, terrestrial indet., coarse channel fill, alluvial fan]
-lithology: [sandstone, mudstone, claystone]
-pbdb_collections: ['51034', '68471', '164174', '232463']
+environment: [terrestrial indet., dry floodplain, coarse channel fill, alluvial fan]
+lithology: [sandstone, claystone, not reported, mudstone]
+pbdb_collections: ['51034', '68468', '68471', '89283', '164174', '218876', '232463']
 includes:
 - PBDB collection “Castrillo de la Reina” has no formation but is a locality of the Castrillo de la Reina.
 summary: ''

@@ -1,0 +1,105 @@
+name: Parksosaurus
+rank: genus
+parent: thescelosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Sternberg 1937
+type_species: Parksosaurus warreni
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A neornithischian of the early Maastrichtian Horseshoe Canyon Formation of Alberta, first described as
+  a species of Thescelosaurus.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Parksosaurus warreni
+  authority: (Parks 1926)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Morrin/Tolman, Tolman]
+  country: Canada
+  regions: [Alberta]
+  interval: Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: horseshoe-canyon-canada
+fossil_material:
+  holotype: Not read in the sources consulted; named by Sternberg in 1937.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: ParksosaurusSkull.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/2/25/ParksosaurusSkull.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:ParksosaurusSkull.JPG
+  artist: Jeyradan
+  license: Public domain
+  license_url: ''
+  date: Unknown da
+  caption: Skull of Parksosaurus warreni
+  width: 1264
+  height: 767
+  review: unreviewed
+  local: img/gallery/Parksosaurus_001.webp
+- kind: life
+  file: Parkosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Parkosaurus.png/960px-Parkosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Parkosaurus.png
+  artist: D2Hills
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-01-31'
+  caption: Life restoration of Parksosaurus
+  width: 9728
+  height: 3416
+  review: unreviewed
+  local: img/gallery/Parksosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/05b2229f-34dd-4fdc-aefb-8158a6b38119/vector.svg
+  png: https://images.phylopic.org/images/05b2229f-34dd-4fdc-aefb-8158a6b38119/raster/512x152.png
+  page: https://www.phylopic.org/images/05b2229f-34dd-4fdc-aefb-8158a6b38119
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Parksosaurus warreni
+  matched: Parksosaurus
+  genus_level: true
+  w: 512
+  h: 152
+sources:
+- kind: original
+  text: Sternberg, C.M. 1937. Classification of ''Thescelosaurus'', with a description of a new species. Geological
+    Society of America, Proceedings of the Paleontological Society, 1936.
+- kind: literature
+  text: 'Parks, William A 1926. ''''Thescelosaurus warreni'''', a new species of orthopodous dinosaur from the Edmonton
+    Formation of Alberta. University of Toronto Studies (Geological Series) 21: 1–42.'
+- kind: literature
+  text: 'Butler, Richard J. 2008. The ''dermal armour'' of the ornithopod dinosaur ''''Hypsilophodon'''' from the
+    Wealden (Early Cretaceous: Barremian) of the Isle of Wight: a reappraisal. Cretaceous Research 29(4): 636–642.
+    doi:10.1016/j.cretres.2008.02.002'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Parksosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Parksosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Parksosaurus”. English Wikipedia, revision 1383361747.
+  url: https://en.wikipedia.org/w/index.php?title=Parksosaurus&oldid=1383361747
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,72 @@
+name: Calvarius
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Prieto-Márquez and Sellés 2023
+type_species: Calvarius rapidus
+type_species_note: ''
+summary: A small, probably fast-running styracosternan ornithopod from the Maastrichtian Talarn Formation of Spain,
+  known from one metatarsal.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Calvarius rapidus
+  authority: Prieto-Márquez and Sellés 2023
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Talarn
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Lleida]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: talarn-spain
+fossil_material:
+  holotype: A single metatarsal from the Talarn Formation, Spain.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: The slender shape of the bone may indicate a cursorial (running) way of life.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/vector.svg
+  png: https://images.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b/raster/512x183.png
+  page: https://www.phylopic.org/images/d8cea744-f8f6-4174-9b2a-e154fa74513b
+  attribution: Lukas Panzarin
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hippodraco scutodens
+  matched: Styracosterna
+  genus_level: false
+  w: 512
+  h: 183
+sources:
+- kind: original
+  text: Prieto-Márquez, A.; Sellés, A. 2023. Evolutionary convergence in a small cursorial styracosternan ornithopod
+    dinosaur from western Europe. Journal of Vertebrate Paleontology 42(5). doi:10.1080/02724634.2023.2210632
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Calvarius (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Calvarius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Calvarius”. English Wikipedia, revision 1315691375.
+  url: https://en.wikipedia.org/w/index.php?title=Calvarius&oldid=1315691375
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

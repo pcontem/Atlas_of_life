@@ -1,0 +1,88 @@
+name: Hesperonyx
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: Rotatori et al. 2024
+type_species: Hesperonyx martinhotomasorum
+type_species_note: ''
+summary: An early-diverging iguanodontian of the Late Jurassic Lourinhã Formation of Portugal, known from fore-
+  and hindlimb bones.
+size:
+  length_m: [3, 4]
+  note: Estimated at 3-4 m long from the Wikipedia revision used.
+age:
+  first_ma: 152.21
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hesperonyx martinhotomasorum
+  authority: Rotatori et al. 2024
+  first_ma: 152.21
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Lourinhã
+  group: ''
+  members: [Praia da Amoreira-Porto Novo]
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: lourinha-portugal
+fossil_material:
+  holotype: ML 2700, found in 2021 in the Porto Novo Member of the Lourinhã Formation at Porto Dinheiro; a left
+    forelimb and hindlimb with a hand claw.
+  material: The holotype only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Parsimony analyses placed it as a basal member of the non-dryosaurid dryomorphans; no habits are described
+  in the sources consulted.
+images:
+- kind: life
+  file: Hesperonyx martinhotomasorum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hesperonyx_martinhotomasorum.png/960px-Hesperonyx_martinhotomasorum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hesperonyx_martinhotomasorum.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-27'
+  caption: Life restoration of Hesperonyx martinhotomasorum
+  width: 4000
+  height: 1475
+  review: unreviewed
+  local: img/gallery/Hesperonyx_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/60ab9319-9d6d-41b7-8859-badbb15c0a37/vector.svg
+  png: https://images.phylopic.org/images/60ab9319-9d6d-41b7-8859-badbb15c0a37/raster/512x177.png
+  page: https://www.phylopic.org/images/60ab9319-9d6d-41b7-8859-badbb15c0a37
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hesperonyx martinhotomasorum
+  matched: Hesperonyx
+  genus_level: true
+  w: 512
+  h: 177
+sources:
+- kind: original
+  text: Rotatori, F. M.; Ferrari, L.; Sequero, C.; Camilo, B.; Mateus, O.; Moreno-Azanza, M. 2024. An unexpected
+    early-diverging iguanodontian dinosaur (Ornithischia, Ornithopoda) from the Upper Jurassic of Portugal. Journal
+    of Vertebrate Paleontology 43(4). doi:10.1080/02724634.2024.2310066
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hesperonyx (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hesperonyx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hesperonyx”. English Wikipedia, revision 1314457702.
+  url: https://en.wikipedia.org/w/index.php?title=Hesperonyx&oldid=1314457702
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,105 @@
+name: Aralosaurus
+rank: genus
+parent: lambeosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Rozhdestvensky 1968
+type_species: Aralosaurus tuberiferus
+type_species_note: ''
+summary: A lambeosaurine hadrosaurid of the Late Cretaceous of Kazakhstan, known from the back half of a skull and
+  some postcranial bones.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aralosaurus tuberiferus
+  authority: Rozhdestvensky 1968
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: Bostobe
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Qyzylorda]
+  interval: Santonian–Early Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: bostobe-kazakhstan
+fossil_material:
+  holotype: The posterior half of a skull without its mandible, with some postcranial bones.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Aralosaurus skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fa/Aralosaurus_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aralosaurus_skull.png
+  artist: I. Reid ( User:IJReid )
+  license: Public domain
+  license_url: ''
+  date: '2014-04-01'
+  caption: Skull of Aralosaurus tuberiferus
+  width: 907
+  height: 700
+  review: unreviewed
+  local: img/gallery/Aralosaurus_001.webp
+- kind: life
+  file: Life reconstruction of Aralosaurus tuberiferus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f4/Life_reconstruction_of_Aralosaurus_tuberiferus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Aralosaurus_tuberiferus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-02-09'
+  caption: Life reconstruction of Aralosaurus tuberiferus
+  width: 899
+  height: 341
+  review: unreviewed
+  local: img/gallery/Aralosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Rozhdestvensky, A.K. 1968. Gadrozavry Kazakhstana [Hadrosaurs of Kazakhstan]. [Upper Paleozoic and Mesozoic
+    Amphibians and Reptiles]. Akademia Nauk SSSR, Moscow: 97–141.'
+- kind: literature
+  text: Prieto-Márquez, A. 2013. Diversity, Relationships, and Biogeography of the Lambeosaurine Dinosaurs from
+    the European Archipelago, with Description of the New Aralosaurin ''Canardia garonnensis''. PLOS ONE 8(7). doi:10.1371/journal.pone.0069835
+- kind: literature
+  text: 'Godefroit, P. 2004. A re-appraisal of "Aralosaurus tuberiferus" (Dinosauria, Hadrosauridae) from the Late
+    Cretaceous of Kazakhstan. Bulletin de l''Institut Royal des Sciences Naturelles de Belgique, Sciences de la
+    Terre 74Sup(74): 139–154.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aralosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aralosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aralosaurus”. English Wikipedia, revision 1369019386.
+  url: https://en.wikipedia.org/w/index.php?title=Aralosaurus&oldid=1369019386
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia and other works disagree about its relationships; a more recent analysis may place it outside Lambeosaurinae.
+    Check.
+  reviews: []

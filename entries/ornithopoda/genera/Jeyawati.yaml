@@ -1,0 +1,77 @@
+name: Jeyawati
+rank: genus
+parent: ornithopoda
+incertae_sedis: false
+placement_note: ''
+authority: McDonald et al. 2010
+type_species: Jeyawati rugoculus
+type_species_note: ''
+summary: A hadrosauroid of the Turonian Moreno Hill Formation of New Mexico, whose name means "grinding mouth" in
+  Zuni.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jeyawati rugoculus
+  authority: McDonald et al. 2010
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Moreno Hill
+  group: ''
+  members: [Lower]
+  country: United States
+  regions: [New Mexico]
+  interval: Middle Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: moreno-hill-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; fossils from the Moreno Hill Formation, described in 2010.
+  material: Not read in the sources consulted.
+  completeness: partial
+  exceptional: ''
+biology: Not described in the sources consulted.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/vector.svg
+  png: https://images.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710/raster/512x191.png
+  page: https://www.phylopic.org/images/0cf38a02-1f3b-455c-b8df-d2760580a710
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Equijubus normani
+  matched: Hadrosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mcdonald †, Andrew T.; Wolfe, Douglas G.; Kirkland, James I. 2010. A new basal hadrosauroid (Dinosauria:
+    Ornithopoda) from the Turonian of New Mexico. Journal of Vertebrate Paleontology 30(3): 799–812. doi:10.1080/02724631003763516'
+- kind: literature
+  text: Cilliers, Charl D.; Tucker, Ryan T.; Crowley, James L.; Zanno, Lindsay E. 2021. Age constraint for the Moreno
+    Hill Formation (Zuni Basin) by CA-TIMS and LA-ICP-MS detrital zircon geochronology. PeerJ 9. doi:10.7717/peerj.10948
+- kind: literature
+  text: Prieto-Marquez, Albert; Erickson, Gregory M.; Ebersole, Jun A. 2016. A primitive hadrosaurid from southeastern
+    North America and the origin and early evolution of 'duck-billed' dinosaurs. Journal of Vertebrate Paleontology
+    36(2). doi:10.1080/02724634.2015.1054495
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jeyawati (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jeyawati
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jeyawati”. English Wikipedia, revision 1385608876.
+  url: https://en.wikipedia.org/w/index.php?title=Jeyawati&oldid=1385608876
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

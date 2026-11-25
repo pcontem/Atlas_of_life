@@ -1,0 +1,112 @@
+name: Kamuysaurus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Kobayashi et al. 2019
+type_species: Kamuysaurus japonicus
+type_species_note: ''
+summary: An edmontosaurin saurolophine hadrosaurid of the Maastrichtian Yezo Group of Hokkaido, Japan.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kamuysaurus japonicus
+  authority: Kobayashi et al. 2019
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Hakobuchi
+  group: Yezo
+  members: [Lower sandy Siltstone]
+  country: Japan
+  regions: [Hokkaido]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hakobuchi-japan
+fossil_material:
+  holotype: Not read in the sources consulted; named by Kobayashi and colleagues in 2019.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: fossil
+  file: Holotype skeleton of Kamuysaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Holotype_skeleton_of_Kamuysaurus.jpg/960px-Holotype_skeleton_of_Kamuysaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Holotype_skeleton_of_Kamuysaurus.jpg
+  artist: Art by Genya Masukawa, published by Yoshitsugu Kobayashi, Tomohiro Nishimura, Ryuji Takasaki, Kentaro
+    Chiba, Anthony R. Fiorillo, Kohei Tanaka, Tsogtbaatar Chinzorig, Tamaki Sato & Kazuhiko Sakurai
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Holotype skeleton of Kamuysaurus japonicus
+  width: 1650
+  height: 1254
+  review: unreviewed
+  local: img/gallery/Kamuysaurus_001.webp
+- kind: fossil
+  file: Kamuysaurus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Kamuysaurus_skull.jpg/960px-Kamuysaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kamuysaurus_skull.jpg
+  artist: Art by Genya Masukawa, published by Yoshitsugu Kobayashi, Tomohiro Nishimura, Ryuji Takasaki, Kentaro
+    Chiba, Anthony R. Fiorillo, Kohei Tanaka, Tsogtbaatar Chinzorig, Tamaki Sato & Kazuhiko Sakurai
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Skull of Kamuysaurus japonicus
+  width: 1650
+  height: 1350
+  review: unreviewed
+  local: img/gallery/Kamuysaurus_002.webp
+- kind: life
+  file: Kamuysaurus japonicus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/71/Kamuysaurus_japonicus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kamuysaurus_japonicus.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-03-29'
+  caption: Life restoration of Kamuysaurus japonicus
+  width: 1059
+  height: 401
+  review: unreviewed
+  local: img/gallery/Kamuysaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/vector.svg
+  png: https://images.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3/raster/512x190.png
+  page: https://www.phylopic.org/images/3bcbe8d3-a5e2-4d3e-b641-8fcb5be5c0e3
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Hadrosaurus foulkii
+  matched: Hadrosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kobayashi, Yoshitsugu; Nishimura, Tomohiro; Takasaki, Ryuji; Chiba, Kentaro; Fiorillo, Anthony R.; Tanaka,
+    Kohei; Chinzorig, Tsogtbaatar; Sato, Tamaki; Sakurai, Kazuhiko Sept. A New Hadrosaurine (Dinosauria: Hadrosauridae)
+    from the Marine Deposits of the Late Cretaceous Hakobuchi Formation, Yezo Group, Japan. Scientific Reports 9(1):
+    12389. doi:10.1038/s41598-019-48607-1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kamuysaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kamuysaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kamuysaurus”. English Wikipedia, revision 1362624979.
+  url: https://en.wikipedia.org/w/index.php?title=Kamuysaurus&oldid=1362624979
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,230 @@
+name: Edmontosaurus
+rank: genus
+parent: saurolophinae
+incertae_sedis: false
+placement_note: ''
+authority: Lambe 1917
+type_species: Edmontosaurus regalis
+type_species_note: Filled from general knowledge, not yet checked against the original description.
+summary: A large hadrosaurid of the Late Cretaceous of North America, once also known as Anatosaurus and Anatotitan.
+size:
+  length_m: null
+  note: Not given in the sources used.
+age:
+  first_ma: 89.8
+  last_ma: 66
+  early_interval: Coniacian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 85
+  note: ''
+species:
+- name: Edmontosaurus annectens
+  authority: (Marsh 1892)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Edmontosaurus edmontoni
+  authority: (Gilmore 1924)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Edmontosaurus regalis
+  authority: Lambe 1917
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Edmontosaurus saskatchewanensis
+  authority: (Sternberg 1926)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: [Little Beaver Creek, Upper]
+  country: United States
+  regions: [Montana, North Dakota, South Dakota]
+  interval: Lancian
+  occurrences: 33
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana, South Dakota, Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 28
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Horsethief]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 11
+  ma: [66.0, 83.6]
+  id: horseshoe-canyon-canada
+- formation: Unnamed unit
+  group: Edmonton
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian–Maastrichtian
+  occurrences: 3
+  ma: [66.0, 83.6]
+  id: [belly-river-group-canada, edmonton-group-canada]
+- formation: Frenchman
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: frenchman-canada
+- formation: Laramie
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: laramie-united-states
+- formation: St. Mary River
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 83.6]
+  id: st-mary-river-canada
+- formation: Schrader Bluff
+  group: ''
+  members: [Rogers Creek]
+  country: United States
+  regions: [Alaska]
+  interval: Late Coniacian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 89.8]
+  id: schrader-bluff-united-states
+- formation: Wapiti
+  group: ''
+  members: [Unit 4]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wapiti-canada
+- formation: Marshalltown
+  group: Matawan
+  members: []
+  country: United States
+  regions: [New Jersey]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: marshalltown-united-states
+- formation: Prince Creek
+  group: Colville
+  members: [Kogosukruk Tongue]
+  country: United States
+  regions: [Alaska]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: prince-creek-united-states
+fossil_material:
+  holotype: Not read in the sources consulted; named by Lambe in 1917 from the Edmonton area.
+  material: Not read in the sources consulted beyond the holotype.
+  completeness: multiple
+  exceptional: ''
+biology: Not described in the sources consulted.
+images:
+- kind: skeletal
+  file: Edmontosaurus annectens Multiview Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Edmontosaurus_annectens_Multiview_Skeletal.png/960px-Edmontosaurus_annectens_Multiview_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Edmontosaurus_annectens_Multiview_Skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-19'
+  caption: Skeletal reconstruction of Edmontosaurus annectens
+  width: 11480
+  height: 7432
+  review: unreviewed
+  local: img/gallery/Edmontosaurus_001.webp
+- kind: fossil
+  file: Edmontosaurus AMNH 5060 manus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Edmontosaurus_AMNH_5060_manus.png/960px-Edmontosaurus_AMNH_5060_manus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Edmontosaurus_AMNH_5060_manus.png
+  artist: Henry Fairfield Osborn
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2022-10-30'
+  caption: Hand of Edmontosaurus (AMNH 5060)
+  width: 2286
+  height: 3553
+  review: unreviewed
+  local: img/gallery/Edmontosaurus_002.webp
+- kind: fossil
+  file: Edmontosaurus NDGS 2000 right manus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Edmontosaurus_NDGS_2000_right_manus.png/960px-Edmontosaurus_NDGS_2000_right_manus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Edmontosaurus_NDGS_2000_right_manus.png
+  artist: Stephanie K. Drumheller, Clint A. Boyd, Becky M. S. Barnes & Mindy L. Householder
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-10-30'
+  caption: Hand of Edmontosaurus (NDGS 2000)
+  width: 1777
+  height: 1940
+  review: unreviewed
+  local: img/gallery/Edmontosaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/48b6dd4b-b86d-4484-a1ff-a48f786e790f/vector.svg
+  png: https://images.phylopic.org/images/48b6dd4b-b86d-4484-a1ff-a48f786e790f/raster/512x170.png
+  page: https://www.phylopic.org/images/48b6dd4b-b86d-4484-a1ff-a48f786e790f
+  attribution: Pete Buchholz
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Edmontosaurus regalis
+  matched: Edmontosaurus
+  genus_level: true
+  w: 512
+  h: 170
+sources:
+- kind: original
+  text: 'Lambe, Lawrence M. 1917. A new genus and species of crestless hadrosaur from the Edmonton Formation of
+    Alberta. The Ottawa Naturalist 31(7): [https://archive.org/details/ottawanaturalist31otta/page/65 65]–73.'
+- kind: literature
+  text: 'Tuinstra, Lucien; Thomas, Brian; Robinson, Steven; Pawlak, Krzysztof; Elezi, Gazmend; Faull, Kym Francis;
+    Taylor, Stephen 2025. Evidence for Endogenous Collagen in Edmontosaurus Fossil Bone. Analytical Chemistry 97(5):
+    2618–2628. doi:10.1021/acs.analchem.4c03115'
+- kind: literature
+  text: 'Marsh, Othniel Charles 1892. Notice of new reptiles from the Laramie Formation. American Journal of Science
+    43(257): 449–453. doi:10.2475/ajs.s3-43.257.449'
+- kind: literature
+  text: 'Marsh, Othniel Charles 1892. Restorations of ''''Claosaurus'''' and ''''Ceratosaurus''''. American Journal
+    of Science 44(262): 343–349. doi:10.2475/ajs.s3-44.262.343'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Edmontosaurus (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Edmontosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Edmontosaurus”. English Wikipedia, revision 1385383683.
+  url: https://en.wikipedia.org/w/index.php?title=Edmontosaurus&oldid=1385383683
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Type species set by Lambe in 1917 as E. regalis (general knowledge, not yet checked); the harvest does not say.
+    Check.
+  reviews: []

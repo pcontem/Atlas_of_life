@@ -1,0 +1,110 @@
+name: Foskeia
+rank: genus
+parent: rhabdodontomorpha
+incertae_sedis: false
+placement_note: ''
+authority: Dieudonné et al. 2026
+type_species: Foskeia pelendonum
+type_species_note: ''
+summary: One of the smallest ornithopods, a rhabdodontomorph from the Early Cretaceous of Spain known from multiple
+  individuals of different ages.
+size:
+  length_m: null
+  note: Among the smallest ornithopods; no length in the sources used.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Foskeia pelendonum
+  authority: Dieudonné et al. 2026
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Castrillo de la Reina
+  group: Oliván
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: castrillo-de-la-reina-spain
+fossil_material:
+  holotype: Not read in the sources consulted; formally named in 2026 from fossils of the Castrillo de la Reina
+    Formation, formerly called the Vegagete ornithopod.
+  material: Multiple individuals of different ontogenetic stages; the largest is a late subadult by bone histology.
+  completeness: multiple
+  exceptional: ''
+biology: Limb-bone histology shows the species was among the smallest ornithopods.
+images:
+- kind: life
+  file: Foskeia pelendonum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Foskeia_pelendonum.png/960px-Foskeia_pelendonum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Foskeia_pelendonum.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-02-02'
+  caption: Life restoration of Foskeia pelendonum
+  width: 4000
+  height: 1442
+  review: unreviewed
+  local: img/gallery/Foskeia_001.webp
+- kind: fossil
+  file: Snout elements of Foskeia pelendonum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Snout_elements_of_Foskeia_pelendonum.png/960px-Snout_elements_of_Foskeia_pelendonum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Snout_elements_of_Foskeia_pelendonum.png
+  artist: Dieudonné et al. (2016)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-06-22'
+  caption: Snout elements of Foskeia pelendonum
+  width: 4200
+  height: 2327
+  review: unreviewed
+  local: img/gallery/Foskeia_002.webp
+- kind: fossil
+  file: 3D skull reconstruction of Foskeia pelendonum.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/48/3D_skull_reconstruction_of_Foskeia_pelendonum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:3D_skull_reconstruction_of_Foskeia_pelendonum.jpg
+  artist: Emiliano Zeballos
+  license: CC BY 2.5 ar
+  license_url: https://creativecommons.org/licenses/by/2.5/ar/deed.en
+  date: 2 February
+  caption: 3D skull reconstruction of Foskeia pelendonum
+  width: 995
+  height: 560
+  review: unreviewed
+  local: img/gallery/Foskeia_003.webp
+sources:
+- kind: original
+  text: P. Dieudonné, M. G. Becerra, and T. Zanesco, T. Tortosa, P. Cruzado‐Caballero, K. Stein, F. Torcida Fernández‐Baldor.
+    2026. Foskeia pelendonum, a new rhabdodontomorph from the Lower Cretaceous of Salas de los Infantes (Burgos
+    Province, Spain), and a new phylogeny of ornithischian dinosaurs. Papers in Palaeontology 12(1):1-52
+- kind: literature
+  text: Dieudonné, Paul-Emile; Tortosa, Thierry; Fernández-Baldor, Fidel Torcida; Canudo, José Ignacio; Díaz-Martínez,
+    Ignacio 2016. An Unexpected Early Rhabdodontid from Europe (Lower Cretaceous of Salas de los Infantes, Burgos
+    Province, Spain) and a Re-Examination of Basal Iguanodontian Relationships. PLOS ONE 11(6). doi:10.1371/journal.pone.0156251
+- kind: literature
+  text: 'Dieudonné PE, Torcida Fernández-Baldor F, Stein K 2022. Histogenesis and growth dynamics of the tiny Vegagete
+    rhabdodontomorph hindlimb (Ornithischia, Ornithopoda): paleoecological and evolutionary implications. Cretaceous
+    Research 141. doi:10.1016/j.cretres.2022.105342'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Foskeia (downloaded 2026-11-24).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Foskeia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Foskeia”. English Wikipedia, revision 1369789869.
+  url: https://en.wikipedia.org/w/index.php?title=Foskeia&oldid=1369789869
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -5,16 +5,17 @@ group: Wealden
 country: United Kingdom
 regions: [England]
 location:
-  lat: 50.9
-  lng: 0.443
-  basis: median of 5 PBDB collections that yielded the atlas genera
+  lat: 50.869
+  lng: 0.514
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 137.05
   last_ma: 132.6
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [wet floodplain, terrestrial indet., lacustrine - small]
-lithology: [sandstone, claystone, conglomerate]
-pbdb_collections: ['58094', '91990', '96620', '96621', '96622']
+environment: [terrestrial indet., wet floodplain, lacustrine - small]
+lithology: [claystone, not reported, sandstone, conglomerate]
+pbdb_collections: ['52255', '52577', '52649', '52668', '58094', '91990', '96620', '96621', '96622', '230812', '231104',
+  '231105', '231106']
 includes: []
 summary: ''
 paleoenvironment: ''
