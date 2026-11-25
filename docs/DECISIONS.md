@@ -391,3 +391,10 @@ The site showed "Could not load the data file" because one backbone genus node (
 a clade node removed when Thescelosauridae got its entry (`ornithopoda__thescelosauridae`, now `thescelosauridae`):
 `init()` in `core.js` fails on a missing parent. The node was fixed and the validator got rule **T2 (E)**: the parent of
 every backbone node is a backbone node or a clade entry.
+
+## 2026-11-25 — Ornithopoda subgroups follow PBDB and English Wikipedia
+
+Eight clade entries were added below Ornithopoda (see `docs/TREE_REVIEW.md`). Placement rule used: the PBDB parent of each genus
+checked against the lead of its Wikipedia article; if they differ, the deepest shared clade with `incertae_sedis` (M2).
+New tool: `scripts/fetch/clades.py` + `.github/workflows/clades.yml` download Wikipedia revisions and PBDB records of clades
+(request in `data/raw/clade_request.json` on a non-main branch), because the shell cannot reach those sites.

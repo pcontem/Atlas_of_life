@@ -1,0 +1,36 @@
+name: clades
+# Downloads the raw material for clade entries (English Wikipedia revision, text and citations; PBDB record and
+# children) with scripts/fetch/clades.py and commits it to the branch it was run on.
+# Run by pushing a change to data/raw/clade_request.json on any branch other than main:
+#   {"out": "data/raw/tree/clade_sources_<date>_<group>.json", "items": ["Wikipedia title[=PBDB name]", ...], "run": 1}
+on:
+  push:
+    branches-ignore: [main]
+    paths: [data/raw/clade_request.json]
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  clades:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml pillow
+      - name: Fetch
+        run: |
+          python3 - <<'PY' > /tmp/args.json
+          import json; r = json.load(open("data/raw/clade_request.json")); print(json.dumps([r["out"]] + r["items"]))
+          PY
+          python3 - <<'PY'
+          import json, subprocess
+          a = json.load(open("/tmp/args.json"))
+          subprocess.run(["python3", "-u", "scripts/fetch/clades.py", *a], check=True)
+          PY
+      - name: Commit raw data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/raw
+          git diff --cached --quiet || git commit -m "Clade sources for $(python3 -c 'import json;print(json.load(open("data/raw/clade_request.json"))["out"])')" -m "Automated by .github/workflows/clades.yml."
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push

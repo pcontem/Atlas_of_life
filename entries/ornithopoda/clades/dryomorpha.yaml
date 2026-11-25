@@ -1,0 +1,41 @@
+id: dryomorpha
+name: Dryomorpha
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Dryomorpha, unranked clade, Sereno 1986), downloaded 2026-11-25
+parent: euiguanodontia
+wikipedia: Ornithopoda
+summary: Iguanodontians that unite the dryosaurids with the thumb-spiked ankylopollexians.
+diagnosis:
+- Named by Paul Sereno in 1986 and defined under the PhyloCode as the smallest clade containing Dryosaurus altus
+  and Iguanodon bernissartensis
+- Contains Dryosauridae and Ankylopollexia, with Oblitosaurus sister to Ankylopollexia, in the 2024 cladogram of
+  Fonseca and colleagues
+notes: PBDB lists Draconyx, Hesperonyx, Owenodon and Oblitosaurus beside Dryosauridae and Ankylopollexia as its
+  children; English Wikipedia includes Hesperonyx in it. The sources give no anatomical diagnosis.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornithopoda”. English Wikipedia, revision 1374689986.
+  url: https://en.wikipedia.org/w/index.php?title=Ornithopoda&oldid=1374689986
+- kind: database
+  text: 'Paleobiology Database, taxon Dryomorpha (no. 52806): rank, authority, parent and children (downloaded 2026-11-25).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52806
+- kind: literature
+  text: Daniel Madzia, Victoria M. Arbour, Clint A. Boyd, Andrew A. Farke, Penélope Cruzado-Caballero, David C.
+    Evans. 2021. The phylogenetic nomenclature of ornithischian dinosaurs. PeerJ 9.
+  url: https://doi.org/10.7717/peerj.12362
+- kind: literature
+  text: A.O. Fonseca, I.J. Reid, A. Venner, R.J. Duncan, M.S. Garcia, R.T. Müller. 2024. A comprehensive phylogenetic
+    analysis on early ornithischian evolution. Journal of Systematic Palaeontology 22(1).
+  url: https://doi.org/10.1080/14772019.2024.2346577
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision (Ornithopoda) and PBDB record are those downloaded on 2026-11-25; the page may have changed
+    since.
+  - 'DEF: the sources give a phylogenetic definition but no anatomical diagnosis; check the diagnosis against the
+    primary literature.'
+  reviews: []
