@@ -10,7 +10,7 @@ as a tree of life. It is built volume by volume. **Pterosauria is the pilot volu
 
 **Pterosauria is consolidated first** (`python3 scripts/validate.py --strict`), but the phase rule that
 blocked new groups until then was removed on 2026-11-16 (owner): clade entries for the whole tree may be
-drafted now (§4.2b). New genus volumes are still planned one at a time.
+drafted now (§4.2b). New genus volumes are still planned one at a time. The order of the next volumes (Theropoda I and II, Mesozoic Avialae, Aves I and II) was decided on 2026-11-25 and is in `docs/NEXT.md`.
 
 The website language is **English**. Conversation with the owner may be in Portuguese.
 The word for a page about a taxon is **entry** (never "ficha").

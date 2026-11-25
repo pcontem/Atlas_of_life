@@ -1,3 +1,23 @@
+# Volume plan: Theropoda and birds (decided 2026-11-25)
+
+Order of the next five volumes (about 300 genera each). Sizes are estimates from the census of 2026-11-21 (`data/raw/census/theropoda`: missing + waiting in the backbone, grouped by PBDB parent); each volume gets its own census before set-up (skill `atlas-new-volume`), which replaces these numbers.
+
+| # | Volume | Contents | Genera (est.) |
+|---|---|---|---|
+| 1 | Theropoda I | basal Neotheropoda and Coelophysoidea; Ceratosauria; Megalosauroidea, Spinosauridae, Carnosauria, Megaraptora; Tyrannosauroidea, Compsognathidae, Ornithomimosauria | ~280 |
+| 2 | Theropoda II | non-avian Maniraptora: Therizinosauria, Alvarezsauria, Oviraptorosauria, Scansoriopterygidae, Dromaeosauridae, Troodontidae, Anchiornithidae, Unenlagiidae; plus Archaeopteryx and Jeholornis | ~230 |
+| 3 | Mesozoic Avialae | Enantiornithes, Ornithuromorpha, Hesperornithes, Ichthyornis, Confuciusornithidae | ~220 |
+| 4 | Aves I | Palaeognathae and Galloanserae (ratites, tinamous, moas, Galliformes, Anseriformes, Presbyornithidae, Dromornithidae, Gastornithidae) | ~300 |
+| 5 | Aves II | waterbirds and shorebirds (Sphenisciformes, Procellariiformes, Charadriiformes, Pelagornithidae, Pelecaniformes, Suliformes, Podicipedidae) | ~350 (trim to ~300 by moving Procellariiformes and Pelagornithidae out if needed) |
+
+- Birds get their own volumes (not left out). After volume 5 about 4 or 5 more Aves volumes remain (raptors, owls, parrots and terror birds; other non-passerines; passerines).
+- Ichnogenera and oogenera (196 in Theropoda) stay out, as in the earlier volumes.
+- Many fossil birds have no English Wikipedia article (345 genus articles in the whole census), so these volumes lean more on literature sources.
+- Each volume still needs the owner's scope decision after its census (skill `atlas-new-volume`, step 3) before files are created.
+- Next action: add `data/census/sources.yaml` groups for volumes 1 to 5, run the census, then harvest and write the entries (skills `atlas-new-volume` and `atlas-entries`).
+
+---
+
 # Next steps (Ornithischia, part B: Ornithopoda, Heterodontosauria and basal ornithischians)
 
 ## Done (branch entry/ornithischia-b)
