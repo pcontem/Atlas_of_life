@@ -1,0 +1,42 @@
+id: tenontosauridae
+name: Tenontosauridae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Tenontosauridae, family, Fonseca et al. 2024), downloaded
+  2026-11-25
+parent: rhabdodontomorpha
+wikipedia: Rhabdodontomorpha
+summary: Tenontosaurus and its close relatives, basal rhabdodontomorphs that form a North American radiation.
+diagnosis:
+- Defined under the PhyloCode as the largest clade containing Tenontosaurus tilletti but not Hypsilophodon foxii,
+  Iguanodon bernissartensis and Rhabdodon priscus
+- Tentatively recovered as basal members of Rhabdodontomorpha
+notes: Iani, described in 2023, is interpreted as a transitional taxon between Tenontosaurus and the rhabdodontids;
+  PBDB lists it with Tenontosaurus and Convolosaurus in the family. The sources give no anatomical diagnosis.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rhabdodontomorpha”. English Wikipedia, revision 1360947053.
+  url: https://en.wikipedia.org/w/index.php?title=Rhabdodontomorpha&oldid=1360947053
+- kind: database
+  text: 'Paleobiology Database, taxon Tenontosauridae (no. 509333): rank, authority, parent and children (downloaded
+    2026-11-25).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=509333
+- kind: literature
+  text: A.O. Fonseca, I.J. Reid, A. Venner, R.J. Duncan, M.S. Garcia, R.T. Müller. 2024. A comprehensive phylogenetic
+    analysis on early ornithischian evolution. Journal of Systematic Palaeontology 22(1).
+  url: https://doi.org/10.1080/14772019.2024.2346577
+- kind: literature
+  text: Daniel Madzia, Victoria M. Arbour, Clint A. Boyd, Andrew A. Farke, Penélope Cruzado-Caballero, David C.
+    Evans. 2021. The phylogenetic nomenclature of ornithischian dinosaurs. PeerJ 9.
+  url: https://doi.org/10.7717/peerj.12362
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision (Rhabdodontomorpha) and PBDB record are those downloaded on 2026-11-25; the page may
+    have changed since.
+  - 'DEF: the sources give a phylogenetic definition but no anatomical diagnosis; check the diagnosis against the
+    primary literature.'
+  reviews: []

@@ -12,7 +12,7 @@
 - Thyreophora/Marginocephalia remain as in part A.
 
 ## Open questions for the owner
-- Should Iguanodontia, Ankylopollexia, Hadrosauroidea, Styracosterna and Tenontosauridae get clade entries (and the genera be moved below them)?
+- Hadrosauriformes, Neoiguanodontia and Telmatosauridae still have no clade entry (PBDB has them; sources lacked a definition); ornithopod subgroups were added 2026-11-25 (TREE_REVIEW.md).
 - Placement of Barsboldia, Aralosaurus, Latirhinus, Hypsilophodon, Daurosaurus, Vectidromeus and the basal neornithischians (all marked or noted in `curation.notes`).
 - Ugrunaaluk (possible synonym of Edmontosaurus) and Callovosaurus (sometimes dubious) validity.
 - Type species for several genera were filled from general knowledge (marked in `type_species_note`): check before consolidation.

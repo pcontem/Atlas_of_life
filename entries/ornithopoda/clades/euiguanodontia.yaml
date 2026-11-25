@@ -1,0 +1,39 @@
+id: euiguanodontia
+name: Euiguanodontia
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Euiguanodontia, unranked clade, Coria and Salgado 1996),
+  downloaded 2026-11-25
+parent: iguanodontia
+wikipedia: Ornithopoda
+summary: Iguanodontians more derived than the rhabdodontomorphs, grouping Elasmaria, Dryomorpha and a few basal
+  genera.
+diagnosis:
+- In the 2024 analysis of Fonseca and colleagues it includes Elasmaria and Dryomorpha (Dryosauridae plus Ankylopollexia),
+  as well as Anabisetia, Diluvicursor, Gasparinisaura, Notohypsilophodon and Iyuku
+- Excludes Rhabdodontomorpha, which holds Tenontosauridae and Rhabdodontoidea in that analysis
+notes: Named by Coria and Salgado in 1996 (PBDB). The sources give no anatomical diagnosis; the group is defined
+  by the phylogeny. PBDB lists Callovosaurus, Iyuku, Dryomorpha and Elasmaria as its direct children.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornithopoda”. English Wikipedia, revision 1374689986.
+  url: https://en.wikipedia.org/w/index.php?title=Ornithopoda&oldid=1374689986
+- kind: database
+  text: 'Paleobiology Database, taxon Euiguanodontia (no. 65255): rank, authority, parent and children (downloaded
+    2026-11-25).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=65255
+- kind: literature
+  text: A.O. Fonseca, I.J. Reid, A. Venner, R.J. Duncan, M.S. Garcia, R.T. Müller. 2024. A comprehensive phylogenetic
+    analysis on early ornithischian evolution. Journal of Systematic Palaeontology 22(1).
+  url: https://doi.org/10.1080/14772019.2024.2346577
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision (Ornithopoda) and PBDB record are those downloaded on 2026-11-25; the page may have changed
+    since.
+  - 'DEF: the sources give a phylogenetic definition but no anatomical diagnosis; check the diagnosis against the
+    primary literature.'
+  reviews: []

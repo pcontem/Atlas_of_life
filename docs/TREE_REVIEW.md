@@ -771,3 +771,25 @@ Rule of 2026-11-23 (owner): where the backbone and the literature diverge, the l
 - *Daurosaurus*, *Vectidromeus*, *Hypsilophodon*: kept directly in Ornithopoda as *incertae sedis*; the sources disagree (hypsilophodontid, euiguanodontian, neornithischian).
 - Basal neornithischians (*Nanosaurus*, *Kulindadromeus*, *Yandusaurus* and others) placed in Ornithischia as *incertae sedis*: no Neornithischia clade is defined in this volume.
 - Lesothosaurus, Laquintasaura, Pisanosaurus, Agilisaurus, Hexinlusaurus: *incertae sedis within Ornithischia* (see the 2026-11-23 notes above).
+
+## 2026-11-25 — Ornithopoda subgroups (Iguanodontia and below)
+
+Owner's request: organise the ornithopods in subgroups instead of leaving 87 genera directly in Ornithopoda; follow PBDB
+and English Wikipedia. Raw material: `data/raw/tree/clade_sources_2026-11-25_ornithopoda.json` (Wikipedia revisions, texts and
+citations; PBDB records and children), downloaded by `.github/workflows/clades.yml`.
+
+New clade entries (all in `entries/ornithopoda/clades/`): Iguanodontia (infraorder), Euiguanodontia, Dryomorpha,
+Ankylopollexia, Styracosterna, Iguanodontidae (family), Hadrosauroidea, Tenontosauridae (family). PBDB hierarchy followed:
+Ornithopoda → Iguanodontia → Euiguanodontia → Dryomorpha → Ankylopollexia → Styracosterna → Hadrosauroidea → Hadrosauridae.
+Existing clades moved: Rhabdodontomorpha → Iguanodontia (Tenontosauridae inside it, as in PBDB and Fonseca et al. 2024),
+Elasmaria → Euiguanodontia, Dryosauridae → Dryomorpha, Hadrosauridae → Hadrosauroidea. Thescelosauridae stays in Ornithopoda
+(PBDB); Fonseca et al. 2024 put it outside Cerapoda, still to be reviewed.
+
+Genera moved from Ornithopoda to the subgroups: 79, by the PBDB parent of each genus checked against the lead of its English
+Wikipedia article. Where the two disagree the genus sits in the deepest clade both share, with `incertae_sedis: true` (M2):
+Bolong and Morelladon (Styracosterna), Altirhinus and Ouranosaurus (Ankylopollexia), Choyrodon (Iguanodontia). Not made:
+Hadrosauriformes (PBDB: Siamodon, Brighstoneus, Proa, Comptonatus and Hadrosauroidea; the sources give no definition or diagnosis) and
+Neoiguanodontia, so their genera sit in Styracosterna and Ankylopollexia, with a curation note; Telmatosauridae (PBDB family of 2026) and
+Camptosauridae (PBDB lists no genus in it). Jinzhousaurus (backbone genus) moved to Iguanodontidae (PBDB). Iguanodon sits in
+Iguanodontidae, the family defined from it, although PBDB puts it directly in Ankylopollexia. Hypsilophodon, Gideonmantellia, Vectidromeus,
+Daurosaurus, Burianosaurus and the three elasmarian-candidates stay in Ornithopoda.
