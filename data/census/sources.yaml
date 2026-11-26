@@ -32,7 +32,7 @@ theropoda1:
   wikipedia: { categories: [Coelophysoidea, Ceratosauria, Abelisauridae, Noasauridae, Megalosauroidea, Megalosauridae, Spinosauridae, Carnosauria, Carcharodontosauridae, Megaraptora, Tyrannosauroidea, Compsognathidae, Ornithomimosauria, Tetanurae, Herrerasauria], depth: 3, probe: [Coelophysis, Carnotaurus, Spinosaurus, Giganotosaurus, Tyrannosaurus, Gallimimus] }
   literature: [theropod, coelophysoid, ceratosaur, abelisaurid, megalosaurid, spinosaurid, allosauroid, carcharodontosaurid, megaraptoran, tyrannosauroid, compsognathid, ornithomimosaur]
 theropoda2:
-  # Theropoda II (volume plan of 2026-11-25): non-avian maniraptorans (Maniraptora without Avialae, which gets its own volumes).
-  pbdb: Maniraptora^Avialae
-  wikipedia: { categories: [Maniraptora, Alvarezsauridae, Alvarezsauroidea, Therizinosauria, Therizinosauridae, Oviraptorosauria, Oviraptoridae, Caenagnathidae, Paraves, Scansoriopterygidae, Anchiornithidae, Dromaeosauridae, Unenlagiidae, Microraptoria, Troodontidae], depth: 3, probe: [Velociraptor, Oviraptor, Therizinosaurus, Shuvuuia, Troodon, Microraptor, Anchiornis, Yi (dinosaur)] }
+  # Theropoda II (volume plan of 2026-11-25): non-avian maniraptorans (Maniraptora without birds; PBDB keeps most birds under Aves, outside its Avialae, so both are excluded).
+  pbdb: Maniraptora^Aves^Avialae
+  wikipedia: { categories: [Maniraptora, Alvarezsauridae, Alvarezsauroidea, Therizinosauria, Oviraptorosauria, Oviraptoridae, Caenagnathidae, Paraves, Scansoriopterygidae, Anchiornithidae, Dromaeosauridae, Unenlagiidae, Microraptoria, Troodontidae], depth: 3, probe: [Velociraptor, Oviraptor, Therizinosaurus, Shuvuuia, Troodon, Microraptor, Anchiornis, Yi (dinosaur)] }
   literature: [maniraptoran, alvarezsaurid, therizinosaur, oviraptorosaur, oviraptorid, caenagnathid, paravian, dromaeosaurid, troodontid, unenlagiid, microraptorine, scansoriopterygid]
