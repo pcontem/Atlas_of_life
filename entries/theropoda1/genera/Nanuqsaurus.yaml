@@ -54,6 +54,7 @@ images:
   width: 4000
   height: 1323
   review: unreviewed
+  local: img/gallery/Nanuqsaurus_001.webp
 - kind: fossil
   file: Nanuqsaurus dentary.png
   url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Nanuqsaurus_dentary.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -66,6 +67,7 @@ images:
   width: 966
   height: 559
   review: unreviewed
+  local: img/gallery/Nanuqsaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/f3c74352-543f-4d28-ba4a-de5bfa338ce9/vector.svg
   png: https://images.phylopic.org/images/f3c74352-543f-4d28-ba4a-de5bfa338ce9/raster/512x151.png
@@ -75,6 +77,8 @@ silhouette:
   depicts: Nanuqsaurus hoglundi
   matched: Nanuqsaurus
   genus_level: true
+  w: 512
+  h: 151
 sources:
 - kind: original
   text: Fiorillo, A. R.; Tykoski, R. S. 2014. A Diminutive New Tyrannosaur from the Top of the World. PLoS ONE 9(3).

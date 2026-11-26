@@ -63,6 +63,7 @@ images:
   width: 753
   height: 382
   review: unreviewed
+  local: img/gallery/Deinocheirus_001.webp
 - kind: fossil
   file: Deinocheirus Skull.JPG
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Deinocheirus_Skull.JPG/960px-Deinocheirus_Skull.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -75,6 +76,7 @@ images:
   width: 2715
   height: 1587
   review: unreviewed
+  local: img/gallery/Deinocheirus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/vector.svg
   png: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/raster/512x304.png
@@ -84,6 +86,8 @@ silhouette:
   depicts: Deinocheirus mirificus
   matched: Deinocheirus
   genus_level: true
+  w: 512
+  h: 304
 sources:
 - kind: original
   text: Z. Kielan-Jaworowska. 1969. Fossils from the Gobi desert. Science Journal 5(1):32-38

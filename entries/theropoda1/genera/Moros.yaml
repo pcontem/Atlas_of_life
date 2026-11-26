@@ -53,6 +53,7 @@ images:
   width: 2601
   height: 1221
   review: unreviewed
+  local: img/gallery/Moros_001.webp
 - kind: fossil
   file: Moros intrepidus.png
   url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Moros_intrepidus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -65,6 +66,7 @@ images:
   width: 1329
   height: 667
   review: unreviewed
+  local: img/gallery/Moros_002.webp
 silhouette:
   src: https://images.phylopic.org/images/c573d59d-751c-4511-948e-86d9e8f53dc4/vector.svg
   png: https://images.phylopic.org/images/c573d59d-751c-4511-948e-86d9e8f53dc4/raster/512x202.png
@@ -74,6 +76,8 @@ silhouette:
   depicts: Moros intrepidus
   matched: Moros
   genus_level: true
+  w: 512
+  h: 202
 sources:
 - kind: original
   text: L. E. Zanno, R. T. Tucker, and A. Canoville, H. M. Avrahami, T. A. Gates, P. J. Makovicky. 2019. Diminutive

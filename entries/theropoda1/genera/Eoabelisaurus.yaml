@@ -53,6 +53,7 @@ images:
   width: 2000
   height: 981
   review: unreviewed
+  local: img/gallery/Eoabelisaurus_001.webp
 - kind: fossil
   file: Eoabelisaurus skull.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Eoabelisaurus_skull.jpg/960px-Eoabelisaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -65,6 +66,7 @@ images:
   width: 3008
   height: 2000
   review: unreviewed
+  local: img/gallery/Eoabelisaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/1447bc27-36d1-4b1e-b93b-04ae0bf47568/vector.svg
   png: https://images.phylopic.org/images/1447bc27-36d1-4b1e-b93b-04ae0bf47568/raster/512x172.png
@@ -74,6 +76,8 @@ silhouette:
   depicts: Eoabelisaurus mefi
   matched: Eoabelisaurus
   genus_level: true
+  w: 512
+  h: 172
 sources:
 - kind: original
   text: D. Pol and O. W. M. Rauhut. 2012. A Middle Jurassic abelisaurid from Patagonia and the early diversification

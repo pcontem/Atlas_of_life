@@ -53,6 +53,7 @@ images:
   width: 1000
   height: 540
   review: unreviewed
+  local: img/gallery/Arkansaurus_001.webp
 silhouette:
   src: https://images.phylopic.org/images/ccb72487-51c7-4266-9ec7-fdf26181a888/vector.svg
   png: https://images.phylopic.org/images/ccb72487-51c7-4266-9ec7-fdf26181a888/raster/512x231.png
@@ -62,6 +63,8 @@ silhouette:
   depicts: Arkansaurus fridayi
   matched: Arkansaurus
   genus_level: true
+  w: 512
+  h: 231
 sources:
 - kind: original
   text: 'Hunt, ReBecca; Quinn, James Harrison Marc. A new ornithomimosaur from the Early Cretaceous Trinity Group

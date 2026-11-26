@@ -80,6 +80,7 @@ images:
   width: 1192
   height: 670
   review: unreviewed
+  local: img/gallery/Bahariasaurus_001.webp
 - kind: fossil
   file: Bahariasaurus vertebra.png
   url: https://upload.wikimedia.org/wikipedia/commons/6/6f/Bahariasaurus_vertebra.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -92,6 +93,7 @@ images:
   width: 521
   height: 537
   review: unreviewed
+  local: img/gallery/Bahariasaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/vector.svg
   png: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/raster/512x171.png
@@ -101,6 +103,8 @@ silhouette:
   depicts: Marshosaurus bicentesimus
   matched: Bahariasaurus
   genus_level: true
+  w: 512
+  h: 171
 sources:
 - kind: original
   text: E. Stromer. 1934. Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltierreste

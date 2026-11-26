@@ -53,6 +53,7 @@ images:
   width: 3092
   height: 1522
   review: unreviewed
+  local: img/gallery/Aucasaurus_001.webp
 - kind: life
   file: Aucasaurus garridoi head reconstruction.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Aucasaurus_garridoi_head_reconstruction.jpg/960px-Aucasaurus_garridoi_head_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -65,6 +66,7 @@ images:
   width: 1920
   height: 1080
   review: unreviewed
+  local: img/gallery/Aucasaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/51fde071-08c5-4278-91b4-79acf9263339/vector.svg
   png: https://images.phylopic.org/images/51fde071-08c5-4278-91b4-79acf9263339/raster/512x179.png
@@ -74,6 +76,8 @@ silhouette:
   depicts: Aucasaurus garridoi
   matched: Aucasaurus
   genus_level: true
+  w: 512
+  h: 179
 sources:
 - kind: original
   text: 'Coria, R. A.; Chiappe, L. M.; Dingus, L. 2002. A new close relative of ''''Carnotaurus sastrei'''' Bonaparte

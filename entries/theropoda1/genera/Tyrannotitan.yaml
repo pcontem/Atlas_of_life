@@ -53,6 +53,7 @@ images:
   width: 4000
   height: 1239
   review: unreviewed
+  local: img/gallery/Tyrannotitan_001.webp
 - kind: fossil
   file: Tyrannotitan skull reconstruction.png
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Tyrannotitan_skull_reconstruction.png/960px-Tyrannotitan_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -65,6 +66,7 @@ images:
   width: 3922
   height: 3922
   review: unreviewed
+  local: img/gallery/Tyrannotitan_002.webp
 silhouette:
   src: https://images.phylopic.org/images/4bf61905-5424-4d54-b4fd-477a62907eae/vector.svg
   png: https://images.phylopic.org/images/4bf61905-5424-4d54-b4fd-477a62907eae/raster/512x246.png
@@ -74,6 +76,8 @@ silhouette:
   depicts: Tyrannotitan chubutensis
   matched: Tyrannotitan
   genus_level: true
+  w: 512
+  h: 246
 sources:
 - kind: original
   text: 'Novas, F. E. 2005. A large Cretaceous theropod from Patagonia, Argentina, and the evolution of carcharodontosaurids.

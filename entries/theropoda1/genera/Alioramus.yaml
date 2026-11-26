@@ -83,6 +83,7 @@ images:
   width: 3548
   height: 2009
   review: unreviewed
+  local: img/gallery/Alioramus_001.webp
 - kind: fossil
   file: Alioramus altai skull.png
   url: https://upload.wikimedia.org/wikipedia/commons/4/41/Alioramus_altai_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -95,6 +96,7 @@ images:
   width: 873
   height: 462
   review: unreviewed
+  local: img/gallery/Alioramus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/499fe1d6-a3c5-4219-a60e-d5ae93031bda/vector.svg
   png: https://images.phylopic.org/images/499fe1d6-a3c5-4219-a60e-d5ae93031bda/raster/512x242.png
@@ -104,6 +106,8 @@ silhouette:
   depicts: Alioramus remotus
   matched: Alioramus
   genus_level: true
+  w: 512
+  h: 242
 sources:
 - kind: original
   text: 'Kurzanov, Sergei M. 1976. A new carnosaur from the Late Cretaceous of Nogon-Tsav, Mongolia. The Joint Soviet-Mongolian

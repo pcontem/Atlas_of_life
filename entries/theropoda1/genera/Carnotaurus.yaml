@@ -54,6 +54,7 @@ images:
   width: 4000
   height: 2250
   review: unreviewed
+  local: img/gallery/Carnotaurus_001.webp
 - kind: fossil
   file: Carnotaurus Skull.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Carnotaurus_Skull.jpg/960px-Carnotaurus_Skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -66,6 +67,7 @@ images:
   width: 2592
   height: 3872
   review: unreviewed
+  local: img/gallery/Carnotaurus_002.webp
 - kind: skeletal
   file: Carnotaurus reconstruction Headden.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Carnotaurus_reconstruction_Headden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -78,6 +80,7 @@ images:
   width: 1500
   height: 536
   review: unreviewed
+  local: img/gallery/Carnotaurus_003.webp
 silhouette:
   src: https://images.phylopic.org/images/9cd6e394-ea75-4d75-bfb6-8ba4bc855aa3/vector.svg
   png: https://images.phylopic.org/images/9cd6e394-ea75-4d75-bfb6-8ba4bc855aa3/raster/512x180.png
@@ -87,6 +90,8 @@ silhouette:
   depicts: Carnotaurus sastrei
   matched: Carnotaurus
   genus_level: true
+  w: 512
+  h: 180
 sources:
 - kind: original
   text: 'Bonaparte, José F. 1985. A horned Cretaceous carnosaur from Patagonia. National Geographic Research 1(1):
