@@ -5,9 +5,9 @@ group: ''
 country: Spain
 regions: [Aragon, Aragón, Cuenca, Teruel]
 location:
-  lat: 40.647
-  lng: -0.862
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  lat: 40.646
+  lng: -0.861
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 121.4
@@ -19,9 +19,21 @@ environment:
 - '"channel"'
 - fluvial-deltaic indet.
 - '"floodplain"'
-lithology: [not reported, mudstone, claystone, sandstone]
-pbdb_collections: ['36368', '36369', '36375', '59075', '68489', '89262', '122078', '170003', '206094', '218995',
-  '219662', '219663']
+lithology: [mudstone, not reported, claystone, sandstone]
+pbdb_collections:
+- '36368'
+- '36369'
+- '36375'
+- '59075'
+- '68489'
+- '89262'
+- '122078'
+- '135648'
+- '170003'
+- '206094'
+- '218995'
+- '219662'
+- '219663'
 includes: []
 summary: ''
 paleoenvironment: ''

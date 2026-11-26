@@ -1,0 +1,92 @@
+name: Wiehenvenator
+rank: genus
+parent: megalosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Rauhut et al. 2016
+type_species: Wiehenvenator albati
+type_species_note: ''
+summary: Megalosaurid from the Callovian of north-western Germany, discovered in 1998 by Friedrich Albat.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Wiehenvenator albati
+  authority: Rauhut et al. 2016
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Ornatenton
+  group: Braunjura
+  members: [Upper Siltstone Series]
+  country: Germany
+  regions: [Nordrhein-Westfalen]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: ornatenton-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Wiehenvenator.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Wiehenvenator.png/960px-Wiehenvenator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Wiehenvenator.png
+  artist: Petr Menshikov ( https://twitter.com/Petr75113553 ; https://vk.com/prehistoricproduction )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-06-29'
+  caption: Life restoration of Wiehenvenator albati.
+  width: 1808
+  height: 984
+  review: unreviewed
+  local: img/gallery/Wiehenvenator_001.webp
+- kind: fossil
+  file: Wiehenvenator reconstructed skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1b/Wiehenvenator_reconstructed_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Wiehenvenator_reconstructed_skull.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-12-27'
+  caption: Reconstructed skull of Wiehenvenator.
+  width: 1066
+  height: 615
+  review: unreviewed
+  local: img/gallery/Wiehenvenator_002.webp
+sources:
+- kind: original
+  text: 'Rauhut, Oliver W.M.; Hübner, Tom R.; Lanser, Klaus-Peter 2016. A new megalosaurid theropod dinosaur from
+    the late Middle Jurassic (Callovian) of north-western Germany: Implications for theropod evolution and faunal
+    turnover in the Jurassic. Palaeontologia Electronica 19(2): 1–65.'
+- kind: literature
+  text: 'Oliver W. M. Rauhut, Achim H. Schwermann, Tom R. Hübner & Klaus-Peter Lanse . The oldest record of the
+    genus ''''Torvosaurus'''' (Theropoda: Megalosauridae) from the Callovian Ornatenton Formation of north-western
+    Germany. Geologie und Paläontologie in Westfalen 93: 1–13.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wiehenvenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wiehenvenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wiehenvenator”. English Wikipedia, revision 1387596127.
+  url: https://en.wikipedia.org/w/index.php?title=Wiehenvenator&oldid=1387596127
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

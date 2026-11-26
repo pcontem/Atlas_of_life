@@ -1,0 +1,96 @@
+name: Timimus
+rank: genus
+parent: coelurosauria
+incertae_sedis: true
+placement_note: Originally identified as an ornithomimosaur, now thought to be another kind of coelurosaur; PBDB
+  places it in Tyrannosauroidea.
+authority: Rich and Vickers-Rich 1994
+type_species: Timimus hermani
+type_species_note: ''
+summary: Small coelurosaur from the Early Cretaceous of Australia, originally described as an ornithomimosaur.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 93.9
+  early_interval: Albian
+  late_interval: Cenomanian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Timimus hermani
+  authority: Rich and Vickers-Rich 1994
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Eumeralla
+  group: Otway
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: eumeralla-australia
+- formation: Griman Creek
+  group: Rolling Downs
+  members: []
+  country: Australia
+  regions: [New South Wales]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: griman-creek-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Timimus femur.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Timimus_femur.jpg/960px-Timimus_femur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Timimus_femur.jpg
+  artist: Stephen F. Poropat, Phil R. Bell, Lachlan J. Hart, Steven W. Salisbury, & Benjamin P. Kear
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023'
+  caption: Femur of Timimus hermani.
+  width: 3340
+  height: 606
+  review: unreviewed
+  local: img/gallery/Timimus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/vector.svg
+  png: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/raster/512x198.png
+  page: https://www.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eotyrannus lengi
+  matched: Tyrannosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'T.H. Rich 1994. Neoceratopsians and ornithomimosaurs: dinosaurs of Gondwana origin?. National Geographic
+    Research and Exploration 10(1): 129–131.'
+- kind: literature
+  text: Benson, R. B. J.; Rich, T. H.; Vickers-Rich, P.; Hall, M. 2012. Theropod Fauna from Southern Australia Indicates
+    High Polar Diversity and Climate-Driven Dinosaur Provinciality. PLOS ONE 7(5). doi:10.1371/journal.pone.0037122
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Timimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Timimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Timimus”. English Wikipedia, revision 1362627470.
+  url: https://en.wikipedia.org/w/index.php?title=Timimus&oldid=1362627470
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

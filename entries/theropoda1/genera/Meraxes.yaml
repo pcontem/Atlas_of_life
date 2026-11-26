@@ -1,0 +1,105 @@
+name: Meraxes
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Canale et al. 2022
+type_species: Meraxes gigas
+type_species_note: ''
+summary: Large carcharodontosaurid from the Huincul Formation of Patagonia, Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Meraxes gigas
+  authority: Canale et al. 2022
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Life reconstruction of Meraxes gigas.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Life_reconstruction_of_Meraxes_gigas.png/960px-Life_reconstruction_of_Meraxes_gigas.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Meraxes_gigas.png
+  artist: Reptileano
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-04-16'
+  caption: Life reconstruction of Meraxes gigas.
+  width: 7000
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Meraxes_001.webp
+- kind: skeletal
+  file: Meraxes TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Meraxes_TD.png/960px-Meraxes_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Meraxes_TD.png
+  artist: TotalDino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-09-07'
+  caption: Skeletal reconstruction of Meraxes gigas.
+  width: 2800
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Meraxes_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Carcharodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Canale, Juan I.; Apesteguía, Sebastián; Gallina, Pablo A.; Mitchell, Jonathan; Smith, Nathan D.; Cullen,
+    Thomas M.; Shinya, Akiko; Haluza, Alejandro; Gianechini, Federico A.; Makovicky, Peter J. July. New giant carnivorous
+    dinosaur reveals convergent evolutionary trends in theropod arm reduction. Current Biology 32(14): 3195–3202.e5.
+    doi:10.1016/j.cub.2022.05.057'
+- kind: literature
+  text: 'Cullen, Thomas M.; Canale, Juan I.; Apesteguía, Sebastián; Smith, Nathan D.; Hu, Dongyu; Makovicky, Peter
+    J. 25 N. Osteohistological analyses reveal diverse strategies of theropod dinosaur body-size evolution. Proceedings
+    of the Royal Society B: Biological Sciences 287(1939). doi:10.1098/rspb.2020.2258'
+- kind: literature
+  text: Henderson, Donald M. 2023. Growth constraints set an upper limit to theropod dinosaur body size. The Science
+    of Nature 110(1). doi:10.1007/s00114-023-01832-1
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Meraxes (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Meraxes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Meraxes”. English Wikipedia, revision 1384221068.
+  url: https://en.wikipedia.org/w/index.php?title=Meraxes&oldid=1384221068
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

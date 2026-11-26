@@ -1,0 +1,76 @@
+name: Iberospinus
+rank: genus
+parent: spinosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Mateus and Estraviz-López 2022
+type_species: Iberospinus natarioi
+type_species_note: ''
+summary: Spinosaurid from the Barremian Papo Seco Formation of Portugal, known from assorted bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Iberospinus natarioi
+  authority: Mateus and Estraviz-López 2022
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Papo Seco
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Lisboa]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: papo-seco-portugal
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/vector.svg
+  png: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/raster/512x148.png
+  page: https://www.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Baryonyx walkeri
+  matched: Spinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mateus O, Estraviz-López D 2022. A new theropod dinosaur from the Early Cretaceous (Barremian) of Cabo
+    Espichel, Portugal: Implications for spinosaurid evolution. PLOS ONE 17(2). doi:10.1371/journal.pone.0262614'
+- kind: literature
+  text: 'Isasmendi, E.; Cuesta, E.; Díaz-Martínez, I. 2024. Increasing the theropod record of Europe: a new basal
+    spinosaurid from the Enciso Group of the Cameros Basin (La Rioja, Spain). Evolutionary implications and palaeobiodiversity.
+    Zoological Journal of the Linnean Society 202(3). doi:10.1093/zoolinnean/zlad193'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Iberospinus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Iberospinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Iberospinus”. English Wikipedia, revision 1368881669.
+  url: https://en.wikipedia.org/w/index.php?title=Iberospinus&oldid=1368881669
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  - Two Commons images (a life reconstruction and a caudal vertebra) could not be downloaded by media-fetch and
+    were removed; add images again through the triage page.
+  reviews: []

@@ -1,0 +1,99 @@
+name: Oxalaia
+rank: genus
+parent: spinosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Kellner et al. 2011
+type_species: Oxalaia quilombensis
+type_species_note: ''
+summary: Spinosaurid from the Cenomanian of north-eastern Brazil, named after the deity Oxala.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Oxalaia quilombensis
+  authority: Kellner et al. 2011
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Alcântara
+  group: Itapecuru
+  members: []
+  country: Brazil
+  regions: [Maranhão]
+  interval: Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: alcantara-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Life reconstruction of Oxalaia quilombensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Life_reconstruction_of_Oxalaia_quilombensis.png/960px-Life_reconstruction_of_Oxalaia_quilombensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Oxalaia_quilombensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-28'
+  caption: Life reconstruction of Oxalaia quilombensis.
+  width: 3272
+  height: 1215
+  review: unreviewed
+  local: img/gallery/Oxalaia_001.webp
+- kind: fossil
+  file: Holotype of Oxalaia quilombensis.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Holotype_of_Oxalaia_quilombensis.PNG/960px-Holotype_of_Oxalaia_quilombensis.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Holotype_of_Oxalaia_quilombensis.PNG
+  artist: Marcos A. F. Sales, Cesar L. Schultz
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017'
+  caption: Holotype of Oxalaia quilombensis.
+  width: 3518
+  height: 2339
+  review: unreviewed
+  local: img/gallery/Oxalaia_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/8284190f-a528-4da0-b86e-63bc5badb950/vector.svg
+  png: https://images.phylopic.org/images/8284190f-a528-4da0-b86e-63bc5badb950/raster/512x182.png
+  page: https://www.phylopic.org/images/8284190f-a528-4da0-b86e-63bc5badb950
+  attribution: Connor Ashbridge
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Oxalaia quilombensis
+  matched: Oxalaia
+  genus_level: true
+  w: 512
+  h: 182
+sources:
+- kind: original
+  text: 'Kellner, Alexander W. A.; Azevedo, Sergio A. K.; Machado, Elaine B.; Carvalho, Luciana B.; Henriques, Deise
+    D. R. 2011. A new dinosaur (Theropoda, Spinosauridae) from the Cretaceous (Cenomanian) Alcântara Formation,
+    Cajual Island, Brazil. Anais da Academia Brasileira de Ciências 83(1): 99–108. doi:10.1590/S0001-37652011000100006'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Oxalaia (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Oxalaia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Oxalaia”. English Wikipedia, revision 1362110726.
+  url: https://en.wikipedia.org/w/index.php?title=Oxalaia&oldid=1362110726
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,118 @@
+name: Chilantaisaurus
+rank: genus
+parent: neovenatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Hu 1964
+type_species: Chilantaisaurus tashuikouensis
+type_species_note: ''
+summary: Large Late Cretaceous theropod of China, named for the Jilantai Salt Lake.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 83.6
+  early_interval: Turonian
+  late_interval: Santonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Chilantaisaurus tashuikouensis
+  authority: Hu 1964
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+- name: Chilantaisaurus zheziangensis
+  authority: Dong 1979
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: ''
+formations:
+- formation: Tangshang
+  group: ''
+  members: []
+  country: China
+  regions: [Zhejiang]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: tangshang-china
+- formation: Ulansuhai
+  group: Dashuigou
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: ulansuhai-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Chilantaisaurus holotype photos.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/64/Chilantaisaurus_holotype_photos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chilantaisaurus_holotype_photos.png
+  artist: Xu Xing
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2010'
+  caption: Holotype of Chilantaisaurus tashuikouensis.
+  width: 850
+  height: 685
+  review: unreviewed
+  local: img/gallery/Chilantaisaurus_001.webp
+- kind: life
+  file: Chilantaisaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Chilantaisaurus.png/960px-Chilantaisaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chilantaisaurus.png
+  artist: TKWTH
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-10-01'
+  caption: Life restoration of Chilantaisaurus.
+  width: 4500
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Chilantaisaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Neovenatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Hu, S.-Y. 1964. Carnosaurian remains from Alashan, Inner Mongolia. Vertebrata PalAsiatica 8(1): 42–63.'
+- kind: literature
+  text: 'Benson, Roger B. J.; Xing, Xu 2008. The anatomy and systematic position of the theropod dinosaur ''''Chilantaisaurus
+    tashuikouensis'''' Hu, 1964 from the Early Cretaceous of Alanshan, People''s Republic of China. Geological Magazine
+    145(6): 778–789. doi:10.1017/S0016756808005475'
+- kind: literature
+  text: 'Evans, David C.; Brown, Caleb M.; You, Hailu; Campione, Nicolás E. 2021. Description and revised diagnosis
+    of Asia''s first recorded pachycephalosaurid, Sinocephale bexelli gen. nov., from the Upper Cretaceous of Inner
+    Mongolia, China. Canadian Journal of Earth Sciences 58(10): 981–992. doi:10.1139/cjes-2020-0190'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chilantaisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chilantaisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chilantaisaurus”. English Wikipedia, revision 1380992875.
+  url: https://en.wikipedia.org/w/index.php?title=Chilantaisaurus&oldid=1380992875
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

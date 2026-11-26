@@ -1,0 +1,99 @@
+name: Neovenator
+rank: genus
+parent: neovenatoridae
+incertae_sedis: false
+placement_note: ''
+authority: Hutt et al. 1996
+type_species: Neovenator salerii
+type_species_note: ''
+summary: Carcharodontosaurian theropod from the Early Cretaceous Wessex Formation of the Isle of Wight, England.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Neovenator salerii
+  authority: Hutt et al. 1996
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Neovenator.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Neovenator.png/960px-Neovenator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neovenator.png
+  artist: Fred Wierum
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-10-23'
+  caption: Life restoration of Neovenator salerii.
+  width: 5000
+  height: 3000
+  review: unreviewed
+  local: img/gallery/Neovenator_001.webp
+- kind: fossil
+  file: Neovenator skull reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Neovenator_skull_reconstruction.png/960px-Neovenator_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neovenator_skull_reconstruction.png
+  artist: Eotyrannu5-2
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-11-23'
+  caption: Skull reconstruction of Neovenator salerii.
+  width: 4276
+  height: 1953
+  review: unreviewed
+  local: img/gallery/Neovenator_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Neovenator
+  genus_level: true
+sources:
+- kind: original
+  text: 'Hutt, S.; Martill, D.M.; Barker, M.J. 1996. The first European allosauroid dinosaur (Lower Cretaceous,
+    Wealden Group, England). Neues Jahrbuch für Geologie und Paläontologie - Monatshefte 1996(10): 635–644. doi:10.1127/njgpm/1996/1996/635'
+- kind: literature
+  text: 'Hutt, S.; Simmonds, K.; Hullman, G. 1990. Predatory dinosaurs from the Isle of Wight. Proceedings of the
+    Isle of Wight Natural History and Archaeological Society 9: 137–146.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neovenator”. English Wikipedia, revision 1383349044.
+  url: https://en.wikipedia.org/w/index.php?title=Neovenator&oldid=1383349044
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

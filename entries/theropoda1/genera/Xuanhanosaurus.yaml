@@ -1,0 +1,92 @@
+name: Xuanhanosaurus
+rank: genus
+parent: piatnitzkysauridae
+incertae_sedis: true
+placement_note: PBDB places it in Piatnitzkysauridae; Wikipedia describes only a theropod from the Sichuan Basin,
+  so its position inside that family is not settled by the sources used.
+authority: Dong 1984
+type_species: Xuanhanosaurus qilixiaensis
+type_species_note: ''
+summary: Middle Jurassic theropod from the Sichuan Basin of China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 170.9
+  last_ma: 168.2
+  early_interval: Bajocian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xuanhanosaurus qilixiaensis
+  authority: Dong 1984
+  first_ma: 170.9
+  last_ma: 168.2
+  interval: Bajocian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian
+  occurrences: 1
+  ma: [168.2, 170.9]
+  id: shaximiao-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Xuanhanosaurus qilixiaensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Xuanhanosaurus_qilixiaensis.jpg/960px-Xuanhanosaurus_qilixiaensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Xuanhanosaurus_qilixiaensis.jpg
+  artist: Audrey.m.horn
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-01-10'
+  caption: Life restoration of Xuanhanosaurus qilixiaensis.
+  width: 3062
+  height: 1231
+  review: unreviewed
+  local: img/gallery/Xuanhanosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/vector.svg
+  png: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/raster/512x171.png
+  page: https://www.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Marshosaurus bicentesimus
+  matched: Piatnitzkysauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Dong, Z. 1984. A new theropod dinosaur from the Middle Jurassic of Sichuan Basin. Vertebrata PalAsiatica
+    22(3): 213–218.'
+- kind: literature
+  text: Zhou, Yuxuan; Dai, Hui; Yu, Haidong; Ma, Qingyu; Tan, Chao; Li, Ning; Lin, Yu; Li, Deliang 2022. Zircon
+    geochronology of the new dinosaur fauna in the Middle Jurassic lower Shaximiao Formation in Chongqing, SW China.
+    Palaeogeography, Palaeoclimatology, Palaeoecology 592. doi:10.1016/j.palaeo.2022.110894
+- kind: literature
+  text: Xu, X.; Han, F.; Zhao, Q. 2014. Homologies and homeotic transformation of the theropod 'semilunate' carpal.
+    Scientific Reports 4(1). doi:10.1038/srep06042
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xuanhanosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xuanhanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xuanhanosaurus”. English Wikipedia, revision 1369645410.
+  url: https://en.wikipedia.org/w/index.php?title=Xuanhanosaurus&oldid=1369645410
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB dates it Bajocian while the Wikipedia lead gives the Bathonian (about 166 Ma); check Zhou et al. 2022.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

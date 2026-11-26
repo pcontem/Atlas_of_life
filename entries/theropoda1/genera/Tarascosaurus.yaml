@@ -1,0 +1,89 @@
+name: Tarascosaurus
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Le Loeuff and Buffetaut 1991
+type_species: Tarascosaurus salluvicus
+type_species_note: ''
+summary: Relatively small abelisaurid from the Late Cretaceous of France, 2.5–3 m long.
+size:
+  length_m: [2.5, 3]
+  note: 2.5–3 m according to Wikipedia revision 1364825287.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tarascosaurus salluvicus
+  authority: Le Loeuff and Buffetaut 1991
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: unnamed-lambeau-de-beausset-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: An upper jaw bone found near Pourcieux and other remains.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Tarascosaurus salluvicus femur.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Tarascosaurus_salluvicus_femur.JPG/960px-Tarascosaurus_salluvicus_femur.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tarascosaurus_salluvicus_femur.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2009-06
+  caption: Femur of Tarascosaurus salluvicus.
+  width: 1920
+  height: 2560
+  review: unreviewed
+  local: img/gallery/Tarascosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Loeuff, J.L.; Buffetaut, É. 1991. ''''Tarascosaurus salluvicus'''' nov. gen., nov. sp., a Theropod Dinosaur
+    from the Upper Cretaceous of Southern France. Geobios 25(5): 585–594. doi:10.1016/0016-6995(91)80022-R'
+- kind: literature
+  text: 'Allain, Ronan; Pereda-Suberbiola, Xabier 2003. Dinosaurs of France. Comptes Rendus Palevol 2(1): 27–44.
+    doi:10.1016/S1631-0683(03)00002-2'
+- kind: literature
+  text: 'Tortosa, Thierry 2014. A new abelisaurid dinosaur from the Late Cretaceous of southern France: Palaeobiogeographical
+    implications. Annales de Paléontologie 100(1): 63–86. doi:10.1016/j.annpal.2013.10.003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tarascosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tarascosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tarascosaurus”. English Wikipedia, revision 1364825287.
+  url: https://en.wikipedia.org/w/index.php?title=Tarascosaurus&oldid=1364825287
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

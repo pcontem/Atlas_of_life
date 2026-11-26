@@ -1,0 +1,104 @@
+name: Guanlong
+rank: genus
+parent: proceratosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2006
+type_species: Guanlong wucaii
+type_species_note: ''
+summary: Crested proceratosaurid tyrannosauroid from the Late Jurassic Shishugou Formation of China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Guanlong wucaii
+  authority: Xu et al. 2006
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Shishugou
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: shishugou-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Guanlong Mounted Skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Guanlong_Mounted_Skeleton.jpg/960px-Guanlong_Mounted_Skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Guanlong_Mounted_Skeleton.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2012-09-15'
+  caption: Mounted skeleton of Guanlong wucaii.
+  width: 2556
+  height: 1569
+  review: unreviewed
+  local: img/gallery/Guanlong_001.webp
+- kind: fossil
+  file: Guanlong wucaii paratype BMNHC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Guanlong_wucaii_paratype_BMNHC.jpg/960px-Guanlong_wucaii_paratype_BMNHC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Guanlong_wucaii_paratype_BMNHC.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-27'
+  caption: Paratype of Guanlong wucaii.
+  width: 5858
+  height: 2810
+  review: unreviewed
+  local: img/gallery/Guanlong_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096/vector.svg
+  png: https://images.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096/raster/512x212.png
+  page: https://www.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096
+  attribution: Conty (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Kileskus aristotocus
+  matched: Proceratosauridae
+  genus_level: false
+  w: 512
+  h: 212
+sources:
+- kind: original
+  text: X. Xu, J. M. Clark, and C. A. Forster, M. A. Norell, G. M. Erickson, D. A. Eberth, C. Jai, Q. Zhao. 2006.
+    A basal tyrannosauroid dinosaur from the Late Jurassic of China. Nature 439:715-718
+- kind: literature
+  text: 'Xu X. 2006. A basal tyrannosauroid dinosaur from the Late Jurassic of China. Nature 439(7077): 715–718.
+    doi:10.1038/nature04511'
+- kind: literature
+  text: Loewen, M.A.; Irmis, R.B.; Sertich, J.J.W.; Currie, P. J.; Sampson, S. D. 2013. Tyrant Dinosaur Evolution
+    Tracks the Rise and Fall of Late Cretaceous Oceans. PLoS ONE 8(11). doi:10.1371/journal.pone.0079420
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Guanlong (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Guanlong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Guanlong”. English Wikipedia, revision 1374576581.
+  url: https://en.wikipedia.org/w/index.php?title=Guanlong&oldid=1374576581
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

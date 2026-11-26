@@ -1,0 +1,90 @@
+name: Scipionyx
+rank: genus
+parent: compsognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Dal Sasso and Signore 1996
+type_species: Scipionyx samniticus
+type_species_note: ''
+summary: Theropod from the Early Cretaceous Pietraroja Formation of Italy, around 113 million years old, known from
+  one specimen.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Scipionyx samniticus
+  authority: Dal Sasso and Signore 1996
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Campania]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: unnamed-civita-di-pietraroja-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: 9119 - Milano, Museo storia naturale - Scipionyx samniticus - Foto Giovanni Dall'Orto 22-Apr-2007.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/9119_-_Milano%2C_Museo_storia_naturale_-_Scipionyx_samniticus_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg/960px-9119_-_Milano%2C_Museo_storia_naturale_-_Scipionyx_samniticus_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:9119_-_Milano,_Museo_storia_naturale_-_Scipionyx_samniticus_-_Foto_Giovanni_Dall%27Orto_22-Apr-2007.jpg
+  artist: Giovanni Dall'Orto
+  license: CC BY-SA 2.5 it
+  license_url: https://creativecommons.org/licenses/by-sa/2.5/it/deed.en
+  date: '2007-04-22'
+  caption: Scipionyx at the Milan natural history museum.
+  width: 2048
+  height: 1360
+  review: unreviewed
+  local: img/gallery/Scipionyx_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/vector.svg
+  png: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/raster/969x1014.png
+  page: https://www.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinosauropteryx prima
+  matched: Compsognathidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. Dal Sasso and M. Signore. 1996. Exceptional soft-tissue preservation in a theropod dinosaur from Italy.
+    Nature 392:383-387
+- kind: literature
+  text: 'Cau, Andrea 2021. Comments on the Mesozoic theropod dinosaurs from Italy. Atti della Società dei Naturalisti
+    e Matematici di Modena 152: 81–95.'
+- kind: literature
+  text: 'Cau, Andrea 2024. A Unified Framework for Predatory Dinosaur Macroevolution. Bollettino della Società Paleontologica
+    Italiana 63(1): 1–19. doi:10.4435/BSPI.2024.08'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scipionyx (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scipionyx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scipionyx”. English Wikipedia, revision 1335300381.
+  url: https://en.wikipedia.org/w/index.php?title=Scipionyx&oldid=1335300381
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,88 @@
+name: Taurovenator
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Motta et al. 2016
+type_species: Taurovenator violantei
+type_species_note: ''
+summary: Probable carcharodontosaurid from the Albian of Argentina, whose name means bull hunter.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Taurovenator violantei
+  authority: Motta et al. 2016
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Middle Albian
+  occurrences: 2
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Taurovenator violantei.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Taurovenator_violantei.png/960px-Taurovenator_violantei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Taurovenator_violantei.png
+  artist: César Díaz Frías
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 9/10/2024
+  caption: Life restoration of Taurovenator violantei.
+  width: 3016
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Taurovenator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Carcharodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Motta, Matías J.; Aranciaga Rolando, Alexis M.; Rozadilla, Sebastián; Agnolín, Federico E.; Chimento, Nicolás
+    R.; Egli, Federico Brissón; Novas, Fernando E. June. New theropod fauna from the Upper Cretaceous (Huincul Formation)
+    of northwestern Patagonia, Argentina. New Mexico Museum of Natural History and Science Bulletin 71: 231–253.'
+- kind: literature
+  text: Rolando, Alexis M. Aranciaga; Motta, Matías J.; Agnolín, Federico L.; Tsuihiji, Takanobu; Miner, Santiago;
+    Brissón-Egli, Federico; Novas, Fernando E. 9 Oc. A new carcharodontosaurid specimen sheds light on the anatomy
+    of South American giant predatory dinosaurs. The Science of Nature 111(6). doi:10.1007/s00114-024-01942-4
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Taurovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Taurovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Taurovenator”. English Wikipedia, revision 1378652709.
+  url: https://en.wikipedia.org/w/index.php?title=Taurovenator&oldid=1378652709
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

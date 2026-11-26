@@ -1,0 +1,93 @@
+name: Vallibonavenatrix
+rank: genus
+parent: baryonychinae
+incertae_sedis: false
+placement_note: ''
+authority: Malafaia et al. 2019
+type_species: Vallibonavenatrix cani
+type_species_note: ''
+summary: Spinosaurid from the Barremian Arcillas de Morella Formation near Vallibona, Castellon, Spain.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Vallibonavenatrix cani
+  authority: Malafaia et al. 2019
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Arcillas de Morella
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valenciana]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: arcillas-de-morella-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Life reconstruction of Vallibonavenatrix cani.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Life_reconstruction_of_Vallibonavenatrix_cani.png/960px-Life_reconstruction_of_Vallibonavenatrix_cani.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Vallibonavenatrix_cani.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-28'
+  caption: Life reconstruction of Vallibonavenatrix cani.
+  width: 2334
+  height: 822
+  review: unreviewed
+  local: img/gallery/Vallibonavenatrix_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/vector.svg
+  png: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/raster/512x148.png
+  page: https://www.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Baryonyx walkeri
+  matched: Spinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Malafaia, E.; Miguel Gasulla, J.; Escaso, F.; Narváez, I.; Luis Sanz, J.; Ortega, F. 2019. A new spinosaurid
+    theropod (Dinosauria: Megalosauroidea) from the late Barremian of Vallibona, Spain: Implications for spinosaurid
+    diversity in the Early Cretaceous of the Iberian Peninsula. Cretaceous Research 106. doi:10.1016/j.cretres.2019.104221'
+- kind: literature
+  text: 'Isasmendi, E.; Cuesta, E.; Díaz-Martínez, I.; ((Company)), Julio; Sáez-Benito, P.; Viera, L. I.; Torices,
+    A.; Pereda-Suberbiola, P. 2024. Increasing the theropod record of Europe: a new basal spinosaurid from the Enciso
+    Group of the Cameros Basin (La Rioja, Spain). Evolutionary implications and palaeobiodiversity. Zoological Journal
+    of the Linnean Society 202(3). doi:10.1093/zoolinnean/zlad193'
+- kind: literature
+  text: Barker, C.T.; Hone, D.; Naish, D.; Cau, A.; Lockwood, J.; Foster, B.; Clarkin, C.; Schneider, P.; Gostling,
+    N. 2021. New spinosaurids from the Wessex Formation (Early Cretaceous, UK) and the European origins of Spinosauridae.
+    Scientific Reports 11(1). doi:10.1038/s41598-021-97870-8
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vallibonavenatrix (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vallibonavenatrix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vallibonavenatrix”. English Wikipedia, revision 1386490387.
+  url: https://en.wikipedia.org/w/index.php?title=Vallibonavenatrix&oldid=1386490387
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

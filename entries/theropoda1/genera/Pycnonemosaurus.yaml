@@ -1,0 +1,86 @@
+name: Pycnonemosaurus
+rank: genus
+parent: furileusauria
+incertae_sedis: false
+placement_note: ''
+authority: Kellner and Campos 2002
+type_species: Pycnonemosaurus nevesi
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from the Cachoeira do Bom Jardim Formation of Mato Grosso, Brazil.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pycnonemosaurus nevesi
+  authority: Kellner and Campos 2002
+  first_ma: 100.5
+  last_ma: 66
+  interval: Cenomanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Parecis
+  members: []
+  country: Brazil
+  regions: [Mato Grosso]
+  interval: Late Cretaceous
+  occurrences: 1
+  ma: [66.0, 100.5]
+  id: parecis-group-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Pycnonemosaurus restoration 2020.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d4/Pycnonemosaurus_restoration_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pycnonemosaurus_restoration_2020.jpg
+  artist: Mario Lanzas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-03-03'
+  caption: Life restoration of Pycnonemosaurus nevesi.
+  width: 1111
+  height: 565
+  review: unreviewed
+  local: img/gallery/Pycnonemosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kellner, A.W.A.; Campos, D.A. 2002. On a theropod dinosaur (Abelisauria) from the continental Cretaceous
+    of Brazil. Arquivos do Museu Nacional Rio de Janeiro 60(3): 163–170.'
+- kind: literature
+  text: 'Delcourt, R. 2017. Revised morphology of ''''Pycnonemosaurus nevesi'''' Kellner & Campos, 2002 (Theropoda:
+    Abelisauridae) and its phylogenetic relationships. Zootaxa 4276(1): 1–45. doi:10.11646/zootaxa.4276.1.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pycnonemosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pycnonemosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pycnonemosaurus”. English Wikipedia, revision 1314744411.
+  url: https://en.wikipedia.org/w/index.php?title=Pycnonemosaurus&oldid=1314744411
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

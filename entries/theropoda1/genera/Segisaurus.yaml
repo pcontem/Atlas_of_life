@@ -1,0 +1,82 @@
+name: Segisaurus
+rank: genus
+parent: coelophysidae
+incertae_sedis: false
+placement_note: ''
+authority: Camp 1936
+type_species: Segisaurus halli
+type_species_note: ''
+summary: Small coelophysid from the Early Jurassic of Arizona, about 1 m long, known from one specimen.
+size:
+  length_m: [1, 1]
+  note: About 1 m according to Wikipedia revision 1346879585.
+age:
+  first_ma: 192.9
+  last_ma: 174.7
+  early_interval: Pliensbachian
+  late_interval: Toarcian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Segisaurus halli
+  authority: Camp 1936
+  first_ma: 192.9
+  last_ma: 174.7
+  interval: Pliensbachian–Toarcian
+  reference: original description
+formations:
+- formation: Navajo Sandstone
+  group: Glen Canyon
+  members: []
+  country: United States
+  regions: [Arizona]
+  interval: Pliensbachian–Toarcian
+  occurrences: 2
+  ma: [174.7, 192.9]
+  id: navajo-sandstone-united-states
+fossil_material:
+  holotype: Not given in the sources used (the single known specimen from Tsegi Canyon, Arizona).
+  material: One specimen, the only dinosaur excavated from the Tsegi Canyon area.
+  completeness: partial
+  exceptional: ''
+biology: A small coelophysid theropod.
+images:
+- kind: fossil
+  file: Segisaurus halli holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Segisaurus_halli_holotype.jpg/960px-Segisaurus_halli_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Segisaurus_halli_holotype.jpg
+  artist: Camp, C. L.
+  license: Public domain
+  license_url: ''
+  date: '1936'
+  caption: Holotype of Segisaurus halli.
+  width: 4774
+  height: 1378
+  review: unreviewed
+  local: img/gallery/Segisaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/vector.svg
+  png: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/raster/512x163.png
+  page: https://www.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelophysis bauri
+  matched: Segisaurus
+  genus_level: true
+sources:
+- kind: original
+  text: C. L. Camp. 1936. A new type of bipedal dinosaur from the Navajo Sandstone of Arizona. University of California
+    Publications in Geological Sciences 24(2):39-56
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Segisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Segisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Segisaurus”. English Wikipedia, revision 1346879585.
+  url: https://en.wikipedia.org/w/index.php?title=Segisaurus&oldid=1346879585
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number and original naming paper (Camp 1936) not read.]
+  reviews: []

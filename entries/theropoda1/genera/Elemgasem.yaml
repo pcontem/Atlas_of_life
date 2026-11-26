@@ -1,0 +1,88 @@
+name: Elemgasem
+rank: genus
+parent: furileusauria
+incertae_sedis: false
+placement_note: ''
+authority: Baiano et al. 2022
+type_species: Elemgasem nubilus
+type_species_note: ''
+summary: Brachyrostran abelisaurid from the Late Cretaceous Portezuelo Formation of Patagonia, Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 85.7
+  early_interval: Turonian
+  late_interval: Coniacian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Elemgasem nubilus
+  authority: Baiano et al. 2022
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: original description
+formations:
+- formation: Portezuelo
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [' Neuquén']
+  interval: Late Turonian–Early Coniacian
+  occurrences: 1
+  ma: [85.7, 93.9]
+  id: portezuelo-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Elemgasem nubilus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Elemgasem_nubilus.jpg/960px-Elemgasem_nubilus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Elemgasem_nubilus.jpg
+  artist: Путаниум
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-06-01'
+  caption: Life restoration of Elemgasem nubilus.
+  width: 3744
+  height: 2257
+  review: unreviewed
+  local: img/gallery/Elemgasem_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Baiano, Mattia A.; Pol, Diego; Bellardini, Flavio; Windholz, Guillermo J.; Cerda, Ignacio A.; Garrido,
+    Alberto C.; Coria, Rodolfo A 2022. ''''Elemgasem nubilus'''': a new brachyrostran abelisaurid (Theropoda, Ceratosauria)
+    from the Portezuelo Formation (Upper Cretaceous) of Patagonia, Argentina. Papers in Palaeontology 8(5). doi:10.1002/spp2.1462'
+- kind: literature
+  text: 'Baiano, Mattia A.; Cerda, Ignacio A.; Bertozzo, Filippo; Pol, Diego 2024. New information on paleopathologies
+    in non-avian theropod dinosaurs: a case study on South American abelisaurids. BMC Ecology and Evolution 24(1).
+    doi:10.1186/s12862-023-02187-x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elemgasem (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elemgasem
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elemgasem”. English Wikipedia, revision 1311746815.
+  url: https://en.wikipedia.org/w/index.php?title=Elemgasem&oldid=1311746815
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,141 @@
+name: Bahariasaurus
+rank: genus
+parent: avetheropoda
+incertae_sedis: true
+placement_note: Wikipedia calls it enigmatic; PBDB places it in Avetheropoda without a lower clade.
+authority: Stromer 1934
+type_species: Bahariasaurus ingens
+type_species_note: ''
+summary: Enigmatic large theropod from the Cenomanian of North Africa, named by Stromer in 1934.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 66
+  early_interval: Albian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Bahariasaurus ingens
+  authority: Stromer 1934
+  first_ma: 113.2
+  last_ma: 66
+  interval: Albian–Maastrichtian
+  reference: original description
+formations:
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Matruh]
+  interval: Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+- formation: Unnamed unit
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Tahoua]
+  interval: Early Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 113.2]
+  id: tegama-group-niger
+- formation: Echkar
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: echkar-niger
+- formation: Dukamaje
+  group: ''
+  members: []
+  country: Niger
+  regions: [Tahoua]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: dukamaje-niger
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Bahariasaurus restoration.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/70/Bahariasaurus_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bahariasaurus_restoration.png
+  artist: Bubblesorg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-11-06'
+  caption: Life restoration of Bahariasaurus ingens.
+  width: 1192
+  height: 670
+  review: unreviewed
+  local: img/gallery/Bahariasaurus_001.webp
+- kind: fossil
+  file: Bahariasaurus vertebra.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6f/Bahariasaurus_vertebra.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bahariasaurus_vertebra.png
+  artist: Ernst von Stromer
+  license: Public domain
+  license_url: ''
+  date: '1934'
+  caption: Bahariasaurus vertebra.
+  width: 521
+  height: 537
+  review: unreviewed
+  local: img/gallery/Bahariasaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/vector.svg
+  png: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/raster/512x171.png
+  page: https://www.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Marshosaurus bicentesimus
+  matched: Bahariasaurus
+  genus_level: true
+  w: 512
+  h: 171
+sources:
+- kind: original
+  text: E. Stromer. 1934. Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltierreste
+    der Baharîje-Stufe (unterstes Cenoman). 13. Dinosauria [Results of the expeditions of Professor E. Stromer in
+    the Egyptian deserts. II. Vertebrate animal remains from the Baharîje bed (lowest Cenomanian). 13. Dinosauria].
+    Abhandlungen der Bayerischen Akademie der Wissenschaften Mathematisch-naturwissenschaftliche Abteilung, Neue
+    Folge 22:1-79
+- kind: literature
+  text: 'Stromer, Ernst 1931. Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltier-Reste
+    der Baharîjestufe (unterstes Cenoman). 10. Ein Skelett-Rest von ''''Carcharodontosaurus'''' nov. gen. Abhandlungen
+    der Bayerischen Akademie der Wissenschaften Mathematisch-naturwissenschaftliche Abteilung 9: 1–31.'
+- kind: literature
+  text: 'Ibrahim, Nizar; Sereno, Paul C.; Varricchio, David J.; Martill, David M.; Dutheil, Didier B.; Unwin, David
+    M.; Baidder, Lahssen; Larsson, Hans C. E.; Zouhri, Samir; Kaoukaya, Abdelhadi 21 A. Geology and paleontology
+    of the Upper Cretaceous Kem Kem Group of eastern Morocco. ZooKeys(928): 1–216. doi:10.3897/zookeys.928.47517'
+- kind: literature
+  text: 'Motta, Matias Javier; Aranciaga Rolando, Alexis Mauro; Rozadilla, Sebastian; Agnolin, Federico; Chimento,
+    Nicolás Roberto; Brissón Egli, Federico; Novas, Fernando Emilio 2016. New theropod fauna from the Upper Cretaceous
+    (Huincul Formation) of Northwestern Patagonia, Argentina. New Mexico Museum of Natural History and Science;
+    Bulletin of the New Mexico Museum of Natural History and Science 71(6): 231–253.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bahariasaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bahariasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bahariasaurus”. English Wikipedia, revision 1370071838.
+  url: https://en.wikipedia.org/w/index.php?title=Bahariasaurus&oldid=1370071838
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

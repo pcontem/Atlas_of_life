@@ -1,0 +1,91 @@
+name: Dzharacursor
+rank: genus
+parent: ornithomimidae
+incertae_sedis: false
+placement_note: ''
+authority: Averianov and Sues 2024
+type_species: Dzharacursor bissektensis
+type_species_note: PBDB lists Dzharacursor bissektensis (Nessov 1995), originally named in another genus; the genus
+  is Averianov and Sues 2024.
+summary: Ornithomimid from the Turonian Bissekty Formation of Uzbekistan, whose name means Dzharakuduk runner.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dzharacursor bissektensis
+  authority: (Nessov 1995)
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Dzharacursor bissektensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Dzharacursor_bissektensis.png/960px-Dzharacursor_bissektensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dzharacursor_bissektensis.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-09'
+  caption: Life restoration of Dzharacursor bissektensis.
+  width: 4500
+  height: 2425
+  review: unreviewed
+  local: img/gallery/Dzharacursor_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/vector.svg
+  png: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/raster/512x209.png
+  page: https://www.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Gallimimus bullatus
+  matched: Ornithomimidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. O. Averianov and H. Sues. 2024. A new ornithomimid theropod from the Upper Cretaceous Bissekty Formation
+    of Uzbekistan. Journal of Vertebrate Paleontology 44(3):e2433759
+- kind: literature
+  text: 'Nesov, L. A. 1995. Dinozavri severnoi Yevrazii: Novye dannye o sostave kompleksov, ekologii i paleobiogeografii.
+    Institute for Scientific Research on the Earth''s Crust: 1–156.'
+- kind: literature
+  text: 'Lee, Y.-N.; Barsbold, R.; Currie, P. J.; Kobayashi, Y.; Lee, H.-J.; Godefroit, P.; Escuillié, F.; Chinzorig,
+    T. 2014. Resolving the long-standing enigmas of a giant ornithomimosaur ''''Deinocheirus mirificus''''. Nature
+    515(7526): 257–260. doi:10.1038/nature13874'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dzharacursor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dzharacursor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dzharacursor”. English Wikipedia, revision 1387598497.
+  url: https://en.wikipedia.org/w/index.php?title=Dzharacursor&oldid=1387598497
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,103 @@
+name: Dubreuillosaurus
+rank: genus
+parent: megalosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Allain 2005
+type_species: Dubreuillosaurus valesdunensis
+type_species_note: Only named species; originally described as a species of Poekilopleuron (Allain 2002).
+summary: Middle Jurassic megalosaurid from France, originally described as a species of Poekilopleuron.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dubreuillosaurus valesdunensis
+  authority: (Allain 2002)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: Calcaires de Caen
+  group: ''
+  members: [Pierre de Caen]
+  country: France
+  regions: [Basse-Normandie]
+  interval: Middle Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: calcaires-de-caen-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Dubreuillosaurus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Dubreuillosaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dubreuillosaurus_skull.jpg
+  artist: Conty
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Skull of Dubreuillosaurus valesdunensis.
+  width: 615
+  height: 370
+  review: unreviewed
+  local: img/gallery/Dubreuillosaurus_001.webp
+- kind: fossil
+  file: Dubreuillosaurus reconstructed skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a5/Dubreuillosaurus_reconstructed_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dubreuillosaurus_reconstructed_skull.png
+  artist: User:IJReid
+  license: Public domain
+  license_url: ''
+  date: '2014-04-04'
+  caption: Reconstructed skull of Dubreuillosaurus.
+  width: 553
+  height: 300
+  review: unreviewed
+  local: img/gallery/Dubreuillosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/e46c71d9-d38c-4539-9f95-b1a26167d5d0/vector.svg
+  png: https://images.phylopic.org/images/e46c71d9-d38c-4539-9f95-b1a26167d5d0/raster/512x126.png
+  page: https://www.phylopic.org/images/e46c71d9-d38c-4539-9f95-b1a26167d5d0
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eustreptospondylus oxoniensis
+  matched: Eustreptospondylinae
+  genus_level: false
+sources:
+- kind: original
+  text: 'R. Allain. 2005. The postcranial anatomy of the megalosaur Dubreuillosaurus valesdunensis (Dinosauria:
+    Theropoda) from the Middle Jurassic of Normandy, France. Journal of Vertebrate Paleontology 25(4):850-858'
+- kind: literature
+  text: 'Allain, R. 2002. Discovery of a megalosaur (dinosauria, Theropoda) in the Middle Bathonian of Normandy
+    (France) and its implications for the phylogeny of basal Tetanurae. Journal of Vertebrate Paleontology 22(3):
+    548–563. doi:10.1671/0272-4634(2002)022[0548:domdti]2.0.co;2'
+- kind: literature
+  text: Cau, Andrea 2024. A Unified Framework for Predatory Dinosaur Macroevolution. Bollettino della Società Paleontologica
+    Italiana 63(1). doi:10.4435/BSPI.2024.08
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dubreuillosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dubreuillosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dubreuillosaurus”. English Wikipedia, revision 1384676291.
+  url: https://en.wikipedia.org/w/index.php?title=Dubreuillosaurus&oldid=1384676291
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

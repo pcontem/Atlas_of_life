@@ -1,0 +1,127 @@
+name: Compsognathus
+rank: genus
+parent: compsognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagner 1861
+type_species: Compsognathus longipes
+type_species_note: ''
+summary: Small bipedal carnivorous theropod from the Late Jurassic of Europe, the type genus of Compsognathidae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 154.8
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Compsognathus corallestris
+  authority: Bidar et al. 1972
+  first_ma: 154.8
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Compsognathus longipes
+  authority: Wagner 1861
+  first_ma: 154.8
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne-Rhône-Alpes, Provence-Alpes-Côte d'Azur]
+  interval: Kimmeridgian–Early Tithonian
+  occurrences: 2
+  ma: [145.06, 154.8]
+  id: [unnamed-canjuers-les-bessons-quarry-france, unnamed-cerin-france]
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: Painten
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: painten-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Compsognathus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c4/Compsognathus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Compsognathus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-03-11'
+  caption: Life restoration of Compsognathus.
+  width: 800
+  height: 396
+  review: unreviewed
+  local: img/gallery/Compsognathus_001.webp
+- kind: fossil
+  file: Compsognathus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Compsognathus_TD.png/960px-Compsognathus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Compsognathus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-30'
+  caption: Specimen of Compsognathus longipes.
+  width: 3000
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Compsognathus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/vector.svg
+  png: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/raster/969x1014.png
+  page: https://www.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinosauropteryx prima
+  matched: Compsognathidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wagner, Johann Andreas 1861. Neue Beiträge zur Kenntnis der urweltlichen Fauna des lithographischen Schiefers;
+    V. ''''Compsognathus longipes'''' Wagner. Abhandlungen der Bayerischen Akademie der Wissenschaften 9: 30–38.'
+- kind: literature
+  text: Wagner, J. A. 1859. Über einige im lithographischen Schiefer neu aufgefundene Schildkröten und Saurier.
+    Gelehrte Anzeigen der Bayerischen Akademie der Wissenschaften 49.
+- kind: literature
+  text: 'Göhlich, Ursula B.; Tischlinger, Helmut; Chiappe, Luis M. 2006. ''''Juravenator starki'''' (reptilia, theropoda),
+    ein neuer Raubdinosaurier aus dem Oberjura der Südlichen Frankenalb (Süddeutschland). Archaeopteryx: Jahreszeitschrift
+    der Freunde des Jura-Museums in Eichstätt 24: 1–26.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Compsognathus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Compsognathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Compsognathus”. English Wikipedia, revision 1383119634.
+  url: https://en.wikipedia.org/w/index.php?title=Compsognathus&oldid=1383119634
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

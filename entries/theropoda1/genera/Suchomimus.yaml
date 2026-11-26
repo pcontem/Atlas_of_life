@@ -1,0 +1,102 @@
+name: Suchomimus
+rank: genus
+parent: baryonychinae
+incertae_sedis: false
+placement_note: ''
+authority: Sereno et al. 1998
+type_species: Suchomimus tenerensis
+type_species_note: ''
+summary: Large spinosaurid from the Aptian to Albian of Niger, about 112 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Suchomimus tenerensis
+  authority: (Sereno et al. 1998)
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: elrhaz-niger
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: CCM Suchomimus 2018.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/CCM_Suchomimus_2018.jpg/960px-CCM_Suchomimus_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:CCM_Suchomimus_2018.jpg
+  artist: Zissoudisctrucker
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-04-19'
+  caption: Mounted skeleton of Suchomimus tenerensis.
+  width: 4032
+  height: 3021
+  review: unreviewed
+  local: img/gallery/Suchomimus_001.webp
+- kind: life
+  file: Life reconstruction of Suchomimus tenerensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Life_reconstruction_of_Suchomimus_tenerensis.png/960px-Life_reconstruction_of_Suchomimus_tenerensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Suchomimus_tenerensis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-28'
+  caption: Life reconstruction of Suchomimus tenerensis.
+  width: 3284
+  height: 1152
+  review: unreviewed
+  local: img/gallery/Suchomimus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/909b5f69-8e28-4b9b-81cf-c86addbfd096/vector.svg
+  png: https://images.phylopic.org/images/909b5f69-8e28-4b9b-81cf-c86addbfd096/raster/512x155.png
+  page: https://www.phylopic.org/images/909b5f69-8e28-4b9b-81cf-c86addbfd096
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Cristatusaurus lapparenti
+  matched: Suchomimus
+  genus_level: true
+  w: 512
+  h: 155
+sources:
+- kind: original
+  text: 'Sereno, P. C.; Beck, A. L.; Dutheil, D. B.; Gado, B.; Larsson, H. C. E.; Lyon, G. H.; Marcot, J. D.; Rauhut,
+    O. W. M.; Sadleir, R. W.; Sidor, C. A.; Varricchio, D. D.; Wilson, G. P.; Wilson, J. A. 1998. A long-snouted
+    predatory dinosaur from Africa and the evolution of spinosaurids. Science 282(5392): 1298–1302. doi:10.1126/science.282.5392.1298'
+- kind: literature
+  text: 'Taquet, P.; Russell, D. A. 1998. New data on spinosaurid dinosaurs from the early cretaceous of the Sahara.
+    Comptes Rendus de l''Académie des Sciences, Série IIA 327(5): 347–353. doi:10.1016/S1251-8050(98)80054-2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Suchomimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Suchomimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Suchomimus”. English Wikipedia, revision 1383584786.
+  url: https://en.wikipedia.org/w/index.php?title=Suchomimus&oldid=1383584786
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

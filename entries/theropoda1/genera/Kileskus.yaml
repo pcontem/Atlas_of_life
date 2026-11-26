@@ -1,0 +1,103 @@
+name: Kileskus
+rank: genus
+parent: proceratosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Averianov et al. 2010
+type_species: Kileskus aristotocus
+type_species_note: ''
+summary: Tyrannosauroid from the Middle Jurassic Itat Formation of Siberia, known from partial remains.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Kileskus aristotocus
+  authority: Averianov et al. 2010
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: Itat
+  group: ''
+  members: [Upper]
+  country: Russia
+  regions: [Krasnoyarsk]
+  interval: Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: itat-russia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Kileskus aristotocus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Kileskus_aristotocus.jpg/960px-Kileskus_aristotocus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kileskus_aristotocus.jpg
+  artist: Ildarotyrannus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-07-06'
+  caption: Life restoration of Kileskus aristotocus.
+  width: 3212
+  height: 1717
+  review: unreviewed
+  local: img/gallery/Kileskus_001.webp
+- kind: skeletal
+  file: KileskusAristotousSkeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/KileskusAristotousSkeletal.png/960px-KileskusAristotousSkeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:KileskusAristotousSkeletal.png
+  artist: SirBlameson
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-09-17'
+  caption: Skeletal reconstruction of Kileskus.
+  width: 5157
+  height: 2088
+  review: unreviewed
+  local: img/gallery/Kileskus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096/vector.svg
+  png: https://images.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096/raster/512x212.png
+  page: https://www.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096
+  attribution: Conty (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Kileskus aristotocus
+  matched: Kileskus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Averianov, A. O. 2010. A new basal coelurosaur (Dinosauria: Theropoda) from the Middle Jurassic of Siberia.
+    Proceedings of the Zoological Institute 314(1): 42–57. doi:10.31610/trudyzin/2010.314.1.42'
+- kind: literature
+  text: 'O. Averianov, Alexander; Osochnikova, Anastasia; Skutschas, Pavel; Krasnolutskii, Sergei; Schellhorn, Rico;
+    A. Schultz, Julia; Martin, Thomas 2019. New data on the tyrannosauroid dinosaur Kileskus from the Middle Jurassic
+    of Siberia, Russia. Historical Biology 33(7): 897–903. doi:10.1080/08912963.2019.1666839'
+- kind: literature
+  text: Loewen, M.A.; Irmis, R.B.; Sertich, J.J.W.; Currie, P. J.; Sampson, S. D. 2013. Tyrant Dinosaur Evolution
+    Tracks the Rise and Fall of Late Cretaceous Oceans. PLoS ONE 8(11). doi:10.1371/journal.pone.0079420
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kileskus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kileskus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kileskus”. English Wikipedia, revision 1387598583.
+  url: https://en.wikipedia.org/w/index.php?title=Kileskus&oldid=1387598583
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

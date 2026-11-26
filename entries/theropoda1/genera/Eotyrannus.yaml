@@ -1,0 +1,102 @@
+name: Eotyrannus
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Hutt et al. 2001
+type_species: Eotyrannus lengi
+type_species_note: ''
+summary: Tyrannosauroid from the Early Cretaceous Wessex Formation of the Isle of Wight, England.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 121.4
+  early_interval: Hauterivian
+  late_interval: Barremian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eotyrannus lengi
+  authority: Hutt et al. 2001
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Eotyrannus Conty 2.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Eotyrannus_Conty_2.png/960px-Eotyrannus_Conty_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eotyrannus_Conty_2.png
+  artist: Conty
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-10-15'
+  caption: Life restoration of Eotyrannus lengi.
+  width: 4476
+  height: 2412
+  review: unreviewed
+  local: img/gallery/Eotyrannus_001.webp
+- kind: skeletal
+  file: Eotyrannus skull 0598.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Eotyrannus_skull_0598.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eotyrannus_skull_0598.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Skull of Eotyrannus lengi.
+  width: 744
+  height: 518
+  review: unreviewed
+  local: img/gallery/Eotyrannus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/vector.svg
+  png: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/raster/512x198.png
+  page: https://www.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eotyrannus lengi
+  matched: Eotyrannus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Hutt, S.; Naish, D.; Martill, D.M.; Barker, M.J.; Newbery, P. 2001. A preliminary account of a new tyrannosauroid
+    theropod from the Wessex Formation (Cretaceous) of southern England. Cretaceous Research 22: 227–242. doi:10.1006/cres.2001.0252'
+- kind: literature
+  text: Naish, D.; Cau, A. July. The osteology and affinities of ''Eotyrannus lengi'', a tyrannosauroid theropod
+    from the Wealden Supergroup of southern England. PeerJ 10. doi:10.7717/peerj.12727
+- kind: literature
+  text: 'Holtz, T. R. Jr. 1994. The phylogenetic position of the Tyrannosauridae: implications for theropod systematics.
+    Journal of Paleontology 68(5): 1100–1117. doi:10.1017/S0022336000026706'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eotyrannus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eotyrannus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eotyrannus”. English Wikipedia, revision 1380973080.
+  url: https://en.wikipedia.org/w/index.php?title=Eotyrannus&oldid=1380973080
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

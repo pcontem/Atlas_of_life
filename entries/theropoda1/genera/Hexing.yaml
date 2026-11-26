@@ -1,0 +1,83 @@
+name: Hexing
+rank: genus
+parent: ornithomimosauria
+incertae_sedis: false
+placement_note: ''
+authority: Jin et al. 2012
+type_species: Hexing qingyi
+type_species_note: ''
+summary: Basal ornithomimosaur from the Early Cretaceous of north-eastern China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hexing qingyi
+  authority: Jin et al. 2012
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Hexing qingyi mist.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e3/Hexing_qingyi_mist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hexing_qingyi_mist.jpg
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-11-01'
+  caption: Life restoration of Hexing qingyi.
+  width: 1536
+  height: 2266
+  review: unreviewed
+  local: img/gallery/Hexing_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/6f7fa44f-3566-461c-a041-fff14ba0b0b4/vector.svg
+  png: https://images.phylopic.org/images/6f7fa44f-3566-461c-a041-fff14ba0b0b4/raster/512x268.png
+  page: https://www.phylopic.org/images/6f7fa44f-3566-461c-a041-fff14ba0b0b4
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Pelecanimimus polyodon
+  matched: Ornithomimosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'L. Jin, J. Chen, and P. Godefroit. 2012. A new basal ornithomimosaur (Dinosauria: Theropoda) from the Early
+    Cretaceous Yixian Formation, northeast China. Bernissart Dinosaurs and Early Cretaceous Terrestrial Ecosystems'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hexing (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hexing
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hexing”. English Wikipedia, revision 1305698773.
+  url: https://en.wikipedia.org/w/index.php?title=Hexing&oldid=1305698773
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

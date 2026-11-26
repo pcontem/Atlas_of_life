@@ -1,0 +1,124 @@
+name: Yangchuanosaurus
+rank: genus
+parent: metriacanthosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Dong et al. 1978
+type_species: Yangchuanosaurus shangyouensis
+type_species_note: ''
+summary: Metriacanthosaurid from the Middle to Late Jurassic of China, similar to Sinraptor but slightly larger.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 170.9
+  last_ma: 113.2
+  early_interval: Bajocian
+  late_interval: Aptian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Yangchuanosaurus magnus
+  authority: Dong et al. 1983
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+- name: Yangchuanosaurus shangyouensis
+  authority: (Dong et al. 1978)
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+- name: Yangchuanosaurus zigongensis
+  authority: (Gao 1993)
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: ''
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Lower, Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 3
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+- formation: Suining
+  group: ''
+  members: []
+  country: China
+  regions: [Sichuan]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: suining-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Yangchuanosaurus NT (flipped).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/59/Yangchuanosaurus_NT_%28flipped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yangchuanosaurus_NT_(flipped).jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com https://spinops.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-02-10'
+  caption: Life restoration of Yangchuanosaurus.
+  width: 578
+  height: 196
+  review: unreviewed
+  local: img/gallery/Yangchuanosaurus_001.webp
+- kind: fossil
+  file: Yangchuanosaurus shangyouensis.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/9/95/Yangchuanosaurus_shangyouensis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yangchuanosaurus_shangyouensis.JPG
+  artist: Laikayiu
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: ''
+  caption: Yangchuanosaurus shangyouensis fossil.
+  width: 977
+  height: 638
+  review: unreviewed
+  local: img/gallery/Yangchuanosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/1671b80d-02ae-4801-ac4f-e4e3e5228027/vector.svg
+  png: https://images.phylopic.org/images/1671b80d-02ae-4801-ac4f-e4e3e5228027/raster/512x159.png
+  page: https://www.phylopic.org/images/1671b80d-02ae-4801-ac4f-e4e3e5228027
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Yangchuanosaurus shangyouensis
+  matched: Yangchuanosaurus
+  genus_level: true
+  w: 512
+  h: 159
+sources:
+- kind: original
+  text: 'Dong, Zhiming 1978. A new carnosaur from Yongchuan County, Sichuan Province. Ke Xue Tong Bao 23(5): 302–04.'
+- kind: literature
+  text: 'Carrano, M. T.; Benson, R. B. J.; Sampson, S. D. 2012. The phylogeny of Tetanurae (Dinosauria: Theropoda).
+    Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: literature
+  text: 'Currie, Phillip J.; Zhao, Xi-Jin 1993. A new carnosaur (Dinosauria, Theropoda) from the Jurassic of Xinjiang,
+    People''s Republic of China. Canadian Journal of Earth Sciences 30(10): 2037–2081. doi:10.1139/e93-179'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yangchuanosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yangchuanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yangchuanosaurus”. English Wikipedia, revision 1380245076.
+  url: https://en.wikipedia.org/w/index.php?title=Yangchuanosaurus&oldid=1380245076
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,86 @@
+name: Shidaisaurus
+rank: genus
+parent: metriacanthosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 2009
+type_species: Shidaisaurus jinae
+type_species_note: ''
+summary: Metriacanthosaurid from the Chuanjie Formation of Yunnan, China, known from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 170.9
+  last_ma: 168.2
+  early_interval: Bajocian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Shidaisaurus jinae
+  authority: Wu et al. 2009
+  first_ma: 170.9
+  last_ma: 168.2
+  interval: Bajocian
+  reference: original description
+formations:
+- formation: Chuanjie
+  group: ''
+  members: []
+  country: China
+  regions: [Yunnan]
+  interval: Bajocian
+  occurrences: 1
+  ma: [168.2, 170.9]
+  id: chuanjie-china
+fossil_material:
+  holotype: DML-LCA 9701-IV, a partial skeleton from the Chuanjie Formation, Yunnan, China.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Shidaisaurus jinae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Shidaisaurus_jinae.png/960px-Shidaisaurus_jinae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Shidaisaurus_jinae.png
+  artist: Luigi Gaskell
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-10-04'
+  caption: Life restoration of Shidaisaurus jinae.
+  width: 2000
+  height: 2000
+  review: unreviewed
+  local: img/gallery/Shidaisaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/vector.svg
+  png: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/raster/512x176.png
+  page: https://www.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99
+  attribution: James Neenan
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Metriacanthosauridae
+  matched: Metriacanthosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: X.-C. Wu, P. J. Currie, and Z. Dong, S. Pan, T. Wang. 2009. A new theropod dinosaur from the Middle Jurassic
+    of Lufeng, Yunnan, China. Acta Geologica Sinica 83(1):9-24
+- kind: literature
+  text: 'Wu X. 2009. A new theropod dinosaur from the Middle Jurassic of Lufeng, Yunnan, China. Acta Geologica Sinica
+    83(1): 9–24. doi:10.1111/j.1755-6724.2009.00002.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shidaisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shidaisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shidaisaurus”. English Wikipedia, revision 1320054320.
+  url: https://en.wikipedia.org/w/index.php?title=Shidaisaurus&oldid=1320054320
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: material, biology.'
+  reviews: []

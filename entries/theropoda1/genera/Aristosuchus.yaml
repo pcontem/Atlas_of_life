@@ -1,0 +1,105 @@
+name: Aristosuchus
+rank: genus
+parent: compsognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Seeley 1887
+type_species: Aristosuchus pusillus
+type_species_note: PBDB lists Aristosuchus pusillus (Owen 1876), originally Poekilopleuron pusillus; the genus is
+  Seeley 1887.
+summary: Small theropod from the Early Cretaceous of the Isle of Wight, England.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aristosuchus pusillus
+  authority: (Owen 1876)
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: wealden-group-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Aristosuchus restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Aristosuchus_restoration.jpg/960px-Aristosuchus_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aristosuchus_restoration.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008'
+  caption: Restoration of Aristosuchus pusillus.
+  width: 2006
+  height: 831
+  review: unreviewed
+  local: img/gallery/Aristosuchus_001.webp
+- kind: skeletal
+  file: Aristosuchus parts.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Aristosuchus_parts.jpg/960px-Aristosuchus_parts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aristosuchus_parts.jpg
+  artist: Carpenter, Kenneth
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '1998'
+  caption: Parts of Aristosuchus pusillus.
+  width: 3277
+  height: 2845
+  review: unreviewed
+  local: img/gallery/Aristosuchus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/vector.svg
+  png: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/raster/969x1014.png
+  page: https://www.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinosauropteryx prima
+  matched: Compsognathidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Seeley, H. G. 1887. On ''''Aristosuchus pusillus'''' (Owen), being further notes on the fossils described
+    by Sir R. Owen as ''''Poikilopleuron pusillus'''', Owen. Quarterly Journal of the Geological Society of London
+    43(1–4): 221–228. doi:10.1144/GSL.JGS.1887.043.01-04.22'
+- kind: literature
+  text: 'Owen, R. 1876. Supplement (No. VII) to the Monograph on the Fossil Reptilia of the Wealden and Purbeck
+    Formations. (''''Poikilopleuron'''' and ''''Chondrosteosaurus''''). Palaeontographical Society Monograph 30:
+    1–7. doi:10.1080/02693445.1876.12113270'
+- kind: literature
+  text: 'Padian, Kevin 2012. The problem of dinosaur origins: integrating three approaches to the rise of Dinosauria.
+    Earth and Environmental Science Transactions of the Royal Society of Edinburgh 103(3–4): 423–442. doi:10.1017/S1755691013000431'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aristosuchus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aristosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aristosuchus”. English Wikipedia, revision 1386626994.
+  url: https://en.wikipedia.org/w/index.php?title=Aristosuchus&oldid=1386626994
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

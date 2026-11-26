@@ -1,0 +1,106 @@
+name: Eoabelisaurus
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Pol and Rauhut 2012
+type_species: Eoabelisaurus mefi
+type_species_note: ''
+summary: Abelisauroid from the Lower Jurassic Cañadón Asfalto Formation of Argentina, the oldest known abelisaurid.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 184.2
+  last_ma: 174.7
+  early_interval: Toarcian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eoabelisaurus mefi
+  authority: Pol and Rauhut 2012
+  first_ma: 184.2
+  last_ma: 174.7
+  interval: Toarcian
+  reference: original description
+formations:
+- formation: Cañadón Asfalto
+  group: Sierra de Olte
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Toarcian
+  occurrences: 1
+  ma: [174.7, 184.2]
+  id: canadon-asfalto-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Eoabelisaurus life restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Eoabelisaurus_life_restoration.jpg/960px-Eoabelisaurus_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eoabelisaurus_life_restoration.jpg
+  artist: Paleocolour
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-04-28'
+  caption: Life restoration of Eoabelisaurus.
+  width: 2000
+  height: 981
+  review: unreviewed
+  local: img/gallery/Eoabelisaurus_001.webp
+- kind: fossil
+  file: Eoabelisaurus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Eoabelisaurus_skull.jpg/960px-Eoabelisaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eoabelisaurus_skull.jpg
+  artist: Oliver Rauhut
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: June 8 201
+  caption: Skull of Eoabelisaurus.
+  width: 3008
+  height: 2000
+  review: unreviewed
+  local: img/gallery/Eoabelisaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/1447bc27-36d1-4b1e-b93b-04ae0bf47568/vector.svg
+  png: https://images.phylopic.org/images/1447bc27-36d1-4b1e-b93b-04ae0bf47568/raster/512x172.png
+  page: https://www.phylopic.org/images/1447bc27-36d1-4b1e-b93b-04ae0bf47568
+  attribution: Iain Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eoabelisaurus mefi
+  matched: Eoabelisaurus
+  genus_level: true
+  w: 512
+  h: 172
+sources:
+- kind: original
+  text: D. Pol and O. W. M. Rauhut. 2012. A Middle Jurassic abelisaurid from Patagonia and the early diversification
+    of theropod dinosaurs. Proceedings of the Royal Society of London, B 279:3170-3175
+- kind: literature
+  text: 'Diego Pol & Oliver W. M. Rauhut 2012. A Middle Jurassic abelisaurid from Patagonia and the early diversification
+    of theropod dinosaurs. Proceedings of the Royal Society B: Biological Sciences 279(1804): 3170–5. doi:10.1098/rspb.2012.0660'
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoabelisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoabelisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eoabelisaurus”. English Wikipedia, revision 1387595976.
+  url: https://en.wikipedia.org/w/index.php?title=Eoabelisaurus&oldid=1387595976
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number, size and description not read in the sources consulted; PBDB age Toarcian, Wikipedia places
+    it in the Lower Jurassic.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

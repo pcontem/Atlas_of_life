@@ -1,0 +1,72 @@
+name: Notatesseraeraptor
+rank: genus
+parent: neotheropoda
+incertae_sedis: false
+placement_note: ''
+authority: Zahner and Brinkmann 2019
+type_species: Notatesseraeraptor frickensis
+type_species_note: ''
+summary: Late Triassic theropod from Switzerland with a mix of dilophosaurid and coelophysoid features, an early
+  averostran-line form.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Notatesseraeraptor frickensis
+  authority: Zahner and Brinkmann 2019
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Klettgau
+  group: ''
+  members: [Gruhalde]
+  country: Switzerland
+  regions: [Aargau]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: klettgau-switzerland
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9/vector.svg
+  png: https://images.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9/raster/512x214.png
+  page: https://www.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9
+  attribution: Pranav Iyer (grey ideas)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Inosaurus tedreftensis
+  matched: Neotheropoda
+  genus_level: false
+sources:
+- kind: original
+  text: 'Marion Zahner 2019. A Triassic averostran-line theropod from Switzerland and the early evolution of dinosaurs.
+    Nature Ecology & Evolution 3(8): 1146–1152. doi:10.1038/s41559-019-0941-z'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Notatesseraeraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Notatesseraeraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Notatesseraeraptor”. English Wikipedia, revision 1375018729.
+  url: https://en.wikipedia.org/w/index.php?title=Notatesseraeraptor&oldid=1375018729
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia revision flagged as not about the genus in the harvest; text read from the lead only., Holotype and
+    material to be read in Zahner and Brinkmann 2019., No image usable.
+  reviews: []

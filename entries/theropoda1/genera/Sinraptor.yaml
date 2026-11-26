@@ -1,0 +1,118 @@
+name: Sinraptor
+rank: genus
+parent: metriacanthosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Currie and Zhao 1994
+type_species: Sinraptor dongi
+type_species_note: ''
+summary: Metriacanthosaurid from the Late Jurassic Shishugou Formation of China, among the earliest members of the
+  Jurassic carnosaurian radiation.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 154.8
+  early_interval: Bathonian
+  late_interval: Oxfordian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sinraptor dongi
+  authority: (Currie and Zhao 1994)
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+- name: Sinraptor hepingensis
+  authority: (Gao 1992)
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: ''
+formations:
+- formation: Shishugou
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: shishugou-china
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: shaximiao-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Sinraptor dongi Holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sinraptor_dongi_Holotype.jpg/960px-Sinraptor_dongi_Holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinraptor_dongi_Holotype.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-01-08'
+  caption: Holotype of Sinraptor dongi.
+  width: 4528
+  height: 2485
+  review: unreviewed
+  local: img/gallery/Sinraptor_001.webp
+- kind: fossil
+  file: Sinraptor dongi Holotype Skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Sinraptor_dongi_Holotype_Skull.jpg/960px-Sinraptor_dongi_Holotype_Skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinraptor_dongi_Holotype_Skull.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-01-08'
+  caption: Holotype skull of Sinraptor dongi.
+  width: 4528
+  height: 3016
+  review: unreviewed
+  local: img/gallery/Sinraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/vector.svg
+  png: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/raster/512x176.png
+  page: https://www.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99
+  attribution: James Neenan
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Metriacanthosauridae
+  matched: Metriacanthosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: P. J. Currie and X.-J. Zhao. 1994. A new carnosaur (Dinosauria, Theropoda) from the Jurassic of Xinjiang,
+    People's Republic of China. Canadian Journal of Earth Sciences 30(10-11):2037-2081
+- kind: literature
+  text: 'Carrano, M. T.; Benson, R. B. J.; Sampson, S. D. 2012. The phylogeny of Tetanurae (Dinosauria: Theropoda).
+    Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: literature
+  text: 'Currie, Phillip J.; Zhao, Xi-Jin 1993. A new carnosaur (Dinosauria, Theropoda) from the Jurassic of Xinjiang,
+    People''s Republic of China. Canadian Journal of Earth Sciences 30(10): 2037–2081. doi:10.1139/e93-179'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinraptor”. English Wikipedia, revision 1376681621.
+  url: https://en.wikipedia.org/w/index.php?title=Sinraptor&oldid=1376681621
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

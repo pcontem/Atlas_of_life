@@ -1,0 +1,100 @@
+name: Caletodraco
+rank: genus
+parent: furileusauria
+incertae_sedis: false
+placement_note: ''
+authority: Buffetaut et al. 2024
+type_species: Caletodraco cottardi
+type_species_note: ''
+summary: Cenomanian furileusaurian abelisaurid from the Chalk of the Pays de Caux, France, the first definitive
+  furileusaurian named outside South America.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Caletodraco cottardi
+  authority: Buffetaut et al. 2024
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Saint Jouin
+  group: ''
+  members: []
+  country: France
+  regions: [Normandy]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: saint-jouin-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Caletodraco cottardi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Caletodraco_cottardi.png/960px-Caletodraco_cottardi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Caletodraco_cottardi.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-08-20'
+  caption: Life restoration of Caletodraco cottardi.
+  width: 2294
+  height: 714
+  review: unreviewed
+  local: img/gallery/Caletodraco_001.webp
+- kind: skeletal
+  file: CaletodracoSkeletal.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/92/CaletodracoSkeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:CaletodracoSkeletal.png
+  artist: AusPaleo
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-08-25'
+  caption: Skeletal reconstruction of Caletodraco.
+  width: 1600
+  height: 600
+  review: unreviewed
+  local: img/gallery/Caletodraco_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/ef18fe62-5848-4e8a-bb53-56dba0a04794/vector.svg
+  png: https://images.phylopic.org/images/ef18fe62-5848-4e8a-bb53-56dba0a04794/raster/512x226.png
+  page: https://www.phylopic.org/images/ef18fe62-5848-4e8a-bb53-56dba0a04794
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Caletodraco cottardi
+  matched: Caletodraco
+  genus_level: true
+  w: 512
+  h: 226
+sources:
+- kind: original
+  text: 'Buffetaut, E.; Tong, H.; Girard, J.; Hoyez, B.; Párraga, J. 2024. ''''Caletodraco cottardi'''': A New Furileusaurian
+    Abelisaurid (Dinosauria: Theropoda) from the Cenomanian Chalk of Normandy (North-Western France). Fossil Studies
+    2(3): 177–195. doi:10.3390/fossils2030009'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Caletodraco (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Caletodraco
+- kind: encyclopedia
+  text: Wikipedia contributors. “Caletodraco”. English Wikipedia, revision 1305531577.
+  url: https://en.wikipedia.org/w/index.php?title=Caletodraco&oldid=1305531577
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

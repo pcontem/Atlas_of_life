@@ -1,0 +1,121 @@
+name: Carnotaurus
+rank: genus
+parent: furileusauria
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1985
+type_species: Carnotaurus sastrei
+type_species_note: ''
+summary: Late Cretaceous abelisaurid of South America, known from one well-preserved skeleton that includes skin
+  impressions.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Carnotaurus sastrei
+  authority: Bonaparte 1985
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: La Colonia
+  group: ''
+  members: [A]
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: la-colonia-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Carnotaurus Reconstruction (2022).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Carnotaurus_Reconstruction_%282022%29.png/960px-Carnotaurus_Reconstruction_%282022%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Carnotaurus_Reconstruction_(2022).png
+  artist: Fred Wierum
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-05-13'
+  caption: Life restoration of Carnotaurus sastrei.
+  width: 4000
+  height: 2250
+  review: unreviewed
+  local: img/gallery/Carnotaurus_001.webp
+- kind: fossil
+  file: Carnotaurus Skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Carnotaurus_Skull.jpg/960px-Carnotaurus_Skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Carnotaurus_Skull.jpg
+  artist: AStrangerintheAlps
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-06-23'
+  caption: Skull of Carnotaurus sastrei.
+  width: 2592
+  height: 3872
+  review: unreviewed
+  local: img/gallery/Carnotaurus_002.webp
+- kind: skeletal
+  file: Carnotaurus reconstruction Headden.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Carnotaurus_reconstruction_Headden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Carnotaurus_reconstruction_Headden.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011-03-26'
+  caption: Skeletal reconstruction of Carnotaurus.
+  width: 1500
+  height: 536
+  review: unreviewed
+  local: img/gallery/Carnotaurus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/9cd6e394-ea75-4d75-bfb6-8ba4bc855aa3/vector.svg
+  png: https://images.phylopic.org/images/9cd6e394-ea75-4d75-bfb6-8ba4bc855aa3/raster/512x180.png
+  page: https://www.phylopic.org/images/9cd6e394-ea75-4d75-bfb6-8ba4bc855aa3
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Carnotaurus sastrei
+  matched: Carnotaurus
+  genus_level: true
+  w: 512
+  h: 180
+sources:
+- kind: original
+  text: 'Bonaparte, José F. 1985. A horned Cretaceous carnosaur from Patagonia. National Geographic Research 1(1):
+    149–151.'
+- kind: literature
+  text: 'Cerroni, Mauricio A.; Paulina-Carabajal, Ariana 2019. Novel information on the endocranial morphology of
+    the abelisaurid theropod ''''Carnotaurus sastrei''''. Comptes Rendus Palevol 18(8): 985–995. doi:10.1016/j.crpv.2019.09.005'
+- kind: literature
+  text: 'Cerroni, M. A.; Canale, J. I.; Novas, F. E. 2020. The skull of ''''Carnotaurus sastrei'''' Bonaparte 1985
+    revisited: insights from craniofacial bones, palate and lower jaw. Historical Biology 33(10): 2444–2485. doi:10.1080/08912963.2020.1802445'
+- kind: literature
+  text: 'Hendrickx, Christophe; Bell, Phil R. Augu. The scaly skin of the abelisaurid Carnotaurus sastrei (Theropoda:
+    Ceratosauria) from the Upper Cretaceous of Patagonia. Cretaceous Research 128. doi:10.1016/j.cretres.2021.104994'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Carnotaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Carnotaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Carnotaurus”. English Wikipedia, revision 1384606590.
+  url: https://en.wikipedia.org/w/index.php?title=Carnotaurus&oldid=1384606590
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

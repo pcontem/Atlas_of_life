@@ -1,0 +1,84 @@
+name: Indosuchus
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1933
+type_species: Indosuchus raptorius
+type_species_note: ''
+summary: Large abelisaurid from the Late Cretaceous of India, about 7 m long.
+size:
+  length_m: [7, 7]
+  note: About 7 m according to Wikipedia revision 1387603041.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Indosuchus raptorius
+  authority: Huene 1933
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lameta
+  group: ''
+  members: [Carnosaur Bed]
+  country: India
+  regions: [Madhya Pradesh]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lameta-india
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Indosuchus raptorius.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Indosuchus_raptorius.jpg/960px-Indosuchus_raptorius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Indosuchus_raptorius.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008'
+  caption: Life restoration of Indosuchus raptorius.
+  width: 4404
+  height: 1660
+  review: unreviewed
+  local: img/gallery/Indosuchus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. v. Huene and C. A. Matley. 1933. The Cretaceous Saurischia and Ornithischia of the Central Provinces
+    of India. Palaeontologica Indica (New Series), Memoirs of the Geological Survey of India 21(1):1-74
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Indosuchus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Indosuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Indosuchus”. English Wikipedia, revision 1387603041.
+  url: https://en.wikipedia.org/w/index.php?title=Indosuchus&oldid=1387603041
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia article harvested for the genus but flagged by the script; holotype and naming paper not read.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

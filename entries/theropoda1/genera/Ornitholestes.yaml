@@ -1,0 +1,106 @@
+name: Ornitholestes
+rank: genus
+parent: compsognathidae
+incertae_sedis: true
+placement_note: PBDB places it in Compsognathidae; its position was revisited by a CT-based redescription (Chapelle
+  et al. 2021) cited by Wikipedia.
+authority: Osborn 1903
+type_species: Ornitholestes hermanni
+type_species_note: ''
+summary: Small theropod of the Late Jurassic of North America, named the bird robber.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 157.9
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 4
+  note: PBDB gives an empty interval name for its oldest occurrence; the first age (157.9 Ma) lies inside the Oxfordian,
+    so the interval name was set by hand.
+species:
+- name: Ornitholestes hermanni
+  authority: (Osborn 1903)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Lake Como, Talking Rocks]
+  country: United States
+  regions: [Colorado, Wyoming]
+  interval: Late Oxfordian–Tithonian
+  occurrences: 4
+  ma: [143.1, 157.9]
+  id: morrison-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Ornitholestes Royal Tyrrell 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Ornitholestes_Royal_Tyrrell_2.jpg/960px-Ornitholestes_Royal_Tyrrell_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ornitholestes_Royal_Tyrrell_2.jpg
+  artist: Etemenanki3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-08-22'
+  caption: Mounted Ornitholestes at the Royal Tyrrell Museum.
+  width: 5052
+  height: 2092
+  review: unreviewed
+  local: img/gallery/Ornitholestes_001.webp
+- kind: fossil
+  file: Ornitholestes hand.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7f/Ornitholestes_hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ornitholestes_hand.jpg
+  artist: Osborn, Henry Fairfield, 1857-1935.
+  license: Public domain
+  license_url: ''
+  date: '1917'
+  caption: Hand of Ornitholestes.
+  width: 1286
+  height: 1442
+  review: unreviewed
+  local: img/gallery/Ornitholestes_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/vector.svg
+  png: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/raster/969x1014.png
+  page: https://www.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinosauropteryx prima
+  matched: Compsognathidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Osborn, Henry Fairfield 1903. ''''Ornitholestes hermanni'''', a new compsognathoid dinosaur from the Upper
+    Jurassic. Bulletin of the American Museum of Natural History 19(12): 459–464.'
+- kind: literature
+  text: 'Godefroit, Pascal; Cau, Andrea; Hu, Dong-Yu; Escuillié, François; Wu, Wenhao; Dyke, Gareth 2013. A Jurassic
+    avialan dinosaur from China resolves the early phylogenetic history of birds. Nature 498(7454): 359–362. doi:10.1038/nature12168'
+- kind: literature
+  text: Chapelle, Kimberley E.; Norell, Mark; Ford, David P.; Hendrickx, Christophe; Radermacher, Viktor J.; Balanoff,
+    Amy; Zanno, Lindsay E.; Choiniere, Jonah N. 2021. A CT-based revised description and phylogenetic analysis of
+    the skull of the basal maniraptoran Ornitholestes hermanni Osborn 1903. Conference Program of the 81st Annual
+    Meeting of the Society of Vertebrate Paleontology.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ornitholestes (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ornitholestes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornitholestes”. English Wikipedia, revision 1362753701.
+  url: https://en.wikipedia.org/w/index.php?title=Ornitholestes&oldid=1362753701
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

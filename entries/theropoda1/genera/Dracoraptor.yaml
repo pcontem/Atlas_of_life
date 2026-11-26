@@ -1,0 +1,97 @@
+name: Dracoraptor
+rank: genus
+parent: coelophysoidea
+incertae_sedis: false
+placement_note: ''
+authority: Martill et al. 2016
+type_species: Dracoraptor hanigani
+type_species_note: ''
+summary: Earliest Jurassic neotheropod from the Blue Lias of Wales, about 201 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 201.4
+  last_ma: 199.5
+  early_interval: Hettangian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dracoraptor hanigani
+  authority: Martill et al. 2016
+  first_ma: 201.4
+  last_ma: 199.5
+  interval: Hettangian
+  reference: original description
+formations:
+- formation: Blue Lias
+  group: Lias
+  members: [Bull Cliff]
+  country: United Kingdom
+  regions: [Wales]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: blue-lias-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used (found 2014 on the South Wales coast).
+  material: Fossil found in 2014 by Rob and Nick Hanigan and Sam Davies at the Blue Lias Formation.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Amgueddfa Cymru - Dracoraptor hanigani - 211803.jpeg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Amgueddfa_Cymru_-_Dracoraptor_hanigani_-_211803.jpeg/960px-Amgueddfa_Cymru_-_Dracoraptor_hanigani_-_211803.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Amgueddfa_Cymru_-_Dracoraptor_hanigani_-_211803.jpeg
+  artist: Unknown (no author on the Commons page)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: Jurassic
+  caption: Dracoraptor hanigani specimen at the National Museum Wales.
+  width: 2424
+  height: 2592
+  review: unreviewed
+  local: img/gallery/Dracoraptor_001.webp
+- kind: fossil
+  file: Dracoraptor hanigani reconstructed skeleton.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/66/Dracoraptor_hanigani_reconstructed_skeleton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dracoraptor_hanigani_reconstructed_skeleton.png
+  artist: Harold9595959
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-07-25'
+  caption: Reconstructed skeleton of Dracoraptor.
+  width: 447
+  height: 195
+  review: unreviewed
+  local: img/gallery/Dracoraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/vector.svg
+  png: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/raster/512x97.png
+  page: https://www.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072
+  attribution: FunkMonk [Michael B.H.] (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Zupaysaurus rougieri
+  matched: Coelophysoidea
+  genus_level: false
+  w: 512
+  h: 97
+sources:
+- kind: original
+  text: 'Martill, David M.; Vidovic, Steven U.; Howells, Cindy; Nudds, John R. 2016. The Oldest Jurassic Dinosaur:
+    A Basal Neotheropod from the Hettangian of Great Britain. PLOS ONE 11(1). doi:10.1371/journal.pone.0145713'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dracoraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dracoraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dracoraptor”. English Wikipedia, revision 1357474440.
+  url: https://en.wikipedia.org/w/index.php?title=Dracoraptor&oldid=1357474440
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number to be read in Martill et al. 2016.]
+  reviews: []

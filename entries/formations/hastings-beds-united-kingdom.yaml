@@ -7,14 +7,14 @@ regions: [England]
 location:
   lat: 50.85
   lng: 0.6
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 139.1
   last_ma: 119.57
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., marginal marine indet.]
-lithology: [sandstone, not reported]
-pbdb_collections: ['24905', '52632', '65606', '170624']
+environment: [terrestrial indet., marginal marine indet., marine indet.]
+lithology: [sandstone, not reported, claystone]
+pbdb_collections: ['24905', '52571', '52632', '65606', '170624']
 includes:
 - PBDB collection “Brook (Hastings collection)” has no formation but is a locality of the Hastings Beds.
 - PBDB collection “Cliff End cliff fall, Hastings” has no formation but is a locality of the Hastings Beds.

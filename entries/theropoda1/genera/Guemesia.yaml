@@ -1,0 +1,89 @@
+name: Guemesia
+rank: genus
+parent: brachyrostra
+incertae_sedis: false
+placement_note: ''
+authority: Agnolín et al. 2021
+type_species: Guemesia ochoai
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from the Los Blanquitos Formation of Salta, Argentina, known from a nearly
+  complete braincase.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Guemesia ochoai
+  authority: Agnolín et al. 2021
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Los Blanquitos
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: los-blanquitos-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: A nearly complete braincase.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Guemesia ochoai.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Guemesia_ochoai.jpg/960px-Guemesia_ochoai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Guemesia_ochoai.jpg
+  artist: SpinoDragon145
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-02-11'
+  caption: Life restoration of Guemesia ochoai.
+  width: 3953
+  height: 2314
+  review: unreviewed
+  local: img/gallery/Guemesia_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. L. Agnolín, M. A. Cerroni, and A. Scanferla, A. Goswami, A. Paulina-Carabajal, T. Halliday, A. R. Cuff,
+    S. Reuil. 2021. First definitive abelisaurid theropod from the Late Cretaceous of Northwestern Argentina. Journal
+    of Vertebrate Paleontology 41(4):e2202348:1-17
+- kind: literature
+  text: Agnolín, Federico L.; Cerroni, Mauricio A.; Scanferla, Agustín; Goswami, Anjali; Paulina-Carabajal, Ariana;
+    Halliday, Thomas; Cuff, Andrew R.; Reuil, Santiago 2022. First definitive abelisaurid theropod from the Late
+    Cretaceous of Northwestern Argentina. Journal of Vertebrate Paleontology 41(4). doi:10.1080/02724634.2021.2002348
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Guemesia (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Guemesia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Guemesia”. English Wikipedia, revision 1365358494.
+  url: https://en.wikipedia.org/w/index.php?title=Guemesia&oldid=1365358494
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

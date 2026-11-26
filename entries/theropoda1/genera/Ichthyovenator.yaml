@@ -1,0 +1,104 @@
+name: Ichthyovenator
+rank: genus
+parent: spinosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Allain et al. 2012
+type_species: Ichthyovenator laosensis
+type_species_note: ''
+summary: Spinosaurid from the Aptian of Laos, the first definitive Asian spinosaurid.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ichthyovenator laosensis
+  authority: Allain et al. 2012
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Grès supérieurs
+  group: ''
+  members: []
+  country: Laos
+  regions: [Savannakhet]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: gres-superieurs-laos
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Ichthyovenator laosensis by PaleoGeek.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Ichthyovenator_laosensis_by_PaleoGeek.png/960px-Ichthyovenator_laosensis_by_PaleoGeek.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ichthyovenator_laosensis_by_PaleoGeek.png
+  artist: PaleoGeekSquared
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-29'
+  caption: Life restoration of Ichthyovenator laosensis.
+  width: 4638
+  height: 2609
+  review: unreviewed
+  local: img/gallery/Ichthyovenator_001.webp
+- kind: fossil
+  file: Ichthyovenator laosensis 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ichthyovenator_laosensis_01.jpg/960px-Ichthyovenator_laosensis_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ichthyovenator_laosensis_01.jpg
+  artist: Pescov
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2023-03-22'
+  caption: Ichthyovenator laosensis fossil.
+  width: 3120
+  height: 4160
+  review: unreviewed
+  local: img/gallery/Ichthyovenator_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/vector.svg
+  png: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/raster/512x148.png
+  page: https://www.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Baryonyx walkeri
+  matched: Spinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Allain, Ronan; Xaisanavong, Tiengkham; Richir, Philippe; Khentavong, Bounsou 2012. The first definitive
+    Asian spinosaurid (Dinosauria: Theropoda) from the early cretaceous of Laos. Naturwissenschaften 99(5): 369–377.
+    doi:10.1007/s00114-012-0911-7'
+- kind: literature
+  text: 'Buffetaut, Eric; Suteethorn, Varavudh; Tong, Haiyan; Amiot, Romain 2008. An Early Cretaceous spinosaur
+    theropod from southern China. Geological Magazine 145(5): 745–748. doi:10.1017/S0016756808005360'
+- kind: literature
+  text: 'Wongko, Kamonlak; Buffetaut, Eric; Khamha, Suchada; Lauprasert, Komsorn 2019. Spinosaurid theropod teeth
+    from the Red Beds of the Khok Kruat Formation (Early Cretaceous) in Northeastern Thailand. Tropical Natural
+    History 19(1): 8–20.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ichthyovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ichthyovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ichthyovenator”. English Wikipedia, revision 1361649971.
+  url: https://en.wikipedia.org/w/index.php?title=Ichthyovenator&oldid=1361649971
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

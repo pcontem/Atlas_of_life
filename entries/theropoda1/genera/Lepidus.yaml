@@ -1,0 +1,82 @@
+name: Lepidus
+rank: genus
+parent: coelophysidae
+incertae_sedis: false
+placement_note: ''
+authority: Nesbitt and Ezcurra 2015
+type_species: Lepidus praecisio
+type_species_note: Taken from the Commons file titles; the harvested Wikipedia article is about another taxon, not
+  yet checked.
+summary: Late Triassic coelophysid neotheropod from New Mexico named in 2015.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lepidus praecisio
+  authority: Nesbitt and Ezcurra 2015
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: dockum-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Lepidus maxilla.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/67/Lepidus_maxilla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lepidus_maxilla.jpg
+  artist: Sterling J. Nesbitt and Martín D. Ezcurra
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2015'
+  caption: Maxilla of Lepidus praecisio.
+  width: 524
+  height: 840
+  review: unreviewed
+  local: img/gallery/Lepidus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/vector.svg
+  png: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/raster/512x163.png
+  page: https://www.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelophysis bauri
+  matched: Coelophysidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'S. J. Nesbitt and M. D. Ezcurra. 2015. The early fossil record of dinosaurs in North America: A new neotheropod
+    from the base of the Upper Triassic Dockum Group of Texas. Acta Palaeontologica Polonica 60(3):513-526'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lepidus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lepidus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested English Wikipedia article is about the Roman general, not the genus; use Nesbitt and Ezcurra 2015
+    for a rewrite., Type species, size and holotype not read.
+  reviews: []

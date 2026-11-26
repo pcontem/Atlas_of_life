@@ -1,0 +1,92 @@
+name: Austrocheirus
+rank: genus
+parent: noasauridae
+incertae_sedis: true
+placement_note: Described as an abelisauroid (Ezcurra et al. 2010); later studies find it a noasaurid or leave it
+  unresolved.
+authority: Ezcurra et al. 2010
+type_species: Austrocheirus isasii
+type_species_note: ''
+summary: Late Cretaceous theropod from Patagonia named in 2010, whose name means southern hand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Austrocheirus isasii
+  authority: Ezcurra et al. 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Cerro Fortaleza
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: cerro-fortaleza-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: AustrocheirusSkelWiki.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/AustrocheirusSkelWiki.png/960px-AustrocheirusSkelWiki.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:AustrocheirusSkelWiki.png
+  artist: Definitely NOT Dilophosaurus
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-09-25'
+  caption: Skeletal reconstruction of Austrocheirus.
+  width: 5040
+  height: 2160
+  review: unreviewed
+  local: img/gallery/Austrocheirus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/vector.svg
+  png: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/raster/512x260.png
+  page: https://www.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Masiakasaurus knopfleri
+  matched: Noasauridae
+  genus_level: false
+  w: 512
+  h: 260
+sources:
+- kind: original
+  text: M. D. Ezcurra, F. L. Agnolin, and F. E. Novas. 2010. An abelisauroid dinosaur with a non-atrophied manus
+    from the Late Cretaceous Pari Aike Formation of southern Patagonia. Zootaxa 2450:1-25
+- kind: literature
+  text: 'Ezcurra, M.D. 2010. An abelisauroid dinosaur with a non-atrophied manus from the Late Cretaceous Pari Aike
+    Formation of southern Patagonia. Zootaxa 2450: 1–25. doi:10.11646/zootaxa.2450.1.1'
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Austrocheirus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Austrocheirus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Austrocheirus”. English Wikipedia, revision 1337444431.
+  url: https://en.wikipedia.org/w/index.php?title=Austrocheirus&oldid=1337444431
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

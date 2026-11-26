@@ -1,0 +1,71 @@
+name: Yunyangosaurus
+rank: genus
+parent: tetanurae
+incertae_sedis: true
+placement_note: Described as a possible megalosauroid (Dai et al. 2020); PBDB places it in Tetanurae without a lower
+  clade.
+authority: Dai et al. 2020
+type_species: Yunyangosaurus puanensis
+type_species_note: ''
+summary: Possible megalosauroid theropod from the Xintiangou Formation of Chongqing, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 184.2
+  last_ma: 170.9
+  early_interval: Toarcian
+  late_interval: Aalenian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yunyangosaurus puanensis
+  authority: Dai et al. 2020
+  first_ma: 184.2
+  last_ma: 170.9
+  interval: Toarcian–Aalenian
+  reference: original description
+formations:
+- formation: Xintiangou
+  group: ''
+  members: []
+  country: China
+  regions: [Chongqing]
+  interval: Toarcian–Aalenian
+  occurrences: 1
+  ma: [170.9, 184.2]
+  id: xintiangou-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/vector.svg
+  png: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/raster/512x251.png
+  page: https://www.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f
+  attribution: Jordan Mallon (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Monolophosaurus jiangi
+  matched: Tetanurae
+  genus_level: false
+sources:
+- kind: original
+  text: Hui Dai 2020. A new possible megalosauroid theropod from the Middle Jurassic Xintiangou Formation of Chongqing,
+    People's Republic of China and its implication for early tetanuran evolution. Scientific Reports 10(1). doi:10.1038/s41598-019-56959-x
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yunyangosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yunyangosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yunyangosaurus”. English Wikipedia, revision 1379671133.
+  url: https://en.wikipedia.org/w/index.php?title=Yunyangosaurus&oldid=1379671133
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -5,11 +5,11 @@ group: Ancholme
 country: United Kingdom
 regions: [Dorset, England, Wiltshire]
 location:
-  lat: 52.552
+  lat: 52.543
   lng: -0.242
-  basis: median of 13 PBDB collections that yielded the atlas genera
+  basis: median of 19 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 165.3
+  first_ma: 170.9
   last_ma: 154.8
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
@@ -18,10 +18,16 @@ environment:
 - offshore
 - shallow subtidal indet.
 - open shallow subtidal
-lithology: [not reported, mudstone, sandstone, claystone]
+lithology: [not reported, mudstone, claystone, sandstone]
 pbdb_collections:
 - '47362'
+- '47625'
+- '52552'
+- '52556'
+- '52572'
 - '53680'
+- '59127'
+- '59128'
 - '77060'
 - '92051'
 - '100669'
@@ -33,7 +39,8 @@ pbdb_collections:
 - '162945'
 - '190125'
 - '224072'
-includes: []
+includes:
+- PBDB collection “Kingham, Oxford” has no formation but is a locality of the Oxford Clay.
 summary: ''
 paleoenvironment: ''
 sources:

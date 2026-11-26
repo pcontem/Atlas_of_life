@@ -1,0 +1,259 @@
+name: Carcharodontosaurus
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Stromer 1931
+type_species: Carcharodontosaurus saharicus
+type_species_note: Wikipedia gives the original combination as Megalosaurus saharicus (Depéret and Savornin 1925);
+  the genus was named by Stromer 1931.
+summary: Large Cenomanian theropod of north-west Africa, named for its shark-like teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 143.1
+  last_ma: 72.2
+  early_interval: Berriasian
+  late_interval: Campanian
+  pbdb_occurrences: 44
+  note: ''
+species:
+- name: Carcharodontosaurus iguidensis
+  authority: Brusatte and Sereno 2007
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: ''
+- name: Carcharodontosaurus saharicus
+  authority: (Depéret and Savornin 1925)
+  first_ma: 143.1
+  last_ma: 93.9
+  interval: Berriasian–Cenomanian
+  reference: original description
+formations:
+- formation: Continental Intercalaire
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Adrar, El Bayadh, Illizi]
+  interval: Early Berriasian–Early Cenomanian
+  occurrences: 8
+  ma: [93.9, 143.1]
+  id: continental-intercalaire-algeria
+- formation: Ifezouane
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Cenomanian
+  occurrences: 7
+  ma: [93.9, 100.5]
+  id: ifezouane-morocco
+- formation: Aïn el Guettar
+  group: ''
+  members: [Oum ed Diab]
+  country: Tunisia
+  regions: [Médenine, Tataouine]
+  interval: Late Aptian–Albian
+  occurrences: 4
+  ma: [100.5, 119.57]
+  id: ain-el-guettar-tunisia
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 3
+  ma: [100.5, 121.4]
+  id: elrhaz-niger
+- formation: Echkar
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez, Zinder]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 106.3]
+  id: echkar-niger
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Algeria
+  regions: [El Bayadh, Illizi]
+  interval: Albian–Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 113.2]
+  id: [unnamed-brezina-algeria, unnamed-oued-ameregh-algeria]
+- formation: Douiret
+  group: Merbah el Asfer
+  members: [Douiret Sand]
+  country: Tunisia
+  regions: [Tataouine]
+  interval: Hauterivian–Aptian
+  occurrences: 3
+  ma: [113.2, 132.6]
+  id: douiret-tunisia
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Al Jizah, Matruh]
+  interval: Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 106.3]
+  id: kem-kem-group-morocco
+- formation: Alcântara
+  group: Itapecuru
+  members: []
+  country: Brazil
+  regions: [Maranhão]
+  interval: Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: alcantara-brazil
+- formation: Unnamed unit
+  group: Irhazer
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Early Berriasian–Late Barremian
+  occurrences: 1
+  ma: [121.4, 143.1]
+  id: irhazer-group-niger
+- formation: Tagrezou Sandstone
+  group: Téfidet
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: tagrezou-sandstone-niger
+- formation: Gara Samani
+  group: ''
+  members: [Samani Vertebrate-Rich Sand]
+  country: Algeria
+  regions: [Adrar]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: gara-samani-algeria
+- formation: Quseir
+  group: ''
+  members: [Mut]
+  country: Egypt
+  regions: [Al Wadi al Jadid]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: quseir-egypt
+- formation: Continental Intercalaire
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Medinine]
+  interval: Barremian–Albian
+  occurrences: 1
+  ma: [100.5, 125.77]
+  id: continental-intercalaire-tunisia
+- formation: Douira
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: douira-morocco
+- formation: Undifferentiated Unit
+  group: Itapecuru
+  members: []
+  country: Brazil
+  regions: [Maranhão]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: undifferentiated-unit-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Carcharodontosaurus braincase.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Carcharodontosaurus_braincase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Carcharodontosaurus_braincase.jpg
+  artist: Nizar Ibrahim, Paul C. Sereno, David J. Varricchio, David M. Martill, Didier B. Dutheil, David M. Unwin,
+    Lahssen Baidder, Hans C. E. Larsson, Samir Zouhri, Abdelhadi Kaoukaya
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Braincase of Carcharodontosaurus.
+  width: 1512
+  height: 629
+  review: unreviewed
+  local: img/gallery/Carcharodontosaurus_001.webp
+- kind: fossil
+  file: Carcharodontosaurus jugal bones.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/15/Carcharodontosaurus_jugal_bones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Carcharodontosaurus_jugal_bones.jpg
+  artist: Nizar Ibrahim, Paul C. Sereno, David J. Varricchio, David M. Martill, Didier B. Dutheil, David M. Unwin,
+    Lahssen Baidder, Hans C. E. Larsson, Samir Zouhri, Abdelhadi Kaoukaya
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Jugal bones of Carcharodontosaurus.
+  width: 1512
+  height: 1186
+  review: unreviewed
+  local: img/gallery/Carcharodontosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/84bfa110-4a5b-437e-b759-711c76f5eed8/vector.svg
+  png: https://images.phylopic.org/images/84bfa110-4a5b-437e-b759-711c76f5eed8/raster/512x175.png
+  page: https://www.phylopic.org/images/84bfa110-4a5b-437e-b759-711c76f5eed8
+  attribution: Martin Kevil
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Carcharodontosaurus saharicus
+  matched: Carcharodontosaurus
+  genus_level: true
+  w: 512
+  h: 175
+sources:
+- kind: original
+  text: 'Stromer, Ernst 1931. Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltier-Reste
+    der Baharîjestufe (unterstes Cenoman). 10. Ein Skelett-Rest von ''''Carcharodontosaurus'''' nov. gen. Abhandlungen
+    der Bayerischen Akademie der Wissenschaften Mathematisch-naturwissenschaftliche Abteilung 9: 1–31.'
+- kind: literature
+  text: Benyoucef, Madani; Pérez-García, Adán; Bendella, Mohamed; Ortega, Francisco; Vullo, Romain; Bouchemla, Imad;
+    Ferré, Bruno 2022. The 'mid'-Cretaceous (Lower Cenomanian) Continental Vertebrates of Gara Samani, Algeria.
+    Sedimentological Framework and Palaeodiversity. Frontiers in Earth Science 10. doi:10.3389/feart.2022.927059
+- kind: literature
+  text: 'Depéret, Charles; Savornin, Justin 1927. La faune de reptiles et de poisons albiens de Timimoun (Sahara
+    algérien). Bulletin de la Société Géologique de France 27: 257–265.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Carcharodontosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Carcharodontosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Carcharodontosaurus”. English Wikipedia, revision 1387100389.
+  url: https://en.wikipedia.org/w/index.php?title=Carcharodontosaurus&oldid=1387100389
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

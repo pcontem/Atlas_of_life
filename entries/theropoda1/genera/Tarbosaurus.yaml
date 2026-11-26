@@ -1,0 +1,166 @@
+name: Tarbosaurus
+rank: genus
+parent: tyrannosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Maleev 1955
+type_species: Tarbosaurus bataar
+type_species_note: ''
+summary: Large tyrannosaurid of the Maastrichtian of Asia, named for its alarming appearance.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 89.8
+  last_ma: 66
+  early_interval: Coniacian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 56
+  note: ''
+species:
+- name: Tarbosaurus bataar
+  authority: (Maleev 1955)
+  first_ma: 89.8
+  last_ma: 66
+  interval: Coniacian–Maastrichtian
+  reference: original description
+- name: Tarbosaurus efremovi
+  authority: Maleev 1955
+  first_ma: 89.8
+  last_ma: 66
+  interval: Coniacian–Maastrichtian
+  reference: ''
+formations:
+- formation: Nemegt
+  group: ''
+  members: [Upper]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 49
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Udurchukan
+  group: Tsagayan
+  members: []
+  country: Russia
+  regions: [Amur]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: udurchukan-russia
+- formation: Yuliangzi
+  group: Jiayin
+  members: []
+  country: China
+  regions: [Heilongjiang]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: yuliangzi-china
+- formation: Qiupa
+  group: Tantou
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: qiupa-china
+- formation: Subashi
+  group: ''
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Campanian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: subashi-china
+- formation: Beds of Nogon Tsav
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Bayankhongor]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: beds-of-nogon-tsav-mongolia
+- formation: Jiangjunding
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: jiangjunding-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Tarbosaurus MPC-D 100 60 skull (3).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/43/Tarbosaurus_MPC-D_100_60_skull_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tarbosaurus_MPC-D_100_60_skull_(3).jpg
+  artist: 'Luis Miguel Bugallo Sánchez ( Lmbuga ) Copyright: GFDL ( GNU Free Documentation License ) Publicada por/
+    Publish by : Luis Miguel Bugallo Sánchez'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: '13 August '
+  caption: Skull of Tarbosaurus MPC-D 100/60.
+  width: 1228
+  height: 862
+  review: unreviewed
+  local: img/gallery/Tarbosaurus_001.webp
+- kind: skeletal
+  file: Tarbosaurus Steveoc86 flipped.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/20/Tarbosaurus_Steveoc86_flipped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tarbosaurus_Steveoc86_flipped.jpg
+  artist: Steveoc 86
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: ''
+  caption: Skeletal reconstruction of Tarbosaurus.
+  width: 1024
+  height: 366
+  review: unreviewed
+  local: img/gallery/Tarbosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/f05e56c4-83bc-4809-8c2e-fd30c0b0bba2/vector.svg
+  png: https://images.phylopic.org/images/f05e56c4-83bc-4809-8c2e-fd30c0b0bba2/raster/512x166.png
+  page: https://www.phylopic.org/images/f05e56c4-83bc-4809-8c2e-fd30c0b0bba2
+  attribution: Conty (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Tyrannosaurus magnus
+  matched: Tarbosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Maleev, E. A. 1955. New carnivorous dinosaurs from the Upper Cretaceous of Mongolia. Doklady Akademii Nauk
+    SSSR 104(5): 779–783.'
+- kind: literature
+  text: 'Hurum, J. H.; Sabath, K. 2003. Giant theropod dinosaurs from Asia and North America: Skulls of ''''Tarbosaurus
+    bataar'''' and ''''Tyrannosaurus rex'''' compared. Acta Palaeontologica Polonica 48(2): 161–190.'
+- kind: literature
+  text: 'Rozhdestvensky, Anatoly K. 1965. Growth changes in Asian dinosaurs and some problems of their taxonomy.
+    Paleontological Journal 3: 95–109.'
+- kind: literature
+  text: 'Maleev, Evgeny A. 1974. Gigantic carnosaurs of the family Tyrannosauridae. The Joint Soviet-Mongolian Paleontological
+    Expedition Transactions 1: 132–191.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tarbosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tarbosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tarbosaurus”. English Wikipedia, revision 1387054217.
+  url: https://en.wikipedia.org/w/index.php?title=Tarbosaurus&oldid=1387054217
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

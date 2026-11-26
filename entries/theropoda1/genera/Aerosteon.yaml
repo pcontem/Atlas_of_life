@@ -1,0 +1,101 @@
+name: Aerosteon
+rank: genus
+parent: megaraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Sereno et al. 2008
+type_species: Aerosteon riocoloradensis
+type_species_note: ''
+summary: Megaraptoran from the Campanian Anacleto Formation of Argentina, found in 1996.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aerosteon riocoloradensis
+  authority: Sereno et al. 2008
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Anacleto
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Mendoza]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: anacleto-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Aerosteon BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/89/Aerosteon_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aerosteon_BW.jpg
+  artist: Nobu Tamura
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-02-14'
+  caption: Life restoration of Aerosteon riocoloradensis.
+  width: 295
+  height: 147
+  review: unreviewed
+  local: img/gallery/Aerosteon_001.webp
+- kind: fossil
+  file: Aerosteon cervicals.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Aerosteon_cervicals.png/960px-Aerosteon_cervicals.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aerosteon_cervicals.png
+  artist: Sereno PC, Martinez RN, Wilson JA, Varricchio DJ, Alcober OA, et al.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2008-09-30'
+  caption: Cervical vertebrae of Aerosteon.
+  width: 2989
+  height: 1682
+  review: unreviewed
+  local: img/gallery/Aerosteon_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cc826dc9-33b5-468c-ab01-4df6ea524e2f/vector.svg
+  png: https://images.phylopic.org/images/cc826dc9-33b5-468c-ab01-4df6ea524e2f/raster/512x177.png
+  page: https://www.phylopic.org/images/cc826dc9-33b5-468c-ab01-4df6ea524e2f
+  attribution: C. Abraczinskas
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Aerosteon riocoloradensis
+  matched: Aerosteon
+  genus_level: true
+  w: 512
+  h: 177
+sources:
+- kind: original
+  text: Sereno, P.C. 2008. Evidence for Avian Intrathoracic Air Sacs in a New Predatory Dinosaur from Argentina.
+    PLOS ONE 3(9). doi:10.1371/journal.pone.0003303
+- kind: literature
+  text: 'Benson R.B.J. 2010. A new clade of archaic large-bodied predatory dinosaurs (Theropoda: Allosauroidea)
+    that survived to the latest Mesozoic. Naturwissenschaften 97(1): 71–78. doi:10.1007/s00114-009-0614-x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aerosteon (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aerosteon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aerosteon”. English Wikipedia, revision 1387597052.
+  url: https://en.wikipedia.org/w/index.php?title=Aerosteon&oldid=1387597052
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

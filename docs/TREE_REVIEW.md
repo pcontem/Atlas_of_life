@@ -793,3 +793,22 @@ Neoiguanodontia, so their genera sit in Styracosterna and Ankylopollexia, with a
 Camptosauridae (PBDB lists no genus in it). Jinzhousaurus (backbone genus) moved to Iguanodontidae (PBDB). Iguanodon sits in
 Iguanodontidae, the family defined from it, although PBDB puts it directly in Ankylopollexia. Hypsilophodon, Gideonmantellia, Vectidromeus,
 Daurosaurus, Burianosaurus and the three elasmarian-candidates stay in Ornithopoda.
+
+## 2026-11-26 — Theropoda I (non-maniraptoran theropods)
+
+New volume `entries/theropoda1` with 36 clade entries and 254 genus entries. The volume root Theropoda attaches to Saurischia.
+Backbone nodes replaced by volume clades were removed: Theropoda, Neotheropoda, Tetanurae, Coelurosauria, Ceratosauria,
+Megalosauroidea, Compsognathidae, Megaraptora, Tyrannosauroidea, Ornithomimosauria, the grade Carnosauria, the legacy double-id nodes
+of the PBDB-built backbone (e.g. `ceratosauria__abelisauridae`, `tyrannosauroidea__tyrannosauridae__albertosaurinae`) and Deinocheiridae
+(no genus of its own: its genera sit in Ornithomimosauria). Maniraptora stays a backbone node below Coelurosauria; maniraptoran groups
+(Alvarezsauria, Therizinosauria, Unenlagiidae and the rest of Maniraptora) are not in this volume.
+Structure: Averostra → Ceratosauria (Ceratosauridae, Noasauridae, Abelisauridae → Brachyrostra → Furileusauria) and Tetanurae →
+Megalosauroidea (Megalosauridae, Spinosauridae → Baryonychinae, Spinosaurinae; Piatnitzkysauridae), Avetheropoda → Allosauroidea
+(Allosauridae, Metriacanthosauridae, Carcharodontosauria → Carcharodontosauridae, Neovenatoridae) and Coelurosauria (Tyrannosauroidea
+→ Proceratosauridae, Tyrannosauridae → Tyrannosaurinae, Albertosaurinae; Compsognathidae; Ornithomimosauria → Ornithomimidae).
+Megaraptora (with Megaraptoridae) is attached directly to Tetanurae: analyses place it among allosauroids or among coelurosaurs (M2).
+Backbone genera moved: Eodromaeus and Anteavis → Theropoda (Anteavis has no entry), Chilesaurus → Tetanurae, Ubirajara → Compsognathidae,
+Tromerosaurus → Tyrannosauridae; the misspelled node Baryonix was deleted (Baryonyx has an entry).
+Placement rule as in the Ornithopoda review: PBDB parent checked against the lead of the English Wikipedia article; where they differ the
+genus sits in the deepest clade both share with `incertae_sedis: true`. Left out of the volume: Anteavis, Protoavis, Sauropus,
+Saurornithoides, Himeoolithus, Ovoraptor, Yaverlandia (not theropods of this volume or not valid genera in the sources used).

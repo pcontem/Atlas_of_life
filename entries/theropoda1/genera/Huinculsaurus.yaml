@@ -1,0 +1,70 @@
+name: Huinculsaurus
+rank: genus
+parent: noasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Baiano et al. 2020
+type_species: Huinculsaurus montesi
+type_species_note: ''
+summary: Noasaurid from the Early Cretaceous Huincul Formation of Argentina, known from five partial vertebrae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Huinculsaurus montesi
+  authority: Baiano et al. 2020
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Five partial vertebrae discovered around 1991.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/vector.svg
+  png: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/raster/512x260.png
+  page: https://www.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Masiakasaurus knopfleri
+  matched: Noasauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mattia Baiano 2020. A new abelisauroid (Dinosauria: Theropoda) from the Huincul formation (lower upper
+    Cretaceous, Neuquén Basin) of Patagonia, Argentina. Cretaceous Research 110. doi:10.1016/j.cretres.2020.104408'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Huinculsaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Huinculsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Huinculsaurus”. English Wikipedia, revision 1386028225.
+  url: https://en.wikipedia.org/w/index.php?title=Huinculsaurus&oldid=1386028225
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

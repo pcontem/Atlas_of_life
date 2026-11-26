@@ -1,0 +1,97 @@
+name: Tameryraptor
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Kellermann et al. 2025
+type_species: Tameryraptor markgrafi
+type_species_note: ''
+summary: Large Cenomanian carcharodontosaurid from Egypt, known from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tameryraptor markgrafi
+  authority: Kellermann et al. 2025
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Bahariya
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Al Jizah]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: bahariya-egypt
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Tameryraptor (life restoration).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Tameryraptor_%28life_restoration%29.png/960px-Tameryraptor_%28life_restoration%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tameryraptor_(life_restoration).png
+  artist: Joschua Knüppe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-14'
+  caption: Life restoration of Tameryraptor markgrafi.
+  width: 2100
+  height: 1712
+  review: unreviewed
+  local: img/gallery/Tameryraptor_001.webp
+- kind: fossil
+  file: Tameryraptor (holotype, SNSB-BSPG 1922 X 46).png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/17/Tameryraptor_%28holotype%2C_SNSB-BSPG_1922_X_46%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tameryraptor_(holotype,_SNSB-BSPG_1922_X_46).png
+  artist: M. Kellermann, E. Cuesta, O. W. M. Rauhut
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-14'
+  caption: Holotype of Tameryraptor markgrafi.
+  width: 1400
+  height: 1500
+  review: unreviewed
+  local: img/gallery/Tameryraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/84bfa110-4a5b-437e-b759-711c76f5eed8/vector.svg
+  png: https://images.phylopic.org/images/84bfa110-4a5b-437e-b759-711c76f5eed8/raster/512x175.png
+  page: https://www.phylopic.org/images/84bfa110-4a5b-437e-b759-711c76f5eed8
+  attribution: Martin Kevil
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Carcharodontosaurus saharicus
+  matched: Tameryraptor
+  genus_level: true
+sources:
+- kind: original
+  text: 'Kellermann, Maximilian; Cuesta, Elena; Rauhut, Oliver W. M. 14 J. Re-evaluation of the Bahariya Formation
+    carcharodontosaurid (Dinosauria: Theropoda) and its implications for allosauroid phylogeny. PLOS ONE 20(1).
+    doi:10.1371/journal.pone.0311096'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tameryraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tameryraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tameryraptor”. English Wikipedia, revision 1387596104.
+  url: https://en.wikipedia.org/w/index.php?title=Tameryraptor&oldid=1387596104
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

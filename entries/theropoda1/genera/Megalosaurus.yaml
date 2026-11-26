@@ -1,0 +1,376 @@
+name: Megalosaurus
+rank: genus
+parent: megalosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Parkinson 1822
+type_species: Megalosaurus bucklandii
+type_species_note: Filled from general knowledge (first dinosaur genus named, Parkinson 1822 / Mantell 1827 species
+  name), not yet checked against the original.
+summary: Large Middle Jurassic theropod of England, the first non-avian dinosaur genus to be formally named.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 205.7
+  last_ma: 66
+  early_interval: Rhaetian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 60
+  note: ''
+species:
+- name: Megalosaurus africanus
+  authority: Huene 1956
+  first_ma: 143.1
+  last_ma: 93.9
+  interval: Berriasian–Cenomanian
+  reference: ''
+- name: Megalosaurus bucklandii
+  authority: Mantell 1827
+  first_ma: 170.9
+  last_ma: 119.57
+  interval: Bajocian–Aptian
+  reference: original description
+- name: Megalosaurus dapukaensis
+  authority: Zhao 1985
+  first_ma: 174.7
+  last_ma: 161.5
+  interval: Aalenian–Callovian
+  reference: ''
+- name: Megalosaurus poikilopleuron
+  authority: Huene 1923
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: ''
+- name: Megalosaurus tibetensis
+  authority: Zhao 1985
+  first_ma: 201.4
+  last_ma: 174.7
+  interval: Hettangian–Toarcian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: Inferior Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Bajocian–Early Aptian
+  occurrences: 8
+  ma: [119.57, 170.9]
+  id:
+  - great-oolite-group-united-kingdom
+  - inferior-oolite-group-united-kingdom
+  - oxford-clay-united-kingdom
+  - unnamed-cornwell-quarry-united-kingdom
+  - wealden-group-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Charentes, Franche-Comte, Franche-Comté, Lorraine, Marne, Pas-de-Calais]
+  interval: Rhaetian–Albian
+  occurrences: 8
+  ma: [100.5, 205.7]
+  id:
+  - unnamed-la-rochette-pointe-aux-oies-france
+  - unnamed-les-islettes-france
+  - unnamed-miserey-bed-1-france
+  - unnamed-north-of-gray-france
+  - unnamed-pargny-sur-saulx-france
+  - unnamed-poitiers-environs-france
+  - unnamed-puits-de-la-breme-france
+  - unnamed-varennes-en-argonne-france
+- formation: Unnamed unit
+  group: Enciso
+  members: []
+  country: Spain
+  regions: [La Rioja]
+  interval: Barremian–Aptian
+  occurrences: 7
+  ma: [113.2, 125.77]
+  id: enciso-group-spain
+- formation: Forest Marble
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Bathonian
+  occurrences: 4
+  ma: [165.3, 168.2]
+  id: forest-marble-united-kingdom
+- formation: Cotswold Slate
+  group: ''
+  members: [Eyford]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Bathonian
+  occurrences: 4
+  ma: [165.3, 168.2]
+  id: cotswold-slate-united-kingdom
+- formation: Marnes de Dives
+  group: ''
+  members: []
+  country: France
+  regions: [Basse-Normandie]
+  interval: Late Callovian
+  occurrences: 3
+  ma: [161.5, 165.3]
+  id: marnes-de-dives-france
+- formation: Chipping Norton Limestone
+  group: Great Oolite
+  members: [Hook Norton]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: chipping-norton-limestone-united-kingdom
+- formation: Kimmeridge Clay
+  group: ''
+  members: [Lower]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Kimmeridgian–Kimmeridgian
+  occurrences: 2
+  ma: [149.2, 154.8]
+  id: kimmeridge-clay-united-kingdom
+- formation: Wadhurst Clay
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Valanginian
+  occurrences: 2
+  ma: [132.6, 137.05]
+  id: wadhurst-clay-united-kingdom
+- formation: Taynton Limestone
+  group: Great Oolite
+  members: [Stonesfield Slates]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Bathonian
+  occurrences: 2
+  ma: [165.3, 168.2]
+  id: taynton-limestone-united-kingdom
+- formation: Unnamed unit
+  group: Chaya
+  members: [Duogaila]
+  country: China
+  regions: [Xizang, Xizang Zizhiqu]
+  interval: Early Jurassic–Middle Jurassic
+  occurrences: 2
+  ma: [161.5, 201.4]
+  id: [chaya-group-china, daye-group-china]
+- formation: Tendaguru
+  group: ''
+  members: [Upper Dinosaur]
+  country: Tanzania
+  regions: [Lindi]
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: tendaguru-tanzania
+- formation: Sharp's Hill
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: sharp-s-hill-united-kingdom
+- formation: Oxford Clay
+  group: ''
+  members: [Peterborough]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: oxford-clay-united-kingdom
+- formation: Ashdown
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: ashdown-united-kingdom
+- formation: Coral Rag
+  group: Corallian
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Oxfordian
+  occurrences: 1
+  ma: [154.8, 157.9]
+  id: coral-rag-united-kingdom
+- formation: Stanford
+  group: ''
+  members: [Coral Rag]
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Oxfordian
+  occurrences: 1
+  ma: [157.9, 159.0]
+  id: stanford-united-kingdom
+- formation: Woburn Sand
+  group: Lower Greensand
+  members: [Potton Nodule Bed]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: woburn-sand-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Poland
+  regions: [Zachodniopomorskie]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: unnamed-fritzow-cammin-poland
+- formation: Bückeberg
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: buckeberg-germany
+- formation: Süntel
+  group: ''
+  members: [Unterbank]
+  country: Germany
+  regions: [Nordrhein-Westfalen]
+  interval: Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 154.8]
+  id: suntel-germany
+- formation: Craie de Maisieres
+  group: ''
+  members: []
+  country: Belgium
+  regions: [Hainaut]
+  interval: Early Coniacian
+  occurrences: 1
+  ma: [85.7, 89.8]
+  id: craie-de-maisieres-belgium
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian–Aptian
+  occurrences: 1
+  ma: [113.2, 139.1]
+  id: wessex-united-kingdom
+- formation: Tunbridge Wells Sand
+  group: Wealden
+  members: [Grinstead Clay]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: tunbridge-wells-sand-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: India
+  regions: [Andhra Pradesh]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: unnamed-asifabad-a-india
+- formation: Durlston
+  group: Purbeck
+  members: [Stair Hole]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: durlston-united-kingdom
+- formation: Hastings Beds
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian–Valanginian
+  occurrences: 1
+  ma: [132.6, 139.1]
+  id: hastings-beds-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Buckland, Megalosaurus jaw.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Buckland%2C_Megalosaurus_jaw.jpg/960px-Buckland%2C_Megalosaurus_jaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Buckland,_Megalosaurus_jaw.jpg
+  artist: Mary Morland (later Buckland; 1797–1857)
+  license: Public domain
+  license_url: ''
+  date: '1824'
+  caption: Jaw of Megalosaurus bucklandii.
+  width: 2945
+  height: 1682
+  review: unreviewed
+  local: img/gallery/Megalosaurus_001.webp
+- kind: fossil
+  file: Megalosaurus bucklandi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Megalosaurus_bucklandi.jpg/960px-Megalosaurus_bucklandi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Megalosaurus_bucklandi.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-04-16'
+  caption: Fossil of Megalosaurus bucklandii.
+  width: 2797
+  height: 1716
+  review: unreviewed
+  local: img/gallery/Megalosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/bacadb12-5f94-4397-8c4a-573b3e2a5d07/vector.svg
+  png: https://images.phylopic.org/images/bacadb12-5f94-4397-8c4a-573b3e2a5d07/raster/512x161.png
+  page: https://www.phylopic.org/images/bacadb12-5f94-4397-8c4a-573b3e2a5d07
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Megalosaurus bucklandii
+  matched: Megalosaurus
+  genus_level: true
+  w: 512
+  h: 161
+sources:
+- kind: original
+  text: 'J. Parkinson. 1822. Outlines of Oryctology. An Introduction to the Study of Fossil Organic Remains; Especially
+    of Those Found in the British Strata: Intended to Aid the Student in His Inquiries Respecting the Nature of
+    Fossils'
+- kind: literature
+  text: 'Rieppel, Olivier 20 J. The first ever described dinosaur bone fragment in Robinet''s philosophy of nature
+    (1768). Historical Biology 34(5): 940–946. doi:10.1080/08912963.2021.1954176'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Megalosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Megalosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Megalosaurus”. English Wikipedia, revision 1383320444.
+  url: https://en.wikipedia.org/w/index.php?title=Megalosaurus&oldid=1383320444
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB range Rhaetian–Maastrichtian includes species assigned from other continents; the atlas lists only valid
+    species of the genus (M3).
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

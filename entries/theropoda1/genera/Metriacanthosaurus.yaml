@@ -1,0 +1,102 @@
+name: Metriacanthosaurus
+rank: genus
+parent: metriacanthosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Walker 1964
+type_species: Metriacanthosaurus parkeri
+type_species_note: ''
+summary: Metriacanthosaurid from the Oxford Clay Formation of England, dated about 160 million years ago.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 159
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Metriacanthosaurus parkeri
+  authority: (Huene 1923)
+  first_ma: 161.5
+  last_ma: 159
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Oxford Clay
+  group: Ancholme
+  members: [Weymouth]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Oxfordian
+  occurrences: 1
+  ma: [159.0, 161.5]
+  id: oxford-clay-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Metriacanthosaurus life restauration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Metriacanthosaurus_life_restauration.png/960px-Metriacanthosaurus_life_restauration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Metriacanthosaurus_life_restauration.png
+  artist: Gallimimus wikipedista.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-22'
+  caption: Life restoration of Metriacanthosaurus parkeri.
+  width: 1745
+  height: 1233
+  review: unreviewed
+  local: img/gallery/Metriacanthosaurus_001.webp
+- kind: fossil
+  file: Metriacanthosaurus holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Metriacanthosaurus_holotype.png/960px-Metriacanthosaurus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Metriacanthosaurus_holotype.png
+  artist: Oxford Museum of Natural History and GB3D Type Fossils Database
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: Unknown da
+  caption: Holotype of Metriacanthosaurus.
+  width: 1900
+  height: 944
+  review: unreviewed
+  local: img/gallery/Metriacanthosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/vector.svg
+  png: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/raster/512x176.png
+  page: https://www.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99
+  attribution: James Neenan
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Metriacanthosauridae
+  matched: Metriacanthosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Walker, Alick D. 1964. Triassic reptiles from the Elgin area: ''''Ornithosuchus'''' and the origin of carnosaurs.
+    Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences 248(744): 53–134. doi:10.1098/rstb.1964.0009'
+- kind: literature
+  text: 'von Huene, F. 1923. Carnivorous Saurischia in Europe since the Triassic. Bulletin of the Geological Society
+    of America 34(3): 449–458. doi:10.1130/GSAB-34-449'
+- kind: literature
+  text: von Huene, F. 1932. Die fossile Reptil-Ordnung Saurischia, ihre Entwicklung und Geschichte. Monographien
+    zur Geologie und Paläontologie 1(4).
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Metriacanthosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Metriacanthosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Metriacanthosaurus”. English Wikipedia, revision 1383227270.
+  url: https://en.wikipedia.org/w/index.php?title=Metriacanthosaurus&oldid=1383227270
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

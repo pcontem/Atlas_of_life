@@ -1,0 +1,105 @@
+name: Siamraptor
+rank: genus
+parent: carcharodontosauria
+incertae_sedis: false
+placement_note: ''
+authority: Chokchaloemwong et al. 2019
+type_species: Siamraptor suwati
+type_species_note: ''
+summary: Carcharodontosaurian from the Khok Kruat Formation of Thailand, the first definitive named carcharodontosaurian
+  from there.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Siamraptor suwati
+  authority: Chokchaloemwong et al. 2019
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Khok Kruat
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Nakhon Ratchasima]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: khok-kruat-thailand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Siamraptor reconstruction 2019 (Mario Lanzas).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b4/Siamraptor_reconstruction_2019_%28Mario_Lanzas%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Siamraptor_reconstruction_2019_(Mario_Lanzas).jpg
+  artist: Mario Lanzas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-10-22'
+  caption: Life reconstruction of Siamraptor suwati.
+  width: 1111
+  height: 607
+  review: unreviewed
+  local: img/gallery/Siamraptor_001.webp
+- kind: skeletal
+  file: Siamraptor.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Siamraptor.png/960px-Siamraptor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Siamraptor.png
+  artist: Duangsuda Chokchaloemwong,Soki Hattori ,Elena Cuesta,Pratueng Jintasakul,Masateru Shibata,Yoichi Azuma
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 9/10/2019
+  caption: Skeletal reconstruction of Siamraptor.
+  width: 3967
+  height: 1222
+  review: unreviewed
+  local: img/gallery/Siamraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Carcharodontosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chokchaloemwong, Duangsuda; Hattori, Soki; Cuesta, Elena; Jintasakul, Pratueng; Shibata, Masateru; Azuma,
+    Yoichi 2019. A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand.
+    PLOS ONE 14(10). doi:10.1371/journal.pone.0222489'
+- kind: literature
+  text: 'Cau, Andrea 2024. A Unified Framework for Predatory Dinosaur Macroevolution. Bollettino della Società Paleontologica
+    Italiana 63(1): 1–19. doi:10.4435/BSPI.2024.08'
+- kind: literature
+  text: Rauhut, Oliver W M; Bakirov, Aizek A; Wings, Oliver; Fernandes, Alexandra E; Hübner, Tom R 2024. A new theropod
+    dinosaur from the Callovian Balabansai Formation of Kyrgyzstan. Zoological Journal of the Linnean Society 201(4).
+    doi:10.1093/zoolinnean/zlae090
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Siamraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Siamraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Siamraptor”. English Wikipedia, revision 1381784229.
+  url: https://en.wikipedia.org/w/index.php?title=Siamraptor&oldid=1381784229
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

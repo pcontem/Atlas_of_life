@@ -1,0 +1,103 @@
+name: Rajasaurus
+rank: genus
+parent: brachyrostra
+incertae_sedis: false
+placement_note: ''
+authority: Wilson et al. 2003
+type_species: Rajasaurus narmadensis
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from the Lameta Formation of Gujarat, India, whose name means king lizard.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rajasaurus narmadensis
+  authority: Wilson et al. 2003
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lameta
+  group: ''
+  members: []
+  country: India
+  regions: [Gujarat]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lameta-india
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Rajasaurus restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Rajasaurus_restoration.jpg/960px-Rajasaurus_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rajasaurus_restoration.jpg
+  artist: Paleocolour
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2017-10-17'
+  caption: Restoration of Rajasaurus.
+  width: 2000
+  height: 680
+  review: unreviewed
+  local: img/gallery/Rajasaurus_001.webp
+- kind: fossil
+  file: Rajasaurus skull pieces 01.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Rajasaurus_skull_pieces_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rajasaurus_skull_pieces_01.jpg
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Skull pieces of Rajasaurus.
+  width: 1029
+  height: 744
+  review: unreviewed
+  local: img/gallery/Rajasaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wilson, J. A.; Sereno, P. C.; Srivastava, S.; Bhatt, D. K.; Khosla, A.; Sahni, A. 2003. A new abelisaurid
+    (Dinosauria, Theropoda) from the Lameta Formation (Cretaceous, Maastrichtian) of India. Contributions from the
+    Museum of Paleontology University of Michigan 31(1): 1–42.'
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: literature
+  text: 'Rogers, Raymond R. 2007. Majungasaurus crenatissimus ''''(Theropoda: Abelisauridae) from the Late Cretaceous
+    of Madagascar''''. Journal of Vertebrate Paleontology 27: 21–31. doi:10.1671/0272-4634(2007)27[21:PAPOMC]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rajasaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rajasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rajasaurus”. English Wikipedia, revision 1386874694.
+  url: https://en.wikipedia.org/w/index.php?title=Rajasaurus&oldid=1386874694
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,99 @@
+name: Garudimimus
+rank: genus
+parent: ornithomimosauria
+incertae_sedis: false
+placement_note: ''
+authority: Barsbold 1981
+type_species: Garudimimus brevipes
+type_species_note: ''
+summary: Ornithomimosaur of the Late Cretaceous of Asia, known from a single specimen found in 1981.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 83.6
+  early_interval: Turonian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Garudimimus brevipes
+  authority: Barsbold 1981
+  first_ma: 93.9
+  last_ma: 83.6
+  interval: Turonian–Santonian
+  reference: original description
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Turonian–Late Santonian
+  occurrences: 1
+  ma: [83.6, 93.9]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Garudimimus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Garudimimus_Restoration.png/960px-Garudimimus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Garudimimus_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-08-30'
+  caption: Life restoration of Garudimimus brevipes.
+  width: 5578
+  height: 2794
+  review: unreviewed
+  local: img/gallery/Garudimimus_001.webp
+- kind: skeletal
+  file: Garudimimus brevipes headden.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/54/Garudimimus_brevipes_headden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Garudimimus_brevipes_headden.jpg
+  artist: Jaime Headden ( en:User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-01-01'
+  caption: Skeletal reconstruction of Garudimimus brevipes.
+  width: 470
+  height: 158
+  review: unreviewed
+  local: img/gallery/Garudimimus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/vector.svg
+  png: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/raster/512x304.png
+  page: https://www.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Deinocheirus mirificus
+  matched: Deinocheiridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Barsbold, R. 1981. Беззубые хищные динозавры Монголии. Transactions, Joint Soviet–Mongolian Palaeontological
+    Expedition 15: 28−39.'
+- kind: literature
+  text: 'Barsbold, R. 1983. Хищные динозавры мела Монголии. Transactions of the Joint Soviet-Mongolian Paleontological
+    Expedition 19: 1−120.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Garudimimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Garudimimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Garudimimus”. English Wikipedia, revision 1352447700.
+  url: https://en.wikipedia.org/w/index.php?title=Garudimimus&oldid=1352447700
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

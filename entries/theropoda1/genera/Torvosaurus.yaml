@@ -1,0 +1,173 @@
+name: Torvosaurus
+rank: genus
+parent: megalosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Galton and Jensen 1979
+type_species: Torvosaurus tanneri
+type_species_note: ''
+summary: Large megalosaurine theropod of the Middle to Late Jurassic of North America and Europe.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 143.1
+  early_interval: Callovian
+  late_interval: Tithonian
+  pbdb_occurrences: 28
+  note: ''
+species:
+- name: Torvosaurus gurneyi
+  authority: Hendrickx and Mateus 2014
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Torvosaurus tanneri
+  authority: (Galton and Jensen 1979)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Salt Wash, Talking Rocks]
+  country: United States
+  regions: [Colorado, Utah, Wyoming]
+  interval: Late Jurassic–Tithonian
+  occurrences: 9
+  ma: [143.1, 161.5]
+  id: morrison-united-states
+- formation: Lourinhã
+  group: ''
+  members: [Praia da Amoreira-Porto Novo]
+  country: Portugal
+  regions: [Centro, Estremadura, Lisboa, Lourinha]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 9
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: Tendaguru
+  group: ''
+  members: [Middle Dinosaur, Upper Dinosaur]
+  country: Tanzania
+  regions: [Lindi]
+  interval: Late Kimmeridgian–Tithonian
+  occurrences: 3
+  ma: [143.1, 152.21]
+  id: tendaguru-tanzania
+- formation: Tacuarembó
+  group: ''
+  members: [Batoví]
+  country: Uruguay
+  regions: [Tacuarembó]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 3
+  ma: [143.1, 154.8]
+  id: tacuarembo-uruguay
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Shanxi]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: unnamed-xinrong-datong-china
+- formation: Ornatenton
+  group: Braunjura
+  members: [Upper Siltstone Series]
+  country: Germany
+  regions: [Nordrhein-Westfalen]
+  interval: Middle Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: ornatenton-germany
+- formation: '"Korallenoolith"'
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Oxfordian–Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 157.9]
+  id: korallenoolith-germany
+- formation: Süntel
+  group: ''
+  members: []
+  country: Germany
+  regions: [Niedersachsen]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: suntel-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Torvosaurus Museum of Ancient Life 2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Torvosaurus_Museum_of_Ancient_Life_2.jpg/960px-Torvosaurus_Museum_of_Ancient_Life_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Torvosaurus_Museum_of_Ancient_Life_2.jpg
+  artist: Etemenanki3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-10-25'
+  caption: Life restoration of Torvosaurus tanneri.
+  width: 5472
+  height: 3648
+  review: unreviewed
+  local: img/gallery/Torvosaurus_001.webp
+- kind: fossil
+  file: Complete skeleton of Torvosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Complete_skeleton_of_Torvosaurus.jpg/960px-Complete_skeleton_of_Torvosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Complete_skeleton_of_Torvosaurus.jpg
+  artist: ★Kumiko★
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2015-08-08'
+  caption: Skeleton of Torvosaurus.
+  width: 4896
+  height: 3264
+  review: unreviewed
+  local: img/gallery/Torvosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/5f1e1adf-372c-4289-bfc5-147245c41170/vector.svg
+  png: https://images.phylopic.org/images/5f1e1adf-372c-4289-bfc5-147245c41170/raster/512x151.png
+  page: https://www.phylopic.org/images/5f1e1adf-372c-4289-bfc5-147245c41170
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Torvosaurus tanneri
+  matched: Torvosaurus
+  genus_level: true
+  w: 512
+  h: 151
+sources:
+- kind: original
+  text: P. M. Galton and J. A. Jensen. 1979. A new large theropod dinosaur from the Upper Jurassic of Colorado.
+    Brigham Young University Geology Studies 26(1):1-12
+- kind: literature
+  text: Hendrickx, C.; Mateus, O. 2014. ''Torvosaurus gurneyi'' n. sp., the Largest Terrestrial Predator from Europe,
+    and a Proposed Terminology of the Maxilla Anatomy in Nonavian Theropods. PLOS ONE 9(3). doi:10.1371/journal.pone.0088905
+- kind: literature
+  text: 'Hanson, Michael; Makovicky, Peter J. July. A new specimen of ''''Torvosaurus tanneri'''' originally collected
+    by Elmer Riggs. Historical Biology 26(6): 775–784. doi:10.1080/08912963.2013.853056'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Torvosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Torvosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Torvosaurus”. English Wikipedia, revision 1387883859.
+  url: https://en.wikipedia.org/w/index.php?title=Torvosaurus&oldid=1387883859
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

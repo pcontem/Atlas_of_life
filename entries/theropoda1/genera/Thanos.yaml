@@ -1,0 +1,68 @@
+name: Thanos
+rank: genus
+parent: brachyrostra
+incertae_sedis: false
+placement_note: ''
+authority: Delcourt and Iori 2020
+type_species: Thanos simonattoi
+type_species_note: ''
+summary: Abelisaurid from the Late Cretaceous of Brazil named in 2020 by Delcourt and Iori.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Thanos simonattoi
+  authority: Delcourt and Iori 2020
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: São José do Rio Preto
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Santonian–Early Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: sao-jose-do-rio-preto-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'R. Delcourt and F. V. Iori. 2020. A new Abelisauridae (Dinosauria: Theropoda) from São José do Rio Preto
+    Formation, Upper Cretaceous of Brazil and comments on the Bauru Group fauna. Historical Biology 32(7):917-924'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thanos (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thanos
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested English Wikipedia page is the Marvel Comics character; draft from Delcourt and Iori 2020.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

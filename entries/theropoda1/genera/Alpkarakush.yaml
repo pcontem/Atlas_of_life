@@ -1,0 +1,86 @@
+name: Alpkarakush
+rank: genus
+parent: metriacanthosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Rauhut et al. 2024
+type_species: Alpkarakush kyrgyzicus
+type_species_note: ''
+summary: Metriacanthosaurid from the Jurassic Balabansai Formation of Kyrgyzstan, known from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Alpkarakush kyrgyzicus
+  authority: Rauhut et al. 2024
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Balabansai
+  group: ''
+  members: []
+  country: Kyrgyzstan
+  regions: [Jalal-Abad]
+  interval: Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: balabansai-kyrgyzstan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Alpkarakush kyrgyzicus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Alpkarakush_kyrgyzicus.png/960px-Alpkarakush_kyrgyzicus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alpkarakush_kyrgyzicus.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-08-20'
+  caption: Life restoration of Alpkarakush kyrgyzicus.
+  width: 2416
+  height: 804
+  review: unreviewed
+  local: img/gallery/Alpkarakush_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/vector.svg
+  png: https://images.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99/raster/512x176.png
+  page: https://www.phylopic.org/images/3ee39f8e-9216-4fa4-abba-1d1d024b2c99
+  attribution: James Neenan
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Metriacanthosauridae
+  matched: Metriacanthosauridae
+  genus_level: false
+  w: 512
+  h: 176
+sources:
+- kind: original
+  text: Rauhut, Oliver W M; Bakirov, Aizek A; Wings, Oliver; Fernandes, Alexandra E; Hübner, Tom R 2024. A new theropod
+    dinosaur from the Callovian Balabansai Formation of Kyrgyzstan. Zoological Journal of the Linnean Society 201(4).
+    doi:10.1093/zoolinnean/zlae090
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alpkarakush (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alpkarakush
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alpkarakush”. English Wikipedia, revision 1387595911.
+  url: https://en.wikipedia.org/w/index.php?title=Alpkarakush&oldid=1387595911
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

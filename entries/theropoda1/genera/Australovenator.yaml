@@ -1,0 +1,125 @@
+name: Australovenator
+rank: genus
+parent: megaraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Hocknull et al. 2009
+type_species: Australovenator wintonensis
+type_species_note: ''
+summary: Megaraptoran theropod from the Late Cretaceous Winton Formation of Queensland, Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 89.8
+  early_interval: Barremian
+  late_interval: Turonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Australovenator wintonensis
+  authority: Hocknull et al. 2009
+  first_ma: 125.77
+  last_ma: 89.8
+  interval: Barremian–Turonian
+  reference: original description
+formations:
+- formation: Winton
+  group: Rolling Downs
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Middle Cenomanian–Early Turonian
+  occurrences: 2
+  ma: [89.8, 100.5]
+  id: winton-australia
+- formation: '"Wonthaggi"'
+  group: Strzelecki
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wonthaggi-australia
+- formation: Eumeralla
+  group: Otway
+  members: []
+  country: Australia
+  regions: [Victoria]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: eumeralla-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Australovenator reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Australovenator_reconstruction.jpg/960px-Australovenator_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Australovenator_reconstruction.jpg
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-02'
+  caption: Life restoration of Australovenator wintonensis.
+  width: 2017
+  height: 1311
+  review: unreviewed
+  local: img/gallery/Australovenator_001.webp
+- kind: fossil
+  file: Australovenator left manus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Australovenator_left_manus.jpg/960px-Australovenator_left_manus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Australovenator_left_manus.jpg
+  artist: Stephen F. Poropat, Phil R. Bell, Lachlan J. Hart, Steven W. Salisbury, & Benjamin P. Kear
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023'
+  caption: Left hand of Australovenator.
+  width: 2375
+  height: 2001
+  review: unreviewed
+  local: img/gallery/Australovenator_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/vector.svg
+  png: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/raster/512x161.png
+  page: https://www.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Australovenator wintonensis
+  matched: Australovenator
+  genus_level: true
+sources:
+- kind: original
+  text: Hocknull, Scott A.; White, Matt A.; Tischler, Travis R.; Cook, Alex G.; Calleja, Naomi D.; Sloan, Trish;
+    Elliott, David A. 2009. New Mid-Cretaceous (Latest Albian) Dinosaurs from Winton, Queensland, Australia. PLOS
+    ONE 4(7). doi:10.1371/journal.pone.0006190
+- kind: literature
+  text: 'Molnar, R.E.; Pledge, N.S. 1980. A new theropod dinosaur from South Australia. Alcheringa: An Australasian
+    Journal of Palaeontology 4(4): 281–287. doi:10.1080/03115518008558972'
+- kind: literature
+  text: Benson, Roger B. J.; Rich, Thomas H.; Vickers-Rich, Patricia; Hall, Mike 2012. Theropod Fauna from Southern
+    Australia Indicates High Polar Diversity and Climate-Driven Dinosaur Provinciality. PLOS ONE 7(5). doi:10.1371/journal.pone.0037122
+- kind: literature
+  text: 'White, Matt 2017. The revised skeletal description and biological range of motion analysis of Australia''s
+    most complete theropod dinosaur Australovenator wintonensis (Theropoda: Megaraptoridae). University of Newcastle,
+    Australia; Thesis.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Australovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Australovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Australovenator”. English Wikipedia, revision 1386445049.
+  url: https://en.wikipedia.org/w/index.php?title=Australovenator&oldid=1386445049
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

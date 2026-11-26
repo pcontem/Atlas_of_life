@@ -1,0 +1,70 @@
+name: Niebla
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Aranciaga Rolando et al. 2021
+type_species: Niebla antiqua
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from Patagonia named in 2021 by Aranciaga Rolando and colleagues.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Niebla antiqua
+  authority: Aranciaga Rolando et al. 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Allen
+  group: Malargüe
+  members: [Upper]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: allen-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: M. Aranciaga Rolando, M. A. Cerroni, and J. A. Garcia Marsà, F. I. Agnolín, M. J. Motta, S. Rozadilla, F.
+    Brisson Eglí, F. E. Novas. 2021. A new medium-sized abelisaurid (Theropoda, Dinosauria) from the Late Cretaceous
+    (Maastrichtian) Allen Formation of Northern Patagonia, Argentina. Journal of South American Earth Sciences 105:102915:1-18
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Niebla (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Niebla
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is a disambiguation page; the Commons candidates are lichens. Draft from Aranciaga
+    Rolando et al. 2021.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,97 @@
+name: Joaquinraptor
+rank: genus
+parent: megaraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Ibiricu et al. 2025
+type_species: Joaquinraptor casali
+type_species_note: ''
+summary: Megaraptorid from the Late Cretaceous Lago Colhue Huapi Formation of Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Joaquinraptor casali
+  authority: Ibiricu et al. 2025
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lago Colhué Huapi
+  group: Chubut
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lago-colhue-huapi-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Joaquinraptor casali (life restoration by Andrew McAfee).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Joaquinraptor_casali_%28life_restoration_by_Andrew_McAfee%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Joaquinraptor_casali_(life_restoration_by_Andrew_McAfee).jpg
+  artist: CONICET, Ibiricu et al. (2025)
+  license: CC BY 2.5 ar
+  license_url: https://creativecommons.org/licenses/by/2.5/ar/deed.en
+  date: '2025-09-23'
+  caption: Life restoration of Joaquinraptor casali.
+  width: 995
+  height: 566
+  review: unreviewed
+  local: img/gallery/Joaquinraptor_001.webp
+- kind: skeletal
+  file: Joaquinraptor casali (skeletal).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/af/Joaquinraptor_casali_%28skeletal%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Joaquinraptor_casali_(skeletal).jpg
+  artist: CONICET, Ibiricu et al. (2025)
+  license: CC BY 2.5 ar
+  license_url: https://creativecommons.org/licenses/by/2.5/ar/deed.en
+  date: '2025-09-23'
+  caption: Skeletal reconstruction of Joaquinraptor casali.
+  width: 995
+  height: 342
+  review: unreviewed
+  local: img/gallery/Joaquinraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/vector.svg
+  png: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/raster/512x161.png
+  page: https://www.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Australovenator wintonensis
+  matched: Megaraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: Ibiricu, Lucio M.; Lamanna, Matthew C.; Alvarez, Bruno N.; Cerda, Ignacio A.; Caglianone, Julieta L.; Cardozo,
+    Noelia V.; Luna, Marcelo; Martínez, Rubén D. 2025. Latest Cretaceous megaraptorid theropod dinosaur sheds light
+    on megaraptoran evolution and palaeobiology. Nature Communications 16. doi:10.1038/s41467-025-63793-5
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Joaquinraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Joaquinraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Joaquinraptor”. English Wikipedia, revision 1366627074.
+  url: https://en.wikipedia.org/w/index.php?title=Joaquinraptor&oldid=1366627074
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

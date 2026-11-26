@@ -1,0 +1,89 @@
+name: Lajasvenator
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Coria et al. 2020
+type_species: Lajasvenator ascheriae
+type_species_note: ''
+summary: Medium-sized carcharodontosaurid from the Mulichinco Formation of Neuquen, Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lajasvenator ascheriae
+  authority: Coria et al. 2020
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Mulichinco
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: mulichinco-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Lajasvenator ascheriae Wikipedia Juandertal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Lajasvenator_ascheriae_Wikipedia_Juandertal.jpg/960px-Lajasvenator_ascheriae_Wikipedia_Juandertal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lajasvenator_ascheriae_Wikipedia_Juandertal.jpg
+  artist: Juandertal
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022'
+  caption: Life restoration of Lajasvenator ascheriae.
+  width: 1950
+  height: 1000
+  review: unreviewed
+  local: img/gallery/Lajasvenator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Carcharodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Coria, Rodolfo A.; Currie, Philip J.; Ortega, Francisco; Baiano, Mattia A. 2020. An Early Cretaceous, medium-sized
+    carcharodontosaurid theropod (Dinosauria, Saurischia) from the Mulichinco Formation (upper Valanginian), Neuquén
+    Province, Patagonia, Argentina. Cretaceous Research 111. doi:10.1016/j.cretres.2019.104319
+- kind: literature
+  text: 'Canale, Juan I.; Apesteguía, Sebastián; Gallina, Pablo A.; Mitchell, Jonathan; Smith, Nathan D.; Cullen,
+    Thomas M.; Shinya, Akiko; Haluza, Alejandro; Gianechini, Federico A.; Makovicky, Peter J. July. New giant carnivorous
+    dinosaur reveals convergent evolutionary trends in theropod arm reduction. Current Biology 32(14): 3195–3202.e5.
+    doi:10.1016/j.cub.2022.05.057'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lajasvenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lajasvenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lajasvenator”. English Wikipedia, revision 1329031635.
+  url: https://en.wikipedia.org/w/index.php?title=Lajasvenator&oldid=1329031635
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

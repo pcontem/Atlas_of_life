@@ -3,18 +3,18 @@ name: Echkar
 rank: formation
 group: Tegama
 country: Niger
-regions: [Agadez]
+regions: [Agadez, Zinder]
 location:
-  lat: 17.821
-  lng: 5.707
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: 17.709
+  lng: 5.798
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 106.3
   last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [deltaic indet., terrestrial indet.]
-lithology: [sandstone, not reported]
-pbdb_collections: ['25221', '58577']
+environment: [deltaic indet., terrestrial indet., crevasse splay]
+lithology: [not reported, sandstone]
+pbdb_collections: ['25221', '58577', '228906']
 includes: []
 summary: ''
 paleoenvironment: ''

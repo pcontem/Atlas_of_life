@@ -1,0 +1,91 @@
+name: Santanaraptor
+rank: genus
+parent: coelurosauria
+incertae_sedis: false
+placement_note: ''
+authority: Kellner 1999
+type_species: Santanaraptor placidus
+type_species_note: ''
+summary: Coelurosaur from the Early Cretaceous of Brazil, about 112 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Santanaraptor placidus
+  authority: Kellner 1999
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Romualdo
+  group: Santana
+  members: []
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: romualdo-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Santanaraptor placidus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Santanaraptor_placidus.jpg/960px-Santanaraptor_placidus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Santanaraptor_placidus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2012/2024
+  caption: Life restoration of Santanaraptor placidus.
+  width: 2010
+  height: 801
+  review: unreviewed
+  local: img/gallery/Santanaraptor_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d/vector.svg
+  png: https://images.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d/raster/512x176.png
+  page: https://www.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelurus agilis
+  matched: Coelurosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kellner, A. W. A. 1999. Short Note on a new dinosaur (Theropoda, Coelurosauria) from the Santana Formation
+    (Romualdo Member, Albian), northeastern Brazil. Boletim do Museu Nacional (Serie Geologia) 49: 1&ndash;8.'
+- kind: literature
+  text: 'Hendrickx, Christophe; Bell, Phil R.; Pittman, Michael; Milner, Andrew R. C.; Cuesta, Elena; O''Connor,
+    Jingmai; Loewen, Mark; Currie, Philip J.; Mateus, Octávio; Kaye, Thomas G.; Delcourt, Rafael 2022. Morphology
+    and distribution of scales, dermal ossifications, and other non-feather integumentary structures in non-avialan
+    theropod dinosaurs. Biological Reviews 97(3): 960–1004. doi:10.1111/brv.12829'
+- kind: literature
+  text: 'Delcourt, Rafael; Grillo, Orlando Nelson 2018. Tyrannosauroids from the Southern Hemisphere: Implications
+    for biogeography, evolution, and taxonomy. Palaeogeography, Palaeoclimatology, Palaeoecology 511: 379–387. doi:10.1016/j.palaeo.2018.09.003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Santanaraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Santanaraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Santanaraptor”. English Wikipedia, revision 1384707438.
+  url: https://en.wikipedia.org/w/index.php?title=Santanaraptor&oldid=1384707438
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

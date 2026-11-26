@@ -1,0 +1,90 @@
+name: Aoniraptor
+rank: genus
+parent: megaraptora
+incertae_sedis: false
+placement_note: ''
+authority: Motta et al. 2016
+type_species: Aoniraptor libertatem
+type_species_note: ''
+summary: Megaraptoran from the Huincul Formation of Argentina, known from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aoniraptor libertatem
+  authority: Motta et al. 2016
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Aoniraptor reconstruction as megaraptoran.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Aoniraptor_reconstruction_as_megaraptoran.png/960px-Aoniraptor_reconstruction_as_megaraptoran.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aoniraptor_reconstruction_as_megaraptoran.png
+  artist: Atlantis536
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-06-11'
+  caption: Reconstruction of Aoniraptor libertatem.
+  width: 2360
+  height: 795
+  review: unreviewed
+  local: img/gallery/Aoniraptor_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/vector.svg
+  png: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/raster/512x161.png
+  page: https://www.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Australovenator wintonensis
+  matched: Megaraptora
+  genus_level: false
+  w: 512
+  h: 161
+sources:
+- kind: original
+  text: 'Motta, Matías J.; Aranciaga Rolando, Alexis M.; Rozadilla, Sebastián; Agnolín, Federico E.; Chimento, Nicolás
+    R.; Egli, Federico Brissón; Novas, Fernando E. June. New theropod fauna from the Upper Cretaceous (Huincul Formation)
+    of northwestern Patagonia, Argentina. New Mexico Museum of Natural History and Science Bulletin 71: 231–253.'
+- kind: literature
+  text: 'Rolando, Mauro Aranciaga; Marsà, Jordi Garcia; Novas, Fernando 2020. Histology and pneumaticity of ''''Aoniraptor
+    libertatem'''' (Dinosauria, Theropoda), an enigmatic mid-sized megaraptoran from Patagonia. Journal of Anatomy
+    237(4): 741–756. doi:10.1111/joa.13225'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aoniraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aoniraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aoniraptor”. English Wikipedia, revision 1369529518.
+  url: https://en.wikipedia.org/w/index.php?title=Aoniraptor&oldid=1369529518
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

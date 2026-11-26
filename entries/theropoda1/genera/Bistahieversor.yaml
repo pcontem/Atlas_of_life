@@ -1,0 +1,115 @@
+name: Bistahieversor
+rank: genus
+parent: tyrannosauridae
+incertae_sedis: true
+placement_note: Wikipedia calls it an eutyrannosaurian closely related to tyrannosaurids if not one; PBDB places
+  it in Tyrannosauridae.
+authority: Carr and Williamson 2010
+type_species: Bistahieversor sealeyi
+type_species_note: ''
+summary: Eutyrannosaurian from the Campanian of New Mexico, known as the Bisti Beast.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Bistahieversor sealeyi
+  authority: Carr and Williamson 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Fruitland
+  group: ''
+  members: [Fossil Forest]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Kirtland
+  group: ''
+  members: [Hunter Wash]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Bistahieversor mount.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bistahieversor_mount.jpg/960px-Bistahieversor_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bistahieversor_mount.jpg
+  artist: Lee Ruk from North Tonawanda
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2013-02-06'
+  caption: Mounted skeleton of Bistahieversor sealeyi.
+  width: 5358
+  height: 2745
+  review: unreviewed
+  local: img/gallery/Bistahieversor_001.webp
+- kind: life
+  file: Bistahieversor sealeyi life restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Bistahieversor_sealeyi_life_restoration.jpg/960px-Bistahieversor_sealeyi_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bistahieversor_sealeyi_life_restoration.jpg
+  artist: Petrodactylus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-08-12'
+  caption: Life restoration of Bistahieversor sealeyi.
+  width: 3575
+  height: 1855
+  review: unreviewed
+  local: img/gallery/Bistahieversor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/24f28bcd-7f8f-48ad-8e98-13dd52a853c4/vector.svg
+  png: https://images.phylopic.org/images/24f28bcd-7f8f-48ad-8e98-13dd52a853c4/raster/512x184.png
+  page: https://www.phylopic.org/images/24f28bcd-7f8f-48ad-8e98-13dd52a853c4
+  attribution: Christopher Chávez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Bistahieversor sealeyi
+  matched: Bistahieversor
+  genus_level: true
+  w: 512
+  h: 184
+sources:
+- kind: original
+  text: 'Carr, Thomas D.; Williamson, Thomas E. 2010. ''''Bistahieversor sealeyi'''', gen. et sp. nov., a new tyrannosauroid
+    from New Mexico and the origin of deep snouts in Tyrannosauroidea. Journal of Vertebrate Paleontology 30(1):
+    1–16. doi:10.1080/02724630903413032'
+- kind: literature
+  text: 'Lehman, Thomas M.; Carpenter, Kenneth Nove. A partial skeleton of the tyrannosaurid dinosaur ''''Aublysodon''''
+    from the Upper Cretaceous of New Mexico. Journal of Paleontology 64(6): 1026–1032. doi:10.1017/S0022336000019843'
+- kind: literature
+  text: 'Archer, Brad; Babiarz, John P. July. Another tyrannosaurid dinosaur from the Cretaceous of northwest New
+    Mexico. Journal of Paleontology 66(4): 690–691. doi:10.1017/S0022336000024598'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bistahieversor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bistahieversor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bistahieversor”. English Wikipedia, revision 1362625479.
+  url: https://en.wikipedia.org/w/index.php?title=Bistahieversor&oldid=1362625479
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

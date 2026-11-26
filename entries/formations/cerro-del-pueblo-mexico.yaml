@@ -5,21 +5,23 @@ group: Difunta
 country: Mexico
 regions: [Coahuila]
 location:
-  lat: 25.5
-  lng: -101.4
-  basis: median of 5 PBDB collections that yielded the atlas genera
+  lat: 25.506
+  lng: -101.528
+  basis: median of 8 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
-- delta plain
-- fluvial-deltaic indet.
-- '"channel"'
-- estuary/bay
 - terrestrial indet.
-lithology: [mudstone, breccia]
-pbdb_collections: ['24258', '68039', '76745', '170998', '179648']
+- '"channel"'
+- marginal marine indet.
+- delta plain
+- estuary/bay
+- coastal indet.
+- fluvial-deltaic indet.
+lithology: [mudstone, breccia, '"shale"', not reported]
+pbdb_collections: ['24258', '68039', '76745', '136544', '154244', '170998', '179648', '278995']
 includes: []
 summary: ''
 paleoenvironment: ''

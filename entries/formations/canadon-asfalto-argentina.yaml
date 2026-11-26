@@ -7,7 +7,7 @@ regions: [Chubut]
 location:
   lat: -43.416
   lng: -69.183
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  basis: median of 9 PBDB collections that yielded the atlas genera
 age:
   first_ma: 184.2
   last_ma: 168.6
@@ -15,11 +15,11 @@ age:
 environment:
 - lacustrine indet.
 - lacustrine - large
-- terrestrial indet.
 - wet floodplain
+- terrestrial indet.
 - fluvial-lacustrine indet.
-lithology: [mudstone, tuff, conglomerate, claystone]
-pbdb_collections: ['28534', '28536', '46550', '51937', '67434', '109131', '211359']
+lithology: [mudstone, tuff, '"shale"', claystone]
+pbdb_collections: ['28534', '28536', '46550', '51937', '67434', '109131', '130985', '207101', '211359']
 includes: []
 summary: ''
 paleoenvironment: ''

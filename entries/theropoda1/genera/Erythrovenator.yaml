@@ -1,0 +1,90 @@
+name: Erythrovenator
+rank: genus
+parent: theropoda
+incertae_sedis: false
+placement_note: ''
+authority: Müller 2020
+type_species: Erythrovenator jacuiensis
+type_species_note: ''
+summary: Basal theropod from the Late Triassic of Rio Grande do Sul, Brazil.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Erythrovenator jacuiensis
+  authority: Müller 2020
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Candelária
+  group: Santa Maria
+  members: []
+  country: Brazil
+  regions: [Rio Grande do Sul]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: candelaria-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Erythrovenator jacuiensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Erythrovenator_jacuiensis.png/960px-Erythrovenator_jacuiensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Erythrovenator_jacuiensis.png
+  artist: Sauriazoicillus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-07-13'
+  caption: Skeletal reconstruction of Erythrovenator jacuiensis.
+  width: 2956
+  height: 1278
+  review: unreviewed
+  local: img/gallery/Erythrovenator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/vector.svg
+  png: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/raster/512x97.png
+  page: https://www.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072
+  attribution: FunkMonk [Michael B.H.] (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Zupaysaurus rougieri
+  matched: Theropoda
+  genus_level: false
+sources:
+- kind: original
+  text: R. T. Müller. 2020. A new theropod dinosaur from a peculiar Late Triassic assemblage of southern Brazil.
+    Journal of South American Earth Sciences
+- kind: literature
+  text: Rodrigo T. Müller 2021. A new theropod dinosaur from a peculiar Late Triassic assemblage of southern Brazil.
+    Journal of South American Earth Sciences 107. doi:10.1016/j.jsames.2020.103026
+- kind: literature
+  text: 'Pacheco, Cristian; Müller, Rodrigo T.; Langer, Max; Pretto, Flávio A.; Kerber, Leonardo; Dias da Silva,
+    Sérgio 2019. ''''Gnathovorax cabreirai'''': a new early dinosaur and the origin and initial radiation of predatory
+    dinosaurs. PeerJ 7. doi:10.7717/peerj.7963'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Erythrovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Erythrovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Erythrovenator”. English Wikipedia, revision 1375018197.
+  url: https://en.wikipedia.org/w/index.php?title=Erythrovenator&oldid=1375018197
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

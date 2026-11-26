@@ -1,0 +1,76 @@
+name: Lophostropheus
+rank: genus
+parent: coelophysoidea
+incertae_sedis: false
+placement_note: ''
+authority: Ezcurra and Cuny 2007
+type_species: Lophostropheus airelensis
+type_species_note: ''
+summary: Coelophysoid from the Triassic–Jurassic boundary of Normandy, one of few dinosaurs that may have crossed
+  the extinction.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 205.7
+  last_ma: 199.5
+  early_interval: Rhaetian
+  late_interval: Hettangian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lophostropheus airelensis
+  authority: (Cuny and Galton 1993)
+  first_ma: 205.7
+  last_ma: 199.5
+  interval: Rhaetian–Hettangian
+  reference: original description
+formations:
+- formation: Moon-Airel
+  group: ''
+  members: []
+  country: France
+  regions: [Basse-Normandie]
+  interval: Rhaetian–Hettangian
+  occurrences: 1
+  ma: [199.5, 205.7]
+  id: moon-airel-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Remains from the Airel locality in Normandy.
+  completeness: partial
+  exceptional: ''
+biology: A small to medium-sized coelophysoid.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/vector.svg
+  png: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/raster/512x97.png
+  page: https://www.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072
+  attribution: FunkMonk [Michael B.H.] (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Zupaysaurus rougieri
+  matched: Coelophysoidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ezcurra, Martin D. 2007. The coelophysoid ''''Lophostropheus airelensis'''', gen. nov.: a review of the
+    systematics of "Liliensternus" ''''airelensis'''' from the Triassic-Jurassic boundary outcrops of Normandy (France).
+    Journal of Vertebrate Paleontology 27(1): 73–86. doi:10.1671/0272-4634(2007)27[73:TCLAGN]2.0.CO;2'
+- kind: literature
+  text: 'Cuny, Gilles 1993. Revision of the Airel theropod dinosaur from the Triassic-Jurassic boundary (Normandy,
+    France). Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen 187(3): 261–288. doi:10.1127/njgpa/187/1993/261'
+- kind: literature
+  text: 'Rauhut, Oliver W.M. 2002. A review of European Triassic theropods. Gaia 15: 75–88.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lophostropheus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lophostropheus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lophostropheus”. English Wikipedia, revision 1379285909.
+  url: https://en.wikipedia.org/w/index.php?title=Lophostropheus&oldid=1379285909
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Wikipedia gives its range as 205.6–196.5 Ma; no image available.]
+  reviews: []

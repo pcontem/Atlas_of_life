@@ -3,18 +3,23 @@ name: Aïn el Guettar
 rank: formation
 group: ''
 country: Tunisia
-regions: [Tataouine]
+regions: [Médenine, Tataouine]
 location:
-  lat: 32.676
-  lng: 10.211
-  basis: median of 5 PBDB collections that yielded the atlas genera
+  lat: 32.813
+  lng: 10.258
+  basis: median of 8 PBDB collections that yielded the atlas genera
 age:
   first_ma: 119.57
   last_ma: 100.5
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., coastal indet., estuary/bay, marginal marine indet.]
-lithology: [sandstone]
-pbdb_collections: ['25200', '25363', '116298', '116299', '147575']
+environment:
+- terrestrial indet.
+- coastal indet.
+- estuary/bay
+- carbonate indet.
+- marginal marine indet.
+lithology: [sandstone, '"carbonate"', not reported]
+pbdb_collections: ['25200', '25363', '67203', '116297', '116298', '116299', '125935', '147575']
 includes: []
 summary: ''
 paleoenvironment: ''

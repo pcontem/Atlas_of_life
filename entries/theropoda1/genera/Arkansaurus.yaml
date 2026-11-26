@@ -1,0 +1,93 @@
+name: Arkansaurus
+rank: genus
+parent: ornithomimosauria
+incertae_sedis: false
+placement_note: ''
+authority: Hunt and Quinn 2018
+type_species: Arkansaurus fridayi
+type_species_note: ''
+summary: Ornithomimosaur from the Early Cretaceous of Arkansas, known from a partial hand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Arkansaurus fridayi
+  authority: Hunt and Quinn 2018
+  first_ma: 113.2
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Arkansas]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: trinity-group-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Arkansaurus NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c8/Arkansaurus_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Arkansaurus_NT.jpg
+  artist: Nobu Tamura Email:nobu.tamura@yahoo.com http://spinops.blogspot.com/ https://paleoexhibit.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-10-21'
+  caption: Restoration of Arkansaurus fridayi.
+  width: 1000
+  height: 540
+  review: unreviewed
+  local: img/gallery/Arkansaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ccb72487-51c7-4266-9ec7-fdf26181a888/vector.svg
+  png: https://images.phylopic.org/images/ccb72487-51c7-4266-9ec7-fdf26181a888/raster/512x231.png
+  page: https://www.phylopic.org/images/ccb72487-51c7-4266-9ec7-fdf26181a888
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Arkansaurus fridayi
+  matched: Arkansaurus
+  genus_level: true
+  w: 512
+  h: 231
+sources:
+- kind: original
+  text: 'Hunt, ReBecca; Quinn, James Harrison Marc. A new ornithomimosaur from the Early Cretaceous Trinity Group
+    of Arkansas. Journal of Vertebrate Paleontology 38: 1. doi:10.1080/02724634.2017.1421209'
+- kind: literature
+  text: 'Quinn, James 1973. Arkansas Dinosaur. Geological Society of America Abstracts with Programs 5: 276–277.'
+- kind: literature
+  text: Serrano-Brañas, Claudia Inés; Espinosa-Chávez, Belinda; MacCracken, S. Augusta; Gutiérrez-Blando, Cirene;
+    De León-Dávila, Claudio; Ventura, José Flores 2020. ''Paraxenisaurus normalensis'', a large deinocheirid ornithomimosaur
+    from the Cerro del Pueblo Formation (Upper Cretaceous), Coahuila, Mexico. Journal of South American Earth Sciences
+    101. doi:10.1016/j.jsames.2020.102610
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arkansaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arkansaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Arkansaurus”. English Wikipedia, revision 1359100420.
+  url: https://en.wikipedia.org/w/index.php?title=Arkansaurus&oldid=1359100420
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The 'partial hand' wording is not in the brief; check Hunt and Quinn 2018 for the exact material.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

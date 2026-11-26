@@ -1,0 +1,106 @@
+name: Spectrovenator
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Zaher et al. 2020
+type_species: Spectrovenator ragei
+type_species_note: ''
+summary: Small basal abelisaurid from the Early Cretaceous of Brazil, 1.4–2.2 m long.
+size:
+  length_m: [1.42, 2.2]
+  note: 1.42–2.2 m according to Wikipedia revision 1351039334.
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Spectrovenator ragei
+  authority: Zaher et al. 2020
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Quiricó
+  group: Areado
+  members: []
+  country: Brazil
+  regions: [Minas Gerais]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: quirico-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Spectrovenator ragei skeletal reconstruction by Felipe Elias.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c6/Spectrovenator_ragei_skeletal_reconstruction_by_Felipe_Elias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Spectrovenator_ragei_skeletal_reconstruction_by_Felipe_Elias.jpg
+  artist: Feliaspaleozoobr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-10-04'
+  caption: Skeletal reconstruction of Spectrovenator ragei.
+  width: 1446
+  height: 725
+  review: unreviewed
+  local: img/gallery/Spectrovenator_001.webp
+- kind: fossil
+  file: Spectrovenator ragei holotype last moments by Felipe Elias.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Spectrovenator_ragei_holotype_last_moments_by_Felipe_Elias.jpg/960px-Spectrovenator_ragei_holotype_last_moments_by_Felipe_Elias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Spectrovenator_ragei_holotype_last_moments_by_Felipe_Elias.jpg
+  artist: Feliaspaleozoobr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-30'
+  caption: Holotype of Spectrovenator ragei.
+  width: 1986
+  height: 1107
+  review: unreviewed
+  local: img/gallery/Spectrovenator_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/3309252a-62db-4d73-9265-5e3a3527639b/vector.svg
+  png: https://images.phylopic.org/images/3309252a-62db-4d73-9265-5e3a3527639b/raster/512x236.png
+  page: https://www.phylopic.org/images/3309252a-62db-4d73-9265-5e3a3527639b
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Spectrovenator ragei
+  matched: Spectrovenator
+  genus_level: true
+  w: 512
+  h: 236
+sources:
+- kind: original
+  text: 'Zaher, H.; Pol, D.; Navarro, B.A.; Delcourt, R.; Carvalho, A.B. Octo. An Early Cretaceous theropod dinosaur
+    from Brazil sheds light on the cranial evolution of the Abelisauridae. Comptes Rendus Palevol 19(6): 101–115.
+    doi:10.5852/cr-palevol2020v19a6'
+- kind: literature
+  text: 'Seculi Pereyra, E. E.; Pérez, D. E.; Méndez, A. H. 2025. Macroevolutionary trends in Ceratosauria body
+    size: insights of phylogenetic comparative methods. BMC Ecology and Evolution 25(1). doi:10.1186/s12862-025-02374-y'
+- kind: literature
+  text: 'Longrich, Nicholas R.; Isasmendi, Erik; Pereda-Suberbiola, Xabier; Jalil, Nour-Eddine Augu. New fossils
+    of Abelisauridae (Dinosauria: Theropoda) from the upper Maastrichtian of Morocco, North Africa. Cretaceous Research
+    152. doi:10.1016/j.cretres.2023.105677'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Spectrovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Spectrovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Spectrovenator”. English Wikipedia, revision 1351039334.
+  url: https://en.wikipedia.org/w/index.php?title=Spectrovenator&oldid=1351039334
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

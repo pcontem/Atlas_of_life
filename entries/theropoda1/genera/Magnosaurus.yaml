@@ -1,0 +1,98 @@
+name: Magnosaurus
+rank: genus
+parent: megalosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1932
+type_species: Magnosaurus nethercombensis
+type_species_note: ''
+summary: Middle Jurassic theropod from England based on fragmentary remains, often confused with or included in
+  Megalosaurus.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 170.9
+  last_ma: 168.6
+  early_interval: Bajocian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Magnosaurus nethercombensis
+  authority: (Huene 1923)
+  first_ma: 170.9
+  last_ma: 168.6
+  interval: Bajocian
+  reference: original description
+- name: Magnosaurus woodwardi
+  authority: Huene 1932
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: ''
+formations:
+- formation: Middle Inferior Oolite
+  group: Inferior Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Bajocian
+  occurrences: 1
+  ma: [168.6, 170.9]
+  id: middle-inferior-oolite-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Magnosaurus reconstructed skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/94/Magnosaurus_reconstructed_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Magnosaurus_reconstructed_skull.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-12-19'
+  caption: Reconstructed skull of Magnosaurus.
+  width: 553
+  height: 300
+  review: unreviewed
+  local: img/gallery/Magnosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e46c71d9-d38c-4539-9f95-b1a26167d5d0/vector.svg
+  png: https://images.phylopic.org/images/e46c71d9-d38c-4539-9f95-b1a26167d5d0/raster/512x126.png
+  page: https://www.phylopic.org/images/e46c71d9-d38c-4539-9f95-b1a26167d5d0
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eustreptospondylus oxoniensis
+  matched: Eustreptospondylinae
+  genus_level: false
+sources:
+- kind: original
+  text: F. v. Huene. 1932. Die fossile Reptil-Ordnung Saurischia, ihre Entwicklung und Geschichte [The fossil reptile
+    order Saurischia, their development and history]. Monographien zur Geologie und Palaeontologie, serie 1 4(1-2):1-361
+- kind: literature
+  text: 'Benson, R.B.J. 2010. A description of ''''Megalosaurus bucklandii'''' (Dinosauria: Theropoda) from the
+    Bathonian of the UK and the relationships of Middle Jurassic theropods. Zoological Journal of the Linnean Society
+    158(4): 882–935. doi:10.1111/j.1096-3642.2009.00569.x'
+- kind: literature
+  text: 'Benson, Roger B. J. 2010. The osteology of ''''Magnosaurus nethercombensis'''' (Dinosauria, Theropoda)
+    from the Bajocian (Middle Jurassic) of the United Kingdom and a re-examination of the oldest records of tetanurans.
+    Journal of Systematic Palaeontology 8(1): 131–146. doi:10.1080/14772011003603515'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Magnosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Magnosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Magnosaurus”. English Wikipedia, revision 1330403001.
+  url: https://en.wikipedia.org/w/index.php?title=Magnosaurus&oldid=1330403001
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

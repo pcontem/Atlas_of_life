@@ -1,0 +1,195 @@
+name: Struthiomimus
+rank: genus
+parent: ornithomimidae
+incertae_sedis: false
+placement_note: ''
+authority: Osborn 1916
+type_species: Struthiomimus altus
+type_species_note: ''
+summary: Ornithomimid of the Late Cretaceous of western North America, named the ostrich mimic.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 18
+  note: ''
+species:
+- name: Struthiomimus altus
+  authority: (Lambe 1902)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+- name: Struthiomimus currellii
+  authority: (Parks 1933)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Struthiomimus ingens
+  authority: (Parks 1933)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+- name: Struthiomimus samueli
+  authority: (Parks 1928)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: ''
+formations:
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Campanian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Kirtland
+  group: ''
+  members: [Farmington]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Tolman]
+  country: Canada
+  regions: [Alberta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: horseshoe-canyon-canada
+- formation: Ferris
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: ferris-united-states
+- formation: Unnamed unit
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: belly-river-group-canada
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Judithian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Scollard
+  group: ''
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: scollard-canada
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Struthiomimus altus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Struthiomimus_altus.png/960px-Struthiomimus_altus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Struthiomimus_altus.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-29'
+  caption: Life restoration of Struthiomimus altus.
+  width: 4000
+  height: 1902
+  review: unreviewed
+  local: img/gallery/Struthiomimus_001.webp
+- kind: skeletal
+  file: Struthiomimus altus skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Struthiomimus_altus_skeletal.png/960px-Struthiomimus_altus_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Struthiomimus_altus_skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2022-02-02'
+  caption: Skeletal reconstruction of Struthiomimus altus.
+  width: 8653
+  height: 4967
+  review: unreviewed
+  local: img/gallery/Struthiomimus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/vector.svg
+  png: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/raster/512x209.png
+  page: https://www.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Gallimimus bullatus
+  matched: Ornithomimidae
+  genus_level: false
+sources:
+- kind: original
+  text: H. F. Osborn. 1916. Skeletal adaptations of Ornitholestes, Struthiomimus, Tyrannosaurus. Bulletin of the
+    American Museum of Natural History 35(43):733-771
+- kind: literature
+  text: 'Barrett, Paul M 2005. The diet of ostrich dinosaurs (Theropoda: Ornithomimosauria). Palaeontology 48(2):
+    347–358. doi:10.1111/j.1475-4983.2005.00448.x'
+- kind: literature
+  text: McFeeters, Bradley; Ryan, Michael J.; Schröder-Adams, Claudia; Cullen, Thomas M. 2016. A new ornithomimid
+    theropod from the Dinosaur Park Formation of Alberta, Canada. Journal of Vertebrate Paleontology 36(6). doi:10.1080/02724634.2016.1221415
+- kind: literature
+  text: 'Parks, W.A. 1926. ''''Struthiomimus brevetertius'''' - A new species of dinosaur from the Edmonton Formation
+    of Alberta. Transactions of the Royal Society of Canada 20(4): 65–70.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Struthiomimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Struthiomimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Struthiomimus”. English Wikipedia, revision 1382744972.
+  url: https://en.wikipedia.org/w/index.php?title=Struthiomimus&oldid=1382744972
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

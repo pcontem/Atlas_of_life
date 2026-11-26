@@ -1,0 +1,100 @@
+name: Tyrannomimus
+rank: genus
+parent: ornithomimosauria
+incertae_sedis: false
+placement_note: ''
+authority: Hattori et al. 2023
+type_species: Tyrannomimus fukuiensis
+type_species_note: ''
+summary: Ornithomimosaur from the Early Cretaceous Kitadani Formation of Japan, named for its resemblance to a tyrant.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tyrannomimus fukuiensis
+  authority: Hattori et al. 2023
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Kitadani
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Fukui]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: kitadani-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Tyrannomimus Skeletal.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/72/Tyrannomimus_Skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tyrannomimus_Skeletal.jpg
+  artist: S Hattori, M Shibata, S Kawabe, T Imai, H Nishi & Y Azuma
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-09-07'
+  caption: Skeletal reconstruction of Tyrannomimus fukuiensis.
+  width: 888
+  height: 372
+  review: unreviewed
+  local: img/gallery/Tyrannomimus_001.webp
+- kind: fossil
+  file: Tyrannomimus (dorsal vertebrae).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Tyrannomimus_%28dorsal_vertebrae%29.jpg/960px-Tyrannomimus_%28dorsal_vertebrae%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tyrannomimus_(dorsal_vertebrae).jpg
+  artist: S Hattori, M Shibata, S Kawabe, T Imai, H Nishi & Y Azuma
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-09-07'
+  caption: Dorsal vertebrae of Tyrannomimus.
+  width: 1772
+  height: 1112
+  review: unreviewed
+  local: img/gallery/Tyrannomimus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/vector.svg
+  png: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/raster/512x304.png
+  page: https://www.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Deinocheirus mirificus
+  matched: Deinocheiridae
+  genus_level: false
+sources:
+- kind: original
+  text: Hattori, S.; Shibata, M.; Kawabe, S.; Imai, T.; Nishi, H.; Azuma, Y. 2023. New theropod dinosaur from the
+    Lower Cretaceous of Japan provides critical implications for the early evolution of ornithomimosaurs. Scientific
+    Reports 13(1). doi:10.1038/s41598-023-40804-3
+- kind: literature
+  text: 'Azuma, Y. 2010. ''''Fukuititan nipponensis'''', a new titanosauriform sauropod from the Early Cretaceous
+    Tetori Group of Fukui Prefecture, Japan. Acta Geologica Sinica - English Edition 84(3): 454–462. doi:10.1111/j.1755-6724.2010.00268.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tyrannomimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tyrannomimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tyrannomimus”. English Wikipedia, revision 1366462591.
+  url: https://en.wikipedia.org/w/index.php?title=Tyrannomimus&oldid=1366462591
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

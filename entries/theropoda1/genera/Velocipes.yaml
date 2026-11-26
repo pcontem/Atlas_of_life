@@ -1,0 +1,91 @@
+name: Velocipes
+rank: genus
+parent: neotheropoda
+incertae_sedis: true
+placement_note: Originally called a coelurosaur; later work considers it a basal theropod or dinosauriform (Skawiński
+  et al. 2017).
+authority: Huene 1932
+type_species: Velocipes guerichi
+type_species_note: ''
+summary: Poorly known Late Triassic saurischian from Poland that may be a basal theropod.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Velocipes guerichi
+  authority: Huene 1932
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Lissauer Breccia
+  group: ''
+  members: []
+  country: Poland
+  regions: [Opole]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: lissauer-breccia-poland
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used (a fibula is figured on Commons).
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Velocipes guerichi fibula.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9f/Velocipes_guerichi_fibula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Velocipes_guerichi_fibula.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-17'
+  caption: Fibula of Velocipes guerichi.
+  width: 432
+  height: 1181
+  review: unreviewed
+  local: img/gallery/Velocipes_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9/vector.svg
+  png: https://images.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9/raster/512x214.png
+  page: https://www.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9
+  attribution: Pranav Iyer (grey ideas)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Inosaurus tedreftensis
+  matched: Neotheropoda
+  genus_level: false
+sources:
+- kind: original
+  text: F. v. Huene. 1932. Die fossile Reptil-Ordnung Saurischia, ihre Entwicklung und Geschichte [The fossil reptile
+    order Saurischia, their development and history]. Monographien zur Geologie und Palaeontologie, serie 1 4(1-2):1-361
+- kind: literature
+  text: 'Skawiński, T.; Ziegler, M.; Czepiński, Ł.; Szermański, M.; Tałanda, M.; Surmik, D.; Niedźwiedzki, G. 2017.
+    A re-evaluation of the historical ''dinosaur'' remains from the Middle-Upper Triassic of Poland. Historical
+    Biology 29(4): 442–472. doi:10.1080/08912963.2016.1188385'
+- kind: literature
+  text: Czepiński, Ł.; Dróżdż, D.; Szczygielski, T.; Tałanda, M.; Pawlak, W.; Lewczuk, A.; Rytel, A.; Sulej, T.
+    2021. An Upper Triassic Terrestrial Vertebrate Assemblage from the Forgotten Kocury Locality (Poland) with a
+    New Aetosaur Taxon. Journal of Vertebrate Paleontology 41(1). doi:10.1080/02724634.2021.1898977
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Velocipes (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Velocipes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Velocipes”. English Wikipedia, revision 1375018287.
+  url: https://en.wikipedia.org/w/index.php?title=Velocipes&oldid=1375018287
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: ['Position uncertain: basal theropod or dinosauriform.']
+  reviews: []

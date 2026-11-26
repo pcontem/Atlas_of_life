@@ -1,0 +1,254 @@
+name: Spinosaurus
+rank: genus
+parent: spinosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Stromer 1915
+type_species: Spinosaurus aegyptiacus
+type_species_note: ''
+summary: Large spinosaurid of North Africa from the Cenomanian, one of the most debated aquatic-adapted theropods.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 72.2
+  early_interval: Barremian
+  late_interval: Campanian
+  pbdb_occurrences: 44
+  note: ''
+species:
+- name: Spinosaurus aegyptiacus
+  authority: Stromer 1915
+  first_ma: 119.57
+  last_ma: 93.9
+  interval: Aptian–Cenomanian
+  reference: original description
+- name: Spinosaurus marrocanus
+  authority: Russell 1996
+  first_ma: 119.57
+  last_ma: 93.9
+  interval: Aptian–Cenomanian
+  reference: ''
+- name: Spinosaurus mirabilis
+  authority: Sereno et al. 2026
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet, Errachidia]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 8
+  ma: [93.9, 106.3]
+  id: kem-kem-group-morocco
+- formation: Gara Sbaa
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 5
+  ma: [93.9, 100.5]
+  id: gara-sbaa-morocco
+- formation: Ifezouane
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 5
+  ma: [93.9, 100.5]
+  id: ifezouane-morocco
+- formation: Aïn el Guettar
+  group: ''
+  members: [Oum ed Diab]
+  country: Tunisia
+  regions: [Médenine, Tataouine]
+  interval: Late Aptian–Albian
+  occurrences: 4
+  ma: [100.5, 119.57]
+  id: ain-el-guettar-tunisia
+- formation: Douira
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 4
+  ma: [93.9, 106.3]
+  id: douira-morocco
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Matruh]
+  interval: Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+- formation: Echkar
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez, Zinder]
+  interval: Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 100.5]
+  id: echkar-niger
+- formation: Quseir
+  group: ''
+  members: [Mut]
+  country: Egypt
+  regions: [Al Wadi al Jadid]
+  interval: Middle Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: quseir-egypt
+- formation: Grès rouges
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Béchar]
+  interval: Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: gres-rouges-algeria
+- formation: Farak
+  group: ''
+  members: []
+  country: Niger
+  regions: [Agadez Region]
+  interval: Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: farak-niger
+- formation: Bahariya
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Al Jizah]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: bahariya-egypt
+- formation: Lubur Sandstone
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: lubur-sandstone-kenya
+- formation: Continental Intercalaire
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Medinine]
+  interval: Barremian–Albian
+  occurrences: 1
+  ma: [100.5, 125.77]
+  id: continental-intercalaire-tunisia
+- formation: Gara Samani
+  group: ''
+  members: [Samani Vertebrate-Rich Sand]
+  country: Algeria
+  regions: [Adrar]
+  interval: Late Albian–Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 106.3]
+  id: gara-samani-algeria
+- formation: Continental Intercalaire
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Illizi]
+  interval: Early Albian–Late Cenomanian
+  occurrences: 1
+  ma: [93.9, 113.2]
+  id: continental-intercalaire-algeria
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Illizi]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: unnamed-oued-ameregh-algeria
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Spinosaurus aegyptiacus life reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Spinosaurus_aegyptiacus_life_reconstruction.png/960px-Spinosaurus_aegyptiacus_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Spinosaurus_aegyptiacus_life_reconstruction.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-24'
+  caption: Life reconstruction of Spinosaurus aegyptiacus.
+  width: 4000
+  height: 1412
+  review: unreviewed
+  local: img/gallery/Spinosaurus_001.webp
+- kind: skeletal
+  file: Digital skeletal reconstruction of Spinosaurus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/87/Digital_skeletal_reconstruction_of_Spinosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Digital_skeletal_reconstruction_of_Spinosaurus.png
+  artist: Paul C Sereno, Nathan Myhrvold, Donald M Henderson, Frank E Fish, Daniel Vidal, Stephanie L Baumgart,
+    Tyler M Keillor, Kiersten K Formoso, Lauren L Conroy
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022'
+  caption: Digital skeletal reconstruction of Spinosaurus.
+  width: 1154
+  height: 434
+  review: unreviewed
+  local: img/gallery/Spinosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/a6bedf44-cf1c-4a92-b90c-2a16bd7ca6b2/vector.svg
+  png: https://images.phylopic.org/images/a6bedf44-cf1c-4a92-b90c-2a16bd7ca6b2/raster/512x145.png
+  page: https://www.phylopic.org/images/a6bedf44-cf1c-4a92-b90c-2a16bd7ca6b2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Spinosaurus aegyptiacus
+  matched: Spinosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Stromer, E. 1915. Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltier-Reste
+    der Baharije-Stufe (unterstes Cenoman). 3. Das Original des Theropoden ''''Spinosaurus aegyptiacus'''' nov.
+    gen., nov. spec. Abhandlungen der Königlich Bayerischen Akademie der Wissenschaften, Mathematisch-physikalische
+    Klasse 28(3): 1–32.'
+- kind: literature
+  text: 'Taquet, P.; and Russell, D.A. 1998. New data on spinosaurid dinosaurs from the Early Cretaceous of the
+    Sahara. Comptes Rendus de l''Académie des Sciences, Série IIA 327(5): 347–353. doi:10.1016/S1251-8050(98)80054-2'
+- kind: literature
+  text: 'Benyoucef, Madani; Läng, Emilie; Cavin, Lionel; Mebarki, Kaddour; Adaci, Mohammed; Bensalah, Mustapha July.
+    Overabundance of piscivorous dinosaurs (Theropoda: Spinosauridae) in the mid-Cretaceous of North Africa: The
+    Algerian dilemma. Cretaceous Research 55: 44–55. doi:10.1016/j.cretres.2015.02.002'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Spinosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Spinosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Spinosaurus”. English Wikipedia, revision 1387152219.
+  url: https://en.wikipedia.org/w/index.php?title=Spinosaurus&oldid=1387152219
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB lists Spinosaurus mirabilis Sereno et al. 2026; verify the species and its age before the entry is checked.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

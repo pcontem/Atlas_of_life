@@ -12,15 +12,27 @@ regions:
 - Valenciana
 location:
   lat: 42.201
-  lng: -2.419
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lng: -2.281
+  basis: median of 12 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 113.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [delta plain, terrestrial indet.]
-lithology: [sandstone, claystone, siltstone]
-pbdb_collections: ['131493', '173547', '227105']
+environment: [terrestrial indet., lacustrine indet., delta plain]
+lithology: [sandstone, not reported, wackestone, claystone]
+pbdb_collections:
+- '59099'
+- '131493'
+- '170037'
+- '173547'
+- '173556'
+- '173557'
+- '173558'
+- '227100'
+- '227101'
+- '227102'
+- '227105'
+- '238724'
 includes:
 - PBDB places these beds in the Enciso Group without naming the formation.
 summary: ''

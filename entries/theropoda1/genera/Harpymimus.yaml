@@ -1,0 +1,103 @@
+name: Harpymimus
+rank: genus
+parent: ornithomimosauria
+incertae_sedis: false
+placement_note: ''
+authority: Barsbold and Perle 1984
+type_species: Harpymimus okladnikovi
+type_species_note: ''
+summary: Basal ornithomimosaur from the Early Cretaceous of Mongolia that still had teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Harpymimus okladnikovi
+  authority: Barsbold and Perle 1984
+  first_ma: 110.1
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Khuren Dukh
+  group: ''
+  members: [Lower]
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Middle Albian–Late Albian
+  occurrences: 1
+  ma: [100.5, 110.1]
+  id: khuren-dukh-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Harpymimus holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Harpymimus_holotype.jpg/960px-Harpymimus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Harpymimus_holotype.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2011-02-20'
+  caption: Holotype of Harpymimus okladnikovi.
+  width: 1997
+  height: 2886
+  review: unreviewed
+  local: img/gallery/Harpymimus_001.webp
+- kind: skeletal
+  file: Harpymimus steveoc (flipped).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/32/Harpymimus_steveoc_%28flipped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Harpymimus_steveoc_(flipped).jpg
+  artist: Steveoc 86
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: ''
+  caption: Skeletal reconstruction of Harpymimus.
+  width: 1024
+  height: 341
+  review: unreviewed
+  local: img/gallery/Harpymimus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/vector.svg
+  png: https://images.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb/raster/512x304.png
+  page: https://www.phylopic.org/images/79676d45-ee23-469a-be96-2d79acfe6dcb
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Deinocheirus mirificus
+  matched: Deinocheiridae
+  genus_level: false
+sources:
+- kind: original
+  text: R. Barsbold and A. Perle. 1984. The first record of a primitive ornithomimosaur from the Cretaceous of Mongolia.
+    Paleontological Journal 1984(2):118-120
+- kind: literature
+  text: Chinzorig, Tsogtbaatar; Cullen, Thomas; Phillips, George; Rolke, Richard; Zanno, Lindsay E. 2022. Large-bodied
+    ornithomimosaurs inhabited Appalachia during the Late Cretaceous of North America. PLOS ONE 17(10). doi:10.1371/journal.pone.0266648
+- kind: literature
+  text: Claudia Inés Serrano-Brañas 2020. ''Paraxenisaurus normalensis'', a large deinocheirid ornithomimosaur from
+    the Cerro del Pueblo Formation (Upper Cretaceous), Coahuila, Mexico. Journal of South American Earth Sciences
+    101. doi:10.1016/j.jsames.2020.102610
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Harpymimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Harpymimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Harpymimus”. English Wikipedia, revision 1305697510.
+  url: https://en.wikipedia.org/w/index.php?title=Harpymimus&oldid=1305697510
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

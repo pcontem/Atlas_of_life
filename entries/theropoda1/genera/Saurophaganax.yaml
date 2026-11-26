@@ -1,0 +1,96 @@
+name: Saurophaganax
+rank: genus
+parent: allosauridae
+incertae_sedis: true
+placement_note: PBDB places it in Allosauridae, but the Wikipedia lead describes a dubious chimeric genus, possibly
+  a sauropod, citing Danison et al. on chimeras.
+authority: Chure 1995
+type_species: Saurophaganax maximus
+type_species_note: ''
+summary: Dubious and chimeric genus of large saurischian from the Late Jurassic Morrison Formation of Oklahoma.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 152.21
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Saurophaganax maximus
+  authority: (Chure 1995)
+  first_ma: 152.21
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Kenton]
+  country: United States
+  regions: [Oklahoma]
+  interval: Late Kimmeridgian–Tithonian
+  occurrences: 2
+  ma: [143.1, 152.21]
+  id: morrison-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Saurophaganax maximus (holotype, OMNH 112).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Saurophaganax_maximus_%28holotype%2C_OMNH_112%29.png/960px-Saurophaganax_maximus_%28holotype%2C_OMNH_112%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saurophaganax_maximus_(holotype,_OMNH_112).png
+  artist: A. D. Danison, M. J. Wedel, D. E. Barta, H. N. Woodward, H. M. Flora, A. H. Lee & E. Snively
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-21'
+  caption: Holotype of Saurophaganax maximus.
+  width: 2189
+  height: 1422
+  review: unreviewed
+  local: img/gallery/Saurophaganax_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98/vector.svg
+  png: https://images.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98/raster/512x152.png
+  page: https://www.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Allosaurus fragilis
+  matched: Allosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Chure, Daniel J. 1995. Sixth Symposium on Mesozoic Terrestrial Ecosystems and Biota, Short Papers. China
+    Ocean Press.
+- kind: literature
+  text: 'Smith, David K. 1998. A morphometric analysis of ''''Allosaurus''''. Journal of Vertebrate Paleontology
+    18(1): 126–142. doi:10.1080/02724634.1998.10011039'
+- kind: literature
+  text: 'Carrano, Matthew T.; Benson, Roger B. J.; Sampson, Scott D. June. The phylogeny of Tetanurae (Dinosauria:
+    Theropoda). Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: literature
+  text: Danison, Andrew; Wedel, Mathew; Barta, Daniel; Woodward, Holly; Flora, Holley; Lee, Andrew; Snively, Eric
+    Dece. Chimerism in specimens referred to ''Saurophaganax maximus'' reveals a new species of ''Allosaurus'' (Dinosauria,
+    Theropoda). Vertebrate Anatomy Morphology Palaeontology 12. doi:10.18435/vamp29404
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saurophaganax (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saurophaganax
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saurophaganax”. English Wikipedia, revision 1381618909.
+  url: https://en.wikipedia.org/w/index.php?title=Saurophaganax&oldid=1381618909
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Validity doubtful (chimeric, possibly a sauropod per Wikipedia rev 1381618909); consider moving to excluded.yaml
+    after checking Danison et al.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

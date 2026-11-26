@@ -1,0 +1,82 @@
+name: Lusovenator
+rank: genus
+parent: carcharodontosauria
+incertae_sedis: false
+placement_note: ''
+authority: Malafaia et al. 2020
+type_species: Lusovenator santosi
+type_species_note: ''
+summary: Carcharodontosaurian from the Late Jurassic of Portugal, named in 2020.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 152.21
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Lusovenator santosi
+  authority: Malafaia et al. 2020
+  first_ma: 152.21
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Freixial
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Middle Tithonian–Late Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: freixial-portugal
+- formation: Praia da Amoreira-Porto Novo
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: lourinha-portugal
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Carcharodontosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Elisabete Malafaia 2020. A new carcharodontosaurian theropod from the Lusitanian Basin: evidence of allosauroid
+    sympatry in the European Late Jurassic. Journal of Vertebrate Paleontology 40(1). doi:10.1080/02724634.2020.1768106'
+- kind: literature
+  text: 'Cau, Andrea 2024. A Unified Framework for Predatory Dinosaur Macroevolution. Bollettino della Società Paleontologica
+    Italiana 63(1): 1–19. doi:10.4435/BSPI.2024.08'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lusovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lusovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lusovenator”. English Wikipedia, revision 1385609924.
+  url: https://en.wikipedia.org/w/index.php?title=Lusovenator&oldid=1385609924
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

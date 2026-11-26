@@ -398,3 +398,11 @@ Eight clade entries were added below Ornithopoda (see `docs/TREE_REVIEW.md`). Pl
 checked against the lead of its Wikipedia article; if they differ, the deepest shared clade with `incertae_sedis` (M2).
 New tool: `scripts/fetch/clades.py` + `.github/workflows/clades.yml` download Wikipedia revisions and PBDB records of clades
 (request in `data/raw/clade_request.json` on a non-main branch), because the shell cannot reach those sites.
+
+## 2026-11-26 — Theropoda I is one volume
+
+The census gave about 409 names; after dropping PBDB synonyms, ichnogenera and egg form-genera, and genera whose PBDB parent is a
+maniraptoran group, 267 genera were left in scope (owner: write them as a single volume, no split). Maniraptora other than the
+backbone node, birds included, stay for later volumes. A name whose English Wikipedia page is a different subject (Kol, Moros, Dilong,
+Thanos, Kurupi, Lepidus, Niebla, Becklespinax) gets `use_wiki: false` or a curation note; names that redirect to another taxon go to
+`excluded.yaml` (Angaturama, Dromiceiomimus, Fenestrosaurus, Syntarsus, Yezosaurus).

@@ -7,14 +7,28 @@ regions: [Navoi]
 location:
   lat: 42.117
   lng: 62.655
-  basis: median of 9 PBDB collections that yielded the atlas genera
+  basis: median of 14 PBDB collections that yielded the atlas genera
 age:
   first_ma: 93.9
   last_ma: 89.8
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., fluvial indet., delta plain]
 lithology: [not reported, sandstone]
-pbdb_collections: ['46959', '58158', '58161', '58165', '58167', '58168', '58175', '75943', '93204']
+pbdb_collections:
+- '46959'
+- '58158'
+- '58159'
+- '58161'
+- '58164'
+- '58165'
+- '58166'
+- '58167'
+- '58168'
+- '58175'
+- '58177'
+- '75943'
+- '93204'
+- '140570'
 includes: []
 summary: ''
 paleoenvironment: ''

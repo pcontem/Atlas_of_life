@@ -1,0 +1,88 @@
+name: Kayentavenator
+rank: genus
+parent: tetanurae
+incertae_sedis: false
+placement_note: ''
+authority: Gay 2010
+type_species: Kayentavenator elysiae
+type_species_note: ''
+summary: Small carnivorous tetanuran from the Early Jurassic Kayenta Formation of Arizona.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 199.5
+  last_ma: 184.2
+  early_interval: Sinemurian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kayentavenator elysiae
+  authority: Gay 2010
+  first_ma: 199.5
+  last_ma: 184.2
+  interval: Sinemurian–Pliensbachian
+  reference: original description
+formations:
+- formation: Kayenta
+  group: Glen Canyon
+  members: [Silty Facies]
+  country: United States
+  regions: [Arizona]
+  interval: Sinemurian–Pliensbachian
+  occurrences: 1
+  ma: [184.2, 199.5]
+  id: kayenta-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Kayentavenator.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Kayentavenator.jpg/960px-Kayentavenator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kayentavenator.jpg
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-06-29'
+  caption: Life restoration of Kayentavenator.
+  width: 3119
+  height: 1688
+  review: unreviewed
+  local: img/gallery/Kayentavenator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/f327468f-0fe9-4416-9ca8-fff9f0695444/vector.svg
+  png: https://images.phylopic.org/images/f327468f-0fe9-4416-9ca8-fff9f0695444/raster/512x215.png
+  page: https://www.phylopic.org/images/f327468f-0fe9-4416-9ca8-fff9f0695444
+  attribution: Iain Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Kayentavenator elysiae
+  matched: Kayentavenator
+  genus_level: true
+  w: 512
+  h: 215
+sources:
+- kind: original
+  text: R. Gay. 2010. Kayentavenator elysiae, a new tetanuran from the Early Jurassic of Arizona. Notes on Early
+    Mesozoic Theropods
+- kind: literature
+  text: 'Ezcurra, M.D. 2017. A new early coelophysoid neotheropod from the Late Triassic of northwestern Argentina.
+    Ameghiniana 54(5): 506–538. doi:10.5710/AMGH.04.08.2017.3100'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kayentavenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kayentavenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kayentavenator”. English Wikipedia, revision 1305548898.
+  url: https://en.wikipedia.org/w/index.php?title=Kayentavenator&oldid=1305548898
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

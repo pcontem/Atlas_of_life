@@ -26,3 +26,8 @@ theropoda:
   pbdb: Theropoda
   wikipedia: { categories: [Prehistoric theropods, Carnosauria, Tyrannosauroidea, Coelurosauria], depth: 4, probe: [Tyrannosaurus, Velociraptor, Allosaurus] }
   literature: [theropod, tyrannosaurid, dromaeosaurid, oviraptorosaur, spinosaurid, abelisaurid, troodontid, megalosaurid]
+theropoda1:
+  # Theropoda I (volume plan of 2026-11-25): everything in Theropoda except Maniraptora (which includes Aves).
+  pbdb: Theropoda^Maniraptora
+  wikipedia: { categories: [Coelophysoidea, Ceratosauria, Abelisauridae, Noasauridae, Megalosauroidea, Megalosauridae, Spinosauridae, Carnosauria, Carcharodontosauridae, Megaraptora, Tyrannosauroidea, Compsognathidae, Ornithomimosauria, Tetanurae, Herrerasauria], depth: 3, probe: [Coelophysis, Carnotaurus, Spinosaurus, Giganotosaurus, Tyrannosaurus, Gallimimus] }
+  literature: [theropod, coelophysoid, ceratosaur, abelisaurid, megalosaurid, spinosaurid, allosauroid, carcharodontosaurid, megaraptoran, tyrannosauroid, compsognathid, ornithomimosaur]

@@ -1,0 +1,84 @@
+name: Vitosaura
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Jiménez Velandia et al. 2025
+type_species: Vitosaura colozacani
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from the Los Llanos Formation of Argentina, known from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Vitosaura colozacani
+  authority: Jiménez Velandia et al. 2025
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Los Llanos
+  group: ''
+  members: [Upper]
+  country: Argentina
+  regions: [La Rioja]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: los-llanos-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: A partial skeleton.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Vitosaura colozacani.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Vitosaura_colozacani.png/960px-Vitosaura_colozacani.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vitosaura_colozacani.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-10-02'
+  caption: Life restoration of Vitosaura colozacani.
+  width: 4000
+  height: 1188
+  review: unreviewed
+  local: img/gallery/Vitosaura_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Jiménez Velandia, Harold; Ezcurra, Martín D.; Hechenleitner, E. Martín; Basilici, Giorgio; Martinelli,
+    Agustín G.; Fiorelli, Lucas E. 2025. A new Late Cretaceous abelisaurid species from La Rioja Province, northwestern
+    Argentina. Ameghiniana 65(1): 1–23.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vitosaura (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vitosaura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vitosaura”. English Wikipedia, revision 1377157363.
+  url: https://en.wikipedia.org/w/index.php?title=Vitosaura&oldid=1377157363
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

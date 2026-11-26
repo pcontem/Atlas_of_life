@@ -1,0 +1,100 @@
+name: Bicentenaria
+rank: genus
+parent: coelurosauria
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2012
+type_species: Bicentenaria argentina
+type_species_note: ''
+summary: Carnivorous coelurosaur from the Early Cretaceous of Argentina, named for the 200th anniversary of the
+  May Revolution.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bicentenaria argentina
+  authority: Novas et al. 2012
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Candeleros
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: candeleros-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Bicentenaria argentina.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/44/Bicentenaria_argentina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bicentenaria_argentina.jpg
+  artist: Museo Provincial Carlos Ameghino
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-09-13'
+  caption: Life restoration of Bicentenaria argentina.
+  width: 491
+  height: 841
+  review: unreviewed
+  local: img/gallery/Bicentenaria_001.webp
+- kind: fossil
+  file: Bicentenaria skull elements.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/26/Bicentenaria_skull_elements.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bicentenaria_skull_elements.png
+  artist: Novas, F.E., Ezcurra, M.D., Agnolín, F.L., Pol, D. and Ortíz, R.
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012-06-26'
+  caption: Skull elements of Bicentenaria.
+  width: 679
+  height: 992
+  review: unreviewed
+  local: img/gallery/Bicentenaria_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d/vector.svg
+  png: https://images.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d/raster/512x176.png
+  page: https://www.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelurus agilis
+  matched: Coelurosauria
+  genus_level: false
+  w: 512
+  h: 176
+sources:
+- kind: original
+  text: F. E. Novas, M. D. Ezcurra, and F. L. Agnolin, D. Pol, R. Ortíz. 2012. New Patagonian Cretaceous theropod
+    sheds light about the early radiation of Coelurosauria. Revista del Museo Argentino de Ciencias Naturales, nuevo
+    serie 14(1):57-81
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bicentenaria (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bicentenaria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bicentenaria”. English Wikipedia, revision 1366993200.
+  url: https://en.wikipedia.org/w/index.php?title=Bicentenaria&oldid=1366993200
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

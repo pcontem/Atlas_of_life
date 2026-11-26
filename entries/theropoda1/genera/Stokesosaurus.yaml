@@ -1,0 +1,91 @@
+name: Stokesosaurus
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Madsen 1974
+type_species: Stokesosaurus clevelandi
+type_species_note: ''
+summary: Small early tyrannosauroid from the Late Jurassic of Utah.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 154.8
+  last_ma: 143.1
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Stokesosaurus clevelandi
+  authority: (Madsen 1974)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Talking Rocks]
+  country: United States
+  regions: [Colorado, Utah, Wyoming]
+  interval: Kimmeridgian–Tithonian
+  occurrences: 6
+  ma: [143.1, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Stokesosaurus by Tom Parker.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Stokesosaurus_by_Tom_Parker.png/960px-Stokesosaurus_by_Tom_Parker.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stokesosaurus_by_Tom_Parker.png
+  artist: Tom Parker
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-09-19'
+  caption: Life restoration of Stokesosaurus.
+  width: 2262
+  height: 867
+  review: unreviewed
+  local: img/gallery/Stokesosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/fdb5dd1f-acad-46c0-b1cc-194939ce86a0/vector.svg
+  png: https://images.phylopic.org/images/fdb5dd1f-acad-46c0-b1cc-194939ce86a0/raster/512x157.png
+  page: https://www.phylopic.org/images/fdb5dd1f-acad-46c0-b1cc-194939ce86a0
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Stokesosaurus clevelandi
+  matched: Stokesosaurus
+  genus_level: true
+  w: 512
+  h: 157
+sources:
+- kind: original
+  text: 'Madsen, J. H. 1974. A new theropod dinosaur from the Upper Jurassic of Utah. Journal of Paleontology 48:
+    27–31.'
+- kind: literature
+  text: 'Galton, P. M. 1976. ''''Iliosuchus'''', a Jurassic dinosaur from Oxfordshire and Utah. Palaeontology 19:
+    587–589.'
+- kind: literature
+  text: 'Galton, P.M.; Powell, H.P. 1980. The ornithischian dinosaur ''''Camptosaurus prestwichii'''' from the Upper
+    Jurassic of England. Palaeontology 23: 411–443.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stokesosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stokesosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stokesosaurus”. English Wikipedia, revision 1369644391.
+  url: https://en.wikipedia.org/w/index.php?title=Stokesosaurus&oldid=1369644391
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

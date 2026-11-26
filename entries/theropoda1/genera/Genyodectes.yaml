@@ -1,0 +1,88 @@
+name: Genyodectes
+rank: genus
+parent: ceratosauria
+incertae_sedis: false
+placement_note: ''
+authority: Woodward 1901
+type_species: Genyodectes serus
+type_species_note: ''
+summary: Lower Cretaceous ceratosaur known from a skull fragment from the Cerro Barcino Formation of Patagonia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Genyodectes serus
+  authority: Woodward 1901
+  first_ma: 113.2
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Cerro Barcino
+  group: Chubut
+  members: [Cerro Castaño]
+  country: Argentina
+  regions: [Chubut]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: cerro-barcino-argentina
+fossil_material:
+  holotype: MLP 26–39 (Museo de La Plata), collected from the Cerro Barcino Formation, Cañadón Grande, Chubut Province,
+    Argentina.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Genyodectes saurus jaws.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/39/Genyodectes_saurus_jaws.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Genyodectes_saurus_jaws.jpg
+  artist: Patricia Curcio
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2 May 2009
+  caption: Jaws of Genyodectes serus.
+  width: 1475
+  height: 1506
+  review: unreviewed
+  local: img/gallery/Genyodectes_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754/vector.svg
+  png: https://images.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754/raster/512x262.png
+  page: https://www.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Deltadromeus agilis
+  matched: Ceratosauria
+  genus_level: false
+sources:
+- kind: original
+  text: A. S. Woodward. 1901. On some extinct reptiles from Patagonia, of the genera Miolania, Dinilysia, and Genyodectes.
+    Proceedings of the Zoological Society of London 1901(1):169-184
+- kind: literature
+  text: 'Rauhut, Oliver W. M. 10 D. Provenance and anatomy of ''''Genyodectes serus'''', a large-toothed ceratosaur
+    (Dinosauria: Theropoda) from Patagonia. Journal of Vertebrate Paleontology 24(4): 894–902. doi:10.1671/0272-4634(2004)024[0894:PAAOGS]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Genyodectes (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Genyodectes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Genyodectes”. English Wikipedia, revision 1365575680.
+  url: https://en.wikipedia.org/w/index.php?title=Genyodectes&oldid=1365575680
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Age given as Aptian by Wikipedia; PBDB lists Albian.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: material, biology.'
+  reviews: []

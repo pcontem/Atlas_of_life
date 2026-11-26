@@ -1,0 +1,102 @@
+name: Suskityrannus
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Nesbitt et al. 2019
+type_species: Suskityrannus hazelae
+type_species_note: ''
+summary: Small tyrannosauroid from the Late Cretaceous of southern Laramidia, named for the Zuni word for coyote.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Suskityrannus hazelae
+  authority: Nesbitt et al. 2019
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Moreno Hill
+  group: ''
+  members: [Lower]
+  country: United States
+  regions: [New Mexico]
+  interval: Middle Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: moreno-hill-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Suskityrannus life reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Suskityrannus_life_reconstruction.png/960px-Suskityrannus_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Suskityrannus_life_reconstruction.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-07'
+  caption: Life reconstruction of Suskityrannus hazelae.
+  width: 1928
+  height: 1548
+  review: unreviewed
+  local: img/gallery/Suskityrannus_001.webp
+- kind: skeletal
+  file: SuskiMountFront.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/SuskiMountFront.jpg/960px-SuskiMountFront.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:SuskiMountFront.jpg
+  artist: Definitely NOT Dilophosaurus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-08-12'
+  caption: Mounted skeleton of Suskityrannus.
+  width: 2747
+  height: 3853
+  review: unreviewed
+  local: img/gallery/Suskityrannus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/ffea6e71-4e42-407f-917d-1bb840bca9b0/vector.svg
+  png: https://images.phylopic.org/images/ffea6e71-4e42-407f-917d-1bb840bca9b0/raster/512x220.png
+  page: https://www.phylopic.org/images/ffea6e71-4e42-407f-917d-1bb840bca9b0
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Suskityrannus hazelae
+  matched: Suskityrannus
+  genus_level: true
+  w: 512
+  h: 220
+sources:
+- kind: original
+  text: 'Nesbitt, S.J.; Denton, R.K.; Loewen, M.A.; Brusatte, S.L.; Smith, N.D.; Turner, A.H.; Kirkland, J.I.; McDonald,
+    A.T.; Wolfe, D.G. 6 Ma. A mid-Cretaceous tyrannosauroid and the origin of North American end-Cretaceous dinosaur
+    assemblages. Nature Ecology & Evolution 3(6): 892–899. doi:10.1038/s41559-019-0888-0'
+- kind: literature
+  text: Cilliers, Charl D.; Tucker, Ryan T.; Crowley, James L.; Zanno, Lindsay E. 2021. Age constraint for the Moreno
+    Hill Formation (Zuni Basin) by CA-TIMS and LA-ICP-MS detrital zircon geochronology. PeerJ 9. doi:10.7717/peerj.10948
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Suskityrannus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Suskityrannus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Suskityrannus”. English Wikipedia, revision 1376482383.
+  url: https://en.wikipedia.org/w/index.php?title=Suskityrannus&oldid=1376482383
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

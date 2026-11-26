@@ -1,0 +1,97 @@
+name: Invictibellatrix
+rank: genus
+parent: megaraptora
+incertae_sedis: false
+placement_note: ''
+authority: Morrison et al. 2026
+type_species: Invictibellatrix amberina
+type_species_note: ''
+summary: Megaraptoran from the Barremian Wessex Formation of England, named in 2026.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Invictibellatrix amberina
+  authority: Morrison et al. 2026
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Invictibellatrix amberina (holotype, NHMUK PV R6775).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Invictibellatrix_amberina_%28holotype%2C_NHMUK_PV_R6775%29.png/960px-Invictibellatrix_amberina_%28holotype%2C_NHMUK_PV_R6775%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Invictibellatrix_amberina_(holotype,_NHMUK_PV_R6775).png
+  artist: Morrison et al.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-10-14'
+  caption: Holotype bones of Invictibellatrix amberina.
+  width: 4085
+  height: 3814
+  review: unreviewed
+  local: img/gallery/Invictibellatrix_001.webp
+- kind: skeletal
+  file: Invictibellatrix amberina illustration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Invictibellatrix_amberina_illustration.png/960px-Invictibellatrix_amberina_illustration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Invictibellatrix_amberina_illustration.png
+  artist: MakairodonX
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 15 October
+  caption: Illustration of Invictibellatrix amberina.
+  width: 1920
+  height: 667
+  review: unreviewed
+  local: img/gallery/Invictibellatrix_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/vector.svg
+  png: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/raster/512x161.png
+  page: https://www.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Australovenator wintonensis
+  matched: Megaraptora
+  genus_level: false
+sources:
+- kind: original
+  text: Morrison, Cassius; Scherer, Charlie Roger R.; Mannion, Philip; Porro, Laura B.; Clark, Brett; Folkes, Daniel
+    D.; Barrett, Paul M. 2026. A new megaraptoran dinosaur from the Lower Cretaceous Wessex Formation, UK, and its
+    implications for theropod evolution and biogeography. Royal Society Open Science 13(10). doi:10.1098/rsos.260937
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Invictibellatrix (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Invictibellatrix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Invictibellatrix”. English Wikipedia, revision 1384696224.
+  url: https://en.wikipedia.org/w/index.php?title=Invictibellatrix&oldid=1384696224
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []
