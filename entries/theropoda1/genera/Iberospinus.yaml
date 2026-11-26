@@ -40,31 +40,7 @@ fossil_material:
   completeness: fragmentary
   exceptional: ''
 biology: Not given in the sources used.
-images:
-- kind: life
-  file: Iberospinus life reconstruction.png
-  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Iberospinus_life_reconstruction.png/960px-Iberospinus_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-  page: https://commons.wikimedia.org/wiki/File:Iberospinus_life_reconstruction.png
-  artist: Paleoart by Victor Feijó de Carvalho commissioned by Octávio Mateus and Darío Estraviz-López
-  license: CC BY 2.5
-  license_url: https://creativecommons.org/licenses/by/2.5
-  date: '2022-02-17'
-  caption: Life reconstruction of Iberospinus natarioi.
-  width: 1650
-  height: 1667
-  review: unreviewed
-- kind: fossil
-  file: Caudal vertebra of Iberospinus natarioi (ML1190-26).png
-  url: https://upload.wikimedia.org/wikipedia/commons/5/53/Caudal_vertebra_of_Iberospinus_natarioi_%28ML1190-26%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-  page: https://commons.wikimedia.org/wiki/File:Caudal_vertebra_of_Iberospinus_natarioi_(ML1190-26).png
-  artist: Octávio Mateus and Darío Estraviz-López
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  date: '2022-02-16'
-  caption: Caudal vertebra of Iberospinus natarioi.
-  width: 1500
-  height: 1803
-  review: unreviewed
+images: []
 silhouette:
   src: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/vector.svg
   png: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/raster/512x148.png
@@ -95,4 +71,6 @@ curation:
   checked_on: ''
   notes:
   - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  - Two Commons images (a life reconstruction and a caudal vertebra) could not be downloaded by media-fetch and
+    were removed; add images again through the triage page.
   reviews: []
