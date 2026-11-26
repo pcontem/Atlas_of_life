@@ -1,6 +1,6 @@
 """Harvest the raw material for a new genus volume (runs in GitHub Actions: .github/workflows/harvest.yml).
 
-    python3 scripts/fetch/harvest.py <volume> <PBDB base taxon> [--genera A,B,...] [--sheets DIR]
+    python3 scripts/fetch/harvest.py <volume> <PBDB base taxon> [--genera A,B,...] [--sheets DIR] [--papers]
 
 Writes data/raw/<volume>/ (provenance; never edited by hand):
   pbdb_genera.json    valid genera of the base taxon: authority, ages, parent/family/order, primary reference
@@ -13,6 +13,9 @@ Writes data/raw/<volume>/ (provenance; never edited by hand):
   commons.json        per Commons file (article images + Category:<Genus> and its direct sub-categories):
                       licence, author, description, size, thumbnail address, where it was found
   phylopic.json       per genus: the PhyloPic silhouette of the genus, or of the closest relative found
+  papers.json         with --papers: per genus, scientific articles that name it (OpenAlex + Europe PMC): citation, DOI,
+                      year, open-access status and licence, abstract (to find the primary literature; never copied into entries)
+  oa_figures.json     with --papers (or --oa on data already harvested): figures of CC BY / CC0 articles naming the genus
 and, with --sheets, one contact sheet per genus (numbered thumbnails of every candidate image) for visual review.
 Genus entries are never written here: they are drafted and curated by hand (CLAUDE.md §4).
 """
@@ -374,6 +377,66 @@ def oa_sheet(g, figs, outdir):
         sheet.save(outdir / f"oa_{g}.jpg", quality=70)
 
 
+# ---------- scientific articles (OpenAlex + Europe PMC) ----------
+OPENALEX = "https://api.openalex.org/works"
+FOSSIL_WORDS = "(dinosaur OR dinosaurs OR theropod OR fossil OR Cretaceous OR Jurassic OR Triassic OR Paleocene OR Eocene OR Miocene)"
+
+
+def _abstract(inv):
+    if not inv:
+        return ""
+    pos = sorted((i, w) for w, ii in inv.items() for i in ii)
+    return " ".join(w for _, w in pos)
+
+
+def papers_one(g, per_source=12):
+    """Articles whose title or abstract names the genus, with a fossil word to drop homonyms. Abstracts are cut to
+    1500 characters so the file stays small; the full text is read from the DOI when an entry is written."""
+    out = {}
+    r = fetch_json(OPENALEX, {"filter": f'title_and_abstract.search:"{g}" AND {FOSSIL_WORDS}', "sort": "publication_year:desc",
+                              "per-page": per_source, "mailto": "atlas-of-life@users.noreply.github.com"}) or {}
+    for wk in r.get("results", []):
+        doi = (wk.get("doi") or "").replace("https://doi.org/", "").lower() or None
+        src = ((wk.get("primary_location") or {}).get("source") or {})
+        oa = wk.get("open_access") or {}
+        key = doi or wk.get("id")
+        out[key] = dict(title=wk.get("display_name") or "", year=wk.get("publication_year"), doi=doi,
+                        authors=", ".join(a["author"]["display_name"] for a in (wk.get("authorships") or [])[:8] if a.get("author")),
+                        journal=src.get("display_name") or "", oa=bool(oa.get("is_oa")), oa_url=oa.get("oa_url"),
+                        license=(wk.get("primary_location") or {}).get("license"), cited_by=wk.get("cited_by_count"),
+                        in_title=g.lower() in (wk.get("display_name") or "").lower(),
+                        abstract=_abstract(wk.get("abstract_inverted_index"))[:1500], found_in=["openalex"])
+    r = fetch_json(f"{EPMC}/search", dict(query=f'(TITLE:"{g}" OR ABSTRACT:"{g}") AND {FOSSIL_WORDS}', resultType="core",
+                                          format="json", pageSize=per_source, sort="P_PDATE_D desc")) or {}
+    for a in r.get("resultList", {}).get("result", []):
+        doi = (a.get("doi") or "").lower() or None
+        key = doi or a.get("pmcid") or a.get("id")
+        if key in out:
+            out[key]["found_in"].append("europepmc")
+            out[key]["pmcid"] = a.get("pmcid")
+            if not out[key]["abstract"]:
+                out[key]["abstract"] = re.sub(r"<[^>]+>", "", a.get("abstractText") or "")[:1500]
+            continue
+        out[key] = dict(title=a.get("title") or "", year=int(a["pubYear"]) if str(a.get("pubYear", "")).isdigit() else None,
+                        doi=doi, pmcid=a.get("pmcid"), authors=a.get("authorString", "")[:300],
+                        journal=((a.get("journalInfo") or {}).get("journal") or {}).get("title", ""),
+                        oa=a.get("isOpenAccess") == "Y", oa_url=None, license=a.get("license"), cited_by=a.get("citedByCount"),
+                        in_title=g.lower() in (a.get("title") or "").lower(),
+                        abstract=re.sub(r"<[^>]+>", "", a.get("abstractText") or "")[:1500], found_in=["europepmc"])
+    return sorted(out.values(), key=lambda x: (not x["in_title"], -(x["year"] or 0)))
+
+
+def papers(names):
+    from concurrent.futures import ThreadPoolExecutor
+    out = {}
+    with ThreadPoolExecutor(6) as ex:
+        for k, (g, ps) in enumerate(zip(names, ex.map(papers_one, names))):
+            out[g] = ps
+            if k % 25 == 0:
+                print(f"  papers {k}/{len(names)}", flush=True)
+    return out
+
+
 # ---------- contact sheets ----------
 def sheets(files, names, outdir):
     from PIL import Image, ImageDraw
@@ -452,6 +515,16 @@ def main():
     lineage = {r["taxon_name"]: [x for x in (r.get("family"), r.get("parent_name"), r.get("order")) if x and x != "NO_FAMILY_SPECIFIED"]
                for r in gen}
     w("phylopic.json", dict(downloaded=TODAY, silhouettes=phylopic(names, lineage)))
+    if "--papers" in a:
+        print("Scientific articles…")
+        pp = papers(names)
+        w("papers.json", dict(downloaded=TODAY, sources=["OpenAlex", "Europe PMC"], papers=pp))
+        print(f"  {sum(len(v) for v in pp.values())} articles, {sum(1 for v in pp.values() if not v)} genera without any")
+        print("Open-access figures…")
+        oa = oa_figures(names)
+        w("oa_figures.json", dict(downloaded=TODAY, figures=oa))
+        if sheet_dir:
+            oa_sheets(oa, sheet_dir / "oa")
     if sheet_dir:
         print("Contact sheets…")
         sheets(files, names, sheet_dir)
