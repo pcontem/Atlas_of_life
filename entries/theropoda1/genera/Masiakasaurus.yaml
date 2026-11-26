@@ -1,0 +1,105 @@
+name: Masiakasaurus
+rank: genus
+parent: noasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Sampson et al. 2001
+type_species: Masiakasaurus knopfleri
+type_species_note: ''
+summary: Small predatory noasaurid from the Late Cretaceous of Madagascar with forward-pointing teeth in the lower
+  jaw.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 29
+  note: ''
+species:
+- name: Masiakasaurus knopfleri
+  authority: Sampson et al. 2001
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Maevarano
+  group: ''
+  members: [Anembalemba, Masorobe]
+  country: Madagascar
+  regions: [Mahajanga]
+  interval: Maastrichtian
+  occurrences: 29
+  ma: [66.0, 72.2]
+  id: maevarano-madagascar
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Numerous specimens from Madagascar; many bones known from the type locality.
+  completeness: multiple
+  exceptional: ''
+biology: Evidence of cannibalism has been reported (Rogers et al. 2003).
+images:
+- kind: fossil
+  file: Masiakasaurus FMNH.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5f/Masiakasaurus_FMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Masiakasaurus_FMNH.jpg
+  artist: Evolutionnumber9
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-10-30'
+  caption: Masiakasaurus skeleton at FMNH.
+  width: 754
+  height: 590
+  review: unreviewed
+- kind: fossil
+  file: Masiakasaurus knopfleri skull reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Masiakasaurus_knopfleri_skull_reconstruction.jpg/960px-Masiakasaurus_knopfleri_skull_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Masiakasaurus_knopfleri_skull_reconstruction.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012-10-21'
+  caption: Reconstructed skull of Masiakasaurus knopfleri.
+  width: 4800
+  height: 2400
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/7f5780c2-ad0d-4595-aa4b-eab00e1d9ed3/vector.svg
+  png: https://images.phylopic.org/images/7f5780c2-ad0d-4595-aa4b-eab00e1d9ed3/raster/512x144.png
+  page: https://www.phylopic.org/images/7f5780c2-ad0d-4595-aa4b-eab00e1d9ed3
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Masiakasaurus knopfleri
+  matched: Masiakasaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Sampson, S.D. 2001. A bizarre predatory dinosaur from the Late Cretaceous of Madagascar. Nature 409(6819):
+    504–506. doi:10.1038/35054046'
+- kind: literature
+  text: 'Carrano, M.T. 2002. The osteology of ''''Masiakasaurus knopfleri'''', a small abelisauroid (Dinosauria:
+    Theropoda) from the Late Cretaceous of Madagascar. Journal of Vertebrate Paleontology 22(3): 510–534. doi:10.1671/0272-4634(2002)022[0510:TOOMKA]2.0.CO;2'
+- kind: literature
+  text: 'Carrano, M.T. 2011. New materials of ''''Masiakasaurus knopfleri'''' Sampson, Carrano, and Forster, 2001,
+    and implications for the morphology of the Noasauridae (Theropoda: Ceratosauria). Smithsonian Contributions
+    to Paleobiology 95(95): 53pp. doi:10.5479/si.00810266.95.1'
+- kind: literature
+  text: 'Rogers, R.R. 2003. Cannibalism in the Madagascan dinosaur ''''Majungatholus atopus''''. Nature 422(6931):
+    515–518. doi:10.1038/nature01532'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Masiakasaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Masiakasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Masiakasaurus”. English Wikipedia, revision 1318713191.
+  url: https://en.wikipedia.org/w/index.php?title=Masiakasaurus&oldid=1318713191
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype.'
+  reviews: []

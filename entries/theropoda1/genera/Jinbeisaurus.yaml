@@ -1,0 +1,89 @@
+name: Jinbeisaurus
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Wu et al. 2020
+type_species: Jinbeisaurus wangi
+type_species_note: ''
+summary: Tyrannosauroid from the Upper Cretaceous Huiquanpu Formation of Shanxi, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 72.2
+  early_interval: Cenomanian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jinbeisaurus wangi
+  authority: Wu et al. 2020
+  first_ma: 100.5
+  last_ma: 72.2
+  interval: Cenomanian–Campanian
+  reference: original description
+formations:
+- formation: Huiquanpu
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Shanxi]
+  interval: Cenomanian–Campanian
+  occurrences: 1
+  ma: [72.2, 100.5]
+  id: huiquanpu-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Jinbeisaurus wangi holotype BMNHC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Jinbeisaurus_wangi_holotype_BMNHC.jpg/960px-Jinbeisaurus_wangi_holotype_BMNHC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jinbeisaurus_wangi_holotype_BMNHC.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-27'
+  caption: Holotype of Jinbeisaurus wangi.
+  width: 3589
+  height: 2685
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/3e7b600a-c38c-44ed-b659-4ee50bbc590c/vector.svg
+  png: https://images.phylopic.org/images/3e7b600a-c38c-44ed-b659-4ee50bbc590c/raster/512x195.png
+  page: https://www.phylopic.org/images/3e7b600a-c38c-44ed-b659-4ee50bbc590c
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Jinbeisaurus wangi
+  matched: Jinbeisaurus
+  genus_level: true
+sources:
+- kind: original
+  text: X.-C. Wu, J.-R. Shi, and L.-Y. Dong, T. D. Carr, J. Yi. 2020. A new tyrannosauroid from the Upper Cretaceous
+    of Shanxi, China. Cretaceous Research 108:104357:1-13
+- kind: literature
+  text: Wu Xiao-chun 2019. A new tyrannosauroid from the Upper Cretaceous of Shanxi, China. Cretaceous Research
+    108. doi:10.1016/j.cretres.2019.104357
+- kind: literature
+  text: 'Voris, Jared T.; Zelenitsky, Darla K.; Kobayashi, Yoshitsugu; Modesto, Sean P.; Therrien, François; Tsutsumi,
+    Hiroki; Chinzorig, Tsogtbaatar; Tsogtbaatar, Khishigjav 2025. A new Mongolian tyrannosauroid and the evolution
+    of Eutyrannosauria. [[Nature (journal) 642(8069): 973–979. doi:10.1038/s41586-025-08964-6'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jinbeisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jinbeisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jinbeisaurus”. English Wikipedia, revision 1374576892.
+  url: https://en.wikipedia.org/w/index.php?title=Jinbeisaurus&oldid=1374576892
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

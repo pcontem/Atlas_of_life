@@ -1,0 +1,97 @@
+name: Yutyrannus
+rank: genus
+parent: proceratosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2012
+type_species: Yutyrannus huali
+type_species_note: ''
+summary: Large feathered proceratosaurid from the Early Cretaceous of China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yutyrannus huali
+  authority: Xu et al. 2012
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Yutyrannus huali.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Yutyrannus_huali.png/960px-Yutyrannus_huali.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yutyrannus_huali.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-08-11'
+  caption: Life restoration of Yutyrannus huali.
+  width: 1917
+  height: 798
+  review: unreviewed
+- kind: fossil
+  file: Yutyrannus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Yutyrannus_skeleton.jpg/960px-Yutyrannus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yutyrannus_skeleton.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2012-09-15'
+  caption: Skeleton of Yutyrannus huali.
+  width: 2736
+  height: 3648
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5770eb59-b382-4867-bdcc-f304eb4f0020/vector.svg
+  png: https://images.phylopic.org/images/5770eb59-b382-4867-bdcc-f304eb4f0020/raster/512x179.png
+  page: https://www.phylopic.org/images/5770eb59-b382-4867-bdcc-f304eb4f0020
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Yutyrannus huali
+  matched: Yutyrannus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Xu, X.; Wang, K.; Zhang, K.; Ma, Q.; Xing, L.; Sullivan, C.; Hu, D.; Cheng, S.; Wang, S. 2012. A gigantic
+    feathered dinosaur from the Lower Cretaceous of China. Nature 484(7392): 92–95. doi:10.1038/nature10906'
+- kind: literature
+  text: 'Zimmer, Carl 4 Ap. The One-Ton Turkey: Further Adventures in Slow-Cooked Science. [[Discover (magazine)
+    The Loom.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yutyrannus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yutyrannus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yutyrannus”. English Wikipedia, revision 1387577544.
+  url: https://en.wikipedia.org/w/index.php?title=Yutyrannus&oldid=1387577544
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

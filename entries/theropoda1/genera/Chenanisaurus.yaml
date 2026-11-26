@@ -1,0 +1,80 @@
+name: Chenanisaurus
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Longrich et al. 2017
+type_species: Chenanisaurus barbaricus
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from the phosphates of Morocco, known from a partial dentary and teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Chenanisaurus barbaricus
+  authority: Longrich et al. 2017
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Couche III
+  group: ''
+  members: []
+  country: Morocco
+  regions: [Béni Mellal-Khénifra, Khouribga]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: couche-iii-morocco
+fossil_material:
+  holotype: Not given in the sources used.
+  material: A partial dentary and several teeth from the phosphate mines of Sidi Chennane.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Chenanisaurus barbaricus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Chenanisaurus_barbaricus.jpg/960px-Chenanisaurus_barbaricus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chenanisaurus_barbaricus.jpg
+  artist: Paleocolour
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-10-29'
+  caption: Life restoration of Chenanisaurus barbaricus.
+  width: 2000
+  height: 756
+  review: unreviewed
+sources:
+- kind: original
+  text: 'Longrich, N.R.; Pereda-Suberbiola, X.; Jalil, N.-E.; Khaldoune, F.; Jourani, E. 2017. An abelisaurid from
+    the latest Cretaceous (late Maastrichtian) of Morocco, North Africa. Cretaceous Research 76: 40–52. doi:10.1016/j.cretres.2017.03.021'
+- kind: literature
+  text: 'Tortosa, Thierry; Buffetaut, Eric; Vialle, Nicolas; Dutour, Yves; Turini, Eric; Cheylan, Gilles 2014. A
+    new abelisaurid dinosaur from the Late Cretaceous of southern France: Palaeobiogeographical implications. Annales
+    de Paléontologie 100: 63–86. doi:10.1016/j.annpal.2013.10.003'
+- kind: literature
+  text: 'Buffetaut, Eric; Escuillié, François; Pohl, Bukhart 2005. First theropod dinosaur from the Maastrichtian
+    phosphates of Morocco. Kaupia 14: 3–8.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chenanisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chenanisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chenanisaurus”. English Wikipedia, revision 1387579657.
+  url: https://en.wikipedia.org/w/index.php?title=Chenanisaurus&oldid=1387579657
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

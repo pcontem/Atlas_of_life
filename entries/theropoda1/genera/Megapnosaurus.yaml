@@ -1,0 +1,121 @@
+name: Megapnosaurus
+rank: genus
+parent: coelophysidae
+incertae_sedis: false
+placement_note: ''
+authority: Ivie et al. 2001
+type_species: Megapnosaurus rhodesiensis
+type_species_note: ''
+summary: Small coelophysid theropod from the Early Jurassic of Africa, formerly known as Syntarsus, about 2.2 m
+  long.
+size:
+  length_m: [2.2, 2.2]
+  mass_kg: [13, 13]
+  note: Up to about 2.2 m and 13 kg according to Wikipedia revision 1361250795.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Megapnosaurus rhodesiensis
+  authority: (Raath 1969)
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Forest Sandstone
+  group: Karoo
+  members: []
+  country: Zimbabwe
+  regions: [Mashonaland North, Matabeleland North]
+  interval: Hettangian–Sinemurian
+  occurrences: 4
+  ma: [192.9, 201.4]
+  id: forest-sandstone-zimbabwe
+- formation: Nyamandhlovu Sandstones
+  group: ''
+  members: []
+  country: Zimbabwe
+  regions: [Matabeleland North]
+  interval: Late Triassic
+  occurrences: 1
+  ma: [201.4, 237.0]
+  id: nyamandhlovu-sandstones-zimbabwe
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+- formation: Lufeng
+  group: ''
+  members: [Zhangjia'ao]
+  country: China
+  regions: [Yunnan]
+  interval: Sinemurian
+  occurrences: 1
+  ma: [192.9, 199.5]
+  id: lufeng-china
+- formation: Moenave
+  group: Glen Canyon
+  members: [Whitmore Point]
+  country: United States
+  regions: [Utah]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: moenave-united-states
+fossil_material:
+  holotype: QG 1, a well-preserved postcranial skeleton lacking skull and neck vertebrae — Forest Sandstone, Zimbabwe.
+  material: Many articulated partial skeletons from a second locality in Zimbabwe, plus material from South Africa
+    and China.
+  completeness: multiple
+  exceptional: ''
+biology: A small to medium-sized, lightly built, ground-dwelling, bipedal carnivore.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/vector.svg
+  png: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/raster/512x163.png
+  page: https://www.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelophysis bauri
+  matched: Megapnosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Ivie, M.A.; Slipinski, S.A.; Wegrzynowicz, P. 2001. Generic Homonyms in the Colydiinae (Coleoptera: Zopheridae).
+    Insecta Mundi 15(1).'
+- kind: literature
+  text: 'Ezcurra, M. D.; Brusatte, S. L. 2011. Taxonomic and phylogenetic reassessment of the early neotheropod
+    dinosaur ''''Camposaurus arizonensis'''' from the Late Triassic of North America. [[Palaeontology (journal)
+    54(4): 763–772. doi:10.1111/j.1475-4983.2011.01069.x'
+- kind: literature
+  text: 'Ezcurra, Martín D; Butler, Richard J; Maidment, Susannah C R; Sansom, Ivan J; Meade, Luke E; Radley, Jonathan
+    D 2021. A revision of the early neotheropod genus Sarcosaurus from the Early Jurassic (Hettangian–Sinemurian)
+    of central England. Zoological Journal of the Linnean Society 191(1): 113–149. doi:10.1093/zoolinnean/zlaa054'
+- kind: literature
+  text: 'McDavid, Skye N; Bugos, Jeb E 2022. Taxonomic notes on Megapnosaurus and ''Syntarsus'' (Theropoda: Coelophysidae).
+    The Mosasaur(12): 1–5. doi:10.5281/zenodo.7027378'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Megapnosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Megapnosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Megapnosaurus”. English Wikipedia, revision 1361250795.
+  url: https://en.wikipedia.org/w/index.php?title=Megapnosaurus&oldid=1361250795
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Original name Syntarsus rhodesiensis Raath 1969 was preoccupied by a beetle genus; PBDB lists the genus authority
+    as Ivie et al. 2001., Images: none usable among the candidates.'
+  reviews: []

@@ -1,0 +1,109 @@
+name: Giganotosaurus
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Coria and Salgado 1995
+type_species: Giganotosaurus carolinii
+type_species_note: ''
+summary: Giant carcharodontosaurid from the Albian of Argentina, about 111 to 106 million years ago.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Giganotosaurus carolinii
+  authority: Coria and Salgado 1995
+  first_ma: 113.2
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Candeleros
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Early Albian
+  occurrences: 3
+  ma: [110.1, 113.2]
+  id: candeleros-argentina
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Giganotosaurus at Fernbank.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Giganotosaurus_at_Fernbank.jpg/960px-Giganotosaurus_at_Fernbank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Giganotosaurus_at_Fernbank.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-06-25'
+  caption: Giganotosaurus mount.
+  width: 2546
+  height: 1250
+  review: unreviewed
+- kind: skeletal
+  file: Giganotos Db.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8a/Giganotos_Db.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Giganotos_Db.jpg
+  artist: Dmitry Bogdanov
+  license: Public domain
+  license_url: ''
+  date: 21 July 20
+  caption: Skeletal reconstruction of Giganotosaurus.
+  width: 1280
+  height: 640
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a7d7618f-f0db-47b0-b5f9-75176e7a9af5/vector.svg
+  png: https://images.phylopic.org/images/a7d7618f-f0db-47b0-b5f9-75176e7a9af5/raster/512x165.png
+  page: https://www.phylopic.org/images/a7d7618f-f0db-47b0-b5f9-75176e7a9af5
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Giganotosaurus carolinii
+  matched: Giganotosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Coria, R. A.; Salgado, L. 1995. A new giant carnivorous dinosaur from the Cretaceous of Patagonia. Nature
+    377(6546): 224–226. doi:10.1038/377224a0'
+- kind: literature
+  text: 'Coria, R. A.; Sagado, L. 1994. A giant theropod from the middle Cretaceous of Patagonia, Argentina. Journal
+    of Vertebrate Paleontology 14(3): 22A. doi:10.1080/02724634.1994.10011592'
+- kind: literature
+  text: 'Coria, R. A.; Currie, P. J. 2002. The braincase of ''''Giganotosaurus carolinii'''' (Dinosauria: Theropoda)
+    from the Upper Cretaceous of Argentina. Journal of Vertebrate Paleontology 22(4): 802–811. doi:10.1671/0272-4634(2002)022[0802:TBOGCD]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Giganotosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Giganotosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Giganotosaurus”. English Wikipedia, revision 1373798838.
+  url: https://en.wikipedia.org/w/index.php?title=Giganotosaurus&oldid=1373798838
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

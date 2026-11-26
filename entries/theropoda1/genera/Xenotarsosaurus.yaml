@@ -1,0 +1,77 @@
+name: Xenotarsosaurus
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Martínez et al. 1986
+type_species: Xenotarsosaurus bonapartei
+type_species_note: ''
+summary: Abelisaurid from the Late Cretaceous of Chubut, Argentina, found in 1980 six km north of the Ocho Hermanos
+  ranch.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 89.8
+  early_interval: Cenomanian
+  late_interval: Turonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xenotarsosaurus bonapartei
+  authority: Martínez et al. 1986
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: original description
+formations:
+- formation: Bajo Barreal
+  group: Chubut
+  members: [Lower]
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Cenomanian–Early Turonian
+  occurrences: 1
+  ma: [89.8, 100.5]
+  id: bajo-barreal-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: R. D. Martínez, O. Giménez, and J. Rodríguez, G. Bochatey. 1986. Xenotarsosaurus bonapartei nov. gen. et
+    sp. (Carnosauria, Abelisauridae), un nuevo Theropoda de la Formacion Bajo Barreal, Chubut, Argentina [Xenotarsosaurus
+    bonapartei nov. gen. et sp. (Carnosauria, Abelisauridae), a new Theropoda from the Bajo Barreal Formation, Chubut,
+    Argentina]. IV Congreso Argentino de Paleontologia y Bioestratigrafia 1:23-31
+- kind: literature
+  text: 'Ibiricu, Lucio M.; Baiano, Mattia A.; Martínez, Rubén D.; Alvarez, Bruno N.; Lamanna, Matthew C.; Casal,
+    Gabriel A. 2021. A detailed osteological description of Xenotarsosaurus bonapartei (Theropoda: Abelisauridae):
+    implications for abelisauroid phylogeny. Cretaceous Research 124. doi:10.1016/j.cretres.2021.104829'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xenotarsosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xenotarsosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xenotarsosaurus”. English Wikipedia, revision 1351294402.
+  url: https://en.wikipedia.org/w/index.php?title=Xenotarsosaurus&oldid=1351294402
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,93 @@
+name: Dilong
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2004
+type_species: Dilong paradoxus
+type_species_note: ''
+summary: Early tyrannosauroid from the Early Cretaceous of China, named by Xu and colleagues in 2004.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Dilong paradoxus
+  authority: Xu et al. 2004
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou, Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Dilong paradoxus NMNS.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Dilong_paradoxus_NMNS.jpg/960px-Dilong_paradoxus_NMNS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dilong_paradoxus_NMNS.jpg
+  artist: Tiouraren (Y.-C. Tsai)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-28'
+  caption: Dilong paradoxus specimen.
+  width: 1692
+  height: 1080
+  review: unreviewed
+- kind: life
+  file: Dilong paradoxus VQER 35.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Dilong_paradoxus_VQER_35.JPG/960px-Dilong_paradoxus_VQER_35.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dilong_paradoxus_VQER_35.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Life restoration of Dilong paradoxus.
+  width: 4845
+  height: 2535
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/vector.svg
+  png: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/raster/512x198.png
+  page: https://www.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eotyrannus lengi
+  matched: Tyrannosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu, M. A. Norell, and X. Kuang, X. Wang, Q. Zhao, C. Jin. 2004. Basal tyrannosauroids from China and
+    evidence for protofeathers in tyrannosauroids. Nature 431:680-684
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dilong (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dilong
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is a Chinese dragon-name page; draft the text from Xu et al. 2004 once the paper
+    is added.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

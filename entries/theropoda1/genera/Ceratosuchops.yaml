@@ -1,0 +1,103 @@
+name: Ceratosuchops
+rank: genus
+parent: baryonychinae
+incertae_sedis: false
+placement_note: ''
+authority: Barker et al. 2021
+type_species: Ceratosuchops inferodios
+type_species_note: ''
+summary: Barremian spinosaurid from the Wessex Formation of Britain, known from skull fragments.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ceratosuchops inferodios
+  authority: Barker et al. 2021
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Ceratosuchops holotype.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/a/af/Ceratosuchops_holotype.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ceratosuchops_holotype.webp
+  artist: Dan Folkes
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2021-09-29'
+  caption: Holotype of Ceratosuchops inferodios.
+  width: 685
+  height: 522
+  review: unreviewed
+- kind: life
+  file: Ceratosuchops inferodios by PaleoGeek.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ceratosuchops_inferodios_by_PaleoGeek.png/960px-Ceratosuchops_inferodios_by_PaleoGeek.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ceratosuchops_inferodios_by_PaleoGeek.png
+  artist: PaleoGeekSquared
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-29'
+  caption: Life restoration of Ceratosuchops inferodios.
+  width: 3853
+  height: 2167
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/vector.svg
+  png: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/raster/512x148.png
+  page: https://www.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Baryonyx walkeri
+  matched: Spinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Barker, C.T.; Hone, D.; Naish, D.; Cau, A.; Lockwood, J.; Foster, B.; Clarkin, C.; Schneider, P.; Gostling,
+    N. 2021. New spinosaurids from the Wessex Formation (Early Cretaceous, UK) and the European origins of Spinosauridae.
+    Scientific Reports 11(1). doi:10.1038/s41598-021-97870-8
+- kind: literature
+  text: 'Barker, Chris Tijani 2023. The Osteology, Palaeoneurology And Systematics Of Theropod (Dinosauria) Material
+    From The Early Cretaceous Of Southern England (UK), With Emphasis On Spinosauridae [Thesis]. University of Southampton
+    Faculty of Engineering And Physical Sciences: 139.'
+- kind: literature
+  text: Sereno, Paul C; Myhrvold, Nathan; Henderson, Donald M; Fish, Frank E; Vidal, Daniel; Baumgart, Stephanie
+    L; Keillor, Tyler M; Formoso, Kiersten K; Conroy, Lauren L 2022. ''Spinosaurus'' is not an aquatic dinosaur.
+    eLife 11. doi:10.7554/eLife.80092
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ceratosuchops (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ceratosuchops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ceratosuchops”. English Wikipedia, revision 1383336301.
+  url: https://en.wikipedia.org/w/index.php?title=Ceratosuchops&oldid=1383336301
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,70 @@
+name: Kurupi
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Iori et al. 2021
+type_species: Kurupi itaata
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from the Adamantina Formation of Brazil named in 2021.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kurupi itaata
+  authority: Iori et al. 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Marília
+  group: Bauru
+  members: [Echaporã]
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: marilia-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. V. Iori, H. I. Araújo-Júnior, and S. A. Simionato Tavares, T. da Silva Marinho, A. G. Martinelli. 2021.
+    New theropod dinosaur from the Late Cretaceous of Brazil improves abelisaurid diversity. Journal of South American
+    Earth Sciences 112(1):103551
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kurupi (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kurupi
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested English Wikipedia article is about a figure of Guaraní mythology, not the dinosaur; draft the
+    entry from Iori et al. 2021., Formation as given by PBDB.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

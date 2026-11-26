@@ -1,0 +1,88 @@
+name: Ilokelesia
+rank: genus
+parent: brachyrostra
+incertae_sedis: false
+placement_note: ''
+authority: Coria and Salgado 2000
+type_species: Ilokelesia aguadagrandensis
+type_species_note: ''
+summary: Albian abelisaurid of the Huincul Formation, Argentina, known from fragmentary skull and skeletal elements.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ilokelesia aguadagrandensis
+  authority: Coria and Salgado 2000
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Fragmentary elements of the skull and skeleton from a single specimen.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Ilokelesia.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Ilokelesia.jpg/960px-Ilokelesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ilokelesia.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-12-02'
+  caption: Life restoration of Ilokelesia.
+  width: 3371
+  height: 1180
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: R. A. Coria and L. Salgado. 2000. A basal Abelisauria Novas, 1992 (Theropoda–Ceratosauria) from the Cretaceous
+    of Patagonia, Argentina. GAIA 15:89-102
+- kind: literature
+  text: 'Coria, Rodolfo A.; Salgado, Leonardo Dece. A Basal Abelisauria Novas, 1992 (Theropoda-Ceratosauria) from
+    the Cretaceous of Patagonia, Argentina. [[Gaia (journal) 15: 89–102.'
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ilokelesia (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ilokelesia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ilokelesia”. English Wikipedia, revision 1387521405.
+  url: https://en.wikipedia.org/w/index.php?title=Ilokelesia&oldid=1387521405
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

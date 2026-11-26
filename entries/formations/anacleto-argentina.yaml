@@ -5,9 +5,9 @@ group: Neuquén
 country: Argentina
 regions: [Mendoza, Neuquén, Río Negro]
 location:
-  lat: -38.827
-  lng: -68.051
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  lat: -38.81
+  lng: -68.082
+  basis: median of 15 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
@@ -16,12 +16,28 @@ environment:
 - terrestrial indet.
 - fluvial indet.
 - '"floodplain"'
-- pond
 - coarse channel fill
+- lacustrine - small
+- pond
 - wet floodplain
-lithology: [sandstone, mudstone, not reported, siltstone]
-pbdb_collections: ['51573', '51579', '51580', '52437', '55740', '67094', '82494', '86439', '91171', '117447', '118212',
-  '239490']
+- crevasse splay
+lithology: [mudstone, sandstone, not reported, siltstone]
+pbdb_collections:
+- '28461'
+- '51573'
+- '51579'
+- '51580'
+- '52437'
+- '55740'
+- '61458'
+- '67094'
+- '82494'
+- '86439'
+- '90139'
+- '91171'
+- '117447'
+- '118212'
+- '239490'
 includes: []
 summary: ''
 paleoenvironment: ''

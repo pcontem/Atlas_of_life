@@ -1,0 +1,111 @@
+name: Fukuiraptor
+rank: genus
+parent: tetanurae
+incertae_sedis: true
+placement_note: PBDB places it in Neovenatoridae, but the Wikipedia lead calls it a megaraptoran; Megaraptora is
+  attached directly to Tetanurae in this atlas, so the deepest shared clade is Tetanurae.
+authority: Azuma and Currie 2000
+type_species: Fukuiraptor kitadaniensis
+type_species_note: ''
+summary: Medium-sized Early Cretaceous theropod from the Kitadani Formation of Fukui, Japan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 113.2
+  early_interval: Hauterivian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Fukuiraptor kitadaniensis
+  authority: Azuma and Currie 2000
+  first_ma: 132.6
+  last_ma: 113.2
+  interval: Hauterivian–Aptian
+  reference: original description
+formations:
+- formation: Kitadani
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Fukui]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: kitadani-japan
+- formation: Sebayashi
+  group: Sanchu
+  members: [Lower]
+  country: Japan
+  regions: [Gunma]
+  interval: Late Hauterivian–Early Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: sebayashi-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Fukuiraptor BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Fukuiraptor_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Fukuiraptor_BW.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: Dec 31, 20
+  caption: Life restoration of Fukuiraptor kitadaniensis.
+  width: 789
+  height: 325
+  review: unreviewed
+- kind: skeletal
+  file: Fukuiraptor FPDMJH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fukuiraptor_FPDMJH.jpg/960px-Fukuiraptor_FPDMJH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fukuiraptor_FPDMJH.jpg
+  artist: Palaeotaku
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-09-28'
+  caption: Mounted skeleton of Fukuiraptor.
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Neovenatoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Azuma, Yoichi; Philip J., Currie 2000. A new carnosaur (Dinosauria: Theropoda) from the Lower Cretaceous
+    of Japan. Canadian Journal of Earth Sciences 37(12): 1735–1753. doi:10.1139/e00-064'
+- kind: literature
+  text: 'Currie, P.J.; Azuma, Y. 2006. New specimens, including a growth series, of ''''Fukuiraptor'''' (Dinosauria,
+    Theropoda) from the Lower Cretaceous Kitadani Quarry of Japan. J. Paleont. Soc. Korea 22(1): 173–193.'
+- kind: literature
+  text: 'Molnar, Ralph E.; Obata, Ikuwo; Tanimoto, Masahiro; Matsukawa, Masaki 2009. A tooth of ''''Fukuiraptor''''
+    aff. ''''F. kitadaniensis'''' from the Lower Cretaceous Sebayashi Formation, Sanchu Cretaceous, Japan. Bulletin
+    of Tokyo Gakugei University, Division of Natural Sciences 61: 105–117.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fukuiraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fukuiraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fukuiraptor”. English Wikipedia, revision 1384658721.
+  url: https://en.wikipedia.org/w/index.php?title=Fukuiraptor&oldid=1384658721
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

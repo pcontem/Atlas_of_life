@@ -1,0 +1,103 @@
+name: Aucasaurus
+rank: genus
+parent: furileusauria
+incertae_sedis: false
+placement_note: ''
+authority: Coria et al. 2002
+type_species: Aucasaurus garridoi
+type_species_note: ''
+summary: Medium-sized Late Cretaceous abelisaurid from the Anacleto Formation of Argentina, smaller than Carnotaurus.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Aucasaurus garridoi
+  authority: Coria et al. 2002
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Anacleto
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: anacleto-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Aucasaurus 01.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Aucasaurus_01.JPG/960px-Aucasaurus_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aucasaurus_01.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-06-12'
+  caption: Skeleton of Aucasaurus garridoi.
+  width: 3092
+  height: 1522
+  review: unreviewed
+- kind: life
+  file: Aucasaurus garridoi head reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Aucasaurus_garridoi_head_reconstruction.jpg/960px-Aucasaurus_garridoi_head_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aucasaurus_garridoi_head_reconstruction.jpg
+  artist: Midiaou Diallo ( https://midiaou.deviantart.com/ )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2017-06-22'
+  caption: Head reconstruction of Aucasaurus garridoi.
+  width: 1920
+  height: 1080
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/51fde071-08c5-4278-91b4-79acf9263339/vector.svg
+  png: https://images.phylopic.org/images/51fde071-08c5-4278-91b4-79acf9263339/raster/512x179.png
+  page: https://www.phylopic.org/images/51fde071-08c5-4278-91b4-79acf9263339
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Aucasaurus garridoi
+  matched: Aucasaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Coria, R. A.; Chiappe, L. M.; Dingus, L. 2002. A new close relative of ''''Carnotaurus sastrei'''' Bonaparte
+    1985 (Theropoda: Abelisauridae) from the Late Cretaceous of Patagonia. Journal of Vertebrate Paleontology 22(2):
+    460. doi:10.1671/0272-4634(2002)022[0460:ANCROC]2.0.CO;2'
+- kind: literature
+  text: 'Baiano MA, Cerda IA 2022. Osteohistology of ''''Aucasaurus garridoi'''' (Dinosauria, Theropoda, Abelisauridae):
+    inferences on lifestyle and growth strategy. Historical Biology: An International Journal of Paleobiology 35(5):
+    693–704. doi:10.1080/08912963.2022.2063052'
+- kind: literature
+  text: 'de Souza, G.A.; Soares, M.B.; Brum, A.S.; Zucolotto, M.; Sayão, J.M.; Weinschütz, L.C.; Kellner, A.W.A.
+    2020. Osteohistology and growth dynamics of the Brazilian noasaurid ''''Vespersaurus paranaensis'''' Langer
+    et al., 2019 (Theropoda: Abelisauroidea). PeerJ 8. doi:10.7717/peerj.9771'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aucasaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aucasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aucasaurus”. English Wikipedia, revision 1382020664.
+  url: https://en.wikipedia.org/w/index.php?title=Aucasaurus&oldid=1382020664
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

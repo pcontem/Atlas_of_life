@@ -1,0 +1,182 @@
+name: Coelophysis
+rank: genus
+parent: coelophysidae
+incertae_sedis: false
+placement_note: ''
+authority: Cope 1889
+type_species: Coelophysis bauri
+type_species_note: Taxobox of the cited Wikipedia revision (originally named Coelurus bauri).
+summary: Small slender Late Triassic coelophysid from the southwestern United States, one of the most specimen-rich
+  dinosaur genera.
+size:
+  length_m: [3, 3]
+  note: Wikipedia revision 1385650450 gives up to 3 m long.
+age:
+  first_ma: 227.3
+  last_ma: 192.9
+  early_interval: Norian
+  late_interval: Sinemurian
+  pbdb_occurrences: 26
+  note: ''
+species:
+- name: Coelophysis bauri
+  authority: (Cope 1887)
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Petrified Forest, Siltstone]
+  country: United States
+  regions: [Arizona, New Mexico]
+  interval: Norian–Rhaetian
+  occurrences: 10
+  ma: [201.4, 227.3]
+  id: chinle-united-states
+- formation: Petrified Forest
+  group: Chinle
+  members: [Painted Desert]
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 8
+  ma: [205.7, 227.3]
+  id: petrified-forest-united-states
+- formation: Tecovas
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Carnian–Norian
+  occurrences: 2
+  ma: [205.7, 237.0]
+  id: tecovas-united-states
+- formation: Shuttle Meadow
+  group: Meriden
+  members: []
+  country: United States
+  regions: [Connecticut]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: shuttle-meadow-united-states
+- formation: Dockum
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Triassic
+  occurrences: 1
+  ma: [201.4, 237.0]
+  id: dockum-united-states
+- formation: Cooper Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: cooper-canyon-united-states
+- formation: Bull Canyon
+  group: Dockum
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: bull-canyon-united-states
+- formation: Rock Point
+  group: Chinle
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Norian–Rhaetian
+  occurrences: 1
+  ma: [201.4, 227.3]
+  id: rock-point-united-states
+fossil_material:
+  holotype: AMNH 7224 (neotype, designated after the original Coelurus bauri material proved undiagnostic) — Chinle
+    Formation, New Mexico.
+  material: Hundreds of specimens, many from the Ghost Ranch quarry in New Mexico.
+  completeness: multiple
+  exceptional: ''
+biology: A small, slenderly built, ground-dwelling, bipedal carnivore; scattered material of similar animals is
+  known worldwide from the Late Triassic and Early Jurassic.
+images:
+- kind: fossil
+  file: Coelophysis bauri mount.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Coelophysis_bauri_mount.jpg/960px-Coelophysis_bauri_mount.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Coelophysis_bauri_mount.jpg
+  artist: James St. John
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2009-08-15'
+  caption: Mounted skeleton of Coelophysis bauri.
+  width: 2814
+  height: 1447
+  review: unreviewed
+- kind: fossil
+  file: Coelophysis neotype skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Coelophysis_neotype_skull.jpg/960px-Coelophysis_neotype_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Coelophysis_neotype_skull.jpg
+  artist: Skye McDavid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-07-27'
+  caption: Skull of the Coelophysis neotype.
+  width: 3647
+  height: 2207
+  review: unreviewed
+- kind: fossil
+  file: Coelophysis cast.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Coelophysis_cast.jpg/960px-Coelophysis_cast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Coelophysis_cast.jpg
+  artist: Thomas Quine
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2017-11-17'
+  caption: Cast of Coelophysis.
+  width: 4716
+  height: 2891
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/vector.svg
+  png: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/raster/512x163.png
+  page: https://www.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelophysis bauri
+  matched: Coelophysis
+  genus_level: true
+sources:
+- kind: original
+  text: Cope, E.D. 1889. On a new genus of Triassic Dinosauria. The American Naturalist 23(271). doi:10.1086/274979
+- kind: literature
+  text: 'Colbert, E.H.; Charig, A.J.; Dodson, P.; Gillette, D.D.; Ostrom, J.H.; Weishampel, D.B. 1992. ''''Coelurus
+    bauri'''' Cope, 1887 (currently ''''Coelophysis bauri''''; Reptilia, Saurischia): Proposed replacement of the
+    lectotype by a neotype. Bulletin of Zoological Nomenclature 49(4): 276–279.'
+- kind: literature
+  text: 'Schwartz, Hilde L. 1994. Geology and taphonomy of the ''''Coelophysis'''' quarry, Upper Triassic Chinle
+    Formation, Ghost Ranch, New Mexico. Journal of Paleontology 68(5): 1118–1130. doi:10.1017/S0022336000026718'
+- kind: literature
+  text: 'Rinehart, Larry F.; Lucas, Spencer G.; Hunt, Adrian P. 2007. Furculae in the Late Triassic theropod dinosaur
+    ''''Coelophysis bauri''''. Paläontologische Zeitschrift 81(2): 174–180. doi:10.1007/bf02988391'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coelophysis (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coelophysis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coelophysis”. English Wikipedia, revision 1385650450.
+  url: https://en.wikipedia.org/w/index.php?title=Coelophysis&oldid=1385650450
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype statement and the neotype history come from the Wikipedia lead only; check against Colbert 1989 and
+    the ICZN opinion., Material count is not stated in the brief.
+  reviews: []

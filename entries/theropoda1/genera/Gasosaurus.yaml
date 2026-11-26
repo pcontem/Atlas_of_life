@@ -1,0 +1,103 @@
+name: Gasosaurus
+rank: genus
+parent: tetanurae
+incertae_sedis: false
+placement_note: ''
+authority: Dong and Tang 1985
+type_species: Gasosaurus constructus
+type_species_note: ''
+summary: Middle Jurassic tetanuran theropod from China whose name refers to gasoline.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 170.9
+  last_ma: 154.8
+  early_interval: Bajocian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gasosaurus constructus
+  authority: Dong and Tang 1985
+  first_ma: 170.9
+  last_ma: 154.8
+  interval: Bajocian–Oxfordian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian–Oxfordian
+  occurrences: 1
+  ma: [154.8, 170.9]
+  id: shaximiao-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Gasosaurus constructus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Gasosaurus_constructus.png/960px-Gasosaurus_constructus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gasosaurus_constructus.png
+  artist: Paleocolour
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-02-09'
+  caption: Life restoration of Gasosaurus constructus.
+  width: 1800
+  height: 586
+  review: unreviewed
+- kind: fossil
+  file: Gasosaurus fossil Bishop Museum.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Gasosaurus_fossil_Bishop_Museum.png/960px-Gasosaurus_fossil_Bishop_Museum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gasosaurus_fossil_Bishop_Museum.png
+  artist: Phlox
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Own work
+  caption: Gasosaurus fossil.
+  width: 2860
+  height: 2908
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/vector.svg
+  png: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/raster/512x251.png
+  page: https://www.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f
+  attribution: Jordan Mallon (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Monolophosaurus jiangi
+  matched: Tetanurae
+  genus_level: false
+sources:
+- kind: original
+  text: Z. Dong and Z. Tang. 1985. A new Mid-Jurassic theropod (Gasosaurus constructus gen. et sp. nov.) from Dashanpu,
+    Zigong, Sichuan Province, China. Vertebrata PalAsiatica 23(1):77-83
+- kind: literature
+  text: G., Peng; Ye, Y.; Gao, Y.; Shu, C.; Jiang, S. 2005. Jurassic Dinosaur Faunas in Zigong. 彭光照 叶 勇 高玉辉 舒纯康
+    江 山 著.
+- kind: literature
+  text: 'Carrano, M. T.; Benson, R. B. J.; S. D., Sampson 2012. The phylogeny of Tetanurae (Dinosauria: Theropoda).
+    Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: literature
+  text: 'Brusatte, S. L.; Benson, R. B. J.; Xu, X. 2010. The evolution of large-bodied theropod dinosaurs during
+    the Mesozoic in Asia. Journal of Iberian Geology 36(2): 275–296. doi:10.5209/rev_jige.2010.v36.n2.12'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gasosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gasosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gasosaurus”. English Wikipedia, revision 1359605958.
+  url: https://en.wikipedia.org/w/index.php?title=Gasosaurus&oldid=1359605958
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

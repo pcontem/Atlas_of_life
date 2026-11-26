@@ -1,0 +1,98 @@
+name: Iberospinus
+rank: genus
+parent: spinosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Mateus and Estraviz-López 2022
+type_species: Iberospinus natarioi
+type_species_note: ''
+summary: Spinosaurid from the Barremian Papo Seco Formation of Portugal, known from assorted bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Iberospinus natarioi
+  authority: Mateus and Estraviz-López 2022
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Papo Seco
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Lisboa]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: papo-seco-portugal
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Iberospinus life reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Iberospinus_life_reconstruction.png/960px-Iberospinus_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Iberospinus_life_reconstruction.png
+  artist: Paleoart by Victor Feijó de Carvalho commissioned by Octávio Mateus and Darío Estraviz-López
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2022-02-17'
+  caption: Life reconstruction of Iberospinus natarioi.
+  width: 1650
+  height: 1667
+  review: unreviewed
+- kind: fossil
+  file: Caudal vertebra of Iberospinus natarioi (ML1190-26).png
+  url: https://upload.wikimedia.org/wikipedia/commons/5/53/Caudal_vertebra_of_Iberospinus_natarioi_%28ML1190-26%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Caudal_vertebra_of_Iberospinus_natarioi_(ML1190-26).png
+  artist: Octávio Mateus and Darío Estraviz-López
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-02-16'
+  caption: Caudal vertebra of Iberospinus natarioi.
+  width: 1500
+  height: 1803
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/vector.svg
+  png: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/raster/512x148.png
+  page: https://www.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Baryonyx walkeri
+  matched: Spinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Mateus O, Estraviz-López D 2022. A new theropod dinosaur from the Early Cretaceous (Barremian) of Cabo
+    Espichel, Portugal: Implications for spinosaurid evolution. PLOS ONE 17(2). doi:10.1371/journal.pone.0262614'
+- kind: literature
+  text: 'Isasmendi, E.; Cuesta, E.; Díaz-Martínez, I. 2024. Increasing the theropod record of Europe: a new basal
+    spinosaurid from the Enciso Group of the Cameros Basin (La Rioja, Spain). Evolutionary implications and palaeobiodiversity.
+    Zoological Journal of the Linnean Society 202(3). doi:10.1093/zoolinnean/zlad193'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Iberospinus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Iberospinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Iberospinus”. English Wikipedia, revision 1368881669.
+  url: https://en.wikipedia.org/w/index.php?title=Iberospinus&oldid=1368881669
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

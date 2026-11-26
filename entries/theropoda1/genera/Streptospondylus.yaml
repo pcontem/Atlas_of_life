@@ -1,0 +1,83 @@
+name: Streptospondylus
+rank: genus
+parent: megalosauroidea
+incertae_sedis: true
+placement_note: Wikipedia treats it as a megalosaurid while PBDB places it in Megalosauria; the family-level position
+  is not settled.
+authority: Meyer 1832
+type_species: Streptospondylus altdorfensis
+type_species_note: ''
+summary: Late Jurassic theropod from France, named by Meyer in 1832.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 159
+  early_interval: Callovian
+  late_interval: Oxfordian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Streptospondylus altdorfensis
+  authority: Meyer 1832
+  first_ma: 165.3
+  last_ma: 159
+  interval: Callovian–Oxfordian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Basse-Normandie]
+  interval: Late Callovian–Early Oxfordian
+  occurrences: 1
+  ma: [159.0, 165.3]
+  id: unnamed-vaches-noires-near-honfleur-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Streptospondylus altdorfensis.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Streptospondylus_altdorfensis.JPG/960px-Streptospondylus_altdorfensis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Streptospondylus_altdorfensis.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-05-18'
+  caption: Fossil of Streptospondylus altdorfensis.
+  width: 1848
+  height: 1787
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bacadb12-5f94-4397-8c4a-573b3e2a5d07/vector.svg
+  png: https://images.phylopic.org/images/bacadb12-5f94-4397-8c4a-573b3e2a5d07/raster/512x161.png
+  page: https://www.phylopic.org/images/bacadb12-5f94-4397-8c4a-573b3e2a5d07
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Megalosaurus bucklandii
+  matched: Megalosauria
+  genus_level: false
+sources:
+- kind: original
+  text: H. v. Meyer. 1832. Palaeologica zur Geschichte der Erde und ihrer Geschöpfe; Verlag von Siegmund Schmerber,
+    Franfurt am Main
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Streptospondylus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Streptospondylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Streptospondylus”. English Wikipedia, revision 1349524970.
+  url: https://en.wikipedia.org/w/index.php?title=Streptospondylus&oldid=1349524970
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

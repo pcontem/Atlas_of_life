@@ -1,0 +1,101 @@
+name: Eocarcharia
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Sereno and Brusatte 2008
+type_species: Eocarcharia dinops
+type_species_note: ''
+summary: Carcharodontosaurid from the Ténéré Desert of Niger, known from skull bones collected in 2000.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Eocarcharia dinops
+  authority: Sereno and Brusatte 2008
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: elrhaz-niger
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Eocarcharia (holotype, MNN GAD2).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Eocarcharia_%28holotype%2C_MNN_GAD2%29.png/960px-Eocarcharia_%28holotype%2C_MNN_GAD2%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eocarcharia_(holotype,_MNN_GAD2).png
+  artist: P. C. Sereno & S. L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2008'
+  caption: Holotype bones of Eocarcharia dinops.
+  width: 2108
+  height: 1026
+  review: unreviewed
+- kind: fossil
+  file: Eocarcharia BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Eocarcharia_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eocarcharia_BW.jpg
+  artist: Nobu Tamura
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-02-10'
+  caption: Eocarcharia skull bones.
+  width: 791
+  height: 623
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/92650f93-081b-43e4-83ac-d354ea8e96b5/vector.svg
+  png: https://images.phylopic.org/images/92650f93-081b-43e4-83ac-d354ea8e96b5/raster/512x180.png
+  page: https://www.phylopic.org/images/92650f93-081b-43e4-83ac-d354ea8e96b5
+  attribution: Martin Kevil
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eocarcharia dinops
+  matched: Eocarcharia
+  genus_level: true
+sources:
+- kind: original
+  text: 'Sereno, Paul C.; Brusatte, Stephen L. Janu. Basal abelisaurid and carcharodontosaurid theropods from the
+    Lower Cretaceous Elrhaz Formation of Niger. Acta Palaeontologica Polonica 53(1): 15–46. doi:10.4202/app.2008.0102'
+- kind: literature
+  text: 'Sereno, Paul C.; Brusatte, Stephen L. Janu. Basal abelisaurid and carcharodontosaurid theropods from the
+    Lower Cretaceous Elrhaz Formation of Niger. Acta Palaeontologica Polonica 53(1): 15–46. doi:10.4202/app.2008.0102'
+- kind: literature
+  text: Candeiro, Carlos Roberto Dos Anjos; Brusatte, Sthepen Louis; Vidal, Luciano; Pereira, Paulo Victor Luiz
+    Gomes da Costa 27 J. Paleobiogeographic evolution and distribution of Carcharodontosauridae (Dinosauria, Theropoda)
+    during the middle Cretaceous of North Africa. Papéis Avulsos de Zoologia 58. doi:10.11606/1807-0205/2018.58.29
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eocarcharia (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eocarcharia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eocarcharia”. English Wikipedia, revision 1382020589.
+  url: https://en.wikipedia.org/w/index.php?title=Eocarcharia&oldid=1382020589
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

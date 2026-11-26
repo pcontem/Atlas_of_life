@@ -1,0 +1,134 @@
+name: Gallimimus
+rank: genus
+parent: ornithomimidae
+incertae_sedis: false
+placement_note: ''
+authority: Osmólska et al. 1972
+type_species: Gallimimus bullatus
+type_species_note: ''
+summary: Late Cretaceous theropod of Mongolia, known from fossils in several growth stages.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 66
+  early_interval: Turonian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 30
+  note: ''
+species:
+- name: Gallimimus bullatus
+  authority: (Osmólska et al. 1972)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 28
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Gallimimus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Gallimimus_Restoration.png/960px-Gallimimus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gallimimus_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-07-26'
+  caption: Life restoration of Gallimimus bullatus.
+  width: 5570
+  height: 3694
+  review: unreviewed
+- kind: fossil
+  file: Gallimimus bullatus holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/81/Gallimimus_bullatus_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gallimimus_bullatus_holotype.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '1998'
+  caption: Holotype of Gallimimus bullatus.
+  width: 753
+  height: 792
+  review: unreviewed
+- kind: fossil
+  file: Gallimimus bullatus skull.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gallimimus_bullatus_skull.JPG/960px-Gallimimus_bullatus_skull.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gallimimus_bullatus_skull.JPG
+  artist: LadyofHats
+  license: Public domain
+  license_url: ''
+  date: 2006-08
+  caption: Skull of Gallimimus bullatus.
+  width: 1642
+  height: 1088
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/vector.svg
+  png: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/raster/512x209.png
+  page: https://www.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Gallimimus bullatus
+  matched: Ornithomimidae
+  genus_level: false
+sources:
+- kind: original
+  text: H. Osmólska, E. Roniewicz, and R. Barsbold. 1972. A new dinosaur, Gallimimus bullatus n. gen., n. sp. (Ornithomimidae)
+    from the Upper Cretaceous of Mongolia. Palaeontologia Polonica 27:103-143
+- kind: literature
+  text: 'Kielan-Jaworowska, Z.; Dovchin, N. 1968. Narrative of the Polish-Mongolian palaeontological expeditions
+    1963–1965. Palaeontologica Polonica: 7–30.'
+- kind: literature
+  text: 'Gradzihski, R.; Kazmierczak, J.; Lefeld, J. 1969. Geographical and geological data from the Polish-Mongolian
+    palaeontological expeditions. Palaeontologica Polonica 19: 33–82.'
+- kind: literature
+  text: 'Kielan-Jaworowska, Z. 1975. Late Cretaceous mammals and dinosaurs from the Gobi Desert: Fossils excavated
+    by the Polish-Mongolian paleontological expeditions of 1963–71 cast new light on primitive mammals and dinosaurs
+    and on faunal interchange between Asia and North America. American Scientist 63(2): 150–159.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gallimimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gallimimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gallimimus”. English Wikipedia, revision 1385841958.
+  url: https://en.wikipedia.org/w/index.php?title=Gallimimus&oldid=1385841958
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

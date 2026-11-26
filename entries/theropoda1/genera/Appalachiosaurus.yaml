@@ -1,0 +1,137 @@
+name: Appalachiosaurus
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Carr et al. 2005
+type_species: Appalachiosaurus montgomeriensis
+type_species_note: ''
+summary: Tyrannosauroid from the Late Cretaceous of eastern North America, named for the Appalachian landmass.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 66
+  early_interval: Santonian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Appalachiosaurus montgomeriensis
+  authority: Carr et al. 2005
+  first_ma: 85.7
+  last_ma: 66
+  interval: Santonian–Maastrichtian
+  reference: original description
+formations:
+- formation: Blufftown
+  group: ''
+  members: []
+  country: United States
+  regions: [Alabama, Georgia]
+  interval: Late Santonian–Middle Campanian
+  occurrences: 2
+  ma: [72.2, 85.7]
+  id: blufftown-united-states
+- formation: Demopolis Chalk
+  group: Selma
+  members: []
+  country: United States
+  regions: [Alabama]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: demopolis-chalk-united-states
+- formation: Coachman
+  group: ''
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: coachman-united-states
+- formation: Steel Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: steel-creek-united-states
+- formation: Donoho Creek
+  group: Black Creek
+  members: []
+  country: United States
+  regions: [South Carolina]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: donoho-creek-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Appalachiosaurus montgomeriensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Appalachiosaurus_montgomeriensis.jpg/960px-Appalachiosaurus_montgomeriensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Appalachiosaurus_montgomeriensis.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008'
+  caption: Skeletal reconstruction of Appalachiosaurus montgomeriensis.
+  width: 5144
+  height: 2158
+  review: unreviewed
+- kind: fossil
+  file: Appalachiosaurus arms.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Appalachiosaurus_arms.jpg/960px-Appalachiosaurus_arms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Appalachiosaurus_arms.jpg
+  artist: James Emery
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2012-12-28'
+  caption: Arms of Appalachiosaurus.
+  width: 3264
+  height: 2448
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/vector.svg
+  png: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/raster/512x198.png
+  page: https://www.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eotyrannus lengi
+  matched: Tyrannosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Carr, T.D.; Williamson, T.E.; Schwimmer, D.R. 2005. A new genus and species of tyrannosauroid from the
+    Late Cretaceous (middle Campanian) Demopolis Formation of Alabama. Journal of Vertebrate Paleontology 25(1):
+    119–143. doi:10.1671/0272-4634(2005)025[0119:ANGASO]2.0.CO;2'
+- kind: literature
+  text: 'Brownstein, Chase D. 2018. The biogeography and ecology of the Cretaceous non-avian dinosaurs of Appalachia.
+    Palaeontologia Electronica 21(1): 1–56. doi:10.26879/801'
+- kind: literature
+  text: 'Ji, Q.; Ji, S.-A.; Zhang, L.-J. 2009. First large tyrannosauroid theropod from the Early Cretaceous Jehol
+    Biota in northeastern China. Geological Bulletin of China 28(10): 1369–1374.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Appalachiosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Appalachiosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Appalachiosaurus”. English Wikipedia, revision 1354045433.
+  url: https://en.wikipedia.org/w/index.php?title=Appalachiosaurus&oldid=1354045433
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

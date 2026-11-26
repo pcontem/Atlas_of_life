@@ -1,0 +1,81 @@
+name: Kaijiangosaurus
+rank: genus
+parent: tetanurae
+incertae_sedis: false
+placement_note: ''
+authority: He 1984
+type_species: Kaijiangosaurus lini
+type_species_note: ''
+summary: Carnivorous tetanuran theropod from the Middle Jurassic of China, named by He Xinlu in 1984.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 170.9
+  last_ma: 168.2
+  early_interval: Bajocian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kaijiangosaurus lini
+  authority: He 1984
+  first_ma: 170.9
+  last_ma: 168.2
+  interval: Bajocian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Lower]
+  country: China
+  regions: [Sichuan]
+  interval: Bajocian
+  occurrences: 1
+  ma: [168.2, 170.9]
+  id: shaximiao-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Kaijiangosaurus SW.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Kaijiangosaurus_SW.png/960px-Kaijiangosaurus_SW.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kaijiangosaurus_SW.png
+  artist: User:Slate Weasel
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-10-06'
+  caption: Life restoration of Kaijiangosaurus lini.
+  width: 4272
+  height: 1518
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/vector.svg
+  png: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/raster/512x251.png
+  page: https://www.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f
+  attribution: Jordan Mallon (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Monolophosaurus jiangi
+  matched: Tetanurae
+  genus_level: false
+sources:
+- kind: original
+  text: X. He. 1984. The Vertebrate Fossils of Sichuan. Sichuan Scientific and Technological Publishing House, Chengdu
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kaijiangosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kaijiangosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kaijiangosaurus”. English Wikipedia, revision 1290331994.
+  url: https://en.wikipedia.org/w/index.php?title=Kaijiangosaurus&oldid=1290331994
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

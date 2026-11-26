@@ -1,0 +1,94 @@
+name: Moros
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Zanno et al. 2019
+type_species: Moros intrepidus
+type_species_note: ''
+summary: Small early tyrannosauroid from the Cenomanian of Utah, named by Zanno and colleagues in 2019.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Moros intrepidus
+  authority: Zanno et al. 2019
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Mussentuchit]
+  country: United States
+  regions: [Utah]
+  interval: Early Cenomanian–Middle Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Moros intrepidus reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Moros_intrepidus_reconstruction.png/960px-Moros_intrepidus_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Moros_intrepidus_reconstruction.png
+  artist: Tom Parker
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-02-22'
+  caption: Life restoration of Moros intrepidus.
+  width: 2601
+  height: 1221
+  review: unreviewed
+- kind: fossil
+  file: Moros intrepidus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Moros_intrepidus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Moros_intrepidus.png
+  artist: Lindsay E. Zanno, Ryan T. Tucker, Aurore Canoville, Haviv M. Avrahami, Terry A. Gates & Peter J. Makovicky
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Fossils of Moros intrepidus.
+  width: 1329
+  height: 667
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c573d59d-751c-4511-948e-86d9e8f53dc4/vector.svg
+  png: https://images.phylopic.org/images/c573d59d-751c-4511-948e-86d9e8f53dc4/raster/512x202.png
+  page: https://www.phylopic.org/images/c573d59d-751c-4511-948e-86d9e8f53dc4
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Moros intrepidus
+  matched: Moros
+  genus_level: true
+sources:
+- kind: original
+  text: L. E. Zanno, R. T. Tucker, and A. Canoville, H. M. Avrahami, T. A. Gates, P. J. Makovicky. 2019. Diminutive
+    fleet-footed tyrannosauroid narrows the 70-million-year gap in the North American fossil record. Communications
+    Biology 2(1):61:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Moros (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Moros
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is the Greek mythology entry; add the Moros intrepidus article and Zanno et al.
+    2019.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -7,14 +7,14 @@ regions: [Savannakhet]
 location:
   lat: 16.4
   lng: 105.65
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
   first_ma: 121.4
   last_ma: 100.5
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: ['"floodplain"', terrestrial indet.]
-lithology: [siltstone, sandstone]
-pbdb_collections: ['45091', '45092', '130271']
+environment: [terrestrial indet., '"floodplain"']
+lithology: [siltstone, sandstone, not reported]
+pbdb_collections: ['45091', '45092', '130271', '131833']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,106 @@
+name: Liliensternus
+rank: genus
+parent: neotheropoda
+incertae_sedis: false
+placement_note: ''
+authority: Welles 1984
+type_species: Liliensternus liliensterni
+type_species_note: ''
+summary: Basal neotheropod from the Late Triassic of Germany, up to about 5 m long.
+size:
+  length_m: [5.15, 5.15]
+  note: 5.15 m in Wikipedia revision 1378561372, based on specimens now believed to be subadults.
+age:
+  first_ma: 227.3
+  last_ma: 201.4
+  early_interval: Norian
+  late_interval: Rhaetian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Liliensternus liliensterni
+  authority: (Huene 1934)
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Trossingen
+  group: Keuper
+  members: [Feuerletten, Knollenmergel]
+  country: Germany
+  regions: [Bayern, Sachsen-Anhalt, Thuringia]
+  interval: Norian–Rhaetian
+  occurrences: 3
+  ma: [201.4, 227.3]
+  id: trossingen-germany
+- formation: Klettgau
+  group: Keuper
+  members: [Gruhalde]
+  country: Switzerland
+  regions: [Aargau]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: klettgau-switzerland
+- formation: Löwenstein
+  group: Keuper
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: lowenstein-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Remains from Germany, Switzerland and France assigned to it in the literature.
+  completeness: partial
+  exceptional: ''
+biology: A bipedal, ground-dwelling carnivore.
+images:
+- kind: fossil
+  file: Liliensternus liliensterni.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Liliensternus_liliensterni.JPG/960px-Liliensternus_liliensterni.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liliensternus_liliensterni.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: Aug 2010 -
+  caption: Mounted skeleton of Liliensternus liliensterni.
+  width: 2248
+  height: 1460
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ea062784-47cc-4229-9001-db9cf268a7f7/vector.svg
+  png: https://images.phylopic.org/images/ea062784-47cc-4229-9001-db9cf268a7f7/raster/512x349.png
+  page: https://www.phylopic.org/images/ea062784-47cc-4229-9001-db9cf268a7f7
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Liliensternus liliensterni
+  matched: Liliensternus
+  genus_level: true
+sources:
+- kind: original
+  text: 'S. P. Welles. 1984. Dilophosaurus wetherilli (Dinosauria, Theropoda): osteology and comparisons. Palaeontographica
+    Abteilung A 185:85-180'
+- kind: literature
+  text: 'Rauhut, Oliver W.M. 2002. A review of European Triassic theropods. Gaia 15: 75–88.'
+- kind: literature
+  text: 'Ezcurra, Martin D. 2007. The coelophysoid ''''Lophostropheus airelensis'''', gen. nov.: a review of the
+    systematics of "Liliensternus" ''''airelensis'''' from the Triassic-Jurassic boundary outcrops of Normandy (France).
+    Journal of Vertebrate Paleontology 27(1): 73–86. doi:10.1671/0272-4634(2007)27[73:TCLAGN]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Liliensternus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Liliensternus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Liliensternus”. English Wikipedia, revision 1378561372.
+  url: https://en.wikipedia.org/w/index.php?title=Liliensternus&oldid=1378561372
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number not read; Lophostropheus (France) was once referred here.
+  reviews: []

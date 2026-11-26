@@ -1,0 +1,70 @@
+name: Shanyangosaurus
+rank: genus
+parent: avetheropoda
+incertae_sedis: true
+placement_note: PBDB places it in Avetheropoda without a lower clade; known only from partial skeleton elements.
+authority: Xue et al. 1996
+type_species: Shanyangosaurus niupanggouensis
+type_species_note: ''
+summary: Theropod from the Maastrichtian of Shaanxi, China, known from a partial sacrum, scapula and limb bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Shanyangosaurus niupanggouensis
+  authority: Xue et al. 1996
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Shanyang
+  group: ''
+  members: []
+  country: China
+  regions: [Shaanxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: shanyang-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2fe1b1bd-630c-407c-abbc-9991c7f9e868/vector.svg
+  png: https://images.phylopic.org/images/2fe1b1bd-630c-407c-abbc-9991c7f9e868/raster/512x192.png
+  page: https://www.phylopic.org/images/2fe1b1bd-630c-407c-abbc-9991c7f9e868
+  attribution: Arthur S. Brum
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aratasaurus museunacionali
+  matched: Avetheropoda
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xue, Y. Zhang, and Y. Bi, L. Yue, D.-K. Chen. 1996. The Development and Environmental Changes of the
+    Intermontane Basins in Eastern Part of the Qinling Mountains
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shanyangosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shanyangosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shanyangosaurus”. English Wikipedia, revision 1289204574.
+  url: https://en.wikipedia.org/w/index.php?title=Shanyangosaurus&oldid=1289204574
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

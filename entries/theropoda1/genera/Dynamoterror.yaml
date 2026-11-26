@@ -1,0 +1,104 @@
+name: Dynamoterror
+rank: genus
+parent: tyrannosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: McDonald et al. 2018
+type_species: Dynamoterror dynastes
+type_species_note: ''
+summary: Tyrannosaurid from the lower Campanian of New Mexico, about 78 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dynamoterror dynastes
+  authority: McDonald et al. 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Menefee
+  group: Mesaverde
+  members: [Allison]
+  country: United States
+  regions: [New Mexico]
+  interval: Early Campanian–Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: menefee-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Dynamoterror Paleoarte.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dynamoterror_Paleoarte.png/960px-Dynamoterror_Paleoarte.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dynamoterror_Paleoarte.png
+  artist: DarkWerewolf
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-02-13'
+  caption: Life restoration of Dynamoterror dynastes.
+  width: 4676
+  height: 3400
+  review: unreviewed
+- kind: fossil
+  file: Dynamoterror frontals in dorsal view.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamoterror_frontals_in_dorsal_view.png/960px-Dynamoterror_frontals_in_dorsal_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dynamoterror_frontals_in_dorsal_view.png
+  artist: Andrew T. McDonald​ , Douglas G. Wolfe , Alton C. Dooley Jr
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-10-09'
+  caption: Frontals of Dynamoterror in dorsal view.
+  width: 1625
+  height: 1628
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f05e56c4-83bc-4809-8c2e-fd30c0b0bba2/vector.svg
+  png: https://images.phylopic.org/images/f05e56c4-83bc-4809-8c2e-fd30c0b0bba2/raster/512x166.png
+  page: https://www.phylopic.org/images/f05e56c4-83bc-4809-8c2e-fd30c0b0bba2
+  attribution: Conty (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Tyrannosaurus magnus
+  matched: Dynamoterror
+  genus_level: true
+sources:
+- kind: original
+  text: 'McDonald, A.T.; Wolfe, D.G.; Dooley Jr, A.C. 2018. A new tyrannosaurid (Dinosauria: Theropoda) from the
+    Upper Cretaceous Menefee Formation of New Mexico. PeerJ 6. doi:10.7717/peerj.5749'
+- kind: literature
+  text: 'Chan-gyu, Yun. 2020. A reassessment of the taxonomic validity of ''''Dynamoterror dynastes'''' (Theropoda:
+    Tyrannosauridae). Zoodiversity 54(3): 259–264. doi:10.15407/zoo2020.03.259'
+- kind: literature
+  text: Scherer, Charlie Roger; Voiculescu-Holvad, Christian 2024. Re-analysis of a dataset refutes claims of anagenesis
+    within ''Tyrannosaurus''-line tyrannosaurines (Theropoda, Tyrannosauridae). Cretaceous Research 155. doi:10.1016/j.cretres.2023.105780
+- kind: literature
+  text: Voris, Jared T.; Therrien, Francois; Zelenitzky, Darla K.; Brown, Caleb M. 2020. A new tyrannosaurine (Theropoda:Tyrannosauridae)
+    from the Campanian Foremost Formation of Alberta, Canada, provides insight into the evolution and biogeography
+    of tyrannosaurids. Cretaceous Research 110. doi:10.1016/j.cretres.2020.104388
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dynamoterror (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dynamoterror
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dynamoterror”. English Wikipedia, revision 1362625445.
+  url: https://en.wikipedia.org/w/index.php?title=Dynamoterror&oldid=1362625445
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

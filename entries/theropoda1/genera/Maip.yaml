@@ -1,0 +1,99 @@
+name: Maip
+rank: genus
+parent: megaraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Aranciaga Rolando et al. 2022
+type_species: Maip macrothorax
+type_species_note: ''
+summary: Large megaraptorid from the Maastrichtian Chorrillo Formation of Santa Cruz, Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Maip macrothorax
+  authority: Aranciaga Rolando et al. 2022
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Chorrillo
+  group: ''
+  members: [Middle]
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: chorrillo-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Maip macrothorax reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Maip_macrothorax_reconstruction.jpg/960px-Maip_macrothorax_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Maip_macrothorax_reconstruction.jpg
+  artist: SpinoDragon145
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-12'
+  caption: Life restoration of Maip macrothorax.
+  width: 5472
+  height: 2912
+  review: unreviewed
+- kind: fossil
+  file: Maip holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Maip_holotype.jpg/960px-Maip_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Maip_holotype.jpg
+  artist: Eight heads serpent
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2023年4月22日
+  caption: Holotype of Maip macrothorax.
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/df11d20b-642f-4af2-b524-7a6c073a29b7/vector.svg
+  png: https://images.phylopic.org/images/df11d20b-642f-4af2-b524-7a6c073a29b7/raster/512x258.png
+  page: https://www.phylopic.org/images/df11d20b-642f-4af2-b524-7a6c073a29b7
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Maip macrothorax
+  matched: Maip
+  genus_level: true
+sources:
+- kind: original
+  text: 'Aranciaga Rolando, Alexis M.; Motta, Matias J.; Agnolín, Federico L.; Manabe, Makoto; Tsuihiji, Takanobu;
+    Novas, Fernando E. Apri. A large Megaraptoridae (Theropoda: Coelurosauria) from Upper Cretaceous (Maastrichtian)
+    of Patagonia, Argentina. Scientific Reports 12(1). doi:10.1038/s41598-022-09272-z'
+- kind: literature
+  text: Ibiricu, Lucio M.; Lamanna, Matthew C.; Alvarez, Bruno N.; Cerda, Ignacio A.; Caglianone, Julieta L.; Cardozo,
+    Noelia V.; Luna, Marcelo; Martínez, Rubén D. 2025. Latest Cretaceous megaraptorid theropod dinosaur sheds light
+    on megaraptoran evolution and palaeobiology. Nature Communications 16(1). doi:10.1038/s41467-025-63793-5
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Maip (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Maip
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maip”. English Wikipedia, revision 1387196870.
+  url: https://en.wikipedia.org/w/index.php?title=Maip&oldid=1387196870
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

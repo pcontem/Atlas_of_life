@@ -1,0 +1,94 @@
+name: Dracovenator
+rank: genus
+parent: neotheropoda
+incertae_sedis: false
+placement_note: ''
+authority: Yates 2005
+type_species: Dracovenator regenti
+type_species_note: ''
+summary: Medium-sized neotheropod from the Early Jurassic Elliot Formation of South Africa.
+size:
+  length_m: [5.5, 6.5]
+  mass_kg: [250, 250]
+  note: Estimated 5.5–6.5 m and 250 kg in Wikipedia revision 1382426722.
+age:
+  first_ma: 201.4
+  last_ma: 192.9
+  early_interval: Hettangian
+  late_interval: Sinemurian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Dracovenator regenti
+  authority: Yates 2005
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: original description
+formations:
+- formation: Elliot
+  group: Stormberg
+  members: [Upper]
+  country: South Africa
+  regions: [Eastern Cape, Free State]
+  interval: Hettangian–Sinemurian
+  occurrences: 2
+  ma: [192.9, 201.4]
+  id: elliot-south-africa
+fossil_material:
+  holotype: Based on a partial skull and lower jaw — Elliot Formation, South Africa.
+  material: Partial skull only.
+  completeness: fragmentary
+  exceptional: ''
+biology: A medium-sized, moderately built, ground-dwelling, bipedal carnivore.
+images:
+- kind: life
+  file: Dracovenator regenti.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Dracovenator_regenti.jpg/960px-Dracovenator_regenti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dracovenator_regenti.jpg
+  artist: Antonio Rares Mihaila
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-05-13'
+  caption: Restoration of Dracovenator regenti.
+  width: 4096
+  height: 2095
+  review: unreviewed
+- kind: skeletal
+  file: Dracovenator3.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Dracovenator3.png/960px-Dracovenator3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dracovenator3.png
+  artist: Crizz30
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-11-18'
+  caption: Skeletal reconstruction of Dracovenator.
+  width: 3030
+  height: 883
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9/vector.svg
+  png: https://images.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9/raster/512x214.png
+  page: https://www.phylopic.org/images/939361a0-daa0-4784-9108-5215ebf86fe9
+  attribution: Pranav Iyer (grey ideas)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Inosaurus tedreftensis
+  matched: Neotheropoda
+  genus_level: false
+sources:
+- kind: original
+  text: 'Yates, Adam M. 2005. A new theropod dinosaur from the Early Jurassic of South Africa and its implications
+    for the early evolution of theropods. Palaeontologia Africana 41: 105–122.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dracovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dracovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dracovenator”. English Wikipedia, revision 1382426722.
+  url: https://en.wikipedia.org/w/index.php?title=Dracovenator&oldid=1382426722
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number not read.]
+  reviews: []

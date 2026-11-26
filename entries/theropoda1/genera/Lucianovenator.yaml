@@ -1,0 +1,89 @@
+name: Lucianovenator
+rank: genus
+parent: coelophysidae
+incertae_sedis: false
+placement_note: ''
+authority: Martinez and Apaldetti 2017
+type_species: Lucianovenator bonoi
+type_species_note: ''
+summary: Late Norian–Rhaetian coelophysid from Argentina, one of the few coelophysoids known from South America.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lucianovenator bonoi
+  authority: Martinez and Apaldetti 2017
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Quebrada del Barro
+  group: ''
+  members: []
+  country: Argentina
+  regions: [San Juan]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: quebrada-del-barro-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Lucianovenator restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Lucianovenator_restoration.jpg/960px-Lucianovenator_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lucianovenator_restoration.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2020'
+  caption: Restoration of Lucianovenator.
+  width: 3219
+  height: 1039
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/vector.svg
+  png: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/raster/512x163.png
+  page: https://www.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelophysis bauri
+  matched: Coelophysidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. N. Martinez and C. Apaldetti. 2017. A late Norian–Rhaetian coelophysid neotheropod (Dinosauria, Saurischia)
+    from the Quebrada del Barro Formation, northwestern Argentina. Ameghiniana 54(5):448-505
+- kind: literature
+  text: 'Martínez, Ricardo N.; Apaldetti, Cecilia 2017. A late Norian-Rhaetian coelophysid neotheropod (Dinosauria,
+    Saurischia) from the Quebrada del Barro Formation, northwestern Argentina. Ameghiniana 54(5): 488–505. doi:10.5710/AMGH.09.04.2017.3065'
+- kind: literature
+  text: 'Spiekman, S.N.; Ezcurra, M.D.; Butler, R.J.; Fraser, N.C.; Maidment, S.C.R. 2021. ''''Pendraig milnerae'''',
+    a new small-sized coelophysoid theropod from the Late Triassic of Wales. Royal Society Open Science 8(10): 1–27.
+    doi:10.1098/rsos.210915'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lucianovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lucianovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lucianovenator”. English Wikipedia, revision 1361807621.
+  url: https://en.wikipedia.org/w/index.php?title=Lucianovenator&oldid=1361807621
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype, material and size to be taken from Martinez and Apaldetti 2017.
+  reviews: []

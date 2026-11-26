@@ -1,0 +1,70 @@
+name: Pandoravenator
+rank: genus
+parent: tetanurae
+incertae_sedis: false
+placement_note: ''
+authority: Rauhut and Pol 2017
+type_species: Pandoravenator fernandezorum
+type_species_note: ''
+summary: Theropod from the Late Jurassic of Chubut Province, central Patagonia, named for Pandora's box.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 157.9
+  last_ma: 149.2
+  early_interval: Oxfordian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 1
+  note: PBDB gives an empty interval name for its oldest occurrence; the first age (157.9 Ma) lies inside the Oxfordian,
+    so the interval name was set by hand.
+species:
+- name: Pandoravenator fernandezorum
+  authority: Rauhut and Pol 2017
+  first_ma: 157.9
+  last_ma: 149.2
+  interval: ''
+  reference: original description
+formations:
+- formation: Cañadón Calcáreo
+  group: Sierra de Olte
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Oxfordian–Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 157.9]
+  id: canadon-calcareo-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/vector.svg
+  png: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/raster/512x251.png
+  page: https://www.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f
+  attribution: Jordan Mallon (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Monolophosaurus jiangi
+  matched: Tetanurae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Rauhut, Oliver; Pol, Diego 14 N. A theropod dinosaur from the Late Jurassic Cañadón Calcáreo Formation
+    of Central Patagonia, and the evolution of the theropod tarsus. Ameghiniana 54(5): 539–566. doi:10.5710/AMGH.12.10.2017.3105'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pandoravenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pandoravenator
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page was flagged as not about the genus; its lead is about Pandoravenator, so recheck
+    before use. Age from PBDB (157.9 to 149.2 Ma).
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

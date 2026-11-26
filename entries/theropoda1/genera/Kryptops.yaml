@@ -1,0 +1,103 @@
+name: Kryptops
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Sereno and Brusatte 2008
+type_species: Kryptops palaios
+type_species_note: ''
+summary: Possibly chimeric abelisaurid from the Early Cretaceous of Niger, known from a partial maxilla.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kryptops palaios
+  authority: Sereno and Brusatte 2008
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Elrhaz
+  group: Tegama
+  members: []
+  country: Niger
+  regions: [Agadez]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: elrhaz-niger
+fossil_material:
+  holotype: MNN GAD1-1, a partial maxilla — Gadoufaoua locality, Elrhaz Formation, Niger (specimen number read from
+    the Commons file title).
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Kryptops (holotype, MNN GAD1−1 - medial).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kryptops_%28holotype%2C_MNN_GAD1%E2%88%921_-_medial%29.png/960px-Kryptops_%28holotype%2C_MNN_GAD1%E2%88%921_-_medial%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kryptops_(holotype,_MNN_GAD1%E2%88%921_-_medial).png
+  artist: P. C. Sereno & S. L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2008'
+  caption: Holotype maxilla of Kryptops.
+  width: 1955
+  height: 1739
+  review: unreviewed
+- kind: life
+  file: Kryptops life restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Kryptops_life_restoration.jpg/960px-Kryptops_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kryptops_life_restoration.jpg
+  artist: Paleocolour
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-10-17'
+  caption: Life restoration of Kryptops.
+  width: 2000
+  height: 737
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sereno, Paul C.; Brusatte, Stephen L. 2008. Basal abelisaurid and carcharodontosaurid theropods from the
+    Lower Cretaceous Elrhaz Formation of Niger. Acta Palaeontologica Polonica 53(1): 15–46. doi:10.4202/app.2008.0102'
+- kind: literature
+  text: Cerroni, M.A.; Agnolin, F.L.; Brissón Egli, F.; Novas, F.E. 2019. The phylogenetic position of ''Afromimus
+    tenerensis'' Sereno, 2017 and its paleobiogeographical implications. Journal of African Earth Sciences 159.
+    doi:10.1016/j.jafrearsci.2019.103572
+- kind: literature
+  text: 'Delcourt, Rafael 2018. Ceratosaur palaeobiology: new insights on evolution and ecology of the southern
+    rulers. Scientific Reports 8(1). doi:10.1038/s41598-018-28154-x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kryptops (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kryptops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kryptops”. English Wikipedia, revision 1384687457.
+  url: https://en.wikipedia.org/w/index.php?title=Kryptops&oldid=1384687457
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia says the type material may be chimeric (Cerroni et al. 2019).
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: material, biology.'
+  reviews: []

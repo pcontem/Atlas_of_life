@@ -1,0 +1,100 @@
+name: Concavenator
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Ortega et al. 2010
+type_species: Concavenator corcovatus
+type_species_note: ''
+summary: Humped carcharodontosaurid from the Early Cretaceous of Cuenca, Spain.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Concavenator corcovatus
+  authority: Ortega et al. 2010
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Concavenator corcovatus by Daniel Vidal 2012.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Concavenator_corcovatus_by_Daniel_Vidal_2012.png/960px-Concavenator_corcovatus_by_Daniel_Vidal_2012.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Concavenator_corcovatus_by_Daniel_Vidal_2012.png
+  artist: Eoalulavis
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-07-31'
+  caption: Life restoration of Concavenator corcovatus.
+  width: 2244
+  height: 912
+  review: unreviewed
+- kind: fossil
+  file: Concavenator skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Concavenator_skeleton.jpg/960px-Concavenator_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Concavenator_skeleton.jpg
+  artist: ケラトプスユウタ
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-05-01'
+  caption: Skeleton of Concavenator corcovatus.
+  width: 2100
+  height: 1574
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f9ee9f1f-d0ca-4e53-8311-4689f770ef36/vector.svg
+  png: https://images.phylopic.org/images/f9ee9f1f-d0ca-4e53-8311-4689f770ef36/raster/512x176.png
+  page: https://www.phylopic.org/images/f9ee9f1f-d0ca-4e53-8311-4689f770ef36
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Concavenator corcovatus
+  matched: Concavenator
+  genus_level: true
+sources:
+- kind: original
+  text: 'Ortega, F.; Escaso, F.; Sanz, J. L. 2010. A bizarre, humped Carcharodontosauria (Theropoda) from the Lower
+    Cretaceous of Spain. Nature 467(7312): 203–206. doi:10.1038/nature09181'
+- kind: literature
+  text: 'Cuesta, E.; Díaz-Martínez, I.; Ortega, F.; Sanz, J. L. 2015. Did all theropods have chicken-like feet?
+    First evidence of a non-avian dinosaur podotheca. Cretaceous Research 56: 53−59. doi:10.1016/j.cretres.2015.03.008'
+- kind: literature
+  text: 'Cuesta, E.; Ortega, F.; Sanz, J. L. 2018. Appendicular osteology of Concavenator corcovatus (Theropoda;
+    Carcharodontosauridae; Early Cretaceous; Spain). Journal of Vertebrate Paleontology 38(4): 1−24. doi:10.1080/02724634.2018.1485153'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Concavenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Concavenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Concavenator”. English Wikipedia, revision 1380988566.
+  url: https://en.wikipedia.org/w/index.php?title=Concavenator&oldid=1380988566
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

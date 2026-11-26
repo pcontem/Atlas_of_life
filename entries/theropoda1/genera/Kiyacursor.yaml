@@ -1,0 +1,100 @@
+name: Kiyacursor
+rank: genus
+parent: noasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Averianov et al. 2024
+type_species: Kiyacursor longipes
+type_species_note: ''
+summary: Noasaurid from the Early Cretaceous Ilek Formation of Russia, the first Early Cretaceous ceratosaur found
+  in Asia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Kiyacursor longipes
+  authority: Averianov et al. 2024
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Ilek
+  group: ''
+  members: []
+  country: Russia
+  regions: [Kemerovo]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+  id: ilek-russia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: A partial skeleton.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Kiyacursor longipes.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Kiyacursor_longipes.png/960px-Kiyacursor_longipes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kiyacursor_longipes.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-25'
+  caption: Life restoration of Kiyacursor longipes.
+  width: 4000
+  height: 1840
+  review: unreviewed
+- kind: fossil
+  file: Kiyacursor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/13/Kiyacursor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kiyacursor.jpg
+  artist: С. В. Иванцов
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-07'
+  caption: Kiyacursor fossil.
+  width: 904
+  height: 704
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c0a4aa4e-9514-412e-a1a7-1a83795cc909/vector.svg
+  png: https://images.phylopic.org/images/c0a4aa4e-9514-412e-a1a7-1a83795cc909/raster/512x239.png
+  page: https://www.phylopic.org/images/c0a4aa4e-9514-412e-a1a7-1a83795cc909
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Kiyacursor longipes
+  matched: Kiyacursor
+  genus_level: true
+sources:
+- kind: original
+  text: 'Averianov, A. O.; Skutschas, P. P.; Atuchin, A. A.; Slobodin, D. A.; Feofanova, O. A.; Vladimirova, O.
+    N. 2024. The last ceratosaur of Asia: a new noasaurid from the Early Cretaceous Great Siberian Refugium. Proceedings
+    of the Royal Society B: Biological Sciences 291(2023). doi:10.1098/rspb.2024.0537'
+- kind: literature
+  text: 'Poropat, Stephen F.; Pentland, Adele H.; Duncan, Ruairidh J.; Bevitt, Joseph J.; Vickers-Rich, Patricia;
+    Rich, Thomas H. 2020. First elaphrosaurine theropod dinosaur (Ceratosauria: Noasauridae) from Australia — A
+    cervical vertebra from the Early Cretaceous of Victoria. Gondwana Research 84: 284–295. doi:10.1016/j.gr.2020.03.009'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kiyacursor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kiyacursor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kiyacursor”. English Wikipedia, revision 1387598596.
+  url: https://en.wikipedia.org/w/index.php?title=Kiyacursor&oldid=1387598596
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

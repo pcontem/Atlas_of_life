@@ -1,0 +1,83 @@
+name: Becklespinax
+rank: genus
+parent: tetanurae
+incertae_sedis: false
+placement_note: ''
+authority: Olshevsky 1991
+type_species: Becklespinax altispinax
+type_species_note: Filled from the PBDB species list (Megalosaurus altispinax Paul 1988, moved to Becklespinax by
+  Olshevsky 1991).
+summary: Large theropod from the Early Cretaceous Wadhurst Clay of southern England, known from a few tall-spined
+  vertebrae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 139.1
+  last_ma: 132.6
+  early_interval: Berriasian
+  late_interval: Valanginian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Becklespinax altispinax
+  authority: (Paul 1988)
+  first_ma: 139.1
+  last_ma: 132.6
+  interval: Berriasian–Valanginian
+  reference: original description
+formations:
+- formation: Hastings Beds
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Berriasian–Valanginian
+  occurrences: 1
+  ma: [132.6, 139.1]
+  id: hastings-beds-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Becklespinax.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Becklespinax.jpg/960px-Becklespinax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Becklespinax.jpg
+  artist: Joseph Dinkel
+  license: Public domain
+  license_url: ''
+  date: 1850s date
+  caption: Becklespinax vertebrae.
+  width: 2430
+  height: 4379
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/vector.svg
+  png: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/raster/512x251.png
+  page: https://www.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f
+  attribution: Jordan Mallon (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Monolophosaurus jiangi
+  matched: Tetanurae
+  genus_level: false
+sources:
+- kind: original
+  text: G. Olshevsky. 1991. A revision of the parainfraclass Archosauria Cope, 1869, excluding the advanced Crocodylia.
+    Mesozoic Meanderings 2:1-196
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Becklespinax (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Becklespinax
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The harvested Wikipedia page is Altispinax, a different genus; draft the text from the Altispinax article and
+    Olshevsky 1991 once checked.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

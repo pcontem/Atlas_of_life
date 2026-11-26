@@ -5,17 +5,35 @@ group: Tegama
 country: Niger
 regions: [Agadez]
 location:
-  lat: 16.467
-  lng: 9.167
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  lat: 16.447
+  lng: 9.133
+  basis: median of 19 PBDB collections that yielded the atlas genera
 age:
   first_ma: 121.4
   last_ma: 100.5
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet.]
+environment: [terrestrial indet., '"channel"', fluvial indet.]
 lithology: [not reported, sandstone, '"siliciclastic"']
-pbdb_collections: ['28569', '37200', '59640', '77189', '92629', '92630', '114110', '118039', '182953', '228823',
-  '228824']
+pbdb_collections:
+- '25194'
+- '25195'
+- '25197'
+- '28569'
+- '37200'
+- '59640'
+- '60029'
+- '77189'
+- '81086'
+- '81087'
+- '92629'
+- '92630'
+- '114110'
+- '118039'
+- '133668'
+- '182953'
+- '203180'
+- '228823'
+- '228824'
 includes: []
 summary: ''
 paleoenvironment: ''

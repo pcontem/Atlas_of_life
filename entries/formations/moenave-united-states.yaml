@@ -3,18 +3,18 @@ name: Moenave
 rank: formation
 group: Glen Canyon
 country: United States
-regions: [Arizona]
+regions: [Arizona, Utah]
 location:
-  lat: 35.892
-  lng: -111.183
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: 36.0
+  lng: -111.25
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 205.7
   last_ma: 199.5
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: [sandstone, not reported]
-pbdb_collections: ['46392', '137231', '137291', '137295']
+environment: [terrestrial indet., lacustrine indet.]
+lithology: [not reported, sandstone]
+pbdb_collections: ['46392', '137231', '137291', '137295', '157016']
 includes: []
 summary: ''
 paleoenvironment: ''

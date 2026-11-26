@@ -1,0 +1,98 @@
+name: Irritator
+rank: genus
+parent: spinosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Martill et al. 1996
+type_species: Irritator challengeri
+type_species_note: ''
+summary: Spinosaurid from the Albian Romualdo Formation of Brazil, known from a nearly complete skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Irritator challengeri
+  authority: Martill et al. 1996
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Romualdo
+  group: Santana
+  members: []
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: romualdo-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Irritator Life Reconstruction.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/70/Irritator_Life_Reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Irritator_Life_Reconstruction.jpg
+  artist: Fred Wierum
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2016-01-06'
+  caption: Life restoration of Irritator challengeri.
+  width: 1477
+  height: 798
+  review: unreviewed
+- kind: fossil
+  file: Holotype of Irritator challengeri.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Holotype_of_Irritator_challengeri.PNG/960px-Holotype_of_Irritator_challengeri.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Holotype_of_Irritator_challengeri.PNG
+  artist: Marcos A. F. Sales, Cesar L. Schultz
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2017'
+  caption: Holotype skull of Irritator challengeri.
+  width: 2510
+  height: 2683
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/27a5d428-6513-481a-96d3-b895228eb04b/vector.svg
+  png: https://images.phylopic.org/images/27a5d428-6513-481a-96d3-b895228eb04b/raster/512x166.png
+  page: https://www.phylopic.org/images/27a5d428-6513-481a-96d3-b895228eb04b
+  attribution: Connor Ashbridge
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Irritator challengeri
+  matched: Irritator
+  genus_level: true
+sources:
+- kind: original
+  text: 'Martill, D.M.; Cruickshank, A.R.I.; Frey, E.; Small, P.G.; Clarke, M. 1996. A new crested maniraptoran
+    dinosaur from the Santana Formation (Lower Cretaceous) of Brazil. Journal of the Geological Society 153(1):
+    5–8. doi:10.1144/gsjgs.153.1.0005'
+- kind: literature
+  text: 'Sues, H.D.; Frey, E.; Martill, D.M.; Scott, D.M. 2002. ''''Irritator challengeri'''', a spinosaurid (Dinosauria:
+    Theropoda) from the Lower Cretaceous of Brazil. Journal of Vertebrate Paleontology 22(3): 535–547. doi:10.1671/0272-4634(2002)022[0535:ICASDT]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Irritator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Irritator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Irritator”. English Wikipedia, revision 1381995298.
+  url: https://en.wikipedia.org/w/index.php?title=Irritator&oldid=1381995298
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

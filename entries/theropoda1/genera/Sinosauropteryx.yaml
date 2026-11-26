@@ -1,0 +1,100 @@
+name: Sinosauropteryx
+rank: genus
+parent: compsognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Ji and Ji 1996
+type_species: Sinosauropteryx prima
+type_species_note: ''
+summary: Coelurosaur from the Yixian Formation of China, described in 1996 as the first non-avialan dinosaur taxon
+  of its kind.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Sinosauropteryx lingyuanensis
+  authority: Qiu et al. 2025
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: ''
+- name: Sinosauropteryx prima
+  authority: (Ji and Ji 1996)
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dawangzhangzi, Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 4
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Sinosauropteryx color (without scale bar).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Sinosauropteryx_color_%28without_scale_bar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sinosauropteryx_color_(without_scale_bar).jpg
+  artist: Fiann M. Smithwick, Robert Nicholls, Innes C. Cuthill, Jakob Vinther
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-05-09'
+  caption: Life restoration of Sinosauropteryx.
+  width: 1345
+  height: 380
+  review: unreviewed
+- kind: fossil
+  file: ISinosauropteryx-Geological Museum of China.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/74/ISinosauropteryx-Geological_Museum_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:ISinosauropteryx-Geological_Museum_of_China.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-08'
+  caption: Specimen of Sinosauropteryx.
+  width: 1406
+  height: 2592
+  review: unreviewed
+sources:
+- kind: original
+  text: 'Ji, Q.; Ji, S. 1996. On the discovery of the earliest bird fossil in China (''''Sinosauropteryx'''' gen.
+    nov.) and the origin of birds. Chinese Geology 10(233): 30–33.'
+- kind: literature
+  text: 'Ji, S. 2007. New material of ''''Sinosauropteryx'''' (Theropoda: Compsognathidae) from western Liaoning,
+    China. Acta Geologica Sinica (English Edition) 81(2): 177–182. doi:10.1111/j.1755-6724.2007.tb00942.x'
+- kind: literature
+  text: 'Zhang, F. 2010. Fossilized melanosomes and the colour of Cretaceous dinosaurs and birds. Nature 463(7284):
+    1075–1078. doi:10.1038/nature08740'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinosauropteryx (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinosauropteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinosauropteryx”. English Wikipedia, revision 1378640797.
+  url: https://en.wikipedia.org/w/index.php?title=Sinosauropteryx&oldid=1378640797
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The 'first outside Avialae' wording is taken from the lead of Wikipedia rev 1378640797; check the exact claim
+    before checking the entry.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

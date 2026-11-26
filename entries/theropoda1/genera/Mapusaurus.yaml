@@ -1,0 +1,100 @@
+name: Mapusaurus
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Coria and Currie 2006
+type_species: Mapusaurus roseae
+type_species_note: ''
+summary: Giant carcharodontosaurid from the Albian of Argentina, known from a bonebed of seven to nine individuals.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mapusaurus roseae
+  authority: Coria and Currie 2006
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Huincul
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: huincul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Mapusaurus Roseae restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mapusaurus_Roseae_restoration.png/960px-Mapusaurus_Roseae_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mapusaurus_Roseae_restoration.png
+  artist: KoprX
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-04-26'
+  caption: Life restoration of Mapusaurus roseae.
+  width: 2186
+  height: 930
+  review: unreviewed
+- kind: fossil
+  file: Mapusaurus bones.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/98/Mapusaurus_bones.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mapusaurus_bones.png
+  artist: Bell PR, Coria RA
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Mapusaurus bones.
+  width: 600
+  height: 407
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9b13bff4-0bdc-4038-8375-d7444f640d5b/vector.svg
+  png: https://images.phylopic.org/images/9b13bff4-0bdc-4038-8375-d7444f640d5b/raster/512x361.png
+  page: https://www.phylopic.org/images/9b13bff4-0bdc-4038-8375-d7444f640d5b
+  attribution: JFstudios
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Mapusaurus roseae
+  matched: Mapusaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Coria, R. A.; Currie, P. J. 2006. A new carcharodontosaurid (Dinosauria, Theropoda) from the Upper Cretaceous
+    of Argentina. Geodiversitas 28(1): 71–118.'
+- kind: literature
+  text: 'Eberth, David; Currie, Philip; Coria, Rodolfo; Garrido, Alberto; Zonneveld, John-Paul 2000. Large-theropod
+    bonebed, Neuquén, Argentina: Paleoecological importance. Journal of Vertebrate Paleontology 20(3): 39A.'
+- kind: literature
+  text: 'Eberth, David; McCrea, Richard 2001. Were large theropods gregarious?. Journal of Vertebrate Paleontology
+    21(3): 46A–47A.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mapusaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mapusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mapusaurus”. English Wikipedia, revision 1387417651.
+  url: https://en.wikipedia.org/w/index.php?title=Mapusaurus&oldid=1387417651
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

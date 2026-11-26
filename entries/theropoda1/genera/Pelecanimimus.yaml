@@ -1,0 +1,95 @@
+name: Pelecanimimus
+rank: genus
+parent: ornithomimosauria
+incertae_sedis: false
+placement_note: ''
+authority: Pérez-Moreno et al. 1994
+type_species: Pelecanimimus polyodon
+type_species_note: ''
+summary: Basal ornithomimosaur from the Early Cretaceous of Spain, notable for having many teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pelecanimimus polyodon
+  authority: Pérez-Moreno et al. 1994
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Pelecanimimus 047.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/4/46/Pelecanimimus_047.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pelecanimimus_047.JPG
+  artist: Conty
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Life restoration of Pelecanimimus polyodon.
+  width: 1072
+  height: 596
+  review: unreviewed
+- kind: skeletal
+  file: Pelecanimimus (update).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Pelecanimimus_%28update%29.png/960px-Pelecanimimus_%28update%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pelecanimimus_(update).png
+  artist: Conty
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-01-27'
+  caption: Skeletal reconstruction of Pelecanimimus polyodon.
+  width: 2223
+  height: 1322
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6f7fa44f-3566-461c-a041-fff14ba0b0b4/vector.svg
+  png: https://images.phylopic.org/images/6f7fa44f-3566-461c-a041-fff14ba0b0b4/raster/512x268.png
+  page: https://www.phylopic.org/images/6f7fa44f-3566-461c-a041-fff14ba0b0b4
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Pelecanimimus polyodon
+  matched: Ornithomimosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Pérez-Moreno, B. P.; Sanz, J. L.; Buscalioni, A. D.; Moratalla, J. J.; Ortega, F.; Rasskin-Gutman, D. 1994.
+    A unique multitoothed ornithomimosaur dinosaur from the Lower Cretaceous of Spain. Nature 370(6488): 363−367.
+    doi:10.1038/370363a0'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pelecanimimus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pelecanimimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pelecanimimus”. English Wikipedia, revision 1370338219.
+  url: https://en.wikipedia.org/w/index.php?title=Pelecanimimus&oldid=1370338219
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,122 @@
+name: Coelurus
+rank: genus
+parent: coelurosauria
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1879
+type_species: Coelurus fragilis
+type_species_note: ''
+summary: Late Jurassic coelurosaur from the Morrison Formation, named by Marsh in 1879 for its hollow tail bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 157.9
+  last_ma: 113.2
+  early_interval: Oxfordian
+  late_interval: Aptian
+  pbdb_occurrences: 14
+  note: PBDB gives an empty interval name for its oldest occurrence; the first age (157.9 Ma) lies inside the Oxfordian,
+    so the interval name was set by hand.
+species:
+- name: Coelurus agilis
+  authority: (Marsh 1884)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Coelurus fragilis
+  authority: Marsh 1879
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+- name: Coelurus longicollis
+  authority: (Cope 1887)
+  first_ma: 227.3
+  last_ma: 201.4
+  interval: Norian–Rhaetian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Indian Fort, Lake Como, Talking Rocks]
+  country: United States
+  regions: [Colorado, Utah, Wyoming]
+  interval: Late Oxfordian–Tithonian
+  occurrences: 12
+  ma: [143.1, 157.9]
+  id: morrison-united-states
+- formation: Arundel Clay
+  group: Potomac
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Late Aptian
+  occurrences: 2
+  ma: [113.2, 119.57]
+  id: arundel-clay-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Coelurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/50/Coelurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Coelurus_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-05-11'
+  caption: Life restoration of Coelurus fragilis.
+  width: 800
+  height: 347
+  review: unreviewed
+- kind: skeletal
+  file: Coelurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Coelurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Coelurus.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2005'
+  caption: Skeletal reconstruction of Coelurus.
+  width: 1200
+  height: 356
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d/vector.svg
+  png: https://images.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d/raster/512x176.png
+  page: https://www.phylopic.org/images/d3ae8c0d-107d-45de-992e-177c551e079d
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelurus agilis
+  matched: Coelurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Marsh, Othniel Charles 1879. Notice of new Jurassic reptiles. American Journal of Science 18(108): 501–505.
+    doi:10.2475/ajs.s3-18.108.501'
+- kind: literature
+  text: 'Marsh, Othniel Charles 1881. A new order of extinct Jurassic reptiles. American Journal of Science 21(124):
+    339–341. doi:10.2475/ajs.s3-21.124.339'
+- kind: literature
+  text: 'Marsh, Othniel Charles 1884. Principal characters of American Jurassic dinosaurs, Part 8: The Order Theropoda.
+    American Journal of Science 27(160): 29–40. doi:10.2475/ajs.s3-27.160.329'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coelurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coelurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coelurus”. English Wikipedia, revision 1383341007.
+  url: https://en.wikipedia.org/w/index.php?title=Coelurus&oldid=1383341007
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

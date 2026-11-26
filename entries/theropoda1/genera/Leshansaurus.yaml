@@ -1,0 +1,75 @@
+name: Leshansaurus
+rank: genus
+parent: megalosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Li et al. 2009
+type_species: Leshansaurus qianweiensis
+type_species_note: ''
+summary: Theropod from the Shaximiao Formation of China, described in 2009 by a team of Chinese palaeontologists.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 161.5
+  early_interval: Bathonian
+  late_interval: Callovian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Leshansaurus qianweiensis
+  authority: Li et al. 2009
+  first_ma: 168.2
+  last_ma: 161.5
+  interval: Bathonian–Callovian
+  reference: original description
+formations:
+- formation: Shaximiao
+  group: Chongqing
+  members: [Upper]
+  country: China
+  regions: [Sichuan]
+  interval: Bathonian–Callovian
+  occurrences: 1
+  ma: [161.5, 168.2]
+  id: shaximiao-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Leshansaurus reconstructed skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/18/Leshansaurus_reconstructed_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Leshansaurus_reconstructed_skull.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-12-24'
+  caption: Reconstructed skull of Leshansaurus.
+  width: 803
+  height: 454
+  review: unreviewed
+sources:
+- kind: original
+  text: F. Li, G. Peng, and Y. Yong, S. Jiang, D. Huang. 2009. A new carnosaur from the Late Jurassic of Qianwei,
+    Sichuan, China. Acta Geologica Sinica 83(9):1203-1210
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Leshansaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Leshansaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Leshansaurus”. English Wikipedia, revision 1330409884.
+  url: https://en.wikipedia.org/w/index.php?title=Leshansaurus&oldid=1330409884
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB dates the genus Bathonian–Callovian while the Wikipedia lead calls the Shaximiao Formation Late Jurassic;
+    check against Li et al. 2009.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

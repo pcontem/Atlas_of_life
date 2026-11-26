@@ -1,0 +1,127 @@
+name: Erectopus
+rank: genus
+parent: allosauroidea
+incertae_sedis: true
+placement_note: PBDB places it in Metriacanthosauridae while Wikipedia calls it a basal allosauroid; the family-level
+  assignment is not settled.
+authority: Huene 1923
+type_species: Erectopus superbus
+type_species_note: Filled from the PBDB species list (Megalosaurus superbus Sauvage 1882, moved to Erectopus by
+  Huene 1923); check against the original.
+summary: Basal allosauroid of the Lower Cretaceous of France, possibly also found in southern Romania.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 93.9
+  early_interval: Barremian
+  late_interval: Cenomanian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Erectopus sauvagei
+  authority: Huene 1932
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: ''
+- name: Erectopus superbus
+  authority: (Sauvage 1882)
+  first_ma: 125.77
+  last_ma: 100.5
+  interval: Barremian–Albian
+  reference: original description
+formations:
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Al Jizah, Matruh]
+  interval: Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne, Nord-Pas-de-Calais]
+  interval: Early Albian–Albian
+  occurrences: 3
+  ma: [100.5, 113.2]
+  id:
+  - unnamed-bar-le-duc-france
+  - unnamed-blacourt-boulogne-sur-mer-france
+  - unnamed-grandpre-ardennes-france
+- formation: La Penthiève Beds
+  group: ''
+  members: []
+  country: France
+  regions: [Lorraine]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: la-penthieve-beds-france
+- formation: Papo Seco
+  group: ''
+  members: []
+  country: Portugal
+  regions: []
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: papo-seco-portugal
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Erectopus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Erectopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Erectopus.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-12-14'
+  caption: Life restoration of Erectopus.
+  width: 311
+  height: 770
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98/vector.svg
+  png: https://images.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98/raster/512x152.png
+  page: https://www.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Allosaurus fragilis
+  matched: Erectopus
+  genus_level: true
+sources:
+- kind: original
+  text: F. v. Huene. 1923. Carnivorous Saurischia in Europe since the Triassic. Bulletin of the Geological Society
+    of America 34:449-458
+- kind: literature
+  text: 'Csiki-Sava, Zoltán; Brusatte, Stephen L.; Vasile, Ştefan 2016. "Megalosaurus cf. superbus" from southeastern
+    Romania: The oldest known Cretaceous carcharodontosaurid (Dinosauria: Theropoda) and its implications for earliest
+    Cretaceous Europe-Gondwana connections. Cretaceous Research 60: 221–238. doi:10.1016/j.cretres.2015.12.004'
+- kind: literature
+  text: 'Carrano, Matthew T.; Benson, Roger B. J.; Sampson, Scott D. 2012. The phylogeny of Tetanurae (Dinosauria:
+    Theropoda). Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Erectopus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Erectopus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Erectopus”. English Wikipedia, revision 1367632662.
+  url: https://en.wikipedia.org/w/index.php?title=Erectopus&oldid=1367632662
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,81 @@
+name: Pendraig
+rank: genus
+parent: coelophysoidea
+incertae_sedis: false
+placement_note: ''
+authority: Spiekman et al. 2021
+type_species: Pendraig milnerae
+type_species_note: ''
+summary: Small Late Triassic coelophysoid from South Wales, about 1 m long.
+size:
+  length_m: [1, 1]
+  note: Estimated at 1 m in Wikipedia revision 1333594241.
+age:
+  first_ma: 237
+  last_ma: 227.3
+  early_interval: Carnian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pendraig milnerae
+  authority: Spiekman et al. 2021
+  first_ma: 237
+  last_ma: 227.3
+  interval: Carnian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Wales]
+  interval: Carnian
+  occurrences: 1
+  ma: [227.3, 237.0]
+  id: unnamed-pant-y-ffynnon-quarry-bonvilston-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used (found in 1952 in the Pant-y-Ffynnon quarry).
+  material: Material found in 1952 by Kermack and colleagues.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Pendraig milnerae skeleton.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pendraig_milnerae_skeleton.png/960px-Pendraig_milnerae_skeleton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pendraig_milnerae_skeleton.png
+  artist: Maurissauro
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2021-10-06'
+  caption: Skeletal reconstruction of Pendraig milnerae.
+  width: 5977
+  height: 1983
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/vector.svg
+  png: https://images.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072/raster/512x97.png
+  page: https://www.phylopic.org/images/08c1a92c-4c36-43fe-b524-fc23d2cf8072
+  attribution: FunkMonk [Michael B.H.] (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Zupaysaurus rougieri
+  matched: Coelophysoidea
+  genus_level: false
+sources:
+- kind: original
+  text: Spiekman SN, Ezcurra MD, Butler RJ, Fraser NC, Maidment SC 2021. ''Pendraig milnerae'', a new small-sized
+    coelophysoid theropod from the Late Triassic of Wales. Royal Society Open Science 8(10). doi:10.1098/rsos.210915
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pendraig (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pendraig
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pendraig”. English Wikipedia, revision 1333594241.
+  url: https://en.wikipedia.org/w/index.php?title=Pendraig&oldid=1333594241
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Formation listed as an unnamed unit by PBDB.]
+  reviews: []

@@ -1,0 +1,81 @@
+name: Genusaurus
+rank: genus
+parent: brachyrostra
+incertae_sedis: true
+placement_note: PBDB places it in Majungasaurini; the position of this French Early Cretaceous abelisaurid within
+  Abelisauridae varies between studies.
+authority: Accarie et al. 1995
+type_species: Genusaurus sisteronis
+type_species_note: ''
+summary: Albian abelisaurid from France whose name means knee lizard.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 110.1
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Genusaurus sisteronis
+  authority: Accarie et al. 1995
+  first_ma: 110.1
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Marnes bleues
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte-d'Azur]
+  interval: Middle Albian
+  occurrences: 1
+  ma: [106.3, 110.1]
+  id: marnes-bleues-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: H. Accarie, B. Beaudoin, and J. Dejax, G. Friès, J.-G. Michard, P. Taquet. 1995. Découverte d'un Dinosaure
+    théropode nouveau (Genusaurus sisteronis n. g., n. sp.) dans l'Albien marin de Sisteron (Alpes de Haute-Provence,
+    France) et extension au Crétacé inférieur de la lignée cératosaurienne [Discovery of a new theropod dinosaur
+    (Genusaurus sisteronis n. g., n. sp.) in the marine Albian of Sisteron (Alpes de Haute-Provence, France) and
+    extension of the ceratosaur lineage into the Lower Cretaceous]. Comptes Rendus de l'Académie des Sciences à
+    Paris, série IIa 320:327-344
+- kind: literature
+  text: 'Carrano, Matthew T.; Sampson, Scott D. 2007. The Phylogeny of Ceratosauria (Dinosauria: Theropoda). Journal
+    of Systematic Palaeontology 6(2): 183–236. doi:10.1017/S1477201907002246'
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Genusaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Genusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Genusaurus”. English Wikipedia, revision 1376782940.
+  url: https://en.wikipedia.org/w/index.php?title=Genusaurus&oldid=1376782940
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

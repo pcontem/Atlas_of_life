@@ -1,0 +1,113 @@
+name: Labocania
+rank: genus
+parent: tyrannosauridae
+incertae_sedis: true
+placement_note: Wikipedia calls it a genus of disputed affinities, first regarded as an indeterminate theropod;
+  PBDB places it in Tyrannosauridae.
+authority: Molnar 1974
+type_species: Labocania anomala
+type_species_note: ''
+summary: Theropod of disputed affinities from the Late Cretaceous of Mexico.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Labocania aguillonae
+  authority: Rivera-Sylva and Longrich 2024
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Labocania anomala
+  authority: Molnar 1974
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: La Bocana Roja
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Baja California]
+  interval: Santonian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: la-bocana-roja-mexico
+- formation: Cerro del Pueblo
+  group: Difunta
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: cerro-del-pueblo-mexico
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Labocania aguillonae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Labocania_aguillonae.png/960px-Labocania_aguillonae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Labocania_aguillonae.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-12-21'
+  caption: Life restoration of Labocania aguillonae.
+  width: 4000
+  height: 1525
+  review: unreviewed
+- kind: fossil
+  file: Labocania anomala 2.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Labocania_anomala_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Labocania_anomala_2.jpg
+  artist: Alexis Uriostegui Acosta
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-02-06'
+  caption: Fossils of Labocania anomala.
+  width: 1080
+  height: 1080
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d7da9be9-fad6-4683-bf5e-bf7c951ee92c/vector.svg
+  png: https://images.phylopic.org/images/d7da9be9-fad6-4683-bf5e-bf7c951ee92c/raster/512x206.png
+  page: https://www.phylopic.org/images/d7da9be9-fad6-4683-bf5e-bf7c951ee92c
+  attribution: Craig Dylke
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Albertosaurus libratus
+  matched: Tyrannosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Molnar, R. E. 1974. A distinctive theropod dinosaur from the Upper Cretaceous of Baja California (Mexico).
+    Journal of Paleontology 48(5): 1009–1017.'
+- kind: literature
+  text: 'Rivera-Sylva, Héctor E.; Longrich, Nicholas R. 2024. A New Tyrant Dinosaur from the Late Campanian of Mexico
+    Reveals a Tribe of Southern Tyrannosaurs. Fossil Studies 2(4): 245–272. doi:10.3390/fossils2040012'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Labocania (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Labocania
+- kind: encyclopedia
+  text: Wikipedia contributors. “Labocania”. English Wikipedia, revision 1324622382.
+  url: https://en.wikipedia.org/w/index.php?title=Labocania&oldid=1324622382
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

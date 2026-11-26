@@ -1,0 +1,100 @@
+name: Qiupalong
+rank: genus
+parent: ornithomimidae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2011
+type_species: Qiupalong henanensis
+type_species_note: ''
+summary: Ornithomimosaurian from the Qiupa Formation of Henan, China, with North American relatives.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Qiupalong henanensis
+  authority: Xu et al. 2011
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Qiupa
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: qiupa-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Qiupalong Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Qiupalong_Restoration.png/960px-Qiupalong_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qiupalong_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-05-15'
+  caption: Restoration of Qiupalong henanensis.
+  width: 5177
+  height: 2829
+  review: unreviewed
+- kind: fossil
+  file: Qiupalong holotype Henan Geological Museum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Qiupalong_holotype_Henan_Geological_Museum.jpg/960px-Qiupalong_holotype_Henan_Geological_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qiupalong_holotype_Henan_Geological_Museum.jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2015-07-10'
+  caption: Holotype of Qiupalong henanensis.
+  width: 5184
+  height: 3456
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/vector.svg
+  png: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/raster/512x209.png
+  page: https://www.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Gallimimus bullatus
+  matched: Ornithomimidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Li Xu 2011. A new ornithomimid dinosaur with North American affinities from the Late Cretaceous Qiupa Formation
+    in Henan Province of China. Cretaceous Research 32(2): 213–222. doi:10.1016/j.cretres.2010.12.004'
+- kind: literature
+  text: 'McFeeters, B.; Ryan, M.J.; Schröder-Adams, C.; Currie, P.J. 2017. First North American occurrences of ''''Qiupalong''''
+    (Theropoda: Ornithomimidae) and the palaeobiogeography of derived ornithomimids. FACETS 2(1): 355–373. doi:10.1139/facets-2016-0074'
+- kind: literature
+  text: Averianov, Alexander; Skutschas, Pavel; Bolotsky, Yuriy; Bolotsky, Ivan 2023. First find of an ornithomimid
+    theropod dinosaur in the Upper Cretaceous of the Russian Far East. Biological Communications 68(4). doi:10.21638/spbu03.2023.405
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Qiupalong (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Qiupalong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Qiupalong”. English Wikipedia, revision 1354867204.
+  url: https://en.wikipedia.org/w/index.php?title=Qiupalong&oldid=1354867204
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

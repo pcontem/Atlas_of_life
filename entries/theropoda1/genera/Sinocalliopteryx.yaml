@@ -1,0 +1,106 @@
+name: Sinocalliopteryx
+rank: genus
+parent: compsognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Ji et al. 2007
+type_species: Sinocalliopteryx gigas
+type_species_note: ''
+summary: Carnivorous coelurosaur from the Lower Cretaceous Yixian Formation of China, with gut contents preserved.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sinocalliopteryx gigas
+  authority: Ji et al. 2007
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Holotype of Sinocalliopteryx gigas.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Holotype_of_Sinocalliopteryx_gigas.png/960px-Holotype_of_Sinocalliopteryx_gigas.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Holotype_of_Sinocalliopteryx_gigas.png
+  artist: Lida Xing, Phil R. Bell, W. Scott Persons IV, Shuan Ji, Tetsuto Miyashita, Michael E. Burns, Qiang Ji,
+    Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012-08-29'
+  caption: Holotype of Sinocalliopteryx gigas.
+  width: 2654
+  height: 2763
+  review: unreviewed
+- kind: life
+  file: Sinocalliopteryx gigas as a stealth hunter feeding on the dromaeosaur Sinornithosaurus (left) and the primitive
+    bird Confuciusornis (right) - journal.pone.0044012.g008.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Sinocalliopteryx_gigas_as_a_stealth_hunter_feeding_on_the_dromaeosaur_Sinornithosaurus_%28left%29_and_the_primitive_bird_Confuciusornis_%28right%29_-_journal.pone.0044012.g008.png/960px-thumbnail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinocalliopteryx_gigas_as_a_stealth_hunter_feeding_on_the_dromaeosaur_Sinornithosaurus_(left)_and_the_primitive_bird_Confuciusornis_(right)_-_journal.pone.0044012.g008.png
+  artist: Xing L, Bell PR, Persons WS IV, Ji S, Miyashita T, et al. (2012)
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012-08-29'
+  caption: Life restoration of Sinocalliopteryx gigas.
+  width: 2363
+  height: 1356
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/vector.svg
+  png: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/raster/969x1014.png
+  page: https://www.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinosauropteryx prima
+  matched: Compsognathidae
+  genus_level: false
+sources:
+- kind: original
+  text: S. Ji, Q. Ji, and J. Lü, C. Yuan. 2007. A new giant compsognathid dinosaur with long filamentous integuments
+    from Lower Cretaceous of northeastern China. Acta Geologica Sinica 81(1):8-15
+- kind: literature
+  text: 'Cau, Andrea 2024. A Unified Framework for Predatory Dinosaur Macroevolution. Bollettino della Società Paleontologica
+    Italiana 63(1): 1–19. doi:10.4435/BSPI.2024.08'
+- kind: literature
+  text: Qiu, Rui; Wang, Xiaolin; Jiang, Shunxing; Meng, Jin; Zhou, Zhonghe 2025. Two new compsognathid-like theropods
+    show diversified predation strategies in theropod dinosaurs. National Science Review 12(5). doi:10.1093/nsr/nwaf068
+- kind: literature
+  text: 'Brusatte, Stephen L.; Lloyd, Graeme T.; Wang, Steve C.; Norell, Mark A. 2014. Gradual Assembly of Avian
+    Body Plan Culminated in Rapid Rates of Evolution across the Dinosaur-Bird Transition. Current Biology 24(20):
+    2386–2392. doi:10.1016/j.cub.2014.08.034'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinocalliopteryx (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinocalliopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinocalliopteryx”. English Wikipedia, revision 1379877284.
+  url: https://en.wikipedia.org/w/index.php?title=Sinocalliopteryx&oldid=1379877284
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,101 @@
+name: Proceratosaurus
+rank: genus
+parent: proceratosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1926
+type_species: Proceratosaurus bradleyi
+type_species_note: PBDB lists Proceratosaurus bradleyi (Woodward 1910), originally described as Megalosaurus bradleyi.
+summary: Crested theropod from the Middle Jurassic of England, known from a single skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 165.3
+  early_interval: Bathonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Proceratosaurus bradleyi
+  authority: (Woodward 1910)
+  first_ma: 168.2
+  last_ma: 165.3
+  interval: Bathonian
+  reference: original description
+formations:
+- formation: White Limestone
+  group: Great Oolite
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Bathonian–Late Bathonian
+  occurrences: 1
+  ma: [165.3, 168.2]
+  id: white-limestone-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Proceratosaurus bradleyi life reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Proceratosaurus_bradleyi_life_reconstruction.png/960px-Proceratosaurus_bradleyi_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Proceratosaurus_bradleyi_life_reconstruction.png
+  artist: Gallimimus wikipedista.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-05-11'
+  caption: Life reconstruction of Proceratosaurus bradleyi.
+  width: 1705
+  height: 1233
+  review: unreviewed
+- kind: fossil
+  file: Proceratosaurus bradleyi Skull Reconstruction (alt).png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/94/Proceratosaurus_bradleyi_Skull_Reconstruction_%28alt%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Proceratosaurus_bradleyi_Skull_Reconstruction_(alt).png
+  artist: SirBlameson
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2024-01-03'
+  caption: Skull of Proceratosaurus bradleyi.
+  width: 1500
+  height: 1300
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/df44e440-ac0d-451b-b913-56a913a02faa/vector.svg
+  png: https://images.phylopic.org/images/df44e440-ac0d-451b-b913-56a913a02faa/raster/512x348.png
+  page: https://www.phylopic.org/images/df44e440-ac0d-451b-b913-56a913a02faa
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Proceratosaurus bradleyi
+  matched: Proceratosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Huene, F.F.v. 1926. On several known and unknown reptiles of the order Saurischia from England and France.
+    Annals and Magazine of Natural History 17(101): 473–489. doi:10.1080/00222932608633437'
+- kind: literature
+  text: 'Rauhut, O.W.M.; Milner, A.C.; Moore-Fay, S. 2010. Cranial osteology and phylogenetic position of the theropod
+    dinosaur ''''Proceratosaurus bradleyi'''' (Woodward, 1910) from the Middle Jurassic of England. Zoological Journal
+    of the Linnean Society 158: 155–195. doi:10.1111/j.1096-3642.2009.00591.x'
+- kind: literature
+  text: 'Huene, F.F.v. 1923. Carnivorous Saurischia in Europe since the Triassic. Bulletin of the Geological Society
+    of America 34(3): 449–458. doi:10.1130/GSAB-34-449'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Proceratosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Proceratosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Proceratosaurus”. English Wikipedia, revision 1372425739.
+  url: https://en.wikipedia.org/w/index.php?title=Proceratosaurus&oldid=1372425739
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

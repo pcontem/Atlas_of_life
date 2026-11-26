@@ -1,0 +1,89 @@
+name: Ekrixinatosaurus
+rank: genus
+parent: brachyrostra
+incertae_sedis: false
+placement_note: ''
+authority: Calvo et al. 2004
+type_species: Ekrixinatosaurus novasi
+type_species_note: ''
+summary: Albian abelisaurid from Argentina whose name means explosion-born reptile.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ekrixinatosaurus novasi
+  authority: Calvo et al. 2004
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Candeleros
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: candeleros-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Ekrixinatosaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/4d/Ekrixinatosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ekrixinatosaurus.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '0010-03-10'
+  caption: Restoration of Ekrixinatosaurus.
+  width: 1280
+  height: 894
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/19095cb4-99be-4ffb-a0c2-9249ec26e88f/vector.svg
+  png: https://images.phylopic.org/images/19095cb4-99be-4ffb-a0c2-9249ec26e88f/raster/512x165.png
+  page: https://www.phylopic.org/images/19095cb4-99be-4ffb-a0c2-9249ec26e88f
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Ekrixinatosaurus novasi
+  matched: Ekrixinatosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Jorge Calvo 2004. A new Abelisauridae (Dinosauria: Theropoda) from northwest Patagonia. Ameghiniana 41(4):
+    555–563.'
+- kind: literature
+  text: 'Novas, Fernando E.; Agnolín, Federico L.; Ezcurra, Martín D.; Porfiri, Juan; Canale, Juan I. 2013. Evolution
+    of the carnivorous dinosaurs during the Cretaceous: The evidence from Patagonia. Cretaceous Research 45: 174–215.
+    doi:10.1016/j.cretres.2013.04.001'
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ekrixinatosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ekrixinatosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ekrixinatosaurus”. English Wikipedia, revision 1387599672.
+  url: https://en.wikipedia.org/w/index.php?title=Ekrixinatosaurus&oldid=1387599672
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

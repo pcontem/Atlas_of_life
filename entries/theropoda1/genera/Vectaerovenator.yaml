@@ -1,0 +1,99 @@
+name: Vectaerovenator
+rank: genus
+parent: tetanurae
+incertae_sedis: false
+placement_note: ''
+authority: Barker et al. 2020
+type_species: Vectaerovenator inopinatus
+type_species_note: ''
+summary: Tetanuran theropod from the Early Cretaceous of the Isle of Wight, England, with strongly air-filled vertebrae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Vectaerovenator inopinatus
+  authority: Barker et al. 2020
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Ferruginous Sands
+  group: Lower Greensand
+  members: [New Walpen]
+  country: United Kingdom
+  regions: [England]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: ferruginous-sands-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: VectaerovenatorCameronSpahn.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/VectaerovenatorCameronSpahn.jpg/960px-VectaerovenatorCameronSpahn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:VectaerovenatorCameronSpahn.jpg
+  artist: Cameron Spahn
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-09-04'
+  caption: Life restoration of Vectaerovenator inopinatus.
+  width: 2793
+  height: 1303
+  review: unreviewed
+- kind: fossil
+  file: Vectaerovenator TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Vectaerovenator_TD.png/960px-Vectaerovenator_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vectaerovenator_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-23'
+  caption: Vectaerovenator vertebrae.
+  width: 2600
+  height: 1000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/vector.svg
+  png: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/raster/512x251.png
+  page: https://www.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f
+  attribution: Jordan Mallon (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Monolophosaurus jiangi
+  matched: Tetanurae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Barker, C.T.; Naish, D.; Clarkin, C.E.; Farrell, P.; Hullmann, G.; Lockyer, J.; Schneider, P.; Ward, R.K.C.;
+    Gostling, N.J. 2020. A highly pneumatic middle Cretaceous theropod from the British Lower Greensand. Papers
+    in Palaeontology 6(4): 661–679. doi:10.1002/spp2.1338'
+- kind: literature
+  text: 'Barker, Chris; Naish, Darren; Clarkin, Claire; Hullman, Gabriel; Schneider, Philipp; Gostling, Neil; Farrell,
+    Paul; Ward, Robin; Lockyer, James 2020. Dryad Data -- Data from: A highly pneumatic ''mid Cretaceous'' theropod
+    from the British Lower Greensand. Dryad. doi:10.5061/dryad.8cz8w9gmj'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vectaerovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vectaerovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vectaerovenator”. English Wikipedia, revision 1295207961.
+  url: https://en.wikipedia.org/w/index.php?title=Vectaerovenator&oldid=1295207961
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

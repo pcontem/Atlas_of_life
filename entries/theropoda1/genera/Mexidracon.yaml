@@ -1,0 +1,93 @@
+name: Mexidracon
+rank: genus
+parent: ornithomimidae
+incertae_sedis: false
+placement_note: ''
+authority: Serrano-Brañas et al. 2025
+type_species: Mexidracon longimanus
+type_species_note: ''
+summary: Long-handed ornithomimid from the Cerro del Pueblo Formation of Coahuila, Mexico.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mexidracon longimanus
+  authority: Serrano-Brañas et al. 2025
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Cerro del Pueblo
+  group: Difunta
+  members: []
+  country: Mexico
+  regions: [Coahuila]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: cerro-del-pueblo-mexico
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Mexidracon longimanus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mexidracon_longimanus.png/960px-Mexidracon_longimanus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mexidracon_longimanus.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-28'
+  caption: Life restoration of Mexidracon longimanus.
+  width: 4000
+  height: 2145
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/vector.svg
+  png: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/raster/512x209.png
+  page: https://www.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Gallimimus bullatus
+  matched: Ornithomimidae
+  genus_level: false
+sources:
+- kind: original
+  text: Serrano-Brañas, Claudia Inés; Espinosa-Chávez, Belinda; de León-Dávila, Claudio; Maccracken, S. Augusta;
+    Barrera-Guevara, Daniela; Torres-Rodríguez, Esperanza; Prieto-Márquez, Albert 2025. A long-handed new ornithomimid
+    dinosaur from the Campanian (Upper Cretaceous) Cerro del Pueblo Formation, Coahuila, Mexico. Cretaceous Research
+    169. doi:10.1016/j.cretres.2025.106087
+- kind: literature
+  text: Serrano-Brañas, Claudia Inés; Espinosa-Chávez, Belinda; Maccracken, S. Augusta; Gutiérrez-Blando, Cirene;
+    de León-Dávila, Claudio; Ventura, José Flores 2020. ''Paraxenisaurus normalensis'', a large deinocheirid ornithomimosaur
+    from the Cerro del Pueblo Formation (Upper Cretaceous), Coahuila, Mexico. Journal of South American Earth Sciences
+    101. doi:10.1016/j.jsames.2020.102610
+- kind: literature
+  text: 'Lee, Y.N.; Barsbold, R.; Currie, P.J.; Kobayashi, Y.; Lee, H.J.; Godefroit, P.; Escuillié, F.O.; Chinzorig,
+    T. 2014. Resolving the long-standing enigmas of a giant ornithomimosaur ''''Deinocheirus mirificus''''. Nature
+    515(7526): 257–260. doi:10.1038/nature13874'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mexidracon (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mexidracon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mexidracon”. English Wikipedia, revision 1333081156.
+  url: https://en.wikipedia.org/w/index.php?title=Mexidracon&oldid=1333081156
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,97 @@
+name: Condorraptor
+rank: genus
+parent: piatnitzkysauridae
+incertae_sedis: false
+placement_note: ''
+authority: Rauhut 2005
+type_species: Condorraptor currumili
+type_species_note: ''
+summary: Megalosauroid theropod from the Middle Jurassic of Patagonia, named for Cerro Condor.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 180.4
+  last_ma: 168.6
+  early_interval: Toarcian
+  late_interval: Bajocian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Condorraptor currumili
+  authority: Rauhut 2005
+  first_ma: 180.4
+  last_ma: 168.6
+  interval: Toarcian–Bajocian
+  reference: original description
+formations:
+- formation: Cañadón Asfalto
+  group: Sierra de Olte
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Toarcian–Early Bajocian
+  occurrences: 1
+  ma: [168.6, 180.4]
+  id: canadon-asfalto-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Condorraptor Currumili Skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Condorraptor_Currumili_Skeleton.jpg/960px-Condorraptor_Currumili_Skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Condorraptor_Currumili_Skeleton.jpg
+  artist: ScribblingGeek
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-10-11'
+  caption: Skeleton of Condorraptor currumili.
+  width: 6048
+  height: 4032
+  review: unreviewed
+- kind: life
+  file: Condorraptor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1a/Condorraptor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Condorraptor.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011'
+  caption: Life restoration of Condorraptor.
+  width: 1500
+  height: 1184
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/vector.svg
+  png: https://images.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8/raster/512x171.png
+  page: https://www.phylopic.org/images/872eccf3-1624-4286-a101-0675954094f8
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Marshosaurus bicentesimus
+  matched: Piatnitzkysauridae
+  genus_level: false
+sources:
+- kind: original
+  text: O. W. M. Rauhut. 2005. Osteology and relationships of a new theropod dinosaur from the Middle Jurassic of
+    Patagonia. Palaeontology 48(1):87-110
+- kind: literature
+  text: 'Carrano, Matthew T.; Benson, Roger B. J.; Sampson, Scott D. 2012. The phylogeny of Tetanurae (Dinosauria:
+    Theropoda). Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Condorraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Condorraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Condorraptor”. English Wikipedia, revision 1387595964.
+  url: https://en.wikipedia.org/w/index.php?title=Condorraptor&oldid=1387595964
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

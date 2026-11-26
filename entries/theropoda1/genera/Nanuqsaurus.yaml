@@ -1,0 +1,99 @@
+name: Nanuqsaurus
+rank: genus
+parent: tyrannosaurinae
+incertae_sedis: false
+placement_note: ''
+authority: Fiorillo and Tykoski 2014
+type_species: Nanuqsaurus hoglundi
+type_species_note: ''
+summary: Tyrannosaurine from the latest Campanian Prince Creek Formation of northern Alaska, whose name means polar
+  bear lizard.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nanuqsaurus hoglundi
+  authority: Fiorillo and Tykoski 2014
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Prince Creek
+  group: Colville
+  members: [Kogosukruk Tongue]
+  country: United States
+  regions: [Alaska]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: prince-creek-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Life reconstruction of Nanuqsaurus hoglundi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Life_reconstruction_of_Nanuqsaurus_hoglundi.png/960px-Life_reconstruction_of_Nanuqsaurus_hoglundi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Nanuqsaurus_hoglundi.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-11'
+  caption: Life reconstruction of Nanuqsaurus hoglundi.
+  width: 4000
+  height: 1323
+  review: unreviewed
+- kind: fossil
+  file: Nanuqsaurus dentary.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Nanuqsaurus_dentary.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nanuqsaurus_dentary.png
+  artist: Anthony R. Fiorillo, Ronald S. Tykoski
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Dental material of Nanuqsaurus.
+  width: 966
+  height: 559
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f3c74352-543f-4d28-ba4a-de5bfa338ce9/vector.svg
+  png: https://images.phylopic.org/images/f3c74352-543f-4d28-ba4a-de5bfa338ce9/raster/512x151.png
+  page: https://www.phylopic.org/images/f3c74352-543f-4d28-ba4a-de5bfa338ce9
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Nanuqsaurus hoglundi
+  matched: Nanuqsaurus
+  genus_level: true
+sources:
+- kind: original
+  text: Fiorillo, A. R.; Tykoski, R. S. 2014. A Diminutive New Tyrannosaur from the Top of the World. PLoS ONE 9(3).
+    doi:10.1371/journal.pone.0091287
+- kind: literature
+  text: Fiorillo, Anthony R.; Gangloff, Roland A. 2010. Theropod teeth from the Prince Creek Formation (Cretaceous)
+    of northern Alaska, with speculations on Arctic Dinosaur paleoecology. Journal of Vertebrate Paleontology 20(4).
+    doi:10.1671/0272-4634(2000)020[0675:TTFTPC]2.0.CO;2
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nanuqsaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nanuqsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nanuqsaurus”. English Wikipedia, revision 1381619775.
+  url: https://en.wikipedia.org/w/index.php?title=Nanuqsaurus&oldid=1381619775
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

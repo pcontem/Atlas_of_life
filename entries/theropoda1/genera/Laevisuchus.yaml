@@ -1,0 +1,93 @@
+name: Laevisuchus
+rank: genus
+parent: noasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Huene 1933
+type_species: Laevisuchus indicus
+type_species_note: ''
+summary: Small Late Cretaceous theropod from the Lameta Formation of India, named in 1933 from vertebrae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Laevisuchus indicus
+  authority: Huene 1933
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lameta
+  group: ''
+  members: [Carnosaur Bed]
+  country: India
+  regions: [Madhya Pradesh]
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: lameta-india
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Remains found by Charles Alfred Matley near Jabalpur in the Maastrichtian Carnosaur Bed.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Laevisuchus cervical vertebra.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Laevisuchus_cervical_vertebra.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Laevisuchus_cervical_vertebra.png
+  artist: Fernando Novas, Federico Agnolin, Saswati Bandyopadhyay
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2004-01-31'
+  caption: Cervical vertebra of Laevisuchus.
+  width: 696
+  height: 604
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/vector.svg
+  png: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/raster/512x260.png
+  page: https://www.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Masiakasaurus knopfleri
+  matched: Noasauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. v. Huene and C. A. Matley. 1933. The Cretaceous Saurischia and Ornithischia of the Central Provinces
+    of India. Palaeontologica Indica (New Series), Memoirs of the Geological Survey of India 21(1):1-74
+- kind: literature
+  text: 'Mohabey, Dhananjay M.; Samant, Bandana; Vélez-Rosado, Kevin I.; Wilson Mantilla, Jeffrey A. 7 Fe. A review
+    of small-bodied theropod dinosaurs from the Upper Cretaceous of India, with description of new cranial remains
+    of a noasaurid (Theropoda: Abelisauria). Journal of Vertebrate Paleontology 43(3). doi:10.1080/02724634.2023.2288088'
+- kind: literature
+  text: 'Novas, Fernando; Agnolin, Federico; Bandyopadhyay, Saswati 2004. Cretaceous theropods from India: A review
+    of specimens described by Huene and Matley (1933). Revista del Museo Argentino de Ciencias Naturales, nuevo
+    serie 6(1): 67–103. doi:10.22179/REVMACN.6.74'
+- kind: literature
+  text: 'Huene, F. von 1932. Die fossile Reptil-Ordnung Saurischia, ihre Entwicklung und Geschichte: Monographien
+    zur Geologie und Palaeontologie. 1e Serie, Heft 4: 1–361.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Laevisuchus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Laevisuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Laevisuchus”. English Wikipedia, revision 1387603071.
+  url: https://en.wikipedia.org/w/index.php?title=Laevisuchus&oldid=1387603071
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

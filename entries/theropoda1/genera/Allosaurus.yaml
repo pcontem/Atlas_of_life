@@ -1,0 +1,193 @@
+name: Allosaurus
+rank: genus
+parent: allosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Marsh 1877
+type_species: Allosaurus fragilis
+type_species_note: ''
+summary: Large Late Jurassic theropod, the type genus of Allosauridae, known from more than a hundred PBDB occurrences.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 137.05
+  early_interval: Oxfordian
+  late_interval: Berriasian
+  pbdb_occurrences: 147
+  note: ''
+species:
+- name: Allosaurus amplus
+  authority: (Marsh 1879)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Allosaurus anax
+  authority: Danison et al. 2024
+  first_ma: 152.21
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Allosaurus europaeus
+  authority: Mateus et al. 2006
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Allosaurus ferox
+  authority: Marsh 1896
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Allosaurus fragilis
+  authority: (Marsh 1877)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+- name: Allosaurus jimmadseni
+  authority: Chure et al. 2006
+  first_ma: 157.9
+  last_ma: 143.1
+  interval: ''
+  reference: ''
+- name: Allosaurus lucaris
+  authority: (Marsh 1878)
+  first_ma: 154.8
+  last_ma: 143.1
+  interval: Kimmeridgian–Tithonian
+  reference: ''
+- name: Allosaurus lucasi
+  authority: Dalman 2014
+  first_ma: 149.2
+  last_ma: 143.1
+  interval: Tithonian
+  reference: ''
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin, Indian Fort, Kenton, Lake Como, Salt Wash, Talking Rocks, Unit B]
+  country: United States
+  regions: [Colorado, Montana, New Mexico, Oklahoma, South Dakota, Utah, Wyoming]
+  interval: Late Jurassic–Tithonian
+  occurrences: 137
+  ma: [143.1, 161.5]
+  id: morrison-united-states
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian
+  occurrences: 5
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: Lourinhã
+  group: ''
+  members: [Santa Rita/Praia Azul]
+  country: Portugal
+  regions: [Centro]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 3
+  ma: [145.06, 152.21]
+  id: lourinha-portugal
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Rhone-Alpes]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+  id: unnamed-chavardon-trail-saleve-tracksite-france
+- formation: Lepidotus Beds
+  group: ''
+  members: []
+  country: Germany
+  regions: [Lower Saxony]
+  interval: Late Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 152.21]
+  id: lepidotus-beds-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: AMNH Allosaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/AMNH_Allosaurus.jpg/960px-AMNH_Allosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:AMNH_Allosaurus.jpg
+  artist: ScottRobertAnselmo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-08-29'
+  caption: Mounted skeleton of Allosaurus at the AMNH.
+  width: 4501
+  height: 2388
+  review: unreviewed
+- kind: fossil
+  file: Allosaurus Jaws Steveoc86.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Allosaurus_Jaws_Steveoc86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Allosaurus_Jaws_Steveoc86.jpg
+  artist: Steveoc 86
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: Original v
+  caption: Jaws of Allosaurus.
+  width: 1024
+  height: 768
+  review: unreviewed
+- kind: life
+  file: Allosaurus Revised.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Allosaurus_Revised.jpg/960px-Allosaurus_Revised.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Allosaurus_Revised.jpg
+  artist: Fred Wierum
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-01-14'
+  caption: Revised life restoration of Allosaurus.
+  width: 4570
+  height: 2093
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98/vector.svg
+  png: https://images.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98/raster/512x152.png
+  page: https://www.phylopic.org/images/a3fe8af3-8bcf-469a-b3d8-08bc0f071c98
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Allosaurus fragilis
+  matched: Allosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Marsh, Othniel Charles 1877. Notice of new dinosaurian reptiles from the Jurassic formation. American Journal
+    of Science and Arts 14(84): 514–516. doi:10.2475/ajs.s3-14.84.514'
+- kind: literature
+  text: 'Reolid, Matías; Cardenal, Francisco J.; Reolid, Jesús 2021. Digital 3D models of theropods for approaching
+    body-mass distribution and volume. Journal of Iberian Geology 47(4): 599–624. doi:10.1007/s41513-021-00172-1'
+- kind: literature
+  text: Cau, Andrea; Serventi, Paolo 2017. Origin attachments of the caudofemoralis longus muscle in the Jurassic
+    dinosaur Allosaurus. Acta Palaeontologica Polonica 62. doi:10.4202/app.00362.2017
+- kind: literature
+  text: 'Currie, Philip J.; Eberth, David A. 2010. On gregarious behavior in ''''Albertosaurus''''. Canadian Journal
+    of Earth Sciences 47(9): 1277–1289. doi:10.1139/e10-072'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Allosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Allosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Allosaurus”. English Wikipedia, revision 1387393254.
+  url: https://en.wikipedia.org/w/index.php?title=Allosaurus&oldid=1387393254
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

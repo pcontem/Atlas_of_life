@@ -1,0 +1,98 @@
+name: Siats
+rank: genus
+parent: megaraptora
+incertae_sedis: true
+placement_note: The naming paper (Zanno and Makovicky 2013) placed it among neovenatorids; PBDB places it in Megaraptora.
+authority: Zanno and Makovicky 2013
+type_species: Siats meekerorum
+type_species_note: ''
+summary: Large theropod from the Cenomanian Cedar Mountain Formation of Utah.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Siats meekerorum
+  authority: Zanno and Makovicky 2013
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Mussentuchit]
+  country: United States
+  regions: [Utah]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Siats reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Siats_reconstruction.png/960px-Siats_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Siats_reconstruction.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-08-16'
+  caption: Life reconstruction of Siats meekerorum.
+  width: 8560
+  height: 2740
+  review: unreviewed
+- kind: fossil
+  file: Siats Dorsal Vertebra.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Siats_Dorsal_Vertebra.jpg/960px-Siats_Dorsal_Vertebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Siats_Dorsal_Vertebra.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-08-06'
+  caption: Dorsal vertebra of Siats.
+  width: 2592
+  height: 1728
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0535982f-91e5-4587-80bd-e94b95997819/vector.svg
+  png: https://images.phylopic.org/images/0535982f-91e5-4587-80bd-e94b95997819/raster/512x191.png
+  page: https://www.phylopic.org/images/0535982f-91e5-4587-80bd-e94b95997819
+  attribution: Beagliam
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Siats meekerorum
+  matched: Siats
+  genus_level: true
+sources:
+- kind: original
+  text: Zanno, L. E.; Makovicky, P. J. 2013. Neovenatorid theropods are apex predators in the Late Cretaceous of
+    North America. Nature Communications 4. doi:10.1038/ncomms3827
+- kind: literature
+  text: Tucker, R.T.; Zanno, L.E.; Huang, H.-Q.; Makovicky, P.J. 2020. A refined temporal framework for newly discovered
+    fossil assemblages of the upper Cedar Mountain Formation (Mussentuchit Member), Mussentuchit Wash, Central Utah.
+    Cretaceous Research 110. doi:10.1016/j.cretres.2020.104384
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Siats (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Siats
+- kind: encyclopedia
+  text: Wikipedia contributors. “Siats”. English Wikipedia, revision 1373540598.
+  url: https://en.wikipedia.org/w/index.php?title=Siats&oldid=1373540598
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

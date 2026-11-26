@@ -1,0 +1,88 @@
+name: Rativates
+rank: genus
+parent: ornithomimidae
+incertae_sedis: false
+placement_note: ''
+authority: McFeeters et al. 2016
+type_species: Rativates evadens
+type_species_note: ''
+summary: Ornithomimid from the Campanian Dinosaur Park Formation of Alberta, Canada.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rativates evadens
+  authority: McFeeters et al. 2016
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: oldman-canada
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Rativates life restoration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/49/Rativates_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rativates_life_restoration.jpg
+  artist: AnnieI
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-11-30'
+  caption: Life restoration of Rativates evadens.
+  width: 1080
+  height: 891
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/vector.svg
+  png: https://images.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475/raster/512x209.png
+  page: https://www.phylopic.org/images/38a46979-091e-427d-9ebc-712305e87475
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Gallimimus bullatus
+  matched: Ornithomimidae
+  genus_level: false
+sources:
+- kind: original
+  text: McFeeters, B.; Ryan, M.J.; Schröder-Adams, C.; Cullen, T.M. 2016. A new ornithomimid theropod from the Dinosaur
+    Park Formation of Alberta, Canada. Journal of Vertebrate Paleontology 36(6). doi:10.1080/02724634.2016.1221415
+- kind: literature
+  text: 'Russell, D.A. 1972. Ostrich dinosaurs from the Late Cretaceous of Western Canada. Canadian Journal of Earth
+    Sciences 9(4): 375–402. doi:10.1139/e72-031'
+- kind: literature
+  text: 'Sues, H.-D.; Averianov, A. 2016. Ornithomimidae (Dinosauria: Theropoda) from the Bissekty Formation (Upper
+    Cretaceous: Turonian) of Uzbekistan. Cretaceous Research 47: 90–110. doi:10.1016/j.cretres.2015.07.012'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rativates (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rativates
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rativates”. English Wikipedia, revision 1328554591.
+  url: https://en.wikipedia.org/w/index.php?title=Rativates&oldid=1328554591
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

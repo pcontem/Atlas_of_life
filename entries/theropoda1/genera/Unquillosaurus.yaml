@@ -1,0 +1,76 @@
+name: Unquillosaurus
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: true
+placement_note: Wikipedia says its precise classification is uncertain; PBDB places it in Carcharodontosauridae.
+authority: Powell 1979
+type_species: Unquillosaurus ceibalii
+type_species_note: ''
+summary: Large theropod from the Late Cretaceous Los Blanquitos Formation of Salta, Argentina, of uncertain classification.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Unquillosaurus ceibalii
+  authority: Powell 1979
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Los Blanquitos
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: los-blanquitos-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Carcharodontosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. E. Powell. 1979. Sobre una asociacion de Dinosaurios y otras evidencias de vertebrados del Crétacico
+    Superior de la region de La Candelaria, Prov. de Salta, Argentina. Ameghiniana 16(1-2):191-204
+- kind: literature
+  text: 'Novas, F.E.; Agnolín 2004. ''''Unquillosaurus ceibalii'''' Powell, a giant maniraptoran (Dinosauria, Theropoda)
+    from the Late Cretaceous of Argentina. Revista del Museo Argentino de Ciencias Naturales 6(1): 61–66. doi:10.22179/REVMACN.6.73'
+- kind: literature
+  text: 'Powell, J.E. 1979. On a dinosaur association and other evidinces of Upper Cretaceous vertebrates from the
+    La Candelaria region, Salta Province, Argentina. Ameghiniana 16(1–2): 191–204.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Unquillosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Unquillosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Unquillosaurus”. English Wikipedia, revision 1360744654.
+  url: https://en.wikipedia.org/w/index.php?title=Unquillosaurus&oldid=1360744654
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

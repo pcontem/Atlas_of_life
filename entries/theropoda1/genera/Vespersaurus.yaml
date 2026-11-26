@@ -1,0 +1,106 @@
+name: Vespersaurus
+rank: genus
+parent: noasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Langer et al. 2019
+type_species: Vespersaurus paranaensis
+type_species_note: ''
+summary: Toothless-tipped noasaurid from the Cretaceous Rio Paraná Formation of Brazil that lived in the Botucatu
+  Desert.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 72.2
+  early_interval: Aptian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Vespersaurus paranaensis
+  authority: Langer et al. 2019
+  first_ma: 121.4
+  last_ma: 72.2
+  interval: Aptian–Campanian
+  reference: original description
+formations:
+- formation: Goio-Erê
+  group: Caiuá
+  members: []
+  country: Brazil
+  regions: [Paraná]
+  interval: Aptian–Campanian
+  occurrences: 1
+  ma: [72.2, 121.4]
+  id: goio-ere-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Vespersaurus paranaensis recon.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Vespersaurus_paranaensis_recon.jpg/960px-Vespersaurus_paranaensis_recon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vespersaurus_paranaensis_recon.jpg
+  artist: Ildarotyrannus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-07-06'
+  caption: Reconstruction of Vespersaurus paranaensis.
+  width: 3415
+  height: 1757
+  review: unreviewed
+- kind: fossil
+  file: Vespersaurus foot.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Vespersaurus_foot.png/960px-Vespersaurus_foot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vespersaurus_foot.png
+  artist: Max Cardoso Langer, Neurides de Oliveira Martins, Paulo César Manzig, Gabriel de Souza Ferreira, Júlio
+    César de Almeida Marsola, Edison Fortes, Rosana Lima, Lucas Cesar Frediani Sant’ana, Luciano da Silva Vidal,
+    Rosangela Honório da Silva Lorençato & Martín Daniel Ezcurra
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019'
+  caption: Foot of Vespersaurus.
+  width: 1650
+  height: 1871
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2dc41d54-8e5b-42ff-a827-98691096c2b5/vector.svg
+  png: https://images.phylopic.org/images/2dc41d54-8e5b-42ff-a827-98691096c2b5/raster/512x258.png
+  page: https://www.phylopic.org/images/2dc41d54-8e5b-42ff-a827-98691096c2b5
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Vespersaurus paranaensis
+  matched: Vespersaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Langer, Max Cardoso; de Oliveira Martins, Neurides; Manzig, Paulo César; de Souza Ferreira, Gabriel; de
+    Almeida Marsola, Júlio César; Fortes, Edison; Lima, Rosana; Sant’ana, Lucas Cesar Frediani; da Silva Vidal,
+    Luciano; da Silva Lorençato, Rosangela Honório; Ezcurra, Martín Daniel Ezcurra 2019. A new desert-dwelling dinosaur
+    (Theropoda, Noasaurinae) from the Cretaceous of south Brazil. Scientific Reports 9(1): 9379. doi:10.1038/s41598-019-45306-9'
+- kind: literature
+  text: Canejo L, Holgado B, Weinschütz LC, Ricetti JH, Wilner E, Kellner AW 2022. Novel information on the cranial
+    anatomy of the tapejarine pterosaur ''Caiuajara dobruskii''. PLOS ONE 17(12). doi:10.1371/journal.pone.0277780
+- kind: literature
+  text: Barbosa, G. G.; Langer, M. C.; de Oliveira Martins, N.; Montefeltro, F. C. 2023. Assessing the palaeobiology
+    of ''Vespersaurus paranaensis'' (Theropoda, Noasauridae), Cretaceous, Bauru Basin – Brazil, using Finite Element
+    Analysis. Cretaceous Research 150. doi:10.1016/j.cretres.2023.105594
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vespersaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vespersaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vespersaurus”. English Wikipedia, revision 1376779176.
+  url: https://en.wikipedia.org/w/index.php?title=Vespersaurus&oldid=1376779176
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

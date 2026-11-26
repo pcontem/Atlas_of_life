@@ -1,0 +1,87 @@
+name: Camposaurus
+rank: genus
+parent: coelophysidae
+incertae_sedis: false
+placement_note: ''
+authority: Hunt et al. 1998
+type_species: Camposaurus arizonensis
+type_species_note: ''
+summary: Late Triassic coelophysid from Arizona known from lower leg bones, regarded as the oldest known neotheropod.
+size:
+  length_m: [3, 3]
+  note: Estimated at 3 m in Wikipedia revision 1370809209 from fragmentary material.
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Camposaurus arizonensis
+  authority: Hunt et al. 1998
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Chinle
+  group: ''
+  members: [Mesa Redondo]
+  country: United States
+  regions: [Arizona]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: chinle-united-states
+fossil_material:
+  holotype: UCMP 34498 (distal tibiae, distal fibulae and astragalocalcanea) — Placerias quarry, Bluewater Creek
+    Formation, Arizona.
+  material: Holotype and other fragmentary material.
+  completeness: fragmentary
+  exceptional: ''
+biology: A small carnivorous theropod with fused tibio-tarsals and fibulo-tarsals like other coelophysids.
+images:
+- kind: fossil
+  file: Camposaurus holotype ankle.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/63/Camposaurus_holotype_ankle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Camposaurus_holotype_ankle.png
+  artist: Sterling J. Nesbitt and Martín D. Ezcurra
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-07-13'
+  caption: Holotype ankle bones of Camposaurus.
+  width: 1365
+  height: 471
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/vector.svg
+  png: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/raster/512x163.png
+  page: https://www.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelophysis bauri
+  matched: Camposaurus
+  genus_level: true
+sources:
+- kind: original
+  text: A. P. Hunt, S. G. Lucas, and A. B. Heckert, R. M. Sullivan, M. G. Lockley. 1998. Late Triassic dinosaurs
+    from the western United States. Géobios 31(4):511-531
+- kind: literature
+  text: 'Ezcurra, M.D. 2011. Taxonomic and phylogenetic reassessment of the early neotheropod dinosaur ''''Camposaurus
+    arizonensis'''' from the Late Triassic of North America. Palaeontology 54(4): 763–772. doi:10.1111/j.1475-4983.2011.01069.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Camposaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Camposaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Camposaurus”. English Wikipedia, revision 1370809209.
+  url: https://en.wikipedia.org/w/index.php?title=Camposaurus&oldid=1370809209
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Downs 2000 treated it as a junior synonym of Coelophysis; kept valid following PBDB., Original naming paper
+    not identified in the citations.
+  reviews: []

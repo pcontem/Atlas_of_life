@@ -1,0 +1,79 @@
+name: Xunmenglong
+rank: genus
+parent: compsognathidae
+incertae_sedis: false
+placement_note: ''
+authority: Xing et al. 2020
+type_species: Xunmenglong yingliangis
+type_species_note: PBDB spells the epithet yingliangis and Wikipedia yinliangis; check the original spelling in
+  Xing et al. 2020.
+summary: Compsognathid from the Huajiying Formation of Hebei Province, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 125.77
+  early_interval: Hauterivian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xunmenglong yingliangis
+  authority: Xing et al. 2020
+  first_ma: 132.6
+  last_ma: 125.77
+  interval: Hauterivian
+  reference: original description
+formations:
+- formation: Huajiying
+  group: ''
+  members: [Sichakou]
+  country: China
+  regions: [Hebei]
+  interval: Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: huajiying-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/vector.svg
+  png: https://images.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31/raster/969x1014.png
+  page: https://www.phylopic.org/images/34cf1b93-1980-40af-b6a3-608216631e31
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinosauropteryx prima
+  matched: Compsognathidae
+  genus_level: false
+sources:
+- kind: original
+  text: L. Xing, T. Miyashita, and D. Wang, K. Niu, P. J. Currie. 2020. A new compsognathid theropod dinosaur from
+    the oldest assemblage of the Jehol Biota in the Lower Cretaceous Huajiying Formation, northeastern China. Cretaceous
+    Research 107:104285
+- kind: literature
+  text: Xing, Lida; Miyashita, Tetsuto; Wang, Donghao; Niu, Kechung; Currie, Philip J. 2019. A new compsognathid
+    theropod dinosaur from the oldest assemblage of the Jehol Biota in the Lower Cretaceous Huajiying Formation,
+    northeastern China. Cretaceous Research 107. doi:10.1016/j.cretres.2019.104285
+- kind: literature
+  text: 'Cau, Andrea 2024. A Unified Framework for Predatory Dinosaur Macroevolution. Bollettino della Società Paleontologica
+    Italiana 63(1): 1–19. doi:10.4435/BSPI.2024.08'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xunmenglong (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xunmenglong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xunmenglong”. English Wikipedia, revision 1387160635.
+  url: https://en.wikipedia.org/w/index.php?title=Xunmenglong&oldid=1387160635
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

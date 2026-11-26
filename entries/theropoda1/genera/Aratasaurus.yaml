@@ -1,0 +1,103 @@
+name: Aratasaurus
+rank: genus
+parent: coelurosauria
+incertae_sedis: false
+placement_note: ''
+authority: Sayão et al. 2020
+type_species: Aratasaurus museunacionali
+type_species_note: ''
+summary: Basal coelurosaur from the Romualdo Formation of Brazil, the first theropod dinosaur named from the Santana
+  Group.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aratasaurus museunacionali
+  authority: Sayão et al. 2020
+  first_ma: 113.2
+  last_ma: 110.1
+  interval: Albian
+  reference: original description
+formations:
+- formation: Romualdo
+  group: Santana
+  members: [Lower]
+  country: Brazil
+  regions: [Ceará]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: romualdo-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Aratasaurus museunacionali.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/97/Aratasaurus_museunacionali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aratasaurus_museunacionali.jpg
+  artist: Maurilio Oliveira
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-07-10'
+  caption: Life restoration of Aratasaurus museunacionali.
+  width: 1414
+  height: 995
+  review: unreviewed
+- kind: fossil
+  file: Aratasaurus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/41/Aratasaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Aratasaurus.jpg
+  artist: Juliana Manso Sayão, Antônio Álamo Feitosa Saraiva, Arthur Souza Brum, Renan Alfredo Machado Bantim, Rafael
+    Cesar Lima Pedroso de Andrade, Xin Cheng, Flaviana Jorge de Lima, Helder de Paula Silva & Alexander W. A. Kellner
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Fossil of Aratasaurus.
+  width: 1412
+  height: 1377
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2fe1b1bd-630c-407c-abbc-9991c7f9e868/vector.svg
+  png: https://images.phylopic.org/images/2fe1b1bd-630c-407c-abbc-9991c7f9e868/raster/512x192.png
+  page: https://www.phylopic.org/images/2fe1b1bd-630c-407c-abbc-9991c7f9e868
+  attribution: Arthur S. Brum
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aratasaurus museunacionali
+  matched: Aratasaurus
+  genus_level: true
+sources:
+- kind: original
+  text: Sayão, Juliana Manso; Saraiva, Antônio Álamo Feitosa; Brum, Arthur Souza; Bantim, Renan Alfredo Machado;
+    de Andrade, Rafael Cesar Lima Pedroso; Cheng, Xin; de Lima, Flaviana Jorge; de Paula Silva, Helder; Kellner,
+    Alexander W. A. July. The first theropod dinosaur (Coelurosauria, Theropoda) from the base of the Romualdo Formation
+    (Albian), Araripe Basin, Northeast Brazil. Scientific Reports 10(1). doi:10.1038/s41598-020-67822-9
+- kind: literature
+  text: 'Choiniere, Jonah N.; Clark, James M.; Forster, Catherine A.; Xu, Xing 2010. A basal coelurosaur (Dinosauria:
+    Theropoda) from the Late Jurassic (Oxfordian) of the Shishugou Formation in Wucaiwan, People''s Republic of
+    China. Journal of Vertebrate Paleontology 30(6): 1773–1796. doi:10.1080/02724634.2010.520779'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aratasaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aratasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aratasaurus”. English Wikipedia, revision 1383599657.
+  url: https://en.wikipedia.org/w/index.php?title=Aratasaurus&oldid=1383599657
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - First-theropod wording follows the title of Sayao et al. as cited by Wikipedia; check the exact claim.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

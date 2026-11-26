@@ -3,18 +3,18 @@ name: Continental Intercalaire
 rank: formation
 group: ''
 country: Algeria
-regions: [Adrar]
+regions: [Adrar, El Bayadh, Illizi]
 location:
-  lat: 27.033
-  lng: 0.25
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lat: 29.25
+  lng: 0.833
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 143.1
-  last_ma: 100.5
+  last_ma: 93.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., channel lag]
-lithology: [not reported, conglomerate]
-pbdb_collections: ['25139', '59690', '60382']
+environment: [terrestrial indet., delta plain, channel lag]
+lithology: [not reported, conglomerate, sandstone, claystone]
+pbdb_collections: ['25137', '25139', '25191', '25192', '59341', '59689', '59690', '60382', '166013', '206286', '206287']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,117 @@
+name: Dilophosaurus
+rank: genus
+parent: neotheropoda
+incertae_sedis: false
+placement_note: ''
+authority: Welles 1970
+type_species: Dilophosaurus wetherilli
+type_species_note: ''
+summary: Early Jurassic crested theropod from Arizona, described in 1954 and made the type of its own genus in 1970.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 201.4
+  last_ma: 184.2
+  early_interval: Hettangian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 14
+  note: ''
+species:
+- name: Dilophosaurus sinensis
+  authority: (Hu 1993)
+  first_ma: 201.4
+  last_ma: 192.9
+  interval: Hettangian–Sinemurian
+  reference: ''
+- name: Dilophosaurus wetherilli
+  authority: (Welles 1954)
+  first_ma: 201.4
+  last_ma: 184.2
+  interval: Hettangian–Pliensbachian
+  reference: original description
+formations:
+- formation: Kayenta
+  group: Glen Canyon
+  members: [Silty Facies, Typical Facies]
+  country: United States
+  regions: [Arizona, Utah]
+  interval: Hettangian–Pliensbachian
+  occurrences: 13
+  ma: [184.2, 201.4]
+  id: kayenta-united-states
+- formation: Dharmaram
+  group: Gondwana
+  members: [Upper]
+  country: India
+  regions: [Andhra Pradesh]
+  interval: Hettangian–Sinemurian
+  occurrences: 1
+  ma: [192.9, 201.4]
+  id: dharmaram-india
+fossil_material:
+  holotype: The most complete of three skeletons found in Arizona in 1940, collected in 1942 — Kayenta Formation.
+  material: Three skeletons found in 1940, two collected in 1942, plus later specimens and a Chinese species assigned
+    to it in 1993.
+  completeness: multiple
+  exceptional: ''
+biology: A large Early Jurassic carnivore; the cited article discusses its twin crests, jaws and growth.
+images:
+- kind: fossil
+  file: Dilophosaurus assigned braincase.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Dilophosaurus_assigned_braincase.png/960px-Dilophosaurus_assigned_braincase.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dilophosaurus_assigned_braincase.png
+  artist: Adam D. Marsh and Timothy B. Rowe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Braincase assigned to Dilophosaurus.
+  width: 2043
+  height: 2698
+  review: unreviewed
+- kind: fossil
+  file: Dilophosaurus assigned ilia.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Dilophosaurus_assigned_ilia.png/960px-Dilophosaurus_assigned_ilia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dilophosaurus_assigned_ilia.png
+  artist: Adam D. Marsh and Timothy B. Rowe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Ilia assigned to Dilophosaurus.
+  width: 2103
+  height: 2044
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/cbf3da38-ac71-48a5-b455-23c822c22e9a/vector.svg
+  png: https://images.phylopic.org/images/cbf3da38-ac71-48a5-b455-23c822c22e9a/raster/512x96.png
+  page: https://www.phylopic.org/images/cbf3da38-ac71-48a5-b455-23c822c22e9a
+  attribution: Robert Gay, modified from FunkMonk (Michael B.H.) and T. Michael Keesey.
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Dilophosaurus wetherilli
+  matched: Dilophosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Welles, S.P. 1970. ''''Dilophosaurus'''' (Reptilia: Saurischia), a new name for a dinosaur. Journal of
+    Paleontology 44(5).'
+- kind: literature
+  text: Rauhut, O.W. 2004. The interrelationships and evolution of basal theropod dinosaurs. Special Papers in Palaeontology
+    69.
+- kind: literature
+  text: 'Carrano, M.T.; Benson, R.B.J.; Sampson, S.D. 2012. The phylogeny of Tetanurae (Dinosauria: Theropoda).
+    Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dilophosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dilophosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dilophosaurus”. English Wikipedia, revision 1384388343.
+  url: https://en.wikipedia.org/w/index.php?title=Dilophosaurus&oldid=1384388343
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number not given in the brief; check Welles 1954 and 1970., Chinese species D. sinensis is placed in
+    Sinosaurus by later work; check species list., Size and mass not read.
+  reviews: []

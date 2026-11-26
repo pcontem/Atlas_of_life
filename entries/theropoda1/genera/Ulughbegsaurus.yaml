@@ -1,0 +1,91 @@
+name: Ulughbegsaurus
+rank: genus
+parent: carcharodontosauria
+incertae_sedis: true
+placement_note: Wikipedia calls it a carcharodontosaurid; PBDB places it only in Carcharodontosauria.
+authority: Tanaka et al. 2021
+type_species: Ulughbegsaurus uzbekistanensis
+type_species_note: ''
+summary: Carcharodontosaurian from the Late Cretaceous Bissekty and Khodzhakul formations of Uzbekistan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Ulughbegsaurus uzbekistanensis
+  authority: Tanaka et al. 2021
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 3
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Ulughbegsaurus.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/6/66/Ulughbegsaurus.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ulughbegsaurus.webp
+  artist: Kohei Tanaka, Otabek Ulugbek Ogli Anvarov, Darla K. Zelenitsky, Akhmadjon Shayakubovich Ahmedshaev and
+    Yoshitsugu Kobayashi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-09-09'
+  caption: Life restoration of Ulughbegsaurus uzbekistanensis.
+  width: 970
+  height: 546
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/vector.svg
+  png: https://images.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7/raster/512x223.png
+  page: https://www.phylopic.org/images/c4927904-010c-4c48-b1b6-a85669e043d7
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Neovenator salerii
+  matched: Carcharodontosauria
+  genus_level: false
+sources:
+- kind: original
+  text: Tanaka K, Anvarov OU, Zelenitsky DK, Ahmedshaev AS, Kobayashi Y 2021. A new carcharodontosaurian theropod
+    dinosaur occupies apex predator niche in the early Late Cretaceous of Uzbekistan. Royal Society Open Science
+    8(9). doi:10.1098/rsos.210923
+- kind: literature
+  text: 'Averianov, Alexander O.; Sues, Hans-Dieter 2024. New evidence for the presence of carcharodontosaurid theropod
+    dinosaurs in the Late Cretaceous of Uzbekistan. Historical Biology: 1–7. doi:10.1080/08912963.2024.2423675'
+- kind: literature
+  text: 'Averianov, Alexander O.; Kuzmin, Ivan T.; Skutschas, Pavel P.; Sues, Hans-Dieter 2025. First record of
+    Carcharodontosauridae (Dinosauria, Theropoda) in the Upper Cretaceous Khodzhakul Formation of Uzbekistan. Journal
+    of Paleontology: 1–13. doi:10.1017/jpa.2025.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ulughbegsaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ulughbegsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ulughbegsaurus”. English Wikipedia, revision 1352172158.
+  url: https://en.wikipedia.org/w/index.php?title=Ulughbegsaurus&oldid=1352172158
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

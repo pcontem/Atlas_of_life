@@ -1,0 +1,102 @@
+name: Sinotyrannus
+rank: genus
+parent: proceratosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Ji et al. 2009
+type_species: Sinotyrannus kazuoensis
+type_species_note: ''
+summary: Large tyrannosauroid from the Early Cretaceous Jiufotang Formation of Liaoning, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sinotyrannus kazuoensis
+  authority: Ji et al. 2009
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Drawing of a brown male sinotyrannus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Drawing_of_a_brown_male_sinotyrannus.jpg/960px-Drawing_of_a_brown_male_sinotyrannus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Drawing_of_a_brown_male_sinotyrannus.jpg
+  artist: Anonymousse10
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-06-12'
+  caption: Drawing of Sinotyrannus kazuoensis.
+  width: 2160
+  height: 1620
+  review: unreviewed
+- kind: fossil
+  file: Liaoning Palaeontological Museum 20250103 102825.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Liaoning_Palaeontological_Museum_20250103_102825.jpg/960px-Liaoning_Palaeontological_Museum_20250103_102825.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoning_Palaeontological_Museum_20250103_102825.jpg
+  artist: Dlyj0604
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-01-03'
+  caption: Specimen of Sinotyrannus at the Liaoning museum.
+  width: 3488
+  height: 2312
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096/vector.svg
+  png: https://images.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096/raster/512x212.png
+  page: https://www.phylopic.org/images/829591b0-d8cf-418e-a48e-f2a07aecc096
+  attribution: Conty (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Kileskus aristotocus
+  matched: Proceratosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ji, Q.; Ji, S.-A.; Zhang, L.-J. 2009. First large tyrannosauroid theropod from the Early Cretaceous Jehol
+    Biota in northeastern China. Geological Bulletin of China 28(10): 1369–1374.'
+- kind: literature
+  text: Zheng, Daran; Zhang, Lijun; Qu, Zhe; Wu, Bo; Ji, Shu-an; Zhang, Shudong; Xia, Yangyang; Fang, Rui; Zhang,
+    Haichun; Chang, Su-Chin Octo. U-Pb calibrating the evolution of the tyrannosauroid theropod Sinotyrannus kazuoensis
+    Ji et al., 2009, with a review on the spatiotemporal distribution of the late Jehol Biota in western Liaoning,
+    China. Palaeogeography, Palaeoclimatology, Palaeoecology 680. doi:10.1016/j.palaeo.2026.114323
+- kind: literature
+  text: 'Xu, Xing; Norell, Mark A.; Kuang, Xuewen; Wang, Xiaolin; Zhao, Qi; Jia, Chengkai Octo. Basal tyrannosauroids
+    from China and evidence for protofeathers in tyrannosauroids. Nature 431(7009): 680–684. doi:10.1038/nature02855'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinotyrannus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinotyrannus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinotyrannus”. English Wikipedia, revision 1386690932.
+  url: https://en.wikipedia.org/w/index.php?title=Sinotyrannus&oldid=1386690932
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

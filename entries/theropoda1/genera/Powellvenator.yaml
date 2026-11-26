@@ -1,0 +1,81 @@
+name: Powellvenator
+rank: genus
+parent: coelophysidae
+incertae_sedis: false
+placement_note: ''
+authority: Ezcurra 2017
+type_species: Powellvenator podocitus
+type_species_note: ''
+summary: Late Triassic coelophysoid from the Los Colorados Formation of northwestern Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 227.3
+  last_ma: 205.7
+  early_interval: Norian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Powellvenator podocitus
+  authority: Ezcurra 2017
+  first_ma: 227.3
+  last_ma: 205.7
+  interval: Norian
+  reference: original description
+formations:
+- formation: Los Colorados
+  group: Agua de la Peña
+  members: []
+  country: Argentina
+  regions: [La Rioja]
+  interval: Norian
+  occurrences: 1
+  ma: [205.7, 227.3]
+  id: los-colorados-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: PowellvenatorRestoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/PowellvenatorRestoration.png/960px-PowellvenatorRestoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:PowellvenatorRestoration.png
+  artist: LukasM0renoPaleoart
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-08'
+  caption: Restoration of Powellvenator podocitus.
+  width: 6940
+  height: 2744
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/vector.svg
+  png: https://images.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117/raster/512x163.png
+  page: https://www.phylopic.org/images/85008e98-2194-4844-bff9-4c5513ddd117
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Coelophysis bauri
+  matched: Coelophysidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ezcurra, Martín D. 2017. A new early coelophysoid neotheropod from the Late Triassic of northwestern Argentina.
+    Ameghiniana 54(5): 506–538. doi:10.5710/AMGH.04.08.2017.3100'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Powellvenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Powellvenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Powellvenator”. English Wikipedia, revision 1375198987.
+  url: https://en.wikipedia.org/w/index.php?title=Powellvenator&oldid=1375198987
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype and material to be read in Ezcurra 2017.]
+  reviews: []

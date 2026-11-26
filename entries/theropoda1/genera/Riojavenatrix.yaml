@@ -1,0 +1,90 @@
+name: Riojavenatrix
+rank: genus
+parent: baryonychinae
+incertae_sedis: false
+placement_note: ''
+authority: Isasmendi et al. 2024
+type_species: Riojavenatrix lacustris
+type_species_note: ''
+summary: Spinosaurid from the Early Cretaceous Enciso Group of La Rioja, Spain.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 119.57
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Riojavenatrix lacustris
+  authority: Isasmendi et al. 2024
+  first_ma: 121.4
+  last_ma: 119.57
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Enciso
+  members: []
+  country: Spain
+  regions: [La Rioja]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: enciso-group-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Riojavenatrix lacustris.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Riojavenatrix_lacustris.png/960px-Riojavenatrix_lacustris.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Riojavenatrix_lacustris.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-25'
+  caption: Life restoration of Riojavenatrix lacustris.
+  width: 4000
+  height: 1682
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/vector.svg
+  png: https://images.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa/raster/512x148.png
+  page: https://www.phylopic.org/images/0c97094c-8de5-4d5e-aea6-cafe734bacfa
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Baryonyx walkeri
+  matched: Spinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Isasmendi, E.; Cuesta, E.; Díaz-Martínez, I.; ((Company)), J.; Sáez-Benito, P.; Viera, L. I.; Torices,
+    A.; Pereda-Suberbiola, P. 2024. Increasing the theropod record of Europe: a new basal spinosaurid from the Enciso
+    Group of the Cameros Basin (La Rioja, Spain). Evolutionary implications and palaeobiodiversity. Zoological Journal
+    of the Linnean Society 202(3). doi:10.1093/zoolinnean/zlad193'
+- kind: literature
+  text: Rauhut, O. W.; Pol, D. 2021. New theropod remains from the Late Jurassic Cañadón Calcáreo formation of Chubut,
+    Argentina. Journal of South American Earth Sciences 111. doi:10.1016/j.jsames.2021.103434
+- kind: literature
+  text: 'Mateus, O.; Estraviz-López, D. 2022. A new theropod dinosaur from the Early Cretaceous (Barremian) of Cabo
+    Espichel, Portugal: Implications for spinosaurid evolution. PLOS ONE 17(2). doi:10.1371/journal.pone.0262614'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Riojavenatrix (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Riojavenatrix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Riojavenatrix”. English Wikipedia, revision 1351324098.
+  url: https://en.wikipedia.org/w/index.php?title=Riojavenatrix&oldid=1351324098
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

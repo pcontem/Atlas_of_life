@@ -1,0 +1,80 @@
+name: Lametasaurus
+rank: genus
+parent: abelisauridae
+incertae_sedis: true
+placement_note: Described by Matley in 1924 from material now regarded as a chimera including ornithischian remains
+  (Rozadilla et al. 2021 cited by Wikipedia).
+authority: Matley 1924
+type_species: Lametasaurus indicus
+type_species_note: ''
+summary: Chimeric dinosaur genus from the Lameta Formation of Jabalpur, India, collected between 1917 and 1919.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lametasaurus indicus
+  authority: Matley 1924
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lameta
+  group: ''
+  members: [Carnosaur Bed]
+  country: India
+  regions: [Madhya Pradesh]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lameta-india
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: C. A. Matley. 1924. Note on an armoured dinosaur from the Lameta beds of Jubbulpore. Records of the Geological
+    Survey of India 55(2):105-109
+- kind: literature
+  text: 'Benson, Roger B. J.; Hunt, Gene; Carrano, Matthew T.; Nicolás, Campione 2017. Cope''s rule and the adaptive
+    landscape of dinosaur body size evolution. Palaeontology 61(1): 38. doi:10.1111/pala.12329'
+- kind: literature
+  text: Rozadilla, Sebastián; Agnolín, Federico; Manabe, Makoto; Tsuihiji, Takanobu; Novas, Fernando E. 2021. Ornithischian
+    remains from the Chorrillo Formation (Upper Cretaceous), southern Patagonia, Argentina, and their implications
+    on ornithischian paleobiogeography in the Southern Hemisphere. Cretaceous Research 125. doi:10.1016/j.cretres.2021.104881
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lametasaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lametasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lametasaurus”. English Wikipedia, revision 1362748697.
+  url: https://en.wikipedia.org/w/index.php?title=Lametasaurus&oldid=1362748697
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Validity doubtful: Wikipedia calls it a chimeric genus; kept valid on PBDB listing. Check whether an abelisaurid
+    component is a valid type.'
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

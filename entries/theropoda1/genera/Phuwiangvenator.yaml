@@ -1,0 +1,98 @@
+name: Phuwiangvenator
+rank: genus
+parent: megaraptora
+incertae_sedis: false
+placement_note: ''
+authority: Samathi et al. 2019
+type_species: Phuwiangvenator yaemniyomi
+type_species_note: ''
+summary: Megaraptoran from the Early Cretaceous of Thailand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Phuwiangvenator yaemniyomi
+  authority: Samathi et al. 2019
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Sao Khua
+  group: Khorat
+  members: []
+  country: Thailand
+  regions: [Khon Kaen]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: sao-khua-thailand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Phuwiangvenator.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Phuwiangvenator.png/960px-Phuwiangvenator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Phuwiangvenator.png
+  artist: Penandsuffer
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-05-22'
+  caption: Restoration of Phuwiangvenator yaemniyomi.
+  width: 3000
+  height: 1500
+  review: unreviewed
+- kind: fossil
+  file: Phuwiangvenator Feet.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Phuwiangvenator_Feet.png/960px-Phuwiangvenator_Feet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Phuwiangvenator_Feet.png
+  artist: Adun Samathi, Phornphen Chanthasit, and P. Martin Sander
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-05-27'
+  caption: Feet of Phuwiangvenator.
+  width: 2162
+  height: 1032
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/vector.svg
+  png: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/raster/512x161.png
+  page: https://www.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Australovenator wintonensis
+  matched: Megaraptora
+  genus_level: false
+sources:
+- kind: original
+  text: 'Samathi, A.; Chanthasit, P.; Martin Sander, P. May . Two new basal coelurosaurian theropod dinosaurs from
+    the Lower Cretaceous Sao Khua Formation of Thailand. Acta Palaeontologica Polonica 64(2): 239–260. doi:10.4202/app.00540.2018'
+- kind: literature
+  text: 'Samathi, Adun; Suteethorn, Suravech; Pradit, Nakorn; Suteethorn, Varavudh 2022. New material of Phuwiangvenator
+    yaemniyomi (Dinosauria: Theropoda) from the type locality: Implications for the early evolution of Megaraptora.
+    Cretaceous Research 131. doi:10.1016/j.cretres.2021.105093'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Phuwiangvenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Phuwiangvenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Phuwiangvenator”. English Wikipedia, revision 1368887423.
+  url: https://en.wikipedia.org/w/index.php?title=Phuwiangvenator&oldid=1368887423
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

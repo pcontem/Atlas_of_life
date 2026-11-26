@@ -1,0 +1,90 @@
+name: Khankhuuluu
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Voris et al. 2025
+type_species: Khankhuuluu mongoliensis
+type_species_note: ''
+summary: Early tyrannosauroid from the Late Cretaceous of the Gobi Desert, Mongolia, named in 2025.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Khankhuuluu mongoliensis
+  authority: Voris et al. 2025
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov, Omnogov]
+  interval: Cenomanian–Santonian
+  occurrences: 2
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Khankhuuluu mongoliensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Khankhuuluu_mongoliensis.png/960px-Khankhuuluu_mongoliensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Khankhuuluu_mongoliensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-06-11'
+  caption: Life restoration of Khankhuuluu mongoliensis.
+  width: 4000
+  height: 1355
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b5f1a873-016c-4c42-8fa1-ba66b406fce6/vector.svg
+  png: https://images.phylopic.org/images/b5f1a873-016c-4c42-8fa1-ba66b406fce6/raster/512x224.png
+  page: https://www.phylopic.org/images/b5f1a873-016c-4c42-8fa1-ba66b406fce6
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Khankhuuluu mongoliensis
+  matched: Khankhuuluu
+  genus_level: true
+sources:
+- kind: original
+  text: Voris, Jared T.; Zelenitsky, Darla K.; Kobayashi, Yoshitsugu; Modesto, Sean P.; Therrien, François; Tsutsumi,
+    Hiroki; Chinzorig, Tsogtbaatar; Tsogtbaatar, Khishigjav 2025. A new Mongolian tyrannosauroid and the evolution
+    of Eutyrannosauria. [[Nature (journal). doi:10.1038/s41586-025-08964-6
+- kind: literature
+  text: 'Perle, Altangerel 1977. O pervoy nakhodke ''''Alektrozavra'''' (Tyrannosauridae, Theropoda) iz pozdnego
+    Mela Mongolii. Shinzhlekh Ukhaany Akademi Geologiin Khureelen 3(3): 104–113.'
+- kind: literature
+  text: 'Tsuihiji, Takanobu; Watabe, Mahito; Tsogtbaatar, Khishigjav; Barsbold, Rinchen; Suzuki, Shigeru 2012. A
+    tyrannosauroid frontal from the Upper Cretaceous (Cenomanian-Santonian) of the Gobi Desert, Mongolia. Vertebrata
+    PalAsiatica 50(2): 102–110.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Khankhuuluu (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Khankhuuluu
+- kind: encyclopedia
+  text: Wikipedia contributors. “Khankhuuluu”. English Wikipedia, revision 1331754295.
+  url: https://en.wikipedia.org/w/index.php?title=Khankhuuluu&oldid=1331754295
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

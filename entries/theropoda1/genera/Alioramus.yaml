@@ -1,0 +1,130 @@
+name: Alioramus
+rank: genus
+parent: tyrannosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Kurzanov 1976
+type_species: Alioramus remotus
+type_species_note: ''
+summary: Long-snouted tyrannosaurid from the Late Cretaceous of Asia, named for its different branch.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Alioramus altai
+  authority: Brusatte and et al 2009
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Alioramus remotus
+  authority: Kurzanov 1976
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+- name: Alioramus sinensis
+  authority: (Lü et al. 2014)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Beds of Nogon Tsav
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Bayankhongor]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: beds-of-nogon-tsav-mongolia
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Unnamed unit
+  group: Nanxiong
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nanxiong-group-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Alioramus Life Restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Alioramus_Life_Restoration.jpg/960px-Alioramus_Life_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alioramus_Life_Restoration.jpg
+  artist: Fred Wierum
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2015-10-26'
+  caption: Life restoration of Alioramus.
+  width: 3548
+  height: 2009
+  review: unreviewed
+- kind: fossil
+  file: Alioramus altai skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/41/Alioramus_altai_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Alioramus_altai_skull.png
+  artist: S. L. Brusatte - R. B. J. Benson - X. Xu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2010-12-10'
+  caption: Skull of Alioramus altai.
+  width: 873
+  height: 462
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/499fe1d6-a3c5-4219-a60e-d5ae93031bda/vector.svg
+  png: https://images.phylopic.org/images/499fe1d6-a3c5-4219-a60e-d5ae93031bda/raster/512x242.png
+  page: https://www.phylopic.org/images/499fe1d6-a3c5-4219-a60e-d5ae93031bda
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alioramus remotus
+  matched: Alioramus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Kurzanov, Sergei M. 1976. A new carnosaur from the Late Cretaceous of Nogon-Tsav, Mongolia. The Joint Soviet-Mongolian
+    Paleontological Expedition Transactions 3: 93–104.'
+- kind: literature
+  text: Carr, Thomas D.; Varricchio, David J.; Sedlmayr, Jayc C.; Roberts, Eric M.; Moore, Jason R. 2017. A new
+    tyrannosaur with evidence for anagenesis and crocodile-like facial sensory system. Scientific Reports 7. doi:10.1038/srep44942
+- kind: literature
+  text: 'Hurum, Jørn H.; Sabath, Karol 2003. Giant theropod dinosaurs from Asia and North America: Skulls of ''''Tarbosaurus
+    bataar'''' and ''''Tyrannosaurus rex'''' compared. Acta Palaeontologica Polonica 48(2): 161–190.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alioramus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alioramus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alioramus”. English Wikipedia, revision 1387572574.
+  url: https://en.wikipedia.org/w/index.php?title=Alioramus&oldid=1387572574
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

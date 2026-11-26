@@ -1,0 +1,101 @@
+name: Abelisaurus
+rank: genus
+parent: abelisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1984
+type_species: Abelisaurus comahuensis
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from Argentina, the namesake of the family, known from a skull.
+size:
+  length_m: [7.4, 7.4]
+  note: Probably about 7.4 m, though uncertain because the skull is the only known part (Wikipedia revision 1369486177).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Abelisaurus comahuensis
+  authority: Bonaparte 1984
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Allen
+  group: Malargüe
+  members: [Lower]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: allen-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Abelisaurus skull.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Abelisaurus_skull.jpg/960px-Abelisaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Abelisaurus_skull.jpg
+  artist: Christophe Hendrickx
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-03-07'
+  caption: Skull of Abelisaurus.
+  width: 2772
+  height: 1677
+  review: unreviewed
+- kind: life
+  file: Abelisaurus BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/04/Abelisaurus_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Abelisaurus_BW.jpg
+  artist: Nobu Tamura ( https://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-03'
+  caption: Life restoration of Abelisaurus.
+  width: 800
+  height: 587
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8fdd2b1b-15ec-4248-864d-f6c78f153e81/vector.svg
+  png: https://images.phylopic.org/images/8fdd2b1b-15ec-4248-864d-f6c78f153e81/raster/512x185.png
+  page: https://www.phylopic.org/images/8fdd2b1b-15ec-4248-864d-f6c78f153e81
+  attribution: Alessio Ciaffi
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Abelisaurus comahuensis
+  matched: Abelisaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Bonaparte, Jose F; Novas, Fernando E 1985. Abelisaurus comahuensis, n.g., n.sp., Carnosauria del Crétacico
+    Tardio de Patagonia. Ameghiniana 21: 259–265.'
+- kind: literature
+  text: 'Gianechini, Federico A.; Apesteguía, Sebastián; Landini, Walter; Finotti, Franco; Juárez Valieri, Rubén;
+    Zandonai, Fabiana 2015. New abelisaurid remains from the Anacleto Formation (Upper Cretaceous), Patagonia, Argentina.
+    Cretaceous Research 54: 1–16. doi:10.1016/j.cretres.2014.11.009'
+- kind: literature
+  text: 'Grillo, Orlando Nelson; Delcourt, Rafael 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Abelisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Abelisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Abelisaurus”. English Wikipedia, revision 1369486177.
+  url: https://en.wikipedia.org/w/index.php?title=Abelisaurus&oldid=1369486177
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

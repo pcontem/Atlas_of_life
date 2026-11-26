@@ -3,18 +3,18 @@ name: Portezuelo
 rank: formation
 group: Neuquén
 country: Argentina
-regions: [Neuquen, Neuquén]
+regions: [' Neuquén', Neuquen, Neuquén]
 location:
-  lat: -38.453
-  lng: -68.788
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: -38.668
+  lng: -69.135
+  basis: median of 6 PBDB collections that yielded the atlas genera
 age:
   first_ma: 93.9
   last_ma: 85.7
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., channel lag]
-lithology: [conglomerate, not reported, sandstone]
-pbdb_collections: ['36947', '49415', '79953', '219376']
+environment: [terrestrial indet., channel lag, fluvial indet.]
+lithology: [sandstone, not reported, conglomerate]
+pbdb_collections: ['36947', '49415', '55264', '79953', '219376', '230241']
 includes: []
 summary: ''
 paleoenvironment: ''

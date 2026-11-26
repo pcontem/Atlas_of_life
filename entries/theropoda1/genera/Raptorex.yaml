@@ -1,0 +1,98 @@
+name: Raptorex
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: true
+placement_note: Wikipedia calls it a controversial tyrannosaurid known from one juvenile; Fowler et al. 2011 reanalysed
+  it as a juvenile of a larger form.
+authority: Sereno et al. 2009
+type_species: Raptorex kriegsteini
+type_species_note: ''
+summary: Controversial tyrannosaurid known from a single juvenile specimen, probably from Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 66
+  early_interval: Barremian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Raptorex kriegsteini
+  authority: Sereno et al. 2009
+  first_ma: 125.77
+  last_ma: 66
+  interval: Barremian–Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Barremian–Maastrichtian
+  occurrences: 1
+  ma: [66.0, 125.77]
+  id: unnamed-raptorex-type-locality-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Raptorex head 01.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ad/Raptorex_head_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Raptorex_head_01.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Head restoration of Raptorex kriegsteini.
+  width: 1056
+  height: 801
+  review: unreviewed
+- kind: fossil
+  file: Raptorex skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Raptorex_skeleton.jpg/960px-Raptorex_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Raptorex_skeleton.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2011-09-24'
+  caption: Skeleton of Raptorex kriegsteini.
+  width: 3648
+  height: 2736
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/vector.svg
+  png: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/raster/512x198.png
+  page: https://www.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eotyrannus lengi
+  matched: Tyrannosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sereno, P.; Tan, L.; Brusatte, S. L.; Kriegstein, H. J.; Zhao, X.; Cloward, K. 2009. Tyrannosaurid skeletal
+    design first evolved at small body size. [[Science (journal) 326(5951): 418–422. doi:10.1126/science.1177428'
+- kind: literature
+  text: 'Fowler, DW; Woodward, HN; Freedman, EA; Larson, PL; Horner, JR 2011. Reanalysis of "Raptorex kriegsteini":
+    A Juvenile Tyrannosaurid Dinosaur from Mongolia. PLOS ONE 6(6). doi:10.1371/journal.pone.0021376'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Raptorex (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Raptorex
+- kind: encyclopedia
+  text: Wikipedia contributors. “Raptorex”. English Wikipedia, revision 1362625665.
+  url: https://en.wikipedia.org/w/index.php?title=Raptorex&oldid=1362625665
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

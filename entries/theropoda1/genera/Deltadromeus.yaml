@@ -1,0 +1,122 @@
+name: Deltadromeus
+rank: genus
+parent: noasauridae
+incertae_sedis: true
+placement_note: Controversial theropod; placed in Noasauridae by Hendrickx et al. 2024 but other analyses recover
+  it elsewhere in Ceratosauria or in Megaraptora.
+authority: Sereno et al. 1996
+type_species: Deltadromeus agilis
+type_species_note: ''
+summary: Controversial mid-Cretaceous theropod from Morocco described in 1996 from an incomplete postcranial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Deltadromeus agilis
+  authority: Sereno et al. 1996
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Baharîje
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Matruh]
+  interval: Early Cenomanian
+  occurrences: 4
+  ma: [93.9, 100.5]
+  id: baharije-egypt
+- formation: Gara Sbaa
+  group: Kem Kem
+  members: []
+  country: Morocco
+  regions: [Drâa-Tafilalet]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: gara-sbaa-morocco
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Illizi]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: unnamed-oued-ameregh-algeria
+fossil_material:
+  holotype: Not given in the sources used.
+  material: An incomplete postcranial skeleton (holotype SGM Din-2, according to the Commons file title).
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Deltadromeus holotype SGM DIN-2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Deltadromeus_holotype_SGM_DIN-2.jpg/960px-Deltadromeus_holotype_SGM_DIN-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deltadromeus_holotype_SGM_DIN-2.jpg
+  artist: Augustios Paleo
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-03-28'
+  caption: Holotype SGM Din-2 of Deltadromeus.
+  width: 4032
+  height: 3024
+  review: unreviewed
+- kind: skeletal
+  file: Deltadromeus skeletal.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Deltadromeus_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Deltadromeus_skeletal.jpg
+  artist: Nizar Ibrahim, Paul C. Sereno, David J. Varricchio, David M. Martill, Didier B. Dutheil, David M. Unwin,
+    Lahssen Baidder, Hans C. E. Larsson, Samir Zouhri, Abdelhadi Kaoukaya
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-04-21'
+  caption: Skeletal reconstruction of Deltadromeus.
+  width: 1512
+  height: 960
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754/vector.svg
+  png: https://images.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754/raster/512x262.png
+  page: https://www.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Deltadromeus agilis
+  matched: Deltadromeus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Sereno, Paul C.; Dutheil, Didier B.; Iarochene, M.; Larsson, Hans C. E.; Lyon, Gabrielle H.; Magwene, Paul
+    M.; Sidor, Christian A.; Varricchio, David J.; Wilson, Jeffrey A. 1996. Predatory Dinosaurs from the Sahara
+    and Late Cretaceous Faunal Differentiation. Science 272(5264): 986–991. doi:10.1126/science.272.5264.986'
+- kind: literature
+  text: 'Sereno, Paul C.; Wilson, Jeffrey A.; Conrad, Jack L. 2004. New dinosaurs link southern landmasses in the
+    Mid–Cretaceous. Proceedings of the Royal Society of London. Series B: Biological Sciences 271(1546): 1325–1330.
+    doi:10.1098/rspb.2004.2692'
+- kind: literature
+  text: 'Carrano, Matthew T.; and Sampson, Scott D. 2008. The Phylogeny of Ceratosauria (Dinosauria: Theropoda).
+    Journal of Systematic Palaeontology 6(2): 183–236. doi:10.1017/S1477201907002246'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Deltadromeus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Deltadromeus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Deltadromeus”. English Wikipedia, revision 1385772611.
+  url: https://en.wikipedia.org/w/index.php?title=Deltadromeus&oldid=1385772611
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

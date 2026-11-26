@@ -1,0 +1,102 @@
+name: Timurlengia
+rank: genus
+parent: tyrannosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Brusatte et al. 2016
+type_species: Timurlengia euotica
+type_species_note: ''
+summary: Tyrannosauroid from the Turonian Bissekty Formation of Uzbekistan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Timurlengia euotica
+  authority: Brusatte et al. 2016
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Timurlengia Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Timurlengia_Skeletal.png/960px-Timurlengia_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Timurlengia_Skeletal.png
+  artist: Definitely NOT Dilophosaurus
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-12-23'
+  caption: Skeletal reconstruction of Timurlengia euotica.
+  width: 6075
+  height: 2757
+  review: unreviewed
+- kind: fossil
+  file: Timurlengia braincase NMNH.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Timurlengia_braincase_NMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Timurlengia_braincase_NMNH.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-07-25'
+  caption: Braincase of Timurlengia euotica.
+  width: 1207
+  height: 1163
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/vector.svg
+  png: https://images.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be/raster/512x198.png
+  page: https://www.phylopic.org/images/8025b9c9-380b-44ca-a087-d0aa80c245be
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eotyrannus lengi
+  matched: Tyrannosauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: S. L. Brusatte, A. Averianov, and H. Sues, A. Muir, I. B. Butler. 2016. New tyrannosaur from the mid-Cretaceous
+    of Uzbekistan clarifies evolution of giant body sizes and advanced senses in tyrant dinosaurs. Proceedings of
+    the National Academy of Sciences 113(13):3447-3452
+- kind: literature
+  text: 'Averianov, A.; Sues, H-D. 2012. Skeletal remains of Tyrannosauroidea (Dinosauria: Theropoda) from the Bissekty
+    Formation (Upper Cretaceous: Turonian) of Uzbekistan. Cretaceous Research 34: 284–297. doi:10.1016/j.cretres.2011.11.009'
+- kind: literature
+  text: 'Voris, Jared T.; Zelenitsky, Darla K.; Kobayashi, Yoshitsugu; Modesto, Sean P.; Therrien, François; Tsutsumi,
+    Hiroki; Chinzorig, Tsogtbaatar; Tsogtbaatar, Khishigjav 2025. A new Mongolian tyrannosauroid and the evolution
+    of Eutyrannosauria. [[Nature (journal) 642(8069): 973–979. doi:10.1038/s41586-025-08964-6'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Timurlengia (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Timurlengia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Timurlengia”. English Wikipedia, revision 1362626693.
+  url: https://en.wikipedia.org/w/index.php?title=Timurlengia&oldid=1362626693
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

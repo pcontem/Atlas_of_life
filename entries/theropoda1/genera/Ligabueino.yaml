@@ -1,0 +1,88 @@
+name: Ligabueino
+rank: genus
+parent: noasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1996
+type_species: Ligabueino andesi
+type_species_note: ''
+summary: Tiny abelisauroid from the La Amarga Formation of Argentina, known from a very fragmentary juvenile.
+size:
+  length_m: [0.79, 0.79]
+  note: Specimen about 79 cm long; the unfused vertebrae show it was a juvenile, so adult size is unknown.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ligabueino andesi
+  authority: Bonaparte 1996
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: La Amarga
+  group: Bajada del Agrio
+  members: [Puesto Antigual]
+  country: Argentina
+  regions: [Neuquén]
+  interval: Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: la-amarga-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: A single extremely fragmentary specimen.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Ligabueino andesi paleoart.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ligabueino_andesi_paleoart.png/960px-Ligabueino_andesi_paleoart.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ligabueino_andesi_paleoart.png
+  artist: Paleo lazo yt
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-09-28'
+  caption: Paleoart of Ligabueino andesi.
+  width: 2796
+  height: 984
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/vector.svg
+  png: https://images.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58/raster/512x260.png
+  page: https://www.phylopic.org/images/59f28864-a02b-44ab-8ed6-5e3bbecaee58
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Masiakasaurus knopfleri
+  matched: Noasauridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. F. Bonaparte. 1996. Cretaceous tetrapods of Argentina. Münchner Geowissenschaften Abhandlungen 30:73-130
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: literature
+  text: 'Novas, F.E.; Agnolin, F.L.; Ezcurra, M.D.; Porfiri, J.; Canale, J.I. 2013. Evolution of the carnivorous
+    dinosaurs during the Cretaceous: The evidence from Patagonia. Cretaceous Research 45: 174–215. doi:10.1016/j.cretres.2013.04.001'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ligabueino (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ligabueino
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ligabueino”. English Wikipedia, revision 1344054422.
+  url: https://en.wikipedia.org/w/index.php?title=Ligabueino&oldid=1344054422
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Size is from a juvenile specimen and not an adult range (M4).
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

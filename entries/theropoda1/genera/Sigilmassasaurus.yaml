@@ -1,0 +1,92 @@
+name: Sigilmassasaurus
+rank: genus
+parent: spinosaurinae
+incertae_sedis: true
+placement_note: Wikipedia calls it a controversial genus; some analyses treat its material as Spinosaurus (see Evers
+  et al. 2015 cited there), others keep it separate.
+authority: Russell 1996
+type_species: Sigilmassasaurus brevicollis
+type_species_note: ''
+summary: Controversial spinosaurid from the Cenomanian of northern Africa, known mainly from neck vertebrae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: Cenomanian
+  pbdb_occurrences: 0
+  note: PBDB has no dated occurrence; age 100 to 94 Ma (Cenomanian) from the English Wikipedia lead (revision 1360889948).
+    Boundaries are the ICS limits of the stage.
+species:
+- name: Sigilmassasaurus brevicollis
+  authority: Russell 1996
+  first_ma: 119.57
+  last_ma: 93.9
+  interval: Aptian–Cenomanian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Life reconstruction of Sigilmassasaurus brevicollis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Life_reconstruction_of_Sigilmassasaurus_brevicollis.png/960px-Life_reconstruction_of_Sigilmassasaurus_brevicollis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Sigilmassasaurus_brevicollis.png
+  artist: Connor Ashbridge
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-28'
+  caption: Life reconstruction of Sigilmassasaurus brevicollis.
+  width: 2842
+  height: 987
+  review: unreviewed
+- kind: fossil
+  file: Sigilmassasaurus vertebra.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Sigilmassasaurus_vertebra.png/960px-Sigilmassasaurus_vertebra.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sigilmassasaurus_vertebra.png
+  artist: Serjoscha W. Evers​, Oliver W.M. Rauhut, Angela C. Milner, Bradley McFeeters, Ronan Allain
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015'
+  caption: Sigilmassasaurus vertebra.
+  width: 2427
+  height: 3292
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a6bedf44-cf1c-4a92-b90c-2a16bd7ca6b2/vector.svg
+  png: https://images.phylopic.org/images/a6bedf44-cf1c-4a92-b90c-2a16bd7ca6b2/raster/512x145.png
+  page: https://www.phylopic.org/images/a6bedf44-cf1c-4a92-b90c-2a16bd7ca6b2
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Spinosaurus aegyptiacus
+  matched: Sigilmassasaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Russell, D.A. 1996. Isolated Dinosaur bones from the Middle Cretaceous of the Tafilalt, Morocco. Bulletin
+    du Muséum National d''Histoire Naturelle, Section C 18: 349–402.'
+- kind: literature
+  text: Evers, S. W.; Rauhut, O. W. M.; Milner, A. C.; McFeeters, B.; Allain, R. 2015. A reappraisal of the morphology
+    and systematic position of the theropod dinosaur ''Sigilmassasaurus'' from the "middle" Cretaceous of Morocco.
+    PeerJ 3. doi:10.7717/peerj.1323
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sigilmassasaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sigilmassasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sigilmassasaurus”. English Wikipedia, revision 1360889948.
+  url: https://en.wikipedia.org/w/index.php?title=Sigilmassasaurus&oldid=1360889948
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Possible synonym of Spinosaurus; validity debated (Wikipedia rev 1360889948). Check primary literature.
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

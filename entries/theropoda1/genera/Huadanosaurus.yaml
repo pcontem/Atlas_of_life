@@ -1,0 +1,89 @@
+name: Huadanosaurus
+rank: genus
+parent: compsognathidae
+incertae_sedis: true
+placement_note: Wikipedia calls it a compsognathid-like theropod; PBDB places it in Sinosauropterygidae, and Hendrickx
+  2025 commented on the naming paper.
+authority: Qiu et al. 2025
+type_species: Huadanosaurus sinensis
+type_species_note: ''
+summary: Compsognathid-like theropod from the Early Cretaceous Yixian Formation of China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Huadanosaurus sinensis
+  authority: Qiu et al. 2025
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dawangzhangzi]
+  country: China
+  regions: [Liaoning]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Huadanosaurus (holotype, IVPP V 14202).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Huadanosaurus_%28holotype%2C_IVPP_V_14202%29.png/960px-Huadanosaurus_%28holotype%2C_IVPP_V_14202%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Huadanosaurus_(holotype,_IVPP_V_14202).png
+  artist: R. Qiu, X. Wang, S. Jiang, J. Meng & Z. Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-02-22'
+  caption: Holotype of Huadanosaurus sinensis.
+  width: 11264
+  height: 4518
+  review: unreviewed
+- kind: life
+  file: Huadanosaurus (skull and neck reconstruction).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Huadanosaurus_%28skull_and_neck_reconstruction%29.png/960px-Huadanosaurus_%28skull_and_neck_reconstruction%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Huadanosaurus_(skull_and_neck_reconstruction).png
+  artist: R. Qiu, X. Wang, S. Jiang, J. Meng & Z. Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-02-22'
+  caption: Skull and neck reconstruction of Huadanosaurus.
+  width: 1980
+  height: 937
+  review: unreviewed
+sources:
+- kind: original
+  text: Qiu, Rui; Wang, Xiaolin; Jiang, Shunxing; Meng, Jin; Zhou, Zhonghe 2025. Two new compsognathid-like theropods
+    show diversified predation strategies in theropod dinosaurs. National Science Review 12(5). doi:10.1093/nsr/nwaf068
+- kind: literature
+  text: Hendrickx, Christophe 2025. Comment on "Two new compsognathid-like theropods show diversified predation
+    strategies of theropod dinosaurs" by Qiu et al. National Science Review 12(5). doi:10.1093/nsr/nwaf131
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Huadanosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Huadanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Huadanosaurus”. English Wikipedia, revision 1351852723.
+  url: https://en.wikipedia.org/w/index.php?title=Huadanosaurus&oldid=1351852723
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

@@ -1,0 +1,78 @@
+name: Shuangbaisaurus
+rank: genus
+parent: theropoda
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2017
+type_species: Shuangbaisaurus anlongbaoensis
+type_species_note: ''
+summary: Crested theropod from the Early Jurassic of Yunnan, China, possibly a junior synonym of Sinosaurus.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 201.4
+  last_ma: 199.5
+  early_interval: Hettangian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Shuangbaisaurus anlongbaoensis
+  authority: Wang et al. 2017
+  first_ma: 201.4
+  last_ma: 199.5
+  interval: Hettangian
+  reference: original description
+formations:
+- formation: Fengjiahe
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Yunnan]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: fengjiahe-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8f91ac3c-8e48-4e65-9a0c-29d4b2fbb503/vector.svg
+  png: https://images.phylopic.org/images/8f91ac3c-8e48-4e65-9a0c-29d4b2fbb503/raster/512x129.png
+  page: https://www.phylopic.org/images/8f91ac3c-8e48-4e65-9a0c-29d4b2fbb503
+  attribution: Ryan Santos Soledade
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Sinosaurus triassicus
+  matched: Shuangbaisaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Wang, G.-F.; You, H.-L.; Pan, S.-G.; Wang, T. 2017. A new crested theropod dinosaur from the Early Jurassic
+    of Yunnan Province, China. Vertebrata PalAsiatica 55(2): 177–186.'
+- kind: literature
+  text: 'Carrano, M. T.; Benson, R. B. J.; Sampson, S. D. 2012. The phylogeny of Tetanurae (Dinosauria: Theropoda).
+    Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: literature
+  text: 'Ezcurra, M.D.; Novas, F.E. 2007. Phylogenetic relationships of the Triassic theropod ''''Zupaysaurus rougieri''''
+    from NW Argentina. Historical Biology 19(1): 35–72. doi:10.1080/08912960600845791'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shuangbaisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shuangbaisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shuangbaisaurus”. English Wikipedia, revision 1379843801.
+  url: https://en.wikipedia.org/w/index.php?title=Shuangbaisaurus&oldid=1379843801
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Wikipedia (rev 1379843801) says it is possibly a junior synonym of Sinosaurus; if the synonymy is accepted by
+    recent literature, move to excluded.yaml (M1).
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

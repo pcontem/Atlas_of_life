@@ -1,0 +1,89 @@
+name: Berberosaurus
+rank: genus
+parent: ceratosauridae
+incertae_sedis: true
+placement_note: Original description called it a basal abelisauroid; later analyses place it among ceratosaurs or
+  neotheropods; Wikipedia says possibly a ceratosaur.
+authority: Allain et al. 2007
+type_species: Berberosaurus liassicus
+type_species_note: ''
+summary: Toarcian neotheropod from the Azilal Formation of Morocco, possibly a ceratosaur.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 192.9
+  last_ma: 174.7
+  early_interval: Pliensbachian
+  late_interval: Toarcian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Berberosaurus liassicus
+  authority: Allain et al. 2007
+  first_ma: 192.9
+  last_ma: 174.7
+  interval: Pliensbachian–Toarcian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Toundoute
+  members: []
+  country: Morocco
+  regions: [Ouarzazate]
+  interval: Pliensbachian–Toarcian
+  occurrences: 1
+  ma: [174.7, 192.9]
+  id: toundoute-group-morocco
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Berberosaurus life restoration 2019.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Berberosaurus_life_restoration_2019.jpg/960px-Berberosaurus_life_restoration_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Berberosaurus_life_restoration_2019.jpg
+  artist: Mario Lanzas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-12-29'
+  caption: Life restoration of Berberosaurus.
+  width: 2220
+  height: 1111
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/139a258e-6e93-44d7-b679-91e7fb16a5e7/vector.svg
+  png: https://images.phylopic.org/images/139a258e-6e93-44d7-b679-91e7fb16a5e7/raster/512x153.png
+  page: https://www.phylopic.org/images/139a258e-6e93-44d7-b679-91e7fb16a5e7
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Ceratosaurus nasicornis
+  matched: Ceratosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Allain, Ronan 2007. A basal abelisauroid from the late Early Jurassic of the High Atlas Mountains, Morocco,
+    and the radiation of ceratosaurs. Journal of Vertebrate Paleontology 27(3): 610–624. doi:10.1671/0272-4634(2007)27[610:AADTFT]2.0.CO;2'
+- kind: literature
+  text: 'Xu, X. 2009. A Jurassic ceratosaur from China helps clarify avian digital homologies (supplementary information).
+    Nature 459(7249): 940–944. doi:10.1038/nature08124'
+- kind: literature
+  text: 'Ezcurra, M.D. 2010. An abelisauroid dinosaur with a non-atrophied manus from the Late Cretaceous Pari Aike
+    Formation of southern Patagonia. Zootaxa 2450: 1–25. doi:10.11646/zootaxa.2450.1.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Berberosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Berberosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Berberosaurus”. English Wikipedia, revision 1368873536.
+  url: https://en.wikipedia.org/w/index.php?title=Berberosaurus&oldid=1368873536
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

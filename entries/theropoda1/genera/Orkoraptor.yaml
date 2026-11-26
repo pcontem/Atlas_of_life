@@ -1,0 +1,89 @@
+name: Orkoraptor
+rank: genus
+parent: megaraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2008
+type_species: Orkoraptor burkei
+type_species_note: ''
+summary: Megaraptoran from the Late Cretaceous of Argentina, known from parts of the skull, teeth and tail.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Orkoraptor burkei
+  authority: Novas et al. 2008
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Cerro Fortaleza
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: cerro-fortaleza-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Orkoraptor drawing.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Orkoraptor_drawing.jpg/960px-Orkoraptor_drawing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Orkoraptor_drawing.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-10-22'
+  caption: Drawing of Orkoraptor burkei.
+  width: 3489
+  height: 1224
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/vector.svg
+  png: https://images.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65/raster/512x161.png
+  page: https://www.phylopic.org/images/c6099e64-f64e-4685-89a8-10185713ba65
+  attribution: T. Tischler
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Australovenator wintonensis
+  matched: Megaraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Novas, F.E. 2008. ''''Orkoraptor burkei'''' nov. gen. et sp., a large theropod from the Maastrichtian Pari
+    Aike Formation, Southern Patagonia, Argentina. Cretaceous Research 29(3): 468–480. doi:10.1016/j.cretres.2008.01.001'
+- kind: literature
+  text: 'Benson, R.B.J.; Carrano, M.T; Brusatte, S.L. 2010. A new clade of archaic large-bodied predatory dinosaurs
+    (Theropoda: Allosauroidea) that survived to the latest Mesozoic. Naturwissenschaften 97(1): 71–78. doi:10.1007/s00114-009-0614-x'
+- kind: literature
+  text: 'Porfiri, Juan D.; Novas, Fernando E.; Calvo, Jorge O.; Agnolín, Frederico L.; Ezcurra, Martín D.; Cerda,
+    Ignacio A. 2014. Juvenile specimen of Megaraptor (Dinosauria, Theropoda) sheds light about tyrannosauroid radiation.
+    Cretaceous Research 51: 35–55. doi:10.1016/j.cretres.2014.04.007'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Orkoraptor (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Orkoraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Orkoraptor”. English Wikipedia, revision 1384627793.
+  url: https://en.wikipedia.org/w/index.php?title=Orkoraptor&oldid=1384627793
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

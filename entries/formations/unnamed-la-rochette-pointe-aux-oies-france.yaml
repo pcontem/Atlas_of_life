@@ -5,22 +5,27 @@ group: ''
 country: France
 regions:
 - Aquitaine
+- Charentes
+- Franche-Comte
+- Franche-Comté
 - Hauts-de-France
 - Lorraine
+- Marne
 - Nord-Pas-de-Calais
 - Normandy
+- Pas-de-Calais
 - Poitou-Charentes
 location:
-  lat: 50.767
-  lng: 1.617
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  lat: 50.758
+  lng: 1.611
+  basis: median of 4 PBDB collections that yielded the atlas genera
 age:
   first_ma: 149.2
   last_ma: 141.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [estuary/bay, terrestrial indet.]
+environment: [estuary/bay, terrestrial indet., marine indet.]
 lithology: [sandstone, not reported]
-pbdb_collections: ['92145', '144342', '200129']
+pbdb_collections: ['53966', '92145', '144342', '200129']
 includes: []
 summary: ''
 paleoenvironment: ''

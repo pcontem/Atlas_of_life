@@ -1,0 +1,91 @@
+name: Rahiolisaurus
+rank: genus
+parent: brachyrostra
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2010
+type_species: Rahiolisaurus gujaratensis
+type_species_note: ''
+summary: Late Cretaceous abelisaurid from the Lameta Formation of Gujarat, India, based on fossils of at least seven
+  individuals.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rahiolisaurus gujaratensis
+  authority: Novas et al. 2010
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lameta
+  group: ''
+  members: []
+  country: India
+  regions: [Gujarat]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lameta-india
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Elements from at least seven different individuals.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Rahiolisaurus restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Rahiolisaurus_restoration.png/960px-Rahiolisaurus_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rahiolisaurus_restoration.png
+  artist: Paleocolour
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2018-12-23'
+  caption: Restoration of Rahiolisaurus.
+  width: 2500
+  height: 962
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. E. Novas, S. Chatterjee, and D. K. Rudra, P. M. Datta. 2010. Rahiolisaurus gujaratensis, n. gen. n. sp.,
+    a new abelisaurid theropod from the Late Cretaceous of India. New Aspects of Mesozoic Biodiversity. Lecture
+    Notes in Earth Sciences 132. Springer-Verlag, Berlin
+- kind: literature
+  text: 'Delcourt, R. 2018. Ceratosaur Palaeobiology: New Insights on Evolution and Ecology of the Southern Rulers.
+    Scientific Reports 8(9730). doi:10.1038/s41598-018-28154-x'
+- kind: literature
+  text: 'Tortosa, T.; Buffetaut, E.; Vialle, N.; Dutour, Y.; Turini, E.; Cheylan, G. 2014. A new abelisaurid dinosaur
+    from the Late Cretaceous of southern France: Palaeobiogeographical implications. Annales de Paléontologie 100(1):
+    63–86. doi:10.1016/j.annpal.2013.10.003'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rahiolisaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rahiolisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rahiolisaurus”. English Wikipedia, revision 1387599290.
+  url: https://en.wikipedia.org/w/index.php?title=Rahiolisaurus&oldid=1387599290
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, biology.'
+  reviews: []

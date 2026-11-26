@@ -1,0 +1,114 @@
+name: Limusaurus
+rank: genus
+parent: noasauridae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2009
+type_species: Limusaurus inextricabilis
+type_species_note: ''
+summary: Late Jurassic ceratosaur from the Shishugou Formation of China, toothless as an adult with a reduced hand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Limusaurus inextricabilis
+  authority: Xu et al. 2009
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Shishugou
+  group: ''
+  members: [Upper]
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 3
+  ma: [154.8, 161.5]
+  id: shishugou-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Specimens of several growth stages from the Upper Shishugou Formation in the Junggar Basin.
+  completeness: multiple
+  exceptional: ''
+biology: Individuals changed their teeth and diet dramatically as they grew (Wang et al. 2017).
+images:
+- kind: fossil
+  file: Limusaurus inextricabilis holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Limusaurus_inextricabilis_holotype.jpg/960px-Limusaurus_inextricabilis_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Limusaurus_inextricabilis_holotype.jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2011-09-24'
+  caption: Holotype of Limusaurus inextricabilis.
+  width: 3648
+  height: 2252
+  review: unreviewed
+- kind: skeletal
+  file: Limusaurus inextricabilis skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Limusaurus_inextricabilis_skeleton.jpg/960px-Limusaurus_inextricabilis_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Limusaurus_inextricabilis_skeleton.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011'
+  caption: Skeleton of Limusaurus inextricabilis.
+  width: 2500
+  height: 923
+  review: unreviewed
+- kind: fossil
+  file: Limusaurus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/63/Limusaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Limusaurus_skull.jpg
+  artist: Rafael Delcourt.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018'
+  caption: Skull of Limusaurus.
+  width: 374
+  height: 222
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/942345e0-17df-4fea-95e1-757d7fce9b8c/vector.svg
+  png: https://images.phylopic.org/images/942345e0-17df-4fea-95e1-757d7fce9b8c/raster/512x209.png
+  page: https://www.phylopic.org/images/942345e0-17df-4fea-95e1-757d7fce9b8c
+  attribution: Ville-Veikko Sinkkonen
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Limusaurus inextricabilis
+  matched: Limusaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Xu, X.; Clark, J.M.; Mo, J.; Choiniere, J.; Forster, C.A.; Erickson, G.M.; Hone, D.W.E.; Sullivan, C.;
+    Eberth, D.A.; Nesbitt, S.; Zhao, Q.; Hernandez, R.; Jia, C.-K.; Han, F.-L.; Guo, Y. 2009. A Jurassic ceratosaur
+    from China helps clarify avian digital homologies. [[Nature (journal) 459(18): 940–944. doi:10.1038/nature08124'
+- kind: literature
+  text: 'Wang, S.; Stiegler, J.; Amiot, R.; Wang, X.; Du, G.-H.; Clark, J.M.; Xu, X. 2017. Extreme ontogenetic changes
+    in a ceratosaurian theropod. Current Biology 27(1): 144–148. doi:10.1016/j.cub.2016.10.043'
+- kind: literature
+  text: 'Guinard, G. 2016. ''''Limusaurus inextricabilis'''' (Theropoda: Ceratosauria) gives a hand to evolutionary
+    teratology: a complementary view on avian manual digits identities. Zoological Journal of the Linnean Society
+    176(3): 674–685. doi:10.1111/zoj.12329'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Limusaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Limusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Limusaurus”. English Wikipedia, revision 1384944449.
+  url: https://en.wikipedia.org/w/index.php?title=Limusaurus&oldid=1384944449
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype.'
+  reviews: []

@@ -1,0 +1,105 @@
+name: Cryolophosaurus
+rank: genus
+parent: tetanurae
+incertae_sedis: false
+placement_note: ''
+authority: Hammer and Hickerson 1994
+type_species: Cryolophosaurus ellioti
+type_species_note: ''
+summary: Large Early Jurassic theropod from Antarctica, one of the largest theropods of its time.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 199.5
+  last_ma: 184.2
+  early_interval: Sinemurian
+  late_interval: Pliensbachian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cryolophosaurus ellioti
+  authority: Hammer and Hickerson 1994
+  first_ma: 199.5
+  last_ma: 184.2
+  interval: Sinemurian–Pliensbachian
+  reference: original description
+formations:
+- formation: Hanson
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Sinemurian–Pliensbachian
+  occurrences: 1
+  ma: [184.2, 199.5]
+  id: hanson-antarctica
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Cryolophosaurus ellioti skull (FMNH PR1821).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Cryolophosaurus_ellioti_skull_%28FMNH_PR1821%29.jpg/960px-Cryolophosaurus_ellioti_skull_%28FMNH_PR1821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cryolophosaurus_ellioti_skull_(FMNH_PR1821).jpg
+  artist: WehaveaTrex
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-02-23'
+  caption: Skeleton of Cryolophosaurus ellioti.
+  width: 6016
+  height: 4016
+  review: unreviewed
+- kind: fossil
+  file: Cryolophosaurus Hip Fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Cryolophosaurus_Hip_Fossil.jpg/960px-Cryolophosaurus_Hip_Fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cryolophosaurus_Hip_Fossil.jpg
+  artist: Zissoudisctrucker
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-27'
+  caption: Hip bones of Cryolophosaurus.
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e17a6b62-9138-49f2-a662-062ab974b431/vector.svg
+  png: https://images.phylopic.org/images/e17a6b62-9138-49f2-a662-062ab974b431/raster/512x147.png
+  page: https://www.phylopic.org/images/e17a6b62-9138-49f2-a662-062ab974b431
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Cryolophosaurus ellioti
+  matched: Cryolophosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'Hammer, W.R.; Hickerson, W.J.; Slaughter, R.W. 1994. A dinosaur assemblage from the Transantarctic Mountains.
+    Antarctic Journal of the United States 29(5): 31–32.'
+- kind: literature
+  text: 'Bomfleur, B.; Schöner, R.; Schneider, J. W.; Viereck, L.; Kerp, H.; McKellar, J. L. 2014. From the Transantarctic
+    Basin to the Ferrar Large Igneous Province—new palynostratigraphic age constraints for Triassic–Jurassic sedimentation
+    and magmatism in East Antarctica. Review of Palaeobotany and Palynology 207(1): 18–37. doi:10.1016/j.revpalbo.2014.04.002'
+- kind: literature
+  text: 'Smith, N.D. 2013. New Dinosaurs from the Early Jurassic Hanson Formation of Antarctica, and Patterns of
+    Diversity and Biogeography in Early Jurassic Sauropodomorphs. Geological Society of America Abstracts with Programs:
+    405–406.'
+- kind: literature
+  text: 'Carrano, M. T.; Benson, R. B. J.; Sampson, S. D. 2012. The phylogeny of Tetanurae (Dinosauria: Theropoda).
+    Journal of Systematic Palaeontology 10(2): 211–300. doi:10.1080/14772019.2011.630927'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cryolophosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cryolophosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cryolophosaurus”. English Wikipedia, revision 1387151917.
+  url: https://en.wikipedia.org/w/index.php?title=Cryolophosaurus&oldid=1387151917
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

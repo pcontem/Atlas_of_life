@@ -1,0 +1,100 @@
+name: Saltriovenator
+rank: genus
+parent: ceratosauria
+incertae_sedis: false
+placement_note: ''
+authority: Dal Sasso et al. 2018
+type_species: Saltriovenator zanellai
+type_species_note: ''
+summary: The oldest known ceratosaur, an Early Jurassic theropod from Italy about 199 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 199.5
+  last_ma: 192.9
+  early_interval: Sinemurian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Saltriovenator zanellai
+  authority: Dal Sasso et al. 2018
+  first_ma: 199.5
+  last_ma: 192.9
+  interval: Sinemurian
+  reference: original description
+formations:
+- formation: Saltrio
+  group: Calcari Selciferi Lombardi
+  members: []
+  country: Italy
+  regions: [Lombardy]
+  interval: Early Sinemurian
+  occurrences: 1
+  ma: [192.9, 199.5]
+  id: saltrio-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: A partial skeleton from the Sinemurian of Italy, formerly known informally as the saltriosaur.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Saltriovenator block.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Saltriovenator_block.jpg/960px-Saltriovenator_block.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saltriovenator_block.jpg
+  artist: Hectonichus
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2015-07-23'
+  caption: Block with Saltriovenator remains.
+  width: 2468
+  height: 1496
+  review: unreviewed
+- kind: life
+  file: Saltriovenator restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Saltriovenator_restoration.png/960px-Saltriovenator_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saltriovenator_restoration.png
+  artist: Danny Cicchetti
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-12-22'
+  caption: Restoration of Saltriovenator.
+  width: 4026
+  height: 1281
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754/vector.svg
+  png: https://images.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754/raster/512x262.png
+  page: https://www.phylopic.org/images/e1bc809f-5585-4741-acd4-a88e6ef5a754
+  attribution: Jagged Fang Designs
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Deltadromeus agilis
+  matched: Ceratosauria
+  genus_level: false
+sources:
+- kind: original
+  text: 'Dal Sasso, C; Maganuco, S; Cau, A. 2018. The oldest ceratosaurian (Dinosauria: Theropoda), from the Lower
+    Jurassic of Italy, sheds light on the evolution of the three-fingered hand of birds. PeerJ 1(1). doi:10.7717/peerj.5976'
+- kind: literature
+  text: 'Dal Sasso, Cristiano 2003. Dinosaurs of Italy. Comptes Rendus Palevol 2(1): 45–66. doi:10.1016/S1631-0683(03)00007-1'
+- kind: literature
+  text: 'Benson, Roger B. J. 2010. The osteology of ''''Magnosaurus nethercombensis'''' (Dinosauria, Theropoda)
+    from the Bajocian (Middle Jurassic) of the United Kingdom and a re-examination of the oldest records of tetanurans.
+    Journal of Systematic Palaeontology 8(1): 131–146. doi:10.1080/14772011003603515'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saltriovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saltriovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saltriovenator”. English Wikipedia, revision 1368124699.
+  url: https://en.wikipedia.org/w/index.php?title=Saltriovenator&oldid=1368124699
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype.'
+  reviews: []

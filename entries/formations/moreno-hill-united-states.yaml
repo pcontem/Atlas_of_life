@@ -7,14 +7,19 @@ regions: [New Mexico]
 location:
   lat: 35.067
   lng: -108.85
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 93.9
   last_ma: 89.8
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., crevasse splay, wet floodplain]
-lithology: [mudstone, siltstone, claystone]
-pbdb_collections: ['52033', '52358', '52359', '52361']
+environment:
+- fluvial indet.
+- wet floodplain
+- terrestrial indet.
+- delta plain
+- crevasse splay
+lithology: [mudstone, claystone, siltstone, not reported]
+pbdb_collections: ['52033', '52358', '52359', '52360', '52361']
 includes: []
 summary: ''
 paleoenvironment: ''

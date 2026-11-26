@@ -1,0 +1,75 @@
+name: Llukalkan
+rank: genus
+parent: furileusauria
+incertae_sedis: false
+placement_note: ''
+authority: Gianechini et al. 2020
+type_species: Llukalkan aliocranianus
+type_species_note: ''
+summary: Santonian furileusaurian abelisaurid from the Bajo de la Carpa Formation of Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Llukalkan aliocranianus
+  authority: Gianechini et al. 2020
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: MAU-Pv-LI-581 (Bajo de la Carpa Formation, Argentina).
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/vector.svg
+  png: https://images.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24/raster/512x181.png
+  page: https://www.phylopic.org/images/1730665f-ffb8-4026-b9a6-e36ba92bbc24
+  attribution: Andrew Farke and Joseph Sertich
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dahalokely tokana
+  matched: Abelisauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. A. Gianechini, A. H. Méndez, and L. S. Filippi, A. Paulina-Carabajal, R. D. Juárez-Valieri, A. C. Garrido.
+    2020. A new furileusaurian abelisaurid from La Invernada (Upper Cretaceous, Santonian, Bajo De La Carpa Formation),
+    northern Patagonia, Argentina. Journal of Vertebrate Paleontology
+- kind: literature
+  text: Gianechini, Federico A.; Méndez, Ariel H.; Filippi, Leonardo S.; Paulina-Carabajal, Ariana; Juárez-Valieri,
+    Rubén D.; Garrido, Alberto C. 2021. A New Furileusaurian Abelisaurid from La Invernada (Upper Cretaceous, Santonian,
+    Bajo De La Carpa Formation), Northern Patagonia, Argentina. Journal of Vertebrate Paleontology 40(6). doi:10.1080/02724634.2020.1877151
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Llukalkan (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Llukalkan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Llukalkan”. English Wikipedia, revision 1350078611.
+  url: https://en.wikipedia.org/w/index.php?title=Llukalkan&oldid=1350078611
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: material, biology.'
+  reviews: []

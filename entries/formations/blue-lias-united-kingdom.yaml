@@ -3,18 +3,18 @@ name: Blue Lias
 rank: formation
 group: Lias
 country: United Kingdom
-regions: [England]
+regions: [England, Wales]
 location:
-  lat: 50.726
+  lat: 51.406
   lng: -2.939
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 201.4
   last_ma: 192.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [marine indet.]
-lithology: [mudstone]
-pbdb_collections: ['87878']
+lithology: ['"limestone"', not reported, mudstone]
+pbdb_collections: ['37812', '87878', '176060']
 includes: []
 summary: ''
 paleoenvironment: ''

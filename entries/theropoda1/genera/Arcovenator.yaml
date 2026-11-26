@@ -1,0 +1,133 @@
+name: Arcovenator
+rank: genus
+parent: brachyrostra
+incertae_sedis: false
+placement_note: ''
+authority: Tortosa et al. 2014
+type_species: Arcovenator escotae
+type_species_note: ''
+summary: Abelisaurid from the Late Cretaceous of France and possibly Spain, named after the river Arc.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Arcovenator escotae
+  authority: Tortosa et al. 2014
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: unnamed-pourcieux-les-tuillieres-france
+- formation: Argiles rutilantes
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: argiles-rutilantes-france
+- formation: Vegas de Matute
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: vegas-de-matute-spain
+- formation: Vitoria
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: vitoria-spain
+- formation: Sierra Perenchiza
+  group: ''
+  members: []
+  country: Spain
+  regions: [Valencia]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: sierra-perenchiza-spain
+- formation: Sedano
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: sedano-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Arcovenator-escotae---SP.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Arcovenator-escotae---SP.jpg/960px-Arcovenator-escotae---SP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Arcovenator-escotae---SP.jpg
+  artist: Bluedwarf
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-12-19'
+  caption: Life restoration of Arcovenator escotae.
+  width: 2151
+  height: 1400
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2d5c1cf1-6e37-4234-9ddf-173a078691cd/vector.svg
+  png: https://images.phylopic.org/images/2d5c1cf1-6e37-4234-9ddf-173a078691cd/raster/512x181.png
+  page: https://www.phylopic.org/images/2d5c1cf1-6e37-4234-9ddf-173a078691cd
+  attribution: Will Toosey
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Arcovenator escotae
+  matched: Arcovenator
+  genus_level: true
+sources:
+- kind: original
+  text: 'Tortosa, Thierry 2014. A new abelisaurid dinosaur from the Late Cretaceous of southern France: Palaeobiogeographical
+    implications. Annales de Paléontologie 100(1): 63–86. doi:10.1016/j.annpal.2013.10.003'
+- kind: literature
+  text: 'Grillo, O. N.; Delcourt, R. 2016. Allometry and body length of abelisauroid theropods: ''''Pycnonemosaurus
+    nevesi'''' is the new king. Cretaceous Research 69: 71–89. doi:10.1016/j.cretres.2016.09.001'
+- kind: literature
+  text: 'Krause, David W. 2007. ''''Majungasaurus crenatissimus'''' (Theropoda: Abelisauridae) from the Late Cretaceous
+    of Madagascar. doi:10.1671/0272-4634(2007)27[1:OOTHOD]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arcovenator (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arcovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Arcovenator”. English Wikipedia, revision 1377183803.
+  url: https://en.wikipedia.org/w/index.php?title=Arcovenator&oldid=1377183803
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

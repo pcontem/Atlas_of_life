@@ -1,0 +1,111 @@
+name: Monolophosaurus
+rank: genus
+parent: allosauroidea
+incertae_sedis: false
+placement_note: ''
+authority: Zhao and Currie 1994
+type_species: Monolophosaurus jiangi
+type_species_note: ''
+summary: Tetanuran theropod with a single crest, from the Middle Jurassic Shishugou Formation of Xinjiang, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Monolophosaurus jiangi
+  authority: Zhao and Currie 1994
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+- name: Monolophosaurus jiangjunmiaoi
+  authority: Dong 1992
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: ''
+formations:
+- formation: Shishugou
+  group: ''
+  members: [Lower]
+  country: China
+  regions: [Xinjiang]
+  interval: Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: shishugou-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Monolophosaurus jiangi holotype at Paleozoological Museum of China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Monolophosaurus_jiangi_holotype_at_Paleozoological_Museum_of_China.jpg/960px-Monolophosaurus_jiangi_holotype_at_Paleozoological_Museum_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Monolophosaurus_jiangi_holotype_at_Paleozoological_Museum_of_China.jpg
+  artist: BleachedRice
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-12-30'
+  caption: Holotype of Monolophosaurus jiangi.
+  width: 3264
+  height: 2448
+  review: unreviewed
+- kind: life
+  file: Dinosaur Zoo monolophosaurus in game.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/45/Dinosaur_Zoo_monolophosaurus_in_game.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dinosaur_Zoo_monolophosaurus_in_game.png
+  artist: Dotname2469 at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 27 June 20
+  caption: Life restoration of Monolophosaurus jiangi.
+  width: 646
+  height: 486
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/vector.svg
+  png: https://images.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f/raster/512x251.png
+  page: https://www.phylopic.org/images/79f26be5-29d6-4a8e-a2bf-cd3a15fa8e6f
+  attribution: Jordan Mallon (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Monolophosaurus jiangi
+  matched: Monolophosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: X.-J. Zhao and P. J. Currie. 1994. A large crested theropod from the Jurassic of Xinjiang, People's Republic
+    of China. Canadian Journal of Earth Sciences 30(10-11):2027-2036
+- kind: literature
+  text: 'Zhao, Xi-Jin; Currie, Philip J. 1993. A large crested theropod from the Jurassic of Xinjiang, People''s
+    Republic of China. Canadian Journal of Earth Sciences 30(10): 2027–2036. doi:10.1139/e93-178'
+- kind: literature
+  text: 'Brusatte, Stephen L.; Benson, Roger B. J.; Currie, Philip J.; Zhao, Xijin 2010. The skull of ''''Monolophosaurus
+    jiangi'''' (Dinosauria: Theropoda) and its implications for early theropod phylogeny and evolution. Zoological
+    Journal of the Linnean Society 158(3): 573–607. doi:10.1111/j.1096-3642.2009.00563.x'
+- kind: literature
+  text: 'Zhao, Xijin; Benson, Roger B. J.; Brusatte, Stephen L.; Currie, Philip J. 2010. The postcranial skeleton
+    of ''''Monolophosaurus jiangi'''' (Dinosauria: Theropoda) from the Middle Jurassic of Xinjiang, China, and a
+    review of Middle Jurassic Chinese theropods. Geological Magazine 147(1): 13–27. doi:10.1017/S0016756809990240'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Monolophosaurus (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Monolophosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Monolophosaurus”. English Wikipedia, revision 1385203650.
+  url: https://en.wikipedia.org/w/index.php?title=Monolophosaurus&oldid=1385203650
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []

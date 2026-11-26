@@ -1,0 +1,101 @@
+name: Tyrannotitan
+rank: genus
+parent: carcharodontosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2005
+type_species: Tyrannotitan chubutensis
+type_species_note: ''
+summary: Large carcharodontosaurid from the Albian of Patagonia, Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Tyrannotitan chubutensis
+  authority: Novas et al. 2005
+  first_ma: 113.2
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+formations:
+- formation: Cerro Barcino
+  group: Chubut
+  members: [Cerro Castaño]
+  country: Argentina
+  regions: [Chubut]
+  interval: Albian
+  occurrences: 3
+  ma: [100.5, 113.2]
+  id: cerro-barcino-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Tyrannotitan chubutensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tyrannotitan_chubutensis.png/960px-Tyrannotitan_chubutensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tyrannotitan_chubutensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-11'
+  caption: Life restoration of Tyrannotitan chubutensis.
+  width: 4000
+  height: 1239
+  review: unreviewed
+- kind: fossil
+  file: Tyrannotitan skull reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Tyrannotitan_skull_reconstruction.png/960px-Tyrannotitan_skull_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tyrannotitan_skull_reconstruction.png
+  artist: Eotyrannu5
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-07-11'
+  caption: Skull reconstruction of Tyrannotitan.
+  width: 3922
+  height: 3922
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4bf61905-5424-4d54-b4fd-477a62907eae/vector.svg
+  png: https://images.phylopic.org/images/4bf61905-5424-4d54-b4fd-477a62907eae/raster/512x246.png
+  page: https://www.phylopic.org/images/4bf61905-5424-4d54-b4fd-477a62907eae
+  attribution: Michael P. Taylor
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Tyrannotitan chubutensis
+  matched: Tyrannotitan
+  genus_level: true
+sources:
+- kind: original
+  text: 'Novas, F. E. 2005. A large Cretaceous theropod from Patagonia, Argentina, and the evolution of carcharodontosaurids.
+    Naturwissenschaften 92(5): 226–230. doi:10.1007/s00114-005-0623-3'
+- kind: literature
+  text: 'Maniel, Ignacio J.; Almeida, Rafael; Kimbrough, David L.; Susana de la Puente, G.; Garrido, Alberto C.;
+    Bellardini, Flavio; Mahoney, J. Brian 30 J. Albian zircon U-Pb crystallization ages from tuff beds in the Candeleros
+    and Huincul formations, Neuquén Basin, Argentina. Gondwana Research 159: 193–204. doi:10.1016/j.gr.2026.06.020'
+- kind: literature
+  text: 'Campione, Nicolás E.; Evans, David C. 2020. The accuracy and precision of body mass estimation in non-avian
+    dinosaurs. Biological Reviews 95(6): 1759–1797. doi:10.1111/brv.12638'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tyrannotitan (downloaded 2026-11-25).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tyrannotitan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tyrannotitan”. English Wikipedia, revision 1386390602.
+  url: https://en.wikipedia.org/w/index.php?title=Tyrannotitan&oldid=1386390602
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Not read beyond the Wikipedia lead, to complete from the naming paper: holotype, material, biology.'
+  reviews: []
