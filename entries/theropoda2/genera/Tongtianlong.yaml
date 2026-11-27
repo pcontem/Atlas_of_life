@@ -1,0 +1,96 @@
+name: Tongtianlong
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Lü et al. 2016
+type_species: Tongtianlong limosus
+type_species_note: The only valid species listed by PBDB.
+summary: Sheep-sized oviraptorid from the late Maastrichtian of southern China with a distinctive skull roof.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tongtianlong limosus
+  authority: Lü et al. 2016
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Hekou
+  group: ''
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hekou-china
+fossil_material:
+  holotype: A skeleton from the Nanxiong Formation, Ganzhou, Jiangxi, China (Lü et al. 2016).
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Distinguished by a ridge on the parietal, a wide plate-like lacrimal and a foramen magnum smaller than
+  the occipital condyle.
+images:
+- kind: life
+  file: Tongtianlong-4.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Tongtianlong-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tongtianlong-4.jpg
+  artist: Junchang Lü, Rongjun Chen, Stephen L. Brusatte, Yangxiao Zhu & Caizhi Shen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-11-10'
+  caption: Life restoration
+  width: 926
+  height: 1626
+  review: unreviewed
+  local: img/gallery/Tongtianlong_001.webp
+- kind: fossil
+  file: Srep35780-f1.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Srep35780-f1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Srep35780-f1.jpg
+  artist: Junchang Lü, Rongjun Chen, Stephen L. Brusatte, Yangxiao Zhu & Caizhi Shen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-11-10'
+  caption: Holotype in Scientific Reports
+  width: 920
+  height: 784
+  review: unreviewed
+  local: img/gallery/Tongtianlong_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. Lü, R. Chen, and S. L. Brusatte, Y. Zhu, C. Shen. 2016. A Late Cretaceous diversification of Asian oviraptorid
+    dinosaurs: evidence from a new species preserved in an unusual posture. Scientific Reports 6:35780:1-12'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tongtianlong (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tongtianlong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tongtianlong”. English Wikipedia, revision 1369644918.
+  url: https://en.wikipedia.org/w/index.php?title=Tongtianlong&oldid=1369644918
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

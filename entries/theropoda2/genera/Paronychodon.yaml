@@ -1,0 +1,399 @@
+name: Paronychodon
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: A tooth taxon of uncertain affinity, often considered dubious and a form taxon (cited Wikipedia
+  revision); PBDB keeps it in Paraves.
+authority: Cope 1876
+type_species: Paronychodon lacustris
+type_species_note: Taxobox of the cited Wikipedia revision; PBDB lists only P. asiaticus among valid species.
+summary: Tooth taxon of small theropods from the Late Jurassic to the end of the Cretaceous, often considered dubious.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 154.8
+  last_ma: 66
+  early_interval: Kimmeridgian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 141
+  note: ''
+species:
+- name: Paronychodon asiaticus
+  authority: (Nessov 1995)
+  first_ma: 100.5
+  last_ma: 89.8
+  interval: Cenomanian–Turonian
+  reference: ''
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: [Upper]
+  country: United States
+  regions: [Montana, North Dakota, South Dakota]
+  interval: Late Maastrichtian
+  occurrences: 35
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Oldman
+  group: Belly River
+  members: [Lower, Middle, Upper]
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 16
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 14
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 11
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Milk River
+  group: ''
+  members: [Deadhorse Coulee]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Santonian
+  occurrences: 9
+  ma: [83.6, 85.7]
+  id: milk-river-canada
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 5
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+- formation: Ferris
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: ferris-united-states
+- formation: Fruitland
+  group: ''
+  members: [Fossil Forest]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 4
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Râul Mare
+  group: ''
+  members: [upper]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: raul-mare-romania
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Mussentuchit]
+  country: United States
+  regions: [Utah]
+  interval: Early Cenomanian
+  occurrences: 3
+  ma: [93.9, 100.5]
+  id: cedar-mountain-united-states
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Morrin/Tolman, Tolman]
+  country: Canada
+  regions: [Alberta]
+  interval: Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: horseshoe-canyon-canada
+- formation: Vitoria
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: vitoria-spain
+- formation: Foremost
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: foremost-canada
+- formation: Mesaverde
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Judithian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: mesaverde-united-states
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Kirtland
+  group: ''
+  members: [Hunter Wash]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: kirtland-united-states
+- formation: Sînpetru
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: Khodzhakul
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 100.5]
+  id: khodzhakul-uzbekistan
+- formation: Straight Cliffs
+  group: ''
+  members: [Smoky Hollow]
+  country: United States
+  regions: [Utah]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 2
+  ma: [89.8, 93.9]
+  id: straight-cliffs-united-states
+- formation: Alcobaça
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Centro]
+  interval: Kimmeridgian
+  occurrences: 1
+  ma: [149.2, 154.8]
+  id: alcobaca-portugal
+- formation: La Posa
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Aragón]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: la-posa-spain
+- formation: Judith River
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Argilas de Aveiro
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Coimbra]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: argilas-de-aveiro-portugal
+- formation: Ilek
+  group: ''
+  members: []
+  country: Russia
+  regions: [Krasnoyarsk]
+  interval: Barremian–Aptian
+  occurrences: 1
+  ma: [113.2, 125.77]
+  id: ilek-russia
+- formation: Fruitland/Kirtland
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: fruitland-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: unnamed-la-boucharde-france
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+- formation: Santibañez del Val
+  group: ''
+  members: [Calizas de Lychnus]
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: santibanez-del-val-spain
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Blesa
+  group: ''
+  members: [Cabezo Gordo]
+  country: Spain
+  regions: [Aragón]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: blesa-spain
+- formation: Itsuki
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Fukui]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: itsuki-japan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: unnamed-nocea-coal-mine-dump-romania
+- formation: Talarn
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: talarn-spain
+- formation: Schönleiten
+  group: Gosau
+  members: []
+  country: Austria
+  regions: [Styria]
+  interval: Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: schonleiten-austria
+- formation: Williams Fork
+  group: Mesaverde
+  members: []
+  country: United States
+  regions: [Colorado]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: williams-fork-united-states
+fossil_material:
+  holotype: Teeth named by Cope (1876).
+  material: Many isolated teeth from disparate times and places, but no other remains.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from teeth; a second species, P. caperatus, is from the Hell Creek and Lance formations.
+images:
+- kind: fossil
+  file: Paronychodon.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Paronychodon.png/960px-Paronychodon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Paronychodon.png
+  artist: Thomas E. Williamson, Stephen L. Brusatte
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2014'
+  caption: Teeth
+  width: 1800
+  height: 1275
+  review: unreviewed
+  local: img/gallery/Paronychodon_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/vector.svg
+  png: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/raster/512x294.png
+  page: https://www.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Jinfengopteryx elegans
+  matched: Paraves
+  genus_level: false
+sources:
+- kind: original
+  text: E. D. Cope. 1876. Descriptions of some vertebrate remains from the Fort Union Beds of Montana. Proceedings
+    of the Academy of Natural Sciences of Philadelphia 28:248-261
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paronychodon (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paronychodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paronychodon”. English Wikipedia, revision 1341687886.
+  url: https://en.wikipedia.org/w/index.php?title=Paronychodon&oldid=1341687886
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Validity doubtful (form taxon); consider moving to excluded.yaml with a revision as ref.
+  reviews: []

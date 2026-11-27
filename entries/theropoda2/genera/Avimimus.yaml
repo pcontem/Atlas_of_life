@@ -1,0 +1,145 @@
+name: Avimimus
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: false
+placement_note: ''
+authority: Kurzanov 1981
+type_species: Avimimus portentosus
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Bird-like oviraptorosaur from the Late Cretaceous of Mongolia, known from several skeletons and a bonebed.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Avimimus nemegtensis
+  authority: Funston et al. 2018
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Avimimus portentosus
+  authority: Kurzanov 1981
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Partial skeleton recovered by Russian palaeontologists in Mongolia (Kurzanov 1981).
+  material: The holotype, a second nearly complete specimen described in 2000, isolated bones and a large bonebed
+    of Avimimus sp.; a second species, A. nemegtensis, was named by Funston et al. (2018).
+  completeness: multiple
+  exceptional: ''
+biology: Named for its many bird-like characteristics; a bonebed of Avimimus sp. was reported by Currie and colleagues.
+images:
+- kind: life
+  file: Avimimus mmartyniuk wiki.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0f/Avimimus_mmartyniuk_wiki.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Avimimus_mmartyniuk_wiki.png
+  artist: Matt Martyniuk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-10-02'
+  caption: Life restoration by Matt Martyniuk
+  width: 618
+  height: 537
+  review: unreviewed
+  local: img/gallery/Avimimus_001.webp
+- kind: skeletal
+  file: Avimimus portentosus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Avimimus_portentosus.jpg/960px-Avimimus_portentosus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Avimimus_portentosus.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Skeletal reconstruction of A. portentosus
+  width: 1800
+  height: 1080
+  review: unreviewed
+  local: img/gallery/Avimimus_002.webp
+- kind: skeletal
+  file: Avimimus nemegtensis skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Avimimus_nemegtensis_skeletal.png/960px-Avimimus_nemegtensis_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Avimimus_nemegtensis_skeletal.png
+  artist: Gunnar Bivens
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2021-06-15'
+  caption: Skeletal reconstruction of A. nemegtensis
+  width: 8725
+  height: 6240
+  review: unreviewed
+  local: img/gallery/Avimimus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/19c62fea-cab5-45d0-b9a0-10938e7ea5fc/vector.svg
+  png: https://images.phylopic.org/images/19c62fea-cab5-45d0-b9a0-10938e7ea5fc/raster/512x445.png
+  page: https://www.phylopic.org/images/19c62fea-cab5-45d0-b9a0-10938e7ea5fc
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Avimimus portentosus
+  matched: Avimimus
+  genus_level: true
+  w: 512
+  h: 445
+sources:
+- kind: original
+  text: S. M. Kurzanov. 1981. O neobuchnykh teropodakh iz verkhnego mela MNR [An unusual theropod from the Upper
+    Cretaceous of Mongolia]. Fossil Reptiles of Mongolia. Sovmestnaya Sovetsko-Mongol'skaya Paleontologicheskaya
+    Ekspeditsiya, Trudy [The Joint Soviet-Mongolian Paleontological Expedition, Transactions] 24:39-50
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Avimimus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Avimimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Avimimus”. English Wikipedia, revision 1378551495.
+  url: https://en.wikipedia.org/w/index.php?title=Avimimus&oldid=1378551495
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

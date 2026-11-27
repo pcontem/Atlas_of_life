@@ -1,0 +1,113 @@
+name: Stenonychosaurus
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Sternberg 1932
+type_species: Stenonychosaurus inequalis
+type_species_note: Taxobox of Wikipedia revision 1351323801.
+summary: Troodontid from the Campanian Dinosaur Park Formation of Alberta, long included in Troodon.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 14
+  note: ''
+species:
+- name: Stenonychosaurus inequalis
+  authority: (Sternberg 1932)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Oldman
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 6
+  ma: [72.2, 83.6]
+  id: oldman-canada
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana, Wyoming]
+  interval: Lancian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: A foot, hand fragments and tail vertebrae found by Sternberg in 1928, Dinosaur Park Formation, Alberta.
+  material: The holotype and skeletons once referred to Troodon.
+  completeness: multiple
+  exceptional: ''
+biology: Its validity is disputed, as some authors treat it as a junior synonym of Troodon.
+images:
+- kind: life
+  file: Life reconstruction of Stenonychosaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Life_reconstruction_of_Stenonychosaurus.png/960px-Life_reconstruction_of_Stenonychosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Stenonychosaurus.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-09-30'
+  caption: Life restoration
+  width: 2351
+  height: 1052
+  review: unreviewed
+  local: img/gallery/Stenonychosaurus_001.webp
+- kind: skeletal
+  file: Stenonychosaurus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Stenonychosaurus_skeleton.jpg/960px-Stenonychosaurus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Stenonychosaurus_skeleton.jpg
+  artist: Scott Hartman [2]
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2010'
+  caption: Skeleton
+  width: 1992
+  height: 785
+  review: unreviewed
+  local: img/gallery/Stenonychosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/vector.svg
+  png: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/raster/512x238.png
+  page: https://www.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Troodon junior
+  matched: Stenonychosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: C. M. Sternberg. 1932. Two new theropod dinosaurs from the Belly River Formation of Alberta. Canadian Field-Naturalist
+    46(5):99-105
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stenonychosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stenonychosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stenonychosaurus”. English Wikipedia, revision 1351323801.
+  url: https://en.wikipedia.org/w/index.php?title=Stenonychosaurus&oldid=1351323801
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

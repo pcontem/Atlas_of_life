@@ -1,0 +1,76 @@
+name: Achillesaurus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Martinelli and Vera 2007
+type_species: Achillesaurus manazzonei
+type_species_note: The only valid species listed by PBDB.
+summary: Alvarezsaurid from the Santonian Bajo de la Carpa Formation of Río Negro, Argentina, named after diagnostic
+  features of its ankle.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Achillesaurus manazzonei
+  authority: Martinelli and Vera 2007
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: MACN-PV-RN 1116, a sacral and four tail vertebrae, part of the left femur, tibia, foot and left ilium,
+    Paso Córdova, Río Negro, Argentina.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived in the same formation as Alvarezsaurus; some authors regard the two as closely related.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsauridae
+  genus_level: false
+  w: 512
+  h: 224
+sources:
+- kind: original
+  text: A. G. Martinelli and E. I. Vera. 2007. Achillesaurus manzzonei, a new alvarezsaurid theropod (Dinosauria)
+    from the Late Cretaceous Bajo de la Carpa Formation, Río Negro Province, Argentina. Zootaxa 1582:1-17
+- kind: literature
+  text: 'Martinelli, A.G.; Vera, E.I. 2007. ''''Achillesaurus manazzonei'''', a new alvarezsaurid theropod (Dinosauria)
+    from the Late Cretaceous Bajo de la Carpa Formation, Río Negro Province, Argentina. Zootaxa 1582: 1–17. doi:10.11646/zootaxa.1582.1.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Achillesaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Achillesaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Achillesaurus”. English Wikipedia, revision 1341639428.
+  url: https://en.wikipedia.org/w/index.php?title=Achillesaurus&oldid=1341639428
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

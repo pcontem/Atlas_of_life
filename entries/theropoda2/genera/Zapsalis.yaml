@@ -1,0 +1,101 @@
+name: Zapsalis
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: true
+placement_note: A tooth taxon, often considered dubious (cited Wikipedia revision); referred to Dromaeosaurinae
+  by PBDB.
+authority: Cope 1876
+type_species: Zapsalis abradens
+type_species_note: Taxobox of Wikipedia revision 1347317206.
+summary: Tooth taxon of dromaeosaurine theropods from the Late Cretaceous of North America, named by Cope in 1876.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 66
+  early_interval: Santonian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Zapsalis abradens
+  authority: Cope 1876
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Milk River
+  group: ''
+  members: [Deadhorse Coulee]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Santonian
+  occurrences: 5
+  ma: [83.6, 85.7]
+  id: milk-river-canada
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Hell Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Lancian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+fossil_material:
+  holotype: A tooth described by Cope (1876).
+  material: Teeth only.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from teeth.
+images:
+- kind: fossil
+  file: Zapsalis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6e/Zapsalis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Zapsalis.png
+  artist: Derek W. Larson, Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Tooth
+  width: 801
+  height: 844
+  review: unreviewed
+  local: img/gallery/Zapsalis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: O. C. Marsh. 1877. Notice of new dinosaurian reptiles from the Jurassic formation. American Journal of Science
+    and Arts 14:514-516
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zapsalis (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zapsalis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zapsalis”. English Wikipedia, revision 1347317206.
+  url: https://en.wikipedia.org/w/index.php?title=Zapsalis&oldid=1347317206
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Validity doubtful (tooth taxon).]
+  reviews: []

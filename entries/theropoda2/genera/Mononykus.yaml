@@ -1,0 +1,125 @@
+name: Mononykus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Perle et al. 1993
+type_species: Mononykus olecranus
+type_species_note: Taxobox of Wikipedia revision 1387618429.
+summary: Very small alvarezsaurid from the Nemegt Formation of Mongolia with long thin legs and highly reduced,
+  single-clawed arms.
+size:
+  length_m: [1, 1.2]
+  mass_kg: [3.5, 3.5]
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Mononykus olecranus
+  authority: (Perle et al. 1993)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omngov]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Partial skeleton from the Nemegt Formation, Mongolia (Perle et al. 1993).
+  material: The holotype and a referred specimen MPC-D 100/206 (caudal vertebrae and hind limb).
+  completeness: partial
+  exceptional: ''
+biology: Probably had a shaggy feather covering like Shuvuuia; first described as a flightless bird.
+images:
+- kind: life
+  file: Mononykus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Mononykus_Restoration.png/960px-Mononykus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mononykus_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-11-07'
+  caption: Life restoration
+  width: 4384
+  height: 2364
+  review: unreviewed
+  local: img/gallery/Mononykus_001.webp
+- kind: skeletal
+  file: Mononykus olecranus AMNH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Mononykus_olecranus_AMNH.jpg/960px-Mononykus_olecranus_AMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mononykus_olecranus_AMNH.jpg
+  artist: AbstractionBlue
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-09-04'
+  caption: Skeleton cast
+  width: 5611
+  height: 3746
+  review: unreviewed
+  local: img/gallery/Mononykus_002.webp
+- kind: fossil
+  file: Mononykus AMNH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mononykus_AMNH.jpg/960px-Mononykus_AMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mononykus_AMNH.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-07-07'
+  caption: Specimen at the AMNH
+  width: 2592
+  height: 1317
+  review: unreviewed
+  local: img/gallery/Mononykus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. Perle, M. A. Norell, and L. M. Chiappe, J. M. Clark. 1993. Correction: Flightless bird from the Cretaceous
+    of Mongolia. Nature 363:188'
+- kind: literature
+  text: 'Perle, A.; Chiappe, L. M.; Rinchen, B.; Clark, J. M.; Norell, M. A. 1994. Skeletal morphology of Mononykus
+    olecranus (Theropoda, Avialae) from the late Cretaceous of Mongolia. American Museum Novitates: 1−29.'
+- kind: literature
+  text: Lee, S.; Park, J.-Y.; Lee, Y.-N.; Kim, S.-H.; Lü, J.; Barsbold, R.; Tsogtbaatar, K. 2019. A new alvarezsaurid
+    dinosaur from the Nemegt Formation of Mongolia. Scientific Reports 9(1). doi:10.1038/s41598-019-52021-y
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mononykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mononykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mononykus”. English Wikipedia, revision 1387618429.
+  url: https://en.wikipedia.org/w/index.php?title=Mononykus&oldid=1387618429
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

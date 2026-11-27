@@ -1,0 +1,66 @@
+name: Koparion
+rank: genus
+parent: troodontidae
+incertae_sedis: true
+placement_note: Chure 1994 assigned the tooth to Troodontidae; Wikipedia revision 1362754182 calls it only a small
+  coelurosaurian theropod, and Hunt & Lucas 2006 discuss a small theropod from the Upper Jurassic of New Mexico
+  in the same context. No analysis places it more precisely.
+authority: Chure 1994
+type_species: Koparion douglassi
+type_species_note: Taxobox of Wikipedia revision 1362754182 (the only species).
+summary: Small theropod known from a single tooth from the Kimmeridgian Morrison Formation of Utah, first read as
+  the oldest troodontid.
+size:
+  length_m: null
+  note: The tooth crown is 2 mm tall (Wikipedia revision 1362754182); no body size can be given.
+age:
+  first_ma: 154.8
+  last_ma: 149.2
+  early_interval: Kimmeridgian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record. Brushy Basin Member of the Morrison Formation, late Kimmeridgian, about 151 Ma (Wikipedia
+    revision 1362754182); ICS bounds of the stage used.
+species:
+- name: Koparion douglassi
+  authority: Chure 1994
+  first_ma: 154.8
+  last_ma: 149.2
+  interval: Kimmeridgian
+  reference: original description
+formations:
+- formation: Morrison
+  group: ''
+  members: [Brushy Basin Member]
+  country: United States
+  regions: [Utah]
+  interval: Kimmeridgian
+  occurrences: null
+  ma: [149.2, 154.8]
+  id: morrison-united-states
+fossil_material:
+  holotype: DINO 3353, a single maxillary tooth crown (root missing), Brushy Basin Member, Morrison Formation, Rainbow
+    Park, Uintah County, Utah.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: The tooth is tiny, strongly recurved, and serrated on both edges with low rectangular denticles; nothing
+  about its way of life is stated in the sources.
+images: []
+sources:
+- kind: literature
+  text: Adrian P. Hunt, Spencer G. Lucas 2006. A SMALL THEROPOD DINOSAUR FROM THE UPPER JURASSIC OF EASTERN NEW
+    MEXICO WITH A CHECKLIST OF SMALL THEROPODS FROM THE MORRISON FORMATION OF WESTERN NORTH AMERICA. .
+- kind: encyclopedia
+  text: Wikipedia contributors. “Koparion”. English Wikipedia, revision 1362754182.
+  url: https://en.wikipedia.org/w/index.php?title=Koparion&oldid=1362754182
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No images yet: Commons candidates harvested, not reviewed (triage page).'
+  - Original description (Chure 1994) not in the harvested citations; add it as the original source. Whether a tooth-only
+    genus is valid is open (see the tooth taxa question).
+  reviews: []

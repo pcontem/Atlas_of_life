@@ -1,0 +1,89 @@
+name: Patagonykus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Novas 1994
+type_species: Patagonykus puertai
+type_species_note: The only valid species listed by PBDB.
+summary: Large alvarezsaurid from the Turonian–Coniacian Portezuelo Formation of Neuquén, Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 85.7
+  early_interval: Turonian
+  late_interval: Coniacian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Patagonykus puertai
+  authority: Novas 1994
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: original description
+formations:
+- formation: Portezuelo
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Late Turonian–Early Coniacian
+  occurrences: 1
+  ma: [85.7, 93.9]
+  id: portezuelo-argentina
+fossil_material:
+  holotype: A well-preserved incomplete skeleton without skull, with vertebrae, coracoids, a partial forelimb, pelvis
+    and hind limbs, Portezuelo Formation, Neuquén, Argentina.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Classified with the alvarezsaurids, whose short arms had a large clawed thumb; analyses group it with Bonapartenykus
+  in Patagonykinae.
+images:
+- kind: life
+  file: Patagonykuspuertai.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a9/Patagonykuspuertai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Patagonykuspuertai.jpg
+  artist: GabrielNU
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-06-12'
+  caption: Life restoration
+  width: 1476
+  height: 932
+  review: unreviewed
+  local: img/gallery/Patagonykus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/vector.svg
+  png: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/raster/512x269.png
+  page: https://www.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908
+  attribution: Tomopteryx
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Bannykus wulatensis
+  matched: Alvarezsauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: F. E. Novas. 1994. Patagonykus puertai n. gen. et sp., and the phylogenetic relationships of the Alvarezsauridae
+    (Theropoda, Maniraptora). VI Congreso Argentino de Paleontología y Bioestratigrafía, R. Cúneo (ed), Museo Paleontológico
+    Egidio Feruglio, Trelew Abstracts
+- kind: literature
+  text: 'Agnolin, Federico L.; Powell, Jaime E.; Novas, Fernando E.; Kundrát, Martin 2012. New alvarezsaurid (Dinosauria,
+    Theropoda) from uppermost Cretaceous of north-western Patagonia with associated eggs. Cretaceous Research 35:
+    33–56. doi:10.1016/j.cretres.2011.11.014'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Patagonykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Patagonykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Patagonykus”. English Wikipedia, revision 1374819027.
+  url: https://en.wikipedia.org/w/index.php?title=Patagonykus&oldid=1374819027
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

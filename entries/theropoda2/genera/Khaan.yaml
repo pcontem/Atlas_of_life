@@ -1,0 +1,97 @@
+name: Khaan
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Clark et al. 2001
+type_species: Khaan mckennai
+type_species_note: The only valid species listed by PBDB.
+summary: Small oviraptorid from the Djadochta Formation of Mongolia known from a pair of skeletons nicknamed "Romeo
+  and Juliet".
+size:
+  length_m: [1.2, 1.2]
+  note: The two first specimens are about four feet long.
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Khaan mckennai
+  authority: Clark et al. 2001
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov Aimak]
+  interval: Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: IGM 100/1127, an almost complete skeleton found with another specimen (IGM 100/1002), Djadochta Formation,
+    Ukhaa Tolgod, Mongolia.
+  material: Three specimens, the larger IGM 100/973 included.
+  completeness: multiple
+  exceptional: ''
+biology: Its two first specimens are about 1.2 m long; probably closely related to Conchoraptor.
+images:
+- kind: skeletal
+  file: Khaan skeletal Headden.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Khaan_skeletal_Headden.jpg/960px-Khaan_skeletal_Headden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Khaan_skeletal_Headden.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009-01-16'
+  caption: Skeletal reconstruction by Jaime Headden
+  width: 1800
+  height: 1016
+  review: unreviewed
+  local: img/gallery/Khaan_001.webp
+- kind: fossil
+  file: Khaan mckennai AMNH 29051 cast.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Khaan_mckennai_AMNH_29051_cast.jpg/960px-Khaan_mckennai_AMNH_29051_cast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Khaan_mckennai_AMNH_29051_cast.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-08-13'
+  caption: Cast of a skeleton
+  width: 2427
+  height: 1382
+  review: unreviewed
+  local: img/gallery/Khaan_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. M. Clark, M. A. Norell, and R. Barsbold. 2001. Two new oviraptorids (Theropoda: Oviraptorosauria), Upper
+    Cretaceous Djadokhta Formation, Ukhaa Tolgod, Mongolia. Journal of Vertebrate Paleontology 21(2):209-213'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Khaan (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Khaan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Khaan”. English Wikipedia, revision 1388156758.
+  url: https://en.wikipedia.org/w/index.php?title=Khaan&oldid=1388156758
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

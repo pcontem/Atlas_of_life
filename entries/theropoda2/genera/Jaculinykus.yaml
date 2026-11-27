@@ -1,0 +1,99 @@
+name: Jaculinykus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Kubo et al. 2023
+type_species: Jaculinykus yaruui
+type_species_note: The only valid species listed by PBDB.
+summary: Alvarezsaurid from the Baruungoyot Formation of Mongolia known from a nearly complete articulated skeleton
+  with skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jaculinykus yaruui
+  authority: Kubo et al. 2023
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: Nearly complete articulated skeleton including skull bones, Baruungoyot Formation, Mongolia (Kubo et
+    al. 2023).
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its hand had a huge first digit and a greatly reduced second, intermediate between the three-fingered Shuvuuia
+  and the one-fingered Linhenykus.
+images:
+- kind: fossil
+  file: Jaculinykus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Jaculinykus_TD.png/960px-Jaculinykus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jaculinykus_TD.png
+  artist: TotalDino
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2023-11-15'
+  caption: Holotype
+  width: 2800
+  height: 1200
+  review: unreviewed
+  local: img/gallery/Jaculinykus_001.webp
+- kind: fossil
+  file: Jaculinykus holotype digit I.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/16/Jaculinykus_holotype_digit_I.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Jaculinykus_holotype_digit_I.png
+  artist: Kohta Kubo, Yoshitsugu Kobayashi, Tsogtbaatar Chinzorig & Khishigjav Tsogtbaatar
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-11-15'
+  caption: Holotype first digit
+  width: 1500
+  height: 2554
+  review: unreviewed
+  local: img/gallery/Jaculinykus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: K. Kubo, Y. Kobayashi, and T. Chinzorig, K. Tsogtbaatar. 2023. A new alvarezsaurid dinosaur (Theropoda,
+    Alvarezsauria) from the Upper Cretaceous Baruungoyot Formation of Mongolia provides insights for bird-like sleeping
+    behavior in nonavian dinosaurs. PLoS ONE 18(11):e0293801:1-38
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jaculinykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jaculinykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jaculinykus”. English Wikipedia, revision 1314345361.
+  url: https://en.wikipedia.org/w/index.php?title=Jaculinykus&oldid=1314345361
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

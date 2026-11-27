@@ -1,0 +1,98 @@
+name: Protarchaeopteryx
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: false
+placement_note: ''
+authority: Ji and Ji 1997
+type_species: Protarchaeopteryx robusta
+type_species_note: The only valid species listed by PBDB.
+summary: Turkey-sized feathered oviraptorosaur from the Yixian Formation of Liaoning, China, with vaned tail feathers.
+size:
+  length_m: [0.7, 1]
+  mass_kg: [1.6, 1.6]
+  note: About 1 m (Wikipedia); Paul (2016) gave 0.7 m and 1.6 kg.
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Protarchaeopteryx robusta
+  authority: Ji and Ji 1997
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Specimen from the Jianshangou Bed of the Yixian Formation, Liaoning, China (Ji and Ji 1997).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: Vaned feathers on a short tail.
+biology: Probably herbivorous; had long slender three-fingered hands with sharp curved claws.
+images:
+- kind: life
+  file: Protarchaeopteryx-reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Protarchaeopteryx-reconstruction.png/960px-Protarchaeopteryx-reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Protarchaeopteryx-reconstruction.png
+  artist: Clara Takahashi
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-09-04'
+  caption: Life restoration
+  width: 2048
+  height: 2048
+  review: unreviewed
+  local: img/gallery/Protarchaeopteryx_001.webp
+- kind: fossil
+  file: Protarchaeopteryx robusta holotype at the Geological Museum of China.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/91/Protarchaeopteryx_robusta_holotype_at_the_Geological_Museum_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Protarchaeopteryx_robusta_holotype_at_the_Geological_Museum_of_China.jpg
+  artist: BleachedRice
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-12-16'
+  caption: Holotype
+  width: 826
+  height: 960
+  review: unreviewed
+  local: img/gallery/Protarchaeopteryx_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cc21e6ac-bd88-4f0e-8acf-112a2ac89a41/vector.svg
+  png: https://images.phylopic.org/images/cc21e6ac-bd88-4f0e-8acf-112a2ac89a41/raster/512x419.png
+  page: https://www.phylopic.org/images/cc21e6ac-bd88-4f0e-8acf-112a2ac89a41
+  attribution: Conty
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Protarchaeopteryx robusta
+  matched: Protarchaeopteryx
+  genus_level: true
+  w: 512
+  h: 419
+sources:
+- kind: original
+  text: Q. Ji and S.-A. Ji. 1997. [Protarchaeopteryx gen. nov.—a new genus of Archaeopterygidae in China]. Chinese
+    Geology 238(3):38-41
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protarchaeopteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protarchaeopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protarchaeopteryx”. English Wikipedia, revision 1379877693.
+  url: https://en.wikipedia.org/w/index.php?title=Protarchaeopteryx&oldid=1379877693
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

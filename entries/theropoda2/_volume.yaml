@@ -1,0 +1,19 @@
+title: Theropoda II
+root: maniraptora
+attach_to: coelurosauria
+built: '2026-11-27'
+size_measure: length
+method: Ages, authorities, species and formations from the Paleobiology Database; descriptive data paraphrased from
+  the cited literature and English Wikipedia; scientific articles found through OpenAlex and Europe PMC (data/raw/theropoda2/papers.json);
+  images from Wikimedia Commons and PhyloPic with their licences. Classification from recent phylogenetic analyses
+  checked against PBDB (docs/TREE_REVIEW.md). Genus list checked against PBDB, Wikipedia and recent literature by
+  the census of 2026-11-26 (data/raw/census/theropoda2). Theropoda II covers the non-avian maniraptorans (Alvarezsauria,
+  Therizinosauria, Oviraptorosauria, Scansoriopterygidae and the non-avialan Paraves); Avialae is left for later
+  volumes.
+restoration_checks:
+- integument fully feathered (pennaceous feathers on arms and tail in pennaraptorans), never scaly-skinned
+- arms folded bird-like with the hands held palms facing inwards; wing feathers attached to the second finger
+- skull, beak, teeth and crests match the genus (toothless beaks in derived oviraptorosaurs, leaf-shaped teeth in
+  therizinosaurs)
+- hand and foot structure agree with the material (one large finger in derived alvarezsaurids, raised sickle claw
+  on the second toe in dromaeosaurids and troodontids, large hand claws in therizinosaurs)

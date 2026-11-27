@@ -3,37 +3,118 @@ name: Nemegt
 rank: formation
 group: ''
 country: Mongolia
-regions: [Omnogov]
+regions: [Gobi Desert, Omnogov]
 location:
-  lat: 43.498
-  lng: 100.25
-  basis: median of 14 PBDB collections that yielded the atlas genera
+  lat: 43.529
+  lng: 100.48
+  basis: median of 92 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
 - terrestrial indet.
-- eolian indet.
 - fluvial indet.
-- fine channel fill
 - fluvial-lacustrine indet.
-lithology: [not reported, sandstone, conglomerate, siltstone]
+- eolian indet.
+- coarse channel fill
+- crevasse splay
+- dry floodplain
+- fine channel fill
+lithology: [sandstone, not reported, conglomerate, siltstone]
 pbdb_collections:
+- '13108'
+- '37003'
 - '37005'
+- '37006'
+- '37007'
+- '37010'
+- '37011'
 - '37019'
+- '37020'
+- '38021'
+- '38022'
+- '38023'
+- '38024'
+- '38695'
+- '38696'
+- '38702'
+- '38703'
+- '38704'
 - '51972'
+- '52008'
+- '52012'
+- '53227'
+- '54095'
 - '55257'
 - '55258'
+- '59087'
+- '65335'
+- '65347'
+- '69801'
+- '73437'
+- '88554'
+- '100266'
+- '100268'
+- '100273'
+- '108341'
+- '108344'
+- '113009'
 - '123406'
+- '126780'
+- '126797'
 - '127670'
+- '127671'
+- '127673'
+- '127674'
+- '127679'
 - '127681'
+- '127682'
+- '130800'
+- '165580'
+- '168809'
+- '168810'
 - '168983'
+- '168988'
 - '179625'
 - '180471'
+- '180472'
 - '180473'
+- '180474'
+- '180475'
+- '180679'
+- '180680'
+- '180681'
+- '180682'
+- '180683'
+- '180684'
+- '180698'
+- '180699'
+- '180700'
+- '180701'
+- '180702'
+- '180703'
 - '180706'
+- '180707'
+- '180709'
+- '180710'
+- '180784'
+- '180785'
+- '180786'
+- '180811'
+- '180812'
+- '180813'
+- '199805'
+- '206055'
+- '220943'
+- '221153'
 - '226994'
+- '229067'
+- '241750'
+- '277791'
+- '277797'
+- '277798'
+- '277800'
 includes: []
 summary: ''
 paleoenvironment: ''

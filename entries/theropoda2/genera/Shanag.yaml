@@ -1,0 +1,84 @@
+name: Shanag
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: Described as a dromaeosaurid close to Microraptor and Sinornithosaurus (Turner et al. 2007); some
+  researchers are sceptical of this classification.
+authority: Turner et al. 2007
+type_species: Shanag ashile
+type_species_note: The only valid species listed by PBDB.
+summary: Paravian from the Early Cretaceous Öösh Formation of Mongolia, possibly a dromaeosaurid close to the Chinese
+  microraptorians.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 143.1
+  last_ma: 100.5
+  early_interval: Berriasian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Shanag ashile
+  authority: Turner et al. 2007
+  first_ma: 143.1
+  last_ma: 100.5
+  interval: Berriasian–Albian
+  reference: original description
+formations:
+- formation: Öösh
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorkhangai]
+  interval: Early Cretaceous
+  occurrences: 1
+  ma: [100.5, 143.1]
+  id: oosh-mongolia
+fossil_material:
+  holotype: IGM 100/1119, Öösh Formation (probably Berriasian–Barremian), Mongolia.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: It resembles the early Chinese dromaeosaurids Microraptor and Sinornithosaurus.
+images:
+- kind: fossil
+  file: Shanag skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Shanag_skull.png/960px-Shanag_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Shanag_skull.png
+  artist: Skye McDavid
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-13'
+  caption: Skull
+  width: 3840
+  height: 2160
+  review: unreviewed
+  local: img/gallery/Shanag_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. H. Turner, S. H. Hwang, and M. A. Norell. 2007. A small derived theropod from Öösh, Early Cretaceous,
+    Baykhangor Mongolia. American Museum Novitates 3557:1-27
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shanag (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shanag
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shanag”. English Wikipedia, revision 1368921252.
+  url: https://en.wikipedia.org/w/index.php?title=Shanag&oldid=1368921252
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

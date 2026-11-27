@@ -1,0 +1,71 @@
+name: Fujianvenator
+rank: genus
+parent: anchiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2023
+type_species: Fujianvenator prodigiosus
+type_species_note: Taxobox of Wikipedia revision 1342344194 (the only species).
+summary: Anchiornithid from the Tithonian Nanyuan Formation of Fujian, China, with long legs that may point to a
+  ground-living or wading way of life.
+size:
+  length_m: null
+  mass_kg: [0.641, 0.641]
+  note: Body mass about 641 g (Wikipedia revision 1342344194), similar to a koklass pheasant; the holotype was a
+    subadult.
+age:
+  first_ma: 150.2
+  last_ma: 149.9
+  early_interval: Tithonian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record. Wikipedia revision 1342344194 dates the Nanyuan Formation to the Tithonian, about 150.2–149.9
+    Ma.
+species:
+- name: Fujianvenator prodigiosus
+  authority: Xu et al. 2023
+  first_ma: 150.2
+  last_ma: 149.9
+  interval: Tithonian
+  reference: original description
+formations: []
+fossil_material:
+  holotype: IVPP V31985, a partial articulated skeleton on slab and counterslab, lacking the skull, neck and end
+    of the tail; Nanyuan Formation, Zhenghe County, Fujian.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: The tibia is twice the length of the femur and the cursorial score is high, which the describers read as
+  a possible terrestrial or wading lifestyle; the scapula is short relative to the humerus compared with other anchiornithids.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/aa38f590-43fc-409a-ba8a-bdd8b91555dd/vector.svg
+  png: https://images.phylopic.org/images/aa38f590-43fc-409a-ba8a-bdd8b91555dd/raster/512x286.png
+  page: https://www.phylopic.org/images/aa38f590-43fc-409a-ba8a-bdd8b91555dd
+  attribution: TotalDino
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Fujianvenator prodigiosus
+  matched: Fujianvenator
+  genus_level: true
+  w: 512
+  h: 286
+sources:
+- kind: original
+  text: Liming Xu, Min Wang, Runsheng Chen, Liping Dong, Min Lin, Xing Xu, Jianrong Tang, Hai‐Lu You 2023. A new
+    avialan theropod from an emerging Jurassic terrestrial fauna. Nature. doi:10.1038/s41586-023-06513-7
+  url: https://doi.org/10.1038/s41586-023-06513-7
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fujianvenator”. English Wikipedia, revision 1342344194.
+  url: https://en.wikipedia.org/w/index.php?title=Fujianvenator&oldid=1342344194
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No images yet: Commons candidates harvested, not reviewed (triage page).'
+  - Formation list empty - the Nanyuan Formation has no formation entry and no PBDB collections yet; add it (Zhenghe
+    County, Fujian, Tithonian).
+  - The Nature paper calls it an avialan; Wikipedia revision 1342344194 places it in Anchiornithidae - check which
+    fits the Avialae volume.
+  reviews: []

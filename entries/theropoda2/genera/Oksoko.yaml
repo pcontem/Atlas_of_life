@@ -1,0 +1,98 @@
+name: Oksoko
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Funston et al. 2020
+type_species: Oksoko avarsan
+type_species_note: Taxobox of Wikipedia revision 1337350451.
+summary: Two-fingered oviraptorid from the Nemegt Formation of Mongolia known from a block with several juveniles.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Oksoko avarsan
+  authority: Funston et al. 2020
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: MPC-D 100/33, Nemegt Formation, Mongolia (Funston et al. 2020).
+  material: The holotype and a block with several juveniles, including MPC-D 102/110a (skull, neck, pelvis, hind
+    limbs and tail).
+  completeness: multiple
+  exceptional: ''
+biology: Its hand had only two functional fingers (Funston et al. 2020, "A new two-fingered dinosaur sheds light
+  on the radiation of Oviraptorosauria").
+images:
+- kind: life
+  file: Oksoko avarsan.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Oksoko_avarsan.png/960px-Oksoko_avarsan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Oksoko_avarsan.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-16'
+  caption: Life restoration
+  width: 1621
+  height: 1262
+  review: unreviewed
+  local: img/gallery/Oksoko_001.webp
+- kind: fossil
+  file: Oksoko holotype block pre-preparation.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/44/Oksoko_holotype_block_pre-preparation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Oksoko_holotype_block_pre-preparation.jpg
+  artist: Gregory F. Funston, Tsogtbaatar Chinzorig, Khishigjav Tsogtbaatar, Yoshitsugu Kobayashi, Corwin Sullivan
+    & Philip J. Currie
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-10-07'
+  caption: Holotype block before preparation
+  width: 1235
+  height: 738
+  review: unreviewed
+  local: img/gallery/Oksoko_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: G. F. Funston, T. Chinzorig, and K. Tsogtbaatar, Y. Kobayashi, C. Sullivan, P. J. Currie. 2020. A new two-fingered
+    dinosaur sheds light on the radiation of Oviraptorosauria. Royal Society Open Science 7(104643):201184:1-15
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Oksoko (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Oksoko
+- kind: encyclopedia
+  text: Wikipedia contributors. “Oksoko avarsan”. English Wikipedia, revision 1337350451.
+  url: https://en.wikipedia.org/w/index.php?title=Oksoko_avarsan&oldid=1337350451
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

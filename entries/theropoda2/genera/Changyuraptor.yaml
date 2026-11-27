@@ -1,0 +1,86 @@
+name: Changyuraptor
+rank: genus
+parent: microraptoria
+incertae_sedis: false
+placement_note: ''
+authority: Han et al. 2014
+type_species: Changyuraptor yangi
+type_species_note: Taxobox of Wikipedia revision 1350165010.
+summary: Turkey-sized four-winged microraptorian from Liaoning, the largest known with long tail feathers.
+size:
+  length_m: [1.2, 1.2]
+  mass_kg: [4, 4]
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Changyuraptor yangi
+  authority: Han et al. 2014
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A single specimen of a fully grown adult, Early Cretaceous deposits of Liaoning, China (Han et al. 2014).
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: Long feathers on all four limbs and very long tail feathers.
+biology: The largest known four-winged microraptorian.
+images:
+- kind: life
+  file: Changyuraptor.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Changyuraptor.jpg/960px-Changyuraptor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Changyuraptor.jpg
+  artist: Emily Willoughby (e.deinonychus@gmail.com, http://emilywilloughby.com )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-07-19'
+  caption: Life restoration
+  width: 5300
+  height: 2991
+  review: unreviewed
+  local: img/gallery/Changyuraptor_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/be5d1a4b-c6e8-4dbc-a8d6-0680abf886af/vector.svg
+  png: https://images.phylopic.org/images/be5d1a4b-c6e8-4dbc-a8d6-0680abf886af/raster/512x245.png
+  page: https://www.phylopic.org/images/be5d1a4b-c6e8-4dbc-a8d6-0680abf886af
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Changyuraptor yangi
+  matched: Changyuraptor
+  genus_level: true
+  w: 512
+  h: 245
+sources:
+- kind: original
+  text: G. Han, L. M. Chiappe, and S. -A. Ji, M. Habib, A. H. Turner, A. Chinsamy, L. Han. 2014. A new raptorial
+    dinosaur with exceptionally long feathering provides insights into dromaeosaurid flight performance. Nature
+    Communications 5(4382):1-9
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Changyuraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Changyuraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Changyuraptor”. English Wikipedia, revision 1350165010.
+  url: https://en.wikipedia.org/w/index.php?title=Changyuraptor&oldid=1350165010
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

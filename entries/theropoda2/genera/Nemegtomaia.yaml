@@ -1,0 +1,120 @@
+name: Nemegtomaia
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Lü et al. 2005
+type_species: Nemegtomaia barsboldi
+type_species_note: Taxobox of Wikipedia revision 1374607236.
+summary: Crested oviraptorid from the Nemegt and Baruungoyot formations of Mongolia, one specimen found brooding
+  on a nest.
+size:
+  length_m: [2, 2]
+  mass_kg: [40, 40]
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Nemegtomaia barsboldi
+  authority: (Lü et al. 2004)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: Specimen found in 1996 in the Nemegt Formation, Mongolia (Lü et al. 2004, as Nemegtia).
+  material: The holotype and two specimens found in 2007, one on a nest of eggs.
+  completeness: multiple
+  exceptional: Adult on a nest of eggs; beetle feeding traces on the bones.
+biology: Toothless, with a short beaked snout; its first name, Nemegtia, was preoccupied and replaced in 2005.
+images:
+- kind: life
+  file: Nemegtomaia Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Nemegtomaia_Restoration.png/960px-Nemegtomaia_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nemegtomaia_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-01-09'
+  caption: Life restoration
+  width: 4006
+  height: 2484
+  review: unreviewed
+  local: img/gallery/Nemegtomaia_001.webp
+- kind: fossil
+  file: Nemegtomaia nest.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Nemegtomaia_nest.png/960px-Nemegtomaia_nest.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nemegtomaia_nest.png
+  artist: Federico Fanti, Philip J. Currie, Demchig Badamgarav
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2012'
+  caption: Nest with eggs
+  width: 3406
+  height: 3560
+  review: unreviewed
+  local: img/gallery/Nemegtomaia_002.webp
+- kind: skeletal
+  file: Nemegtomaia barsboldi holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/36/Nemegtomaia_barsboldi_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nemegtomaia_barsboldi_holotype.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Holotype
+  width: 1352
+  height: 676
+  review: unreviewed
+  local: img/gallery/Nemegtomaia_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Lü, Y. Tomida, and Y. Azuma, Z. Dong, Y.-N. Lee. 2005. Nemegtomaia gen. nov., a replacement name for
+    the oviraptorosaurian dinosaur Nemegtia Lü et al., 2004, a preoccupied name. Bulletin of the National Science
+    Museum, Tokyo, Series C 31:51
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nemegtomaia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nemegtomaia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nemegtomaia”. English Wikipedia, revision 1374607236.
+  url: https://en.wikipedia.org/w/index.php?title=Nemegtomaia&oldid=1374607236
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

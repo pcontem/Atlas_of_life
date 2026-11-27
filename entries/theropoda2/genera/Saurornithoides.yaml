@@ -1,0 +1,141 @@
+name: Saurornithoides
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Osborn 1924
+type_species: Saurornithoides mongoliensis
+type_species_note: The only valid species listed by PBDB.
+summary: Troodontid from the Late Cretaceous of Mongolia, a fast-running predator with keen sight and hearing.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Saurornithoides mongoliensis
+  authority: (Osborn 1924)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: [Bayn Dzak]
+  country: Mongolia
+  regions: [Omnogov, Omnogov Aimak]
+  interval: Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Lancian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Bayan Mandahu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: bayan-mandahu-china
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Khodzhakul
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: khodzhakul-uzbekistan
+fossil_material:
+  holotype: Specimen from Mongolia (Osborn 1924); bones first included were later shown to belong to Protoceratops.
+  material: The holotype and referred specimens.
+  completeness: partial
+  exceptional: ''
+biology: A predator that could run fast on its hind legs and had excellent sight and hearing; Osborn first intended
+  the name "Ornithoides".
+images:
+- kind: life
+  file: Saurornithoides 02.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Saurornithoides_02.png/960px-Saurornithoides_02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Saurornithoides_02.png
+  artist: Conty
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-01-08'
+  caption: Life restoration
+  width: 1734
+  height: 1142
+  review: unreviewed
+  local: img/gallery/Saurornithoides_001.webp
+- kind: fossil
+  file: Saurornithoides mongoliensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/24/Saurornithoides_mongoliensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Saurornithoides_mongoliensis.jpg
+  artist: Ryan Somma
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: Unknown da
+  caption: Fossil
+  width: 1536
+  height: 1024
+  review: unreviewed
+  local: img/gallery/Saurornithoides_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: H. F. Osborn. 1924. Three new Theropoda, Protoceratops zone, central Mongolia. American Museum Novitates
+    144:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Saurornithoides (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Saurornithoides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Saurornithoides”. English Wikipedia, revision 1384987612.
+  url: https://en.wikipedia.org/w/index.php?title=Saurornithoides&oldid=1384987612
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

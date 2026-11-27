@@ -1,0 +1,96 @@
+name: Pneumatoraptor
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: Described as a paravian, possibly a dromaeosaurid (Ősi et al. 2010).
+authority: Osi et al. 2010
+type_species: Pneumatoraptor fodori
+type_species_note: The only valid species listed by PBDB.
+summary: Small paravian from the Santonian Csehbánya Formation of Iharkút, Hungary, known from a shoulder girdle.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pneumatoraptor fodori
+  authority: Osi et al. 2010
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Csehbánya
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Veszprém]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: csehbanya-hungary
+fossil_material:
+  holotype: A complete left scapulocoracoid, Csehbánya Formation, Iharkút, Bakony Mountains, Hungary.
+  material: Only the holotype; isolated teeth, claws, tail vertebrae and a tibia from the same formation may belong
+    to it.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived in the Santonian Iharkút fauna of western Hungary.
+images:
+- kind: fossil
+  file: Pneumatoraptor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/29/Pneumatoraptor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pneumatoraptor.jpg
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2015'
+  caption: Holotype scapulocoracoid
+  width: 535
+  height: 214
+  review: unreviewed
+  local: img/gallery/Pneumatoraptor_001.webp
+- kind: life
+  file: Pneumatoraptor fodori.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Pneumatoraptor_fodori.jpg/960px-Pneumatoraptor_fodori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pneumatoraptor_fodori.jpg
+  artist: FunkMonk
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 2012/2023
+  caption: Life restoration
+  width: 1938
+  height: 1556
+  review: unreviewed
+  local: img/gallery/Pneumatoraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/vector.svg
+  png: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/raster/512x294.png
+  page: https://www.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Jinfengopteryx elegans
+  matched: Paraves
+  genus_level: false
+sources:
+- kind: original
+  text: A. Osi, S. Apesteguia, and M. Kowalewski. 2010. Non-avian theropod dinosaurs from the early Late Cretaceous
+    of central Europe. Cretaceous Research 31(3):304-320
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pneumatoraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pneumatoraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pneumatoraptor”. English Wikipedia, revision 1300117561.
+  url: https://en.wikipedia.org/w/index.php?title=Pneumatoraptor&oldid=1300117561
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

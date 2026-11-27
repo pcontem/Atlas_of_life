@@ -1,0 +1,106 @@
+name: Citipes
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Funston 2020
+type_species: Citipes elegans
+type_species_note: Named as Ornithomimus elegans Parks 1933 (taxobox of the cited Wikipedia revision); placed in
+  its own genus by Funston (2020).
+summary: Small caenagnathid from the Campanian Dinosaur Park Formation of Alberta with a long and confused naming
+  history.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Citipes elegans
+  authority: (Parks 1933)
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 11
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+fossil_material:
+  holotype: ROM 781, three metatarsals, Dinosaur Park Formation, Alberta (Parks 1933, as Ornithomimus elegans).
+  material: The holotype and referred foot and limb bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its name means "fleet-footed".
+images:
+- kind: life
+  file: Citipes elegans.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Citipes_elegans.jpg/960px-Citipes_elegans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Citipes_elegans.jpg
+  artist: SpinoDragon145
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-07-29'
+  caption: Life restoration
+  width: 2260
+  height: 1118
+  review: unreviewed
+  local: img/gallery/Citipes_001.webp
+- kind: skeletal
+  file: Citipes skeletal.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Citipes_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Citipes_skeletal.jpg
+  artist: Gregory Funston
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Skeletal reconstruction
+  width: 1477
+  height: 1212
+  review: unreviewed
+  local: img/gallery/Citipes_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/vector.svg
+  png: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/raster/512x259.png
+  page: https://www.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Microvenator celer
+  matched: Caenagnathidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'G. F. Funston. 2020. Caenagnathids of the Dinosaur Park Formation (Campanian) of Alberta, Canada: anatomy,
+    osteohistology, taxonomy, and evolution. Vertebrate Anatomy Morphology Palaeontology 8:105-153'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Citipes (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Citipes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Citipes”. English Wikipedia, revision 1387635608.
+  url: https://en.wikipedia.org/w/index.php?title=Citipes&oldid=1387635608
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

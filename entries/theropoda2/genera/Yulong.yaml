@@ -1,0 +1,84 @@
+name: Yulong
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Lü et al. 2013
+type_species: Yulong mini
+type_species_note: Taxobox of Wikipedia revision 1387572599.
+summary: Small oviraptorid from the Qiupa Formation of Henan known from many juveniles, some of the smallest oviraptorids
+  known.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Yulong mini
+  authority: Lü et al. 2013
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Qiupa
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: qiupa-china
+fossil_material:
+  holotype: HGM 41HIII-0107, an exceptionally well-preserved skeleton with skull, one of a syntype series of five
+    specimens, Qiupa Formation, Henan, China.
+  material: Many juvenile specimens and one subadult.
+  completeness: multiple
+  exceptional: ''
+biology: Its name "mini" refers to the small size of the specimens.
+images:
+- kind: fossil
+  file: Yulong TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Yulong_TD.png/960px-Yulong_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yulong_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-10-31'
+  caption: Fossil
+  width: 2400
+  height: 1400
+  review: unreviewed
+  local: img/gallery/Yulong_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Lü, P. J. Currie, and L. Xu, X. Zhang, H. Pu, S. Jia. 2013. Chicken-sized oviraptorid dinosaurs from
+    central China and their ontogenetic implications. Naturwissenschaften 100:165-175
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yulong (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yulong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yulong mini”. English Wikipedia, revision 1387572599.
+  url: https://en.wikipedia.org/w/index.php?title=Yulong_mini&oldid=1387572599
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

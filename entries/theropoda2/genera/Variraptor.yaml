@@ -1,0 +1,116 @@
+name: Variraptor
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Le Loeuff and Buffetaut 1998
+type_species: Variraptor mechinorum
+type_species_note: The only valid species listed by PBDB.
+summary: Possibly chimaeric dromaeosaurid from the Late Cretaceous of the Var region, southern France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Variraptor mechinorum
+  authority: Le Loeuff and Buffetaut 1998
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: unnamed-fox-amphoux-la-bastide-neuve-france
+- formation: Grès à Reptiles
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: gres-a-reptiles-france
+- formation: Marnes Rouges Inférieures
+  group: ''
+  members: [Marnes de la Maurine]
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: marnes-rouges-inferieures-france
+fossil_material:
+  holotype: Three type specimens, a posterior dorsal vertebra (MDE-D168), a sacrum of five fused vertebrae (MDE-D169)
+    and an ilium (CM-645), Grès à Reptiles Formation, Var, France.
+  material: The type specimens and referred bones collected by Patrick Méchin and Annie Méchin-Salessy (1992–1995).
+  completeness: fragmentary
+  exceptional: ''
+biology: Its type material may come from more than one kind of animal.
+images:
+- kind: life
+  file: Variraptor Méchinorum.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Variraptor_M%C3%A9chinorum.jpg/960px-Variraptor_M%C3%A9chinorum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Variraptor_M%C3%A9chinorum.jpg
+  artist: Dlouit
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-10-24'
+  caption: Life restoration
+  width: 5504
+  height: 3096
+  review: unreviewed
+  local: img/gallery/Variraptor_001.webp
+- kind: fossil
+  file: Fossiles de Variraptor.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/08/Fossiles_de_Variraptor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Fossiles_de_Variraptor.png
+  artist: F-L Reptile
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-05-11'
+  caption: Fossils
+  width: 766
+  height: 1280
+  review: unreviewed
+  local: img/gallery/Variraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d79359f8-41dc-4744-bfa1-2b9e560e310c/vector.svg
+  png: https://images.phylopic.org/images/d79359f8-41dc-4744-bfa1-2b9e560e310c/raster/512x177.png
+  page: https://www.phylopic.org/images/d79359f8-41dc-4744-bfa1-2b9e560e310c
+  attribution: François-Louis PELISSIER
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Variraptor mechinorum
+  matched: Variraptor
+  genus_level: true
+  w: 512
+  h: 177
+sources:
+- kind: original
+  text: J. Le Loeuff and E. Buffetaut. 1998. A new dromaeosaurid theropod from the Upper Cretaceous of southern
+    France. Oryctos 1:105-112
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Variraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Variraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Variraptor”. English Wikipedia, revision 1388166847.
+  url: https://en.wikipedia.org/w/index.php?title=Variraptor&oldid=1388166847
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Possibly chimaeric (cited Wikipedia revision).]
+  reviews: []

@@ -1,0 +1,89 @@
+name: Duonychus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Kobayashi et al. 2025
+type_species: Duonychus tsogtbaatari
+type_species_note: The only valid species listed by PBDB.
+summary: Two-fingered therizinosaurid from the Late Cretaceous Bayanshiree Formation of Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Duonychus tsogtbaatari
+  authority: Kobayashi et al. 2025
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ömnögovi]
+  interval: Cenomanian–Santonian
+  occurrences: 1
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: Partial skeleton with vertebrae, most of the forelimbs and part of the pelvis, Bayanshiree Formation,
+    eastern Gobi, Mongolia.
+  material: Only the holotype, excavated in 2012 during the construction of a pipeline.
+  completeness: partial
+  exceptional: A preserved keratinous claw sheath (Kobayashi et al. 2025).
+biology: Described as a didactyl (two-fingered) therizinosaur, with a keratinous claw sheath preserved on one finger.
+images:
+- kind: life
+  file: Duonychus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Duonychus_Restoration.png/960px-Duonychus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Duonychus_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-03-20'
+  caption: Life restoration
+  width: 4600
+  height: 3357
+  review: unreviewed
+  local: img/gallery/Duonychus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/79b33789-81d6-41ba-8955-ea44b8153aac/vector.svg
+  png: https://images.phylopic.org/images/79b33789-81d6-41ba-8955-ea44b8153aac/raster/512x221.png
+  page: https://www.phylopic.org/images/79b33789-81d6-41ba-8955-ea44b8153aac
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Duonychus tsogtbaatari
+  matched: Duonychus
+  genus_level: true
+  w: 512
+  h: 221
+sources:
+- kind: original
+  text: Y. Kobayashi, D. K. Zelenitsky, and A. R. Fiorillo, T. Chinzorig. 2025. Didactyl therizinosaur with a preserved
+    keratinous claw from the Late Cretaceous of Mongolia. iScience
+- kind: literature
+  text: Yoshitsugu Kobayashi, Darla K. Zelenitsky, Anthony R. Fiorillo, Tsogtbaatar Chinzorig 2025. Didactyl therizinosaur
+    with a preserved keratinous claw from the Late Cretaceous of Mongolia. iScience. doi:10.1016/j.isci.2025.112141
+  url: https://doi.org/10.1016/j.isci.2025.112141
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Duonychus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Duonychus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Duonychus”. English Wikipedia, revision 1371901657.
+  url: https://en.wikipedia.org/w/index.php?title=Duonychus&oldid=1371901657
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

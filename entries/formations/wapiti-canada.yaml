@@ -5,16 +5,21 @@ group: ''
 country: Canada
 regions: [Alberta]
 location:
-  lat: 55.066
-  lng: -119.539
-  basis: median of 6 PBDB collections that yielded the atlas genera
+  lat: 55.067
+  lng: -119.477
+  basis: median of 8 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., crevasse splay]
-lithology: [siltstone, not reported, coal, sandstone]
-pbdb_collections: ['22699', '87125', '138447', '161248', '163050', '220129']
+environment:
+- terrestrial indet.
+- wet floodplain
+- crevasse splay
+- channel lag
+- fluvial indet.
+lithology: [sandstone, not reported, siltstone, coal]
+pbdb_collections: ['22699', '87125', '89605', '138447', '161248', '163050', '220129', '227125']
 includes: []
 summary: ''
 paleoenvironment: ''

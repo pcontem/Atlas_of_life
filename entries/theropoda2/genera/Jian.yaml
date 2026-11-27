@@ -1,0 +1,72 @@
+name: Jian
+rank: genus
+parent: microraptoria
+incertae_sedis: false
+placement_note: ''
+authority: Zhou et al. 2026
+type_species: Jian changmaensis
+type_species_note: The only valid species listed by PBDB.
+summary: Microraptorine from the Aptian Xiagou Formation of Gansu, China, known from a shoulder girdle and partial
+  forelimb.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jian changmaensis
+  authority: Zhou et al. 2026
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  group: Xinminbao
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: xiagou-china
+fossil_material:
+  holotype: An articulated scapulocoracoid, humerus, radius and ulna, Xiagou Formation, China; first reported in
+    2010.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Found in a formation that has yielded more than 100 bird fossils.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: L. Zhou, M. C. Lamanna, and A. W. Poust, D. Li, H. You, J. K. O.'Connor. 2026. First non-avian theropod
+    (Dromaeosauridae, Microraptorinae) from the bird-bearing Lower Cretaceous Xiagou Formation of the Changma Basin,
+    Gansu Province, northwestern China. Annals of Carnegie Museum 92(2):89–110
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jian (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jian
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jian changmaensis”. English Wikipedia, revision 1373254984.
+  url: https://en.wikipedia.org/w/index.php?title=Jian_changmaensis&oldid=1373254984
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

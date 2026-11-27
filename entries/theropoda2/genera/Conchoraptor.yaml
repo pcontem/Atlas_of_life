@@ -1,0 +1,95 @@
+name: Conchoraptor
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Barsbold 1986
+type_species: Conchoraptor gracilis
+type_species_note: The only valid species listed by PBDB.
+summary: Small crestless oviraptorid from the Barun Goyot Formation of Mongolia, named for a supposed diet of molluscs.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Conchoraptor gracilis
+  authority: Barsbold 1986
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: MPC-D 100/20, a partial skull, Barun Goyot Formation, Hermiin Tsav, Mongolia.
+  material: Numerous specimens.
+  completeness: multiple
+  exceptional: ''
+biology: Barsbold proposed that it fed on molluscs rather than eggs, hence the name "conch plunderer".
+images:
+- kind: life
+  file: Conchoraptor Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Conchoraptor_Restoration.png/960px-Conchoraptor_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Conchoraptor_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-11-20'
+  caption: Life restoration
+  width: 4182
+  height: 2744
+  review: unreviewed
+  local: img/gallery/Conchoraptor_001.webp
+- kind: fossil
+  file: Conchoraptor skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Conchoraptor_skeleton.jpg/960px-Conchoraptor_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Conchoraptor_skeleton.jpg
+  artist: Gary Todd
+  license: Public domain
+  license_url: ''
+  date: '2019-06-15'
+  caption: Skeleton
+  width: 6000
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Conchoraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: T. Maryanska, H. Osmólska, and M. Wolsan. 2002. Avialan status for Oviraptorosauria. Acta Palaeontologica
+    Polonica 47(1):97-116
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Conchoraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Conchoraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Conchoraptor”. English Wikipedia, revision 1355244022.
+  url: https://en.wikipedia.org/w/index.php?title=Conchoraptor&oldid=1355244022
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

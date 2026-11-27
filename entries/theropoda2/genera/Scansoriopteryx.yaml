@@ -1,0 +1,110 @@
+name: Scansoriopteryx
+rank: genus
+parent: scansoriopterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Czerkas and Yuan 2002
+type_species: Scansoriopteryx heilmanni
+type_species_note: The only valid species listed by PBDB.
+summary: Sparrow-sized scansoriopterygid from China known from a juvenile with a very long third finger and climbing
+  feet.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Scansoriopteryx heilmanni
+  authority: Czerkas and Yuan 2002
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dawangzhangzi]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A single juvenile fossil from Liaoning, China (Czerkas and Yuan 2002).
+  material: Only the holotype; Epidendrosaurus ninchengensis is probably the same animal.
+  completeness: near-complete
+  exceptional: ''
+biology: Its feet show adaptations for living in trees, and its third finger was unusually long.
+images:
+- kind: skeletal
+  file: Scansoriopteryx heilmanni.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8c/Scansoriopteryx_heilmanni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Scansoriopteryx_heilmanni.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2006'
+  caption: Skeletal reconstruction
+  width: 1200
+  height: 504
+  review: unreviewed
+  local: img/gallery/Scansoriopteryx_001.webp
+- kind: life
+  file: Scansoriopteryx restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Scansoriopteryx_restoration.png/960px-Scansoriopteryx_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Scansoriopteryx_restoration.png
+  artist: Cornhead
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2015-07-05'
+  caption: Life restoration
+  width: 1920
+  height: 1080
+  review: unreviewed
+  local: img/gallery/Scansoriopteryx_002.webp
+- kind: fossil
+  file: Scansoriopteryx.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/76/Scansoriopteryx.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Scansoriopteryx.png
+  artist: ( Matt Martyniuk )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2009-10-12'
+  caption: Holotype
+  width: 977
+  height: 751
+  review: unreviewed
+  local: img/gallery/Scansoriopteryx_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/aa726914-e9bc-4811-8f42-9060c139d633/vector.svg
+  png: https://images.phylopic.org/images/aa726914-e9bc-4811-8f42-9060c139d633/raster/512x178.png
+  page: https://www.phylopic.org/images/aa726914-e9bc-4811-8f42-9060c139d633
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Scansoriopteryx heilmanni
+  matched: Scansoriopteryx
+  genus_level: true
+sources:
+- kind: original
+  text: S. A. Czerkas and C. Yuan. 2002. An arboreal maniraptoran from northeastern China. Feathered Dinosaurs and
+    the Origin of Flight. The Dinosaur Museum Journal 1. The Dinosaur Museum, Blanding, UT
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scansoriopteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scansoriopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scansoriopteryx”. English Wikipedia, revision 1328489425.
+  url: https://en.wikipedia.org/w/index.php?title=Scansoriopteryx&oldid=1328489425
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'The age of the Daohugou Beds is contested: check the formation assigned by PBDB.'
+  reviews: []

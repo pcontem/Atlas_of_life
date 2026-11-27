@@ -1,0 +1,84 @@
+name: Lingyuanosaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Yao et al. 2019
+type_species: Lingyuanosaurus sihedangensis
+type_species_note: Taxobox of Wikipedia revision 1326414777.
+summary: Early therizinosaur from the Jehol Group of Liaoning, China, intermediate between basal and derived therizinosaurs.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: The holotype comes from the Jehol Group, but whether from the Yixian or the Jiufotang Formation is not known.
+species:
+- name: Lingyuanosaurus sihedangensis
+  authority: Yao et al. 2019
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V 23589, a partial skeleton from a single individual, Jehol Group (Yixian or Jiufotang Formation),
+    Lingyuan, Liaoning, China.
+  material: Only the holotype, found in about one square metre.
+  completeness: partial
+  exceptional: ''
+biology: Described as a transitional therizinosaur; the exact formation and therefore its precise age are unknown.
+images:
+- kind: fossil
+  file: Lingyuanosaurus holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7f/Lingyuanosaurus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lingyuanosaurus_holotype.png
+  artist: Xi Yao, Chun-Chi Liao, Corwin Sullivan & Xing Xu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-03-22'
+  caption: Holotype
+  width: 1494
+  height: 1145
+  review: unreviewed
+  local: img/gallery/Lingyuanosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e/vector.svg
+  png: https://images.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e/raster/512x221.png
+  page: https://www.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Falcarius utahensis
+  matched: Therizinosauria
+  genus_level: false
+sources:
+- kind: original
+  text: X. Yao, C.-C. Liao, and C. Sullivan, X. Xu. 2019. A new transitional therizinosaurian theropod from the
+    Early Cretaceous Jehol Biota of China. Scientific Reports 9(5026):5026:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lingyuanosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lingyuanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lingyuanosaurus”. English Wikipedia, revision 1326414777.
+  url: https://en.wikipedia.org/w/index.php?title=Lingyuanosaurus&oldid=1326414777
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Check the holotype number IVPP V 23589 in Yao et al. 2019 (truncated in the harvested text).
+  reviews: []

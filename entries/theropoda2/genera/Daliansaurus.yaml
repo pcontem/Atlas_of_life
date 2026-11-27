@@ -1,0 +1,82 @@
+name: Daliansaurus
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Shen et al. 2017
+type_species: Daliansaurus liaoningensis
+type_species_note: Taxobox of Wikipedia revision 1313906822.
+summary: Small troodontid, about 1 m long, from the Early Cretaceous of Liaoning, known from a nearly complete skeleton.
+size:
+  length_m: [1, 1]
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Daliansaurus liaoningensis
+  authority: Shen et al. 2017
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A nearly complete skeleton, Yixian Formation, Liaoning, China (Shen et al. 2017).
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Lightly built and most likely feathered; fused neural arches show it was mature.
+images:
+- kind: life
+  file: Daliansaurus reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/28/Daliansaurus_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Daliansaurus_reconstruction.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-06-16'
+  caption: Life restoration
+  width: 1468
+  height: 738
+  review: unreviewed
+  local: img/gallery/Daliansaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. Shen, J. Lü, and S. Liu, M. Kundrát, S. L. Brusatte, H. Gao. 2017. A new troodontid dinosaur from the
+    Lower Cretaceous Yixian Formation of Liaoning Province, China. Acta Geologica Sinica (English Edition) 91(3):763-780
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Daliansaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Daliansaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Daliansaurus”. English Wikipedia, revision 1313906822.
+  url: https://en.wikipedia.org/w/index.php?title=Daliansaurus&oldid=1313906822
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

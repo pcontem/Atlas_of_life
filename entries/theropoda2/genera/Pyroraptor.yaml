@@ -1,0 +1,116 @@
+name: Pyroraptor
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: Probably a dromaeosaurid or an unenlagiid (cited Wikipedia revision); analyses disagree.
+authority: Allain and Taquet 2000
+type_species: Pyroraptor olympius
+type_species_note: The only valid species listed by PBDB.
+summary: Paravian from the late Campanian–early Maastrichtian of southern France, found after a forest fire.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Pyroraptor olympius
+  authority: Allain and Taquet 2000
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: La Posa
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: la-posa-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Provence-Alpes-Côte d'Azur]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: unnamed-la-boucharde-france
+- formation: Vitoria
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla y Leon]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: vitoria-spain
+fossil_material:
+  holotype: Specimen from Provence, southern France (Allain and Taquet 2000).
+  material: Only the holotype and referred bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived on the Ibero-Armorican island about 72 million years ago; its name ("fire thief") refers to the forest
+  fire that exposed it.
+images:
+- kind: life
+  file: Pyroraptor olympius reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Pyroraptor_olympius_reconstruction.png/960px-Pyroraptor_olympius_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pyroraptor_olympius_reconstruction.png
+  artist: Mette Aumala
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-27'
+  caption: Life restoration
+  width: 1950
+  height: 960
+  review: unreviewed
+  local: img/gallery/Pyroraptor_001.webp
+- kind: skeletal
+  file: Pyroraptor olympius running posture.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Pyroraptor_olympius_running_posture.png/960px-Pyroraptor_olympius_running_posture.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pyroraptor_olympius_running_posture.png
+  artist: Red Natters
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-05-10'
+  caption: Skeletal reconstruction
+  width: 2500
+  height: 892
+  review: unreviewed
+  local: img/gallery/Pyroraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/8f985375-9753-423d-8276-c40bcd556e7f/vector.svg
+  png: https://images.phylopic.org/images/8f985375-9753-423d-8276-c40bcd556e7f/raster/512x173.png
+  page: https://www.phylopic.org/images/8f985375-9753-423d-8276-c40bcd556e7f
+  attribution: Mette Aumala
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Pyroraptor olympius
+  matched: Pyroraptor
+  genus_level: true
+  w: 512
+  h: 173
+sources:
+- kind: original
+  text: R. Allain and P. Taquet. 2000. A new genus of Dromaeosauridae (Dinosauria, Theropoda) from the Upper Cretaceous
+    of France. Journal of Vertebrate Paleontology 20(2):404-407
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pyroraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pyroraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pyroraptor”. English Wikipedia, revision 1369872427.
+  url: https://en.wikipedia.org/w/index.php?title=Pyroraptor&oldid=1369872427
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

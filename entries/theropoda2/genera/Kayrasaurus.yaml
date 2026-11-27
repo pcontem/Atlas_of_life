@@ -1,0 +1,86 @@
+name: Kayrasaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Liao et al. 2026
+type_species: Kayrasaurus changliensis
+type_species_note: The only valid species listed by PBDB.
+summary: Early therizinosaur from the Yixian Formation of China named in 2026 from a nearly complete, flattened
+  skeleton with skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kayrasaurus changliensis
+  authority: Liao et al. 2026
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Nearly complete, largely articulated and strongly flattened skeleton with skull, Yixian Formation, China
+    (Liao et al. 2026).
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Had more teeth in the lower jaw than any other therizinosaur, an elongated neck and large curved hand claws;
+  closely related to Beipiaosaurus and Jianchangosaurus.
+images:
+- kind: life
+  file: Kayrasaurus changliensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Kayrasaurus_changliensis.png/960px-Kayrasaurus_changliensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kayrasaurus_changliensis.png
+  artist: Connor Ashbridge
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-09-12'
+  caption: Life restoration
+  width: 4000
+  height: 2361
+  review: unreviewed
+  local: img/gallery/Kayrasaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e/vector.svg
+  png: https://images.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e/raster/512x221.png
+  page: https://www.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Falcarius utahensis
+  matched: Therizinosauria
+  genus_level: false
+sources:
+- kind: original
+  text: Liao, Chun-Chi; Freimuth, William J.; Zanno, Lindsay E.; Xu, Xing 2026. A new therizinosaur from the Early
+    Cretaceous Jehol Biota and ecomorphological patterns among early therizinosaurians. Journal of Systematic Palaeontology
+    24(2). doi:10.1080/14772019.2026.2710287
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kayrasaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kayrasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kayrasaurus”. English Wikipedia, revision 1383016033.
+  url: https://en.wikipedia.org/w/index.php?title=Kayrasaurus&oldid=1383016033
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

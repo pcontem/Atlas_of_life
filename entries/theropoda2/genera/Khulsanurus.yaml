@@ -1,0 +1,75 @@
+name: Khulsanurus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Averianov and Lopatin 2021
+type_species: Khulsanurus magnificus
+type_species_note: Taxobox of Wikipedia revision 1387598564.
+summary: Alvarezsaurid from the Campanian Baruungoyot Formation at Khulsan, Mongolia, known from neck and tail vertebrae
+  and shoulder bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Khulsanurus magnificus
+  authority: Averianov and Lopatin 2021
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: Partial cervical and caudal vertebral series, scapulocoracoids, right humerus, a possible left humerus
+    and a left pubis, Khulsan, Baruungoyot Formation, Mongolia.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: One of several alvarezsaurids from the Baruungoyot Formation.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. O. Averianov and A. V. Lopatin. 2021. The second taxon of alvarezsaurid theropod dinosaurs from the Late
+    Cretaceous Khulsan locality in Gobi Desert, Mongolia. Historical Biology
+- kind: literature
+  text: 'Averianov AO, Lopatin AV 2022. The second taxon of alvarezsaurid theropod dinosaurs from the Late Cretaceous
+    Khulsan locality in Gobi Desert, Mongolia. Historical Biology: An International Journal of Paleobiology 34(11):
+    2125–2136. doi:10.1080/08912963.2021.2000976'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Khulsanurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Khulsanurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Khulsanurus”. English Wikipedia, revision 1387598564.
+  url: https://en.wikipedia.org/w/index.php?title=Khulsanurus&oldid=1387598564
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

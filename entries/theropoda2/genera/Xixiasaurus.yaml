@@ -1,0 +1,95 @@
+name: Xixiasaurus
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Lü et al. 2010
+type_species: Xixiasaurus henanensis
+type_species_note: The only valid species listed by PBDB.
+summary: Troodontid from the Late Cretaceous of Xixia County, Henan, with a long, low snout and unserrated teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 89.8
+  last_ma: 72.2
+  early_interval: Coniacian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xixiasaurus henanensis
+  authority: Lü et al. 2010
+  first_ma: 89.8
+  last_ma: 72.2
+  interval: Coniacian–Campanian
+  reference: original description
+formations:
+- formation: Majiacun
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Coniacian–Campanian
+  occurrences: 1
+  ma: [72.2, 89.8]
+  id: majiacun-china
+fossil_material:
+  holotype: The only specimen, from Xixia County, Henan, China (Lü et al. 2010).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Its domed frontal indicates an enlarged braincase; unlike most troodontids its teeth lacked serrations.
+images:
+- kind: life
+  file: Xixiasaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Xixiasaurus.jpg/960px-Xixiasaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Xixiasaurus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013'
+  caption: Life restoration
+  width: 1914
+  height: 779
+  review: unreviewed
+  local: img/gallery/Xixiasaurus_001.webp
+- kind: fossil
+  file: Xixiasaurus skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/45/Xixiasaurus_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Xixiasaurus_skull.jpg
+  artist: Junchang Lü, Li Xu, Yongqing Liu, Xingliao Zhang, Songhai Jia, and Qiang Ji
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2010'
+  caption: Skull
+  width: 1069
+  height: 1228
+  review: unreviewed
+  local: img/gallery/Xixiasaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Lü. 2010. A new troodontid theropod from the Late Cretaceous of central China, and the radiation of Asian
+    troodontids. Acta Palaeontologica Polonica 55(3):381-388
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xixiasaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xixiasaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xixiasaurus”. English Wikipedia, revision 1387572595.
+  url: https://en.wikipedia.org/w/index.php?title=Xixiasaurus&oldid=1387572595
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

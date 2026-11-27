@@ -1,0 +1,98 @@
+name: Citipati
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Clark et al. 2001
+type_species: Citipati osmolskae
+type_species_note: Taxobox of Wikipedia revision 1388156728.
+summary: Large oviraptorid from the Djadochta Formation of Mongolia, famous for skeletons brooding on nests of eggs.
+size:
+  length_m: [2.5, 2.9]
+  mass_kg: [75, 110]
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Citipati osmolskae
+  authority: Clark et al. 2001
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: Specimen from Ukhaa Tolgod, Djadochta Formation, Mongolia (Clark et al. 2001).
+  material: Several specimens, including adults on nests.
+  completeness: multiple
+  exceptional: Adults preserved sitting on nests of eggs.
+biology: Toothless jaws with a horny beak; the nesting specimens show bird-like brooding.
+images:
+- kind: life
+  file: Citipati MPC-D 100 971 restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Citipati_MPC-D_100_971_restoration.png/960px-Citipati_MPC-D_100_971_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Citipati_MPC-D_100_971_restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-08-15'
+  caption: Life restoration
+  width: 2147
+  height: 972
+  review: unreviewed
+  local: img/gallery/Citipati_001.webp
+- kind: fossil
+  file: Citipati IGM 100 1004.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/60/Citipati_IGM_100_1004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Citipati_IGM_100_1004.jpg
+  artist: Steve Starer from Commack NY, USA
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2005-11-05'
+  caption: Nesting specimen IGM 100/1004
+  width: 1281
+  height: 870
+  review: unreviewed
+  local: img/gallery/Citipati_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/b82711c1-4c4c-4fdd-b9ff-2bcd48aa4cd1/vector.svg
+  png: https://images.phylopic.org/images/b82711c1-4c4c-4fdd-b9ff-2bcd48aa4cd1/raster/512x251.png
+  page: https://www.phylopic.org/images/b82711c1-4c4c-4fdd-b9ff-2bcd48aa4cd1
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Citipati osmolskae
+  matched: Citipati
+  genus_level: true
+  w: 512
+  h: 251
+sources:
+- kind: original
+  text: 'J. M. Clark, M. A. Norell, and R. Barsbold. 2001. Two new oviraptorids (Theropoda: Oviraptorosauria), Upper
+    Cretaceous Djadokhta Formation, Ukhaa Tolgod, Mongolia. Journal of Vertebrate Paleontology 21(2):209-213'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Citipati (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Citipati
+- kind: encyclopedia
+  text: Wikipedia contributors. “Citipati”. English Wikipedia, revision 1388156728.
+  url: https://en.wikipedia.org/w/index.php?title=Citipati&oldid=1388156728
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

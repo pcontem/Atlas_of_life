@@ -1,0 +1,74 @@
+name: Zhongornis
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: Described as a primitive bird (Gao et al. 2008); the cited Wikipedia revision treats it as a primitive
+  maniraptoran of uncertain position.
+authority: Gao et al. 2008
+type_species: Zhongornis haoae
+type_species_note: The only valid species listed by PBDB.
+summary: Small juvenile maniraptoran from the Yixian Formation of Liaoning, China, with a toothless beak.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhongornis haoae
+  authority: Gao et al. 2008
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dawangzhangzi]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: The only specimen, a fairly complete juvenile skeleton about 8 cm long on a slab, Yixian Formation,
+    Lingyuan, China.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Had a beaked mouth without teeth; unfused sutures and porous bones show the specimen was a juvenile.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d48ac7b2-f36e-4d8c-9ac0-406beda6f39b/vector.svg
+  png: https://images.phylopic.org/images/d48ac7b2-f36e-4d8c-9ac0-406beda6f39b/raster/847x1024.png
+  page: https://www.phylopic.org/images/d48ac7b2-f36e-4d8c-9ac0-406beda6f39b
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Confuciusornis
+  matched: Zhongornis
+  genus_level: true
+  w: 496
+  h: 600
+sources:
+- kind: original
+  text: C. Gao, L. M. Chiappe, and Q. Meng, J. K. O.'Connor, X. Wang, X. Cheng, J. Liu. 2008. A new basal lineage
+    of Early Cretaceous birds from China and its implications on the evolution of the avian tail. Palaeontology
+    51(4):775-791
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhongornis (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhongornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhongornis”. English Wikipedia, revision 1327710243.
+  url: https://en.wikipedia.org/w/index.php?title=Zhongornis&oldid=1327710243
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

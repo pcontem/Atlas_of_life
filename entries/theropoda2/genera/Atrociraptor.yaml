@@ -1,0 +1,100 @@
+name: Atrociraptor
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Currie and Varricchio 2004
+type_species: Atrociraptor marshalli
+type_species_note: The only valid species listed by PBDB.
+summary: Dromaeosaurid from the Horseshoe Canyon Formation of Alberta with a short, deep face and backward-sloping
+  teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Atrociraptor marshalli
+  authority: Currie and Varricchio 2004
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Horsethief, Tolman]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 6
+  ma: [66.0, 83.6]
+  id: horseshoe-canyon-canada
+fossil_material:
+  holotype: TMP 95.166.1, a partial skull found in 1995 by Wayne Marshall, Horseshoe Canyon Formation, about 5 km
+    from the Royal Tyrrell Museum, Alberta.
+  material: The holotype and referred teeth.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its face is much deeper and its teeth more strongly inclined backwards and more uniform in size than in
+  most dromaeosaurids.
+images:
+- kind: life
+  file: Atrociraptor restoration.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Atrociraptor_restoration.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Atrociraptor_restoration.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Life restoration
+  width: 1338
+  height: 904
+  review: unreviewed
+  local: img/gallery/Atrociraptor_001.webp
+- kind: fossil
+  file: Atrociraptor TMP 95.166.1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Atrociraptor_TMP_95.166.1.jpg/960px-Atrociraptor_TMP_95.166.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Atrociraptor_TMP_95.166.1.jpg
+  artist: IJReid
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-11-15'
+  caption: Holotype
+  width: 4215
+  height: 2443
+  review: unreviewed
+  local: img/gallery/Atrociraptor_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/277ceeda-a1ca-4d81-a97e-07a66907d4cc/vector.svg
+  png: https://images.phylopic.org/images/277ceeda-a1ca-4d81-a97e-07a66907d4cc/raster/512x170.png
+  page: https://www.phylopic.org/images/277ceeda-a1ca-4d81-a97e-07a66907d4cc
+  attribution: Mette Aumala
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Atrociraptor marshalli
+  matched: Atrociraptor
+  genus_level: true
+  w: 512
+  h: 170
+sources:
+- kind: original
+  text: P. J. Currie and D. J. Varricchio. 2004. A new dromaeosaurid from the Horseshoe Canyon Formation (Upper
+    Cretaceous) of Alberta, Canada. Feathered Dragons. Indiana University Press, Bloomington
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Atrociraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Atrociraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Atrociraptor”. English Wikipedia, revision 1381259963.
+  url: https://en.wikipedia.org/w/index.php?title=Atrociraptor&oldid=1381259963
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

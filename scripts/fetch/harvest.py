@@ -1,6 +1,6 @@
 """Harvest the raw material for a new genus volume (runs in GitHub Actions: .github/workflows/harvest.yml).
 
-    python3 scripts/fetch/harvest.py <volume> <PBDB base taxon> [--genera A,B,...] [--sheets DIR]
+    python3 scripts/fetch/harvest.py <volume> <PBDB base taxon> [--genera A,B,...] [--sheets DIR] [--papers] [--wiki-group <census group>] [--extra A,B]
 
 Writes data/raw/<volume>/ (provenance; never edited by hand):
   pbdb_genera.json    valid genera of the base taxon: authority, ages, parent/family/order, primary reference
@@ -12,7 +12,11 @@ Writes data/raw/<volume>/ (provenance; never edited by hand):
                       of that revision, files used in the article
   commons.json        per Commons file (article images + Category:<Genus> and its direct sub-categories):
                       licence, author, description, size, thumbnail address, where it was found
+  wiki_only.json      with --wiki-group: genera Wikipedia recognises (genus articles in the census categories) but PBDB lacks
   phylopic.json       per genus: the PhyloPic silhouette of the genus, or of the closest relative found
+  papers.json         with --papers: per genus, scientific articles that name it (OpenAlex + Europe PMC): citation, DOI,
+                      year, open-access status and licence, abstract (to find the primary literature; never copied into entries)
+  oa_figures.json     with --papers (or --oa on data already harvested): figures of CC BY / CC0 articles naming the genus
 and, with --sheets, one contact sheet per genus (numbered thumbnails of every candidate image) for visual review.
 Genus entries are never written here: they are drafted and curated by hand (CLAUDE.md §4).
 """
@@ -106,6 +110,38 @@ CITE_KEYS = re.compile(r"^(last\d*|first\d*|author\d*|authors|vauthors|year|date
                        r"publisher|url|chapter|isbn|pmid|pmc|website)$")
 
 
+def wiki_only_genera(group, pbdb_names, skip=()):
+    """Genera that English Wikipedia recognises (articles in the group's categories of data/census/sources.yaml that
+    are genus articles) but PBDB does not list as valid. Wikipedia recognition is enough to harvest them (owner,
+    2026-11-27). Names already in the atlas (entries, excluded.yaml, backbone nodes without a PBDB record count too)
+    are skipped only when excluded or already written; -> {genus: {"title", "category"}}."""
+    import yaml
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import census
+    cfg = yaml.safe_load((ROOT / "data/census/sources.yaml").read_text())[group]
+    w = cfg.get("wikipedia") or {}
+    pages, _, _, _ = census.wiki_category_pages(w.get("categories", []), w.get("depth", 3))
+    atlas = census.load_atlas()
+    cand = {}
+    for t, cat in pages.items():
+        n = census.title_to_name(t)
+        if n and n not in pbdb_names and n not in atlas["excluded"] and n not in atlas["entries"] and n not in skip:
+            cand.setdefault(n, (t, cat))
+    out = {}
+    titles = sorted(t for t, _ in cand.values())
+    for i in range(0, len(titles), 40):
+        chunk = titles[i:i + 40]
+        r = mw(WIKI, action="query", prop="revisions", rvprop="content", rvslots="main", titles="|".join(chunk))
+        for pg in r.get("query", {}).get("pages", []):
+            if "revisions" not in pg:
+                continue
+            wt = pg["revisions"][0]["slots"]["main"]["content"]
+            n = census.title_to_name(pg["title"])
+            if n in cand and census.wiki_is_genus(wt, n):
+                out[n] = dict(title=pg["title"], category=cand[n][1])
+    return out
+
+
 def cites(wt):
     out, seen = [], set()
     for m in CITE.finditer(wt):
@@ -144,18 +180,21 @@ def taxobox(wt):
 GENUS_WORDS = re.compile(r"\b(genus|genera)\b", re.I)
 
 
-def wiki(names):
+def wiki(names, titles=None):
+    """titles: {genus: article title to ask for instead of the genus name} (e.g. "Mei (dinosaur)")."""
+    titles = titles or {}
     res = {}
     for i in range(0, len(names), 40):
         chunk = names[i:i + 40]
         r = mw_pages(WIKI, action="query", redirects=1, prop="revisions|pageprops|images", rvprop="ids|timestamp|content",
-               rvslots="main", ppprop="disambiguation", imlimit="max", titles="|".join(chunk))
+               rvslots="main", ppprop="disambiguation", imlimit="max", titles="|".join(titles.get(g, g) for g in chunk))
         q = r.get("query", {})
         norm = {n["from"]: n["to"] for n in q.get("normalized", [])}
         red = {n["from"]: n["to"] for n in q.get("redirects", [])}
         pages = {p["title"]: p for p in q.get("pages", [])}
         for g in chunk:
-            t = norm.get(g, g)
+            t = titles.get(g, g)
+            t = norm.get(t, t)
             t = red.get(t, t)
             p = pages.get(t)
             if not p or p.get("missing") or "revisions" not in p:
@@ -179,6 +218,24 @@ def wiki(names):
         w["about_genus"] = bool(re.search(rf"\b{re.escape(g)}\b[^.]{{0,120}}\b(is|was)\b[^.]{{0,80}}{GENUS_WORDS.pattern}",
                                           w["text"][:1500]))
     return res
+
+
+def wiki_retry(wk):
+    """Genera whose page is missing, a disambiguation page or not about the genus (Mei, Yi, Anzu…): ask again for
+    "<Genus> (dinosaur)" and keep the answer only when that page is about the genus."""
+    bad = [g for g, w in wk.items() if w.get("missing") or w.get("disambiguation") or not w.get("about_genus")]
+    if not bad:
+        return []
+    new = wiki(bad, {g: f"{g} (dinosaur)" for g in bad})
+    # a page asked for as "<Genus> (dinosaur)" is about the genus when it calls itself a genus near the start
+    ok = lambda w: w.get("about_genus") or re.search(r"\bgenus\b", w.get("text", "")[:700])
+    fixed = [g for g, w in new.items() if not w.get("missing") and not w.get("disambiguation") and ok(w)]
+    for g in fixed:
+        new[g]["about_genus"] = True
+    for g in fixed:
+        wk[g] = new[g]
+    print(f"  wikipedia retry: {len(fixed)} of {len(bad)} pages found as '<Genus> (dinosaur)'")
+    return fixed
 
 
 # ---------- Commons ----------
@@ -374,6 +431,66 @@ def oa_sheet(g, figs, outdir):
         sheet.save(outdir / f"oa_{g}.jpg", quality=70)
 
 
+# ---------- scientific articles (OpenAlex + Europe PMC) ----------
+OPENALEX = "https://api.openalex.org/works"
+FOSSIL_WORDS = "(dinosaur OR dinosaurs OR theropod OR fossil OR Cretaceous OR Jurassic OR Triassic OR Paleocene OR Eocene OR Miocene)"
+
+
+def _abstract(inv):
+    if not inv:
+        return ""
+    pos = sorted((i, w) for w, ii in inv.items() for i in ii)
+    return " ".join(w for _, w in pos)
+
+
+def papers_one(g, per_source=12):
+    """Articles whose title or abstract names the genus, with a fossil word to drop homonyms. Abstracts are cut to
+    1500 characters so the file stays small; the full text is read from the DOI when an entry is written."""
+    out = {}
+    r = fetch_json(OPENALEX, {"filter": f'title_and_abstract.search:"{g}" AND {FOSSIL_WORDS}', "sort": "publication_year:desc",
+                              "per-page": per_source, "mailto": "atlas-of-life@users.noreply.github.com"}) or {}
+    for wk in r.get("results", []):
+        doi = (wk.get("doi") or "").replace("https://doi.org/", "").lower() or None
+        src = ((wk.get("primary_location") or {}).get("source") or {})
+        oa = wk.get("open_access") or {}
+        key = doi or wk.get("id")
+        out[key] = dict(title=wk.get("display_name") or "", year=wk.get("publication_year"), doi=doi,
+                        authors=", ".join(a["author"]["display_name"] for a in (wk.get("authorships") or [])[:8] if a.get("author")),
+                        journal=src.get("display_name") or "", oa=bool(oa.get("is_oa")), oa_url=oa.get("oa_url"),
+                        license=(wk.get("primary_location") or {}).get("license"), cited_by=wk.get("cited_by_count"),
+                        in_title=g.lower() in (wk.get("display_name") or "").lower(),
+                        abstract=_abstract(wk.get("abstract_inverted_index"))[:1500], found_in=["openalex"])
+    r = fetch_json(f"{EPMC}/search", dict(query=f'(TITLE:"{g}" OR ABSTRACT:"{g}") AND {FOSSIL_WORDS}', resultType="core",
+                                          format="json", pageSize=per_source, sort="P_PDATE_D desc")) or {}
+    for a in r.get("resultList", {}).get("result", []):
+        doi = (a.get("doi") or "").lower() or None
+        key = doi or a.get("pmcid") or a.get("id")
+        if key in out:
+            out[key]["found_in"].append("europepmc")
+            out[key]["pmcid"] = a.get("pmcid")
+            if not out[key]["abstract"]:
+                out[key]["abstract"] = re.sub(r"<[^>]+>", "", a.get("abstractText") or "")[:1500]
+            continue
+        out[key] = dict(title=a.get("title") or "", year=int(a["pubYear"]) if str(a.get("pubYear", "")).isdigit() else None,
+                        doi=doi, pmcid=a.get("pmcid"), authors=a.get("authorString", "")[:300],
+                        journal=((a.get("journalInfo") or {}).get("journal") or {}).get("title", ""),
+                        oa=a.get("isOpenAccess") == "Y", oa_url=None, license=a.get("license"), cited_by=a.get("citedByCount"),
+                        in_title=g.lower() in (a.get("title") or "").lower(),
+                        abstract=re.sub(r"<[^>]+>", "", a.get("abstractText") or "")[:1500], found_in=["europepmc"])
+    return sorted(out.values(), key=lambda x: (not x["in_title"], -(x["year"] or 0)))
+
+
+def papers(names):
+    from concurrent.futures import ThreadPoolExecutor
+    out = {}
+    with ThreadPoolExecutor(6) as ex:
+        for k, (g, ps) in enumerate(zip(names, ex.map(papers_one, names))):
+            out[g] = ps
+            if k % 25 == 0:
+                print(f"  papers {k}/{len(names)}", flush=True)
+    return out
+
+
 # ---------- contact sheets ----------
 def sheets(files, names, outdir):
     from PIL import Image, ImageDraw
@@ -402,6 +519,14 @@ def sheets(files, names, outdir):
         sheet.save(outdir / f"{g}.jpg", quality=70)
 
 
+def all_names(raw):
+    """PBDB genera of a harvested volume plus the Wikipedia-only ones (wiki_only.json) and the --extra ones."""
+    n = {r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"]}
+    if (raw / "wiki_only.json").exists():
+        n |= set(json.loads((raw / "wiki_only.json").read_text())["genera"])
+    return sorted(n)
+
+
 def main():
     a = sys.argv[1:]
     vol, base = a[0], a[1]
@@ -411,7 +536,7 @@ def main():
     raw.mkdir(parents=True, exist_ok=True)
     w = lambda name, obj: (raw / name).write_text(json.dumps(obj, ensure_ascii=False, indent=0))
     if "--oa" in a:  # open-access figures for the listed genera (or all), added to data already harvested
-        names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
+        names = only or all_names(raw)
         oaf = raw / "oa_figures.json"
         old = json.loads(oaf.read_text())["figures"] if oaf.exists() else {}
         new = oa_figures(names)
@@ -421,9 +546,51 @@ def main():
             oa_sheets(new, sheet_dir)
         print(f"done: {sum(len(v) for v in new.values())} figures for {len(new)} genera")
         return
+    if "--extra" in a:  # genera that PBDB does not list as valid (Wikipedia-only, backbone nodes): added to data already harvested
+        names = a[a.index("--extra") + 1].split(",")
+        print(f"Extra genera by name: {names}")
+        def load(f, key, default):
+            return json.loads((raw / f).read_text()) if (raw / f).exists() else {"downloaded": TODAY, key: default}
+        wk = wiki(names)
+        wiki_retry(wk)
+        old = load("wiki.json", "pages", {})
+        old["pages"].update(wk)
+        old["extra"] = dict(downloaded=TODAY, genera=names)
+        w("wiki.json", old)
+        files = commons(wk, names, {}, ())
+        oc = load("commons.json", "files", {})
+        for t, f in files.items():
+            if t in oc["files"]:
+                oc["files"][t]["genera"] = sorted(set(oc["files"][t].get("genera", [])) | set(f["genera"]))
+            else:
+                oc["files"][t] = f
+        w("commons.json", oc)
+        pl = load("phylopic.json", "silhouettes", {})
+        pl["silhouettes"].update(phylopic(names, {}))
+        w("phylopic.json", pl)
+        pp = papers(names)
+        op = load("papers.json", "papers", {})
+        op.setdefault("sources", ["OpenAlex", "Europe PMC"])
+        op["papers"].update(pp)
+        w("papers.json", op)
+        oa = oa_figures(names)
+        of = load("oa_figures.json", "figures", {})
+        of["figures"].update(oa)
+        w("oa_figures.json", of)
+        if sheet_dir:
+            sheets(files, names, sheet_dir)
+        print(f"done: {len(names)} extra genera, {len(files)} Commons files, {sum(len(v) for v in pp.values())} articles")
+        return
+    if "--wiki-retry" in a:  # second try for wrong Wikipedia pages, on data already harvested
+        wf = raw / "wiki.json"
+        wk = json.loads(wf.read_text())
+        fixed = wiki_retry(wk["pages"])
+        wk["retried"] = dict(downloaded=TODAY, genera=fixed)
+        w("wiki.json", wk)
+        return
     if "--sheets-only" in a:  # contact sheets from data already harvested
         files = json.loads((raw / "commons.json").read_text())["files"]
-        names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
+        names = only or all_names(raw)
         sheets(files, names, sheet_dir)
         return
     w = lambda name, obj: (raw / name).write_text(json.dumps(obj, ensure_ascii=False, indent=0))
@@ -432,6 +599,11 @@ def main():
     names = sorted(r["taxon_name"] for r in gen)
     if only:
         names = [n for n in names if n in only]
+    if "--wiki-group" in a:  # Wikipedia recognition is enough: genera of the group's Wikipedia categories PBDB lacks
+        wo = wiki_only_genera(a[a.index("--wiki-group") + 1], set(names) | {r["taxon_name"] for r in inv})
+        w("wiki_only.json", dict(downloaded=TODAY, group=a[a.index("--wiki-group") + 1], genera=wo))
+        print(f"{len(wo)} genera known to Wikipedia but not valid in PBDB: {', '.join(sorted(wo))}")
+        names = sorted(set(names) | set(wo))
     w("pbdb_genera.json", dict(downloaded=TODAY, base=base, records=gen))
     w("pbdb_species.json", dict(downloaded=TODAY, base=base, species=species))
     w("pbdb_invalid.json", dict(downloaded=TODAY, base=base, records=inv))
@@ -441,6 +613,7 @@ def main():
     w("pbdb_colls.json", cols)
     print(f"Wikipedia ({len(names)} genera)…")
     wk = wiki(names)
+    wiki_retry(wk)
     w("wiki.json", dict(downloaded=TODAY, pages=wk))
     print("Commons…", flush=True)
     living = {r["taxon_name"] for r in gen if r.get("is_extant") in ("extant", True, 1, "1")}
@@ -452,6 +625,16 @@ def main():
     lineage = {r["taxon_name"]: [x for x in (r.get("family"), r.get("parent_name"), r.get("order")) if x and x != "NO_FAMILY_SPECIFIED"]
                for r in gen}
     w("phylopic.json", dict(downloaded=TODAY, silhouettes=phylopic(names, lineage)))
+    if "--papers" in a:
+        print("Scientific articles…")
+        pp = papers(names)
+        w("papers.json", dict(downloaded=TODAY, sources=["OpenAlex", "Europe PMC"], papers=pp))
+        print(f"  {sum(len(v) for v in pp.values())} articles, {sum(1 for v in pp.values() if not v)} genera without any")
+        print("Open-access figures…")
+        oa = oa_figures(names)
+        w("oa_figures.json", dict(downloaded=TODAY, figures=oa))
+        if sheet_dir:
+            oa_sheets(oa, sheet_dir / "oa")
     if sheet_dir:
         print("Contact sheets…")
         sheets(files, names, sheet_dir)

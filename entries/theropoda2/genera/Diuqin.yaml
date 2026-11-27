@@ -1,0 +1,96 @@
+name: Diuqin
+rank: genus
+parent: unenlagiidae
+incertae_sedis: false
+placement_note: ''
+authority: Porfiri et al. 2024
+type_species: Diuqin lechiguanae
+type_species_note: The only valid species listed by PBDB.
+summary: Unenlagiid from the Santonian Bajo de la Carpa Formation of Argentina known from a humerus and vertebrae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Diuqin lechiguanae
+  authority: Porfiri et al. 2024
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: MUCPv 1401, a humerus and fragmentary vertebrae, Bajo de la Carpa Formation, Neuquén, Argentina.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: Tooth marks on the humerus, possibly from a megaraptorid.
+biology: Fills a gap of at least 15 million years in the record of unenlagiines between Unenlagia and Austroraptor.
+images:
+- kind: life
+  file: Diuqin lechiguanae.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Diuqin_lechiguanae.png/960px-Diuqin_lechiguanae.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diuqin_lechiguanae.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-25'
+  caption: Life restoration
+  width: 3500
+  height: 1563
+  review: unreviewed
+  local: img/gallery/Diuqin_001.webp
+- kind: fossil
+  file: Diuqin humerus (MUCPv 1401-4).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Diuqin_humerus_%28MUCPv_1401-4%29.png/960px-Diuqin_humerus_%28MUCPv_1401-4%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Diuqin_humerus_(MUCPv_1401-4).png
+  artist: J. D. Porfiri, M. A. Baiano, D. D. dos Santos, F. A. Gianechini, M. Pittman & M. C. Lamanna
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-06-14'
+  caption: Humerus
+  width: 2008
+  height: 1831
+  review: unreviewed
+  local: img/gallery/Diuqin_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. D. Porfiri, M. A. Baiano, and D. D. dos Santos, F. A. Gianechini, M. Pittman, M. C. Lamanna. 2024. Diuqin
+    lechiguanae gen. et sp. nov., a new unenlagiine (Theropoda: Paraves) from the Bajo de la Carpa Formation (Neuquén
+    Group, Upper Cretaceous) of Neuquén Province, Patagonia, Argentina. BMC Ecology and Evolution 24:77:1-22'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diuqin (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diuqin
+- kind: encyclopedia
+  text: Wikipedia contributors. “Diuqin”. English Wikipedia, revision 1310860499.
+  url: https://en.wikipedia.org/w/index.php?title=Diuqin&oldid=1310860499
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

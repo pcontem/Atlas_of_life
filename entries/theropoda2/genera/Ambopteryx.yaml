@@ -1,0 +1,99 @@
+name: Ambopteryx
+rank: genus
+parent: scansoriopterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2019
+type_species: Ambopteryx longibrachium
+type_species_note: The only valid species listed by PBDB.
+summary: Scansoriopterygid from the Late Jurassic of China, the second dinosaur found with both feathers and bat-like
+  membranous wings.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ambopteryx longibrachium
+  authority: Wang et al. 2019
+  first_ma: 161.5
+  last_ma: 143.1
+  interval: Oxfordian–Tithonian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Jurassic
+  occurrences: 1
+  ma: [143.1, 161.5]
+  id: unnamed-wubaiding-village-china
+fossil_material:
+  holotype: IVPP V24192, an articulated nearly complete skeleton with soft tissue on a slab and counterslab, found
+    in 2017.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: Membranous wing tissue and feathers.
+biology: Like its sister taxon Yi, it had a long styliform wrist bone supporting a membrane wing.
+images:
+- kind: fossil
+  file: Ambopteryx longibrachium holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ambopteryx_longibrachium_holotype.jpg/960px-Ambopteryx_longibrachium_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ambopteryx_longibrachium_holotype.jpg
+  artist: 纳瓦拉的亨利
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-07-22'
+  caption: Holotype
+  width: 3072
+  height: 4096
+  review: unreviewed
+  local: img/gallery/Ambopteryx_001.webp
+- kind: life
+  file: Ambopteryx restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Ambopteryx_restoration.png/960px-Ambopteryx_restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ambopteryx_restoration.png
+  artist: Audrey.m.horn
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-12-24'
+  caption: Life restoration
+  width: 3789
+  height: 1958
+  review: unreviewed
+  local: img/gallery/Ambopteryx_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/aa726914-e9bc-4811-8f42-9060c139d633/vector.svg
+  png: https://images.phylopic.org/images/aa726914-e9bc-4811-8f42-9060c139d633/raster/512x178.png
+  page: https://www.phylopic.org/images/aa726914-e9bc-4811-8f42-9060c139d633
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Scansoriopteryx heilmanni
+  matched: Scansoriopterygidae
+  genus_level: false
+  w: 512
+  h: 178
+sources:
+- kind: original
+  text: M. Wang, J. K. O'Connor, and X. Xu, Z. Zhou. 2019. A new Jurassic scansoriopterygid and the loss of membranous
+    wings in theropod dinosaurs. Nature 568
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ambopteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ambopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ambopteryx”. English Wikipedia, revision 1345234179.
+  url: https://en.wikipedia.org/w/index.php?title=Ambopteryx&oldid=1345234179
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

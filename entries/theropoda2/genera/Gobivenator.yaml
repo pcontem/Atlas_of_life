@@ -1,0 +1,87 @@
+name: Gobivenator
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Tsuihiji et al. 2014
+type_species: Gobivenator mongoliensis
+type_species_note: Taxobox of Wikipedia revision 1368879853.
+summary: Troodontid from the late Campanian Djadokhta Formation of Mongolia, the most complete Late Cretaceous troodontid
+  known.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gobivenator mongoliensis
+  authority: Tsuihiji et al. 2014
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ömnögovi Aimag]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: MPC-D 100/86, a nearly complete articulated skeleton with a mostly undistorted skull lacking only the
+    snout tip.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its well-preserved skull is an important source on troodontid anatomy.
+images:
+- kind: life
+  file: Gobivenator Restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Gobivenator_Restoration.jpg/960px-Gobivenator_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gobivenator_Restoration.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2014-01-19'
+  caption: Life restoration
+  width: 3345
+  height: 1453
+  review: unreviewed
+  local: img/gallery/Gobivenator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/fe24c8b2-a979-407e-a5fb-ba3a785e57f7/vector.svg
+  png: https://images.phylopic.org/images/fe24c8b2-a979-407e-a5fb-ba3a785e57f7/raster/512x182.png
+  page: https://www.phylopic.org/images/fe24c8b2-a979-407e-a5fb-ba3a785e57f7
+  attribution: Danny Cicchetti (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Gobivenator mongoliensis
+  matched: Gobivenator
+  genus_level: true
+  w: 512
+  h: 182
+sources:
+- kind: original
+  text: T. Tsuihiji, R. Barsbold, and M. Watanabe, K. Tsogbataar, T. Chinzorig, Y. Fujiyama, S. Suzuki. 2014. An
+    exquisitely preserved troodontid theropod with new information on the palatal structure from the Upper Cretaceous
+    of Mongolia. Naturwissenschaften 101:131-142
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gobivenator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gobivenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gobivenator”. English Wikipedia, revision 1368879853.
+  url: https://en.wikipedia.org/w/index.php?title=Gobivenator&oldid=1368879853
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

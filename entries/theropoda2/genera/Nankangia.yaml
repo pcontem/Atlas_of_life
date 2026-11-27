@@ -1,0 +1,97 @@
+name: Nankangia
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: true
+placement_note: PBDB places it in Oviraptoridae; the cited Wikipedia revision calls it a caenagnathoid of uncertain
+  family.
+authority: Lü et al. 2013
+type_species: Nankangia jiangxiensis
+type_species_note: Taxobox of Wikipedia revision 1387572581.
+summary: Oviraptorosaur from the Maastrichtian Nanxiong Formation of Nankang, Jiangxi, which lived with several
+  other oviraptorosaurs.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nankangia jiangxiensis
+  authority: Lü et al. 2013
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Nanxiong
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nanxiong-group-china
+fossil_material:
+  holotype: Specimen from the Nanxiong Formation, Nankang, Ganzhou, Jiangxi, China (Lü et al. 2013).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Coexisted with at least four other oviraptorosaurs in the Nanxiong Formation.
+images:
+- kind: life
+  file: Nankangia Restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Nankangia_Restoration.jpg/960px-Nankangia_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nankangia_Restoration.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-11-28'
+  caption: Life restoration
+  width: 2829
+  height: 1774
+  review: unreviewed
+  local: img/gallery/Nankangia_001.webp
+- kind: fossil
+  file: Nankangia jiangxiensis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Nankangia_jiangxiensis.png/960px-Nankangia_jiangxiensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nankangia_jiangxiensis.png
+  artist: Junchang Lü, Laiping Yi, Hui Zhong, Xuefang Wei
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Holotype
+  width: 1760
+  height: 2738
+  review: unreviewed
+  local: img/gallery/Nankangia_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. Lü, L. Yi, and H. Zhong, X. Wei. 2013. A new oviraptorosaur (Dinosauria: Oviraptorosauria) from the
+    Late Cretaceous of southern China and its palaeoecological implications. PLoS One 8(11):e80557:1-14'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nankangia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nankangia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nankangia”. English Wikipedia, revision 1387572581.
+  url: https://en.wikipedia.org/w/index.php?title=Nankangia&oldid=1387572581
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,95 @@
+name: Hypnovenator
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Kubota et al. 2024
+type_species: Hypnovenator matsubaraetoheorum
+type_species_note: The only valid species listed by PBDB.
+summary: Troodontid from the Albian Ohyamashimo Formation of Japan, known from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 106.3
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hypnovenator matsubaraetoheorum
+  authority: Kubota et al. 2024
+  first_ma: 113.2
+  last_ma: 106.3
+  interval: Albian
+  reference: original description
+formations:
+- formation: Ohyamashimo
+  group: Sasayama
+  members: []
+  country: Japan
+  regions: [Hyōgo]
+  interval: Early Albian–Middle Albian
+  occurrences: 1
+  ma: [106.3, 113.2]
+  id: ohyamashimo-japan
+fossil_material:
+  holotype: A partial skeleton, Ohyamashimo Formation, Japan (Kubota et al. 2024).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: An early troodontine (Kubota et al. 2024); its name means "sleep hunter".
+images:
+- kind: life
+  file: Hypnovenator matsubaraetoheorum.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/12/Hypnovenator_matsubaraetoheorum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hypnovenator_matsubaraetoheorum.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-07-25'
+  caption: Life restoration
+  width: 1449
+  height: 748
+  review: unreviewed
+  local: img/gallery/Hypnovenator_001.webp
+- kind: fossil
+  file: Hypnovenator matsubaraetoheorum fossils and reconstructed skeleton.webp
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Hypnovenator_matsubaraetoheorum_fossils_and_reconstructed_skeleton.webp/960px-Hypnovenator_matsubaraetoheorum_fossils_and_reconstructed_skeleton.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Hypnovenator_matsubaraetoheorum_fossils_and_reconstructed_skeleton.webp
+  artist: Katsuhiro Kubota, Yoshitsugu Kobayashi & Tadahiro Ikeda
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-07-25'
+  caption: Fossil
+  width: 1998
+  height: 1673
+  review: unreviewed
+  local: img/gallery/Hypnovenator_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'K. Kubota, Y. Kobayashi, and T. Ikeda. 2024. Early Cretaceous troodontine troodontid (Dinosauria: Theropoda)
+    from the Ohyamashimo Formation of Japan reveals the early evolution of Troodontinae. Scientific Reports 14(16392):1-14'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hypnovenator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hypnovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hypnovenator”. English Wikipedia, revision 1328489076.
+  url: https://en.wikipedia.org/w/index.php?title=Hypnovenator&oldid=1328489076
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

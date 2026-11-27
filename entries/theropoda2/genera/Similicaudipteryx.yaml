@@ -1,0 +1,84 @@
+name: Similicaudipteryx
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: false
+placement_note: ''
+authority: He et al. 2008
+type_species: Similicaudipteryx yixianensis
+type_species_note: The only valid species listed by PBDB.
+summary: Caudipterid oviraptorosaur from the Jiufotang Formation of Liaoning, China, named for its similarity to
+  Caudipteryx.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Similicaudipteryx yixianensis
+  authority: He et al. 2008
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V 12556, a nearly complete adult skeleton without skull compressed on a plate, Jiufotang Formation,
+    China.
+  material: The holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Named for its similarity to Caudipteryx; the holotype is an adult.
+images:
+- kind: skeletal
+  file: Similicaudipteryx.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Similicaudipteryx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Similicaudipteryx.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Skeletal reconstruction
+  width: 1200
+  height: 856
+  review: unreviewed
+  local: img/gallery/Similicaudipteryx_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/vector.svg
+  png: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/raster/512x352.png
+  page: https://www.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Similicaudipteryx yixianensis
+  matched: Similicaudipteryx
+  genus_level: true
+sources:
+- kind: original
+  text: T. He, X.-L. Wang, and Z.-H. Zhou. 2008. A new genus and species of caudipterid dinosaur from the Lower
+    Cretaceous Jiufotang Formation of western Liaoning, China. Vertebrata PalAsiatica 46(3):178-189
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Similicaudipteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Similicaudipteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Similicaudipteryx”. English Wikipedia, revision 1354840717.
+  url: https://en.wikipedia.org/w/index.php?title=Similicaudipteryx&oldid=1354840717
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

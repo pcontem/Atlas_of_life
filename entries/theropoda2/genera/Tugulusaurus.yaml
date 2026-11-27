@@ -1,0 +1,75 @@
+name: Tugulusaurus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Dong 1973
+type_species: Tugulusaurus faciles
+type_species_note: The only valid species listed by PBDB.
+summary: Early alvarezsaurian from the Early Cretaceous Tugulu Group of Xinjiang, one of the first members of the
+  group to be found.
+size:
+  length_m: [1.9, 3]
+  note: ''
+age:
+  first_ma: 137.05
+  last_ma: 100.5
+  early_interval: Valanginian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tugulusaurus faciles
+  authority: Dong 1973
+  first_ma: 137.05
+  last_ma: 100.5
+  interval: Valanginian–Albian
+  reference: original description
+formations:
+- formation: Lianmuqin
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian–Albian
+  occurrences: 1
+  ma: [100.5, 137.05]
+  id: lianmuqin-china
+fossil_material:
+  holotype: IVPP V4025, from the Lianmuqin Formation (Barremian–Albian), Tugulu Group, Junggar Basin, Xinjiang,
+    China; the femur is about 215 mm long.
+  material: Only the holotype, a partial skeleton.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its delicate bones and long legs suggest an agile animal; it probably had large hooked claws.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/vector.svg
+  png: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/raster/512x269.png
+  page: https://www.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908
+  attribution: Tomopteryx
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Bannykus wulatensis
+  matched: Alvarezsauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: 'Z. Dong. 1973. [Dinosaurs from Wuerho]. Reports of Paleontological Expedition to Sinkiang (II): Pterosaurian
+    Fauna from Wuerho, Sinkiang.  Memoirs of the Institute of Vertebrate Paleontology and Paleoanthropology, Academia
+    Sinica 11:45-52'
+- kind: literature
+  text: 'Rauhut, Oliver W.M. 2005. The small theropod dinosaurs ''''Tugulusaurus'''' and ''''Phaedrolosaurus''''
+    from the Early Cretaceous of Xinjiang, China. Journal of Vertebrate Paleontology 25(1): 107–118. doi:10.1671/0272-4634(2005)025[0107:TSTDTA]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tugulusaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tugulusaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tugulusaurus”. English Wikipedia, revision 1366643670.
+  url: https://en.wikipedia.org/w/index.php?title=Tugulusaurus&oldid=1366643670
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

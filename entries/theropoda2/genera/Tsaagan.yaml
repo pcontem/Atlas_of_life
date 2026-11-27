@@ -1,0 +1,97 @@
+name: Tsaagan
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Norell et al. 2006
+type_species: Tsaagan mangas
+type_species_note: The only valid species listed by PBDB.
+summary: Dromaeosaurid from the Djadokhta Formation of Mongolia known from a skull first identified as Velociraptor.
+size:
+  length_m: [2, 2]
+  mass_kg: [15, 15]
+  note: Estimate by Gregory S. Paul (2010).
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tsaagan mangas
+  authority: Norell et al. 2006
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: A skull of an adult found in 1996, Djadokhta Formation, Mongolia; recognised as new after a CT scan
+    in 1998.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its skull is more robust and smooth on top than that of Velociraptor, with long paroccipital processes.
+images:
+- kind: life
+  file: Tsaagan.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Tsaagan.png/960px-Tsaagan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tsaagan.png
+  artist: Miracusaurs
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-07'
+  caption: Life restoration
+  width: 3914
+  height: 1382
+  review: unreviewed
+  local: img/gallery/Tsaagan_001.webp
+- kind: fossil
+  file: Tsaagan rostrum (holotype).png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f4/Tsaagan_rostrum_%28holotype%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tsaagan_rostrum_(holotype).png
+  artist: Chase D. Brownstein
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-11-11'
+  caption: Holotype rostrum
+  width: 568
+  height: 561
+  review: unreviewed
+  local: img/gallery/Tsaagan_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: M. A. Norell, J. M. Clark, and A. H. Turner, P. J. Makovicky, R. Barsbold, T. Rowe. 2006. A new dromaeosaurid
+    theropod from Ukhaa Tolgod (Ömnögov, Mongolia). American Museum Novitates 3545:1-25
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tsaagan (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tsaagan
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tsaagan”. English Wikipedia, revision 1369108348.
+  url: https://en.wikipedia.org/w/index.php?title=Tsaagan&oldid=1369108348
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

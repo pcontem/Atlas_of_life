@@ -1,0 +1,84 @@
+name: Liaoningvenator
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Shen et al. 2017
+type_species: Liaoningvenator curriei
+type_species_note: Taxobox of Wikipedia revision 1370055181.
+summary: Troodontid from the Early Cretaceous of Liaoning, China, known from an articulated, nearly complete skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Liaoningvenator curriei
+  authority: Shen et al. 2017
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: An articulated, nearly complete skeleton, Yixian Formation, Liaoning, China (Shen et al. 2017).
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its describers found Eosinopteryx to be its closest relative and placed it, Anchiornis and Xiaotingia inside
+  Troodontidae.
+images:
+- kind: life
+  file: Liaoningvenator.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Liaoningvenator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Liaoningvenator.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-06-16'
+  caption: Life restoration
+  width: 716
+  height: 451
+  review: unreviewed
+  local: img/gallery/Liaoningvenator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: C.-z. Shen, B. Zhao, and C.-l. Gao, J.-c. Lü, M. Kundrát. 2017. A new troodontid dinosaur (Liaoningvenator
+    curriei gen. et sp. nov.) from the Early Cretaceous Yixian Formation in western Liaoning Province. Acta Geoscientica
+    Sinica 38(3):359-371
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Liaoningvenator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Liaoningvenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Liaoningvenator”. English Wikipedia, revision 1370055181.
+  url: https://en.wikipedia.org/w/index.php?title=Liaoningvenator&oldid=1370055181
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

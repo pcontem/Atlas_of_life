@@ -1,0 +1,70 @@
+name: Jiangxisaurus
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Wei et al. 2013
+type_species: Jiangxisaurus ganzhouensis
+type_species_note: The only valid species listed by PBDB.
+summary: Oviraptorid from the Maastrichtian Nanxiong Formation of Jiangxi, China, similar to Heyuannia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jiangxisaurus ganzhouensis
+  authority: Wei et al. 2013
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Nanxiong
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nanxiong-group-china
+fossil_material:
+  holotype: HGM41-HIII0421, incomplete skull, lower jaw, 8 neck, 3 back and 9 tail vertebrae and a nearly complete
+    pectoral girdle, Nanxiong Formation, Ganzhou.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Had more strongly curved front claws and a thinner lower jaw than Heyuannia.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'X. Wei, H. Pu, and L. Xu, D. Liu, J. Lü. 2013. A new oviraptorid dinosaur (Theropoda: Oviraptorosauria)
+    from the Late Cretaceous of Jiangxi Province, southern China. Acta Geologica Sinica (English Edition) 87(4):899-904'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jiangxisaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jiangxisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jiangxisaurus”. English Wikipedia, revision 1315440061.
+  url: https://en.wikipedia.org/w/index.php?title=Jiangxisaurus&oldid=1315440061
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

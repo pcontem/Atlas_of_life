@@ -1,0 +1,87 @@
+name: Elopteryx
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: PBDB places it in Alvarezsauridae; recent work treats it as a paravian (Kessler et al. 2005; Mayr
+  et al. 2019) and suggests that Balaur may be its junior synonym.
+authority: Andrews 1913
+type_species: Elopteryx nopcsai
+type_species_note: Taxobox of Wikipedia revision 1368543638.
+summary: Paravian from the Maastrichtian of Hațeg, Romania, long known only from fragmentary leg bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Elopteryx nopcsai
+  authority: Andrews 1913
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Sînpetru
+  group: ''
+  members: [lower]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: sinpetru-romania
+- formation: Râul Mare
+  group: ''
+  members: [upper]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: raul-mare-romania
+fossil_material:
+  holotype: BMNH A1234, a proximal left femur, Sânpetru Formation, Hațeg Basin, Romania.
+  material: A second femur fragment (BMNH A1235), a tibiotarsus (BMNH A4359) once given the holotype number, and
+    new specimens reported in the 21st century.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived on the Late Cretaceous Hațeg Island; whether Balaur bondoc belongs here is debated.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: C. W. Andrews. 1913. On some bird remains from the Upper Cretaceous of Transslyvania. Geological Magazine,
+    new series, decade 5 10(5):193-196
+- kind: literature
+  text: 'Kessler, E. 2005. ''''Elopteryx'''' revisited - a new bird-like specimen from the Maastrichtian of the
+    Hateg Basin. Acta Palaeontologica Romaniae 5: 249–258.'
+- kind: literature
+  text: Mayr, G.; Codrea, V.; Solomon, A.; Bordeianu, M.; Smith, T. 2019. A well-preserved pelvis from the Maastrichtian
+    of Romania suggests that the enigmatic Gargantuavis is neither an ornithurine bird nor an insular endemic. Cretaceous
+    Research 106. doi:10.1016/j.cretres.2019.104271
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elopteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elopteryx”. English Wikipedia, revision 1368543638.
+  url: https://en.wikipedia.org/w/index.php?title=Elopteryx&oldid=1368543638
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

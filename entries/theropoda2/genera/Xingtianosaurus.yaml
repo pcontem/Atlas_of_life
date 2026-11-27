@@ -1,0 +1,84 @@
+name: Xingtianosaurus
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: false
+placement_note: ''
+authority: Qiu et al. 2019
+type_species: Xingtianosaurus ganqi
+type_species_note: Taxobox of Wikipedia revision 1368893725.
+summary: Early Cretaceous caudipterid oviraptorosaur from China known from a skeleton without skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xingtianosaurus ganqi
+  authority: Qiu et al. 2019
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dakangpu]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: IVPP V13390, almost complete skeleton lacking the skull, several vertebrae and the coracoids, Yixian
+    Formation, Liaoning, China.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Grouped by its describers with Caudipteryx and Similicaudipteryx in Caudipteridae.
+images:
+- kind: fossil
+  file: Xingtianosaurus holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/47/Xingtianosaurus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Xingtianosaurus_holotype.png
+  artist: Rui Qiu, Xiaolin Wang, Qiang Wang, Ning Li, Jialiang Zhang & Yiyun Ma
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-04-25'
+  caption: Holotype
+  width: 579
+  height: 685
+  review: unreviewed
+  local: img/gallery/Xingtianosaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/vector.svg
+  png: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/raster/512x352.png
+  page: https://www.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Similicaudipteryx yixianensis
+  matched: Caudipterygidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. Qiu, X. Wang, and Q. Wang, N. Li, J. Zhang, Y. Ma. 2019. A new caudipterid from the Lower Cretaceous
+    of China with information on the evolution of the manus of Oviraptorosauria. Scientific Reports 9(1):6431:1-10
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xingtianosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xingtianosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xingtianosaurus”. English Wikipedia, revision 1368893725.
+  url: https://en.wikipedia.org/w/index.php?title=Xingtianosaurus&oldid=1368893725
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number IVPP V13390 to be checked against Qiu et al. 2019 (truncated in the harvested text).
+  reviews: []

@@ -1,0 +1,111 @@
+name: Heyuannia
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Lü 2003
+type_species: Heyuannia huangi
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Oviraptorid from the Late Cretaceous of China and Mongolia, the first oviraptorid found in China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Heyuannia huangi
+  authority: Lü 2003
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+- name: Heyuannia yanshini
+  authority: (Barsbold 1981)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Dongyuan
+  group: ''
+  members: []
+  country: China
+  regions: [Guangdong]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: dongyuan-china
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: HYMV1-1, Dalangshan Formation, near Huangsha, Heyuan, Guangdong, China.
+  material: Many specimens of H. huangi; H. yanshini (named Ingenia yanshini by Barsbold 1981) from the Barun Goyot
+    Formation of Mongolia.
+  completeness: multiple
+  exceptional: ''
+biology: Found with nests of eggs in Guangdong.
+images:
+- kind: life
+  file: Heyuannia and eggs nest.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Heyuannia_and_eggs_nest.jpg/960px-Heyuannia_and_eggs_nest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Heyuannia_and_eggs_nest.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-09-02'
+  caption: Life restoration with eggs and nest
+  width: 6694
+  height: 3512
+  review: unreviewed
+  local: img/gallery/Heyuannia_001.webp
+- kind: skeletal
+  file: Heyuannia yanshini skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Heyuannia_yanshini_skeleton.jpg/960px-Heyuannia_yanshini_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Heyuannia_yanshini_skeleton.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2013'
+  caption: Skeleton of H. yanshini
+  width: 2400
+  height: 1187
+  review: unreviewed
+  local: img/gallery/Heyuannia_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/cf011031-6d3f-4ab0-84af-4bbad007b25c/vector.svg
+  png: https://images.phylopic.org/images/cf011031-6d3f-4ab0-84af-4bbad007b25c/raster/512x299.png
+  page: https://www.phylopic.org/images/cf011031-6d3f-4ab0-84af-4bbad007b25c
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Heyuannia yanshini
+  matched: Heyuannia
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. Lü. 2003. A new oviraptorosaurid (Theropoda: Oviraptorosauria) from the Late Cretaceous of southern
+    China. Journal of Vertebrate Paleontology 22(4):871-875'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Heyuannia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Heyuannia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Heyuannia”. English Wikipedia, revision 1372396081.
+  url: https://en.wikipedia.org/w/index.php?title=Heyuannia&oldid=1372396081
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

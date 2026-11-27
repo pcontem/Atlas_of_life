@@ -1,0 +1,114 @@
+name: Sinovenator
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2002
+type_species: Sinovenator changii
+type_species_note: The only valid species listed by PBDB.
+summary: Early troodontid from the Early Cretaceous Yixian Formation of China with bird-like skull features.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Sinovenator changii
+  authority: Xu et al. 2002
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 4
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: IVPP V12615, a partial skull and disarticulated skeleton, Yixian Formation, Liaoning, China.
+  material: The holotype, a paratype postcranial skeleton and later specimens.
+  completeness: multiple
+  exceptional: ''
+biology: Its brain shape converges on that of early birds (Yu et al. 2024).
+images:
+- kind: life
+  file: Sinovenator (update).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Sinovenator_%28update%29.png/960px-Sinovenator_%28update%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinovenator_(update).png
+  artist: Conty
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-03-03'
+  caption: Life restoration
+  width: 4616
+  height: 3883
+  review: unreviewed
+  local: img/gallery/Sinovenator_001.webp
+- kind: fossil
+  file: Sinovenator skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Sinovenator_skull.png/960px-Sinovenator_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinovenator_skull.png
+  artist: Ya-Lei Yin, Rui Pei​, Chang-Fu Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018'
+  caption: Skull
+  width: 1625
+  height: 2145
+  review: unreviewed
+  local: img/gallery/Sinovenator_002.webp
+- kind: skeletal
+  file: Sinovenator changii headden.gif
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6f/Sinovenator_changii_headden.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sinovenator_changii_headden.gif
+  artist: Jaime Headden ( en:User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-01-01'
+  caption: Skeletal reconstruction by Jaime Headden
+  width: 675
+  height: 593
+  review: unreviewed
+  local: img/gallery/Sinovenator_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/5ac4b7b8-9b4a-4e6f-8df6-124016cac676/vector.svg
+  png: https://images.phylopic.org/images/5ac4b7b8-9b4a-4e6f-8df6-124016cac676/raster/512x359.png
+  page: https://www.phylopic.org/images/5ac4b7b8-9b4a-4e6f-8df6-124016cac676
+  attribution: Tasman Dixon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Sinovenator changii
+  matched: Sinovenator
+  genus_level: true
+  w: 512
+  h: 359
+sources:
+- kind: original
+  text: X. Xu, M. A. Norell, and X.-l. Wang, P. J. Makovicky, X.-c. Wu. 2002. A basal troodontid from the Early
+    Cretaceous of China. Nature 415:780-784
+- kind: literature
+  text: Yu C, Watanabe A, Qin Z, Logan King J, Witmer LM, Ma Q, Xu X 2024. Avialan-like brain morphology in Sinovenator
+    (Troodontidae, Theropoda). Communications biology. doi:10.1038/s42003-024-05832-3
+  url: https://doi.org/10.1038/s42003-024-05832-3
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinovenator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinovenator”. English Wikipedia, revision 1376041304.
+  url: https://en.wikipedia.org/w/index.php?title=Sinovenator&oldid=1376041304
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

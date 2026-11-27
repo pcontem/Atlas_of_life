@@ -7,15 +7,28 @@ regions: [Nei Mongol]
 location:
   lat: 41.788
   lng: 106.742
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  basis: median of 14 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [eolian indet., dune]
-lithology: [sandstone]
-pbdb_collections: ['37806', '37807', '38829', '38830', '38831', '38832', '68379', '94372', '220053', '220054', '220055',
-  '232428']
+environment: [eolian indet., terrestrial indet., dune]
+lithology: [sandstone, not reported]
+pbdb_collections:
+- '37806'
+- '37807'
+- '38829'
+- '38830'
+- '38831'
+- '38832'
+- '46973'
+- '68379'
+- '83719'
+- '94372'
+- '220053'
+- '220054'
+- '220055'
+- '232428'
 includes: []
 summary: ''
 paleoenvironment: ''

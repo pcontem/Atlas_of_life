@@ -1,0 +1,84 @@
+name: Boreonykus
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Bell and Currie 2016
+type_species: Boreonykus certekorum
+type_species_note: Taxobox of Wikipedia revision 1387392543.
+summary: Dromaeosaurid from the late Campanian Wapiti Formation of Alberta, found in the Pipestone Creek Pachyrhinosaurus
+  bonebed.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Boreonykus certekorum
+  authority: Bell and Currie 2016
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Wapiti
+  group: ''
+  members: [Unit 3]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: wapiti-canada
+fossil_material:
+  holotype: TMP 1989.055.0047, Wapiti Formation, Pipestone Creek, central Alberta (about 73.27 million years old).
+  material: The holotype, fourteen loose teeth and several postcranial bones, perhaps of the same individual.
+  completeness: fragmentary
+  exceptional: ''
+biology: Found in a bonebed containing at least 27 individuals of other dinosaurs.
+images:
+- kind: life
+  file: Boreonykus LM.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Boreonykus_LM.jpg/960px-Boreonykus_LM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Boreonykus_LM.jpg
+  artist: Levi bernardo
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2016-11-02'
+  caption: Life restoration
+  width: 2447
+  height: 1165
+  review: unreviewed
+  local: img/gallery/Boreonykus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: P. R. Bell and P. J. Currie. 2016. A high-latitude dromaeosaurid, Boreonykus certekorum, gen. et sp. nov.
+    (Theropoda), from the upper Campanian Wapiti Formation, west-central Alberta. Journal of Vertebrate Paleontology
+    36(1):e1034359:1-9
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Boreonykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Boreonykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Boreonykus”. English Wikipedia, revision 1387392543.
+  url: https://en.wikipedia.org/w/index.php?title=Boreonykus&oldid=1387392543
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,103 @@
+name: Sinornithosaurus
+rank: genus
+parent: microraptoria
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 1999
+type_species: Sinornithosaurus millenii
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Small feathered dromaeosaurid from the late Barremian Yixian Formation of China with skull features similar
+  to Archaeopteryx.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Sinornithosaurus haoiana
+  authority: Liu et al. 2004
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: ''
+- name: Sinornithosaurus millenii
+  authority: Xu et al. 1999
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dakangpu, Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 3
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Specimen from the Yixian Formation, Liaoning, China (Xu et al. 1999).
+  material: The holotype and several feathered specimens.
+  completeness: multiple
+  exceptional: Feathers.
+biology: The fifth non-avian feathered dinosaur genus found; its skull and shoulder resemble those of Archaeopteryx,
+  showing that early dromaeosaurids were more bird-like than later ones.
+images:
+- kind: life
+  file: Sinornithosaurus millenii reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sinornithosaurus_millenii_reconstruction.jpg/960px-Sinornithosaurus_millenii_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinornithosaurus_millenii_reconstruction.jpg
+  artist: D. Gordon E. Robertson
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-01-28'
+  caption: Life restoration
+  width: 3666
+  height: 2924
+  review: unreviewed
+  local: img/gallery/Sinornithosaurus_001.webp
+- kind: fossil
+  file: Sinornithosaurus millenii fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Sinornithosaurus_millenii_fossil.jpg/960px-Sinornithosaurus_millenii_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinornithosaurus_millenii_fossil.jpg
+  artist: Gary Todd
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  date: '2015-07-10'
+  caption: Fossil
+  width: 5184
+  height: 3456
+  review: unreviewed
+  local: img/gallery/Sinornithosaurus_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Sinornithosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: X. Xu, X.-L. Wang, and X.-C. Wu. 1999. A dromaeosaurid dinosaur with a filamentous integument from the Yixian
+    Formation of China. Nature 401:262-266
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinornithosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinornithosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinornithosaurus”. English Wikipedia, revision 1385097756.
+  url: https://en.wikipedia.org/w/index.php?title=Sinornithosaurus&oldid=1385097756
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

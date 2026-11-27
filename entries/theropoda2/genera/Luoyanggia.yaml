@@ -1,0 +1,71 @@
+name: Luoyanggia
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Lü et al. 2009
+type_species: Luoyanggia liudianensis
+type_species_note: The only valid species listed by PBDB.
+summary: Oviraptorid from the Aptian–Albian Haoling Formation of the Ruyang Basin, Henan, China.
+size:
+  length_m: [1.5, 1.5]
+  mass_kg: [2.27, 9.1]
+  note: Estimate by Holtz; Molina-Pérez and Larramendi gave a similar size.
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Luoyanggia liudianensis
+  authority: Lü et al. 2009
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Haoling
+  group: ''
+  members: []
+  country: China
+  regions: [Henan]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: haoling-china
+fossil_material:
+  holotype: Specimen from the Haoling Formation, Ruyang Basin, Henan, China (Lü et al. 2009).
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: First thought to be Cenomanian, its formation is now dated to the Aptian–Albian.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Lü, L. Xu, and X. Jiang, S. Jia, M. Li, C. Yuan, X. Zhang, Q. Ji. 2009. A preliminary report on the new
+    dinosaurian fauna from the Cretaceous of the Ruyang Basin, Henan Province of central China. Journal of the Paleontological
+    Society of Korea 25(1):43-56
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Luoyanggia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Luoyanggia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Luoyanggia”. English Wikipedia, revision 1368812169.
+  url: https://en.wikipedia.org/w/index.php?title=Luoyanggia&oldid=1368812169
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

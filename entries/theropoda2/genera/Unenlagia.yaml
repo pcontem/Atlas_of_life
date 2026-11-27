@@ -1,0 +1,115 @@
+name: Unenlagia
+rank: genus
+parent: unenlagiidae
+incertae_sedis: false
+placement_note: ''
+authority: Novas and Puerta 1997
+type_species: Unenlagia comahuensis
+type_species_note: The type species according to the cited Wikipedia revision.
+summary: Unenlagiid from the Turonian–Coniacian Portezuelo Formation of Argentina whose name means "half-bird".
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 85.7
+  early_interval: Turonian
+  late_interval: Coniacian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Unenlagia comahuensis
+  authority: Novas and Puerta 1997
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: original description
+- name: Unenlagia paynemili
+  authority: Calvo et al. 2004
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: ''
+formations:
+- formation: Portezuelo
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Late Turonian–Early Coniacian
+  occurrences: 2
+  ma: [85.7, 93.9]
+  id: portezuelo-argentina
+fossil_material:
+  holotype: MCF PVPH 78, Portezuelo Formation, Neuquén, Argentina (Novas and Puerta 1997).
+  material: The holotype and a second skeleton found near Lago Barreales in 2002, the type of U. paynemili (Calvo
+    et al. 2004).
+  completeness: partial
+  exceptional: ''
+biology: Two species have been assigned to the genus.
+images:
+- kind: life
+  file: Unenlagia BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/38/Unenlagia_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Unenlagia_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2007-10-02'
+  caption: Life restoration
+  width: 800
+  height: 401
+  review: unreviewed
+  local: img/gallery/Unenlagia_001.webp
+- kind: fossil
+  file: Unenlagia fossils.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Unenlagia_fossils.jpg/960px-Unenlagia_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Unenlagia_fossils.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2010'
+  caption: Fossils
+  width: 2448
+  height: 1612
+  review: unreviewed
+  local: img/gallery/Unenlagia_002.webp
+- kind: skeletal
+  file: Unenlagia.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/57/Unenlagia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Unenlagia.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Skeletal reconstruction
+  width: 1500
+  height: 447
+  review: unreviewed
+  local: img/gallery/Unenlagia_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. E. Novas and P. F. Puerta. 1997. New evidence concerning avian origins from the Late Cretaceous of Patagonia.
+    Nature 387:390-392
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Unenlagia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Unenlagia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Unenlagia”. English Wikipedia, revision 1328878277.
+  url: https://en.wikipedia.org/w/index.php?title=Unenlagia&oldid=1328878277
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

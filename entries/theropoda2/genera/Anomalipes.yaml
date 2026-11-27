@@ -1,0 +1,72 @@
+name: Anomalipes
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Yu et al. 2018
+type_species: Anomalipes zhaoi
+type_species_note: Taxobox of Wikipedia revision 1368872598.
+summary: Caenagnathid from the Campanian Wangshi Group of Shandong, China, known from a partial hind limb.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Anomalipes zhaoi
+  authority: Yu et al. 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Hongtuya
+  group: Wangshi
+  members: []
+  country: China
+  regions: [Shandong]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: hongtuya-china
+fossil_material:
+  holotype: A partial hind limb from a Shantungosaurus bonebed at Kugou, Wangshi Group, Zhucheng, Shandong, China.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its name, "unusual foot", refers to peculiarities of the foot bones.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/vector.svg
+  png: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/raster/512x259.png
+  page: https://www.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Microvenator celer
+  matched: Caenagnathidae
+  genus_level: false
+  w: 512
+  h: 259
+sources:
+- kind: original
+  text: Y.-L. Yu, K.-B. Wang, and S.-Q. Chen, C. Sullivan, S. Wang, P.-Y. Wang, X. Xu . 2018. A new caenagnathid
+    dinosaur from the Upper Cretaceous Wangshi Group of Shandong, China, with comments on size variation among oviraptorosaurs.
+    Scientific Reports 8:5030
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anomalipes (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anomalipes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anomalipes”. English Wikipedia, revision 1368872598.
+  url: https://en.wikipedia.org/w/index.php?title=Anomalipes&oldid=1368872598
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

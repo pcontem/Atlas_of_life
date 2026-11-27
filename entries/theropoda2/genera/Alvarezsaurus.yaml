@@ -1,0 +1,90 @@
+name: Alvarezsaurus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1991
+type_species: Alvarezsaurus calvoi
+type_species_note: The only valid species listed by PBDB.
+summary: Small alvarezsaurid from the Santonian Bajo de la Carpa Formation of Argentina that gave its name to the
+  group.
+size:
+  length_m: [1, 1.4]
+  mass_kg: [3, 3]
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Alvarezsaurus calvoi
+  authority: Bonaparte 1991
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: Partial postcranial skeleton from the Bajo de la Carpa Formation, Neuquén, Argentina (Bonaparte 1991).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: A lightweight biped with a long tail; its legs suggest a fast runner. The third metatarsal was the longest.
+images:
+- kind: life
+  file: Alvarezsaurus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Alvarezsaurus.jpg/960px-Alvarezsaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alvarezsaurus.jpg
+  artist: FunkMonk
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2010'
+  caption: Life restoration
+  width: 2544
+  height: 1812
+  review: unreviewed
+  local: img/gallery/Alvarezsaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsaurus
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Bonaparte. 1991. Los vertebrados fósiles de la Formación Rio Colorado, de la Ciudad de Neuquén y
+    Cercanías, Cretácico Superior, Argentina [The vertebrate fossils of the Rio Colorado Formation, from the city
+    of Neuquén and surrounding areas, Upper Cretaceous, Argentina]. Revista del Museo Argentino de Ciencias Naturales
+    "Bernardino Rivadavia" e Instituto Nacional de Investigación de las Ciencias Naturales: Paleontología 4(3):17-123'
+- kind: literature
+  text: 'Choiniere, Jonah N.; Xu, Xing; Clark, James M.; Forster, Catherine A.; Guo, Yu; Han, Fenglu 29 J. A Basal
+    Alvarezsauroid Theropod from the Early Late Jurassic of Xinjiang, China. [[Science (journal) 327(5965): 571–574.
+    doi:10.1126/science.1182143'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alvarezsaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alvarezsaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alvarezsaurus”. English Wikipedia, revision 1347164537.
+  url: https://en.wikipedia.org/w/index.php?title=Alvarezsaurus&oldid=1347164537
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

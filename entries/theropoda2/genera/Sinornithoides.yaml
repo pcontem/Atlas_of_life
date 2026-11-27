@@ -1,0 +1,106 @@
+name: Sinornithoides
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Russell and Dong 1994
+type_species: Sinornithoides youngi
+type_species_note: The only valid species listed by PBDB.
+summary: Troodontid from the Early Cretaceous of Inner Mongolia preserved in a roosting, bird-like position.
+size:
+  length_m: [1, 1]
+  note: ''
+age:
+  first_ma: 113.2
+  last_ma: 110.1
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sinornithoides youngi
+  authority: Russell and Dong 1994
+  first_ma: 137.05
+  last_ma: 100.5
+  interval: Valanginian–Albian
+  reference: original description
+formations:
+- formation: Zhonggou
+  group: Xinminbao
+  members: [Upper Gray Beds]
+  country: China
+  regions: [Gansu]
+  interval: Early Albian
+  occurrences: 1
+  ma: [110.1, 113.2]
+  id: zhonggou-china
+- formation: Ejinhoro
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Valanginian–Albian
+  occurrences: 1
+  ma: [100.5, 137.05]
+  id: ejinhoro-china
+fossil_material:
+  holotype: IVPP V9612, an articulated, almost complete skeleton with skull, Inner Mongolia, China (Russell and
+    Dong 1994).
+  material: The holotype and referred bones.
+  completeness: near-complete
+  exceptional: ''
+biology: The holotype lies in a roosting position like that of sleeping birds.
+images:
+- kind: life
+  file: Sinornithoides-youngi jconway.png
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Sinornithoides-youngi_jconway.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sinornithoides-youngi_jconway.png
+  artist: John Conway [1]
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: '2003'
+  caption: Life restoration
+  width: 600
+  height: 600
+  review: unreviewed
+  local: img/gallery/Sinornithoides_001.webp
+- kind: fossil
+  file: Sinornithoides fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Sinornithoides_fossil.jpg/960px-Sinornithoides_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinornithoides_fossil.jpg
+  artist: ★Kumiko★
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2017-08-31'
+  caption: Fossil
+  width: 4896
+  height: 3264
+  review: unreviewed
+  local: img/gallery/Sinornithoides_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: D. A. Russell and Z.-M. Dong. 1994. A nearly complete skeleton of a new troodontid dinosaur from the Early
+    Cretaceous of the Ordos Basin, Inner Mongolia, People's Republic of China. Canadian Journal of Earth Sciences
+    30(10-11):2163-2173
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinornithoides (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinornithoides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinornithoides”. English Wikipedia, revision 1306052860.
+  url: https://en.wikipedia.org/w/index.php?title=Sinornithoides&oldid=1306052860
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

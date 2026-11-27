@@ -1,0 +1,83 @@
+name: Kansaignathus
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Averianov and Lopatin 2021
+type_species: Kansaignathus sogdianus
+type_species_note: Taxobox of Wikipedia revision 1387598560.
+summary: Dromaeosaurid from the Santonian Yalovach Formation of northern Tajikistan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kansaignathus sogdianus
+  authority: Averianov and Lopatin 2021
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Yalovach
+  group: ''
+  members: []
+  country: Tajikistan
+  regions: [Sogd]
+  interval: Early Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: yalovach-tajikistan
+fossil_material:
+  holotype: Specimen from the Kansai locality, about 22 km north of Khujand, Sughd Region, Tajikistan (Averianov
+    and Lopatin 2021).
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: The Kansai locality was found in 1940 by O. S. Vialov.
+images:
+- kind: skeletal
+  file: Kansaignathus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Kansaignathus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kansaignathus.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: 2012/2021
+  caption: Reconstruction
+  width: 1018
+  height: 725
+  review: unreviewed
+  local: img/gallery/Kansaignathus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. O. Averianov and A. V. Lopatin. 2021. A new theropod dinosaur (Theropoda, Dromaeosauridae) from the Late
+    Cretaceous of Tajikistan. Doklady Earth Sciences 499(1):570-574
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kansaignathus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kansaignathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kansaignathus”. English Wikipedia, revision 1387598560.
+  url: https://en.wikipedia.org/w/index.php?title=Kansaignathus&oldid=1387598560
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

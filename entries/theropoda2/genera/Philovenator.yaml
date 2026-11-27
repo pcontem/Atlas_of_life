@@ -1,0 +1,83 @@
+name: Philovenator
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2012
+type_species: Philovenator curriei
+type_species_note: The only valid species listed by PBDB.
+summary: Small troodontid from the Campanian Wulansuhai Formation of Inner Mongolia, named in honour of Philip J.
+  Currie.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Philovenator curriei
+  authority: Xu et al. 2012
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Wulansuhai
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wulansuhai-china
+fossil_material:
+  holotype: A hind limb from the Wulansuhai Formation, Inner Mongolia, China (Xu et al. 2012).
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its shinbone bears a plate-like cnemial crest and its metatarsus is fused with the lower ankle bones.
+images:
+- kind: life
+  file: Philovenator curriei life restoration..png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/71/Philovenator_curriei_life_restoration..png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Philovenator_curriei_life_restoration..png
+  artist: Eloy Manzanero
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-11-12'
+  caption: Life restoration
+  width: 413
+  height: 589
+  review: unreviewed
+  local: img/gallery/Philovenator_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/vector.svg
+  png: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/raster/512x238.png
+  page: https://www.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Troodon junior
+  matched: Philovenator
+  genus_level: true
+sources:
+- kind: original
+  text: X. Xu, Q. Zhao, and C. Sullivan, Q.-W. Tan, M. Sander, Q.-Y. Ma. 2012. The taxonomy of the troodontid IVPP
+    V 10597 reconsidered. Vertebrata PalAsiatica 50(2):140-150
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Philovenator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Philovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Philovenator”. English Wikipedia, revision 1387577526.
+  url: https://en.wikipedia.org/w/index.php?title=Philovenator&oldid=1387577526
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

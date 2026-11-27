@@ -1,0 +1,130 @@
+name: Nothronychus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Kirkland and Wolfe 2001
+type_species: Nothronychus mckinleyi
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Bulky therizinosaurid from the Turonian of New Mexico and Utah.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Nothronychus graffami
+  authority: Zanno et al. 2009
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: ''
+- name: Nothronychus mckinleyi
+  authority: Kirkland and Wolfe 2001
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Moreno Hill
+  group: ''
+  members: [Lower]
+  country: United States
+  regions: [New Mexico]
+  interval: Middle Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: moreno-hill-united-states
+- formation: Tropic Shale
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Early Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: tropic-shale-united-states
+fossil_material:
+  holotype: Specimen from the Moreno Hill Formation, Zuni Basin, New Mexico (Kirkland and Wolfe 2001).
+  material: Two species; N. graffami from the Tropic Shale of Utah is known from a more complete skeleton (Zanno
+    et al. 2009).
+  completeness: multiple
+  exceptional: ''
+biology: A herbivore with wide hips, four forward-facing toes, a long neck and prominent arms with sharp claws.
+images:
+- kind: life
+  file: Nothronychus mckinleyi Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Nothronychus_mckinleyi_Restoration.png/960px-Nothronychus_mckinleyi_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nothronychus_mckinleyi_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-02-26'
+  caption: Life restoration of N. mckinleyi
+  width: 5478
+  height: 3644
+  review: unreviewed
+  local: img/gallery/Nothronychus_001.webp
+- kind: life
+  file: Nothronychus graffami Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Nothronychus_graffami_Restoration.png/960px-Nothronychus_graffami_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nothronychus_graffami_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-02-26'
+  caption: Life restoration of N. graffami
+  width: 4889
+  height: 3258
+  review: unreviewed
+  local: img/gallery/Nothronychus_002.webp
+- kind: skeletal
+  file: Nothronychus Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Nothronychus_Skeletal.png/960px-Nothronychus_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nothronychus_Skeletal.png
+  artist: Definitely NOT Dilophosaurus
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-11-17'
+  caption: Skeletal reconstruction
+  width: 5025
+  height: 3707
+  review: unreviewed
+  local: img/gallery/Nothronychus_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/2735d212-8b58-4d4e-990f-3342acd25595/vector.svg
+  png: https://images.phylopic.org/images/2735d212-8b58-4d4e-990f-3342acd25595/raster/512x429.png
+  page: https://www.phylopic.org/images/2735d212-8b58-4d4e-990f-3342acd25595
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Nothronychus mckinleyi
+  matched: Nothronychus
+  genus_level: true
+  w: 512
+  h: 429
+sources:
+- kind: original
+  text: 'J. I. Kirkland and D. G. Wolfe. 2001. First definitive therizinosaurid (Dinosauria: Theropoda) from North
+    America. Journal of Vertebrate Paleontology 21(3):410-414'
+- kind: literature
+  text: 'Zanno, Lindsay E.; Gillette, D. D.; Albright, L. B.; Titus, Alan L. 2009. A new North American therizinosaurid
+    and the role of herbivory in predatory dinosaur evolution. Proceedings of the Royal Society B: Biological Sciences
+    276(1672): 3505−3511. doi:10.1098/rspb.2009.1029'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nothronychus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nothronychus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nothronychus”. English Wikipedia, revision 1376076329.
+  url: https://en.wikipedia.org/w/index.php?title=Nothronychus&oldid=1376076329
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

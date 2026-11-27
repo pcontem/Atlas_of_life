@@ -1,0 +1,84 @@
+name: Dromaeosauroides
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Christiansen and Bonde 2003
+type_species: Dromaeosauroides bornholmensis
+type_species_note: Taxobox of Wikipedia revision 1377130128.
+summary: Dromaeosaurid from the Early Cretaceous Jydegaard Formation of Bornholm, Denmark, known from two teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 139.1
+  last_ma: 137.05
+  early_interval: Berriasian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dromaeosauroides bornholmensis
+  authority: Christiansen and Bonde 2003
+  first_ma: 139.1
+  last_ma: 137.05
+  interval: Berriasian
+  reference: original description
+formations:
+- formation: Jydegaard
+  group: Nyker
+  members: [Tornhøj]
+  country: Denmark
+  regions: [Bornholm]
+  interval: Late Berriasian
+  occurrences: 1
+  ma: [137.05, 139.1]
+  id: jydegaard-denmark
+fossil_material:
+  holotype: A tooth found in 2000, Jydegaard Formation, Robbedale, Bornholm, Denmark.
+  material: Two teeth (the second found in 2008); possibly also present in England.
+  completeness: fragmentary
+  exceptional: ''
+biology: Named "Dromaeosaurus-like" for the similarity of its teeth to those of Dromaeosaurus.
+images:
+- kind: fossil
+  file: Dromaeosauroides bornholmensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/df/Dromaeosauroides_bornholmensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dromaeosauroides_bornholmensis.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009'
+  caption: Tooth
+  width: 528
+  height: 704
+  review: unreviewed
+  local: img/gallery/Dromaeosauroides_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/c85e9c59-deeb-4855-8c3f-90599ec44090/vector.svg
+  png: https://images.phylopic.org/images/c85e9c59-deeb-4855-8c3f-90599ec44090/raster/512x169.png
+  page: https://www.phylopic.org/images/c85e9c59-deeb-4855-8c3f-90599ec44090
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Dromaeosauroides bornholmensis
+  matched: Dromaeosauroides
+  genus_level: true
+  w: 512
+  h: 169
+sources:
+- kind: original
+  text: P. Christiansen and N. Bonde. 2003. The first dinosaur from Denmark. Neues Jahrbuch für Geologie und Paläontologie,
+    Abhandlungen 227(2):287-299
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dromaeosauroides (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dromaeosauroides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dromaeosauroides”. English Wikipedia, revision 1377130128.
+  url: https://en.wikipedia.org/w/index.php?title=Dromaeosauroides&oldid=1377130128
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

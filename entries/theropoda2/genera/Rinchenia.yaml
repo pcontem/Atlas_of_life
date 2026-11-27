@@ -1,0 +1,95 @@
+name: Rinchenia
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Barsbold 1997
+type_species: Rinchenia mongoliensis
+type_species_note: Taxobox of Wikipedia revision 1344174019.
+summary: Crested oviraptorid from the Nemegt Formation of Mongolia, first named as a species of Oviraptor.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rinchenia mongoliensis
+  authority: (Barsbold 1986)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: A skull and partial skeleton from the Nemegt Formation, Mongolia (Barsbold 1986, as Oviraptor mongoliensis).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Had a tall crest on the skull.
+images:
+- kind: life
+  file: Rinchenia Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Rinchenia_Restoration.png/960px-Rinchenia_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Rinchenia_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-09-11'
+  caption: Life restoration
+  width: 4705
+  height: 3465
+  review: unreviewed
+  local: img/gallery/Rinchenia_001.webp
+- kind: fossil
+  file: Rinchenia holotype skull.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0f/Rinchenia_holotype_skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Rinchenia_holotype_skull.jpg
+  artist: Gregory F. Funston, Tsogtbaatar Chinzorig, Khishigjav Tsogtbaatar, Yoshitsugu Kobayashi, Corwin Sullivan
+    & Philip J. Currie
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-10-07'
+  caption: Holotype skull
+  width: 651
+  height: 634
+  review: unreviewed
+  local: img/gallery/Rinchenia_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: R. Barsbold. 1997. Oviraptorosauria. The Encyclopedia of Dinosaurs
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rinchenia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rinchenia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rinchenia”. English Wikipedia, revision 1344174019.
+  url: https://en.wikipedia.org/w/index.php?title=Rinchenia&oldid=1344174019
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

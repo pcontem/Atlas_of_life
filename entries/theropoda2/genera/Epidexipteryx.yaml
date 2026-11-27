@@ -1,0 +1,112 @@
+name: Epidexipteryx
+rank: genus
+parent: scansoriopterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhang et al. 2008
+type_species: Epidexipteryx hui
+type_species_note: The only valid species listed by PBDB.
+summary: Pigeon-sized scansoriopterygid from the Jurassic of China with four long ribbon-like tail feathers, the
+  earliest known ornamental feathers.
+size:
+  length_m: [0.25, 0.25]
+  mass_kg: [0.164, 0.164]
+  note: 25 cm without, 44.5 cm with the incomplete tail feathers; weight estimated by the describers.
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Epidexipteryx hui
+  authority: Zhang et al. 2008
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Early Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: tiaojishan-china
+fossil_material:
+  holotype: A well-preserved partial skeleton of a subadult, kept at the IVPP in Beijing (Zhang et al. 2008).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: Four long tail feathers with central rachis and vanes; body feathers.
+biology: Its four long tail feathers are the earliest known ornamental feathers in the fossil record.
+images:
+- kind: fossil
+  file: Epidexipteryx hui Holotype IVPP.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Epidexipteryx_hui_Holotype_IVPP.jpg/960px-Epidexipteryx_hui_Holotype_IVPP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Epidexipteryx_hui_Holotype_IVPP.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-31'
+  caption: Holotype
+  width: 2592
+  height: 1728
+  review: unreviewed
+  local: img/gallery/Epidexipteryx_001.webp
+- kind: skeletal
+  file: Epidexipteryx hui.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/13/Epidexipteryx_hui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Epidexipteryx_hui.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008'
+  caption: Skeletal reconstruction
+  width: 800
+  height: 445
+  review: unreviewed
+  local: img/gallery/Epidexipteryx_002.webp
+- kind: life
+  file: Epidexipteryx (long fingers).JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Epidexipteryx_%28long_fingers%29.JPG/960px-Epidexipteryx_%28long_fingers%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Epidexipteryx_(long_fingers).JPG
+  artist: Conty
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Life restoration
+  width: 3275
+  height: 2685
+  review: unreviewed
+  local: img/gallery/Epidexipteryx_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/c1e18ba4-2b9c-46a8-9e6d-4082fe3d61f6/vector.svg
+  png: https://images.phylopic.org/images/c1e18ba4-2b9c-46a8-9e6d-4082fe3d61f6/raster/796x1024.png
+  page: https://www.phylopic.org/images/c1e18ba4-2b9c-46a8-9e6d-4082fe3d61f6
+  attribution: Conty
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Epidexipteryx hui
+  matched: Epidexipteryx
+  genus_level: true
+  w: 466
+  h: 600
+sources:
+- kind: original
+  text: F. Zhang, Z. Zhou, and X. Xu, X. Wang, C. Sullivan. 2008. A bizarre Jurassic maniraptoran from China with
+    elongate ribbon-like feathers. Nature 455:1105-1108
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Epidexipteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Epidexipteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Epidexipteryx”. English Wikipedia, revision 1380746028.
+  url: https://en.wikipedia.org/w/index.php?title=Epidexipteryx&oldid=1380746028
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
