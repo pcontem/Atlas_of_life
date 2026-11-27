@@ -38,3 +38,9 @@ Open questions for the owner:
   synonym of Sinosaurus), Sigilmassasaurus, Nanotyrannus (debated).
 - Images were chosen from the harvest suggestions without a contact-sheet check for most genera; run the triage page on them.
 - Many entries have "Not given in the sources used" in holotype, material or biology: they need the primary paper.
+
+## Added 2026-11-27 (Wikipedia-recognised genera)
+Written: Infernogallus, Aorun, Norellraptor, Dinevenator, Kank, Manipulonyx, Fujianvenator, Shishugounykus, Koparion, Bradycneme, Ornithodesmus.
+Excluded: Aurornis (synonym of Anchiornis), Heptasteornis, Ojoraptorsaurus, Dalianraptor, Kakuru, Tiantaisaurus.
+Open: no images yet (triage page); Shishugounykus holotype/material/biology from Qin et al. 2019; Chure 1994 for Koparion; Nanyuan and Sânpetru
+formations need entries (Fujianvenator, Bradycneme have none); Bradycneme may be a synonym of Elopteryx (Stoicescu et al. 2024); check Xenovenator for robustus.
