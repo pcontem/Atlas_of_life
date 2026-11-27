@@ -53,6 +53,7 @@ images:
   width: 945
   height: 352
   review: unreviewed
+  local: img/gallery/Apatornis_001.webp
 silhouette:
   src: https://images.phylopic.org/images/5551b7cd-a96f-403f-a32d-f06e0c060cf2/vector.svg
   png: https://images.phylopic.org/images/5551b7cd-a96f-403f-a32d-f06e0c060cf2/raster/512x366.png
@@ -62,6 +63,8 @@ silhouette:
   depicts: Apatornis
   matched: Apatornis
   genus_level: true
+  w: 512
+  h: 366
 sources:
 - kind: original
   text: O. C. Marsh. 1873. On a new sub-class of fossil birds (Odontornithes). American Journal of Science and Arts
