@@ -194,7 +194,11 @@ def wiki_retry(wk):
     if not bad:
         return []
     new = wiki(bad, {g: f"{g} (dinosaur)" for g in bad})
-    fixed = [g for g, w in new.items() if not w.get("missing") and not w.get("disambiguation") and w.get("about_genus")]
+    # a page asked for as "<Genus> (dinosaur)" is about the genus when it calls itself a genus near the start
+    ok = lambda w: w.get("about_genus") or re.search(r"\bgenus\b", w.get("text", "")[:700])
+    fixed = [g for g, w in new.items() if not w.get("missing") and not w.get("disambiguation") and ok(w)]
+    for g in fixed:
+        new[g]["about_genus"] = True
     for g in fixed:
         wk[g] = new[g]
     print(f"  wikipedia retry: {len(fixed)} of {len(bad)} pages found as '<Genus> (dinosaur)'")
