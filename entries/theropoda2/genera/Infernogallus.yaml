@@ -1,0 +1,68 @@
+name: Infernogallus
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Funston et al. 2026
+type_species: Infernogallus jamesi
+type_species_note: Taxobox and text of Wikipedia revision 1385853061 (the only species).
+summary: Small caenagnathid from the Maastrichtian Hell Creek Formation of the United States, with the first nearly
+  complete articulated skull known for its family.
+size:
+  length_m: null
+  mass_kg: [12, 12]
+  note: Body mass estimated at about 12 kg (Wikipedia revision 1385853061, from the description); no length given
+    in the sources consulted.
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record. Hell Creek Formation is Maastrichtian (Wikipedia revision 1385853061); the ICS bounds of
+    the stage are used.
+species:
+- name: Infernogallus jamesi
+  authority: Funston et al. 2026
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana, North Dakota, South Dakota]
+  interval: Maastrichtian
+  occurrences: null
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+fossil_material:
+  holotype: ROM VP 65050, a partial articulated skeleton in a sandstone concretion (nearly complete skull and mandible,
+    cervical and dorsal series, right pectoral girdle and forelimb, part of the pelvis and right hindlimb), Garfield
+    County, Montana.
+  material: Four further specimens from Montana, South Dakota and North Dakota (ROM VP 64193, 64194, 88690; NDGS
+    4351), mostly jaw and palate elements, assigned as paratypes.
+  completeness: partial
+  exceptional: ''
+biology: The skull shows a reorganisation of the jaw muscles that the describers interpret as an adaptation for
+  eating fruit, similar to some parrots but unique among non-avian theropods.
+images: []
+sources:
+- kind: original
+  text: Funston GF, Dudgeon TW, Simon DJ, Dufault DM, Boyd C, Fowler D, Currie PJ, Evans DC 2026. Fruit-eating adaptations
+    in a Late Cretaceous oviraptorosaur (Theropoda). Nature communications. doi:10.1038/s41467-026-78343-w
+  url: https://doi.org/10.1038/s41467-026-78343-w
+- kind: encyclopedia
+  text: Wikipedia contributors. “Infernogallus”. English Wikipedia, revision 1385853061.
+  url: https://en.wikipedia.org/w/index.php?title=Infernogallus&oldid=1385853061
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No images yet: Commons candidates harvested, not reviewed (triage page).'
+  - Named in October 2026; no PBDB record yet; ages and formation taken from Wikipedia revision 1385853061.
+  reviews: []

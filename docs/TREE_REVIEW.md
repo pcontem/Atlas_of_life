@@ -839,3 +839,12 @@ Pamparaptor, Paronychodon, Pedopenna, Pneumatoraptor, Pyroraptor, Rahonavis, Ric
 (Oviraptorosauria); Itemirus and Nuthetes (Dromaeosauridae); Zapsalis (Eudromaeosauria).
 Still in the backbone, waiting for entries (not valid genera of the PBDB harvest base): Aorun (Alvarezsauria), Infernogallus
 (Caenagnathidae), Aurornis (Anchiornithidae), Norellraptor (Troodontidae).
+
+## 2026-11-27 — Theropoda II: genera found by Wikipedia or waiting in the backbone
+
+Written from Wikipedia revisions and the harvested papers (no PBDB record): Infernogallus (Caenagnathidae), Aorun and Manipulonyx
+(Alvarezsauria; Aorun and Shishugounykus incertae sedis: coelurosaur/carnosaur/alvarezsaur disagreement), Norellraptor (Microraptoria),
+Dinevenator (Troodontidae), Kank (Unenlagiidae), Fujianvenator (Anchiornithidae), Koparion (Troodontidae, incertae sedis),
+Bradycneme (Maniraptora, incertae sedis; possible synonym of Elopteryx), Ornithodesmus (Dromaeosauridae, incertae sedis).
+Sent to excluded.yaml: Aurornis (junior synonym of Anchiornis, Pei et al. 2017; its backbone node was removed), Heptasteornis,
+Ojoraptorsaurus, Dalianraptor, Kakuru (nomina dubia per Wikipedia), Tiantaisaurus (nomen nudum).

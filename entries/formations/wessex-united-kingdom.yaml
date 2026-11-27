@@ -3,21 +3,46 @@ name: Wessex
 rank: formation
 group: Wealden
 country: United Kingdom
-regions: [England]
+regions: [England, Isle of Wight]
 location:
-  lat: 50.651
-  lng: -1.447
-  basis: median of 13 PBDB collections that yielded the atlas genera
+  lat: 50.649
+  lng: -1.432
+  basis: median of 42 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 132.6
-  last_ma: 121.4
+  first_ma: 139.1
+  last_ma: 113.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., crevasse splay, fluvial indet.]
-lithology: [marl, conglomerate, claystone, not reported]
+environment:
+- terrestrial indet.
+- fluvial indet.
+- crevasse splay
+- marine indet.
+- '"floodplain"'
+- pond
+- alluvial fan
+- wet floodplain
+lithology: [not reported, claystone, marl, sandstone]
 pbdb_collections:
 - '26791'
+- '26799'
+- '45918'
+- '46875'
+- '48328'
 - '48853'
+- '52576'
+- '53888'
+- '53891'
+- '55518'
+- '59350'
+- '59353'
+- '60845'
 - '64774'
+- '64775'
+- '64776'
+- '72289'
+- '72290'
+- '77057'
+- '96817'
 - '101091'
 - '101092'
 - '101093'
@@ -26,8 +51,20 @@ pbdb_collections:
 - '122896'
 - '122898'
 - '154774'
+- '157299'
 - '157614'
 - '168797'
+- '222381'
+- '222390'
+- '223358'
+- '223359'
+- '225020'
+- '227655'
+- '227657'
+- '232068'
+- '235262'
+- '235576'
+- '239755'
 includes: []
 summary: ''
 paleoenvironment: ''

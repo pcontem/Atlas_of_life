@@ -1,0 +1,70 @@
+name: Ornithodesmus
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: true
+placement_note: Howse & Milner 1993 read it as a troodontid, Naish et al. 2001 as a ceratosaur or coelophysid, Naish
+  & Martill 2007 as a dromaeosaurid (Wikipedia revision 1383347813).
+authority: Seeley 1887
+type_species: Ornithodesmus cluniculus
+type_species_note: Taxobox of Wikipedia revision 1383347813 (the only species).
+summary: Small theropod from the Wessex Formation of the Isle of Wight, known from a fused sacrum first taken for
+  a bird and later for a pterosaur.
+size:
+  length_m: null
+  note: Known only from a sacrum; no body size in the sources consulted.
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record. Wessex Formation of the Isle of Wight, about 125 Ma (Wikipedia revision 1383347813); the
+    Barremian ICS bounds are used.
+species:
+- name: Ornithodesmus cluniculus
+  authority: Seeley 1887
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [Isle of Wight]
+  interval: Barremian
+  occurrences: null
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: BMNH R187, a sacrum of six fused vertebrae found by the Rev. William Fox at Brook Bay, Isle of Wight;
+    Wessex Formation.
+  material: Only the holotype. The pterosaur remains once referred to the genus (O. latidens) were later renamed
+    Istiodactylus.
+  completeness: fragmentary
+  exceptional: ''
+biology: The small thigh muscles are indicated by the size and anatomy of the sacrum; nothing more is stated in
+  the sources.
+images: []
+sources:
+- kind: original
+  text: Harry Govier Seeley 1887. On a Sacrum, apparently indicating a new type of Bird, Ornithodesmus cluniculus,
+    Seeley, from the Wealden of Brook. Quarterly Journal of the Geological Society. doi:10.1144/gsl.jgs.1887.043.01-04.19
+  url: https://doi.org/10.1144/gsl.jgs.1887.043.01-04.19
+- kind: literature
+  text: S. C. B Howse, Andrew R. Milner 1993. Ornithodesmus―a maniraptoran theropod dinosaur from the Lower Cretaceous
+    of the Isle of Wight, England. Palaeontology.
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornithodesmus”. English Wikipedia, revision 1383347813.
+  url: https://en.wikipedia.org/w/index.php?title=Ornithodesmus&oldid=1383347813
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No images yet: Commons candidates harvested, not reviewed (triage page).'
+  - 'Check the original-paper index: papers.json lists Seeley 1887 as item 3 and Howse & Milner 1993 as item 1 for
+    this genus.'
+  reviews: []

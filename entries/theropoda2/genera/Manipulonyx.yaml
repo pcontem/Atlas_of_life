@@ -1,0 +1,64 @@
+name: Manipulonyx
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Averianov, Lopatin & Atuchin 2025
+type_species: Manipulonyx reshetovi
+type_species_note: Taxobox of Wikipedia revision 1387598631 (the only species).
+summary: Small parvicursorine alvarezsaurid from the Maastrichtian Nemegt Formation of Mongolia, with the most complete
+  forelimb known for its subfamily.
+size:
+  length_m: null
+  note: No body size given in the sources consulted.
+age:
+  first_ma: 72.2
+  last_ma: 66.0
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record. Nemegt Formation is Maastrichtian (Wikipedia revision 1387598631); ICS bounds of the stage
+    used.
+species:
+- name: Manipulonyx reshetovi
+  authority: Averianov, Lopatin & Atuchin 2025
+  first_ma: 72.2
+  last_ma: 66.0
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Gobi Desert]
+  interval: Maastrichtian
+  occurrences: null
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: PIN 3142/364, a partial skeleton (cervical, dorsal, sacral and caudal vertebrae, left scapulocoracoid,
+    most of both forelimbs, partial pelvis, hindlimb fragments), Khermeen Tsav, Nemegt Formation, Mongolia.
+  material: Only the holotype, found in 1979 by V. Yu. Reshetov.
+  completeness: partial
+  exceptional: ''
+biology: Like other alvarezsaurids it had a one-fingered hand with an enlarged claw, plus ossified spikes on the
+  wrist that the describers interpret as an adaptation for eating eggs; slender hindlimbs suggest running.
+images: []
+sources:
+- kind: original
+  text: Alexander O. Averianov, Alexey V. Lopatin, Andrey A. Atuchin 2025. Forelimb structure and function in a
+    new Late Cretaceous parvicursorine theropod dinosaur from Mongolia. Proceedings of the Zoological Institute
+    RAS. doi:10.31610/trudyzin/2025.329.4.382
+  url: https://doi.org/10.31610/trudyzin/2025.329.4.382
+- kind: encyclopedia
+  text: Wikipedia contributors. “Manipulonyx”. English Wikipedia, revision 1387598631.
+  url: https://en.wikipedia.org/w/index.php?title=Manipulonyx&oldid=1387598631
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No images yet: Commons candidates harvested, not reviewed (triage page).'
+  reviews: []

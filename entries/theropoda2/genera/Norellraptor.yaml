@@ -1,0 +1,64 @@
+name: Norellraptor
+rank: genus
+parent: microraptoria
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2026
+type_species: Norellraptor barsboldi
+type_species_note: Taxobox and text of Wikipedia revision 1386557079 (the only species).
+summary: Small microraptorian dromaeosaurid from the Early Cretaceous Jiufotang Formation of China, preserved as
+  a complete skeleton with feather impressions.
+size:
+  length_m: [0.57, 0.57]
+  note: Skeleton about 57 cm long (Wikipedia revision 1386557079); the specimen was a post-juvenile.
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record. Wikipedia revision 1386557079 gives Barremian–Aptian for the Jiufotang Formation; the ICS
+    bounds of both stages are used.
+species:
+- name: Norellraptor barsboldi
+  authority: Wang et al. 2026
+  first_ma: 125.77
+  last_ma: 113.2
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Barremian–Aptian
+  occurrences: null
+  ma: [113.2, 125.77]
+  id: jiufotang-china
+fossil_material:
+  holotype: Specimen 130108-MHGU-F4281, a complete skeleton with plumage impressions, Jiufotang Formation, China.
+  material: Only the holotype.
+  completeness: complete
+  exceptional: Plumage impressions; the tail feathers have a rachis-dominated structure.
+biology: The tail feathers are rachis-dominated; the sources describe it as living in a temperate forested environment
+  alongside the tyrannosauroid Sinotyrannus, Psittacosaurus and many early birds and pterosaurs.
+images: []
+sources:
+- kind: original
+  text: Xuri Wang, Yannan Ji, Andrea Cau, Martin Kundrát, Yichuan Liu, Yang Wang, Qiang Ji 2026. Independent assembly
+    of the flight apparatus in a non-avian dinosaur clade. Nature Communications. doi:10.1038/s41467-026-77804-6
+  url: https://doi.org/10.1038/s41467-026-77804-6
+- kind: encyclopedia
+  text: Wikipedia contributors. “Norellraptor”. English Wikipedia, revision 1386557079.
+  url: https://en.wikipedia.org/w/index.php?title=Norellraptor&oldid=1386557079
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No images yet: Commons candidates harvested, not reviewed (triage page).'
+  - Named in 2026; Wikipedia places it in Microraptorini as sister of Zhongjianosaurus; the clade Microraptoria
+    is used here because the atlas has no finer one.
+  reviews: []
