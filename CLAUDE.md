@@ -568,6 +568,12 @@ With `"papers": true` it also writes `papers.json` (articles naming each genus, 
 open-access status and a short abstract) and `oa_figures.json`; pages that are not about the genus are asked again as
 "<Genus> (dinosaur)" (`"wiki_retry": true` repeats this on data already harvested). Abstracts are for finding the primary
 literature: entries cite the article, never copy its text.
+**Wikipedia-recognised genera** (owner, 2026-11-27): Wikipedia recognition is enough to write a genus. `"wiki_group": "<census group>"` in
+`harvest_request.json` (`--wiki-group`) adds to the harvest every genus article in that group's Wikipedia categories
+(`data/census/sources.yaml`) that PBDB does not list as valid and the atlas does not have (`wiki_only.json`), with the
+same Wikipedia, Commons, PhyloPic, papers and open-access material; `"extra": "A,B"` (`--extra`) does the same for named genera
+on data already harvested. Such entries carry authority, ages, species and formations by hand (`species_manual`, `first_ma`…).
+Categories may hold avian genera: leave those for the Avialae volume.
 One-time setting:
 Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests".
 The Pages workflow runs `scripts/media.py pull` before publishing, unless the images are served from R2.

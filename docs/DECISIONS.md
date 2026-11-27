@@ -420,3 +420,9 @@ and `write` accepts `papers: [n]` / `original_paper: n`. Wikipedia pages that ar
 subject are asked again as "<Genus> (dinosaur)" (`--wiki-retry`, `"wiki_retry": true`); 15 genera were recovered this way.
 `draft_genera.py write` fills an empty type species from the taxobox of the fixed revision, or from the only valid PBDB species, and
 says which in `type_species_note`.
+
+## 2026-11-27 — Wikipedia recognition is enough to harvest and write a genus
+Owner: genera found only by the Wikipedia census (or waiting in the backbone) must also get entries. `harvest.py` gained
+`--wiki-group` (all Wikipedia-only genera of a census group join the normal harvest, listed in `wiki_only.json`) and `--extra`
+(named genera, merged into data already harvested); `draft_genera.py` writes genera without a PBDB record (manual authority,
+ages, formations, `species_manual`). Avian genera stay for the Avialae volume.

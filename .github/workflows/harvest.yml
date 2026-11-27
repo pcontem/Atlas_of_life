@@ -30,7 +30,7 @@ jobs:
           if [ -z "$VOL" ]; then
             python3 - >> "$GITHUB_ENV" <<'PY'
           import json; r = json.load(open("data/raw/harvest_request.json"))
-          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}\nOA={str(r.get('oa', False)).lower()}\nPAPERS={str(r.get('papers', False)).lower()}\nRETRY={str(r.get('wiki_retry', False)).lower()}\nEXTRA={r.get('extra', '')}")
+          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}\nOA={str(r.get('oa', False)).lower()}\nPAPERS={str(r.get('papers', False)).lower()}\nRETRY={str(r.get('wiki_retry', False)).lower()}\nEXTRA={r.get('extra', '')}\nWIKIGROUP={r.get('wiki_group', '')}")
           PY
           else
             { echo "VOL=$VOL"; echo "BASE=$BASE"; echo "GENERA=$GENERA"; echo "SHEETS=$SHEETS"; } >> "$GITHUB_ENV"
@@ -44,6 +44,7 @@ jobs:
           [ "$OA" = "true" ] && args+=(--oa)
           [ "$PAPERS" = "true" ] && args+=(--papers)
           [ "$RETRY" = "true" ] && args+=(--wiki-retry)
+          [ -n "$WIKIGROUP" ] && args+=(--wiki-group "$WIKIGROUP")
           [ -n "$EXTRA" ] && args+=(--extra "$EXTRA")
           python3 -u scripts/fetch/harvest.py "${args[@]}"
       - uses: actions/upload-artifact@v4

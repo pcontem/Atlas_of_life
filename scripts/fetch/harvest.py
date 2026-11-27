@@ -1,6 +1,6 @@
 """Harvest the raw material for a new genus volume (runs in GitHub Actions: .github/workflows/harvest.yml).
 
-    python3 scripts/fetch/harvest.py <volume> <PBDB base taxon> [--genera A,B,...] [--sheets DIR] [--papers]
+    python3 scripts/fetch/harvest.py <volume> <PBDB base taxon> [--genera A,B,...] [--sheets DIR] [--papers] [--wiki-group <census group>] [--extra A,B]
 
 Writes data/raw/<volume>/ (provenance; never edited by hand):
   pbdb_genera.json    valid genera of the base taxon: authority, ages, parent/family/order, primary reference
@@ -12,6 +12,7 @@ Writes data/raw/<volume>/ (provenance; never edited by hand):
                       of that revision, files used in the article
   commons.json        per Commons file (article images + Category:<Genus> and its direct sub-categories):
                       licence, author, description, size, thumbnail address, where it was found
+  wiki_only.json      with --wiki-group: genera Wikipedia recognises (genus articles in the census categories) but PBDB lacks
   phylopic.json       per genus: the PhyloPic silhouette of the genus, or of the closest relative found
   papers.json         with --papers: per genus, scientific articles that name it (OpenAlex + Europe PMC): citation, DOI,
                       year, open-access status and licence, abstract (to find the primary literature; never copied into entries)
@@ -107,6 +108,38 @@ def occs(base):
 CITE = re.compile(r"\{\{\s*[Cc]ite (journal|book|web|news|conference|thesis)([\s\S]*?)\}\}")
 CITE_KEYS = re.compile(r"^(last\d*|first\d*|author\d*|authors|vauthors|year|date|title|journal|volume|issue|pages|doi|"
                        r"publisher|url|chapter|isbn|pmid|pmc|website)$")
+
+
+def wiki_only_genera(group, pbdb_names, skip=()):
+    """Genera that English Wikipedia recognises (articles in the group's categories of data/census/sources.yaml that
+    are genus articles) but PBDB does not list as valid. Wikipedia recognition is enough to harvest them (owner,
+    2026-11-27). Names already in the atlas (entries, excluded.yaml, backbone nodes without a PBDB record count too)
+    are skipped only when excluded or already written; -> {genus: {"title", "category"}}."""
+    import yaml
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import census
+    cfg = yaml.safe_load((ROOT / "data/census/sources.yaml").read_text())[group]
+    w = cfg.get("wikipedia") or {}
+    pages, _, _, _ = census.wiki_category_pages(w.get("categories", []), w.get("depth", 3))
+    atlas = census.load_atlas()
+    cand = {}
+    for t, cat in pages.items():
+        n = census.title_to_name(t)
+        if n and n not in pbdb_names and n not in atlas["excluded"] and n not in atlas["entries"] and n not in skip:
+            cand.setdefault(n, (t, cat))
+    out = {}
+    titles = sorted(t for t, _ in cand.values())
+    for i in range(0, len(titles), 40):
+        chunk = titles[i:i + 40]
+        r = mw(WIKI, action="query", prop="revisions", rvprop="content", rvslots="main", titles="|".join(chunk))
+        for pg in r.get("query", {}).get("pages", []):
+            if "revisions" not in pg:
+                continue
+            wt = pg["revisions"][0]["slots"]["main"]["content"]
+            n = census.title_to_name(pg["title"])
+            if n in cand and census.wiki_is_genus(wt, n):
+                out[n] = dict(title=pg["title"], category=cand[n][1])
+    return out
 
 
 def cites(wt):
@@ -486,6 +519,14 @@ def sheets(files, names, outdir):
         sheet.save(outdir / f"{g}.jpg", quality=70)
 
 
+def all_names(raw):
+    """PBDB genera of a harvested volume plus the Wikipedia-only ones (wiki_only.json) and the --extra ones."""
+    n = {r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"]}
+    if (raw / "wiki_only.json").exists():
+        n |= set(json.loads((raw / "wiki_only.json").read_text())["genera"])
+    return sorted(n)
+
+
 def main():
     a = sys.argv[1:]
     vol, base = a[0], a[1]
@@ -495,7 +536,7 @@ def main():
     raw.mkdir(parents=True, exist_ok=True)
     w = lambda name, obj: (raw / name).write_text(json.dumps(obj, ensure_ascii=False, indent=0))
     if "--oa" in a:  # open-access figures for the listed genera (or all), added to data already harvested
-        names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
+        names = only or all_names(raw)
         oaf = raw / "oa_figures.json"
         old = json.loads(oaf.read_text())["figures"] if oaf.exists() else {}
         new = oa_figures(names)
@@ -549,7 +590,7 @@ def main():
         return
     if "--sheets-only" in a:  # contact sheets from data already harvested
         files = json.loads((raw / "commons.json").read_text())["files"]
-        names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
+        names = only or all_names(raw)
         sheets(files, names, sheet_dir)
         return
     w = lambda name, obj: (raw / name).write_text(json.dumps(obj, ensure_ascii=False, indent=0))
@@ -558,6 +599,11 @@ def main():
     names = sorted(r["taxon_name"] for r in gen)
     if only:
         names = [n for n in names if n in only]
+    if "--wiki-group" in a:  # Wikipedia recognition is enough: genera of the group's Wikipedia categories PBDB lacks
+        wo = wiki_only_genera(a[a.index("--wiki-group") + 1], set(names) | {r["taxon_name"] for r in inv})
+        w("wiki_only.json", dict(downloaded=TODAY, group=a[a.index("--wiki-group") + 1], genera=wo))
+        print(f"{len(wo)} genera known to Wikipedia but not valid in PBDB: {', '.join(sorted(wo))}")
+        names = sorted(set(names) | set(wo))
     w("pbdb_genera.json", dict(downloaded=TODAY, base=base, records=gen))
     w("pbdb_species.json", dict(downloaded=TODAY, base=base, species=species))
     w("pbdb_invalid.json", dict(downloaded=TODAY, base=base, records=inv))
