@@ -289,7 +289,7 @@ def write(R, vol, batch, force=False):
         if p.exists() and not force:
             print(f"skip {g}: entry exists (use --force)")
             continue
-        r, w = R["gen"][g], R["wiki"].get(g, {})
+        r, w = R["gen"].get(g, {}), R["wiki"].get(g, {})  # r is {} for genera PBDB does not list as valid
         cites = w.get("cites", [])
         sources = []
         if h.get("original"):
@@ -307,13 +307,14 @@ def write(R, vol, batch, force=False):
             if x.get("doi"):
                 src["url"] = f"https://doi.org/{x['doi']}"
             sources.insert(0, src) if src["kind"] == "original" else sources.append(src)
-        sources.append(dict(kind="database", text=f"Paleobiology Database — taxon and occurrence records for {g} (downloaded {R['pbdb_date']}).",
-                            url=f"https://paleobiodb.org/classic/basicTaxonInfo?taxon_name={g}"))
+        if r:
+          sources.append(dict(kind="database", text=f"Paleobiology Database — taxon and occurrence records for {g} (downloaded {R['pbdb_date']}).",
+                              url=f"https://paleobiodb.org/classic/basicTaxonInfo?taxon_name={g}"))
         if w and not w.get("missing") and h.get("use_wiki", True):
             sources.append(dict(kind="encyclopedia", text=f"Wikipedia contributors. “{w['title']}”. English Wikipedia, revision {w['revid']}.",
                                 url=f"https://en.wikipedia.org/w/index.php?title={w['title'].replace(' ', '_')}&oldid={w['revid']}"))
         keep = h.get("species")
-        sp = species(R, g, keep)
+        sp = h["species_manual"] if h.get("species_manual") else species(R, g, keep)  # species_manual: dicts, for genera without PBDB data
         ts = h.get("type_species") or ""
         if not ts:  # from the taxobox of the fixed Wikipedia revision, else the only valid PBDB species
             tb = re.sub(r"\{\{[^}]*\}\}|'|\[|\]", "", (w.get("taxobox") or {}).get("type_species", "")).strip()
