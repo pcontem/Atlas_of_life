@@ -1,0 +1,70 @@
+name: Musivavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2022
+type_species: Musivavis amabilis
+type_species_note: The only valid species listed by PBDB.
+summary: Euenantiornithean from the Aptian Jiufotang Formation of Liaoning with a mosaic of features.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Musivavis amabilis
+  authority: Wang et al. 2022
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A well-preserved skeleton (number in Wang et al. 2022).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, Xuri; Cau, Andrea; Luo, Xiaoling; Kundrát, Martin; Wu, Wensheng; Ju, Shubin; Guo, Zhen; Liu, Yichuan;
+    Ji, Qiang 2022. A new bohaiornithid-like bird from the Lower Cretaceous of China fills a gap in enantiornithine
+    disparity. Journal of Paleontology 96(4): 961–976. doi:10.1017/jpa.2022.12'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Musivavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Musivavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Musivavis”. English Wikipedia, revision 1331713873.
+  url: https://en.wikipedia.org/w/index.php?title=Musivavis&oldid=1331713873
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

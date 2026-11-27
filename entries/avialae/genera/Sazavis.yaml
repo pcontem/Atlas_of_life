@@ -1,0 +1,86 @@
+name: Sazavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Nessov 1989
+type_species: Sazavis prisca
+type_species_note: The only valid species listed by PBDB.
+summary: Pigeon-sized Late Cretaceous enantiornithine from the Kyzyl Kum of Uzbekistan.
+size:
+  length_m: [0.185, 0.185]
+  note: About 18.5 cm long (Holtz 2012, via Wikipedia).
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Sazavis prisca
+  authority: Nessov 1989
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 2
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Sazavis prisca.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Sazavis_prisca.png/960px-Sazavis_prisca.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sazavis_prisca.png
+  artist: Luxquine
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-26'
+  caption: Sazavis prisca (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 1668
+  height: 2224
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Alexornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: L. A. Nessov and A. A. Yarkov. 1989. Novye ptitsy Mela-Paleogena SSSR i nekotorye zamechaniya po istorii
+    vozniknoveniya i evolyutsii klassa [New Cretaceous-Paleogene birds of the USSR and some remarks on the origin
+    and evolution of the Class Aves]. Fauna i Ekologiya Ptits Evrazii [Faunistic and Ecological Studies of Eurasian
+    Birds]. Trudy Zoologicheskogo Instituta, Akademiya Nauk SSSR 197:78-97
+- kind: literature
+  text: 'Holtz, Thomas R. Jr. 2012. Dinosaurs: The Most Complete, Up-to-Date Encyclopedia for Dinosaur Lovers of
+    All Ages.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sazavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sazavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sazavis”. English Wikipedia, revision 1322565914.
+  url: https://en.wikipedia.org/w/index.php?title=Sazavis&oldid=1322565914
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

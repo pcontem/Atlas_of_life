@@ -1,0 +1,81 @@
+name: Changmaornis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2013
+type_species: Changmaornis houi
+type_species_note: Taxobox of Wikipedia revision 1314200355.
+summary: Basal ornithuromorph from the Xiagou Formation of the Changma Basin, Gansu, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Changmaornis houi
+  authority: Wang et al. 2013
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  group: Xinminbao
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: xiagou-china
+fossil_material:
+  holotype: A partial skeleton (number in Wang et al. 2013).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Changmaornis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Changmaornis.png/960px-Changmaornis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Changmaornis.png
+  artist: Ya-Ming Wang, Jingmai K. O'Connor, Da-Qing Li, Hai-Lu You
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Changmaornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2009
+  height: 916
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Ornithuromorpha
+  genus_level: false
+sources:
+- kind: original
+  text: Wang, Y. M.; O'Connor, J. K.; Li, D. Q.; You, H. L. 2013. Previously Unrecognized Ornithuromorph Bird Diversity
+    in the Early Cretaceous Changma Basin, Gansu Province, Northwestern China. PLOS ONE 8(10). doi:10.1371/journal.pone.0077693
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Changmaornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Changmaornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Changmaornis”. English Wikipedia, revision 1314200355.
+  url: https://en.wikipedia.org/w/index.php?title=Changmaornis&oldid=1314200355
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

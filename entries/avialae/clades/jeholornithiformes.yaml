@@ -1,0 +1,35 @@
+id: jeholornithiformes
+name: Jeholornithiformes
+rank: clade
+taxon_rank: order
+taxon_rank_source: Paleobiology Database taxonomy (taxon Jeholornithiformes, order), downloaded 2026-11-27
+parent: avialae
+wikipedia: Jeholornithidae
+summary: Large long-tailed early birds from the Early Cretaceous of China, usually placed as the sister group of
+  Pygostylia.
+diagnosis:
+- Long bony tail, unlike the short pygostyle-tipped tails of more derived birds
+- Few small teeth in the jaws
+notes: Wang and colleagues (2020) defined the group as the most inclusive clade containing Jeholornis prima but
+  not living birds and found moderate support for it in the description of Kompsornis. Whether most of its named
+  taxa are distinct from Jeholornis, and whether the group is monophyletic, is still debated.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jeholornithidae”. English Wikipedia, revision 1380747147.
+  url: https://en.wikipedia.org/w/index.php?title=Jeholornithidae&oldid=1380747147
+- kind: database
+  text: 'Paleobiology Database, taxon Jeholornithiformes (no. 119244): rank, authority Zhou and Zhang 2006 and reference
+    no. 26669 (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=119244
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-27 (data/raw/tree/clade_sources_2026-11-27_avialae.json).
+  - 'S2: add the naming work (Zhou and Zhang 2006, PBDB reference 26669) as an original source.'
+  - Diagnosis features come from the Jeholornis revision of the harvest (data/raw/avialae/wiki.json), not from the
+    family article; cite them there or replace with a family diagnosis.
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

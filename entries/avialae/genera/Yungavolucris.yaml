@@ -1,0 +1,86 @@
+name: Yungavolucris
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Chiappe 1993
+type_species: Yungavolucris brevipedalis
+type_species_note: The only valid species listed by PBDB.
+summary: Maastrichtian enantiornithean from the Lecho Formation of Argentina with short broad foot bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yungavolucris brevipedalis
+  authority: Chiappe 1993
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lecho
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lecho-argentina
+fossil_material:
+  holotype: PVL-4053, a nearly complete tarsometatarsus just over 4 cm long.
+  material: Several tarsometatarsi.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Yungavolucris holotype tarsometatarsus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/14/Yungavolucris_holotype_tarsometatarsus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Yungavolucris_holotype_tarsometatarsus.png
+  artist: Neil Pezzoni
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-02-04'
+  caption: Yungavolucris holotype tarsometatarsus (Wikimedia Commons; kind assigned from the file name, not yet
+    checked on the triage page).
+  width: 467
+  height: 658
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chiappe, Luis M. 1993. Enantiornithine (Aves) Tarsometatarsi from the Cretaceous Lecho Formation of Northwestern
+    Argentina. American Museum Novitates(3083): 1–27.'
+- kind: literature
+  text: 'Cau, A. 2008. Enantiophoenix electrophyla gen. et sp. nov. (Aves, Enantiornithes) from the Upper Cretaceous
+    (Cenomanian) of Lebanon and its phylogenetic relationships. Atti della Societa Italiana di Scienze Naturali
+    e del Museo Ivico di Storia Naturale in Milano 149(2): 293–324.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yungavolucris (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yungavolucris
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yungavolucris”. English Wikipedia, revision 1353452510.
+  url: https://en.wikipedia.org/w/index.php?title=Yungavolucris&oldid=1353452510
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

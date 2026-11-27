@@ -1,0 +1,97 @@
+name: Brevirostruavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Li et al. 2021
+type_species: Brevirostruavis macrohyoideus
+type_species_note: The only valid species listed by PBDB.
+summary: Short-snouted enantiornithine from the Jiufotang Formation of Liaoning with very long tongue bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Brevirostruavis macrohyoideus
+  authority: Li et al. 2021
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton from the Jiufotang Formation (number in Li et al. 2021).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Long hyoid bones suggest a long tongue, perhaps for a specialised way of feeding like that of hummingbirds,
+  honeyeaters or woodpeckers (Li et al. 2021).
+images:
+- kind: life
+  file: Brevirostruavis macrohyoideus restoration by Lauren Helton.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Brevirostruavis_macrohyoideus_restoration_by_Lauren_Helton.png/960px-Brevirostruavis_macrohyoideus_restoration_by_Lauren_Helton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brevirostruavis_macrohyoideus_restoration_by_Lauren_Helton.png
+  artist: TinyLongwing
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-09'
+  caption: Brevirostruavis macrohyoideus restoration by Lauren Helton (Wikimedia Commons; kind assigned from the
+    file name, not yet checked on the triage page).
+  width: 4000
+  height: 3608
+  review: unreviewed
+- kind: life
+  file: Brevirostruavis macrohyoideus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Brevirostruavis_macrohyoideus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Brevirostruavis_macrohyoideus.jpg
+  artist: Hodjiraptor
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-26'
+  caption: Brevirostruavis macrohyoideus (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 1280
+  height: 1280
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Li, Zhiheng; Wang, Min; Stidham, Thomas A.; Zhou, Zhonghe; Clarke, Julia 2021. Novel evolution of a hyper-elongated
+    tongue in a Cretaceous enantiornithine from China and the evolution of the hyolingual apparatus and feeding
+    in birds. Journal of Anatomy 240(4): 627–638. doi:10.1111/joa.13588'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brevirostruavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brevirostruavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brevirostruavis”. English Wikipedia, revision 1387082447.
+  url: https://en.wikipedia.org/w/index.php?title=Brevirostruavis&oldid=1387082447
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

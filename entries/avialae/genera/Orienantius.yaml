@@ -1,0 +1,83 @@
+name: Orienantius
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Liu et al. 2019
+type_species: Orienantius ritteri
+type_species_note: The only valid species listed by PBDB.
+summary: Hauterivian enantiornithean from the Huajiying Formation of China known from two immature specimens.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 125.77
+  early_interval: Hauterivian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Orienantius ritteri
+  authority: Liu et al. 2019
+  first_ma: 132.6
+  last_ma: 125.77
+  interval: Hauterivian
+  reference: original description
+formations:
+- formation: Huajiying
+  group: ''
+  members: [Sichakou]
+  country: China
+  regions: [Hebei]
+  interval: Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: huajiying-china
+fossil_material:
+  holotype: BMNHC Ph 1156a/b, with the referred specimen BMNHC Ph 1154a/b.
+  material: Two specimens.
+  completeness: multiple
+  exceptional: Feathers.
+biology: The holotype was not fully grown, as its compound bones are unfused.
+images:
+- kind: fossil
+  file: Orienantius ritteri paratype BMNHC.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orienantius_ritteri_paratype_BMNHC.jpg/960px-Orienantius_ritteri_paratype_BMNHC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Orienantius_ritteri_paratype_BMNHC.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-27'
+  caption: Orienantius ritteri paratype BMNHC (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 4058
+  height: 4032
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Liu, Di; Chiappe, L. M.; Zhang, Yuguang; Serrano, F. J.; Meng, Qingjin 2019. Soft tissue preservation in
+    two new enantiornithean specimens (Aves) from the Lower Cretaceous Huajiying Formation of Hebei Province, China.
+    Cretaceous Research 95: 191–207. doi:10.1016/j.cretres.2018.10.017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Orienantius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Orienantius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Orienantius”. English Wikipedia, revision 1376123161.
+  url: https://en.wikipedia.org/w/index.php?title=Orienantius&oldid=1376123161
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

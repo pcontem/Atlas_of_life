@@ -1,0 +1,107 @@
+name: Lamarqueavis
+rank: genus
+parent: ornithurae
+incertae_sedis: true
+placement_note: Placed in Cimolopterygidae (Agnolín 2010); position within Ornithurae unresolved.
+authority: Agnolin 2010
+type_species: Lamarqueavis australis
+type_species_note: Taxobox of Wikipedia revision 1321391595.
+summary: Cimolopterygid ornithuran from the Late Cretaceous of Argentina, Canada and the United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Lamarqueavis australis
+  authority: Agnolin 2010
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+- name: Lamarqueavis minima
+  authority: (Brodkorb 1963)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Lamarqueavis petra
+  authority: (Hope 2002)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Allen
+  group: Malargüe
+  members: [Lower]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: allen-argentina
+fossil_material:
+  holotype: A coracoid of L. australis from Argentina (number in Agnolín 2010); L. petra is based on AMNH 21911,
+    a coracoid from the Lance Formation.
+  material: Coracoids.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Dakotaraptor wiki.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/16/Dakotaraptor_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dakotaraptor_wiki.jpg
+  artist: Emily Willoughby
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-06-08'
+  caption: Dakotaraptor wiki (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 900
+  height: 456
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Charadriiformes
+  genus_level: false
+sources:
+- kind: original
+  text: F. L. Agnolin. 2010. An avian coracoid from the Upper Cretaceous of Patagonia, Argentina. Studia Geologica
+    Salmanticensia 46(2):99-119
+- kind: literature
+  text: 'Mohr, Sydney R.; Acorn, John H.; Funston, Gregory F.; Currie, Philip J. 2020. An ornithurine bird coracoid
+    from the Late Cretaceous of Alberta, Canada. Canadian Journal of Earth Sciences 58(2): 134–140. doi:10.1139/cjes-2019-0202'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lamarqueavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lamarqueavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lamarqueavis”. English Wikipedia, revision 1321391595.
+  url: https://en.wikipedia.org/w/index.php?title=Lamarqueavis&oldid=1321391595
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

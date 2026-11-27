@@ -1,0 +1,69 @@
+name: Elbretornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Walker and Dyke 2009
+type_species: Elbretornis bonapartei
+type_species_note: The only valid species listed by PBDB.
+summary: Maastrichtian enantiornithine from El Brete, Lecho Formation, Salta, Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Elbretornis bonapartei
+  authority: Walker and Dyke 2009
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lecho
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: lecho-argentina
+fossil_material:
+  holotype: PVL 4022, left humerus with right radius, ulna, scapula, coracoid and tibiotarsus.
+  material: Known from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Euenantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: C. A. Walker and G. J. Dyke. 2009. Euenantiornithine birds from the Late Cretaceous of El Brete (Argentina).
+    Irish Journal of Earth Sciences 27(1):15-62
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elbretornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elbretornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elbretornis”. English Wikipedia, revision 1384401969.
+  url: https://en.wikipedia.org/w/index.php?title=Elbretornis&oldid=1384401969
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

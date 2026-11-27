@@ -1,0 +1,84 @@
+name: Zhouornis
+rank: genus
+parent: bohaiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhang et al. 2013
+type_species: Zhouornis hani
+type_species_note: Taxobox of Wikipedia revision 1380755025.
+summary: Pigeon-sized bohaiornithid from the Aptian Jehol Group of western Liaoning.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Zhouornis hani
+  authority: Zhang et al. 2013
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton from the Jiufotang Formation (number in Zhang et al. 2013).
+  material: Known from the holotype and a referred specimen in PBDB.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Zhouornis hani.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Zhouornis_hani.png/960px-Zhouornis_hani.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zhouornis_hani.png
+  artist: Yuguang Zhang, Jingmai O’Connor, Liu Di, Meng Qingjin, Trond Sigurdsen, Luis M. Chiappe​
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014'
+  caption: Zhouornis hani (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2096
+  height: 2837
+  review: unreviewed
+- kind: fossil
+  file: Zhouornis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Zhouornis.png/960px-Zhouornis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zhouornis.png
+  artist: Yuguang Zhang, Jingmai O’Connor, Liu Di, Meng Qingjin, Trond Sigurdsen, Luis M. Chiappe​
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014'
+  caption: Zhouornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2025
+  height: 2740
+  review: unreviewed
+sources:
+- kind: original
+  text: 'Zhang, Z.; Chiappe, L. M.; Han, G.; Chinsamy, A. 2013. A large bird from the Early Cretaceous of China:
+    New information on the skull of enantiornithines. Journal of Vertebrate Paleontology 33(5): 1176. doi:10.1080/02724634.2013.762708'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhouornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhouornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhouornis”. English Wikipedia, revision 1380755025.
+  url: https://en.wikipedia.org/w/index.php?title=Zhouornis&oldid=1380755025
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

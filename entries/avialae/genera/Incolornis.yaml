@@ -1,0 +1,69 @@
+name: Incolornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: true
+placement_note: PBDB places it in Alexornithidae, not used here; known from fragments.
+authority: Panteleyev 1998
+type_species: Incolornis silvae
+type_species_note: Taxobox of Wikipedia revision 1282410445.
+summary: Small Late Cretaceous bird from the Bissekty Formation of Uzbekistan known from fragmentary bones.
+size:
+  length_m: [0.135, 0.22]
+  note: About 135 mm (I. silvae) and 220 mm (the other species) long (Wikipedia revision cited).
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Incolornis silvae
+  authority: Panteleyev 1998
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: A fragmentary bone from the Bissekty Formation (number in Panteleyev 1998).
+  material: Fragmentary bones of two species.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Alexornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. V. Panteleyev. 1998. [New species of enantiornithines (Aves: Enantiornithes) from the Upper Cretaceous
+    of central Kyzylkum]. Russkii Ornitologicheskii Zhurnal Ekspress Vypusk 35:3-15'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Incolornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Incolornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Incolornis”. English Wikipedia, revision 1282410445.
+  url: https://en.wikipedia.org/w/index.php?title=Incolornis&oldid=1282410445
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

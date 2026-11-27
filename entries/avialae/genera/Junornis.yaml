@@ -1,0 +1,81 @@
+name: Junornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Liu et al. 2017
+type_species: Junornis houi
+type_species_note: Taxobox of Wikipedia revision 1360179838.
+summary: Enantiornithean from the Yixian Formation of China preserved with elongated tail feathers.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Junornis houi
+  authority: Liu et al. 2017
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: BMNHC-PH 919, a skeleton with detached skull on plate and counterplate, about 126 million years old.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: Plumage traces including elongated tail feathers.
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Junornis skull.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Junornis_skull.PNG/960px-Junornis_skull.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Junornis_skull.PNG
+  artist: Di Liu, Luis M. Chiappe, Francisco Serrano, Michael Habib, Yuguang Zhang, Qinjing Meng
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2017'
+  caption: Junornis skull (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 3583
+  height: 2483
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Liu, D.; Chiappe, L.M.; Serrano, F.; Habib, M.; Zhang, Y.; Meng, Q. 2017. Flight aerodynamics in enantiornithines:
+    Information from a new Chinese Early Cretaceous bird. PLOS ONE 12(10). doi:10.1371/journal.pone.0184637'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Junornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Junornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Junornis”. English Wikipedia, revision 1360179838.
+  url: https://en.wikipedia.org/w/index.php?title=Junornis&oldid=1360179838
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

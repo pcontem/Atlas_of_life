@@ -1,0 +1,70 @@
+name: Parahongshanornis
+rank: genus
+parent: hongshanornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Li et al. 2011
+type_species: Parahongshanornis chaoyangensis
+type_species_note: The only valid species listed by PBDB.
+summary: Small Aptian hongshanornithid from Liaoning known from a skeleton with feathers.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Parahongshanornis chaoyangensis
+  authority: Li et al. 2011
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A nearly complete articulated skeleton without skull, with soft parts and feathers (number in Li et
+    al. 2011).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: Feathers and soft tissue.
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Hongshanornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Li, Li; Wang, Jing-Qi; Hou, Shi-Lin 2011. A new ornithurine bird (Hongshanornithidae) from the Jiufotang
+    Formation of Chaoyang, Liaoning, China. Vertebrata PalAsiatica 49(2): 195–200.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Parahongshanornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Parahongshanornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Parahongshanornis”. English Wikipedia, revision 1376484239.
+  url: https://en.wikipedia.org/w/index.php?title=Parahongshanornis&oldid=1376484239
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

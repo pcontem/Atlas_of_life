@@ -1,0 +1,73 @@
+name: Omnivoropteryx
+rank: genus
+parent: omnivoropterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Czerkas and Ji 2002
+type_species: Omnivoropteryx sinousaorum
+type_species_note: The only valid species listed by PBDB.
+summary: Short-tailed early bird from the Jiufotang Formation of China, very similar to Sapeornis and perhaps the
+  same animal.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Omnivoropteryx sinousaorum
+  authority: Czerkas and Ji 2002
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton with skull from the upper Jiufotang Formation (number in Czerkas and Ji 2002).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its skull had a crushing beak-like snout with a few teeth at the tip of the upper jaw, taken as evidence
+  of an omnivorous diet.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/470c08ae-7a6b-4666-a7c1-95fb7c4de428/vector.svg
+  png: https://images.phylopic.org/images/470c08ae-7a6b-4666-a7c1-95fb7c4de428/raster/512x348.png
+  page: https://www.phylopic.org/images/470c08ae-7a6b-4666-a7c1-95fb7c4de428
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Sapeornis chaoyangensis
+  matched: Omnivoropteryx
+  genus_level: true
+sources:
+- kind: original
+  text: S. A. Czerkas and Q. Ji. 2002. A preliminary report on an omnivorous volant bird from northeast China. Feathered
+    Dinosaurs and the Origin of Flight. The Dinosaur Museum Journal 1. The Dinosaur Museum, Blanding, UT
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Omnivoropteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Omnivoropteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Omnivoropteryx”. English Wikipedia, revision 1379878953.
+  url: https://en.wikipedia.org/w/index.php?title=Omnivoropteryx&oldid=1379878953
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Possible senior synonym of Sapeornis; check later revisions.
+  - Holotype number to add.
+  reviews: []

@@ -1,0 +1,91 @@
+name: Soroavisaurus
+rank: genus
+parent: avisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Chiappe 1993
+type_species: Soroavisaurus australis
+type_species_note: The only valid species listed by PBDB.
+summary: Avisaurid enantiornithine from the Maastrichtian Lecho Formation of Argentina, named as the sister of Avisaurus.
+size:
+  length_m: [0.4, 0.4]
+  note: Body length estimated at about 40 cm; specimens vary in size (Wikipedia revision cited).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Soroavisaurus australis
+  authority: Chiappe 1993
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lecho
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lecho-argentina
+fossil_material:
+  holotype: Hindlimb material from the Lecho Formation (number in Chiappe 1993).
+  material: Several specimens, mostly hindlimb bones.
+  completeness: multiple
+  exceptional: ''
+biology: Probably a predator that used its sharp curved talons to carry prey.
+images:
+- kind: life
+  file: Soroavisaurus feeding.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Soroavisaurus_feeding.png/960px-Soroavisaurus_feeding.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Soroavisaurus_feeding.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-09-22'
+  caption: Soroavisaurus feeding (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1791
+  height: 1343
+  review: unreviewed
+- kind: skeletal
+  file: Soroavisaurus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Soroavisaurus.png/960px-Soroavisaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Soroavisaurus.png
+  artist: Olmagon
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-09-16'
+  caption: Soroavisaurus (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 1791
+  height: 1343
+  review: unreviewed
+sources:
+- kind: original
+  text: 'Chiappe, Luis 1993. Enantiornithine (Aves) tarsometatarsi from the Cretaceous Lecho Formation of northwestern
+    Argentina. American Museum Novitates(3083): 1–27.'
+- kind: literature
+  text: 'Chiappe, Luis M. 1992. Enantiornithine (Aves) tarsometatarsi and the avian affinities of the Late Cretaceous
+    Avisauridae. Journal of Vertebrate Paleontology 12(3): 344–350. doi:10.1080/02724634.1992.10011464'
+- kind: literature
+  text: 'Chiappe, Luis M.; Walker, Cyril A. 2002. Mesozoic Birds: Above the Heads of Dinosaurs. University of California
+    Press.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Soroavisaurus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Soroavisaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Soroavisaurus”. English Wikipedia, revision 1388159132.
+  url: https://en.wikipedia.org/w/index.php?title=Soroavisaurus&oldid=1388159132
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

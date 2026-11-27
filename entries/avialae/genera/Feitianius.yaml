@@ -1,0 +1,84 @@
+name: Feitianius
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: O'Connor et al. 2016
+type_species: Feitianius paradisi
+type_species_note: Taxobox of Wikipedia revision 1387597692.
+summary: Enantiornithean from the Xiagou Formation of Gansu, China, with an elaborate tail like that of male birds
+  of paradise.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Feitianius paradisi
+  authority: O'Connor et al. 2016
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  group: Xinminbao
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: xiagou-china
+fossil_material:
+  holotype: A partial skeleton with tail feathers found in 2005 (number in O'Connor et al. 2016).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: Elaborate tail feathers.
+biology: Its showy tail plumage was interpreted as sexual display, and the specimen as a male.
+images:
+- kind: life
+  file: Feitianius paradisi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Feitianius_paradisi.jpg/960px-Feitianius_paradisi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Feitianius_paradisi.jpg
+  artist: Luxquine
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-03-17'
+  caption: Feitianius paradisi (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 3559
+  height: 4448
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/21e1fff7-a7fe-4392-84cc-4b7d8293c2ce/vector.svg
+  png: https://images.phylopic.org/images/21e1fff7-a7fe-4392-84cc-4b7d8293c2ce/raster/760x1024.png
+  page: https://www.phylopic.org/images/21e1fff7-a7fe-4392-84cc-4b7d8293c2ce
+  attribution: Luxquine
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Feitianius paradisi
+  matched: Feitianius
+  genus_level: true
+sources:
+- kind: original
+  text: J. K. O'Connor, D.-Q. Li, and M. C. Lamanna, M. Wang, J. D. Harris, J. Atterholt, H.-L. You. 2016. A new
+    Early Cretaceous enantiornithine (Aves, Ornithothoraces) from northwestern China with elaborate tail ornamentation.
+    Journal of Vertebrate Paleontology 36(1):e1054035:1-13
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Feitianius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Feitianius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Feitianius”. English Wikipedia, revision 1387597692.
+  url: https://en.wikipedia.org/w/index.php?title=Feitianius&oldid=1387597692
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

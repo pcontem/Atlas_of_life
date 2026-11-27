@@ -1,0 +1,182 @@
+name: Jeholornis
+rank: genus
+parent: jeholornithiformes
+incertae_sedis: false
+placement_note: ''
+authority: Zhou and Zhang 2002
+type_species: Jeholornis prima
+type_species_note: Taxobox of Wikipedia revision 1380750957.
+summary: Turkey-sized long-tailed avialan from the Early Cretaceous of China that ate seeds.
+size:
+  length_m: [0.75, 0.85]
+  mass_kg: [0.78, 9.1]
+  note: Maximum adult length up to 75 cm with 2.27–9.1 kg in one estimate; another gives 85 cm and 780 g (Wikipedia
+    revision cited); the estimates differ widely.
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Jeholornis curvipes
+  authority: Lefevre et al. 2014
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: ''
+- name: Jeholornis palmapenis
+  authority: O'Connor et al. 2012
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: ''
+- name: Jeholornis prima
+  authority: Zhou and Zhang 2002
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 3
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+- formation: Yixian
+  group: Jehol
+  members: [Dakangpu]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: An articulated skeleton of J. prima from the Jiufotang Formation, Hebei (number in Zhou and Zhang 2002).
+  material: Many specimens from the Jiufotang and Yixian formations, including the types of J. palmapenis and J.
+    curvipes.
+  completeness: multiple
+  exceptional: Feather impressions; plant seeds associated with the gut.
+biology: Few small blunt teeth and seeds of cycads, Ginkgo or similar plants in the gut show a seed-eating diet;
+  legs not built for running.
+images:
+- kind: fossil
+  file: Jeholornis holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Jeholornis_holotype.jpg/960px-Jeholornis_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jeholornis_holotype.jpg
+  artist: i a walsh from Shanghai, China
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2010-05-30'
+  caption: Jeholornis holotype (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 2592
+  height: 1563
+  review: unreviewed
+- kind: skeletal
+  file: Jeholornis mmartyniuk wiki (fipped).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/93/Jeholornis_mmartyniuk_wiki_%28fipped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Jeholornis_mmartyniuk_wiki_(fipped).jpg
+  artist: Matt Martyniuk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-03-28'
+  caption: Jeholornis mmartyniuk wiki (fipped) (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 654
+  height: 468
+  review: unreviewed
+- kind: skeletal
+  file: Jeholornis mmartyniuk wiki.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0f/Jeholornis_mmartyniuk_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Jeholornis_mmartyniuk_wiki.jpg
+  artist: Matt Martyniuk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2010-03-28'
+  caption: Jeholornis mmartyniuk wiki (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 655
+  height: 469
+  review: unreviewed
+- kind: fossil
+  file: Jeholornis prima Holotype IVPP.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jeholornis_prima_Holotype_IVPP.jpg/960px-Jeholornis_prima_Holotype_IVPP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jeholornis_prima_Holotype_IVPP.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-31'
+  caption: Jeholornis prima Holotype IVPP (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 2592
+  height: 1561
+  review: unreviewed
+- kind: fossil
+  file: Jeholornis prima NMNS.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Jeholornis_prima_NMNS.jpg/960px-Jeholornis_prima_NMNS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jeholornis_prima_NMNS.jpg
+  artist: Tiouraren (Y.-C. Tsai)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-28'
+  caption: Jeholornis prima NMNS (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 4969
+  height: 3029
+  review: unreviewed
+- kind: fossil
+  file: Jeholornis prima fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Jeholornis_prima_fossil.jpg/960px-Jeholornis_prima_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Jeholornis_prima_fossil.jpg
+  artist: ★Kumiko★
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2016-05-31'
+  caption: Jeholornis prima fossil (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 4896
+  height: 3264
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0a4e1b13-d4f4-425c-8b80-8db24831280f/vector.svg
+  png: https://images.phylopic.org/images/0a4e1b13-d4f4-425c-8b80-8db24831280f/raster/512x258.png
+  page: https://www.phylopic.org/images/0a4e1b13-d4f4-425c-8b80-8db24831280f
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Shenzhouraptor sinensis
+  matched: Jeholornis
+  genus_level: true
+sources:
+- kind: original
+  text: 'Zhou, Z.-H.; Zhang, F.-C. 2002. A long-tailed, seed-eating bird from the Early Cretaceous of China. Nature
+    418(6896): 405–409. doi:10.1038/nature00930'
+- kind: literature
+  text: 'Jingmai K. O''Connor 2012. A new species of ''''Jeholornis'''' with complete caudal integument. Historical
+    Biology 24(1): 29–41. doi:10.1080/08912963.2011.552720'
+- kind: literature
+  text: 'Lefèvre, U.; Hu, D.; Escuillié, F. O.; Dyke, G.; Godefroit, P. 2014. A new long-tailed basal bird from
+    the Lower Cretaceous of north-eastern China. Biological Journal of the Linnean Society 113(3): 790–804. doi:10.1111/bij.12343'
+- kind: literature
+  text: 'Zheng, X.; Martin, L. D.; Zhou, Z.; Burnham, D. A.; Zhang, F.; Miao, D. 2011. Fossil evidence of avian
+    crops from the Early Cretaceous of China. Proceedings of the National Academy of Sciences 108(38): 15904–15907.
+    doi:10.1073/pnas.1112694108'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jeholornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jeholornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jeholornis”. English Wikipedia, revision 1380750957.
+  url: https://en.wikipedia.org/w/index.php?title=Jeholornis&oldid=1380750957
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number to add from Zhou and Zhang 2002.]
+  reviews: []

@@ -1,0 +1,69 @@
+name: Chaoyangia
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: Hou and Zhang 1993
+type_species: Chaoyangia beishanensis
+type_species_note: The only valid species listed by PBDB.
+summary: Early Cretaceous euornithean from Liaoning known from a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chaoyangia beishanensis
+  authority: Hou and Zhang 1993
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A partial skeleton including vertebrae (number in Hou and Zhang 1993).
+  material: The holotype; specimens referred in 1997 were later reassigned.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Ornithuromorpha
+  genus_level: false
+sources:
+- kind: original
+  text: L. Hou and J. Zhang. 1993. [A new fossil bird from Lower Cretaceous of Liaoning]. Vertebrata PalAsiatica
+    31(3):217-224
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chaoyangia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chaoyangia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chaoyangia”. English Wikipedia, revision 1379859832.
+  url: https://en.wikipedia.org/w/index.php?title=Chaoyangia&oldid=1379859832
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,83 @@
+name: Archaeornithura
+rank: genus
+parent: hongshanornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2015
+type_species: Archaeornithura meemannae
+type_species_note: The only valid species listed by PBDB.
+summary: Hauterivian hongshanornithid from the Huajiying Formation of Hebei, the oldest known ornithuromorph.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 125.77
+  early_interval: Hauterivian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Archaeornithura meemannae
+  authority: Wang et al. 2015
+  first_ma: 132.6
+  last_ma: 125.77
+  interval: Hauterivian
+  reference: original description
+formations:
+- formation: Huajiying
+  group: ''
+  members: [Sichakou]
+  country: China
+  regions: [Hebei]
+  interval: Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: huajiying-china
+fossil_material:
+  holotype: STM7-145, with the paratype STM7-163, from shales of the Huajiying Formation.
+  material: Two specimens.
+  completeness: multiple
+  exceptional: Feathers.
+biology: Its long legs suggest it waded; it already had fairly advanced plumage.
+images:
+- kind: fossil
+  file: Archaeornithura meemannae Holotype.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/17/Archaeornithura_meemannae_Holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Archaeornithura_meemannae_Holotype.jpg
+  artist: Min Wang, Xiaoting Zheng, Jingmai K. O’Connor, Graeme T. Lloyd, Xiaoli Wang, Yan Wang, Xiaomei Zhang &
+    Zhonghe Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-05-05'
+  caption: Archaeornithura meemannae Holotype (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 946
+  height: 613
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Hongshanornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, M.; Zheng, X.; o’Connor, J. K.; Lloyd, G. T.; Wang, X.; Wang, Y.; Zhang, X.; Zhou, Z. 2015. The oldest
+    record of ornithuromorpha from the early cretaceous of China. Nature Communications 6: 6987. doi:10.1038/ncomms7987'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Archaeornithura (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Archaeornithura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Archaeornithura”. English Wikipedia, revision 1376484131.
+  url: https://en.wikipedia.org/w/index.php?title=Archaeornithura&oldid=1376484131
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

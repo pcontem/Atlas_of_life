@@ -1,0 +1,83 @@
+name: Evgenavis
+rank: genus
+parent: pygostylia
+incertae_sedis: true
+placement_note: O'Connor et al. (2014) described it as a pygostylian of uncertain affinity; PBDB places it in Enantiornithes.
+authority: O'Connor et al. 2014
+type_species: Evgenavis nobilis
+type_species_note: The only valid species listed by PBDB.
+summary: Early Cretaceous pygostylian from the Ilek Formation of Siberia known from one foot bone.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Evgenavis nobilis
+  authority: O'Connor et al. 2014
+  first_ma: 125.77
+  last_ma: 113.2
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Ilek
+  group: ''
+  members: []
+  country: Russia
+  regions: [Kemerovo]
+  interval: Barremian–Aptian
+  occurrences: 1
+  ma: [113.2, 125.77]
+  id: ilek-russia
+fossil_material:
+  holotype: ZIN PH 1/154, an isolated tarsometatarsus from the Ilek Formation.
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Evgenavis tarsometatarsus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Evgenavis_tarsometatarsus.png/960px-Evgenavis_tarsometatarsus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Evgenavis_tarsometatarsus.png
+  artist: Skye McDavid
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-02-22'
+  caption: Evgenavis tarsometatarsus (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 1623
+  height: 2160
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'J.K, O''Connor; A.O, Averianov; N.V, Zelenkov 2014. A Confuciusornithiform (Aves, Pygostylia)-Like Tarsometatarsus
+    from the Early Cretaceous of Siberia and a Discussion of the Evolution of Avian Hind Limb Musculature. Journal
+    of Vertebrate Paleontology 34(3): 647–656. doi:10.1080/02724634.2013.828734'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Evgenavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Evgenavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Evgenavis”. English Wikipedia, revision 1387597669.
+  url: https://en.wikipedia.org/w/index.php?title=Evgenavis&oldid=1387597669
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

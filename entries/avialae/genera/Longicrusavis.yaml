@@ -1,0 +1,70 @@
+name: Longicrusavis
+rank: genus
+parent: hongshanornithidae
+incertae_sedis: false
+placement_note: ''
+authority: O'Connor et al. 2010
+type_species: Longicrusavis houi
+type_species_note: The only valid species listed by PBDB.
+summary: Long-legged hongshanornithid from Dawangzhangzi, Liaoning.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Longicrusavis houi
+  authority: O'Connor et al. 2010
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dawangzhangzi]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A single specimen with a broken skull (number in O'Connor et al. 2010).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its long shins suggest a wading or ground-living bird.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Longicrusavis
+  genus_level: true
+sources:
+- kind: original
+  text: 'O''Connor, J.K. 2010. A new ornithuromorph (Aves: Ornithothoraces) bird from the Jehol Group indicative
+    of higher-level diversity. Journal of Vertebrate Paleontology 30(2): 311–321. doi:10.1080/02724631003617498'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Longicrusavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Longicrusavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Longicrusavis”. English Wikipedia, revision 1387597744.
+  url: https://en.wikipedia.org/w/index.php?title=Longicrusavis&oldid=1387597744
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision calls it a ground-dwelling carnivore; not used until checked in O'Connor et al. 2010.
+  reviews: []

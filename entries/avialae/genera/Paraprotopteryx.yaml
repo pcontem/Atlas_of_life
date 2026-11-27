@@ -1,0 +1,70 @@
+name: Paraprotopteryx
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Zheng et al. 2007
+type_species: Paraprotopteryx gracilis
+type_species_note: The only valid species listed by PBDB.
+summary: Early Cretaceous enantiornithean from China whose skull was added to the body by fossil traders.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 125.77
+  early_interval: Hauterivian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Paraprotopteryx gracilis
+  authority: Zheng et al. 2007
+  first_ma: 132.6
+  last_ma: 125.77
+  interval: Hauterivian
+  reference: original description
+formations:
+- formation: Huajiying
+  group: ''
+  members: [Sichakou]
+  country: China
+  regions: [Hebei]
+  interval: Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: huajiying-china
+fossil_material:
+  holotype: A skeleton on plate and counterplate whose skull belongs to another individual (number in Zheng et al.
+    2007).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: Four tail feathers about 10 cm long, more than twice the body length.
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: X. Zheng, Z. Zhang, and L. Hou. 2007. A new enantiornithine bird with four long rectrices from the Early
+    Cretaceous of northern Hebei, China. Acta Geologica Sinica 81(5):703-708
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paraprotopteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paraprotopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paraprotopteryx”. English Wikipedia, revision 1380751523.
+  url: https://en.wikipedia.org/w/index.php?title=Paraprotopteryx&oldid=1380751523
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

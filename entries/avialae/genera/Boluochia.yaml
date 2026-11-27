@@ -1,0 +1,71 @@
+name: Boluochia
+rank: genus
+parent: longipterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhou 1995
+type_species: Boluochia zhengi
+type_species_note: The only valid species listed by PBDB.
+summary: Poorly preserved enantiornithean from the Jiufotang Formation of Liaoning, possibly the same animal as
+  Longipteryx.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Boluochia zhengi
+  authority: Zhou 1995
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A single poorly preserved specimen from the Jiufotang Formation (number in Zhou 1995).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Nearly indistinguishable from a juvenile Longipteryx; O'Connor and colleagues (2010) found only one feature
+  separating them.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Longipterygidae
+  genus_level: false
+sources:
+- kind: original
+  text: Z. Zhou. 1995. Discovery of a new enantiornithine bird from the Early Cretaceous of Liaoning, China. Vertebrata
+    PalAsiatica 33(2):99-113
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Boluochia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Boluochia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Boluochia”. English Wikipedia, revision 1387576422.
+  url: https://en.wikipedia.org/w/index.php?title=Boluochia&oldid=1387576422
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Possible junior synonym of Longipteryx (O'Connor et al. 2010).]
+  reviews: []

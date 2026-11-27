@@ -1,0 +1,68 @@
+name: Apsaravis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: Norell and Clarke 2001
+type_species: Apsaravis ukhaana
+type_species_note: The only valid species listed by PBDB.
+summary: Campanian ornithuromorph from the Djadokhta Formation of Mongolia, about 78 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Apsaravis ukhaana
+  authority: Norell and Clarke 2001
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: A partial skeleton (number in Norell and Clarke 2001).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Ornithuromorpha
+  genus_level: false
+sources:
+- kind: original
+  text: M. A. Norell and J. A. Clarke. 2001. Fossil that fills a critical gap in avian evolution. Nature 409:181-184
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Apsaravis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Apsaravis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Apsaravis”. English Wikipedia, revision 1379676771.
+  url: https://en.wikipedia.org/w/index.php?title=Apsaravis&oldid=1379676771
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

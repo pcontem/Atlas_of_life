@@ -5,16 +5,30 @@ group: Selma
 country: United States
 regions: [Alabama]
 location:
-  lat: 32.51
-  lng: -87.433
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: 32.511
+  lng: -87.441
+  basis: median of 14 PBDB collections that yielded the atlas genera
 age:
   first_ma: 85.7
   last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [offshore shelf, marine indet., carbonate indet.]
-lithology: [grainstone, marl, chalk, '"limestone"']
-pbdb_collections: ['52053', '81930', '82635', '181177']
+environment: [marine indet., carbonate indet., offshore shelf, deep subtidal shelf]
+lithology: [chalk, '"limestone"', grainstone, '"carbonate"']
+pbdb_collections:
+- '52053'
+- '80890'
+- '81930'
+- '81932'
+- '82635'
+- '181177'
+- '197308'
+- '197312'
+- '197314'
+- '197316'
+- '231048'
+- '231049'
+- '231050'
+- '231051'
 includes: []
 summary: ''
 paleoenvironment: ''

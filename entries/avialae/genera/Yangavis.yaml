@@ -1,0 +1,71 @@
+name: Yangavis
+rank: genus
+parent: confuciusornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang and Zhou 2018
+type_species: Yangavis confucii
+type_species_note: Taxobox of Wikipedia revision 1282410629.
+summary: Confuciusornithid from the Aptian of Liaoning, China, named in 2018.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yangavis confucii
+  authority: Wang and Zhou 2018
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V18929, from Sihedang, Liaoning.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6e92082e-c2b5-443d-b368-9191b26c6c13/vector.svg
+  png: https://images.phylopic.org/images/6e92082e-c2b5-443d-b368-9191b26c6c13/raster/512x177.png
+  page: https://www.phylopic.org/images/6e92082e-c2b5-443d-b368-9191b26c6c13
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Changchengornis hengdaoziensis
+  matched: Confuciusornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, M.; Zhou, Z. 2018. A new confuciusornithid (Aves: Pygostylia) from the Early Cretaceous increases
+    the morphological disparity of the Confuciusornithidae. Zoological Journal of the Linnean Society 20: 1–14.
+    doi:10.1093/zoolinnean/zly045'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yangavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yangavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yangavis”. English Wikipedia, revision 1282410629.
+  url: https://en.wikipedia.org/w/index.php?title=Yangavis&oldid=1282410629
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Formation given as Yixian in Wikipedia and Jiufotang in PBDB: check Wang and Zhou 2018.'
+  reviews: []

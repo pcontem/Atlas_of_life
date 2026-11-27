@@ -1,0 +1,86 @@
+name: Alexornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Brodkorb 1976
+type_species: Alexornis antecedens
+type_species_note: The only valid species listed by PBDB.
+summary: Sparrow-sized enantiornithine from the Santonian La Bocana Roja Formation of Baja California, Mexico.
+size:
+  length_m: null
+  mass_kg: [0.0356, 0.0356]
+  note: About 35.6 g (Campione 2020, via Wikipedia); length not given.
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Alexornis antecedens
+  authority: Brodkorb 1976
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: La Bocana Roja
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Baja California]
+  interval: Santonian
+  occurrences: 1
+  ma: [83.6, 85.7]
+  id: la-bocana-roja-mexico
+fossil_material:
+  holotype: Specimen found in 1971 and described by Brodkorb (1976) (number in the original description).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Alexornis antecedens.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Alexornis_antecedens.png/960px-Alexornis_antecedens.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Alexornis_antecedens.png
+  artist: Luxquine
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-26'
+  caption: Alexornis antecedens (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 2224
+  height: 1668
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Alexornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'P. Brodkorb. 1976. Discovery of a Cretaceous bird, apparently ancestral to the orders Coraciiformes and
+    Piciformes (Aves: Carinatae). Smithsonian Contributions to Paleobiology 27:67-73'
+- kind: literature
+  text: 'Campione, Nicolás E.; Evans, David C. 2020. The accuracy and precision of body mass estimation in non-avian
+    dinosaurs. Biological Reviews 95(6): 1759–1797. doi:10.1111/brv.12638'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alexornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alexornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alexornis”. English Wikipedia, revision 1375564052.
+  url: https://en.wikipedia.org/w/index.php?title=Alexornis&oldid=1375564052
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

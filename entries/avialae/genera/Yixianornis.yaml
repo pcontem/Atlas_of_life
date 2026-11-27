@@ -1,0 +1,115 @@
+name: Yixianornis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: true
+placement_note: PBDB places it in Hongshanornithidae; the Songlingornithidae revision cited includes it in that
+  group's cladogram.
+authority: Zhou and Zhang 2001
+type_species: Yixianornis grabaui
+type_species_note: The only valid species listed by PBDB.
+summary: Ornithuromorph from the Jiufotang Formation at Chaoyang with a modern fan of tail feathers.
+size:
+  length_m: [0.19, 0.2]
+  note: IVPP V12631 is about 19–20 cm long (Wikipedia revision cited).
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yixianornis grabaui
+  authority: Zhou and Zhang 2001
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V12631, with wing and tail feather impressions.
+  material: Known only from the holotype.
+  completeness: complete
+  exceptional: Wing and tail feathers.
+biology: Preserves eight long tail feathers in a modern fan arrangement.
+images:
+- kind: fossil
+  file: Fossil bird.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Fossil_bird.jpg/960px-Fossil_bird.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fossil_bird.jpg
+  artist: i a walsh from Shanghai, China
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2010-05-30'
+  caption: Fossil bird (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2592
+  height: 1944
+  review: unreviewed
+- kind: fossil
+  file: Yixianornis at Tianjin Museum of Natural History.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Yixianornis_at_Tianjin_Museum_of_Natural_History.jpg/960px-Yixianornis_at_Tianjin_Museum_of_Natural_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yixianornis_at_Tianjin_Museum_of_Natural_History.jpg
+  artist: Morosaurus millenii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-07-16'
+  caption: Yixianornis at Tianjin Museum of Natural History (Wikimedia Commons; kind assigned from the file name,
+    not yet checked on the triage page).
+  width: 2448
+  height: 3264
+  review: unreviewed
+- kind: fossil
+  file: Yixianornis-Paleozoological Museum of China.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Yixianornis-Paleozoological_Museum_of_China.jpg/960px-Yixianornis-Paleozoological_Museum_of_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yixianornis-Paleozoological_Museum_of_China.jpg
+  artist: Morosaurus millenii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-04'
+  caption: Yixianornis-Paleozoological Museum of China (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 2592
+  height: 1728
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/42913bfa-8637-4356-868b-fe9ac8cafc8a/vector.svg
+  png: https://images.phylopic.org/images/42913bfa-8637-4356-868b-fe9ac8cafc8a/raster/512x314.png
+  page: https://www.phylopic.org/images/42913bfa-8637-4356-868b-fe9ac8cafc8a
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Yixianornis grabaui
+  matched: Yixianornis
+  genus_level: true
+sources:
+- kind: original
+  text: X. Zhou and F. Zhang. 2001. Two new ornithurine birds from the Early Cretaceous of western Liaoning, China.
+    Chinese Science Bulletin 46(15):1258-1264
+- kind: literature
+  text: 'Clarke, J.A.; Zhou, Z.; Zhang, F. 2006. Insight into the evolution of avian flight from a new clade of
+    Early Cretaceous ornithurines from China and the morphology of ''''Yixianornis grabaui''''. Journal of Anatomy
+    208(3): 287–308. doi:10.1111/j.1469-7580.2006.00534.x'
+- kind: literature
+  text: 'Holtz, Thomas R. Jr. 2012. Dinosaurs: The Most Complete, Up-to-Date Encyclopedia for Dinosaur Lovers of
+    All Ages.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yixianornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yixianornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yixianornis”. English Wikipedia, revision 1380753831.
+  url: https://en.wikipedia.org/w/index.php?title=Yixianornis&oldid=1380753831
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

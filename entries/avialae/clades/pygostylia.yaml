@@ -1,0 +1,32 @@
+id: pygostylia
+name: Pygostylia
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Pygostylia, unranked clade), downloaded 2026-11-27
+parent: avialae
+wikipedia: Pygostylia
+summary: Avialans with a short tail ending in a pygostyle, from Confuciusornis and its relatives to modern birds.
+diagnosis:
+- Short tail whose last vertebrae are fused into a pygostyle
+- Long unfused bony tail of Archaeopteryx and other basal avialans lost
+notes: Named by Chatterjee (1997) as an apomorphy-based group of short-tailed avialans; Chiappe later defined it
+  as the node joining Confuciusornithidae and Neornithes, and both usages are still in use. In this atlas it holds
+  Confuciusornithidae, Omnivoropterygidae (Sapeornis), Jinguofortisidae and Ornithothoraces.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pygostylia”. English Wikipedia, revision 1380360042.
+  url: https://en.wikipedia.org/w/index.php?title=Pygostylia&oldid=1380360042
+- kind: database
+  text: 'Paleobiology Database, taxon Pygostylia (no. 82613): rank, authority Chiappe 2002 and reference no. 18001
+    (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=82613
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-27 (data/raw/tree/clade_sources_2026-11-27_avialae.json).
+  - 'S2: add the naming work (Chiappe 2002, PBDB reference 18001) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

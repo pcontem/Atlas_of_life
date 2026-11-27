@@ -1,0 +1,81 @@
+name: Novavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: O'Connor et al. 2025
+type_species: Novavis pubisculata
+type_species_note: Taxobox and text of the cited Wikipedia revision.
+summary: Aptian enantiornithean from the Xiagou Formation of Gansu with an unusually short pubis.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 124.0
+  last_ma: 120.0
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record; 124–120 Ma from the taxobox of the cited Wikipedia revision.
+species:
+- name: Novavis pubisculata
+  authority: O'Connor et al. 2025
+  first_ma: 124.0
+  last_ma: 120.0
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: null
+  ma: [120.0, 124.0]
+  id: xiagou-china
+  group: ''
+  members: []
+fossil_material:
+  holotype: IVPP V31957, six or seven tail vertebrae, part of the pelvis and most of both hindlimbs on one slab,
+    found in 2005 near Changma.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Novavis TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Novavis_TD.png/960px-Novavis_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Novavis_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-24'
+  caption: Novavis TD (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2400
+  height: 1200
+  review: unreviewed
+sources:
+- kind: original
+  text: 'O''Connor, Jingmai K.; Atterholt, Jessie; Clark, Alexander D.; Zhou, Linqi; Peng, Cuo; Zhang, Xiaoqin;
+    You, Hailu 2025. A new enantiornithine (Aves: Ornithothoraces) from the Lower Cretaceous Xiagou Formation with
+    unusually short pubes. Geobios 90: 123–131. doi:10.1016/j.geobios.2024.11.003'
+- kind: literature
+  text: 'Ji, Shu-An; Atterholt, Jessie; O''Connor, Jingmai; Lamanna, Matthew; Harris, Jerry; Li, Da-Qing; You, Hai-Lu;
+    Dodson, Peter 2011. A new, three-dimensionally preserved enantiornithine bird (Aves: Ornithothoraces) from Gansu
+    Province, north-western China. Zoological Journal of the Linnean Society 162(1): 201–219. doi:10.1111/j.1096-3642.2010.00671.x'
+- kind: literature
+  text: Bailleul, Alida M.; O'Connor, Jingmai; Zhang, Shukang; Li, Zhiheng; Wang, Qiang; Lamanna, Matthew C.; Zhu,
+    Xufeng; Zhou, Zhonghe 2019. An Early Cretaceous enantiornithine (Aves) preserving an unlaid egg and probable
+    medullary bone. Nature Communications 10(1). doi:10.1038/s41467-019-09259-x
+- kind: encyclopedia
+  text: Wikipedia contributors. “Novavis”. English Wikipedia, revision 1368847788.
+  url: https://en.wikipedia.org/w/index.php?title=Novavis&oldid=1368847788
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Genus without a PBDB record (Wikipedia-recognised, rule of 2026-11-27): authority, age, species and formation
+    entered by hand from the Wikipedia revision; check against the original description.'
+  reviews: []

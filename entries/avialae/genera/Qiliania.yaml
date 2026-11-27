@@ -1,0 +1,95 @@
+name: Qiliania
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Ji et al. 2011
+type_species: Qiliania graffini
+type_species_note: The only valid species listed by PBDB.
+summary: Aptian enantiornithean from the Xiagou Formation of Gansu, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Qiliania graffini
+  authority: Ji et al. 2011
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  group: Xinminbao
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: xiagou-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Qiliania holotype.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Qiliania_holotype.png/960px-Qiliania_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qiliania_holotype.png
+  artist: Clumsystiggy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024'
+  caption: Qiliania holotype (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 5000
+  height: 5000
+  review: unreviewed
+- kind: fossil
+  file: Qiliania.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Qiliania.png/960px-Qiliania.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Qiliania.png
+  artist: Clumsystiggy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024'
+  caption: Qiliania (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 5500
+  height: 10000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Ji, Shu-An; Atterholt, Jessie; O''Connor, Jingmai; Lamanna, Matthew; Harris, Jerry; Li, Da-Qing; You, Hai-Lu;
+    Dodson, Peter 2011. A new, three-dimensionally preserved enantiornithine bird (Aves: Ornithothoraces) from Gansu
+    Province, north-western China. Zoological Journal of the Linnean Society 162(1): 201–219. doi:10.1111/j.1096-3642.2010.00671.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Qiliania (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Qiliania
+- kind: encyclopedia
+  text: Wikipedia contributors. “Qiliania”. English Wikipedia, revision 1379877272.
+  url: https://en.wikipedia.org/w/index.php?title=Qiliania&oldid=1379877272
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

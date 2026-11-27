@@ -1,0 +1,95 @@
+name: Chupkaornis
+rank: genus
+parent: hesperornithes
+incertae_sedis: false
+placement_note: ''
+authority: Tanaka et al. 2018
+type_species: Chupkaornis keraorum
+type_species_note: Taxobox of Wikipedia revision 1315931706.
+summary: Flightless hesperornithine from the Coniacian–Santonian Kashima Formation of Hokkaido, Japan.
+size:
+  length_m: [0.7, 0.8]
+  note: Body length estimated at 70–80 cm (Wikipedia revision cited).
+age:
+  first_ma: 89.8
+  last_ma: 83.6
+  early_interval: Coniacian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chupkaornis keraorum
+  authority: Tanaka et al. 2018
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: original description
+formations:
+- formation: Kashima
+  group: Yezo
+  members: []
+  country: Japan
+  regions: [Hokkaido]
+  interval: Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: kashima-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Chupkaornis fossils.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Chupkaornis_fossils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chupkaornis_fossils.jpg
+  artist: かずたき
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-02-14'
+  caption: Chupkaornis fossils (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 722
+  height: 499
+  review: unreviewed
+- kind: life
+  file: Chupkaornis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/01/Chupkaornis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chupkaornis.png
+  artist: かずたき
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-28'
+  caption: Chupkaornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 1004
+  height: 376
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/vector.svg
+  png: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/raster/512x299.png
+  page: https://www.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362
+  attribution: Scott Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Baptornis advenus
+  matched: Hesperornithiformes
+  genus_level: false
+sources:
+- kind: original
+  text: "T. Tanaka, Y. Kobayashi, and K. Kurihara, A. R. Fiorillo, M. Kano. 2018. The oldest Asian hesperornithiform\
+    \ from the Upper Cretaceous of Japan,\r\nand the phylogenetic reassessment of Hesperornithiformes. Journal of\
+    \ Systematic Palaeontology 16(8):689-709"
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chupkaornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chupkaornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chupkaornis”. English Wikipedia, revision 1315931706.
+  url: https://en.wikipedia.org/w/index.php?title=Chupkaornis&oldid=1315931706
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

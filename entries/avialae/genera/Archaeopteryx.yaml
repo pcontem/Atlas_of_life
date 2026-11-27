@@ -1,0 +1,214 @@
+name: Archaeopteryx
+rank: genus
+parent: archaeopterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Meyer 1861
+type_species: Archaeopteryx lithographica
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Raven-sized long-tailed Late Jurassic avialan from Germany, long regarded as the oldest known bird.
+size:
+  length_m: [0.5, 0.5]
+  note: The largest species reached about 50 cm in length; most individuals were the size of a Eurasian magpie (Wikipedia
+    revision cited).
+age:
+  first_ma: 149.2
+  last_ma: 121.4
+  early_interval: Early Tithonian
+  late_interval: Barremian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Archaeopteryx albersdoerferi
+  authority: Kundrát et al. 2019
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: ''
+- name: Archaeopteryx lithographica
+  authority: Meyer 1861
+  first_ma: 149.2
+  last_ma: 145.06
+  interval: Tithonian
+  reference: original description
+formations:
+- formation: Altmühltal
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 4
+  ma: [145.06, 149.2]
+  id: altmuhltal-germany
+- formation: Unnamed unit
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: weijura-group-germany
+- formation: Solnhofen
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: altmuhltal-germany
+- formation: Camarillas
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cuenca]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: camarillas-spain
+- formation: Painten
+  group: Weißjura
+  members: [Öchselberg]
+  country: Germany
+  regions: []
+  interval: Tithonian
+  occurrences: 1
+  ma: [143.1, 149.2]
+  id: painten-germany
+- formation: Mörnsheim
+  group: Weißjura
+  members: []
+  country: Germany
+  regions: [Bayern]
+  interval: Early Tithonian
+  occurrences: 1
+  ma: [145.06, 149.2]
+  id: mornsheim-germany
+fossil_material:
+  holotype: The genus was named by Meyer (1861) for an isolated feather from the Solnhofen limestone; the name-bearing
+    specimen of A. lithographica is to be confirmed in the literature.
+  material: About a dozen skeletons and the isolated feather from the Tithonian limestones of southern Germany;
+    teeth from Spain and France are referred to archaeopterygids.
+  completeness: multiple
+  exceptional: Feather impressions, including asymmetrical flight feathers.
+biology: Had small teeth, three clawed fingers, a long bony tail and broad rounded wings with modern-type flight
+  feathers; lived on islands of a shallow tropical European archipelago.
+images:
+- kind: fossil
+  file: Archaeopteryx (Chicken Wing).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Archaeopteryx_%28Chicken_Wing%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Archaeopteryx_(Chicken_Wing).jpg
+  artist: H. Raab ( User:Vesta )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-10-30'
+  caption: Archaeopteryx (Chicken Wing) (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 1200
+  height: 900
+  review: unreviewed
+- kind: fossil
+  file: Archaeopteryx (Daiting Specimen).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/83/Archaeopteryx_%28Daiting_Specimen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Archaeopteryx_(Daiting_Specimen).jpg
+  artist: H. Raab ( User:Vesta )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-10-30'
+  caption: Archaeopteryx (Daiting Specimen) (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 1009
+  height: 620
+  review: unreviewed
+- kind: fossil
+  file: Archaeopteryx (Feather).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/45/Archaeopteryx_%28Feather%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Archaeopteryx_(Feather).jpg
+  artist: H. Raab ( User:Vesta )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2009-10-30'
+  caption: Archaeopteryx (Feather) (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 899
+  height: 1200
+  review: unreviewed
+- kind: life
+  file: Archaeopteryx NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Archaeopteryx_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Archaeopteryx_NT.jpg
+  artist: NobuTamura http://paleoexhibit.blogspot.com/ http://spinops.blogspot.com/
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-04-09'
+  caption: Archaeopteryx NT (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 500
+  height: 375
+  review: unreviewed
+- kind: skeletal
+  file: Archaeopteryx Thermopolis specimen life reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Archaeopteryx_Thermopolis_specimen_life_reconstruction.jpg/960px-Archaeopteryx_Thermopolis_specimen_life_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Archaeopteryx_Thermopolis_specimen_life_reconstruction.jpg
+  artist: Anonymous Dinonerd
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-11-01'
+  caption: Archaeopteryx Thermopolis specimen life reconstruction (Wikimedia Commons; kind assigned from the file
+    name, not yet checked on the triage page).
+  width: 6607
+  height: 4132
+  review: unreviewed
+- kind: fossil
+  file: Archaeopteryx growth curve.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Archaeopteryx_growth_curve.jpg/960px-Archaeopteryx_growth_curve.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Archaeopteryx_growth_curve.jpg
+  artist: Erickson GM, Rauhut OWM, Zhou Z, Turner AH, Inouye BD, et al.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2009'
+  caption: Archaeopteryx growth curve (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 5951
+  height: 2453
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/vector.svg
+  png: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/raster/512x306.png
+  page: https://www.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Archaeopteryx lithographica
+  matched: Archaeopteryx
+  genus_level: true
+sources:
+- kind: original
+  text: Meyer, Hermann von 15 A. Vogel-Federn und Palpipes priscus von Solenhofen. Neues Jahrbuch für Mineralogie,
+    Geognosie, Geologie und Petrefaktenkunde.
+- kind: literature
+  text: O'Connor, J.; Marugán-Lobón, J. 26 M. Evaluating variation in Solnhofen avialans. Biology Letters 22(3).
+    doi:10.1098/rsbl.2025.0601
+- kind: literature
+  text: Kaye, T.G.; Pittman, M.; Mayr, G.; Schwarz, D.; Xu, X. 2019. Detection of lost calamus challenges identity
+    of isolated ''Archaeopteryx'' feather. Scientific Reports 9(1). doi:10.1038/s41598-018-37343-7
+- kind: literature
+  text: Foth, C.; Rauhut, O.W.M. 2017. Re-evaluation of the Haarlem Archaeopteryx and the radiation of maniraptoran
+    theropod dinosaurs. BMC Evolutionary Biology 17(1). doi:10.1186/s12862-017-1076-y
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Archaeopteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Archaeopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Archaeopteryx”. English Wikipedia, revision 1388045559.
+  url: https://en.wikipedia.org/w/index.php?title=Archaeopteryx&oldid=1388045559
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Species list kept to A. lithographica and A. albersdoerferi; PBDB also lists bavarica, macrura and oweni, whose
+    validity varies between revisions (check O'Connor et al. 2026, Foth et al. 2026).
+  - Holotype / neotype of A. lithographica to check in the primary literature.
+  reviews: []

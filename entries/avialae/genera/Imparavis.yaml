@@ -1,0 +1,70 @@
+name: Imparavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2024
+type_species: Imparavis attenboroughi
+type_species_note: The only valid species listed by PBDB.
+summary: Enantiornithean from the Aptian Jiufotang Formation of Liaoning, named in 2024.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 119.57
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Imparavis attenboroughi
+  authority: Wang et al. 2024
+  first_ma: 121.4
+  last_ma: 119.57
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton with faint feather traces (number in Wang et al. 2024).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: Faint feather traces.
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, Xiaoli; Clark, Alexander D.; O''Connor, Jingmai K.; Zhang, Xiangyu; Wang, Xing; Zheng, Xiaoting;
+    Zhou, Zhonghe 2024. First Edentulous Enantiornithine (Aves: Ornithothoraces) from the Lower Cretaceous Jehol
+    Avifauna. Cretaceous Research 159(in press). doi:10.1016/j.cretres.2024.105867'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Imparavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Imparavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Imparavis”. English Wikipedia, revision 1341246021.
+  url: https://en.wikipedia.org/w/index.php?title=Imparavis&oldid=1341246021
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

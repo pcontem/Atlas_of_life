@@ -1,0 +1,69 @@
+name: Schizooura
+rank: genus
+parent: schizoouridae
+incertae_sedis: false
+placement_note: ''
+authority: Zhou et al. 2012
+type_species: Schizooura lii
+type_species_note: The only valid species listed by PBDB.
+summary: Toothless basal ornithuromorph from the Jiufotang Formation of Liaoning.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Schizooura lii
+  authority: Zhou et al. 2012
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton with feathers (number in Zhou et al. 2012).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: Feathers.
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Ornithuromorpha
+  genus_level: false
+sources:
+- kind: original
+  text: S. Zhou, Z. -H. Zhou, and J. K. O.'Connor. 2012. A new basal beaked ornithurine bid from the Lower Cretaceous
+    of western Liaoning, China. Vertebrata PalAsiatica 50(1):9-24
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Schizooura (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Schizooura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Schizooura”. English Wikipedia, revision 1387083137.
+  url: https://en.wikipedia.org/w/index.php?title=Schizooura&oldid=1387083137
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

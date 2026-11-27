@@ -1,0 +1,83 @@
+name: Falcatakely
+rank: genus
+parent: enantiornithes
+incertae_sedis: true
+placement_note: Described as an enantiornithean; the Pengornithidae revision cited calls it a possible pengornithid.
+authority: O'Connor et al. 2020
+type_species: Falcatakely forsterae
+type_species_note: The only valid species listed by PBDB.
+summary: Maastrichtian enantiornithean from Madagascar with a deep, toucan-like snout.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Falcatakely forsterae
+  authority: O'Connor et al. 2020
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Maevarano
+  group: ''
+  members: [Anembalemba]
+  country: Madagascar
+  regions: [Mahajanga]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: maevarano-madagascar
+fossil_material:
+  holotype: A partial skull from the Maevarano Formation (number in O'Connor et al. 2020).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: The upper beak was formed mostly by the maxilla, not the premaxilla as in living birds, and the premaxilla
+  still bore teeth.
+images:
+- kind: life
+  file: Falcatakely restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Falcatakely_restoration.jpg/960px-Falcatakely_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Falcatakely_restoration.jpg
+  artist: El fosilmaníaco
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-04-24'
+  caption: Falcatakely restoration (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 2000
+  height: 1481
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba52207f-611f-495f-8f33-dbb0143ffcfc/vector.svg
+  png: https://images.phylopic.org/images/ba52207f-611f-495f-8f33-dbb0143ffcfc/raster/512x403.png
+  page: https://www.phylopic.org/images/ba52207f-611f-495f-8f33-dbb0143ffcfc
+  attribution: Nix Illustration
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Falcatakely forsterae
+  matched: Falcatakely
+  genus_level: true
+sources:
+- kind: original
+  text: P. M. O'Connor, A. H. Turner, and J. R. Groenke, R. N. Felice, R. R. Rogers, D. W. Krause, L. J. Rahantarisoa.
+    2020. Late Cretaceous bird from Madagascar reveals unique development of beaks. Nature
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Falcatakely (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Falcatakely
+- kind: encyclopedia
+  text: Wikipedia contributors. “Falcatakely”. English Wikipedia, revision 1387597683.
+  url: https://en.wikipedia.org/w/index.php?title=Falcatakely&oldid=1387597683
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

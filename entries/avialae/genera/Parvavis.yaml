@@ -1,0 +1,93 @@
+name: Parvavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2014
+type_species: Parvavis chuxiongensis
+type_species_note: The only valid species listed by PBDB.
+summary: Small Late Cretaceous enantiornithean from lake deposits of the Jiangdihe Formation of Yunnan, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 83.6
+  early_interval: Turonian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Parvavis chuxiongensis
+  authority: Wang et al. 2014
+  first_ma: 93.9
+  last_ma: 83.6
+  interval: Turonian–Santonian
+  reference: original description
+formations:
+- formation: Jiangdihe
+  group: ''
+  members: []
+  country: China
+  regions: [Yunnan]
+  interval: Turonian–Santonian
+  occurrences: 1
+  ma: [83.6, 93.9]
+  id: jiangdihe-china
+fossil_material:
+  holotype: IVPP V18586/1, a partly complete articulated skeleton with part of the skull and feather impressions.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: Feather impressions.
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Parvavis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Parvavis.jpg/960px-Parvavis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Parvavis.jpg
+  artist: Luxquine
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-03-21'
+  caption: Parvavis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2848
+  height: 1668
+  review: unreviewed
+- kind: life
+  file: Parvavis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Parvavis.png/960px-Parvavis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Parvavis.png
+  artist: Luxquine
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-03-21'
+  caption: Parvavis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2848
+  height: 1668
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, M.; Zhou, Z.; Xu, G. 2014. The first enantiornithine bird from the Upper Cretaceous of  China. Journal
+    of Vertebrate Paleontology 34(1): 135–145. doi:10.1080/02724634.2013.794814'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Parvavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Parvavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Parvavis”. English Wikipedia, revision 1351467642.
+  url: https://en.wikipedia.org/w/index.php?title=Parvavis&oldid=1351467642
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,60 @@
+name: Dapingfangornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Li et al. 2006
+type_species: Dapingfangornis sentisorhinus
+type_species_note: The only valid species listed by PBDB.
+summary: Small enantiornithean from the Jiufotang Formation of Liaoning known from a complete skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Dapingfangornis sentisorhinus
+  authority: Li et al. 2006
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 2
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A complete skeleton from the Jiufotang Formation (number in Li et al. 2006).
+  material: The holotype and a referred specimen in PBDB.
+  completeness: complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: L. Li, Y. Duan, and D. Hu, L. Wang, S. Cheng, L. Hou. 2006. New Eoenantiornithid Bird from the Early Cretaceous
+    Jiufotang Formation of Western Liaoning, China. Acta Geologica Sinica (English Edition) 80(1):38-41
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dapingfangornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dapingfangornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dapingfangornis”. English Wikipedia, revision 1349367184.
+  url: https://en.wikipedia.org/w/index.php?title=Dapingfangornis&oldid=1349367184
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

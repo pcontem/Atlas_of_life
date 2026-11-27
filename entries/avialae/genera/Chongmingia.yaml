@@ -1,0 +1,85 @@
+name: Chongmingia
+rank: genus
+parent: jinguofortisidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2016
+type_species: Chongmingia zhengi
+type_species_note: Taxobox of Wikipedia revision 1369637112.
+summary: Basal pygostylian from the Aptian Jiufotang Formation near Chaoyang, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chongmingia zhengi
+  authority: Wang et al. 2016
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: The only specimen, from the Jehol Biota beds of the Jiufotang Formation (number in Wang et al. 2016).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Chongmingia holotype.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/7/76/Chongmingia_holotype.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chongmingia_holotype.webp
+  artist: Wang, Wang, Wang & Zhou, 2016
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-01-25'
+  caption: Chongmingia holotype (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1575
+  height: 1262
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f/vector.svg
+  png: https://images.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f/raster/512x386.png
+  page: https://www.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f
+  attribution: JingwenSun
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Jinguofortis perplexus
+  matched: Jinguofortisidae
+  genus_level: false
+sources:
+- kind: original
+  text: Min Wang 2016. A new basal bird from China with implications for morphological diversity in early birds.
+    Scientific Reports 6. doi:10.1038/srep19700
+- kind: literature
+  text: 'Li, Zhiheng; Wang, Min; Stidham, Thomas A.; Zhou, Zhonghe 2023. Decoupling the skull and skeleton in a
+    Cretaceous bird with unique appendicular morphologies. Nature Ecology & Evolution 7(1): 20–31. doi:10.1038/s41559-022-01921-w'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chongmingia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chongmingia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chongmingia”. English Wikipedia, revision 1369637112.
+  url: https://en.wikipedia.org/w/index.php?title=Chongmingia&oldid=1369637112
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

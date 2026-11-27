@@ -1,0 +1,60 @@
+name: Abitusavis
+rank: genus
+parent: songlingornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2020
+type_species: Abitusavis lii
+type_species_note: The only valid species listed by PBDB.
+summary: Ornithuromorph from the Yixian Formation of China known from a nearly complete skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Abitusavis lii
+  authority: Wang et al. 2020
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A nearly complete skeleton (number in Wang et al. 2020).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'Min Wang 2020. Two new Early Cretaceous ornithuromorph birds provide insights into the taxonomy and divergence
+    of Yanornithidae (Aves: Ornithothoraces). Journal of Systematic Palaeontology 18(21): 1805–1827. doi:10.1080/14772019.2020.1836050'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Abitusavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Abitusavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Abitusavis”. English Wikipedia, revision 1387081998.
+  url: https://en.wikipedia.org/w/index.php?title=Abitusavis&oldid=1387081998
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

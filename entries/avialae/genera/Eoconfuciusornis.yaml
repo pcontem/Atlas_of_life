@@ -1,0 +1,86 @@
+name: Eoconfuciusornis
+rank: genus
+parent: confuciusornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhang et al. 2008
+type_species: Eoconfuciusornis zhengi
+type_species_note: The only valid species listed by PBDB.
+summary: Oldest known beaked bird, a small confuciusornithid from about 131 million years ago in Hebei, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 121.4
+  early_interval: Hauterivian
+  late_interval: Barremian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eoconfuciusornis zhengi
+  authority: Zhang et al. 2008
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: original description
+formations:
+- formation: Dabeigou
+  group: ''
+  members: []
+  country: China
+  regions: [Hebei]
+  interval: Hauterivian–Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: dabeigou-china
+fossil_material:
+  holotype: IVPP V11977, a compressed, fairly complete skeleton with most of its feathering, from near Sichakou,
+    Fengning, Hebei.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: Feathers.
+biology: Smaller than Confuciusornis but very similar, with a pointed toothless beak.
+images:
+- kind: life
+  file: Restoration of the Eoconfuciusornis pair.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Restoration_of_the_Eoconfuciusornis_pair.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Restoration_of_the_Eoconfuciusornis_pair.jpg
+  artist: Michael Rothman
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-02-24'
+  caption: Restoration of the Eoconfuciusornis pair (Wikimedia Commons; kind assigned from the file name, not yet
+    checked on the triage page).
+  width: 1150
+  height: 1775
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6e92082e-c2b5-443d-b368-9191b26c6c13/vector.svg
+  png: https://images.phylopic.org/images/6e92082e-c2b5-443d-b368-9191b26c6c13/raster/512x177.png
+  page: https://www.phylopic.org/images/6e92082e-c2b5-443d-b368-9191b26c6c13
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Changchengornis hengdaoziensis
+  matched: Confuciusornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Zhang, Z.; Zhou, Z.; Benton, M.J. 2008. A primitive confuciusornithid bird from China and its implications
+    for early avian flight. Science in China Series D: Earth Sciences 51(5): 625–639. doi:10.1007/s11430-008-0050-3'
+- kind: literature
+  text: 'Xiaoting Zheng 2017. Exceptional preservation of soft tissue in a new specimen of ''''Eoconfuciusornis''''
+    and its biological implications. National Science Review 4(3): 441–452. doi:10.1093/nsr/nwx004'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoconfuciusornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoconfuciusornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eoconfuciusornis”. English Wikipedia, revision 1387575664.
+  url: https://en.wikipedia.org/w/index.php?title=Eoconfuciusornis&oldid=1387575664
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

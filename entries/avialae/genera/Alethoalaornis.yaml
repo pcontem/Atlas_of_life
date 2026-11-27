@@ -1,0 +1,57 @@
+name: Alethoalaornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Li et al. 2007
+type_species: Alethoalaornis agitornis
+type_species_note: The only valid species listed by PBDB.
+summary: Aptian enantiornithean from the Jiufotang Formation of China, type of Alethoalaornithidae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Alethoalaornis agitornis
+  authority: Li et al. 2007
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: Not given in the sources used (see Li et al. 2007).
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'L. Li, D.-y. Hu, and Y. Duan, E.=p. Gong, L.-h. Hou. 2007. Alethoalaornithidae fam. nov.: a new family
+    of enantiornithine bird from the Lower Cretaceous of western Liaoning. Acta Palaeontologica Sinica 46(3):365-372'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alethoalaornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alethoalaornis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: ['No Wikipedia page harvested: complete from Li et al. 2007.']
+  reviews: []

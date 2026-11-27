@@ -1,0 +1,72 @@
+name: Zhongjianornis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: Zhou et al. 2010
+type_species: Zhongjianornis yangi
+type_species_note: The only valid species listed by PBDB.
+summary: Toothless, beaked, pigeon-sized bird from the Jiufotang Formation at Jianchang, Liaoning.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhongjianornis yangi
+  authority: Zhou et al. 2010
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: The only fossil, from Jianchang (number in Zhou et al. 2010).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Completely toothless with a beak.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Longicrusavis houi
+  matched: Ornithuromorpha
+  genus_level: false
+sources:
+- kind: original
+  text: 'Zhou, Z.; Zhang, F.; Li, Z. 2010. A new Lower Cretaceous bird from China and tooth reduction in early avian
+    evolution. Proceedings of the Royal Society B 277(1679): 219–227. doi:10.1098/rspb.2009.0885'
+- kind: literature
+  text: 'O''Connor, J.K.; Zhou, Z. 2012. A redescription of ''''Chaoyangia beishanensis'''' (Aves) and a comprehensive
+    phylogeny of Mesozoic birds. Journal of Systematic Palaeontology 11(7): 889–906. doi:10.1080/14772019.2012.690455'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhongjianornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhongjianornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhongjianornis”. English Wikipedia, revision 1387576470.
+  url: https://en.wikipedia.org/w/index.php?title=Zhongjianornis&oldid=1387576470
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

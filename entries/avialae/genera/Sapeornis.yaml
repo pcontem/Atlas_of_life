@@ -1,0 +1,142 @@
+name: Sapeornis
+rank: genus
+parent: omnivoropterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhou and Zhang 2002
+type_species: Sapeornis chaoyangensis
+type_species_note: The only valid species listed by PBDB.
+summary: Large short-tailed early bird from the Early Cretaceous of China with long wings and teeth only at the
+  upper jaw tip.
+size:
+  length_m: [0.3, 0.33]
+  note: About 30–33 cm long without the tail feathers (Wikipedia revision cited).
+age:
+  first_ma: 125.77
+  last_ma: 113.2
+  early_interval: Late Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Sapeornis chaoyangensis
+  authority: Zhou and Zhang 2002
+  first_ma: 125.77
+  last_ma: 113.2
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2', '3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 4
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+- formation: Yixian
+  group: Jehol
+  members: [Dakangpu, Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: An incomplete skeleton from the Jiufotang Formation at Shangheshou near Chaoyang, Liaoning, found in
+    2000 (number in Zhou and Zhang 2002).
+  material: Several specimens from the Jiufotang and Yixian formations.
+  completeness: multiple
+  exceptional: Gastroliths in IVPP V12375.
+biology: A handful of teeth in the upper jaw tip and small gastroliths in one specimen; arms about one and a half
+  times the leg length suggest a large wing area, though the shoulder girdle seems poorly suited to flapping.
+images:
+- kind: life
+  file: Sapeornis 41HIII0405 pes.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Sapeornis_41HIII0405_pes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sapeornis_41HIII0405_pes.png
+  artist: Michael Pittman, Phil R. Bell, Case Vincent Miller, Nathan J. Enriquez, Xiaoli Wang, Xiaoting Zheng, Leah
+    R. Tsang, Yuen Ting Tse, Michael Landes & Thomas G. Kaye
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-12-20'
+  caption: Sapeornis 41HIII0405 pes (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 1350
+  height: 908
+  review: unreviewed
+- kind: fossil
+  file: Sapeornis chaoyangensis Holotype IVPP.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/78/Sapeornis_chaoyangensis_Holotype_IVPP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sapeornis_chaoyangensis_Holotype_IVPP.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-08-31'
+  caption: Sapeornis chaoyangensis Holotype IVPP (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 1526
+  height: 1483
+  review: unreviewed
+- kind: fossil
+  file: Sapeornis chaoyangensis NMNS.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Sapeornis_chaoyangensis_NMNS.jpg/960px-Sapeornis_chaoyangensis_NMNS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sapeornis_chaoyangensis_NMNS.jpg
+  artist: Tiouraren (Y.-C. Tsai)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-28'
+  caption: Sapeornis chaoyangensis NMNS (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 1620
+  height: 1080
+  review: unreviewed
+- kind: fossil
+  file: Sapeornis chaoyangensis.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/7/79/Sapeornis_chaoyangensis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sapeornis_chaoyangensis.JPG
+  artist: Laikayiu
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: ''
+  caption: Sapeornis chaoyangensis (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 1161
+  height: 880
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/470c08ae-7a6b-4666-a7c1-95fb7c4de428/vector.svg
+  png: https://images.phylopic.org/images/470c08ae-7a6b-4666-a7c1-95fb7c4de428/raster/512x348.png
+  page: https://www.phylopic.org/images/470c08ae-7a6b-4666-a7c1-95fb7c4de428
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Sapeornis chaoyangensis
+  matched: Sapeornis
+  genus_level: true
+sources:
+- kind: original
+  text: 'Zhou, Z.; Zhang, F. 2002. Largest Bird from the Early Cretaceous and Its Implications for the Earliest
+    Avian Ecological Diversification. Naturwissenschaften 89(1): 34–38. doi:10.1007/s00114-001-0276-9'
+- kind: literature
+  text: 'Hu, D. 2010. A new sapeornithid bird from China and its implication for early avian evolution. Acta Geologica
+    Sinica 84(3): 472–482. doi:10.1111/j.1755-6724.2010.00188.x'
+- kind: literature
+  text: 'Zhou, Zhonghe; Zhang, Fucheng 2006. A beaked basal ornithurine bird (Aves, Ornithurae) from the Lower Cretaceous
+    of China. [[Zoologica Scripta 35(4): 363–373. doi:10.1111/j.1463-6409.2006.00234.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sapeornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sapeornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sapeornis”. English Wikipedia, revision 1380747177.
+  url: https://en.wikipedia.org/w/index.php?title=Sapeornis&oldid=1380747177
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Holotype number to add from Zhou and Zhang 2002.
+  - PBDB lists S. angustis; the Wikipedia revision treats the genus as monotypic.
+  reviews: []
