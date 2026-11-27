@@ -36,3 +36,8 @@ theropoda2:
   pbdb: Maniraptora^Aves^Avialae,Alvarezsauroidea,Therizinosauria
   wikipedia: { categories: [Maniraptora, Alvarezsauridae, Alvarezsauroidea, Therizinosauria, Oviraptorosauria, Oviraptoridae, Caenagnathidae, Paraves, Scansoriopterygidae, Anchiornithidae, Dromaeosauridae, Unenlagiidae, Microraptoria, Troodontidae], depth: 3, probe: [Velociraptor, Oviraptor, Therizinosaurus, Shuvuuia, Troodon, Microraptor, Anchiornis, Yi (dinosaur)] }
   literature: [maniraptoran, alvarezsaurid, therizinosaur, oviraptorosaur, oviraptorid, caenagnathid, paravian, dromaeosaurid, troodontid, unenlagiid, microraptorine, scansoriopterygid]
+avialae:
+  # Mesozoic Avialae (volume plan of 2026-11-25, third volume): birds and their stem outside the crown. PBDB keeps most birds under Aves, outside its Avialae, so both are taken and the crown (Neornithes) is removed; Mesozoic crown birds (Vegavis, Asteriornis…) come from the Wikipedia categories and are a scope question for the owner.
+  pbdb: Avialae,Aves^Neornithes
+  wikipedia: { categories: [Avialae, Archaeopterygidae, Jeholornithiformes, Confuciusornithiformes, Sapeornithiformes, Enantiornithes, Ornithuromorpha, Ornithurae, Hesperornithes, Ichthyornithes, Songlingornithidae, Hongshanornithidae, Cretaceous birds, Jurassic birds], depth: 3, probe: [Archaeopteryx, Jeholornis, Confuciusornis, Sapeornis, Longipteryx, Hesperornis, Ichthyornis, Vegavis] }
+  literature: [avialan, enantiornithine, ornithuromorph, confuciusornithid, jeholornithid, hesperornithine, Mesozoic bird, Cretaceous bird]
