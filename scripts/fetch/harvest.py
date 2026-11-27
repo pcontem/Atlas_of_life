@@ -147,18 +147,21 @@ def taxobox(wt):
 GENUS_WORDS = re.compile(r"\b(genus|genera)\b", re.I)
 
 
-def wiki(names):
+def wiki(names, titles=None):
+    """titles: {genus: article title to ask for instead of the genus name} (e.g. "Mei (dinosaur)")."""
+    titles = titles or {}
     res = {}
     for i in range(0, len(names), 40):
         chunk = names[i:i + 40]
         r = mw_pages(WIKI, action="query", redirects=1, prop="revisions|pageprops|images", rvprop="ids|timestamp|content",
-               rvslots="main", ppprop="disambiguation", imlimit="max", titles="|".join(chunk))
+               rvslots="main", ppprop="disambiguation", imlimit="max", titles="|".join(titles.get(g, g) for g in chunk))
         q = r.get("query", {})
         norm = {n["from"]: n["to"] for n in q.get("normalized", [])}
         red = {n["from"]: n["to"] for n in q.get("redirects", [])}
         pages = {p["title"]: p for p in q.get("pages", [])}
         for g in chunk:
-            t = norm.get(g, g)
+            t = titles.get(g, g)
+            t = norm.get(t, t)
             t = red.get(t, t)
             p = pages.get(t)
             if not p or p.get("missing") or "revisions" not in p:
@@ -182,6 +185,20 @@ def wiki(names):
         w["about_genus"] = bool(re.search(rf"\b{re.escape(g)}\b[^.]{{0,120}}\b(is|was)\b[^.]{{0,80}}{GENUS_WORDS.pattern}",
                                           w["text"][:1500]))
     return res
+
+
+def wiki_retry(wk):
+    """Genera whose page is missing, a disambiguation page or not about the genus (Mei, Yi, Anzu…): ask again for
+    "<Genus> (dinosaur)" and keep the answer only when that page is about the genus."""
+    bad = [g for g, w in wk.items() if w.get("missing") or w.get("disambiguation") or not w.get("about_genus")]
+    if not bad:
+        return []
+    new = wiki(bad, {g: f"{g} (dinosaur)" for g in bad})
+    fixed = [g for g, w in new.items() if not w.get("missing") and not w.get("disambiguation") and w.get("about_genus")]
+    for g in fixed:
+        wk[g] = new[g]
+    print(f"  wikipedia retry: {len(fixed)} of {len(bad)} pages found as '<Genus> (dinosaur)'")
+    return fixed
 
 
 # ---------- Commons ----------
@@ -484,6 +501,13 @@ def main():
             oa_sheets(new, sheet_dir)
         print(f"done: {sum(len(v) for v in new.values())} figures for {len(new)} genera")
         return
+    if "--wiki-retry" in a:  # second try for wrong Wikipedia pages, on data already harvested
+        wf = raw / "wiki.json"
+        wk = json.loads(wf.read_text())
+        fixed = wiki_retry(wk["pages"])
+        wk["retried"] = dict(downloaded=TODAY, genera=fixed)
+        w("wiki.json", wk)
+        return
     if "--sheets-only" in a:  # contact sheets from data already harvested
         files = json.loads((raw / "commons.json").read_text())["files"]
         names = only or sorted(r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"])
@@ -504,6 +528,7 @@ def main():
     w("pbdb_colls.json", cols)
     print(f"Wikipedia ({len(names)} genera)…")
     wk = wiki(names)
+    wiki_retry(wk)
     w("wiki.json", dict(downloaded=TODAY, pages=wk))
     print("Commons…", flush=True)
     living = {r["taxon_name"] for r in gen if r.get("is_extant") in ("extant", True, 1, "1")}
