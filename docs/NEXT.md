@@ -1,3 +1,25 @@
+# Next steps — Avialae (Mesozoic birds outside the crown)
+
+Done (2026-11-27): census (2 runs, group `avialae`); scope decided (one volume, no crown birds, no form taxa); harvest of the 215
+Mesozoic genera with papers, contact sheets and the Wikipedia-only genera (`wiki_group: avialae`); clade sources for 33 candidate
+clades (`data/raw/tree/clade_sources_2026-11-27_avialae.json`); volume skeleton (`_volume.yaml`, root clade Avialae,
+Archaeopterygidae).
+
+To do, in order:
+- Clade structure from recent cladograms (Wikipedia revisions in the clade sources; Benito et al. 2026 review of avian systematics)
+  checked against PBDB: Jeholornithiformes, Omnivoropterygidae, Pygostylia, Confuciusornithidae, Ornithothoraces, Enantiornithes
+  and its families, Ornithuromorpha, Hongshanornithidae, Songlingornithidae, Gansuidae, Ornithurae, Hesperornithes,
+  Ichthyornithes… (M6: only clades needed to place genera); changes in `docs/TREE_REVIEW.md`. Decide where the backbone node
+  Aves (crown) hangs (inside Ornithurae in the literature).
+- Synonyms and doubtful names to `excluded.yaml` before writing: PBDB lists as valid Archaeornis, Jurapteryx, Griphosaurus
+  (Archaeopteryx), Shenzhouraptor (Jeholornis), Camptodontus/Camptodontornis, Hargeria, Lestornis and others without a
+  Wikipedia page; Wikipedia-only Archaeoraptor (composite forgery), Liaoxiornis, Gallornis, Cretaaviculus.
+- Wikipedia-only genera: drop the crown birds (Vegavis, Asteriornis, Teviornis, Polarornis, Neogaeornis…), check ages of the
+  others (Beiguornis, Bellulornis, Brevidentavis, Gorgonavis, Magnusavis, Meemannavis, Novavis, Pujatopouli, Tenuicruris,
+  Yuezhuornis, Maaqwi, Torotix, Lonchodytes, Tytthostonyx).
+- Qianshanornis and Qinornis (PBDB first appearance exactly 66 Ma, Paleocene) are outside the volume.
+- Write the genera with the atlas-entries procedure; images through the triage page.
+
 # Next steps — Theropoda II
 
 Done (2026-11-27): census (3 runs, base `Maniraptora^Aves^Avialae,Alvarezsauroidea,Therizinosauria`); harvest with scientific
