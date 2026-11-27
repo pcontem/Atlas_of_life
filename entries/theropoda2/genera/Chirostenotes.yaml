@@ -1,0 +1,129 @@
+name: Chirostenotes
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Gilmore 1924
+type_species: Chirostenotes pergracilis
+type_species_note: Taxobox of Wikipedia revision 1324193041.
+summary: Caenagnathid from the Campanian of Alberta named from a pair of narrow hands.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 28
+  note: ''
+species:
+- name: Chirostenotes pergracilis
+  authority: Gilmore 1924
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: [Upper]
+  country: United States
+  regions: [Montana, South Dakota]
+  interval: Lancian
+  occurrences: 14
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 8
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Late Campanian
+  occurrences: 3
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Judith River
+  group: Montana
+  members: [McClelland Ferry]
+  country: United States
+  regions: [Montana]
+  interval: Middle Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: judith-river-united-states
+- formation: Wapiti
+  group: ''
+  members: [Unit 3]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wapiti-canada
+fossil_material:
+  holotype: CMN 2367, a pair of hands, Alberta, Canada (Gilmore 1924).
+  material: The holotype and other specimens; jaws once referred to it (CMN 343) are the holotype of Richardoestesia.
+  completeness: multiple
+  exceptional: ''
+biology: A toothless oviraptorosaur with long, narrow hands.
+images:
+- kind: skeletal
+  file: Chirostenotes skeletal.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Chirostenotes_skeletal.jpg/960px-Chirostenotes_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chirostenotes_skeletal.jpg
+  artist: Gregory Funston
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Skeletal reconstruction
+  width: 2083
+  height: 1944
+  review: unreviewed
+- kind: life
+  file: Chirostenotes pergracilis hand.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Chirostenotes_pergracilis_hand.jpg/960px-Chirostenotes_pergracilis_hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Chirostenotes_pergracilis_hand.jpg
+  artist: Gregory Funston
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020'
+  caption: Restoration of the hand
+  width: 3940
+  height: 2762
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad33f2be-5d0d-4ab2-bf29-286218a5ceb2/vector.svg
+  png: https://images.phylopic.org/images/ad33f2be-5d0d-4ab2-bf29-286218a5ceb2/raster/512x301.png
+  page: https://www.phylopic.org/images/ad33f2be-5d0d-4ab2-bf29-286218a5ceb2
+  attribution: Jaime Headden
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Chirostenotes pergracilis
+  matched: Chirostenotes
+  genus_level: true
+sources:
+- kind: original
+  text: C. W. Gilmore. 1924. A new coelurid dinosaur from the Belly River Cretaceous of Alberta. Canada Department
+    of Mines Geological Survey Bulletin (Geological Series) 38(43):1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chirostenotes (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chirostenotes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chirostenotes”. English Wikipedia, revision 1324193041.
+  url: https://en.wikipedia.org/w/index.php?title=Chirostenotes&oldid=1324193041
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

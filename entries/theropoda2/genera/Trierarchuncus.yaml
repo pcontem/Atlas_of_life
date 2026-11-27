@@ -1,0 +1,100 @@
+name: Trierarchuncus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Fowler et al. 2020
+type_species: Trierarchuncus prairiensis
+type_species_note: The only valid species listed by PBDB.
+summary: The youngest known alvarezsaurid, from the end-Maastrichtian Hell Creek Formation of Montana.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Trierarchuncus prairiensis
+  authority: Fowler et al. 2020
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Late Maastrichtian
+  occurrences: 6
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+fossil_material:
+  holotype: Manual unguals and other bones from the Hell Creek Formation, Montana (Fowler et al. 2020).
+  material: Several specimens from the Hell Creek Formation, and possible specimens from the Lance Formation of
+    Wyoming.
+  completeness: fragmentary
+  exceptional: ''
+biology: Had short arms with one clawed digit and long legs; unguals of different maturity show that the claw changed
+  shape with growth.
+images:
+- kind: fossil
+  file: BDM 001 manual ungual D-I Trierarchuncus prairiensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/BDM_001_manual_ungual_D-I_Trierarchuncus_prairiensis.jpg/960px-BDM_001_manual_ungual_D-I_Trierarchuncus_prairiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:BDM_001_manual_ungual_D-I_Trierarchuncus_prairiensis.jpg
+  artist: Df9465
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-12-04'
+  caption: Manual ungual BDM 001
+  width: 4300
+  height: 5502
+  review: unreviewed
+- kind: life
+  file: Trierarchuncus prairiensis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/83/Trierarchuncus_prairiensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Trierarchuncus_prairiensis.png
+  artist: YellowPanda2001
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-07-13'
+  caption: Life restoration
+  width: 1211
+  height: 681
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'D. W. Fowler, J. P. Wilson, and E. A. Freedman Fowler, C. R. Noto, D. Anduza, J. R. Horner. 2020. Trierarchuncus
+    prairiensis gen. et sp. nov., the last alvarezsaurid: Hell Creek Formation (uppermost Maastrichtian), Montana.
+    Cretaceous Research 116:104560'
+- kind: literature
+  text: Freimuth, William J.; Wilson, John P. 2021. New manual unguals of ''Trierarchuncus prairiensis'' from the
+    Hell Creek Formation, Montana, and the ontogenetic development of the functional alvarezsaurid hand claw. Cretaceous
+    Research 119. doi:10.1016/j.cretres.2020.104698
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Trierarchuncus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Trierarchuncus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Trierarchuncus”. English Wikipedia, revision 1383605661.
+  url: https://en.wikipedia.org/w/index.php?title=Trierarchuncus&oldid=1383605661
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

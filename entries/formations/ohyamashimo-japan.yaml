@@ -3,18 +3,18 @@ name: Ohyamashimo
 rank: formation
 group: Sasayama
 country: Japan
-regions: [Hyogo]
+regions: [Hyogo, Hyōgo]
 location:
-  lat: 35.087
-  lng: 135.142
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  lat: 35.082
+  lng: 135.16
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 113.2
-  last_ma: 110.1
+  last_ma: 106.3
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., '"floodplain"']
-lithology: [siltstone, mudstone]
-pbdb_collections: ['117980', '141507']
+environment: [fluvial indet., '"floodplain"', terrestrial indet.]
+lithology: [sandstone, mudstone, siltstone]
+pbdb_collections: ['117980', '141507', '235979']
 includes: []
 summary: ''
 paleoenvironment: ''

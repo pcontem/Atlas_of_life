@@ -1,0 +1,93 @@
+name: Eoneophron
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Atkins-Weltman et al. 2024
+type_species: Eoneophron infernalis
+type_species_note: The only valid species listed by PBDB.
+summary: Caenagnathid from the end-Cretaceous Hell Creek Formation of South Dakota, known from a partial hind limb.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eoneophron infernalis
+  authority: Atkins-Weltman et al. 2024
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+fossil_material:
+  holotype: CM 96523, a partial hind limb, Hell Creek Formation, Meade County, South Dakota.
+  material: Only the holotype, first thought to be a juvenile Anzu.
+  completeness: fragmentary
+  exceptional: ''
+biology: Growth lines show the animal was in its sixth year when it died.
+images:
+- kind: fossil
+  file: Eoneophron TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Eoneophron_TD.png/960px-Eoneophron_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eoneophron_TD.png
+  artist: UnexpectedDinoLesson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-02-29'
+  caption: Holotype
+  width: 1800
+  height: 1400
+  review: unreviewed
+- kind: skeletal
+  file: Eoneophron infernalis Skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Eoneophron_infernalis_Skeletal.png/960px-Eoneophron_infernalis_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eoneophron_infernalis_Skeletal.png
+  artist: Sauriazoicillus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-01-26'
+  caption: Skeletal reconstruction
+  width: 7412
+  height: 5572
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/vector.svg
+  png: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/raster/512x259.png
+  page: https://www.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Microvenator celer
+  matched: Caenagnathidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'K. A. Atkins-Weltman, D. J. Simon, and H. N. Woodward, G. F. Funston, E. Snively . 2024. A new oviraptorosaur
+    (Dinosauria: Theropoda) from the end-Maastrichtian Hell Creek Formation of North America. PLoS ONE 19:e0294901:1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoneophron (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoneophron
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eoneophron”. English Wikipedia, revision 1379670834.
+  url: https://en.wikipedia.org/w/index.php?title=Eoneophron&oldid=1379670834
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

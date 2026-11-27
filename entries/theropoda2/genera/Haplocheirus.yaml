@@ -1,0 +1,102 @@
+name: Haplocheirus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: true
+placement_note: Generally recovered as the earliest alvarezsaurian (Choiniere et al. 2010; Xu et al. 2018), but
+  some researchers question the assignment (Wikipedia revision cited).
+authority: Choiniere et al. 2010
+type_species: Haplocheirus sollers
+type_species_note: Taxobox of Wikipedia revision 1369639587.
+summary: Jurassic coelurosaur from Xinjiang known from a near-perfect skeleton, usually treated as the oldest alvarezsaurian.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Haplocheirus sollers
+  authority: Choiniere et al. 2010
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Shishugou
+  group: ''
+  members: [Middle]
+  country: China
+  regions: [Xinjiang]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: shishugou-china
+fossil_material:
+  holotype: IVPP V15988, a mostly complete three-dimensional skeleton with skull, Shishugou Formation, Xinjiang,
+    China.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its well-preserved skull has been used to study the senses, diet and growth of early coelurosaurs; its
+  hands still had three long fingers.
+images:
+- kind: fossil
+  file: Haplocheirus Skull (cropped).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Haplocheirus_Skull_%28cropped%29.jpg/960px-Haplocheirus_Skull_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Haplocheirus_Skull_(cropped).jpg
+  artist: ★Kumiko★ from Tokyo, Japan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2011-09-24'
+  caption: Skull of the holotype
+  width: 1647
+  height: 1091
+  review: unreviewed
+- kind: skeletal
+  file: Haplocherius sollers TIV 400.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Haplocherius_sollers_TIV_400.JPG/960px-Haplocherius_sollers_TIV_400.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Haplocherius_sollers_TIV_400.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Skeletal reconstruction
+  width: 1682
+  height: 1119
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/vector.svg
+  png: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/raster/512x269.png
+  page: https://www.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908
+  attribution: Tomopteryx
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Bannykus wulatensis
+  matched: Haplocheirus
+  genus_level: true
+sources:
+- kind: original
+  text: J. N. Choiniere, X. Xu, and J. M. Clark, C. A. Forster, Y. Guo, F. Han. 2010. A basal alvarezsauroid theropod
+    from the early Late Jurassic of Xinjiang, China. Science 327(5965):571-574
+- kind: literature
+  text: 'Choiniere, J. N. 2010. A basal alvarezsauroid theropod from the Early Late Jurassic of Xinjiang, China.
+    Science 327(5965): 571–574. doi:10.1126/science.1182143'
+- kind: literature
+  text: 'Choiniere, Jonah N.; Clark, James M.; Norell, Mark A.; Xu, Xing 2014. Cranial Osteology of ''''Haplocheirus
+    sollers'''' Choiniere et al., 2010 (Theropoda: Alvarezsauroidea). American Museum Novitates(3816): 1–44. doi:10.1206/3816.1'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Haplocheirus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Haplocheirus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Haplocheirus”. English Wikipedia, revision 1369639587.
+  url: https://en.wikipedia.org/w/index.php?title=Haplocheirus&oldid=1369639587
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

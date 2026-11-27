@@ -3,11 +3,11 @@ name: Baynshire
 rank: formation
 group: ''
 country: Mongolia
-regions: [Dornogov, Omnogov]
+regions: [Dornogov, Omnogov, Ömnögovi]
 location:
-  lat: 43.564
-  lng: 107.762
-  basis: median of 19 PBDB collections that yielded the atlas genera
+  lat: 43.588
+  lng: 107.746
+  basis: median of 26 PBDB collections that yielded the atlas genera
 age:
   first_ma: 100.5
   last_ma: 83.6
@@ -16,28 +16,36 @@ environment:
 - terrestrial indet.
 - fluvial indet.
 - fine channel fill
-- '"floodplain"'
 - eolian indet.
-lithology: [sandstone, not reported, siltstone, claystone]
+- '"channel"'
+- '"floodplain"'
+lithology: [sandstone, not reported, conglomerate, claystone]
 pbdb_collections:
 - '13411'
 - '51975'
 - '53230'
 - '55254'
 - '55389'
+- '55758'
 - '59287'
+- '67974'
 - '79702'
 - '79724'
 - '108340'
+- '118167'
 - '123405'
 - '127664'
 - '127666'
 - '130804'
+- '137857'
 - '137858'
 - '137859'
+- '149977'
 - '168800'
 - '168807'
 - '169246'
+- '224602'
+- '239804'
 - '277795'
 includes: []
 summary: ''

@@ -1,0 +1,93 @@
+name: Linhevenator
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2011
+type_species: Linhevenator tani
+type_species_note: The only valid species listed by PBDB.
+summary: Short-armed troodontid from the Campanian Bayan Mandahu Formation of Inner Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Linhevenator tani
+  authority: Xu et al. 2011
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Wulansuhai
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wulansuhai-china
+fossil_material:
+  holotype: LH V0021, a partial skeleton with skull, Bayan Mandahu Formation, Inner Mongolia, China.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Distinguished by a jugal with a lateral flange and a groove along the third metatarsal.
+images:
+- kind: life
+  file: Linhevenator Reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Linhevenator_Reconstruction.png/960px-Linhevenator_Reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Linhevenator_Reconstruction.png
+  artist: BipedalSarcopterygian201.3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-23'
+  caption: Life restoration
+  width: 4800
+  height: 2000
+  review: unreviewed
+- kind: fossil
+  file: Linhevenator LH V0021 skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Linhevenator_LH_V0021_skull.png/960px-Linhevenator_LH_V0021_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Linhevenator_LH_V0021_skull.png
+  artist: Xing Xu, Qingwei Tan, Corwin Sullivan, Fenglu Han & Dong Xiao
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2011-09-07'
+  caption: Skull
+  width: 1818
+  height: 2522
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/vector.svg
+  png: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/raster/512x238.png
+  page: https://www.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Troodon junior
+  matched: Linhevenator
+  genus_level: true
+sources:
+- kind: original
+  text: X. Xu, Q.-W. Tan, and C. Sullivan, F.-L. Han, D. Xiao. 2011. A short-armed troodontid dinosaur from the
+    Upper Cretaceous of Inner Mongolia and Its implications for troodontid evolution. PLoS One 6(9):e22916:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Linhevenator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Linhevenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Linhevenator”. English Wikipedia, revision 1387577510.
+  url: https://en.wikipedia.org/w/index.php?title=Linhevenator&oldid=1387577510
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

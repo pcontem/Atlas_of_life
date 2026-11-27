@@ -1,0 +1,113 @@
+name: Incisivosaurus
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2002
+type_species: Incisivosaurus gauthieri
+type_species_note: The only valid species listed by PBDB.
+summary: Small early oviraptorosaur from the Yixian Formation of China with enlarged, rodent-like front teeth.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 100.5
+  early_interval: Barremian
+  late_interval: Albian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Incisivosaurus gauthieri
+  authority: (Xu et al. 2002)
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Fuxin
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian–Albian
+  occurrences: 2
+  ma: [100.5, 121.4]
+  id: fuxin-china
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+- formation: Shahai
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: shahai-china
+fossil_material:
+  holotype: IVPP V13326, a skull about 10 cm long from the lowermost (Lujiatun) beds of the Yixian Formation, Liaoning,
+    China.
+  material: The holotype skull and later specimens.
+  completeness: partial
+  exceptional: ''
+biology: Its skull preserves the most complete dentition of any oviraptorosaur, with buck-tooth-like front teeth
+  suggesting a plant-based diet.
+images:
+- kind: life
+  file: Incisivosaurus gauthieri head.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/39/Incisivosaurus_gauthieri_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Incisivosaurus_gauthieri_head.jpg
+  artist: Jaime A. Headden
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2013-10-05'
+  caption: Restoration of the head
+  width: 1024
+  height: 564
+  review: unreviewed
+- kind: fossil
+  file: Incisivosaurus gauthieri.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/43/Incisivosaurus_gauthieri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Incisivosaurus_gauthieri.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012'
+  caption: Fossil skull
+  width: 487
+  height: 464
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/vector.svg
+  png: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/raster/512x352.png
+  page: https://www.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Similicaudipteryx yixianensis
+  matched: Oviraptorosauria
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu, Y.-N. Cheng, and X.-L. Wang, C.-H. Chang. 2002. An unusual oviraptorosaurian dinosaur from China.
+    Nature 419:291-293
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Incisivosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Incisivosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Incisivosaurus”. English Wikipedia, revision 1368881818.
+  url: https://en.wikipedia.org/w/index.php?title=Incisivosaurus&oldid=1368881818
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

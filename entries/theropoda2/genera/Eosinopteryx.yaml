@@ -1,0 +1,69 @@
+name: Eosinopteryx
+rank: genus
+parent: anchiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Godefroit et al. 2013
+type_species: Eosinopteryx brevipenna
+type_species_note: Taxobox of Wikipedia revision 1368840327.
+summary: Small anchiornithid from the Late Jurassic Tiaojishan Formation of China with reduced plumage.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 152.21
+  early_interval: Bathonian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eosinopteryx brevipenna
+  authority: Godefroit et al. 2013
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: original description
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 168.2]
+  id: tiaojishan-china
+fossil_material:
+  holotype: YFGP-T5197, a nearly complete skeleton of a subadult or adult, Tiaojishan Formation, Liaoning, China.
+  material: Only the holotype.
+  completeness: complete
+  exceptional: Reduced feathering preserved around the skeleton.
+biology: Some researchers consider it a junior synonym of Anchiornis.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/vector.svg
+  png: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/raster/512x294.png
+  page: https://www.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Jinfengopteryx elegans
+  matched: Paraves
+  genus_level: false
+sources:
+- kind: original
+  text: P. Godefroit, H. Demuynck, and G. Dyke, D. Hu, F. Escuillié, P. Claeys. 2013. Reduced plumage and flight
+    ability of a new Jurassic paravian theropod from China. Nature Communications 4(1394):1-6
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eosinopteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eosinopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eosinopteryx”. English Wikipedia, revision 1368840327.
+  url: https://en.wikipedia.org/w/index.php?title=Eosinopteryx&oldid=1368840327
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Possible junior synonym of Anchiornis.]
+  reviews: []

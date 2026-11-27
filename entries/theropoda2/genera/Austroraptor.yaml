@@ -1,0 +1,93 @@
+name: Austroraptor
+rank: genus
+parent: unenlagiidae
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2008
+type_species: Austroraptor cabazai
+type_species_note: The only valid species listed by PBDB.
+summary: Large unenlagiid from the Campanian–Maastrichtian Allen Formation of Argentina, about 5–6 m long.
+size:
+  length_m: [5, 6]
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Austroraptor cabazai
+  authority: Novas et al. 2008
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Allen
+  group: Malargüe
+  members: [Lower]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian–Early Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: allen-argentina
+fossil_material:
+  holotype: Specimen from the Allen Formation, Río Negro, Argentina (Novas et al. 2008).
+  material: Only the holotype and referred material.
+  completeness: partial
+  exceptional: ''
+biology: A large, moderately built, ground-dwelling bipedal carnivore.
+images:
+- kind: life
+  file: Austroraptor Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Austroraptor_Restoration.png/960px-Austroraptor_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Austroraptor_Restoration.png
+  artist: Fred Wierum
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-10-08'
+  caption: Life restoration
+  width: 5924
+  height: 2459
+  review: unreviewed
+- kind: skeletal
+  file: Austroraptor.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Austroraptor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Austroraptor.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2009'
+  caption: Skeletal reconstruction
+  width: 1000
+  height: 310
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. E. Novas, D. Pol, and J. I. Canale, J. D. Porfiri, J. O. Calvo. 2008. A bizarre Cretaceous theropod dinosaur
+    from Patagonia and the evolution of Gondwanan dromaeosaurids. Proceedings of the Royal Society B
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Austroraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Austroraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Austroraptor”. English Wikipedia, revision 1387327935.
+  url: https://en.wikipedia.org/w/index.php?title=Austroraptor&oldid=1387327935
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

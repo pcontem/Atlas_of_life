@@ -1,0 +1,69 @@
+name: Ganzhousaurus
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2013
+type_species: Ganzhousaurus nankangensis
+type_species_note: Taxobox of Wikipedia revision 1314008641.
+summary: Oviraptorid from the Maastrichtian Nanxiong Formation of Nankang, Jiangxi, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ganzhousaurus nankangensis
+  authority: Wang et al. 2013
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Nanxiong
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nanxiong-group-china
+fossil_material:
+  holotype: Specimen from the Nanxiong Formation, Nankang County, Ganzhou, Jiangxi (Wang et al. 2013).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Distinguished by a combination of primitive and derived features of the jaw.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'S. Wang, C. Sun, and C. Sullivan, X. Xing. 2013. A new oviraptoroid (Dinosauria: Theropoda) from the Upper
+    Cretaceous of southern China. Zootaxa 3640(2):242-257'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ganzhousaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ganzhousaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ganzhousaurus”. English Wikipedia, revision 1314008641.
+  url: https://en.wikipedia.org/w/index.php?title=Ganzhousaurus&oldid=1314008641
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

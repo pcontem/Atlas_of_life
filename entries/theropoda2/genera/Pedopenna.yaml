@@ -1,0 +1,95 @@
+name: Pedopenna
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: Its feet resemble those of troodontids and dromaeosaurids but are more primitive; restorations show
+  it as an anchiornithid, avialan or scansoriopterygid, so its position within Paraves is open.
+authority: Xu and Zhang 2005
+type_species: Pedopenna daohugouensis
+type_species_note: The only valid species listed by PBDB.
+summary: Small feathered maniraptoran from the Jurassic Daohugou Beds of China known from a hind limb with long
+  feathers.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 165.3
+  last_ma: 161.5
+  early_interval: Callovian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pedopenna daohugouensis
+  authority: Xu and Zhang 2005
+  first_ma: 165.3
+  last_ma: 161.5
+  interval: Callovian
+  reference: original description
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Early Callovian
+  occurrences: 1
+  ma: [161.5, 165.3]
+  id: tiaojishan-china
+fossil_material:
+  holotype: Hind-limb remains with feathers, Daohugou Beds, China (Xu and Zhang 2005).
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: Feathers on the foot (the name means 'foot feather').
+biology: Possibly older than Archaeopteryx; the age of the Daohugou Beds is debated.
+images:
+- kind: skeletal
+  file: Pedopenna daohugouensis Skeletal.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/76/Pedopenna_daohugouensis_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pedopenna_daohugouensis_Skeletal.png
+  artist: Sauriazoicillus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-01-13'
+  caption: Skeletal reconstruction
+  width: 1587
+  height: 1878
+  review: unreviewed
+- kind: life
+  file: Pedopenna.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Pedopenna.png/960px-Pedopenna.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pedopenna.png
+  artist: Miracusaurs
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-06-06'
+  caption: Life restoration
+  width: 4000
+  height: 1821
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/vector.svg
+  png: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/raster/512x294.png
+  page: https://www.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Jinfengopteryx elegans
+  matched: Paraves
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu and F. Zhang. 2005. A new maniraptoran dinosaur from China with long feathers on the metatarsus. Naturwissenschaften
+    92:173-177
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pedopenna (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pedopenna
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pedopenna”. English Wikipedia, revision 1380746107.
+  url: https://en.wikipedia.org/w/index.php?title=Pedopenna&oldid=1380746107
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

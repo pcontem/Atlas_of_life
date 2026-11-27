@@ -1,0 +1,119 @@
+name: Balaur
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: Described as a dromaeosaurid (Csiki et al. 2010; Brusatte et al. 2013); Cau et al. (2015) recovered
+  it as a flightless avialan; it may also be a junior synonym of Elopteryx.
+authority: Csiki et al. 2010
+type_species: Balaur bondoc
+type_species_note: The only valid species listed by PBDB.
+summary: Stocky paravian from the Maastrichtian of Hațeg, Romania, of debated position.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Balaur bondoc
+  authority: Csiki et al. 2010
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Densuș-Ciula
+  group: ''
+  members: [Middle]
+  country: Romania
+  regions: [Hunedoara]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: densus-ciula-romania
+- formation: Sebeş
+  group: ''
+  members: []
+  country: Romania
+  regions: [Alba]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: sebes-romania
+fossil_material:
+  holotype: FGGUB R. 1580–1585, found in 1997 by Dan Grigorescu, Hațeg region, Romania.
+  material: The holotype and referred specimens from the Densuș-Ciula and Sebeș formations.
+  completeness: partial
+  exceptional: ''
+biology: Lived on Hațeg Island, a subtropical island of the European archipelago about 70 million years ago.
+images:
+- kind: life
+  file: Balaur bondoc restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Balaur_bondoc_restoration.jpg/960px-Balaur_bondoc_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Balaur_bondoc_restoration.jpg
+  artist: Danny Cicchetti
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2013-09-21'
+  caption: Life restoration
+  width: 2293
+  height: 1181
+  review: unreviewed
+- kind: fossil
+  file: Balaur holotype pes and tibia.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Balaur_holotype_pes_and_tibia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Balaur_holotype_pes_and_tibia.jpg
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-01-08'
+  caption: Holotype foot and tibia
+  width: 662
+  height: 825
+  review: unreviewed
+- kind: skeletal
+  file: Balaur.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Balaur.png/960px-Balaur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Balaur.png
+  artist: Produced by Jaime Headden, used with permission.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015'
+  caption: Skeletal reconstruction
+  width: 8566
+  height: 2771
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e1cf00c8-81b8-41c8-8fd1-c5f215c5bb53/vector.svg
+  png: https://images.phylopic.org/images/e1cf00c8-81b8-41c8-8fd1-c5f215c5bb53/raster/512x229.png
+  page: https://www.phylopic.org/images/e1cf00c8-81b8-41c8-8fd1-c5f215c5bb53
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Balaur bondoc
+  matched: Balaur
+  genus_level: true
+sources:
+- kind: original
+  text: Z. Csiki, M. Vremir, and S. L. Brusatte, M. A. Norell. 2010. An aberrant island-dwelling theropod dinosaur
+    from the Late Cretaceous of Romania. Proceedings of the National Academy of Sciences 107(35):15357-15361
+- kind: literature
+  text: 'Cau A, Brougham T, Naish D 2015. The phylogenetic affinities of the bizarre Late Cretaceous Romanian theropod
+    Balaur bondoc (Dinosauria, Maniraptora): dromaeosaurid or flightless bird?. PeerJ. doi:10.7717/peerj.1032'
+  url: https://doi.org/10.7717/peerj.1032
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Balaur (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Balaur
+- kind: encyclopedia
+  text: Wikipedia contributors. “Balaur bondoc”. English Wikipedia, revision 1385400406.
+  url: https://en.wikipedia.org/w/index.php?title=Balaur_bondoc&oldid=1385400406
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,88 @@
+name: Ostromia
+rank: genus
+parent: anchiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Foth and Rauhut 2017
+type_species: Ostromia crassipes
+type_species_note: Named Pterodactylus crassipes by Meyer (1857) (taxobox of the cited Wikipedia revision); placed
+  in its own genus by Foth and Rauhut (2017).
+summary: Anchiornithid from the Late Jurassic Painten Formation of Germany, formerly the "Haarlem Archaeopteryx".
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 143.1
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: PBDB has no occurrence; the cited Wikipedia revision gives only "Late Jurassic", so the ICS span of that
+    epoch is used.
+species:
+- name: Ostromia crassipes
+  authority: (Meyer 1857)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations: []
+fossil_material:
+  holotype: The Haarlem specimen (Teylers Museum), from the Painten Formation, Bavaria, Germany; a cast is SNSB-BSPG
+    1971 I 211.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Long held to be an Archaeopteryx; its proportions differ and match those of anchiornithids.
+images:
+- kind: fossil
+  file: Ostromia crassipes Teylers 1.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Ostromia_crassipes_Teylers_1.jpg/960px-Ostromia_crassipes_Teylers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ostromia_crassipes_Teylers_1.jpg
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-14'
+  caption: Holotype at Teylers Museum
+  width: 2411
+  height: 2321
+  review: unreviewed
+- kind: skeletal
+  file: Ostromia skeletal.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/35/Ostromia_skeletal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Ostromia_skeletal.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2005'
+  caption: Skeletal reconstruction
+  width: 502
+  height: 396
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/f55638db-7db5-4214-b720-2766e76372fc/vector.svg
+  png: https://images.phylopic.org/images/f55638db-7db5-4214-b720-2766e76372fc/raster/512x277.png
+  page: https://www.phylopic.org/images/f55638db-7db5-4214-b720-2766e76372fc
+  attribution: TotalDino
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Anchiornis huxleyi
+  matched: Anchiornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. Foth and O. W. M. Rauhut. 2017. Re-evaluation of the Haarlem Archaeopteryx and the radiation of maniraptoran
+    theropod dinosaurs. BMC Evolutionary Biology 17:236
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ostromia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ostromia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ostromia”. English Wikipedia, revision 1387596017.
+  url: https://en.wikipedia.org/w/index.php?title=Ostromia&oldid=1387596017
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'No PBDB occurrence: formation (Painten Formation, Germany) to be added with a PBDB collection.'
+  reviews: []

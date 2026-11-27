@@ -1,0 +1,73 @@
+name: Albinykus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Nesbitt et al. 2011
+type_species: Albinykus baatar
+type_species_note: The only valid species listed by PBDB.
+summary: Tiny alvarezsaurid from the Javkhlant Formation of Mongolia, preserved in a crouching, bird-like resting
+  posture.
+size:
+  length_m: null
+  mass_kg: [1, 1]
+  note: Estimated at under 1 kg; no length estimate in the sources used.
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Albinykus baatar
+  authority: Nesbitt et al. 2011
+  first_ma: 85.7
+  last_ma: 72.2
+  interval: Santonian–Campanian
+  reference: original description
+formations:
+- formation: Javkhlant
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Santonian–Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: javkhlant-mongolia
+fossil_material:
+  holotype: IGM 100/3004, pelvis and hind limbs in a sitting position, Javkhlant Formation, eastern Gobi, Mongolia.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: The first alvarezsaur found crouching with the feet tucked under the body, a posture known from oviraptorids
+  and troodontids.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/vector.svg
+  png: https://images.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354/raster/512x224.png
+  page: https://www.phylopic.org/images/61d4ded3-f5cb-46dc-86b9-29c07058f354
+  attribution: Karkemish
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Alvarezsaurus calvoi
+  matched: Alvarezsauridae
+  genus_level: false
+sources:
+- kind: original
+  text: S. J. Nesbitt, J. A. Clarke, and A. H. Turner, M. A. Norell. 2011. A small alvarezsaurid from the Eastern
+    Gobi Desert offers insight into evolutionary patterns in the Alvarezsauroidea. Journal of Vertebrate Paleontology
+    31(1):144-153
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Albinykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Albinykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Albinykus”. English Wikipedia, revision 1305755635.
+  url: https://en.wikipedia.org/w/index.php?title=Albinykus&oldid=1305755635
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

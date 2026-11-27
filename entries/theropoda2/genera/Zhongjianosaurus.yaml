@@ -1,0 +1,81 @@
+name: Zhongjianosaurus
+rank: genus
+parent: microraptoria
+incertae_sedis: false
+placement_note: ''
+authority: Xu and Qin 2017
+type_species: Zhongjianosaurus yangi
+type_species_note: Taxobox of Wikipedia revision 1379970360.
+summary: The smallest known microraptorine, from the middle Jehol Biota of Liaoning, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhongjianosaurus yangi
+  authority: Xu and Qin 2017
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: Specimen believed to be from the Yixian Formation, Liaoning, China (Xu and Qin 2017).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: One of the smallest non-avian theropods; a large opening perforates the deltopectoral crest of its humerus.
+images:
+- kind: life
+  file: Zhongjianosaurus yangi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Zhongjianosaurus_yangi.png/960px-Zhongjianosaurus_yangi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zhongjianosaurus_yangi.png
+  artist: Midiaou Diallo
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2017-04-13'
+  caption: Life restoration
+  width: 1920
+  height: 1080
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu and Z.-C. Qin. 2017. A new tiny dromaeosaurid dinosaur from the Lower Cretaceous Jehol Group of western
+    Liaoning and niche differentiation among the Jehol dromaeosaurids. Vertebrata PalAsiatica 55(2):129-144
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhongjianosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhongjianosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhongjianosaurus”. English Wikipedia, revision 1379970360.
+  url: https://en.wikipedia.org/w/index.php?title=Zhongjianosaurus&oldid=1379970360
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

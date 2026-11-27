@@ -7,7 +7,7 @@ regions: [England]
 location:
   lat: 50.6
   lng: -1.967
-  basis: median of 9 PBDB collections that yielded the atlas genera
+  basis: median of 10 PBDB collections that yielded the atlas genera
 age:
   first_ma: 145.06
   last_ma: 139.1
@@ -15,10 +15,11 @@ age:
 environment:
 - marine indet.
 - terrestrial indet.
-- fluvial-lacustrine indet.
+- wet floodplain
 - lacustrine - small
-lithology: [not reported, '"limestone"', claystone, '"shale"']
-pbdb_collections: ['28401', '45330', '52254', '52299', '52306', '52312', '72142', '123310', '139599']
+- fluvial-lacustrine indet.
+lithology: ['"limestone"', not reported, '"shale"', marl]
+pbdb_collections: ['28401', '28995', '45330', '52254', '52299', '52306', '52312', '72142', '123310', '139599']
 includes: []
 summary: ''
 paleoenvironment: ''

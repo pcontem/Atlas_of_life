@@ -1,0 +1,82 @@
+name: Epichirostenotes
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Sullivan et al. 2011
+type_species: Epichirostenotes curriei
+type_species_note: The only valid species listed by PBDB.
+summary: Caenagnathid from the Maastrichtian Horseshoe Canyon Formation of Alberta, younger than Chirostenotes.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Epichirostenotes curriei
+  authority: Sullivan et al. 2011
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Drumheller]
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: horseshoe-canyon-canada
+fossil_material:
+  holotype: ROM 43250, an incomplete skeleton found in 1923, Horseshoe Canyon Formation, Alberta.
+  material: Only the holotype, earlier assigned to Chirostenotes pergracilis.
+  completeness: partial
+  exceptional: ''
+biology: The inner-ear canals show an incipient division.
+images:
+- kind: skeletal
+  file: Epichirostenotes.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/34/Epichirostenotes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Epichirostenotes.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2012'
+  caption: Skeletal reconstruction
+  width: 996
+  height: 518
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/vector.svg
+  png: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/raster/512x259.png
+  page: https://www.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Microvenator celer
+  matched: Caenagnathidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. M. Sullivan, S. E. Jasinski, and M. P. A. Van Tomme. 2011. A new caenagnathid Ojoraptorsaurus boerei,
+    n. gen., n. sp. (Dinosauria, Oviraptorosauria), from the Upper Cretaceous Ojo Alamo Formation (Naashoibito Member),
+    San Juan Basin, New Mexico. Fossil Record 3. New Mexico Museum of Natural History and Science Bulletin
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Epichirostenotes (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Epichirostenotes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Epichirostenotes”. English Wikipedia, revision 1388161220.
+  url: https://en.wikipedia.org/w/index.php?title=Epichirostenotes&oldid=1388161220
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

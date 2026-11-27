@@ -6,16 +6,28 @@ country: Argentina
 regions: [La Pampa, Neuquén, Río Negro]
 location:
   lat: -39.434
-  lng: -67.389
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  lng: -67.383
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [fluvial indet., terrestrial indet., estuary/bay]
 lithology: [sandstone, not reported]
-pbdb_collections: ['28459', '32339', '32370', '48829', '49557', '52021', '98791', '222575', '231728', '231729',
-  '276032']
+pbdb_collections:
+- '28459'
+- '32339'
+- '32370'
+- '48829'
+- '49557'
+- '52021'
+- '95694'
+- '98791'
+- '141578'
+- '222575'
+- '231728'
+- '231729'
+- '276032'
 includes: []
 summary: ''
 paleoenvironment: ''

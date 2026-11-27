@@ -564,6 +564,10 @@ and the validation result. Genus entries are never changed automatically. **New 
 `data/raw/<volume>/`: PBDB genera, species, invalid names, occurrences and collections; the English Wikipedia
 revision of each genus (text, taxobox, citations); Commons metadata of the article images and of
 `Category:<Genus>`; PhyloPic silhouettes; contact sheets of the image candidates as a workflow artifact.
+With `"papers": true` it also writes `papers.json` (articles naming each genus, from OpenAlex and Europe PMC, with DOI,
+open-access status and a short abstract) and `oa_figures.json`; pages that are not about the genus are asked again as
+"<Genus> (dinosaur)" (`"wiki_retry": true` repeats this on data already harvested). Abstracts are for finding the primary
+literature: entries cite the article, never copy its text.
 One-time setting:
 Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests".
 The Pages workflow runs `scripts/media.py pull` before publishing, unless the images are served from R2.

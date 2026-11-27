@@ -39,7 +39,8 @@ def raw(vol):
     return dict(gen=gen, sp=j("pbdb_species.json")["species"], occ=occ, cols=j("pbdb_colls.json")["cols"],
                 wiki=j("wiki.json")["pages"], wiki_date=j("wiki.json")["downloaded"],
                 commons=j("commons.json")["files"], sil=j("phylopic.json")["silhouettes"],
-                pbdb_date=j("pbdb_genera.json")["downloaded"])
+                pbdb_date=j("pbdb_genera.json")["downloaded"],
+                papers=j("papers.json")["papers"] if (d / "papers.json").exists() else {})
 
 
 def files_of(R, g):
@@ -187,6 +188,11 @@ def brief(R, g):
         cs = [(k, c) for k, c in enumerate(w.get("cites", []), 1) if c.get("doi") or c.get("journal")]
         print(f"  ORIG? {auto_original(R, g)} | CITES:", " | ".join(f"[{k}] {(c.get('last1') or c.get('last') or c.get('author1') or c.get('authors') or '')[:14]} {(c.get('year') or c.get('date') or '')[:4]} {c.get('title', '')[:45]}"
                                      for k, c in cs[:9]))
+    pp = R["papers"].get(g, [])
+    if pp:
+        print("  PAPERS:", " | ".join(f"[p{k}] {x.get('year')} {(x.get('authors') or '')[:16]} {x['title'][:60]}" for k, x in enumerate(pp[:5], 1)))
+        if w.get("missing") or not w.get("about_genus"):
+            print("  ABS p1:", (pp[0].get("abstract") or "")[:700])
     fl = files_of(R, g)
     print("  IMG auto:", " | ".join(f"{k}:{kd}:{fl[k - 1][0][5:40]}" for k, kd in auto_images(R, g)))
     if s:
@@ -292,6 +298,15 @@ def write(R, vol, batch, force=False):
             sources.append(dict(kind="original", text=re.sub(r"<[^>]+>", "", r["primary_reference"])))
         for k in h.get("literature", []):
             sources.append(dict(kind="literature", text=cite_text(cites[k - 1])))
+        pp = R["papers"].get(g, [])
+        for k in ([h["original_paper"]] if h.get("original_paper") else []) + h.get("papers", []):
+            x = pp[k - 1]
+            src = dict(kind="original" if k == h.get("original_paper") else "literature",
+                       text=f"{x.get('authors', '').rstrip('.')} {x.get('year')}. {x['title'].rstrip('.')}. {x.get('journal', '')}."
+                            + (f" doi:{x['doi']}" if x.get("doi") else ""))
+            if x.get("doi"):
+                src["url"] = f"https://doi.org/{x['doi']}"
+            sources.insert(0, src) if src["kind"] == "original" else sources.append(src)
         sources.append(dict(kind="database", text=f"Paleobiology Database — taxon and occurrence records for {g} (downloaded {R['pbdb_date']}).",
                             url=f"https://paleobiodb.org/classic/basicTaxonInfo?taxon_name={g}"))
         if w and not w.get("missing") and h.get("use_wiki", True):
@@ -300,6 +315,13 @@ def write(R, vol, batch, force=False):
         keep = h.get("species")
         sp = species(R, g, keep)
         ts = h.get("type_species") or ""
+        if not ts:  # from the taxobox of the fixed Wikipedia revision, else the only valid PBDB species
+            tb = re.sub(r"\{\{[^}]*\}\}|'|\[|\]", "", (w.get("taxobox") or {}).get("type_species", "")).strip()
+            if w.get("about_genus") and re.fullmatch(rf"{g} [a-z]+", tb) and any(x["name"] == tb for x in sp):
+                ts = tb; h.setdefault("type_species_note", f"Taxobox of Wikipedia revision {w['revid']}.")
+            elif len(sp) == 1:
+                ts = sp[0]["name"]
+                h.setdefault("type_species_note", "The only valid species listed by PBDB.")
         for s in sp:
             if s["name"] == ts or (not ts and len(sp) == 1):
                 s["reference"] = "original description"

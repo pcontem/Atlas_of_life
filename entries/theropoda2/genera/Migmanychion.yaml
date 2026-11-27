@@ -1,0 +1,73 @@
+name: Migmanychion
+rank: genus
+parent: maniraptora
+incertae_sedis: true
+placement_note: Described as a maniraptoran with a mix of hand features (Wang et al. 2023); its position within
+  Maniraptora is not resolved.
+authority: Wang et al. 2023
+type_species: Migmanychion laiyang
+type_species_note: The only valid species listed by PBDB.
+summary: Maniraptoran from the Early Cretaceous Longjiang Formation of Shandong, China, known from an incomplete
+  left forelimb.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 119.57
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Migmanychion laiyang
+  authority: Wang et al. 2023
+  first_ma: 121.4
+  last_ma: 119.57
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Longjiang
+  group: ''
+  members: []
+  country: China
+  regions: [Inner Mongolia]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: longjiang-china
+fossil_material:
+  holotype: LY 2022JZ3001, an incomplete left forelimb, Longjiang Formation, Shandong Laiyang Cretaceous National
+    Geological Park, China.
+  material: Only the holotype; a pelvis and hind limb of similar size from the same site were not referred to it.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its name, "claw mixture", refers to the combination of features in its hand claws.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4391e695-92b0-4e67-be00-4116f8af9fd0/vector.svg
+  png: https://images.phylopic.org/images/4391e695-92b0-4e67-be00-4116f8af9fd0/raster/512x186.png
+  page: https://www.phylopic.org/images/4391e695-92b0-4e67-be00-4116f8af9fd0
+  attribution: Hanyong Pu, Yoshitsugu Kobayashi, Junchang Lü, Li Xu, Yanhua Wu, Huali Chang, Jiming Zhang, Songhai
+    Jia & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Jianchangosaurus yixianensis
+  matched: Maniraptora
+  genus_level: false
+sources:
+- kind: original
+  text: X. Wang, A. Cau, and Z. Wang, K. Yu, W. Wu, Y. Wang, Y. Liu. 2023. A new theropod dinosaur from the Lower
+    Cretaceous Longjiang Formation of Inner Mongolia (China). Cretaceous Research 151:105605
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Migmanychion (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Migmanychion
+- kind: encyclopedia
+  text: Wikipedia contributors. “Migmanychion”. English Wikipedia, revision 1374349630.
+  url: https://en.wikipedia.org/w/index.php?title=Migmanychion&oldid=1374349630
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,95 @@
+name: Serikornis
+rank: genus
+parent: anchiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Lefèvre et al. 2017
+type_species: Serikornis sungei
+type_species_note: The only valid species listed by PBDB.
+summary: Feathered anchiornithid from the Late Jurassic Tiaojishan Formation of Liaoning, nicknamed "Silky" for
+  its hind-limb filaments.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Serikornis sungei
+  authority: Lefèvre et al. 2017
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: tiaojishan-china
+fossil_material:
+  holotype: A complete feathered skeleton from the Tiaojishan Formation, Liaoning, China (Lefèvre et al. 2017).
+  material: Only the holotype.
+  completeness: complete
+  exceptional: Barbule-free remiges on the arms and long feathers on the legs to the toes.
+biology: Its symmetrical, barbule-free arm feathers suggest it could not fly; some researchers think it is a junior
+  synonym of Anchiornis.
+images:
+- kind: life
+  file: Serikornis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/20/Serikornis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Serikornis.jpg
+  artist: Emily Willoughby (e.deinonychus@gmail.com, http://emilywilloughby.com )
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-08-07'
+  caption: Life restoration
+  width: 1600
+  height: 1116
+  review: unreviewed
+- kind: fossil
+  file: Serikornis snout tip.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/99/Serikornis_snout_tip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Serikornis_snout_tip.jpg
+  artist: Federico L. Agnolin, Matias J. Motta, Federico Brissón Egli, Gastón Lo Coco & Fernando E. Novas
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-02-12'
+  caption: Snout tip
+  width: 1285
+  height: 936
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/vector.svg
+  png: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/raster/512x294.png
+  page: https://www.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Jinfengopteryx elegans
+  matched: Paraves
+  genus_level: false
+sources:
+- kind: original
+  text: U. Lefèvre, A. Cau, and A. Cincotta, D.-Y. Hu, A. Chinsamy, F. Escuillié, P. Godefroit. 2017. A new Jurassic
+    theropod from China documents a transitional step in the macrostructure of feathers. The Science of Nature 104:74
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Serikornis (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Serikornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Serikornis”. English Wikipedia, revision 1372049136.
+  url: https://en.wikipedia.org/w/index.php?title=Serikornis&oldid=1372049136
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

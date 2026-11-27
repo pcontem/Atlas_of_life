@@ -1,0 +1,108 @@
+name: Gigantoraptor
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2007
+type_species: Gigantoraptor erlianensis
+type_species_note: The only valid species listed by PBDB.
+summary: The largest known oviraptorosaur, about 8 m long, from the Iren Dabasu Formation of Inner Mongolia.
+size:
+  length_m: [8, 8.6]
+  mass_kg: [1400, 2000]
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gigantoraptor erlianensis
+  authority: Xu et al. 2007
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Iren Dabasu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: iren-dabasu-china
+fossil_material:
+  holotype: The only specimen, a young adult that died at about 11 years of age, Iren Dabasu Formation, Inner Mongolia,
+    China.
+  material: Only the holotype, found in 2005.
+  completeness: partial
+  exceptional: ''
+biology: A ground-dwelling bipedal omnivore or herbivore with a shearing bite; its beak suggests a generalist diet
+  with occasional meat.
+images:
+- kind: life
+  file: Gigantoraptor Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Gigantoraptor_Restoration.png/960px-Gigantoraptor_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gigantoraptor_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-11-18'
+  caption: Life restoration
+  width: 4389
+  height: 2364
+  review: unreviewed
+- kind: skeletal
+  file: Gigantoraptor erlianensis skeletal.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Gigantoraptor_erlianensis_skeletal.png/960px-Gigantoraptor_erlianensis_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gigantoraptor_erlianensis_skeletal.png
+  artist: Ivan Iofrida
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-05-04'
+  caption: Skeletal reconstruction
+  width: 5666
+  height: 3508
+  review: unreviewed
+- kind: fossil
+  file: Gigantoraptor lower jaw (left side).png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Gigantoraptor_lower_jaw_%28left_side%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gigantoraptor_lower_jaw_(left_side).png
+  artist: Waisum Ma, Junyou Wang, Michael Pittman, Qingwei Tan, Lin Tan, Bin Guo & Xing Xu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-11-24'
+  caption: Lower jaw
+  width: 1600
+  height: 1274
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/7495ab90-0a76-49f4-b71e-677d7bb8f7e0/vector.svg
+  png: https://images.phylopic.org/images/7495ab90-0a76-49f4-b71e-677d7bb8f7e0/raster/512x335.png
+  page: https://www.phylopic.org/images/7495ab90-0a76-49f4-b71e-677d7bb8f7e0
+  attribution: Matt Martyniuk (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Gigantoraptor erlianensis
+  matched: Gigantoraptor
+  genus_level: true
+sources:
+- kind: original
+  text: X. Xu, Q. Tan, and J. Wang, X. Zhao, L. Tan. 2007. A gigantic bird-like dinosaur from the Late Cretaceous
+    of China. Nature 447:844-847
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gigantoraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gigantoraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gigantoraptor”. English Wikipedia, revision 1383306888.
+  url: https://en.wikipedia.org/w/index.php?title=Gigantoraptor&oldid=1383306888
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

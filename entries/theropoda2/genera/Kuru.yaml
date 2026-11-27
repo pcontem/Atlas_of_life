@@ -1,0 +1,76 @@
+name: Kuru
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Napoli et al. 2021
+type_species: Kuru kulla
+type_species_note: Taxobox of Wikipedia revision 1376218348.
+summary: Dromaeosaurid from the Barun Goyot Formation of Mongolia known from a fragmentary skeleton with a partial
+  skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kuru kulla
+  authority: Napoli et al. 2021
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: A fragmentary skeleton including a partial skull, Barun Goyot Formation, Khulsan, Mongolia; reported
+    as a new dromaeosaurid in 1992.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Named after the Tibetan Buddhist deity Kurukullā, not after the disease kuru (Napoli et al. 2021).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. G. Napoli, A. A. Ruebenstahl, and B. A. S. Bhullar, A. H. Turner, M. A. Norell. 2021. A New Dromaeosaurid
+    (Dinosauria: Coelurosauria) from Khulsan, Central Mongolia. American Museum Novitates 3982:1-47'
+- kind: literature
+  text: 'James G. Napoli, Alexander A. Ruebenstahl, Bhart-Anjan Singh Bhullar, Alan H. Turner, Mark Allen Norell
+    2021. A New Dromaeosaurid (Dinosauria: Coelurosauria) from Khulsan, Central Mongolia. American Museum Novitates.
+    doi:10.1206/3982.1'
+  url: https://doi.org/10.1206/3982.1
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kuru (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kuru
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kuru kulla”. English Wikipedia, revision 1376218348.
+  url: https://en.wikipedia.org/w/index.php?title=Kuru_kulla&oldid=1376218348
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

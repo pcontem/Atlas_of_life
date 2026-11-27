@@ -1,0 +1,105 @@
+name: Zhenyuanlong
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Lü and Brusatte 2015
+type_species: Zhenyuanlong suni
+type_species_note: The only valid species listed by PBDB.
+summary: Dromaeosaurid from the Yixian Formation of Liaoning known from a single feathered specimen.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhenyuanlong suni
+  authority: Lü and Brusatte 2015
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A single nearly complete specimen, Yixian Formation, Liaoning, China (Lü and Brusatte 2015).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: Feathers preserved on wings and tail.
+biology: Named after Sun Zhenyuan; lived about 125 million years ago.
+images:
+- kind: fossil
+  file: Zhenyuanlong Chaoyang.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Zhenyuanlong_Chaoyang.jpg/960px-Zhenyuanlong_Chaoyang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Zhenyuanlong_Chaoyang.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-01'
+  caption: Holotype
+  width: 5931
+  height: 3637
+  review: unreviewed
+- kind: fossil
+  file: Zhenyuanlong feathers.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Zhenyuanlong_feathers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Zhenyuanlong_feathers.jpg
+  artist: Junchang Lü & Stephen L. Brusatte
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2014-10-01'
+  caption: Feathers
+  width: 946
+  height: 910
+  review: unreviewed
+- kind: life
+  file: Zhenyuanlong life restoration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Zhenyuanlong_life_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Zhenyuanlong_life_restoration.jpg
+  artist: Emily Willoughby
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2015-07-17'
+  caption: Life restoration
+  width: 1200
+  height: 863
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J.-C. Lü and S. L. Brusatte. 2015. A large, short-armed, winged dromaeosaurid (Dinosauria: Theropoda) from
+    the Early Cretaceous of China and its implications for feather evolution. Scientific Reports 5:11775'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhenyuanlong (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhenyuanlong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhenyuanlong”. English Wikipedia, revision 1369645475.
+  url: https://en.wikipedia.org/w/index.php?title=Zhenyuanlong&oldid=1369645475
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

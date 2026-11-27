@@ -1,0 +1,107 @@
+name: Caenagnathus
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Sternberg 1940
+type_species: Caenagnathus collinsi
+type_species_note: The only valid species named together with the genus (Sternberg 1940).
+summary: Caenagnathid from the Campanian Dinosaur Park Formation of Alberta, first thought to be a bird.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Caenagnathus collinsi
+  authority: Sternberg 1940
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+- name: Caenagnathus sternbergi
+  authority: (Cracraft 1971)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Dinosaur Park
+  group: Belly River
+  members: []
+  country: Canada
+  regions: [Alberta]
+  interval: Late Campanian
+  occurrences: 7
+  ma: [72.2, 83.6]
+  id: dinosaur-park-canada
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+fossil_material:
+  holotype: CMN 8776, a set of jaws found in 1936, Dinosaur Park Formation, Alberta.
+  material: Lower jaws, a tail vertebra, hand bones, hind limbs and pelvis.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its toothless jaws gave the family its name ("recent jaw").
+images:
+- kind: fossil
+  file: Caenagnathus Holotype Jaw.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Caenagnathus_Holotype_Jaw.png/960px-Caenagnathus_Holotype_Jaw.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Caenagnathus_Holotype_Jaw.png
+  artist: Gregory F. Funston
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-07-27'
+  caption: Holotype jaw
+  width: 1972
+  height: 1392
+  review: unreviewed
+- kind: life
+  file: Caenagnathus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/94/Caenagnathus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Caenagnathus.png
+  artist: Benwrops
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-06-15'
+  caption: Life restoration
+  width: 795
+  height: 506
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/vector.svg
+  png: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/raster/512x259.png
+  page: https://www.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Microvenator celer
+  matched: Caenagnathidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. M. Sternberg. 1940. A toothless bird from the Cretaceous of Alberta. Journal of Paleontology 14(1):81-85
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Caenagnathus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Caenagnathus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Caenagnathus”. English Wikipedia, revision 1347186243.
+  url: https://en.wikipedia.org/w/index.php?title=Caenagnathus&oldid=1347186243
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

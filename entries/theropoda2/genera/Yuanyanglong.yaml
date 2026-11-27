@@ -1,0 +1,83 @@
+name: Yuanyanglong
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: false
+placement_note: ''
+authority: Hao et al. 2025
+type_species: Yuanyanglong bainian
+type_species_note: The only valid species listed by PBDB.
+summary: Early oviraptorosaur from the Early Cretaceous Miaogou Formation of China known from two partial skeletons
+  found together.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 100.5
+  early_interval: Aptian
+  late_interval: Albian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yuanyanglong bainian
+  authority: Hao et al. 2025
+  first_ma: 121.4
+  last_ma: 100.5
+  interval: Aptian–Albian
+  reference: original description
+formations:
+- formation: Miaogou
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Monggol]
+  interval: Aptian–Albian
+  occurrences: 1
+  ma: [100.5, 121.4]
+  id: miaogou-china
+fossil_material:
+  holotype: One of two partial skeletons found in 2021 in the Miaogou Formation, China (Hao et al. 2025).
+  material: Two partial skeletons.
+  completeness: partial
+  exceptional: ''
+biology: Its name, after the mandarin duck as a symbol of lifelong pairing, refers to the two specimens found together.
+images:
+- kind: life
+  file: Yuanyanglong bainian.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Yuanyanglong_bainian.png/960px-Yuanyanglong_bainian.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Yuanyanglong_bainian.png
+  artist: Ddinodan
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-24'
+  caption: Life restoration
+  width: 4000
+  height: 3070
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2169f4c5-7749-4ee3-9b2f-5b01c6739156/vector.svg
+  png: https://images.phylopic.org/images/2169f4c5-7749-4ee3-9b2f-5b01c6739156/raster/512x378.png
+  page: https://www.phylopic.org/images/2169f4c5-7749-4ee3-9b2f-5b01c6739156
+  attribution: Cy Marchant
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Yuanyanglong bainian
+  matched: Yuanyanglong
+  genus_level: true
+sources:
+- kind: original
+  text: M. Hao, Z. Li, and Z. Wang, S. Wang, F. Ma, Qinggele, J. Logan King, R. Pei, Q. Zhao, X. Xu. 2025. A new
+    oviraptorosaur from the Lower Cretaceous Miaogou Formation of western Inner Mongolia, China. Cretaceous Research
+    167(78):106023
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yuanyanglong (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yuanyanglong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yuanyanglong”. English Wikipedia, revision 1321311665.
+  url: https://en.wikipedia.org/w/index.php?title=Yuanyanglong&oldid=1321311665
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,84 @@
+name: Ypupiara
+rank: genus
+parent: unenlagiidae
+incertae_sedis: false
+placement_note: ''
+authority: Brum et al. 2021
+type_species: Ypupiara lopai
+type_species_note: The only valid species listed by PBDB.
+summary: Unenlagiine from the Maastrichtian Serra da Galga Formation of Brazil whose holotype was lost in the 2018
+  museum fire.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ypupiara lopai
+  authority: Brum et al. 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Serra da Galga
+  group: Bauru
+  members: []
+  country: Brazil
+  regions: [Minas Gerais]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: serra-da-galga-brazil
+fossil_material:
+  holotype: DGM 921-R, Serra da Galga Formation, Brazil; destroyed in the National Museum of Brazil fire of 2 September
+    2018.
+  material: Only the holotype, known now from photographs.
+  completeness: fragmentary
+  exceptional: ''
+biology: The first dromaeosaurid-like paravian discovered in South America, though only recognised and named much
+  later (2021).
+images:
+- kind: life
+  file: Ypupiara lopai.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ypupiara_lopai.png/960px-Ypupiara_lopai.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Ypupiara_lopai.png
+  artist: BipedalSarcopterygian201.3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-10-27'
+  caption: Life restoration
+  width: 3000
+  height: 1913
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. S. Brum, R. V. Pêgas, and K. L. N. Bandeira, L. G. Souza, D. A. Campos, A. W. A. Kellner. 2021. A new
+    unenlagiine (Theropoda, Dromaeosauridae) from the Upper Cretaceous of Brazil. Papers in Palaeontology 7(4):2075-2099
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ypupiara (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ypupiara
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ypupiara”. English Wikipedia, revision 1304324589.
+  url: https://en.wikipedia.org/w/index.php?title=Ypupiara&oldid=1304324589
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

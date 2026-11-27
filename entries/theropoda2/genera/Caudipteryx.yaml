@@ -1,0 +1,113 @@
+name: Caudipteryx
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: false
+placement_note: ''
+authority: Ji et al. 1998
+type_species: Caudipteryx zoui
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Small, feathered oviraptorosaur from the Yixian Formation of China, so bird-like that some thought it was
+  a bird.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Caudipteryx dongi
+  authority: Zhou and Wang 2000
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: ''
+- name: Caudipteryx zoui
+  authority: Ji et al. 1998
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Jianshangou]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 2
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: Skeleton from the Jianshangou Bed of the Yixian Formation, Sihetun, Liaoning, China (Ji et al. 1998).
+  material: Several well-preserved skeletons; a second species, C. dongi, named in 2000.
+  completeness: multiple
+  exceptional: Wing and tail feathers; preserved cartilage and chondrocyte-like structures in specimen STM4-3.
+biology: Its discovery fuelled debate on the bird–dinosaur relationship; it had a fan of feathers at the tip of
+  the tail and short feathered arms.
+images:
+- kind: fossil
+  file: Caudipteryx fossil.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e3/Caudipteryx_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Caudipteryx_fossil.jpg
+  artist: Kabacchi
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2010-06-15'
+  caption: Fossil specimen
+  width: 1200
+  height: 615
+  review: unreviewed
+- kind: fossil
+  file: Caudipteryx wing feathers.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Caudipteryx_wing_feathers.png/960px-Caudipteryx_wing_feathers.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Caudipteryx_wing_feathers.png
+  artist: Yaser Saffar Talori, Yun-Fei Liu, Jing-Shan Zhao, Corwin Sullivan, Jingmai K. O’Connor & Zhi-Heng Li
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-12-14'
+  caption: Wing feathers
+  width: 1650
+  height: 1037
+  review: unreviewed
+- kind: life
+  file: Caudipteryx STM4-3.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1e/Caudipteryx_STM4-3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Caudipteryx_STM4-3.png
+  artist: Xiaoting Zheng, Alida M. Bailleul, Zhiheng Li, Xiaoli Wang & Zhonghe Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-09-24'
+  caption: Life restoration based on STM4-3
+  width: 1350
+  height: 854
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9ad8235c-53d4-4cd5-937a-d65899231ffa/vector.svg
+  png: https://images.phylopic.org/images/9ad8235c-53d4-4cd5-937a-d65899231ffa/raster/512x425.png
+  page: https://www.phylopic.org/images/9ad8235c-53d4-4cd5-937a-d65899231ffa
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Caudipteryx zoui
+  matched: Caudipteryx
+  genus_level: true
+sources:
+- kind: original
+  text: Q. Ji, P. J. Currie, and M. A. Norell, S.-A. Ji. 1998. Two feathered dinosaurs from northeastern China.
+    Nature 393:753-762
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Caudipteryx (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Caudipteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Caudipteryx”. English Wikipedia, revision 1383115585.
+  url: https://en.wikipedia.org/w/index.php?title=Caudipteryx&oldid=1383115585
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

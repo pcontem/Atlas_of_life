@@ -1,0 +1,100 @@
+name: Pectinodon
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Carpenter 1982
+type_species: Pectinodon bakkeri
+type_species_note: Taxobox of Wikipedia revision 1377449139.
+summary: Troodontid tooth taxon from the end of the Maastrichtian of North America, sometimes placed in Troodon.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 66
+  early_interval: Cenomanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Pectinodon bakkeri
+  authority: (Carpenter 1982)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Lancian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: lance-united-states
+- formation: Hell Creek
+  group: Montana
+  members: [Upper]
+  country: United States
+  regions: [Montana, South Dakota]
+  interval: Lancian
+  occurrences: 4
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Khodzhakul
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: khodzhakul-uzbekistan
+fossil_material:
+  holotype: A tooth with three juvenile teeth as paratypes (Carpenter 1982).
+  material: Teeth only, from the Lance and Hell Creek formations; a second species named from Uzbekistan (P. asiamericanus)
+    is not currently accepted.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from teeth.
+images:
+- kind: fossil
+  file: Pectinodon.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/23/Pectinodon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Pectinodon.png
+  artist: Derek W. Larson, Philip J. Currie
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2013'
+  caption: Teeth
+  width: 661
+  height: 781
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/vector.svg
+  png: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/raster/512x238.png
+  page: https://www.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Troodon junior
+  matched: Pectinodon
+  genus_level: true
+sources:
+- kind: original
+  text: K. Carpenter. 1982. Baby dinosaurs from the Late Cretaceous Lance and Hell Creek formations and a description
+    of a new species of theropod. Contributions to Geology, University of Wyoming 20(2):123-134
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pectinodon (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pectinodon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pectinodon”. English Wikipedia, revision 1377449139.
+  url: https://en.wikipedia.org/w/index.php?title=Pectinodon&oldid=1377449139
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

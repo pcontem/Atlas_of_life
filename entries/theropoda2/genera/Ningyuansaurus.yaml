@@ -1,0 +1,71 @@
+name: Ningyuansaurus
+rank: genus
+parent: oviraptorosauria
+incertae_sedis: true
+placement_note: Described as the most basal oviraptorosaur (Ji et al. 2012); the cited Wikipedia revision calls
+  it only a pennaraptoran, as later analyses differ.
+authority: Ji et al. 2012
+type_species: Ningyuansaurus wangi
+type_species_note: Taxobox of Wikipedia revision 1379877246.
+summary: Feathered pennaraptoran from the Yixian Formation of Liaoning, first described as the most basal oviraptorosaur.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ningyuansaurus wangi
+  authority: Ji et al. 2012
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: The only specimen, from the Yixian Formation at Jianchang, western Liaoning; kept at the Confuciusornis
+    Museum in Xingcheng.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Had more teeth than advanced oviraptorosaurs, but fewer in the back of the upper jaw than most other theropods.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/51119f61-3475-497e-aea1-fd3489021dab/vector.svg
+  png: https://images.phylopic.org/images/51119f61-3475-497e-aea1-fd3489021dab/raster/512x274.png
+  page: https://www.phylopic.org/images/51119f61-3475-497e-aea1-fd3489021dab
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Ningyuansaurus wangi
+  matched: Ningyuansaurus
+  genus_level: true
+sources:
+- kind: original
+  text: Q. Ji, J.-c. Lü, and X.-f. Wei, X.-r. Wang. 2012. A new oviraptorosaur from the Yixian Formation of Jianching,
+    western Liaoning Province, China. Geological Bulletin of China 31(12):2102-2107
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ningyuansaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ningyuansaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ningyuansaurus”. English Wikipedia, revision 1379877246.
+  url: https://en.wikipedia.org/w/index.php?title=Ningyuansaurus&oldid=1379877246
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,83 @@
+name: Papiliovenator
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Pei et al. 2022
+type_species: Papiliovenator neimengguensis
+type_species_note: The only valid species listed by PBDB.
+summary: Troodontid from the Bayan Mandahu Formation of Inner Mongolia named for a butterfly-shaped feature of its
+  front back vertebrae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Papiliovenator neimengguensis
+  authority: Pei et al. 2022
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Wulansuhai
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: wulansuhai-china
+fossil_material:
+  holotype: Specimen from the Bayan Mandahu Formation, Inner Mongolia, China (Pei et al. 2022).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Recovered as the earliest-diverging member of a clade of all Late Cretaceous troodontids except Almas.
+images:
+- kind: life
+  file: Papiliovenator Life Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Papiliovenator_Life_Restoration.png/960px-Papiliovenator_Life_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Papiliovenator_Life_Restoration.png
+  artist: BipedalSarcopterygian201.3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-06-04'
+  caption: Life restoration
+  width: 4000
+  height: 1850
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/vector.svg
+  png: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/raster/512x238.png
+  page: https://www.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Troodon junior
+  matched: Papiliovenator
+  genus_level: true
+sources:
+- kind: original
+  text: R. Pei, Y. Qin, and A. Wen, Q. Zhao, Z. Wang, Z. Liu, W. Guo, P. Liu, W. Ye, L. Wang, Z. Yin, R. Dai, X.
+    Xu. 2022. A new troodontid from the Upper Cretaceous Gobi Basin of inner Mongolia, China. Cretaceous Research
+    130:105052
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Papiliovenator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Papiliovenator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Papiliovenator”. English Wikipedia, revision 1298684349.
+  url: https://en.wikipedia.org/w/index.php?title=Papiliovenator&oldid=1298684349
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

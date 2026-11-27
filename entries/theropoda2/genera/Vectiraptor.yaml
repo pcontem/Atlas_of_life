@@ -1,0 +1,83 @@
+name: Vectiraptor
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Longrich et al. 2022
+type_species: Vectiraptor greeni
+type_species_note: The only valid species listed by PBDB.
+summary: Eudromaeosaur from the Barremian Wessex Formation of the Isle of Wight, known from back vertebrae and a
+  sacrum.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Vectiraptor greeni
+  authority: Longrich et al. 2022
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Wessex
+  group: Wealden
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: wessex-united-kingdom
+fossil_material:
+  holotype: Associated dorsal vertebrae and a partial sacrum of an adult, Wessex Formation, Isle of Wight, England.
+  material: Only the holotype, found by several collectors including the late Nick Chase.
+  completeness: fragmentary
+  exceptional: ''
+biology: The holotype represents an adult; all its bones were found within a few metres of each other.
+images:
+- kind: fossil
+  file: Vectiraptor greeni dorsal vertebra by Nick Longrich.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vectiraptor_greeni_dorsal_vertebra_by_Nick_Longrich.jpg/960px-Vectiraptor_greeni_dorsal_vertebra_by_Nick_Longrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Vectiraptor_greeni_dorsal_vertebra_by_Nick_Longrich.jpg
+  artist: NickLongrich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2021-12-19'
+  caption: Dorsal vertebra
+  width: 4489
+  height: 4781
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: N. R. Longrich, D. M. Martill, and M. L. Jacobs. 2022. A new dromaeosaurid dinosaur from the Wessex Formation
+    (Lower Cretaceous, Barremian) of the Isle of Wight, and implications for European palaeobiogeography. Cretaceous
+    Research 134:105123
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vectiraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vectiraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vectiraptor”. English Wikipedia, revision 1387579806.
+  url: https://en.wikipedia.org/w/index.php?title=Vectiraptor&oldid=1387579806
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

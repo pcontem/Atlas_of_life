@@ -1,4 +1,28 @@
-# Next steps — Theropoda I
+# Next steps — Theropoda II
+
+Done (2026-11-27): census (3 runs, base `Maniraptora^Aves^Avialae,Alvarezsauroidea,Therizinosauria`); harvest with scientific
+articles (`papers.json`, `oa_figures.json`) and a Wikipedia retry; volume skeleton; 15 clade entries; 193 genus entries (drafts,
+`origin: ai-draft`); `excluded.yaml` (Epidendrosaurus, Geminiraptor); 93 backbone genus nodes replaced; docs (TREE_REVIEW, DECISIONS).
+
+Pending genera (not in the PBDB harvest base, or no usable source):
+- In the backbone without an entry: Aorun, Infernogallus, Aurornis, Norellraptor.
+- Found by the census only on Wikipedia, non-avian, to be checked and harvested by name: Dinevenator, Kank, Manipulonyx (2025–2026),
+  Fujianvenator, Shishugounykus, Ojoraptorsaurus, Dalianraptor, Koparion, Kakuru, Bradycneme, Heptasteornis, Ornithodesmus.
+  `harvest.py` only harvests PBDB names: a `--names` option for extra genera would be the next step.
+- Tiantaisaurus: PBDB valid, but its English Wikipedia entry is the list of informally named dinosaurs; no other source harvested.
+- Not entries: Ingenia and Nemegtia (PBDB lists them without species; preoccupied names replaced by Ajancingenia/Heyuannia and
+  Nemegtomaia), Shuuvuia (misspelling of Shuvuuia).
+
+Open questions for the owner:
+- Tooth taxa kept as incertae sedis with a curation note (Paronychodon, Zapsalis, Richardoestesia, Pectinodon): keep or move to
+  `excluded.yaml` as nomina dubia?
+- Possible synonyms kept as separate entries: Eosinopteryx and Serikornis (Anchiornis?), Neuquenraptor (Unenlagia?), Balaur
+  (Elopteryx?), Stenonychosaurus/Latenivenatrix/Troodon.
+- Falcarius suarezarum (ex Geminiraptor) is not yet in the PBDB species list of Falcarius.
+- Images were chosen from file names and descriptions without a contact-sheet check: run the triage page for theropoda2.
+- Many entries say "Not given in the sources used" or carry a "check" note: they need the primary paper (now listed in papers.json).
+
+# Next steps — Theropoda I (earlier)
 
 Done: volume skeleton; 36 clade entries; 254 genus entries (drafts, `origin: ai-draft`); `excluded.yaml` (29 names: 9 chosen by hand, 20 PBDB
 synonyms); backbone cleaned; docs. Images for the entries are fetched by `media-fetch.yml` (see the PR).

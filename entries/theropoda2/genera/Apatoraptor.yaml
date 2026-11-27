@@ -1,0 +1,83 @@
+name: Apatoraptor
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Funston and Currie 2016
+type_species: Apatoraptor pennatus
+type_species_note: The only valid species listed by PBDB.
+summary: Caenagnathid from the Horseshoe Canyon Formation of Alberta whose skeleton hid its identity for years.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Apatoraptor pennatus
+  authority: Funston and Currie 2016
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Horseshoe Canyon
+  group: Edmonton
+  members: [Horsethief]
+  country: Canada
+  regions: [Alberta]
+  interval: Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: horseshoe-canyon-canada
+fossil_material:
+  holotype: TMP 1993.051.0001, a partial skeleton from the Horsethief Member, Horseshoe Canyon Formation, near Drumheller,
+    Alberta.
+  material: Only the holotype, found in 1993.
+  completeness: partial
+  exceptional: ''
+biology: Its name, after the Greek goddess of deceit, refers to the specimen hiding its true identity for many years.
+images:
+- kind: fossil
+  file: Apatoraptor RTMP.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Apatoraptor_RTMP.jpg/960px-Apatoraptor_RTMP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Apatoraptor_RTMP.jpg
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2011-07-02'
+  caption: Holotype at the Royal Tyrrell Museum
+  width: 2848
+  height: 2136
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/vector.svg
+  png: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/raster/512x259.png
+  page: https://www.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Microvenator celer
+  matched: Caenagnathidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'G. F. Funston and P. J. Currie. 2016. A new caenagnathid (Dinosauria: Oviraptorosauria) from the Horseshoe
+    Canyon Formation of Alberta, Canada, and a reevaluation of the relationships of Caenagnathidae. Journal of Vertebrate
+    Paleontology 36(4):e1160910:1-18'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Apatoraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Apatoraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Apatoraptor”. English Wikipedia, revision 1324190878.
+  url: https://en.wikipedia.org/w/index.php?title=Apatoraptor&oldid=1324190878
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -406,3 +406,17 @@ maniraptoran group, 267 genera were left in scope (owner: write them as a single
 backbone node, birds included, stay for later volumes. A name whose English Wikipedia page is a different subject (Kol, Moros, Dilong,
 Thanos, Kurupi, Lepidus, Niebla, Becklespinax) gets `use_wiki: false` or a curation note; names that redirect to another taxon go to
 `excluded.yaml` (Angaturama, Dromiceiomimus, Fenestrosaurus, Syntarsus, Yezosaurus).
+
+## 2026-11-27 — Theropoda II is one volume; the harvest gathers scientific articles
+
+Owner (2026-11-26): the next volume of the plan is Theropoda II (non-avian maniraptorans), written whole, without division. The census
+base is `Maniraptora^Aves^Avialae,Alvarezsauroidea,Therizinosauria`: PBDB files most birds under Aves outside its Avialae (the first
+run with `Maniraptora^Avialae` gave 2,061 genera, birds included) and keeps alvarezsaurs and therizinosaurs outside its Maniraptora.
+Result: 222 PBDB genera (12 form taxa), 193 entries; birds (Jeholornis, Sapeornis, Confuciusornis…) stay for the Avialae volume.
+The harvest now also collects the scientific literature (owner: survey articles in GitHub Actions with few AI tokens):
+`harvest.py --papers` (`"papers": true` in the request) writes `papers.json` (OpenAlex + Europe PMC, per genus: citation, DOI,
+open-access status and licence, abstract cut to 1,500 characters) and `oa_figures.json`; `draft_genera.py brief` lists the papers
+and `write` accepts `papers: [n]` / `original_paper: n`. Wikipedia pages that are missing, disambiguation pages or about another
+subject are asked again as "<Genus> (dinosaur)" (`--wiki-retry`, `"wiki_retry": true`); 15 genera were recovered this way.
+`draft_genera.py write` fills an empty type species from the taxobox of the fixed revision, or from the only valid PBDB species, and
+says which in `type_species_note`.

@@ -1,0 +1,96 @@
+name: Paralitherizinosaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Kobayashi et al. 2022
+type_species: Paralitherizinosaurus japonicus
+type_species_note: The only valid species listed by PBDB.
+summary: Therizinosaurid from the Campanian marine Osoushinai Formation of Hokkaido, the youngest and first named
+  therizinosaur of Japan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Paralitherizinosaurus japonicus
+  authority: Kobayashi et al. 2022
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Osoushinai
+  group: Yezo
+  members: []
+  country: Japan
+  regions: [Hokkaido]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: osoushinai-japan
+fossil_material:
+  holotype: A partial right hand and a cervical vertebra, Osoushinai Formation, Hokkaido, Japan.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Found in marine rocks of the Osoushinai Formation; two other unnamed therizinosaur specimens are known
+  from Japan.
+images:
+- kind: life
+  file: Paralitherizinosaurus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Paralitherizinosaurus_Restoration.png/960px-Paralitherizinosaurus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Paralitherizinosaurus_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-05-12'
+  caption: Life restoration
+  width: 5218
+  height: 3937
+  review: unreviewed
+- kind: fossil
+  file: Paralitherizinosaurus holotype block.png
+  url: https://upload.wikimedia.org/wikipedia/commons/c/c4/Paralitherizinosaurus_holotype_block.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Paralitherizinosaurus_holotype_block.png
+  artist: Yoshitsugu Kobayashi, Ryuji Takasaki, Anthony R. Fiorillo, Tsogtbaatar Chinzorig & Yoshinori Hikida
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-05-03'
+  caption: Holotype block
+  width: 507
+  height: 393
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/vector.svg
+  png: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/raster/512x302.png
+  page: https://www.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Suzhousaurus megatherioides
+  matched: Therizinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: Y. Kobayashi, R. Takasaki, and A. R. Fiorillo, T. Chinzorig, Y. Hikida. 2022. New therizinosaurid dinosaur
+    from the marine Osoushinai Formation (Upper Cretaceous, Japan) provides insight for function and evolution of
+    therizinosaur claws. Scientific Reports 12:7207:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paralitherizinosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paralitherizinosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paralitherizinosaurus”. English Wikipedia, revision 1371041278.
+  url: https://en.wikipedia.org/w/index.php?title=Paralitherizinosaurus&oldid=1371041278
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

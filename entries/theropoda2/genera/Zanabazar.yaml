@@ -1,0 +1,72 @@
+name: Zanabazar
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Norell et al. 2009
+type_species: Zanabazar junior
+type_species_note: The only valid species listed by PBDB.
+summary: Large troodontid from the Late Cretaceous of Mongolia, first named as a species of Saurornithoides.
+size:
+  length_m: [2.3, 2.3]
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zanabazar junior
+  authority: (Barsbold 1974)
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: IGM 100/1, a nearly complete skull and braincase, part of the pelvis, tail vertebrae and parts of the
+    right hind limb, Mongolia (Barsbold 1974, as Saurornithoides junior).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Reclassified in its own genus in 2009 and named after Zanabazar, the first spiritual head of Tibetan Buddhism
+  in Mongolia.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/vector.svg
+  png: https://images.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a/raster/512x238.png
+  page: https://www.phylopic.org/images/948449df-8b08-4ea4-9f1e-391cd410c78a
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Troodon junior
+  matched: Zanabazar
+  genus_level: true
+sources:
+- kind: original
+  text: 'M. A. Norell, P. J. Makovicky, and G. S. Bever, A. M. Balanoff, J. M. Clark, R. Barsbold, T. Rowe. 2009.
+    A review of the Mongolian Cretaceous dinosaur Saurornithoides (Troodontidae: Theropoda). American Museum Novitates
+    3654:1-63'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zanabazar (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zanabazar
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zanabazar junior”. English Wikipedia, revision 1354845989.
+  url: https://en.wikipedia.org/w/index.php?title=Zanabazar_junior&oldid=1354845989
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

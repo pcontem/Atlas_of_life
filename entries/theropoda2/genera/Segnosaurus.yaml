@@ -1,0 +1,121 @@
+name: Segnosaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Perle 1979
+type_species: Segnosaurus galbinensis
+type_species_note: The only valid species listed by PBDB.
+summary: Large therizinosaurid from the Late Cretaceous of southeastern Mongolia, about 6–7 m long, with a beaked
+  down-turned jaw.
+size:
+  length_m: [6, 7]
+  mass_kg: [1300, 1300]
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Segnosaurus galbinensis
+  authority: Perle 1979
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov, Omnogov]
+  interval: Cenomanian–Santonian
+  occurrences: 4
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+- formation: Jobu
+  group: Mifune
+  members: []
+  country: Japan
+  regions: [Kumamoto]
+  interval: Late Cenomanian–Early Turonian
+  occurrences: 2
+  ma: [89.8, 100.5]
+  id: jobu-japan
+fossil_material:
+  holotype: Specimen from the Bayan Shireh Formation of the Gobi Desert (Perle 1979).
+  material: Multiple incomplete but well-preserved specimens found in the 1970s.
+  completeness: multiple
+  exceptional: ''
+biology: Had a small beaked head, a long slender neck and teeth with extra denticles and in some cases third cutting
+  edges.
+images:
+- kind: life
+  file: Segnosaurus Restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Segnosaurus_Restoration.jpg/960px-Segnosaurus_Restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Segnosaurus_Restoration.jpg
+  artist: PaleoNeolitic
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-03-10'
+  caption: Life restoration
+  width: 5610
+  height: 3660
+  review: unreviewed
+- kind: fossil
+  file: Segnosaurus holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f5/Segnosaurus_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Segnosaurus_holotype.png
+  artist: Rinchen Barsbold & Altangerel Perle
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '1980-07-01'
+  caption: Holotype
+  width: 1196
+  height: 888
+  review: unreviewed
+- kind: fossil
+  file: Dentary teeth of Segnosaurus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/91/Dentary_teeth_of_Segnosaurus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dentary_teeth_of_Segnosaurus.png
+  artist: Lindsay E. Zanno​1,2, Khishigjav Tsogtbaatar3, Tsogtbaatar Chinzorig3,4, Terry A. Gates
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016'
+  caption: Lower jaw teeth
+  width: 1474
+  height: 2721
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0f195f49-b914-4e91-a2c8-709de3a9b996/vector.svg
+  png: https://images.phylopic.org/images/0f195f49-b914-4e91-a2c8-709de3a9b996/raster/512x411.png
+  page: https://www.phylopic.org/images/0f195f49-b914-4e91-a2c8-709de3a9b996
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Segnosaurus galbinensis
+  matched: Segnosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: A. Perle. 1979. Segnosauridae - novoe semeistvo teropod is posdnego mela Mongolii [Segnosauridae - a new
+    family of theropods from the Late Cretaceous of Mongolia]. Trudy - Sovmestnaya Sovetsko-Mongol'skaya Paleontologicheskaya
+    Ekspeditsiya 8:45-55
+- kind: literature
+  text: 'Campione, Nicolás E.; Evans, David C. 2020. The accuracy and precision of body mass estimation in non-avian
+    dinosaurs. Biological Reviews 95(6): 1759–1797. doi:10.1111/brv.12638'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Segnosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Segnosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Segnosaurus”. English Wikipedia, revision 1380606480.
+  url: https://en.wikipedia.org/w/index.php?title=Segnosaurus&oldid=1380606480
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

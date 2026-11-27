@@ -1,0 +1,89 @@
+name: Leptorhynchos
+rank: genus
+parent: caenagnathidae
+incertae_sedis: false
+placement_note: ''
+authority: Longrich et al. 2013
+type_species: Leptorhynchos gaddisi
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Small caenagnathid from the Late Cretaceous of Texas, possibly also present in Alberta and South Dakota.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Late Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Leptorhynchos gaddisi
+  authority: Longrich et al. 2013
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Aguja
+  group: ''
+  members: [Alto Shale]
+  country: United States
+  regions: [Texas]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: aguja-united-states
+- formation: Frenchman
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: frenchman-canada
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+fossil_material:
+  holotype: Specimen from Texas (Longrich et al. 2013).
+  material: The holotype and possible referred specimens.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its describers reviewed all North American caenagnathid type specimens to resolve the group's taxonomy.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/vector.svg
+  png: https://images.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73/raster/512x259.png
+  page: https://www.phylopic.org/images/9e2c9596-43e9-4ea4-a642-93ee44501e73
+  attribution: FunkMonk
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Microvenator celer
+  matched: Caenagnathidae
+  genus_level: false
+sources:
+- kind: original
+  text: N. R. Longrich, K. Barnes, and S. Clark, L. Millar. 2013. Caenagnathidae from the upper Campanian Aguja
+    Formation of west Texas, and a revision of the Caenagnathinae. Bulletin of the Peabody Museum of Natural History
+    54(1):23-49
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Leptorhynchos (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Leptorhynchos
+- kind: encyclopedia
+  text: Wikipedia contributors. “Leptorhynchos gaddisi”. English Wikipedia, revision 1387579709.
+  url: https://en.wikipedia.org/w/index.php?title=Leptorhynchos_gaddisi&oldid=1387579709
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - L. elegans (Parks 1933), listed by PBDB, is now Citipes elegans and is left out of the species list.
+  reviews: []

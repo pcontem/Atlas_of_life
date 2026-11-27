@@ -812,3 +812,30 @@ Tromerosaurus → Tyrannosauridae; the misspelled node Baryonix was deleted (Bar
 Placement rule as in the Ornithopoda review: PBDB parent checked against the lead of the English Wikipedia article; where they differ the
 genus sits in the deepest clade both share with `incertae_sedis: true`. Left out of the volume: Anteavis, Protoavis, Sauropus,
 Saurornithoides, Himeoolithus, Ovoraptor, Yaverlandia (not theropods of this volume or not valid genera in the sources used).
+
+## 2026-11-27 — Theropoda II (non-avian maniraptorans)
+
+New volume `entries/theropoda2` with 15 clade entries and 193 genus entries. The volume root Maniraptora attaches to Coelurosauria
+(volume Theropoda I). The backbone clade nodes `maniraptora`, `maniraptora__paraves`, `maniraptora__alvarezsauria`,
+`maniraptora__therizinosauria`, `maniraptora__oviraptorosauria` (+ `__caenagnathidae`, `__oviraptoridae`), `maniraptora__scansoriopterygidae`
+and the paravian families (`maniraptora__paraves__anchiornithidae`, `__dromaeosauridae` with `__halszkaraptorinae`, `__microraptoria`,
+`__eudromaeosauria`, `__unenlagiidae`, `__troodontidae`) became volume clades with short ids; Avialae stays a backbone node, now below
+`paraves`. 93 backbone genus nodes were replaced by entries.
+Structure (kept from the backbone, which already follows recent analyses, Wikipedia revisions of 2026-11-14/16): Maniraptora →
+Alvarezsauria, Therizinosauria, Oviraptorosauria (Caenagnathidae, Oviraptoridae), Scansoriopterygidae, Paraves (Anchiornithidae,
+Dromaeosauridae → Halszkaraptorinae, Microraptoria, Eudromaeosauria; Unenlagiidae; Troodontidae; Avialae).
+**Kept against PBDB:** PBDB puts Alvarezsauroidea and Therizinosauria outside its Maniraptora; recent analyses put them inside
+(Maniraptora revision 1354465156; Meso et al. 2025). Unenlagiidae stays a family of Paraves (PBDB: Unenlagiinae in Dromaeosauridae),
+following Motta et al. 2020, 2025 (M2). Anchiornis moves from Troodontidae (PBDB) to Anchiornithidae (Foth and Rauhut 2017).
+Not made (M6): Alvarezsauridae, Therizinosauridae, Caudipterygidae and the eudromaeosaur, troodontid and oviraptorid subfamilies
+(PBDB Velociraptorinae, Dromaeosaurinae, Saurornitholestinae, Troodontinae, Jinfengopteryginae, Sinovenatorinae, Citipatinae,
+Heyuanninae…): their composition varies between analyses and the 2026-11-16 clade sources hold no fixed revision for them, so their
+genera sit in the family or clade above.
+Placement rule as in Theropoda I: PBDB parent checked against the lead of the English Wikipedia article; where they differ the genus
+sits in the deepest clade both share with `incertae_sedis: true` (29 genera): Archaeornithoides, Dakotaraptor, Migmanychion and
+Yixianosaurus (Maniraptora); Balaur, Changzhousaurus, Elopteryx (PBDB Alvarezsauridae), Imperobator, Jinfengopteryx, Overoraptor,
+Pamparaptor, Paronychodon, Pedopenna, Pneumatoraptor, Pyroraptor, Rahonavis, Richardoestesia, Shanag, Xiaotingia and Zhongornis
+(Paraves); Eshanosaurus and Fukuivenator (Therizinosauria); Haplocheirus (Alvarezsauria); Microvenator, Nankangia and Ningyuansaurus
+(Oviraptorosauria); Itemirus and Nuthetes (Dromaeosauridae); Zapsalis (Eudromaeosauria).
+Still in the backbone, waiting for entries (not valid genera of the PBDB harvest base): Aorun (Alvarezsauria), Infernogallus
+(Caenagnathidae), Aurornis (Anchiornithidae), Norellraptor (Troodontidae).

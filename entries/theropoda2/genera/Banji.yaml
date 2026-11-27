@@ -1,0 +1,94 @@
+name: Banji
+rank: genus
+parent: oviraptoridae
+incertae_sedis: false
+placement_note: ''
+authority: Xu and Han 2010
+type_species: Banji long
+type_species_note: The only valid species listed by PBDB.
+summary: Small crested oviraptorid from the latest Cretaceous of Jiangxi, China, known from a juvenile skull.
+size:
+  length_m: [0.65, 0.65]
+  note: Length of the juvenile holotype.
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Banji long
+  authority: Xu and Han 2010
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Nanxiong
+  members: []
+  country: China
+  regions: [Jiangxi]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nanxiong-group-china
+fossil_material:
+  holotype: IVPP V 16896, Nanxiong Formation, Ganzhou, Jiangxi, China (Xu and Han 2010).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Had a crest formed by the nasals and premaxillae and an unusually long nasal opening.
+images:
+- kind: life
+  file: Banji LMR.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Banji_LMR.png/960px-Banji_LMR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Banji_LMR.png
+  artist: Levi bernardo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-04-10'
+  caption: Life restoration
+  width: 4096
+  height: 4096
+  review: unreviewed
+- kind: fossil
+  file: Banji skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/78/Banji_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Banji_skull.png
+  artist: Junchang Lü, Hanyong Pu, Yoshitsugu Kobayashi, Li Xu, Huali Chang, Yuhua Shang, Di Liu, Yuong-Nam Lee,
+    Martin Kundrát & Caizhi Shen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-07-02'
+  caption: Skull
+  width: 701
+  height: 474
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/vector.svg
+  png: https://images.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e/raster/512x260.png
+  page: https://www.phylopic.org/images/d968bf5b-d7b7-4a5a-a770-a8767a26092e
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Oviraptor philoceratops
+  matched: Oviraptoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'X. Xu and F.-L. Han. 2010. A new oviraptorid dinosaur (Theropoda: Oviraptorosauria) from the Upper Cretaceous
+    of China. Vertebrata PalAsiatica 48(1):11-18'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Banji (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Banji
+- kind: encyclopedia
+  text: Wikipedia contributors. “Banji”. English Wikipedia, revision 1373865338.
+  url: https://en.wikipedia.org/w/index.php?title=Banji&oldid=1373865338
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

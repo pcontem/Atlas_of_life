@@ -1,0 +1,83 @@
+name: Itemirus
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: true
+placement_note: Kurzanov (1976) noted similarities to tyrannosaurids and dromaeosaurids, Holtz (2004) suggested
+  a tyrannosauroid, and Currie (2009) found it a dromaeosaurid.
+authority: Kurzanov 1976
+type_species: Itemirus medullaris
+type_species_note: The only valid species listed by PBDB.
+summary: Theropod from the Turonian Bissekty Formation of Uzbekistan known from a braincase, probably a dromaeosaurid.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Itemirus medullaris
+  authority: Kurzanov 1976
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 5
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: A single small damaged braincase found in 1958 near Itemir, Dzharakuduk escarpment, Bissekty Formation,
+    Uzbekistan.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Kurzanov placed it in a family of its own, Itemiridae.
+images:
+- kind: life
+  file: Itemirus.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Itemirus.png/960px-Itemirus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Itemirus.png
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-08-20'
+  caption: Life restoration
+  width: 2400
+  height: 1800
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: S. M. Kurzanov. 1976. Brain-case structure in the carnosaur Itemirus n. gen. and some aspects of the cranial
+    anatomy of dinosaurs. Paleontological Journal 1976(3):361-369
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Itemirus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Itemirus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Itemirus”. English Wikipedia, revision 1343936138.
+  url: https://en.wikipedia.org/w/index.php?title=Itemirus&oldid=1343936138
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,95 @@
+name: Achillobator
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Perle et al. 1999
+type_species: Achillobator giganticus
+type_species_note: Taxobox of Wikipedia revision 1387774067.
+summary: Large, robust dromaeosaurid from the Bayan Shireh Formation of Mongolia, one of the largest dromaeosaurids.
+size:
+  length_m: [4.5, 5]
+  mass_kg: [250, 300]
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 83.6
+  early_interval: Cenomanian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Achillobator giganticus
+  authority: Perle et al. 1999
+  first_ma: 100.5
+  last_ma: 83.6
+  interval: Cenomanian–Santonian
+  reference: original description
+formations:
+- formation: Baynshire
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Dornogov]
+  interval: Cenomanian–Santonian
+  occurrences: 1
+  ma: [83.6, 100.5]
+  id: baynshire-mongolia
+fossil_material:
+  holotype: Partial skeleton from the Bayan Shireh Formation, Mongolia (Perle et al. 1999).
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Lived about 96–89 million years ago; its skeleton was unusually robust for a dromaeosaurid.
+images:
+- kind: life
+  file: Achillobator by durbed.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Achillobator_by_durbed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Achillobator_by_durbed.jpg
+  artist: Durbed , line drawing by Pilsator
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-06-26'
+  caption: Life restoration by Durbed
+  width: 1272
+  height: 609
+  review: unreviewed
+- kind: fossil
+  file: Achillobator giganticus skeleton.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Achillobator_giganticus_skeleton.jpg/960px-Achillobator_giganticus_skeleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Achillobator_giganticus_skeleton.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011'
+  caption: Skeleton
+  width: 2400
+  height: 760
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/11491d2a-337d-41ae-a276-ebdc18e5055b/vector.svg
+  png: https://images.phylopic.org/images/11491d2a-337d-41ae-a276-ebdc18e5055b/raster/512x154.png
+  page: https://www.phylopic.org/images/11491d2a-337d-41ae-a276-ebdc18e5055b
+  attribution: Matt Martyniuk (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Achillobator giganticus
+  matched: Achillobator
+  genus_level: true
+sources:
+- kind: original
+  text: A. Perle, M. A. Norell, and J. M. Clark. 1999. A new maniraptoran theropod—Achillobator giganticus (Dromaeosauridae)—from
+    the Upper Cretaceous of Burkhant, Mongolia. Contributions of the Department of Geology, National University
+    of Mongolia 101:1-105
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Achillobator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Achillobator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Achillobator”. English Wikipedia, revision 1387774067.
+  url: https://en.wikipedia.org/w/index.php?title=Achillobator&oldid=1387774067
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

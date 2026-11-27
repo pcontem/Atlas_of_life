@@ -1,0 +1,82 @@
+name: Nemegtonykus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Lee et al. 2019
+type_species: Nemegtonykus citus
+type_species_note: Taxobox of Wikipedia revision 1368885655.
+summary: Alvarezsaurid from the Nemegt Formation of Mongolia, found among a dense concentration of theropod skeletons
+  at Altan Uul III.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nemegtonykus citus
+  authority: Lee et al. 2019
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: MPC-D 100/203, with articulated left hind limb and tail, Nemegt Formation, Altan Uul III, Mongolia.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: The second alvarezsaurid known from the Nemegt Formation after Mononykus.
+images:
+- kind: skeletal
+  file: Nemegtonykus Skeletal.png
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Nemegtonykus_Skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nemegtonykus_Skeletal.png
+  artist: Sungjin Lee, Jin-Young Park, Yuong-Nam Lee, Su-Hwan Kim, Junchang Lü, Rinchen Barsbold & Khishigjav Tsogtbaatar
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-10-29'
+  caption: Skeletal reconstruction
+  width: 992
+  height: 403
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/vector.svg
+  png: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/raster/512x269.png
+  page: https://www.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908
+  attribution: Tomopteryx
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Bannykus wulatensis
+  matched: Alvarezsauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: S. Lee, J.-Y. Park, and Y.-N. Lee, S.-H. Kim, J. Lü, R. Barsbold, K. Tsogtbaatar. 2019. A new alvarezsaurid
+    dinosaur from the Nemegt Formation of Mongolia. Scientific Reports 9:15493:1-12
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nemegtonykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nemegtonykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nemegtonykus”. English Wikipedia, revision 1368885655.
+  url: https://en.wikipedia.org/w/index.php?title=Nemegtonykus&oldid=1368885655
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,85 @@
+name: Xiyunykus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Xu et al. 2018
+type_species: Xiyunykus pengi
+type_species_note: Taxobox of Wikipedia revision 1366777159.
+summary: Early Cretaceous alvarezsaurian from the Tugulu Group of Xinjiang that documents the transition to the
+  specialised alvarezsaurid body plan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 137.05
+  last_ma: 132.6
+  early_interval: Valanginian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xiyunykus pengi
+  authority: Xu et al. 2018
+  first_ma: 137.05
+  last_ma: 132.6
+  interval: Valanginian
+  reference: original description
+formations:
+- formation: Shengjinkou
+  group: Tugulu
+  members: []
+  country: China
+  regions: [Xinjiang]
+  interval: Valanginian
+  occurrences: 1
+  ma: [132.6, 137.05]
+  id: shengjinkou-china
+fossil_material:
+  holotype: Described by Xu et al. (2018) from the Tugulu Group of Xinjiang; specimen number not given in the sources
+    used.
+  material: Not given in the sources used.
+  completeness: partial
+  exceptional: ''
+biology: Lived alongside the alvarezsaur Tugulusaurus, the stegosaur Wuerhosaurus and Psittacosaurus in the Tugulu
+  Group.
+images:
+- kind: life
+  file: Xiyunykus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Xiyunykus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Xiyunykus.png
+  artist: Tomopteryx
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-08-28'
+  caption: Life restoration
+  width: 1513
+  height: 1584
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/vector.svg
+  png: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/raster/512x269.png
+  page: https://www.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908
+  attribution: Tomopteryx
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Bannykus wulatensis
+  matched: Alvarezsauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu, J. Choiniere, and Q.-W. Tan, R. B. J. Benson, J. Clark, C. Sullivan, Q. Zhao, F.-L. Han, Q.-Y. Ma,
+    Y.-M. He, S. Wang, H. Xing, L. Tan. 2018. Two early Cretaceous fossils document transitional stages in alvarezsaurian
+    dinosaur evolution. Current Biology 28:2853-2860
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xiyunykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xiyunykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xiyunykus”. English Wikipedia, revision 1366777159.
+  url: https://en.wikipedia.org/w/index.php?title=Xiyunykus&oldid=1366777159
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype and material to be taken from Xu et al. 2018.]
+  reviews: []

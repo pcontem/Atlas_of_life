@@ -1,0 +1,94 @@
+name: Tamarro
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Sellés et al. 2021
+type_species: Tamarro insperatus
+type_species_note: The only valid species listed by PBDB.
+summary: Troodontid from the latest Cretaceous Talarn Formation of Catalonia, Spain, known from a single metatarsal.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tamarro insperatus
+  authority: Sellés et al. 2021
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Talarn
+  group: Tremp
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: talarn-spain
+fossil_material:
+  holotype: A partial metatarsal, Talarn Formation, Tremp Group, Catalonia, Spain (Sellés et al. 2021).
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Bone histology shows a subadult that grew quickly; its ancestors may have migrated from Asia to Europe
+  between the Cenomanian and the Maastrichtian.
+images:
+- kind: fossil
+  file: Tamarro holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/67/Tamarro_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Tamarro_holotype.png
+  artist: Albert G. Sellés, Bernat Vila, Stephen L. Brusatte, Philip J. Currie & Àngel Galobart
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-03-01'
+  caption: Holotype
+  width: 1394
+  height: 2597
+  review: unreviewed
+- kind: life
+  file: Tamarro restoration.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Tamarro_restoration.jpg/960px-Tamarro_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Tamarro_restoration.jpg
+  artist: El fosilmaníaco
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-26'
+  caption: Life restoration
+  width: 2500
+  height: 1520
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'A. G. Sellés, B. Vila, and S. L. Brusatte, P. J. Currie, A. Galobart. 2021. A fast-growing basal troodontid
+    (Dinosauria: Theropoda) from the latest Cretaceous of Europe. Scientific Reports 11:4855:1-12'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tamarro (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tamarro
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tamarro”. English Wikipedia, revision 1290264260.
+  url: https://en.wikipedia.org/w/index.php?title=Tamarro&oldid=1290264260
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

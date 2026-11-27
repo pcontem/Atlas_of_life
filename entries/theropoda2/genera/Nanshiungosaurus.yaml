@@ -1,0 +1,98 @@
+name: Nanshiungosaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Dong 1979
+type_species: Nanshiungosaurus brevispinus
+type_species_note: ''
+summary: Therizinosaurid from the Late Cretaceous of Guangdong, China, one of the first therizinosaurs described.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nanshiungosaurus brevispinus
+  authority: Dong 1979
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Yuanpu
+  group: Nanxiong
+  members: []
+  country: China
+  regions: [Guangdong]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: yuanpu-china
+fossil_material:
+  holotype: A single specimen preserving most of the cervical and dorsal vertebrae with the pelvis, Nanxiong, Guangdong,
+    China.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Had a strongly pneumatised vertebral column and robust rear neck vertebrae; like other therizinosaurids
+  it had a beak, stocky four-toed feet and large flattened claws.
+images:
+- kind: life
+  file: Nanshiungosaurus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nanshiungosaurus_Restoration.png/960px-Nanshiungosaurus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Nanshiungosaurus_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-08-16'
+  caption: Life restoration
+  width: 5314
+  height: 3114
+  review: unreviewed
+- kind: fossil
+  file: Nanshiungosaurus dinosaur.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/96/Nanshiungosaurus_dinosaur.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nanshiungosaurus_dinosaur.png
+  artist: LadyofHats Mariana Ruiz
+  license: Public domain
+  license_url: ''
+  date: '2007-01-31'
+  caption: Holotype
+  width: 1452
+  height: 1000
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/vector.svg
+  png: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/raster/512x302.png
+  page: https://www.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Suzhousaurus megatherioides
+  matched: Therizinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Z. Dong. 1979. Cretaceous dinosaurs of Hunan, China. Mesozoic and Cenozoic Red Beds of South China: Selected
+    Papers from the "Cretaceous-Tertiary Workshop", Institute of Vertebrate Paleontology and Paleoanthropology &
+    Nanjing Institute of Paleontology (eds.), Science Press, Nanxiong, China'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nanshiungosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nanshiungosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nanshiungosaurus”. English Wikipedia, revision 1379317865.
+  url: https://en.wikipedia.org/w/index.php?title=Nanshiungosaurus&oldid=1379317865
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - '"N." bohlini (Dong and Yu 1997) is listed by PBDB but regarded as unlikely to belong here; left out of the
+    species list.'
+  reviews: []

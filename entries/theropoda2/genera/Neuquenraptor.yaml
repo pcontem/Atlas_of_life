@@ -1,0 +1,95 @@
+name: Neuquenraptor
+rank: genus
+parent: unenlagiidae
+incertae_sedis: false
+placement_note: ''
+authority: Novas and Pol 2005
+type_species: Neuquenraptor argentinus
+type_species_note: The only valid species listed by PBDB.
+summary: Unenlagiid from the Portezuelo Formation of Argentina, one of the first dromaeosaur-like paravians found
+  in the Southern Hemisphere.
+size:
+  length_m: [1.8, 3.5]
+  mass_kg: [75, 75]
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 85.7
+  early_interval: Turonian
+  late_interval: Coniacian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Neuquenraptor argentinus
+  authority: Novas and Pol 2005
+  first_ma: 93.9
+  last_ma: 85.7
+  interval: Turonian–Coniacian
+  reference: original description
+formations:
+- formation: Portezuelo
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén]
+  interval: Late Turonian–Early Coniacian
+  occurrences: 2
+  ma: [85.7, 93.9]
+  id: portezuelo-argentina
+fossil_material:
+  holotype: MCF-PVPH 77, Portezuelo Formation (Coniacian), Neuquén, Argentina; found in January 1996.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Might be a junior subjective synonym of Unenlagia.
+images:
+- kind: skeletal
+  file: Neuquenraptor argentinus by PaleoGeek.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Neuquenraptor_argentinus_by_PaleoGeek.png/960px-Neuquenraptor_argentinus_by_PaleoGeek.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Neuquenraptor_argentinus_by_PaleoGeek.png
+  artist: PaleoGeekSquared
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-03-28'
+  caption: Skeletal reconstruction
+  width: 3712
+  height: 1809
+  review: unreviewed
+- kind: fossil
+  file: Neuquenraptor toe bones.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/87/Neuquenraptor_toe_bones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Neuquenraptor_toe_bones.jpg
+  artist: Federico Brissón Egli, Alexis M. Aranciaga Rolando, Federico L. Agnolín, and Fernando E. Novas
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2017'
+  caption: Toe bones
+  width: 1317
+  height: 962
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: F. E. Novas and D. Pol. 2005. New evidence on deinonychosaurian dinosaurs from the Late Cretaceous of Patagonia.
+    Nature 433:858-861
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neuquenraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neuquenraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neuquenraptor”. English Wikipedia, revision 1362774647.
+  url: https://en.wikipedia.org/w/index.php?title=Neuquenraptor&oldid=1362774647
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Possible junior synonym of Unenlagia.]
+  reviews: []

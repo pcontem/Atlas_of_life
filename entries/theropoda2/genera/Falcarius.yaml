@@ -1,0 +1,115 @@
+name: Falcarius
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Kirkland et al. 2005
+type_species: Falcarius utahensis
+type_species_note: ''
+summary: Early therizinosaur from the Early Cretaceous Cedar Mountain Formation of Utah, known from many individuals.
+size:
+  length_m: [4, 4]
+  note: ''
+age:
+  first_ma: 143.1
+  last_ma: 132.6
+  early_interval: Berriasian
+  late_interval: Valanginian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Falcarius utahensis
+  authority: Kirkland et al. 2005
+  first_ma: 143.1
+  last_ma: 132.6
+  interval: Berriasian–Valanginian
+  reference: original description
+formations:
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Yellow Cat]
+  country: United States
+  regions: [Utah]
+  interval: Berriasian–Valanginian
+  occurrences: 2
+  ma: [132.6, 143.1]
+  id: cedar-mountain-united-states
+fossil_material:
+  holotype: Specimen from the Cedar Mountain Formation, Utah (Kirkland et al. 2005).
+  material: Multiple specimens of many individuals from bonebeds, ranging from juveniles to adults; a second species
+    was named later.
+  completeness: multiple
+  exceptional: ''
+biology: A bipedal herbivore with a small head and long neck and tail; its description clarified the early evolution
+  of therizinosaurs from carnivorous ancestors.
+images:
+- kind: life
+  file: Falcarius Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Falcarius_Restoration.png/960px-Falcarius_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Falcarius_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-01-26'
+  caption: Life restoration
+  width: 5390
+  height: 2538
+  review: unreviewed
+- kind: fossil
+  file: Falcarius spp. (skull overviews).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Falcarius_spp._%28skull_overviews%29.png/960px-Falcarius_spp._%28skull_overviews%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Falcarius_spp._(skull_overviews).png
+  artist: W. J. Freimuth, J. R. Lively, L. E. Zanno
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-09-30'
+  caption: Skull bones of Falcarius species
+  width: 1757
+  height: 1895
+  review: unreviewed
+- kind: fossil
+  file: Falcarius spp. (select postcrania).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Falcarius_spp._%28select_postcrania%29.png/960px-Falcarius_spp._%28select_postcrania%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Falcarius_spp._(select_postcrania).png
+  artist: W. J. Freimuth, J. R. Lively, L. E. Zanno
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-09-30'
+  caption: Selected postcranial bones
+  width: 1715
+  height: 1985
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e/vector.svg
+  png: https://images.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e/raster/512x221.png
+  page: https://www.phylopic.org/images/e648ef93-d32b-44a6-8e16-acd58ba1bf6e
+  attribution: Scott Hartman
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Falcarius utahensis
+  matched: Falcarius
+  genus_level: true
+sources:
+- kind: original
+  text: J. I. Kirkland, L. E. Zanno, and S. D. Sampson, J. M. Clark, D. D. DeBlieux. 2005. A primitive therizinosauroid
+    dinsoaur from the Early Cretaceous of Utah. Nature 435(3468):84-87
+- kind: literature
+  text: 'Zanno, L. E. 2010. Osteology of ''''Falcarius utahensis'''' (Dinosauria: Theropoda): characterizing the
+    anatomy of basal therizinosaurs. Zoological Journal of the Linnean Society 158(1): 196–230. doi:10.1111/j.1096-3642.2009.00464.x'
+- kind: literature
+  text: 'Zanno, L. E.; Erickson, G. M. 2006. Ontogeny and life history of Falcarius utahensis, a primitive therizinosauroid
+    from the Early Cretaceous of Utah. Journal of Vertebrate Paleontology 26(supp. 3): 143A. doi:10.1080/02724634.2006.10010069'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Falcarius (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Falcarius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Falcarius”. English Wikipedia, revision 1385330323.
+  url: https://en.wikipedia.org/w/index.php?title=Falcarius&oldid=1385330323
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'The second species F. suarezarum (formerly Geminiraptor, Freimuth et al. 2026) is not yet in the PBDB species
+    list: add it.'
+  reviews: []

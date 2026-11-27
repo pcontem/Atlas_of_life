@@ -1,0 +1,86 @@
+name: Eshanosaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: true
+placement_note: Described as the earliest therizinosaur (Xu et al. 2001); Barrett (2009) argued it may be a sauropodomorph.
+authority: Xu et al. 2001
+type_species: Eshanosaurus deguchiianus
+type_species_note: Taxobox of Wikipedia revision 1388156737.
+summary: Early Jurassic dinosaur from Yunnan known only from a lower jaw, possibly the oldest therizinosaur.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 201.4
+  last_ma: 199.5
+  early_interval: Hettangian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eshanosaurus deguchiianus
+  authority: Xu et al. 2001
+  first_ma: 201.4
+  last_ma: 199.5
+  interval: Hettangian
+  reference: original description
+formations:
+- formation: Lufeng
+  group: ''
+  members: [Shawan]
+  country: China
+  regions: [Yunnan]
+  interval: Hettangian
+  occurrences: 1
+  ma: [199.5, 201.4]
+  id: lufeng-china
+fossil_material:
+  holotype: IVPP V11579, three fragments of a left lower jaw with teeth, Dull Purplish Beds, Lower Lufeng Formation,
+    Yunnan, China.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its teeth resemble those of therizinosaurs, but their sauropodomorph-like features have made its identity
+  controversial.
+images:
+- kind: fossil
+  file: Eshanosaurus IVPP V11579.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Eshanosaurus_IVPP_V11579.png/960px-Eshanosaurus_IVPP_V11579.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eshanosaurus_IVPP_V11579.png
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Holotype IVPP V11579
+  width: 3918
+  height: 2058
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/vector.svg
+  png: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/raster/512x302.png
+  page: https://www.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Suzhousaurus megatherioides
+  matched: Therizinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu, X. Zhao, and J. M. Clark. 2001. A new therizinosaur from the Lower Jurassic Lower Lufeng Formation
+    of Yunnan, China. Journal of Vertebrate Paleontology 21(3):477-483
+- kind: literature
+  text: 'Barrett, P. M. 2009. The affinities of the enigmatic dinosaur Eshanosaurus deguchiianus from the Early
+    Jurassic of Yunnan Province, People''s Republic of China. Palaeontology 52(4): 681−688. doi:10.1111/j.1475-4983.2009.00887.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eshanosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eshanosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eshanosaurus”. English Wikipedia, revision 1388156737.
+  url: https://en.wikipedia.org/w/index.php?title=Eshanosaurus&oldid=1388156737
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

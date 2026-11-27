@@ -1,0 +1,95 @@
+name: Dineobellator
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Jasinski et al. 2020
+type_species: Dineobellator notohesperus
+type_species_note: Taxobox of Wikipedia revision 1331136486.
+summary: Dromaeosaurid from the Maastrichtian Ojo Alamo Formation (Naashoibito Member) of New Mexico known from
+  a partial skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dineobellator notohesperus
+  authority: Jasinski et al. 2020
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Ojo Alamo
+  group: ''
+  members: [Naashoibito]
+  country: United States
+  regions: [New Mexico]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: ojo-alamo-united-states
+fossil_material:
+  holotype: A partial skeleton, Naashoibito Member, Ojo Alamo Formation, New Mexico; reported in 2011 and excavated
+    further in 2015–2016.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Its name means 'Diné warrior'.
+images:
+- kind: life
+  file: Dineobellator notohesperus NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/4/48/Dineobellator_notohesperus_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dineobellator_notohesperus_NT.jpg
+  artist: Nobu Tamura
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2020'
+  caption: Life restoration
+  width: 766
+  height: 456
+  review: unreviewed
+- kind: skeletal
+  file: Dineobellator skeleton.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/03/Dineobellator_skeleton.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dineobellator_skeleton.png
+  artist: Steven E. Jasinski, Robert M. Sullivan & Peter Dodson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-03-26'
+  caption: Skeletal reconstruction
+  width: 1485
+  height: 606
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: S. E. Jasinski, R. M. Sullivan, and P. Dodson. 2020. Dromaeosaurid dinosaur (Theropoda, Dromaeosauridae)
+    from New Mexico and biodiversity of dromaeosaurids at the end of the Cretaceous. Scientific Reports 10(5105):1-10
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dineobellator (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dineobellator
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dineobellator”. English Wikipedia, revision 1331136486.
+  url: https://en.wikipedia.org/w/index.php?title=Dineobellator&oldid=1331136486
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

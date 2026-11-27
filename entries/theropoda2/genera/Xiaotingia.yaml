@@ -1,0 +1,95 @@
+name: Xiaotingia
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: PBDB places it in Troodontidae; the cited Wikipedia revision calls it a paravian, possibly an anchiornithid.
+authority: Xu et al. 2011
+type_species: Xiaotingia zhengi
+type_species_note: Taxobox of Wikipedia revision 1387577529.
+summary: Paravian from the Jurassic of western Liaoning, China, possibly an anchiornithid, known from an almost
+  complete skeleton.
+size:
+  length_m: [0.6, 0.6]
+  mass_kg: [0.82, 0.82]
+  note: ''
+age:
+  first_ma: 168.2
+  last_ma: 152.21
+  early_interval: Bathonian
+  late_interval: Kimmeridgian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xiaotingia zhengi
+  authority: Xu et al. 2011
+  first_ma: 168.2
+  last_ma: 152.21
+  interval: Bathonian–Kimmeridgian
+  reference: original description
+formations:
+- formation: Tiaojishan
+  group: ''
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Late Bathonian–Early Kimmeridgian
+  occurrences: 1
+  ma: [152.21, 168.2]
+  id: tiaojishan-china
+fossil_material:
+  holotype: STM 27-2, an articulated and almost complete skeleton including the skull, western Liaoning, China.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: Long feathers on the femur (55 mm).
+biology: Had long forelimbs like Archaeopteryx; its femur (84 mm) was longer than its humerus (71 mm).
+images:
+- kind: fossil
+  file: Xiaotingia fossil.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Xiaotingia_fossil.jpg/960px-Xiaotingia_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Xiaotingia_fossil.jpg
+  artist: Bruce McAdam
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2011-10-10'
+  caption: Holotype
+  width: 3888
+  height: 2007
+  review: unreviewed
+- kind: skeletal
+  file: Xiaotingia by Qilong.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Xiaotingia_by_Qilong.jpg/960px-Xiaotingia_by_Qilong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Xiaotingia_by_Qilong.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011'
+  caption: Skeletal reconstruction
+  width: 2000
+  height: 1333
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Xiaotingia
+  genus_level: true
+sources:
+- kind: original
+  text: X. Xu, H. You, and K. Du, F. Han. 2011. An Archaeopteryx-like theropod from China and the origin of Avialae.
+    Nature 475:465-470
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xiaotingia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xiaotingia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xiaotingia”. English Wikipedia, revision 1387577529.
+  url: https://en.wikipedia.org/w/index.php?title=Xiaotingia&oldid=1387577529
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

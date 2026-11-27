@@ -1,0 +1,107 @@
+name: Halszkaraptor
+rank: genus
+parent: halszkaraptorinae
+incertae_sedis: false
+placement_note: ''
+authority: Cau et al. 2017
+type_species: Halszkaraptor escuilliei
+type_species_note: Taxobox of Wikipedia revision 1381259665.
+summary: Long-necked, waterfowl-like dromaeosaurid from the Djadokhta Formation of Mongolia, possibly semiaquatic.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Halszkaraptor escuilliei
+  authority: Cau et al. 2017
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: [Bayn Dzak]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: MPC D-102/109, Bayn Dzak Member, Djadokhta Formation, Mongolia; studied with synchrotron scanning.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its bones were compared with those of crocodilians and aquatic birds, suggesting an amphibious lifestyle
+  (Cau et al. 2017).
+images:
+- kind: life
+  file: Halszkaraptor Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Halszkaraptor_Restoration.png/960px-Halszkaraptor_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Halszkaraptor_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-01-08'
+  caption: Life restoration
+  width: 5476
+  height: 3098
+  review: unreviewed
+- kind: fossil
+  file: Halszkaraptor escuilliei holotype.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8c/Halszkaraptor_escuilliei_holotype.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Halszkaraptor_escuilliei_holotype.png
+  artist: Andrea Cau, Vincent Beyrand, Rinchen Barsbold, Khishigjav Tsogtbaatar & Pascal Godefroit
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-07-19'
+  caption: Holotype
+  width: 1239
+  height: 720
+  review: unreviewed
+- kind: skeletal
+  file: Halszkaraptor escuilliei skeletal.png
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Halszkaraptor_escuilliei_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Halszkaraptor_escuilliei_skeletal.png
+  artist: Andrea Cau, Vincent Beyrand, Rinchen Barsbold, Khishigjav Tsogtbaatar & Pascal Godefroit
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-07-19'
+  caption: Skeletal reconstruction
+  width: 1533
+  height: 1202
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Cau, V. Beyrand, and D. F. A. E. Voeten, V. Fernandez, P. Tafforeau, K. Stein, R. Barsbold, K. Tsogtbaatar,
+    P. J. Currie, P. Godefroit. 2017. Synchrotron scanning reveals amphibious ecomorphology in a new clade of bird-like
+    dinosaurs. Nature
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Halszkaraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Halszkaraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Halszkaraptor”. English Wikipedia, revision 1381259665.
+  url: https://en.wikipedia.org/w/index.php?title=Halszkaraptor&oldid=1381259665
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

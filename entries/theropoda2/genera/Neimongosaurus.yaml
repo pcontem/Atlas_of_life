@@ -1,0 +1,104 @@
+name: Neimongosaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Zhang et al. 2001
+type_species: Neimongosaurus yangi
+type_species_note: Taxobox of Wikipedia revision 1370055829.
+summary: Long-necked therizinosaurid from the Late Cretaceous Iren Dabasu Formation of Inner Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 72.2
+  early_interval: Santonian
+  late_interval: Campanian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Neimongosaurus yangi
+  authority: Zhang et al. 2001
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Iren Dabasu
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: iren-dabasu-china
+- formation: Bostobe
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Qyzylorda]
+  interval: Santonian–Early Campanian
+  occurrences: 1
+  ma: [72.2, 85.7]
+  id: bostobe-kazakhstan
+fossil_material:
+  holotype: LH V0001, braincase, front of the right lower jaw, a nearly complete vertebral column with 15 cervical,
+    4 dorsal and 22 caudal vertebrae, furcula and both scapulocoracoids, Iren Dabasu Formation.
+  material: Two specimens found in 1999.
+  completeness: partial
+  exceptional: ''
+biology: A herbivore with a long neck.
+images:
+- kind: fossil
+  file: Neimongosaurus yang mandible.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Neimongosaurus_yang_mandible.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Neimongosaurus_yang_mandible.jpg
+  artist: Lindsay E. Zanno​, Khishigjav Tsogtbaatar, Tsogtbaatar Chinzorig, Terry A. Gates
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2016'
+  caption: Lower jaw
+  width: 1080
+  height: 700
+  review: unreviewed
+- kind: skeletal
+  file: Neimongosaurus yangi.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Neimongosaurus_yangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Neimongosaurus_yangi.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011'
+  caption: Skeletal reconstruction
+  width: 197
+  height: 101
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/vector.svg
+  png: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/raster/512x302.png
+  page: https://www.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177
+  attribution: FunkMonk
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Suzhousaurus megatherioides
+  matched: Therizinosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Zhang, X.-H.; Xu, X.; Zhao, Z.-J.; Sereno, P. C.; Kuang, X.-W.; Tan, L. 2001. A long-necked therizinosauroid
+    dinosaur from the Upper Cretaceous Iren Dabasu Formation of Nei Mongol, People''s Republic of China. Vertebrata
+    PalAsiatica 39(4): 282–290.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neimongosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neimongosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neimongosaurus”. English Wikipedia, revision 1370055829.
+  url: https://en.wikipedia.org/w/index.php?title=Neimongosaurus&oldid=1370055829
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

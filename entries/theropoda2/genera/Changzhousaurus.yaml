@@ -1,0 +1,96 @@
+name: Changzhousaurus
+rank: genus
+parent: paraves
+incertae_sedis: true
+placement_note: Described in 2026 as a paravian; its position within Paraves is not settled in the sources used.
+authority: Xu 2026
+type_species: Changzhousaurus sinensis
+type_species_note: The only valid species listed by PBDB.
+summary: Paravian from the Aptian Jiufotang Formation of Liaoning known from a nearly complete skeleton with extensive
+  feathers.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Changzhousaurus sinensis
+  authority: Xu 2026
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A nearly complete articulated skeleton with feather traces on part and counterpart slabs, Jiufotang
+    Formation, Lamadong, Jianchang, Liaoning, China.
+  material: Only the holotype.
+  completeness: near-complete
+  exceptional: Extensive feather traces.
+biology: Named in 2026 (Xu 2026).
+images:
+- kind: fossil
+  file: Changzhousaurus TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Changzhousaurus_TD.png/960px-Changzhousaurus_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Changzhousaurus_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-06-27'
+  caption: Holotype
+  width: 2800
+  height: 1200
+  review: unreviewed
+- kind: life
+  file: Changzhousaurus sinensis life reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Changzhousaurus_sinensis_life_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Changzhousaurus_sinensis_life_reconstruction.png
+  artist: User Lai bou shi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-22'
+  caption: Life restoration
+  width: 1200
+  height: 800
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/vector.svg
+  png: https://images.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067/raster/512x294.png
+  page: https://www.phylopic.org/images/e57f6f0a-4a46-4e37-9752-9e10d042c067
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Jinfengopteryx elegans
+  matched: Paraves
+  genus_level: false
+sources:
+- kind: original
+  text: X. Xu. 2026. A new feathered dinosaur from Early Cretaceous of northern China highlighting the complexity
+    of early pennaraptoran evolution and comments on several relevant conceptual and methodological issues. Vertebrata
+    Palasiatica
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Changzhousaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Changzhousaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Changzhousaurus”. English Wikipedia, revision 1361191985.
+  url: https://en.wikipedia.org/w/index.php?title=Changzhousaurus&oldid=1361191985
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -3,18 +3,18 @@ name: Minhe
 rank: formation
 group: ''
 country: China
-regions: [Gansu]
+regions: [Gansu, Nei Mongol]
 location:
-  lat: 39.817
-  lng: 98.3
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 40.659
+  lng: 102.641
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 83.6
   last_ma: 66.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lacustrine indet.]
-lithology: [claystone]
-pbdb_collections: ['50727']
+environment: [terrestrial indet., lacustrine indet.]
+lithology: [sandstone, claystone]
+pbdb_collections: ['50727', '50729']
 includes: []
 summary: ''
 paleoenvironment: ''

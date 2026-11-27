@@ -1,0 +1,108 @@
+name: Therizinosaurus
+rank: genus
+parent: therizinosauria
+incertae_sedis: false
+placement_note: ''
+authority: Maleev 1954
+type_species: Therizinosaurus cheloniformis
+type_species_note: Taxobox of Wikipedia revision 1388162968.
+summary: Very large therizinosaurid from the Maastrichtian Nemegt Formation of Mongolia with the longest hand claws
+  of any known land animal.
+size:
+  length_m: [10, 10]
+  mass_kg: [5000, 5000]
+  note: About 10 m and over 5 t (Therizinosauria article of the cited revision).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Therizinosaurus cheloniformis
+  authority: Maleev 1954
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: Hand claws found in 1948 by a Mongolian expedition, Nemegt Formation, Mongolia (Maleev 1954).
+  material: Mostly fore- and hind-limb bones and claws.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its stiff, elongated hand claws exceeded 50 cm and were curved only at the tips; the feet had four weight-bearing
+  toes.
+images:
+- kind: life
+  file: Therizinosaurus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Therizinosaurus_Restoration.png/960px-Therizinosaurus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Therizinosaurus_Restoration.png
+  artist: PaleoNeolitic
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-05-30'
+  caption: Life restoration
+  width: 5730
+  height: 3508
+  review: unreviewed
+- kind: fossil
+  file: Therizinosaurus PIN 551-483 unguals.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/9b/Therizinosaurus_PIN_551-483_unguals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Therizinosaurus_PIN_551-483_unguals.jpg
+  artist: Pavel Bochkov
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2009-04-25'
+  caption: Hand unguals PIN 551-483
+  width: 859
+  height: 753
+  review: unreviewed
+- kind: skeletal
+  file: Therizinosaurus known material.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a3/Therizinosaurus_known_material.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Therizinosaurus_known_material.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011-10-12'
+  caption: Known material
+  width: 278
+  height: 209
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2f4b561d-d659-4195-8933-d4ba0203c61c/vector.svg
+  png: https://images.phylopic.org/images/2f4b561d-d659-4195-8933-d4ba0203c61c/raster/512x376.png
+  page: https://www.phylopic.org/images/2f4b561d-d659-4195-8933-d4ba0203c61c
+  attribution: Martin Kevil
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Therizinosaurus cheloniformis
+  matched: Therizinosaurus
+  genus_level: true
+sources:
+- kind: original
+  text: E. A. Maleev. 1954. Noviy cherepachoobrazhniy yashcher v Mongolii [New tortoise-like saurian from Mongolia].
+    Priroda 1954(3):106-108
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Therizinosaurus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Therizinosaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Therizinosaurus”. English Wikipedia, revision 1388162968.
+  url: https://en.wikipedia.org/w/index.php?title=Therizinosaurus&oldid=1388162968
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

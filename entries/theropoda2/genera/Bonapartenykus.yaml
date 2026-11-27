@@ -1,0 +1,103 @@
+name: Bonapartenykus
+rank: genus
+parent: alvarezsauria
+incertae_sedis: false
+placement_note: ''
+authority: Agnolin et al. 2012
+type_species: Bonapartenykus ultimus
+type_species_note: The only valid species listed by PBDB.
+summary: The largest known alvarezsaurid, from the Late Cretaceous Allen Formation of Río Negro, Argentina, found
+  with eggs.
+size:
+  length_m: [2.5, 3.3]
+  mass_kg: [43, 72]
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Bonapartenykus ultimus
+  authority: Agnolin et al. 2012
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Allen
+  group: Malargüe
+  members: [Lower, Upper]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian–Early Maastrichtian
+  occurrences: 3
+  ma: [66.0, 72.2]
+  id: allen-argentina
+fossil_material:
+  holotype: MPCA 1290, a partial skeleton including a dorsal vertebra, both scapulocoracoids, left femur and tibia,
+    Allen Formation, Río Negro, Argentina.
+  material: Only the holotype, found close to two eggs and eggshell clusters of the oogenus Arriagadoolithus.
+  completeness: partial
+  exceptional: Associated eggs and eggshell.
+biology: The association with eggs suggests the eggs belonged to this animal; it was redescribed with 3D models
+  in 2025–2026 (Meso et al.).
+images:
+- kind: life
+  file: Bonapartenykus (life restoration).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Bonapartenykus_%28life_restoration%29.png/960px-Bonapartenykus_%28life_restoration%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bonapartenykus_(life_restoration).png
+  artist: Abel G. Montes
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-30'
+  caption: Life restoration
+  width: 2150
+  height: 1567
+  review: unreviewed
+- kind: skeletal
+  file: MPCN-PV 738 skeletal.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/92/MPCN-PV_738_skeletal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:MPCN-PV_738_skeletal.png
+  artist: Jorge Gustavo Meso, Jonah Nathaniel Choiniere, Mattia Antonio Baiano, Stephen Louis Brusatte, Juan Ignacio
+    Canale, Leonardo Salgado, Diego Pol, Michael Pittman
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-01-30'
+  caption: Skeletal reconstruction of the referred specimen MPCN-PV 738
+  width: 1184
+  height: 617
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/vector.svg
+  png: https://images.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908/raster/512x269.png
+  page: https://www.phylopic.org/images/bd9a5711-7ae8-4c4f-b9b5-a5d0c2ec6908
+  attribution: Tomopteryx
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Bannykus wulatensis
+  matched: Alvarezsauroidea
+  genus_level: false
+sources:
+- kind: original
+  text: F. L. Agnolin, J. E. Powell, and F. E. Novas, M. Kundrát. 2012. New alvarezsaurid (Dinosauria, Theropoda)
+    from uppermost Cretaceous of north-western Patagonia with associated eggs. Cretaceous Research 35(1):33-56
+- kind: literature
+  text: 'Meso, J. G.; Choiniere, J. N.; Baiano, M. A.; Brusatte, S. L.; Canale, J. I.; Salgado, L.; Pol, D.; Pittman,
+    M. 2025. New information on ''''Bonapartenykus'''' (Alvarezsauridae: Theropoda) from the Allen Formation (middle
+    Campanian-lower Maastrichtian) of Río Negro Province, Patagonia, Argentina clarifies the Patagonykinae body
+    plan. PLOS ONE 20(1). doi:10.1371/journal.pone.0308366'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bonapartenykus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bonapartenykus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bonapartenykus”. English Wikipedia, revision 1384646226.
+  url: https://en.wikipedia.org/w/index.php?title=Bonapartenykus&oldid=1384646226
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

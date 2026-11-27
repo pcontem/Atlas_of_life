@@ -1,0 +1,81 @@
+name: Graciliraptor
+rank: genus
+parent: microraptoria
+incertae_sedis: false
+placement_note: ''
+authority: Xu and Wang 2004
+type_species: Graciliraptor lujiatunensis
+type_species_note: Taxobox of Wikipedia revision 1305922178.
+summary: Lightly built microraptorian from the Early Cretaceous Yixian Formation of Liaoning, China.
+size:
+  length_m: [0.9, 1]
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Graciliraptor lujiatunensis
+  authority: Xu and Wang 2004
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: IVPP V 13474, Beipiao, Liaoning, China.
+  material: Only the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Extremely lightly built, with very long middle tail vertebrae and lower leg bones; its femur is 13 cm long.
+images:
+- kind: skeletal
+  file: Graciliraptor lujiatunensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Graciliraptor_lujiatunensis.jpg/960px-Graciliraptor_lujiatunensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Graciliraptor_lujiatunensis.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2010'
+  caption: Skeletal reconstruction
+  width: 2400
+  height: 1503
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'X. Xu and X.-L. Wang. 2004. A new dromaeosaur (Dinosauria: Theropoda) from the Early Cretaceous Yixian
+    Formation of western Liaoning. Vertebrata PalAsiatica 42(2):111-119'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Graciliraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Graciliraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Graciliraptor”. English Wikipedia, revision 1305922178.
+  url: https://en.wikipedia.org/w/index.php?title=Graciliraptor&oldid=1305922178
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

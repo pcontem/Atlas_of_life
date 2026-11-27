@@ -1,0 +1,150 @@
+name: Deinonychus
+rank: genus
+parent: eudromaeosauria
+incertae_sedis: false
+placement_note: ''
+authority: Ostrom 1969
+type_species: Deinonychus antirrhopus
+type_species_note: Taxobox of Wikipedia revision 1386293262.
+summary: Dromaeosaurid from the Early Cretaceous of North America that could grow up to 3.4 m long.
+size:
+  length_m: [3.4, 3.4]
+  note: ''
+age:
+  first_ma: 143.1
+  last_ma: 93.9
+  early_interval: Berriasian
+  late_interval: Cenomanian
+  pbdb_occurrences: 47
+  note: ''
+species:
+- name: Deinonychus antirrhopus
+  authority: (Ostrom 1969)
+  first_ma: 121.4
+  last_ma: 93.9
+  interval: Aptian–Cenomanian
+  reference: original description
+formations:
+- formation: Cloverly
+  group: ''
+  members: [Himes, Little Sheep Mudstone]
+  country: United States
+  regions: [Montana, Wyoming]
+  interval: Aptian–Early Cenomanian
+  occurrences: 38
+  ma: [93.9, 121.4]
+  id: cloverly-united-states
+- formation: Antlers
+  group: Trinity
+  members: [middle]
+  country: United States
+  regions: [Oklahoma]
+  interval: Aptian–Albian
+  occurrences: 4
+  ma: [100.5, 121.4]
+  id: antlers-united-states
+- formation: Cedar Mountain
+  group: Dakota
+  members: [Mussentuchit, Ruby Ranch]
+  country: United States
+  regions: [Utah]
+  interval: Aptian–Early Cenomanian
+  occurrences: 2
+  ma: [93.9, 121.4]
+  id: cedar-mountain-united-states
+- formation: Sousa
+  group: Rio do Peixe
+  members: []
+  country: Brazil
+  regions: [Paraíba]
+  interval: Berriasian–Hauterivian
+  occurrences: 1
+  ma: [125.77, 143.1]
+  id: sousa-brazil
+- formation: Holly Creek
+  group: Trinity
+  members: []
+  country: United States
+  regions: [Arkansas]
+  interval: Albian
+  occurrences: 1
+  ma: [100.5, 113.2]
+  id: holly-creek-united-states
+- formation: Arundel Clay
+  group: Potomac
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: arundel-clay-united-states
+fossil_material:
+  holotype: Specimen from the Cloverly Formation (Ostrom 1969); YPM 5205 preserves a large, strongly curved claw.
+  material: Several specimens.
+  completeness: multiple
+  exceptional: ''
+biology: Ostrom reconstructed the horny sheath of its sickle claw at over 120 mm long; as in other dromaeosaurids,
+  its tail vertebrae were stiffened by long processes.
+images:
+- kind: life
+  file: Deinonychus Restoration.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Deinonychus_Restoration.png/960px-Deinonychus_Restoration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinonychus_Restoration.png
+  artist: Fred Wierum
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-10-08'
+  caption: Life restoration
+  width: 3808
+  height: 2157
+  review: unreviewed
+- kind: skeletal
+  file: Deinonychus FMNH.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Deinonychus_FMNH.jpg/960px-Deinonychus_FMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinonychus_FMNH.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-08-11'
+  caption: Mount at the Field Museum
+  width: 2592
+  height: 1284
+  review: unreviewed
+- kind: fossil
+  file: Deinonychus antirrhopus hand.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Deinonychus_antirrhopus_hand.jpg/960px-Deinonychus_antirrhopus_hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Deinonychus_antirrhopus_hand.jpg
+  artist: James St. John
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2008-09-01'
+  caption: Hand
+  width: 1755
+  height: 1635
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/7c86f479-5d3a-40b5-b6ec-ed291da2f8f9/vector.svg
+  png: https://images.phylopic.org/images/7c86f479-5d3a-40b5-b6ec-ed291da2f8f9/raster/512x432.png
+  page: https://www.phylopic.org/images/7c86f479-5d3a-40b5-b6ec-ed291da2f8f9
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Deinonychus antirrhopus
+  matched: Deinonychus
+  genus_level: true
+sources:
+- kind: original
+  text: J. H. Ostrom. 1969. A new theropod dinosaur from the Lower Cretaceous of Montana. Postilla 128:1-17
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Deinonychus (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Deinonychus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Deinonychus”. English Wikipedia, revision 1386293262.
+  url: https://en.wikipedia.org/w/index.php?title=Deinonychus&oldid=1386293262
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

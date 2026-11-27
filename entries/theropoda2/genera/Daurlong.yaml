@@ -1,0 +1,107 @@
+name: Daurlong
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2022
+type_species: Daurlong wangi
+type_species_note: The only valid species listed by PBDB.
+summary: Dromaeosaurid from the Aptian Longjiang Formation of Inner Mongolia with the first preserved intestinal
+  region in a dromaeosaurid.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 119.57
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Daurlong wangi
+  authority: Wang et al. 2022
+  first_ma: 121.4
+  last_ma: 119.57
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Longjiang
+  group: ''
+  members: []
+  country: China
+  regions: [Inner Mongolia]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: longjiang-china
+fossil_material:
+  holotype: A nearly complete specimen with near-perfectly articulated skull, Longjiang Formation, Inner Mongolia,
+    China (Wang et al. 2022).
+  material: Only the holotype; a partial frog skeleton is preserved on the same slab.
+  completeness: near-complete
+  exceptional: Preserved intestinal region.
+biology: Its abdominal region preserves the first known intestinal tract of a dromaeosaurid.
+images:
+- kind: fossil
+  file: Daurlong holotype.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Daurlong_holotype.jpg/960px-Daurlong_holotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Daurlong_holotype.jpg
+  artist: X. Wang, A. Cau, B. Guo, F. Ma, G. Qing, & Y. Liu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-11-19'
+  caption: Holotype
+  width: 1654
+  height: 1432
+  review: unreviewed
+- kind: fossil
+  file: Daurlong abdominal region.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Daurlong_abdominal_region.jpg/960px-Daurlong_abdominal_region.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Daurlong_abdominal_region.jpg
+  artist: X. Wang, A. Cau, B. Guo, F. Ma, G. Qing, & Y. Liu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-11-19'
+  caption: Abdominal region
+  width: 3438
+  height: 4000
+  review: unreviewed
+- kind: skeletal
+  file: Daurlong skeletal reconstruction.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f9/Daurlong_skeletal_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Daurlong_skeletal_reconstruction.jpg
+  artist: X. Wang, A. Cau, B. Guo, F. Ma, G. Qing, & Y. Liu
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2022-11-19'
+  caption: Skeletal reconstruction
+  width: 1300
+  height: 545
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/b625897e-55a9-4a52-82d4-74cb202be169/vector.svg
+  png: https://images.phylopic.org/images/b625897e-55a9-4a52-82d4-74cb202be169/raster/512x192.png
+  page: https://www.phylopic.org/images/b625897e-55a9-4a52-82d4-74cb202be169
+  attribution: Ivan Iofrida
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Daurlong wangi
+  matched: Daurlong
+  genus_level: true
+sources:
+- kind: original
+  text: X. Wang, A. Cau, and B. Guo, F. Ma, G. Qing, Y. Liu . 2022. Intestinal preservation in a birdlike dinosaur
+    supports conservatism in digestive canal evolution among theropods. Scientific Reports 12(1):19965:1-10
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Daurlong (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Daurlong
+- kind: encyclopedia
+  text: Wikipedia contributors. “Daurlong”. English Wikipedia, revision 1367633325.
+  url: https://en.wikipedia.org/w/index.php?title=Daurlong&oldid=1367633325
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,104 @@
+name: Nuthetes
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: true
+placement_note: Known only from teeth and jaw fragments; considered either a dromaeosaurid or a tyrannosauroid (cited
+  Wikipedia revision); possibly an early eudromaeosaur (Eudromaeosauria revision).
+authority: Owen 1854
+type_species: Nuthetes destructor
+type_species_note: The only valid species listed by PBDB.
+summary: Coelurosaur from the Berriasian of England and France known from teeth and jaw fragments, one of the first
+  small theropods named.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 143.1
+  last_ma: 137.05
+  early_interval: Berriasian
+  late_interval: ''
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Nuthetes destructor
+  authority: (Owen 1854)
+  first_ma: 143.1
+  last_ma: 139.1
+  interval: Berriasian
+  reference: original description
+formations:
+- formation: Lulworth
+  group: Purbeck
+  members: [Worbarrow Tout]
+  country: United Kingdom
+  regions: [England]
+  interval: Early Berriasian–Middle Berriasian
+  occurrences: 4
+  ma: [139.1, 143.1]
+  id: lulworth-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Poitou-Charentes]
+  interval: Early Berriasian–Berriasian
+  occurrences: 2
+  ma: [137.05, 143.1]
+  id:
+  - unnamed-angeac-charente-france
+  - unnamed-cherves-de-cognac-levels-3237-france
+- formation: Unnamed unit
+  group: Purbeck
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Berriasian
+  occurrences: 1
+  ma: [137.05, 143.1]
+  id: purbeck-group-united-kingdom
+fossil_material:
+  holotype: Teeth and jaw fragments from the Cherty Freshwater Member, Lulworth Formation, Dorset, England (Owen
+    1854).
+  material: Teeth and jaw fragments from England and the Angeac-Charente bonebed of France; scutes Owen once referred
+    to it are turtle osteoderms.
+  completeness: fragmentary
+  exceptional: ''
+biology: Known only from its teeth and jaws.
+images:
+- kind: fossil
+  file: Nuthetes.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Nuthetes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Nuthetes.jpg
+  artist: H. Olson
+  license: Public domain
+  license_url: ''
+  date: 1850s date
+  caption: Fossil
+  width: 1489
+  height: 763
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Dromaeosauridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. S. Romer. 1956. Osteology of the Reptiles, University of Chicago Press
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nuthetes (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nuthetes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nuthetes”. English Wikipedia, revision 1362626317.
+  url: https://en.wikipedia.org/w/index.php?title=Nuthetes&oldid=1362626317
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,82 @@
+name: Borogovia
+rank: genus
+parent: troodontidae
+incertae_sedis: false
+placement_note: ''
+authority: Osmolska 1987
+type_species: Borogovia gracilicrus
+type_species_note: Taxobox of Wikipedia revision 1360057988.
+summary: Troodontid from the early Maastrichtian Nemegt Formation of Mongolia known from hind limbs.
+size:
+  length_m: [2, 2]
+  mass_kg: [20, 20]
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Borogovia gracilicrus
+  authority: Osmolska 1987
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: ZPAL MgD-I/174, hind-limb bones found in 1971 at Altan Uul IV, Nemegt Formation, Mongolia.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its tibiotarsi are estimated at about 28 cm long.
+images:
+- kind: fossil
+  file: Borogovia feet.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/73/Borogovia_feet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Borogovia_feet.jpg
+  artist: Halzska Osmólska
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '1987'
+  caption: Feet
+  width: 820
+  height: 653
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: H. Osmolska. 1987. Borogovia gracilicrus gen. et sp. n., a new troodontid dinosaur from the Late Cretaceous
+    of Mongolia. Acta Palaeontologica Polonica 32(1-2):133-150
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Borogovia (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Borogovia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Borogovia”. English Wikipedia, revision 1360057988.
+  url: https://en.wikipedia.org/w/index.php?title=Borogovia&oldid=1360057988
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

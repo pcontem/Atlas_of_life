@@ -1,0 +1,95 @@
+name: Bambiraptor
+rank: genus
+parent: dromaeosauridae
+incertae_sedis: false
+placement_note: ''
+authority: Burnham et al. 2000
+type_species: Bambiraptor feinbergi
+type_species_note: Taxobox of Wikipedia revision 1380222999.
+summary: Small, bird-like dromaeosaurid from the Late Cretaceous of Montana known from a 95% complete juvenile skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bambiraptor feinbergi
+  authority: Burnham et al. 2000
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+fossil_material:
+  holotype: A juvenile skeleton less than 1 m long and about 95% complete, found by Linster on a hilltop in Montana
+    (Burnham et al. 2000).
+  material: Only the holotype.
+  completeness: complete
+  exceptional: ''
+biology: The holotype is a juvenile; its completeness led it to be compared with the Rosetta Stone.
+images:
+- kind: life
+  file: Bambiraptor reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Bambiraptor_reconstruction.jpg/960px-Bambiraptor_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bambiraptor_reconstruction.jpg
+  artist: PaleoEquii
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-05-13'
+  caption: Life restoration
+  width: 2264
+  height: 1186
+  review: unreviewed
+- kind: skeletal
+  file: Bambiraptor feinbergi.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Bambiraptor_feinbergi.jpg/960px-Bambiraptor_feinbergi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Bambiraptor_feinbergi.jpg
+  artist: Jaime A. Headden ( User:Qilong )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008'
+  caption: Skeletal reconstruction
+  width: 1800
+  height: 597
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/vector.svg
+  png: https://images.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69/raster/512x220.png
+  page: https://www.phylopic.org/images/4e1bed5f-86f2-49c6-a9f6-a7814d65ef69
+  attribution: Scott Hartman (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sinornithosaurus millenii
+  matched: Bambiraptor
+  genus_level: true
+sources:
+- kind: original
+  text: 'D. A. Burnham, K. L. Derstler, and P. J. Currie, R. T. Bakker, Z. Zhou, J. H. Ostrom. 2000. Remarkable
+    new birdlike dinosaur (Theropoda: Maniraptora) from the Upper Cretaceous of Montana. University of Kansas Paleontological
+    Contributions 13:1-14'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bambiraptor (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bambiraptor
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bambiraptor”. English Wikipedia, revision 1380222999.
+  url: https://en.wikipedia.org/w/index.php?title=Bambiraptor&oldid=1380222999
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

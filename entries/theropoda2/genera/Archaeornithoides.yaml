@@ -1,0 +1,82 @@
+name: Archaeornithoides
+rank: genus
+parent: maniraptora
+incertae_sedis: true
+placement_note: PBDB places it in Troodontidae; the cited Wikipedia revision calls it only a maniraptoran.
+authority: Elzanowski and Wellnhofer 1992
+type_species: Archaeornithoides deinosauriscus
+type_species_note: Taxobox of Wikipedia revision 1363063753.
+summary: Small maniraptoran from the Djadokhta Formation of Mongolia known from a fragmentary skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Archaeornithoides deinosauriscus
+  authority: Elzanowski and Wellnhofer 1992
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: [Bayn Dzak]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: ZPAL MgD-II/29, a fragmentary skull and lower jaws, Djadokhta Formation, Bayn Dzak, Mongolia; found
+    in 1965.
+  material: Only the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Found by a Polish-Mongolian expedition in 1965 and reported by Andrzej Elzanowski in 1983.
+images:
+- kind: fossil
+  file: Archaeornithoides skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/25/Archaeornithoides_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Archaeornithoides_skull.png
+  artist: IJReid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2016-02-29'
+  caption: Skull
+  width: 1584
+  height: 898
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/vector.svg
+  png: https://images.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28/raster/512x245.png
+  page: https://www.phylopic.org/images/38b3ad22-f475-4fb8-9a5c-7aeb520d3e28
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Xiaotingia zhengi
+  matched: Troodontidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Elzanowski and P. Wellnhofer. 1992. A new link between theropods and birds from the Cretaceous of Mongolia.
+    Nature 359:821-823
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Archaeornithoides (downloaded 2026-11-26).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Archaeornithoides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Archaeornithoides”. English Wikipedia, revision 1363063753.
+  url: https://en.wikipedia.org/w/index.php?title=Archaeornithoides&oldid=1363063753
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
