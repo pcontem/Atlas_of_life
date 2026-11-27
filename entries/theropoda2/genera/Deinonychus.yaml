@@ -99,6 +99,7 @@ images:
   width: 3808
   height: 2157
   review: unreviewed
+  local: img/gallery/Deinonychus_001.webp
 - kind: skeletal
   file: Deinonychus FMNH.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Deinonychus_FMNH.jpg/960px-Deinonychus_FMNH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -111,6 +112,7 @@ images:
   width: 2592
   height: 1284
   review: unreviewed
+  local: img/gallery/Deinonychus_002.webp
 - kind: fossil
   file: Deinonychus antirrhopus hand.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Deinonychus_antirrhopus_hand.jpg/960px-Deinonychus_antirrhopus_hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -123,6 +125,7 @@ images:
   width: 1755
   height: 1635
   review: unreviewed
+  local: img/gallery/Deinonychus_003.webp
 silhouette:
   src: https://images.phylopic.org/images/7c86f479-5d3a-40b5-b6ec-ed291da2f8f9/vector.svg
   png: https://images.phylopic.org/images/7c86f479-5d3a-40b5-b6ec-ed291da2f8f9/raster/512x432.png
@@ -132,6 +135,8 @@ silhouette:
   depicts: Deinonychus antirrhopus
   matched: Deinonychus
   genus_level: true
+  w: 512
+  h: 432
 sources:
 - kind: original
   text: J. H. Ostrom. 1969. A new theropod dinosaur from the Lower Cretaceous of Montana. Postilla 128:1-17

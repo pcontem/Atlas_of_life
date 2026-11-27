@@ -53,6 +53,7 @@ images:
   width: 2075
   height: 2032
   review: unreviewed
+  local: img/gallery/Anchiornis_001.webp
 - kind: fossil
   file: Anchiornis feathers.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Anchiornis_feathers.jpg/960px-Anchiornis_feathers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -65,6 +66,7 @@ images:
   width: 2967
   height: 2736
   review: unreviewed
+  local: img/gallery/Anchiornis_002.webp
 - kind: skeletal
   file: Anchiornis by Qilong.jpg
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Anchiornis_by_Qilong.jpg/960px-Anchiornis_by_Qilong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -77,6 +79,7 @@ images:
   width: 2400
   height: 1090
   review: unreviewed
+  local: img/gallery/Anchiornis_003.webp
 silhouette:
   src: https://images.phylopic.org/images/f55638db-7db5-4214-b720-2766e76372fc/vector.svg
   png: https://images.phylopic.org/images/f55638db-7db5-4214-b720-2766e76372fc/raster/512x277.png
@@ -86,6 +89,8 @@ silhouette:
   depicts: Anchiornis huxleyi
   matched: Anchiornis
   genus_level: true
+  w: 512
+  h: 277
 sources:
 - kind: original
   text: X. Xu, Q. Zhao, and M. Norell, C. Sullivan, D. Hone, G. Erickson, X. Wang, F. Han, Y. Guo. 2009. A new feathered

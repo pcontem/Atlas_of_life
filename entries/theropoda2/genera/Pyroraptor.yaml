@@ -72,6 +72,7 @@ images:
   width: 1950
   height: 960
   review: unreviewed
+  local: img/gallery/Pyroraptor_001.webp
 - kind: skeletal
   file: Pyroraptor olympius running posture.png
   url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Pyroraptor_olympius_running_posture.png/960px-Pyroraptor_olympius_running_posture.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -84,6 +85,7 @@ images:
   width: 2500
   height: 892
   review: unreviewed
+  local: img/gallery/Pyroraptor_002.webp
 silhouette:
   src: https://images.phylopic.org/images/8f985375-9753-423d-8276-c40bcd556e7f/vector.svg
   png: https://images.phylopic.org/images/8f985375-9753-423d-8276-c40bcd556e7f/raster/512x173.png
@@ -93,6 +95,8 @@ silhouette:
   depicts: Pyroraptor olympius
   matched: Pyroraptor
   genus_level: true
+  w: 512
+  h: 173
 sources:
 - kind: original
   text: R. Allain and P. Taquet. 2000. A new genus of Dromaeosauridae (Dinosauria, Theropoda) from the Upper Cretaceous

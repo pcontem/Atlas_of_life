@@ -54,6 +54,7 @@ images:
   width: 4862
   height: 2797
   review: unreviewed
+  local: img/gallery/Enigmosaurus_001.webp
 - kind: fossil
   file: Enigmosaurus.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Enigmosaurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -66,6 +67,7 @@ images:
   width: 726
   height: 814
   review: unreviewed
+  local: img/gallery/Enigmosaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/vector.svg
   png: https://images.phylopic.org/images/583a0a23-e80b-48e8-bd9e-42b38d900177/raster/512x302.png
@@ -75,6 +77,8 @@ silhouette:
   depicts: Suzhousaurus megatherioides
   matched: Therizinosauridae
   genus_level: false
+  w: 512
+  h: 302
 sources:
 - kind: original
   text: R. Barsbold. 1983. Khishchnye dinosavry mela Mongoliy [Carnivorous dinosaurs from the Cretaceous of Mongolia].

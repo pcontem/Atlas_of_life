@@ -73,6 +73,7 @@ images:
   width: 1024
   height: 564
   review: unreviewed
+  local: img/gallery/Incisivosaurus_001.webp
 - kind: fossil
   file: Incisivosaurus gauthieri.jpg
   url: https://upload.wikimedia.org/wikipedia/commons/4/43/Incisivosaurus_gauthieri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
@@ -85,6 +86,7 @@ images:
   width: 487
   height: 464
   review: unreviewed
+  local: img/gallery/Incisivosaurus_002.webp
 silhouette:
   src: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/vector.svg
   png: https://images.phylopic.org/images/1fba44c8-3b43-4097-ac94-d2f1edbe0f23/raster/512x352.png
@@ -94,6 +96,8 @@ silhouette:
   depicts: Similicaudipteryx yixianensis
   matched: Oviraptorosauria
   genus_level: false
+  w: 512
+  h: 352
 sources:
 - kind: original
   text: X. Xu, Y.-N. Cheng, and X.-L. Wang, C.-H. Chang. 2002. An unusual oviraptorosaurian dinosaur from China.
