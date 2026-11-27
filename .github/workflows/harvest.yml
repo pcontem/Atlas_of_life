@@ -30,7 +30,7 @@ jobs:
           if [ -z "$VOL" ]; then
             python3 - >> "$GITHUB_ENV" <<'PY'
           import json; r = json.load(open("data/raw/harvest_request.json"))
-          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}\nOA={str(r.get('oa', False)).lower()}\nPAPERS={str(r.get('papers', False)).lower()}\nRETRY={str(r.get('wiki_retry', False)).lower()}")
+          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}\nOA={str(r.get('oa', False)).lower()}\nPAPERS={str(r.get('papers', False)).lower()}\nRETRY={str(r.get('wiki_retry', False)).lower()}\nEXTRA={r.get('extra', '')}")
           PY
           else
             { echo "VOL=$VOL"; echo "BASE=$BASE"; echo "GENERA=$GENERA"; echo "SHEETS=$SHEETS"; } >> "$GITHUB_ENV"
@@ -44,6 +44,7 @@ jobs:
           [ "$OA" = "true" ] && args+=(--oa)
           [ "$PAPERS" = "true" ] && args+=(--papers)
           [ "$RETRY" = "true" ] && args+=(--wiki-retry)
+          [ -n "$EXTRA" ] && args+=(--extra "$EXTRA")
           python3 -u scripts/fetch/harvest.py "${args[@]}"
       - uses: actions/upload-artifact@v4
         if: always()
@@ -59,7 +60,7 @@ jobs:
           git -c user.name=github-actions[bot] -c user.email=41898283+github-actions[bot]@users.noreply.github.com commit -qm "Contact sheets of $VOL"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "sheets:sheets/$VOL$([ "$OA" = "true" ] && echo -oa)"
       - name: Commit raw data
-        if: always() && (env.SHEETS != 'only' || env.OA == 'true' || env.RETRY == 'true')
+        if: always() && (env.SHEETS != 'only' || env.OA == 'true' || env.RETRY == 'true' || env.EXTRA != '')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

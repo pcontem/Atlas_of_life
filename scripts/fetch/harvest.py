@@ -505,6 +505,41 @@ def main():
             oa_sheets(new, sheet_dir)
         print(f"done: {sum(len(v) for v in new.values())} figures for {len(new)} genera")
         return
+    if "--extra" in a:  # genera that PBDB does not list as valid (Wikipedia-only, backbone nodes): added to data already harvested
+        names = a[a.index("--extra") + 1].split(",")
+        print(f"Extra genera by name: {names}")
+        def load(f, key, default):
+            return json.loads((raw / f).read_text()) if (raw / f).exists() else {"downloaded": TODAY, key: default}
+        wk = wiki(names)
+        wiki_retry(wk)
+        old = load("wiki.json", "pages", {})
+        old["pages"].update(wk)
+        old["extra"] = dict(downloaded=TODAY, genera=names)
+        w("wiki.json", old)
+        files = commons(wk, names, {}, ())
+        oc = load("commons.json", "files", {})
+        for t, f in files.items():
+            if t in oc["files"]:
+                oc["files"][t]["genera"] = sorted(set(oc["files"][t].get("genera", [])) | set(f["genera"]))
+            else:
+                oc["files"][t] = f
+        w("commons.json", oc)
+        pl = load("phylopic.json", "silhouettes", {})
+        pl["silhouettes"].update(phylopic(names, {}))
+        w("phylopic.json", pl)
+        pp = papers(names)
+        op = load("papers.json", "papers", {})
+        op.setdefault("sources", ["OpenAlex", "Europe PMC"])
+        op["papers"].update(pp)
+        w("papers.json", op)
+        oa = oa_figures(names)
+        of = load("oa_figures.json", "figures", {})
+        of["figures"].update(oa)
+        w("oa_figures.json", of)
+        if sheet_dir:
+            sheets(files, names, sheet_dir)
+        print(f"done: {len(names)} extra genera, {len(files)} Commons files, {sum(len(v) for v in pp.values())} articles")
+        return
     if "--wiki-retry" in a:  # second try for wrong Wikipedia pages, on data already harvested
         wf = raw / "wiki.json"
         wk = json.loads(wf.read_text())
