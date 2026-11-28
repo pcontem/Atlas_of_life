@@ -56,15 +56,6 @@ images:
   height: 613
   review: unreviewed
   local: img/gallery/Archaeornithura_001.webp
-silhouette:
-  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
-  png: null
-  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
-  attribution: Matt Martyniuk
-  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
-  depicts: Longicrusavis houi
-  matched: Hongshanornithidae
-  genus_level: false
 sources:
 - kind: original
   text: 'Wang, M.; Zheng, X.; o’Connor, J. K.; Lloyd, G. T.; Wang, X.; Wang, Y.; Zhang, X.; Zhou, Z. 2015. The oldest
@@ -80,5 +71,6 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: []
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
   reviews: []

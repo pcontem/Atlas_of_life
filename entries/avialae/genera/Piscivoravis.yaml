@@ -41,15 +41,6 @@ fossil_material:
   exceptional: ''
 biology: Described as a fish-eater (Zhou et al. 2013).
 images: []
-silhouette:
-  src: https://images.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6/vector.svg
-  png: null
-  page: https://www.phylopic.org/images/abc5027b-855a-43da-a34f-7f1c9fb18ee6
-  attribution: Matt Martyniuk
-  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
-  depicts: Longicrusavis houi
-  matched: Ornithuromorpha
-  genus_level: false
 sources:
 - kind: original
   text: 'Zhou, S.; Zhou, Z.; O''Connor, J. 2013. A new piscivorous ornithuromorph from the Jehol Biota. Historical
@@ -65,5 +56,6 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: []
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
   reviews: []
