@@ -1,0 +1,94 @@
+name: Enaliornis
+rank: genus
+parent: hesperornithes
+incertae_sedis: false
+placement_note: ''
+authority: Seeley 1876
+type_species: Enaliornis barretti
+type_species_note: Taxobox of Wikipedia revision 1384398235.
+summary: The oldest known hesperornithine, from the late Albian to early Cenomanian near Cambridge, England.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 106.3
+  last_ma: 100.5
+  early_interval: Albian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Enaliornis barretti
+  authority: (Seeley 1866)
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: original description
+- name: Enaliornis sedgwicki
+  authority: Seeley 1869
+  first_ma: 106.3
+  last_ma: 100.5
+  interval: Albian
+  reference: ''
+- name: Enaliornis seeleyi
+  authority: Galton and Martin 2002
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Enaliornis segdwicki
+  authority: Seeley 1869
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Gault
+  group: Selborne
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Albian
+  occurrences: 2
+  ma: [100.5, 106.3]
+  id: gault-united-kingdom
+fossil_material:
+  holotype: Isolated bones from near Cambridge, England (see Seeley 1876).
+  material: Isolated bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/vector.svg
+  png: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/raster/512x299.png
+  page: https://www.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362
+  attribution: Scott Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Baptornis advenus
+  matched: Hesperornithiformes
+  genus_level: false
+sources:
+- kind: original
+  text: J. J., Jr. Sepkoski. 2002. A compendium of fossil marine animal genera. Bulletins of American Paleontology
+    363:1-560
+- kind: literature
+  text: 'Bell, A. 2022. The Hesperornithiformes: A Review of the Diversity, Distribution, and Ecology of the Earliest
+    Diving Birds. Diversity 14(4). doi:10.3390/d14040267'
+- kind: literature
+  text: 'Bell, A.; Chiappe, L. M. 2015. A species-level phylogeny of the Cretaceous Hesperornithiformes (Aves: Ornithuromorpha):
+    Implications for body size evolution amongst the earliest diving birds. Journal of Systematic Palaeontology
+    14(3): 239–251. doi:10.1080/14772019.2015.1036141'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Enaliornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Enaliornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Enaliornis”. English Wikipedia, revision 1384398235.
+  url: https://en.wikipedia.org/w/index.php?title=Enaliornis&oldid=1384398235
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

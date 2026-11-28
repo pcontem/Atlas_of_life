@@ -1,0 +1,69 @@
+name: Yuanjiawaornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Hu et al. 2015
+type_species: Yuanjiawaornis viriosus
+type_species_note: Taxobox of Wikipedia revision 1372855987.
+summary: Large enantiornithean from the Yuanjiawa strata of the Jiufotang Formation, Liaoning.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Yuanjiawaornis viriosus
+  authority: Hu et al. 2015
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: PMOL AB00032, a skeleton without the skull, excavated in 2005.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: D. Hu, Y. Liu, and J. Li, X. Xu, L. Hou. 2015. Yuanjiawaornis viriosus, gen. et sp. nov., a large enantiornithine
+    bird from the Lower Cretaceous of western Liaoning, China. Cretaceous Research 55:210-219
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Yuanjiawaornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Yuanjiawaornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yuanjiawaornis”. English Wikipedia, revision 1372855987.
+  url: https://en.wikipedia.org/w/index.php?title=Yuanjiawaornis&oldid=1372855987
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

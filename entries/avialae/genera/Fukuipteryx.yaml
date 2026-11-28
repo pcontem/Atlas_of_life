@@ -1,0 +1,103 @@
+name: Fukuipteryx
+rank: genus
+parent: avialae
+incertae_sedis: true
+placement_note: Imai et al. (2019) recovered it as a non-ornithothoracine avialan with a pygostyle, outside the
+  main pygostylian lineages; its exact position is unresolved.
+authority: Imai et al. 2019
+type_species: Fukuipteryx prima
+type_species_note: The only valid species listed by PBDB.
+summary: Early Cretaceous avialan from the Kitadani Formation of Japan, a primitive bird with a pygostyle.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fukuipteryx prima
+  authority: Imai et al. 2019
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Kitadani
+  group: Tetori
+  members: []
+  country: Japan
+  regions: [Fukui]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: kitadani-japan
+fossil_material:
+  holotype: FPDM-V-9769, a three-dimensionally preserved, disarticulated skeleton collected in 2013 at the Kitadani
+    Dinosaur Quarry, Katsuyama, Fukui.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used; its pygostyle suggests the long tail was lost in a more complex way than
+  once thought.
+images:
+- kind: skeletal
+  file: Fukuipteryx skeletal reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Fukuipteryx_skeletal_reconstruction.png/960px-Fukuipteryx_skeletal_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fukuipteryx_skeletal_reconstruction.png
+  artist: Red Natters
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-10-04'
+  caption: Fukuipteryx skeletal reconstruction (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 2500
+  height: 2000
+  review: unreviewed
+  local: img/gallery/Fukuipteryx_001.webp
+- kind: skeletal
+  file: Reconstructions and restoration. a–c Skeletal reconstructions of FPDM-V-9769 in cranial (a), dorsal (b),
+    and left-lateral (c) views. d Life restoration of Fukuipteryx prima.webp
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Reconstructions_and_restoration._a%E2%80%93c_Skeletal_reconstructions_of_FPDM-V-9769_in_cranial_%28a%29%2C_dorsal_%28b%29%2C_and_left-lateral_%28c%29_views._d_Life_restoration_of_Fukuipteryx_prima.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Reconstructions_and_restoration._a%E2%80%93c_Skeletal_reconstructions_of_FPDM-V-9769_in_cranial_(a),_dorsal_(b),_and_left-lateral_(c)_views._d_Life_restoration_of_Fukuipteryx_prima.webp
+  artist: M. Yoshida
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-11-14'
+  caption: Reconstructions and restoration. a–c Skeletal reconstructions of FPDM-V-9769 in cranial (a), dorsal (b),
+    and left-lateral (c) views. d Life restoration of Fukuipteryx prima (Wikimedia Commons; kind assigned from the
+    file name, not yet checked on the triage page).
+  width: 1327
+  height: 1172
+  review: unreviewed
+  local: img/gallery/Fukuipteryx_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/vector.svg
+  png: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/raster/512x306.png
+  page: https://www.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Archaeopteryx lithographica
+  matched: Avialae
+  genus_level: false
+sources:
+- kind: original
+  text: T. Imai, Y. Azuma, and S. Kawabe, M. Shibata, K. Miyata, M. Wang, Z. Zhou. 2019. An unusual bird (Theropoda,
+    Avialae) from the Early Cretaceous of Japan suggests complex evolutionary history of basal birds. Communications
+    Biology 2(1):399:1-11
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fukuipteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fukuipteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fukuipteryx”. English Wikipedia, revision 1387082176.
+  url: https://en.wikipedia.org/w/index.php?title=Fukuipteryx&oldid=1387082176
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

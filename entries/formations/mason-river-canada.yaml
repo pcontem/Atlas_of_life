@@ -1,0 +1,32 @@
+id: mason-river-canada
+name: Mason River
+rank: formation
+group: ''
+country: Canada
+regions: [Northwest Territories]
+location:
+  lat: 69.72
+  lng: -129.0
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 83.6
+  last_ma: 66.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [marine indet.]
+lithology: ['"shale"']
+pbdb_collections: ['36445']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Mason River (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Mason+River
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

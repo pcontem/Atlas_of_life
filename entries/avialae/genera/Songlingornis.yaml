@@ -1,0 +1,64 @@
+name: Songlingornis
+rank: genus
+parent: songlingornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Hou 1997
+type_species: Songlingornis linghensis
+type_species_note: The only valid species listed by PBDB.
+summary: Toothed ornithuromorph from the Jiufotang Formation of Liaoning, type genus of Songlingornithidae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Songlingornis linghensis
+  authority: Hou 1997
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A partial skeleton (number in Hou 1997).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: L. H. Hou. 1997. Mesozoic Birds of China
+- kind: literature
+  text: 'Clarke, Julia A.; Zhou, Zhonghe; Zhang, Fucheng 2006. Insight into the evolution of avian flight from a
+    new clade of Early Cretaceous ornithurines from China and the morphology of ''''Yixianornis grabaui''''. Journal
+    of Anatomy 208(3): 287–308. doi:10.1111/j.1469-7580.2006.00534.x'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Songlingornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Songlingornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Songlingornis”. English Wikipedia, revision 1379859984.
+  url: https://en.wikipedia.org/w/index.php?title=Songlingornis&oldid=1379859984
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

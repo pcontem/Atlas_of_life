@@ -1,0 +1,58 @@
+name: Cretaaviculus
+rank: genus
+parent: avialae
+incertae_sedis: true
+placement_note: Known from a single asymmetrical contour feather; no analysis places it.
+authority: Bazhanov 1969
+type_species: Cretaaviculus sarysuensis
+type_species_note: Taxobox and text of the cited Wikipedia revision.
+summary: Late Cretaceous bird known only from an asymmetrical contour feather from the Bostobe Formation of Kazakhstan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 89.8
+  last_ma: 83.6
+  early_interval: Coniacian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record; the Wikipedia revision says Upper Cretaceous Bostobe Formation; Coniacian–Santonian is not
+    given there and must be checked.
+species:
+- name: Cretaaviculus sarysuensis
+  authority: Bazhanov 1969
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: original description
+formations:
+- formation: Bostobe
+  country: Kazakhstan
+  regions: []
+  interval: Coniacian–Santonian
+  occurrences: null
+  ma: [83.6, 89.8]
+  id: bostobe-kazakhstan
+  group: ''
+  members: []
+fossil_material:
+  holotype: An isolated asymmetrical contour feather from the Bostobe Formation.
+  material: Known only from the holotype feather.
+  completeness: fragmentary
+  exceptional: Feather only.
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cretaaviculus”. English Wikipedia, revision 1341564639.
+  url: https://en.wikipedia.org/w/index.php?title=Cretaaviculus&oldid=1341564639
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Age Coniacian–Santonian not in the source: check the age of the Bostobe Formation and correct.'
+  - 'Genus without a PBDB record (Wikipedia-recognised, rule of 2026-11-27): authority, age, species and formation
+    entered by hand from the Wikipedia revision; check against the original description.'
+  reviews: []

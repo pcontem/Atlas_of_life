@@ -1,0 +1,73 @@
+name: Holbotia
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Zelenkov and Averianov 2015
+type_species: Holbotia ponomarenkoi
+type_species_note: The only valid species listed by PBDB.
+summary: Early Cretaceous enantiornithean from Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 121.4
+  early_interval: Hauterivian
+  late_interval: Barremian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Holbotia ponomarenkoi
+  authority: Zelenkov and Averianov 2015
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: original description
+formations:
+- formation: Andaikhudag
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Ovorkhangai]
+  interval: Hauterivian–Barremian
+  occurrences: 1
+  ma: [121.4, 132.6]
+  id: andaikhudag-mongolia
+fossil_material:
+  holotype: A skeleton from Mongolia (number in Zelenkov and Averianov 2015).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: N. V. Zelenkov and A. O. Averianov. 2015. A historical specimen of enantiornithine bird from the Early Cretaceous
+    of Mongolia representing a new taxon with a specialized neck morphology. Journal of Systematic Palaeontology
+- kind: literature
+  text: 'Zelenkov, Nikita V.; Averianov, Alexander O. 2 Ap. A historical specimen of enantiornithine bird from the
+    Early Cretaceous of Mongolia representing a new taxon with a specialized neck morphology. Journal of Systematic
+    Palaeontology 14(4): 319–338. doi:10.1080/14772019.2015.1051146'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Holbotia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Holbotia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Holbotia”. English Wikipedia, revision 1387598545.
+  url: https://en.wikipedia.org/w/index.php?title=Holbotia&oldid=1387598545
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

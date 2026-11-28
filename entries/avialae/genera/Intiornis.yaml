@@ -1,0 +1,79 @@
+name: Intiornis
+rank: genus
+parent: avisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Novas et al. 2010
+type_species: Intiornis inexpectatus
+type_species_note: The only valid species listed by PBDB.
+summary: Small avisaurid enantiornithean from the Campanian Las Curtiembres Formation of northwestern Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Intiornis inexpectatus
+  authority: Novas et al. 2010
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Las Curtiembres
+  group: Salta
+  members: [Morales]
+  country: Argentina
+  regions: [Salta]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: las-curtiembres-argentina
+fossil_material:
+  holotype: A partial hindlimb (number in Novas et al. 2010).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Long toes of equal length and large curved claws suggest a perching or grasping foot.
+images:
+- kind: fossil
+  file: Intiornis holotype left foot.png
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Intiornis_holotype_left_foot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Intiornis_holotype_left_foot.png
+  artist: Agustín Scanferla, Federico Agnolin, Fernando Novas, Marcelo de la Fuente, Eduardo Bellosi, Ana María
+    Baez, Alberto Cione
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2011-12-16'
+  caption: Intiornis holotype left foot (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 617
+  height: 379
+  review: unreviewed
+  local: img/gallery/Intiornis_001.webp
+sources:
+- kind: original
+  text: 'Fernando Emilio Novas 2010. New enantiornithine bird (Aves, Ornithothoraces) from the Late Cretaceous of
+    NW Argentina. Comptes Rendus Palevol 9(8): 499–503. doi:10.1016/j.crpv.2010.09.005'
+- kind: literature
+  text: 'Wang, Xuri; Cau, Andrea; Luo, Xiaoling; Kundrát, Martin; Wu, Wensheng; Ju, Shubin; Guo, Zhen; Liu, Yichuan;
+    Ji, Qiang 2022. A new bohaiornithid-like bird from the Lower Cretaceous of China fills a gap in enantiornithine
+    disparity. Journal of Paleontology 96(4): 961–976. doi:10.1017/jpa.2022.12'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Intiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Intiornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Intiornis”. English Wikipedia, revision 1387599226.
+  url: https://en.wikipedia.org/w/index.php?title=Intiornis&oldid=1387599226
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

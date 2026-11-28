@@ -1,0 +1,70 @@
+name: Linyiornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2016
+type_species: Linyiornis amoena
+type_species_note: The only valid species listed by PBDB.
+summary: Early Cretaceous enantiornithean from China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Linyiornis amoena
+  authority: Wang et al. 2016
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton (number in Wang et al. 2016).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: Wang, Yan; Wang, Min; O'Connor, Jingmai K.; Wang, Xiaoli; Zheng, Xiaoting; Zhang, Xiaomei 11 J. A new Jehol
+    enantiornithine bird with three-dimensional preservation and ovarian follicles. Journal of Vertebrate Paleontology
+    36(2). doi:10.1080/02724634.2015.1054496
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Linyiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Linyiornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Linyiornis”. English Wikipedia, revision 1371821978.
+  url: https://en.wikipedia.org/w/index.php?title=Linyiornis&oldid=1371821978
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

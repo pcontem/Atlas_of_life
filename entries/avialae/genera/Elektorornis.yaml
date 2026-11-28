@@ -1,0 +1,88 @@
+name: Elektorornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Xing et al. 2019
+type_species: Elektorornis chenguangi
+type_species_note: The only valid species listed by PBDB.
+summary: Cenomanian enantiornithean from Burmese amber with a remarkably long third toe.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 100.5
+  last_ma: 93.9
+  early_interval: Cenomanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Elektorornis chenguangi
+  authority: Xing et al. 2019
+  first_ma: 100.5
+  last_ma: 93.9
+  interval: Cenomanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Myanmar
+  regions: [Kachin]
+  interval: Early Cenomanian
+  occurrences: 1
+  ma: [93.9, 100.5]
+  id: unnamed-burmese-amber-angbamo-myanmar
+fossil_material:
+  holotype: A partial hindlimb and some wing feathers in amber (number in Xing et al. 2019).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: Preserved in amber with feathers.
+biology: The elongated toe may have been used to pull food from tree crevices (Xing et al. 2019); Clark et al. (2021)
+  discussed the interpretation.
+images:
+- kind: life
+  file: Elektorornis chenguangi (holotype, HPG-15-2).png
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Elektorornis_chenguangi_%28holotype%2C_HPG-15-2%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Elektorornis_chenguangi_(holotype,_HPG-15-2).png
+  artist: Lida Xing in A. D. Clark & J. K. O'Connor
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2021-06-14'
+  caption: Elektorornis chenguangi (holotype, HPG-15-2) (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 1395
+  height: 1075
+  review: unreviewed
+  local: img/gallery/Elektorornis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Xing, Lida; O’Connor, Jingmai K.; Chiappe, Luis M.; McKellar, Ryan C.; Carroll, Nathan; Hu, Han; Bai, Ming;
+    Lei, Fumin 2019. A New Enantiornithine Bird with Unusual Pedal Proportions Found in Amber. Current Biology 29(14):
+    2396–2401. doi:10.1016/j.cub.2019.05.077'
+- kind: literature
+  text: Clark, Alexander D.; O'Connor, Jingmai K. 2021. Exploring the ecomorphology of two Cretaceous enantiornithines
+    with unique pedal morphology. Frontiers in Ecology and Evolution 9. doi:10.3389/fevo.2021.654156
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elektorornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elektorornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elektorornis”. English Wikipedia, revision 1376137448.
+  url: https://en.wikipedia.org/w/index.php?title=Elektorornis&oldid=1376137448
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

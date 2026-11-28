@@ -1,0 +1,61 @@
+name: Kaririavis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: Carvalho et al. 2021
+type_species: Kaririavis mater
+type_species_note: The only valid species listed by PBDB.
+summary: Ornithuromorph from the Aptian Crato Formation of Brazil known from one specimen.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kaririavis mater
+  authority: Carvalho et al. 2021
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Crato
+  group: Santana
+  members: [Nova Olinda]
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: crato-brazil
+fossil_material:
+  holotype: A single foot (number in Carvalho et al. 2021).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: I. D. S. Carvalho, F. L. Agnolin, and S. Rozadilla, F. E. Novas, J. A. F. G. Andrade, J. Xavier-Neto. 2021.
+    A new ornithuromorph bird from the Lower Cretaceous of South America. Journal of Vertebrate Paleontology 41(4):e1988623
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kaririavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kaririavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kaririavis”. English Wikipedia, revision 1297014801.
+  url: https://en.wikipedia.org/w/index.php?title=Kaririavis&oldid=1297014801
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

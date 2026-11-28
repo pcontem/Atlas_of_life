@@ -1,0 +1,64 @@
+name: Tianyuornis
+rank: genus
+parent: hongshanornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Zheng et al. 2014
+type_species: Tianyuornis cheni
+type_species_note: The only valid species listed by PBDB.
+summary: Toothed hongshanornithid from lake deposits of the Yixian Formation in Inner Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Tianyuornis cheni
+  authority: Zheng et al. 2014
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A skeleton from the Yixian Formation (number in Zheng et al. 2014).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Its teeth confirm that hongshanornithids were toothed.
+images: []
+sources:
+- kind: original
+  text: 'X. -T. Zheng, J. K. O''Connor, and X. -L. Want, X. -M. Zhang, Y. Wang. 2014. New information on Hongshanornithidae
+    (Aves: Ornithuromorpha) from a new subadult specimen. Vertebrata PalAsiatica 52(2):217-232'
+- kind: literature
+  text: 'Xiao-ting, Zhang 2014. New Information on Hongshanornithidae (Aves: Ornithuromorpha) from a new subadult
+    specimen. Vertebrata PalAsiatica.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tianyuornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tianyuornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tianyuornis”. English Wikipedia, revision 1376484299.
+  url: https://en.wikipedia.org/w/index.php?title=Tianyuornis&oldid=1376484299
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

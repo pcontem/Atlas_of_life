@@ -1,0 +1,70 @@
+name: Otogornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Hou 1994
+type_species: Otogornis genghisi
+type_species_note: The only valid species listed by PBDB.
+summary: Barremian enantiornithean from the Jingchuan Formation of Inner Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Otogornis genghisi
+  authority: Hou 1994
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Jingchuan
+  group: Zhidan
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Late Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: jingchuan-china
+fossil_material:
+  holotype: A partial skeleton (number in Hou 1994).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: L. Hou. 1994. [A late Mesozoic bird from Inner Mongolia]. Vertebrata PalAsiatica 32(4):258-266
+- kind: literature
+  text: 'Lianhai, Hou 1994. A Late Mesozoic Bird from Inner Mongolia. Vertebrata PalAsiatica 32(4): 258–266.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Otogornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Otogornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Otogornis”. English Wikipedia, revision 1387578159.
+  url: https://en.wikipedia.org/w/index.php?title=Otogornis&oldid=1387578159
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

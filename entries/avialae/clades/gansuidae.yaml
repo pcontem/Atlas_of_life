@@ -1,0 +1,30 @@
+id: gansuidae
+name: Gansuidae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Gansuidae, family), downloaded 2026-11-27
+parent: ornithuromorpha
+wikipedia: Gansuidae
+summary: Early Cretaceous shorebird-like ornithuromorphs from China, built around Gansus.
+diagnosis:
+- Slender toes with a long fourth digit
+- Laterally compressed tarsometatarsus, shorter than the third and fourth digits
+notes: Established for Gansus by Hou and Liu (1984); the description of Shuilingornis (2024) recovered a clade with
+  Gansus, Changzuiornis, Iteravis and Khinganornis, all Aptian.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gansuidae”. English Wikipedia, revision 1379859890.
+  url: https://en.wikipedia.org/w/index.php?title=Gansuidae&oldid=1379859890
+- kind: database
+  text: 'Paleobiology Database, taxon Gansuidae (no. 200868): rank, authority Hou and Liu 1984 and reference no.
+    41009 (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=200868
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-27 (data/raw/tree/clade_sources_2026-11-27_avialae.json).
+  - 'S2: add the naming work (Hou and Liu 1984, PBDB reference 41009) as an original source.'
+  reviews: []

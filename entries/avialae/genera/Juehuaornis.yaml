@@ -1,0 +1,65 @@
+name: Juehuaornis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2015
+type_species: Juehuaornis zhangi
+type_species_note: Taxobox of Wikipedia revision 1362367421.
+summary: Ornithuromorph from near Lingyuan, Liaoning, with a beak reaching 70 percent of the skull length.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Juehuaornis zhangi
+  authority: Wang et al. 2015
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: SJG 00001, with feather remains.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: Feathers.
+biology: Not given in the sources used beyond its long beak.
+images: []
+sources:
+- kind: original
+  text: "R.-F. Wang, Y. Wang, and D. Y. Hu. 2015. Discovery of a new ornithuromorph genus, Juehuaornis gen. nov.\r\
+    \nfrom Lower Cretaceous of western Liaoning, China. Global Geology 34(1):7-11"
+- kind: literature
+  text: Huang, J.; Wang, X.; Hu, Y.; Liu, J.; Peteya, J.A.; Clarke, J.A. 2016. A new ornithurine from the Early
+    Cretaceous of China sheds light on the evolution of early ecological and cranial diversity in birds. PeerJ 4.
+    doi:10.7717/peerj.1765
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Juehuaornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Juehuaornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Juehuaornis”. English Wikipedia, revision 1362367421.
+  url: https://en.wikipedia.org/w/index.php?title=Juehuaornis&oldid=1362367421
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

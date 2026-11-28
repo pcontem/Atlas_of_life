@@ -1,0 +1,69 @@
+name: Limenavis
+rank: genus
+parent: ornithurae
+incertae_sedis: false
+placement_note: ''
+authority: Clarke and Chiappe 2001
+type_species: Limenavis patagonica
+type_species_note: The only valid species listed by PBDB.
+summary: Ornithuran from about 70 million years ago in Patagonia known from several broken bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Limenavis patagonica
+  authority: Clarke and Chiappe 2001
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Allen
+  group: Malargüe
+  members: [Lower]
+  country: Argentina
+  regions: [Río Negro]
+  interval: Maastrichtian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: allen-argentina
+fossil_material:
+  holotype: Several broken bones (number in Clarke and Chiappe 2001).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/5bddf6be-2335-4ad9-9524-db7cf5d2eb1a/vector.svg
+  png: https://images.phylopic.org/images/5bddf6be-2335-4ad9-9524-db7cf5d2eb1a/raster/512x424.png
+  page: https://www.phylopic.org/images/5bddf6be-2335-4ad9-9524-db7cf5d2eb1a
+  attribution: Matt Martyniuk (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Ornithurae
+  matched: Ornithurae
+  genus_level: false
+sources:
+- kind: original
+  text: J. A. Clarke and L. M. Chiappe. 2001. A new carinate bird from the late Cretaceous of Patagonia (Argentina.
+    American Museum Novitates 3323:1-23
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Limenavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Limenavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Limenavis”. English Wikipedia, revision 1379676800.
+  url: https://en.wikipedia.org/w/index.php?title=Limenavis&oldid=1379676800
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

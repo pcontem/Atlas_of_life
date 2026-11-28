@@ -1,0 +1,73 @@
+name: Bauxitornis
+rank: genus
+parent: avisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Dyke and Osi 2010
+type_species: Bauxitornis mindszentyae
+type_species_note: The only valid species listed by PBDB.
+summary: Large avisaurid enantiornithean from the Santonian Csehbánya Formation of Hungary known from one foot bone.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Bauxitornis mindszentyae
+  authority: Dyke and Osi 2010
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Csehbánya
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Veszprém]
+  interval: Santonian
+  occurrences: 2
+  ma: [83.6, 85.7]
+  id: csehbanya-hungary
+fossil_material:
+  holotype: MTM V 2009.31.1 (formerly MTM Gyn/439), a right tarsometatarsus 51 mm long.
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used beyond its size, similar to Soroavisaurus and Avisaurus.
+images:
+- kind: fossil
+  file: Bauxitornis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ad/Bauxitornis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bauxitornis.jpg
+  artist: Zoltan Csiki-Sava, Eric Buffetaut, Attila Ősi, Xabier Pereda-Suberbiola, Stephen L. Brusatte
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2015'
+  caption: Bauxitornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 372
+  height: 217
+  review: unreviewed
+  local: img/gallery/Bauxitornis_001.webp
+sources:
+- kind: original
+  text: 'Gareth J. Dyke 2010. A review of Late Cretaceous fossil birds from Hungary. Geological Journal 45(4): 434–444.
+    doi:10.1002/gj.1209'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bauxitornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bauxitornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bauxitornis”. English Wikipedia, revision 1384399602.
+  url: https://en.wikipedia.org/w/index.php?title=Bauxitornis&oldid=1384399602
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

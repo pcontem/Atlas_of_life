@@ -1,0 +1,84 @@
+name: Jinguofortis
+rank: genus
+parent: jinguofortisidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2018
+type_species: Jinguofortis perplexus
+type_species_note: Taxobox of Wikipedia revision 1302367155.
+summary: Early Cretaceous pygostylian from the Dabeigou Formation of China with a fused shoulder girdle.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Jinguofortis perplexus
+  authority: Wang et al. 2018
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: Dabeigou
+  group: ''
+  members: []
+  country: China
+  regions: [Hebei]
+  interval: Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: dabeigou-china
+fossil_material:
+  holotype: A skeleton from the Dabeigou Formation (number in Wang et al. 2018).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Combines primitive and advanced features; the first toe is about 70 percent of the second.
+images:
+- kind: fossil
+  file: Type specimen of Jinguofortis perplexu.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Type_specimen_of_Jinguofortis_perplexu.jpg/960px-Type_specimen_of_Jinguofortis_perplexu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Type_specimen_of_Jinguofortis_perplexu.jpg
+  artist: Cathayornis
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2018-06-13'
+  caption: Type specimen of Jinguofortis perplexu (Wikimedia Commons; kind assigned from the file name, not yet
+    checked on the triage page).
+  width: 2362
+  height: 1425
+  review: unreviewed
+  local: img/gallery/Jinguofortis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f/vector.svg
+  png: https://images.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f/raster/512x386.png
+  page: https://www.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f
+  attribution: JingwenSun
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Jinguofortis perplexus
+  matched: Jinguofortisidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang M, Stidham TA, Zhou Z Octo. A new clade of basal Early Cretaceous pygostylian birds and developmental
+    plasticity of the avian shoulder girdle. Proceedings of the National Academy of Sciences of the United States
+    of America 115(42): 10708–10713. doi:10.1073/pnas.1812176115'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jinguofortis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jinguofortis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Jinguofortis”. English Wikipedia, revision 1302367155.
+  url: https://en.wikipedia.org/w/index.php?title=Jinguofortis&oldid=1302367155
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number to add.]
+  reviews: []

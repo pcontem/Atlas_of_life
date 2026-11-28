@@ -1,0 +1,74 @@
+name: Longusunguis
+rank: genus
+parent: bohaiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2014
+type_species: Longusunguis kurochkini
+type_species_note: Taxobox of Wikipedia revision 1300195596.
+summary: Bohaiornithid from the Jiufotang Formation of Liaoning known from a complete subadult skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Longusunguis kurochkini
+  authority: Wang et al. 2014
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V 17964, a complete articulated skeleton and skull of a subadult.
+  material: Known only from the holotype.
+  completeness: complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Longusunguis skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/7/75/Longusunguis_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Longusunguis_skull.png
+  artist: Zhiheng Li, Zhonghe Zhou, Julia A. Clarke
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-07-20'
+  caption: Longusunguis skull (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 803
+  height: 528
+  review: unreviewed
+  local: img/gallery/Longusunguis_001.webp
+sources:
+- kind: original
+  text: 'Min Wang 2014. A new diverse enantiornithine family (Bohaiornithidae fam. nov.) from the Lower Cretaceous
+    of China with information from two new species. Vertebrata PalAsiatica 52(1): 31–76.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Longusunguis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Longusunguis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Longusunguis”. English Wikipedia, revision 1300195596.
+  url: https://en.wikipedia.org/w/index.php?title=Longusunguis&oldid=1300195596
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

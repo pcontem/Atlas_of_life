@@ -1,0 +1,71 @@
+name: Ceramornis
+rank: genus
+parent: ornithurae
+incertae_sedis: true
+placement_note: Placed in Cimolopterygidae by PBDB; position within Ornithurae unresolved.
+authority: Brodkorb 1963
+type_species: Ceramornis major
+type_species_note: The only valid species listed by PBDB.
+summary: Maastrichtian ornithuran from the Lance Formation of Wyoming.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ceramornis major
+  authority: Brodkorb 1963
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Charadriiformes
+  genus_level: false
+  w: 512
+  h: 437
+sources:
+- kind: original
+  text: P. Brodkorb. 1963. Birds from the Upper Cretaceous of Wyoming. Proceedings of the XIII International Ornithological
+    Congress
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ceramornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ceramornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ceramornis”. English Wikipedia, revision 1387080589.
+  url: https://en.wikipedia.org/w/index.php?title=Ceramornis&oldid=1387080589
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

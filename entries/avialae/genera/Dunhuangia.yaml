@@ -1,0 +1,70 @@
+name: Dunhuangia
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2015
+type_species: Dunhuangia cuii
+type_species_note: The only valid species listed by PBDB.
+summary: Enantiornithean from the Aptian Xiagou Formation of Gansu, China, with deep notches in its breastbone.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dunhuangia cuii
+  authority: Wang et al. 2015
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  group: Xinminbao
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: xiagou-china
+fossil_material:
+  holotype: A partial skeleton lacking the skull (number in Wang et al. 2015).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: M. Wang, D. Li, and J. K. O.'Connor, Z. Zhou, H. You. 2015. Second species of enantiornithine bird from
+    the Lower Cretaceous Changma Basin, northwestern China with implications for the taxonomic diversity of the
+    Changma avifauna. Cretaceous Research 55:56-65
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dunhuangia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dunhuangia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dunhuangia”. English Wikipedia, revision 1282410354.
+  url: https://en.wikipedia.org/w/index.php?title=Dunhuangia&oldid=1282410354
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

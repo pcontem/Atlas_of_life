@@ -1,0 +1,73 @@
+name: Canadaga
+rank: genus
+parent: hesperornithes
+incertae_sedis: false
+placement_note: ''
+authority: Hou 1999
+type_species: Canadaga arctica
+type_species_note: The only valid species listed by PBDB.
+summary: One of the largest hesperornithines, from the Late Cretaceous of Bylot and Devon islands in the Canadian
+  Arctic.
+size:
+  length_m: [2.2, 2.2]
+  note: About 2.2 m long (Wikipedia revision cited).
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Canadaga arctica
+  authority: Hou 1999
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+formations:
+- formation: Kanguk
+  group: ''
+  members: []
+  country: Canada
+  regions: [Nunavut]
+  interval: Campanian–Late Maastrichtian
+  occurrences: 2
+  ma: [66.0, 83.6]
+  id: kanguk-canada
+fossil_material:
+  holotype: Bones from the Canadian Arctic (number in Hou 1999).
+  material: Several bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived in shallow Arctic seas.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6a96ce0a-ef5c-4986-ac48-01e66cfb1531/vector.svg
+  png: https://images.phylopic.org/images/6a96ce0a-ef5c-4986-ac48-01e66cfb1531/raster/512x211.png
+  page: https://www.phylopic.org/images/6a96ce0a-ef5c-4986-ac48-01e66cfb1531
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Hesperornis regalis
+  matched: Canadaga
+  genus_level: true
+sources:
+- kind: original
+  text: L.-H. Hou. 1999. New hesperornithid (Aves) from the Canadian Arctic. Vertebrata PalAsiatica 7:228-233
+- kind: literature
+  text: 'Wilson, Laura E.; Chin, Karen; Cumbaa, Stephen; Dyke, Gareth 2011. A high latitude hesperornithiform (Aves)
+    from Devon Island: palaeobiogeography and size distribution of North American hesperornithiforms. Journal of
+    Systematic Palaeontology 9(1): 9–23. doi:10.1080/14772019.2010.502910'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Canadaga (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Canadaga
+- kind: encyclopedia
+  text: Wikipedia contributors. “Canadaga”. English Wikipedia, revision 1379859820.
+  url: https://en.wikipedia.org/w/index.php?title=Canadaga&oldid=1379859820
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

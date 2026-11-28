@@ -1,0 +1,74 @@
+name: Khinganornis
+rank: genus
+parent: gansuidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2020
+type_species: Khinganornis hulunbuirensis
+type_species_note: The only valid species listed by PBDB.
+summary: Euornithean from the Aptian Longjiang Formation of Inner Mongolia known from a nearly complete skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Khinganornis hulunbuirensis
+  authority: Wang et al. 2020
+  first_ma: 121.4
+  last_ma: 119.57
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Longjiang
+  group: ''
+  members: []
+  country: China
+  regions: [Inner Mongolia]
+  interval: Early Aptian
+  occurrences: 1
+  ma: [119.57, 121.4]
+  id: longjiang-china
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Inner Mongolia]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: unnamed-moqi-fauna-china
+fossil_material:
+  holotype: SGM-AVE-2017001, a nearly complete skeleton with skull on slab and counterslab, Hebei GEO University.
+  material: The holotype and a referred specimen in PBDB.
+  completeness: complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: "X. Wang, A. Cau, and M. Kundrát, L. M. Chiappe, Q. Ji, W. Wang, T. Li, W. Wu. 2020. A new advanced ornithuromorph\
+    \ bird from Inner Mongolia documents the\r\nnorthernmost geographic distribution of the Jehol paleornithofauna\
+    \ in China. Historical Biology"
+- kind: literature
+  text: 'Wang, Xuri; Cau, Andrea; Kundrát, Martin; Chiappe, Luis M.; Ji, Qiang; Wang, Yang; Li, Tao; Wu, Wenhao
+    2021. A new advanced ornithuromorph bird from Inner Mongolia documents the northernmost geographic distribution
+    of the Jehol paleornithofauna in China. Historical Biology 33(9): 1705–1717. doi:10.1080/08912963.2020.1731805'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Khinganornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Khinganornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Khinganornis”. English Wikipedia, revision 1373674189.
+  url: https://en.wikipedia.org/w/index.php?title=Khinganornis&oldid=1373674189
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

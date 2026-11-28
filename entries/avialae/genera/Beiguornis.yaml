@@ -1,0 +1,60 @@
+name: Beiguornis
+rank: genus
+parent: bohaiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2022
+type_species: Beiguornis khinganensis
+type_species_note: Taxobox and text of the cited Wikipedia revision.
+summary: Bohaiornithid enantiornithine from the Longjiang Formation of Inner Mongolia, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.0
+  last_ma: 120.0
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record; 125–120 Ma from the taxobox of the cited Wikipedia revision.
+species:
+- name: Beiguornis khinganensis
+  authority: Wang et al. 2022
+  first_ma: 125.0
+  last_ma: 120.0
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Longjiang
+  country: China
+  regions: [Inner Mongolia]
+  interval: Barremian–Aptian
+  occurrences: null
+  ma: [120.0, 125.0]
+  id: longjiang-china
+  group: ''
+  members: []
+fossil_material:
+  holotype: A skeleton from the Longjiang Formation (number in Wang et al. 2022).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: literature
+  text: Yu, Zhiqiang; Dong, Liping; Huyskens, Magdalena H.; Yin, Qing-Zhu; Wang, Yuan; Deng, Chenglong; He, Huaiyu
+    2022. The exceptionally preserved Early Cretaceous "Moqi Fauna" from eastern Inner Mongolia, China, and its
+    age relationship with the Jehol Biota. Palaeogeography, Palaeoclimatology, Palaeoecology 589. doi:10.1016/j.palaeo.2021.110824
+- kind: encyclopedia
+  text: Wikipedia contributors. “Beiguornis”. English Wikipedia, revision 1360176074.
+  url: https://en.wikipedia.org/w/index.php?title=Beiguornis&oldid=1360176074
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Genus without a PBDB record (Wikipedia-recognised, rule of 2026-11-27): authority, age, species and formation
+    entered by hand from the Wikipedia revision; check against the original description.'
+  reviews: []

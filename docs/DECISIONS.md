@@ -426,3 +426,12 @@ Owner: genera found only by the Wikipedia census (or waiting in the backbone) mu
 `--wiki-group` (all Wikipedia-only genera of a census group join the normal harvest, listed in `wiki_only.json`) and `--extra`
 (named genera, merged into data already harvested); `draft_genera.py` writes genera without a PBDB record (manual authority,
 ages, formations, `species_manual`). Avian genera stay for the Avialae volume.
+
+## 2026-11-27 — Avialae volume: scope
+Owner: the third volume of the plan of 2026-11-25 (Mesozoic Avialae) is one volume, not divided. It covers the avialans
+outside the crown group (Neornithes); Mesozoic crown birds (Vegavis, Asteriornis, Teviornis, Polarornis…) are left for the
+Aves volumes, so the crown-bird tree is built once. Ichnogenera and oogenera stay out. Census of 2026-11-27 (census group
+`avialae`, PBDB base `Avialae,Aves^Neornithes`, two runs; Category:Ornithurae dropped because it holds Category:Birds):
+213 PBDB genera first recorded before 66 Ma, plus Archaeopteryx and Wellnhoferia from the backbone and 23 Wikipedia-only
+genera to sort (crown birds, nomina dubia, new genera). Volume folder `entries/avialae`, root `avialae` attached to
+`paraves` (the backbone node Avialae became the volume root).

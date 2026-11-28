@@ -1,0 +1,64 @@
+name: Praeornis
+rank: genus
+parent: avialae
+incertae_sedis: true
+placement_note: Rautian (1978) thought it more primitive than Archaeopteryx; Bock (1986) took it for a cycad leaf;
+  later work suggests a feather, possibly of an enantiornithine.
+authority: Rautian 1978
+type_species: Praeornis sharovi
+type_species_note: The only valid species listed by PBDB.
+summary: Late Jurassic feather-like fossil from the Karabastau Formation of Kazakhstan, probably the feather of
+  an early avialan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 154.8
+  early_interval: Oxfordian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Praeornis sharovi
+  authority: Rautian 1978
+  first_ma: 161.5
+  last_ma: 154.8
+  interval: Oxfordian
+  reference: original description
+formations:
+- formation: Karabastau
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: []
+  interval: Oxfordian
+  occurrences: 1
+  ma: [154.8, 161.5]
+  id: karabastau-kazakhstan
+fossil_material:
+  holotype: PIN 2585/32, a single feather from the Karabastau Formation, Aulie, Kazakhstan, collected by Sharov
+    and named by Rautian (1978).
+  material: The holotype and a second specimen, ZPAL V 32/967, described by Dzik et al. (2010).
+  completeness: fragmentary
+  exceptional: Feather only.
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: E. N. Kurochkin. 2000. Mesozoic birds of Mongolia and the former USSR. The Age of Dinosaurs in Russia and
+    Mongolia
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Praeornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Praeornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Praeornis”. English Wikipedia, revision 1374835188.
+  url: https://en.wikipedia.org/w/index.php?title=Praeornis&oldid=1374835188
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Whether the fossil is a feather or a plant has been debated; check Dzik et al. 2010.
+  reviews: []
