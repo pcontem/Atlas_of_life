@@ -1,0 +1,89 @@
+name: Liaoningornis
+rank: genus
+parent: ornithothoraces
+incertae_sedis: true
+placement_note: PBDB places it in Ornithuromorpha; the Pengornithidae cladogram of the cited Wikipedia revision
+  includes it among enantiornitheans.
+authority: Hou 1997
+type_species: Liaoningornis longidigitris
+type_species_note: The only valid species listed by PBDB.
+summary: Small bird from the Yixian Formation at Sihetun, Liaoning, of debated position.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Liaoningornis longidigitris
+  authority: Hou 1997
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Lujiatun]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: A partial skeleton from Sihetun (number in Hou 1997).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Liaoningornis 048.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Liaoningornis_048.JPG/960px-Liaoningornis_048.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoningornis_048.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Liaoningornis 048 (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1764
+  height: 1532
+  review: unreviewed
+  local: img/gallery/Liaoningornis_001.webp
+- kind: life
+  file: Liaoningornis 2.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Liaoningornis_2.JPG/960px-Liaoningornis_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Liaoningornis_2.JPG
+  artist: Conty
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: ''
+  caption: Liaoningornis 2 (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 1815
+  height: 1533
+  review: unreviewed
+  local: img/gallery/Liaoningornis_002.webp
+sources:
+- kind: original
+  text: L. Hou. 1997. A carinate bird from the Upper Jurassic of western Liaoning, China. Chinese Science Bulletin
+    42(5):413-417
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Liaoningornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Liaoningornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Liaoningornis”. English Wikipedia, revision 1379859927.
+  url: https://en.wikipedia.org/w/index.php?title=Liaoningornis&oldid=1379859927
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

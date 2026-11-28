@@ -1,3 +1,21 @@
+# Next steps — Avialae (Mesozoic birds outside the crown)
+
+Done (2026-11-27): census, scope (one volume, no crown birds, no form taxa), harvest, clade sources; 21 clade entries; 200 genus
+entries (drafts, `origin: ai-draft`, images chosen automatically from file names); `excluded.yaml` (22 names: 17 synonyms, 4 PBDB
+nomina dubia, Archaeoraptor); tree changes in docs/TREE_REVIEW.md. Images, silhouettes and palaeo-positions come from media-fetch.yml.
+
+Pending genera (not written):
+- No usable source in the harvest: Crateropteryx, Platanavis (no Wikipedia page), Proornis (page redirects to the Sinuiju Formation).
+- Crown or probable crown birds, for the Aves volumes: see docs/TREE_REVIEW.md (2026-11-27).
+- Qianshanornis and Qinornis (Paleocene) are outside the volume; Camptodontus is the preoccupied name of Camptodontornis (not listed).
+
+Open questions for the owner:
+- Possible synonyms kept as entries: Wellnhoferia (Archaeopteryx?), Boluochia (Longipteryx?), Cuspirostrisornis (Cathayornis?),
+  Vescornis/Jibeinia, Omnivoropteryx (Sapeornis?); Cerebavis and the feather taxa Ilerdopteryx, Praeornis, Cretaaviculus as nomina dubia?
+- Archaeopteryx species: only A. lithographica and A. albersdoerferi kept (PBDB also lists bavarica, macrura, oweni).
+- Many entries say "Not given in the sources used" or "number in <original paper>": they need the primary paper (papers.json).
+- Run the triage page for avialae: images were picked from file names without a visual check.
+
 # Next steps — Theropoda II
 
 Done (2026-11-27): census (3 runs, base `Maniraptora^Aves^Avialae,Alvarezsauroidea,Therizinosauria`); harvest with scientific

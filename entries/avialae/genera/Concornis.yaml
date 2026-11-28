@@ -1,0 +1,74 @@
+name: Concornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Sanz and Buscalioni 1992
+type_species: Concornis lacustris
+type_species_note: The only valid species listed by PBDB.
+summary: Barremian enantiornithean from Las Hoyas, Spain, known from an almost complete skeleton without skull.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Concornis lacustris
+  authority: Sanz and Buscalioni 1992
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Huérguina
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-La Mancha]
+  interval: Late Barremian
+  occurrences: 2
+  ma: [121.4, 125.77]
+  id: la-huerguina-spain
+fossil_material:
+  holotype: A nearly complete skeleton lacking the skull, neck and pygostyle, from the Calizas de La Huérguina Formation
+    (number in Sanz and Buscalioni 1992).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sanz, J.L.; Buscalioni, A.D. Nove. A new bird from the Early Cretaceous of Las Hoyas, Spain, and the early
+    radiation of birds. Palaeontology 35(4): 829–845.'
+- kind: literature
+  text: 'Serrano, Francisco J.; Chiappe, Luis M.; Palmqvist, Paul; Figueirido, Borja; Marugán-Lobón, Jesús; Sanz,
+    José L. 2018. Flight reconstruction of two European enantiornithines (Aves, Pygostylia) and the achievement
+    of bounding flight in Early Cretaceous birds. Palaeontology 61(3): 359–368. doi:10.1111/pala.12351'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Concornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Concornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Concornis”. English Wikipedia, revision 1376555129.
+  url: https://en.wikipedia.org/w/index.php?title=Concornis&oldid=1376555129
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

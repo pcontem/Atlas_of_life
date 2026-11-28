@@ -1,0 +1,62 @@
+name: Halimornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Chiappe et al. 2002
+type_species: Halimornis thompsoni
+type_species_note: The only valid species listed by PBDB.
+summary: Enantiornithean from the Campanian Mooreville Chalk of Alabama, found in marine rocks.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Halimornis thompsoni
+  authority: Chiappe et al. 2002
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Mooreville Chalk
+  group: Selma
+  members: []
+  country: United States
+  regions: [Alabama]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: mooreville-chalk-united-states
+fossil_material:
+  holotype: A single individual with vertebrae, leg bones and part of the shoulder girdle (number in Chiappe et
+    al. 2002).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'Chiappe, Luis; Lamb, James P.; Ericson, PER G. P. 2002. New enantiornithine bird from the marine Upper
+    Cretaceous of Alabama. Journal of Vertebrate Paleontology 22(1): 170–174. doi:10.1671/0272-4634(2002)022[0170:NEBFTM]2.0.CO;2'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Halimornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Halimornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Halimornis”. English Wikipedia, revision 1388159106.
+  url: https://en.wikipedia.org/w/index.php?title=Halimornis&oldid=1388159106
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - PBDB places it in Avisauridae; the cited family revision does not; kept directly in Enantiornithes.
+  reviews: []

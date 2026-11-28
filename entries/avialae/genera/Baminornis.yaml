@@ -1,0 +1,89 @@
+name: Baminornis
+rank: genus
+parent: avialae
+incertae_sedis: true
+placement_note: Described as the earliest short-tailed bird with a pygostyle (Chen et al. 2025); later authors reinterpreted
+  the structure as part of the synsacrum (Brusatte 2025 commentary and later work).
+authority: Chen et al. 2025
+type_species: Baminornis zhenghensis
+type_species_note: The only valid species listed by PBDB.
+summary: Late Jurassic avialan from the Nanyuan Formation of Fujian, China, first described as the oldest bird with
+  a pygostyle.
+size:
+  length_m: null
+  mass_kg: [0.13, 0.3]
+  note: Body mass 130–300 g estimated from femur shaft circumference (Chen et al. 2025, via Wikipedia).
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Baminornis zhenghensis
+  authority: Chen et al. 2025
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Nanyuan
+  group: ''
+  members: []
+  country: China
+  regions: [Fujian]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: nanyuan-china
+fossil_material:
+  holotype: A partial skeleton from the Kimmeridgian Nanyuan Formation (number in Chen et al. 2025).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: The ilium is about half the femur length, as in other Jurassic avialans; whether it had a pygostyle is
+  disputed.
+images:
+- kind: skeletal
+  file: Baminornis TD.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Baminornis_TD.png/960px-Baminornis_TD.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Baminornis_TD.png
+  artist: TotalDino
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-02-12'
+  caption: Baminornis TD (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2600
+  height: 1400
+  review: unreviewed
+  local: img/gallery/Baminornis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/vector.svg
+  png: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/raster/512x306.png
+  page: https://www.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Archaeopteryx lithographica
+  matched: Avialae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chen, Runsheng; Wang, Min; Dong, Liping; Zhou, Guowu; Xu, Xing; Deng, Ke; Xu, Liming; Zhang, Chi; Wang,
+    Linchang; Du, Honggang; Lin, Ganmin; Lin, Min; Zhou, Zhonghe 2025. Earliest short-tailed bird from the Late
+    Jurassic of China. [[Nature (journal) 638(8050): 441–448. doi:10.1038/s41586-024-08410-z'
+- kind: literature
+  text: 'Brusatte, Stephen L. 2025. The lost long tail of early bird evolution. Nature 638(8050): 323–324. doi:10.1038/d41586-024-04212-5'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Baminornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Baminornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Baminornis”. English Wikipedia, revision 1378009262.
+  url: https://en.wikipedia.org/w/index.php?title=Baminornis&oldid=1378009262
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: [Holotype number to add from Chen et al. 2025.]
+  reviews: []

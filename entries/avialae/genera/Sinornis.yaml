@@ -1,0 +1,110 @@
+name: Sinornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Sereno and Rao 1992
+type_species: Sinornis santensis
+type_species_note: The only valid species listed by PBDB.
+summary: Sparrow-sized enantiornithean from the Jiufotang Formation of China, one of the first described.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sinornis santensis
+  authority: Sereno and Rao 1992
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: BPV 538a-b, plate and counterplate in fine lake sediment with fish, insect and plant remains.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Sinornis santensis (cast) at Göteborgs Naturhistoriska Museum 8874.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Sinornis_santensis_%28cast%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_8874.jpg/960px-Sinornis_santensis_%28cast%29_at_G%C3%B6teborgs_Naturhistoriska_Museum_8874.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinornis_santensis_(cast)_at_G%C3%B6teborgs_Naturhistoriska_Museum_8874.jpg
+  artist: Gunnar Creutz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-12-07'
+  caption: Sinornis santensis (cast) at Göteborgs Naturhistoriska Museum 8874 (Wikimedia Commons; kind assigned
+    from the file name, not yet checked on the triage page).
+  width: 2785
+  height: 1908
+  review: unreviewed
+  local: img/gallery/Sinornis_001.webp
+- kind: fossil
+  file: Sinornis-Beijing Museum of Natural History.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Sinornis-Beijing_Museum_of_Natural_History.jpg/960px-Sinornis-Beijing_Museum_of_Natural_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinornis-Beijing_Museum_of_Natural_History.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-14'
+  caption: Sinornis-Beijing Museum of Natural History (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 2592
+  height: 1728
+  review: unreviewed
+  local: img/gallery/Sinornis_002.webp
+- kind: life
+  file: Sinornis2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Sinornis2.jpg/960px-Sinornis2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinornis2.jpg
+  artist: McBlackneck
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017-10-05'
+  caption: Sinornis2 (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 4000
+  height: 3296
+  review: unreviewed
+  local: img/gallery/Sinornis_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Sereno, Paul C.; Chenggang, Rao 14 F. Early Evolution of Avian Flight and Perching: New Evidence from the
+    Lower Cretaceous of China. Science 255(5046): 845–848. doi:10.1126/science.255.5046.845'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinornis”. English Wikipedia, revision 1354000973.
+  url: https://en.wikipedia.org/w/index.php?title=Sinornis&oldid=1354000973
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

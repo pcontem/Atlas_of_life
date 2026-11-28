@@ -1,0 +1,69 @@
+name: Gobipipus
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Kurochkin et al. 2013
+type_species: Gobipipus reshetovi
+type_species_note: Taxobox of Wikipedia revision 1379907037.
+summary: Campanian enantiornithine from Mongolia known from embryos in eggs.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gobipipus reshetovi
+  authority: Kurochkin et al. 2013
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+fossil_material:
+  holotype: An incomplete embryonic skeleton in an egg (number in Kurochkin et al. 2013).
+  material: Embryonic remains.
+  completeness: fragmentary
+  exceptional: Embryos inside eggs.
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Kurochkin, E. N.; Chatterjee, S.; Mikhailov, K. E. 2013. An embryonic enantiornithine bird and associated
+    eggs from the cretaceous of Mongolia. Paleontological Journal 47(11): 1252–1269. doi:10.1134/S0031030113110087'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gobipipus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gobipipus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gobipipus”. English Wikipedia, revision 1379907037.
+  url: https://en.wikipedia.org/w/index.php?title=Gobipipus&oldid=1379907037
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,82 @@
+name: Kizylkumavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Nessov 1984
+type_species: Kizylkumavis cretacea
+type_species_note: The only valid species listed by PBDB.
+summary: Late Cretaceous enantiornithine from the Bissekty Formation of the Kyzyl Kum, Uzbekistan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Kizylkumavis cretacea
+  authority: Nessov 1984
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: A fragmentary bone from the Bissekty Formation (number in Nessov 1984).
+  material: Known only from fragmentary material.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Kizylkumavis cretacea.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Kizylkumavis_cretacea.jpg/960px-Kizylkumavis_cretacea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kizylkumavis_cretacea.jpg
+  artist: Luxquine
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-26'
+  caption: Kizylkumavis cretacea (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 2224
+  height: 1668
+  review: unreviewed
+  local: img/gallery/Kizylkumavis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Alexornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: L. A. Nessov. 1984. Upper Cretaceous pterosaurs and birds from central Asia. Paleontological Journal 1984(1):38-49
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kizylkumavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kizylkumavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kizylkumavis”. English Wikipedia, revision 1322537130.
+  url: https://en.wikipedia.org/w/index.php?title=Kizylkumavis&oldid=1322537130
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

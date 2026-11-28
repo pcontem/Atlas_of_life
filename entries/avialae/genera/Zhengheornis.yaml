@@ -1,0 +1,79 @@
+name: Zhengheornis
+rank: genus
+parent: avialae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2026
+type_species: Zhengheornis buyu
+type_species_note: The only valid species listed by PBDB.
+summary: Late Jurassic avialan from the Nanyuan Formation of Fujian, China, with an intermediate bony tail.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 152.21
+  last_ma: 145.06
+  early_interval: Kimmeridgian
+  late_interval: Tithonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Zhengheornis buyu
+  authority: Wang et al. 2026
+  first_ma: 152.21
+  last_ma: 145.06
+  interval: Kimmeridgian–Tithonian
+  reference: original description
+formations:
+- formation: Nanyuan
+  group: ''
+  members: []
+  country: China
+  regions: [Fujian]
+  interval: Late Kimmeridgian–Early Tithonian
+  occurrences: 1
+  ma: [145.06, 152.21]
+  id: nanyuan-china
+fossil_material:
+  holotype: IVPP V34168, a partial skeleton with feather traces on slab and counterslab, found in 2024 in layer
+    6 of the Nanyuan Formation near Yangyuan Village, Zhenghe County.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: Feather traces.
+biology: Wang and colleagues (2026) used it to argue that the bony tail of birds shortened in steps.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/vector.svg
+  png: https://images.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35/raster/512x306.png
+  page: https://www.phylopic.org/images/045279d5-24e5-4838-bec9-0bea86812e35
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Archaeopteryx lithographica
+  matched: Avialae
+  genus_level: false
+sources:
+- kind: original
+  text: Wang, Min; Tang, Jianrong; Deng, Ke; Dong, Liping; Xu, Liming; Xu, Xing; Lin, Min; Du, Honggang; Lin, Ganmin;
+    Chen, Runsheng; Zhang, Chi; Zhou, Zhonghe 2026. Jurassic avialan reveals stepwise evolution of bony tail in
+    birds. Science Advances 12(27). doi:10.1126/sciadv.aeb5202
+- kind: literature
+  text: 'Chen, Runsheng; Wang, Min; Dong, Liping; Zhou, Guowu; Xu, Xing; Deng, Ke; Xu, Liming; Zhang, Chi; Wang,
+    Linchang; Du, Honggang; Lin, Ganmin; Lin, Min; Zhou, Zhonghe 2025. Earliest short-tailed bird from the Late
+    Jurassic of China. [[Nature (journal) 638(8050): 441–448. doi:10.1038/s41586-024-08410-z'
+- kind: literature
+  text: 'Xu, Liming; Wang, Min; Chen, Runsheng; Dong, Liping; Lin, Min; Xu, Xing; Tang, Jianrong; You, Hailu; Zhou,
+    Guowu; Wang, Linchang; He, Wenxing; Li, Yujuan; Zhang, Chi; Zhou, Zhonghe 2023. A new avialan theropod from
+    an emerging Jurassic terrestrial fauna. [[Nature (journal) 621(7978): 336–343. doi:10.1038/s41586-023-06513-7'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Zhengheornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Zhengheornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Zhengheornis”. English Wikipedia, revision 1380362267.
+  url: https://en.wikipedia.org/w/index.php?title=Zhengheornis&oldid=1380362267
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

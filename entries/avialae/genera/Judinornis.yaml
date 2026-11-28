@@ -1,0 +1,69 @@
+name: Judinornis
+rank: genus
+parent: hesperornithes
+incertae_sedis: false
+placement_note: ''
+authority: Nessov and Borkin 1983
+type_species: Judinornis nogontsavensis
+type_species_note: The only valid species listed by PBDB.
+summary: Flightless hesperornithine from the Nemegt Formation of Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Judinornis nogontsavensis
+  authority: Nessov and Borkin 1983
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Beds of Nogon Tsav
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Bayankhongor]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: beds-of-nogon-tsav-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/vector.svg
+  png: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/raster/512x299.png
+  page: https://www.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362
+  attribution: Scott Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Baptornis advenus
+  matched: Baptornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: L. A. Nessov and L. Y. Borkin. 1983. New findings of birds' bones from the Cretaceous of Mongolia and Middle
+    Asia. Trudy Zoologicheskogo Instituta 116:108-110
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Judinornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Judinornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Judinornis”. English Wikipedia, revision 1289217039.
+  url: https://en.wikipedia.org/w/index.php?title=Judinornis&oldid=1289217039
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,87 @@
+name: Mirarce
+rank: genus
+parent: avisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Atterholt et al. 2018
+type_species: Mirarce eatoni
+type_species_note: The only valid species listed by PBDB.
+summary: Turkey-vulture-sized avisaurid enantiornithine from the Campanian Kaiparowits Formation of Utah.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mirarce eatoni
+  authority: Atterholt et al. 2018
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Kaiparowits
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: kaiparowits-united-states
+fossil_material:
+  holotype: UCMP 139500, a three-dimensional partial skeleton without skull found by Howard Hutchison in 1992.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Mirarce eatoni reconstruction.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/70/Mirarce_eatoni_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mirarce_eatoni_reconstruction.jpg
+  artist: Brian Engh
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-11-13'
+  caption: Mirarce eatoni reconstruction (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 1176
+  height: 812
+  review: unreviewed
+  local: img/gallery/Mirarce_001.webp
+- kind: skeletal
+  file: Mirarce eatoni.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Mirarce_eatoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Mirarce_eatoni.jpg
+  artist: Scott Hartman
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-11-13'
+  caption: Mirarce eatoni (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 1200
+  height: 1126
+  review: unreviewed
+  local: img/gallery/Mirarce_002.webp
+sources:
+- kind: original
+  text: Atterholt, J.; Hutchison, J. H.; O'Connor, J. K. 2018. The most complete enantiornithine from North America
+    and a phylogenetic analysis of the Avisauridae. PeerJ 6. doi:10.7717/peerj.5910
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mirarce (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mirarce
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mirarce”. English Wikipedia, revision 1376555907.
+  url: https://en.wikipedia.org/w/index.php?title=Mirarce&oldid=1376555907
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

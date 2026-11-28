@@ -1,0 +1,69 @@
+name: Neuquenornis
+rank: genus
+parent: avisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Chiappe and Calvo 1994
+type_species: Neuquenornis volans
+type_species_note: The only valid species listed by PBDB.
+summary: Avisaurid enantiornithean from the Santonian Bajo de la Carpa Formation of Patagonia, Argentina.
+size:
+  length_m: [0.235, 0.235]
+  mass_kg: [0.205, 0.205]
+  note: Length 23.5 cm, hip height 17 cm and mass 205 g estimated from the holotype (Wikipedia revision cited).
+age:
+  first_ma: 85.7
+  last_ma: 83.6
+  early_interval: Santonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Neuquenornis volans
+  authority: Chiappe and Calvo 1994
+  first_ma: 85.7
+  last_ma: 83.6
+  interval: Santonian
+  reference: original description
+formations:
+- formation: Bajo de la Carpa
+  group: Neuquén
+  members: []
+  country: Argentina
+  regions: [Neuquén, Río Negro]
+  interval: Santonian
+  occurrences: 2
+  ma: [83.6, 85.7]
+  id: bajo-de-la-carpa-argentina
+fossil_material:
+  holotype: MUCPv-142, a skull and partial postcranial skeleton.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'Chiappe, Luis M.; Calvo, Jorge O. 1994. Neuquenornis volans, a New Late Cretaceous Bird (Enantiornithes:
+    Avisauridae) from Patagonia, Argentina. Journal of Vertebrate Paleontology 14(2): 230–246. doi:10.1080/02724634.1994.10011554'
+- kind: literature
+  text: 'Wang, Xuri; Cau, Andrea; Luo, Xiaoling; Kundrát, Martin; Wu, Wensheng; Ju, Shubin; Guo, Zhen; Liu, Yichuan;
+    Ji, Qiang 2022. A new bohaiornithid-like bird from the Lower Cretaceous of China fills a gap in enantiornithine
+    disparity. Journal of Paleontology 96(4): 961–976. doi:10.1017/jpa.2022.12'
+- kind: literature
+  text: Fernández, Mariela S.; García, Rodolfo A.; Fiorelli, Lucas; Scolaro, Alejandro; Salvador, Rodrigo B.; Cotaro,
+    Carlos N.; Kaiser, Gary W.; Dyke, Gareth J. 2013. A Large Accumulation of Avian Eggs from the Late Cretaceous
+    of Patagonia (Argentina) Reveals a Novel Nesting Strategy in Mesozoic Birds. PLOS ONE 8(4). doi:10.1371/journal.pone.0061030
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neuquenornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neuquenornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neuquenornis”. English Wikipedia, revision 1376556129.
+  url: https://en.wikipedia.org/w/index.php?title=Neuquenornis&oldid=1376556129
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

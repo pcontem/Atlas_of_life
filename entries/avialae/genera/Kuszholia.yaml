@@ -1,0 +1,72 @@
+name: Kuszholia
+rank: genus
+parent: ornithurae
+incertae_sedis: true
+placement_note: Regarded as a primitive bird or bird-like dinosaur; its position is unresolved.
+authority: Nessov 1992
+type_species: Kuszholia mengi
+type_species_note: The only valid species listed by PBDB.
+summary: Turonian bird or bird-like dinosaur from the Bissekty Formation of Uzbekistan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Kuszholia mengi
+  authority: Nessov 1992
+  first_ma: 93.9
+  last_ma: 89.8
+  interval: Turonian
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 2
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/5bddf6be-2335-4ad9-9524-db7cf5d2eb1a/vector.svg
+  png: https://images.phylopic.org/images/5bddf6be-2335-4ad9-9524-db7cf5d2eb1a/raster/512x424.png
+  page: https://www.phylopic.org/images/5bddf6be-2335-4ad9-9524-db7cf5d2eb1a
+  attribution: Matt Martyniuk (modified by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Ornithurae
+  matched: Ornithurae
+  genus_level: false
+sources:
+- kind: original
+  text: N. V. Zelenkov and A. O. Averianov. 2011. Synsacrum of a primitive bird from the Upper Cretaceous of Uzbekistan.
+    Paleontological Journal 45(3):314-319
+- kind: literature
+  text: Benton, Michael J.; Shishkin, Mikhail A.; Unwin, David M.; Kurochkin, Evgenii N. 2003. The Age of Dinosaurs
+    in Russia and Mongolia. Cambridge University Press.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kuszholia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kuszholia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kuszholia”. English Wikipedia, revision 1354828696.
+  url: https://en.wikipedia.org/w/index.php?title=Kuszholia&oldid=1354828696
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

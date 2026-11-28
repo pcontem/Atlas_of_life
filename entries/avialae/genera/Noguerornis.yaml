@@ -1,0 +1,70 @@
+name: Noguerornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Lacasa Ruiz 1989
+type_species: Noguerornis gonzalezi
+type_species_note: The only valid species listed by PBDB.
+summary: Early Barremian enantiornithine from the La Pedrera de Rúbies Formation of Spain, possibly related to Iberomesornis.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Noguerornis gonzalezi
+  authority: Lacasa Ruiz 1989
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Pedrera de Rúbies
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-pedrera-de-rubies-spain
+fossil_material:
+  holotype: A partial skeleton from Montsec, Lleida (number in Lacasa Ruiz 1989).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: A. Lacasa Ruiz. 1989. Nuevo genero de ave fosil del yacimiento Neocomiense del Montsec (Provincia de Lerida,
+    España) [new genus of fossil bird from the Neocomian locality of Montsec (Lerida province, Spain)]. Estudios
+    geológicos 45(5-6):417-425
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Noguerornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Noguerornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Noguerornis”. English Wikipedia, revision 1384399081.
+  url: https://en.wikipedia.org/w/index.php?title=Noguerornis&oldid=1384399081
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

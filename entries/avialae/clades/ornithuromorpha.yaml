@@ -1,0 +1,33 @@
+id: ornithuromorpha
+name: Ornithuromorpha
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Ornithuromorpha, unranked clade), downloaded 2026-11-27
+parent: ornithothoraces
+wikipedia: Euornithes
+summary: The branch of birds closer to modern birds than to the enantiornitheans, from Early Cretaceous waders to
+  living birds.
+diagnosis:
+- The first fully modern pygostyles, with a fan of tail feathers (eight rectrices in Yixianornis)
+- Gastralia and a pubic symphysis still present in the earliest members
+notes: The English Wikipedia article treats it under Euornithes, defined in the PhyloCode (Benito et al. 2022) as
+  the largest clade containing Vultur gryphus but not Enantiornithes; PBDB uses Ornithuromorpha (Chiappe 1999).
+  Many Early Cretaceous genera from China have unstable positions and are placed directly in the clade.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Euornithes”. English Wikipedia, revision 1380726219.
+  url: https://en.wikipedia.org/w/index.php?title=Euornithes&oldid=1380726219
+- kind: database
+  text: 'Paleobiology Database, taxon Ornithuromorpha (no. 82614): rank, authority Chiappe and et al 1999 and reference
+    no. 18001 (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=82614
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-27 (data/raw/tree/clade_sources_2026-11-27_avialae.json).
+  - 'S2: add the naming work (Chiappe and et al 1999, PBDB reference 18001) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

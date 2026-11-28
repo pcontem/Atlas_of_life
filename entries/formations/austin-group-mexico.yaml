@@ -5,16 +5,16 @@ group: Austin
 country: Mexico
 regions: [Coahuila]
 location:
-  lat: 28.883
-  lng: -102.406
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 28.577
+  lng: -102.561
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 93.9
-  last_ma: 85.7
+  last_ma: 72.2
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [offshore shelf]
-lithology: [lime mudstone]
-pbdb_collections: ['92293']
+environment: [offshore shelf, carbonate indet.]
+lithology: [lime mudstone, '"limestone"']
+pbdb_collections: ['92293', '160666']
 includes:
 - PBDB places these beds in the Austin Group without naming the formation.
 summary: ''

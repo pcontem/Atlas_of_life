@@ -1,0 +1,74 @@
+name: Sulcavis
+rank: genus
+parent: bohaiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: O'Connor et al. 2013
+type_species: Sulcavis geeorum
+type_species_note: Taxobox of Wikipedia revision 1387081065.
+summary: Bohaiornithid from Liaoning, the first bird known with grooved tooth enamel.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sulcavis geeorum
+  authority: O'Connor et al. 2013
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: BMNH Ph-000805, from near Lamadong, Liaoning.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Robust teeth with grooves on the inner surface, probably strengthening them against hard food.
+images:
+- kind: fossil
+  file: Sulcavis skull.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/97/Sulcavis_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Sulcavis_skull.png
+  artist: Zhiheng Li, Zhonghe Zhou, Julia A. Clarke
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-07-20'
+  caption: Sulcavis skull (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 771
+  height: 420
+  review: unreviewed
+  local: img/gallery/Sulcavis_001.webp
+sources:
+- kind: original
+  text: 'O’Connor, J. K.; Zhang, Y.; Chiappe, L. M.; Meng, Q.; Quanguo, L.; Di, L. 2013. A new enantiornithine from
+    the Yixian Formation with the first recognized avian enamel specialization. Journal of Vertebrate Paleontology
+    33: 1. doi:10.1080/02724634.2012.719176'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sulcavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sulcavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sulcavis”. English Wikipedia, revision 1387081065.
+  url: https://en.wikipedia.org/w/index.php?title=Sulcavis&oldid=1387081065
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

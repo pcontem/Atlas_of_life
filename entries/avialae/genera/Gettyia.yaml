@@ -1,0 +1,64 @@
+name: Gettyia
+rank: genus
+parent: avisauridae
+incertae_sedis: false
+placement_note: ''
+authority: Atterholt et al. 2018
+type_species: Gettyia gloriae
+type_species_note: Taxobox of Wikipedia revision 1387597708.
+summary: Small avisaurid enantiornithean from the Campanian Two Medicine Formation of Montana known from one foot
+  bone.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gettyia gloriae
+  authority: (Varricchio and Chiappe 1995)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Two Medicine
+  group: Montana
+  members: [Flag Butte]
+  country: United States
+  regions: [Montana]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: two-medicine-united-states
+fossil_material:
+  holotype: A right tarsometatarsus found by volunteer collector Gloria Siebrecht (Museum of the Rockies).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Foot anatomy suggests forceful toe flexion, as used by birds of prey in hunting (Atterholt et al. 2018).
+images: []
+sources:
+- kind: original
+  text: Atterholt, Jessie; Hutchison, J. Howard; O'Connor, Jingmai K. 2018. The most complete enantiornithine from
+    North America and a phylogenetic analysis of the Avisauridae. PeerJ 6. doi:10.7717/peerj.5910
+- kind: literature
+  text: 'Varricchio, David J.; Chiappe, Luis M. 1995. A New Enantiornithine Bird From the Upper Cretaceous Two Medicine
+    Formation of Montana. Journal of Vertebrate Paleontology 15(1): 201–204. doi:10.1080/02724634.1995.10011219'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gettyia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gettyia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gettyia”. English Wikipedia, revision 1387597708.
+  url: https://en.wikipedia.org/w/index.php?title=Gettyia&oldid=1387597708
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

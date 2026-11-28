@@ -1,0 +1,97 @@
+name: Protopteryx
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Zhang and Zhou 2000
+type_species: Protopteryx fengningensis
+type_species_note: The only valid species listed by PBDB.
+summary: Possibly the most basal enantiornithean, from the Huajiying Formation of Hebei, China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 121.4
+  early_interval: Hauterivian
+  late_interval: Barremian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Protopteryx fengningensis
+  authority: Zhang and Zhou 2000
+  first_ma: 132.6
+  last_ma: 121.4
+  interval: Hauterivian–Barremian
+  reference: original description
+formations:
+- formation: Huajiying
+  group: ''
+  members: [Qiaotou, Sichakou]
+  country: China
+  regions: [Hebei]
+  interval: Hauterivian–Barremian
+  occurrences: 2
+  ma: [121.4, 132.6]
+  id: huajiying-china
+fossil_material:
+  holotype: A skeleton from the Sichakou Member (number in Zhang and Zhou 2000).
+  material: The holotype and a referred specimen.
+  completeness: multiple
+  exceptional: Two elongated tail feathers lacking barbs.
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Protopteryx fengningensis (BMNHC Ph1060A) NMNS.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Protopteryx_fengningensis_%28BMNHC_Ph1060A%29_NMNS.jpg/960px-Protopteryx_fengningensis_%28BMNHC_Ph1060A%29_NMNS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Protopteryx_fengningensis_(BMNHC_Ph1060A)_NMNS.jpg
+  artist: Tiouraren (Y.-C. Tsai)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2020-01-28'
+  caption: Protopteryx fengningensis (BMNHC Ph1060A) NMNS (Wikimedia Commons; kind assigned from the file name,
+    not yet checked on the triage page).
+  width: 5616
+  height: 3744
+  review: unreviewed
+  local: img/gallery/Protopteryx_001.webp
+- kind: fossil
+  file: Protopteryx-Beijing Museum of Natural History.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1d/Protopteryx-Beijing_Museum_of_Natural_History.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Protopteryx-Beijing_Museum_of_Natural_History.jpg
+  artist: Jonathan Chen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2019-06-14'
+  caption: Protopteryx-Beijing Museum of Natural History (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 1322
+  height: 2121
+  review: unreviewed
+  local: img/gallery/Protopteryx_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/27898f6b-e343-4cf3-86a8-7e06666be4e9/vector.svg
+  png: https://images.phylopic.org/images/27898f6b-e343-4cf3-86a8-7e06666be4e9/raster/980x1022.png
+  page: https://www.phylopic.org/images/27898f6b-e343-4cf3-86a8-7e06666be4e9
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Protopteryx fengningensis
+  matched: Protopteryx
+  genus_level: true
+sources:
+- kind: original
+  text: 'Zhang, Fucheng; Zhou, Zhonghe 2000. A Primitive Enantiornithine Bird and the Origin of Feathers. Science
+    290(5498): 1955–1959. doi:10.1126/science.290.5498.1955'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protopteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protopteryx”. English Wikipedia, revision 1380747172.
+  url: https://en.wikipedia.org/w/index.php?title=Protopteryx&oldid=1380747172
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

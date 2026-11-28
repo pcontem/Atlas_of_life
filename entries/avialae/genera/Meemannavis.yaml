@@ -1,0 +1,60 @@
+name: Meemannavis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: O'Connor et al. 2021
+type_species: Meemannavis ductrix
+type_species_note: Taxobox and text of the cited Wikipedia revision.
+summary: Aptian ornithuromorph from the Xiagou Formation of Gansu with toothless jaw tips.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record; age from the stage named in the cited Wikipedia revision (Aptian), with ICS boundaries.
+species:
+- name: Meemannavis ductrix
+  authority: O'Connor et al. 2021
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: null
+  ma: [113.2, 121.4]
+  id: xiagou-china
+  group: ''
+  members: []
+fossil_material:
+  holotype: A partial skeleton with incomplete skull and neck and back vertebrae (number in O'Connor et al. 2021).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: The lower jaw and upper jaw tip are toothless; it may have had teeth further back in the upper jaw.
+images: []
+sources:
+- kind: original
+  text: 'O'' Connor JK, Stidham TA, Harris JD, Lamanna MC, Bailleul AM, Hu H, Wang M, You H 2021. Avian skulls represent
+    a diverse ornithuromorph fauna from the Lower Cretaceous Xiagou Formation, Gansu Province, China. Journal of
+    Systematics and Evolution 60(5): 1172–1198. doi:10.1111/jse.12823'
+- kind: encyclopedia
+  text: Wikipedia contributors. “Meemannavis”. English Wikipedia, revision 1387597749.
+  url: https://en.wikipedia.org/w/index.php?title=Meemannavis&oldid=1387597749
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Genus without a PBDB record (Wikipedia-recognised, rule of 2026-11-27): authority, age, species and formation
+    entered by hand from the Wikipedia revision; check against the original description.'
+  reviews: []

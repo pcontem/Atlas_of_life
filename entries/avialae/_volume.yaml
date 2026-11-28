@@ -1,0 +1,21 @@
+title: Avialae
+root: avialae
+attach_to: paraves
+built: '2026-11-27'
+size_measure: length
+method: Ages, authorities, species and formations from the Paleobiology Database; descriptive data paraphrased from
+  the cited literature and English Wikipedia; scientific articles found through OpenAlex and Europe PMC (data/raw/avialae/papers.json);
+  images from Wikimedia Commons and PhyloPic with their licences. Classification from recent phylogenetic analyses
+  checked against PBDB (docs/TREE_REVIEW.md). Genus list checked against PBDB, Wikipedia and recent literature by
+  the census of 2026-11-27 (data/raw/census/avialae). The volume covers the Mesozoic avialans outside the crown
+  group (Neornithes), namely Archaeopterygidae, the long-tailed and early short-tailed birds, Enantiornithes and
+  the Mesozoic Ornithuromorpha. Crown birds, Mesozoic ones included, are left for the Aves volumes; ichnogenera
+  and oogenera are not included.
+restoration_checks:
+- fully feathered body with pennaceous wing and tail feathers, never scaly-skinned
+- long bony tail only in non-pygostylian birds (Archaeopteryx, Jeholornis); a short pygostyle-tipped tail with a
+  fan or paired streamer feathers in pygostylians, as known for the genus
+- teeth, toothless beak and skull shape match the genus (toothed jaws in most Mesozoic birds; beaks in Confuciusornis
+  and some ornithuromorphs)
+- hand with free clawed fingers where the material shows them; reversed first toe in perching forms; foot-propelled
+  divers (hesperornithines) with tiny wings and lobed or webbed feet as supported by the material

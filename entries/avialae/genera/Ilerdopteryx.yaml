@@ -1,0 +1,61 @@
+name: Ilerdopteryx
+rank: genus
+parent: avialae
+incertae_sedis: true
+placement_note: Known only from feathers; Wikipedia suggests a possible enantiornithine, PBDB places it in Archaeornithes.
+authority: Lacasa Ruiz 1985
+type_species: Ilerdopteryx viai
+type_species_note: The only valid species listed by PBDB.
+summary: Barremian feather taxon from the Montsec lithographic limestones of Spain, perhaps an enantiornithine.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 121.4
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ilerdopteryx viai
+  authority: Lacasa Ruiz 1985
+  first_ma: 125.77
+  last_ma: 121.4
+  interval: Barremian
+  reference: original description
+formations:
+- formation: La Pedrera de Rúbies
+  group: ''
+  members: []
+  country: Spain
+  regions: []
+  interval: Early Barremian
+  occurrences: 1
+  ma: [121.4, 125.77]
+  id: la-pedrera-de-rubies-spain
+fossil_material:
+  holotype: Isolated contour feathers from La Pedrera de Rúbies (Montsec, Lleida), described by Lacasa Ruiz (1985).
+  material: A small collection of isolated contour feathers.
+  completeness: fragmentary
+  exceptional: Feathers only.
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: A. Lacasa Ruiz. 1985. Nota sobre las plumas fósiles del yacimiento eocretácico de “La Pedrera-La Cabrua”
+    en la Sierra del Montsec (prov. Lleida, España) Ilerdopteryx viai n. g. n. sp. Illerda 46:227-237
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ilerdopteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ilerdopteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ilerdopteryx”. English Wikipedia, revision 1384400459.
+  url: https://en.wikipedia.org/w/index.php?title=Ilerdopteryx&oldid=1384400459
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Based only on feathers: validity to check (PBDB lists Llerdopteryx, a variant, as nomen dubium).'
+  reviews: []

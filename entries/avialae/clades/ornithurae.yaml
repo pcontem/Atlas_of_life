@@ -1,0 +1,31 @@
+id: ornithurae
+name: Ornithurae
+rank: clade
+taxon_rank: subclass
+taxon_rank_source: Paleobiology Database taxonomy (taxon Ornithurae, subclass), downloaded 2026-11-27
+parent: ornithuromorpha
+wikipedia: Ornithurae
+summary: Modern birds and their closest relatives, the ichthyornithines and hesperornithines.
+diagnosis:
+- Short fused pygostyle tail of modern-bird type ("bird tail" of Haeckel)
+- Defined as the smallest clade of Ichthyornis dispar, Hesperornis regalis and Vultur gryphus (Benito et al. 2022)
+notes: Coined by Haeckel (1866). The crown group Aves (Neornithes) belongs here; in this atlas it is kept for the
+  Aves volumes and appears as a group of the tree outline below Ornithurae.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ornithurae”. English Wikipedia, revision 1367582740.
+  url: https://en.wikipedia.org/w/index.php?title=Ornithurae&oldid=1367582740
+- kind: database
+  text: 'Paleobiology Database, taxon Ornithurae (no. 137276): rank, authority (Haeckel 1866) and reference no.
+    35418 (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=137276
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-27 (data/raw/tree/clade_sources_2026-11-27_avialae.json).
+  - 'S2: add the naming work ((Haeckel 1866), PBDB reference 35418) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

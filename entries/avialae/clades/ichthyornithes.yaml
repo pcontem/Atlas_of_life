@@ -1,0 +1,29 @@
+id: ichthyornithes
+name: Ichthyornithes
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Ichthyornithes, unranked clade), downloaded 2026-11-27
+parent: ornithurae
+wikipedia: Ichthyornithes
+summary: Toothed, tern-like flying birds of the Late Cretaceous of North America, very close to modern birds.
+diagnosis: [Toothed jaws, Very close to the common ancestor of modern birds]
+notes: First recorded about 95 million years ago (Cenomanian); only Ichthyornis and Janavis are known from fossils
+  complete enough to be named. They died out at the Cretaceous-Paleogene boundary.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ichthyornithes”. English Wikipedia, revision 1387579087.
+  url: https://en.wikipedia.org/w/index.php?title=Ichthyornithes&oldid=1387579087
+- kind: database
+  text: 'Paleobiology Database, taxon Ichthyornithes (no. 471646): rank, authority (Marsh 1873) and reference no.
+    28746 (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=471646
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-27 (data/raw/tree/clade_sources_2026-11-27_avialae.json).
+  - 'S2: add the naming work ((Marsh 1873), PBDB reference 28746) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

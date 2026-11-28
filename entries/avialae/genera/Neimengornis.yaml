@@ -1,0 +1,70 @@
+name: Neimengornis
+rank: genus
+parent: jeholornithiformes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2021
+type_species: Neimengornis rectusmim
+type_species_note: The only valid species listed by PBDB.
+summary: Jeholornithiform from the Jiufotang Formation of Liaoning known from one specimen with a straight minor
+  metacarpal.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Neimengornis rectusmim
+  authority: Wang et al. 2021
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IMMNH-PV00122, Jiufotang Formation, Liaoning.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0a4e1b13-d4f4-425c-8b80-8db24831280f/vector.svg
+  png: https://images.phylopic.org/images/0a4e1b13-d4f4-425c-8b80-8db24831280f/raster/512x258.png
+  page: https://www.phylopic.org/images/0a4e1b13-d4f4-425c-8b80-8db24831280f
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Shenzhouraptor sinensis
+  matched: Jeholornithiformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, J.; Wang, X.; Guo, B.; Kang, A.; Ma, F.; Ju, S. 2021. A new jeholornithiform identified from the
+    Early Cretaceous Jiufotang Formation in western Liaoning. Geological Bulletin of China 40(9): 1419–1427.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neimengornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neimengornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neimengornis”. English Wikipedia, revision 1374821892.
+  url: https://en.wikipedia.org/w/index.php?title=Neimengornis&oldid=1374821892
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

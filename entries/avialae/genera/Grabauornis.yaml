@@ -1,0 +1,72 @@
+name: Grabauornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Dalsatt et al. 2014
+type_species: Grabauornis lingyuanensis
+type_species_note: The only valid species listed by PBDB.
+summary: Enantiornithean from the Yixian Formation of Liaoning, about 125 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: Aptian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Grabauornis lingyuanensis
+  authority: Dalsatt et al. 2014
+  first_ma: 125.77
+  last_ma: 119.57
+  interval: Barremian–Aptian
+  reference: original description
+formations:
+- formation: Yixian
+  group: Jehol
+  members: [Dawangzhangzi]
+  country: China
+  regions: [Liaoning]
+  interval: Late Barremian–Early Aptian
+  occurrences: 1
+  ma: [119.57, 125.77]
+  id: yixian-china
+fossil_material:
+  holotype: IVPP V14595, a well-preserved skeleton compressed on a single plate.
+  material: Known only from the holotype.
+  completeness: complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Euenantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: J. Dalsatt, P. G. P. Ericson, and Z. Zhou. 2014. A new Enantiornithes from the Early Cretaceous of China.
+    Acta Geologica Sinica 88(4):1034-1040
+- kind: literature
+  text: 'Dalsätt, J.; Ericson, P. G. P.; Zhou, Z. 2014. A new Enantiornithes from the Early Cretaceous of China.
+    Acta Geologica Sinica 88(4): 1034–1040. doi:10.1111/1755-6724.12270'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Grabauornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Grabauornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Grabauornis”. English Wikipedia, revision 1300194687.
+  url: https://en.wikipedia.org/w/index.php?title=Grabauornis&oldid=1300194687
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

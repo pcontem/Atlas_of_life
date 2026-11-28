@@ -1,0 +1,49 @@
+id: avialae
+name: Avialae
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Avialae, unranked clade), downloaded 2026-11-27
+parent: null
+wikipedia: Avialae
+summary: The clade of birds and their closest relatives, all theropods nearer to living birds than to dromaeosaurids
+  and troodontids.
+diagnosis:
+- Feathered wings used in flapping flight (the apomorphy-based definition of Gauthier 2001)
+- Proatlas bones of the neck lost in most members, though still present in Archaeopteryx
+notes: Definitions differ. Most authors use a branch-based clade (theropods closer to birds than to Deinonychus
+  or Dromaeosaurus); the PhyloCode definition of Benito and colleagues (2022) also excludes troodontids, and Agnolín
+  and Novas (2013) restricted the name to the smallest clade of Archaeopteryx and modern birds. Archaeopteryx, from
+  the Late Jurassic of Germany, is usually treated as the earliest avialan capable of powered flight, although a
+  few analyses (Hartman et al. 2019) place it and the anchiornithids outside the group. Avialans diversified widely
+  in the Cretaceous; teeth were lost several times independently and the bony tail was shortened to a pygostyle
+  in Pygostylia. In this atlas the crown group (Aves, the living birds and their Mesozoic members) is kept for the
+  Aves volumes.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Avialae”. English Wikipedia, revision 1380361401.
+  url: https://en.wikipedia.org/w/index.php?title=Avialae&oldid=1380361401
+- kind: database
+  text: 'Paleobiology Database, taxon Avialae (no. 53211): rank, authority and reference (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=53211
+- kind: original
+  text: J. A. Gauthier. 1986. Saurischian monophyly and the origin of birds. The Origin of Birds and the Evolution
+    of Flight, K. Padian (ed.), Memoirs of the California Academy of Sciences 8:1-55
+- kind: literature
+  text: Benito, J.; Chen, A.; Wilson, L.E.; Bhullar, B.S.; Burnham, D.; Field, D.J. 2022. Forty new specimens of
+    Ichthyornis provide unprecedented insight into the postcranial morphology of crownward stem group birds. PeerJ
+    10. doi:10.7717/peerj.13919
+  url: https://doi.org/10.7717/peerj.13919
+- kind: literature
+  text: Hartman, Scott; Mortimer, Mickey; Wahl, William R.; Lomax, Dean R.; Lippincott, Jessica; Lovelace, David
+    M. 2019. A new paravian dinosaur from the Late Jurassic of North America supports a late acquisition of avian
+    flight. PeerJ 7. doi:10.7717/peerj.7247
+  url: https://doi.org/10.7717/peerj.7247
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-27 (data/raw/tree/clade_sources_2026-11-27_avialae.json).
+  - Gauthier 2001 (apomorphy-based redefinition) is cited from the Wikipedia revision only; add the primary reference.
+  reviews: []

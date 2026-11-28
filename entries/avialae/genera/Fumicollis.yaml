@@ -1,0 +1,85 @@
+name: Fumicollis
+rank: genus
+parent: hesperornithes
+incertae_sedis: false
+placement_note: ''
+authority: Bell and Chiappe 2015
+type_species: Fumicollis hoffmani
+type_species_note: Taxobox of Wikipedia revision 1299911943.
+summary: Flightless hesperornithine from the Coniacian–Santonian Niobrara Chalk of Kansas.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 89.8
+  last_ma: 83.6
+  early_interval: Coniacian
+  late_interval: Santonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fumicollis hoffmani
+  authority: Bell and Chiappe 2015
+  first_ma: 89.8
+  last_ma: 83.6
+  interval: Coniacian–Santonian
+  reference: original description
+formations:
+- formation: Niobrara
+  group: Colorado
+  members: [Smoky Hill Chalk]
+  country: United States
+  regions: [Kansas]
+  interval: Late Coniacian–Santonian
+  occurrences: 1
+  ma: [83.6, 89.8]
+  id: niobrara-united-states
+fossil_material:
+  holotype: A partial skeleton (number in Bell and Chiappe 2015).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Fumicollis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Fumicollis.png/960px-Fumicollis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Fumicollis.png
+  artist: Alyssa Bell & Luis M Chiappe
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015-11-18'
+  caption: Fumicollis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2203
+  height: 1164
+  review: unreviewed
+  local: img/gallery/Fumicollis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/0f7953ed-dd15-4409-b685-bacf461990c8/vector.svg
+  png: https://images.phylopic.org/images/0f7953ed-dd15-4409-b685-bacf461990c8/raster/512x241.png
+  page: https://www.phylopic.org/images/0f7953ed-dd15-4409-b685-bacf461990c8
+  attribution: Alyssa Bell & Luis Chiappe 2015, dx.doi.org/10.1371/journal.pone.0141690
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Fumicollis hoffmani
+  matched: Fumicollis
+  genus_level: true
+  w: 512
+  h: 241
+sources:
+- kind: original
+  text: 'Bell, A.; Chiappe, L. M. 2015. A species-level phylogeny of the Cretaceous Hesperornithiformes (Aves: Ornithuromorpha):
+    Implications for body size evolution amongst the earliest diving birds. Journal of Systematic Palaeontology
+    14(3): 239–251. doi:10.1080/14772019.2015.1036141'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fumicollis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fumicollis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fumicollis”. English Wikipedia, revision 1299911943.
+  url: https://en.wikipedia.org/w/index.php?title=Fumicollis&oldid=1299911943
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
