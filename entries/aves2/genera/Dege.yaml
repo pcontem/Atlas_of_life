@@ -1,0 +1,68 @@
+name: Dege
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Simpson 1979
+type_species: Dege hendeyi
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct penguin genus recorded in PBDB from the Tortonian–Zanclean of South Africa.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 3.6
+  early_interval: Tortonian
+  late_interval: Zanclean
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Dege hendeyi
+  authority: Simpson 1979
+  first_ma: 11.63
+  last_ma: 3.6
+  interval: Tortonian–Zanclean
+  reference: original description
+formations:
+- formation: Varswater
+  group: ''
+  members: [Konings Vlei Gravel, Muishond Fontein Pelletal Phosphorite, PPM]
+  country: South Africa
+  regions: []
+  interval: Late Miocene–Zanclean
+  occurrences: 4
+  ma: [3.6, 11.63]
+  id: varswater-south-africa
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/59c88fc6-9586-4884-81dc-63d392a7944b/vector.svg
+  png: https://images.phylopic.org/images/59c88fc6-9586-4884-81dc-63d392a7944b/raster/512x99.png
+  page: https://www.phylopic.org/images/59c88fc6-9586-4884-81dc-63d392a7944b
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Polypterus senegalus
+  matched: Dege
+  genus_level: true
+sources:
+- kind: original
+  text: G. G. Simpson. 1979. A new genus of late Tertiary penguin from Langebaanweg, South Africa. Annals of the
+    South African Museum 78(1):1-9
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dege (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dege
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

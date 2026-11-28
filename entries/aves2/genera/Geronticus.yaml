@@ -1,0 +1,106 @@
+name: Geronticus
+rank: genus
+parent: threskiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagler 1832
+type_species: Geronticus eremita
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living ibis or spoonbill genus recorded in PBDB from the Zanclean–Holocene of France, Italy, South Africa,
+  Spain.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Geronticus eremita
+  authority: (Linnaeus 1758)
+  first_ma: 1.8
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: ''
+- name: Geronticus perplexus
+  authority: (Milne-Edwards 1871)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Siracusa]
+  interval: Calabrian–Middle Pleistocene
+  occurrences: 2
+  ma: [0.129, 1.8]
+  id: unnamed-spinagallo-cave-italy
+- formation: Varswater
+  group: ''
+  members: [PPM]
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Murcia]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: unnamed-sierra-de-quibas-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-grotte-bodine-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3bb0928f-f9d2-4163-b0ce-7a1b58e3a47a/vector.svg
+  png: https://images.phylopic.org/images/3bb0928f-f9d2-4163-b0ce-7a1b58e3a47a/raster/512x402.png
+  page: https://www.phylopic.org/images/3bb0928f-f9d2-4163-b0ce-7a1b58e3a47a
+  attribution: Matthew Speight
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Geronticus eremita
+  matched: Geronticus
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Geronticus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Geronticus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Geronticus”. English Wikipedia, revision 1385818180.
+  url: https://en.wikipedia.org/w/index.php?title=Geronticus&oldid=1385818180
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -1,0 +1,68 @@
+name: Madrynornis
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Acosta Hospitaleche et al. 2007
+type_species: Madrynornis mirandus
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct penguin genus recorded in PBDB from the Tortonian of Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 7.246
+  early_interval: Tortonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Madrynornis mirandus
+  authority: Acosta Hospitaleche et al. 2007
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: original description
+formations:
+- formation: Puerto Madryn
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: puerto-madryn-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/vector.svg
+  png: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/raster/792x1024.png
+  page: https://www.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aptenodytes patagonicus
+  matched: Spheniscidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. Acosta Hospitaleche, C. Tambussi, and M. Donato, M. Cozzuol. 2007. A new Miocene penguin from Patagonia
+    and its phylogenetic relationships. Acta Palaeontologica Polonica 52(2):299-314
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Madrynornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Madrynornis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

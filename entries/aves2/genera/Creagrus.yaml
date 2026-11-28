@@ -1,0 +1,72 @@
+name: Creagrus
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1854
+type_species: Creagrus furcatus
+type_species_note: The only valid species listed by PBDB.
+summary: Living larid genus recorded in PBDB from the Holocene of Ecuador.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Creagrus furcatus
+  authority: (Neboux 1853)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-ecuador
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/vector.svg
+  png: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/raster/512x276.png
+  page: https://www.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117
+  attribution: Sue Cantan (photograph) and T. Michael Keesey (vectorization)
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Creagrus furcatus
+  matched: Creagrus
+  genus_level: true
+sources:
+- kind: original
+  text: N. A. Smith. 2011. Taxonomic revision and phylogenetic analysis of the flightless Mancallinae (Aves, Pan-Alcidae).
+    ZooKeys 91:1-116
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Creagrus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Creagrus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Swallow-tailed gull”. English Wikipedia, revision 1384730575.
+  url: https://en.wikipedia.org/w/index.php?title=Swallow-tailed_gull&oldid=1384730575
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

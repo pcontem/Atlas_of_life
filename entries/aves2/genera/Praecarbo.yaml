@@ -1,0 +1,68 @@
+name: Praecarbo
+rank: genus
+parent: phalacrocoracidae
+incertae_sedis: false
+placement_note: ''
+authority: Kessler and Horváth 2023
+type_species: Praecarbo strigoniensis
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct cormorant genus recorded in PBDB from the Aquitanian of Hungary.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 20.45
+  early_interval: Aquitanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Praecarbo strigoniensis
+  authority: Kessler and Horváth 2023
+  first_ma: 23.04
+  last_ma: 20.45
+  interval: Aquitanian
+  reference: original description
+formations:
+- formation: Törökbálint
+  group: ''
+  members: [Mányi]
+  country: Hungary
+  regions: [Esztergom]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: torokbalint-hungary
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431/vector.svg
+  png: https://images.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431/raster/512x441.png
+  page: https://www.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431
+  attribution: L. Shyamal
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Phalacrocorax fuscicollis
+  matched: Phalacrocoracidae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Kessler and I. Horváth. 2023. Praecarbo strigoniensis, a new genus and species of Cormorants (Phalacrocoracinae)
+    from the Late Oligocene of Hungary. Ornis Hungarica 31(1):126-132
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Praecarbo (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Praecarbo
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

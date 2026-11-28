@@ -1,0 +1,131 @@
+name: Pygoscelis
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Wagler 1832
+type_species: Pygoscelis papua
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living penguin genus recorded in PBDB from the Messinian–Holocene of Antarctica, Chile, FK, New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 7.246
+  last_ma: 0
+  early_interval: Messinian
+  late_interval: Holocene
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Pygoscelis adeliae
+  authority: (Hombon and Jacquinot 1841)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Pygoscelis antarcticus
+  authority: (Forster 1781)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Pygoscelis calderensis
+  authority: Acosta Hospitaleche et al. 2006
+  first_ma: 7.246
+  last_ma: 5.333
+  interval: Messinian
+  reference: ''
+- name: Pygoscelis grandis
+  authority: Walsh and Suarez 2006
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Pygoscelis papua
+  authority: (Forester 1781)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Pygoscelis tyreei
+  authority: Simpson 1972
+  first_ma: 2.4
+  last_ma: 1.63
+  interval: Gelasian–Calabrian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 8
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-marine-plain-vestfold-hills-holocene-antarctica
+  - unnamed-pingfo-i-living-assemblage-antarctica
+  - unnamed-princess-astrid-coast-antarctica
+- formation: Bahía Inglesa
+  group: ''
+  members: [Lechero]
+  country: Chile
+  regions: []
+  interval: Messinian–Zanclean
+  occurrences: 2
+  ma: [3.6, 7.246]
+  id: bahia-inglesa-chile
+- formation: Greta Siltstone
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Nukumaruan
+  occurrences: 1
+  ma: [1.63, 2.4]
+  id: greta-siltstone-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: FK
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-bleaker-island-beach-fk
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/693b84ab-7f2d-4dfd-8355-cbb8327c07fd/vector.svg
+  png: https://images.phylopic.org/images/693b84ab-7f2d-4dfd-8355-cbb8327c07fd/raster/753x1024.png
+  page: https://www.phylopic.org/images/693b84ab-7f2d-4dfd-8355-cbb8327c07fd
+  attribution: Noah Schlottman, photo by Reinhard Jahn
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Pygoscelis adeliae
+  matched: Pygoscelis
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pygoscelis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pygoscelis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pygoscelis”. English Wikipedia, revision 1387247804.
+  url: https://en.wikipedia.org/w/index.php?title=Pygoscelis&oldid=1387247804
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

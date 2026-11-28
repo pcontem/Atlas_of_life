@@ -1,0 +1,72 @@
+name: Anarhynchus
+rank: genus
+parent: charadriidae
+incertae_sedis: false
+placement_note: ''
+authority: Quoy and Gaimard 1830
+type_species: Anarhynchus frontalis
+type_species_note: The only valid species listed by PBDB.
+summary: Living plover genus recorded in PBDB from the Holocene of New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Anarhynchus frontalis
+  authority: Quoy and Gaimard 1830
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-marfells-beach-dune-deposits-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/fcc3ea71-17d5-44cc-8b52-dea48a83c943/vector.svg
+  png: https://images.phylopic.org/images/fcc3ea71-17d5-44cc-8b52-dea48a83c943/raster/512x380.png
+  page: https://www.phylopic.org/images/fcc3ea71-17d5-44cc-8b52-dea48a83c943
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Anarhynchus nivosus
+  matched: Anarhynchus
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anarhynchus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anarhynchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anarhynchus”. English Wikipedia, revision 1385814022.
+  url: https://en.wikipedia.org/w/index.php?title=Anarhynchus&oldid=1385814022
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -7,14 +7,14 @@ regions: [Kansas]
 location:
   lat: 37.2
   lng: -100.3
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 4.7
   last_ma: 1.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
-lithology: []
-pbdb_collections: ['154240']
+environment: [terrestrial indet., fluvial indet.]
+lithology: [siltstone]
+pbdb_collections: ['19922', '19925', '19936', '19940', '154240']
 includes: []
 summary: ''
 paleoenvironment: ''

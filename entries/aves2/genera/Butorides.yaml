@@ -1,0 +1,144 @@
+name: Butorides
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Blyth 1852
+type_species: Butorides virescens
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living heron genus recorded in PBDB from the Zanclean–Holocene of Bahamas, Mauritius, Mexico, PF, United
+  States, VI.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Butorides striata
+  authority: (Linnaeus 1758)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Butorides validipes
+  authority: Campbell 1976
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+- name: Butorides virescens
+  authority: (Linnaeus 1758)
+  first_ma: 1.4
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida]
+  interval: Blancan–Late Pleistocene
+  occurrences: 6
+  ma: [0.0117, 4.7]
+  id:
+  - unnamed-cutler-hammock-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-haile-xva-united-states
+  - unnamed-ichetucknee-river-united-states
+  - unnamed-la-brea-tar-pits-united-states
+  - unnamed-seminole-field-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: PF
+  regions: [Society Islands]
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-fa-ahia-site-huahine-pf
+- formation: Caloosahatchee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Irvingtonian
+  occurrences: 1
+  ma: [0.21, 1.4]
+  id: caloosahatchee-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bahamas
+  regions: [San Salvador]
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-ficus-pit-bahamas
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mauritius
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-caverne-dora-plaine-corail-rodrigues-mauritius
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: VI
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-magen-s-bay-st-thomas-vi
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/be86304a-cf91-45c2-a235-73b41491ca31/vector.svg
+  png: https://images.phylopic.org/images/be86304a-cf91-45c2-a235-73b41491ca31/raster/512x360.png
+  page: https://www.phylopic.org/images/be86304a-cf91-45c2-a235-73b41491ca31
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Butorides virescens
+  matched: Butorides
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Butorides (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Butorides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Butorides”. English Wikipedia, revision 1381562166.
+  url: https://en.wikipedia.org/w/index.php?title=Butorides&oldid=1381562166
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

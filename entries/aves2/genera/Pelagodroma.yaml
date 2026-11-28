@@ -1,0 +1,106 @@
+name: Pelagodroma
+rank: genus
+parent: procellariiformes
+incertae_sedis: false
+placement_note: ''
+authority: Reichenbach 1853
+type_species: Pelagodroma marina
+type_species_note: The only valid species listed by PBDB.
+summary: Living storm petrel genus recorded in PBDB from the Zanclean–Holocene of New Zealand, SH, South Africa,
+  TF.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 18
+  note: ''
+species:
+- name: Pelagodroma marina
+  authority: (Latham 1790)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: SH
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 10
+  ma: [0.0117, 0.129]
+  id: unnamed-sugarloaf-hill-site-1-sh
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 6
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-chatham-islands-new-zealand
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+  - unnamed-mason-bay-stewart-island-new-zealand
+  - unnamed-site-1-mangere-island-new-zealand
+  - unnamed-te-ana-a-moe-chatham-island-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: [Langebaanweg]
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: unnamed-langebaanweg-e-quarry-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TF
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-amsterdam-island-tf
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e/vector.svg
+  png: https://images.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e/raster/824x1024.png
+  page: https://www.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e
+  attribution: Mark Hannaford (photo), John E. McCormack, Michael G. Harvey, Brant C. Faircloth, Nicholas G. Crawford,
+    Travis C. Glenn, Robb T. Brumfield & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Oceanites oceanicus
+  matched: Oceanitidae
+  genus_level: false
+sources:
+- kind: original
+  text: T. H. Worthy and J. A. Grant-Mackie. 2003. Late-Pleistocene avifaunas from Cape Wanbrow, Otago, South Island,
+    New Zealand. Journal of the Royal Society of New Zealand 33(1):427-485
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pelagodroma (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pelagodroma
+- kind: encyclopedia
+  text: Wikipedia contributors. “White-faced storm petrel”. English Wikipedia, revision 1387305101.
+  url: https://en.wikipedia.org/w/index.php?title=White-faced_storm_petrel&oldid=1387305101
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

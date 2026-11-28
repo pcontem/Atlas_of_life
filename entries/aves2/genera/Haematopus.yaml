@@ -1,0 +1,153 @@
+name: Haematopus
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Haematopus ostralegus
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Living oystercatcher genus recorded in PBDB from the Tortonian–Holocene of Italy, New Zealand, South Africa,
+  Ukraine, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 16
+  note: ''
+species:
+- name: Haematopus finschi
+  authority: Martens 1897
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Haematopus moquini
+  authority: Bonaparte 1856
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Haematopus ostralegus
+  authority: Linnaeus 1758
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Haematopus palliatus
+  authority: Temminick 1820
+  first_ma: 11.63
+  last_ma: 3.6
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Haematopus unicolor
+  authority: Forster 1841
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 6
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+  - unnamed-mason-bay-stewart-island-new-zealand
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 3
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ukraine
+  regions: []
+  interval: MN 15–MN 16
+  occurrences: 1
+  ma: [2.245, 4.16]
+  id: unnamed-catacombs-of-odessa-ukraine-ukraine
+- formation: Peace River
+  group: Hawthorn
+  members: [Bone Valley]
+  country: United States
+  regions: [Florida]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: peace-river-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-duiker-eiland-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-cava-di-breccia-di-casal-selce-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/65ed3e2d-38f5-421f-976c-be4df6ac73fa/vector.svg
+  png: https://images.phylopic.org/images/65ed3e2d-38f5-421f-976c-be4df6ac73fa/raster/512x374.png
+  page: https://www.phylopic.org/images/65ed3e2d-38f5-421f-976c-be4df6ac73fa
+  attribution: terngirl
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Haematopus longirostris
+  matched: Haematopus
+  genus_level: true
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Haematopus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Haematopus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Oystercatcher”. English Wikipedia, revision 1386482063.
+  url: https://en.wikipedia.org/w/index.php?title=Oystercatcher&oldid=1386482063
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

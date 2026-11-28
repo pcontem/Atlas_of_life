@@ -1,0 +1,72 @@
+name: Pilherodius
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Reichenbach 1853
+type_species: Pilherodius pileatus
+type_species_note: The only valid species listed by PBDB.
+summary: Living heron genus recorded in PBDB from the Holocene of Brazil.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pilherodius pileatus
+  authority: Boddaert 1783
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4f43b44e-f2fc-4dc4-91b2-a7f926169e56/vector.svg
+  png: https://images.phylopic.org/images/4f43b44e-f2fc-4dc4-91b2-a7f926169e56/raster/751x1024.png
+  page: https://www.phylopic.org/images/4f43b44e-f2fc-4dc4-91b2-a7f926169e56
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Pilherodius pileatus
+  matched: Pilherodius
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pilherodius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pilherodius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Capped heron”. English Wikipedia, revision 1385607110.
+  url: https://en.wikipedia.org/w/index.php?title=Capped_heron&oldid=1385607110
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

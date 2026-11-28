@@ -1,0 +1,68 @@
+name: Becassius
+rank: genus
+parent: glareolidae
+incertae_sedis: false
+placement_note: ''
+authority: De Pietri and Mayr 2012
+type_species: Becassius charadriioides
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct pratincole or courser genus recorded in PBDB from the Aquitanian of France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 20.45
+  early_interval: Aquitanian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Becassius charadriioides
+  authority: De Pietri and Mayr 2012
+  first_ma: 23.04
+  last_ma: 20.45
+  interval: Aquitanian
+  reference: original description
+formations:
+- formation: Indusial Limestone
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Aquitanian
+  occurrences: 2
+  ma: [20.45, 23.04]
+  id: indusial-limestone-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Glareolidae
+  genus_level: false
+sources:
+- kind: original
+  text: V. L. De Pietri and G. Mayr. 2012. An assessment of the diversity of Early Micoene Scolopaci (Aves, Schardriiformes)
+    from Saint, Gérand-Le Puy (Allier, France). Palaeontology 55(6):1177-1197
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Becassius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Becassius
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

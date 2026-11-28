@@ -1,0 +1,30 @@
+id: procellariidae
+name: Procellariidae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Procellariidae, family), downloaded 2026-11-28
+parent: procellariiformes
+wikipedia: Procellariidae
+summary: Fulmarine and gadfly petrels, shearwaters, prions and diving petrels.
+diagnosis:
+- Small- to medium-sized seabirds
+- From diving petrels to the southern giant petrel with a 185–205 cm wingspan
+notes: Diving petrels are included.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Procellariidae”. English Wikipedia, revision 1385703483.
+  url: https://en.wikipedia.org/w/index.php?title=Procellariidae&oldid=1385703483
+- kind: database
+  text: 'Paleobiology Database, taxon Procellariidae (no. 39695): rank, authority Vigors 1825 and reference no.
+    4783 (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=39695
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work (Vigors 1825, PBDB reference 4783) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

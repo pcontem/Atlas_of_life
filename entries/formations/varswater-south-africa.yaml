@@ -3,18 +3,25 @@ name: Varswater
 rank: formation
 group: ''
 country: South Africa
-regions: [Cape]
+regions: [Cape, Langebaanweg]
 location:
   lat: -32.976
   lng: 18.15
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  basis: median of 8 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 7.246
+  first_ma: 11.63
   last_ma: 2.58
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fluvial indet., '"channel"', '"floodplain"']
-lithology: [sandstone]
-pbdb_collections: ['22221', '22222', '59167']
+environment:
+- fluvial indet.
+- foreshore
+- '"floodplain"'
+- paralic indet.
+- cave
+- '"channel"'
+- wet floodplain
+lithology: [sandstone, conglomerate]
+pbdb_collections: ['21713', '22219', '22221', '22222', '22227', '59167', '100313', '176419']
 includes: []
 summary: ''
 paleoenvironment: ''

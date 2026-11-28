@@ -1,3 +1,19 @@
+# Next steps — Aves II (waterbirds and shorebirds)
+
+Done (2026-11-28): census, harvest, clade sources; 28 clade entries; 277 genus drafts. Because of the size of the volume, every genus
+summary is a thin first draft written from PBDB data (family, age, countries): the cited Wikipedia revision (kept as a source when it is
+about the genus) has not yet been read for the text, holotype and biology say "Not given in the sources used", and images were chosen
+from Commons file names. excluded.yaml: PBDB synonyms.
+
+Pending genera:
+- No type species or no authority in the sources, not written: Archaeospheniscus Ardenna Arthrodytes Belonopterus Blasipus Calonectris Chlidonias Coenocorypha Colymboides Copepteryx Esacus Eudocimus Fregata Fregetta Heteroscelus Hydrobates Hydrophasianus Ibidorhynchus Kashinia Leucocarbo Leucophaeus Limicorallus Macrorhamphus Microcarbo Miopelecanus Nambashag Nautilornis Nectornis Nupharanassa Oceanodroma Oligocorax Onychoprion Paractitis Paraptenodytes Pelidna Phaetusa Phalaropus Philohela Phoebastria Precursor Pseudobulweria Rhinoptilus Sternalara Sula Telmatornis Thalasseus Totanus Tryngites Villetus Xenorhynchus.
+- No PBDB occurrence or family outside the volume: see the pending list of work/mkbatch.py output (Ardeacites, Botaurites, Empeirodytes,
+  Mioglareola, Scopus, Stercorarius…).
+- Living genera without a fossil record are not in PBDB and not in the harvest.
+
+To do: rewrite the summaries, holotype, material and biology of each genus from its Wikipedia revision and the literature (batches of
+20–30 per clade); check the type species filled from general knowledge.
+
 # Next steps — Aves I (Palaeognathae and Galloanserae)
 
 Done (2026-11-28): census, harvest, clade sources; 27 clade entries; 226 genus drafts (living genera with `extant: true`; thin drafts from

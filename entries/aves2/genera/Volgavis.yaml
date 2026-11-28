@@ -1,0 +1,70 @@
+name: Volgavis
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: Nessov and Yarkov 1989
+type_species: Volgavis marina
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct charadriiform genus recorded in PBDB from the Maastrichtian of Russia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Volgavis marina
+  authority: Nessov and Yarkov 1989
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: [Volgograd]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: unnamed-malaya-ivanovka-russia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Charadriiformes
+  genus_level: false
+sources:
+- kind: original
+  text: L. A. Nessov and A. A. Yarkov. 1989. Novye ptitsy Mela-Paleogena SSSR i nekotorye zamechaniya po istorii
+    vozniknoveniya i evolyutsii klassa [New Cretaceous-Paleogene birds of the USSR and some remarks on the origin
+    and evolution of the Class Aves]. Fauna i Ekologiya Ptits Evrazii [Faunistic and Ecological Studies of Eurasian
+    Birds]. Trudy Zoologicheskogo Instituta, Akademiya Nauk SSSR 197:78-97
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Volgavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Volgavis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

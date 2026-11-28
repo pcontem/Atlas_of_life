@@ -1,0 +1,71 @@
+name: Protopelicanus
+rank: genus
+parent: pelecaniformes
+incertae_sedis: false
+placement_note: ''
+authority: Reichenbach 1852
+type_species: Protopelicanus cuvierii
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct pelecaniform genus recorded in PBDB from the Priabonian of France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Protopelicanus cuvierii
+  authority: Reichenbach 1852
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Ile-de-France Region]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: unnamed-montmartre-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5/vector.svg
+  png: https://images.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5/raster/512x393.png
+  page: https://www.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5
+  attribution: Arthur Grosset (photo), John E. McCormack, Michael G. Harvey, Brant C. Faircloth, Nicholas G. Crawford,
+    Travis C. Glenn, Robb T. Brumfield & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Scopus umbretta
+  matched: Pelecaniformes
+  genus_level: false
+sources:
+- kind: original
+  text: L. Reichenbach. 1852. Das natürliche System der Vögel.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protopelicanus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protopelicanus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Protopelicanus”. English Wikipedia, revision 1380594633.
+  url: https://en.wikipedia.org/w/index.php?title=Protopelicanus&oldid=1380594633
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

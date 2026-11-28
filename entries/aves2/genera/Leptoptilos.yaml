@@ -1,0 +1,179 @@
+name: Leptoptilos
+rank: genus
+parent: ciconiidae
+incertae_sedis: false
+placement_note: ''
+authority: Lesson 1831
+type_species: Leptoptilos crumenifer
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living stork genus recorded in PBDB from the Burdigalian–Late Pleistocene of Argentina, Chad, Egypt, Indonesia,
+  Kenya, Tunisia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 16.9
+  last_ma: 0
+  early_interval: Burdigalian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 14
+  note: ''
+species:
+- name: Leptoptilos crumenifer
+  authority: Lesson 1831
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Leptoptilos dubius
+  authority: (Gmelin 1789)
+  first_ma: 0.774
+  last_ma: 0.129
+  interval: Chibanian
+  reference: ''
+- name: Leptoptilos falconeri
+  authority: (Milne Edwards 1868)
+  first_ma: 13.82
+  last_ma: 7.246
+  interval: Serravallian–Tortonian
+  reference: ''
+- name: Leptoptilos javanicus
+  authority: Horsfield 1821
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Leptoptilos patagonicus
+  authority: Noriega and Cladera 2008
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Leptoptilos pliocenicus
+  authority: Zubareva 1948
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Leptoptilos robustus
+  authority: Meijer and Awe Due 2010
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Leptoptilos siwalicensis
+  authority: Harrison 1974
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Leptoptilos titan
+  authority: Wetmore 1940
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Indonesia
+  regions: [East Nusa Tenggara, Java, Jawa Timur]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 7
+  ma: [0.0117, 0.774]
+  id:
+  - unnamed-liang-bua-sector-xi-spit-41-indonesia
+  - unnamed-trinil-indonesia
+  - unnamed-watoealang-1-indonesia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chad
+  regions: []
+  interval: Late Miocene–Piacenzian
+  occurrences: 2
+  ma: [2.58, 11.63]
+  id: [unnamed-kb3-kossom-bougoudi-chad, unnamed-koro-toro-kt-13-chad]
+- formation: Nawata or Nachukui
+  group: ''
+  members: [Upper Nawata and Apak]
+  country: Kenya
+  regions: []
+  interval: Messinian–Zanclean
+  occurrences: 1
+  ma: [3.6, 7.246]
+  id: nawata-or-nachukui-kenya
+- formation: Nachukui
+  group: ''
+  members: [Apak]
+  country: Kenya
+  regions: []
+  interval: Zanclean–Piacenzian
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: nachukui-kenya
+- formation: Beglia
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Gafsa]
+  interval: Serravallian–Tortonian
+  occurrences: 1
+  ma: [7.246, 13.82]
+  id: beglia-tunisia
+- formation: Puerto Madryn
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: puerto-madryn-argentina
+- formation: Moghara
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: MN 4
+  occurrences: 1
+  ma: [15.98, 16.9]
+  id: moghara-egypt
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/vector.svg
+  png: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/raster/697x1024.png
+  page: https://www.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547
+  attribution: Mike Keesey (vectorization) and Vaibhavcho (photography)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Leptoptilos javanicus
+  matched: Leptoptilos
+  genus_level: true
+sources:
+- kind: original
+  text: R. P. Lesson. 1831. Traité d'ornithologie, ou Tableau méthodique des ordres, sous-ordres, familles, tribus,
+    genres, sous-genres et races d'oiseaux. Traité d'ornithologie, ou Tableau méthodique des ordres, sous-ordres,
+    familles, tribus, genres, sous-genres et races d'oiseaux
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Leptoptilos (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Leptoptilos
+- kind: encyclopedia
+  text: Wikipedia contributors. “Leptoptilos”. English Wikipedia, revision 1379927019.
+  url: https://en.wikipedia.org/w/index.php?title=Leptoptilos&oldid=1379927019
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -5,8 +5,11 @@ group: ''
 country: United States
 regions:
 - Alabama
+- California
+- Colorado
 - Florida
 - Georgia
+- Hawaii
 - Illinois
 - Kansas
 - New Jersey
@@ -18,16 +21,16 @@ regions:
 - Virginia
 - Wyoming
 location:
-  lat: 38.655
-  lng: -90.06
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 38.68
+  lng: -90.037
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 0.0117
   last_ma: 0.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet.]
 lithology: ['"siliciclastic"']
-pbdb_collections: ['195052']
+pbdb_collections: ['195052', '195056']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,67 @@
+name: Paractiornis
+rank: genus
+parent: glareolidae
+incertae_sedis: false
+placement_note: ''
+authority: Wetmore 1930
+type_species: Paractiornis perpusillus
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct pratincole or courser genus recorded in PBDB from the Chattian–Burdigalian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.1
+  last_ma: 18.5
+  early_interval: Chattian
+  late_interval: Burdigalian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Paractiornis perpusillus
+  authority: Wetmore 1930
+  first_ma: 23.1
+  last_ma: 18.5
+  interval: Chattian–Burdigalian
+  reference: original description
+formations:
+- formation: Marsland
+  group: Hemingford
+  members: [Basal]
+  country: United States
+  regions: [Nebraska]
+  interval: Harrisonian
+  occurrences: 1
+  ma: [18.5, 23.1]
+  id: marsland-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Glareolidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Wetmore. 1930. Two fossil birds from the Miocene of Nebraska. Condor 32(3):152-154
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paractiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paractiornis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

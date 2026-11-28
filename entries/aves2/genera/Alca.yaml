@@ -1,0 +1,246 @@
+name: Alca
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Alca torda
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living auk genus recorded in PBDB from the Langhian–Holocene of AX, Belgium, Italy, Norway, Spain, United
+  Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 0
+  early_interval: Langhian
+  late_interval: Holocene
+  pbdb_occurrences: 28
+  note: ''
+species:
+- name: Alca ausonia
+  authority: (Portis 1887)
+  first_ma: 5.333
+  last_ma: 2.58
+  interval: Zanclean–Piacenzian
+  reference: ''
+- name: Alca carolinensis
+  authority: Smith and Clarke 2011
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Alca grandis
+  authority: (Brodkorb 1955)
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Alca minor
+  authority: Smith and Clarke 2011
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Alca olsoni
+  authority: Smith and Clarke 2011
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Alca stewarti
+  authority: Martin et al. 2000
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Alca torda
+  authority: Linnaeus 1758
+  first_ma: 11.63
+  last_ma: 0
+  interval: Tortonian–Holocene
+  reference: ''
+formations:
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 6
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Scotland, Wales]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-bacon-hole-united-kingdom
+  - unnamed-elsay-broch-united-kingdom
+  - unnamed-port-eynon-point-cave-united-kingdom
+- formation: Kattendijk
+  group: ''
+  members: []
+  country: Belgium
+  regions: [Beveren]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: kattendijk-belgium
+- formation: Eastover
+  group: Chesapeake
+  members: [Claremont Manor]
+  country: United States
+  regions: [Virginia]
+  interval: Messinian
+  occurrences: 2
+  ma: [5.333, 7.246]
+  id: eastover-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Piacenzian–Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 3.6]
+  id: [unnamed-arene-candide-italy, unnamed-orciano-pisano-italy]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida, Maine]
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-green-mound-midden-united-states
+  - unnamed-mount-desert-island-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Norway
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-blomvag-norway
+- formation: Saint Marys
+  group: Chesapeake
+  members: [Windmill Point]
+  country: United States
+  regions: [Maryland]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: saint-marys-united-states
+- formation: St Marys
+  group: Chesapeake
+  members: [Little Cove Point]
+  country: United States
+  regions: [Maryland]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: st-marys-united-states
+- formation: Monterey
+  group: ''
+  members: [lower]
+  country: United States
+  regions: [California]
+  interval: Langhian–Serravallian
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: monterey-united-states
+- formation: Puerto de Mazarron
+  group: ''
+  members: []
+  country: Spain
+  regions: [Murcia]
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: puerto-de-mazarron-spain
+- formation: Peace River
+  group: Hawthorn
+  members: [Bone Valley]
+  country: United States
+  regions: [Florida]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: peace-river-united-states
+- formation: Cromer Forest Bed
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 2.58]
+  id: cromer-forest-bed-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: AX
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-jettbole-i-ax
+- formation: Forest Bed
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: forest-bed-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-cueva-de-nerja-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/80b24a41-1175-4a70-8d93-f656be8bd089/vector.svg
+  png: https://images.phylopic.org/images/80b24a41-1175-4a70-8d93-f656be8bd089/raster/512x511.png
+  page: https://www.phylopic.org/images/80b24a41-1175-4a70-8d93-f656be8bd089
+  attribution: cornebuzz
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Alca torda
+  matched: Alca
+  genus_level: true
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alca (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alca
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

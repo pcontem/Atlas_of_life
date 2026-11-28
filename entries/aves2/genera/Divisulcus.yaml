@@ -1,0 +1,80 @@
+name: Divisulcus
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Smith 2013
+type_species: Divisulcus demerei
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct auk genus recorded in PBDB from the Burdigalian–Langhian of Mexico.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 20.45
+  last_ma: 13.82
+  early_interval: Burdigalian
+  late_interval: Langhian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Divisulcus demerei
+  authority: Smith 2013
+  first_ma: 20.45
+  last_ma: 13.82
+  interval: Burdigalian–Langhian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Baja California]
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: unnamed-rosarito-mexico
+- formation: Rosarito Beach
+  group: ''
+  members: [Los Indios]
+  country: Mexico
+  regions: [Baja California]
+  interval: Burdigalian–Langhian
+  occurrences: 1
+  ma: [13.82, 20.45]
+  id: rosarito-beach-mexico
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Charadriiformes
+  genus_level: false
+sources:
+- kind: original
+  text: N. A. Smith. 2013. A New Species of Auk (Charadriiformes, Pan-Alcidae) from the Miocene of Mexico. The Condor
+    115(1):77-83
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Divisulcus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Divisulcus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Divisulcus”. English Wikipedia, revision 1322421880.
+  url: https://en.wikipedia.org/w/index.php?title=Divisulcus&oldid=1322421880
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

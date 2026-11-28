@@ -1,0 +1,85 @@
+name: Propelargus
+rank: genus
+parent: ciconiidae
+incertae_sedis: false
+placement_note: ''
+authority: Lydekker 1891
+type_species: Propelargus cayluxensis
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct stork genus recorded in PBDB from the Burdigalian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.5
+  last_ma: 16.3
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Propelargus cayluxensis
+  authority: Lydekker 1891
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Propelargus elatus
+  authority: (Milne-Edwards 1892)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Propelargus insolitus
+  authority: (Mourer-Chauviré 1983)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Propelargus olseni
+  authority: Brodkorb 1963
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+formations:
+- formation: Torreya
+  group: ''
+  members: [lower]
+  country: United States
+  regions: [Florida]
+  interval: Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: torreya-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/vector.svg
+  png: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/raster/697x1024.png
+  page: https://www.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547
+  attribution: Mike Keesey (vectorization) and Vaibhavcho (photography)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Leptoptilos javanicus
+  matched: Ciconiidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Propelargus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Propelargus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

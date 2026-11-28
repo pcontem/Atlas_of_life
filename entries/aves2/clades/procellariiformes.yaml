@@ -1,0 +1,30 @@
+id: procellariiformes
+name: Procellariiformes
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Procellariiformes, unranked clade), downloaded 2026-11-28
+parent: aequornithes
+wikipedia: Procellariiformes
+summary: Tubenoses, the albatrosses, petrels, shearwaters and storm petrels.
+diagnosis:
+- Seabirds of the open ocean
+- From the 11 kg wandering albatross (3.6 m wingspan) to the 20 g least storm petrel
+notes: Four families; storm petrels are placed directly in the order here.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Procellariiformes”. English Wikipedia, revision 1387717694.
+  url: https://en.wikipedia.org/w/index.php?title=Procellariiformes&oldid=1387717694
+- kind: database
+  text: 'Paleobiology Database, taxon Procellariiformes (no. 438471): rank, authority (Fürbringer 1888) and reference
+    no. 77072 (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=438471
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work ((Fürbringer 1888), PBDB reference 77072) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

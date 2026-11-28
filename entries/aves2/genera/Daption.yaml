@@ -1,0 +1,72 @@
+name: Daption
+rank: genus
+parent: procellariidae
+incertae_sedis: false
+placement_note: ''
+authority: Stephens 1826
+type_species: Daption capense
+type_species_note: The only valid species listed by PBDB.
+summary: Living petrel or shearwater genus recorded in PBDB from the Holocene of New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Daption capense
+  authority: (Linnaeus 1758)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-mason-bay-stewart-island-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bf6989ab-dc1e-4442-8ebb-30f80e4a7e46/vector.svg
+  png: https://images.phylopic.org/images/bf6989ab-dc1e-4442-8ebb-30f80e4a7e46/raster/607x1024.png
+  page: https://www.phylopic.org/images/bf6989ab-dc1e-4442-8ebb-30f80e4a7e46
+  attribution: Ferran Sayol
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Daption capense
+  matched: Daption
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Daption (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Daption
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pintado petrel”. English Wikipedia, revision 1387263817.
+  url: https://en.wikipedia.org/w/index.php?title=Pintado_petrel&oldid=1387263817
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

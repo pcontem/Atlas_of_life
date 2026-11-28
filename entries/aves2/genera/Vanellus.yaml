@@ -1,0 +1,143 @@
+name: Vanellus
+rank: genus
+parent: charadriidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Vanellus vanellus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living plover genus recorded in PBDB from the Langhian–Holocene of Australia, Belgium, Italy, Madagascar,
+  United Kingdom.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 0
+  early_interval: Langhian
+  late_interval: Holocene
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Vanellus liffyae
+  authority: De Pietri et al. 2018
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Vanellus madagascariensis
+  authority: Goodman 1997
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Vanellus selysi
+  authority: Van Beneden 1871
+  first_ma: 15.98
+  last_ma: 11.63
+  interval: Langhian–Serravallian
+  reference: ''
+- name: Vanellus vanellus
+  authority: (Linnaeus 1758)
+  first_ma: 1.8
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - london-clay-united-kingdom
+  - unnamed-hucclecote-roman-villa-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-locality-ii-sw-of-ampoza-madagascar
+  - unnamed-vintany-cave-tsimanampesotse-national-park-madagascar
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Calabrian
+  occurrences: 2
+  ma: [0.774, 1.8]
+  id: unnamed-pirro-nord-italy
+- formation: Sables d'Anvers
+  group: ''
+  members: []
+  country: Belgium
+  regions: [Kruibeke]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: sables-d-anvers-belgium
+- formation: Tirari
+  group: ''
+  members: [Pompapillina]
+  country: Australia
+  regions: [South Australia]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: tirari-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: African wattled lapwing (Vanellus senegallus senegallus).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/African_wattled_lapwing_%28Vanellus_senegallus_senegallus%29.jpg/960px-African_wattled_lapwing_%28Vanellus_senegallus_senegallus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:African_wattled_lapwing_(Vanellus_senegallus_senegallus).jpg
+  artist: Charles J. Sharp
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2016-10-17'
+  caption: African wattled lapwing (Vanellus senegallus senegallus) (Wikimedia Commons; kind assigned from the file
+    name, not yet checked on the triage page).
+  width: 3480
+  height: 3480
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/8a5c8cde-0cd7-4ed6-876d-2415da7c00d6/vector.svg
+  png: https://images.phylopic.org/images/8a5c8cde-0cd7-4ed6-876d-2415da7c00d6/raster/512x512.png
+  page: https://www.phylopic.org/images/8a5c8cde-0cd7-4ed6-876d-2415da7c00d6
+  attribution: Rebecca Groom
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vanellus coronatus
+  matched: Vanellus
+  genus_level: true
+sources:
+- kind: original
+  text: L. Dollo. 1909. The fossil vertebrates of Belgium. Annals of the New York Academy of Science 19(4):99-119
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Vanellus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Vanellus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Vanellus”. English Wikipedia, revision 1379761414.
+  url: https://en.wikipedia.org/w/index.php?title=Vanellus&oldid=1379761414
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -1,0 +1,71 @@
+name: Marplesornis
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Simpson 1972
+type_species: Marplesornis novaezealandiae
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct penguin genus recorded in PBDB from the Gelasian–Calabrian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.4
+  last_ma: 1.63
+  early_interval: Gelasian
+  late_interval: Calabrian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Marplesornis novaezealandiae
+  authority: (Marples 1960)
+  first_ma: 2.4
+  last_ma: 1.63
+  interval: Gelasian–Calabrian
+  reference: original description
+formations:
+- formation: Greta Siltstone
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Nukumaruan
+  occurrences: 1
+  ma: [1.63, 2.4]
+  id: greta-siltstone-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/vector.svg
+  png: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/raster/792x1024.png
+  page: https://www.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aptenodytes patagonicus
+  matched: Spheniscidae
+  genus_level: false
+sources:
+- kind: original
+  text: G. G. Simpson. 1972. Pliocene penguins from North Canterbury, New Zealand. Records of the Canterbury Museum
+    9(2):159-182
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Marplesornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Marplesornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Marplesornis”. English Wikipedia, revision 1281246340.
+  url: https://en.wikipedia.org/w/index.php?title=Marplesornis&oldid=1281246340
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

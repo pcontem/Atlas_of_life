@@ -1,0 +1,210 @@
+name: Spheniscus
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Spheniscus demersus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living penguin genus recorded in PBDB from the Aquitanian–Holocene of Antarctica, Chile, Peru, South Africa.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 0
+  early_interval: Aquitanian
+  late_interval: Holocene
+  pbdb_occurrences: 25
+  note: ''
+species:
+- name: Spheniscus chilensis
+  authority: Emslie and Correa 2003
+  first_ma: 3.6
+  last_ma: 2.58
+  interval: Piacenzian
+  reference: ''
+- name: Spheniscus demersus
+  authority: (Linnaeus 1758)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Spheniscus humboldti
+  authority: Meyen 1834
+  first_ma: 7.246
+  last_ma: 5.333
+  interval: Messinian
+  reference: ''
+- name: Spheniscus magellanicus
+  authority: Forster 1781
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Spheniscus megaramphus
+  authority: Stucchi et al. 2003
+  first_ma: 7.246
+  last_ma: 5.333
+  interval: Messinian
+  reference: ''
+- name: Spheniscus mendiculus
+  authority: Sundevall 1871
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Spheniscus muizoni
+  authority: Gohlich 2007
+  first_ma: 11.63
+  last_ma: 3.6
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Spheniscus urbinai
+  authority: Stucchi 2002
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+formations:
+- formation: Pisco
+  group: ''
+  members: [upper]
+  country: Peru
+  regions: [Arequipa, Caraveli, Ica]
+  interval: Late Miocene
+  occurrences: 7
+  ma: [5.333, 11.63]
+  id: pisco-peru
+- formation: Bahía Inglesa
+  group: ''
+  members: []
+  country: Chile
+  regions: [Atacama, Copiapó]
+  interval: Late Miocene–Pliocene
+  occurrences: 6
+  ma: [2.58, 11.63]
+  id: bahia-inglesa-chile
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 0.774]
+  id:
+  - unnamed-duiker-eiland-south-africa
+  - unnamed-duinefontein-north-south-africa
+  - unnamed-stofbergsfontein-south-africa
+- formation: Varswater
+  group: ''
+  members: []
+  country: South Africa
+  regions: [Langebaanweg]
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: varswater-south-africa
+- formation: Caleta Herradura de Mejillones
+  group: ''
+  members: [upper]
+  country: Chile
+  regions: []
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: caleta-herradura-de-mejillones-chile
+- formation: Coquimbo
+  group: ''
+  members: []
+  country: Chile
+  regions: [Huasco]
+  interval: Miocene–Pliocene
+  occurrences: 1
+  ma: [2.58, 23.04]
+  id: coquimbo-chile
+- formation: Fisher Bench
+  group: Pagodroma
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: fisher-bench-antarctica
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: [Ica]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: unnamed-laguna-seca-peru
+- formation: Caracoles
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: caracoles-peru
+- formation: Pongo
+  group: ''
+  members: [Pongo-1]
+  country: Peru
+  regions: [Ica]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: pongo-peru
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Spheniscus demersus -6.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b4/Spheniscus_demersus_-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Spheniscus_demersus_-6.jpg
+  artist: Arpingstone at English Wikipedia
+  license: Public domain
+  license_url: ''
+  date: 28 July 20
+  caption: Spheniscus demersus -6 (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 500
+  height: 593
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/dcd56e52-c6e0-4831-824f-c65bee8875ca/vector.svg
+  png: https://images.phylopic.org/images/dcd56e52-c6e0-4831-824f-c65bee8875ca/raster/628x1024.png
+  page: https://www.phylopic.org/images/dcd56e52-c6e0-4831-824f-c65bee8875ca
+  attribution: Juan Carlos Jerí
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Spheniscus humboldti
+  matched: Spheniscus
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Spheniscus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Spheniscus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Banded penguin”. English Wikipedia, revision 1380654052.
+  url: https://en.wikipedia.org/w/index.php?title=Banded_penguin&oldid=1380654052
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -1,0 +1,32 @@
+id: bone-valley-united-states
+name: Bone Valley
+rank: formation
+group: Hawthorn
+country: United States
+regions: [Florida]
+location:
+  lat: 27.807
+  lng: -81.887
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 9.4
+  last_ma: 2.58
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [marginal marine indet., marine indet.]
+lithology: [sandstone, not reported]
+pbdb_collections: ['18577', '176044']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Bone Valley (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Bone+Valley
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

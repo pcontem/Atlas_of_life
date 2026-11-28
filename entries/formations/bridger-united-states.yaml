@@ -7,14 +7,15 @@ regions: [Wyoming]
 location:
   lat: 41.283
   lng: -110.5
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 51.1
-  last_ma: 45.9
+  last_ma: 37.71
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., crevasse splay]
-lithology: [not reported, mudstone, sandstone]
-pbdb_collections: ['16228', '16236', '16253', '16272', '16273', '16279', '16296', '27269', '70145', '70266', '144593']
+lithology: [not reported, sandstone, mudstone]
+pbdb_collections: ['16228', '16236', '16253', '16272', '16273', '16279', '16296', '27269', '70145', '70266', '81455',
+  '81457', '144593']
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -1,0 +1,145 @@
+name: Himantopus
+rank: genus
+parent: recurvirostridae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Himantopus himantopus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living stilt or avocet genus recorded in PBDB from the Zanclean–Holocene of Ecuador, Jordan, Madagascar,
+  Mexico, New Zealand, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Himantopus brevipes
+  authority: Milne-Edwards 1871
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Himantopus himantopus
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Himantopus mexicanus
+  authority: (Muller 1776)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Himantopus novaezelandiae
+  authority: Gould 1841
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-marfells-beach-dune-deposits-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+- formation: Tamiami
+  group: ''
+  members: [Pinecrest Beds]
+  country: United States
+  regions: [Florida]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: tamiami-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Oregon]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-fossil-lake-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Jordan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-shubayqa-1-midden-jordan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-vintany-cave-tsimanampesotse-national-park-madagascar
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b526c9f1-6150-48d9-bd2c-03938ad097f2/vector.svg
+  png: https://images.phylopic.org/images/b526c9f1-6150-48d9-bd2c-03938ad097f2/raster/1008x1024.png
+  page: https://www.phylopic.org/images/b526c9f1-6150-48d9-bd2c-03938ad097f2
+  attribution: Edwin Price
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Himantopus
+  matched: Himantopus
+  genus_level: true
+sources:
+- kind: original
+  text: S. D. Emslie. 1992. Two new late Blancan avifaunas from Florida and the extinction of wetland birds in the
+    Plio-Pleistocene. Natural History Museum of Los Angeles County, Science Series (36):249-269
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Himantopus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Himantopus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stilt”. English Wikipedia, revision 1335309928.
+  url: https://en.wikipedia.org/w/index.php?title=Stilt&oldid=1335309928
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

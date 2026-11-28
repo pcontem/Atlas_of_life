@@ -1,0 +1,32 @@
+id: neoaves
+name: Neoaves
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Neoaves, unranked clade), downloaded 2026-11-28
+parent: null
+wikipedia: Neoaves
+summary: All living birds except palaeognaths and Galloanserae, almost 95 percent of living bird species.
+diagnosis:
+- Defined in the PhyloCode (Sangster et al. 2022) as the most inclusive crown clade containing Passer domesticus
+  but not Gallus gallus
+- Males lack the penis kept by waterfowl and palaeognaths (Anseriformes revision)
+notes: This volume holds the waterbirds and shorebirds (Charadriiformes and Aequornithes); other neoavian orders,
+  including the passerines still in the tree outline, follow in later volumes.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neoaves”. English Wikipedia, revision 1385827547.
+  url: https://en.wikipedia.org/w/index.php?title=Neoaves&oldid=1385827547
+- kind: database
+  text: 'Paleobiology Database, taxon Neoaves (no. 98887): rank, authority Sibley and et al 1988 and reference no.
+    24173 (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=98887
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work (Sibley and et al 1988, PBDB reference 24173) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

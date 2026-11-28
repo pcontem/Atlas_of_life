@@ -1,0 +1,163 @@
+name: Ixobrychus
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Billberg 1828
+type_species: Ixobrychus minutus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living heron genus recorded in PBDB from the Zanclean–Holocene of Australia, Bahamas, Portugal, United
+  States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Ixobrychus cinnamomeus
+  authority: Gmelin 1789
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ixobrychus dubius
+  authority: Matthews 1912
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Ixobrychus eurhythmus
+  authority: Swinhoe 1873
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ixobrychus exilis
+  authority: (Gmelin 1789)
+  first_ma: 4.7
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Ixobrychus flavicollis
+  authority: Latham 1790
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ixobrychus involucris
+  authority: Vieillot 1823
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ixobrychus minutus
+  authority: Linnaeus 1766
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Ixobrychus novaezelandiae
+  authority: Potts 1871
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ixobrychus sinensis
+  authority: Gmelin 1789
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ixobrychus sturmii
+  authority: Wagler 1827
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Gelasian–Rancholabrean
+  occurrences: 2
+  ma: [0.014, 2.58]
+  id: [unnamed-inglis-ia-united-states, unnamed-lecanto-2a-united-states]
+- formation: Tamiami
+  group: ''
+  members: [Pinecrest Beds]
+  country: United States
+  regions: [Florida]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: tamiami-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bahamas
+  regions: [San Salvador]
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-ficus-pit-bahamas
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-portugal
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [New South Wales]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-curracurrang-1-rockshelter-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/vector.svg
+  png: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/raster/638x1024.png
+  page: https://www.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c
+  attribution: Mannheim Reinhard Jahn (photograph)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tigrisoma mexicanum
+  matched: Ardeidae
+  genus_level: false
+sources:
+- kind: original
+  text: S. D. Emslie. 1998. Avian community, climate, and sea-level changes in the Plio-Pleistocene of the Florida
+    Peninsula. Ornithological Monographs (50):1-113
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ixobrychus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ixobrychus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Botaurus”. English Wikipedia, revision 1380727483.
+  url: https://en.wikipedia.org/w/index.php?title=Botaurus&oldid=1380727483
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

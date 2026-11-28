@@ -1,0 +1,140 @@
+name: Limnofregata
+rank: genus
+parent: fregatidae
+incertae_sedis: false
+placement_note: ''
+authority: Olson 1977
+type_species: Limnofregata azygosternon
+type_species_note: Taxobox of Wikipedia revision 1380576779.
+summary: Extinct frigatebird genus recorded in PBDB from the Ypresian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Limnofregata azygosternon
+  authority: Olson 1977
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+- name: Limnofregata hasegawai
+  authority: Olson and Matsuoka 2005
+  first_ma: 56
+  last_ma: 51.1
+  interval: Ypresian
+  reference: ''
+- name: Limnofregata hutchisoni
+  authority: Stidham 2015
+  first_ma: 56
+  last_ma: 51.1
+  interval: Ypresian
+  reference: ''
+formations:
+- formation: Green River
+  group: ''
+  members: [Fossil Butte]
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian–Early Eocene
+  occurrences: 9
+  ma: [48.07, 56.0]
+  id: green-river-united-states
+- formation: Wasatch
+  group: ''
+  members: [Main Body]
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: wasatch-united-states
+- formation: Nanjemoy
+  group: ''
+  members: [Potapaco]
+  country: United States
+  regions: [Virginia]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: nanjemoy-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Limnofregata azygosternon.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/e/e9/Limnofregata_azygosternon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Limnofregata_azygosternon.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-07-04'
+  caption: Limnofregata azygosternon (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 1280
+  height: 1237
+  review: unreviewed
+- kind: fossil
+  file: Limnofregata hasegawai.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Limnofregata_hasegawai.jpg/960px-Limnofregata_hasegawai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Limnofregata_hasegawai.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2011-07-04'
+  caption: Limnofregata hasegawai (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 2439
+  height: 2377
+  review: unreviewed
+- kind: fossil
+  file: WDC - Limnofregata azygosternon.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/WDC_-_Limnofregata_azygosternon.jpg/960px-WDC_-_Limnofregata_azygosternon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:WDC_-_Limnofregata_azygosternon.jpg
+  artist: CryolophosaurusEllioti
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-06-12'
+  caption: WDC - Limnofregata azygosternon (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 4032
+  height: 3024
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e62c87fe-d510-4604-a32e-08e9d4bd1019/vector.svg
+  png: https://images.phylopic.org/images/e62c87fe-d510-4604-a32e-08e9d4bd1019/raster/701x1024.png
+  page: https://www.phylopic.org/images/e62c87fe-d510-4604-a32e-08e9d4bd1019
+  attribution: T. Michael Keesey, from a photograph by Thea Boodhoo
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Limnofregata
+  matched: Limnofregata
+  genus_level: true
+sources:
+- kind: original
+  text: 'S. L. Olson. 1977. A Lower Eocene frigatebird from the Green River Formation of Wyoming (Pelecaniformes:
+    Fregatidae). Smithsonian Contributions to Paleobiology 35:1-33'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Limnofregata (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Limnofregata
+- kind: encyclopedia
+  text: Wikipedia contributors. “Limnofregata”. English Wikipedia, revision 1380576779.
+  url: https://en.wikipedia.org/w/index.php?title=Limnofregata&oldid=1380576779
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

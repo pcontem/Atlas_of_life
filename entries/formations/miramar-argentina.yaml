@@ -1,0 +1,31 @@
+id: miramar-argentina
+name: Miramar
+rank: formation
+group: ''
+country: Argentina
+regions: [Buenos Aires]
+location:
+  lat: -38.3
+  lng: -57.861
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 1.75
+  last_ma: 0.4
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet.]
+lithology: [siltstone]
+pbdb_collections: ['199927']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Miramar (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Miramar
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

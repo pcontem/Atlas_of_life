@@ -1,0 +1,67 @@
+name: Paracorax
+rank: genus
+parent: phalacrocoracidae
+incertae_sedis: false
+placement_note: ''
+authority: Lambrecht 1933
+type_species: Paracorax destefanii
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct cormorant genus recorded in PBDB from the Zanclean–Late Pleistocene of Italy.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0.0117
+  early_interval: Zanclean
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Paracorax destefanii
+  authority: (Regalia 1902)
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Tuscany]
+  interval: Pliocene–Pleistocene
+  occurrences: 1
+  ma: [0.0117, 5.333]
+  id: unnamed-poggiorosso-matassino-upper-valdarno-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431/vector.svg
+  png: https://images.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431/raster/512x441.png
+  page: https://www.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431
+  attribution: L. Shyamal
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Phalacrocorax fuscicollis
+  matched: Phalacrocoracidae
+  genus_level: false
+sources:
+- kind: original
+  text: K. Lambrecht. 1933. Handbuch der Palaeornithologie.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paracorax (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paracorax
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

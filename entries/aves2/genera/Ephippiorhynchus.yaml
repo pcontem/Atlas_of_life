@@ -1,0 +1,102 @@
+name: Ephippiorhynchus
+rank: genus
+parent: ciconiidae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1855
+type_species: Ephippiorhynchus senegalensis
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living stork genus recorded in PBDB from the Messinian–Chibanian of Australia, Chad, Indonesia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 7.246
+  last_ma: 0
+  early_interval: Messinian
+  late_interval: Chibanian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Ephippiorhynchus asiaticus
+  authority: (Latham 1790)
+  first_ma: 5.333
+  last_ma: 0.129
+  interval: Zanclean–Chibanian
+  reference: ''
+- name: Ephippiorhynchus senegalensis
+  authority: Shaw 1800
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ephippiorhynchus tchoufour
+  authority: Louchart et al. 2008
+  first_ma: 7.246
+  last_ma: 5.333
+  interval: Messinian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chad
+  regions: []
+  interval: Messinian
+  occurrences: 3
+  ma: [5.333, 7.246]
+  id: unnamed-toros-menalla-chad
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Indonesia
+  regions: [Jawa Timur]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-trinil-indonesia
+- formation: Allingham
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: allingham-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/vector.svg
+  png: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/raster/697x1024.png
+  page: https://www.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547
+  attribution: Mike Keesey (vectorization) and Vaibhavcho (photography)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Leptoptilos javanicus
+  matched: Ciconiidae
+  genus_level: false
+sources:
+- kind: original
+  text: P. D. M. Weesie. 1982. The fossil bird remains in the Dubois collection. Modern Quaternary Research in South-East
+    Asia 7:87-90
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ephippiorhynchus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ephippiorhynchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ephippiorhynchus”. English Wikipedia, revision 1385827006.
+  url: https://en.wikipedia.org/w/index.php?title=Ephippiorhynchus&oldid=1385827006
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

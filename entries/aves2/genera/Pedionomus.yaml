@@ -1,0 +1,72 @@
+name: Pedionomus
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: Gould 1841
+type_species: Pedionomus torquatus
+type_species_note: The only valid species listed by PBDB.
+summary: Living plains-wanderer genus recorded in PBDB from the Gelasian–Holocene of Australia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Pedionomus torquatus
+  authority: Gould 1841
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia, Victoria]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 2.58]
+  id: [unnamed-blanche-cave-australia, unnamed-extant-distribution-australia]
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e43fcbd5-4d9f-40ca-8d75-af4ca72260dd/vector.svg
+  png: https://images.phylopic.org/images/e43fcbd5-4d9f-40ca-8d75-af4ca72260dd/raster/512x476.png
+  page: https://www.phylopic.org/images/e43fcbd5-4d9f-40ca-8d75-af4ca72260dd
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Pedionomus torquatus
+  matched: Pedionomus
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pedionomus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pedionomus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Plains-wanderer”. English Wikipedia, revision 1365753654.
+  url: https://en.wikipedia.org/w/index.php?title=Plains-wanderer&oldid=1365753654
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

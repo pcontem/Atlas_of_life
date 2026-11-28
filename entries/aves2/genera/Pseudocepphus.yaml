@@ -1,0 +1,68 @@
+name: Pseudocepphus
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Wijnker and Olson 2009
+type_species: Pseudocepphus teres
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct auk genus recorded in PBDB from the Langhian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 13.82
+  early_interval: Langhian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pseudocepphus teres
+  authority: Wijnker and Olson 2009
+  first_ma: 15.98
+  last_ma: 13.82
+  interval: Langhian
+  reference: original description
+formations:
+- formation: Calvert
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [Maryland]
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: calvert-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/vector.svg
+  png: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/raster/512x454.png
+  page: https://www.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Miocepphus blowi
+  matched: Alcidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'E. Wijnker and S. L. Olson. 2009. A revision of the fossil genus Miocepphus and other Miocene Alcidae (Aves:
+    Charadriiformes) of the western North Atlantic Ocean. Journal of Systematic Palaeontology 7(4):471-487'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pseudocepphus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pseudocepphus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

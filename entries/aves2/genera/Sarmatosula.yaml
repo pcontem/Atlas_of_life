@@ -1,0 +1,67 @@
+name: Sarmatosula
+rank: genus
+parent: sulidae
+incertae_sedis: false
+placement_note: ''
+authority: Grigorescu and Kessler 1977
+type_species: Sarmatosula dobrogensis
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct gannet or booby genus recorded in PBDB from the Serravallian of Romania.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 13.82
+  last_ma: 11.63
+  early_interval: Serravallian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sarmatosula dobrogensis
+  authority: Grigorescu and Kessler 1977
+  first_ma: 13.82
+  last_ma: 11.63
+  interval: Serravallian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: unnamed-dobrogea-romania
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/vector.svg
+  png: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/raster/654x1024.png
+  page: https://www.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53
+  attribution: 'Jon Hill (Photo by Benjamint444: http://en.wikipedia.org/wiki/File:Blue-footed-booby.jpg)'
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sula nebouxii
+  matched: Sulidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sarmatosula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sarmatosula
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

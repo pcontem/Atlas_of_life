@@ -1,0 +1,95 @@
+name: Anthropornis
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Wiman 1905
+type_species: Anthropornis nordenskjoeldi
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct penguin genus recorded in PBDB from the Bartonian–Burdigalian of Antarctica.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 41.03
+  last_ma: 15.98
+  early_interval: Bartonian
+  late_interval: Burdigalian
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Anthropornis grandis
+  authority: (Wiman 1905)
+  first_ma: 41.03
+  last_ma: 33.9
+  interval: Bartonian–Priabonian
+  reference: ''
+- name: Anthropornis nordenskjoeldi
+  authority: Wiman 1905
+  first_ma: 41.03
+  last_ma: 33.9
+  interval: Bartonian–Priabonian
+  reference: ''
+formations:
+- formation: Submeseta
+  group: ''
+  members: [II, Submeseta II, Telm 7]
+  country: Antarctica
+  regions: [Seymour Island]
+  interval: Bartonian–Priabonian
+  occurrences: 6
+  ma: [33.9, 41.03]
+  id: submeseta-antarctica
+- formation: La Meseta
+  group: ''
+  members: [Submeseta, Telm 4, Telm 5]
+  country: Antarctica
+  regions: [Seymour Island]
+  interval: Bartonian
+  occurrences: 5
+  ma: [37.71, 41.03]
+  id: la-meseta-antarctica
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Late Oligocene–Early Miocene
+  occurrences: 2
+  ma: [15.98, 27.3]
+  id: unnamed-d514-antarctica
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/vector.svg
+  png: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/raster/512x417.png
+  page: https://www.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Waimanu manneringi
+  matched: Sphenisciformes
+  genus_level: false
+sources:
+- kind: original
+  text: C. Wiman. 1905. Vorlaufige Mitteilung uber die alttertiaren Vertebraten der Symourinsel. Bulletin of the
+    Geological Institution of the University of Upsala 6:247-253
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anthropornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anthropornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anthropornis”. English Wikipedia, revision 1289139608.
+  url: https://en.wikipedia.org/w/index.php?title=Anthropornis&oldid=1289139608
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

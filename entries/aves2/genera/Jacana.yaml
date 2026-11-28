@@ -1,0 +1,107 @@
+name: Jacana
+rank: genus
+parent: jacanidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Jacana spinosa
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living jacana genus recorded in PBDB from the Tortonian–Holocene of Bolivia, Peru, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 9.4
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Jacana farrandi
+  authority: Olson 1976
+  first_ma: 9.4
+  last_ma: 4.7
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Jacana jacana
+  authority: Linnaeus 1766
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Jacana spinosa
+  authority: (Linnaeus 1758)
+  first_ma: 0.21
+  last_ma: 0.0117
+  interval: Chibanian–Late Pleistocene
+  reference: ''
+formations:
+- formation: Nuapua
+  group: ''
+  members: [middle]
+  country: Bolivia
+  regions: [Chuquisaca]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: nuapua-bolivia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Rancholabrean
+  occurrences: 1
+  ma: [0.014, 0.21]
+  id: unnamed-lecanto-2a-united-states
+- formation: Alachua
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Hemphillian
+  occurrences: 1
+  ma: [4.7, 9.4]
+  id: alachua-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462/vector.svg
+  png: https://images.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462/raster/926x1024.png
+  page: https://www.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462
+  attribution: Burton Robert, USFWS
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Jacana spinosa
+  matched: Jacana
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Jacana (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Jacana
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

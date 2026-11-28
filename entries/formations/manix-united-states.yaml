@@ -12,27 +12,31 @@ regions:
 - Florida
 - Georgia
 - Hawaii
+- Illinois
 - Michigan
 - New Mexico
 - Ohio
 - Oregon
+- South Carolina
 - Texas
 - Washington
 - Wyoming
 location:
-  lat: 34.959
+  lat: 34.963
   lng: -116.551
-  basis: median of 3 PBDB collections that yielded the atlas genera
+  basis: median of 8 PBDB collections that yielded the atlas genera
 age:
   first_ma: 0.129
   last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [lacustrine indet., terrestrial indet.]
 lithology: ['"siliciclastic"', not reported]
-pbdb_collections: ['20273', '192608', '192611']
+pbdb_collections: ['20273', '192599', '192604', '192605', '192607', '192608', '192610', '192611']
 includes:
 - PBDB collection “Manix Lake (LACM 1093)” has no formation but is a locality of the Manix.
+- PBDB collection “T10, Manix Lake (LACM 1093)” has no formation but is a locality of the Manix.
 - PBDB collection “TD316, Manix Lake (LACM 1093)” has no formation but is a locality of the Manix.
+- PBDB collection “W16, Manix Lake (LACM 1093)” has no formation but is a locality of the Manix.
 summary: ''
 paleoenvironment: ''
 sources:

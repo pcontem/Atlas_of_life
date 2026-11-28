@@ -1,0 +1,104 @@
+name: Plotornis
+rank: genus
+parent: procellariiformes
+incertae_sedis: false
+placement_note: ''
+authority: Milne-Edwards 1874
+type_species: Plotornis delfortrii
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct procellariiform genus recorded in PBDB from the Aquitanian–Burdigalian of France, Italy, New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 15.98
+  early_interval: Aquitanian
+  late_interval: Burdigalian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Plotornis archaeonautes
+  authority: Ksepka et al. 2023
+  first_ma: 23.04
+  last_ma: 20.45
+  interval: Aquitanian
+  reference: ''
+- name: Plotornis avernensis
+  authority: (Milne-Edwards 1867)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Plotornis delfortrii
+  authority: Milne-Edwards 1874
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Plotornis graculoides
+  authority: (Portis 1884)
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Piemonte]
+  interval: Early Miocene
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: unnamed-ceva-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: unnamed-st-gerand-le-puy-france
+- formation: Mount Harris
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: mount-harris-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e/vector.svg
+  png: https://images.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e/raster/824x1024.png
+  page: https://www.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e
+  attribution: Mark Hannaford (photo), John E. McCormack, Michael G. Harvey, Brant C. Faircloth, Nicholas G. Crawford,
+    Travis C. Glenn, Robb T. Brumfield & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Oceanites oceanicus
+  matched: Procellariiformes
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plotornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plotornis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

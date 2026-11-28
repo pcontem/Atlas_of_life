@@ -1,0 +1,96 @@
+name: Bartramia
+rank: genus
+parent: scolopacidae
+incertae_sedis: false
+placement_note: ''
+authority: Lesson 1831
+type_species: Bartramia longicauda
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living sandpiper genus recorded in PBDB from the Tortonian–Holocene of Ecuador, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 9.4
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Bartramia longicauda
+  authority: (Bechstein 1812)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Bartramia umatilla
+  authority: Brodkorb 1958
+  first_ma: 9.4
+  last_ma: 4.7
+  interval: Tortonian–Zanclean
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alabama, Georgia, Louisiana, Virginia]
+  interval: Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-bell-cave-united-states
+  - unnamed-extant-distribution-united-states
+  - unnamed-kingston-saltpeter-cave-united-states
+  - unnamed-natural-chimneys-united-states
+- formation: McKay
+  group: ''
+  members: []
+  country: United States
+  regions: [Oregon]
+  interval: Hemphillian
+  occurrences: 1
+  ma: [4.7, 9.4]
+  id: mckay-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f4889f66-1904-479d-8a1f-f9449733c654/vector.svg
+  png: https://images.phylopic.org/images/f4889f66-1904-479d-8a1f-f9449733c654/raster/631x1024.png
+  page: https://www.phylopic.org/images/f4889f66-1904-479d-8a1f-f9449733c654
+  attribution: Mason McNair
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Rosulabryum capillare
+  matched: Bartramia
+  genus_level: true
+sources:
+- kind: original
+  text: P. Brodkorb. 1958. Birds from the Middle Pliocene of McKay, Oregon. The Condor 60(4):252-255
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bartramia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bartramia
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

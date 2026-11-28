@@ -1,0 +1,80 @@
+name: Olympidytes
+rank: genus
+parent: plotopteridae
+incertae_sedis: false
+placement_note: ''
+authority: Mayr and Goedert 2016
+type_species: Olympidytes thieli
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Extinct plotopterid genus recorded in PBDB from the Bartonian–Rupelian of Japan, United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 41.03
+  last_ma: 27.3
+  early_interval: Bartonian
+  late_interval: Rupelian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Olympidytes thieli
+  authority: Mayr and Goedert 2016
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Washington]
+  interval: Bartonian–Rupelian
+  occurrences: 1
+  ma: [27.3, 41.03]
+  id: unnamed-fossil-creek-united-states
+- formation: Kakinoura
+  group: ''
+  members: []
+  country: Japan
+  regions: []
+  interval: Early Oligocene
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: kakinoura-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/vector.svg
+  png: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/raster/654x1024.png
+  page: https://www.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53
+  attribution: 'Jon Hill (Photo by Benjamint444: http://en.wikipedia.org/wiki/File:Blue-footed-booby.jpg)'
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sula nebouxii
+  matched: Suliformes
+  genus_level: false
+sources:
+- kind: original
+  text: G. Mayr and J. L. Goedert. 2016. New Late Eocene and Oligocene Remains of the Flightless, Penguin-Like Plotopterids
+    (Aves, Plotopteridae) from Western Washington State, U.S.A. Journal of Vertebrate Paleontology 36(4):e1163573
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Olympidytes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Olympidytes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Olympidytes”. English Wikipedia, revision 1380012933.
+  url: https://en.wikipedia.org/w/index.php?title=Olympidytes&oldid=1380012933
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

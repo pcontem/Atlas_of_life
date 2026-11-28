@@ -1,0 +1,69 @@
+name: Hakawai
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: De Pietri et al. 2015
+type_species: Hakawai melvillei
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct charadriiform genus recorded in PBDB from the Burdigalian–Langhian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.7
+  last_ma: 15.9
+  early_interval: Burdigalian
+  late_interval: Langhian
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Hakawai melvillei
+  authority: De Pietri et al. 2015
+  first_ma: 18.7
+  last_ma: 15.9
+  interval: Burdigalian–Langhian
+  reference: original description
+formations:
+- formation: Bannockburn
+  group: Manuherikia
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Altonian
+  occurrences: 7
+  ma: [15.9, 18.7]
+  id: bannockburn-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e9d7ebcd-df47-46b4-b3a5-831801816c0c/vector.svg
+  png: https://images.phylopic.org/images/e9d7ebcd-df47-46b4-b3a5-831801816c0c/raster/512x369.png
+  page: https://www.phylopic.org/images/e9d7ebcd-df47-46b4-b3a5-831801816c0c
+  attribution: Elaine R. Wilson (modified)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Arenaria interpres
+  matched: Scolopaci
+  genus_level: false
+sources:
+- kind: original
+  text: 'V. L. De Pietri, R. P. Scofield, and A. J. D. Tennyson, S. J. Hand, T. H. Worthy. 2015. Wading a lost southern
+    connection: Miocene fossils from New Zealand reveal a new lineage of shorebirds (Charadriiformes) linking Gondwanan
+    avifaunas. Journal of Systematic Palaeontology'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hakawai (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hakawai
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

@@ -9,6 +9,7 @@ regions:
 - California
 - Florida
 - Georgia
+- Maine
 - Maryland
 - Massachusetts
 - Michigan
@@ -19,16 +20,16 @@ regions:
 - Texas
 - Virginia
 location:
-  lat: 42.82
+  lat: 42.812
   lng: -70.82
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 0.0117
   last_ma: 0.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [coastal indet.]
 lithology: [not reported]
-pbdb_collections: ['122440']
+pbdb_collections: ['122440', '122441', '122442']
 includes: []
 summary: ''
 paleoenvironment: ''

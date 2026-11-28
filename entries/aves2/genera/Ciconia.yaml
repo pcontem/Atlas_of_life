@@ -1,0 +1,329 @@
+name: Ciconia
+rank: genus
+parent: ciconiidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Ciconia ciconia
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living stork genus recorded in PBDB from the Aquitanian–Holocene of Argentina, China, Cuba, France, Greece,
+  Italy, Mexico, South Africa, United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 0
+  early_interval: Aquitanian
+  late_interval: Holocene
+  pbdb_occurrences: 36
+  note: ''
+species:
+- name: Ciconia abdimii
+  authority: Lichtenstein 1823
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia boyciana
+  authority: Swinhoe 1873
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Ciconia ciconia
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Ciconia episcopus
+  authority: Boddaert 1783
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia gaudryi
+  authority: Lambrecht 1933
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Ciconia kahli
+  authority: Haarhoff 1988
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Ciconia louisebolesae
+  authority: Boles 2005
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia lydekkeri
+  authority: (Ameghino 1889)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia maguari
+  authority: Gmelin 1789
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia maltha
+  authority: Miller 1910
+  first_ma: 4.7
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+- name: Ciconia microscelis
+  authority: Gray 1848
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia nana
+  authority: (De Vis 1888)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia nigra
+  authority: (Linnaeus 1758)
+  first_ma: 2.58
+  last_ma: 0.129
+  interval: Gelasian–Chibanian
+  reference: ''
+- name: Ciconia sarmatica
+  authority: Grigorescu and Kessler 1977
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia stehlini
+  authority: Jánossy 1992
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ciconia stormi
+  authority: Blasius 1896
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida, South Carolina, Texas]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 15
+  ma: [0.0117, 2.58]
+  id:
+  - manix-united-states
+  - unnamed-bradenton-united-states
+  - unnamed-cutler-hammock-united-states
+  - unnamed-forsberg-shell-pit-united-states
+  - unnamed-harleyville-united-states
+  - unnamed-ichetucknee-river-united-states
+  - unnamed-ingleside-site-no-1-tedford-caliche-pit-united-states
+  - unnamed-la-brea-tar-pits-united-states
+  - unnamed-mckittrick-asphalt-deposit-united-states
+  - unnamed-mcleod-limerock-mine-united-states
+  - unnamed-page-ladson-site-test-f-combined-levels-23-and-26b-united-states
+  - unnamed-rock-springs-united-states
+  - unnamed-west-palm-beach-site-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne-Rhône-Alps, Rhone-Alpes]
+  interval: Pliocene–Pleistocene
+  occurrences: 3
+  ma: [0.0117, 5.333]
+  id: [unnamed-seneze-domeyrat-france, unnamed-st-vallier-france]
+- formation: Caloosahatchee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Early Pleistocene–Irvingtonian
+  occurrences: 2
+  ma: [0.21, 2.58]
+  id: caloosahatchee-united-states
+- formation: Okeechobee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Middle Pleistocene
+  occurrences: 2
+  ma: [0.129, 0.774]
+  id: okeechobee-united-states
+- formation: Varswater
+  group: ''
+  members: [QSM & PPM]
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Pungo River
+  group: ''
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Aquitanian–Langhian
+  occurrences: 1
+  ma: [13.82, 23.04]
+  id: pungo-river-united-states
+- formation: American Falls Lake Bed E
+  group: ''
+  members: []
+  country: United States
+  regions: [Idaho]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: american-falls-lake-bed-e-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Hubei]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-huanglong-cave-china
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-tornewton-cave-united-kingdom
+- formation: Bermont
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: bermont-united-states
+- formation: Tamiami
+  group: ''
+  members: [Pinecrest Beds]
+  country: United States
+  regions: [Florida]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: tamiami-united-states
+- formation: Manix
+  group: ''
+  members: [C]
+  country: United States
+  regions: [California]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: manix-united-states
+- formation: Becerra
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Mexico]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: becerra-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Attica]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: pikermi-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Early Pleistocene–Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 2.58]
+  id: unnamed-grotta-dei-fiori-section-c-italy
+- formation: Ituzaingo
+  group: ''
+  members: [Conglomerado Osifero]
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Cuba
+  regions: [Matanzas]
+  interval: Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 2.58]
+  id: unnamed-las-breas-de-san-felipe-cuba
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8691fc60-e7f2-4a69-af65-08461defac6b/vector.svg
+  png: https://images.phylopic.org/images/8691fc60-e7f2-4a69-af65-08461defac6b/raster/751x1024.png
+  page: https://www.phylopic.org/images/8691fc60-e7f2-4a69-af65-08461defac6b
+  attribution: L. Shyamal
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Ciconia ciconia
+  matched: Ciconia
+  genus_level: true
+sources:
+- kind: original
+  text: S. L. Olson and P. C. Rasmussen. 2001. Miocene and Pliocene birds from the Lee Creek Mine, North Carolina.
+    Smithsonian Contributions to Paleobiology 90:233-365
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ciconia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ciconia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ciconia”. English Wikipedia, revision 1379256791.
+  url: https://en.wikipedia.org/w/index.php?title=Ciconia&oldid=1379256791
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

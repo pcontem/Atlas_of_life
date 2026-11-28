@@ -1,0 +1,127 @@
+name: Procellaria
+rank: genus
+parent: procellariidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Procellaria aequinoctialis
+type_species_note: Taxobox of Wikipedia revision 1387169503.
+summary: Living petrel or shearwater genus recorded in PBDB from the Zanclean–Holocene of New Zealand, South Africa,
+  TF, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Procellaria aequinoctialis
+  authority: Linnaeus 1758
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: original description
+- name: Procellaria cinerea
+  authority: Gmelin 1789
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Procellaria parkinsoni
+  authority: Gray 1862
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-chatham-islands-new-zealand
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Varswater
+  group: ''
+  members: [Muishond Fontein Pelletal Phosphorite]
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TF
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-amsterdam-island-tf
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Spectacled Petrel, Procellaria conspicillata Cropped.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Spectacled_Petrel%2C_Procellaria_conspicillata_Cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Spectacled_Petrel,_Procellaria_conspicillata_Cropped.jpg
+  artist: Brian Gratwicke
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2012-03-18'
+  caption: Spectacled Petrel, Procellaria conspicillata Cropped (Wikimedia Commons; kind assigned from the file
+    name, not yet checked on the triage page).
+  width: 721
+  height: 900
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/508804e4-94a7-4a9c-9870-5bc63ee785b5/vector.svg
+  png: https://images.phylopic.org/images/508804e4-94a7-4a9c-9870-5bc63ee785b5/raster/1006x1024.png
+  page: https://www.phylopic.org/images/508804e4-94a7-4a9c-9870-5bc63ee785b5
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Procellaria aequinoctialis
+  matched: Procellaria
+  genus_level: true
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Procellaria (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Procellaria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Procellaria”. English Wikipedia, revision 1387169503.
+  url: https://en.wikipedia.org/w/index.php?title=Procellaria&oldid=1387169503
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

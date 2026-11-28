@@ -1,0 +1,198 @@
+name: Cepphus
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Moehring 1758
+type_species: Cepphus grylle
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living auk genus recorded in PBDB from the Tortonian–Holocene of AX, Canada, Finland, Greenland, Japan,
+  Norway, United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 32
+  note: ''
+species:
+- name: Cepphus carbo
+  authority: Pallas 1811
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Cepphus columba
+  authority: Pallas 1811
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Cepphus grylle
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Cepphus olsoni
+  authority: Howard 1982
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Cepphus storeri
+  authority: Harrison 1977
+  first_ma: 2.58
+  last_ma: 0.774
+  interval: Gelasian–Calabrian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alaska, California]
+  interval: Rancholabrean–Late Pleistocene
+  occurrences: 7
+  ma: [0.0117, 0.21]
+  id:
+  - unnamed-buldir-island-midden-pit-1-united-states
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-emeryville-shellmound-united-states
+  - unnamed-laguna-creek-midden-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+  - unnamed-san-miguel-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Canada
+  regions: [Manitoba, Newfoundland, Nunavut]
+  interval: Holocene
+  occurrences: 6
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-cape-garry-canada
+  - unnamed-hazard-inlet-group-canada
+  - unnamed-nachvak-fjord-group-canada
+  - unnamed-porden-point-canada
+  - unnamed-seahorse-gully-canada
+  - unnamed-skraeling-island-canada
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: [Aomori]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.774]
+  id: unnamed-shiriya-locality-2-japan
+- formation: San Mateo
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Tortonian–Zanclean
+  occurrences: 3
+  ma: [3.6, 11.63]
+  id: san-mateo-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: AX
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: [unnamed-am-200-otterbote-kokar-ax, unnamed-jettbole-i-ax]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greenland
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: [unnamed-qeqertaaraq-greenland, unnamed-walrus-island-greenland]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Norway
+  regions: [Sunnmore]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-skjonghelleren-norway
+- formation: Monterey
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: monterey-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-torbryan-cave-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Finland
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-nm-28659-ravasen-kristiinankaupunki-finland
+- formation: Red Crag
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 2.58]
+  id: red-crag-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/vector.svg
+  png: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/raster/512x454.png
+  page: https://www.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Miocepphus blowi
+  matched: Alcidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cepphus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cepphus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cepphus”. English Wikipedia, revision 1380578538.
+  url: https://en.wikipedia.org/w/index.php?title=Cepphus&oldid=1380578538
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

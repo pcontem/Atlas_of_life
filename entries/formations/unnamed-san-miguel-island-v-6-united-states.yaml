@@ -12,25 +12,43 @@ regions:
 - Florida
 - Georgia
 - Hawaii
+- Illinois
+- Maine
 - Maryland
+- Nebraska
 - New Mexico
+- North Carolina
 - Oregon
+- South Carolina
 - Texas
+- Utah
 - Virginia
 - Washington
 - Wyoming
 location:
   lat: 34.049
-  lng: -120.397
-  basis: median of 11 PBDB collections that yielded the atlas genera
+  lng: -120.417
+  basis: median of 13 PBDB collections that yielded the atlas genera
 age:
   first_ma: 2.58
   last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet., eolian indet., coastal indet.]
 lithology: [sandstone, not reported]
-pbdb_collections: ['120826', '120827', '125234', '125235', '125236', '176091', '176094', '176096', '176097', '176098',
-  '176102']
+pbdb_collections:
+- '120825'
+- '120826'
+- '120827'
+- '125234'
+- '125235'
+- '125236'
+- '176091'
+- '176093'
+- '176094'
+- '176096'
+- '176097'
+- '176098'
+- '176102'
 includes: []
 summary: ''
 paleoenvironment: ''

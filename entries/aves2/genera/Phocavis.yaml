@@ -1,0 +1,86 @@
+name: Phocavis
+rank: genus
+parent: plotopteridae
+incertae_sedis: false
+placement_note: ''
+authority: Goedert 1988
+type_species: Phocavis maritimus
+type_species_note: Taxobox of Wikipedia revision 1382403015.
+summary: Living plotopterid genus recorded in PBDB from the Priabonian of United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 0
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Phocavis maritimus
+  authority: Goedert 1988
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Keasey
+  group: ''
+  members: [middle]
+  country: United States
+  regions: [Oregon]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: keasey-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Phocavis Tarsometatarsus.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Phocavis_Tarsometatarsus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Phocavis_Tarsometatarsus.png
+  artist: Gerald Mayr, James L. Goedert, Vanesa L. de Pietri, R. Paul Scofield. Photographs by Sven Tränkner. Modifications
+    made to crop out and reunite photographs attributed to the same species.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-06-29'
+  caption: Phocavis Tarsometatarsus (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 500
+  height: 1100
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/vector.svg
+  png: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/raster/654x1024.png
+  page: https://www.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53
+  attribution: 'Jon Hill (Photo by Benjamint444: http://en.wikipedia.org/wiki/File:Blue-footed-booby.jpg)'
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sula nebouxii
+  matched: Suliformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. L. Goedert. 1988. A new late Eocene species of Plotopteridae (Aves: Pelecaniformes) from northwestern
+    Oregon. Proceedings of the California Academy of Science 45(6):97-102'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Phocavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Phocavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Phocavis”. English Wikipedia, revision 1382403015.
+  url: https://en.wikipedia.org/w/index.php?title=Phocavis&oldid=1382403015
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

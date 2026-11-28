@@ -1,0 +1,77 @@
+name: Boutersemia
+rank: genus
+parent: glareolidae
+incertae_sedis: false
+placement_note: ''
+authority: Mayr and Smith 2001
+type_species: Boutersemia belgica
+type_species_note: Taxobox of Wikipedia revision 1380012819.
+summary: Extinct pratincole or courser genus recorded in PBDB from the Rupelian of Belgium.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 33.9
+  last_ma: 27.3
+  early_interval: Rupelian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Boutersemia belgica
+  authority: Mayr and Smith 2001
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: original description
+- name: Boutersemia parvula
+  authority: Mayr and Smith 2001
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: ''
+formations:
+- formation: Borgloon
+  group: ''
+  members: [Boutersem]
+  country: Belgium
+  regions: [Brabant]
+  interval: Rupelian
+  occurrences: 3
+  ma: [27.3, 33.9]
+  id: borgloon-belgium
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Glareolidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'G. Mayr and R. Smith. 2001. Ducks, rails, and limicoline waders (Aves: Anseriformes, Gruiformes, Charadriiformes)
+    from the lowermost Oligocene of Belgium. Geobios 34(5):547-561'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Boutersemia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Boutersemia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Boutersemia”. English Wikipedia, revision 1380012819.
+  url: https://en.wikipedia.org/w/index.php?title=Boutersemia&oldid=1380012819
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

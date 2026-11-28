@@ -1,0 +1,84 @@
+name: Sequiwaimanu
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Mayr et al. 2017
+type_species: Sequiwaimanu rosieae
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct penguin genus recorded in PBDB from the Selandian–Thanetian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 61.66
+  last_ma: 56
+  early_interval: Selandian
+  late_interval: Thanetian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sequiwaimanu rosieae
+  authority: Mayr et al. 2017
+  first_ma: 61.66
+  last_ma: 56
+  interval: Selandian–Thanetian
+  reference: original description
+formations:
+- formation: Waipara Greensand
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Selandian–Thanetian
+  occurrences: 1
+  ma: [56.0, 61.66]
+  id: waipara-greensand-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Sequiwaimanu.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Sequiwaimanu.jpg/960px-Sequiwaimanu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sequiwaimanu.jpg
+  artist: Skye McDavid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-04-16'
+  caption: Sequiwaimanu (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 3745
+  height: 653
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/vector.svg
+  png: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/raster/512x417.png
+  page: https://www.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Waimanu manneringi
+  matched: Sphenisciformes
+  genus_level: false
+sources:
+- kind: original
+  text: G. Mayr, V. L. De Pietri, and L. Love, A. A. Mannering, R. P. Scofield. 2017. A well-preserved new mid-Paleocene
+    penguin (Aves, Sphenisciformes) from the Waipara Greensand in New Zealand. Journal of Vertebrate Paleontology
+    37(6):e1398169:1-19
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sequiwaimanu (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sequiwaimanu
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sequiwaimanu”. English Wikipedia, revision 1380012996.
+  url: https://en.wikipedia.org/w/index.php?title=Sequiwaimanu&oldid=1380012996
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

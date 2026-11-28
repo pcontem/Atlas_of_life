@@ -1,0 +1,127 @@
+name: Macronectes
+rank: genus
+parent: procellariidae
+incertae_sedis: false
+placement_note: ''
+authority: Richmond 1905
+type_species: Macronectes giganteus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living petrel or shearwater genus recorded in PBDB from the Late Pleistocene–Holocene of Antarctica, Australia,
+  New Zealand, South Africa.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 11
+  note: ''
+species:
+- name: Macronectes giganteus
+  authority: (Gmelin 1789)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Macronectes halli
+  authority: Mathews 1912
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 5
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-chatham-islands-new-zealand
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+  - unnamed-mason-bay-stewart-island-new-zealand
+  - unnamed-site-1-mangere-island-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-marine-plain-vestfold-hills-holocene-antarctica
+  - unnamed-pingfo-i-living-assemblage-antarctica
+  - unnamed-pingfo-ii-antarctica
+  - unnamed-princess-astrid-coast-antarctica
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-duinefontein-north-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Macquarie Island]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-bauer-bay-site-f-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Macronectes tinae live reconstruction.png
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b4/Macronectes_tinae_live_reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Macronectes_tinae_live_reconstruction.png
+  artist: Simone Giovanardi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-01-30'
+  caption: Macronectes tinae live reconstruction (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 1512
+  height: 1070
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/deb35243-40b4-42ae-b538-846d72e4ec98/vector.svg
+  png: https://images.phylopic.org/images/deb35243-40b4-42ae-b538-846d72e4ec98/raster/512x410.png
+  page: https://www.phylopic.org/images/deb35243-40b4-42ae-b538-846d72e4ec98
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Macronectes halli
+  matched: Macronectes
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Macronectes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Macronectes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Giant petrel”. English Wikipedia, revision 1375713269.
+  url: https://en.wikipedia.org/w/index.php?title=Giant_petrel&oldid=1375713269
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

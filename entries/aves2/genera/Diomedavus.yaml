@@ -1,0 +1,68 @@
+name: Diomedavus
+rank: genus
+parent: diomedeidae
+incertae_sedis: false
+placement_note: ''
+authority: Mayr and Goedert 2017
+type_species: Diomedavus knapptonensis
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct albatross genus recorded in PBDB from the Chattian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Diomedavus knapptonensis
+  authority: Mayr and Goedert 2017
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Lincoln Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [Washington]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: lincoln-creek-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/7eff436d-7eb6-425a-bfd8-514a63e9e7f5/vector.svg
+  png: https://images.phylopic.org/images/7eff436d-7eb6-425a-bfd8-514a63e9e7f5/raster/512x152.png
+  page: https://www.phylopic.org/images/7eff436d-7eb6-425a-bfd8-514a63e9e7f5
+  attribution: Mark P. Witton & Darren Naish
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Diomedeidae
+  matched: Diomedeidae
+  genus_level: false
+sources:
+- kind: original
+  text: G. Mayr and J. L. Goedert. 2017. Oligocene and Miocene albatross fossils from Washington State (USA) and
+    the evolutionary history of North Pacific Diomedeidae. The Auk 134:659-671
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diomedavus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diomedavus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

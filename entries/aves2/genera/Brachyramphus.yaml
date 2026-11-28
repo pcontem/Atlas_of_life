@@ -1,0 +1,106 @@
+name: Brachyramphus
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Brandt 1837
+type_species: Brachyramphus marmoratus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living auk genus recorded in PBDB from the Zanclean–Holocene of United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 14
+  note: ''
+species:
+- name: Brachyramphus brevirostris
+  authority: Vigors 1829
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Brachyramphus dunkeli
+  authority: Chandler 1990
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+- name: Brachyramphus marmoratus
+  authority: Gmelin 1789
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Brachyramphus perdix
+  authority: Pallas 1811
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Brachyramphus pliocenum
+  authority: Howard 1949
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+formations:
+- formation: San Diego
+  group: ''
+  members: ['4', Lower]
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 11
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alaska, California]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-buldir-island-midden-pit-1-united-states
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/03d85eae-5489-4014-9d6d-d74c28200cf0/vector.svg
+  png: https://images.phylopic.org/images/03d85eae-5489-4014-9d6d-d74c28200cf0/raster/512x232.png
+  page: https://www.phylopic.org/images/03d85eae-5489-4014-9d6d-d74c28200cf0
+  attribution: Matías Muñoz
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Brachyramphus marmoratus
+  matched: Brachyramphus
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brachyramphus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brachyramphus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brachyramphus”. English Wikipedia, revision 1319563932.
+  url: https://en.wikipedia.org/w/index.php?title=Brachyramphus&oldid=1319563932
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

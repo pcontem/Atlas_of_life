@@ -1,0 +1,107 @@
+name: Pachydyptes
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Oliver 1930
+type_species: Pachydyptes ponderosus
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct penguin genus recorded in PBDB from the Priabonian of Australia, New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Pachydyptes ponderosus
+  authority: Oliver 1930
+  first_ma: 36.7
+  last_ma: 34.6
+  interval: Priabonian
+  reference: ''
+- name: Pachydyptes simpsoni
+  authority: Jenkins 1974
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: ''
+formations:
+- formation: Ototara Limestone
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Runangan
+  occurrences: 1
+  ma: [34.6, 36.7]
+  id: ototara-limestone-new-zealand
+- formation: Oamaru Diatomite
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Runangan
+  occurrences: 1
+  ma: [34.6, 36.7]
+  id: oamaru-diatomite-new-zealand
+- formation: Blanche Point
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: blanche-point-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Pachydyptes ponderosus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pachydyptes_ponderosus.jpg/960px-Pachydyptes_ponderosus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pachydyptes_ponderosus.jpg
+  artist: Wilhelm Kuhnert
+  license: Public domain
+  license_url: ''
+  date: '1893'
+  caption: Pachydyptes ponderosus (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 2300
+  height: 1593
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/vector.svg
+  png: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/raster/512x417.png
+  page: https://www.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Waimanu manneringi
+  matched: Sphenisciformes
+  genus_level: false
+sources:
+- kind: original
+  text: W. R. B. Oliver. 1930. New Zealand Birds
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pachydyptes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pachydyptes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pachydyptes”. English Wikipedia, revision 1370512602.
+  url: https://en.wikipedia.org/w/index.php?title=Pachydyptes&oldid=1370512602
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

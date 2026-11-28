@@ -1,0 +1,113 @@
+name: Hokkaidornis
+rank: genus
+parent: plotopteridae
+incertae_sedis: false
+placement_note: ''
+authority: Sakurai et al. 2008
+type_species: Hokkaidornis abashiriensis
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct plotopterid genus recorded in PBDB from the Chattian of Japan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Hokkaidornis abashiriensis
+  authority: Sakurai et al. 2008
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Tokoro
+  group: ''
+  members: []
+  country: Japan
+  regions: [Hokkaido]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: tokoro-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Hokkaidornis Coracoid.png
+  url: https://upload.wikimedia.org/wikipedia/commons/4/41/Hokkaidornis_Coracoid.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hokkaidornis_Coracoid.png
+  artist: Gerald Mayr, James L. Goedert, Vanesa L. de Pietri, R. Paul Scofield. Photographs by Sven Tränkner. Modifications
+    made to crop out and reunite photographs attributed to the same species.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2020-06-29'
+  caption: Hokkaidornis Coracoid (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 800
+  height: 1300
+  review: unreviewed
+- kind: life
+  file: Hokkaidornis abashiriensis recreation.png
+  url: https://upload.wikimedia.org/wikipedia/commons/9/94/Hokkaidornis_abashiriensis_recreation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Hokkaidornis_abashiriensis_recreation.png
+  artist: Dotkamina
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2024-09-11'
+  caption: Hokkaidornis abashiriensis recreation (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 1535
+  height: 612
+  review: unreviewed
+- kind: fossil
+  file: Scapula of Hokkaidornis.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8c/Scapula_of_Hokkaidornis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Scapula_of_Hokkaidornis.png
+  artist: Tatsuro Ando and Keisaku Fukata, with the technical help of Tatsuya Shinmura for the reconstruction of
+    the triosseal canal. Changes were made in croping the images, and adding the 50mm scale bar to the cropped images
+    of the furculae belonging to the two genera described at the time.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-08-17'
+  caption: Scapula of Hokkaidornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 500
+  height: 1200
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/vector.svg
+  png: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/raster/654x1024.png
+  page: https://www.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53
+  attribution: 'Jon Hill (Photo by Benjamint444: http://en.wikipedia.org/wiki/File:Blue-footed-booby.jpg)'
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sula nebouxii
+  matched: Suliformes
+  genus_level: false
+sources:
+- kind: original
+  text: K. Sakurai, M. Kimura, and T. A. Katoh. 2008. New penguin-like bird (Pelecaniformes; Plotopteridae) from
+    the Late Oligocene Tokoro Formation, northeastern Hokkaido. Oryctos 7:83-94
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Hokkaidornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Hokkaidornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hokkaidornis”. English Wikipedia, revision 1306518922.
+  url: https://en.wikipedia.org/w/index.php?title=Hokkaidornis&oldid=1306518922
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

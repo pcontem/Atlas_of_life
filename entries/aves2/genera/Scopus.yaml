@@ -1,0 +1,87 @@
+name: Scopus
+rank: genus
+parent: pelecaniformes
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Scopus umbretta
+type_species_note: The only valid species listed by PBDB.
+summary: Living hamerkop genus recorded in PBDB from the Zanclean–Holocene of Madagascar, South Africa.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Scopus umbretta
+  authority: Gmelin 1789
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Varswater
+  group: ''
+  members: [QSM & PPM]
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-ankilitelo-cave-madagascar
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-south-africa
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5/vector.svg
+  png: https://images.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5/raster/512x393.png
+  page: https://www.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5
+  attribution: Arthur Grosset (photo), John E. McCormack, Michael G. Harvey, Brant C. Faircloth, Nicholas G. Crawford,
+    Travis C. Glenn, Robb T. Brumfield & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Scopus umbretta
+  matched: Scopus
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scopus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scopus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

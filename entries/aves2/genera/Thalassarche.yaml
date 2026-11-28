@@ -1,0 +1,144 @@
+name: Thalassarche
+rank: genus
+parent: diomedeidae
+incertae_sedis: false
+placement_note: ''
+authority: Reichenback 1853
+type_species: Thalassarche melanophris
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living albatross genus recorded in PBDB from the Messinian–Holocene of Australia, Chile, New Zealand, TF.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 7.246
+  last_ma: 0
+  early_interval: Messinian
+  late_interval: Holocene
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Thalassarche bulleri
+  authority: (Rothschild 1893)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Thalassarche cauta
+  authority: (Gould 1841)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Thalassarche chlororhynchos
+  authority: (Gmelin 1789)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Thalassarche chrysostoma
+  authority: (Forster 1785)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Thalassarche melanophris
+  authority: Temminck 1828
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 5
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-chatham-islands-new-zealand
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+  - unnamed-mason-bay-stewart-island-new-zealand
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Bahía Inglesa
+  group: ''
+  members: []
+  country: Chile
+  regions: []
+  interval: Messinian
+  occurrences: 1
+  ma: [5.333, 7.246]
+  id: bahia-inglesa-chile
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Macquarie Island]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-bauer-bay-site-f-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TF
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-amsterdam-island-tf
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chile
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-chan-chan-chile
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a8f6073e-dd3a-45b9-b72a-1aaa12d4917f/vector.svg
+  png: https://images.phylopic.org/images/a8f6073e-dd3a-45b9-b72a-1aaa12d4917f/raster/512x393.png
+  page: https://www.phylopic.org/images/a8f6073e-dd3a-45b9-b72a-1aaa12d4917f
+  attribution: Johnny
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Thalassarche chlororhynchos
+  matched: Thalassarche
+  genus_level: true
+sources:
+- kind: original
+  text: T. H. Worthy and J. A. Grant-Mackie. 2003. Late-Pleistocene avifaunas from Cape Wanbrow, Otago, South Island,
+    New Zealand. Journal of the Royal Society of New Zealand 33(1):427-485
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thalassarche (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thalassarche
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mollymawk”. English Wikipedia, revision 1375330982.
+  url: https://en.wikipedia.org/w/index.php?title=Mollymawk&oldid=1375330982
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

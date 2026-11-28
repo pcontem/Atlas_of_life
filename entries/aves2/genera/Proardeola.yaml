@@ -1,0 +1,77 @@
+name: Proardeola
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison 1979
+type_species: Proardeola walkeri
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct heron genus recorded in PBDB from the Aquitanian–Langhian of France, Thailand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 13.82
+  early_interval: Aquitanian
+  late_interval: Langhian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Proardeola walkeri
+  authority: Harrison 1979
+  first_ma: 23.04
+  last_ma: 13.82
+  interval: Aquitanian–Langhian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Thailand
+  regions: []
+  interval: Burdigalian–Langhian
+  occurrences: 1
+  ma: [13.82, 20.45]
+  id: unnamed-li-mae-long-thailand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: unnamed-st-gerand-le-puy-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/vector.svg
+  png: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/raster/638x1024.png
+  page: https://www.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c
+  attribution: Mannheim Reinhard Jahn (photograph)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tigrisoma mexicanum
+  matched: Ardeidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. J. Becker. 1985. Fossil herons (Aves: Ardeidae) of the late Miocene and early Pliocene of Florida. Journal
+    of Vertebrate Paleontology 5(1):24-31'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Proardeola (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Proardeola
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

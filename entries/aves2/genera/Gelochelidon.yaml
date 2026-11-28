@@ -1,0 +1,81 @@
+name: Gelochelidon
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Brehm 1830
+type_species: Gelochelidon nilotica
+type_species_note: The only valid species listed by PBDB.
+summary: Living larid genus recorded in PBDB from the Zanclean–Holocene of Spain, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Gelochelidon nilotica
+  authority: (Gmelin 1789)
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: original description
+formations:
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/vector.svg
+  png: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/raster/512x276.png
+  page: https://www.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117
+  attribution: Sue Cantan (photograph) and T. Michael Keesey (vectorization)
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Creagrus furcatus
+  matched: Laridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gelochelidon (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gelochelidon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gelochelidon”. English Wikipedia, revision 1379738161.
+  url: https://en.wikipedia.org/w/index.php?title=Gelochelidon&oldid=1379738161
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

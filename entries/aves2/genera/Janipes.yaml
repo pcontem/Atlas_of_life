@@ -1,0 +1,68 @@
+name: Janipes
+rank: genus
+parent: jacanidae
+incertae_sedis: false
+placement_note: ''
+authority: Rasmussen et al. 1987
+type_species: Janipes nymphaeobates
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct jacana genus recorded in PBDB from the Rupelian of Egypt.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 33.9
+  last_ma: 27.3
+  early_interval: Rupelian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Janipes nymphaeobates
+  authority: Rasmussen et al. 1987
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: original description
+formations:
+- formation: Jebel Qatrani
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Fayum]
+  interval: Rupelian
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: jebel-qatrani-egypt
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462/vector.svg
+  png: https://images.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462/raster/926x1024.png
+  page: https://www.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462
+  attribution: Burton Robert, USFWS
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Jacana spinosa
+  matched: Jacanidae
+  genus_level: false
+sources:
+- kind: original
+  text: D. T. Rasmussen, S. L. Olson, and E. L. Simons. 1987. Fossil Birds from the Oligocene Jebel Qatrani Formation,
+    Fayum Province, Egypt. Smithsonian Contributions to Paleobiology 62:1-20
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Janipes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Janipes
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

@@ -885,3 +885,15 @@ backbone node under Aves until the Neoaves volumes.
   Struthionidae revision treats it as valid).
 - Left out: Geranoididae (Geranoides, Paragrus, Geranodornis, Palaeophasianus, Galligeranoides, Eogeranoides) and Eonessa, gruiform-like
   birds for a later Neoaves volume.
+
+## 2026-11-28 — Aves II volume (waterbirds and shorebirds)
+Sources: English Wikipedia clade revisions (data/raw/tree/clade_sources_2026-11-28_aves2.json) checked against PBDB families
+(data/raw/aves2/pbdb_genera.json). Root Neoaves attached to Neognathae (Aves I); the backbone node Passeriformes moved from Aves to
+Neoaves. Structure: Neoaves → Charadriiformes (Scolopacidae, Laridae, Alcidae, Charadriidae, Glareolidae, Jacanidae, Recurvirostridae,
+Turnicidae, Burhinidae; small families directly in the order) and Aequornithes (Gaviiformes, Sphenisciformes, Procellariiformes →
+Procellariidae, Diomedeidae, storm petrels directly; Ciconiidae directly in Aequornithes; Pelecaniformes → Ardeidae,
+Threskiornithidae, Pelecanidae, hamerkop directly; Suliformes → Sulidae, Phalacrocoracidae, Anhingidae, Fregatidae, Plotopteridae).
+- Left out: Late Cretaceous Graculavus, Palaeotringa, Laornis (charadriiform-like, position uncertain), Cimolopterygidae (in the Avialae
+  volume), Gallornis, Cladornis and Cruschedula, Palaeochenoides (pelagornithid relative), Eocathartes (page redirects to Strigogyps),
+  and genera of families outside this volume (Elopterygidae, Dakotornithidae, Marinavidae, Protoplotidae, Rhegminornithidae,
+  Scaniornithidae, Tytthostonychidae).

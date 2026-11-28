@@ -1,0 +1,128 @@
+name: Aethia
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Merrem 1788
+type_species: Aethia cristatella
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living auk genus recorded in PBDB from the Langhian–Holocene of Japan, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 0
+  early_interval: Langhian
+  late_interval: Holocene
+  pbdb_occurrences: 18
+  note: ''
+species:
+- name: Aethia barnesi
+  authority: Smith 2014
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Aethia cristatella
+  authority: (Pallas 1769)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Aethia psittacula
+  authority: (Pallas 1769)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Aethia pusilla
+  authority: (Pallas 1811)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Aethia pygmaea
+  authority: (Gmelin 1789)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Aethia storeri
+  authority: Smith 2014
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alaska]
+  interval: Holocene
+  occurrences: 9
+  ma: [0.0, 0.0117]
+  id: unnamed-buldir-island-midden-pit-1-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: [Aomori]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 0.774]
+  id: unnamed-shiriya-locality-2-japan
+- formation: San Mateo
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Tortonian
+  occurrences: 2
+  ma: [7.246, 11.63]
+  id: san-mateo-united-states
+- formation: Monterey
+  group: ''
+  members: [lower]
+  country: United States
+  regions: [California]
+  interval: Langhian–Tortonian
+  occurrences: 2
+  ma: [7.246, 15.98]
+  id: monterey-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/vector.svg
+  png: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/raster/512x454.png
+  page: https://www.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Miocepphus blowi
+  matched: Alcidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aethia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aethia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aethia”. English Wikipedia, revision 1380578488.
+  url: https://en.wikipedia.org/w/index.php?title=Aethia&oldid=1380578488
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

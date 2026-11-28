@@ -1,0 +1,364 @@
+name: Anhinga
+rank: genus
+parent: anhingidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Anhinga anhinga
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living darter genus recorded in PBDB from the Chattian–Holocene of Argentina, Australia, Brazil, Chad,
+  Colombia, DR Congo, Ethiopia, Germany, Greece, Hungary, India, Kenya, Madagascar, Mexico, Tunisia, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 0
+  early_interval: Chattian
+  late_interval: Holocene
+  pbdb_occurrences: 44
+  note: ''
+species:
+- name: Anhinga anhinga
+  authority: (Linnaeus 1766)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Anhinga beckeri
+  authority: Emslie 1998
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Anhinga grandis
+  authority: Martin and Mengel 1975
+  first_ma: 13.8
+  last_ma: 4.7
+  interval: Serravallian–Zanclean
+  reference: ''
+- name: Anhinga hesterna
+  authority: (Ameghino 1894)
+  first_ma: 17.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+- name: Anhinga malagurala
+  authority: Mackness 1995
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Anhinga melanogaster
+  authority: Pennant 1769
+  first_ma: 11.63
+  last_ma: 0
+  interval: Tortonian–Holocene
+  reference: ''
+- name: Anhinga novaehollandiae
+  authority: Gould 1847
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Anhinga pannonica
+  authority: (Lambrect 1916)
+  first_ma: 13.82
+  last_ma: 5.333
+  interval: Serravallian–Messinian
+  reference: ''
+- name: Anhinga rufa
+  authority: Daudin 1802
+  first_ma: 11.63
+  last_ma: 3.6
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Anhinga subvolans
+  authority: (Brodkorb 1956)
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+- name: Anhinga walterbolesi
+  authority: Worthy 2012
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: ''
+formations:
+- formation: Solimoes
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian–Late Miocene
+  occurrences: 6
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chad
+  regions: []
+  interval: Messinian–Piacenzian
+  occurrences: 5
+  ma: [2.58, 7.246]
+  id:
+  - unnamed-koro-toro-kt-12-chad
+  - unnamed-koro-toro-kt-13-chad
+  - unnamed-toros-menalla-chad
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: early Early Hemphillian–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 9.4]
+  id:
+  - unnamed-cutler-hammock-united-states
+  - unnamed-haile-v-xixa-united-states
+  - unnamed-ichetucknee-river-united-states
+  - unnamed-rock-springs-united-states
+- formation: Alachua
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Hemingfordian–Hemphillian
+  occurrences: 3
+  ma: [4.7, 18.5]
+  id: alachua-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Jalisco]
+  interval: Pleistocene
+  occurrences: 2
+  ma: [0.0117, 2.58]
+  id: unnamed-lacm-1952-lacm-1953-san-marcos-mexico
+- formation: Adu Asa
+  group: ''
+  members: [Asa Koma]
+  country: Ethiopia
+  regions: []
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: adu-asa-ethiopia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: []
+  interval: Middle Pleistocene
+  occurrences: 2
+  ma: [0.129, 0.774]
+  id: unnamed-kyparissia-4-greece
+- formation: Allingham
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: allingham-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: DR Congo
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-ishango-n-f-p-dr-congo
+- formation: Nawata
+  group: ''
+  members: [Lower Nawata]
+  country: Kenya
+  regions: []
+  interval: Tortonian–Messinian
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: nawata-kenya
+- formation: Nawata or Nachukui
+  group: ''
+  members: [Upper Nawata and Apak]
+  country: Kenya
+  regions: []
+  interval: Messinian–Zanclean
+  occurrences: 1
+  ma: [3.6, 7.246]
+  id: nawata-or-nachukui-kenya
+- formation: Beglia
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Gafsa]
+  interval: Serravallian–Tortonian
+  occurrences: 1
+  ma: [7.246, 13.82]
+  id: beglia-tunisia
+- formation: Fort Thompson
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Rancholabrean
+  occurrences: 1
+  ma: [0.014, 0.21]
+  id: fort-thompson-united-states
+- formation: Sajovolgyi
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Nograd]
+  interval: MN 6–MN 7 + 8
+  occurrences: 1
+  ma: [11.1, 13.82]
+  id: sajovolgyi-hungary
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-lower-cooper-river-australia
+- formation: Santa Cruz
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Santacrucian
+  occurrences: 1
+  ma: [16.3, 17.5]
+  id: santa-cruz-argentina
+- formation: Villavieja
+  group: Honda
+  members: []
+  country: Colombia
+  regions: [Huila]
+  interval: Laventan
+  occurrences: 1
+  ma: [11.0, 13.8]
+  id: villavieja-colombia
+- formation: Tatrot
+  group: ''
+  members: []
+  country: India
+  regions: []
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: tatrot-india
+- formation: Wyandotte
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: wyandotte-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-ankilitelo-cave-madagascar
+- formation: Okeechobee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: okeechobee-united-states
+- formation: Ituzaingo
+  group: ''
+  members: [Conglomerado Osifero]
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Waite
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: waite-australia
+- formation: Upper Freshwater Molasse
+  group: ''
+  members: []
+  country: Germany
+  regions: [Bavaria]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: upper-freshwater-molasse-germany
+- formation: Etadunna
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: etadunna-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: unnamed-kanaopi-kenya
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/83ffba64-e8b2-48d4-8e70-11153c89ae9e/vector.svg
+  png: https://images.phylopic.org/images/83ffba64-e8b2-48d4-8e70-11153c89ae9e/raster/603x1536.png
+  page: https://www.phylopic.org/images/83ffba64-e8b2-48d4-8e70-11153c89ae9e
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Anhinga anhinga
+  matched: Anhinga
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anhinga (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anhinga
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anhinga”. English Wikipedia, revision 1387169527.
+  url: https://en.wikipedia.org/w/index.php?title=Anhinga&oldid=1387169527
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

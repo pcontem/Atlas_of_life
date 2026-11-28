@@ -1,0 +1,89 @@
+name: Kumimanu
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Mayr et al. 2017
+type_species: Kumimanu biceae
+type_species_note: Taxobox of Wikipedia revision 1380012866.
+summary: Extinct penguin genus recorded in PBDB from the Thanetian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 59.24
+  last_ma: 56
+  early_interval: Thanetian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Kumimanu biceae
+  authority: Mayr et al. 2017
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: original description
+- name: Kumimanu fordycei
+  authority: Ksepka et al. 2023
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: ''
+formations:
+- formation: Moeraki
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Paleocene
+  occurrences: 3
+  ma: [56.0, 59.24]
+  id: moeraki-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Kumimanu NT.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/82/Kumimanu_NT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Kumimanu_NT.jpg
+  artist: Nobu Tamura email:nobu.tamura@yahoo.com https://spinops.blogspot.com/
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2017'
+  caption: Kumimanu NT (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 621
+  height: 558
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/98a393bd-66cc-456a-a893-cc29133ff97a/vector.svg
+  png: https://images.phylopic.org/images/98a393bd-66cc-456a-a893-cc29133ff97a/raster/512x185.png
+  page: https://www.phylopic.org/images/98a393bd-66cc-456a-a893-cc29133ff97a
+  attribution: Michael Tripoli
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Kumimanu fordycei
+  matched: Kumimanu
+  genus_level: true
+sources:
+- kind: original
+  text: G. Mayr, R. P. Scofield, and V. L. De Pietri, A. J. D. Tennyson. 2017. A Paleocene penguin from New Zealand
+    substantiates multiple origins of gigantism in fossil Sphenisciformes. Nature Communications 8:1927
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kumimanu (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kumimanu
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kumimanu”. English Wikipedia, revision 1380012866.
+  url: https://en.wikipedia.org/w/index.php?title=Kumimanu&oldid=1380012866
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

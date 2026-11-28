@@ -1,0 +1,124 @@
+name: Kairuku
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Ksepka et al. 2012
+type_species: Kairuku waitaki
+type_species_note: Taxobox of Wikipedia revision 1379833269.
+summary: Extinct penguin genus recorded in PBDB from the Bartonian–Chattian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 39.1
+  last_ma: 23.04
+  early_interval: Bartonian
+  late_interval: Chattian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Kairuku grebneffi
+  authority: Ksepka et al. 2012
+  first_ma: 27.3
+  last_ma: 25.2
+  interval: Chattian
+  reference: ''
+- name: Kairuku waewaeroa
+  authority: Giovanardi et al. 2021
+  first_ma: 34.6
+  last_ma: 27.3
+  interval: Priabonian–Rupelian
+  reference: ''
+- name: Kairuku waitaki
+  authority: Ksepka et al. 2012
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Kokoamu Greensand
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Otago, South Canterbury]
+  interval: Duntroonian–Chattian
+  occurrences: 6
+  ma: [23.04, 27.3]
+  id: kokoamu-greensand-new-zealand
+- formation: Glen Massey
+  group: Te Kuiti
+  members: [Dunphail Siltstone]
+  country: New Zealand
+  regions: [North Island]
+  interval: Whaingaroan
+  occurrences: 2
+  ma: [27.3, 34.6]
+  id: glen-massey-new-zealand
+- formation: Red Bluff Tuff
+  group: Kekerione
+  members: [Te One Limestone]
+  country: New Zealand
+  regions: []
+  interval: Kaiatan
+  occurrences: 1
+  ma: [36.7, 39.1]
+  id: red-bluff-tuff-new-zealand
+- formation: Otekaike Limestone
+  group: ''
+  members: [Maerewhenua]
+  country: New Zealand
+  regions: [North Otago]
+  interval: Duntroonian
+  occurrences: 1
+  ma: [25.2, 27.3]
+  id: otekaike-limestone-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Kairuku scaling species.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Kairuku_scaling_species.png/960px-Kairuku_scaling_species.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Kairuku_scaling_species.png
+  artist: Ta-tea-two-te-to
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-02-08'
+  caption: Kairuku scaling species (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 4500
+  height: 2200
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ddd3ba62-446f-4c9a-90b0-2c027b789872/vector.svg
+  png: https://images.phylopic.org/images/ddd3ba62-446f-4c9a-90b0-2c027b789872/raster/690x1024.png
+  page: https://www.phylopic.org/images/ddd3ba62-446f-4c9a-90b0-2c027b789872
+  attribution: Tim Bertelink (original illustration)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Kairuku grebneffi
+  matched: Kairuku
+  genus_level: true
+sources:
+- kind: original
+  text: D. T. Ksepka, R. E. Fordyce, and T. Ando, C. M. Jones. 2012. New fossil penguins (AVes, Sphenisciformes)
+    from the Oligocene of New Zealand reveal the skeletal plan of stem penguins. Journal of Vertebrate Paleontology
+    32(2):235-254
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Kairuku (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Kairuku
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kairuku”. English Wikipedia, revision 1379833269.
+  url: https://en.wikipedia.org/w/index.php?title=Kairuku&oldid=1379833269
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

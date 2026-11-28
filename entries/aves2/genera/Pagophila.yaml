@@ -1,0 +1,87 @@
+name: Pagophila
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Kaup 1829
+type_species: Pagophila eburnea
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living larid genus recorded in PBDB from the Late Pleistocene–Holocene of Greenland, Norway.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Pagophila brachytarsus
+  authority: (Hölb 1846)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Pagophila eburnea
+  authority: (Phipps 1774)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greenland
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: [unnamed-hellebk-greenland, unnamed-independence-i-greenland]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Norway
+  regions: [Sunnmore]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-skjonghelleren-norway
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/vector.svg
+  png: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/raster/512x276.png
+  page: https://www.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117
+  attribution: Sue Cantan (photograph) and T. Michael Keesey (vectorization)
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Creagrus furcatus
+  matched: Laridae
+  genus_level: false
+sources:
+- kind: original
+  text: N. A. Smith. 2011. Taxonomic revision and phylogenetic analysis of the flightless Mancallinae (Aves, Pan-Alcidae).
+    ZooKeys 91:1-116
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pagophila (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pagophila
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ivory gull”. English Wikipedia, revision 1380687541.
+  url: https://en.wikipedia.org/w/index.php?title=Ivory_gull&oldid=1380687541
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

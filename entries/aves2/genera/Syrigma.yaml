@@ -1,0 +1,87 @@
+name: Syrigma
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Ridgway 1824
+type_species: Syrigma sibilatrix
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living heron genus recorded in PBDB from the Late Pleistocene–Holocene of Brazil, Peru.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Syrigma sanctimartini
+  authority: Campbell 1979
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Syrigma sibilatrix
+  authority: Temminck 1824
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/vector.svg
+  png: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/raster/638x1024.png
+  page: https://www.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c
+  attribution: Mannheim Reinhard Jahn (photograph)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tigrisoma mexicanum
+  matched: Ardeidae
+  genus_level: false
+sources:
+- kind: original
+  text: K. E. Campbell. 1979. The non-passerine Pleistocene avifauna of the Talara Tar Seeps, northwestern Peru.
+    Royal Ontario Museum Life Sciences Contribution 118:1-203
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Syrigma (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Syrigma
+- kind: encyclopedia
+  text: Wikipedia contributors. “Whistling heron”. English Wikipedia, revision 1385827960.
+  url: https://en.wikipedia.org/w/index.php?title=Whistling_heron&oldid=1385827960
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

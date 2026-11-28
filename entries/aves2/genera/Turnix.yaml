@@ -1,0 +1,170 @@
+name: Turnix
+rank: genus
+parent: turnicidae
+incertae_sedis: false
+placement_note: ''
+authority: Bonnaterre 1791
+type_species: Turnix sylvaticus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living buttonquail genus recorded in PBDB from the Piacenzian–Holocene of Australia, Egypt, Indonesia,
+  Japan, Madagascar, Mauritius, South Africa, TL.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 3.6
+  last_ma: 0
+  early_interval: Piacenzian
+  late_interval: Holocene
+  pbdb_occurrences: 24
+  note: ''
+species:
+- name: Turnix maculosus
+  authority: (Temminck 1815)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Turnix nigricollis
+  authority: (Gmelin 1789)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Turnix suscitator
+  authority: (Gmelin 1789)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Turnix sylvaticus
+  authority: (Desfontaines 1789)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Turnix varius
+  authority: (Lathum 1802)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Turnix velox
+  authority: (Gould 1841)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia, Victoria]
+  interval: Pleistocene
+  occurrences: 10
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-amphitheatre-cave-australia
+  - unnamed-blanche-cave-australia
+  - unnamed-pyramids-cave-australia
+  - unnamed-seton-rock-shelter-australia
+  - unnamed-weekes-cave-nullarbor-plain-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: [Toliara]
+  interval: Late Pleistocene–Holocene
+  occurrences: 4
+  ma: [0.0, 0.129]
+  id: unnamed-andrahomana-cave-madagascar
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Indonesia
+  regions: [East Nusa Tenggara]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: unnamed-liang-bua-sector-xi-spit-41-indonesia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TL
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: [unnamed-jerimalai-tl, unnamed-matja-kuru-1-tl]
+- formation: Kromdraai
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Late Pliocene–Pleistocene
+  occurrences: 1
+  ma: [0.0117, 3.6]
+  id: kromdraai-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-pinza-abu-cave-ueno-japan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mauritius
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-valleys-of-le-pouce-mauritius
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-bir-tarfawi-egypt
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/416ec8c6-0ed1-4c9f-b4a4-8c1ef6496e84/vector.svg
+  png: https://images.phylopic.org/images/416ec8c6-0ed1-4c9f-b4a4-8c1ef6496e84/raster/955x1024.png
+  page: https://www.phylopic.org/images/416ec8c6-0ed1-4c9f-b4a4-8c1ef6496e84
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Turnix sylvaticus lepurana
+  matched: Turnix
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Turnix (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Turnix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Buttonquail”. English Wikipedia, revision 1379731902.
+  url: https://en.wikipedia.org/w/index.php?title=Buttonquail&oldid=1379731902
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

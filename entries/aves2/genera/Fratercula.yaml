@@ -1,0 +1,169 @@
+name: Fratercula
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Fratercula arctica
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Living auk genus recorded in PBDB from the Zanclean–Holocene of Belgium, GI, Greenland, Italy, Norway,
+  O4, United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 42
+  note: ''
+species:
+- name: Fratercula arctica
+  authority: (Linnaeus 1758)
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Fratercula cirrhata
+  authority: (Pallas 1769)
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Fratercula corniculata
+  authority: (Naumann 1821)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Fratercula dowi
+  authority: Guthrie et al. 2000
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alaska, California, Washington]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 31
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-buldir-island-midden-pit-1-united-states
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-cedar-hollow-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+  - unnamed-san-nicolas-island-united-states
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Wales]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-port-eynon-point-cave-united-kingdom
+  - unnamed-potter-s-cave-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Norway
+  regions: [Sunnmore]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-skjonghelleren-norway
+- formation: Kattendijk
+  group: ''
+  members: []
+  country: Belgium
+  regions: [Beveren]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: kattendijk-belgium
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greenland
+  regions: [Carey Oer]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-nordvesto-site-1-greenland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-arene-candide-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: GI
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-gorham-cave-gi
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: O4
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-pottery-house-site-o4
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d973f930-85f8-4a91-9e7f-8c3a0b140c81/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/d973f930-85f8-4a91-9e7f-8c3a0b140c81
+  attribution: Richard Bartz (photo) and Albertonykus (silhouette)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Fratercula arctica
+  matched: Fratercula
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fratercula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fratercula
+- kind: encyclopedia
+  text: Wikipedia contributors. “Puffin”. English Wikipedia, revision 1380701454.
+  url: https://en.wikipedia.org/w/index.php?title=Puffin&oldid=1380701454
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

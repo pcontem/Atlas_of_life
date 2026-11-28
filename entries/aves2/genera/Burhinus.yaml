@@ -1,0 +1,207 @@
+name: Burhinus
+rank: genus
+parent: burhinidae
+incertae_sedis: false
+placement_note: ''
+authority: Illiger 1811
+type_species: Burhinus oedicnemus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living stone-curlew genus recorded in PBDB from the Burdigalian–Holocene of Bahamas, Cuba, Ecuador, Peru,
+  Portugal, South Africa, TC, United States, Venezuela.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.5
+  last_ma: 0
+  early_interval: Burdigalian
+  late_interval: Holocene
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Burhinus bistriatus
+  authority: (Wagler 1829)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Burhinus capensis
+  authority: (Lichtenstein 1823)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Burhinus grallarius
+  authority: Latham 1801
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Burhinus indicus
+  authority: Salvadori 1865
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Burhinus lucorum
+  authority: Bickart 1981
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+- name: Burhinus nanus
+  authority: (Brodkorb 1959)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Burhinus oedicnemus
+  authority: Linnaeus 1758
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Burhinus senegalensis
+  authority: Swainson 1837
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Burhinus superciliaris
+  authority: (von Tschudi 1843)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Burhinus vermiculatus
+  authority: Cabanis 1868
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bahamas
+  regions: [New Providence Island]
+  interval: Late Pleistocene–Holocene
+  occurrences: 3
+  ma: [0.0, 0.129]
+  id: unnamed-banana-hole-bahamas
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [New Mexico]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-dark-canyon-cave-united-states
+- formation: Sheep Creek
+  group: ''
+  members: [middle]
+  country: United States
+  regions: [Nebraska]
+  interval: Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: sheep-creek-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-stofbergsfontein-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Zulia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-mene-de-inciarte-tar-seep-venezuela
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TC
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-ia-gora-site-unit-j-middle-caicos-tc
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Cuba
+  regions: [Matanzas]
+  interval: Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 2.58]
+  id: unnamed-las-breas-de-san-felipe-cuba
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Setúbal District]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-largo-do-coreto-portugal
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b853c7c8-05ba-4f0e-a9ee-5ba7786b5b3e/vector.svg
+  png: https://images.phylopic.org/images/b853c7c8-05ba-4f0e-a9ee-5ba7786b5b3e/raster/512x511.png
+  page: https://www.phylopic.org/images/b853c7c8-05ba-4f0e-a9ee-5ba7786b5b3e
+  attribution: Auckland Museum
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Burhinus oedicnemus
+  matched: Burhinus
+  genus_level: true
+sources:
+- kind: original
+  text: C. Illiger. 1811. Prodromus Systematis Mammalium et Avium
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Burhinus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Burhinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Burhinus”. English Wikipedia, revision 1379689777.
+  url: https://en.wikipedia.org/w/index.php?title=Burhinus&oldid=1379689777
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

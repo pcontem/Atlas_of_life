@@ -1,0 +1,122 @@
+name: Miocepphus
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Wetmore 1940
+type_species: Miocepphus mcclungi
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct auk genus recorded in PBDB from the Aquitanian–Zanclean of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 3.6
+  early_interval: Aquitanian
+  late_interval: Zanclean
+  pbdb_occurrences: 19
+  note: ''
+species:
+- name: Miocepphus blowi
+  authority: Wijnker and Olson 2009
+  first_ma: 7.246
+  last_ma: 5.333
+  interval: Messinian
+  reference: ''
+- name: Miocepphus bohaskai
+  authority: Wijnker and Olson 2009
+  first_ma: 20.45
+  last_ma: 11.63
+  interval: Burdigalian–Serravallian
+  reference: ''
+- name: Miocepphus mcclungi
+  authority: Wetmore 1940
+  first_ma: 23.04
+  last_ma: 5.333
+  interval: Aquitanian–Messinian
+  reference: ''
+- name: Miocepphus mergulellus
+  authority: Wijnker and Olson 2009
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+formations:
+- formation: Calvert
+  group: Chesapeake
+  members: [Calvert Beach, Fairhaven, Plum Point]
+  country: United States
+  regions: [Maryland, Virginia]
+  interval: Aquitanian–Serravallian
+  occurrences: 11
+  ma: [11.63, 23.04]
+  id: calvert-united-states
+- formation: Eastover
+  group: Chesapeake
+  members: [Claremont Manor]
+  country: United States
+  regions: [Virginia]
+  interval: Tortonian–Messinian
+  occurrences: 3
+  ma: [5.333, 11.63]
+  id: eastover-united-states
+- formation: Pungo River
+  group: ''
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Aquitanian–Langhian
+  occurrences: 2
+  ma: [13.82, 23.04]
+  id: pungo-river-united-states
+- formation: Choptank
+  group: Chesapeake
+  members: [Boston Cliffs, St. Leonard]
+  country: United States
+  regions: [Maryland]
+  interval: Serravallian
+  occurrences: 2
+  ma: [11.63, 13.82]
+  id: choptank-united-states
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/vector.svg
+  png: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/raster/512x454.png
+  page: https://www.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Miocepphus blowi
+  matched: Miocepphus
+  genus_level: true
+sources:
+- kind: original
+  text: A. Wetmore. 1940. Fossil Bird Remains from Tertiary Deposits in the United States. Journal of Morphology
+    66(1):25-37
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Miocepphus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Miocepphus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

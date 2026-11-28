@@ -1,0 +1,237 @@
+name: Sterna
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Sterna hirundo
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living larid genus recorded in PBDB from the Zanclean–Holocene of Antarctica, Canada, FM, MP, Mexico, New
+  Zealand, PW, Russia, South Africa, Spain, United States, VI.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 26
+  note: ''
+species:
+- name: Sterna forsteri
+  authority: Nuttall 1834
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Sterna hirundo
+  authority: Linnaeus 1758
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Sterna milneedwardsi
+  authority: Riabinin 1931
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Sterna paradisaea
+  authority: Pontoppidan 1763
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Sterna striata
+  authority: Gmelin 1789
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Sterna sumatrana
+  authority: Raffles 1822
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Sterna vittata
+  authority: Gmelin 1789
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Canada
+  regions: [Nunavut, Quebec, Yukon]
+  interval: Holocene
+  occurrences: 5
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-bell-site-canada
+  - unnamed-pingiqqalik-canada
+  - unnamed-porden-point-canada
+  - unnamed-saint-nicolas-canada
+  - unnamed-washout-canada
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alabama, California, Oregon]
+  interval: Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-bell-cave-united-states
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-silver-lake-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+  - unnamed-site-1-mangere-island-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: FM
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: unnamed-faligochol-1-site-fais-island-fm
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-duiker-eiland-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-pingfo-i-living-assemblage-antarctica
+- formation: San Diego
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: Bacons Castle
+  group: ''
+  members: [Bahramsville]
+  country: United States
+  regions: [Virginia]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: bacons-castle-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: MP
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-railhunter-rockshelter-layer-i-tinian-mp
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-dyuktai-cave-russia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: PW
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-uleb-1-cave-lee-marvin-beach-ulebsechel-island-pw
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Santander]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-el-castillo-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: VI
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-magen-s-bay-st-thomas-vi
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f164783d-3bab-45f3-9885-c1b382202369/vector.svg
+  png: https://images.phylopic.org/images/f164783d-3bab-45f3-9885-c1b382202369/raster/512x380.png
+  page: https://www.phylopic.org/images/f164783d-3bab-45f3-9885-c1b382202369
+  attribution: Sharon Wegner-Larsen
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Sterna dougallii
+  matched: Sterna
+  genus_level: true
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sterna (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sterna
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sterna”. English Wikipedia, revision 1387169561.
+  url: https://en.wikipedia.org/w/index.php?title=Sterna&oldid=1387169561
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

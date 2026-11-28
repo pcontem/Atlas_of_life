@@ -1,0 +1,68 @@
+name: Oligonomus
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: De Pietri et al. 2015
+type_species: Oligonomus milleri
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct plains-wanderer genus recorded in PBDB from the Chattian of Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Oligonomus milleri
+  authority: De Pietri et al. 2015
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Etadunna
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: etadunna-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e43fcbd5-4d9f-40ca-8d75-af4ca72260dd/vector.svg
+  png: https://images.phylopic.org/images/e43fcbd5-4d9f-40ca-8d75-af4ca72260dd/raster/512x476.png
+  page: https://www.phylopic.org/images/e43fcbd5-4d9f-40ca-8d75-af4ca72260dd
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Pedionomus torquatus
+  matched: Pedionomidae
+  genus_level: false
+sources:
+- kind: original
+  text: T. H. Worthy and J. M. T. Nguyen. 2020. An annotated checklist of the fossil birds of Australia. Transactions
+    of the Royal Society of South Australia 144(1):66-108
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Oligonomus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Oligonomus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []
