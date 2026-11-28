@@ -200,6 +200,7 @@ images:
   width: 4200
   height: 3153
   review: unreviewed
+  local: img/gallery/Somateria_001.webp
 silhouette:
   src: https://images.phylopic.org/images/6db76232-0ff7-4599-a8c8-0070fd7dd51c/vector.svg
   png: https://images.phylopic.org/images/6db76232-0ff7-4599-a8c8-0070fd7dd51c/raster/512x416.png
@@ -209,6 +210,8 @@ silhouette:
   depicts: Somateria mollissima
   matched: Somateria
   genus_level: true
+  w: 512
+  h: 416
 sources:
 - kind: original
   text: S. L. Olson and P. C. Rasmussen. 2001. Miocene and Pliocene birds from the Lee Creek Mine, North Carolina.
