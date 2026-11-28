@@ -1,0 +1,119 @@
+name: Eudromia
+rank: genus
+parent: tinamidae
+incertae_sedis: false
+placement_note: ''
+authority: Geoffroy 1832
+type_species: Eudromia elegans
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Two crested tinamous of South America.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 8
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Eudromia elegans
+  authority: Geoffroy Saint-Hilaire 1832
+  first_ma: 5
+  last_ma: 3.8
+  interval: Zanclean
+  reference: ''
+- name: Eudromia formosa
+  authority: Lillo 1905
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Eudromia olsoni
+  authority: Tambussi and Tonni 1985
+  first_ma: 5
+  last_ma: 3.8
+  interval: Zanclean
+  reference: ''
+formations:
+- formation: Monte Hermoso
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires]
+  interval: Montehermosan
+  occurrences: 4
+  ma: [3.8, 5.0]
+  id: monte-hermoso-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires, Chubut]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-cantera-nicolas-vignogna-iii-argentina
+  - unnamed-los-toldos-site-iii-level-10-argentina
+- formation: Epecuén
+  group: ''
+  members: []
+  country: Argentina
+  regions: [La Pampa]
+  interval: Huayquerian
+  occurrences: 2
+  ma: [5.0, 8.0]
+  id: epecuen-argentina
+- formation: Pampean
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires]
+  interval: Lujanian
+  occurrences: 1
+  ma: [0.0117, 0.4]
+  id: pampean-argentina
+- formation: Cerro Azul
+  group: ''
+  members: []
+  country: Argentina
+  regions: [La Pampa]
+  interval: Messinian
+  occurrences: 1
+  ma: [5.333, 7.246]
+  id: cerro-azul-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044/vector.svg
+  png: https://images.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044/raster/909x1024.png
+  page: https://www.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044
+  attribution: George Edward Lodge
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Tinamus major
+  matched: Tinamidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eudromia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eudromia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eudromia”. English Wikipedia, revision 1380120211.
+  url: https://en.wikipedia.org/w/index.php?title=Eudromia&oldid=1380120211
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

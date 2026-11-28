@@ -1,0 +1,84 @@
+name: Mirusavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2020
+type_species: Mirusavis parvus
+type_species_note: The only valid species listed by PBDB.
+summary: Enantiornithean from the Yixian Formation of China, a female preserved during her egg-laying cycle.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 125.77
+  last_ma: 119.57
+  early_interval: Barremian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: PBDB lists no occurrence; Barremian–Aptian Yixian Formation named in the cited Wikipedia revision (PBDB
+    dating of the Yixian beds).
+species:
+- name: Mirusavis parvus
+  authority: Wang et al. 2020
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Yixian
+  country: China
+  regions: [Liaoning]
+  interval: Barremian–Aptian
+  occurrences: null
+  ma: [119.57, 125.77]
+  id: yixian-china
+  group: ''
+  members: []
+fossil_material:
+  holotype: A partial subadult skeleton, the only specimen (number in Wang et al. 2020).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: Medullary bone tissue.
+biology: Medullary bone shows the female was in her laying cycle when she died.
+images:
+- kind: fossil
+  file: Mirusavis parvus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Mirusavis_parvus.jpg/960px-Mirusavis_parvus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Mirusavis_parvus.jpg
+  artist: Min Wang, Jingmai K. O’Connor, Alida M. Bailleul & Zhiheng Li
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2019-12-18'
+  caption: Mirusavis parvus (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 2008
+  height: 1203
+  review: unreviewed
+  local: img/gallery/Mirusavis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, Min; O’Connor, Jingmai K.; Bailleul, Alida M.; Li, Zhiheng 1 Ju. Evolution and distribution of medullary
+    bone: evidence from a new Early Cretaceous enantiornithine bird. National Science Review 7(6): 1068–1078. doi:10.1093/nsr/nwz214'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mirusavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mirusavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mirusavis”. English Wikipedia, revision 1302536181.
+  url: https://en.wikipedia.org/w/index.php?title=Mirusavis&oldid=1302536181
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

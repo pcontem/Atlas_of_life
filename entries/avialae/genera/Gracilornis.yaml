@@ -1,0 +1,60 @@
+name: Gracilornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Li and Hou 2011
+type_species: Gracilornis jiufotangensis
+type_species_note: The only valid species listed by PBDB.
+summary: Aptian enantiornithine from the Jiufotang Formation of western Liaoning known from a nearly complete skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gracilornis jiufotangensis
+  authority: Li and Hou 2011
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A nearly complete skeleton from the Jiufotang Formation (number in Li and Hou 2011).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'Li Li 2011. Discovery of a new bird (Enantiornithines) from Lower Cretaceous in western Liaoning, China.
+    Journal of Jilin University (Earth Science Edition) 41(3): 759–763.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gracilornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gracilornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gracilornis”. English Wikipedia, revision 1282410410.
+  url: https://en.wikipedia.org/w/index.php?title=Gracilornis&oldid=1282410410
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

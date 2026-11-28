@@ -1,0 +1,87 @@
+name: Progura
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: De Vis 1889
+type_species: Progura gallinacea
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct giant megapode from the Pliocene and Pleistocene of Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0.0117
+  early_interval: Zanclean
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Progura campestris
+  authority: Shute et al. 2017
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: ''
+- name: Progura gallinacea
+  authority: De Vis 1889
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland, South Australia, Western Australia]
+  interval: Pleistocene
+  occurrences: 5
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-clifton-australia
+  - unnamed-leaena-s-breath-cave-australia
+  - unnamed-ravensthorpe-pilton-australia
+  - unnamed-warburton-river-australia
+- formation: Chinchilla Sand
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: chinchilla-sand-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/vector.svg
+  png: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/raster/512x476.png
+  page: https://www.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a
+  attribution: Rachel T Mason
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leipoa ocellata
+  matched: Megapodiidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Progura (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Progura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Giant malleefowl”. English Wikipedia, revision 1332561293.
+  url: https://en.wikipedia.org/w/index.php?title=Giant_malleefowl&oldid=1332561293
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,81 @@
+name: Maaqwi
+rank: genus
+parent: neognathae
+incertae_sedis: true
+placement_note: Placed in Vegaviidae by some authors
+authority: McLachlan et al. 2017
+type_species: Maaqwi cascadensis
+type_species_note: The only valid species listed by PBDB.
+summary: Large marine diving bird from the Late Cretaceous of Hornby Island, British Columbia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Maaqwi cascadensis
+  authority: McLachlan et al. 2017
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Northumberland
+  group: Nanaimo
+  members: []
+  country: Canada
+  regions: [British Colombia]
+  interval: Late Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: northumberland-canada
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Maaqwi.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Maaqwi.png/960px-Maaqwi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Maaqwi.png
+  artist: Sandy McLachlan, Gary Kaiser, Nicholas Longrich
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2017-12-08'
+  caption: Maaqwi (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2192
+  height: 898
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/vector.svg
+  png: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/raster/512x417.png
+  page: https://www.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vegavis iaai
+  matched: Vegaviidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'S. M. S. McLachlan, G. W. Kaiser, and N. R. Longrich. 2017. Maaqwi cascadensis: A large, marine diving
+    bird (Avialae: Ornithurae) from the Upper Cretaceous of British Columbia, Canada. PLos One 12(12):e0189473'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Maaqwi (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Maaqwi
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maaqwi”. English Wikipedia, revision 1332722345.
+  url: https://en.wikipedia.org/w/index.php?title=Maaqwi&oldid=1332722345
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,99 @@
+name: Tetrastes
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Keyserling and Blasius 1840
+type_species: Tetrastes bonasia
+type_species_note: The only valid species listed by PBDB.
+summary: Hazel grouse, two species of cool coniferous forests.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0
+  early_interval: Chibanian
+  late_interval: Holocene
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Tetrastes bonasia
+  authority: (Linnaeus 1758)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.774]
+  id:
+  - unnamed-chelm-s-combe-rock-shelter-united-kingdom
+  - unnamed-swanscombe-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-dyuktai-cave-russia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-b-8-cave-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Finland
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-nm-28659-ravasen-kristiinankaupunki-finland
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tetrastes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tetrastes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tetrastes”. English Wikipedia, revision 1385879899.
+  url: https://en.wikipedia.org/w/index.php?title=Tetrastes&oldid=1385879899
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

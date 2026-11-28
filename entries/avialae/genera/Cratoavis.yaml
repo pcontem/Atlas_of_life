@@ -1,0 +1,87 @@
+name: Cratoavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Carvalho et al. 2015
+type_species: Cratoavis cearensis
+type_species_note: The only valid species listed by PBDB.
+summary: Enantiornithine from the Crato Formation of Ceará, Brazil, preserved with feathers.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 119.57
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cratoavis cearensis
+  authority: Carvalho et al. 2015
+  first_ma: 119.57
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Crato
+  group: Santana
+  members: [Nova Olinda]
+  country: Brazil
+  regions: [Ceará]
+  interval: Late Aptian
+  occurrences: 1
+  ma: [113.2, 119.57]
+  id: crato-brazil
+fossil_material:
+  holotype: An articulated skeleton with attached feathers from the Araripe Basin (number in Carvalho et al. 2015).
+  material: Known only from the holotype.
+  completeness: complete
+  exceptional: Feathers attached to the skeleton.
+biology: Remains of at least two Dastilbe fish lie where the gut would be, suggesting it ate fish.
+images:
+- kind: life
+  file: Cratoavis by themingau dezpfxm.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cratoavis_by_themingau_dezpfxm.png/960px-Cratoavis_by_themingau_dezpfxm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cratoavis_by_themingau_dezpfxm.png
+  artist: JohnnyMingau
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-05-11'
+  caption: Cratoavis by themingau dezpfxm (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 3660
+  height: 3415
+  review: unreviewed
+  local: img/gallery/Cratoavis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Euenantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'de Souza Carvalho, I.; Novas, F. E.; Agnolín, F. L.; Isasi, M. P.; Freitas, F. I.; Andrade, J. A. 2015.
+    A new genus and species of enantiornithine bird from the Early Cretaceous of Brazil. Brazilian Journal of Geology
+    45(2): 161–171. doi:10.1590/23174889201500020001'
+- kind: literature
+  text: Salgado, F. L. K.; Chiappe, L. M.; Neumann, R.; Carvalho, I. S. 2025. Evidence of piscivorous diet in an
+    enantiornithine bird from the Lower Cretaceous of Brazil. Cretaceous Research. doi:10.1016/j.cretres.2025.106161
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cratoavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cratoavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cratoavis”. English Wikipedia, revision 1291260708.
+  url: https://en.wikipedia.org/w/index.php?title=Cratoavis&oldid=1291260708
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

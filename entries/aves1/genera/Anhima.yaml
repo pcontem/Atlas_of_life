@@ -1,0 +1,85 @@
+name: Anhima
+rank: genus
+parent: anhimidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Anhima cornuta
+type_species_note: The only valid species listed by PBDB.
+summary: The horned screamer, a waterfowl of tropical South American wetlands.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Anhima cornuta
+  authority: Linnaeus 1766
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-hacienda-tocoron-midden-venezuela
+  - unnamed-los-tamarindos-3-feet-below-surface-venezuela
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Anhima cornuta -near Manu Wildlife Center, Manu National Park, Peru -three-8.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7e/Anhima_cornuta_-near_Manu_Wildlife_Center%2C_Manu_National_Park%2C_Peru_-three-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Anhima_cornuta_-near_Manu_Wildlife_Center,_Manu_National_Park,_Peru_-three-8.jpg
+  artist: Bill Bouton from San Luis Obispo, CA, USA
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2009-11-02'
+  caption: Anhima cornuta -near Manu Wildlife Center, Manu National Park, Peru -three-8 (Wikimedia Commons; kind
+    assigned from the file name, not yet checked on the triage page).
+  width: 1024
+  height: 768
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bf174702-5676-4767-b1e8-ab85fdb2c92b/vector.svg
+  png: https://images.phylopic.org/images/bf174702-5676-4767-b1e8-ab85fdb2c92b/raster/1003x1024.png
+  page: https://www.phylopic.org/images/bf174702-5676-4767-b1e8-ab85fdb2c92b
+  attribution: Edouard Traviés
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Chauna chavaria
+  matched: Anhima
+  genus_level: true
+sources:
+- kind: original
+  text: B. C. Livezey. 1997. A phylogenetic analysis of basal Anseriformes, the fossil Presbyornis, and the interordinal
+    relationships of waterfowl. Zoological Journal of the Linnean Society 121(4):361-428
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anhima (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anhima
+- kind: encyclopedia
+  text: Wikipedia contributors. “Horned screamer”. English Wikipedia, revision 1386478390.
+  url: https://en.wikipedia.org/w/index.php?title=Horned_screamer&oldid=1386478390
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

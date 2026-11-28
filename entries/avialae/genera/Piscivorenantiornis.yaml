@@ -1,0 +1,69 @@
+name: Piscivorenantiornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang and Zhou 2017
+type_species: Piscivorenantiornis inusitatus
+type_species_note: Taxobox of Wikipedia revision 1367634258.
+summary: Enantiornithine from the Jiufotang Formation of Liaoning found with a pellet of fish bones.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Piscivorenantiornis inusitatus
+  authority: Wang and Zhou 2017
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V22582, with a spindle-shaped mass of fish bones probably of Lycoptera.
+  material: The holotype and a second specimen.
+  completeness: partial
+  exceptional: A regurgitated pellet of fish bones.
+biology: The fish bones are interpreted as a pellet, the first evidence of fish-eating in an enantiornithine.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: Wang, Min; Zhou, Zhonghe 2017. A morphological study of the first known piscivorous enantiornithine bird
+    from the Early Cretaceous of China. Journal of Vertebrate Paleontology 37(2). doi:10.1080/02724634.2017.1278702
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Piscivorenantiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Piscivorenantiornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Piscivorenantiornis”. English Wikipedia, revision 1367634258.
+  url: https://en.wikipedia.org/w/index.php?title=Piscivorenantiornis&oldid=1367634258
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

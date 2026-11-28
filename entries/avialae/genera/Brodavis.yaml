@@ -1,0 +1,141 @@
+name: Brodavis
+rank: genus
+parent: hesperornithes
+incertae_sedis: false
+placement_note: ''
+authority: Martin et al. 2012
+type_species: Brodavis americanus
+type_species_note: Taxobox of Wikipedia revision 1387082100.
+summary: Freshwater hesperornithine from the Late Cretaceous of North America and Asia known from metatarsals.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Brodavis americanus
+  authority: Martin et al. 2012
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+- name: Brodavis baileyi
+  authority: Martin et al. 2012
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Brodavis mongoliensis
+  authority: Martin et al. 2012
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Brodavis varneri
+  authority: (Martin and Cordes-Person 2007)
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: ''
+formations:
+- formation: Pierre Shale
+  group: Montana
+  members: [Sharon Springs]
+  country: United States
+  regions: [South Dakota]
+  interval: Middle Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: pierre-shale-united-states
+- formation: Frenchman
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: frenchman-canada
+- formation: Hell Creek
+  group: Montana
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: hell-creek-united-states
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+- formation: Pierre Shale
+  group: ''
+  members: [Pembina]
+  country: Canada
+  regions: [Manitoba]
+  interval: Early Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: pierre-shale-canada
+fossil_material:
+  holotype: RSM P 2315.1, a left metatarsal of B. americanus from the Maastrichtian Frenchman Formation of Canada.
+  material: Metatarsals of several species.
+  completeness: fragmentary
+  exceptional: ''
+biology: Lived in fresh waters, unlike its marine relatives.
+images:
+- kind: life
+  file: Brodavis mongoliensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Brodavis_mongoliensis.jpg/960px-Brodavis_mongoliensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Brodavis_mongoliensis.jpg
+  artist: Filet 123
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-12-26'
+  caption: Brodavis mongoliensis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 3506
+  height: 2480
+  review: unreviewed
+  local: img/gallery/Brodavis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/vector.svg
+  png: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/raster/512x299.png
+  page: https://www.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362
+  attribution: Scott Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Baptornis advenus
+  matched: Hesperornithiformes
+  genus_level: false
+sources:
+- kind: original
+  text: L. D. Martin, E. N. Kurochkin, and T. T. Tokaryk. 2012. A new evolutionary lineage of diving birds from
+    the Late Cretaceous of North America and Asia. Palaeoworld 21:59-63
+- kind: literature
+  text: 'Bell, A.; Chiappe, L. M. 2015. A species-level phylogeny of the Cretaceous Hesperornithiformes (Aves: Ornithuromorpha):
+    Implications for body size evolution amongst the earliest diving birds. Journal of Systematic Palaeontology
+    14(3): 239–251. doi:10.1080/14772019.2015.1036141'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Brodavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Brodavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brodavis”. English Wikipedia, revision 1387082100.
+  url: https://en.wikipedia.org/w/index.php?title=Brodavis&oldid=1387082100
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

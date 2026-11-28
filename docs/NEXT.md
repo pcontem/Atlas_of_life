@@ -1,3 +1,41 @@
+# Next steps — Aves I (Palaeognathae and Galloanserae)
+
+Done (2026-11-28): census, harvest, clade sources; 27 clade entries; 226 genus drafts (living genera with `extant: true`; thin drafts from
+PBDB alone for genera without a Wikipedia page, marked in curation.notes); excluded.yaml (40 synonyms); tree changes in
+docs/TREE_REVIEW.md. Images, silhouettes and palaeo-positions come from media-fetch.yml.
+
+Pending genera:
+- No type species found in the sources (or no authority), not written: Argillipes Bambusicola Bucephala Caccabis Callipepla Callonetta Chaulelasmus Chauna Chloephaga Crypturellus Cyanochen Cygnopterus Cygnus Dendrocygna Emeus Emuarius Eoneornis Erismatura Euryanas Euryapteryx Eutelornis Francolinus Loxornis Manuherikia Marila Nettapus Nettion Nothocercus Nyroca Odontophorus Olar Oressochen Ortalis Oxyura Palaeocryptonyx Palaeortyx Paracygnopterus Paraortyx Parapavo Pediocaetes Pinpanetta Pliogallus Pternistis Querquedula Syrmaticus Tachyeres Taoperdix Tinamisornis.
+- No PBDB occurrence (fossil genera): Ameripodius, Aminornis, Anserobranta, Archaealectrornis, Archaeophasianus, Chenornis, Cygnanser,
+  Cygnavus, Ergilornis, Metapteryx, Miogallus, Percolinus, Pirortyx, Pleistoanser, Proceriavis, Pseudapteryx, Ptenornis, Quercymegapodius,
+  Roveretornis, Schaubortyx, Teleornis, Tirarinetta.
+- Wikipedia-only genera (46, census): Asteriornis, Garganornis, Centuriavis, Agelastes, Arborophila, Guttera… — need manual age and
+  species data.
+- Living genera that PBDB does not list (no fossil record) are not in the harvest at all: a source for the full list of living genera
+  (e.g. the IOC World Bird List) has to be chosen by the owner.
+
+Open questions for the owner:
+- The volume is the root of the crown group (Aves); Neoaves volumes will attach to Neognathae.
+- Many type species are filled from general knowledge (type_species_note says so): check.
+
+# Next steps — Avialae (Mesozoic birds outside the crown)
+
+Done (2026-11-27): census, scope (one volume, no crown birds, no form taxa), harvest, clade sources; 21 clade entries; 200 genus
+entries (drafts, `origin: ai-draft`, images chosen automatically from file names); `excluded.yaml` (22 names: 17 synonyms, 4 PBDB
+nomina dubia, Archaeoraptor); tree changes in docs/TREE_REVIEW.md. Images, silhouettes and palaeo-positions come from media-fetch.yml.
+
+Pending genera (not written):
+- No usable source in the harvest: Crateropteryx, Platanavis (no Wikipedia page), Proornis (page redirects to the Sinuiju Formation).
+- Crown or probable crown birds, for the Aves volumes: see docs/TREE_REVIEW.md (2026-11-27).
+- Qianshanornis and Qinornis (Paleocene) are outside the volume; Camptodontus is the preoccupied name of Camptodontornis (not listed).
+
+Open questions for the owner:
+- Possible synonyms kept as entries: Wellnhoferia (Archaeopteryx?), Boluochia (Longipteryx?), Cuspirostrisornis (Cathayornis?),
+  Vescornis/Jibeinia, Omnivoropteryx (Sapeornis?); Cerebavis and the feather taxa Ilerdopteryx, Praeornis, Cretaaviculus as nomina dubia?
+- Archaeopteryx species: only A. lithographica and A. albersdoerferi kept (PBDB also lists bavarica, macrura, oweni).
+- Many entries say "Not given in the sources used" or "number in <original paper>": they need the primary paper (papers.json).
+- Run the triage page for avialae: images were picked from file names without a visual check.
+
 # Next steps — Theropoda II
 
 Done (2026-11-27): census (3 runs, base `Maniraptora^Aves^Avialae,Alvarezsauroidea,Therizinosauria`); harvest with scientific

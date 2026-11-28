@@ -1,0 +1,61 @@
+name: Shenqiornis
+rank: genus
+parent: bohaiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2010
+type_species: Shenqiornis mengi
+type_species_note: The only valid species listed by PBDB.
+summary: Bohaiornithid from the Qiaotou Member of the Huajiying Formation of Hebei, of uncertain Early Cretaceous
+  age.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 161.5
+  last_ma: 121.4
+  early_interval: Oxfordian
+  late_interval: Barremian
+  pbdb_occurrences: 1
+  note: The Qiaotou Member may correlate with the Yixian Formation; PBDB gives a wide range (Oxfordian–Barremian).
+species:
+- name: Shenqiornis mengi
+  authority: Wang et al. 2010
+  first_ma: 161.5
+  last_ma: 121.4
+  interval: Oxfordian–Barremian
+  reference: original description
+formations:
+- formation: Qiaotou
+  group: Jehol
+  members: []
+  country: China
+  regions: [Hebei]
+  interval: Late Jurassic–Barremian
+  occurrences: 1
+  ma: [121.4, 161.5]
+  id: qiaotou-china
+fossil_material:
+  holotype: DNHM D2950-2951, plate and counterplate of a largely complete subadult skeleton.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'X. Wang, J. O''Connor, and B. Zhao, L. M. Chiappe, C. Gao, X. Cheng. 2010. New species of Enantiornithes
+    (Aves: Ornithothoraces) from the Qiaotou Formation in northern Hebei, China. Acta Geologica Sinica 84(2):247-256'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shenqiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shenqiornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shenqiornis”. English Wikipedia, revision 1300196510.
+  url: https://en.wikipedia.org/w/index.php?title=Shenqiornis&oldid=1300196510
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,115 @@
+name: Gobipteryx
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Elzanowski 1974
+type_species: Gobipteryx minuta
+type_species_note: The only valid species listed by PBDB.
+summary: Toothless enantiornithine from the Late Cretaceous of Mongolia known from skulls, embryos and eggs.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Gobipteryx minuta
+  authority: Elzanowski 1974
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Baruungoyot
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Middle Campanian–Late Campanian
+  occurrences: 5
+  ma: [72.2, 83.6]
+  id: baruungoyot-mongolia
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov, Ömnögovi Aimag]
+  interval: Late Campanian
+  occurrences: 2
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Specimens including skulls and embryonic remains (Wikipedia revision cited).
+  completeness: multiple
+  exceptional: Embryonic specimens.
+biology: Had a toothless beak formed by fused premaxillae and a skull able to flex the upper beak.
+images:
+- kind: life
+  file: Gobipteryx reconstruction.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Gobipteryx_reconstruction.jpg/960px-Gobipteryx_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gobipteryx_reconstruction.jpg
+  artist: Filet 123
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-06-17'
+  caption: Gobipteryx reconstruction (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 3506
+  height: 2480
+  review: unreviewed
+  local: img/gallery/Gobipteryx_001.webp
+- kind: fossil
+  file: Gobipteryx sp eggs.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Gobipteryx_sp_eggs.JPG/960px-Gobipteryx_sp_eggs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gobipteryx_sp_eggs.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-06-21'
+  caption: Gobipteryx sp eggs (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 2670
+  height: 2000
+  review: unreviewed
+  local: img/gallery/Gobipteryx_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: A. Elzanowski. 1974. Preliminary note on the palaeognathous bird from the Upper Cretaceous of Mongolia.
+    Palaeontologia Polonica 29:103-109
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gobipteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gobipteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gobipteryx”. English Wikipedia, revision 1360892762.
+  url: https://en.wikipedia.org/w/index.php?title=Gobipteryx&oldid=1360892762
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

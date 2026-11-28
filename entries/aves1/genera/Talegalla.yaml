@@ -1,0 +1,74 @@
+name: Talegalla
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: Lesson 1828
+type_species: Talegalla cuvieri
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Three megapode species, described by Lesson in 1828.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Talegalla cuvieri
+  authority: Lesson 1828
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Talegalla fuscirostris
+  authority: Salvadori 1877
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Talegalla jobiensis
+  authority: Meyer 1874
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/vector.svg
+  png: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/raster/512x476.png
+  page: https://www.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a
+  attribution: Rachel T Mason
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leipoa ocellata
+  matched: Megapodiidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Talegalla (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Talegalla
+- kind: encyclopedia
+  text: Wikipedia contributors. “Talegalla”. English Wikipedia, revision 1386978182.
+  url: https://en.wikipedia.org/w/index.php?title=Talegalla&oldid=1386978182
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

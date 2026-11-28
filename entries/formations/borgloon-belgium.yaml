@@ -3,18 +3,18 @@ name: Borgloon
 rank: formation
 group: Tongeren
 country: Belgium
-regions: []
+regions: [Brabant]
 location:
-  lat: 50.85
+  lat: 50.833
   lng: 4.817
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
   first_ma: 33.9
   last_ma: 27.3
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [fluvial-lacustrine indet.]
 lithology: [sandstone]
-pbdb_collections: ['31748']
+pbdb_collections: ['31748', '75867']
 includes: []
 summary: ''
 paleoenvironment: ''

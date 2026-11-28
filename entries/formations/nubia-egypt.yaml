@@ -1,0 +1,31 @@
+id: nubia-egypt
+name: Nubia
+rank: formation
+group: ''
+country: Egypt
+regions: []
+location:
+  lat: 16.25
+  lng: 33.75
+  basis: median of 4 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 0.0117
+  last_ma: 0.0
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [eolian indet., cave]
+lithology: [sandstone]
+pbdb_collections: ['21902', '21903', '21904', '21907']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Nubia (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Nubia
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

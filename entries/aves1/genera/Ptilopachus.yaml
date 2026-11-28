@@ -1,0 +1,71 @@
+name: Ptilopachus
+rank: genus
+parent: odontophoridae
+incertae_sedis: false
+placement_note: ''
+authority: Swainson 1837
+type_species: Ptilopachus petrosus
+type_species_note: The only valid species listed by PBDB.
+summary: African genus of the New World quail family.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0
+  early_interval: Chibanian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ptilopachus petrosus
+  authority: (Gmelin 1789)
+  first_ma: 0.774
+  last_ma: 0.0117
+  interval: Chibanian–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: MC
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.774]
+  id: unnamed-grotte-de-l-observatoire-unknown-level-mc
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/vector.svg
+  png: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/raster/512x387.png
+  page: https://www.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Colinus virginianus
+  matched: Odontophoridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'T. M. Crowe, R. C. K. Bowie, and P. Bloomer, T. G. Mandiwana, T. A. J. Hedderson, E. Randi, S. L. Pereira,
+    J. Wakeling. 2006. Phylogenetics, biogeography and classification of, and character evolution in, gamebirds
+    (Aves: Galliformes): effects of character exclusion, data partitioning and missing data. Cladistics 22:495-532'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ptilopachus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ptilopachus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ptilopachus”. English Wikipedia, revision 1388114522.
+  url: https://en.wikipedia.org/w/index.php?title=Ptilopachus&oldid=1388114522
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

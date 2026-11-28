@@ -1,0 +1,83 @@
+name: Cratonavis
+rank: genus
+parent: jinguofortisidae
+incertae_sedis: false
+placement_note: ''
+authority: Li et al. 2023
+type_species: Cratonavis zhui
+type_species_note: The only valid species listed by PBDB.
+summary: Jinguofortisid from the Jiufotang Formation of Liaoning known from a complete skeleton.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cratonavis zhui
+  authority: Li et al. 2023
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V31106, a complete skeleton from the Aptian Jiufotang Formation.
+  material: Known only from the holotype.
+  completeness: complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Cratonavis & Nemicolopterus (Sinopterus).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Cratonavis_%26_Nemicolopterus_%28Sinopterus%29.jpg/960px-Cratonavis_%26_Nemicolopterus_%28Sinopterus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cratonavis_%26_Nemicolopterus_(Sinopterus).jpg
+  artist: SpinoDragon145
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-06'
+  caption: Cratonavis & Nemicolopterus (Sinopterus) (Wikimedia Commons; kind assigned from the file name, not yet
+    checked on the triage page).
+  width: 7174
+  height: 4760
+  review: unreviewed
+  local: img/gallery/Cratonavis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f/vector.svg
+  png: https://images.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f/raster/512x386.png
+  page: https://www.phylopic.org/images/1af847e0-0f97-428f-8e05-472255c1ff5f
+  attribution: JingwenSun
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Jinguofortis perplexus
+  matched: Jinguofortisidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Li, Zhiheng; Wang, Min; Stidham, Thomas A.; Zhou, Zhonghe 2023. Decoupling the skull and skeleton in a
+    Cretaceous bird with unique appendicular morphologies. Nature Ecology & Evolution 7(1): 20–31. doi:10.1038/s41559-022-01921-w'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cratonavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cratonavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cratonavis”. English Wikipedia, revision 1387084289.
+  url: https://en.wikipedia.org/w/index.php?title=Cratonavis&oldid=1387084289
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

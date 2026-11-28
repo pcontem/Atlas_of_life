@@ -1,0 +1,90 @@
+name: Chenonetta
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Brandt 1836
+type_species: Chenonetta jubata
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Dabbling duck genus with the living Australian wood duck and Finsch's duck, extinct in 1870.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 21
+  note: ''
+species:
+- name: Chenonetta finschi
+  authority: (Van Beneden 1875)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Chenonetta jubata
+  authority: Latham 1801
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Island, South Island]
+  interval: Late Pleistocene–Holocene
+  occurrences: 19
+  ma: [0.0, 0.129]
+  id:
+  - unnamed-kings-cave-new-zealand
+  - unnamed-lake-poukawa-new-zealand
+  - unnamed-limestone-valley-road-crack-cave-new-zealand
+  - unnamed-netherton-cave-new-zealand
+  - unnamed-sterndale-road-rockshelter-new-zealand
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Otago, South Island]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/dc45103f-fbd1-427d-b4a7-0f02f3af2417/vector.svg
+  png: https://images.phylopic.org/images/dc45103f-fbd1-427d-b4a7-0f02f3af2417/raster/1015x1024.png
+  page: https://www.phylopic.org/images/dc45103f-fbd1-427d-b4a7-0f02f3af2417
+  attribution: Michael Scroggie
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Chenonetta jubata
+  matched: Chenonetta
+  genus_level: true
+sources:
+- kind: original
+  text: T. H. Worthy and J. A. Grant-Mackie. 2003. Late-Pleistocene avifaunas from Cape Wanbrow, Otago, South Island,
+    New Zealand. Journal of the Royal Society of New Zealand 33(1):427-485
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chenonetta (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chenonetta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chenonetta”. English Wikipedia, revision 1379732981.
+  url: https://en.wikipedia.org/w/index.php?title=Chenonetta&oldid=1379732981
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

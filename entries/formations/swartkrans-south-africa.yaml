@@ -1,0 +1,31 @@
+id: swartkrans-south-africa
+name: Swartkrans
+rank: formation
+group: Transvaal
+country: South Africa
+regions: []
+location:
+  lat: -26.017
+  lng: 27.721
+  basis: median of 3 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 2.58
+  last_ma: 0.0117
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., cave]
+lithology: [breccia, siltstone]
+pbdb_collections: ['21825', '21826', '21829']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Swartkrans (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Swartkrans
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

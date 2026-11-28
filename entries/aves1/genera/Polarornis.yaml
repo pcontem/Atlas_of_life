@@ -1,0 +1,69 @@
+name: Polarornis
+rank: genus
+parent: neognathae
+incertae_sedis: true
+placement_note: Either a member of Vegaviidae or of Aequornithes (cited Wikipedia revision).
+authority: Chatterjee 2002
+type_species: Polarornis gregorii
+type_species_note: The only valid species listed by PBDB.
+summary: Maastrichtian bird, a possible vegaviid or aequornithine.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Polarornis gregorii
+  authority: Chatterjee 2002
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: López de Bertodano
+  group: ''
+  members: [Sandwich Bluff]
+  country: Antarctica
+  regions: []
+  interval: Maastrichtian
+  occurrences: 2
+  ma: [66.0, 72.2]
+  id: lopez-de-bertodano-antarctica
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/vector.svg
+  png: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/raster/512x417.png
+  page: https://www.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vegavis iaai
+  matched: Vegaviidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'S. Chatterjee. 2002. The morphology and systematics of Polarornis, a Cretaceous Loon (Aves: Gaviidae) from
+    Antarctica. Proceedings of the 5th Symposium of the Society of Avian Paleontology and Evolution'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Polarornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Polarornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Polarornis”. English Wikipedia, revision 1387811020.
+  url: https://en.wikipedia.org/w/index.php?title=Polarornis&oldid=1387811020
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

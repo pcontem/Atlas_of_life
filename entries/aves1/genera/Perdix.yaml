@@ -1,0 +1,158 @@
+name: Perdix
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Perdix perdix
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: True partridges.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 27
+  note: ''
+species:
+- name: Perdix palaeoperdix
+  authority: Mourer-Chauviré 1975
+  first_ma: 1.8
+  last_ma: 0.774
+  interval: Calabrian
+  reference: ''
+- name: Perdix perdix
+  authority: (Linnaeus 1758)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Roma]
+  interval: Calabrian–Late Pleistocene
+  occurrences: 8
+  ma: [0.0117, 1.8]
+  id: unnamed-malagrotta-rome-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Burgos, Castilla-Leon, Granada, Guadelejara]
+  interval: Early Pleistocene–Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-atapuerca-td6-spain
+  - unnamed-huescar-1-spain
+  - unnamed-jarama-ii-spain
+  - unnamed-sima-del-elefante-te8-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England, Wales]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-port-eynon-point-cave-united-kingdom
+  - unnamed-ravencliffe-cave-united-kingdom
+  - unnamed-torbryan-cave-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-bordu-mare-cave-late-or-post-palaeolithic-romania
+  - unnamed-curata-cave-mousterian-ii-romania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-strashnaya-cave-russia, unnamed-ust-kanskaya-cave-russia]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Hungary
+  regions: []
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-horvolgy-hungary
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: MC
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.774]
+  id: unnamed-grotte-de-l-observatoire-unknown-level-mc
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Azerbaijan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-binagada-asphalt-lake-azerbaijan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-grotte-bodine-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c7e2cbb6-d375-48eb-a49d-5eed0147d035/vector.svg
+  png: https://images.phylopic.org/images/c7e2cbb6-d375-48eb-a49d-5eed0147d035/raster/512x458.png
+  page: https://www.phylopic.org/images/c7e2cbb6-d375-48eb-a49d-5eed0147d035
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Perdix perdix
+  matched: Perdix
+  genus_level: true
+sources:
+- kind: original
+  text: 'T. M. Crowe, R. C. K. Bowie, and P. Bloomer, T. G. Mandiwana, T. A. J. Hedderson, E. Randi, S. L. Pereira,
+    J. Wakeling. 2006. Phylogenetics, biogeography and classification of, and character evolution in, gamebirds
+    (Aves: Galliformes): effects of character exclusion, data partitioning and missing data. Cladistics 22:495-532'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Perdix (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Perdix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Perdix”. English Wikipedia, revision 1379256849.
+  url: https://en.wikipedia.org/w/index.php?title=Perdix&oldid=1379256849
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,67 @@
+name: Dingavis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: O'Connor et al. 2016
+type_species: Dingavis longimaxilla
+type_species_note: Taxobox of Wikipedia revision 1387597652.
+summary: Long-snouted ornithuromorph from the Jiufotang Formation at Sihedang, Liaoning.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Dingavis longimaxilla
+  authority: O'Connor et al. 2016
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: An almost complete skeleton with skull on a plate, with neck feathers, acquired by the IVPP (number
+    in O'Connor et al. 2016).
+  material: Known only from the holotype.
+  completeness: complete
+  exceptional: Neck feathers.
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'O''Connor, J.K.; Wang, M.; Hu, H. 2016. A new ornithuromorph (Aves) with an elongate rostrum from the Jehol
+    Biota, and the early evolution of rostralization in birds. Journal of Systematic Palaeontology 14(11): 939–948.
+    doi:10.1080/14772019.2015.1129518'
+- kind: literature
+  text: Huang, J.; Wang, X.; Hu, Y.; Liu, J.; Peteya, J.A.; Clarke, J.A. 2016. A new ornithurine from the Early
+    Cretaceous of China sheds light on the evolution of early ecological and cranial diversity in birds. PeerJ 4.
+    doi:10.7717/peerj.1765
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dingavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dingavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dingavis”. English Wikipedia, revision 1387597652.
+  url: https://en.wikipedia.org/w/index.php?title=Dingavis&oldid=1387597652
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

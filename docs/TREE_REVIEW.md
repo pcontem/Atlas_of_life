@@ -848,3 +848,40 @@ Dinevenator (Troodontidae), Kank (Unenlagiidae), Fujianvenator (Anchiornithidae)
 Bradycneme (Maniraptora, incertae sedis; possible synonym of Elopteryx), Ornithodesmus (Dromaeosauridae, incertae sedis).
 Sent to excluded.yaml: Aurornis (junior synonym of Anchiornis, Pei et al. 2017; its backbone node was removed), Heptasteornis,
 Ojoraptorsaurus, Dalianraptor, Kakuru (nomina dubia per Wikipedia), Tiantaisaurus (nomen nudum).
+
+## 2026-11-27 — Avialae volume (Mesozoic birds outside the crown)
+Sources: English Wikipedia revisions of the clade articles and their cladograms (data/raw/tree/clade_sources_2026-11-27_avialae.json),
+checked against PBDB parents (data/raw/avialae/pbdb_genera.json). The backbone node Avialae became the volume root (attached to
+Paraves) and Archaeopterygidae a volume clade. Structure: Avialae → Archaeopterygidae, Jeholornithiformes, Pygostylia;
+Pygostylia → Confuciusornithidae, Jinguofortisidae, Omnivoropterygidae (Sapeornis), Ornithothoraces; Ornithothoraces →
+Enantiornithes (Pengornithidae, Longipterygidae, Bohaiornithidae, Avisauridae in the narrow sense), Ornithuromorpha
+(Hongshanornithidae, Songlingornithidae, Gansuidae, Schizoouridae, Ornithurae → Hesperornithes, Ichthyornithes).
+- Aves (crown group, backbone node): Avialae → Ornithurae — Ornithurae is the smallest clade of Ichthyornis, Hesperornis and Vultur (Benito et al. 2022, via Wikipedia).
+- Families not used (no consensus in the cited revisions; genera placed directly in Enantiornithes): Alexornithidae, Cathayornithidae,
+  Cuspirostrisornithidae, Eoenantiornithidae, Gobipterygidae, Enantiornithidae, Alethoalaornithidae, Euenantiornithes; in Hesperornithes
+  the families Hesperornithidae, Baptornithidae and Brodavidae are not separated; Cimolopterygidae genera sit in Ornithurae incertae sedis.
+- Kept against PBDB (literature wins): Jibeinia (PBDB Confuciusornithidae → Enantiornithes, incertae sedis); Songlingornis (PBDB
+  Hongshanornithidae → Songlingornithidae, its type genus); Yixianornis (PBDB Hongshanornithidae → Ornithuromorpha, incertae sedis);
+  Evgenavis (PBDB Enantiornithes → Pygostylia, incertae sedis, O'Connor et al. 2014); Zhyraornis and Liaoningornis (→ Ornithothoraces,
+  incertae sedis: enantiornithine vs euornithine); Alamitornis and Xinghaiornis (PBDB Ornithothoraces → Ornithuromorpha, Euornithes
+  cladogram); Mystiornis and Yandangornis (→ Avialae, incertae sedis); Halimornis (PBDB Avisauridae → Enantiornithes).
+- Left for the Aves volumes as crown or probable crown birds: Asteriornis, Vegavis, Teviornis, Pujatopouli, Polarornis, Neogaeornis,
+  Lonchodytes, Torotix, Tytthostonyx, Maaqwi, Gallornis (possible galloanseran), Palintropus, Graculavus, Palaeotringa, Telmatornis,
+  Laornis, Volgavis.
+
+## 2026-11-28 — Aves I volume (Palaeognathae and Galloanserae)
+Sources: English Wikipedia revisions of the clade articles (data/raw/tree/clade_sources_2026-11-28_aves1.json) checked against
+PBDB families (data/raw/aves1/pbdb_genera.json). The backbone node Aves became the root of the volume (attached to Ornithurae of
+the Avialae volume); Struthio moved from Aves to Struthionidae. Structure: Aves → Palaeognathae (Lithornithidae, Tinamidae,
+Struthionidae, Rheidae, Casuariidae with the emu, Apterygidae, Dinornithiformes, Aepyornithidae, Ergilornithidae), Neognathae →
+Galloanserae (Anseriformes → Anhimidae, Anseranatidae, Anatidae, Presbyornithidae; Galliformes → Megapodiidae, Cracidae, Numididae,
+Odontophoridae, Phasianidae; Gastornithiformes, Dromornithidae and Sylviornithidae directly in Galloanserae). Passeriformes stays a
+backbone node under Aves until the Neoaves volumes.
+- Not separated: moa families (Dinornithidae, Emeidae, Megalapterygidae), anatid and phasianid subfamilies and tribes, Meleagrididae and
+  Tetraonidae (in Phasianidae), stem galliform families (Gallinuloididae, Quercymegapodiidae, Paraortygidae, Waltonortygidae: in Galliformes).
+- Kept against PBDB: Diogenornis (PBDB Rheidae → Palaeognathae, incertae sedis); Brontornis (PBDB Anseriformes → Neognathae, incertae
+  sedis: phorusrhacid vs galloanseran); vegaviids Vegavis, Polarornis, Maaqwi, Neogaeornis, Australornis (→ Neognathae, incertae sedis);
+  Zhylgaia (PBDB Presbyornithidae → Anseriformes, incertae sedis); Pachystruthio kept as a genus (PBDB synonym of Struthio; the
+  Struthionidae revision treats it as valid).
+- Left out: Geranoididae (Geranoides, Paragrus, Geranodornis, Palaeophasianus, Galligeranoides, Eogeranoides) and Eonessa, gruiform-like
+  birds for a later Neoaves volume.

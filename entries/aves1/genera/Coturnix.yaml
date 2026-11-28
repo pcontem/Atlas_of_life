@@ -1,0 +1,334 @@
+name: Coturnix
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Bonnaterre 1791
+type_species: Coturnix coturnix
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Old World quail with five living and several extinct species, including flightless island forms.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 7.246
+  last_ma: 0
+  early_interval: Messinian
+  late_interval: Holocene
+  pbdb_occurrences: 82
+  note: ''
+species:
+- name: Coturnix alabrevis
+  authority: Rando et al. 2020
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Coturnix centensis
+  authority: Rando et al. 2020
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Coturnix coturnix
+  authority: (Linnaeus 1758)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Coturnix gomerae
+  authority: Jaume et al. 1993
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Coturnix japonica
+  authority: Temminck and Schlegel 1849
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Coturnix lignorum
+  authority: Rando et al. 2020
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Coturnix longipes
+  authority: (Milne-Edwards 1871)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Coturnix miocenica
+  authority: de Villalta 1963
+  first_ma: 27.3
+  last_ma: 5.333
+  interval: Chattian–Messinian
+  reference: ''
+- name: Coturnix novaezelandiae
+  authority: Quoy and Gaimard 1830
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Coturnix pectoralis
+  authority: Gould 1837
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Holocene
+  occurrences: 24
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-kings-cave-new-zealand
+  - unnamed-limestone-valley-road-crack-cave-new-zealand
+  - unnamed-netherton-cave-new-zealand
+  - unnamed-shirley-stream-east-new-zealand
+  - unnamed-sterndale-road-rockshelter-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Burgos, Castilla-Leon, Murcia, Palencia]
+  interval: Early Pleistocene–Late Pleistocene
+  occurrences: 10
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-atapuerca-td6-spain
+  - unnamed-sierra-de-quibas-spain
+  - unnamed-sima-del-elefante-te7-spain
+  - unnamed-sima-del-elefante-te8-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 9
+  ma: [0.0117, 0.774]
+  id:
+  - unnamed-furna-do-calcinhas-cave-ilha-da-graciosa-azores-portugal
+  - unnamed-gruta-da-furninha-portugal
+  - unnamed-monte-moliao-portugal
+  - unnamed-porto-dos-frades-porto-santo-portugal
+  - unnamed-praia-santa-maria-island-portugal
+  - unnamed-prainha-ii-madeira-portugal
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia, Victoria, Western Australia]
+  interval: Pleistocene
+  occurrences: 8
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-amphitheatre-cave-australia
+  - unnamed-blanche-cave-australia
+  - unnamed-pyramids-cave-australia
+  - unnamed-seton-rock-shelter-australia
+  - unnamed-skull-cave-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Sardinia, Siracusa]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 8
+  ma: [0.0117, 0.774]
+  id:
+  - unnamed-fissure-6-banco-6-quarry-monte-tuttavista-orosei-sardinia-italy
+  - unnamed-spinagallo-cave-italy
+- formation: facies à Congeria
+  group: ''
+  members: []
+  country: Italy
+  regions: [Piedmont]
+  interval: Messinian
+  occurrences: 4
+  ma: [5.333, 7.246]
+  id: facies-a-congeria-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Barany]
+  interval: Early Pleistocene–Middle Pleistocene
+  occurrences: 2
+  ma: [0.129, 2.58]
+  id: unnamed-somssich-hill-no-2-hungary
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Crete, Peloponnesus]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-kalamakia-greece, unnamed-liko-cave-bed-li-o-greece]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Caledonia
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-pindai-cave-nepoui-peninsula-new-caledonia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-logovo-gieny-cave-russia, unnamed-strashnaya-cave-russia]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Corse]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-gritulu-france, unnamed-monte-di-tuda-france]
+- formation: Kromdraai
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Late Pliocene–Pleistocene
+  occurrences: 1
+  ma: [0.0117, 3.6]
+  id: kromdraai-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-torbryan-cave-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: MC
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.774]
+  id: unnamed-grotte-de-l-observatoire-unknown-level-mc
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-pinza-abu-cave-ueno-japan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-grotte-principale-no-1-anjohibe-cave-madagascar
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Jordan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-shubayqa-1-midden-jordan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: CV
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-monte-verde-sao-vicente-island-cv
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Coturnix gomerae limb bones.JPG
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a5/Coturnix_gomerae_limb_bones.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Coturnix_gomerae_limb_bones.JPG
+  artist: Ghedoghedo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2014-05-29'
+  caption: Coturnix gomerae limb bones (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 1259
+  height: 854
+  review: unreviewed
+- kind: life
+  file: Macaronesian extinct quails.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Macaronesian_extinct_quails.jpg/960px-Macaronesian_extinct_quails.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Macaronesian_extinct_quails.jpg
+  artist: El fosilmaníaco
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2023-01-29'
+  caption: Macaronesian extinct quails (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 2500
+  height: 1883
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/e0a19491-63a1-4f09-9eea-7a755d8d2f83/vector.svg
+  png: https://images.phylopic.org/images/e0a19491-63a1-4f09-9eea-7a755d8d2f83/raster/893x1024.png
+  page: https://www.phylopic.org/images/e0a19491-63a1-4f09-9eea-7a755d8d2f83
+  attribution: Marie-Aimée ALLARD
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Coturnix coturnix
+  matched: Coturnix
+  genus_level: true
+sources:
+- kind: original
+  text: T. H. Worthy and J. A. Grant-Mackie. 2003. Late-Pleistocene avifaunas from Cape Wanbrow, Otago, South Island,
+    New Zealand. Journal of the Royal Society of New Zealand 33(1):427-485
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coturnix (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coturnix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Coturnix”. English Wikipedia, revision 1323876638.
+  url: https://en.wikipedia.org/w/index.php?title=Coturnix&oldid=1323876638
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

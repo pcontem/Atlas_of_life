@@ -3,33 +3,86 @@ name: Yixian
 rank: formation
 group: Jehol
 country: China
-regions: [Liaoning, Nei Mongol]
+regions: [Hebei, Liaoning, Nei Mongol]
 location:
-  lat: 41.558
+  lat: 41.586
   lng: 120.872
-  basis: median of 15 PBDB collections that yielded the atlas genera
+  basis: median of 62 PBDB collections that yielded the atlas genera
 age:
   first_ma: 125.77
   last_ma: 119.57
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lacustrine indet., terrestrial indet., fluvial indet.]
-lithology: [not reported, '"shale"', tuff, siltstone]
+environment:
+- lacustrine indet.
+- terrestrial indet.
+- fluvial-lacustrine indet.
+- lacustrine - large
+- fluvial indet.
+- lacustrine - small
+lithology: [not reported, '"shale"', siltstone, mudstone]
 pbdb_collections:
 - '10761'
+- '10764'
+- '13937'
+- '24899'
+- '25835'
+- '50467'
+- '50468'
+- '50469'
+- '50470'
 - '52888'
 - '53493'
+- '55425'
+- '55682'
+- '55683'
+- '55685'
+- '55709'
 - '67611'
+- '73438'
+- '75472'
+- '75511'
+- '79488'
+- '79519'
+- '79520'
 - '79521'
 - '79522'
+- '79657'
+- '82783'
+- '83249'
+- '85288'
+- '85298'
+- '87417'
+- '91199'
+- '92626'
 - '92651'
 - '92749'
 - '92806'
 - '92903'
 - '92906'
 - '94819'
+- '100540'
+- '103654'
+- '106346'
+- '116134'
+- '123753'
+- '126447'
 - '127186'
+- '132600'
+- '132934'
+- '133789'
+- '145247'
+- '147071'
+- '150366'
+- '156032'
+- '158243'
+- '163269'
 - '165516'
 - '196649'
+- '203213'
+- '224635'
+- '235272'
+- '278538'
+- '278643'
 includes: []
 summary: ''
 paleoenvironment: ''

@@ -5,16 +5,20 @@ group: ''
 country: United States
 regions: [South Dakota]
 location:
-  lat: 43.683
-  lng: -102.767
-  basis: median of 9 PBDB collections that yielded the atlas genera
+  lat: 43.717
+  lng: -102.733
+  basis: median of 10 PBDB collections that yielded the atlas genera
 age:
   first_ma: 37.0
   last_ma: 33.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial-lacustrine indet., fluvial indet.]
-lithology: [not reported, '"siliciclastic"']
-pbdb_collections: ['16885', '16938', '99707', '99708', '99709', '99711', '99855', '179707', '179708']
+environment:
+- terrestrial indet.
+- fluvial-lacustrine indet.
+- lacustrine indet.
+- fluvial indet.
+lithology: [not reported, '"siliciclastic"', '"limestone"']
+pbdb_collections: ['16885', '16938', '74636', '99707', '99708', '99709', '99711', '99855', '179707', '179708']
 includes: []
 summary: ''
 paleoenvironment: ''

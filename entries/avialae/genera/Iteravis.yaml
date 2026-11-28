@@ -1,0 +1,95 @@
+name: Iteravis
+rank: genus
+parent: gansuidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhou et al. 2014
+type_species: Iteravis huchzermeyeri
+type_species_note: The only valid species listed by PBDB.
+summary: Ornithuromorph from the Jiufotang Formation at Sihedang, Liaoning, known from several specimens.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Iteravis huchzermeyeri
+  authority: Zhou et al. 2014
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton (number in Zhou et al. 2014).
+  material: The holotype and specimens described in 2018.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: AGB5834-1, 2 (referred to Iteravis huchzermeyeri).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/58/AGB5834-1%2C_2_%28referred_to_Iteravis_huchzermeyeri%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:AGB5834-1,_2_(referred_to_Iteravis_huchzermeyeri).jpg
+  artist: X. Wang, J. Huang, Y. Hu, X. Liu, J. Peteya & J. A. Clarke
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-03-05'
+  caption: AGB5834-1, 2 (referred to Iteravis huchzermeyeri) (Wikimedia Commons; kind assigned from the file name,
+    not yet checked on the triage page).
+  width: 1250
+  height: 1527
+  review: unreviewed
+  local: img/gallery/Iteravis_001.webp
+- kind: fossil
+  file: AGB5841 (referred to Iteravis huchzermeyeri).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/8a/AGB5841_%28referred_to_Iteravis_huchzermeyeri%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:AGB5841_(referred_to_Iteravis_huchzermeyeri).jpg
+  artist: X. Wang, J. Huang, Y. Hu, X. Liu, J. Peteya & J. A. Clarke
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2018-03-05'
+  caption: AGB5841 (referred to Iteravis huchzermeyeri) (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 1500
+  height: 976
+  review: unreviewed
+  local: img/gallery/Iteravis_002.webp
+sources:
+- kind: original
+  text: 'Zhou, Shuang; O''Connor, Jingmai Kathleen; Wang, Min 2014. A new species from an ornithuromorph (Aves:
+    Ornithothoraces) dominated locality of the Jehol Biota. Chinese Science Bulletin 59(36): 5366–5378. doi:10.1007/s11434-014-0669-8'
+- kind: literature
+  text: Wang, Xia; Huang, Jiandong; Hu, Yuanchao; Liu, Xiaoyu; Peteya, Jennifer; Clarke, Julia A. 2018. The earliest
+    evidence for a supraorbital salt gland in dinosaurs in new Early Cretaceous ornithurines. Scientific Reports
+    8(1). doi:10.1038/s41598-018-22412-8
+- kind: literature
+  text: 'Ju, Shu-bin; Wang, Xu-ri; Liu, Yi-chuan June. A reassessment of ''''Iteravis huchzermeyeri'''' and ''''Gansus
+    zheni'''' from the Jehol Biota in western Liaoning. China Geology 3(1): 1–8. doi:10.31035/cg2020066'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Iteravis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Iteravis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Iteravis”. English Wikipedia, revision 1387597741.
+  url: https://en.wikipedia.org/w/index.php?title=Iteravis&oldid=1387597741
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

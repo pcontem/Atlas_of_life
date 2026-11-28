@@ -1,0 +1,70 @@
+name: Scleroptila
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Blyth 1849
+type_species: Scleroptila shelleyi
+type_species_note: The only valid species listed by PBDB.
+summary: Nine francolin species of sub-Saharan Africa.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0
+  early_interval: Chibanian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Scleroptila shelleyi
+  authority: (Ogilvie-Grant 1890)
+  first_ma: 0.774
+  last_ma: 0.0117
+  interval: Chibanian–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.774]
+  id: unnamed-florisbad-south-africa
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/642d2043-4c24-4bb3-92b6-3325f2f3e326/vector.svg
+  png: https://images.phylopic.org/images/642d2043-4c24-4bb3-92b6-3325f2f3e326/raster/663x1024.png
+  page: https://www.phylopic.org/images/642d2043-4c24-4bb3-92b6-3325f2f3e326
+  attribution: Francesco Veronesi (vectorized by T. Michal Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Scleroptila afra
+  matched: Scleroptila
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scleroptila (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scleroptila
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scleroptila”. English Wikipedia, revision 1349050842.
+  url: https://en.wikipedia.org/w/index.php?title=Scleroptila&oldid=1349050842
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

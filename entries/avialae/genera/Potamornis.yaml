@@ -1,0 +1,97 @@
+name: Potamornis
+rank: genus
+parent: hesperornithes
+incertae_sedis: false
+placement_note: ''
+authority: Elzanowski et al. 2001
+type_species: Potamornis skutchi
+type_species_note: The only valid species listed by PBDB.
+summary: Late Maastrichtian hesperornithine from the Lance Formation at Buck Creek, Wyoming.
+size:
+  length_m: null
+  mass_kg: [1.5, 2.0]
+  note: Perhaps 1.5–2 kg (Wikipedia revision cited).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Potamornis skutchi
+  authority: Elzanowski et al. 2001
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: Scrappy remains from the Lance Formation (number in Elzanowski et al. 2001).
+  material: Fragmentary bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: Heavily built like other diving birds.
+images:
+- kind: fossil
+  file: Potamornis skull.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Potamornis_skull.png/960px-Potamornis_skull.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Potamornis_skull.png
+  artist: Skye McDavid
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-22'
+  caption: Potamornis skull (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 3840
+  height: 2160
+  review: unreviewed
+  local: img/gallery/Potamornis_001.webp
+- kind: life
+  file: Potamornis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Potamornis.jpg/960px-Potamornis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Potamornis.jpg
+  artist: Skye McDavid
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-01-18'
+  caption: Potamornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 3840
+  height: 2160
+  review: unreviewed
+  local: img/gallery/Potamornis_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/vector.svg
+  png: https://images.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362/raster/512x299.png
+  page: https://www.phylopic.org/images/ea59ebd4-1faf-44de-b2d2-6c5f01ea3362
+  attribution: Scott Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Baptornis advenus
+  matched: Hesperornithiformes
+  genus_level: false
+sources:
+- kind: original
+  text: A. Elzanowski, G. S. Paul, and T. A. Stidham. 2001. An avian quadrate from the Late Cretaceous Lance Formation
+    of Wyoming. Journal of Vertebrate Paleontology 20(4):712-719
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Potamornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Potamornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Potamornis”. English Wikipedia, revision 1384397003.
+  url: https://en.wikipedia.org/w/index.php?title=Potamornis&oldid=1384397003
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

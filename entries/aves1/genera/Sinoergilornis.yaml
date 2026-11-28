@@ -1,0 +1,69 @@
+name: Sinoergilornis
+rank: genus
+parent: ergilornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Musser et al. 2020
+type_species: Sinoergilornis guangheensis
+type_species_note: The only valid species listed by PBDB.
+summary: Ergilornithid from the Miocene Liushu Formation of China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 5.333
+  early_interval: Tortonian
+  late_interval: Messinian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sinoergilornis guangheensis
+  authority: Musser et al. 2020
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: Liushu
+  group: ''
+  members: []
+  country: China
+  regions: []
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: liushu-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/70f84265-b7c1-4bde-9da4-5067b14b40f3/vector.svg
+  png: https://images.phylopic.org/images/70f84265-b7c1-4bde-9da4-5067b14b40f3/raster/771x1024.png
+  page: https://www.phylopic.org/images/70f84265-b7c1-4bde-9da4-5067b14b40f3
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Palaeotis weigelti
+  matched: Struthioniformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'G. Musser, Z. Li, and J. A. Clarke. 2020. A new species of Eogruidae (Aves: Gruiformes) from the Miocene
+    of the Linxia Basin, Gansu, China: Evolutionary and climatic implications. The Auk 137:1-13'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinoergilornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinoergilornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinoergilornis”. English Wikipedia, revision 1371819375.
+  url: https://en.wikipedia.org/w/index.php?title=Sinoergilornis&oldid=1371819375
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

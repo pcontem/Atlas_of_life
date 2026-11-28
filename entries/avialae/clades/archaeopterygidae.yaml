@@ -1,0 +1,48 @@
+id: archaeopterygidae
+name: Archaeopterygidae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Archaeopterygidae, family, Huxley 1871), downloaded 2026-11-27
+parent: avialae
+wikipedia: Archaeopterygidae
+summary: Long-tailed, toothed early birds from the latest Jurassic and earliest Cretaceous of Europe, usually limited
+  to Archaeopteryx and Wellnhoferia.
+diagnosis:
+- Jaws with small teeth and a long bony tail, as in other dinosaurs of the time
+- Three separate clawed fingers on each hand, with asymmetrical flight feathers of modern bird structure
+notes: Xu and colleagues (2011) defined the clade as all animals closer to Archaeopteryx than to the house sparrow
+  or Dromaeosaurus. Protarchaeopteryx and Jinfengopteryx, once referred here, are now treated as an oviraptorosaur
+  and a troodontid; Jurapteryx is probably a synonym of Archaeopteryx. A few analyses have placed Anchiornis and
+  Xiaotingia in the family, but most later studies keep them in Anchiornithidae, and some (Hartman et al. 2019)
+  put the archaeopterygids outside Avialae. Teeth from the Berriasian of Cherves-de-Cognac and Angeac-Charente in
+  France are attributed to the family (Louchart et al. 2017). PBDB treats Archaeopterygidae as an invalid subgroup
+  of Avialae; the family is kept here following the cited literature.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Archaeopterygidae”. English Wikipedia, revision 1387406227.
+  url: https://en.wikipedia.org/w/index.php?title=Archaeopterygidae&oldid=1387406227
+- kind: encyclopedia
+  text: Wikipedia contributors. “Archaeopteryx”. English Wikipedia, revision 1388045559.
+  url: https://en.wikipedia.org/w/index.php?title=Archaeopteryx&oldid=1388045559
+- kind: database
+  text: 'Paleobiology Database, taxon Archaeopterygidae (no. 39239): rank, authority and status (downloaded 2026-11-27).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=39239
+- kind: literature
+  text: 'Xu, X. et al. 2011. An Archaeopteryx-like theropod from China and the origin of Avialae. Nature 475: 465–470.
+    doi:10.1038/nature10288'
+  url: https://doi.org/10.1038/nature10288
+- kind: literature
+  text: 'Louchart, Antoine et al. 2017. A tooth of Archaeopterygidae (Aves) from the Lower Cretaceous of France
+    extends the spatial and temporal occurrence of the earliest birds. Cretaceous Research 73: 40–46. doi:10.1016/j.cretres.2017.01.004'
+  url: https://doi.org/10.1016/j.cretres.2017.01.004
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The diagnosis lists features of Archaeopteryx from its Wikipedia revision that are shared with other early avialans;
+    replace with the diagnosis of a revision of the family.
+  - Huxley 1871 (naming work) not yet cited; take the citation from PBDB reference 67911.
+  - Co-authors of Xu et al. 2011 and Louchart et al. 2017 to be completed from the papers.
+  reviews: []

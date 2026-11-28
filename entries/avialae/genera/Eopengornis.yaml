@@ -1,0 +1,98 @@
+name: Eopengornis
+rank: genus
+parent: pengornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2014
+type_species: Eopengornis martini
+type_species_note: The only valid species listed by PBDB.
+summary: Hauterivian pengornithid from the Huajiying Formation of China, among the oldest enantiornitheans.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 132.6
+  last_ma: 125.77
+  early_interval: Hauterivian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eopengornis martini
+  authority: Wang et al. 2014
+  first_ma: 132.6
+  last_ma: 125.77
+  interval: Hauterivian
+  reference: original description
+formations:
+- formation: Huajiying
+  group: ''
+  members: [Sichakou]
+  country: China
+  regions: [Hebei]
+  interval: Hauterivian
+  occurrences: 1
+  ma: [125.77, 132.6]
+  id: huajiying-china
+fossil_material:
+  holotype: A skeleton from the Huajiying Formation (number in Wang et al. 2014).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Eopengornis teeth (cropped).PNG
+  url: https://upload.wikimedia.org/wikipedia/commons/2/29/Eopengornis_teeth_%28cropped%29.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Eopengornis_teeth_(cropped).PNG
+  artist: Han Hu, Jingmai O’Connor, & Zhonghe Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015'
+  caption: Eopengornis teeth (cropped) (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 819
+  height: 349
+  review: unreviewed
+  local: img/gallery/Eopengornis_001.webp
+- kind: life
+  file: Parapengornis skull.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Parapengornis_skull.PNG/960px-Parapengornis_skull.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Parapengornis_skull.PNG
+  artist: Han Hu, Jingmai O’Connor, & Zhonghe Zhou
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2015'
+  caption: Parapengornis skull (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1893
+  height: 1522
+  review: unreviewed
+  local: img/gallery/Eopengornis_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/2e7bb0e2-e56c-4dc6-ab9c-094204738fe0/vector.svg
+  png: https://images.phylopic.org/images/2e7bb0e2-e56c-4dc6-ab9c-094204738fe0/raster/512x423.png
+  page: https://www.phylopic.org/images/2e7bb0e2-e56c-4dc6-ab9c-094204738fe0
+  attribution: Luxquine (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Chiappeavis magnapremaxillo
+  matched: Pengornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Wang, Xiaoli; O''Connor, Jingmai Kathleen; Zheng, Xiaoting; Wang, Min; Hu, Han; Zhou, Zhonghe 18 O. Insights
+    into the evolution of rachis dominated tail feathers from a new basal enantiornithine (Aves: Ornithothoraces):
+    Eopengornis. Biological Journal of the Linnean Society 113(3): 805–819. doi:10.1111/bij.12313'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eopengornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eopengornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eopengornis”. English Wikipedia, revision 1371816474.
+  url: https://en.wikipedia.org/w/index.php?title=Eopengornis&oldid=1371816474
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

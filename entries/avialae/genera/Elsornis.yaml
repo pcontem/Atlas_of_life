@@ -1,0 +1,70 @@
+name: Elsornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Chiappe et al. 2007
+type_species: Elsornis keni
+type_species_note: The only valid species listed by PBDB.
+summary: Campanian enantiornithean from the Gobi Desert of Mongolia with reduced wings.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 72.2
+  early_interval: Campanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Elsornis keni
+  authority: Chiappe et al. 2007
+  first_ma: 83.6
+  last_ma: 72.2
+  interval: Campanian
+  reference: original description
+formations:
+- formation: Djadokhta
+  group: ''
+  members: []
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Campanian
+  occurrences: 1
+  ma: [72.2, 83.6]
+  id: djadokhta-mongolia
+fossil_material:
+  holotype: A partially articulated skeleton from the Gobi Desert (number in Chiappe et al. 2007).
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Its pectoral proportions suggest it was flightless or nearly so (Chiappe et al. 2007).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Chiappe, Luis M.; Suzuki, Shigeru; Dyke, Gareth J.; Watabe, Mahito; Tsogtbaatar, K.; Barsbold, Rinchen
+    2007. A new Enantiornithine bird from the Late Cretaceous of the Gobi desert. Journal of Systematic Palaeontology
+    5(2): 193–208. doi:10.1017/S1477201906001969'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Elsornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Elsornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Elsornis”. English Wikipedia, revision 1388159086.
+  url: https://en.wikipedia.org/w/index.php?title=Elsornis&oldid=1388159086
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,59 @@
+name: Longchengornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Hou 1997
+type_species: Longchengornis sanyanensis
+type_species_note: The only valid species listed by PBDB.
+summary: Small enantiornithean from the Jiufotang Formation of Liaoning, about 120 million years old.
+size:
+  length_m: [0.11, 0.11]
+  note: About 11 cm long and 7.5 cm at the hip, from the holotype (Wikipedia revision cited).
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Longchengornis sanyanensis
+  authority: Hou 1997
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['2']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: IVPP V10530, a partly articulated skeleton and partial skull.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: Hou, Lianhou 1997. Mesozoic Birds of China. Phoenix Valley Provincial Aviary of Taiwan.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Longchengornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Longchengornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Longchengornis”. English Wikipedia, revision 1379859944.
+  url: https://en.wikipedia.org/w/index.php?title=Longchengornis&oldid=1379859944
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,60 @@
+name: Catenoleimus
+rank: genus
+parent: enantiornithes
+incertae_sedis: true
+placement_note: PBDB places it in Alexornithiformes; known from a single fragment, it is not placed by any analysis.
+authority: Panteleyev 1998
+type_species: Catenoleimus anachoretus
+type_species_note: The only valid species listed by PBDB.
+summary: Turonian bird from the Bissekty Formation of Uzbekistan known from one fragment.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 93.9
+  last_ma: 89.8
+  early_interval: Turonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Catenoleimus anachoretus
+  authority: Panteleyev 1998
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Bissekty
+  group: ''
+  members: []
+  country: Uzbekistan
+  regions: [Navoi]
+  interval: Middle Turonian–Late Turonian
+  occurrences: 1
+  ma: [89.8, 93.9]
+  id: bissekty-uzbekistan
+fossil_material:
+  holotype: A single fragmentary bone from the Bissekty Formation (number in Panteleyev 1998).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: 'A. V. Panteleyev. 1998. [New species of enantiornithines (Aves: Enantiornithes) from the Upper Cretaceous
+    of central Kyzylkum]. Russkii Ornitologicheskii Zhurnal Ekspress Vypusk 35:3-15'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Catenoleimus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Catenoleimus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Catenoleimus”. English Wikipedia, revision 1322420411.
+  url: https://en.wikipedia.org/w/index.php?title=Catenoleimus&oldid=1322420411
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

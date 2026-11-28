@@ -1,0 +1,117 @@
+name: Chenoanas
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Zelenkov 2012
+type_species: Chenoanas deserta
+type_species_note: Taxobox of Wikipedia revision 1312889732.
+summary: Miocene duck from Eurasia with three described species.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 8.725
+  early_interval: Langhian
+  late_interval: Tortonian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Chenoanas asiatica
+  authority: Zelenkov et al. 2018
+  first_ma: 13.82
+  last_ma: 11.63
+  interval: Serravallian
+  reference: ''
+- name: Chenoanas deserta
+  authority: Zelenkov 2012
+  first_ma: 13.82
+  last_ma: 11.63
+  interval: Serravallian
+  reference: original description
+- name: Chenoanas sansaniensis
+  authority: (Milne-Edwards 1867)
+  first_ma: 15.98
+  last_ma: 8.725
+  interval: Langhian–Tortonian
+  reference: ''
+formations:
+- formation: Oshin
+  group: ''
+  members: []
+  country: Mongolia
+  regions: []
+  interval: Serravallian
+  occurrences: 2
+  ma: [11.63, 13.82]
+  id: oshin-mongolia
+- formation: Hollabrunn­-Mistelbach
+  group: ''
+  members: []
+  country: Austria
+  regions: []
+  interval: Vallesian
+  occurrences: 1
+  ma: [8.725, 11.63]
+  id: hollabrunn-mistelbach-austria
+- formation: Tunggur
+  group: ''
+  members: []
+  country: China
+  regions: [Nei Mongol]
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: tunggur-china
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Midi-Pyrenees]
+  interval: Langhian–Serravallian
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: unnamed-sansan-france
+- formation: Tagay Khalagay
+  group: ''
+  members: []
+  country: Russia
+  regions: [Irkutsk]
+  interval: MN 5
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: tagay-khalagay-russia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: N. V. Zelenkov. 2012. A New Duck from the Middle Miocene of Mongolia, with Comments on Miocene Evolution
+    of Ducks. Paleontological Journal 46(5):520-530
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chenoanas (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chenoanas
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chenoanas”. English Wikipedia, revision 1312889732.
+  url: https://en.wikipedia.org/w/index.php?title=Chenoanas&oldid=1312889732
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

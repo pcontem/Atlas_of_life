@@ -1,0 +1,80 @@
+name: Megalodytes
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Howard 1992
+type_species: Megalodytes morejohni
+type_species_note: M. morejohni is the only known species (cited Wikipedia revision).
+summary: Waterfowl known from wing bones in Middle Miocene marine rocks of California.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 7.246
+  early_interval: Langhian
+  late_interval: Tortonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Megalodytes morejohni
+  authority: Howard 1992
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Haraichi
+  group: Tomioka
+  members: []
+  country: Japan
+  regions: [Gunma]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: haraichi-japan
+- formation: Temblor
+  group: ''
+  members: [Round Mountain]
+  country: United States
+  regions: [California]
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: temblor-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: H. Matsuoka, H. Nakajima, and Y. Takakuwa, Y. Hasegawa. 2001. Preliminary note on the Miocene flightless
+    swan from the Haraichi Formation, Tomioka Group of Annaka, Gunma, Japan. Bulletin of the Gunma Museum of Natural
+    History 5:1-8
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Megalodytes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Megalodytes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Megalodytes”. English Wikipedia, revision 1359884284.
+  url: https://en.wikipedia.org/w/index.php?title=Megalodytes&oldid=1359884284
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Genus and species authority Howard 1992 from the taxobox of the cited Wikipedia revision.
+  reviews: []

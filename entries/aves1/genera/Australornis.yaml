@@ -1,0 +1,69 @@
+name: Australornis
+rank: genus
+parent: neognathae
+incertae_sedis: true
+placement_note: Placed in Vegaviidae by some authors
+authority: Mayr and Scofield 2014
+type_species: Australornis lovei
+type_species_note: Taxobox of Wikipedia revision 1388062492.
+summary: Paleocene bird from New Zealand, about 61–60.5 million years old, sometimes placed in Vegaviidae.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 61.66
+  last_ma: 56
+  early_interval: Selandian
+  late_interval: Thanetian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Australornis lovei
+  authority: Mayr and Scofield 2014
+  first_ma: 61.66
+  last_ma: 56
+  interval: Selandian–Thanetian
+  reference: original description
+formations:
+- formation: Waipara Greensand
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Selandian–Thanetian
+  occurrences: 1
+  ma: [56.0, 61.66]
+  id: waipara-greensand-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/vector.svg
+  png: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/raster/512x417.png
+  page: https://www.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vegavis iaai
+  matched: Vegaviidae
+  genus_level: false
+sources:
+- kind: original
+  text: G. Mayr and R. P. Scofield. 2014. First diagnosable non-sphenisciform bird from the early Paleocene of New
+    Zealand. Journal of the Royal Society of New Zealand 44(1):48-56
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Australornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Australornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Australornis”. English Wikipedia, revision 1388062492.
+  url: https://en.wikipedia.org/w/index.php?title=Australornis&oldid=1388062492
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

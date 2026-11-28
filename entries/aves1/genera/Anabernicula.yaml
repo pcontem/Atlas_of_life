@@ -1,0 +1,113 @@
+name: Anabernicula
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Ross 1935
+type_species: Anabernicula gracilenta
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct shelduck-like waterfowl of the Pliocene and Pleistocene of North America with four described species.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0.0117
+  early_interval: Zanclean
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Anabernicula gracilenta
+  authority: Ross 1935
+  first_ma: 4.7
+  last_ma: 0.774
+  interval: Zanclean–Calabrian
+  reference: ''
+- name: Anabernicula oregonensis
+  authority: Howard 1964
+  first_ma: 0.21
+  last_ma: 0.0117
+  interval: Chibanian–Late Pleistocene
+  reference: ''
+- name: Anabernicula robusta
+  authority: Short 1970
+  first_ma: 1.4
+  last_ma: 0.21
+  interval: Calabrian–Chibanian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida, Nebraska, New Mexico, Oregon]
+  interval: Gelasian–Late Pleistocene
+  occurrences: 6
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-dark-canyon-cave-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-inglis-ia-united-states
+  - unnamed-rushville-quarry-united-states
+  - unnamed-u-bar-cave-united-states
+- formation: Tamiami
+  group: ''
+  members: [Pinecrest Beds, Upper Pinecrest Beds]
+  country: United States
+  regions: [Florida]
+  interval: Blancan
+  occurrences: 2
+  ma: [1.4, 4.7]
+  id: tamiami-united-states
+- formation: Bermont
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: bermont-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Sonora]
+  interval: Rancholabrean
+  occurrences: 1
+  ma: [0.014, 0.21]
+  id: unnamed-terapa-mexico
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: S. L. Olson and P. C. Rasmussen. 2001. Miocene and Pliocene birds from the Lee Creek Mine, North Carolina.
+    Smithsonian Contributions to Paleobiology 90:233-365
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anabernicula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anabernicula
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anabernicula”. English Wikipedia, revision 1379565905.
+  url: https://en.wikipedia.org/w/index.php?title=Anabernicula&oldid=1379565905
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

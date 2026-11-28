@@ -5,17 +5,18 @@ group: ''
 country: Seychelles
 regions: []
 location:
-  lat: -9.423
-  lng: 46.494
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: -9.404
+  lng: 46.355
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 0.129
+  first_ma: 0.774
   last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [fissure fill]
-lithology: ['"limestone"']
-pbdb_collections: ['143531']
-includes: []
+environment: [fissure fill, terrestrial indet.]
+lithology: ['"limestone"', grainstone]
+pbdb_collections: ['143531', '194174']
+includes:
+- PBDB collection “Bassin Cabri, Aldabra” has no formation but is a locality of the Aldabra Limestone.
 summary: ''
 paleoenvironment: ''
 sources:

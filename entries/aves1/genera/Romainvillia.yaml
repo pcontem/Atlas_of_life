@@ -1,0 +1,75 @@
+name: Romainvillia
+rank: genus
+parent: anseriformes
+incertae_sedis: false
+placement_note: ''
+authority: Lebedinsky 1927
+type_species: Romainvillia stehlini
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct anseriform genus recorded in PBDB from the Priabonian–Rupelian of Belgium, France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 27.3
+  early_interval: Priabonian
+  late_interval: Rupelian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Romainvillia stehlini
+  authority: Lebedinsky 1927
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Borgloon
+  group: ''
+  members: [Boutersem]
+  country: Belgium
+  regions: [Brabant]
+  interval: Rupelian
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: borgloon-belgium
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Ile-de-France]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: unnamed-romainville-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/vector.svg
+  png: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/raster/512x316.png
+  page: https://www.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Paakniwatavis grandei
+  matched: Anseriformes
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Romainvillia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Romainvillia
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

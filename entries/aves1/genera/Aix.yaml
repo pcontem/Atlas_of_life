@@ -1,0 +1,142 @@
+name: Aix
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Boie 1828
+type_species: Aix sponsa
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living genus of perching ducks recorded in PBDB from the Miocene to the present.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 13.82
+  last_ma: 0
+  early_interval: Serravallian
+  late_interval: Holocene
+  pbdb_occurrences: 15
+  note: ''
+species:
+- name: Aix galericulata
+  authority: (Linnaeus 1758)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Aix praeclara
+  authority: Zelenkov and Kurochkin 2012
+  first_ma: 13.82
+  last_ma: 11.63
+  interval: Serravallian
+  reference: ''
+- name: Aix sponsa
+  authority: (Linnaeus 1758)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida, Georgia, New Mexico, Ohio, Oregon]
+  interval: Gelasian–Late Pleistocene
+  occurrences: 9
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-canter-s-caves-united-states
+  - unnamed-dark-canyon-cave-united-states
+  - unnamed-haile-7c-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-ichetucknee-river-united-states
+  - unnamed-inglis-ia-united-states
+  - unnamed-kingston-saltpeter-cave-united-states
+  - unnamed-rock-springs-united-states
+  - unnamed-silver-lake-united-states
+- formation: Caloosahatchee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Irvingtonian
+  occurrences: 1
+  ma: [0.21, 1.4]
+  id: caloosahatchee-united-states
+- formation: Oshin
+  group: ''
+  members: []
+  country: Mongolia
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: oshin-mongolia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-pinza-abu-cave-ueno-japan
+- formation: Okeechobee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: okeechobee-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Middle Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.774]
+  id: unnamed-west-runton-freshwater-bed-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Canada
+  regions: [Quebec]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-hector-trudel-site-pointe-du-buisson-canada
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/754a0f00-245a-464e-a5c6-cb23f22e1426/vector.svg
+  png: https://images.phylopic.org/images/754a0f00-245a-464e-a5c6-cb23f22e1426/raster/512x253.png
+  page: https://www.phylopic.org/images/754a0f00-245a-464e-a5c6-cb23f22e1426
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aix sponsa
+  matched: Aix
+  genus_level: true
+sources:
+- kind: original
+  text: S. D. Emslie. 1998. Avian community, climate, and sea-level changes in the Plio-Pleistocene of the Florida
+    Peninsula. Ornithological Monographs (50):1-113
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aix (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aix
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

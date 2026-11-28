@@ -1,0 +1,97 @@
+name: Pengornis
+rank: genus
+parent: pengornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Zhou et al. 2008
+type_species: Pengornis houi
+type_species_note: The only valid species listed by PBDB.
+summary: The largest known Early Cretaceous enantiornithean from northeastern China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pengornis houi
+  authority: Zhou et al. 2008
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: An adult skeleton from the Jiufotang Formation (number in Zhou et al. 2008).
+  material: The adult holotype and a juvenile specimen, IVPP V18632, described in 2014.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used beyond its large size among Early Cretaceous enantiornitheans.
+images:
+- kind: life
+  file: Life reconstruction of enantiornithine birds feeding.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Life_reconstruction_of_enantiornithine_birds_feeding.jpg/960px-Life_reconstruction_of_enantiornithine_birds_feeding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_enantiornithine_birds_feeding.jpg
+  artist: Case Vincent Miller, Jen A Bright, Xiaoli Wang, Xiaoting Zheng & Michael Pittman
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-04-30'
+  caption: Life reconstruction of enantiornithine birds feeding (Wikimedia Commons; kind assigned from the file
+    name, not yet checked on the triage page).
+  width: 2197
+  height: 2197
+  review: unreviewed
+  local: img/gallery/Pengornis_001.webp
+- kind: fossil
+  file: Pengornis houi holotype cast.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pengornis_houi_holotype_cast.jpg/960px-Pengornis_houi_holotype_cast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Pengornis_houi_holotype_cast.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-01-08'
+  caption: Pengornis houi holotype cast (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 2704
+  height: 2261
+  review: unreviewed
+  local: img/gallery/Pengornis_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/2e7bb0e2-e56c-4dc6-ab9c-094204738fe0/vector.svg
+  png: https://images.phylopic.org/images/2e7bb0e2-e56c-4dc6-ab9c-094204738fe0/raster/512x423.png
+  page: https://www.phylopic.org/images/2e7bb0e2-e56c-4dc6-ab9c-094204738fe0
+  attribution: Luxquine (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Chiappeavis magnapremaxillo
+  matched: Pengornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: Z. Zhou, J. Clarke, and F. Zhang. 2008. Insight into diversity, body size and morphological evolution from
+    the largest Early Cretaceous enantiornithine bird. Journal of Anatomy 212(5):565-577
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pengornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pengornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pengornis”. English Wikipedia, revision 1380751749.
+  url: https://en.wikipedia.org/w/index.php?title=Pengornis&oldid=1380751749
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

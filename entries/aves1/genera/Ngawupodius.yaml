@@ -1,0 +1,69 @@
+name: Ngawupodius
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: Boles and Ivison 1999
+type_species: Ngawupodius minya
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct megapode genus recorded in PBDB from the Chattian of Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ngawupodius minya
+  authority: Boles and Ivison 1999
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Namba
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: namba-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/vector.svg
+  png: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/raster/512x476.png
+  page: https://www.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a
+  attribution: Rachel T Mason
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leipoa ocellata
+  matched: Megapodiidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'W. E. Boles and T. J. Ivison. 1999. A new genus of dwarf megapode (Galliformes: Megapodiidae) from the
+    late Oligocene of central Australia. Avian Paleontology at the Close of the 20th Century: Proceedings of the
+    4th International Meeting of the Society of Avian Paleontology and Evolution, Washington, D.C, 4-7 June 1996.
+    Smithsonian Contributions to Paleobiology 89:199-206'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ngawupodius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ngawupodius
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

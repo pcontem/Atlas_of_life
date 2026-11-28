@@ -1,0 +1,60 @@
+name: Gurilynia
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Kurochkin 1999
+type_species: Gurilynia nessovi
+type_species_note: The only valid species listed by PBDB.
+summary: Large Maastrichtian enantiornithine from Mongolia known from fragmentary bones.
+size:
+  length_m: [0.53, 0.53]
+  note: About 53 cm long and 23.2 cm at the hip, the largest Mongolian Mesozoic bird (Wikipedia revision cited).
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Gurilynia nessovi
+  authority: Kurochkin 1999
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: []
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: PIN 4499-12, the proximal end of a right humerus.
+  material: Fragmentary bones.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: E. N. Kurochkin. 1999. A new large enantiornithid from the Upper Cretaceous of Mongolia. Trudy Zoologicheskogo
+    Instituta 277:130-141
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gurilynia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gurilynia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gurilynia”. English Wikipedia, revision 1379907046.
+  url: https://en.wikipedia.org/w/index.php?title=Gurilynia&oldid=1379907046
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

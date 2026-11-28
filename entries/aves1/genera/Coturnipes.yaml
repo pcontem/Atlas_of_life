@@ -1,0 +1,75 @@
+name: Coturnipes
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison and Walker 1977
+type_species: Coturnipes cooperi
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct phasianid genus recorded in PBDB from the Ypresian of United Kingdom, United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Coturnipes cooperi
+  authority: Harrison and Walker 1977
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Nanjemoy
+  group: ''
+  members: [Potapaco]
+  country: United States
+  regions: [Virginia]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: nanjemoy-united-states
+- formation: London Clay
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: london-clay-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. J. O. Harrison and C. A. Walker. 1977. Birds of the British Lower Eocene. Tertiary Research Group 3:1-52
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Coturnipes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Coturnipes
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

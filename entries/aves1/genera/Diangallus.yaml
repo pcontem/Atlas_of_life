@@ -1,0 +1,66 @@
+name: Diangallus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Hou 1985
+type_species: Diangallus mious
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct phasianid genus recorded in PBDB from the Tortonian of China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 7.246
+  early_interval: Tortonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Diangallus mious
+  authority: Hou 1985
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: [Yunnan]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: lufeng-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: L. Hou. 1985. Upper Miocene Birds from Lufeng, Yunnan. Acta Anthropologica Sinica 4(2):118-126
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diangallus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diangallus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

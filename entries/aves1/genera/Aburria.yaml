@@ -1,0 +1,76 @@
+name: Aburria
+rank: genus
+parent: cracidae
+incertae_sedis: false
+placement_note: ''
+authority: Reichenbach 1853
+type_species: Aburria aburri
+type_species_note: The only valid species listed by PBDB.
+summary: Monotypic guan genus whose only species, the wattled guan, is a large black cracid of Colombia, Ecuador,
+  Peru and Venezuela with a long red-and-yellow wattle.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Aburria aburri
+  authority: Lesson 1828
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: The birds of South America (Pl. 11) (7822913208).jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/0/03/The_birds_of_South_America_%28Pl._11%29_%287822913208%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:The_birds_of_South_America_(Pl._11)_(7822913208).jpg
+  artist: Henrik Grønvold
+  license: Public domain
+  license_url: ''
+  date: '1915'
+  caption: The birds of South America (Pl. 11) (7822913208) (Wikimedia Commons; kind assigned from the file name,
+    not yet checked on the triage page).
+  width: 1292
+  height: 1776
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/vector.svg
+  png: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/raster/556x1024.png
+  page: https://www.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Ortalis cinereiceps
+  matched: Cracidae
+  genus_level: false
+sources:
+- kind: original
+  text: G. J. Dyke. 2001. A primitive swift from the London Clay and the relationships of fossil apodiform birds.
+    Journal of Vertebrate Paleontology 21(1):195-200
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aburria (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aburria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wattled guan”. English Wikipedia, revision 1363743706.
+  url: https://en.wikipedia.org/w/index.php?title=Wattled_guan&oldid=1363743706
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

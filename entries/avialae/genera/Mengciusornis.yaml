@@ -1,0 +1,63 @@
+name: Mengciusornis
+rank: genus
+parent: schizoouridae
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2020
+type_species: Mengciusornis dentatus
+type_species_note: The only valid species listed by PBDB.
+summary: Ornithuromorph from the Jiufotang Formation of China with large curved teeth at the tip of the upper jaw.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mengciusornis dentatus
+  authority: Wang et al. 2020
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: []
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: A skeleton from the Jiufotang Formation (number in Wang et al. 2019).
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Unlike its toothless relative Schizooura, it had large curved premaxillary teeth.
+images: []
+sources:
+- kind: original
+  text: M. Wang, J. K. O'Connor, and S. Zhou, Z.-H. Zhou. 2020. New toothed Early Cretaceous ornithuromorph bird
+    reveals intraclade diversity in pattern of tooth loss. Journal of Systematic Palaeontology
+- kind: literature
+  text: 'Wang, M.; O’Connor, J. K.; Zhou, S.; Zhou, Z. 2019. New toothed Early Cretaceous ornithuromorph bird reveals
+    intraclade diversity in pattern of tooth loss. Journal of Systematic Palaeontology 18(8): 631–645. doi:10.1080/14772019.2019.1682696'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mengciusornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mengciusornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mengciusornis”. English Wikipedia, revision 1300195778.
+  url: https://en.wikipedia.org/w/index.php?title=Mengciusornis&oldid=1300195778
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

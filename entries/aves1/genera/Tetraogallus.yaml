@@ -1,0 +1,62 @@
+name: Tetraogallus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Gray 1832
+type_species: Tetraogallus altaicus
+type_species_note: The only valid species listed by PBDB.
+summary: Snowcocks, ground-nesting birds of high mountains.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Tetraogallus altaicus
+  authority: (Gebler 1836)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tetraogallus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tetraogallus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Snowcock”. English Wikipedia, revision 1381746004.
+  url: https://en.wikipedia.org/w/index.php?title=Snowcock&oldid=1381746004
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

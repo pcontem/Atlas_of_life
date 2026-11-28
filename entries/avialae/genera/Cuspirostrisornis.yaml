@@ -1,0 +1,78 @@
+name: Cuspirostrisornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Hou 1997
+type_species: Cuspirostrisornis houi
+type_species_note: The only valid species listed by PBDB.
+summary: Small perching enantiornithean from the Jiufotang Formation of Liaoning, possibly the same as Cathayornis.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: PBDB lists no occurrence; Aptian age of the Jiufotang Formation named in the Wikipedia revision.
+species:
+- name: Cuspirostrisornis houi
+  authority: Hou 1997
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: null
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+  group: ''
+  members: []
+fossil_material:
+  holotype: IVPP V 10897, collected in 1993; skull about 27 mm long.
+  material: Known only from the holotype.
+  completeness: near-complete
+  exceptional: ''
+biology: Had a toothed snout; the beak Hou presumed is probably a misinterpretation.
+images:
+- kind: fossil
+  file: Cuspirostrisornis houi Chaoyang.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Cuspirostrisornis_houi_Chaoyang.jpg/960px-Cuspirostrisornis_houi_Chaoyang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cuspirostrisornis_houi_Chaoyang.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-08-01'
+  caption: Cuspirostrisornis houi Chaoyang (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 2561
+  height: 3011
+  review: unreviewed
+  local: img/gallery/Cuspirostrisornis_001.webp
+sources:
+- kind: original
+  text: L. H. Hou. 1997. Mesozoic Birds of China
+- kind: literature
+  text: 'O''Connor, Jingmai K.; Chiappe, Luis M. 2011. A revision of enantiornithine (Aves: Ornithothoraces) skull
+    morphology. Journal of Systematic Palaeontology 9(1): 135–57. doi:10.1080/14772019.2010.526639'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cuspirostrisornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cuspirostrisornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cuspirostrisornis”. English Wikipedia, revision 1379859865.
+  url: https://en.wikipedia.org/w/index.php?title=Cuspirostrisornis&oldid=1379859865
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Possible synonym of Cathayornis yandica.
+  - 'PBDB has no occurrence: age and formation need checking.'
+  reviews: []

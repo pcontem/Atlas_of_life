@@ -1,0 +1,81 @@
+name: Centrornis
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Andrews 1897
+type_species: Centrornis majori
+type_species_note: The only valid species listed by PBDB.
+summary: The Malagasy sheldgoose, a large goose known from subfossils about 17,000 years old from central Madagascar.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Centrornis majori
+  authority: Andrews 1897
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: [Toliara]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: unnamed-andrahomana-cave-madagascar
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Centrornis majori.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Centrornis_majori.jpg/960px-Centrornis_majori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Centrornis_majori.jpg
+  artist: J. Green
+  license: Public domain
+  license_url: ''
+  date: '1879'
+  caption: Centrornis majori (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1777
+  height: 2857
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. W. Andrews. 1897. On some fossil remains of carinate birds from central Madagascar. Ibis 39:343-358
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Centrornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Centrornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Malagasy sheldgoose”. English Wikipedia, revision 1229079130.
+  url: https://en.wikipedia.org/w/index.php?title=Malagasy_sheldgoose&oldid=1229079130
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

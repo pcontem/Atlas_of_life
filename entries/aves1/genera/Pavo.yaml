@@ -1,0 +1,121 @@
+name: Pavo
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Pavo cristatus
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living genus of peafowl recorded in PBDB from the Miocene.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 13.82
+  last_ma: 0
+  early_interval: Serravallian
+  late_interval: Chibanian
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Pavo archiaci
+  authority: (Gaudry 1862)
+  first_ma: 13.82
+  last_ma: 2.245
+  interval: Serravallian–Gelasian
+  reference: ''
+- name: Pavo cristatus
+  authority: Linnaeus 1758
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Pavo moldavicus
+  authority: Bocheński and Kuročkin 1987
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Pavo muticus
+  authority: Linnaeus 1766
+  first_ma: 0.774
+  last_ma: 0.129
+  interval: Chibanian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ukraine
+  regions: [Odessa]
+  interval: Tortonian–MN 16
+  occurrences: 2
+  ma: [2.245, 11.63]
+  id: unnamed-novo-yelizavetovka-ukraine
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Attica, Euboea]
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: [pikermi-greece, unnamed-kerassia-4-greece]
+- formation: Pikermi
+  group: Mesogea Basin
+  members: [Chomateri]
+  country: Greece
+  regions: [Attica, Attiki]
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: pikermi-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Moldova
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: unnamed-tiraspol-moldova
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Indonesia
+  regions: [Jawa Timur]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-trinil-indonesia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/2928641d-32f3-4543-889e-dd891c1a7783/vector.svg
+  png: https://images.phylopic.org/images/2928641d-32f3-4543-889e-dd891c1a7783/raster/512x202.png
+  page: https://www.phylopic.org/images/2928641d-32f3-4543-889e-dd891c1a7783
+  attribution: Holly Marshall
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Pavo muticus
+  matched: Pavo
+  genus_level: true
+sources:
+- kind: original
+  text: P. D. M. Weesie. 1982. The fossil bird remains in the Dubois collection. Modern Quaternary Research in South-East
+    Asia 7:87-90
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pavo (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pavo
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

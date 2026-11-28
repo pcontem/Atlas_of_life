@@ -1,0 +1,69 @@
+name: Ankonetta
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Cenizo and Agnolín 2010
+type_species: Ankonetta larriestrai
+type_species_note: The only valid species listed by PBDB.
+summary: Mid-sized Early Miocene anatid from the Santa Cruz Formation of Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 15.98
+  early_interval: Aquitanian
+  late_interval: Burdigalian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Ankonetta larriestrai
+  authority: Cenizo and Agnolín 2010
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: original description
+formations:
+- formation: Santa Cruz
+  group: ''
+  members: [Lower]
+  country: Argentina
+  regions: []
+  interval: Early Miocene
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: santa-cruz-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: M. M. Cenizo and F. L. Agnolín. 2010. The southernmost records of Anhingidae and a new basal species of
+    Anatidae (Aves) from the lower–middle Miocene of Patagonia, Argentina. Alcheringa 34(4):493-514
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ankonetta (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ankonetta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ankonetta”. English Wikipedia, revision 1305469911.
+  url: https://en.wikipedia.org/w/index.php?title=Ankonetta&oldid=1305469911
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

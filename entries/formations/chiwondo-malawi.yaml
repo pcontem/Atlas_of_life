@@ -1,0 +1,31 @@
+id: chiwondo-malawi
+name: Chiwondo
+rank: formation
+group: ''
+country: Malawi
+regions: [Northern]
+location:
+  lat: -10.055
+  lng: 33.959
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 5.333
+  last_ma: 2.58
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet.]
+lithology: [not reported]
+pbdb_collections: ['226065']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Chiwondo (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Chiwondo
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,76 @@
+name: Aepypodius
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: Oustalet 1880
+type_species: Aepypodius bruijnii
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Megapode genus with two living species, the brush-turkeys of New Guinea and nearby islands.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aepypodius arfakianus
+  authority: Salvadori 1877
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Aepypodius bruijnii
+  authority: Oustalet 1880
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Indonesia
+  regions: [Irian Jaya]
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-kria-cave-indonesia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b6d99569-4221-418c-bf3c-684e2dc2b00c/vector.svg
+  png: https://images.phylopic.org/images/b6d99569-4221-418c-bf3c-684e2dc2b00c/raster/512x407.png
+  page: https://www.phylopic.org/images/b6d99569-4221-418c-bf3c-684e2dc2b00c
+  attribution: Julien Louys
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aepypodius bruijnii
+  matched: Aepypodius
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aepypodius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aepypodius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aepypodius”. English Wikipedia, revision 1387050645.
+  url: https://en.wikipedia.org/w/index.php?title=Aepypodius&oldid=1387050645
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

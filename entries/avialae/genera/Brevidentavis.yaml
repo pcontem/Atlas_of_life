@@ -1,0 +1,60 @@
+name: Brevidentavis
+rank: genus
+parent: ornithuromorpha
+incertae_sedis: false
+placement_note: ''
+authority: O'Connor et al. 2021
+type_species: Brevidentavis zhangi
+type_species_note: Taxobox and text of the cited Wikipedia revision.
+summary: Aptian ornithuromorph from the Xiagou Formation of Gansu with blunt teeth in the lower jaw.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: No PBDB record; age from the stage named in the cited Wikipedia revision (Aptian), with ICS boundaries.
+species:
+- name: Brevidentavis zhangi
+  authority: O'Connor et al. 2021
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Xiagou
+  country: China
+  regions: [Gansu]
+  interval: Aptian
+  occurrences: null
+  ma: [113.2, 121.4]
+  id: xiagou-china
+  group: ''
+  members: []
+fossil_material:
+  holotype: A partial skull and neck vertebrae (number in O'Connor et al. 2021).
+  material: Known only from the holotype.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its blunt teeth may reflect a specialised diet; they resemble those of hesperornitheans.
+images: []
+sources:
+- kind: original
+  text: 'O'' Connor JK, Stidham TA, Harris JD, Lamanna MC, Bailleul AM, Hu H, Wang M, You H 2021. Avian skulls represent
+    a diverse ornithuromorph fauna from the Lower Cretaceous Xiagou Formation, Gansu Province, China. Journal of
+    Systematics and Evolution 60(5): 1172–1198. doi:10.1111/jse.12823'
+- kind: encyclopedia
+  text: Wikipedia contributors. “Brevidentavis”. English Wikipedia, revision 1387597634.
+  url: https://en.wikipedia.org/w/index.php?title=Brevidentavis&oldid=1387597634
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Genus without a PBDB record (Wikipedia-recognised, rule of 2026-11-27): authority, age, species and formation
+    entered by hand from the Wikipedia revision; check against the original description.'
+  reviews: []

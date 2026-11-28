@@ -3,23 +3,37 @@ name: Hornerstown
 rank: formation
 group: Rancocas
 country: United States
-regions: [New Jersey]
+regions:
+- Alabama
+- Florida
+- Georgia
+- Illinois
+- Kansas
+- New Jersey
+- New Mexico
+- Ohio
+- Oregon
+- South Carolina
+- Tennessee
+- Virginia
+- Wyoming
 location:
-  lat: 40.046
-  lng: -74.694
-  basis: median of 8 PBDB collections that yielded the atlas genera
+  lat: 40.106
+  lng: -74.677
+  basis: median of 9 PBDB collections that yielded the atlas genera
 age:
   first_ma: 72.2
-  last_ma: 61.66
+  last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment:
 - marginal marine indet.
 - marine indet.
 - shallow subtidal indet.
 - terrestrial indet.
-lithology: [sandstone, marl, not reported]
-pbdb_collections: ['26819', '87902', '87903', '88034', '124938', '128428', '129264', '167531']
-includes: []
+lithology: [marl, sandstone, not reported]
+pbdb_collections: ['26819', '87902', '87903', '88034', '124938', '128428', '129264', '167531', '176038']
+includes:
+- PBDB collection “Hornerstown (Pleistocene)” has no formation but is a locality of the Hornerstown.
 summary: ''
 paleoenvironment: ''
 sources:

@@ -46,3 +46,8 @@ aves2:
   pbdb: Charadriiformes,Gaviiformes,Sphenisciformes,Procellariiformes,Ciconiiformes,Pelecaniformes,Suliformes
   wikipedia: { categories: [Charadriiformes, Laridae, Scolopacidae, Charadriidae, Alcidae, Gaviiformes, Sphenisciformes, Spheniscidae, Procellariiformes, Procellariidae, Diomedeidae, Ciconiiformes, Ciconiidae, Pelecaniformes, Ardeidae, Threskiornithidae, Pelecanidae, Suliformes, Sulidae, Phalacrocoracidae, Fregatidae], depth: 2, probe: [Larus, Pinguinus, Spheniscus, Diomedea, Pelecanus, Ardea, Gavia, Ciconia] }
   literature: [charadriiform, shorebird, penguin, procellariiform, seabird, pelecaniform, suliform, loon]
+avialae:
+  # Mesozoic Avialae (volume plan of 2026-11-25, third volume): birds and their stem outside the crown. PBDB keeps most birds under Aves, outside its Avialae, so both are taken and the crown (Neornithes) is removed; Mesozoic crown birds (Vegavis, Asteriornis…) come from the Wikipedia stage categories (Category:Ornithurae is not used: it holds Category:Birds) and are a scope question for the owner.
+  pbdb: Avialae,Aves^Neornithes
+  wikipedia: { categories: [Avialae, Archaeopterygidae, Jeholornithiformes, Confuciusornithiformes, Sapeornithiformes, Enantiornithes, Hesperornithes, Cimolopterygidae, Songlingornithidae, Hongshanornithidae, Cretaceous birds, Jurassic birds], depth: 3, probe: [Archaeopteryx, Jeholornis, Confuciusornis, Sapeornis, Longipteryx, Hesperornis, Ichthyornis, Vegavis] }
+  literature: [avialan, enantiornithine, ornithuromorph, confuciusornithid, jeholornithid, hesperornithine, Mesozoic bird, Cretaceous bird]

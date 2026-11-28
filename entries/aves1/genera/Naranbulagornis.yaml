@@ -1,0 +1,69 @@
+name: Naranbulagornis
+rank: genus
+parent: anseriformes
+incertae_sedis: false
+placement_note: ''
+authority: Zelenkov 2019
+type_species: Naranbulagornis khun
+type_species_note: Taxobox of Wikipedia revision 1376356388.
+summary: Basal waterfowl from two Late Paleocene localities of southern Mongolia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 59.24
+  last_ma: 56
+  early_interval: Thanetian
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Naranbulagornis khun
+  authority: Zelenkov 2019
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: original description
+formations:
+- formation: Naran Bulak
+  group: ''
+  members: [Naran]
+  country: Mongolia
+  regions: [Omnogov]
+  interval: Late Paleocene
+  occurrences: 2
+  ma: [56.0, 59.24]
+  id: naran-bulak-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/vector.svg
+  png: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/raster/512x316.png
+  page: https://www.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Paakniwatavis grandei
+  matched: Anseriformes
+  genus_level: false
+sources:
+- kind: original
+  text: N. V. Zelenkov. 2019. A swan-sized anseriform bird from the late Paleocene of Mongolia. Journal of Vertebrate
+    Paleontology 39:e1531879:1-8
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Naranbulagornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Naranbulagornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Naranbulagornis”. English Wikipedia, revision 1376356388.
+  url: https://en.wikipedia.org/w/index.php?title=Naranbulagornis&oldid=1376356388
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

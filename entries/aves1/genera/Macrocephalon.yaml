@@ -1,0 +1,62 @@
+name: Macrocephalon
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: Muller 1846
+type_species: Macrocephalon maleo
+type_species_note: The only valid species listed by PBDB.
+summary: The maleo, a large megapode endemic to Sulawesi and Buton.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Macrocephalon maleo
+  authority: Muller 1846
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/9decd735-e91b-448d-8c7f-ed5b2fca5b6c/vector.svg
+  png: https://images.phylopic.org/images/9decd735-e91b-448d-8c7f-ed5b2fca5b6c/raster/512x350.png
+  page: https://www.phylopic.org/images/9decd735-e91b-448d-8c7f-ed5b2fca5b6c
+  attribution: Kai Caspar
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Macrocephalon maleo
+  matched: Macrocephalon
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Macrocephalon (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Macrocephalon
+- kind: encyclopedia
+  text: Wikipedia contributors. “Maleo”. English Wikipedia, revision 1387007711.
+  url: https://en.wikipedia.org/w/index.php?title=Maleo&oldid=1387007711
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

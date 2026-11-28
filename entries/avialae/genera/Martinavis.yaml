@@ -1,0 +1,105 @@
+name: Martinavis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Walker et al. 2007
+type_species: Martinavis cruzyensis
+type_species_note: Taxobox of Wikipedia revision 1388166766.
+summary: Late Cretaceous enantiornithine known from humeri from France, North America and Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 83.6
+  last_ma: 66
+  early_interval: Campanian
+  late_interval: Maastrichtian
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Martinavis cruzyensis
+  authority: Walker et al. 2007
+  first_ma: 83.6
+  last_ma: 66
+  interval: Campanian–Maastrichtian
+  reference: original description
+- name: Martinavis minor
+  authority: Walker and Dyke 2009
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Martinavis saltariensis
+  authority: Walker and Dyke 2009
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Martinavis vincei
+  authority: Walker et al. 2007
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+- name: Martinavis whetstonei
+  authority: Walker and Dyke 2009
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: ''
+formations:
+- formation: Lecho
+  group: Salta
+  members: []
+  country: Argentina
+  regions: [Salta]
+  interval: Early Maastrichtian
+  occurrences: 5
+  ma: [66.0, 72.2]
+  id: lecho-argentina
+- formation: Grès à Reptiles
+  group: ''
+  members: []
+  country: France
+  regions: [Languedoc-Roussillon]
+  interval: Late Campanian–Early Maastrichtian
+  occurrences: 1
+  ma: [66.0, 83.6]
+  id: gres-a-reptiles-france
+fossil_material:
+  holotype: ACAP-M 1957, a complete uncrushed right humerus of M. cruzyensis from Massecaps, Cruzy, southern France.
+  material: Isolated humeri of several species.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/vector.svg
+  png: https://images.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc/raster/512x284.png
+  page: https://www.phylopic.org/images/46e5e976-c515-4c90-974e-2b9f9499e8fc
+  attribution: VOLTAIRE D PAES NETO
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Navaornis
+  matched: Euenantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Cyril A. Walker 2007. Large euenantiornithine birds from the Cretaceous of southern France, North America
+    and Argentina. Geological Magazine 144(6): 977–986. doi:10.1017/S0016756807003871'
+- kind: literature
+  text: 'Cyril A. Walker 2009. Euenantiornithine birds from the Late Cretaceous of El Brete (Argentina). Irish Journal
+    of Earth Sciences 27: 15–62. doi:10.3318/IJES.2010.27.15'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Martinavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Martinavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Martinavis”. English Wikipedia, revision 1388166766.
+  url: https://en.wikipedia.org/w/index.php?title=Martinavis&oldid=1388166766
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

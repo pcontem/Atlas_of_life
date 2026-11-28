@@ -1,0 +1,70 @@
+name: Xiangornis
+rank: genus
+parent: enantiornithes
+incertae_sedis: false
+placement_note: ''
+authority: Hu et al. 2012
+type_species: Xiangornis shenmi
+type_species_note: The only valid species listed by PBDB.
+summary: Large enantiornithean from the Aptian Jiufotang Formation near Dapingfang, Chaoyang, Liaoning.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 121.4
+  last_ma: 113.2
+  early_interval: Aptian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Xiangornis shenmi
+  authority: Hu et al. 2012
+  first_ma: 121.4
+  last_ma: 113.2
+  interval: Aptian
+  reference: original description
+formations:
+- formation: Jiufotang
+  group: Jehol
+  members: ['3']
+  country: China
+  regions: [Liaoning]
+  interval: Aptian
+  occurrences: 1
+  ma: [113.2, 121.4]
+  id: jiufotang-china
+fossil_material:
+  holotype: PMOL-AB00245, found in 2005 near Dapingfang.
+  material: Known only from the holotype.
+  completeness: partial
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/vector.svg
+  png: https://images.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f/raster/729x1024.png
+  page: https://www.phylopic.org/images/ba950f27-9d7f-4783-9e43-e0d11a39407f
+  attribution: Durbed (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Iberomesornis romerali
+  matched: Enantiornithes
+  genus_level: false
+sources:
+- kind: original
+  text: 'Hu, D.; Xu, X.; Hou, L.; Sullivan, C. 2012. A new enantiornithine bird from the Lower Cretaceous of Western
+    Liaoning, China, and its implications for early avian evolution. Journal of Vertebrate Paleontology 32(3): 639–645.
+    doi:10.1080/02724634.2012.652321'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Xiangornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Xiangornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Xiangornis”. English Wikipedia, revision 1284284073.
+  url: https://en.wikipedia.org/w/index.php?title=Xiangornis&oldid=1284284073
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

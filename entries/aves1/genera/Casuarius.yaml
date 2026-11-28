@@ -1,0 +1,87 @@
+name: Casuarius
+rank: genus
+parent: casuariidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Casuarius casuarius
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Cassowaries, flightless ratites of the tropical forests of New Guinea and northeastern Australia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 3.6
+  last_ma: 0
+  early_interval: Piacenzian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Casuarius bennetti
+  authority: Gould 1857
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Casuarius casuarius
+  authority: Linnaeus 1758
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Casuarius lydekkeri
+  authority: Rothschild 1891
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Casuarius unappendiculatus
+  authority: Blyth 1860
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Otibanda
+  group: ''
+  members: []
+  country: Papua New Guinea
+  regions: [Morobe]
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: otibanda-papua-new-guinea
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6fe53db2-831d-47c4-84db-34b7b429cc40/vector.svg
+  png: https://images.phylopic.org/images/6fe53db2-831d-47c4-84db-34b7b429cc40/raster/979x1024.png
+  page: https://www.phylopic.org/images/6fe53db2-831d-47c4-84db-34b7b429cc40
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Casuarius casuarius
+  matched: Casuarius
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Casuarius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Casuarius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cassowary”. English Wikipedia, revision 1387454315.
+  url: https://en.wikipedia.org/w/index.php?title=Cassowary&oldid=1387454315
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

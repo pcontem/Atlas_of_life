@@ -1,0 +1,67 @@
+name: Paranyroca
+rank: genus
+parent: anseriformes
+incertae_sedis: false
+placement_note: ''
+authority: Miller and Compton 1939
+type_species: Paranyroca magna
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct anseriform genus recorded in PBDB from the Burdigalian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.5
+  last_ma: 16.3
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Paranyroca magna
+  authority: Miller and Compton 1939
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Batesland
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: batesland-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/vector.svg
+  png: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/raster/512x316.png
+  page: https://www.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Paakniwatavis grandei
+  matched: Anseriformes
+  genus_level: false
+sources:
+- kind: original
+  text: A. H. Miller and L. V. Compton. 1939. Two fossil birds from the Lower Miocene of South Dakota. The Condor
+    41(4):153-156
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paranyroca (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paranyroca
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

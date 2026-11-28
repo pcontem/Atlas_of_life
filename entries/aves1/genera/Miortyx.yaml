@@ -1,0 +1,73 @@
+name: Miortyx
+rank: genus
+parent: odontophoridae
+incertae_sedis: false
+placement_note: ''
+authority: Miller 1944
+type_species: Miortyx teres
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct New World quail genus recorded in PBDB from the Burdigalian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.5
+  last_ma: 16.3
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Miortyx aldeni
+  authority: Howard 1966
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Miortyx teres
+  authority: Miller 1944
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+formations:
+- formation: Batesland
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: batesland-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/vector.svg
+  png: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/raster/512x387.png
+  page: https://www.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Colinus virginianus
+  matched: Odontophoridae
+  genus_level: false
+sources:
+- kind: original
+  text: A. H. Miller. 1944. An avifauna from the lower Miocene of South Dakota. University of California Publications,
+    Bulletin of the Department of Geological Sciences 27(4):85-100
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Miortyx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Miortyx
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []
