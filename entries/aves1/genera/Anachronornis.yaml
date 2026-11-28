@@ -1,0 +1,71 @@
+name: Anachronornis
+rank: genus
+parent: anseriformes
+incertae_sedis: false
+placement_note: ''
+authority: Houde et al. 2023
+type_species: Anachronornis anhimops
+type_species_note: The only valid species listed by PBDB.
+summary: Basal anseriform from the Late Paleocene Willwood Formation of Wyoming.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 57.5
+  last_ma: 56
+  early_interval: Thanetian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Anachronornis anhimops
+  authority: Houde et al. 2023
+  first_ma: 57.5
+  last_ma: 56
+  interval: Thanetian
+  reference: original description
+formations:
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Clarkforkian
+  occurrences: 1
+  ma: [56.0, 57.5]
+  id: willwood-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/vector.svg
+  png: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/raster/512x316.png
+  page: https://www.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Paakniwatavis grandei
+  matched: Anseriformes
+  genus_level: false
+  w: 512
+  h: 316
+sources:
+- kind: original
+  text: P. Houde, M. Dickson, and D. Camarena. 2023. Basal Anseriformes from the Early Paleogene of North America
+    and Europe. Diversity 15:233
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anachronornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anachronornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anachronornis”. English Wikipedia, revision 1380385486.
+  url: https://en.wikipedia.org/w/index.php?title=Anachronornis&oldid=1380385486
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

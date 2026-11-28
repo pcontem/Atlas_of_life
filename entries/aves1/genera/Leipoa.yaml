@@ -1,0 +1,83 @@
+name: Leipoa
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: Gould 1840
+type_species: Leipoa ocellata
+type_species_note: The only valid species listed by PBDB.
+summary: The malleefowl, a chicken-sized Australian megapode that builds large nesting mounds.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Leipoa ocellata
+  authority: Gould 1840
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia, Western Australia]
+  interval: Pleistocene
+  occurrences: 4
+  ma: [0.0117, 2.58]
+  id: [unnamed-blanche-cave-australia, unnamed-leaena-s-breath-cave-australia]
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: skeletal
+  file: Sylviornis.PNG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Sylviornis.PNG/960px-Sylviornis.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sylviornis.PNG
+  artist: Trevor H. Worthy,Miyess Mitri,Warren D. Handley,Michael S. Y. Lee,Atholl Anderson,Christophe Sand
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2016'
+  caption: Sylviornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 3310
+  height: 2726
+  review: unreviewed
+  local: img/gallery/Leipoa_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/vector.svg
+  png: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/raster/512x476.png
+  page: https://www.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a
+  attribution: Rachel T Mason
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leipoa ocellata
+  matched: Leipoa
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Leipoa (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Leipoa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Malleefowl”. English Wikipedia, revision 1373999981.
+  url: https://en.wikipedia.org/w/index.php?title=Malleefowl&oldid=1373999981
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

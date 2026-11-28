@@ -3,19 +3,35 @@ name: Peace River
 rank: formation
 group: Hawthorn
 country: United States
-regions: [Florida, florida]
+regions:
+- Alabama
+- Arizona
+- California
+- Florida
+- Georgia
+- Maryland
+- Massachusetts
+- Michigan
+- New Mexico
+- Ohio
+- Pennsylvania
+- South Carolina
+- Texas
+- Virginia
+- florida
 location:
-  lat: 28.742
-  lng: -82.165
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: 27.835
+  lng: -81.98
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 11.63
-  last_ma: 3.6
+  last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [lagoonal, terrestrial indet.]
-lithology: [sandstone, not reported]
-pbdb_collections: ['45452', '45469', '144200', '144202']
-includes: []
+environment: [terrestrial indet., lagoonal]
+lithology: [not reported, sandstone, '"siliciclastic"']
+pbdb_collections: ['45452', '45469', '144200', '144202', '154804']
+includes:
+- PBDB collection “Peace River 3A” has no formation but is a locality of the Peace River.
 summary: ''
 paleoenvironment: ''
 sources:

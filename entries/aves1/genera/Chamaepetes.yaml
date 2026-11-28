@@ -1,0 +1,70 @@
+name: Chamaepetes
+rank: genus
+parent: cracidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagler 1832
+type_species: Chamaepetes goudotii
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Guan genus with two living species.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Chamaepetes goudotii
+  authority: Lesson 1828
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Chamaepetes unicolor
+  authority: Salvin 1867
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/7049fb6c-4b2e-4a1a-9d80-a49428d5328b/vector.svg
+  png: https://images.phylopic.org/images/7049fb6c-4b2e-4a1a-9d80-a49428d5328b/raster/512x434.png
+  page: https://www.phylopic.org/images/7049fb6c-4b2e-4a1a-9d80-a49428d5328b
+  attribution: Natalia Ladino
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Chamaepetes
+  matched: Chamaepetes
+  genus_level: true
+  w: 512
+  h: 434
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chamaepetes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chamaepetes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chamaepetes”. English Wikipedia, revision 1387419395.
+  url: https://en.wikipedia.org/w/index.php?title=Chamaepetes&oldid=1387419395
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

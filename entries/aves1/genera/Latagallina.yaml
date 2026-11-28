@@ -1,0 +1,89 @@
+name: Latagallina
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: Shute et al. 2017
+type_species: Latagallina olsoni
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct megapode genus recorded in PBDB from the Zanclean–Late Pleistocene of Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0.0117
+  early_interval: Zanclean
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Latagallina naracoortensis
+  authority: (van Tets 1974)
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+- name: Latagallina olsoni
+  authority: Shute et al. 2017
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [New South Wales, Queensland, South Australia, Western Australia]
+  interval: Pleistocene
+  occurrences: 11
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-big-sink-australia
+  - unnamed-blanche-cave-australia
+  - unnamed-cement-mills-australia
+  - unnamed-clifton-australia
+  - unnamed-kilsby-s-hole-australia
+  - unnamed-leaena-s-breath-cave-australia
+  - unnamed-wombeyan-caves-australia
+- formation: Allingham
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: allingham-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/vector.svg
+  png: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/raster/512x476.png
+  page: https://www.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a
+  attribution: Rachel T Mason
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leipoa ocellata
+  matched: Megapodiidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'E. Shute, G. J. Prideaux, and T. H. Worthy. 2017. Taxonomic review of the late Cenozoic megapodes (Galliformes:
+    Megapodiidae) of Australia. Royal Society Open Science 4:170233'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Latagallina (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Latagallina
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

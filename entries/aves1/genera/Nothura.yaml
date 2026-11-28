@@ -1,0 +1,138 @@
+name: Nothura
+rank: genus
+parent: tinamidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagler 1827
+type_species: Nothura maculosa
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Five tinamous of South America.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 8
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Nothura boraquira
+  authority: Spix 1825
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Nothura chacoensis
+  authority: Conover 1937
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Nothura darwinii
+  authority: Gray 1867
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Nothura maculosa
+  authority: Temminck 1815
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Nothura minor
+  authority: Spix 1825
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Nothura parvulus
+  authority: Rovereto 1914
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires]
+  interval: Middle Pleistocene–Lujanian
+  occurrences: 3
+  ma: [0.0117, 0.774]
+  id:
+  - unnamed-arroyo-naposta-grande-argentina
+  - unnamed-puesto-la-florida-upper-section-argentina
+  - unnamed-punta-hermengo-sector-d-argentina
+- formation: Cerro Azul
+  group: ''
+  members: []
+  country: Argentina
+  regions: [La Pampa]
+  interval: Huayquerian
+  occurrences: 3
+  ma: [5.0, 8.0]
+  id: cerro-azul-argentina
+- formation: Monte Hermoso
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires]
+  interval: Montehermosan
+  occurrences: 1
+  ma: [3.8, 5.0]
+  id: monte-hermoso-argentina
+- formation: Pampean
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires]
+  interval: Lujanian
+  occurrences: 1
+  ma: [0.0117, 0.4]
+  id: pampean-argentina
+- formation: Epecuén
+  group: ''
+  members: []
+  country: Argentina
+  regions: [La Pampa]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: epecuen-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044/vector.svg
+  png: https://images.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044/raster/909x1024.png
+  page: https://www.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044
+  attribution: George Edward Lodge
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Tinamus major
+  matched: Tinamidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nothura (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nothura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nothura”. English Wikipedia, revision 1385818237.
+  url: https://en.wikipedia.org/w/index.php?title=Nothura&oldid=1385818237
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

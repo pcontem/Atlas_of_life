@@ -1,0 +1,84 @@
+name: Biziura
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Stephens 1824
+type_species: Biziura lobata
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Stiff-tailed duck genus of Australasia with the living musk duck and a subfossil species.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Biziura delautouri
+  authority: Forbes 1891
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Biziura exhumata
+  authority: De Vis 1901
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Biziura lobata
+  authority: (Shaw 1796)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Island]
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id: unnamed-lake-poukawa-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/396e8da0-426f-49a4-8f17-f5114c7a8260/vector.svg
+  png: https://images.phylopic.org/images/396e8da0-426f-49a4-8f17-f5114c7a8260/raster/512x427.png
+  page: https://www.phylopic.org/images/396e8da0-426f-49a4-8f17-f5114c7a8260
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Oxyura jamaicensis
+  matched: Biziura
+  genus_level: true
+  w: 512
+  h: 427
+sources:
+- kind: original
+  text: C. W. De Vis. 1905. A contribution to the knowledge of the extinct avifauna of Australia. Annals of the
+    Queensland Museum 6:3-25
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Biziura (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Biziura
+- kind: encyclopedia
+  text: Wikipedia contributors. “Biziura”. English Wikipedia, revision 1380727475.
+  url: https://en.wikipedia.org/w/index.php?title=Biziura&oldid=1380727475
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

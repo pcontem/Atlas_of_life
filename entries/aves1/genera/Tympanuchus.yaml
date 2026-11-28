@@ -1,0 +1,154 @@
+name: Tympanuchus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Gloger 1841
+type_species: Tympanuchus cupido
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Prairie-chickens.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.5
+  last_ma: 0
+  early_interval: Burdigalian
+  late_interval: Holocene
+  pbdb_occurrences: 26
+  note: ''
+species:
+- name: Tympanuchus cupido
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Tympanuchus lulli
+  authority: Shufeldt 1915
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: ''
+- name: Tympanuchus pallidicinctus
+  authority: (Ridgway 1873)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Tympanuchus phasianellus
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Tympanuchus stirtoni
+  authority: Miller 1944
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions:
+  - Alabama
+  - Florida
+  - Georgia
+  - Illinois
+  - Kansas
+  - New Jersey
+  - New Mexico
+  - Ohio
+  - Oregon
+  - South Carolina
+  - Tennessee
+  - Virginia
+  - Wyoming
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 20
+  ma: [0.0117, 2.58]
+  id:
+  - hornerstown-united-states
+  - unnamed-bell-cave-united-states
+  - unnamed-burnet-cave-united-states
+  - unnamed-cahokia-united-states
+  - unnamed-canter-s-caves-united-states
+  - unnamed-cheek-bend-cave-united-states
+  - unnamed-clark-s-cave-united-states
+  - unnamed-courtland-canal-united-states
+  - unnamed-dark-canyon-cave-united-states
+  - unnamed-feurt-village-site-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-harleyville-united-states
+  - unnamed-kettle-hill-cave-united-states
+  - unnamed-kingston-saltpeter-cave-united-states
+  - unnamed-little-box-elder-cave-united-states
+  - unnamed-natural-chimneys-united-states
+  - unnamed-silver-lake-united-states
+- formation: Shuler
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: shuler-united-states
+- formation: Batesland
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: batesland-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Canada
+  regions: [Northwest Territories]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-kuukpak-canada
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6ebe88e0-0e5c-4f76-85fb-6427aee1d741/vector.svg
+  png: https://images.phylopic.org/images/6ebe88e0-0e5c-4f76-85fb-6427aee1d741/raster/512x480.png
+  page: https://www.phylopic.org/images/6ebe88e0-0e5c-4f76-85fb-6427aee1d741
+  attribution: Samantha Straus
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Tympanuchus cupido
+  matched: Tympanuchus
+  genus_level: true
+  w: 512
+  h: 480
+sources:
+- kind: original
+  text: P. W. Parmalee and W. E. Klippel. 1982. Evidence of a Boreal Avifauna in Middle Tennessee during the Late
+    Pleistocene. The Auk 99(2):365-368
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tympanuchus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tympanuchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tympanuchus”. English Wikipedia, revision 1379701105.
+  url: https://en.wikipedia.org/w/index.php?title=Tympanuchus&oldid=1379701105
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

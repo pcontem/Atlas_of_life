@@ -3,11 +3,11 @@ name: Fort Union
 rank: formation
 group: ''
 country: United States
-regions: [Wyoming]
+regions: [Montana, Wyoming]
 location:
   lat: 44.3
   lng: -109.0
-  basis: median of 20 PBDB collections that yielded the atlas genera
+  basis: median of 21 PBDB collections that yielded the atlas genera
 age:
   first_ma: 66.0
   last_ma: 56.0
@@ -16,6 +16,7 @@ environment: [terrestrial indet., fluvial-lacustrine indet.]
 lithology: [not reported, '"siliciclastic"']
 pbdb_collections:
 - '14805'
+- '15008'
 - '15049'
 - '15098'
 - '15108'

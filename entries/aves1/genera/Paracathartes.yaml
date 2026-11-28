@@ -1,0 +1,68 @@
+name: Paracathartes
+rank: genus
+parent: lithornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison 1979
+type_species: Paracathartes howardae
+type_species_note: The only valid species listed by PBDB.
+summary: Lithornithid palaeognath from the Lower Eocene of Wyoming.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Paracathartes howardae
+  authority: Harrison 1979
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Willwood
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Early Eocene
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: willwood-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409/vector.svg
+  png: https://images.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409/raster/1017x1024.png
+  page: https://www.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409
+  attribution: Sheatherius
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Lithornis
+  matched: Lithornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paracathartes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paracathartes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Paracathartes”. English Wikipedia, revision 1379751135.
+  url: https://en.wikipedia.org/w/index.php?title=Paracathartes&oldid=1379751135
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

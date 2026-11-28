@@ -1,0 +1,76 @@
+name: Falcipennis
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Elliot 1864
+type_species: Falcipennis canadensis
+type_species_note: The only valid species listed by PBDB.
+summary: The Siberian grouse, a forest grouse of eastern Asia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 1.4
+  last_ma: 0
+  early_interval: Calabrian
+  late_interval: Holocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Falcipennis canadensis
+  authority: (Linnaeus 1758)
+  first_ma: 1.4
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado, Georgia, Virginia]
+  interval: Irvingtonian–Late Pleistocene
+  occurrences: 6
+  ma: [0.0117, 1.4]
+  id:
+  - unnamed-clark-s-cave-united-states
+  - unnamed-ladd-s-quarry-united-states
+  - unnamed-natural-chimneys-united-states
+  - unnamed-porcupine-cave-united-states
+  - unnamed-strait-canyon-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/42f85a2b-7517-439a-8dc3-b745a35c035d/vector.svg
+  png: https://images.phylopic.org/images/42f85a2b-7517-439a-8dc3-b745a35c035d/raster/512x450.png
+  page: https://www.phylopic.org/images/42f85a2b-7517-439a-8dc3-b745a35c035d
+  attribution: xgirouxb
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Lagopus lagopus
+  matched: Falcipennis
+  genus_level: true
+  w: 512
+  h: 450
+sources:
+- kind: original
+  text: A. Wetmore. 1962. Notes on fossil and subfossil birds. Smithsonian Miscellaneous Collections 145(2):1-17
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Falcipennis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Falcipennis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Siberian grouse”. English Wikipedia, revision 1379847822.
+  url: https://en.wikipedia.org/w/index.php?title=Siberian_grouse&oldid=1379847822
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,164 @@
+name: Tetrao
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Tetrao urogallus
+type_species_note: Taxobox of Wikipedia revision 1384493394.
+summary: Capercaillies, some of the largest grouse.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.09
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 25
+  note: ''
+species:
+- name: Tetrao conjugens
+  authority: Jánossy 1974
+  first_ma: 3.55
+  last_ma: 1.8
+  interval: Piacenzian–Gelasian
+  reference: ''
+- name: Tetrao macropus
+  authority: Jánossy 1967
+  first_ma: 5.09
+  last_ma: 1.8
+  interval: Zanclean–Gelasian
+  reference: ''
+- name: Tetrao parvirostris
+  authority: Bonaparte 1856
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Tetrao praeurogallus
+  authority: Jánossy 1969
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Tetrao rhodopensis
+  authority: Boev 1998
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Tetrao urogalloides
+  authority: Middendorff 1853
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Tetrao urogallus
+  authority: Linnaeus 1758
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Finland
+  regions: []
+  interval: Holocene
+  occurrences: 13
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-nm-20634-koppeloniemi-hyrynsalmi-finland
+  - unnamed-nm-22821-blackisasen-ii-kokkola-finland
+  - unnamed-nm-23382-kuuksenvaara-suiponniemi-ilomantsi-finland
+  - unnamed-nm-24928-veskankangas-kuivaniemi-finland
+  - unnamed-nm-28153-satos-outokumpu-finland
+  - unnamed-nm-28659-ravasen-kristiinankaupunki-finland
+  - unnamed-nm-32180-kilpisaari-nastola-finland
+  - unnamed-nm-32554-pohtiolampi-kangasala-finland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-buso-doppio-del-broion-cave-italy
+  - unnamed-rio-secco-cave-macro-unit-br1-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Barany, Borsodabaujzemplen]
+  interval: Ruscinian–Villafranchian
+  occurrences: 2
+  ma: [1.8, 5.09]
+  id:
+  - unnamed-csarnota-locality-2-hungary
+  - unnamed-osztramos-locality-7-hungary
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Pleistocene
+  occurrences: 2
+  ma: [0.0117, 2.58]
+  id: unnamed-heathery-burn-cave-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-dyuktai-cave-russia, unnamed-strashnaya-cave-russia]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-curata-cave-mousterian-ii-romania
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/462ef30f-88d1-4d0b-a75a-f6f5485056df/vector.svg
+  png: https://images.phylopic.org/images/462ef30f-88d1-4d0b-a75a-f6f5485056df/raster/512x419.png
+  page: https://www.phylopic.org/images/462ef30f-88d1-4d0b-a75a-f6f5485056df
+  attribution: Elisabeth Östman
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Tetrao urogallus
+  matched: Tetrao
+  genus_level: true
+  w: 512
+  h: 419
+sources:
+- kind: original
+  text: A. Wetmore. 1962. Notes on fossil and subfossil birds. Smithsonian Miscellaneous Collections 145(2):1-17
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tetrao (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tetrao
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tetrao”. English Wikipedia, revision 1384493394.
+  url: https://en.wikipedia.org/w/index.php?title=Tetrao&oldid=1384493394
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

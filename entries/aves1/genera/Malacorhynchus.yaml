@@ -1,0 +1,85 @@
+name: Malacorhynchus
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Swainson 1831
+type_species: Malacorhynchus membranaceus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Duck genus established by Swainson in 1831 for the pink-eared duck.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Malacorhynchus membranaceus
+  authority: (Latham 1801)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Malacorhynchus scarletti
+  authority: Olson 1977
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Island]
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: unnamed-lake-poukawa-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-seton-rock-shelter-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Malacorhynchus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Malacorhynchus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Malacorhynchus”. English Wikipedia, revision 1328219634.
+  url: https://en.wikipedia.org/w/index.php?title=Malacorhynchus&oldid=1328219634
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

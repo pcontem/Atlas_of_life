@@ -1,0 +1,83 @@
+name: Remiornis
+rank: genus
+parent: palaeognathae
+incertae_sedis: false
+placement_note: ''
+authority: Lemoine 1881
+type_species: Remiornis heberti
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Rhea-sized palaeognath from the Paleocene of France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 59.24
+  last_ma: 56
+  early_interval: Thanetian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Remiornis heberti
+  authority: Lemoine 1881
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: ''
+- name: Remiornis minor
+  authority: (Lemoine 1878)
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: ''
+formations:
+- formation: Sables de Bracheux
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Thanetian
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: sables-de-bracheux-france
+- formation: Conglomérat de Cernay
+  group: ''
+  members: []
+  country: France
+  regions: [Champagne-Ardenne]
+  interval: Thanetian
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: conglomerat-de-cernay-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Oise]
+  interval: Late Paleocene
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: unnamed-petit-patis-rivecourt-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Remiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Remiornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Remiornis”. English Wikipedia, revision 1322565746.
+  url: https://en.wikipedia.org/w/index.php?title=Remiornis&oldid=1322565746
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

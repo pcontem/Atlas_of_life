@@ -1,0 +1,67 @@
+name: Procrax
+rank: genus
+parent: galliformes
+incertae_sedis: false
+placement_note: ''
+authority: Tordoff and Macdonald 1957
+type_species: Procrax brevipes
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct galliform genus recorded in PBDB from the Priabonian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Procrax brevipes
+  authority: Tordoff and Macdonald 1957
+  first_ma: 37
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Chadron
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Chadronian
+  occurrences: 1
+  ma: [33.9, 37.0]
+  id: chadron-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/vector.svg
+  png: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/raster/556x1024.png
+  page: https://www.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Ortalis cinereiceps
+  matched: Galliformes
+  genus_level: false
+sources:
+- kind: original
+  text: H. B. Tordoff and J. R. Macdonald. 1957. A new bird (family Cracidae) from the early Oligocene of South
+    Dakota. Auk 74(2):174-184
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Procrax (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Procrax
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

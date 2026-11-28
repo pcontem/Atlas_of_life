@@ -1,0 +1,31 @@
+id: gerakarou-greece
+name: Gerakarou
+rank: formation
+group: ''
+country: Greece
+regions: []
+location:
+  lat: 40.54
+  lng: 23.448
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 2.58
+  last_ma: 0.774
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [fluvial indet.]
+lithology: [sandstone]
+pbdb_collections: ['230277']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Gerakarou (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Gerakarou
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

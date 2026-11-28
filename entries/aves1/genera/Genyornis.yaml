@@ -1,0 +1,127 @@
+name: Genyornis
+rank: genus
+parent: dromornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Stirling and Zietz 1896
+type_species: Genyornis newtoni
+type_species_note: The only valid species listed by PBDB.
+summary: Large flightless dromornithid of Pleistocene Australia, over 2 m tall, extinct 40,000–50,000 years ago.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0.0117
+  early_interval: Gelasian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Genyornis newtoni
+  authority: Stirling and Zietz 1896
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [New South Wales, Victoria]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-cuddie-springs-australia
+  - unnamed-cuddle-springs-australia
+  - unnamed-lancefield-bone-bed-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Genyornis BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Genyornis_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Genyornis_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-06-09'
+  caption: Genyornis BW (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 776
+  height: 918
+  review: unreviewed
+  local: img/gallery/Genyornis_001.webp
+- kind: life
+  file: Genyornis newtoni.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b6/Genyornis_newtoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Genyornis_newtoni.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.com )
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  date: '2008-06-09'
+  caption: Genyornis newtoni (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 776
+  height: 918
+  review: unreviewed
+  local: img/gallery/Genyornis_002.webp
+- kind: fossil
+  file: Megafauna - Diprotodon and Genyornis.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Megafauna_-_Diprotodon_and_Genyornis.png/960px-Megafauna_-_Diprotodon_and_Genyornis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Megafauna_-_Diprotodon_and_Genyornis.png
+  artist: David Jackmanson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-08'
+  caption: Megafauna - Diprotodon and Genyornis (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 2701
+  height: 2698
+  review: unreviewed
+  local: img/gallery/Genyornis_003.webp
+- kind: fossil
+  file: Megafauna - Genyornis (cropped).png
+  url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Megafauna_-_Genyornis_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Megafauna_-_Genyornis_(cropped).png
+  artist: David Jackmanson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2025-08-08'
+  caption: Megafauna - Genyornis (cropped) (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 922
+  height: 2324
+  review: unreviewed
+  local: img/gallery/Genyornis_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/vector.svg
+  png: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/raster/512x496.png
+  page: https://www.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b
+  attribution: Zimices
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dromornis stirtoni
+  matched: Dromornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'P. F. Murray and D. Megirian. 1998. The skull of dromornithid birds: anatomical evidence for their relationship
+    to Anseriformes. Records of the South Australian Museum 31(1):51-97'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Genyornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Genyornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Genyornis”. English Wikipedia, revision 1386450594.
+  url: https://en.wikipedia.org/w/index.php?title=Genyornis&oldid=1386450594
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,20 +1,20 @@
 id: london-clay-united-kingdom
 name: London Clay
 rank: formation
-group: ''
+group: Thames
 country: United Kingdom
-regions: [England]
+regions: [England, Sussex, United Kingdom]
 location:
-  lat: 51.4
-  lng: 0.833
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  lat: 51.451
+  lng: 0.762
+  basis: median of 8 PBDB collections that yielded the atlas genera
 age:
   first_ma: 56.0
   last_ma: 48.07
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet.]
-lithology: [claystone]
-pbdb_collections: ['143487']
+environment: [marine indet., deep subtidal shelf]
+lithology: [claystone, not reported]
+pbdb_collections: ['13298', '13320', '143487', '204217', '215472', '216089', '216091', '227361']
 includes: []
 summary: ''
 paleoenvironment: ''

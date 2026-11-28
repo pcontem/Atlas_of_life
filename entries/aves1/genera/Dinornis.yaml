@@ -1,0 +1,161 @@
+name: Dinornis
+rank: genus
+parent: dinornithiformes
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1843
+type_species: Dinornis novaezealandiae
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: The giant moa, the tallest of the moa, endemic to New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 18
+  note: ''
+species:
+- name: Dinornis dromoides
+  authority: (Hutton 1900)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Dinornis excelsus
+  authority: Hutton 1892
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Dinornis giganteus
+  authority: Owen 1844
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Dinornis ingens
+  authority: Owen 1844
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Dinornis maximus
+  authority: Owen 1868
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Dinornis novaezealandiae
+  authority: Owen 1843
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Dinornis struthoides
+  authority: Owen 1844
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Otago, South Island]
+  interval: Late Pleistocene–Holocene
+  occurrences: 17
+  ma: [0.0, 0.129]
+  id:
+  - unnamed-kings-cave-new-zealand
+  - unnamed-netherton-cave-new-zealand
+  - unnamed-shirley-stream-east-new-zealand
+  - unnamed-timaru-south-crevice-new-zealand
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Dinornis maximus, Natural History Museum (PV A 608).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg/960px-Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dinornis_maximus,_Natural_History_Museum_(PV_A_608).jpg
+  artist: Natural History Museum, London
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2012-02-19'
+  caption: Dinornis maximus, Natural History Museum (PV A 608) (Wikimedia Commons; kind assigned from the file name,
+    not yet checked on the triage page).
+  width: 1768
+  height: 3012
+  review: unreviewed
+  local: img/gallery/Dinornis_001.webp
+- kind: fossil
+  file: Dinornis robustus, South Island Giant Moa - three quarter view on black YORYM 2004 20.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dinornis_robustus%2C_South_Island_Giant_Moa_-_three_quarter_view_on_black_YORYM_2004_20.jpg/960px-Dinornis_robustus%2C_South_Island_Giant_Moa_-_three_quarter_view_on_black_YORYM_2004_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dinornis_robustus,_South_Island_Giant_Moa_-_three_quarter_view_on_black_YORYM_2004_20.jpg
+  artist: York Museums Trust staff
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: ''
+  caption: Dinornis robustus, South Island Giant Moa - three quarter view on black YORYM 2004 20 (Wikimedia Commons;
+    kind assigned from the file name, not yet checked on the triage page).
+  width: 2870
+  height: 4281
+  review: unreviewed
+  local: img/gallery/Dinornis_002.webp
+- kind: fossil
+  file: Skeleton of Dinornis giganteus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Skeleton_of_Dinornis_giganteus.jpg/960px-Skeleton_of_Dinornis_giganteus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Skeleton_of_Dinornis_giganteus.jpg
+  artist: Buller, Walter Lawry Sir 1838-1906
+  license: Public domain
+  license_url: ''
+  date: ''
+  caption: Skeleton of Dinornis giganteus (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 3270
+  height: 4300
+  review: unreviewed
+  local: img/gallery/Dinornis_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/e7657f52-5d6f-4746-a9f4-b3d1ede2251a/vector.svg
+  png: https://images.phylopic.org/images/e7657f52-5d6f-4746-a9f4-b3d1ede2251a/raster/656x1536.png
+  page: https://www.phylopic.org/images/e7657f52-5d6f-4746-a9f4-b3d1ede2251a
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Dinornis novaezealandiae
+  matched: Dinornis
+  genus_level: true
+  w: 256
+  h: 600
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dinornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dinornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dinornis”. English Wikipedia, revision 1375220975.
+  url: https://en.wikipedia.org/w/index.php?title=Dinornis&oldid=1375220975
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

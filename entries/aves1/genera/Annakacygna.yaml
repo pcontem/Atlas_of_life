@@ -1,0 +1,70 @@
+name: Annakacygna
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Matsuoka and Hasegawa 2022
+type_species: Annakacygna hajimei
+type_species_note: Taxobox of Wikipedia revision 1365913676.
+summary: Flightless marine swan from the Miocene of Japan, named in 2022, with filter-feeding adaptations.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 7.246
+  early_interval: Tortonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Annakacygna hajimei
+  authority: Matsuoka and Hasegawa 2022
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: original description
+formations:
+- formation: Haraichi
+  group: Annaka
+  members: []
+  country: Japan
+  regions: [Gunma]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: haraichi-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Its bill suggests filter feeding (Wikipedia revision cited).
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'H. Matsuoka and Y. Hasegawa. 2022. Annakacygna, a new genus for two remarkable flightless swans (Aves,
+    Anatidae, Cygnini) from the Miocene of Gunma, central Japan: With a note on the birds’food niche shift and specialization
+    of wings for parental care actions. Bulletin of the Gunma Museum of Natural History 26:1-30'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Annakacygna (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Annakacygna
+- kind: encyclopedia
+  text: Wikipedia contributors. “Annakacygna”. English Wikipedia, revision 1365913676.
+  url: https://en.wikipedia.org/w/index.php?title=Annakacygna&oldid=1365913676
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

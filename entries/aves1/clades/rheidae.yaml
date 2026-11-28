@@ -1,0 +1,31 @@
+id: rheidae
+name: Rheidae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Rheidae, family), downloaded 2026-11-28
+parent: palaeognathae
+wikipedia: Rheiformes
+summary: Rheas, large flightless palaeognaths of South America.
+diagnosis:
+- Large flightless ratites with a keel-less breastbone
+- Restricted today to South America
+notes: Two living species (Rhea americana and Rhea pennata); some checklists keep rheas in their own order Rheiformes,
+  others put all ratites in Struthioniformes.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rheiformes”. English Wikipedia, revision 1380702461.
+  url: https://en.wikipedia.org/w/index.php?title=Rheiformes&oldid=1380702461
+- kind: database
+  text: 'Paleobiology Database, taxon Rheidae (no. 39283): rank, authority Bonaparte 1849 and reference no. 4783
+    (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=39283
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves1.json).
+  - 'S2: add the naming work (Bonaparte 1849, PBDB reference 4783) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

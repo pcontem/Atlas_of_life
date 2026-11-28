@@ -1,0 +1,67 @@
+name: Nanortyx
+rank: genus
+parent: odontophoridae
+incertae_sedis: false
+placement_note: ''
+authority: Weigel 1963
+type_species: Nanortyx inexpectatus
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct New World quail genus recorded in PBDB from the Priabonian of Canada.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nanortyx inexpectatus
+  authority: Weigel 1963
+  first_ma: 37
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Cypress Hills
+  group: ''
+  members: []
+  country: Canada
+  regions: [Saskatchewan]
+  interval: Chadronian
+  occurrences: 1
+  ma: [33.9, 37.0]
+  id: cypress-hills-canada
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/vector.svg
+  png: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/raster/512x387.png
+  page: https://www.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Colinus virginianus
+  matched: Odontophoridae
+  genus_level: false
+sources:
+- kind: original
+  text: R. D. Weigel. 1963. Oligocene birds from Saskatchewan. Quarterly Journal of the Florida Academy of Sciences
+    26(3):257-262
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nanortyx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nanortyx
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

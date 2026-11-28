@@ -1,0 +1,115 @@
+name: Plectropterus
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Stephens 1824
+type_species: Plectropterus gambensis
+type_species_note: The only valid species listed by PBDB.
+summary: The spur-winged goose of sub-Saharan Africa.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Plectropterus gambensis
+  authority: (Linnaeus 1766)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chad
+  regions: []
+  interval: Messinian
+  occurrences: 2
+  ma: [5.333, 7.246]
+  id: unnamed-toros-menalla-chad
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Sudan
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: [unnamed-esh-shaheinab-sudan, unnamed-khartoum-hospital-sudan]
+- formation: Gabal Silsila
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: gabal-silsila-egypt
+- formation: Unnamed unit
+  group: ''
+  members: [Darau]
+  country: Egypt
+  regions: [Kom Ombo Plain]
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: unnamed-sebil-area-iii-egypt
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: DR Congo
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-ishango-n-f-p-dr-congo
+- formation: Adu Asa
+  group: ''
+  members: [Asa Koma]
+  country: Ethiopia
+  regions: []
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: adu-asa-ethiopia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Louchart, Y. Haile-Selassie, and P. Vignaud, A. Likius, M. Brunet. 2008. Fossil birds from the Late Miocene
+    of Chad and Ethiopia and zooge- ographical implications. Oryctos 7:147-167
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Plectropterus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Plectropterus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Spur-winged goose”. English Wikipedia, revision 1387265614.
+  url: https://en.wikipedia.org/w/index.php?title=Spur-winged_goose&oldid=1387265614
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

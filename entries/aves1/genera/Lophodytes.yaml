@@ -1,0 +1,93 @@
+name: Lophodytes
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Reichenbach 1853
+type_species: Lophodytes cucullatus
+type_species_note: The only valid species listed by PBDB.
+summary: The hooded merganser, a fish-eating duck.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: ''
+  pbdb_occurrences: 8
+  note: ''
+species:
+- name: Lophodytes cucullatus
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida, Georgia, Oklahoma, Oregon, Virginia]
+  interval: Late Pleistocene
+  occurrences: 8
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-bradenton-united-states
+  - unnamed-clark-s-cave-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-ichetucknee-river-united-states
+  - unnamed-kingston-saltpeter-cave-united-states
+  - unnamed-nye-sink-united-states
+  - unnamed-silver-lake-united-states
+  - unnamed-strait-canyon-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Lophodytes cucullatus MHNT.ZOO.2010.11.33.2.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Lophodytes_cucullatus_MHNT.ZOO.2010.11.33.2.jpg/960px-Lophodytes_cucullatus_MHNT.ZOO.2010.11.33.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Lophodytes_cucullatus_MHNT.ZOO.2010.11.33.2.jpg
+  artist: Roger Culos
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: 8 November
+  caption: Lophodytes cucullatus MHNT.ZOO.2010.11.33.2 (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 4356
+  height: 2808
+  review: unreviewed
+  local: img/gallery/Lophodytes_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/303fef20-218e-4396-bb93-8fbcd4cfab81/vector.svg
+  png: https://images.phylopic.org/images/303fef20-218e-4396-bb93-8fbcd4cfab81/raster/512x418.png
+  page: https://www.phylopic.org/images/303fef20-218e-4396-bb93-8fbcd4cfab81
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Lophodytes cucullatus
+  matched: Lophodytes
+  genus_level: true
+  w: 512
+  h: 418
+sources:
+- kind: original
+  text: W. A. Lunk. 1952. A hooded merganser from the late Pleistocene of Oklahoma. Condor 54:316-317
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lophodytes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lophodytes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Hooded merganser”. English Wikipedia, revision 1387400922.
+  url: https://en.wikipedia.org/w/index.php?title=Hooded_merganser&oldid=1387400922
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

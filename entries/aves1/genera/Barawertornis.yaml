@@ -1,0 +1,85 @@
+name: Barawertornis
+rank: genus
+parent: dromornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Rich 1979
+type_species: Barawertornis tedfordi
+type_species_note: The only valid species listed by PBDB.
+summary: Cassowary-sized dromornithid from the Oligocene and Miocene of Queensland and South Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 15.98
+  early_interval: Aquitanian
+  late_interval: Burdigalian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Barawertornis tedfordi
+  authority: Rich 1979
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Aquitanian–Burdigalian
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: unnamed-riversleigh-upper-site-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Speculative Barawertornis Life Reconstruction.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Speculative_Barawertornis_Life_Reconstruction.png/960px-Speculative_Barawertornis_Life_Reconstruction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Speculative_Barawertornis_Life_Reconstruction.png
+  artist: Sauriazoicillus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-01-22'
+  caption: Speculative Barawertornis Life Reconstruction (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 1992
+  height: 1990
+  review: unreviewed
+  local: img/gallery/Barawertornis_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/vector.svg
+  png: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/raster/512x496.png
+  page: https://www.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b
+  attribution: Zimices
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dromornis stirtoni
+  matched: Dromornithidae
+  genus_level: false
+  w: 512
+  h: 496
+sources:
+- kind: original
+  text: P. W. Houde. 1988. Paleognathous birds from the Early Tertiary of the Northern Hemisphere. Publications
+    of the Nuttall Ornithological Club 22:1-148
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Barawertornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Barawertornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Barawertornis”. English Wikipedia, revision 1388189768.
+  url: https://en.wikipedia.org/w/index.php?title=Barawertornis&oldid=1388189768
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

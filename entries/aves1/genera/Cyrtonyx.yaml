@@ -1,0 +1,117 @@
+name: Cyrtonyx
+rank: genus
+parent: odontophoridae
+incertae_sedis: false
+placement_note: ''
+authority: Gould 1844
+type_species: Cyrtonyx montezumae
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: New World quail genus introduced by Gould in 1844.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.5
+  last_ma: 0
+  early_interval: Burdigalian
+  late_interval: Holocene
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Cyrtonyx cooki
+  authority: Wetmore 1934
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+- name: Cyrtonyx montezumae
+  authority: (Vigors 1830)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Cyrtonyx ocellatus
+  authority: (Gould 1837)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Cyrtonyx tedfordi
+  authority: Miller 1952
+  first_ma: 16.3
+  last_ma: 12.5
+  interval: Burdigalian–Serravallian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Arizona, New Mexico]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-deadman-cave-united-states, unnamed-dry-cave-united-states]
+- formation: Barstow
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Barstovian
+  occurrences: 1
+  ma: [12.5, 16.3]
+  id: barstow-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+- formation: Sheep Creek
+  group: ''
+  members: [middle]
+  country: United States
+  regions: [Nebraska]
+  interval: Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: sheep-creek-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8f0cc912-8290-4ffa-811d-a547b36bdf0c/vector.svg
+  png: https://images.phylopic.org/images/8f0cc912-8290-4ffa-811d-a547b36bdf0c/raster/993x1024.png
+  page: https://www.phylopic.org/images/8f0cc912-8290-4ffa-811d-a547b36bdf0c
+  attribution: Edwin Price
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Cyrtonyx montezumae
+  matched: Cyrtonyx
+  genus_level: true
+  w: 582
+  h: 600
+sources:
+- kind: original
+  text: J. I. Mead, E. L. Roth, and T. R. Van Devender, D. W. Steadman. 1984. The Late Wisconsinan vertebrate fauna
+    from Deadman Cave, southern Arizona. Transactions of the San Diego Society of Natural History 20(14):247-276
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cyrtonyx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cyrtonyx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cyrtonyx”. English Wikipedia, revision 1388116690.
+  url: https://en.wikipedia.org/w/index.php?title=Cyrtonyx&oldid=1388116690
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

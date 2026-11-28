@@ -1,0 +1,149 @@
+name: Rhea
+rank: genus
+parent: rheidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Rhea americana
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living genus of rheas recorded in PBDB from the Miocene.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 0
+  early_interval: Aquitanian
+  late_interval: Holocene
+  pbdb_occurrences: 17
+  note: ''
+species:
+- name: Rhea americana
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Rhea fossilis
+  authority: Moreno and Mercerat 1891
+  first_ma: 23.04
+  last_ma: 2.58
+  interval: Aquitanian–Piacenzian
+  reference: ''
+- name: Rhea nana
+  authority: Lydekker 1894
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Rhea pampeana
+  authority: Moreno and Mercerat 1891
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Rhea pennata
+  authority: (d'Orbigny 1834)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Rhea subpampeana
+  authority: Moreno and Mercerat 1891
+  first_ma: 23.04
+  last_ma: 5.333
+  interval: Aquitanian–Messinian
+  reference: ''
+- name: Rhea tarapacensis
+  authority: Chubb 1913
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires, Chubut, Santa Cruz, Santiago del Estero]
+  interval: Miocene–Late Pleistocene
+  occurrences: 11
+  ma: [0.0117, 23.04]
+  id:
+  - unnamed-arroyo-naposta-grande-argentina
+  - unnamed-beltran-onofre-banegas-lami-hernandez-argentina
+  - unnamed-cueva-tixi-first-occupation-argentina
+  - unnamed-laguna-de-vitel-argentina
+  - unnamed-los-toldos-site-iii-level-10-argentina
+  - unnamed-olivera-argentina
+  - unnamed-piedra-museo-upper-unit-2-argentina
+  - unnamed-puesto-la-florida-upper-section-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Ceara, Piauí]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-joao-cativo-site-2-brazil
+  - unnamed-toca-do-serrote-das-moendas-brazil
+- formation: Nuapua
+  group: ''
+  members: [middle]
+  country: Bolivia
+  regions: [Chuquisaca]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: nuapua-bolivia
+- formation: Ituzaingo
+  group: ''
+  members: [Conglomerado Osifero]
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Epecuén
+  group: ''
+  members: []
+  country: Argentina
+  regions: [La Pampa]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: epecuen-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/83097107-2510-44e4-b899-273362c7ca62/vector.svg
+  png: https://images.phylopic.org/images/83097107-2510-44e4-b899-273362c7ca62/raster/512x421.png
+  page: https://www.phylopic.org/images/83097107-2510-44e4-b899-273362c7ca62
+  attribution: Darren Naish (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Rhea americana
+  matched: Rhea
+  genus_level: true
+sources:
+- kind: original
+  text: C. M. Deschamps. 2005. Late Cenozoic mammal bio-chronostratigraphy in southwestern Buenos Aires Province,
+    Argentina. Ameghiniana 42(4):733-750
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rhea (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rhea
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

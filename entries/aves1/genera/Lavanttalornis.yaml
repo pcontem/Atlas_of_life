@@ -1,0 +1,69 @@
+name: Lavanttalornis
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Bochenski et al. 2023
+type_species: Lavanttalornis hassleri
+type_species_note: The only valid species listed by PBDB.
+summary: Duck from the Miocene of Austria known from a nearly complete specimen.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 5.333
+  early_interval: Tortonian
+  late_interval: Messinian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Lavanttalornis hassleri
+  authority: Bochenski et al. 2023
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Austria
+  regions: [Carinthia]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: unnamed-schabach-anatid-locality-austria
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'Z. M. Bochenski, J. Happ, and G. Salwa, T. Tomek. 2023. An intriguing new species of dabbling duck (Aves:
+    Anseriformes) from the middle Miocene of Austria. Palaeontologia Electronica 26(3:a52):1-19'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lavanttalornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lavanttalornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lavanttalornis”. English Wikipedia, revision 1322537534.
+  url: https://en.wikipedia.org/w/index.php?title=Lavanttalornis&oldid=1322537534
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

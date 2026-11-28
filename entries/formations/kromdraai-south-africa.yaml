@@ -7,14 +7,14 @@ regions: []
 location:
   lat: -26.0
   lng: 27.75
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 2.58
+  first_ma: 3.6
   last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [cave]
-lithology: [breccia]
-pbdb_collections: ['22329']
+lithology: [breccia, siltstone]
+pbdb_collections: ['22329', '22332', '22333']
 includes: []
 summary: ''
 paleoenvironment: ''

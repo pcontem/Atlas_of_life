@@ -1,0 +1,69 @@
+name: Fissuravis
+rank: genus
+parent: lithornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Mayr 2007
+type_species: Fissuravis weigelti
+type_species_note: The only valid species listed by PBDB.
+summary: Lithornithid from the Paleocene of Germany, a capable flier.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 61.66
+  last_ma: 59.24
+  early_interval: Selandian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fissuravis weigelti
+  authority: Mayr 2007
+  first_ma: 61.66
+  last_ma: 59.24
+  interval: Selandian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Saxony-Anhalt]
+  interval: Selandian
+  occurrences: 1
+  ma: [59.24, 61.66]
+  id: unnamed-walbeck-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409/vector.svg
+  png: https://images.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409/raster/1017x1024.png
+  page: https://www.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409
+  attribution: Sheatherius
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Lithornis
+  matched: Lithornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: G. Mayr. 2007. The birds from the Paleocene fissure filling of Walbeck (Germany). Journal of Vertebrate
+    Paleontology 27(2):394-408
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fissuravis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fissuravis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Fissuravis”. English Wikipedia, revision 1358926692.
+  url: https://en.wikipedia.org/w/index.php?title=Fissuravis&oldid=1358926692
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,107 @@
+name: Opisthodactylus
+rank: genus
+parent: rheidae
+incertae_sedis: false
+placement_note: ''
+authority: Ameghino 1891
+type_species: Opisthodactylus patagonicus
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Rheiform from the Miocene of Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 21
+  last_ma: 3
+  early_interval: Aquitanian
+  late_interval: Piacenzian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Opisthodactylus horacioperezi
+  authority: Agnolin and Chafrat 2015
+  first_ma: 21
+  last_ma: 17.5
+  interval: Aquitanian–Burdigalian
+  reference: ''
+- name: Opisthodactylus kirchneri
+  authority: Noriega et al. 2017
+  first_ma: 7.246
+  last_ma: 3
+  interval: Messinian–Piacenzian
+  reference: ''
+- name: Opisthodactylus patagonicus
+  authority: Ameghino 1891
+  first_ma: 17.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+formations:
+- formation: Santa Cruz
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Santacrucian
+  occurrences: 6
+  ma: [16.3, 17.5]
+  id: santa-cruz-argentina
+- formation: Andalhuala
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Catamarca]
+  interval: Montehermosan–Chapadmalalan
+  occurrences: 1
+  ma: [3.0, 5.0]
+  id: andalhuala-argentina
+- formation: Chichinales
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Río Negro]
+  interval: Colhuehuapian
+  occurrences: 1
+  ma: [17.5, 21.0]
+  id: chichinales-argentina
+- formation: Toro Negro
+  group: ''
+  members: [Inferior]
+  country: Argentina
+  regions: [La Rioja]
+  interval: Messinian–Zanclean
+  occurrences: 1
+  ma: [3.6, 7.246]
+  id: toro-negro-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/83097107-2510-44e4-b899-273362c7ca62/vector.svg
+  png: https://images.phylopic.org/images/83097107-2510-44e4-b899-273362c7ca62/raster/512x421.png
+  page: https://www.phylopic.org/images/83097107-2510-44e4-b899-273362c7ca62
+  attribution: Darren Naish (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Rhea americana
+  matched: Rheidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Opisthodactylus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Opisthodactylus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Opisthodactylus”. English Wikipedia, revision 1341564687.
+  url: https://en.wikipedia.org/w/index.php?title=Opisthodactylus&oldid=1341564687
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

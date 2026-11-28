@@ -1,0 +1,99 @@
+name: Histrionicus
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Lesson 1828
+type_species: Histrionicus histrionicus
+type_species_note: The only valid species listed by PBDB.
+summary: The harlequin duck, a small sea duck.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Histrionicus histrionicus
+  authority: (Linnaeus 1758)
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: [Aomori]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.774]
+  id: unnamed-shiriya-locality-2-japan
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: San Pedro
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: san-pedro-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-cava-di-breccia-di-casal-selce-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ec04ba9a-c684-4147-89b9-c987335201fc/vector.svg
+  png: https://images.phylopic.org/images/ec04ba9a-c684-4147-89b9-c987335201fc/raster/995x1024.png
+  page: https://www.phylopic.org/images/ec04ba9a-c684-4147-89b9-c987335201fc
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Histrionicus histrionicus
+  matched: Histrionicus
+  genus_level: true
+  w: 583
+  h: 600
+sources:
+- kind: original
+  text: S. L. Olson and P. C. Rasmussen. 2001. Miocene and Pliocene birds from the Lee Creek Mine, North Carolina.
+    Smithsonian Contributions to Paleobiology 90:233-365
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Histrionicus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Histrionicus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Harlequin duck”. English Wikipedia, revision 1387261728.
+  url: https://en.wikipedia.org/w/index.php?title=Harlequin_duck&oldid=1387261728
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

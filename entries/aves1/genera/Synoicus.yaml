@@ -1,0 +1,98 @@
+name: Synoicus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Gould 1843
+type_species: Synoicus ypsilophorus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Four Old World quail species of Africa, Asia and Australasia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Synoicus chinensis
+  authority: (Linnaeus 1766)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Synoicus ypsilophorus
+  authority: (Bosc 1793)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TL
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: [unnamed-jerimalai-tl, unnamed-matja-kuru-1-tl]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Papua New Guinea
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-balof-sites-new-ireland-papua-new-guinea
+  - unnamed-matenkupkum-cave-new-ireland-papua-new-guinea
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-pinza-abu-cave-ueno-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cdecce9e-84dd-4188-8d71-ca4f55834412/vector.svg
+  png: https://images.phylopic.org/images/cdecce9e-84dd-4188-8d71-ca4f55834412/raster/512x462.png
+  page: https://www.phylopic.org/images/cdecce9e-84dd-4188-8d71-ca4f55834412
+  attribution: Edwin Price
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Synoicus chinensis
+  matched: Synoicus
+  genus_level: true
+  w: 512
+  h: 462
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Synoicus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Synoicus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Synoicus”. English Wikipedia, revision 1387909906.
+  url: https://en.wikipedia.org/w/index.php?title=Synoicus&oldid=1387909906
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

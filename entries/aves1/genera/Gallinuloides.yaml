@@ -1,0 +1,119 @@
+name: Gallinuloides
+rank: genus
+parent: galliformes
+incertae_sedis: false
+placement_note: ''
+authority: Eastman 1900
+type_species: Gallinuloides wyomingensis
+type_species_note: The only valid species listed by PBDB.
+summary: Stem galliform from the Eocene Green River Formation of North America, about 48 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Gallinuloides wyomingensis
+  authority: Eastman 1900
+  first_ma: 56
+  last_ma: 51.1
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Green River
+  group: ''
+  members: [Fossil Butte]
+  country: United States
+  regions: [Wyoming]
+  interval: Lostcabinian
+  occurrences: 2
+  ma: [51.1, 56.0]
+  id: green-river-united-states
+- formation: Fur
+  group: ''
+  members: []
+  country: Denmark
+  regions: []
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: fur-denmark
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Gallinuloides fossil.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/3/33/Gallinuloides_fossil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gallinuloides_fossil.jpg
+  artist: Gerald Mayr and Ilka Weidig
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2004'
+  caption: Gallinuloides fossil (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1080
+  height: 687
+  review: unreviewed
+  local: img/gallery/Gallinuloides_001.webp
+- kind: fossil
+  file: Gallinuloides wyomingensis.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/1/1a/Gallinuloides_wyomingensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gallinuloides_wyomingensis.jpg
+  artist: Gerald Mayr and Ilka Weidig
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2004'
+  caption: Gallinuloides wyomingensis (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 800
+  height: 520
+  review: unreviewed
+  local: img/gallery/Gallinuloides_002.webp
+- kind: fossil
+  file: WDC - Gallinuloides wyomingensis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/WDC_-_Gallinuloides_wyomingensis.jpg/960px-WDC_-_Gallinuloides_wyomingensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:WDC_-_Gallinuloides_wyomingensis.jpg
+  artist: CryolophosaurusEllioti
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-06-12'
+  caption: WDC - Gallinuloides wyomingensis (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 3024
+  height: 4032
+  review: unreviewed
+  local: img/gallery/Gallinuloides_003.webp
+silhouette:
+  src: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/vector.svg
+  png: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/raster/556x1024.png
+  page: https://www.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Ortalis cinereiceps
+  matched: Galliformes
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gallinuloides (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gallinuloides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Gallinuloides”. English Wikipedia, revision 1317102269.
+  url: https://en.wikipedia.org/w/index.php?title=Gallinuloides&oldid=1317102269
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

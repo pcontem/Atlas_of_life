@@ -1,0 +1,82 @@
+name: Sinanas
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Yeh 1980
+type_species: Sinanas diatomas
+type_species_note: The only valid species listed by PBDB.
+summary: Middle Miocene duck.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 20.45
+  last_ma: 15.98
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sinanas diatomas
+  authority: Yeh 1980
+  first_ma: 20.45
+  last_ma: 15.98
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Shanwang
+  group: ''
+  members: [Middle]
+  country: China
+  regions: [Shandong]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: shanwang-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Sinanas diatomas Shanghai.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Sinanas_diatomas_Shanghai.jpg/960px-Sinanas_diatomas_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Sinanas_diatomas_Shanghai.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-07-15'
+  caption: Sinanas diatomas Shanghai (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 4373
+  height: 4000
+  review: unreviewed
+  local: img/gallery/Sinanas_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sinanas (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sinanas
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sinanas”. English Wikipedia, revision 1374559853.
+  url: https://en.wikipedia.org/w/index.php?title=Sinanas&oldid=1374559853
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

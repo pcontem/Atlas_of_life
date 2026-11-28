@@ -1,0 +1,109 @@
+name: Netta
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Kaup 1829
+type_species: Netta rufina
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Pochard-like diving ducks that feed more like dabbling ducks.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 1.8
+  last_ma: 0
+  early_interval: Calabrian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Netta erythrophthalma
+  authority: (zu Wied 1833)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Netta peposaca
+  authority: Vieillot 1816
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Netta rufina
+  authority: (Pallas 1773)
+  first_ma: 1.8
+  last_ma: 0.0117
+  interval: Calabrian–Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Granada]
+  interval: Calabrian–Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 1.8]
+  id: unnamed-huescar-1-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Zulia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-mene-de-inciarte-tar-seep-venezuela
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Jordan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-shubayqa-1-midden-jordan
+- formation: Cromer Forest Bed
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: cromer-forest-bed-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Netta (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Netta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Netta”. English Wikipedia, revision 1380578637.
+  url: https://en.wikipedia.org/w/index.php?title=Netta&oldid=1380578637
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

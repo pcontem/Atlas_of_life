@@ -7,29 +7,36 @@ regions: []
 location:
   lat: -2.987
   lng: 35.344
-  basis: median of 14 PBDB collections that yielded the atlas genera
+  basis: median of 20 PBDB collections that yielded the atlas genera
 age:
   first_ma: 2.58
   last_ma: 0.774
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [fluvial-lacustrine indet., fluvial indet., lacustrine indet.]
-lithology: [claystone, not reported, gravel]
+lithology: [claystone, not reported, gravel, sandstone]
 pbdb_collections:
+- '21969'
+- '21970'
+- '21971'
 - '21973'
 - '21974'
 - '22041'
 - '22064'
 - '22336'
+- '22464'
 - '22593'
+- '22595'
 - '22596'
 - '22614'
 - '22621'
 - '22626'
+- '22627'
 - '22628'
 - '144173'
 - '144174'
 - '144175'
-includes: []
+includes:
+- PBDB collection “Olduvai - WK” has no formation but is a locality of the Olduvai.
 summary: ''
 paleoenvironment: ''
 sources:

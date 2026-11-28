@@ -1,0 +1,157 @@
+name: Colinus
+rank: genus
+parent: odontophoridae
+incertae_sedis: false
+placement_note: ''
+authority: Goldfuss 1820
+type_species: Colinus virginianus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Bobwhites, a genus of New World quail.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 0
+  early_interval: Aquitanian
+  late_interval: Holocene
+  pbdb_occurrences: 32
+  note: ''
+species:
+- name: Colinus cristatus
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Colinus eatoni
+  authority: Shufeldt 1915
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Colinus hibbardi
+  authority: Wetmore 1944
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Colinus suilium
+  authority: Brodkorb 1959
+  first_ma: 4.7
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+- name: Colinus virginianus
+  authority: (Linnaeus 1758)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions:
+  - Alabama
+  - Arizona
+  - Florida
+  - Georgia
+  - New Mexico
+  - Ohio
+  - Pennsylvania
+  - South Carolina
+  - Texas
+  - Virginia
+  interval: Neogene–Late Pleistocene
+  occurrences: 29
+  ma: [0.0117, 23.04]
+  id:
+  - unnamed-bell-cave-united-states
+  - unnamed-benson-south-2-united-states
+  - unnamed-canter-s-caves-united-states
+  - unnamed-clark-s-cave-united-states
+  - unnamed-cutler-hammock-united-states
+  - unnamed-deadman-cave-united-states
+  - unnamed-dry-cave-united-states
+  - unnamed-eichelberger-cave-united-states
+  - unnamed-haile-7c-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-haile-xva-united-states
+  - unnamed-hanover-quarry-no-1-fissure-united-states
+  - unnamed-harleyville-united-states
+  - unnamed-ingleside-site-no-1-tedford-caliche-pit-united-states
+  - unnamed-inglis-ia-united-states
+  - unnamed-kettle-hill-cave-united-states
+  - unnamed-kingston-saltpeter-cave-united-states
+  - unnamed-lecanto-2a-united-states
+  - unnamed-mcleod-limerock-mine-united-states
+  - unnamed-melbourne-no-2-bed-united-states
+  - unnamed-natural-chimneys-united-states
+  - unnamed-reddick-ia-united-states
+  - unnamed-seminole-field-united-states
+  - unnamed-strait-canyon-united-states
+  - unnamed-u-bar-cave-united-states
+- formation: Wicomico
+  group: ''
+  members: [Arredondo]
+  country: United States
+  regions: [Florida]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: wicomico-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Zulia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-mene-de-inciarte-tar-seep-venezuela
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/vector.svg
+  png: https://images.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365/raster/512x387.png
+  page: https://www.phylopic.org/images/cb1f00e7-0f74-43f0-89b0-7c1b8ed8e365
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Colinus virginianus
+  matched: Colinus
+  genus_level: true
+  w: 512
+  h: 387
+sources:
+- kind: original
+  text: A. Wetmore. 1962. Notes on fossil and subfossil birds. Smithsonian Miscellaneous Collections 145(2):1-17
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Colinus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Colinus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Colinus”. English Wikipedia, revision 1388130908.
+  url: https://en.wikipedia.org/w/index.php?title=Colinus&oldid=1388130908
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

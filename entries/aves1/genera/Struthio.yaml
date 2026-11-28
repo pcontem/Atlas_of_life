@@ -1,0 +1,607 @@
+name: Struthio
+rank: genus
+parent: struthionidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Struthio camelus
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Ostriches, two living species of Africa, the largest living birds.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 0
+  early_interval: Aquitanian
+  late_interval: Holocene
+  pbdb_occurrences: 100
+  note: ''
+species:
+- name: Struthio (Pachystruthio) pannonicus
+  authority: Kretzoi 1954
+  first_ma: 3.55
+  last_ma: 1.8
+  interval: Piacenzian–Gelasian
+  reference: ''
+- name: Struthio anderssoni
+  authority: Lowe 1831
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Struthio asiaticus
+  authority: Milne-Edwards 1871
+  first_ma: 13.82
+  last_ma: 0.0117
+  interval: Serravallian–Late Pleistocene
+  reference: ''
+- name: Struthio barbarus
+  authority: Arambourg 1979
+  first_ma: 2.58
+  last_ma: 0.774
+  interval: Gelasian–Calabrian
+  reference: ''
+- name: Struthio bradydactylus
+  authority: Burchak-Abramovich 1939
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Struthio camelus
+  authority: Linnaeus 1758
+  first_ma: 7.246
+  last_ma: 0
+  interval: Messinian–Holocene
+  reference: ''
+- name: Struthio chersonensis
+  authority: (Brant 1873)
+  first_ma: 11.63
+  last_ma: 2.245
+  interval: Tortonian–Gelasian
+  reference: ''
+- name: Struthio coppensi
+  authority: Mourer-Chauviré et al. 1996
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Struthio karatheodoris
+  authority: Forsyth Major 1888
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Struthio linxiaensis
+  authority: Hou et al. 2005
+  first_ma: 7.9
+  last_ma: 5.09
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Struthio molybdophanes
+  authority: Reichenow 1883
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Struthio mongolicus
+  authority: Lowe 1931
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Struthio novorossicus
+  authority: Alexejev 1916
+  first_ma: 11.63
+  last_ma: 2.245
+  interval: Tortonian–Gelasian
+  reference: ''
+- name: Struthio orlovi
+  authority: Kurochkin and Lungu 1970
+  first_ma: 11.63
+  last_ma: 2.245
+  interval: Tortonian–Gelasian
+  reference: ''
+- name: Struthio wimani
+  authority: Lowe 1931
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: [Namaqualand, Orange Free]
+  interval: Late Miocene–Pleistocene
+  occurrences: 14
+  ma: [0.0117, 11.63]
+  id:
+  - unnamed-blue-pool-cave-south-africa
+  - unnamed-ofd-1-south-africa
+  - unnamed-swart-duinen-south-africa
+  - unnamed-swartlintjies-2-south-africa
+- formation: Olduvai
+  group: Vogel River Series
+  members: []
+  country: Tanzania
+  regions: []
+  interval: Gelasian–Calabrian
+  occurrences: 10
+  ma: [0.774, 2.58]
+  id: olduvai-tanzania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ukraine
+  regions: [Cherson, Odessa]
+  interval: Serravallian–MN 16
+  occurrences: 8
+  ma: [2.245, 13.82]
+  id:
+  - unnamed-belka-ukraine
+  - unnamed-novaya-yemetovka-ukraine
+  - unnamed-novo-yelizavetovka-ukraine
+  - unnamed-odessa-ukraine
+  - unnamed-tyagnika-ukraine
+- formation: Varswater
+  group: ''
+  members: [PPM]
+  country: South Africa
+  regions: [Cape]
+  interval: Messinian–Piacenzian
+  occurrences: 4
+  ma: [2.58, 7.246]
+  id: varswater-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Aegean, Euboea, Thessaly]
+  interval: Late Miocene–MN 16
+  occurrences: 4
+  ma: [2.245, 11.63]
+  id:
+  - unnamed-fossil-collection-from-samos-island-in-the-geological-museum-of-lausanne-greece
+  - unnamed-kerassia-4-greece
+  - unnamed-sesklon-greece
+- formation: Unnamed unit
+  group: ''
+  members: [Unit Matupi II]
+  country: DR Congo
+  regions: []
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-ishango-n-f-p-dr-congo
+  - unnamed-matupi-cave-unit-matupi-i-dr-congo
+- formation: Nubia
+  group: ''
+  members: []
+  country: Sudan
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: nubia-sudan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Late Pliocene–Pleistocene
+  occurrences: 3
+  ma: [0.0117, 3.6]
+  id:
+  - unnamed-ahl-al-oughlam-general-morocco
+  - unnamed-ain-maarouf-morocco
+  - unnamed-djebel-irhoud-ennouchi-collection-1960s-morocco
+- formation: Nawata
+  group: ''
+  members: [Lower Nawata, Upper Nawata & Lower Nawata]
+  country: Kenya
+  regions: []
+  interval: Tortonian–Messinian
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: nawata-kenya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Sudan
+  regions: []
+  interval: Pleistocene–Holocene
+  occurrences: 2
+  ma: [0.0, 2.58]
+  id: [unnamed-atbara-river-valley-kg73-sudan, unnamed-shaqadud-s1-a-sudan]
+- formation: Swartkrans
+  group: Transvaal
+  members: ['12', '15']
+  country: South Africa
+  regions: []
+  interval: Pleistocene
+  occurrences: 2
+  ma: [0.0117, 2.58]
+  id: swartkrans-south-africa
+- formation: Nachukui
+  group: ''
+  members: [Apak, Kaiyumung]
+  country: Kenya
+  regions: []
+  interval: Zanclean–Piacenzian
+  occurrences: 2
+  ma: [2.58, 5.333]
+  id: nachukui-kenya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Turkey
+  regions: [Ankara]
+  interval: Ruscinian–Early Pleistocene
+  occurrences: 2
+  ma: [0.774, 5.09]
+  id: unnamed-calta-turkey
+- formation: Beglia
+  group: ''
+  members: []
+  country: Tunisia
+  regions: [Gafsa]
+  interval: Serravallian–Tortonian
+  occurrences: 2
+  ma: [7.246, 13.82]
+  id: beglia-tunisia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Niger
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-gobero-sites-g1-g3-niger
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Algeria
+  regions: [Oran]
+  interval: Late Miocene–Early Pleistocene
+  occurrences: 2
+  ma: [0.774, 11.63]
+  id: unnamed-oued-el-hammam-algeria
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bulgaria
+  regions: [Blagoevgrad, Blagoevgrard]
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: [unnamed-hadjidimovo-2-bulgaria, unnamed-kalimantsi-bulgaria]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ethiopia
+  regions: [Afar]
+  interval: Piacenzian–Gelasian
+  occurrences: 2
+  ma: [1.8, 3.6]
+  id:
+  - unnamed-gafura-mille-logya-ethiopia
+  - unnamed-uraitele-mille-logya-ethiopia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-dakhleh-oasis-egypt
+- formation: Nubia
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: nubia-egypt
+- formation: Mbuga Clays
+  group: ''
+  members: []
+  country: Tanzania
+  regions: []
+  interval: Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 2.58]
+  id: mbuga-clays-tanzania
+- formation: Bredasdorp & Varswater
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Miocene–Pliocene
+  occurrences: 1
+  ma: [2.58, 23.04]
+  id: bredasdorp-varswater-south-africa
+- formation: Nawata and Nachukui
+  group: Lothagam
+  members: [All]
+  country: Kenya
+  regions: []
+  interval: Messinian–Piacenzian
+  occurrences: 1
+  ma: [2.58, 7.246]
+  id: nawata-and-nachukui-kenya
+- formation: Kapthurin
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.774]
+  id: kapthurin-kenya
+- formation: Muluk
+  group: ''
+  members: [Profile C]
+  country: Egypt
+  regions: []
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: muluk-egypt
+- formation: Upper Koru Series
+  group: Kericho Phonolites
+  members: [Fort Ternan "B" Beds]
+  country: Kenya
+  regions: [Central Nyanza]
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: upper-koru-series-kenya
+- formation: Unnamed unit
+  group: Vogel River Series
+  members: []
+  country: Tanzania
+  regions: []
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: olduvai-tanzania
+- formation: Kromdraai
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Late Pliocene–Pleistocene
+  occurrences: 1
+  ma: [0.0117, 3.6]
+  id: kromdraai-south-africa
+- formation: C1/LR
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: c1-morocco
+- formation: Nawata or Nachukui
+  group: ''
+  members: [Upper Nawata and Apak]
+  country: Kenya
+  regions: []
+  interval: Messinian–Zanclean
+  occurrences: 1
+  ma: [3.6, 7.246]
+  id: nawata-or-nachukui-kenya
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kyrgyzstan
+  regions: []
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: unnamed-akterek-kyrgyzstan
+- formation: Bou Hanifia
+  group: ''
+  members: []
+  country: Algeria
+  regions: []
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: bou-hanifia-algeria
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Fejer]
+  interval: Villafranchian
+  occurrences: 1
+  ma: [1.8, 3.55]
+  id: unnamed-kislang-hungary
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Turkmenistan
+  regions: []
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: unnamed-monzhukly-turkmenistan
+- formation: Khapry
+  group: ''
+  members: []
+  country: Russia
+  regions: [Rostovskaya Oblast']
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: khapry-russia
+- formation: Agha Jari
+  group: ''
+  members: []
+  country: Iraq
+  regions: []
+  interval: Vallesian
+  occurrences: 1
+  ma: [8.725, 11.63]
+  id: agha-jari-iraq
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: China
+  regions: []
+  interval: Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 2.58]
+  id: unnamed-majuangou-3-nihewan-basin-china
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Georgia
+  regions: []
+  interval: Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 2.58]
+  id: unnamed-dmanisi-georgia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: [West-Siberia]
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: unnamed-pawlodar-city-right-side-of-irtysch-river-russia
+- formation: Chersonian
+  group: Balta
+  members: []
+  country: Moldova
+  regions: []
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: chersonian-moldova
+- formation: Gar El Muluk
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Al Buhayrah]
+  interval: Late Pliocene
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: gar-el-muluk-egypt
+- formation: Nikiti
+  group: ''
+  members: []
+  country: Greece
+  regions: []
+  interval: MN 11
+  occurrences: 1
+  ma: [7.9, 8.725]
+  id: nikiti-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Moldova
+  regions: []
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: unnamed-priozernoe-moldova
+- formation: Aït Kandoula
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: ait-kandoula-morocco
+- formation: Liushu
+  group: ''
+  members: []
+  country: China
+  regions: [Gansu]
+  interval: MN 12–MN 13
+  occurrences: 1
+  ma: [5.09, 7.9]
+  id: liushu-china
+- formation: Chiwondo
+  group: ''
+  members: [3A]
+  country: Malawi
+  regions: [Northern]
+  interval: Pliocene
+  occurrences: 1
+  ma: [2.58, 5.333]
+  id: chiwondo-malawi
+- formation: Gerakarou
+  group: ''
+  members: []
+  country: Greece
+  regions: []
+  interval: Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 2.58]
+  id: gerakarou-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: unnamed-kanaopi-kenya
+- formation: Pinjor
+  group: Siwalik
+  members: []
+  country: India
+  regions: [Punjab]
+  interval: Late Pliocene–Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 3.6]
+  id: pinjor-india
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a8a6b7b8-eeea-4faa-992d-cdbd64edda3c/vector.svg
+  png: https://images.phylopic.org/images/a8a6b7b8-eeea-4faa-992d-cdbd64edda3c/raster/703x757.png
+  page: https://www.phylopic.org/images/a8a6b7b8-eeea-4faa-992d-cdbd64edda3c
+  attribution: T. Michael Keesey (from a photo by Jamion Blackwell)
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Struthio
+  matched: Struthio
+  genus_level: true
+  w: 557
+  h: 600
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Struthio (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Struthio
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ostrich”. English Wikipedia, revision 1386482027.
+  url: https://en.wikipedia.org/w/index.php?title=Ostrich&oldid=1386482027
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

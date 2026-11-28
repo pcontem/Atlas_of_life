@@ -1,0 +1,159 @@
+name: Dromornis
+rank: genus
+parent: dromornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1872
+type_species: Dromornis australis
+type_species_note: Taxobox of Wikipedia revision 1385811883.
+summary: Giant flightless dromornithid of Australia from the Oligocene to the Pliocene.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 5.333
+  early_interval: Chattian
+  late_interval: Messinian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Dromornis australis
+  authority: Owen 1872
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+- name: Dromornis murrayi
+  authority: Worthy et al. 2016
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: ''
+- name: Dromornis planei
+  authority: (Rich 1979)
+  first_ma: 15.98
+  last_ma: 11.63
+  interval: Langhian–Serravallian
+  reference: ''
+- name: Dromornis stirtoni
+  authority: Rich 1979
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+formations:
+- formation: Camfield Beds
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: camfield-beds-australia
+- formation: Waite
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: waite-australia
+- formation: Carl Creek Limestone
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: carl-creek-limestone-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Dromornis BW.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Dromornis_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Dromornis_BW.jpg
+  artist: Nobu Tamura ( http://spinops.blogspot.de )
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: '2007-08-03'
+  caption: Dromornis BW (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 800
+  height: 584
+  review: unreviewed
+  local: img/gallery/Dromornis_001.webp
+- kind: life
+  file: Dromornis australis pl 32 1874.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Dromornis_australis_pl_32_1874.png/960px-Dromornis_australis_pl_32_1874.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dromornis_australis_pl_32_1874.png
+  artist: J. Erxleben
+  license: Public domain
+  license_url: ''
+  date: '1874'
+  caption: Dromornis australis pl 32 1874 (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 2139
+  height: 3195
+  review: unreviewed
+  local: img/gallery/Dromornis_002.webp
+- kind: fossil
+  file: Dromornis stirtoni 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Dromornis_stirtoni_01.jpg/960px-Dromornis_stirtoni_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dromornis_stirtoni_01.jpg
+  artist: Kevmin
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: ''
+  caption: Dromornis stirtoni 01 (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1912
+  height: 2493
+  review: unreviewed
+  local: img/gallery/Dromornis_003.webp
+- kind: fossil
+  file: Dromornis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Dromornis.jpg/960px-Dromornis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Dromornis.jpg
+  artist: James Erxleben
+  license: Public domain
+  license_url: ''
+  date: '1879'
+  caption: Dromornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2610
+  height: 2903
+  review: unreviewed
+  local: img/gallery/Dromornis_004.webp
+silhouette:
+  src: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/vector.svg
+  png: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/raster/512x496.png
+  page: https://www.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b
+  attribution: Zimices
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dromornis stirtoni
+  matched: Dromornis
+  genus_level: true
+sources:
+- kind: original
+  text: 'P. F. Murray and D. Megirian. 1998. The skull of dromornithid birds: anatomical evidence for their relationship
+    to Anseriformes. Records of the South Australian Museum 31(1):51-97'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dromornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dromornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dromornis”. English Wikipedia, revision 1385811883.
+  url: https://en.wikipedia.org/w/index.php?title=Dromornis&oldid=1385811883
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

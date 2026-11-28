@@ -1,0 +1,152 @@
+name: Lyrurus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Swainson 1832
+type_species: Lyrurus tetrix
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Black grouse, two species.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 28
+  note: ''
+species:
+- name: Lyrurus partium
+  authority: Kretzoi 1962
+  first_ma: 3.55
+  last_ma: 0.774
+  interval: Piacenzian–Calabrian
+  reference: ''
+- name: Lyrurus tetrix
+  authority: (Linnaeus 1758)
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 8
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-buso-doppio-del-broion-cave-italy
+  - unnamed-rio-secco-cave-macro-unit-br1-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Barany, Borsodabaujzemplen]
+  interval: Villafranchian–Late Pleistocene
+  occurrences: 7
+  ma: [0.0117, 3.55]
+  id:
+  - unnamed-beremend-locality-5-hungary
+  - unnamed-osztramos-locality-2-hungary
+  - unnamed-somssich-hill-no-2-hungary
+  - unnamed-tokod-nagyberek-hungary
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Finland
+  regions: []
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-nm-20634-koppeloniemi-hyrynsalmi-finland
+  - unnamed-nm-24928-veskankangas-kuivaniemi-finland
+  - unnamed-nm-28153-satos-outokumpu-finland
+  - unnamed-nm-30909-hietaranta-luumaki-finland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-dyuktai-cave-russia
+  - unnamed-strashnaya-cave-russia
+  - unnamed-ust-kanskaya-cave-russia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 2.58]
+  id: unnamed-ravencliffe-cave-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne-Rhône-Alps]
+  interval: Pliocene–Pleistocene
+  occurrences: 1
+  ma: [0.0117, 5.333]
+  id: unnamed-seneze-domeyrat-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: MC
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.774]
+  id: unnamed-grotte-de-l-observatoire-unknown-level-mc
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-curata-cave-mousterian-ii-romania
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: M. Boule and L. De Villeneuve. 1927. La grotte de l'Observatoire à Monaco. Archives de l'Institut de Paléontologie
+    Humaine Mémoire 1:1-113
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lyrurus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lyrurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lyrurus”. English Wikipedia, revision 1386237305.
+  url: https://en.wikipedia.org/w/index.php?title=Lyrurus&oldid=1386237305
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

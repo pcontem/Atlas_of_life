@@ -1,0 +1,31 @@
+id: anatidae
+name: Anatidae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Anatidae, family), downloaded 2026-11-28
+parent: anseriformes
+wikipedia: Anatidae
+summary: Ducks, geese and swans, water birds found on every continent except Antarctica.
+diagnosis:
+- Broad, elongated body; diving species rounder
+- Webbed feet and a flattened bill
+notes: Living species range from the cotton pygmy goose (26.5 cm, 164 g) to the trumpeter swan (183 cm, 17.2 kg);
+  the extinct flightless Garganornis reached about 22 kg. Subfamilies are not separated in the atlas.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Anatidae”. English Wikipedia, revision 1386448203.
+  url: https://en.wikipedia.org/w/index.php?title=Anatidae&oldid=1386448203
+- kind: database
+  text: 'Paleobiology Database, taxon Anatidae (no. 39624): rank, authority Vigors 1825 and reference no. 4783 (downloaded
+    2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=39624
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves1.json).
+  - 'S2: add the naming work (Vigors 1825, PBDB reference 4783) as an original source.'
+  - Flattened bill and webbed feet from the order revision, not the family excerpt; check.
+  reviews: []

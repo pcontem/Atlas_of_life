@@ -1,0 +1,69 @@
+name: Australotadorna
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Worthy 2009
+type_species: Australotadorna alecwilsoni
+type_species_note: The only valid species listed by PBDB.
+summary: Shelduck from the Late Oligocene of central Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Australotadorna alecwilsoni
+  authority: Worthy 2009
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Namba
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: namba-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'T. H. Worthy. 2009. Descriptions and phylogenetic relationships of two new genera and four new species
+    of Oligo-Miocene waterfowl (Aves: Anatidae) from Australia. Zoological Journal of the Linnean Society 156:411-454'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Australotadorna (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Australotadorna
+- kind: encyclopedia
+  text: Wikipedia contributors. “Australotadorna”. English Wikipedia, revision 1385812119.
+  url: https://en.wikipedia.org/w/index.php?title=Australotadorna&oldid=1385812119
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

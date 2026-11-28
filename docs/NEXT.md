@@ -1,3 +1,23 @@
+# Next steps — Aves I (Palaeognathae and Galloanserae)
+
+Done (2026-11-28): census, harvest, clade sources; 27 clade entries; 226 genus drafts (living genera with `extant: true`; thin drafts from
+PBDB alone for genera without a Wikipedia page, marked in curation.notes); excluded.yaml (40 synonyms); tree changes in
+docs/TREE_REVIEW.md. Images, silhouettes and palaeo-positions come from media-fetch.yml.
+
+Pending genera:
+- No type species found in the sources (or no authority), not written: Argillipes Bambusicola Bucephala Caccabis Callipepla Callonetta Chaulelasmus Chauna Chloephaga Crypturellus Cyanochen Cygnopterus Cygnus Dendrocygna Emeus Emuarius Eoneornis Erismatura Euryanas Euryapteryx Eutelornis Francolinus Loxornis Manuherikia Marila Nettapus Nettion Nothocercus Nyroca Odontophorus Olar Oressochen Ortalis Oxyura Palaeocryptonyx Palaeortyx Paracygnopterus Paraortyx Parapavo Pediocaetes Pinpanetta Pliogallus Pternistis Querquedula Syrmaticus Tachyeres Taoperdix Tinamisornis.
+- No PBDB occurrence (fossil genera): Ameripodius, Aminornis, Anserobranta, Archaealectrornis, Archaeophasianus, Chenornis, Cygnanser,
+  Cygnavus, Ergilornis, Metapteryx, Miogallus, Percolinus, Pirortyx, Pleistoanser, Proceriavis, Pseudapteryx, Ptenornis, Quercymegapodius,
+  Roveretornis, Schaubortyx, Teleornis, Tirarinetta.
+- Wikipedia-only genera (46, census): Asteriornis, Garganornis, Centuriavis, Agelastes, Arborophila, Guttera… — need manual age and
+  species data.
+- Living genera that PBDB does not list (no fossil record) are not in the harvest at all: a source for the full list of living genera
+  (e.g. the IOC World Bird List) has to be chosen by the owner.
+
+Open questions for the owner:
+- The volume is the root of the crown group (Aves); Neoaves volumes will attach to Neognathae.
+- Many type species are filled from general knowledge (type_species_note says so): check.
+
 # Next steps — Avialae (Mesozoic birds outside the crown)
 
 Done (2026-11-27): census, scope (one volume, no crown birds, no form taxa), harvest, clade sources; 21 clade entries; 200 genus

@@ -1,0 +1,31 @@
+id: temblor-united-states
+name: Temblor
+rank: formation
+group: ''
+country: United States
+regions: [California]
+location:
+  lat: 35.465
+  lng: -118.915
+  basis: median of 6 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 16.3
+  last_ma: 12.5
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [terrestrial indet., estuary/bay, marine indet., shoreface]
+lithology: [siltstone, sandstone]
+pbdb_collections: ['13297', '59059', '59060', '74629', '156738', '197289']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Temblor (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Temblor
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

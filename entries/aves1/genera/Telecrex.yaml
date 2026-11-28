@@ -1,0 +1,70 @@
+name: Telecrex
+rank: genus
+parent: numididae
+incertae_sedis: false
+placement_note: ''
+authority: Wetmore 1934
+type_species: Telecrex grangeri
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct relative of guinea fowl with two species.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 56
+  last_ma: 37.71
+  early_interval: Ypresian
+  late_interval: Bartonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Telecrex grangeri
+  authority: Wetmore 1934
+  first_ma: 56
+  last_ma: 37.71
+  interval: Ypresian–Bartonian
+  reference: original description
+formations:
+- formation: Irdin Manha
+  group: ''
+  members: []
+  country: Mongolia
+  regions: []
+  interval: Irdinmanhan
+  occurrences: 1
+  ma: [37.71, 56.0]
+  id: irdin-manha-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e46e2714-b598-4655-9a5b-6020801b3f58/vector.svg
+  png: https://images.phylopic.org/images/e46e2714-b598-4655-9a5b-6020801b3f58/raster/821x1024.png
+  page: https://www.phylopic.org/images/e46e2714-b598-4655-9a5b-6020801b3f58
+  attribution: Daniel Giraud Elliot
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Guttera plumifera
+  matched: Numididae
+  genus_level: false
+  w: 481
+  h: 600
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Telecrex (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Telecrex
+- kind: encyclopedia
+  text: Wikipedia contributors. “Telecrex”. English Wikipedia, revision 1380742254.
+  url: https://en.wikipedia.org/w/index.php?title=Telecrex&oldid=1380742254
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

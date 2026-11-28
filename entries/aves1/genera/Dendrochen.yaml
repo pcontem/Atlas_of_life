@@ -1,0 +1,91 @@
+name: Dendrochen
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Miller 1944
+type_species: Dendrochen robusta
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct anatid genus recorded in PBDB from the Chattian–Burdigalian of France, Kazakhstan, United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 16.3
+  early_interval: Chattian
+  late_interval: Burdigalian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Dendrochen oligocaena
+  authority: (Tugarinov 1940)
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: ''
+- name: Dendrochen robusta
+  authority: Miller 1944
+  first_ma: 18.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: []
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: unnamed-aral-sea-kazakhstan
+- formation: Batesland
+  group: ''
+  members: []
+  country: United States
+  regions: [South Dakota]
+  interval: Hemingfordian
+  occurrences: 1
+  ma: [16.3, 18.5]
+  id: batesland-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: unnamed-st-gerand-le-puy-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. H. Miller. 1944. An avifauna from the lower Miocene of South Dakota. University of California Publications,
+    Bulletin of the Department of Geological Sciences 27(4):85-100
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dendrochen (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dendrochen
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

@@ -1,0 +1,70 @@
+name: Scopelortyx
+rank: genus
+parent: galliformes
+incertae_sedis: false
+placement_note: ''
+authority: Mourer-Chauvire et al. 2015
+type_species: Scopelortyx klinghardtensis
+type_species_note: The only valid species listed by PBDB.
+summary: Paraortygid galliform from the Eocene of Namibia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 41.03
+  last_ma: 37.71
+  early_interval: Bartonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Scopelortyx klinghardtensis
+  authority: Mourer-Chauvire et al. 2015
+  first_ma: 41.03
+  last_ma: 37.71
+  interval: Bartonian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Namibia
+  regions: [Sperrgebiet]
+  interval: Bartonian
+  occurrences: 1
+  ma: [37.71, 41.03]
+  id: unnamed-eocliff-namibia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/vector.svg
+  png: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/raster/556x1024.png
+  page: https://www.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Ortalis cinereiceps
+  matched: Galliformes
+  genus_level: false
+sources:
+- kind: original
+  text: C. Mourer-Chauvire, M. Pickford, and B. Senut. 2015. Stem group galliform and stem group psittaciform birds
+    (Aves, Galliformes, Paraortygidae, and Psittaciformes, family incertae sedis) from the Middle Eocene of Namibia.
+    Journal of Ornithology 156(1):275-286
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Scopelortyx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Scopelortyx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Scopelortyx”. English Wikipedia, revision 1322566493.
+  url: https://en.wikipedia.org/w/index.php?title=Scopelortyx&oldid=1322566493
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,59 @@
+name: Eremopezus
+rank: genus
+parent: palaeognathae
+incertae_sedis: true
+placement_note: Of uncertain affinities
+authority: Andrews 1904
+type_species: Eremopezus eocaenus
+type_species_note: The only valid species listed by PBDB.
+summary: Huge, presumably flightless Eocene bird from Egypt of uncertain affinities.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 27.3
+  early_interval: Priabonian
+  late_interval: Rupelian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Eremopezus eocaenus
+  authority: Andrews 1904
+  first_ma: 37.71
+  last_ma: 27.3
+  interval: Priabonian–Rupelian
+  reference: original description
+formations:
+- formation: Jebel Qatrani
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Fayum]
+  interval: Late Eocene–Early Oligocene
+  occurrences: 3
+  ma: [27.3, 37.71]
+  id: jebel-qatrani-egypt
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: C. W. Andrews. 1906. A Descriptive Catalogue of the Tertiary Vertebrata of Fayum, Egypt.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eremopezus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eremopezus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eremopezus”. English Wikipedia, revision 1387575219.
+  url: https://en.wikipedia.org/w/index.php?title=Eremopezus&oldid=1387575219
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,105 @@
+name: Megalapteryx
+rank: genus
+parent: dinornithiformes
+incertae_sedis: false
+placement_note: ''
+authority: Haast 1885
+type_species: Megalapteryx didinus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: The upland moa of New Zealand, described by Owen in 1883.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Megalapteryx didinus
+  authority: (Lydekker 1891)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Megalapteryx hectori
+  authority: Haast 1886
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Pleistocene–Holocene
+  occurrences: 5
+  ma: [0.0, 2.58]
+  id:
+  - unnamed-netherton-cave-new-zealand
+  - unnamed-sterndale-road-rockshelter-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Megalapteryx didinus mount (1).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Megalapteryx_didinus_mount_%281%29.jpg/960px-Megalapteryx_didinus_mount_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Megalapteryx_didinus_mount_(1).jpg
+  artist: Te Papa - Museum of New Zealand
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 'Collected '
+  caption: Megalapteryx didinus mount (1) (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 7124
+  height: 5343
+  review: unreviewed
+  local: img/gallery/Megalapteryx_001.webp
+- kind: life
+  file: Megalapteryx.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Megalapteryx.png/960px-Megalapteryx.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Megalapteryx.png
+  artist: George Edward Lodge
+  license: Public domain
+  license_url: ''
+  date: '1907'
+  caption: Megalapteryx (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2266
+  height: 3240
+  review: unreviewed
+  local: img/gallery/Megalapteryx_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/31784f78-800f-475a-9c70-6cc2b93c9cac/vector.svg
+  png: https://images.phylopic.org/images/31784f78-800f-475a-9c70-6cc2b93c9cac/raster/659x1024.png
+  page: https://www.phylopic.org/images/31784f78-800f-475a-9c70-6cc2b93c9cac
+  attribution: Ferran Sayol
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Megalapteryx didinus
+  matched: Megalapteryx
+  genus_level: true
+  w: 386
+  h: 600
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Megalapteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Megalapteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Upland moa”. English Wikipedia, revision 1375571262.
+  url: https://en.wikipedia.org/w/index.php?title=Upland_moa&oldid=1375571262
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

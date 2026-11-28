@@ -1,0 +1,84 @@
+name: Crax
+rank: genus
+parent: cracidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Crax rubra
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Curassows, large ground-feeding galliforms of tropical South and Central America.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Crax alberti
+  authority: Fraser 1852
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Crax globulosa
+  authority: Spix 1825
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Crax rubra
+  authority: Linnaeus 1758
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-los-tamarindos-3-feet-below-surface-venezuela
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ef6ac76a-33bd-4985-a474-9936b30853df/vector.svg
+  png: https://images.phylopic.org/images/ef6ac76a-33bd-4985-a474-9936b30853df/raster/787x1024.png
+  page: https://www.phylopic.org/images/ef6ac76a-33bd-4985-a474-9936b30853df
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Crax rubra
+  matched: Crax
+  genus_level: true
+  w: 461
+  h: 600
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Crax (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Crax
+- kind: encyclopedia
+  text: Wikipedia contributors. “Crax”. English Wikipedia, revision 1387362170.
+  url: https://en.wikipedia.org/w/index.php?title=Crax&oldid=1387362170
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

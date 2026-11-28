@@ -1,0 +1,96 @@
+name: Dendragapus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Elliot 1864
+type_species: Dendragapus obscurus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Dusky and sooty grouse of western North America.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Dendragapus fuliginosus
+  authority: (Ridgway 1873)
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: ''
+- name: Dendragapus gilli
+  authority: (Shufeldt 1891)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Dendragapus nanus
+  authority: (Shufeldt 1891)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Dendragapus obscurus
+  authority: (Say 1823)
+  first_ma: 1.4
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Colorado, Oregon, Utah, Wyoming]
+  interval: Pleistocene
+  occurrences: 11
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-crystal-ball-cave-united-states
+  - unnamed-emeryville-shellmound-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-little-box-elder-cave-united-states
+  - unnamed-porcupine-cave-united-states
+  - unnamed-potter-creek-cave-united-states
+  - unnamed-samwel-cave-no-i-united-states
+  - unnamed-silver-lake-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: L. H. Miller. 1911. Avifauna of the Pleistocene cave deposits of California. University of California Publications
+    Bulletin of the Department of Geology 6(16):385-400
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dendragapus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dendragapus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dendragapus”. English Wikipedia, revision 1379688561.
+  url: https://en.wikipedia.org/w/index.php?title=Dendragapus&oldid=1379688561
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

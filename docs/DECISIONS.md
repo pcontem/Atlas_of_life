@@ -435,3 +435,9 @@ Aves volumes, so the crown-bird tree is built once. Ichnogenera and oogenera sta
 213 PBDB genera first recorded before 66 Ma, plus Archaeopteryx and Wellnhoferia from the backbone and 23 Wikipedia-only
 genera to sort (crown birds, nomina dubia, new genera). Volume folder `entries/avialae`, root `avialae` attached to
 `paraves` (the backbone node Avialae became the volume root).
+
+## 2026-11-28 — Aves I volume: root and scope
+Volume `entries/aves1` (owner's plan of 2026-11-25, written on the owner's request of 2026-11-27 for the night check): the root is the crown
+group Aves (the backbone node became the volume root, attached to Ornithurae of the Avialae volume), with Palaeognathae and
+Neognathae → Galloanserae. Living and fossil genera; living genera come only from PBDB (genera with a fossil record) until the owner
+picks a source for the full list. `validate.py` H3 now also accepts home-page groups whose node is a volume clade (needed for Aves).
