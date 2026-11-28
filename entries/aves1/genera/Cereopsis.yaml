@@ -56,15 +56,6 @@ images:
   height: 1272
   review: unreviewed
   local: img/gallery/Cereopsis_001.webp
-silhouette:
-  src: https://images.phylopic.org/images/d44f0bbb-4559-4d8f-b7d6-726d98f64b3f/vector.svg
-  png: null
-  page: https://www.phylopic.org/images/d44f0bbb-4559-4d8f-b7d6-726d98f64b3f
-  attribution: Guillaume Dera
-  license: https://creativecommons.org/publicdomain/zero/1.0/
-  depicts: Bellonella rubistella
-  matched: Cereopsis
-  genus_level: true
 sources:
 - kind: original
   text: B. C. Livezey and L. D. Martin. 1988. The Systematic Position of the Miocene Anatid Anas[?] blanchardi Milne-Edwards.
@@ -80,5 +71,6 @@ curation:
   origin: ai-draft
   checked_by: ''
   checked_on: ''
-  notes: []
+  notes:
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
   reviews: []
