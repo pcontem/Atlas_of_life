@@ -30,7 +30,7 @@ jobs:
           if [ -z "$VOL" ]; then
             python3 - >> "$GITHUB_ENV" <<'PY'
           import json; r = json.load(open("data/raw/harvest_request.json"))
-          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}\nOA={str(r.get('oa', False)).lower()}\nPAPERS={str(r.get('papers', False)).lower()}\nRETRY={str(r.get('wiki_retry', False)).lower()}\nEXTRA={r.get('extra', '')}\nWIKIGROUP={r.get('wiki_group', '')}")
+          print(f"VOL={r['volume']}\nBASE={r['base']}\nGENERA={r.get('genera', '')}\nSHEETS={str(r.get('sheets', True)).lower()}\nOA={str(r.get('oa', False)).lower()}\nPAPERS={str(r.get('papers', False)).lower()}\nRETRY={str(r.get('wiki_retry', False)).lower()}\nEXTRA={r.get('extra', '')}\nWIKIGROUP={r.get('wiki_group', '')}\nLIVING={r.get('living', '')}\nLIVINGONLY={str(r.get('living_only', False)).lower()}")
           PY
           else
             { echo "VOL=$VOL"; echo "BASE=$BASE"; echo "GENERA=$GENERA"; echo "SHEETS=$SHEETS"; } >> "$GITHUB_ENV"
@@ -46,6 +46,8 @@ jobs:
           [ "$RETRY" = "true" ] && args+=(--wiki-retry)
           [ -n "$WIKIGROUP" ] && args+=(--wiki-group "$WIKIGROUP")
           [ -n "$EXTRA" ] && args+=(--extra "$EXTRA")
+          [ -n "$LIVING" ] && args+=(--living "$LIVING")
+          [ "$LIVINGONLY" = "true" ] && args+=(--living-only)
           python3 -u scripts/fetch/harvest.py "${args[@]}"
       - uses: actions/upload-artifact@v4
         if: always()
@@ -59,9 +61,9 @@ jobs:
           [ -d /tmp/sheets ] || exit 0
           cd /tmp/sheets && git init -q -b sheets && git add -A
           git -c user.name=github-actions[bot] -c user.email=41898283+github-actions[bot]@users.noreply.github.com commit -qm "Contact sheets of $VOL"
-          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "sheets:sheets/$VOL$([ "$OA" = "true" ] && echo -oa)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "sheets:sheets/$VOL$([ "$OA" = "true" ] && echo -oa)$([ "$LIVINGONLY" = "true" ] && echo -living)"
       - name: Commit raw data
-        if: always() && (env.SHEETS != 'only' || env.OA == 'true' || env.RETRY == 'true' || env.EXTRA != '')
+        if: always() && (env.SHEETS != 'only' || env.OA == 'true' || env.RETRY == 'true' || env.EXTRA != '' || env.LIVINGONLY == 'true')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

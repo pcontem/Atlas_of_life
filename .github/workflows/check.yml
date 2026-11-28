@@ -11,6 +11,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install pyyaml
       - run: python3 tests/test_census.py
+      - run: python3 tests/test_living.py
       - run: python3 scripts/fmt.py --check
       - run: python3 scripts/validate.py
       - run: python3 scripts/build.py && git diff --exit-code site/data.json site/life.json site/g site/paleo data/triage/*.json

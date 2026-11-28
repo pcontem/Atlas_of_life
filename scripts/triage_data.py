@@ -81,6 +81,8 @@ def build(vol):
     j = lambda n: json.loads((raw / n).read_text())
     genera = {r["taxon_name"]: r for r in j("pbdb_genera.json")["records"] if not r.get("flags")}
     commons = j("commons.json")["files"]
+    if (raw / "inat.json").exists():  # iNaturalist photographs of living genera (scripts/fetch/living.py), same layout
+        commons.update(j("inat.json")["files"])
     oa = j("oa_figures.json")["figures"] if (raw / "oa_figures.json").exists() else {}
     entries = {}
     for p in (ROOT / "entries" / vol / "genera").glob("*.yaml"):
@@ -94,7 +96,8 @@ def build(vol):
         for g in f["genera"]:
             by_genus.setdefault(g, []).append((title, f))
     out = []
-    for name in sorted(set(genera) | set(entries)):
+    col = j("col_living.json")["genera"] if (raw / "col_living.json").exists() else {}  # living genera PBDB lacks
+    for name in sorted(set(genera) | set(entries) | set(col)):
         e = entries.get(name)
         shown = {i.get("page") for i in (e or {}).get("images") or []}
         shown_files = {i.get("file") for i in (e or {}).get("images") or []}

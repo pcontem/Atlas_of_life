@@ -446,3 +446,11 @@ picks a source for the full list. `validate.py` H3 now also accepts home-page gr
 Volume `entries/aves2` (plan of 2026-11-25; written on the owner's request of 2026-11-27): root Neoaves attached to Neognathae of Aves I,
 with Charadriiformes and Aequornithes; the backbone node Passeriformes now hangs from Neoaves. Given its size (about 380 PBDB genera), the
 genus entries were generated as thin drafts from PBDB data, with curation notes saying so, to be rewritten from the sources batch by batch.
+
+## 2026-11-28 — Living genera in the harvest: Catalogue of Life names, Commons and iNaturalist photos
+Owner: the harvest collects names and images of living genera. Names: the Catalogue of Life (latest release, ChecklistBank
+dataset 3LR), accepted non-extinct genera under the volume's living base taxa, with authority, family and accepted living species
+(`--living`, `col_living.json`); chosen over the GBIF backbone (more provisional names) and per-group lists (one connector per
+group). Images: Wikimedia Commons, now including `Category:<Genus>` for living genera, and iNaturalist photographs whose own
+licence is CC0, CC BY or CC BY-SA (iNaturalist applies version 4.0), `inat.json`. Rule I2 now also accepts the iNaturalist photo page
+as `page`. Entries of living genera that PBDB does not list cite COL as a database source; age Holocene–present, no formations.

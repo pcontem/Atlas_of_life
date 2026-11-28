@@ -154,8 +154,9 @@ def check_genus(e, path, clade_ids, excluded_names, measure="wingspan"):
             if not i.get(k):
                 err("I2", iw, f"missing {k}")
         pg = i.get("page") or ""
-        if "commons.wikimedia.org" not in pg and not pg.startswith("https://doi.org/"):
-            err("I2", iw, "page must be the Wikimedia Commons file page or the open-access article's DOI link")
+        if "commons.wikimedia.org" not in pg and not pg.startswith("https://doi.org/") \
+                and not re.match(r"https://www\.inaturalist\.org/photos/\d+$", pg):
+            err("I2", iw, "page must be the Wikimedia Commons file page, the open-access article's DOI link or the iNaturalist photo page")
         if not LICENSE_OK.match(i.get("license") or ""):
             err("I3", iw, f"licence '{i.get('license')}' not allowed (CC0, public domain, CC BY, CC BY-SA)")
         if i.get("review") not in IMAGE_REVIEW:

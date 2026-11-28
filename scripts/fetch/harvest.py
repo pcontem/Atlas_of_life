@@ -1,6 +1,7 @@
 """Harvest the raw material for a new genus volume (runs in GitHub Actions: .github/workflows/harvest.yml).
 
     python3 scripts/fetch/harvest.py <volume> <PBDB base taxon> [--genera A,B,...] [--sheets DIR] [--papers] [--wiki-group <census group>] [--extra A,B]
+                                     [--living <COL taxa, comma-separated>] [--living-only]
 
 Writes data/raw/<volume>/ (provenance; never edited by hand):
   pbdb_genera.json    valid genera of the base taxon: authority, ages, parent/family/order, primary reference
@@ -14,6 +15,10 @@ Writes data/raw/<volume>/ (provenance; never edited by hand):
                       licence, author, description, size, thumbnail address, where it was found
   wiki_only.json      with --wiki-group: genera Wikipedia recognises (genus articles in the census categories) but PBDB lacks
   phylopic.json       per genus: the PhyloPic silhouette of the genus, or of the closest relative found
+  col_living.json     with --living: living genera of the Catalogue of Life under the given taxa (authority, family,
+                      accepted living species); those PBDB lacks are harvested too (Wikipedia, Commons, PhyloPic)
+  inat.json           with --living: CC0 / CC BY / CC BY-SA photographs of the living genera from iNaturalist, in the
+                      record layout of commons.json (scripts/fetch/living.py)
   papers.json         with --papers: per genus, scientific articles that name it (OpenAlex + Europe PMC): citation, DOI,
                       year, open-access status and licence, abstract (to find the primary literature; never copied into entries)
   oa_figures.json     with --papers (or --oa on data already harvested): figures of CC BY / CC0 articles naming the genus
@@ -256,8 +261,9 @@ def cap_for(n_species):
 
 
 def commons(wikires, names, nsp, living=()):
-    """Candidate pictures per genus, at most cap_for(species): the article's own pictures first, then (extinct
-    genera only) Category:<Genus> and its sub-categories. Living genera use the article's pictures alone."""
+    """Candidate pictures per genus, at most cap_for(species): the article's own pictures first, then
+    Category:<Genus> and its sub-categories. Living genera read the categories too (owner, 2026-11-28; before, they
+    used the article's pictures alone), after all the article's pictures."""
     files = {}
 
     def add(title, genus, where):
@@ -286,7 +292,6 @@ def commons(wikires, names, nsp, living=()):
                 if len(got) < cap and t not in got:
                     got.append(t)
                     add(t, g, "wikipedia")
-            continue
         cats = [f"Category:{g}"]
         sub = mw(COMMONS, action="query", list="categorymembers", cmtitle=f"Category:{g}", cmtype="subcat", cmlimit=15)
         cats += [c["title"] for c in sub.get("query", {}).get("categorymembers", [])]
@@ -524,7 +529,53 @@ def all_names(raw):
     n = {r["taxon_name"] for r in json.loads((raw / "pbdb_genera.json").read_text())["records"]}
     if (raw / "wiki_only.json").exists():
         n |= set(json.loads((raw / "wiki_only.json").read_text())["genera"])
+    if (raw / "col_living.json").exists():
+        n |= set(json.loads((raw / "col_living.json").read_text())["genera"])
     return sorted(n)
+
+
+COL_SOURCE = "Catalogue of Life, latest release (ChecklistBank dataset 3LR), https://api.checklistbank.org/dataset/3LR"
+INAT_SOURCE = "iNaturalist API v1 (taxon photos and species default photos; CC0, CC BY and CC BY-SA photos only)"
+
+
+def written_genera(other_than=None):
+    """Genera that already have an entry in a volume (other than `other_than`)."""
+    return {p.stem for p in (ROOT / "entries").glob("*/genera/*.yaml") if p.parts[-3] != other_than}
+
+
+def add_genera(raw, w, names, living=(), lineage=None, nsp=None, with_papers=True):
+    """Wikipedia, Commons, PhyloPic (and, with_papers, articles and open-access figures) for `names`, merged into the
+    files already harvested in `raw`. Returns the merged commons.json files."""
+    def load(f, key, default):
+        return json.loads((raw / f).read_text()) if (raw / f).exists() else {"downloaded": TODAY, key: default}
+    wk = wiki(names)
+    wiki_retry(wk)
+    old = load("wiki.json", "pages", {})
+    old["pages"].update(wk)
+    old.setdefault("added", []).append(dict(downloaded=TODAY, genera=names))
+    w("wiki.json", old)
+    files = commons(wk, names, nsp or {}, set(living))
+    oc = load("commons.json", "files", {})
+    for t, f in files.items():
+        if t in oc["files"]:
+            oc["files"][t]["genera"] = sorted(set(oc["files"][t].get("genera", [])) | set(f["genera"]))
+        else:
+            oc["files"][t] = f
+    w("commons.json", oc)
+    pl = load("phylopic.json", "silhouettes", {})
+    pl["silhouettes"].update(phylopic(names, lineage or {}))
+    w("phylopic.json", pl)
+    if with_papers:
+        pp = papers(names)
+        op = load("papers.json", "papers", {})
+        op.setdefault("sources", ["OpenAlex", "Europe PMC"])
+        op["papers"].update(pp)
+        w("papers.json", op)
+        oa = oa_figures(names)
+        of = load("oa_figures.json", "figures", {})
+        of["figures"].update(oa)
+        w("oa_figures.json", of)
+    return oc["files"]
 
 
 def main():
@@ -546,40 +597,35 @@ def main():
             oa_sheets(new, sheet_dir)
         print(f"done: {sum(len(v) for v in new.values())} figures for {len(new)} genera")
         return
+    if "--living-only" in a:  # living genera (Catalogue of Life) and their photographs, added to data already harvested
+        import living as L
+        bases = a[a.index("--living") + 1].split(",")
+        inv = {r["taxon_name"] for r in json.loads((raw / "pbdb_invalid.json").read_text())["records"]} if (raw / "pbdb_invalid.json").exists() else set()
+        known = set(all_names(raw))
+        col = L.col_genera(fetch_json, bases, skip=inv)
+        w("col_living.json", dict(downloaded=TODAY, source=COL_SOURCE, bases=bases, genera=col))
+        new = sorted(set(col) - known - written_genera())
+        print(f"{len(col)} living genera in COL, {len(new)} not yet harvested: {', '.join(new[:40])}{' …' if len(new) > 40 else ''}")
+        lineage = {g: [x for x in (col[g]["family"], col[g]["order"]) if x] for g in new}
+        files = add_genera(raw, w, new, living=set(new), lineage=lineage, nsp={g: len(col[g]["species"]) for g in new}, with_papers=False)
+        pb = json.loads((raw / "pbdb_genera.json").read_text())["records"] if (raw / "pbdb_genera.json").exists() else []
+        living = (set(col) | {r["taxon_name"] for r in pb if r.get("is_extant") in ("extant", True, 1, "1")}) - written_genera(other_than=vol)
+        nsp = {g: max(len(col.get(g, {}).get("species", [])), 1) for g in living}
+        inat = L.inat_photos(fetch_json, sorted(living), bases, cap=lambda g: cap_for(nsp.get(g, 0)))
+        w("inat.json", dict(downloaded=TODAY, source=INAT_SOURCE, files=inat))
+        if sheet_dir:
+            allf = json.loads((raw / "commons.json").read_text())["files"]
+            allf.update(inat)
+            sheets(allf, sorted(set(new) | living), sheet_dir)
+        print(f"done: {len(new)} new living genera, {len(inat)} iNaturalist photos for {len(living)} living genera")
+        return
     if "--extra" in a:  # genera that PBDB does not list as valid (Wikipedia-only, backbone nodes): added to data already harvested
         names = a[a.index("--extra") + 1].split(",")
         print(f"Extra genera by name: {names}")
-        def load(f, key, default):
-            return json.loads((raw / f).read_text()) if (raw / f).exists() else {"downloaded": TODAY, key: default}
-        wk = wiki(names)
-        wiki_retry(wk)
-        old = load("wiki.json", "pages", {})
-        old["pages"].update(wk)
-        old["extra"] = dict(downloaded=TODAY, genera=names)
-        w("wiki.json", old)
-        files = commons(wk, names, {}, ())
-        oc = load("commons.json", "files", {})
-        for t, f in files.items():
-            if t in oc["files"]:
-                oc["files"][t]["genera"] = sorted(set(oc["files"][t].get("genera", [])) | set(f["genera"]))
-            else:
-                oc["files"][t] = f
-        w("commons.json", oc)
-        pl = load("phylopic.json", "silhouettes", {})
-        pl["silhouettes"].update(phylopic(names, {}))
-        w("phylopic.json", pl)
-        pp = papers(names)
-        op = load("papers.json", "papers", {})
-        op.setdefault("sources", ["OpenAlex", "Europe PMC"])
-        op["papers"].update(pp)
-        w("papers.json", op)
-        oa = oa_figures(names)
-        of = load("oa_figures.json", "figures", {})
-        of["figures"].update(oa)
-        w("oa_figures.json", of)
+        files = add_genera(raw, w, names, with_papers=True)
         if sheet_dir:
             sheets(files, names, sheet_dir)
-        print(f"done: {len(names)} extra genera, {len(files)} Commons files, {sum(len(v) for v in pp.values())} articles")
+        print(f"done: {len(names)} extra genera, {len(files)} Commons files")
         return
     if "--wiki-retry" in a:  # second try for wrong Wikipedia pages, on data already harvested
         wf = raw / "wiki.json"
@@ -590,6 +636,8 @@ def main():
         return
     if "--sheets-only" in a:  # contact sheets from data already harvested
         files = json.loads((raw / "commons.json").read_text())["files"]
+        if (raw / "inat.json").exists():
+            files.update(json.loads((raw / "inat.json").read_text())["files"])
         names = only or all_names(raw)
         sheets(files, names, sheet_dir)
         return
@@ -604,6 +652,16 @@ def main():
         w("wiki_only.json", dict(downloaded=TODAY, group=a[a.index("--wiki-group") + 1], genera=wo))
         print(f"{len(wo)} genera known to Wikipedia but not valid in PBDB: {', '.join(sorted(wo))}")
         names = sorted(set(names) | set(wo))
+    col, bases_l = {}, []
+    if "--living" in a:  # living genera of the Catalogue of Life (PBDB only knows those with a fossil record)
+        import living as L
+        bases_l = a[a.index("--living") + 1].split(",")
+        col = L.col_genera(fetch_json, bases_l, skip={r["taxon_name"] for r in inv} | written_genera(other_than=vol))
+        if only:
+            col = {g: d for g, d in col.items() if g in only}
+        w("col_living.json", dict(downloaded=TODAY, source=COL_SOURCE, bases=bases_l, genera=col))
+        print(f"{len(col)} living genera in COL, {len(set(col) - set(names))} of them not in PBDB")
+        names = sorted(set(names) | set(col))
     w("pbdb_genera.json", dict(downloaded=TODAY, base=base, records=gen))
     w("pbdb_species.json", dict(downloaded=TODAY, base=base, species=species))
     w("pbdb_invalid.json", dict(downloaded=TODAY, base=base, records=inv))
@@ -616,14 +674,23 @@ def main():
     wiki_retry(wk)
     w("wiki.json", dict(downloaded=TODAY, pages=wk))
     print("Commons…", flush=True)
-    living = {r["taxon_name"] for r in gen if r.get("is_extant") in ("extant", True, 1, "1")}
+    living = {r["taxon_name"] for r in gen if r.get("is_extant") in ("extant", True, 1, "1")} | set(col)
     nsp = {g: len(v) for g, v in species.items()}
-    print(f"{len(living)} living genera (article pictures only); at most max(15, species) candidates per genus")
+    for g, d in col.items():
+        nsp[g] = max(nsp.get(g, 0), len(d["species"]))
+    print(f"{len(living)} living genera; at most max(15, species) candidates per genus")
     files = commons(wk, names, nsp, living)
     w("commons.json", dict(downloaded=TODAY, files=files))
+    if col:
+        print("iNaturalist photographs of the living genera…")
+        inat = L.inat_photos(fetch_json, sorted(living & set(names)), bases_l, cap=lambda g: cap_for(nsp.get(g, 0)))
+        w("inat.json", dict(downloaded=TODAY, source=INAT_SOURCE, files=inat))
+        files = dict(files, **inat)
     print("PhyloPic…")
     lineage = {r["taxon_name"]: [x for x in (r.get("family"), r.get("parent_name"), r.get("order")) if x and x != "NO_FAMILY_SPECIFIED"]
                for r in gen}
+    for g, d in col.items():
+        lineage.setdefault(g, [x for x in (d["family"], d["order"]) if x])
     w("phylopic.json", dict(downloaded=TODAY, silhouettes=phylopic(names, lineage)))
     if "--papers" in a:
         print("Scientific articles…")
@@ -638,7 +705,7 @@ def main():
     if sheet_dir:
         print("Contact sheets…")
         sheets(files, names, sheet_dir)
-    print(f"done: {len(names)} genera, {len(rows)} occurrences, {len(files)} Commons files")
+    print(f"done: {len(names)} genera, {len(rows)} occurrences, {len(files)} candidate pictures (Commons and iNaturalist)")
 
 
 if __name__ == "__main__":

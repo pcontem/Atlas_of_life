@@ -38,7 +38,10 @@ def raw(vol):
         occ[p[0]].append(p)
     return dict(gen=gen, sp=j("pbdb_species.json")["species"], occ=occ, cols=j("pbdb_colls.json")["cols"],
                 wiki=j("wiki.json")["pages"], wiki_date=j("wiki.json")["downloaded"],
-                commons=j("commons.json")["files"], sil=j("phylopic.json")["silhouettes"],
+                commons=dict(j("commons.json")["files"], **(j("inat.json")["files"] if (d / "inat.json").exists() else {})),
+                col=j("col_living.json")["genera"] if (d / "col_living.json").exists() else {},
+                col_date=j("col_living.json")["downloaded"] if (d / "col_living.json").exists() else "",
+                sil=j("phylopic.json")["silhouettes"],
                 pbdb_date=j("pbdb_genera.json")["downloaded"],
                 papers=j("papers.json")["papers"] if (d / "papers.json").exists() else {})
 
@@ -87,6 +90,9 @@ def authority(attr):
 
 
 def species(R, g, keep=None):
+    if not R["sp"].get(g) and R.get("col", {}).get(g):  # living genus without PBDB species: accepted living species of COL
+        return [dict(name=x["name"], authority=authority(x.get("authority")), first_ma=None, last_ma=None, interval="",
+                     reference="") for x in R["col"][g]["species"] if keep is None or x["name"].split()[-1] in keep]
     out = []
     for s in sorted(R["sp"].get(g, []), key=lambda s: s["taxon_name"]):
         if keep is not None and s["taxon_name"].split()[-1] not in keep:
@@ -136,6 +142,11 @@ def img_kind(t, f):
     return None
 
 
+def living(R, g):
+    """True for living genera: listed by the Catalogue of Life harvest, or living in PBDB."""
+    return g in R.get("col", {}) or (R["gen"].get(g) or {}).get("is_extant") == "extant"
+
+
 def auto_images(R, g, maxn=8):
     """Suggested gallery: candidates named after the genus, not charts/maps/models, kind guessed from the text."""
     out = []
@@ -143,9 +154,12 @@ def auto_images(R, g, maxn=8):
         lic = f.get("LicenseShortName", "")
         if not re.match(r"(CC0|Public domain|CC BY(-SA)? \d|CC BY-SA \d|CC BY \d|PD)", lic, re.I) or "NC" in lic or "ND" in lic:
             continue
-        if BAD_IMG.search(t) or BAD_IMG.search(f.get("ImageDescription", "")[:80]) or g.lower() not in (t + f.get("ImageDescription", "")).lower():
+        if BAD_IMG.search(t) or BAD_IMG.search(f.get("ImageDescription", "")[:80]) or (g.lower() not in (t + f.get("ImageDescription", "")).lower()
+                                                                                      and f.get("source") != "iNaturalist"):
             continue
         kd = img_kind(t, f)
+        if f.get("source") == "iNaturalist" or (not kd and living(R, g)):
+            kd = "photo" if f.get("source") == "iNaturalist" or not kd else kd
         if kd:
             out.append((k, kd))
     return out[:maxn]
@@ -310,6 +324,16 @@ def write(R, vol, batch, force=False):
         if r:
           sources.append(dict(kind="database", text=f"Paleobiology Database — taxon and occurrence records for {g} (downloaded {R['pbdb_date']}).",
                               url=f"https://paleobiodb.org/classic/basicTaxonInfo?taxon_name={g}"))
+        c = R.get("col", {}).get(g)
+        if c:  # living genus listed by the Catalogue of Life (authority, species)
+            sources.append(dict(kind="database", text=f"Catalogue of Life, latest release — {g} {c.get('authority', '')}".strip()
+                                + f" and its accepted living species (downloaded {R['col_date']}).", url=c["url"]))
+            h.setdefault("extant", True)
+            if not r:
+                h.setdefault("authority", authority(c.get("authority")).strip("()"))
+                h.setdefault("first_ma", 0.0117); h.setdefault("last_ma", 0.0); h.setdefault("early_interval", "Holocene")
+                h.setdefault("age_note", "Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.")
+                h.setdefault("notes", []).append("Living genus with no PBDB record: authority and species from the Catalogue of Life, formations left empty.")
         if w and not w.get("missing") and h.get("use_wiki", True):
             sources.append(dict(kind="encyclopedia", text=f"Wikipedia contributors. “{w['title']}”. English Wikipedia, revision {w['revid']}.",
                                 url=f"https://en.wikipedia.org/w/index.php?title={w['title'].replace(' ', '_')}&oldid={w['revid']}"))
