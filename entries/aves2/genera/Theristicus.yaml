@@ -67,15 +67,6 @@ images:
   height: 3171
   review: unreviewed
   local: img/gallery/Theristicus_001.webp
-silhouette:
-  src: https://images.phylopic.org/images/2ff89ea0-aadb-4fb7-bdc0-c60f94f89b48/vector.svg
-  png: null
-  page: https://www.phylopic.org/images/2ff89ea0-aadb-4fb7-bdc0-c60f94f89b48
-  attribution: Robert Cooke
-  license: https://creativecommons.org/publicdomain/zero/1.0/
-  depicts: Theristicus wetmorei
-  matched: Theristicus
-  genus_level: true
 sources:
 - kind: original
   text: K. E. Campbell. 1979. The non-passerine Pleistocene avifauna of the Talara Tar Seeps, northwestern Peru.
@@ -94,4 +85,5 @@ curation:
   notes:
   - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
     complete from the original description.'
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
   reviews: []
