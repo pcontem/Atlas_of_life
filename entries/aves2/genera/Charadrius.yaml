@@ -265,6 +265,7 @@ images:
   width: 4752
   height: 3168
   review: unreviewed
+  local: img/gallery/Charadrius_001.webp
 silhouette:
   src: https://images.phylopic.org/images/2ff4c7f3-d403-407d-a430-e0e2bc54fab0/vector.svg
   png: https://images.phylopic.org/images/2ff4c7f3-d403-407d-a430-e0e2bc54fab0/raster/512x353.png
@@ -274,6 +275,8 @@ silhouette:
   depicts: Charadrius
   matched: Charadrius
   genus_level: true
+  w: 512
+  h: 353
 sources:
 - kind: original
   text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum

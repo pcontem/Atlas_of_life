@@ -114,6 +114,7 @@ images:
   width: 3480
   height: 3480
   review: unreviewed
+  local: img/gallery/Vanellus_001.webp
 silhouette:
   src: https://images.phylopic.org/images/8a5c8cde-0cd7-4ed6-876d-2415da7c00d6/vector.svg
   png: https://images.phylopic.org/images/8a5c8cde-0cd7-4ed6-876d-2415da7c00d6/raster/512x512.png
@@ -123,6 +124,8 @@ silhouette:
   depicts: Vanellus coronatus
   matched: Vanellus
   genus_level: true
+  w: 512
+  h: 512
 sources:
 - kind: original
   text: L. Dollo. 1909. The fossil vertebrates of Belgium. Annals of the New York Academy of Science 19(4):99-119
