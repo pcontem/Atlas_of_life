@@ -1,0 +1,69 @@
+name: Neogaeornis
+rank: genus
+parent: neognathae
+incertae_sedis: true
+placement_note: Placed in Vegaviidae or compared with loons
+authority: Lambrecht 1929
+type_species: Neogaeornis wetzeli
+type_species_note: The only valid species listed by PBDB.
+summary: Controversial Maastrichtian diving bird.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Neogaeornis wetzeli
+  authority: Lambrecht 1929
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Quiriquina
+  group: Arauco
+  members: []
+  country: Chile
+  regions: [Concepcíon]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: quiriquina-chile
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/vector.svg
+  png: https://images.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91/raster/512x417.png
+  page: https://www.phylopic.org/images/c90266aa-88c4-4a2d-ae52-dfaa1af27c91
+  attribution: Matt Martyniuk
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Vegavis iaai
+  matched: Vegaviidae
+  genus_level: false
+sources:
+- kind: original
+  text: K. Lambrecht. 1929. Neogaeornis wetzeli, n. g., n. s., der erste Kreidevogel der südlichen Hemisphäre [Neogaeornis
+    wetzeli n. g. n. sp. the first Cretaceous bird from the Southern Hemisphere]. Paläontologische Zeitschrift 11:121-128
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neogaeornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neogaeornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Neogaeornis”. English Wikipedia, revision 1385838434.
+  url: https://en.wikipedia.org/w/index.php?title=Neogaeornis&oldid=1385838434
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

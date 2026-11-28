@@ -1,0 +1,66 @@
+name: Litoripes
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison and Walker 1979
+type_species: Litoripes medius
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct phasianid genus recorded in PBDB from the Lutetian of United Kingdom.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 48.07
+  last_ma: 41.03
+  early_interval: Lutetian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Litoripes medius
+  authority: Harrison and Walker 1979
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: Bracklesham
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Lutetian
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: bracklesham-group-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. J. O. Harrison and C. A. Walker. 1979. Birds of the British Middle Eocene. Tertiary Research 5:19-27
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Litoripes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Litoripes
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

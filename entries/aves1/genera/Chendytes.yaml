@@ -1,0 +1,120 @@
+name: Chendytes
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Miller 1925
+type_species: Chendytes lawi
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Goose-sized flightless sea duck of the California coast in the Pleistocene and Holocene.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 31
+  note: ''
+species:
+- name: Chendytes lawi
+  authority: Miller 1925
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Chendytes milleri
+  authority: Howard 1955
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 23
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-crannell-junction-united-states
+  - unnamed-laguna-creek-midden-united-states
+  - unnamed-malaga-cove-midden-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+  - unnamed-san-miguel-united-states
+  - unnamed-san-nicolas-island-united-states
+- formation: Palos Verdes Sand
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Rancholabrean–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.21]
+  id: palos-verdes-sand-united-states
+- formation: San Pedro
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.774]
+  id: san-pedro-united-states
+- formation: Port Orford
+  group: ''
+  members: []
+  country: United States
+  regions: [Oregon]
+  interval: Pleistocene
+  occurrences: 2
+  ma: [0.0117, 2.58]
+  id: port-orford-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Flightless; dived for food along the coast (Wikipedia revision cited).
+images:
+- kind: life
+  file: Chendytes lawi.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/9/96/Chendytes_lawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chendytes_lawi.jpg
+  artist: The original uploader was Apokryltaros at English Wikipedia .
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  date: 28 October
+  caption: Chendytes lawi (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 382
+  height: 500
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/5464174e-a7b8-4b33-b455-466c71b48eab/vector.svg
+  png: https://images.phylopic.org/images/5464174e-a7b8-4b33-b455-466c71b48eab/raster/771x1024.png
+  page: https://www.phylopic.org/images/5464174e-a7b8-4b33-b455-466c71b48eab
+  attribution: Scott Reid
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Chendytes
+  matched: Chendytes
+  genus_level: true
+sources:
+- kind: original
+  text: L. Miller. 1925. Chendytes, a diving goose from the California Pleistocene. Condor 27:145-147
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chendytes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chendytes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chendytes”. English Wikipedia, revision 1352797639.
+  url: https://en.wikipedia.org/w/index.php?title=Chendytes&oldid=1352797639
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

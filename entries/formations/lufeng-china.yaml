@@ -5,38 +5,59 @@ group: ''
 country: China
 regions: [Yunnan]
 location:
-  lat: 25.173
-  lng: 102.097
-  basis: median of 21 PBDB collections that yielded the atlas genera
+  lat: 25.171
+  lng: 102.102
+  basis: median of 36 PBDB collections that yielded the atlas genera
 age:
   first_ma: 201.4
-  last_ma: 174.7
+  last_ma: 7.246
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., '"floodplain"', lacustrine - small]
-lithology: [not reported, mudstone, siltstone, sandstone]
+environment:
+- terrestrial indet.
+- lacustrine indet.
+- '"floodplain"'
+- lacustrine - small
+- fluvial-lacustrine indet.
+lithology: [not reported, mudstone, '"shale"', siltstone]
 pbdb_collections:
+- '11798'
+- '25125'
+- '46903'
+- '47081'
 - '49501'
 - '49503'
 - '49773'
+- '49775'
+- '49776'
 - '49777'
+- '51909'
 - '55275'
 - '59348'
 - '59352'
 - '66926'
 - '71802'
 - '71803'
+- '71907'
 - '72091'
 - '78993'
 - '78994'
 - '94783'
+- '100542'
+- '101071'
 - '137007'
 - '137128'
 - '137353'
 - '173377'
 - '194385'
+- '200934'
 - '206023'
+- '229976'
+- '229977'
+- '237360'
+- '238380'
 - '278620'
-includes: []
+includes:
+- PBDB collection “Lufeng” has no formation but is a locality of the Lufeng.
 summary: ''
 paleoenvironment: ''
 sources:

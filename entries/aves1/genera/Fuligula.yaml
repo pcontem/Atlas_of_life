@@ -1,0 +1,67 @@
+name: Fuligula
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Stephens 1824
+type_species: Fuligula arctina
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct anatid genus recorded in PBDB from the Piacenzian of Italy.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 3.6
+  last_ma: 2.58
+  early_interval: Piacenzian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Fuligula arctina
+  authority: Portis 1887
+  first_ma: 3.6
+  last_ma: 2.58
+  interval: Piacenzian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: unnamed-orciano-pisano-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Portis. 1887. Contirbuzioni alla Ornitolitologia Italiana. Memorie della Reale Accademie della Scienze
+    di Torino ser. 2(36):181-203
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Fuligula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Fuligula
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

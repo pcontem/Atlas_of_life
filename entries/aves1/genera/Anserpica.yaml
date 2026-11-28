@@ -1,0 +1,68 @@
+name: Anserpica
+rank: genus
+parent: anseranatidae
+incertae_sedis: false
+placement_note: ''
+authority: Mourer-Chauviré et al. 2004
+type_species: Anserpica kiliani
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct magpie-goose genus recorded in PBDB from the Rupelian of France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 33.9
+  last_ma: 27.3
+  early_interval: Rupelian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Anserpica kiliani
+  authority: Mourer-Chauviré et al. 2004
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Allier]
+  interval: Rupelian
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: unnamed-crechy-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32/vector.svg
+  png: https://images.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32/raster/512x389.png
+  page: https://www.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32
+  attribution: Neville William Cayley
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Anseranas semipalmata
+  matched: Anseranatidae
+  genus_level: false
+sources:
+- kind: original
+  text: "C. Mourer-Chauviré, D. Berthet, and M. Hugueney. 2004. \r\nThe late Oligocene birds of the Créchy quarry\
+    \ (Allier, France), with a description of two new genera (Aves: Pelecaniformes: Phalacrocoracidae, and Anseriformes:\
+    \ Anseranatidae). Senckenbergiana lethaea 84(1/2):303-315"
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anserpica (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anserpica
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

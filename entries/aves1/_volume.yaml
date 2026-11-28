@@ -1,0 +1,19 @@
+title: Aves I (Palaeognathae and Galloanserae)
+root: aves
+attach_to: ornithurae
+built: '2026-11-28'
+size_measure: length
+method: Ages, authorities, species and formations from the Paleobiology Database; descriptive data paraphrased from
+  the cited literature and English Wikipedia; scientific articles found through OpenAlex and Europe PMC (data/raw/aves1/papers.json);
+  images from Wikimedia Commons and PhyloPic with their licences. Classification from recent phylogenetic analyses
+  checked against PBDB (docs/TREE_REVIEW.md). Genus list checked against PBDB, Wikipedia and recent literature by
+  the census of 2026-11-27 (data/raw/census/aves1). The volume holds the root of the crown group (Aves) with its
+  two first branches written so far, the palaeognaths (tinamous, ratites and their fossil relatives) and the Galloanserae
+  (waterfowl and landfowl), living and fossil genera, Mesozoic crown birds of these groups included. Living genera
+  that PBDB does not list (no fossil record) are not yet included. Ichnogenera and oogenera are not included.
+restoration_checks:
+- plumage, bill and feet match the living relatives and the known material (no teeth in crown birds)
+- wing size agrees with the evidence for flight or flightlessness (keel-less sternum and reduced wings in ratites,
+  moa without wing bones)
+- body proportions and posture follow the skeleton (moa carried the head forward rather than upright)
+- for living genera, photographs (kind photo) are preferred to restorations

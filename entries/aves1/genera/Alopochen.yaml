@@ -1,0 +1,109 @@
+name: Alopochen
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Stejneger 1885
+type_species: Alopochen aegyptiaca
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living genus of sheldgeese, including the Egyptian goose, recorded in PBDB from the Pleistocene.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Alopochen aegyptiaca
+  authority: Linnaeus 1766
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Alopochen kervazoi
+  authority: (Cowles 1994)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Alopochen mauritianus
+  authority: (Newton and Gadow 1893)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Alopochen sirabensis
+  authority: (Andrews 1897)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 6
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-ampasambazimba-madagascar
+  - unnamed-locality-ii-sw-of-ampoza-madagascar
+  - unnamed-sirabe-madagascar
+  - unnamed-tsaramody-village-l3-madagascar
+  - unnamed-vintany-cave-tsimanampesotse-national-park-madagascar
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: RE
+  regions: []
+  interval: Holocene
+  occurrences: 5
+  ma: [0.0, 0.0117]
+  id: unnamed-grotte-des-premiers-francais-bed-5-re
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mauritius
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-mare-aux-songes-swamp-mauritius
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/0ce048be-81f6-43e1-9099-578b4037526f/vector.svg
+  png: https://images.phylopic.org/images/0ce048be-81f6-43e1-9099-578b4037526f/raster/995x1024.png
+  page: https://www.phylopic.org/images/0ce048be-81f6-43e1-9099-578b4037526f
+  attribution: LordToran
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Alopochen aegyptiaca
+  matched: Alopochen
+  genus_level: true
+sources:
+- kind: original
+  text: P. Brodkorb. 1964. Catalogue of Fossil Birds. Part 2 (Anseriformes through Galliformes). Bulletin of the
+    Florida State Museum, Biological Sciences 8(3):195-335
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alopochen (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alopochen
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Authority year 1885 filled from general knowledge (PBDB gives only Stejneger); check.
+  reviews: []

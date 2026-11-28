@@ -1,0 +1,107 @@
+name: Bonasa
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Stephens 1819
+type_species: Bonasa umbellus
+type_species_note: The only valid species listed by PBDB.
+summary: The ruffed grouse, a forest grouse from the Appalachians across Canada to Alaska.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 1.8
+  last_ma: 0
+  early_interval: Calabrian
+  late_interval: Holocene
+  pbdb_occurrences: 17
+  note: ''
+species:
+- name: Bonasa umbellus
+  authority: (Linnaeus 1766)
+  first_ma: 1.4
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alabama, California, Florida, Georgia, Maryland, Ohio, Tennessee, Virginia]
+  interval: Irvingtonian–Late Pleistocene
+  occurrences: 14
+  ma: [0.0117, 1.4]
+  id:
+  - unnamed-bell-cave-united-states
+  - unnamed-canter-s-caves-united-states
+  - unnamed-cheek-bend-cave-united-states
+  - unnamed-clark-s-cave-united-states
+  - unnamed-cumberland-cave-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-kettle-hill-cave-united-states
+  - unnamed-kingston-saltpeter-cave-united-states
+  - unnamed-natural-chimneys-united-states
+  - unnamed-potter-creek-cave-united-states
+  - unnamed-strait-canyon-united-states
+- formation: American Falls Lake Bed E
+  group: ''
+  members: []
+  country: United States
+  regions: [Idaho]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: american-falls-lake-bed-e-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Palencia]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: unnamed-sima-del-elefante-te7-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Canada
+  regions: [Quebec]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-hector-trudel-site-pointe-du-buisson-canada
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Wetmore. 1962. Notes on fossil and subfossil birds. Smithsonian Miscellaneous Collections 145(2):1-17
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bonasa (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bonasa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ruffed grouse”. English Wikipedia, revision 1387264317.
+  url: https://en.wikipedia.org/w/index.php?title=Ruffed_grouse&oldid=1387264317
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,126 @@
+name: Apteryx
+rank: genus
+parent: apterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Huxley 1867
+type_species: Apteryx australis
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Kiwis, five living species of small flightless nocturnal birds endemic to New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 24
+  note: ''
+species:
+- name: Apteryx australis
+  authority: Shaw 1813
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Apteryx haastii
+  authority: Potts 1872
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Apteryx mantelli
+  authority: Bartlett 1851
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Apteryx owenii
+  authority: Gould 1847
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Apteryx rowi
+  authority: Tennyson et al. 2003
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene–Holocene
+  occurrences: 22
+  ma: [0.0, 0.129]
+  id: [unnamed-kings-cave-new-zealand, unnamed-netherton-cave-new-zealand]
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: About the size of a domestic chicken, the smallest living ratites.
+images:
+- kind: fossil
+  file: Euryapteryx.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Euryapteryx.jpg/960px-Euryapteryx.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Euryapteryx.jpg
+  artist: FunkMonk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012'
+  caption: Euryapteryx (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2097
+  height: 1513
+  review: unreviewed
+- kind: fossil
+  file: TeTuatahianui.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/8/82/TeTuatahianui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:TeTuatahianui.jpg
+  artist: Maungatautari Ecological Island Trust
+  license: Public domain
+  license_url: ''
+  date: 24 July 20
+  caption: TeTuatahianui (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 994
+  height: 1325
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/ad7d0f80-889e-4dba-a89d-c864f2f48184/vector.svg
+  png: https://images.phylopic.org/images/ad7d0f80-889e-4dba-a89d-c864f2f48184/raster/512x460.png
+  page: https://www.phylopic.org/images/ad7d0f80-889e-4dba-a89d-c864f2f48184
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Apteryx australis
+  matched: Apteryx
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Apteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Apteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kiwi (bird)”. English Wikipedia, revision 1387680210.
+  url: https://en.wikipedia.org/w/index.php?title=Kiwi_(bird)&oldid=1387680210
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

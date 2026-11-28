@@ -1,0 +1,108 @@
+name: Numida
+rank: genus
+parent: numididae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1766
+type_species: Numida meleagris
+type_species_note: The only valid species listed by PBDB.
+summary: The helmeted guinea fowl of Africa, the best known guinea fowl.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 21
+  note: ''
+species:
+- name: Numida meleagris
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Vogel River Series
+  group: ''
+  members: [Laetoli Beds (upper)]
+  country: Tanzania
+  regions: [Eastern Drift Valley]
+  interval: Zanclean–Gelasian
+  occurrences: 8
+  ma: [1.8, 5.333]
+  id: vogel-river-series-tanzania
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: [Beanka, Toliara]
+  interval: Late Pleistocene–Holocene
+  occurrences: 7
+  ma: [0.0, 0.129]
+  id:
+  - unnamed-andrahomana-cave-madagascar
+  - unnamed-anjohingidrobe-cave-madagascar
+- formation: Nubia
+  group: ''
+  members: []
+  country: Sudan
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: nubia-sudan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Sudan
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: [unnamed-esh-shaheinab-sudan, unnamed-shaqadud-s1-a-sudan]
+- formation: Swartkrans
+  group: Transvaal
+  members: [31-2]
+  country: South Africa
+  regions: []
+  interval: Early Pleistocene
+  occurrences: 1
+  ma: [0.774, 2.58]
+  id: swartkrans-south-africa
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f7200232-d635-4d79-bcaa-a59867376d09/vector.svg
+  png: https://images.phylopic.org/images/f7200232-d635-4d79-bcaa-a59867376d09/raster/512x315.png
+  page: https://www.phylopic.org/images/f7200232-d635-4d79-bcaa-a59867376d09
+  attribution: Matías Muñoz
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Numida meleagris
+  matched: Numida
+  genus_level: true
+sources:
+- kind: original
+  text: 'B. C. Livezey and R. L. Zusi. 2007. Higher-order phylogeny of modern birds (Theropoda, Aves: Neornithes)
+    based on comparative anatomy. II. Analysis and discussion. Zoological Journal of the Linnean Society 149(1):1-95'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Numida (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Numida
+- kind: encyclopedia
+  text: Wikipedia contributors. “Helmeted guinea fowl”. English Wikipedia, revision 1387261777.
+  url: https://en.wikipedia.org/w/index.php?title=Helmeted_guinea_fowl&oldid=1387261777
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

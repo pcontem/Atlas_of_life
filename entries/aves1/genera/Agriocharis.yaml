@@ -1,0 +1,108 @@
+name: Agriocharis
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Chapman 1896
+type_species: Agriocharis ocellata
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: The ocellated turkey of the Yucatán Peninsula, Belize and Guatemala, sometimes included in Meleagris.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 0
+  early_interval: Aquitanian
+  late_interval: Chibanian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Agriocharis anza
+  authority: Howard 1963
+  first_ma: 1.4
+  last_ma: 0.129
+  interval: Calabrian–Chibanian
+  reference: ''
+- name: Agriocharis ocellata
+  authority: (Cuvier 1820)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Agriocharis progenes
+  authority: Brodkorb 1964
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+formations:
+- formation: Seymour
+  group: ''
+  members: []
+  country: United States
+  regions: [Texas]
+  interval: Irvingtonian
+  occurrences: 1
+  ma: [0.21, 1.4]
+  id: seymour-united-states
+- formation: Rexroad
+  group: ''
+  members: [upper]
+  country: United States
+  regions: [Kansas]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: rexroad-united-states
+- formation: Palm Springs
+  group: ''
+  members: [upper]
+  country: United States
+  regions: [California]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: palm-springs-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Arizona]
+  interval: Neogene
+  occurrences: 1
+  ma: [2.58, 23.04]
+  id: unnamed-benson-south-2-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/vector.svg
+  png: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/raster/556x1024.png
+  page: https://www.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Ortalis cinereiceps
+  matched: Galliformes
+  genus_level: false
+sources:
+- kind: original
+  text: P. Brodkorb. 1964. Notes on fossil turkeys. Quarterly Journal of the Florida Academy of Sciences 27(3):223-229
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Agriocharis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Agriocharis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ocellated turkey”. English Wikipedia, revision 1388150287.
+  url: https://en.wikipedia.org/w/index.php?title=Ocellated_turkey&oldid=1388150287
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

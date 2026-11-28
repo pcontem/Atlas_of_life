@@ -1,0 +1,136 @@
+name: Miophasianus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Lambrecht 1933
+type_species: Miophasianus altus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Extinct phasianid genus recorded in PBDB from the Aquitanian–Messinian of France, Hungary, Slovakia, Spain,
+  Ukraine.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 6.965
+  early_interval: Aquitanian
+  late_interval: Messinian
+  pbdb_occurrences: 10
+  note: ''
+species:
+- name: Miophasianus altus
+  authority: (Milne-Edwards 1871)
+  first_ma: 16.9
+  last_ma: 11.1
+  interval: Burdigalian–Tortonian
+  reference: ''
+- name: Miophasianus medius
+  authority: (Milne-Edwards 1871)
+  first_ma: 12.75
+  last_ma: 8.725
+  interval: Serravallian–Tortonian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Cataluña]
+  interval: MN 7 + 8–MN 10
+  occurrences: 3
+  ma: [8.725, 12.75]
+  id: unnamed-hostalets-de-pierola-inferior-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Slovakia
+  regions: []
+  interval: Badenian
+  occurrences: 1
+  ma: [12.8, 13.82]
+  id: unnamed-devinska-nova-ves-sandberg-slovakia
+- formation: Edelény
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Borsod-Abaúj-Zemplén]
+  interval: MN 9
+  occurrences: 1
+  ma: [9.67, 11.1]
+  id: edeleny-hungary
+- formation: Córcoles
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castile-La Mancha]
+  interval: Early Miocene–Middle Miocene
+  occurrences: 1
+  ma: [11.63, 23.04]
+  id: corcoles-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Rhône-Alpes]
+  interval: MN 5–MN 7 + 8
+  occurrences: 1
+  ma: [11.1, 15.98]
+  id: unnamed-la-grive-saint-alban-france
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ukraine
+  regions: [Odessa]
+  interval: MN 12
+  occurrences: 1
+  ma: [6.965, 7.9]
+  id: unnamed-belka-ukraine
+- formation: Miocene Lower Continental Complex
+  group: Valles-Penedes basin
+  members: []
+  country: Spain
+  regions: [Catalonia]
+  interval: MN 4
+  occurrences: 1
+  ma: [15.98, 16.9]
+  id: miocene-lower-continental-complex-spain
+- formation: Detritic-Carbonated Unit of Subirats
+  group: ''
+  members: []
+  country: Spain
+  regions: [Catalonia]
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: detritic-carbonated-unit-of-subirats-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: K. Lambrecht. 1933. Handbuch der Palaeornithologie.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Miophasianus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Miophasianus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

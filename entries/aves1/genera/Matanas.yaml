@@ -1,0 +1,69 @@
+name: Matanas
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Worthy et al. 2007
+type_species: Matanas enrighti
+type_species_note: The only valid species listed by PBDB.
+summary: Duck from the Miocene St Bathans Fauna of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.7
+  last_ma: 15.9
+  early_interval: Burdigalian
+  late_interval: Langhian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Matanas enrighti
+  authority: Worthy et al. 2007
+  first_ma: 18.7
+  last_ma: 15.9
+  interval: Burdigalian–Langhian
+  reference: original description
+formations:
+- formation: Bannockburn
+  group: Manuherikia
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Altonian
+  occurrences: 2
+  ma: [15.9, 18.7]
+  id: bannockburn-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: T. H. Worthy, A. J. D. Tennyson, and C. Jones, J. A. McNamara, B. J. Douglas. 2007. Miocene waterfowl and
+    other birds from central Otago, New Zealand. Journal of Systematic Palaeontology 5(1):1-39
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Matanas (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Matanas
+- kind: encyclopedia
+  text: Wikipedia contributors. “Matanas”. English Wikipedia, revision 1385812167.
+  url: https://en.wikipedia.org/w/index.php?title=Matanas&oldid=1385812167
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

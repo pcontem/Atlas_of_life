@@ -1,0 +1,83 @@
+name: Cereopsis
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Latham 1801
+type_species: Cereopsis novaehollandiae
+type_species_note: The only valid species listed by PBDB.
+summary: The Cape Barren goose, a large grey, mostly terrestrial goose endemic to southern Australia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cereopsis novaehollandiae
+  authority: Latham 1801
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Allingham
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: allingham-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Cape Barren Nest with Eggs.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cape_Barren_Nest_with_Eggs.JPG/960px-Cape_Barren_Nest_with_Eggs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cape_Barren_Nest_with_Eggs.JPG
+  artist: Peripitus
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  date: 2008-06
+  caption: Cape Barren Nest with Eggs (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 1900
+  height: 1272
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/d44f0bbb-4559-4d8f-b7d6-726d98f64b3f/vector.svg
+  png: null
+  page: https://www.phylopic.org/images/d44f0bbb-4559-4d8f-b7d6-726d98f64b3f
+  attribution: Guillaume Dera
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Bellonella rubistella
+  matched: Cereopsis
+  genus_level: true
+sources:
+- kind: original
+  text: B. C. Livezey and L. D. Martin. 1988. The Systematic Position of the Miocene Anatid Anas[?] blanchardi Milne-Edwards.
+    Journal of Vertebrate Paleontology 8(2):196-211
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cereopsis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cereopsis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cape Barren goose”. English Wikipedia, revision 1380657644.
+  url: https://en.wikipedia.org/w/index.php?title=Cape_Barren_goose&oldid=1380657644
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

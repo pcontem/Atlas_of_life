@@ -1,0 +1,69 @@
+name: Shiriyanetta
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Watanabe and Matsuoka 2015
+type_species: Shiriyanetta hasegawai
+type_species_note: The only valid species listed by PBDB.
+summary: Flightless Pleistocene sea duck from Japan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0.0117
+  early_interval: Chibanian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Shiriyanetta hasegawai
+  authority: Watanabe and Matsuoka 2015
+  first_ma: 0.774
+  last_ma: 0.0117
+  interval: Chibanian–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: [Aomori]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.774]
+  id: unnamed-shiriya-locality-2-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Watanabe and H. Matsuoka. 2015. Flightless diving duck (Aves, Anatidae) from the Pleistocene of Shiriya,
+    northeast Japan. Journal of Vertebrate Paleontology 35(6):e994745
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Shiriyanetta (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Shiriyanetta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Shiriyanetta”. English Wikipedia, revision 1341564651.
+  url: https://en.wikipedia.org/w/index.php?title=Shiriyanetta&oldid=1341564651
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

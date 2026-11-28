@@ -1,0 +1,148 @@
+name: Cnemiornis
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Latham 1789
+type_species: Cnemiornis calcitrans
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: New Zealand geese, very large flightless geese with two species.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 1.63
+  last_ma: 0
+  early_interval: Calabrian
+  late_interval: Holocene
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Cnemiornis calcitrans
+  authority: Owen 1865
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Cnemiornis gracillis
+  authority: Forbes 1891
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Cnemiornis minor
+  authority: Forbes 1891
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Cnemiornis septentrionalis
+  authority: Oliver 1955
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Island, South Island]
+  interval: Late Pleistocene–Holocene
+  occurrences: 9
+  ma: [0.0, 0.129]
+  id:
+  - unnamed-kings-cave-new-zealand
+  - unnamed-lake-poukawa-new-zealand
+  - unnamed-netherton-cave-new-zealand
+  - unnamed-shirley-stream-east-new-zealand
+  - unnamed-timaru-south-crevice-new-zealand
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Clifton Sand
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [Hawke's Bay Region]
+  interval: Castlecliffian
+  occurrences: 1
+  ma: [0.34, 1.63]
+  id: clifton-sand-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Cnemiornis calcitrans restoration.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b5/Cnemiornis_calcitrans_restoration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cnemiornis_calcitrans_restoration.jpg
+  artist: H. Glyn Young, Simon J. Tonge, Julian P. Hume
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '1997'
+  caption: Cnemiornis calcitrans restoration (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 792
+  height: 814
+  review: unreviewed
+- kind: fossil
+  file: Cnemiornis calcitrans.JPG
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Cnemiornis_calcitrans.JPG/960px-Cnemiornis_calcitrans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cnemiornis_calcitrans.JPG
+  artist: James Hector (1834-1907)
+  license: Public domain
+  license_url: ''
+  date: '1873'
+  caption: Cnemiornis calcitrans (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 1631
+  height: 2793
+  review: unreviewed
+- kind: fossil
+  file: Cnemiornis.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Cnemiornis.jpg/960px-Cnemiornis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Cnemiornis.jpg
+  artist: Griesbach
+  license: Public domain
+  license_url: ''
+  date: '1879'
+  caption: Cnemiornis (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 2496
+  height: 2554
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: T. H. Worthy and J. A. Grant-Mackie. 2003. Late-Pleistocene avifaunas from Cape Wanbrow, Otago, South Island,
+    New Zealand. Journal of the Royal Society of New Zealand 33(1):427-485
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cnemiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cnemiornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “New Zealand goose”. English Wikipedia, revision 1326396592.
+  url: https://en.wikipedia.org/w/index.php?title=New_Zealand_goose&oldid=1326396592
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

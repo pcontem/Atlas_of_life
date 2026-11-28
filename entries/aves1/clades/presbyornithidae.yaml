@@ -1,0 +1,32 @@
+id: presbyornithidae
+name: Presbyornithidae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Presbyornithidae, family), downloaded 2026-11-28
+parent: anseriformes
+wikipedia: Presbyornithidae
+summary: Extinct long-legged waterfowl from the Late Cretaceous to the Early Miocene.
+diagnosis:
+- Mix of features once linking them to shorebirds and flamingos
+- Now accepted as waterfowl close to ducks, geese and screamers
+notes: Found in North America, South America, East Asia, Australia and possibly North Africa; Teviornis from the
+  Nemegt Formation of Mongolia is the oldest known neognath in the revision. Wikipedia-only Teviornis is left out
+  until checked.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Presbyornithidae”. English Wikipedia, revision 1345438248.
+  url: https://en.wikipedia.org/w/index.php?title=Presbyornithidae&oldid=1345438248
+- kind: database
+  text: 'Paleobiology Database, taxon Presbyornithidae (no. 39621): rank, authority (Wetmore 1926) and reference
+    no. 39345 (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=39621
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves1.json).
+  - 'S2: add the naming work ((Wetmore 1926), PBDB reference 39345) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

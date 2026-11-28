@@ -1,0 +1,84 @@
+name: Chaunoides
+rank: genus
+parent: anhimidae
+incertae_sedis: false
+placement_note: ''
+authority: Alvarenga 1999
+type_species: Chaunoides antiquus
+type_species_note: The only valid species listed by PBDB.
+summary: Screamer from the Late Oligocene or Early Miocene Tremembé Formation of Brazil, smaller than living species.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Chaunoides antiquus
+  authority: Alvarenga 1999
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Tremembé
+  group: ''
+  members: []
+  country: Brazil
+  regions: [São Paulo]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: tremembe-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Chaunoides antiquus colored reconstruction.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/6/6f/Chaunoides_antiquus_colored_reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Chaunoides_antiquus_colored_reconstruction.jpg
+  artist: Driptosaurus
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2025-10-30'
+  caption: Chaunoides antiquus colored reconstruction (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 1024
+  height: 1309
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/bf174702-5676-4767-b1e8-ab85fdb2c92b/vector.svg
+  png: https://images.phylopic.org/images/bf174702-5676-4767-b1e8-ab85fdb2c92b/raster/1003x1024.png
+  page: https://www.phylopic.org/images/bf174702-5676-4767-b1e8-ab85fdb2c92b
+  attribution: Edouard Traviés
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Chauna chavaria
+  matched: Anhimidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'H. M. F. Alvarenga. 1999. A fossil screamer (Anseriformes: Anhimidae) from the middle Tertiary of southeastern
+    Brazil. Avian Paleontology at the Close of the 20th Century: Proceedings of the 4th International Meeting of
+    the Society of Avian Paleontology and Evolution, Washington, D.C, 4-7 June 1996. Smithsonian Contributions to
+    Paleobiology 89:223-230'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chaunoides (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chaunoides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chaunoides”. English Wikipedia, revision 1378892130.
+  url: https://en.wikipedia.org/w/index.php?title=Chaunoides&oldid=1378892130
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

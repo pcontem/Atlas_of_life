@@ -1,0 +1,32 @@
+id: vogel-river-series-tanzania
+name: Vogel River Series
+rank: formation
+group: ''
+country: Tanzania
+regions: [Eastern Drift Valley]
+location:
+  lat: -3.21
+  lng: 35.208
+  basis: median of 8 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 5.333
+  last_ma: 1.8
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [wet floodplain, eolian indet.]
+lithology: [sandstone]
+pbdb_collections: ['21798', '21799', '21802', '21804', '21806', '21830', '21831', '32050']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Vogel River Series (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Vogel+River+Series
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

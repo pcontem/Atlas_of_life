@@ -5,16 +5,22 @@ group: ''
 country: United States
 regions: [Utah, Wyoming]
 location:
-  lat: 41.8
-  lng: -109.9
-  basis: median of 7 PBDB collections that yielded the atlas genera
+  lat: 41.778
+  lng: -110.5
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 56.0
-  last_ma: 45.9
+  last_ma: 33.9
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., lacustrine indet., lacustrine - large, channel lag]
-lithology: [not reported, sandstone]
-pbdb_collections: ['16264', '16268', '16270', '16396', '36713', '143060', '224132']
+environment:
+- terrestrial indet.
+- lacustrine - large
+- lacustrine indet.
+- lacustrine deltaic indet.
+- channel lag
+lithology: [not reported, '"limestone"', sandstone]
+pbdb_collections: ['15853', '16264', '16268', '16270', '16396', '36713', '85026', '123112', '143060', '187019',
+  '224132']
 includes: []
 summary: ''
 paleoenvironment: ''

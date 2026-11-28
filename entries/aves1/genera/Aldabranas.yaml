@@ -1,0 +1,67 @@
+name: Aldabranas
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison and Walker 1978
+type_species: Aldabranas cabri
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct anatid genus recorded in PBDB from the Chibanian of Seychelles.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0.129
+  early_interval: Chibanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aldabranas cabri
+  authority: Harrison and Walker 1978
+  first_ma: 0.774
+  last_ma: 0.129
+  interval: Chibanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Seychelles
+  regions: []
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: aldabra-limestone-seychelles
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: J. O. Harrison and C. A. Walker. 1978. Pleistocene bird remains from Aldabra Atoll, Indian Ocean. Journal
+    of Natural History 12:7-14
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aldabranas (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aldabranas
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

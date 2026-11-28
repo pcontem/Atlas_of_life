@@ -1,0 +1,66 @@
+name: Headonornis
+rank: genus
+parent: presbyornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison and Walker 1976
+type_species: Headonornis hantoniensis
+type_species_note: The only valid species listed by PBDB.
+summary: Presbyornithid recorded in PBDB from the Late Eocene of England.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Headonornis hantoniensis
+  authority: (Lydekker 1891)
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Headon Beds
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Eocene
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: headon-beds-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/vector.svg
+  png: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/raster/837x1024.png
+  page: https://www.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546
+  attribution: C. P. Tambussi, F. J. Degrange, R. S. De Mendoza, E. Sferco, and S. Santillana.
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Conflicto antarcticus
+  matched: Presbyornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. J. O. Harrison and C. A. Walker. 1976. Birds of the British Upper Eocene. Zoological Journal of the Linnean
+    Society 59:323-351
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Headonornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Headonornis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,69 @@
+name: Mwalau
+rank: genus
+parent: megapodiidae
+incertae_sedis: false
+placement_note: ''
+authority: Worthy et al. 2015
+type_species: Mwalau walterlinii
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct megapode from Vanuatu known from one specimen at the Teouma archaeological site.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Mwalau walterlinii
+  authority: Worthy et al. 2015
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Vanuatu
+  regions: [Efate]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-teouma-vanuatu
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/vector.svg
+  png: https://images.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a/raster/512x476.png
+  page: https://www.phylopic.org/images/f6acc01b-3de7-4428-b503-e12343418c7a
+  attribution: Rachel T Mason
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Leipoa ocellata
+  matched: Megapodiidae
+  genus_level: false
+sources:
+- kind: original
+  text: T. H. Worthy, S. Hawkins, and S. Bedford, M. Spriggs. 2015. Avifauna from the Teouma Lapita site, Efate
+    Island, Vanuatu, including a new genus and species of megapode. Pacific Science 69:205-254
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mwalau (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mwalau
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mwalau”. English Wikipedia, revision 1385812197.
+  url: https://en.wikipedia.org/w/index.php?title=Mwalau&oldid=1385812197
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

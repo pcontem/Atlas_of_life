@@ -868,3 +868,20 @@ Enantiornithes (Pengornithidae, Longipterygidae, Bohaiornithidae, Avisauridae in
 - Left for the Aves volumes as crown or probable crown birds: Asteriornis, Vegavis, Teviornis, Pujatopouli, Polarornis, Neogaeornis,
   Lonchodytes, Torotix, Tytthostonyx, Maaqwi, Gallornis (possible galloanseran), Palintropus, Graculavus, Palaeotringa, Telmatornis,
   Laornis, Volgavis.
+
+## 2026-11-28 — Aves I volume (Palaeognathae and Galloanserae)
+Sources: English Wikipedia revisions of the clade articles (data/raw/tree/clade_sources_2026-11-28_aves1.json) checked against
+PBDB families (data/raw/aves1/pbdb_genera.json). The backbone node Aves became the root of the volume (attached to Ornithurae of
+the Avialae volume); Struthio moved from Aves to Struthionidae. Structure: Aves → Palaeognathae (Lithornithidae, Tinamidae,
+Struthionidae, Rheidae, Casuariidae with the emu, Apterygidae, Dinornithiformes, Aepyornithidae, Ergilornithidae), Neognathae →
+Galloanserae (Anseriformes → Anhimidae, Anseranatidae, Anatidae, Presbyornithidae; Galliformes → Megapodiidae, Cracidae, Numididae,
+Odontophoridae, Phasianidae; Gastornithiformes, Dromornithidae and Sylviornithidae directly in Galloanserae). Passeriformes stays a
+backbone node under Aves until the Neoaves volumes.
+- Not separated: moa families (Dinornithidae, Emeidae, Megalapterygidae), anatid and phasianid subfamilies and tribes, Meleagrididae and
+  Tetraonidae (in Phasianidae), stem galliform families (Gallinuloididae, Quercymegapodiidae, Paraortygidae, Waltonortygidae: in Galliformes).
+- Kept against PBDB: Diogenornis (PBDB Rheidae → Palaeognathae, incertae sedis); Brontornis (PBDB Anseriformes → Neognathae, incertae
+  sedis: phorusrhacid vs galloanseran); vegaviids Vegavis, Polarornis, Maaqwi, Neogaeornis, Australornis (→ Neognathae, incertae sedis);
+  Zhylgaia (PBDB Presbyornithidae → Anseriformes, incertae sedis); Pachystruthio kept as a genus (PBDB synonym of Struthio; the
+  Struthionidae revision treats it as valid).
+- Left out: Geranoididae (Geranoides, Paragrus, Geranodornis, Palaeophasianus, Galligeranoides, Eogeranoides) and Eonessa, gruiform-like
+  birds for a later Neoaves volume.

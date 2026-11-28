@@ -1,0 +1,68 @@
+name: Tinamotis
+rank: genus
+parent: tinamidae
+incertae_sedis: false
+placement_note: ''
+authority: Vigors 1837
+type_species: Tinamotis pentlandii
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Tinamou genus.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Tinamotis ingoufi
+  authority: Oustalet 1890
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Tinamotis pentlandii
+  authority: Vigors 1837
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044/vector.svg
+  png: https://images.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044/raster/909x1024.png
+  page: https://www.phylopic.org/images/c8a2a294-252e-49f0-91a4-9ec4cae5d044
+  attribution: George Edward Lodge
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Tinamus major
+  matched: Tinamidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tinamotis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tinamotis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tinamotis”. English Wikipedia, revision 1385823756.
+  url: https://en.wikipedia.org/w/index.php?title=Tinamotis&oldid=1385823756
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

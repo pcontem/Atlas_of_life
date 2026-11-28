@@ -1,0 +1,97 @@
+name: Cairina
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Fleming 1822
+type_species: Cairina moschata
+type_species_note: The only valid species listed by PBDB.
+summary: The Muscovy duck, native from the Rio Grande Valley to Argentina and Uruguay; domesticated.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Cairina moschata
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Zulia]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-mene-de-inciarte-tar-seep-venezuela
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Panama
+  regions: [Herrera]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-el-hatillo-panama
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/9bd23ae1-6ed9-4387-8149-b8f308918c73/vector.svg
+  png: https://images.phylopic.org/images/9bd23ae1-6ed9-4387-8149-b8f308918c73/raster/512x407.png
+  page: https://www.phylopic.org/images/9bd23ae1-6ed9-4387-8149-b8f308918c73
+  attribution: Edwin Price
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Cairina moschata
+  matched: Cairina
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cairina (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cairina
+- kind: encyclopedia
+  text: Wikipedia contributors. “Muscovy duck”. English Wikipedia, revision 1387173301.
+  url: https://en.wikipedia.org/w/index.php?title=Muscovy_duck&oldid=1387173301
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

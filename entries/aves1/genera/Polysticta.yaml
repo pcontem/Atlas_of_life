@@ -1,0 +1,70 @@
+name: Polysticta
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Eyton 1836
+type_species: Polysticta stelleri
+type_species_note: The only valid species listed by PBDB.
+summary: Steller's eider, the smallest eider, an Arctic sea duck of Russia, Alaska and the Baltic Sea.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Polysticta stelleri
+  authority: (Pallas 1769)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Basque Country]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-santa-catalina-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: A. Wetmore. 1940. A check-list of the fossil birds of North America. Smithsonian Miscellaneous Collections
+    99(4):1-81
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Polysticta (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Polysticta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Steller's eider”. English Wikipedia, revision 1362094827.
+  url: https://en.wikipedia.org/w/index.php?title=Steller's_eider&oldid=1362094827
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

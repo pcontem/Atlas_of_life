@@ -1,0 +1,69 @@
+name: Eoanseranas
+rank: genus
+parent: anseranatidae
+incertae_sedis: false
+placement_note: ''
+authority: Worthy and Scanlon 2009
+type_species: Eoanseranas handae
+type_species_note: The only valid species listed by PBDB.
+summary: Magpie goose relative from the Late Oligocene of Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 23.04
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eoanseranas handae
+  authority: Worthy and Scanlon 2009
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Carl Creek Limestone
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: carl-creek-limestone-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32/vector.svg
+  png: https://images.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32/raster/512x389.png
+  page: https://www.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32
+  attribution: Neville William Cayley
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Anseranas semipalmata
+  matched: Anseranatidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'T. H. Worthy and J. D. Scanlon. 2009. An Oligo-Miocene magpie goose (Aves: Anseranatidae) from Riversleigh,
+    northwestern Queensland, Australia. Journal of Vertebrate Paleontology 29(1):205-211'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoanseranas (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoanseranas
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eoanseranas”. English Wikipedia, revision 1385812138.
+  url: https://en.wikipedia.org/w/index.php?title=Eoanseranas&oldid=1385812138
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

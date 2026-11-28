@@ -1,0 +1,157 @@
+name: Lithornis
+rank: genus
+parent: lithornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Owen 1841
+type_species: Lithornis vulturinus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Flying palaeognath of the Paleocene and Eocene of North America and Europe, related to tinamous and ratites.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 60.9
+  last_ma: 48.07
+  early_interval: Selandian
+  late_interval: Ypresian
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Lithornis celetius
+  authority: Houde 1988
+  first_ma: 60.9
+  last_ma: 57.5
+  interval: Selandian–Thanetian
+  reference: ''
+- name: Lithornis hookeri
+  authority: (Harrison 1984)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Lithornis nasi
+  authority: (Harrison 1984)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Lithornis plebius
+  authority: Houde 1988
+  first_ma: 57.5
+  last_ma: 56
+  interval: Thanetian
+  reference: ''
+- name: Lithornis promiscuus
+  authority: Houde 1988
+  first_ma: 57.5
+  last_ma: 56
+  interval: Thanetian
+  reference: ''
+- name: Lithornis vulturinus
+  authority: Owen 1840
+  first_ma: 59.24
+  last_ma: 48.07
+  interval: Thanetian–Ypresian
+  reference: ''
+formations:
+- formation: London Clay
+  group: Thames
+  members: []
+  country: United Kingdom
+  regions: [England, Sussex, United Kingdom]
+  interval: Early Eocene
+  occurrences: 6
+  ma: [48.07, 56.0]
+  id: london-clay-united-kingdom
+- formation: Fur
+  group: ''
+  members: []
+  country: Denmark
+  regions: []
+  interval: Ypresian
+  occurrences: 2
+  ma: [48.07, 56.0]
+  id: fur-denmark
+- formation: Willwood
+  group: ''
+  members: [Sand Coulee beds]
+  country: United States
+  regions: [Wyoming]
+  interval: Clarkforkian
+  occurrences: 2
+  ma: [56.0, 57.5]
+  id: willwood-united-states
+- formation: Fort Union
+  group: ''
+  members: []
+  country: United States
+  regions: [Montana]
+  interval: Tiffanian
+  occurrences: 1
+  ma: [57.5, 60.9]
+  id: fort-union-united-states
+- formation: Goler
+  group: ''
+  members: [4a]
+  country: United States
+  regions: [California]
+  interval: Tiffanian
+  occurrences: 1
+  ma: [57.5, 60.9]
+  id: goler-united-states
+- formation: Upnor
+  group: ''
+  members: [Beltinge Fish Bed]
+  country: United Kingdom
+  regions: [England]
+  interval: Thanetian
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: upnor-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Lithornis owen1846.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Lithornis_owen1846.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Lithornis_owen1846.jpg
+  artist: Richard Owen
+  license: Public domain
+  license_url: ''
+  date: '1846'
+  caption: Lithornis owen1846 (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 475
+  height: 315
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409/vector.svg
+  png: https://images.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409/raster/1017x1024.png
+  page: https://www.phylopic.org/images/6add767f-6ff7-486e-b4d5-ddce60fb8409
+  attribution: Sheatherius
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Lithornis
+  matched: Lithornis
+  genus_level: true
+sources:
+- kind: original
+  text: "R. Owen. 1841. Description of the fossil remains of a mammal (Hyracotherium leporinum) and of a bird (Lithornis\
+    \ vulturinus) from the London Clay\r\n. Transactions of the Geological Society of London VI(2)(1):203-208"
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Lithornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Lithornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Lithornis”. English Wikipedia, revision 1335981157.
+  url: https://en.wikipedia.org/w/index.php?title=Lithornis&oldid=1335981157
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

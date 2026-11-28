@@ -1,0 +1,215 @@
+name: Presbyornis
+rank: genus
+parent: presbyornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wetmore 1926
+type_species: Presbyornis pervetus
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Presbyornithid from the Paleocene and Eocene of North America.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 60.9
+  last_ma: 33.9
+  early_interval: Selandian
+  late_interval: Priabonian
+  pbdb_occurrences: 9
+  note: ''
+species:
+- name: Presbyornis isoni
+  authority: Olson 1994
+  first_ma: 60.9
+  last_ma: 56
+  interval: Selandian–Thanetian
+  reference: ''
+- name: Presbyornis mongoliensis
+  authority: Kurochkin and Dyke 2010
+  first_ma: 59.24
+  last_ma: 48.07
+  interval: Thanetian–Ypresian
+  reference: ''
+- name: Presbyornis pervetus
+  authority: Wetmore 1926
+  first_ma: 56
+  last_ma: 33.9
+  interval: Ypresian–Priabonian
+  reference: ''
+- name: Presbyornis recurvirostrus
+  authority: (Hardy 1959)
+  first_ma: 56
+  last_ma: 33.9
+  interval: Ypresian–Priabonian
+  reference: ''
+formations:
+- formation: Naran Bulak
+  group: ''
+  members: [Bumban, Zhigden]
+  country: Mongolia
+  regions: [Omnogov, Southern Mongolia]
+  interval: Late Paleocene–Bumbanian
+  occurrences: 2
+  ma: [48.07, 59.24]
+  id: naran-bulak-mongolia
+- formation: Bridger
+  group: ''
+  members: [upper]
+  country: United States
+  regions: [Wyoming]
+  interval: Bridgerian
+  occurrences: 1
+  ma: [45.9, 51.1]
+  id: bridger-united-states
+- formation: Colton
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Eocene
+  occurrences: 1
+  ma: [33.9, 56.0]
+  id: colton-united-states
+- formation: Wasatch
+  group: ''
+  members: [Cathedral Bluffs Tongue]
+  country: United States
+  regions: [Wyoming]
+  interval: Wasatchian–Bridgerian
+  occurrences: 1
+  ma: [45.9, 56.0]
+  id: wasatch-united-states
+- formation: Aquia
+  group: ''
+  members: [Piscataway]
+  country: United States
+  regions: [Maryland]
+  interval: Late Paleocene
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: aquia-united-states
+- formation: Green River
+  group: ''
+  members: []
+  country: United States
+  regions: [Utah]
+  interval: Eocene
+  occurrences: 1
+  ma: [33.9, 56.0]
+  id: green-river-united-states
+- formation: Margaret
+  group: Eureka Sound
+  members: []
+  country: Canada
+  regions: [Nunavut]
+  interval: Wasatchian
+  occurrences: 1
+  ma: [51.1, 56.0]
+  id: margaret-canada
+- formation: Bullion Creek
+  group: ''
+  members: []
+  country: United States
+  regions: [North Dakota]
+  interval: Tiffanian
+  occurrences: 1
+  ma: [57.5, 60.9]
+  id: bullion-creek-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Gastornis and Presbyornis from the Margaret Formation.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/2/29/Gastornis_and_Presbyornis_from_the_Margaret_Formation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Gastornis_and_Presbyornis_from_the_Margaret_Formation.jpg
+  artist: Thomas A. Stidham and Jaelyn J. Eberle
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 2016-02
+  caption: Gastornis and Presbyornis from the Margaret Formation (Wikimedia Commons; kind assigned from the file
+    name, not yet checked on the triage page).
+  width: 926
+  height: 1258
+  review: unreviewed
+- kind: life
+  file: Presbyornis Enhancement.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/5/58/Presbyornis_Enhancement.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Presbyornis_Enhancement.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2008-11-14'
+  caption: Presbyornis Enhancement (Wikimedia Commons; kind assigned from the file name, not yet checked on the
+    triage page).
+  width: 820
+  height: 989
+  review: unreviewed
+- kind: fossil
+  file: Presbyornis pervetus (reconstructed skeletons, UMNH).png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Presbyornis_pervetus_%28reconstructed_skeletons%2C_UMNH%29.png/960px-Presbyornis_pervetus_%28reconstructed_skeletons%2C_UMNH%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Presbyornis_pervetus_(reconstructed_skeletons,_UMNH).png
+  artist: SlvrHwk
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2026-02-28'
+  caption: Presbyornis pervetus (reconstructed skeletons, UMNH) (Wikimedia Commons; kind assigned from the file
+    name, not yet checked on the triage page).
+  width: 1981
+  height: 1294
+  review: unreviewed
+- kind: fossil
+  file: Presbyornis pervetus AMNH 28505.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Presbyornis_pervetus_AMNH_28505.jpg/960px-Presbyornis_pervetus_AMNH_28505.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Presbyornis_pervetus_AMNH_28505.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-08-13'
+  caption: Presbyornis pervetus AMNH 28505 (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 3664
+  height: 2160
+  review: unreviewed
+- kind: life
+  file: Presbyornis pervetus.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Presbyornis_pervetus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Presbyornis_pervetus.jpg
+  artist: Smokeybjb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2008-11-14'
+  caption: Presbyornis pervetus (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage
+    page).
+  width: 714
+  height: 855
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/2f3cdcb2-3c77-4de9-add3-a152d35d3281/vector.svg
+  png: https://images.phylopic.org/images/2f3cdcb2-3c77-4de9-add3-a152d35d3281/raster/859x1024.png
+  page: https://www.phylopic.org/images/2f3cdcb2-3c77-4de9-add3-a152d35d3281
+  attribution: Smokeybjb
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Presbyornis pervetus
+  matched: Presbyornis
+  genus_level: true
+sources:
+- kind: original
+  text: A. Wetmore. 1926. Fossil birds formt he Green River deposits of eastern Utah. Annals of the Carnegie Museum
+    16(3-4):391-402
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Presbyornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Presbyornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Presbyornis”. English Wikipedia, revision 1369643110.
+  url: https://en.wikipedia.org/w/index.php?title=Presbyornis&oldid=1369643110
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

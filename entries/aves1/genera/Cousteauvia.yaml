@@ -1,0 +1,69 @@
+name: Cousteauvia
+rank: genus
+parent: anseriformes
+incertae_sedis: false
+placement_note: ''
+authority: Zelenkov 2020
+type_species: Cousteauvia kustovia
+type_species_note: The only valid species listed by PBDB.
+summary: Diving anseriform from the Priabonian of Kazakhstan, the earliest known diving duck.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Cousteauvia kustovia
+  authority: Zelenkov 2020
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Kusto
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: []
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: kusto-kazakhstan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/vector.svg
+  png: https://images.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266/raster/512x316.png
+  page: https://www.phylopic.org/images/c9ac51dc-abfe-4903-ac40-e47359e6e266
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Paakniwatavis grandei
+  matched: Anseriformes
+  genus_level: false
+sources:
+- kind: original
+  text: N. Zelenkov. 2020. The oldest diving anseriform bird from the late Eocene of Kazakhstan and the evolution
+    of aquatic adaptations in the intertarsal joint of waterfowl. Acta Palaeontologica Polonica 65(4):733-742
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Cousteauvia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Cousteauvia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cousteauvia”. English Wikipedia, revision 1349780820.
+  url: https://en.wikipedia.org/w/index.php?title=Cousteauvia&oldid=1349780820
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

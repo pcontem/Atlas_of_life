@@ -1,0 +1,73 @@
+name: Proapteryx
+rank: genus
+parent: apterygidae
+incertae_sedis: false
+placement_note: ''
+authority: Worthy et al. 2013
+type_species: Proapteryx micromeros
+type_species_note: The only valid species listed by PBDB.
+summary: Early Miocene kiwi from the St Bathans Fauna of Otago, New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.7
+  last_ma: 15.9
+  early_interval: Burdigalian
+  late_interval: Langhian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Proapteryx micromeros
+  authority: Worthy et al. 2013
+  first_ma: 18.7
+  last_ma: 15.9
+  interval: Burdigalian–Langhian
+  reference: original description
+formations:
+- formation: Bannockburn
+  group: Manuherikia
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Altonian
+  occurrences: 2
+  ma: [15.9, 18.7]
+  id: bannockburn-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Proapteryx.png
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Proapteryx.png/960px-Proapteryx.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Proapteryx.png
+  artist: Skye McDavid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2023-04-05'
+  caption: Proapteryx (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 1733
+  height: 3000
+  review: unreviewed
+sources:
+- kind: original
+  text: T. H. Worthy, J. P. Worthy, and A. J. D. Tennyson, S. W. Salisbury, S. J. Hand, R. P. Scofield. 2013. Miocene
+    fossils show that kiwi (Apteryx, Apterygidae) are probably not phyletic dwarves. Proceedings of the 8th International
+    Meeting of the Society of Avian Paleontology and Evolution
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Proapteryx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Proapteryx
+- kind: encyclopedia
+  text: Wikipedia contributors. “Proapteryx”. English Wikipedia, revision 1385812261.
+  url: https://en.wikipedia.org/w/index.php?title=Proapteryx&oldid=1385812261
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,87 @@
+name: Centrocercus
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Swainson 1832
+type_species: Centrocercus urophasianus
+type_species_note: The only valid species listed by PBDB.
+summary: Sage-grouse, two species of the western and north-central United States and Canada.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 1.4
+  last_ma: 0
+  early_interval: Calabrian
+  late_interval: Holocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Centrocercus urophasianus
+  authority: (Bonaparte 1827)
+  first_ma: 1.4
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Colorado, Oregon, Utah, Wyoming]
+  interval: Irvingtonian–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 1.4]
+  id:
+  - unnamed-crystal-ball-cave-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-little-box-elder-cave-united-states
+  - unnamed-porcupine-cave-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Gunnison Sage Grouse (47460635881) (cropped).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Gunnison_Sage_Grouse_%2847460635881%29_%28cropped%29.jpg/960px-Gunnison_Sage_Grouse_%2847460635881%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Gunnison_Sage_Grouse_(47460635881)_(cropped).jpg
+  artist: Larry Lamsa
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2019-03-24'
+  caption: Gunnison Sage Grouse (47460635881) (cropped) (Wikimedia Commons; kind assigned from the file name, not
+    yet checked on the triage page).
+  width: 1670
+  height: 1528
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/0cb46236-7d3c-41bc-ac79-4ce64f7e238a/vector.svg
+  png: https://images.phylopic.org/images/0cb46236-7d3c-41bc-ac79-4ce64f7e238a/raster/512x261.png
+  page: https://www.phylopic.org/images/0cb46236-7d3c-41bc-ac79-4ce64f7e238a
+  attribution: Richard Rich
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Centrocercus urophasianus
+  matched: Centrocercus
+  genus_level: true
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Centrocercus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Centrocercus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Centrocercus”. English Wikipedia, revision 1385990082.
+  url: https://en.wikipedia.org/w/index.php?title=Centrocercus&oldid=1385990082
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

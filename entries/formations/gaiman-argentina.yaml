@@ -1,0 +1,31 @@
+id: gaiman-argentina
+name: Gaiman
+rank: formation
+group: ''
+country: Argentina
+regions: [Chubut]
+location:
+  lat: -43.167
+  lng: -68.717
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 23.04
+  last_ma: 15.98
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [marine indet., marginal marine indet.]
+lithology: [not reported, sandstone]
+pbdb_collections: ['142513', '228015']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Gaiman (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Gaiman
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

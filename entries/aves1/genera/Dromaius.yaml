@@ -1,0 +1,159 @@
+name: Dromaius
+rank: genus
+parent: casuariidae
+incertae_sedis: false
+placement_note: ''
+authority: Vieillot 1816
+type_species: Dromaius novaehollandiae
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Emus, with one living species, Dromaius novaehollandiae, in Australia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 0
+  early_interval: Langhian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 18
+  note: ''
+species:
+- name: Dromaius arleyekweke
+  authority: Yates and Worthy 2019
+  first_ma: 11.63
+  last_ma: 5.333
+  interval: Tortonian–Messinian
+  reference: ''
+- name: Dromaius gracilipes
+  authority: De Vis 1892
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+- name: Dromaius minor
+  authority: Spencer 1906
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Dromaius novaehollandiae
+  authority: (Latham 1790)
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+- name: Dromaius ocypus
+  authority: Miller 1963
+  first_ma: 5.333
+  last_ma: 2.58
+  interval: Zanclean–Piacenzian
+  reference: ''
+- name: Dromaius patricius
+  authority: De Vris 1888
+  first_ma: 5.333
+  last_ma: 0.0117
+  interval: Zanclean–Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [New South Wales, Queensland, South Australia, Victoria]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 9
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-blanche-cave-australia
+  - unnamed-clare-bay-australia
+  - unnamed-cuddie-springs-australia
+  - unnamed-lancefield-bone-bed-australia
+  - unnamed-south-walker-creek-australia
+- formation: Waite
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Late Miocene
+  occurrences: 2
+  ma: [5.333, 11.63]
+  id: waite-australia
+- formation: Mampuwordu Sands
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Pliocene
+  occurrences: 2
+  ma: [2.58, 5.333]
+  id: mampuwordu-sands-australia
+- formation: Tirari
+  group: ''
+  members: [Pompapillina]
+  country: Australia
+  regions: [South Australia]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: tirari-australia
+- formation: Camfield Beds
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: camfield-beds-australia
+- formation: Chinchilla Sand
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: chinchilla-sand-australia
+- formation: Katipiri
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: katipiri-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/35947c43-1e5c-4003-bbaa-d352530b5af7/vector.svg
+  png: https://images.phylopic.org/images/35947c43-1e5c-4003-bbaa-d352530b5af7/raster/512x345.png
+  page: https://www.phylopic.org/images/35947c43-1e5c-4003-bbaa-d352530b5af7
+  attribution: Darren Naish (vectorize by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Dromaius novaehollandiae novaehollandiae
+  matched: Dromaius
+  genus_level: true
+sources:
+- kind: original
+  text: 'W. E. Boles. 1997. Hindlimb proportions and locomotion of Emuarius gidju (Patterson & Rich, 1987) (Aves:
+    Casuariidae). Memoirs of the Queensland Museum 41(2):235-240'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dromaius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dromaius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Dromaius”. English Wikipedia, revision 1379919737.
+  url: https://en.wikipedia.org/w/index.php?title=Dromaius&oldid=1379919737
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

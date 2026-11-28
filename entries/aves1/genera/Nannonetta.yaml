@@ -1,0 +1,67 @@
+name: Nannonetta
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Campbell 1979
+type_species: Nannonetta invisitata
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct anatid genus recorded in PBDB from the Late Pleistocene of Peru.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0.0117
+  early_interval: Late Pleistocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nannonetta invisitata
+  authority: Campbell 1979
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: K. E. Campbell. 1979. The non-passerine Pleistocene avifauna of the Talara Tar Seeps, northwestern Peru.
+    Royal Ontario Museum Life Sciences Contribution 118:1-203
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nannonetta (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nannonetta
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

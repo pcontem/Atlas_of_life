@@ -1,0 +1,79 @@
+name: Anseranas
+rank: genus
+parent: anseranatidae
+incertae_sedis: false
+placement_note: ''
+authority: Lesson 1828
+type_species: Anseranas semipalmata
+type_species_note: The only valid species listed by PBDB.
+summary: The magpie goose, sole living member of Anseranatidae, of northern Australia and southern New Guinea.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0
+  early_interval: Chibanian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Anseranas semipalmata
+  authority: (Latham 1798)
+  first_ma: 0.774
+  last_ma: 0.0117
+  interval: Chibanian–Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-seton-rock-shelter-australia
+- formation: Wyandotte
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.774]
+  id: wyandotte-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32/vector.svg
+  png: https://images.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32/raster/512x389.png
+  page: https://www.phylopic.org/images/e470e9bc-869f-46f7-885a-cac1dc724b32
+  attribution: Neville William Cayley
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Anseranas semipalmata
+  matched: Anseranas
+  genus_level: true
+sources:
+- kind: original
+  text: B. C. Livezey. 1997. A phylogenetic analysis of basal Anseriformes, the fossil Presbyornis, and the interordinal
+    relationships of waterfowl. Zoological Journal of the Linnean Society 121(4):361-428
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anseranas (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anseranas
+- kind: encyclopedia
+  text: Wikipedia contributors. “Magpie goose”. English Wikipedia, revision 1387810637.
+  url: https://en.wikipedia.org/w/index.php?title=Magpie_goose&oldid=1387810637
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

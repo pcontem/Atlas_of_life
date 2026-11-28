@@ -1,0 +1,84 @@
+name: Ilbandornis
+rank: genus
+parent: dromornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Rich 1979
+type_species: Ilbandornis woodburnei
+type_species_note: Taxobox of Wikipedia revision 1351456993.
+summary: Ostrich-sized dromornithid of the Miocene of Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 0.0117
+  early_interval: Tortonian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Ilbandornis lawsoni
+  authority: Rich 1979
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Ilbandornis woodburnei
+  authority: Rich 1979
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Waite
+  group: ''
+  members: []
+  country: Australia
+  regions: [Northern Territory]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: waite-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Pleistocene
+  occurrences: 1
+  ma: [0.0117, 2.58]
+  id: unnamed-curramulka-quarry-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/vector.svg
+  png: https://images.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b/raster/512x496.png
+  page: https://www.phylopic.org/images/851a3de9-f4a4-4baf-b6ee-4c63588d643b
+  attribution: Zimices
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dromornis stirtoni
+  matched: Dromornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'P. F. Murray and D. Megirian. 1998. The skull of dromornithid birds: anatomical evidence for their relationship
+    to Anseriformes. Records of the South Australian Museum 31(1):51-97'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ilbandornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ilbandornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ilbandornis”. English Wikipedia, revision 1351456993.
+  url: https://en.wikipedia.org/w/index.php?title=Ilbandornis&oldid=1351456993
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

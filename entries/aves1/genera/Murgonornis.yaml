@@ -1,0 +1,69 @@
+name: Murgonornis
+rank: genus
+parent: presbyornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Worthy et al. 2023
+type_species: Murgonornis archeri
+type_species_note: The only valid species listed by PBDB.
+summary: Presbyornithid from the Eocene Murgon site of Queensland.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Murgonornis archeri
+  authority: Worthy et al. 2023
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Queensland]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: unnamed-tingamarra-local-fauna-boat-mountain-deposit-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/vector.svg
+  png: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/raster/837x1024.png
+  page: https://www.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546
+  attribution: C. P. Tambussi, F. J. Degrange, R. S. De Mendoza, E. Sferco, and S. Santillana.
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Conflicto antarcticus
+  matched: Presbyornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: T.H. Worthy, V.L. De Pietri, and RP Scofield, SJ Hand. 2023. A new Eocene species of presbyornithid (Aves,
+    Anseriformes) from Murgon, Australia. Alcheringa
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Murgonornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Murgonornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Murgonornis”. English Wikipedia, revision 1385812186.
+  url: https://en.wikipedia.org/w/index.php?title=Murgonornis&oldid=1385812186
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

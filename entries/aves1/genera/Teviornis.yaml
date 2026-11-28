@@ -1,0 +1,69 @@
+name: Teviornis
+rank: genus
+parent: presbyornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Kurochkin et al. 2002
+type_species: Teviornis gobiensis
+type_species_note: The only valid species listed by PBDB.
+summary: Maastrichtian presbyornithid from Mongolia, about 70 million years old.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Teviornis gobiensis
+  authority: Kurochkin et al. 2002
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Nemegt
+  group: ''
+  members: []
+  country: Mongolia
+  regions: []
+  interval: Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: nemegt-mongolia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/vector.svg
+  png: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/raster/837x1024.png
+  page: https://www.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546
+  attribution: C. P. Tambussi, F. J. Degrange, R. S. De Mendoza, E. Sferco, and S. Santillana.
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Conflicto antarcticus
+  matched: Presbyornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: E. N. Kurochkin, G. J. Dyke, and A. A. Karhu. 2002. A new presbyornithid bird (Aves, Anseriformes) from
+    the Late Cretaceous of southern Mongolia. American Museum Novitates 3386:1-11
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Teviornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Teviornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Teviornis”. English Wikipedia, revision 1383399029.
+  url: https://en.wikipedia.org/w/index.php?title=Teviornis&oldid=1383399029
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

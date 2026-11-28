@@ -1,0 +1,175 @@
+name: Alectoris
+rank: genus
+parent: phasianidae
+incertae_sedis: false
+placement_note: ''
+authority: Kaup 1829
+type_species: Alectoris graeca
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Rock partridges, a genus of Old World partridges closely related to Old World quail and snowcocks.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 30
+  note: ''
+species:
+- name: Alectoris baryosefi
+  authority: Tchernov 1980
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Alectoris bavarica
+  authority: Ballman 1966
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Alectoris chukar
+  authority: (Gray 1830)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Alectoris edwardsi
+  authority: (Depéret 1887)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Alectoris graeca
+  authority: (Meisner 1804)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Alectoris prisca
+  authority: (Milne-Edwards 1871)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Alectoris rufa
+  authority: (Linnaeus 1758)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Alectoris sutcliffei
+  authority: Harrison 1980
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Guadelejara]
+  interval: Late Pleistocene
+  occurrences: 8
+  ma: [0.0117, 0.129]
+  id: unnamed-jarama-ii-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Beja, Leiria, Setúbal District]
+  interval: Late Pleistocene
+  occurrences: 7
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-abrigo-do-lagar-velho-portugal
+  - unnamed-alcacova-de-santarem-portugal
+  - unnamed-biblioteca-de-mertola-portugal
+  - unnamed-largo-do-coreto-portugal
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Sicily]
+  interval: Calabrian–Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 1.8]
+  id: unnamed-grotta-dell-uzzo-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Argolida, Chalkidiki, Peloponnesus]
+  interval: Pleistocene
+  occurrences: 5
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-franchthi-cave-greece
+  - unnamed-kalamakia-greece
+  - unnamed-klisoura-cave-1-greece
+  - unnamed-petralona-cave-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: MC
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.774]
+  id: unnamed-grotte-de-l-observatoire-unknown-level-mc
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-mamatka-cave-russia, unnamed-strashnaya-cave-russia]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-grotte-bodine-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/vector.svg
+  png: https://images.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d/raster/512x337.png
+  page: https://www.phylopic.org/images/14269801-89fe-405c-a425-2286c54ee60d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Arborophila hyperythra
+  matched: Phasianidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'T. M. Crowe, R. C. K. Bowie, and P. Bloomer, T. G. Mandiwana, T. A. J. Hedderson, E. Randi, S. L. Pereira,
+    J. Wakeling. 2006. Phylogenetics, biogeography and classification of, and character evolution in, gamebirds
+    (Aves: Galliformes): effects of character exclusion, data partitioning and missing data. Cladistics 22:495-532'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Alectoris (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Alectoris
+- kind: encyclopedia
+  text: Wikipedia contributors. “Alectoris”. English Wikipedia, revision 1379899416.
+  url: https://en.wikipedia.org/w/index.php?title=Alectoris&oldid=1379899416
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

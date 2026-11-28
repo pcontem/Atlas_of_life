@@ -1,0 +1,83 @@
+name: Bambolinetta
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Mayr and Pavia 2014
+type_species: Bambolinetta lignitifila
+type_species_note: The only valid species listed by PBDB.
+summary: Waterfowl from the Late Miocene of Italy, first described in 1884 as a dabbling duck.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 20.45
+  early_interval: Aquitanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Bambolinetta lignitifila
+  authority: (Portis 1884)
+  first_ma: 23.04
+  last_ma: 20.45
+  interval: Aquitanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Toscana]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: unnamed-montebamboli-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Bambolinetta figure from Gastaldi.png
+  url: https://upload.wikimedia.org/wikipedia/commons/a/a2/Bambolinetta_figure_from_Gastaldi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Bambolinetta_figure_from_Gastaldi.png
+  artist: B. Gastaldi
+  license: Public domain
+  license_url: ''
+  date: '1868'
+  caption: Bambolinetta figure from Gastaldi (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 1399
+  height: 1822
+  review: unreviewed
+silhouette:
+  src: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/vector.svg
+  png: https://images.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d/raster/512x354.png
+  page: https://www.phylopic.org/images/504ca091-5816-47bf-9331-fe223de2490d
+  attribution: Gabriela Palomo-Munoz
+  license: https://creativecommons.org/licenses/by-nc/3.0/
+  depicts: Dendrocygna autumnalis
+  matched: Anatidae
+  genus_level: false
+sources:
+- kind: original
+  text: G. Mayr and M. Pavia. 2014. On the true affinities of Chenornis graculoides Portis, 1884, and Anas lignitifila
+    Portis, 1884—an albatross and an unusual duck from the Miocene of Italy. Journal of Vertebrate Paleontology
+    34(4):914-923
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Bambolinetta (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Bambolinetta
+- kind: encyclopedia
+  text: Wikipedia contributors. “Bambolinetta”. English Wikipedia, revision 1380012815.
+  url: https://en.wikipedia.org/w/index.php?title=Bambolinetta&oldid=1380012815
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

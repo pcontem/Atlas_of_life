@@ -428,7 +428,8 @@ def check_home():
         if i and i.get("local") not in MEDIA:
             err("H2", w, f"image not in media/manifest.json: {i.get('local')}")
     for g in h.get("groups") or []:
-        if g.get("node") not in backbone and not (ROOT / "entries" / g.get("node", "") / "_volume.yaml").exists():
+        if g.get("node") not in backbone and not (ROOT / "entries" / g.get("node", "") / "_volume.yaml").exists() \
+                and not list((ROOT / "entries").glob(f"*/clades/{g.get('node', '')}.yaml")):
             err("H3", f"home group {g.get('label')}", f"node '{g.get('node')}' is not in the tree")
 
 

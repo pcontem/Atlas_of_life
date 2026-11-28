@@ -1,0 +1,192 @@
+name: Clangula
+rank: genus
+parent: anatidae
+incertae_sedis: false
+placement_note: ''
+authority: Leach 1819
+type_species: Clangula hyemalis
+type_species_note: The only valid species listed by PBDB.
+summary: The long-tailed duck, an Arctic sea duck, only member of its genus.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 13.82
+  last_ma: 0
+  early_interval: Serravallian
+  late_interval: Holocene
+  pbdb_occurrences: 28
+  note: ''
+species:
+- name: Clangula hyemalis
+  authority: (Linnaeus 1758)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Canada
+  regions: [Northwest Territories, Nunavut, Quebec]
+  interval: Holocene
+  occurrences: 7
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-bell-site-canada
+  - unnamed-clements-markham-inlet-canada
+  - unnamed-hazard-inlet-group-canada
+  - unnamed-kuukpak-canada
+  - unnamed-outer-frobisher-bay-canada
+  - unnamed-saint-nicolas-canada
+  - unnamed-tiktalik-site-canada
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: [Aomori]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.774]
+  id: unnamed-shiriya-locality-2-japan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida, Oregon, Utah]
+  interval: Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-crystal-ball-cave-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-silver-lake-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greenland
+  regions: []
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-hellebk-greenland
+  - unnamed-independence-i-greenland
+  - unnamed-qeqertaaraq-greenland
+  - unnamed-vandafeldsnaes-west-greenland
+- formation: Norwich Crag
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Gelasian
+  occurrences: 1
+  ma: [1.8, 2.58]
+  id: norwich-crag-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Norway
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-hamnsundhelleren-cave-norway
+- formation: Sajovolgyi
+  group: ''
+  members: []
+  country: Hungary
+  regions: [Nograd]
+  interval: MN 6–MN 7 + 8
+  occurrences: 1
+  ma: [11.1, 13.82]
+  id: sajovolgyi-hungary
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-dyuktai-cave-russia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Estonia
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-kopu-i-site-estonia
+- formation: Ichijiku
+  group: Kazusa
+  members: []
+  country: Japan
+  regions: [Chiba]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: ichijiku-japan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Finland
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-nm-24928-veskankangas-kuivaniemi-finland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-berroberria-spain
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: [Faro]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-gruta-da-figueira-brava-portugal
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/c55e48f3-5c7b-4982-ab8d-031b4e598ff2/vector.svg
+  png: https://images.phylopic.org/images/c55e48f3-5c7b-4982-ab8d-031b4e598ff2/raster/512x135.png
+  page: https://www.phylopic.org/images/c55e48f3-5c7b-4982-ab8d-031b4e598ff2
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Clangula hyemalis
+  matched: Clangula
+  genus_level: true
+sources:
+- kind: original
+  text: R. W. Shufeldt. 1891. Fossil birds from the Equus Beds of Oregon. American Naturalist 25:818-821
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Clangula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Clangula
+- kind: encyclopedia
+  text: Wikipedia contributors. “Long-tailed duck”. English Wikipedia, revision 1386479240.
+  url: https://en.wikipedia.org/w/index.php?title=Long-tailed_duck&oldid=1386479240
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

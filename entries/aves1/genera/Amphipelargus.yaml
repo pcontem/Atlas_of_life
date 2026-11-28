@@ -1,0 +1,83 @@
+name: Amphipelargus
+rank: genus
+parent: ergilornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Lydekker 1891
+type_species: Amphipelargus majori
+type_species_note: The only valid species listed by PBDB.
+summary: Ergilornithid of the Miocene of Asia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 13.82
+  last_ma: 5.09
+  early_interval: Serravallian
+  late_interval: Zanclean
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Amphipelargus majori
+  authority: Lydekker 1891
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ukraine
+  regions: []
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: unnamed-grebnicki-ukraine
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Moldova
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: unnamed-tiraspol-moldova
+- formation: Triglia
+  group: ''
+  members: []
+  country: Greece
+  regions: [Makedonia Thraki]
+  interval: Turolian
+  occurrences: 1
+  ma: [5.09, 8.725]
+  id: triglia-greece
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/70f84265-b7c1-4bde-9da4-5067b14b40f3/vector.svg
+  png: https://images.phylopic.org/images/70f84265-b7c1-4bde-9da4-5067b14b40f3/raster/771x1024.png
+  page: https://www.phylopic.org/images/70f84265-b7c1-4bde-9da4-5067b14b40f3
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Palaeotis weigelti
+  matched: Struthioniformes
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Amphipelargus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Amphipelargus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

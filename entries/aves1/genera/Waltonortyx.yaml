@@ -1,0 +1,70 @@
+name: Waltonortyx
+rank: genus
+parent: galliformes
+incertae_sedis: false
+placement_note: ''
+authority: Mayr and Kitchener 2024
+type_species: Waltonortyx bumbanipodiides
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct stem galliform genus recorded in PBDB from the Ypresian of United Kingdom.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 56
+  last_ma: 48.07
+  early_interval: Ypresian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Waltonortyx bumbanipodiides
+  authority: Mayr and Kitchener 2024
+  first_ma: 56
+  last_ma: 48.07
+  interval: Ypresian
+  reference: original description
+formations:
+- formation: London Clay
+  group: ''
+  members: [Walton]
+  country: United Kingdom
+  regions: [England]
+  interval: Ypresian
+  occurrences: 1
+  ma: [48.07, 56.0]
+  id: london-clay-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/vector.svg
+  png: https://images.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901/raster/556x1024.png
+  page: https://www.phylopic.org/images/a93b67a0-15d5-4835-938b-212928ec6901
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/mark/1.0/
+  depicts: Ortalis cinereiceps
+  matched: Galliformes
+  genus_level: false
+sources:
+- kind: original
+  text: "G. Mayr and A. C. Kitchener. 2024. The galliform birds from the lower Eocene London Clay of Walton-on-the-Naze\
+    \ (Essex, U.K.): new species suggest faunal connections to AsiaCitation for this article: Mayr, G. &amp; Kitchener,\
+    \ A. C. (2024) The galliform birds from the lower Eocene London Clay of Walton-on-the-Naze (Essex, U.K.): new\
+    \ species suggest faunal connections to Asia.\n Journal of Vertebrate Paleontology \n . https://doi.org/10.1080/02724634.2024.2374305.\
+    \ Journal of Vertebrate Paleontology"
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Waltonortyx (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Waltonortyx
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - Thin draft from PBDB data only (no Wikipedia page in the harvest); complete from the original description.
+  reviews: []

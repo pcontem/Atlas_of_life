@@ -1,0 +1,94 @@
+name: Wilaru
+rank: genus
+parent: presbyornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Boles et al. 2013
+type_species: Wilaru tedfordi
+type_species_note: Taxobox of Wikipedia revision 1353359004.
+summary: Presbyornithid from the Late Oligocene to Early Miocene of Australia.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 15.98
+  early_interval: Chattian
+  late_interval: Burdigalian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Wilaru prideauxi
+  authority: De Pietri et al. 2016
+  first_ma: 27.3
+  last_ma: 15.98
+  interval: Chattian–Burdigalian
+  reference: ''
+- name: Wilaru tedfordi
+  authority: Boles et al. 2013
+  first_ma: 27.3
+  last_ma: 23.04
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Wipajiri
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene–Early Miocene
+  occurrences: 1
+  ma: [15.98, 27.3]
+  id: wipajiri-australia
+- formation: Etadunna
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Chattian
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: etadunna-australia
+- formation: Namba
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Oligocene
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: namba-australia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/vector.svg
+  png: https://images.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546/raster/837x1024.png
+  page: https://www.phylopic.org/images/6f0a1c91-cc00-4064-b0ac-2db8f9579546
+  attribution: C. P. Tambussi, F. J. Degrange, R. S. De Mendoza, E. Sferco, and S. Santillana.
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Conflicto antarcticus
+  matched: Presbyornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: "V. L. De Pietri, R. P. Scofield, and N. V. Zelenkov, W. E. Boles, T. H. Worthy. 2016. The unexpected survival\
+    \ of an ancient lineage of anseriform birds into the\r\nNeogene of Australia: the youngest record of Presbyornithidae.\
+    \ Royal Society Open Science 3(150635):1-16"
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Wilaru (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Wilaru
+- kind: encyclopedia
+  text: Wikipedia contributors. “Wilaru”. English Wikipedia, revision 1353359004.
+  url: https://en.wikipedia.org/w/index.php?title=Wilaru&oldid=1353359004
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []
