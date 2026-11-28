@@ -1,0 +1,175 @@
+name: Eudyptes
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Vieillot 1816
+type_species: Eudyptes chrysocome
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living penguin genus recorded in PBDB from the Zanclean–Holocene of Australia, Chile, New Zealand, TF.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 3.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 24
+  note: ''
+species:
+- name: Eudyptes atatu
+  authority: Thomas et al. 2020
+  first_ma: 3.7
+  last_ma: 3
+  interval: Zanclean–Piacenzian
+  reference: ''
+- name: Eudyptes calauina
+  authority: Chávez Hoffmeister et al. 2014
+  first_ma: 2.58
+  last_ma: 0.774
+  interval: Gelasian–Calabrian
+  reference: ''
+- name: Eudyptes chrysocome
+  authority: (Forster 1781)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Eudyptes chrysolophus
+  authority: Brandt 1837
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Eudyptes moseleyi
+  authority: Matthews and Iredale 1921
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Eudyptes pachyrhynchus
+  authority: Gray 1845
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Eudyptes robustus
+  authority: Oliver 1953
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Eudyptes schlegeli
+  authority: Finsch 1876
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Eudyptes sclateri
+  authority: Buller 1888
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Eudyptes warhami
+  authority: Cole et al. 2019
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Holocene
+  occurrences: 10
+  ma: [0.0, 0.0117]
+  id: unnamed-russell-road-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Macquarie Island, Tasmania]
+  interval: Holocene
+  occurrences: 5
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-aurora-cave-australia
+  - unnamed-bauer-bay-site-f-australia
+  - unnamed-stockyard-site-australia
+- formation: Horcón
+  group: ''
+  members: []
+  country: Chile
+  regions: []
+  interval: Gelasian–Calabrian
+  occurrences: 4
+  ma: [0.774, 2.58]
+  id: horcon-chile
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TF
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-amsterdam-island-tf
+- formation: Tangahoe
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Island]
+  interval: Waipipian
+  occurrences: 1
+  ma: [3.0, 3.7]
+  id: tangahoe-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/f1f4ad6a-c11b-46e1-9f01-7a325d1b7bc5/vector.svg
+  png: https://images.phylopic.org/images/f1f4ad6a-c11b-46e1-9f01-7a325d1b7bc5/raster/861x1024.png
+  page: https://www.phylopic.org/images/f1f4ad6a-c11b-46e1-9f01-7a325d1b7bc5
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Eudyptes chrysocome filholi
+  matched: Eudyptes
+  genus_level: true
+  w: 504
+  h: 600
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eudyptes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eudyptes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Crested penguin”. English Wikipedia, revision 1379325427.
+  url: https://en.wikipedia.org/w/index.php?title=Crested_penguin&oldid=1379325427
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

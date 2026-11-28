@@ -3,18 +3,19 @@ name: Waipara Greensand
 rank: formation
 group: ''
 country: New Zealand
-regions: []
+regions: [South Island]
 location:
-  lat: -43.067
+  lat: -43.057
   lng: 172.6
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 12 PBDB collections that yielded the atlas genera
 age:
   first_ma: 61.66
   last_ma: 56.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [coastal indet.]
-lithology: [not reported]
-pbdb_collections: ['68822']
+environment: [marine indet., coastal indet.]
+lithology: [sandstone, not reported]
+pbdb_collections: ['68822', '85839', '85840', '85841', '90578', '90579', '90580', '161199', '175680', '203390',
+  '203391', '203392']
 includes: []
 summary: ''
 paleoenvironment: ''

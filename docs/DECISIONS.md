@@ -441,3 +441,8 @@ Volume `entries/aves1` (owner's plan of 2026-11-25, written on the owner's reque
 group Aves (the backbone node became the volume root, attached to Ornithurae of the Avialae volume), with Palaeognathae and
 Neognathae → Galloanserae. Living and fossil genera; living genera come only from PBDB (genera with a fossil record) until the owner
 picks a source for the full list. `validate.py` H3 now also accepts home-page groups whose node is a volume clade (needed for Aves).
+
+## 2026-11-28 — Aves II volume: root and first drafts
+Volume `entries/aves2` (plan of 2026-11-25; written on the owner's request of 2026-11-27): root Neoaves attached to Neognathae of Aves I,
+with Charadriiformes and Aequornithes; the backbone node Passeriformes now hangs from Neoaves. Given its size (about 380 PBDB genera), the
+genus entries were generated as thin drafts from PBDB data, with curation notes saying so, to be rewritten from the sources batch by batch.

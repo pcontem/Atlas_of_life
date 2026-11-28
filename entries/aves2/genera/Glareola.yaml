@@ -1,0 +1,80 @@
+name: Glareola
+rank: genus
+parent: glareolidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Glareola nordmanni
+type_species_note: The only valid species listed by PBDB.
+summary: Living pratincole or courser genus recorded in PBDB from the Late Pleistocene–Holocene of Greece, Morocco.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Glareola nordmanni
+  authority: Fischer 1842
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Crete]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-liko-cave-bed-li-o-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Morocco
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-morocco
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Glareola
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Glareola (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Glareola
+- kind: encyclopedia
+  text: Wikipedia contributors. “Pratincole”. English Wikipedia, revision 1357305360.
+  url: https://en.wikipedia.org/w/index.php?title=Pratincole&oldid=1357305360
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

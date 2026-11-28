@@ -1,0 +1,138 @@
+name: Botaurus
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Stephens 1819
+type_species: Botaurus stellaris
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living heron genus recorded in PBDB from the Zanclean–Holocene of United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Botaurus lentiginosus
+  authority: (Rackett 1813)
+  first_ma: 4.7
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Botaurus pinnatus
+  authority: Wagler 1829
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Botaurus poiciloptilus
+  authority: Wagler 1827
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Botaurus stellaris
+  authority: (Linnaeus 1758)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida, Oregon, Virginia]
+  interval: Gelasian–Late Pleistocene
+  occurrences: 9
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-clark-s-cave-united-states
+  - unnamed-emeryville-shellmound-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-inglis-ia-united-states
+  - unnamed-la-brea-tar-pits-united-states
+  - unnamed-rock-springs-united-states
+  - unnamed-seminole-field-united-states
+- formation: Tamiami
+  group: ''
+  members: [Pinecrest Beds]
+  country: United States
+  regions: [Florida]
+  interval: Blancan
+  occurrences: 2
+  ma: [1.4, 4.7]
+  id: tamiami-united-states
+- formation: Rexroad
+  group: ''
+  members: [upper]
+  country: United States
+  regions: [Kansas]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: rexroad-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-chelm-s-combe-rock-shelter-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Botaurus poiciloptilus (Australasian Bittern; Matuku) (48719316081).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Botaurus_poiciloptilus_%28Australasian_Bittern%3B_Matuku%29_%2848719316081%29.jpg/960px-Botaurus_poiciloptilus_%28Australasian_Bittern%3B_Matuku%29_%2848719316081%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Botaurus_poiciloptilus_(Australasian_Bittern;_Matuku)_(48719316081).jpg
+  artist: Auckland Museum Collections from Auckland, Aotearoa New Zealand
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2017-03-14'
+  caption: Botaurus poiciloptilus (Australasian Bittern; Matuku) (48719316081) (Wikimedia Commons; kind assigned
+    from the file name, not yet checked on the triage page).
+  width: 5792
+  height: 8688
+  review: unreviewed
+  local: img/gallery/Botaurus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/vector.svg
+  png: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/raster/638x1024.png
+  page: https://www.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c
+  attribution: Mannheim Reinhard Jahn (photograph)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tigrisoma mexicanum
+  matched: Ardeidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Botaurus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Botaurus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Botaurus”. English Wikipedia, revision 1380727483.
+  url: https://en.wikipedia.org/w/index.php?title=Botaurus&oldid=1380727483
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

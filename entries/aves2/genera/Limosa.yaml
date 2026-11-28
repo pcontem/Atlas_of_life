@@ -1,0 +1,197 @@
+name: Limosa
+rank: genus
+parent: scolopacidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Limosa limosa
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living sandpiper genus recorded in PBDB from the Tortonian–Holocene of Ecuador, Italy, Mexico, NF, New
+  Zealand, Russia, Spain, United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 11.63
+  last_ma: 0
+  early_interval: Tortonian
+  late_interval: Holocene
+  pbdb_occurrences: 32
+  note: ''
+species:
+- name: Limosa fedoa
+  authority: (Linnaeus 1758)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Limosa lapponica
+  authority: (Linnaeus 1758)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Limosa limosa
+  authority: (Linnaeus 1758)
+  first_ma: 1.8
+  last_ma: 0
+  interval: Calabrian–Holocene
+  reference: ''
+- name: Limosa vanrossemi
+  authority: Miller 1925
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Illinois, Virginia]
+  interval: Rancholabrean–Late Pleistocene
+  occurrences: 17
+  ma: [0.0117, 0.21]
+  id:
+  - unnamed-clark-s-cave-united-states
+  - unnamed-emeryville-shellmound-united-states
+  - unnamed-la-brea-tar-pits-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+  - unnamed-steuben-mounds-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: NF
+  regions: []
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id: unnamed-trench-eb96-10-emily-bay-nf
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-marfells-beach-dune-deposits-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: [Castilla-Leon]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: unnamed-atapuerca-td6-spain
+- formation: San Pedro
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: san-pedro-united-states
+- formation: Peace River
+  group: Hawthorn
+  members: [Bone Valley]
+  country: United States
+  regions: [Florida]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: peace-river-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-chelm-s-combe-rock-shelter-united-kingdom
+- formation: Monterey
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: monterey-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-dyuktai-cave-russia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-buso-doppio-del-broion-cave-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1fda4a62-111c-4e4c-9e12-ac0da0656cd9/vector.svg
+  png: https://images.phylopic.org/images/1fda4a62-111c-4e4c-9e12-ac0da0656cd9/raster/512x512.png
+  page: https://www.phylopic.org/images/1fda4a62-111c-4e4c-9e12-ac0da0656cd9
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Limosa limosa
+  matched: Limosa
+  genus_level: true
+  w: 512
+  h: 512
+sources:
+- kind: original
+  text: P. Brodkorb. 1955. The avifauna of the Bone Valley Formation. Florida Geological Survey Report of Investigations
+    14:1-57
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Limosa (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Limosa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Godwit”. English Wikipedia, revision 1370655670.
+  url: https://en.wikipedia.org/w/index.php?title=Godwit&oldid=1370655670
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

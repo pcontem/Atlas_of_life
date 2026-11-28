@@ -1,0 +1,376 @@
+name: Morus
+rank: genus
+parent: sulidae
+incertae_sedis: false
+placement_note: ''
+authority: Vieillot 1816
+type_species: Morus bassanus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living gannet or booby genus recorded in PBDB from the Lutetian–Holocene of Greece, Italy, Mexico, New
+  Zealand, Peru, Portugal, Romania, South Africa, Spain, Ukraine, United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 48.07
+  last_ma: 0
+  early_interval: Lutetian
+  late_interval: Holocene
+  pbdb_occurrences: 77
+  note: ''
+species:
+- name: Morus atlanticus
+  authority: (Shufeldt 1915)
+  first_ma: 23.04
+  last_ma: 3.6
+  interval: Aquitanian–Zanclean
+  reference: ''
+- name: Morus avitus
+  authority: (Wetmore 1938)
+  first_ma: 15.98
+  last_ma: 3.6
+  interval: Langhian–Zanclean
+  reference: ''
+- name: Morus bassanus
+  authority: (Linnaeus 1758)
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Morus capensis
+  authority: (Lichtenstein 1823)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Morus humeralis
+  authority: (Miller and Bowman 1958)
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+- name: Morus magnus
+  authority: Howard 1978
+  first_ma: 11.63
+  last_ma: 7.246
+  interval: Tortonian
+  reference: ''
+- name: Morus olsoni
+  authority: Grigorescu and Kessler 1988
+  first_ma: 13.82
+  last_ma: 11.63
+  interval: Serravallian
+  reference: ''
+- name: Morus peninsularis
+  authority: Brodkorb 1955
+  first_ma: 11.63
+  last_ma: 3.6
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Morus peruvianus
+  authority: Stucchi 2003
+  first_ma: 7.246
+  last_ma: 5.333
+  interval: Messinian
+  reference: ''
+- name: Morus poolensis
+  authority: Chandler 1963
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: ''
+- name: Morus recentior
+  authority: (Howard 1949)
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+- name: Morus reyanus
+  authority: Howard 1936
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: ''
+- name: Morus serrator
+  authority: (Gray 1843)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Morus vagabundus
+  authority: Wetmore 1930
+  first_ma: 15.98
+  last_ma: 13.82
+  interval: Langhian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England, Scotland]
+  interval: Lutetian–Pleistocene
+  occurrences: 11
+  ma: [0.0117, 48.07]
+  id:
+  - unnamed-bournemouth-freshwater-beds-united-kingdom
+  - unnamed-elsay-broch-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida, Georgia, Virginia]
+  interval: Pleistocene
+  occurrences: 7
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-castle-windy-united-states
+  - unnamed-clark-quarry-united-states
+  - unnamed-eclipse-united-states
+  - unnamed-green-mound-midden-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+  - unnamed-summer-haven-midden-united-states
+- formation: Temblor
+  group: ''
+  members: [Round Mountain]
+  country: United States
+  regions: [California]
+  interval: Langhian
+  occurrences: 6
+  ma: [13.82, 15.98]
+  id: temblor-united-states
+- formation: San Diego
+  group: ''
+  members: ['4']
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 6
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 5
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Rosarito Beach
+  group: ''
+  members: [Los Indios]
+  country: Mexico
+  regions: [Baja California]
+  interval: Burdigalian–Langhian
+  occurrences: 3
+  ma: [13.82, 20.45]
+  id: rosarito-beach-mexico
+- formation: Calvert
+  group: Chesapeake
+  members: [Plum Point]
+  country: United States
+  regions: [Maryland, Virginia]
+  interval: Langhian–Serravallian
+  occurrences: 3
+  ma: [11.63, 15.98]
+  id: calvert-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-duiker-eiland-south-africa
+  - unnamed-stofbergsfontein-south-africa
+- formation: Almejas
+  group: ''
+  members: [lower]
+  country: Mexico
+  regions: [Baja California]
+  interval: Messinian
+  occurrences: 2
+  ma: [5.333, 7.246]
+  id: almejas-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: [unnamed-cueva-de-nerja-spain, unnamed-torre-spain]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Portugal
+  regions: []
+  interval: Langhian
+  occurrences: 2
+  ma: [13.82, 15.98]
+  id: [unnamed-monte-moliao-portugal, unnamed-praia-do-penedo-norte-portugal]
+- formation: Acredale
+  group: ''
+  members: [Kempsville]
+  country: United States
+  regions: [Virginia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: acredale-united-states
+- formation: Pungo River
+  group: ''
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Aquitanian–Langhian
+  occurrences: 1
+  ma: [13.82, 23.04]
+  id: pungo-river-united-states
+- formation: Kempsville
+  group: ''
+  members: []
+  country: United States
+  regions: [Virginia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: kempsville-united-states
+- formation: Monterey
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: monterey-united-states
+- formation: Peace River
+  group: Hawthorn
+  members: [Bone Valley]
+  country: United States
+  regions: [Florida]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: peace-river-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: unnamed-dobrogea-romania
+- formation: Pisco
+  group: ''
+  members: [upper]
+  country: Peru
+  regions: [Caraveli]
+  interval: Messinian
+  occurrences: 1
+  ma: [5.333, 7.246]
+  id: pisco-peru
+- formation: Kirkwood
+  group: ''
+  members: [lower]
+  country: United States
+  regions: [New Jersey]
+  interval: Aquitanian–Burdigalian
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: kirkwood-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Crete]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-simonelli-cave-greece
+- formation: Purisima
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: purisima-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-marfells-beach-dune-deposits-new-zealand
+- formation: Okeechobee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: okeechobee-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ukraine
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-cruz-basilica-ukraine
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Early Pleistocene–Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 2.58]
+  id: unnamed-archi-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/89659603-08bb-4cef-9c0d-8ac84ae76b00/vector.svg
+  png: https://images.phylopic.org/images/89659603-08bb-4cef-9c0d-8ac84ae76b00/raster/512x472.png
+  page: https://www.phylopic.org/images/89659603-08bb-4cef-9c0d-8ac84ae76b00
+  attribution: Raju Mondal
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Morus serrata
+  matched: Morus
+  genus_level: true
+  w: 512
+  h: 472
+sources:
+- kind: original
+  text: H. Howard. 1936. A new fossil bird locality near Playa del Rey, California, with description of a new species
+    of sulid. Condor 38(5):211-214
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Morus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Morus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

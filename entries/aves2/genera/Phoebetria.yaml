@@ -1,0 +1,74 @@
+name: Phoebetria
+rank: genus
+parent: diomedeidae
+incertae_sedis: false
+placement_note: ''
+authority: Reichenbach 1853
+type_species: Phoebetria palpebrata
+type_species_note: The only valid species listed by PBDB.
+summary: Living albatross genus recorded in PBDB from the Holocene of New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Phoebetria palpebrata
+  authority: Forster 1785
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-chatham-islands-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4e4df08e-d11a-4250-869c-44ce8ab72dd7/vector.svg
+  png: https://images.phylopic.org/images/4e4df08e-d11a-4250-869c-44ce8ab72dd7/raster/512x356.png
+  page: https://www.phylopic.org/images/4e4df08e-d11a-4250-869c-44ce8ab72dd7
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Phoebetria fusca
+  matched: Phoebetria
+  genus_level: true
+  w: 512
+  h: 356
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Phoebetria (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Phoebetria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Phoebetria”. English Wikipedia, revision 1379749901.
+  url: https://en.wikipedia.org/w/index.php?title=Phoebetria&oldid=1379749901
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

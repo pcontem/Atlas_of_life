@@ -1,0 +1,71 @@
+name: Stenornis
+rank: genus
+parent: plotopteridae
+incertae_sedis: false
+placement_note: ''
+authority: Ohashi and Hasegawa 2020
+type_species: Stenornis kanmonensis
+type_species_note: Taxobox of Wikipedia revision 1322578208.
+summary: Extinct plotopterid genus recorded in PBDB from the Rupelian of Japan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 33.9
+  last_ma: 27.3
+  early_interval: Rupelian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Stenornis kanmonensis
+  authority: Ohashi and Hasegawa 2020
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: original description
+formations:
+- formation: Jinnobaru
+  group: ''
+  members: []
+  country: Japan
+  regions: [Yamaguchi]
+  interval: Rupelian
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: jinnobaru-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/vector.svg
+  png: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/raster/654x1024.png
+  page: https://www.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53
+  attribution: 'Jon Hill (Photo by Benjamint444: http://en.wikipedia.org/wiki/File:Blue-footed-booby.jpg)'
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sula nebouxii
+  matched: Suliformes
+  genus_level: false
+sources:
+- kind: original
+  text: T. Ohashi and Y. Hasegawa. 2020. New Species of Plotopteridae (Aves) from the Oligocene Ashiya Group of
+    Northern Kyushu, Japan. Paleontological Research 24(4):285-297
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stenornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stenornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Stenornis”. English Wikipedia, revision 1322578208.
+  url: https://en.wikipedia.org/w/index.php?title=Stenornis&oldid=1322578208
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

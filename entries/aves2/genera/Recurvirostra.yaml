@@ -1,0 +1,153 @@
+name: Recurvirostra
+rank: genus
+parent: recurvirostridae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Recurvirostra avosetta
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Living stilt or avocet genus recorded in PBDB from the Langhian–Holocene of Italy, Mexico, Spain, United
+  States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 0
+  early_interval: Langhian
+  late_interval: Holocene
+  pbdb_occurrences: 12
+  note: ''
+species:
+- name: Recurvirostra americana
+  authority: Gmelin 1789
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Recurvirostra avosetta
+  authority: Linnaeus 1758
+  first_ma: 0.774
+  last_ma: 0.129
+  interval: Chibanian
+  reference: ''
+- name: Recurvirostra teruelensis
+  authority: (de Villalta 1963)
+  first_ma: 8.725
+  last_ma: 5.09
+  interval: Tortonian–Zanclean
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida, Oregon]
+  interval: Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-emeryville-shellmound-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-haile-xib-united-states
+- formation: Temblor
+  group: ''
+  members: [Round Mountain]
+  country: United States
+  regions: [California]
+  interval: Langhian
+  occurrences: 2
+  ma: [13.82, 15.98]
+  id: temblor-united-states
+- formation: Tamiami
+  group: ''
+  members: [Upper Pinecrest Beds]
+  country: United States
+  regions: [Florida]
+  interval: Piacenzian
+  occurrences: 1
+  ma: [2.58, 3.6]
+  id: tamiami-united-states
+- formation: Bermont
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Calabrian
+  occurrences: 1
+  ma: [0.774, 1.8]
+  id: bermont-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Mexico]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-chimalhuacan-atenco-capa-v-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Siracusa]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-spinagallo-cave-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Spain
+  regions: []
+  interval: Messinian
+  occurrences: 1
+  ma: [5.333, 7.246]
+  id: unnamed-los-mansuetos-teruel-spain
+- formation: Alfambra
+  group: ''
+  members: []
+  country: Spain
+  regions: [Aragon]
+  interval: Turolian
+  occurrences: 1
+  ma: [5.09, 8.725]
+  id: alfambra-spain
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3266d069-f33e-4f80-9d0a-d8b0fddd1fe2/vector.svg
+  png: https://images.phylopic.org/images/3266d069-f33e-4f80-9d0a-d8b0fddd1fe2/raster/976x1024.png
+  page: https://www.phylopic.org/images/3266d069-f33e-4f80-9d0a-d8b0fddd1fe2
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Recurvirostra avosetta
+  matched: Recurvirostra
+  genus_level: true
+  w: 572
+  h: 600
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Recurvirostra (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Recurvirostra
+- kind: encyclopedia
+  text: Wikipedia contributors. “Avocet”. English Wikipedia, revision 1338549061.
+  url: https://en.wikipedia.org/w/index.php?title=Avocet&oldid=1338549061
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

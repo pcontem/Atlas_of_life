@@ -1,0 +1,78 @@
+name: Rostratula
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: Vieillot 1816
+type_species: Rostratula benghalensis
+type_species_note: Taxobox of Wikipedia revision 1355554992.
+summary: Living painted-snipe genus recorded in PBDB from the Zanclean of South Africa.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rostratula australis
+  authority: Gould 1838
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Rostratula benghalensis
+  authority: Linnaeus 1758
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations:
+- formation: Varswater
+  group: ''
+  members: [PPM]
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Charadriiformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rostratula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rostratula
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rostratula”. English Wikipedia, revision 1355554992.
+  url: https://en.wikipedia.org/w/index.php?title=Rostratula&oldid=1355554992
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

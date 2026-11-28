@@ -1,0 +1,15 @@
+title: Aves II (waterbirds and shorebirds)
+root: neoaves
+attach_to: neognathae
+built: '2026-11-28'
+size_measure: length
+method: Ages, authorities, species and formations from the Paleobiology Database; English Wikipedia revisions cited
+  where they are about the genus; images from Wikimedia Commons and PhyloPic with their licences. Classification
+  from English Wikipedia revisions of the clade articles checked against PBDB (docs/TREE_REVIEW.md); census of 2026-11-27
+  (data/raw/census/aves2). The volume holds the root of Neoaves with the shorebirds (Charadriiformes) and the core
+  water birds (Aequornithes), living and fossil genera. Genus summaries are first drafts written from PBDB data.
+  Living genera without a fossil record in PBDB are not yet included.
+restoration_checks:
+- plumage, bill and feet match the living relatives and the known material
+- wing shape agrees with the evidence (flippers in penguins, wing-propelled diving in plotopterids and auks)
+- for living genera, photographs (kind photo) are preferred to restorations

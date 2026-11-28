@@ -1,0 +1,101 @@
+name: Aldiomedes
+rank: genus
+parent: diomedeidae
+incertae_sedis: false
+placement_note: ''
+authority: Mayr and Tennyson 2019
+type_species: Aldiomedes angustirostris
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct albatross genus recorded in PBDB from the Zanclean–Piacenzian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 3.7
+  last_ma: 3
+  early_interval: Zanclean
+  late_interval: Piacenzian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aldiomedes angustirostris
+  authority: Mayr and Tennyson 2019
+  first_ma: 3.7
+  last_ma: 3
+  interval: Zanclean–Piacenzian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Island]
+  interval: Waipipian
+  occurrences: 1
+  ma: [3.0, 3.7]
+  id: unnamed-ohawe-beach-waipipian-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Aldiomedes angustirostris 01.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Aldiomedes_angustirostris_01.jpg/960px-Aldiomedes_angustirostris_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aldiomedes_angustirostris_01.jpg
+  artist: Museum of New Zealand
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2011-01-25'
+  caption: Aldiomedes angustirostris 01 (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 4368
+  height: 2912
+  review: unreviewed
+  local: img/gallery/Aldiomedes_001.webp
+- kind: fossil
+  file: Aldiomedes angustirostris 02.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Aldiomedes_angustirostris_02.jpg/960px-Aldiomedes_angustirostris_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Aldiomedes_angustirostris_02.jpg
+  artist: Museum of New Zealand
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2011-01-25'
+  caption: Aldiomedes angustirostris 02 (Wikimedia Commons; kind assigned from the file name, not yet checked on
+    the triage page).
+  width: 4368
+  height: 2912
+  review: unreviewed
+  local: img/gallery/Aldiomedes_002.webp
+silhouette:
+  src: https://images.phylopic.org/images/7eff436d-7eb6-425a-bfd8-514a63e9e7f5/vector.svg
+  png: https://images.phylopic.org/images/7eff436d-7eb6-425a-bfd8-514a63e9e7f5/raster/512x152.png
+  page: https://www.phylopic.org/images/7eff436d-7eb6-425a-bfd8-514a63e9e7f5
+  attribution: Mark P. Witton & Darren Naish
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Diomedeidae
+  matched: Diomedeidae
+  genus_level: false
+  w: 512
+  h: 152
+sources:
+- kind: original
+  text: G. Mayr and A. J. D. Tennyson. 2019. A small, narrow-beaked albatross from the Pliocene of New Zealand demonstrates
+    a higher past diversity in the feeding ecology of the Diomedeidae. Ibis
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aldiomedes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aldiomedes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aldiomedes”. English Wikipedia, revision 1380734376.
+  url: https://en.wikipedia.org/w/index.php?title=Aldiomedes&oldid=1380734376
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

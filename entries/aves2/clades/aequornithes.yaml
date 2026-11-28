@@ -1,0 +1,30 @@
+id: aequornithes
+name: Aequornithes
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Aequornithes, unranked clade), downloaded 2026-11-28
+parent: neoaves
+wikipedia: Aequornithes
+summary: Core water birds, the clade of loons, penguins, tubenoses, storks, pelicans, herons, ibises and their relatives.
+diagnosis:
+- Least inclusive crown clade containing Pelecanus onocrotalus and Gavia immer (PhyloCode definition)
+- Mostly aquatic or wading birds
+notes: Ciconiidae (storks) are placed directly in the clade, without a separate order.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aequornithes”. English Wikipedia, revision 1378605200.
+  url: https://en.wikipedia.org/w/index.php?title=Aequornithes&oldid=1378605200
+- kind: database
+  text: 'Paleobiology Database, taxon Aequornithes (no. 206280): rank, authority Mayr 2011 and reference no. 38606
+    (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=206280
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work (Mayr 2011, PBDB reference 38606) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

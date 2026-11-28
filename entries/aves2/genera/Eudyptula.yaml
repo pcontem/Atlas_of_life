@@ -1,0 +1,114 @@
+name: Eudyptula
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1856
+type_species: Eudyptula minor
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living penguin genus recorded in PBDB from the Zanclean–Holocene of Australia, New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 3.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Eudyptula minor
+  authority: (Forster 1781)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Eudyptula wilsonae
+  authority: Thomas et al. 2023
+  first_ma: 3.7
+  last_ma: 3
+  interval: Zanclean–Piacenzian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 6
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+  - unnamed-mason-bay-stewart-island-new-zealand
+  - unnamed-site-1-mangere-island-new-zealand
+  - unnamed-te-ana-a-moe-chatham-island-new-zealand
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Otago, South Island]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [New South Wales, Tasmania, Victoria]
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-amphitheatre-cave-australia
+  - unnamed-curracurrang-1-rockshelter-australia
+  - unnamed-stockyard-site-australia
+- formation: Tangahoe
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Island]
+  interval: Waipipian
+  occurrences: 1
+  ma: [3.0, 3.7]
+  id: tangahoe-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/00cccd9b-0cd7-4677-9918-eddeac5cf1c6/vector.svg
+  png: https://images.phylopic.org/images/00cccd9b-0cd7-4677-9918-eddeac5cf1c6/raster/731x1024.png
+  page: https://www.phylopic.org/images/00cccd9b-0cd7-4677-9918-eddeac5cf1c6
+  attribution: Fir0002/Flagstaffotos (photo), John E. McCormack, Michael G. Harvey, Brant C. Faircloth, Nicholas
+    G. Crawford, Travis C. Glenn, Robb T. Brumfield & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Eudyptula minor
+  matched: Eudyptula
+  genus_level: true
+  w: 428
+  h: 600
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eudyptula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eudyptula
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eudyptula”. English Wikipedia, revision 1379516999.
+  url: https://en.wikipedia.org/w/index.php?title=Eudyptula&oldid=1379516999
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

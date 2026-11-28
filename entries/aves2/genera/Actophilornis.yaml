@@ -1,0 +1,73 @@
+name: Actophilornis
+rank: genus
+parent: jacanidae
+incertae_sedis: false
+placement_note: ''
+authority: Oberholser 1925
+type_species: Actophilornis africanus
+type_species_note: The only valid species listed by PBDB.
+summary: Living jacana genus recorded in PBDB from the Holocene of South Africa.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Actophilornis africanus
+  authority: Gmelin 1789
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-south-africa
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462/vector.svg
+  png: https://images.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462/raster/926x1024.png
+  page: https://www.phylopic.org/images/bf5fe2c5-1247-4ed9-93e2-d5af255ec462
+  attribution: Burton Robert, USFWS
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Jacana spinosa
+  matched: Jacanidae
+  genus_level: false
+  w: 543
+  h: 600
+sources:
+- kind: original
+  text: B. L. International. 2018. Tigriornis leucolopha. The IUCN Red List of Threatened Species T22697277A
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Actophilornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Actophilornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Actophilornis”. English Wikipedia, revision 1380574648.
+  url: https://en.wikipedia.org/w/index.php?title=Actophilornis&oldid=1380574648
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -1,0 +1,89 @@
+name: Theristicus
+rank: genus
+parent: threskiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Wagler 1832
+type_species: Theristicus wetmorei
+type_species_note: The only valid species listed by PBDB.
+summary: Living ibis or spoonbill genus recorded in PBDB from the Late Pleistocene–Holocene of Peru, Uruguay.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Theristicus wetmorei
+  authority: Campbell 1979
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Uruguay
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-uruguay
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Wildlife in and around Reserva Laguna Nimez in El Calafate, Argentina - there is some uncertainty here amongst
+    some authorities- is this the Black Faced Ibis (Theristicus melanops) - OR - the (24560030193).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Wildlife_in_and_around_Reserva_Laguna_Nimez_in_El_Calafate%2C_Argentina_-_there_is_some_uncertainty_here_amongst_some_authorities-_is_this_the_Black_Faced_Ibis_%28Theristicus_melanops%29_-_OR_-_the_%2824560030193%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Wildlife_in_and_around_Reserva_Laguna_Nimez_in_El_Calafate,_Argentina_-_there_is_some_uncertainty_here_amongst_some_authorities-_is_this_the_Black_Faced_Ibis_(Theristicus_melanops)_-_OR_-_the_(24560030193).jpg
+  artist: Murray Foubister
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  date: '2015-12-16'
+  caption: Wildlife in and around Reserva Laguna Nimez in El Calafate, Argentina - there is some uncertainty here
+    amongst some authorities- is this the Black Faced Ibis (Theristicus melanops) - OR - the (24560030193) (Wikimedia
+    Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 4756
+  height: 3171
+  review: unreviewed
+  local: img/gallery/Theristicus_001.webp
+sources:
+- kind: original
+  text: K. E. Campbell. 1979. The non-passerine Pleistocene avifauna of the Talara Tar Seeps, northwestern Peru.
+    Royal Ontario Museum Life Sciences Contribution 118:1-203
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Theristicus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Theristicus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Theristicus”. English Wikipedia, revision 1385818294.
+  url: https://en.wikipedia.org/w/index.php?title=Theristicus&oldid=1385818294
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

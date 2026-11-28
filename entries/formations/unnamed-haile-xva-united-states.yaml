@@ -12,8 +12,10 @@ regions:
 - Georgia
 - Hawaii
 - Kansas
+- Maine
 - Maryland
 - Montana
+- Nebraska
 - New Mexico
 - Ohio
 - Oregon
@@ -26,14 +28,14 @@ regions:
 location:
   lat: 29.8
   lng: -82.1
-  basis: median of 1 PBDB collections that yielded the atlas genera
+  basis: median of 2 PBDB collections that yielded the atlas genera
 age:
-  first_ma: 4.7
+  first_ma: 9.4
   last_ma: 1.4
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
 environment: [terrestrial indet.]
-lithology: []
-pbdb_collections: ['19752']
+lithology: [not reported]
+pbdb_collections: ['18545', '19752']
 includes: []
 summary: ''
 paleoenvironment: ''

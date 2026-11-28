@@ -1,0 +1,78 @@
+name: Urile
+rank: genus
+parent: phalacrocoracidae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1855
+type_species: Urile urile
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living cormorant genus recorded in PBDB.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Urile pelagicus
+  authority: Pallas 1811
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Urile penicillatus
+  authority: Brandt 1837
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Urile urile
+  authority: Gmelin 1789
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/94ebc6dd-5af0-4890-8460-12d4c8044fdc/vector.svg
+  png: https://images.phylopic.org/images/94ebc6dd-5af0-4890-8460-12d4c8044fdc/raster/512x335.png
+  page: https://www.phylopic.org/images/94ebc6dd-5af0-4890-8460-12d4c8044fdc
+  attribution: Caleb M. Gordon
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Urile penicillatus
+  matched: Urile
+  genus_level: true
+  w: 512
+  h: 335
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Urile (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Urile
+- kind: encyclopedia
+  text: Wikipedia contributors. “Urile”. English Wikipedia, revision 1379255498.
+  url: https://en.wikipedia.org/w/index.php?title=Urile&oldid=1379255498
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

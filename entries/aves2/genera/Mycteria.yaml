@@ -1,0 +1,206 @@
+name: Mycteria
+rank: genus
+parent: ciconiidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Mycteria americana
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living stork genus recorded in PBDB from the Burdigalian–Holocene of Argentina, Chad, Cuba, DR Congo, Kenya,
+  Mexico, Peru, Saudi Arabia, United States, Venezuela.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 20.45
+  last_ma: 0
+  early_interval: Burdigalian
+  late_interval: Holocene
+  pbdb_occurrences: 20
+  note: ''
+species:
+- name: Mycteria americana
+  authority: Linnaeus 1758
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+- name: Mycteria cinerea
+  authority: Raffles 1822
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Mycteria ibis
+  authority: (Linnaeus 1766)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Mycteria leucocephala
+  authority: Pennant 1769
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Mycteria milleri
+  authority: (Short 1966)
+  first_ma: 16.3
+  last_ma: 12.5
+  interval: Burdigalian–Serravallian
+  reference: ''
+- name: Mycteria wetmorei
+  authority: Howard 1935
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida]
+  interval: Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-ichetucknee-river-united-states
+  - unnamed-la-brea-tar-pits-united-states
+  - unnamed-vero-united-states
+  - unnamed-west-palm-beach-site-united-states
+- formation: Dam
+  group: ''
+  members: []
+  country: Saudi Arabia
+  regions: []
+  interval: Burdigalian
+  occurrences: 3
+  ma: [15.98, 20.45]
+  id: dam-saudi-arabia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chad
+  regions: []
+  interval: Messinian
+  occurrences: 2
+  ma: [5.333, 7.246]
+  id: unnamed-toros-menalla-chad
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Cuba
+  regions: [Matanzas]
+  interval: Pleistocene–Holocene
+  occurrences: 2
+  ma: [0.0, 2.58]
+  id: unnamed-las-breas-de-san-felipe-cuba
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: DR Congo
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-ishango-n-f-p-dr-congo
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Jalisco]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-lacm-1952-lacm-1953-san-marcos-mexico
+- formation: Goliad
+  group: ''
+  members: [Lapara]
+  country: United States
+  regions: [Texas]
+  interval: Clarendonian
+  occurrences: 1
+  ma: [9.4, 12.5]
+  id: goliad-united-states
+- formation: Ituzaingo
+  group: ''
+  members: [Conglomerado Osifero]
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kenya
+  regions: []
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: unnamed-kanaopi-kenya
+- formation: Valentine
+  group: ''
+  members: [Crookston Bridge]
+  country: United States
+  regions: [Nebraska]
+  interval: Barstovian
+  occurrences: 1
+  ma: [12.5, 16.3]
+  id: valentine-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-los-tamarindos-3-feet-below-surface-venezuela
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d8b80938-61d0-4b06-ab28-d631fb545131/vector.svg
+  png: https://images.phylopic.org/images/d8b80938-61d0-4b06-ab28-d631fb545131/raster/512x266.png
+  page: https://www.phylopic.org/images/d8b80938-61d0-4b06-ab28-d631fb545131
+  attribution: Mathieu Basille
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mycteria americana
+  matched: Mycteria
+  genus_level: true
+sources:
+- kind: original
+  text: H. Howard. 1972. Type specimens of avian fossils in the collections of the Natural History Museum of Los
+    Angeles County. Contributions in Science
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mycteria (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mycteria
+- kind: encyclopedia
+  text: Wikipedia contributors. “Mycteria”. English Wikipedia, revision 1344416013.
+  url: https://en.wikipedia.org/w/index.php?title=Mycteria&oldid=1344416013
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

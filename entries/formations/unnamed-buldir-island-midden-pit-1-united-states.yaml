@@ -8,24 +8,29 @@ regions:
 - Alaska
 - Arizona
 - California
+- Colorado
 - Florida
 - Georgia
 - Hawaii
+- Maine
+- New Mexico
+- North Carolina
 - Oregon
+- South Carolina
 - Texas
 - Washington
 - Wyoming
 location:
   lat: 52.371
   lng: 175.885
-  basis: median of 2 PBDB collections that yielded the atlas genera
+  basis: median of 3 PBDB collections that yielded the atlas genera
 age:
   first_ma: 0.0117
   last_ma: 0.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet.]
+environment: [terrestrial indet., marine indet.]
 lithology: [sandstone]
-pbdb_collections: ['177178', '177179']
+pbdb_collections: ['70587', '177178', '177179']
 includes: []
 summary: ''
 paleoenvironment: ''

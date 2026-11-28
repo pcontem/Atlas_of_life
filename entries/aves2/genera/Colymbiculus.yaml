@@ -1,0 +1,73 @@
+name: Colymbiculus
+rank: genus
+parent: gaviiformes
+incertae_sedis: false
+placement_note: ''
+authority: Mayr and Zvonok 2011
+type_species: Colymbiculus udovichenkoi
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct loon genus recorded in PBDB from the Lutetian of Ukraine.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 48.07
+  last_ma: 41.03
+  early_interval: Lutetian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Colymbiculus udovichenkoi
+  authority: Mayr and Zvonok 2011
+  first_ma: 48.07
+  last_ma: 41.03
+  interval: Lutetian
+  reference: original description
+formations:
+- formation: Buchak
+  group: ''
+  members: []
+  country: Ukraine
+  regions: [Luhansk]
+  interval: Lutetian
+  occurrences: 1
+  ma: [41.03, 48.07]
+  id: buchak-ukraine
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/b6673a57-d8ec-4983-8c64-ab1500794a96/vector.svg
+  png: https://images.phylopic.org/images/b6673a57-d8ec-4983-8c64-ab1500794a96/raster/512x193.png
+  page: https://www.phylopic.org/images/b6673a57-d8ec-4983-8c64-ab1500794a96
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Gavia stellata
+  matched: Gaviidae
+  genus_level: false
+  w: 512
+  h: 193
+sources:
+- kind: original
+  text: G. Mayr and E. A. Zvonok. 2011. Middle Eocene Pelagornithidae and Gaviiformes (Aves) from the Ukrainian
+    Paratethys. Palaeontology 54(6):1347-1359
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Colymbiculus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Colymbiculus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Colymbiculus”. English Wikipedia, revision 1272982559.
+  url: https://en.wikipedia.org/w/index.php?title=Colymbiculus&oldid=1272982559
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

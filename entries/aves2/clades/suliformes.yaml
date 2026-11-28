@@ -1,0 +1,31 @@
+id: suliformes
+name: Suliformes
+rank: clade
+taxon_rank: order
+taxon_rank_source: Paleobiology Database taxonomy (taxon Suliformes, order), downloaded 2026-11-28
+parent: aequornithes
+wikipedia: Suliformes
+summary: Gannets, boobies, frigatebirds, cormorants and darters.
+diagnosis:
+- Recognised by the International Ornithologists' Union, split from the polyphyletic traditional Pelecaniformes
+- Mostly fish-eating seabirds and waterbirds
+notes: Also called Phalacrocoraciformes (Christidis and Boles 2008). The extinct flightless plotopterids are placed
+  here.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Suliformes”. English Wikipedia, revision 1348907470.
+  url: https://en.wikipedia.org/w/index.php?title=Suliformes&oldid=1348907470
+- kind: database
+  text: 'Paleobiology Database, taxon Suliformes (no. 358821): rank, authority Sharpe 1891 and reference no. 63084
+    (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=358821
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work (Sharpe 1891, PBDB reference 63084) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

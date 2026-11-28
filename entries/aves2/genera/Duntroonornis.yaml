@@ -1,0 +1,71 @@
+name: Duntroonornis
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Marples 1952
+type_species: Duntroonornis parvus
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct penguin genus recorded in PBDB from the Chattian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 25.2
+  early_interval: Chattian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Duntroonornis parvus
+  authority: Marples 1952
+  first_ma: 27.3
+  last_ma: 25.2
+  interval: Chattian
+  reference: original description
+formations:
+- formation: Kokoamu Greensand
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Otago]
+  interval: Duntroonian
+  occurrences: 1
+  ma: [25.2, 27.3]
+  id: kokoamu-greensand-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/vector.svg
+  png: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/raster/512x417.png
+  page: https://www.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Waimanu manneringi
+  matched: Sphenisciformes
+  genus_level: false
+sources:
+- kind: original
+  text: B. J. Marples. 1952. Early Tertiary penguins of New Zealand. New zealand Geological Survey Paleontological
+    Bulletin 20:1-66
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Duntroonornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Duntroonornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Duntroonornis”. English Wikipedia, revision 1273044505.
+  url: https://en.wikipedia.org/w/index.php?title=Duntroonornis&oldid=1273044505
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

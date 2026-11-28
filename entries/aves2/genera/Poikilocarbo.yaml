@@ -1,0 +1,66 @@
+name: Poikilocarbo
+rank: genus
+parent: phalacrocoracidae
+incertae_sedis: false
+placement_note: ''
+authority: Boetticher 1935
+type_species: Poikilocarbo gaimardi
+type_species_note: The only valid species listed by PBDB.
+summary: Living cormorant genus recorded in PBDB.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Poikilocarbo gaimardi
+  authority: Lesson and Garnot 1828
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/479373de-a341-4452-a270-0b08b186d36a/vector.svg
+  png: https://images.phylopic.org/images/479373de-a341-4452-a270-0b08b186d36a/raster/893x1024.png
+  page: https://www.phylopic.org/images/479373de-a341-4452-a270-0b08b186d36a
+  attribution: Edwin Price
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Poikilocarbo gaimardi
+  matched: Poikilocarbo
+  genus_level: true
+  w: 523
+  h: 600
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Poikilocarbo (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Poikilocarbo
+- kind: encyclopedia
+  text: Wikipedia contributors. “Red-legged cormorant”. English Wikipedia, revision 1325900129.
+  url: https://en.wikipedia.org/w/index.php?title=Red-legged_cormorant&oldid=1325900129
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

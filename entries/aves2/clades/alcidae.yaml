@@ -1,0 +1,31 @@
+id: alcidae
+name: Alcidae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Alcidae, family), downloaded 2026-11-28
+parent: charadriiformes
+wikipedia: Auk
+summary: Auks, murres, guillemots and puffins, diving seabirds of northern oceans.
+diagnosis:
+- Black-and-white colours and upright posture, superficially like penguins
+- Wing-propelled divers
+notes: Their resemblance to penguins is an example of convergent evolution; the flightless great auk and the Mancallinae
+  are extinct.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Auk”. English Wikipedia, revision 1356220599.
+  url: https://en.wikipedia.org/w/index.php?title=Auk&oldid=1356220599
+- kind: database
+  text: 'Paleobiology Database, taxon Alcidae (no. 39605): rank, authority Leach 1820 and reference no. 4783 (downloaded
+    2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=39605
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work (Leach 1820, PBDB reference 4783) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

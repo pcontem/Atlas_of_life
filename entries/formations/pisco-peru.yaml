@@ -5,17 +5,39 @@ group: ''
 country: Peru
 regions: [Arequipa, Caraveli, Ica]
 location:
-  lat: -15.526
-  lng: -74.799
-  basis: median of 12 PBDB collections that yielded the atlas genera
+  lat: -15.493
+  lng: -74.8
+  basis: median of 16 PBDB collections that yielded the atlas genera
 age:
   first_ma: 15.98
   last_ma: 3.6
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [marine indet., paralic indet., foreshore, lagoonal]
+environment:
+- marine indet.
+- paralic indet.
+- foreshore
+- shoreface
+- offshore shelf
+- lagoonal
+- coastal indet.
 lithology: [siltstone, not reported, sandstone]
-pbdb_collections: ['13079', '45485', '46084', '67634', '78518', '183918', '211787', '225490', '225491', '225492',
-  '225493', '225494']
+pbdb_collections:
+- '13079'
+- '45485'
+- '45486'
+- '45487'
+- '46083'
+- '46084'
+- '67634'
+- '78518'
+- '96800'
+- '183918'
+- '211787'
+- '225490'
+- '225491'
+- '225492'
+- '225493'
+- '225494'
 includes: []
 summary: ''
 paleoenvironment: ''

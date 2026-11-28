@@ -1,0 +1,120 @@
+name: Diomedeoides
+rank: genus
+parent: procellariidae
+incertae_sedis: false
+placement_note: ''
+authority: Fischer 1985
+type_species: Diomedeoides minimus
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Extinct petrel or shearwater genus recorded in PBDB from the Rupelian–Chattian of Belgium, Germany.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 33.9
+  last_ma: 23.04
+  early_interval: Rupelian
+  late_interval: Chattian
+  pbdb_occurrences: 3
+  note: ''
+species:
+- name: Diomedeoides babaheydariensis
+  authority: (Peters and Hamedani 2000)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Diomedeoides brodkorbi
+  authority: (Cheneval 1995)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Diomedeoides lipsiensis
+  authority: (Fischer 1983)
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: ''
+- name: Diomedeoides minimus
+  authority: Fischer 1985
+  first_ma: 33.9
+  last_ma: 27.3
+  interval: Rupelian
+  reference: ''
+formations:
+- formation: Bohlen
+  group: ''
+  members: []
+  country: Germany
+  regions: []
+  interval: MP 22
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: bohlen-germany
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Belgium
+  regions: []
+  interval: Rupelian
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: unnamed-steendorp-belgium
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Hessen]
+  interval: MP 30
+  occurrences: 1
+  ma: [23.04, 27.3]
+  id: unnamed-florsheim-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Diomedeoides.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Diomedeoides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Diomedeoides.jpg
+  artist: Vanesa L. De Pietri, Jean-Pierre Berger, Claudius Pirkenseer, Laureline Scherler, and Gerald Mayr
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2010'
+  caption: Diomedeoides (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 1019
+  height: 1400
+  review: unreviewed
+  local: img/gallery/Diomedeoides_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7/vector.svg
+  png: https://images.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7/raster/512x320.png
+  page: https://www.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7
+  attribution: Bennet McComish, photo by Avenue
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Fulmarus glacialis
+  matched: Procellariidae
+  genus_level: false
+sources:
+- kind: original
+  text: J. J., Jr. Sepkoski. 2002. A compendium of fossil marine animal genera. Bulletins of American Paleontology
+    363:1-560
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diomedeoides (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diomedeoides
+- kind: encyclopedia
+  text: Wikipedia contributors. “Diomedeoides”. English Wikipedia, revision 1348441523.
+  url: https://en.wikipedia.org/w/index.php?title=Diomedeoides&oldid=1348441523
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

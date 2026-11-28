@@ -1,0 +1,30 @@
+id: laridae
+name: Laridae
+rank: clade
+taxon_rank: family
+taxon_rank_source: Paleobiology Database taxonomy (taxon Laridae, family), downloaded 2026-11-28
+parent: charadriiformes
+wikipedia: Laridae
+summary: Gulls, terns, noddies and skimmers, 105 living species in 23 genera.
+diagnosis:
+- Mostly aerial seabirds of worldwide distribution
+- Adaptable, often coastal birds
+notes: Introduced as Laridia by Rafinesque.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Laridae”. English Wikipedia, revision 1374732281.
+  url: https://en.wikipedia.org/w/index.php?title=Laridae&oldid=1374732281
+- kind: database
+  text: 'Paleobiology Database, taxon Laridae (no. 39603): rank, authority Vigors 1825 and reference no. 4783 (downloaded
+    2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=39603
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work (Vigors 1825, PBDB reference 4783) as an original source.'
+  - 'DEF: diagnosis taken from the definition/description available; check against a revision.'
+  reviews: []

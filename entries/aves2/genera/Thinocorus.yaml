@@ -1,0 +1,119 @@
+name: Thinocorus
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: Eschscholtz 1829
+type_species: Thinocorus rumicivorus
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living seedsnipe genus recorded in PBDB from the Calabrian–Holocene of Argentina, Chile, Ecuador, Peru.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 1.75
+  last_ma: 0
+  early_interval: Calabrian
+  late_interval: Holocene
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Thinocorus koepckae
+  authority: Campbell 1979
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Thinocorus rumicivorus
+  authority: Eschscholtz 1829
+  first_ma: 1.75
+  last_ma: 0.0117
+  interval: Calabrian–Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+- formation: Miramar
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Buenos Aires]
+  interval: Ensenadan
+  occurrences: 1
+  ma: [0.4, 1.75]
+  id: miramar-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Chile
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-chile
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: The birds of South America (1912) (14755656965).jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/The_birds_of_South_America_%281912%29_%2814755656965%29.jpg/960px-The_birds_of_South_America_%281912%29_%2814755656965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:The_birds_of_South_America_(1912)_(14755656965).jpg
+  artist: Henrik Grønvold
+  license: Public domain
+  license_url: ''
+  date: '1916'
+  caption: The birds of South America (1912) (14755656965) (Wikimedia Commons; kind assigned from the file name,
+    not yet checked on the triage page).
+  width: 3568
+  height: 2584
+  review: unreviewed
+  local: img/gallery/Thinocorus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Charadriiformes
+  genus_level: false
+sources:
+- kind: original
+  text: K. E. Campbell. 1979. The non-passerine Pleistocene avifauna of the Talara Tar Seeps, northwestern Peru.
+    Royal Ontario Museum Life Sciences Contribution 118:1-203
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Thinocorus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Thinocorus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Thinocorus”. English Wikipedia, revision 1379761243.
+  url: https://en.wikipedia.org/w/index.php?title=Thinocorus&oldid=1379761243
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

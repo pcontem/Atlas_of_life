@@ -1,0 +1,32 @@
+id: liuchungchi-taiwan
+name: Liuchungchi
+rank: formation
+group: ''
+country: Taiwan
+regions: [Chiayi]
+location:
+  lat: 23.44
+  lng: 120.592
+  basis: median of 2 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 2.58
+  last_ma: 0.774
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [shoreface, coastal indet.]
+lithology: [siltstone, sandstone]
+pbdb_collections: ['232679', '275913']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Liuchungchi (coordinates, environment, lithology; downloaded
+    2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Liuchungchi
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

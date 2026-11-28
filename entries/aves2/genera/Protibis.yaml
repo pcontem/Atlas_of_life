@@ -1,0 +1,68 @@
+name: Protibis
+rank: genus
+parent: threskiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Ameghino 1891
+type_species: Protibis cnemialis
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct ibis or spoonbill genus recorded in PBDB from the Burdigalian of Argentina.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 17.5
+  last_ma: 16.3
+  early_interval: Burdigalian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Protibis cnemialis
+  authority: Ameghino 1891
+  first_ma: 17.5
+  last_ma: 16.3
+  interval: Burdigalian
+  reference: original description
+formations:
+- formation: Santa Cruz
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Santa Cruz]
+  interval: Santacrucian
+  occurrences: 1
+  ma: [16.3, 17.5]
+  id: santa-cruz-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a4cd0f63-558e-4698-8056-61a76c31b3f0/vector.svg
+  png: https://images.phylopic.org/images/a4cd0f63-558e-4698-8056-61a76c31b3f0/raster/842x1024.png
+  page: https://www.phylopic.org/images/a4cd0f63-558e-4698-8056-61a76c31b3f0
+  attribution: Maija Karala
+  license: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  depicts: Eudocimus ruber
+  matched: Threskiornithidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'F. J. Degrange, J. I. Noriega, and J. I. Areta. 2012. Diversity and paleobiology of the Santacrucian birds.
+    Early Miocene Paleobiology in Patagonia: High-Latitude Paleocommunities of the Santa Cruz Formation'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Protibis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Protibis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

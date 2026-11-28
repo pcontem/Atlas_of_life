@@ -1,0 +1,89 @@
+name: Chionis
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: Forster 1788
+type_species: Chionis albus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living sheathbill genus recorded in PBDB from the Chibanian–Holocene of Antarctica, Australia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0
+  early_interval: Chibanian
+  late_interval: Holocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Chionis albus
+  authority: (Gmelin 1789)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Chionis minor
+  authority: Hartlaub 1841
+  first_ma: 0.774
+  last_ma: 0.129
+  interval: Chibanian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-blanche-cave-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-pingfo-i-living-assemblage-antarctica
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/18478a36-aaa1-4381-9fef-ee072841739f/vector.svg
+  png: https://images.phylopic.org/images/18478a36-aaa1-4381-9fef-ee072841739f/raster/823x1024.png
+  page: https://www.phylopic.org/images/18478a36-aaa1-4381-9fef-ee072841739f
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Chionis minor
+  matched: Chionis
+  genus_level: true
+  w: 482
+  h: 600
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chionis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chionis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sheathbill”. English Wikipedia, revision 1379695334.
+  url: https://en.wikipedia.org/w/index.php?title=Sheathbill&oldid=1379695334
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -1,0 +1,68 @@
+name: Grallavis
+rank: genus
+parent: ciconiidae
+incertae_sedis: false
+placement_note: ''
+authority: Cheneval 1984
+type_species: Grallavis edwardsi
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct stork genus recorded in PBDB from the Aquitanian of France.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 20.45
+  early_interval: Aquitanian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Grallavis edwardsi
+  authority: (Lydekker 1891)
+  first_ma: 23.04
+  last_ma: 20.45
+  interval: Aquitanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne]
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: unnamed-st-gerand-le-puy-france
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/vector.svg
+  png: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/raster/697x1024.png
+  page: https://www.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547
+  attribution: Mike Keesey (vectorization) and Vaibhavcho (photography)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Leptoptilos javanicus
+  matched: Ciconiidae
+  genus_level: false
+sources:
+- kind: original
+  text: J. Cheneval. 1984. Grallavis edwardsi (Lydekker, 1891), nouveau genre d'oiseau (Ciconiiformes) du gisement
+    Aquitanien de Saint-Gerand-Le-Puy (Allier, France). Bulletin mensuel de la Société linnéenne de Lyon 53(2):43-60
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Grallavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Grallavis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

@@ -1,0 +1,68 @@
+name: Nucleornis
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Simpson 1979
+type_species: Nucleornis insolitus
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct penguin genus recorded in PBDB from the Zanclean of South Africa.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 3.6
+  early_interval: Zanclean
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Nucleornis insolitus
+  authority: Simpson 1979
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: original description
+formations:
+- formation: Varswater
+  group: ''
+  members: [Muishond Fontein Pelletal Phosphorite]
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/vector.svg
+  png: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/raster/792x1024.png
+  page: https://www.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aptenodytes patagonicus
+  matched: Spheniscidae
+  genus_level: false
+sources:
+- kind: original
+  text: G. G. Simpson. 1979. Tertiary penguins from the Duinefontein site, Cape Province, South Africa. Annals of
+    the South African Museum 79(1):1-7
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nucleornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nucleornis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

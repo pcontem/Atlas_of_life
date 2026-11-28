@@ -1,0 +1,72 @@
+name: Stiltia
+rank: genus
+parent: glareolidae
+incertae_sedis: false
+placement_note: ''
+authority: Gray 1855
+type_species: Stiltia isabella
+type_species_note: The only valid species listed by PBDB.
+summary: Living pratincole or courser genus recorded in PBDB from the Holocene of Indonesia.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Stiltia isabella
+  authority: Vieillot 1816
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Indonesia
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-indonesia
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Stiltia
+  genus_level: true
+sources:
+- kind: original
+  text: N. A. Smith. 2011. Taxonomic revision and phylogenetic analysis of the flightless Mancallinae (Aves, Pan-Alcidae).
+    ZooKeys 91:1-116
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Stiltia (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Stiltia
+- kind: encyclopedia
+  text: Wikipedia contributors. “Australian pratincole”. English Wikipedia, revision 1359017634.
+  url: https://en.wikipedia.org/w/index.php?title=Australian_pratincole&oldid=1359017634
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

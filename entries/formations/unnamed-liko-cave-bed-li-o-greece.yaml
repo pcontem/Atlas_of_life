@@ -7,14 +7,15 @@ regions: [Crete, Peloponnesus]
 location:
   lat: 35.399
   lng: 24.262
-  basis: median of 5 PBDB collections that yielded the atlas genera
+  basis: median of 11 PBDB collections that yielded the atlas genera
 age:
   first_ma: 0.129
   last_ma: 0.0117
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [cave]
+environment: [cave, terrestrial indet.]
 lithology: [not reported]
-pbdb_collections: ['192948', '192950', '192951', '192954', '192960']
+pbdb_collections: ['92902', '192948', '192949', '192950', '192951', '192954', '192955', '192957', '192958', '192959',
+  '192960']
 includes: []
 summary: ''
 paleoenvironment: ''

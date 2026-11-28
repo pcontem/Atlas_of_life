@@ -1,0 +1,65 @@
+name: Ibis
+rank: genus
+parent: threskiornithidae
+incertae_sedis: false
+placement_note: ''
+authority: Lacépède 1799
+type_species: Ibis conditus
+type_species_note: The only valid species listed by PBDB.
+summary: Living ibis genus recorded in PBDB.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Ibis conditus
+  authority: De Vis 1905
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: original description
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d8b80938-61d0-4b06-ab28-d631fb545131/vector.svg
+  png: https://images.phylopic.org/images/d8b80938-61d0-4b06-ab28-d631fb545131/raster/512x266.png
+  page: https://www.phylopic.org/images/d8b80938-61d0-4b06-ab28-d631fb545131
+  attribution: Mathieu Basille
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mycteria americana
+  matched: Ibis
+  genus_level: true
+  w: 512
+  h: 266
+sources:
+- kind: original
+  text: J. Cracraft. 1972. A new Cretaceous charadriiform family. The Auk 89(1):36-46
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ibis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ibis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Ibis”. English Wikipedia, revision 1385932940.
+  url: https://en.wikipedia.org/w/index.php?title=Ibis&oldid=1385932940
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

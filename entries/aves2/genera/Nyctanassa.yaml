@@ -1,0 +1,157 @@
+name: Nyctanassa
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Stejneger 1887
+type_species: Nyctanassa violacea
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living heron genus recorded in PBDB from the Zanclean–Holocene of BM, Bahamas, Ecuador, KY, Mexico, United
+  States, VI.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 23
+  note: ''
+species:
+- name: Nyctanassa carcinocatactes
+  authority: Olson and Wingate 2006
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Nyctanassa violacea
+  authority: (Linnaeus 1758)
+  first_ma: 4.7
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: VI
+  regions: []
+  interval: Holocene
+  occurrences: 5
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-concordia-midden-vi
+  - unnamed-francis-bay-st-john-vi
+  - unnamed-magen-s-bay-st-thomas-vi
+  - unnamed-near-mouth-of-salt-river-st-croix-vi
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: BM
+  regions: []
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 0.774]
+  id: unnamed-h-bernard-wilkinson-quarry-bm
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-melbourne-no-2-bed-united-states
+  - unnamed-seminole-field-united-states
+  - unnamed-vero-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bahamas
+  regions: [Great Abaco Island, New Providence Island]
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: [unnamed-banana-hole-bahamas, unnamed-sawmill-sink-owl-roost-bahamas]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: [Galapagos]
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-cueva-de-post-office-ecuador
+- formation: Okeechobee
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Middle Pleistocene
+  occurrences: 2
+  ma: [0.129, 0.774]
+  id: okeechobee-united-states
+- formation: Tamiami
+  group: ''
+  members: [Pinecrest Beds]
+  country: United States
+  regions: [Florida]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: tamiami-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: KY
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-patton-s-fissure-cayman-brac-ky
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/vector.svg
+  png: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/raster/638x1024.png
+  page: https://www.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c
+  attribution: Mannheim Reinhard Jahn (photograph)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tigrisoma mexicanum
+  matched: Ardeidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nyctanassa (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nyctanassa
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nyctanassa”. English Wikipedia, revision 1380726251.
+  url: https://en.wikipedia.org/w/index.php?title=Nyctanassa&oldid=1380726251
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

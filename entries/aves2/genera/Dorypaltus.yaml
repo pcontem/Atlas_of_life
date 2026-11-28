@@ -1,0 +1,82 @@
+name: Dorypaltus
+rank: genus
+parent: charadriidae
+incertae_sedis: false
+placement_note: ''
+authority: Brodkorb 1959
+type_species: Dorypaltus prophatus
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct plover genus recorded in PBDB from the Late Pleistocene of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0.0117
+  early_interval: Late Pleistocene
+  late_interval: ''
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Dorypaltus prophatus
+  authority: Brodkorb 1959
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: original description
+formations:
+- formation: Wicomico
+  group: ''
+  members: [Arredondo]
+  country: United States
+  regions: [Florida]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: wicomico-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-haile-xib-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/a861cc3b-4940-4b80-84d7-5d1b07ba6a28/vector.svg
+  png: https://images.phylopic.org/images/a861cc3b-4940-4b80-84d7-5d1b07ba6a28/raster/512x394.png
+  page: https://www.phylopic.org/images/a861cc3b-4940-4b80-84d7-5d1b07ba6a28
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Pluvialis squatarola
+  matched: Charadriidae
+  genus_level: false
+  w: 512
+  h: 394
+sources:
+- kind: original
+  text: P. Brodkorb. 1959. The Pleistocene avifauna of Arredondo, Florida. Bulletin of the Florida State Museum,
+    Biological Sciences 4(9):269-291
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Dorypaltus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Dorypaltus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Southern lapwing”. English Wikipedia, revision 1353815703.
+  url: https://en.wikipedia.org/w/index.php?title=Southern_lapwing&oldid=1353815703
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

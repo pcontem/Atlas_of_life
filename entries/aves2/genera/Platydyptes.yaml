@@ -1,0 +1,92 @@
+name: Platydyptes
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Marples 1952
+type_species: Platydyptes amiesi
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct penguin genus recorded in PBDB from the Priabonian–Aquitanian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 36.7
+  last_ma: 21.7
+  early_interval: Priabonian
+  late_interval: Aquitanian
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Platydyptes amiesi
+  authority: Marples 1952
+  first_ma: 27.3
+  last_ma: 21.7
+  interval: Chattian–Aquitanian
+  reference: ''
+- name: Platydyptes marplesi
+  authority: Simpson 1971
+  first_ma: 27.3
+  last_ma: 25.2
+  interval: Chattian
+  reference: ''
+- name: Platydyptes novaezealandiae
+  authority: (Oliver 1930)
+  first_ma: 36.7
+  last_ma: 25.2
+  interval: Priabonian–Chattian
+  reference: ''
+formations:
+- formation: Kokoamu Greensand
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [North Otago]
+  interval: Duntroonian–Waitakian
+  occurrences: 3
+  ma: [21.7, 27.3]
+  id: kokoamu-greensand-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Runangan–Waitakian
+  occurrences: 2
+  ma: [21.7, 36.7]
+  id: unnamed-white-rocks-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/vector.svg
+  png: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/raster/512x417.png
+  page: https://www.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Waimanu manneringi
+  matched: Sphenisciformes
+  genus_level: false
+sources:
+- kind: original
+  text: B. J. Marples. 1952. Early Tertiary penguins of New Zealand. New zealand Geological Survey Paleontological
+    Bulletin 20:1-66
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Platydyptes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Platydyptes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Platydyptes”. English Wikipedia, revision 1341564649.
+  url: https://en.wikipedia.org/w/index.php?title=Platydyptes&oldid=1341564649
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

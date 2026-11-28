@@ -1,0 +1,89 @@
+name: Anastomus
+rank: genus
+parent: ciconiidae
+incertae_sedis: false
+placement_note: ''
+authority: Bonnaterre 1791
+type_species: Anastomus oscitans
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living stork genus recorded in PBDB from the Late Pleistocene–Holocene of DR Congo, Madagascar.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Anastomus lamelligerus
+  authority: Temminck 1823
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Anastomus oscitans
+  authority: Boddaert 1783
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: DR Congo
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-ishango-n-f-p-dr-congo
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Madagascar
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-locality-ii-sw-of-ampoza-madagascar
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/1fe12042-ea28-488f-969a-d92b556201fa/vector.svg
+  png: https://images.phylopic.org/images/1fe12042-ea28-488f-969a-d92b556201fa/raster/751x1536.png
+  page: https://www.phylopic.org/images/1fe12042-ea28-488f-969a-d92b556201fa
+  attribution: Cameron Dunn
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Anastomus oscitans
+  matched: Anastomus
+  genus_level: true
+  w: 293
+  h: 600
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Anastomus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Anastomus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Openbill stork”. English Wikipedia, revision 1379748355.
+  url: https://en.wikipedia.org/w/index.php?title=Openbill_stork&oldid=1379748355
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

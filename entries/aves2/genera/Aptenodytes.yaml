@@ -1,0 +1,112 @@
+name: Aptenodytes
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Miller 1778
+type_species: Aptenodytes patagonicus
+type_species_note: Taxobox of Wikipedia revision 1384503150.
+summary: Living penguin genus recorded in PBDB from the Gelasian–Holocene of Antarctica, Australia, FK, New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.4
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 5
+  note: ''
+species:
+- name: Aptenodytes forsteri
+  authority: Gray 1844
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Aptenodytes patagonicus
+  authority: Miller 1778
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+- name: Aptenodytes ridgeni
+  authority: Simpson 1972
+  first_ma: 2.4
+  last_ma: 1.63
+  interval: Gelasian–Calabrian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-marine-plain-vestfold-hills-holocene-antarctica
+  - unnamed-princess-astrid-coast-antarctica
+- formation: Greta Siltstone
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Nukumaruan
+  occurrences: 1
+  ma: [1.63, 2.4]
+  id: greta-siltstone-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Macquarie Island]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-aurora-cave-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: FK
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-bleaker-island-beach-fk
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/vector.svg
+  png: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/raster/792x1024.png
+  page: https://www.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aptenodytes patagonicus
+  matched: Aptenodytes
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aptenodytes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aptenodytes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Aptenodytes”. English Wikipedia, revision 1384503150.
+  url: https://en.wikipedia.org/w/index.php?title=Aptenodytes&oldid=1384503150
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

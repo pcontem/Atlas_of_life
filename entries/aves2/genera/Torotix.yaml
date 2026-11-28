@@ -1,0 +1,72 @@
+name: Torotix
+rank: genus
+parent: pelecaniformes
+incertae_sedis: false
+placement_note: ''
+authority: Brodkorb 1963
+type_species: Torotix clemensi
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct pelecaniform genus recorded in PBDB from the Maastrichtian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 72.2
+  last_ma: 66
+  early_interval: Maastrichtian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Torotix clemensi
+  authority: Brodkorb 1963
+  first_ma: 72.2
+  last_ma: 66
+  interval: Maastrichtian
+  reference: original description
+formations:
+- formation: Lance
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Late Maastrichtian
+  occurrences: 1
+  ma: [66.0, 72.2]
+  id: lance-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5/vector.svg
+  png: https://images.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5/raster/512x393.png
+  page: https://www.phylopic.org/images/d0508bc3-dec1-40ee-85b1-a09b11a097b5
+  attribution: Arthur Grosset (photo), John E. McCormack, Michael G. Harvey, Brant C. Faircloth, Nicholas G. Crawford,
+    Travis C. Glenn, Robb T. Brumfield & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Scopus umbretta
+  matched: Pelecaniformes
+  genus_level: false
+sources:
+- kind: original
+  text: P. Brodkorb. 1963. Birds from the Upper Cretaceous of Wyoming. Proceedings of the XIII International Ornithological
+    Congress
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Torotix (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Torotix
+- kind: encyclopedia
+  text: Wikipedia contributors. “Torotix”. English Wikipedia, revision 1379257187.
+  url: https://en.wikipedia.org/w/index.php?title=Torotix&oldid=1379257187
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

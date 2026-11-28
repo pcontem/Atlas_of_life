@@ -1,0 +1,86 @@
+name: Eopelecanus
+rank: genus
+parent: pelecanidae
+incertae_sedis: false
+placement_note: ''
+authority: El Adli et al. 2021
+type_species: Eopelecanus aegyptiacus
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct pelican genus recorded in PBDB from the Priabonian of Egypt.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eopelecanus aegyptiacus
+  authority: El Adli et al. 2021
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Birket Qarun
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Fayum]
+  interval: Priabonian
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: birket-qarun-egypt
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Eopelecanus.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Eopelecanus.jpg/960px-Eopelecanus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Eopelecanus.jpg
+  artist: Armin Reindl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  date: '2022-08-31'
+  caption: Eopelecanus (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 3618
+  height: 3606
+  review: unreviewed
+  local: img/gallery/Eopelecanus_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/e0c19792-a9a3-4f52-b060-0f4da461f098/vector.svg
+  png: https://images.phylopic.org/images/e0c19792-a9a3-4f52-b060-0f4da461f098/raster/512x336.png
+  page: https://www.phylopic.org/images/e0c19792-a9a3-4f52-b060-0f4da461f098
+  attribution: Armin Reindl
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Eopelecanus
+  matched: Eopelecanus
+  genus_level: true
+  w: 512
+  h: 336
+sources:
+- kind: original
+  text: J. J. El Adli, J. A. Wilson Mantilla, and M. S. M. Antar, P. D. Gingerich. 2021. The earliest recorded fossil
+    pelican, recovered from the late Eocene of Wadi Al-Hitan, Egypt. Journal of Vertebrate Paleontology 41(1):e1903910
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eopelecanus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eopelecanus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Eopelecanus”. English Wikipedia, revision 1322427071.
+  url: https://en.wikipedia.org/w/index.php?title=Eopelecanus&oldid=1322427071
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

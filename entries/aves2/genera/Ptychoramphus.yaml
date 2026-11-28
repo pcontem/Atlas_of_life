@@ -1,0 +1,100 @@
+name: Ptychoramphus
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Brandt 1837
+type_species: Ptychoramphus aleuticus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living auk genus recorded in PBDB from the Zanclean–Holocene of United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 27
+  note: ''
+species:
+- name: Ptychoramphus aleuticus
+  authority: (Pallas 1811)
+  first_ma: 4.7
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Ptychoramphus tenuis
+  authority: Miller and Bowman 1958
+  first_ma: 4.7
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alaska, California]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 22
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-buldir-island-midden-pit-1-united-states
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-laguna-creek-midden-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+  - unnamed-san-miguel-united-states
+- formation: San Diego
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 4
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: San Pedro
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: san-pedro-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/vector.svg
+  png: https://images.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7/raster/512x454.png
+  page: https://www.phylopic.org/images/90bc3aa1-5134-44cb-9676-4afee85506b7
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Miocepphus blowi
+  matched: Alcidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Ptychoramphus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Ptychoramphus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Cassin's auklet”. English Wikipedia, revision 1380578521.
+  url: https://en.wikipedia.org/w/index.php?title=Cassin's_auklet&oldid=1380578521
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

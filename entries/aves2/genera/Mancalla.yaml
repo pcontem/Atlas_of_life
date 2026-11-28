@@ -1,0 +1,160 @@
+name: Mancalla
+rank: genus
+parent: alcidae
+incertae_sedis: false
+placement_note: ''
+authority: Lucas 1901
+type_species: Mancalla californiensis
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct auk genus recorded in PBDB from the Messinian–Late Pleistocene of Japan, Mexico, United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 7.246
+  last_ma: 0.0117
+  early_interval: Messinian
+  late_interval: Late Pleistocene
+  pbdb_occurrences: 32
+  note: ''
+species:
+- name: Mancalla californiensis
+  authority: Lucas 1901
+  first_ma: 5.333
+  last_ma: 1.8
+  interval: Zanclean–Gelasian
+  reference: ''
+- name: Mancalla cedrosensis
+  authority: Howard 1971
+  first_ma: 7.246
+  last_ma: 3.6
+  interval: Messinian–Zanclean
+  reference: ''
+- name: Mancalla lucasi
+  authority: Smith 2011
+  first_ma: 5.333
+  last_ma: 0.774
+  interval: Zanclean–Calabrian
+  reference: ''
+- name: Mancalla vegrandis
+  authority: Smith 2011
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+formations:
+- formation: San Diego
+  group: ''
+  members: ['6', Lower]
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 19
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: Almejas
+  group: ''
+  members: [lower]
+  country: Mexico
+  regions: [Baja California]
+  interval: Messinian–Zanclean
+  occurrences: 4
+  ma: [3.6, 7.246]
+  id: almejas-mexico
+- formation: San Mateo
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Zanclean
+  occurrences: 2
+  ma: [3.6, 5.333]
+  id: san-mateo-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: [Aomori]
+  interval: Middle Pleistocene–Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.774]
+  id: unnamed-shiriya-locality-2-japan
+- formation: Palos Verdes Sand
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Rancholabrean
+  occurrences: 1
+  ma: [0.014, 0.21]
+  id: palos-verdes-sand-united-states
+- formation: Niguel
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Zanclean–Calabrian
+  occurrences: 1
+  ma: [0.774, 5.333]
+  id: niguel-united-states
+- formation: Fernando
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Early Pliocene
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: fernando-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: unnamed-corona-del-mar-united-states
+- formation: Ichijiku
+  group: Kazusa
+  members: []
+  country: Japan
+  regions: [Chiba]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: ichijiku-japan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/78396908-52e0-42e5-8ef1-1c694b77499d/vector.svg
+  png: https://images.phylopic.org/images/78396908-52e0-42e5-8ef1-1c694b77499d/raster/512x489.png
+  page: https://www.phylopic.org/images/78396908-52e0-42e5-8ef1-1c694b77499d
+  attribution: T. Michael Keesey
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Mancalla vergrandis
+  matched: Mancalla
+  genus_level: true
+  w: 512
+  h: 489
+sources:
+- kind: original
+  text: F. A. Lucas. 1901. A flightless auk, Mancalla californiensis, from the Miocene of California. Proceedings
+    of the US National Museum 24(1245):133-134
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Mancalla (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Mancalla
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

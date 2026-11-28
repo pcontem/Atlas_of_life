@@ -1,0 +1,70 @@
+name: Eopuffinus
+rank: genus
+parent: procellariidae
+incertae_sedis: false
+placement_note: ''
+authority: Nessov 1986
+type_species: Eopuffinus kazachstanensis
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct petrel or shearwater genus recorded in PBDB from the Thanetian of Kazakhstan.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 59.24
+  last_ma: 56
+  early_interval: Thanetian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eopuffinus kazachstanensis
+  authority: Nessov 1986
+  first_ma: 59.24
+  last_ma: 56
+  interval: Thanetian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Kazakhstan
+  regions: [Chimkent]
+  interval: Late Paleocene
+  occurrences: 1
+  ma: [56.0, 59.24]
+  id: unnamed-zhylga-1a-kazakhstan
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7/vector.svg
+  png: https://images.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7/raster/512x320.png
+  page: https://www.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7
+  attribution: Bennet McComish, photo by Avenue
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Fulmarus glacialis
+  matched: Procellariidae
+  genus_level: false
+sources:
+- kind: original
+  text: L. A. Nessov. 1986. Pervaya nakhodka pozdnemelovoy ptitsy-ikhtiornisa v starom svete i nekotorye drugie
+    kosti ptits iz Mela i Paleogena spedney Azii [The first record of the Late Cretaceous bird Ichthyornis in the
+    Old World and some other bird bones from the Cretaceous and Paleogene of Central Asia]. Trudy Zoologicheskogo
+    Instituta Akademiy Nauk SSSR 147:31-38
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eopuffinus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eopuffinus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

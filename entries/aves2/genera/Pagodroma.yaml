@@ -1,0 +1,72 @@
+name: Pagodroma
+rank: genus
+parent: procellariidae
+incertae_sedis: false
+placement_note: ''
+authority: Bonaparte 1856
+type_species: Pagodroma nivea
+type_species_note: The only valid species listed by PBDB.
+summary: Living petrel or shearwater genus recorded in PBDB from the Holocene of Antarctica.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Pagodroma nivea
+  authority: (Forster 1777)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-princess-astrid-coast-antarctica
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7/vector.svg
+  png: https://images.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7/raster/512x320.png
+  page: https://www.phylopic.org/images/e8c26a02-7902-4abe-9b95-918efce22ac7
+  attribution: Bennet McComish, photo by Avenue
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Fulmarus glacialis
+  matched: Procellariidae
+  genus_level: false
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Pagodroma (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Pagodroma
+- kind: encyclopedia
+  text: Wikipedia contributors. “Snow petrel”. English Wikipedia, revision 1361340769.
+  url: https://en.wikipedia.org/w/index.php?title=Snow_petrel&oldid=1361340769
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

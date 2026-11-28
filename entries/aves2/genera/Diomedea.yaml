@@ -1,0 +1,299 @@
+name: Diomedea
+rank: genus
+parent: diomedeidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Diomedea exulans
+type_species_note: Taxobox of the cited Wikipedia revision.
+summary: Living albatross genus recorded in PBDB from the Burdigalian–Holocene of Antarctica, Australia, Chile,
+  Mexico, New Zealand, PN, Romania, South Africa, TF, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 20.45
+  last_ma: 0
+  early_interval: Burdigalian
+  late_interval: Holocene
+  pbdb_occurrences: 33
+  note: ''
+species:
+- name: Diomedea amsterdamensis
+  authority: (Roux et al. 1983)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Diomedea californica
+  authority: Miller 1962
+  first_ma: 15.98
+  last_ma: 3.6
+  interval: Langhian–Zanclean
+  reference: ''
+- name: Diomedea epomophora
+  authority: Lesson 1825
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Diomedea exulans
+  authority: Linnaeus 1758
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Diomedea howardae
+  authority: Chandler 1990
+  first_ma: 5.333
+  last_ma: 0
+  interval: Zanclean–Holocene
+  reference: ''
+- name: Diomedea milleri
+  authority: Howard 1966
+  first_ma: 15.98
+  last_ma: 13.82
+  interval: Langhian
+  reference: ''
+- name: Diomedea nigripes
+  authority: (Audubon 1839)
+  first_ma: 5.333
+  last_ma: 0.129
+  interval: Zanclean–Chibanian
+  reference: ''
+- name: Diomedea rumana
+  authority: Grigorescu and Kessler 1988
+  first_ma: 13.82
+  last_ma: 11.63
+  interval: Serravallian
+  reference: ''
+- name: Diomedea thyridata
+  authority: Wilkinson 1969
+  first_ma: 7.246
+  last_ma: 5.333
+  interval: Messinian
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 5
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-chatham-islands-new-zealand
+  - unnamed-mason-bay-stewart-island-new-zealand
+  - unnamed-site-1-mangere-island-new-zealand
+- formation: Temblor
+  group: ''
+  members: [Round Mountain]
+  country: United States
+  regions: [California]
+  interval: Langhian
+  occurrences: 3
+  ma: [13.82, 15.98]
+  id: temblor-united-states
+- formation: San Diego
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 3
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: San Pedro
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Middle Pleistocene
+  occurrences: 2
+  ma: [0.129, 0.774]
+  id: san-pedro-united-states
+- formation: '"Topanga"'
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Langhian
+  occurrences: 2
+  ma: [13.82, 15.98]
+  id: topanga-united-states
+- formation: Monterey
+  group: ''
+  members: [lower]
+  country: United States
+  regions: [California]
+  interval: Langhian–Tortonian
+  occurrences: 2
+  ma: [7.246, 15.98]
+  id: monterey-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [Macquarie Island, New South Wales]
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-aurora-cave-australia
+  - unnamed-curracurrang-1-rockshelter-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TF
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-amsterdam-island-tf
+- formation: San Mateo
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: san-mateo-united-states
+- formation: Black Rock Sandstone
+  group: ''
+  members: [Sandringham Sandstone]
+  country: Australia
+  regions: [Victoria]
+  interval: Messinian
+  occurrences: 1
+  ma: [5.333, 7.246]
+  id: black-rock-sandstone-australia
+- formation: Yorktown
+  group: Chesapeake
+  members: []
+  country: United States
+  regions: [North Carolina]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: yorktown-united-states
+- formation: Bahía Inglesa
+  group: ''
+  members: []
+  country: Chile
+  regions: [Atacama]
+  interval: Messinian
+  occurrences: 1
+  ma: [5.333, 7.246]
+  id: bahia-inglesa-chile
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-princess-astrid-coast-antarctica
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Hawaii]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-makewehi-dunes-united-states
+- formation: Rosarito Beach
+  group: ''
+  members: [Los Indios]
+  country: Mexico
+  regions: [Baja California]
+  interval: Langhian
+  occurrences: 1
+  ma: [13.82, 15.98]
+  id: rosarito-beach-mexico
+- formation: Varswater
+  group: ''
+  members: [Langeberg Quartz Sand]
+  country: South Africa
+  regions: [Cape]
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+- formation: Palos Verdes Sand
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: palos-verdes-sand-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: PN
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-henderson-island-site-1-pn
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Romania
+  regions: []
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: unnamed-dobrogea-romania
+- formation: Astoria
+  group: ''
+  members: []
+  country: United States
+  regions: [Oregon]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: astoria-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/782009b8-e3e8-4cb5-a6a9-a0a06bafa50d/vector.svg
+  png: https://images.phylopic.org/images/782009b8-e3e8-4cb5-a6a9-a0a06bafa50d/raster/512x327.png
+  page: https://www.phylopic.org/images/782009b8-e3e8-4cb5-a6a9-a0a06bafa50d
+  attribution: Kimberly Haddrell
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Diomedea
+  matched: Diomedea
+  genus_level: true
+  w: 512
+  h: 327
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Diomedea (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Diomedea
+- kind: encyclopedia
+  text: Wikipedia contributors. “Great albatross”. English Wikipedia, revision 1379250899.
+  url: https://en.wikipedia.org/w/index.php?title=Great_albatross&oldid=1379250899
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

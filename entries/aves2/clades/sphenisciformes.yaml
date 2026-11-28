@@ -1,0 +1,30 @@
+id: sphenisciformes
+name: Sphenisciformes
+rank: clade
+taxon_rank: unranked clade
+taxon_rank_source: Paleobiology Database taxonomy (taxon Sphenisciformes, unranked clade), downloaded 2026-11-28
+parent: aequornithes
+wikipedia: Penguin
+summary: Penguins, flightless semi-aquatic seabirds of the Southern Hemisphere, and their fossil relatives.
+diagnosis:
+- Wings evolved into flippers, useless for flight in the air
+- Agile underwater swimmers
+notes: Stem and crown penguins are not separated in the atlas; giant forms such as Kumimanu and Anthropornis lived
+  in the Paleogene.
+sources:
+- kind: encyclopedia
+  text: Wikipedia contributors. “Penguin”. English Wikipedia, revision 1385644437.
+  url: https://en.wikipedia.org/w/index.php?title=Penguin&oldid=1385644437
+- kind: database
+  text: 'Paleobiology Database, taxon Sphenisciformes (no. 104308): rank, authority (Sharpe 1891) and reference
+    no. 24742 (downloaded 2026-11-28).'
+  url: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=104308
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - The Wikipedia revision and PBDB record are those downloaded on 2026-11-28 (data/raw/tree/clade_sources_2026-11-28_aves2.json).
+  - 'S2: add the naming work ((Sharpe 1891), PBDB reference 24742) as an original source.'
+  reviews: []

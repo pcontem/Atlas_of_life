@@ -1,0 +1,119 @@
+name: Macranhinga
+rank: genus
+parent: anhingidae
+incertae_sedis: false
+placement_note: ''
+authority: Noriega 1992
+type_species: Macranhinga paranensis
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct darter genus recorded in PBDB from the Aquitanian–Zanclean of Argentina, Brazil.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 5
+  early_interval: Aquitanian
+  late_interval: Zanclean
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Macranhinga ameghinoi
+  authority: Diederle and Agnolín 2017
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Macranhinga paranensis
+  authority: Noriega 1992
+  first_ma: 8
+  last_ma: 5
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Macranhinga ranzii
+  authority: Alvarenga and Guilherme 2003
+  first_ma: 11.63
+  last_ma: 5
+  interval: Tortonian–Zanclean
+  reference: ''
+formations:
+- formation: Solimoes
+  group: ''
+  members: [upper]
+  country: Brazil
+  regions: [Acre]
+  interval: Tortonian
+  occurrences: 2
+  ma: [7.246, 11.63]
+  id: solimoes-brazil
+- formation: Ituzaingo
+  group: ''
+  members: [Conglomerado Osifero]
+  country: Argentina
+  regions: [Entre Rios]
+  interval: Huayquerian
+  occurrences: 2
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Santa Cruz
+  group: ''
+  members: [Lower]
+  country: Argentina
+  regions: []
+  interval: Early Miocene
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: santa-cruz-argentina
+- formation: Ituzaingó
+  group: ''
+  members: [Lower]
+  country: Argentina
+  regions: [Paraná]
+  interval: Huayquerian
+  occurrences: 1
+  ma: [5.0, 8.0]
+  id: ituzaingo-argentina
+- formation: Solimões
+  group: ''
+  members: []
+  country: Brazil
+  regions: [Acre]
+  interval: Late Miocene
+  occurrences: 1
+  ma: [5.333, 11.63]
+  id: solimoes-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/83ffba64-e8b2-48d4-8e70-11153c89ae9e/vector.svg
+  png: https://images.phylopic.org/images/83ffba64-e8b2-48d4-8e70-11153c89ae9e/raster/603x1536.png
+  page: https://www.phylopic.org/images/83ffba64-e8b2-48d4-8e70-11153c89ae9e
+  attribution: Emily Willoughby
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Anhinga anhinga
+  matched: Anhingidae
+  genus_level: false
+sources:
+- kind: original
+  text: M. M. Cenizo and F. L. Agnolín. 2010. The southernmost records of Anhingidae and a new basal species of
+    Anatidae (Aves) from the lower–middle Miocene of Patagonia, Argentina. Alcheringa 34(4):493-514
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Macranhinga (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Macranhinga
+- kind: encyclopedia
+  text: Wikipedia contributors. “Macranhinga”. English Wikipedia, revision 1293422733.
+  url: https://en.wikipedia.org/w/index.php?title=Macranhinga&oldid=1293422733
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

@@ -1,0 +1,71 @@
+name: Feducciavis
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Olson 2011
+type_species: Feducciavis loftini
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct larid genus recorded in PBDB from the Langhian–Serravallian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 11.63
+  early_interval: Langhian
+  late_interval: Serravallian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Feducciavis loftini
+  authority: Olson 2011
+  first_ma: 15.98
+  last_ma: 11.63
+  interval: Langhian–Serravallian
+  reference: original description
+formations:
+- formation: Calvert
+  group: Chesapeake
+  members: [Plum Point]
+  country: United States
+  regions: [Virginia]
+  interval: Langhian–Serravallian
+  occurrences: 2
+  ma: [11.63, 15.98]
+  id: calvert-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/vector.svg
+  png: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/raster/512x276.png
+  page: https://www.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117
+  attribution: Sue Cantan (photograph) and T. Michael Keesey (vectorization)
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Creagrus furcatus
+  matched: Laridae
+  genus_level: false
+sources:
+- kind: original
+  text: 'S. L. Olson. 2011. A new genus and species of unusual tern (Aves: Laridae: Anoinae) from the Middle Miocene
+    Calvert Formation of Virginia. Proceedings of the Biological Society of Washington 124(4):270-279'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Feducciavis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Feducciavis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Feducciavis”. English Wikipedia, revision 1380576665.
+  url: https://en.wikipedia.org/w/index.php?title=Feducciavis&oldid=1380576665
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

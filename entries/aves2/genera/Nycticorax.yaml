@@ -1,0 +1,265 @@
+name: Nycticorax
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Forster 1817
+type_species: Nycticorax nycticorax
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living heron genus recorded in PBDB from the Rupelian–Holocene of Bahamas, Ecuador, Egypt, Greece, Japan,
+  Mauritius, NU, Papua New Guinea, Peru, RE, SH, TO, United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 33.9
+  last_ma: 0
+  early_interval: Rupelian
+  late_interval: Holocene
+  pbdb_occurrences: 27
+  note: ''
+species:
+- name: Nycticorax borbonensis
+  authority: Cowles 1994
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Nycticorax caledonicus
+  authority: (Gmelin 1789)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Nycticorax duboisi
+  authority: (Rothschild 1907)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Nycticorax fidens
+  authority: Brodkorb 1963
+  first_ma: 9.4
+  last_ma: 4.7
+  interval: Tortonian–Zanclean
+  reference: ''
+- name: Nycticorax kalavikai
+  authority: Steadman et al. 2000
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Nycticorax mauritianus
+  authority: (Newton and Gadow 1893)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Nycticorax megacephalus
+  authority: (Milne-Edwards 1874)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Nycticorax nycticorax
+  authority: (Linnaeus 1758)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+- name: Nycticorax olsoni
+  authority: Bourne et al. 2003
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mauritius
+  regions: []
+  interval: Holocene
+  occurrences: 6
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-caverne-dora-plaine-corail-rodrigues-mauritius
+  - unnamed-mare-aux-songes-swamp-mauritius
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida]
+  interval: Late Pleistocene
+  occurrences: 4
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-bradenton-united-states
+  - unnamed-ichetucknee-river-united-states
+  - unnamed-mckittrick-asphalt-deposit-united-states
+  - unnamed-rock-springs-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: RE
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: unnamed-grotte-des-premiers-francais-bed-5-re
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: SH
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-deposits-near-english-bay-ascension-sh
+  - unnamed-fumaroles-north-of-sisters-peak-ascension-sh
+- formation: Alachua
+  group: ''
+  members: []
+  country: United States
+  regions: [Florida]
+  interval: Hemphillian
+  occurrences: 1
+  ma: [4.7, 9.4]
+  id: alachua-united-states
+- formation: Jebel Qatrani
+  group: ''
+  members: []
+  country: Egypt
+  regions: [Fayum]
+  interval: Rupelian
+  occurrences: 1
+  ma: [27.3, 33.9]
+  id: jebel-qatrani-egypt
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: london-clay-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bahamas
+  regions: [San Salvador]
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-ficus-pit-bahamas
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Japan
+  regions: [Okinawa]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-minatogawa-fissure-japan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: NU
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-anakuli-cave-hakupu-nu
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Papua New Guinea
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-buang-merabuk-new-ireland-papua-new-guinea
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TO
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-layer-ii-anatu-eua-to
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: []
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-kyparissia-4-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Egypt
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-bir-tarfawi-egypt
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/fb4a4bb7-a50f-4d84-9365-5b25638468e6/vector.svg
+  png: https://images.phylopic.org/images/fb4a4bb7-a50f-4d84-9365-5b25638468e6/raster/783x1024.png
+  page: https://www.phylopic.org/images/fb4a4bb7-a50f-4d84-9365-5b25638468e6
+  attribution: Ferran Sayol
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Nycticorax
+  matched: Nycticorax
+  genus_level: true
+  w: 459
+  h: 600
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nycticorax (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nycticorax
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nycticorax”. English Wikipedia, revision 1379748318.
+  url: https://en.wikipedia.org/w/index.php?title=Nycticorax&oldid=1379748318
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

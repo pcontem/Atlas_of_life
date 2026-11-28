@@ -1,0 +1,186 @@
+name: Chroicocephalus
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Eyton 1836
+type_species: Chroicocephalus ridibundus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living larid genus recorded in PBDB from the Chibanian–Holocene of Australia, DR Congo, Italy, New Zealand,
+  Russia, South Africa, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.774
+  last_ma: 0
+  early_interval: Chibanian
+  late_interval: Holocene
+  pbdb_occurrences: 15
+  note: ''
+species:
+- name: Chroicocephalus bulleri
+  authority: (Hutton 1871)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Chroicocephalus cirrocephalus
+  authority: (Vieillot 1818)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Chroicocephalus cucullatus
+  authority: Bruch 1855
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Chroicocephalus franklinii
+  authority: (Richard 1831)
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Chroicocephalus hartlaubii
+  authority: (Bruch 1853)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Chroicocephalus novaehollandiae
+  authority: (Stephens 1826)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Chroicocephalus philadelphia
+  authority: (Ord 1815)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Chroicocephalus ridibundus
+  authority: (Linnaeus 1758)
+  first_ma: 0.774
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Oregon]
+  interval: Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-fossil-lake-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+  - unnamed-silver-lake-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia, Victoria]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-amphitheatre-cave-australia
+  - unnamed-seton-rock-shelter-australia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-site-1-mangere-island-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Russia
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-dyuktai-cave-russia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: DR Congo
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-ishango-n-f-p-dr-congo
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-duiker-eiland-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: [Siracusa]
+  interval: Middle Pleistocene
+  occurrences: 1
+  ma: [0.129, 0.774]
+  id: unnamed-spinagallo-cave-italy
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/67f3bd65-aeab-4e43-9f10-ba2d64a92985/vector.svg
+  png: https://images.phylopic.org/images/67f3bd65-aeab-4e43-9f10-ba2d64a92985/raster/512x313.png
+  page: https://www.phylopic.org/images/67f3bd65-aeab-4e43-9f10-ba2d64a92985
+  attribution: Michael Scroggie
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Chroicocephalus novaehollandiae
+  matched: Chroicocephalus
+  genus_level: true
+  w: 512
+  h: 313
+sources:
+- kind: original
+  text: 'J. F. Clements, T. S. Schulenberg, and M. J. Iliff, D. Roberson, T. A. Fredericks, B. L. Sullivan, C. L.
+    Wood. 2017. The eBird/Clements checklist of birds of the world: v2017'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Chroicocephalus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Chroicocephalus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Chroicocephalus”. English Wikipedia, revision 1355553780.
+  url: https://en.wikipedia.org/w/index.php?title=Chroicocephalus&oldid=1355553780
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

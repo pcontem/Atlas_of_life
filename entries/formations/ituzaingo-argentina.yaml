@@ -3,18 +3,18 @@ name: Ituzaingo
 rank: formation
 group: ''
 country: Argentina
-regions: [Entre Rios, Entre Ríos]
+regions: [Entre Rios, Entre Ríos, Paraná]
 location:
-  lat: -31.583
-  lng: -60.325
-  basis: median of 4 PBDB collections that yielded the atlas genera
+  lat: -31.576
+  lng: -60.281
+  basis: median of 5 PBDB collections that yielded the atlas genera
 age:
   first_ma: 11.63
   last_ma: 5.0
   note: Span of the PBDB ages of the beds that yielded the atlas genera.
-environment: [terrestrial indet., fluvial indet., marine indet.]
-lithology: [conglomerate, sandstone]
-pbdb_collections: ['55600', '140471', '204596', '235747']
+environment: [terrestrial indet., marine indet., fluvial indet.]
+lithology: [conglomerate, sandstone, gravel]
+pbdb_collections: ['55600', '140471', '204596', '212306', '235747']
 includes: []
 summary: ''
 paleoenvironment: ''

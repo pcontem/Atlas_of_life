@@ -1,0 +1,149 @@
+name: Rissa
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Stephens 1826
+type_species: Rissa tridactyla
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living larid genus recorded in PBDB from the Zanclean–Holocene of Canada, Greenland, Italy, Norway, United
+  Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 16
+  note: ''
+species:
+- name: Rissa brevirostris
+  authority: (Bruch 1853)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Rissa estesi
+  authority: Chandler 1990
+  first_ma: 4.7
+  last_ma: 1.4
+  interval: Zanclean–Calabrian
+  reference: ''
+- name: Rissa kotzebui
+  authority: Boneparte 1853
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Rissa tridactyla
+  authority: Linnaeus 1758
+  first_ma: 2.58
+  last_ma: 0
+  interval: Gelasian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [Alaska, California, Washington]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 8
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-buldir-island-midden-pit-1-united-states
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-cedar-hollow-united-states
+  - unnamed-la-brea-tar-pits-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+- formation: San Diego
+  group: ''
+  members: ['6']
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 2
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Norway
+  regions: [Sunnmore]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-skjonghelleren-norway
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-chelm-s-combe-rock-shelter-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greenland
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-independence-i-greenland
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Italy
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-grotta-romanelli-italy
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Canada
+  regions: [Nunavut]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-outer-frobisher-bay-canada
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/bdaa6989-7904-4349-8f9b-a1e6b399e2af/vector.svg
+  png: https://images.phylopic.org/images/bdaa6989-7904-4349-8f9b-a1e6b399e2af/raster/856x1024.png
+  page: https://www.phylopic.org/images/bdaa6989-7904-4349-8f9b-a1e6b399e2af
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Rissa tridactyla
+  matched: Rissa
+  genus_level: true
+  w: 502
+  h: 600
+sources:
+- kind: original
+  text: R. M. Chandler. 1990. Fossil birds of the San Diego Formation, Late Pliocene, Blancan, San Diego County,
+    California. Ornithological Monographs 44:73-161
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rissa (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rissa
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

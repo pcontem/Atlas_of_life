@@ -1,0 +1,69 @@
+name: Neilus
+rank: genus
+parent: charadriiformes
+incertae_sedis: false
+placement_note: ''
+authority: De Pietri et al. 2016
+type_species: Neilus sansomae
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct charadriiform genus recorded in PBDB from the Burdigalian–Langhian of New Zealand.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 18.7
+  last_ma: 15.9
+  early_interval: Burdigalian
+  late_interval: Langhian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Neilus sansomae
+  authority: De Pietri et al. 2016
+  first_ma: 18.7
+  last_ma: 15.9
+  interval: Burdigalian–Langhian
+  reference: original description
+formations:
+- formation: Bannockburn
+  group: Manuherikia
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Altonian
+  occurrences: 4
+  ma: [15.9, 18.7]
+  id: bannockburn-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/vector.svg
+  png: https://images.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270/raster/512x437.png
+  page: https://www.phylopic.org/images/8cec794d-6310-4ead-927c-5994dd487270
+  attribution: Cristian Gutierrez-Ibanez
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Glareola isabella
+  matched: Charadriiformes
+  genus_level: false
+sources:
+- kind: original
+  text: 'V. L. De Pietri, R. P. Scofield, and S. J. Hand, A. J. D. Tennyson, T. H. Worthy. 2016. Sheathbill-like
+    birds (Charadriiformes: Chionoidea) from the Oligocene and Miocene of Australasia. Journal of the Royal Society
+    of New Zealand'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Neilus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Neilus
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

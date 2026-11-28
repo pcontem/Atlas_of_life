@@ -1,0 +1,64 @@
+name: Rynchops
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Rynchops niger
+type_species_note: The only valid species listed by PBDB.
+summary: Living larid genus recorded in PBDB from the Holocene of Brazil.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Rynchops niger
+  authority: Linnaeus 1758
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Brazil
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-extant-distribution-brazil
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+sources:
+- kind: original
+  text: N. A. Smith. 2011. Taxonomic revision and phylogenetic analysis of the flightless Mancallinae (Aves, Pan-Alcidae).
+    ZooKeys 91:1-116
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Rynchops (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Rynchops
+- kind: encyclopedia
+  text: Wikipedia contributors. “Rynchops”. English Wikipedia, revision 1353132989.
+  url: https://en.wikipedia.org/w/index.php?title=Rynchops&oldid=1353132989
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  - 'Silhouette removed: the PhyloPic image has no raster file the media fetch could convert; add one later.'
+  reviews: []

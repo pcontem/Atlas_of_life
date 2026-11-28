@@ -1,0 +1,98 @@
+name: Tigrisoma
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Swainson 1827
+type_species: Tigrisoma lineatum
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living heron genus recorded in PBDB from the Gelasian–Holocene of Cuba, Mexico, Venezuela.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Tigrisoma lineatum
+  authority: Boddaert 1783
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Tigrisoma mexicanum
+  authority: Swainson 1834
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas, Jalisco]
+  interval: Pleistocene
+  occurrences: 2
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-lacm-1952-lacm-1953-san-marcos-mexico
+  - unnamed-paso-de-la-amada-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Cuba
+  regions: []
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-casimba-en-los-buentes-sagua-la-grande-mal-paez-cuba
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Zulia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-mene-de-inciarte-tar-seep-venezuela
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/vector.svg
+  png: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/raster/638x1024.png
+  page: https://www.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c
+  attribution: Mannheim Reinhard Jahn (photograph)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tigrisoma mexicanum
+  matched: Tigrisoma
+  genus_level: true
+sources:
+- kind: original
+  text: 'B. C. Livezey and R. L. Zusi. 2007. Higher-order phylogeny of modern birds (Theropoda, Aves: Neornithes)
+    based on comparative anatomy. II. Analysis and discussion. Zoological Journal of the Linnean Society 149(1):1-95'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Tigrisoma (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Tigrisoma
+- kind: encyclopedia
+  text: Wikipedia contributors. “Tigrisoma”. English Wikipedia, revision 1269012639.
+  url: https://en.wikipedia.org/w/index.php?title=Tigrisoma&oldid=1269012639
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

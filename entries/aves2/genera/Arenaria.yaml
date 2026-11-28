@@ -1,0 +1,145 @@
+name: Arenaria
+rank: genus
+parent: scolopacidae
+incertae_sedis: false
+placement_note: ''
+authority: Brisson 1760
+type_species: Arenaria interpres
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living sandpiper genus recorded in PBDB from the Gelasian–Holocene of AX, Bahamas, Ecuador, Greenland,
+  Peru, Solomon Islands, United Kingdom, United States.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 2.58
+  last_ma: 0
+  early_interval: Gelasian
+  late_interval: Holocene
+  pbdb_occurrences: 13
+  note: ''
+species:
+- name: Arenaria interpres
+  authority: Linnaeus 1758
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Arenaria melanocephala
+  authority: (Vigors 1829)
+  first_ma: 2.58
+  last_ma: 0.0117
+  interval: Gelasian–Late Pleistocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Pleistocene–Late Pleistocene
+  occurrences: 5
+  ma: [0.0117, 2.58]
+  id:
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [Wales]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id:
+  - unnamed-bacon-hole-united-kingdom
+  - unnamed-port-eynon-point-cave-united-kingdom
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: AX
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-jettbole-i-ax
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Bahamas
+  regions: [San Salvador]
+  interval: Late Pleistocene–Holocene
+  occurrences: 1
+  ma: [0.0, 0.129]
+  id: unnamed-ficus-pit-bahamas
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Solomon Islands
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-site-an-6-zone-a-anuta-solomon-islands
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greenland
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-kap-peter-henrik-greenland
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/e9d7ebcd-df47-46b4-b3a5-831801816c0c/vector.svg
+  png: https://images.phylopic.org/images/e9d7ebcd-df47-46b4-b3a5-831801816c0c/raster/512x369.png
+  page: https://www.phylopic.org/images/e9d7ebcd-df47-46b4-b3a5-831801816c0c
+  attribution: Elaine R. Wilson (modified)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Arenaria interpres
+  matched: Arenaria
+  genus_level: true
+  w: 512
+  h: 369
+sources:
+- kind: original
+  text: S. L. Olson and H. F. James. 1982. Prodromus of the fossil avifauna of the Hawaiian Islands. Smithsonian
+    Contributions to Zoology 365:1-59
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Arenaria (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Arenaria
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

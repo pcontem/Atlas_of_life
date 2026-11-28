@@ -1,0 +1,82 @@
+name: Megadyptes
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Milne-Edwards 1880
+type_species: Megadyptes antipodes
+type_species_note: The only valid species listed by PBDB.
+summary: Living penguin genus recorded in PBDB from the Late Pleistocene–Holocene of New Zealand.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.129
+  last_ma: 0
+  early_interval: Late Pleistocene
+  late_interval: Holocene
+  pbdb_occurrences: 6
+  note: ''
+species:
+- name: Megadyptes antipodes
+  authority: (Hombron and Jacquinot 1841)
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: []
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-eastern-maunganui-dunes-1-25-km-e-of-washout-creek-new-zealand
+  - unnamed-marfells-beach-dune-deposits-new-zealand
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/vector.svg
+  png: https://images.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99/raster/792x1024.png
+  page: https://www.phylopic.org/images/21c50828-58d8-42df-9219-2c1b0fb57c99
+  attribution: Steven Traver
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aptenodytes patagonicus
+  matched: Spheniscidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Megadyptes (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Megadyptes
+- kind: encyclopedia
+  text: Wikipedia contributors. “Yellow-eyed penguin”. English Wikipedia, revision 1387754430.
+  url: https://en.wikipedia.org/w/index.php?title=Yellow-eyed_penguin&oldid=1387754430
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

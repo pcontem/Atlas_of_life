@@ -1,0 +1,74 @@
+name: Aphrodroma
+rank: genus
+parent: procellariidae
+incertae_sedis: false
+placement_note: ''
+authority: Olson 2000
+type_species: Aphrodroma brevirostris
+type_species_note: The only valid species listed by PBDB.
+summary: Living petrel or shearwater genus recorded in PBDB from the Holocene of O3.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Aphrodroma brevirostris
+  authority: Lesson 1831
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: O3
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-gough-island-o3
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/89b2e4a8-b98d-406a-a955-639bc80e9418/vector.svg
+  png: https://images.phylopic.org/images/89b2e4a8-b98d-406a-a955-639bc80e9418/raster/754x1536.png
+  page: https://www.phylopic.org/images/89b2e4a8-b98d-406a-a955-639bc80e9418
+  attribution: Alexandre Vong
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Aphrodroma brevirostris
+  matched: Aphrodroma
+  genus_level: true
+  w: 295
+  h: 600
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Aphrodroma (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Aphrodroma
+- kind: encyclopedia
+  text: Wikipedia contributors. “Kerguelen petrel”. English Wikipedia, revision 1386538372.
+  url: https://en.wikipedia.org/w/index.php?title=Kerguelen_petrel&oldid=1386538372
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

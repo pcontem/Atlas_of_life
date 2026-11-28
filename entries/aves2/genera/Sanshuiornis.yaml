@@ -1,0 +1,71 @@
+name: Sanshuiornis
+rank: genus
+parent: aequornithes
+incertae_sedis: false
+placement_note: ''
+authority: Wang et al. 2012
+type_species: Sanshuiornis zhangi
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct ciconiiform genus recorded in PBDB from the Lutetian–Bartonian of China.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 48.07
+  last_ma: 37.71
+  early_interval: Lutetian
+  late_interval: Bartonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Sanshuiornis zhangi
+  authority: Wang et al. 2012
+  first_ma: 48.07
+  last_ma: 37.71
+  interval: Lutetian–Bartonian
+  reference: original description
+formations:
+- formation: Huayong
+  group: ''
+  members: []
+  country: China
+  regions: [Guangdong]
+  interval: Middle Eocene
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: huayong-china
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/vector.svg
+  png: https://images.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547/raster/697x1024.png
+  page: https://www.phylopic.org/images/18a828e0-861f-4dfb-9793-7effe17d1547
+  attribution: Mike Keesey (vectorization) and Vaibhavcho (photography)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Leptoptilos javanicus
+  matched: Ciconiiformes
+  genus_level: false
+sources:
+- kind: original
+  text: M. Wang, G. Mayr, and J. Zhang, Z. Zhou. 2012. New bird remains from the Middle Eocene of Guangdong, China.
+    Acta Palaeontologica Polonica 57(3):519-526
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Sanshuiornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Sanshuiornis
+- kind: encyclopedia
+  text: Wikipedia contributors. “Sanshuiornis”. English Wikipedia, revision 1193070015.
+  url: https://en.wikipedia.org/w/index.php?title=Sanshuiornis&oldid=1193070015
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

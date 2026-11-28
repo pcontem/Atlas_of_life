@@ -1,0 +1,298 @@
+name: Charadrius
+rank: genus
+parent: charadriidae
+incertae_sedis: false
+placement_note: ''
+authority: Linnaeus 1758
+type_species: Charadrius alexandrinus
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Living plover genus recorded in PBDB from the Zanclean–Holocene of Australia, Ecuador, FM, Greece, Jordan,
+  KY, Mexico, New Caledonia, New Zealand, Peru, SH, United States, Venezuela.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 4.7
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 43
+  note: ''
+species:
+- name: Charadrius alexandrinus
+  authority: Linnaeus 1758
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Charadrius bicinctus
+  authority: Jardine and Selby 1827
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Charadrius collaris
+  authority: Vieillot 1818
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Charadrius leschenaultii
+  authority: Lesson 1826
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Charadrius mongolus
+  authority: Pallas 1776
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Charadrius montanus
+  authority: (Townsend 1837)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Charadrius morinellus
+  authority: (Linnaeus 1758)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Charadrius nivosus
+  authority: (Cassin 1858)
+  first_ma: 0.129
+  last_ma: 0.0117
+  interval: Late Pleistocene
+  reference: ''
+- name: Charadrius obscurus
+  authority: Gmelin 1789
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Charadrius sanctaehelenae
+  authority: (Harting 1873)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Charadrius semipalmatus
+  authority: Bonaparte 1825
+  first_ma: 0.129
+  last_ma: 0
+  interval: Late Pleistocene–Holocene
+  reference: ''
+- name: Charadrius sheppardianus
+  authority: Cope 1881
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Charadrius vociferus
+  authority: (Linnaeus 1758)
+  first_ma: 0.21
+  last_ma: 0
+  interval: Chibanian–Holocene
+  reference: ''
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California, Florida, New Mexico, Virginia, Wyoming]
+  interval: Rancholabrean–Late Pleistocene
+  occurrences: 19
+  ma: [0.0117, 0.21]
+  id:
+  - unnamed-ca-smi-603-cave-of-the-chimneys-san-miguel-island-united-states
+  - unnamed-dark-canyon-cave-united-states
+  - unnamed-emeryville-shellmound-united-states
+  - unnamed-haile-xib-united-states
+  - unnamed-la-brea-tar-pits-united-states
+  - unnamed-little-box-elder-cave-united-states
+  - unnamed-natural-chimneys-united-states
+  - unnamed-reddick-ia-united-states
+  - unnamed-san-miguel-island-v-6-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Holocene
+  occurrences: 4
+  ma: [0.0, 0.0117]
+  id: unnamed-sterndale-road-rockshelter-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Peru
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 3
+  ma: [0.0117, 0.129]
+  id: unnamed-talara-tar-seeps-peru
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: SH
+  regions: []
+  interval: Holocene
+  occurrences: 3
+  ma: [0.0, 0.0117]
+  id: unnamed-sugarloaf-hill-site-1-sh
+- formation: Hillgrove
+  group: ''
+  members: []
+  country: New Zealand
+  regions: [South Island]
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: hillgrove-new-zealand
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Ecuador
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 2
+  ma: [0.0117, 0.129]
+  id: unnamed-la-carolina-ecuador
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: New Caledonia
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-gilles-cave-lower-new-caledonia
+  - unnamed-pindai-cave-nepoui-peninsula-new-caledonia
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Australia
+  regions: [South Australia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-blanche-cave-australia
+- formation: San Diego
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Blancan
+  occurrences: 1
+  ma: [1.4, 4.7]
+  id: san-diego-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Greece
+  regions: [Peloponnesus]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-kalamakia-greece
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Venezuela
+  regions: [Zulia]
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-mene-de-inciarte-tar-seep-venezuela
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: FM
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-faligochol-1-site-fais-island-fm
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Mexico
+  regions: [Chiapas]
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-paso-de-la-amada-mexico
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Jordan
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-shubayqa-1-midden-jordan
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: KY
+  regions: []
+  interval: Late Pleistocene
+  occurrences: 1
+  ma: [0.0117, 0.129]
+  id: unnamed-patton-s-fissure-cayman-brac-ky
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: life
+  file: Killdeer - Charadrius vociferus, Blackwater National Wildlife Refuge, Cambridge, Maryland - 7033351019.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Killdeer_-_Charadrius_vociferus%2C_Blackwater_National_Wildlife_Refuge%2C_Cambridge%2C_Maryland_-_7033351019.jpg/960px-Killdeer_-_Charadrius_vociferus%2C_Blackwater_National_Wildlife_Refuge%2C_Cambridge%2C_Maryland_-_7033351019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Killdeer_-_Charadrius_vociferus,_Blackwater_National_Wildlife_Refuge,_Cambridge,_Maryland_-_7033351019.jpg
+  artist: Judy Gallagher
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  date: '2012-03-31'
+  caption: Killdeer - Charadrius vociferus, Blackwater National Wildlife Refuge, Cambridge, Maryland - 7033351019
+    (Wikimedia Commons; kind assigned from the file name, not yet checked on the triage page).
+  width: 4752
+  height: 3168
+  review: unreviewed
+  local: img/gallery/Charadrius_001.webp
+silhouette:
+  src: https://images.phylopic.org/images/2ff4c7f3-d403-407d-a430-e0e2bc54fab0/vector.svg
+  png: https://images.phylopic.org/images/2ff4c7f3-d403-407d-a430-e0e2bc54fab0/raster/512x353.png
+  page: https://www.phylopic.org/images/2ff4c7f3-d403-407d-a430-e0e2bc54fab0
+  attribution: Ferran Sayol
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Charadrius
+  matched: Charadrius
+  genus_level: true
+  w: 512
+  h: 353
+sources:
+- kind: original
+  text: C. Linnaeus. 1758. Systema Naturae per Regna Tria Naturae, Secundum Classes, Ordines, Genera, Species, cum
+    Characteribus, Differentiis, Synonymis, Locis. Editio Decima 1:1-824
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Charadrius (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Charadrius
+- kind: encyclopedia
+  text: Wikipedia contributors. “Charadrius”. English Wikipedia, revision 1387169241.
+  url: https://en.wikipedia.org/w/index.php?title=Charadrius&oldid=1387169241
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

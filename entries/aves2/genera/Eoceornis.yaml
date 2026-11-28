@@ -1,0 +1,68 @@
+name: Eoceornis
+rank: genus
+parent: ardeidae
+incertae_sedis: false
+placement_note: ''
+authority: Shufeldt 1915
+type_species: Eoceornis ardetta
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct heron genus recorded in PBDB from the Lutetian–Bartonian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 48.07
+  last_ma: 37.71
+  early_interval: Lutetian
+  late_interval: Bartonian
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Eoceornis ardetta
+  authority: Shufeldt 1915
+  first_ma: 48.07
+  last_ma: 37.71
+  interval: Lutetian–Bartonian
+  reference: original description
+formations:
+- formation: Bridger
+  group: ''
+  members: []
+  country: United States
+  regions: [Wyoming]
+  interval: Middle Eocene
+  occurrences: 1
+  ma: [37.71, 48.07]
+  id: bridger-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/vector.svg
+  png: https://images.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c/raster/638x1024.png
+  page: https://www.phylopic.org/images/ccf37548-b43b-40d8-8d9f-20633b965a5c
+  attribution: Mannheim Reinhard Jahn (photograph)
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Tigrisoma mexicanum
+  matched: Ardeidae
+  genus_level: false
+sources:
+- kind: original
+  text: R. W. Shufeldt. 1915. Fossil birds in the Marsh Collection of Yale University. Transactions of the Connecticut
+    Academy of Arts and Sciences 19:1-110
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Eoceornis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Eoceornis
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

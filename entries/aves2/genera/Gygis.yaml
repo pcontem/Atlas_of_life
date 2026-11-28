@@ -1,0 +1,161 @@
+name: Gygis
+rank: genus
+parent: laridae
+incertae_sedis: false
+placement_note: ''
+authority: Wagler 1832
+type_species: Gygis alba
+type_species_note: The only valid species listed by PBDB.
+summary: Living larid genus recorded in PBDB from the Holocene of AS, CK, FM, MP, NU, PF, PN, PW, SH, TO.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 55
+  note: ''
+species:
+- name: Gygis alba
+  authority: (Sparman 1786)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: PF
+  regions: [Society Islands]
+  interval: Holocene
+  occurrences: 14
+  ma: [0.0, 0.0117]
+  id: unnamed-fa-ahia-site-huahine-pf
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: PN
+  regions: []
+  interval: Holocene
+  occurrences: 12
+  ma: [0.0, 0.0117]
+  id: [unnamed-henderson-island-site-1-pn, unnamed-henderson-island-site-21-pn]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: MP
+  regions: []
+  interval: Holocene
+  occurrences: 8
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-payapai-cave-level-i-mp
+  - unnamed-pisonia-rockshelter-mp
+  - unnamed-railhunter-rockshelter-layer-i-tinian-mp
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: SH
+  regions: []
+  interval: Holocene
+  occurrences: 7
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-deposits-near-english-bay-ascension-sh
+  - unnamed-fumaroles-north-of-sisters-peak-ascension-sh
+  - unnamed-sugarloaf-hill-site-1-sh
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: CK
+  regions: []
+  interval: Holocene
+  occurrences: 6
+  ma: [0.0, 0.0117]
+  id:
+  - unnamed-mr1-moturakau-rock-shelter-ck
+  - unnamed-tangatatau-rockshelter-zone-a-mangaia-ck
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: NU
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: [unnamed-anakieto-cave-paluki-nu, unnamed-anakula-area-2-nu]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: FM
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-faligochol-1-site-fais-island-fm
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: PW
+  regions: []
+  interval: Holocene
+  occurrences: 2
+  ma: [0.0, 0.0117]
+  id: unnamed-uleb-1-cave-lee-marvin-beach-ulebsechel-island-pw
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: AS
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-to-aga-site-ofu-island-as
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TO
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-faleloa-site-foa-ha-apai-group-to
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/vector.svg
+  png: https://images.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117/raster/512x276.png
+  page: https://www.phylopic.org/images/3b31588d-dcd8-40d9-8f11-2f03e6037117
+  attribution: Sue Cantan (photograph) and T. Michael Keesey (vectorization)
+  license: https://creativecommons.org/licenses/by/4.0/
+  depicts: Creagrus furcatus
+  matched: Gygis
+  genus_level: true
+sources:
+- kind: original
+  text: N. A. Smith. 2011. Taxonomic revision and phylogenetic analysis of the flightless Mancallinae (Aves, Pan-Alcidae).
+    ZooKeys 91:1-116
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Gygis (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Gygis
+- kind: encyclopedia
+  text: Wikipedia contributors. “White tern”. English Wikipedia, revision 1381405163.
+  url: https://en.wikipedia.org/w/index.php?title=White_tern&oldid=1381405163
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

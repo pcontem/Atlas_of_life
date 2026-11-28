@@ -1,0 +1,79 @@
+name: Empheresula
+rank: genus
+parent: sulidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison 1975
+type_species: Empheresula arvernensis
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct gannet or booby genus recorded in PBDB from the Chattian–Tortonian of France, Germany.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 27.3
+  last_ma: 11.1
+  early_interval: Chattian
+  late_interval: Tortonian
+  pbdb_occurrences: 4
+  note: ''
+species:
+- name: Empheresula arvernensis
+  authority: (Milne-Edwards 1867)
+  first_ma: 27.3
+  last_ma: 20.45
+  interval: Chattian–Aquitanian
+  reference: original description
+formations:
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: France
+  regions: [Auvergne, Auvergne-Rhône-Alpes]
+  interval: Chattian–Aquitanian
+  occurrences: 3
+  ma: [20.45, 27.3]
+  id: [unnamed-gannat-sommet-france, unnamed-st-gerand-le-puy-france]
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Germany
+  regions: [Baden-Württemberg]
+  interval: MN 7 + 8
+  occurrences: 1
+  ma: [11.1, 12.75]
+  id: unnamed-steinheim-am-albuch-germany
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/vector.svg
+  png: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/raster/654x1024.png
+  page: https://www.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53
+  attribution: 'Jon Hill (Photo by Benjamint444: http://en.wikipedia.org/wiki/File:Blue-footed-booby.jpg)'
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sula nebouxii
+  matched: Sulidae
+  genus_level: false
+  w: 383
+  h: 600
+sources:
+- kind: original
+  text: J. J., Jr. Sepkoski. 2002. A compendium of fossil marine animal genera. Bulletins of American Paleontology
+    363:1-560
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Empheresula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Empheresula
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

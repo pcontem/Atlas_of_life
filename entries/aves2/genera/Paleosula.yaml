@@ -1,0 +1,76 @@
+name: Paleosula
+rank: genus
+parent: sulidae
+incertae_sedis: false
+placement_note: ''
+authority: Howard 1958
+type_species: Paleosula stocktoni
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct gannet or booby genus recorded in PBDB from the Langhian–Tortonian of United States.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 15.98
+  last_ma: 7.246
+  early_interval: Langhian
+  late_interval: Tortonian
+  pbdb_occurrences: 2
+  note: ''
+species:
+- name: Paleosula stocktoni
+  authority: (Miller 1935)
+  first_ma: 15.98
+  last_ma: 7.246
+  interval: Langhian–Tortonian
+  reference: original description
+formations:
+- formation: Valmonte
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Tortonian
+  occurrences: 1
+  ma: [7.246, 11.63]
+  id: valmonte-united-states
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: United States
+  regions: [California]
+  interval: Middle Miocene
+  occurrences: 1
+  ma: [11.63, 15.98]
+  id: unnamed-round-drive-at-chester-street-united-states
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/vector.svg
+  png: https://images.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53/raster/654x1024.png
+  page: https://www.phylopic.org/images/ce1deb29-e295-4b58-aab2-b8a6132cce53
+  attribution: 'Jon Hill (Photo by Benjamint444: http://en.wikipedia.org/wiki/File:Blue-footed-booby.jpg)'
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Sula nebouxii
+  matched: Sulidae
+  genus_level: false
+sources:
+- kind: original
+  text: H. Howard. 1958. Miocene sulids of southern California. Contributions in Science 25:1-15
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Paleosula (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Paleosula
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

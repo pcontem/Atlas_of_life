@@ -1,0 +1,78 @@
+name: Nannopterum
+rank: genus
+parent: phalacrocoracidae
+incertae_sedis: false
+placement_note: ''
+authority: Sharpe 1899
+type_species: Nannopterum harrisi
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living cormorant genus recorded in PBDB.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 0.0117
+  last_ma: 0
+  early_interval: Holocene
+  late_interval: ''
+  pbdb_occurrences: 0
+  note: Living genus without fossil occurrences in PBDB; shown from the Holocene to the present.
+species:
+- name: Nannopterum auritus
+  authority: Lesson 1831
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Nannopterum brasilianus
+  authority: Gmelin 1789
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+- name: Nannopterum harrisi
+  authority: Rothschild 1898
+  first_ma: null
+  last_ma: null
+  interval: ''
+  reference: ''
+formations: []
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/4509d2cf-7f91-4423-8cc3-1617dc311300/vector.svg
+  png: https://images.phylopic.org/images/4509d2cf-7f91-4423-8cc3-1617dc311300/raster/512x197.png
+  page: https://www.phylopic.org/images/4509d2cf-7f91-4423-8cc3-1617dc311300
+  attribution: Andy Wilson
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  depicts: Nannopterum auritum
+  matched: Nannopterum
+  genus_level: true
+  w: 512
+  h: 197
+sources:
+- kind: original
+  text: 'J. del Hoyo, N. J. Collar, and D. A. Christie, A. Elliott, L. D. C. Fishpool. 2014. HBW and BirdLife International
+    Illustrated Checklist of the Birds of the World. Volume 1: Non-passerines.'
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Nannopterum (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Nannopterum
+- kind: encyclopedia
+  text: Wikipedia contributors. “Nannopterum”. English Wikipedia, revision 1326070660.
+  url: https://en.wikipedia.org/w/index.php?title=Nannopterum&oldid=1326070660
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  - 'Living genus with no PBDB occurrence: formations left empty (no fossil record in PBDB).'
+  reviews: []

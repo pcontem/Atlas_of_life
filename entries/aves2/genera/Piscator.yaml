@@ -1,0 +1,68 @@
+name: Piscator
+rank: genus
+parent: phalacrocoracidae
+incertae_sedis: false
+placement_note: ''
+authority: Harrison and Walker 1976
+type_species: Piscator tenuirostris
+type_species_note: The only valid species listed by PBDB.
+summary: Extinct cormorant genus recorded in PBDB from the Priabonian of United Kingdom.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 37.71
+  last_ma: 33.9
+  early_interval: Priabonian
+  late_interval: ''
+  pbdb_occurrences: 1
+  note: ''
+species:
+- name: Piscator tenuirostris
+  authority: Harrison and Walker 1976
+  first_ma: 37.71
+  last_ma: 33.9
+  interval: Priabonian
+  reference: original description
+formations:
+- formation: Headon Beds
+  group: ''
+  members: []
+  country: United Kingdom
+  regions: [England]
+  interval: Late Eocene
+  occurrences: 1
+  ma: [33.9, 37.71]
+  id: headon-beds-united-kingdom
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431/vector.svg
+  png: https://images.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431/raster/512x441.png
+  page: https://www.phylopic.org/images/5e8fdb17-4d66-43b3-8fb0-d9db616ec431
+  attribution: L. Shyamal
+  license: https://creativecommons.org/licenses/by-sa/3.0/
+  depicts: Phalacrocorax fuscicollis
+  matched: Phalacrocoracidae
+  genus_level: false
+sources:
+- kind: original
+  text: C. J. O. Harrison and C. A. Walker. 1976. Birds of the British Upper Eocene. Zoological Journal of the Linnean
+    Society 59:323-351
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Piscator (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Piscator
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only (no usable Wikipedia page in the harvest); complete from the
+    original description.'
+  reviews: []

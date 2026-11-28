@@ -1,0 +1,298 @@
+name: Palaeospheniscus
+rank: genus
+parent: sphenisciformes
+incertae_sedis: false
+placement_note: ''
+authority: Moreno and Mercerat 1891
+type_species: Palaeospheniscus menzbieri
+type_species_note: The only PBDB species named in the same work and year as the genus; type designation not checked.
+summary: Extinct penguin genus recorded in PBDB from the Aquitanian–Zanclean of Argentina, Peru, South Africa.
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 23.04
+  last_ma: 3.6
+  early_interval: Aquitanian
+  late_interval: Zanclean
+  pbdb_occurrences: 22
+  note: ''
+species:
+- name: Palaeospheniscus affinis
+  authority: Ameghino 1905
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: ''
+- name: Palaeospheniscus bergi
+  authority: (Moreno and Mercerat 1891)
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+- name: Palaeospheniscus biloculata
+  authority: (Simpson 1970)
+  first_ma: 20.45
+  last_ma: 15.98
+  interval: Burdigalian
+  reference: ''
+- name: Palaeospheniscus concavus
+  authority: (Ameghino 1905)
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+- name: Palaeospheniscus gracilis
+  authority: Ameghino 1899
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+- name: Palaeospheniscus huxleyorum
+  authority: Simpson 1973
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+- name: Palaeospheniscus intermedius
+  authority: Ameghino 1905
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: ''
+- name: Palaeospheniscus interplanus
+  authority: (Ameghino 1905)
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+- name: Palaeospheniscus interruptus
+  authority: Ameghino 1905
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: ''
+- name: Palaeospheniscus medianus
+  authority: Ameghino 1905
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+- name: Palaeospheniscus menzbieri
+  authority: Moreno and Mercerat 1891
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: ''
+- name: Palaeospheniscus nereius
+  authority: (Ameghino 1901)
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+- name: Palaeospheniscus patagonicus
+  authority: (Moreno and Mercerat 1891)
+  first_ma: 23.04
+  last_ma: 15.98
+  interval: Aquitanian–Burdigalian
+  reference: ''
+- name: Palaeospheniscus planus
+  authority: Ameghino 1905
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+- name: Palaeospheniscus rothi
+  authority: Ameghino 1905
+  first_ma: 23.04
+  last_ma: 11.63
+  interval: Aquitanian–Serravallian
+  reference: ''
+formations:
+- formation: Gaiman
+  group: ''
+  members: [lower]
+  country: Argentina
+  regions: [Chubut]
+  interval: Burdigalian
+  occurrences: 12
+  ma: [15.98, 20.45]
+  id: gaiman-argentina
+- formation: Patagonian
+  group: ''
+  members: []
+  country: Argentina
+  regions: []
+  interval: Early Miocene
+  occurrences: 2
+  ma: [15.98, 23.04]
+  id: patagonian-argentina
+- formation: Monte Leon
+  group: ''
+  members: []
+  country: Argentina
+  regions: []
+  interval: Aquitanian
+  occurrences: 1
+  ma: [20.45, 23.04]
+  id: monte-leon-argentina
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: unnamed-ysterplaats-south-africa
+- formation: Varswater
+  group: ''
+  members: [Muishond Fontein Pelletal Phosphorite]
+  country: South Africa
+  regions: []
+  interval: Zanclean
+  occurrences: 1
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+- formation: Chilcatay
+  group: ''
+  members: []
+  country: Peru
+  regions: [Ica]
+  interval: Burdigalian
+  occurrences: 1
+  ma: [15.98, 20.45]
+  id: chilcatay-peru
+- formation: Puerto Madryn
+  group: ''
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Serravallian
+  occurrences: 1
+  ma: [11.63, 13.82]
+  id: puerto-madryn-argentina
+- formation: Unnamed unit
+  group: 'El Foyel '
+  members: []
+  country: Argentina
+  regions: [Chubut]
+  interval: Early Miocene
+  occurrences: 1
+  ma: [15.98, 23.04]
+  id: el-foyel-group-argentina
+- formation: Sarmiento
+  group: ''
+  members: [Trelew]
+  country: Argentina
+  regions: [Chubut]
+  interval: Colhuehuapian
+  occurrences: 1
+  ma: [17.5, 21.0]
+  id: sarmiento-argentina
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Not given in the sources used.
+  completeness: fragmentary
+  exceptional: ''
+biology: Not given in the sources used.
+images:
+- kind: fossil
+  file: Cf. Palaeospheniscus from Mina Fosforita.png
+  url: https://upload.wikimedia.org/wikipedia/commons/1/11/Cf._Palaeospheniscus_from_Mina_Fosforita.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Cf._Palaeospheniscus_from_Mina_Fosforita.png
+  artist: Carolina Acosta Hospitaleche & Jhoann Canto
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: 2005-09
+  caption: Cf. Palaeospheniscus from Mina Fosforita (Wikimedia Commons; kind assigned from the file name, not yet
+    checked on the triage page).
+  width: 850
+  height: 1483
+  review: unreviewed
+  local: img/gallery/Palaeospheniscus_001.webp
+- kind: fossil
+  file: Palaeospheniscus - Ica - Museo Civico di Storia Naturale Giacomo Doria Genova.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/f2/Palaeospheniscus_-_Ica_-_Museo_Civico_di_Storia_Naturale_Giacomo_Doria_Genova.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Palaeospheniscus_-_Ica_-_Museo_Civico_di_Storia_Naturale_Giacomo_Doria_Genova.jpg
+  artist: DagdaMor
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2024-10-18'
+  caption: Palaeospheniscus - Ica - Museo Civico di Storia Naturale Giacomo Doria Genova (Wikimedia Commons; kind
+    assigned from the file name, not yet checked on the triage page).
+  width: 1542
+  height: 668
+  review: unreviewed
+  local: img/gallery/Palaeospheniscus_002.webp
+- kind: fossil
+  file: Palaeospheniscus biloculata MEF-PV 1729.jpg
+  url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Palaeospheniscus_biloculata_MEF-PV_1729.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  page: https://commons.wikimedia.org/wiki/File:Palaeospheniscus_biloculata_MEF-PV_1729.jpg
+  artist: Martin Chavez
+  license: Public domain
+  license_url: ''
+  date: 2007-05
+  caption: Palaeospheniscus biloculata MEF-PV 1729 (Wikimedia Commons; kind assigned from the file name, not yet
+    checked on the triage page).
+  width: 316
+  height: 709
+  review: unreviewed
+  local: img/gallery/Palaeospheniscus_003.webp
+- kind: fossil
+  file: Palaeospheniscus patagonicus Beneski.jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Palaeospheniscus_patagonicus_Beneski.jpg/960px-Palaeospheniscus_patagonicus_Beneski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Palaeospheniscus_patagonicus_Beneski.jpg
+  artist: Jonathan Chen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  date: '2026-06-25'
+  caption: Palaeospheniscus patagonicus Beneski (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 4272
+  height: 3057
+  review: unreviewed
+  local: img/gallery/Palaeospheniscus_004.webp
+- kind: fossil
+  file: Spheniscidae - Palaeospheniscus sp..jpg
+  url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Spheniscidae_-_Palaeospheniscus_sp..jpg/960px-Spheniscidae_-_Palaeospheniscus_sp..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  page: https://commons.wikimedia.org/wiki/File:Spheniscidae_-_Palaeospheniscus_sp..jpg
+  artist: Hectonichus
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  date: '2012-12-10'
+  caption: Spheniscidae - Palaeospheniscus sp. (Wikimedia Commons; kind assigned from the file name, not yet checked
+    on the triage page).
+  width: 3423
+  height: 1782
+  review: unreviewed
+  local: img/gallery/Palaeospheniscus_005.webp
+silhouette:
+  src: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/vector.svg
+  png: https://images.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773/raster/512x417.png
+  page: https://www.phylopic.org/images/535f31dc-2b8a-448d-af5f-3ea8b18da773
+  attribution: Nobu Tamura (vectorized by T. Michael Keesey)
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Waimanu manneringi
+  matched: Sphenisciformes
+  genus_level: false
+sources:
+- kind: original
+  text: F. P. Moreno and A. Mercerat. 1891. Catálogo de los pájaros fósiles de la República Argentina conservados
+    en el Museo de La Plata [Catalogue of the fossil birds from the Argentine Republic housed in the Museo de La
+    Plata]. Anales del Museo de La Plata. Paleontología Argentina 1:7-71
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Palaeospheniscus (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Palaeospheniscus
+- kind: encyclopedia
+  text: Wikipedia contributors. “Palaeospheniscus”. English Wikipedia, revision 1384091713.
+  url: https://en.wikipedia.org/w/index.php?title=Palaeospheniscus&oldid=1384091713
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []

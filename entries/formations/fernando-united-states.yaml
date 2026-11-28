@@ -1,0 +1,31 @@
+id: fernando-united-states
+name: Fernando
+rank: formation
+group: ''
+country: United States
+regions: [California]
+location:
+  lat: 34.053
+  lng: -118.251
+  basis: median of 1 PBDB collections that yielded the atlas genera
+age:
+  first_ma: 5.333
+  last_ma: 3.6
+  note: Span of the PBDB ages of the beds that yielded the atlas genera.
+environment: [coastal indet.]
+lithology: ['"shale"']
+pbdb_collections: ['120822']
+includes: []
+summary: ''
+paleoenvironment: ''
+sources:
+- kind: database
+  text: Paleobiology Database — collections of the Fernando (coordinates, environment, lithology; downloaded 2026-11-16).
+  url: https://paleobiodb.org/classic/displayCollResults?formation=Fernando
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes: []
+  reviews: []

@@ -1,0 +1,106 @@
+name: Oceanites
+rank: genus
+parent: procellariiformes
+incertae_sedis: false
+placement_note: ''
+authority: Keyserling and Blasius 1840
+type_species: Oceanites oceanicus
+type_species_note: Filled from general knowledge, not yet checked against the original designation.
+summary: Living storm petrel genus recorded in PBDB from the Zanclean–Holocene of Antarctica, FK, South Africa,
+  TF.
+extant: true
+size:
+  length_m: null
+  note: ''
+age:
+  first_ma: 5.333
+  last_ma: 0
+  early_interval: Zanclean
+  late_interval: Holocene
+  pbdb_occurrences: 7
+  note: ''
+species:
+- name: Oceanites oceanicus
+  authority: (Kuhl 1820)
+  first_ma: 0.0117
+  last_ma: 0
+  interval: Holocene
+  reference: ''
+- name: Oceanites zaloscarthmus
+  authority: Olson 1985
+  first_ma: 5.333
+  last_ma: 3.6
+  interval: Zanclean
+  reference: ''
+formations:
+- formation: Varswater
+  group: ''
+  members: [Langeberg Quartz Sand, Muishond Fontein Pelletal Phosphorite, PPM]
+  country: South Africa
+  regions: [Cape]
+  interval: Zanclean
+  occurrences: 4
+  ma: [3.6, 5.333]
+  id: varswater-south-africa
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: Antarctica
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-princess-astrid-coast-antarctica
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: FK
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-west-point-island-peat-bog-fk
+- formation: Unnamed unit
+  group: ''
+  members: []
+  country: TF
+  regions: []
+  interval: Holocene
+  occurrences: 1
+  ma: [0.0, 0.0117]
+  id: unnamed-amsterdam-island-tf
+fossil_material:
+  holotype: Not given in the sources used.
+  material: Living genus; fossil occurrences as listed in PBDB.
+  completeness: multiple
+  exceptional: ''
+biology: Not given in the sources used.
+images: []
+silhouette:
+  src: https://images.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e/vector.svg
+  png: https://images.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e/raster/824x1024.png
+  page: https://www.phylopic.org/images/15664833-6a30-408b-92e6-03329cce058e
+  attribution: Mark Hannaford (photo), John E. McCormack, Michael G. Harvey, Brant C. Faircloth, Nicholas G. Crawford,
+    Travis C. Glenn, Robb T. Brumfield & T. Michael Keesey
+  license: https://creativecommons.org/licenses/by/3.0/
+  depicts: Oceanites oceanicus
+  matched: Oceanites
+  genus_level: true
+sources:
+- kind: original
+  text: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+- kind: database
+  text: Paleobiology Database — taxon and occurrence records for Oceanites (downloaded 2026-11-27).
+  url: https://paleobiodb.org/classic/basicTaxonInfo?taxon_name=Oceanites
+- kind: encyclopedia
+  text: Wikipedia contributors. “Oceanites”. English Wikipedia, revision 1298827943.
+  url: https://en.wikipedia.org/w/index.php?title=Oceanites&oldid=1298827943
+curation:
+  status: draft
+  origin: ai-draft
+  checked_by: ''
+  checked_on: ''
+  notes:
+  - 'Thin draft: summary written from PBDB data only; the cited Wikipedia revision was not yet read for the text;
+    complete from the original description.'
+  reviews: []
