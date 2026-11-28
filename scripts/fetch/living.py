@@ -43,10 +43,15 @@ def col_search(get, **params):
 
 def col_taxon(get, name):
     """COL id of an accepted taxon given by its scientific name (exact match), or None."""
-    for item in col_search(get, q=name, content="SCIENTIFIC_NAME", type="EXACT", status="accepted"):
-        i, sci, _, rank, _, _ = _usage(item)
-        if sci == name:
-            return i
+    for params in (dict(q=name, content="SCIENTIFIC_NAME", type="EXACT", status="accepted"), dict(q=name, status="accepted"), dict(q=name)):
+        r = get(f"{COL}/nameusage/search", dict(params, limit=50)) or {}
+        res = r.get("result") or []
+        for item in res:
+            i, sci, _, rank, _, _ = _usage(item)
+            if sci == name:
+                return i
+        print(f"  COL lookup {name} {params}: {len(res)} results, names {[_usage(x)[1] for x in res[:5]]}")
+        time.sleep(0.2)
     return None
 
 

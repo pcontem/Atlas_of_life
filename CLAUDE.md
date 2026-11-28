@@ -572,7 +572,7 @@ open-access status and a short abstract) and `oa_figures.json`; pages that are n
 "<Genus> (dinosaur)" (`"wiki_retry": true` repeats this on data already harvested). Abstracts are for finding the primary
 literature: entries cite the article, never copy its text.
 **Living genera** (owner, 2026-11-28): PBDB only lists living genera that have a fossil record. `"living": "<COL taxa>"`
-in `harvest_request.json` (`--living`, comma-separated names such as `Palaeognathae,Galloanserae`) adds every accepted,
+in `harvest_request.json` (`--living`, comma-separated names that COL uses, such as orders: `Anseriformes,Galliformes`; COL has no superorders such as Galloanserae) adds every accepted,
 non-extinct genus the **Catalogue of Life** (latest release, ChecklistBank dataset 3LR) lists under those taxa
 (`col_living.json`: authority, family, order, accepted living species, COL link), harvests the ones PBDB lacks like any
 other genus (Wikipedia, Commons, PhyloPic), and collects photographs of all living genera of the volume from **iNaturalist**
